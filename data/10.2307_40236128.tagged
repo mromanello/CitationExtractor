@@ -1,0 +1,4474 @@
+# File generated from /phdcode/python/10.2307_40236128.xml via /phdcode/python/crfx.py
+# The tag to be used to mark up Canonical References are: B-CRF, I-CRF and O (according to the
+# classical IOB format for NER)
+# Original line: Hom. Il. 1, 477; 24, 788;
+Hom.	B-CRF
+Il.	I-CRF
+1,	I-CRF
+477;	I-CRF
+24,	I-CRF
+788;	I-CRF
+
+# Original line: Od. 2, 1; 3, 404, 491; 4, 306, 431, 576; 5, 228; 9, 152, 170, 307, 437, 560; 10, 187; 12, 8, 316; 13, 18; 15, 189; 17, 1; 19, 428.
+Od.	B-CRF
+2,	I-CRF
+1;	I-CRF
+3,	I-CRF
+404,	I-CRF
+491;	I-CRF
+4,	I-CRF
+306,	I-CRF
+431,	I-CRF
+576;	I-CRF
+5,	I-CRF
+228;	I-CRF
+9,	I-CRF
+152,	I-CRF
+170,	I-CRF
+307,	I-CRF
+437,	I-CRF
+560;	I-CRF
+10,	I-CRF
+187;	I-CRF
+12,	I-CRF
+8,	I-CRF
+316;	I-CRF
+13,	I-CRF
+18;	I-CRF
+15,	I-CRF
+189;	I-CRF
+17,	I-CRF
+1;	I-CRF
+19,	I-CRF
+428.	I-CRF
+
+# Original line: Hom. Il. 6, 175; 23, 109.
+Hom.	B-CRF
+Il.	I-CRF
+6,	I-CRF
+175;	I-CRF
+23,	I-CRF
+109.	I-CRF
+
+# Original line: Hom Il. 9, 707.
+Hom	B-CRF
+Il.	I-CRF
+9,	I-CRF
+707.	I-CRF
+
+# Original line: Hom. Il. 8, 1; 23, 227; 24, 695...
+Hom.	B-CRF
+Il.	I-CRF
+8,	I-CRF
+1;	I-CRF
+23,	I-CRF
+227;	I-CRF
+24,	I-CRF
+695...	I-CRF
+
+# Original line: Hom. Od. 15, 56, 250
+Hom.	B-CRF
+Od.	I-CRF
+15,	I-CRF
+56,	I-CRF
+250	I-CRF
+
+# Original line: Hymn. Hom. 5, 226;
+Hymn.	B-CRF
+Hom.	I-CRF
+5,	I-CRF
+226;	I-CRF
+
+# Original line: Quint. Smyrn. 2, 592; 14, 1).
+Quint.	B-CRF
+Smyrn.	I-CRF
+2,	I-CRF
+592;	I-CRF
+14,	I-CRF
+1).	I-CRF
+
+# Original line: Aen. 3, 521 s.
+Aen.	B-CRF
+3,	I-CRF
+521	I-CRF
+s.	I-CRF
+
+# Original line: Aen. 6, 535.
+Aen.	B-CRF
+6,	I-CRF
+535.	I-CRF
+
+# Original line: Aen. 7, 25 s.
+Aen.	B-CRF
+7,	I-CRF
+25	I-CRF
+s.	I-CRF
+
+# Original line: Tib. 1, 3, 93 s.: ...aurora... / ...roseis candida... equis e poi Val. Fl. 2, 261;
+Tib.	B-CRF
+1,	I-CRF
+3,	I-CRF
+93	I-CRF
+s.:	I-CRF
+...aurora...	O
+/	O
+...roseis	O
+candida...	O
+equis	O
+e	O
+poi	O
+Val.	B-CRF
+Fl.	I-CRF
+2,	I-CRF
+261;	I-CRF
+
+# Original line: Sii. 1, 578
+Sii.	B-CRF
+1,	I-CRF
+578	I-CRF
+
+# Original line: Aen. 12, 76 s.
+Aen.	B-CRF
+12,	I-CRF
+76	I-CRF
+s.	I-CRF
+
+# Original line: Lucr. 5, 656 s.: roseam./ auroram).
+Lucr.	B-CRF
+5,	I-CRF
+656	I-CRF
+s.:	I-CRF
+roseam./	O
+auroram).	O
+
+# Original line: Hom. Il. 11, 1 s.;
+Hom.	B-CRF
+Il.	I-CRF
+11,	I-CRF
+1	I-CRF
+s.;	I-CRF
+
+# Original line: Od. 5, 1 s.
+Od.	B-CRF
+5,	I-CRF
+1	I-CRF
+s.	I-CRF
+
+# Original line: Quint. Smyrn. 6, 1
+Quint.	B-CRF
+Smyrn.	I-CRF
+6,	I-CRF
+1	I-CRF
+
+# Original line: Eur. Tro. 853 s. cum Schol).
+Eur.	B-CRF
+Tro.	I-CRF
+853	I-CRF
+s.	I-CRF
+cum	O
+Schol).	O
+
+# Original line: Aen. 4, 584 s.; 9, 459 s.
+Aen.	B-CRF
+4,	I-CRF
+584	I-CRF
+s.;	I-CRF
+9,	I-CRF
+459	I-CRF
+s.	I-CRF
+
+# Original line: Bibac. carm. frg. 7 Büch.: Oceani croceum linquens Aurora cubile, citato da Macr. Sat. 6, 1, 31
+Bibac.	B-CRF
+carm.	I-CRF
+frg.	I-CRF
+7	I-CRF
+Büch.:	I-CRF
+Oceani	O
+croceum	O
+linquens	O
+Aurora	O
+cubile,	O
+citato	O
+da	O
+Macr.	B-CRF
+Sat.	I-CRF
+6,	I-CRF
+1,	I-CRF
+31	I-CRF
+
+# Original line: georg. 1, 447.
+georg.	B-CRF
+1,	I-CRF
+447.	I-CRF
+
+# Original line: Si veda anche Prop. 2, 18a, 7 ss.
+Si	O
+veda	O
+anche	O
+Prop.	B-CRF
+2,	I-CRF
+18a,	I-CRF
+7	I-CRF
+ss.	I-CRF
+
+# Original line: Dopo Ovidio: Sii. 1, 576: Pellebat somnos Tithoni roscida coniunx; 5, 25 s.: ...nec se thalamis Tithonia coniunx / protulerat...;
+Dopo	O
+Ovidio:	B-CRF
+Sii.	I-CRF
+1,	I-CRF
+576:	I-CRF
+Pellebat	O
+somnos	O
+Tithoni	O
+roscida	O
+coniunx;	O
+5,	B-CRF
+25	I-CRF
+s.:	I-CRF
+...nec	O
+se	O
+thalamis	O
+Tithonia	O
+coniunx	O
+/	O
+protulerat...;	O
+
+# Original line: Stat. Theb. 2, 134 s.
+Stat.	B-CRF
+Theb.	I-CRF
+2,	I-CRF
+134	I-CRF
+s.	I-CRF
+
+# Original line: silv. 1, 2, 44 s.: ...nec si alma per auras /te... veberet Tithonia biga);
+silv.	B-CRF
+1,	I-CRF
+2,	I-CRF
+44	I-CRF
+s.:	I-CRF
+...nec	O
+si	O
+alma	O
+per	O
+auras	O
+/te...	O
+veberet	O
+Tithonia	O
+biga);	O
+
+# Original line: Auson. app. A6 Od. 5 (449 s.),'
+Auson.	B-CRF
+app.	I-CRF
+A6	I-CRF
+Od.	I-CRF
+5	I-CRF
+(449	I-CRF
+s.),'	I-CRF
+
+# Original line: 1 s.: liquerat in tepido Tithonum Aurora cubile...;
+1	O
+s.:	O
+liquerat	O
+in	O
+tepido	O
+Tithonum	O
+Aurora	O
+cubile...;	O
+
+# Original line: Auson. app. A6 Il 11 (431 s.), 1 ss.: Tithoni croceum linquens Aurora cubile spargebat terras
+Auson.	O
+app.	O
+A6	O
+Il	O
+11	O
+(431	O
+s.),	O
+1	O
+ss.:	O
+Tithoni	O
+croceum	O
+linquens	O
+Aurora	O
+cubile	O
+spargebat	O
+terras	O
+
+# Original line: frg. 21, 3 s. Pf.
+frg.	B-CRF
+21,	I-CRF
+3	I-CRF
+s.	I-CRF
+Pf.	I-CRF
+
+# Original line: E. Wüst, RE, VI A, 1516, 45 ss.
+E.	O
+Wüst,	O
+RE,	O
+VI	O
+A,	O
+1516,	O
+45	O
+ss.	O
+
+# Original line: M. P. Nilsson, Primitive time-reckoning, Lund 1920;
+M.	O
+P.	O
+Nilsson,	O
+Primitive	O
+time-reckoning,	O
+Lund	O
+1920;	O
+
+# Original line: O. Weinreich, Phobus, Aurora, Kalender und Uhr, u'ber eine Doppelform der typischen Zeitbestimmung in der Erzdhlung der Antike und Neuzeit, in «Schrift. u. Vortr. Wiirtenberg Gesellschaft d. Wissenschaft.* 4, 1937;
+O.	O
+Weinreich,	O
+Phobus,	O
+Aurora,	O
+Kalender	O
+und	O
+Uhr,	O
+u'ber	O
+eine	O
+Doppelform	O
+der	O
+typischen	O
+Zeitbestimmung	O
+in	O
+der	O
+Erzdhlung	O
+der	O
+Antike	O
+und	O
+Neuzeit,	O
+in	O
+«Schrift.	O
+u.	O
+Vortr.	O
+Wiirtenberg	O
+Gesellschaft	O
+d.	O
+Wissenschaft.*	O
+4,	O
+1937;	O
+
+# Original line: F. Mehmel, Virgil und Apollonios Rhodios. Untersuchungen über die Zeitvorstellung in der antiken epischen Erzählung, Hamburg 1940;
+F.	O
+Mehmel,	O
+Virgil	O
+und	O
+Apollonios	O
+Rhodios.	O
+Untersuchungen	O
+über	O
+die	O
+Zeitvorstellung	O
+in	O
+der	O
+antiken	O
+epischen	O
+Erzählung,	O
+Hamburg	O
+1940;	O
+
+# Original line: M. Brauneiser, Tagzeiten und Landschaft im Epos der Griechen und Römer, Würzburg 1944;
+M.	O
+Brauneiser,	O
+Tagzeiten	O
+und	O
+Landschaft	O
+im	O
+Epos	O
+der	O
+Griechen	O
+und	O
+Römer,	O
+Würzburg	O
+1944;	O
+
+# Original line: W. Bühler, Die Europa des Moschos, Wiesbaden 1960, pp. 210 ss.;
+W.	O
+Bühler,	O
+Die	O
+Europa	O
+des	O
+Moschos,	O
+Wiesbaden	O
+1960,	O
+pp.	O
+210	O
+ss.;	O
+
+# Original line: H. Fränkel, Wege und Formen frühgriechischen Denkens, München 1968;
+H.	O
+Fränkel,	O
+Wege	O
+und	O
+Formen	O
+frühgriechischen	O
+Denkens,	O
+München	O
+1968;	O
+
+# Original line: A. W. James, Night and Day in Epie Narrative from Homer to Quintus of Smyrna, «Mus. Philol. Lond.» 3, 1978, pp. 153-183;
+A.	O
+W.	O
+James,	O
+Night	O
+and	O
+Day	O
+in	O
+Epie	O
+Narrative	O
+from	O
+Homer	O
+to	O
+Quintus	O
+of	O
+Smyrna,	O
+«Mus.	O
+Philol.	O
+Lond.»	O
+3,	O
+1978,	O
+pp.	O
+153-183;	O
+
+# Original line: P. Vivante, Rose-fingered Dawn and the Idea of Time, «Ramus» 8, 2, 1980, pp. 125136;
+P.	O
+Vivante,	O
+Rose-fingered	O
+Dawn	O
+and	O
+the	O
+Idea	O
+of	O
+Time,	O
+«Ramus»	O
+8,	O
+2,	O
+1980,	O
+pp.	O
+125136;	O
+
+# Original line: J. Van Sickle, Dawn and dusk as motifs of opening or closure, in heroic and bucolic epos (Homer, Apollonius, Theocritus, Virgil), in «Atti del Convegno mondiale scientifico di studi su Virgilio, Mantova, Roma, Napoli, 19-24 sett. 1981», Milano 1984, pp. 125 ss.;
+J.	O
+Van	O
+Sickle,	O
+Dawn	O
+and	O
+dusk	O
+as	O
+motifs	O
+of	O
+opening	O
+or	O
+closure,	O
+in	O
+heroic	O
+and	O
+bucolic	O
+epos	O
+(Homer,	O
+Apollonius,	O
+Theocritus,	O
+Virgil),	O
+in	O
+«Atti	O
+del	O
+Convegno	O
+mondiale	O
+scientifico	O
+di	O
+studi	O
+su	O
+Virgilio,	O
+Mantova,	O
+Roma,	O
+Napoli,	O
+19-24	O
+sett.	O
+1981»,	O
+Milano	O
+1984,	O
+pp.	O
+125	O
+ss.;	O
+
+# Original line: M. F. Ferrini, Espressioni di tempo nell'epica omerica e postomerica, «Giorn. it. fil.» 16, 1985, pp. 15 ss., 26 s., 32 s.;
+M.	O
+F.	O
+Ferrini,	O
+Espressioni	O
+di	O
+tempo	O
+nell'epica	O
+omerica	O
+e	O
+postomerica,	O
+«Giorn.	O
+it.	O
+fil.»	O
+16,	O
+1985,	O
+pp.	O
+15	O
+ss.,	O
+26	O
+s.,	O
+32	O
+s.;	O
+
+# Original line: M. Lombardi, La tradizione letteraria delle notazioni temporali nelle «Ecloghe» di Virgilio, «Quad. Urb.» 50, 1985, pp. 71 ss.;
+M.	O
+Lombardi,	O
+La	O
+tradizione	O
+letteraria	O
+delle	O
+notazioni	O
+temporali	O
+nelle	O
+«Ecloghe»	O
+di	O
+Virgilio,	O
+«Quad.	O
+Urb.»	O
+50,	O
+1985,	O
+pp.	O
+71	O
+ss.;	O
+
+# Original line: M. Fantuzzi, Ricerche su Apollonio Rodio. Diacronie della dizione epica, Urbino 1988
+M.	O
+Fantuzzi,	O
+Ricerche	O
+su	O
+Apollonio	O
+Rodio.	O
+Diacronie	O
+della	O
+dizione	O
+epica,	O
+Urbino	O
+1988	O
+
+# Original line: R. Coleman, Ovid and the antiepic, «Class. Rev.» 81, 1967, pp. 46-51;
+R.	O
+Coleman,	O
+Ovid	O
+and	O
+the	O
+antiepic,	O
+«Class.	O
+Rev.»	O
+81,	O
+1967,	O
+pp.	O
+46-51;	O
+
+# Original line: R. Lamacchia, Precisazioni su alcuni aspetti dell'epica ovidiana, «Atene e Roma» 14, 1969, pp. 14-18;
+R.	O
+Lamacchia,	O
+Precisazioni	O
+su	O
+alcuni	O
+aspetti	O
+dell'epica	O
+ovidiana,	O
+«Atene	O
+e	O
+Roma»	O
+14,	O
+1969,	O
+pp.	O
+14-18;	O
+
+# Original line: G. Κ. Galinsky, L'«Eneide» di Ovidio, «Maia» 28, 1976, pp. 3 ss.;
+G.	O
+Κ.	O
+Galinsky,	O
+L'«Eneide»	O
+di	O
+Ovidio,	O
+«Maia»	O
+28,	O
+1976,	O
+pp.	O
+3	O
+ss.;	O
+
+# Original line: G. Baldo, Il codice epico nelle Metamorfosi di Ovidio, «MD» 16, 1986, pp. 109 ss.
+G.	O
+Baldo,	O
+Il	O
+codice	O
+epico	O
+nelle	O
+Metamorfosi	O
+di	O
+Ovidio,	O
+«MD»	O
+16,	O
+1986,	O
+pp.	O
+109	O
+ss.	O
+
+# Original line: P. Vivante cit., a p. 126
+P.	O
+Vivante	O
+cit.,	O
+a	O
+p.	O
+126	O
+
+# Original line: A. Rohde, De Ovidi arte epica capita duo, Diss. Berolini 1929, p. 15;
+A.	O
+Rohde,	O
+De	O
+Ovidi	O
+arte	O
+epica	O
+capita	O
+duo,	O
+Diss.	O
+Berolini	O
+1929,	O
+p.	O
+15;	O
+
+# Original line: V. Pöschl, Varie narrativa di Ovidio nelle 'Metamorfosi', in «Atti del Convegno Internazionale Ovidiano, Sulmona, maggio 1958», II, Roma 1959, pp. 295 ss.;
+V.	O
+Pöschl,	O
+Varie	O
+narrativa	O
+di	O
+Ovidio	O
+nelle	O
+'Metamorfosi',	O
+in	O
+«Atti	O
+del	O
+Convegno	O
+Internazionale	O
+Ovidiano,	O
+Sulmona,	O
+maggio	O
+1958»,	O
+II,	O
+Roma	O
+1959,	O
+pp.	O
+295	O
+ss.;	O
+
+# Original line: R. Crahay, La vision poétique d'Ovide et l'esthétique baroque, in «Atti...» cit., I, Roma 1959, pp. 91 ss.
+R.	O
+Crahay,	O
+La	O
+vision	O
+poétique	O
+d'Ovide	O
+et	O
+l'esthétique	O
+baroque,	O
+in	O
+«Atti...»	O
+cit.,	O
+I,	O
+Roma	O
+1959,	O
+pp.	O
+91	O
+ss.	O
+
+# Original line: J. Wilkins, Ovid and the Erymanthian Bear, «Mnemosyne» 41, 1988, pp. 379 s.
+J.	O
+Wilkins,	O
+Ovid	O
+and	O
+the	O
+Erymanthian	O
+Bear,	O
+«Mnemosyne»	O
+41,	O
+1988,	O
+pp.	O
+379	O
+s.	O
+
+# Original line: W. S. Anderson, Ovid's Métamorphoses books 6-10, Norman, Oklahoma 1972 ad 9, 419
+W.	O
+S.	O
+Anderson,	O
+Ovid's	O
+Métamorphoses	O
+books	O
+6-10,	O
+Norman,	O
+Oklahoma	O
+1972	O
+ad	O
+9,	O
+419	O
+
+# Original line: met. 1, 199 e 244; 15, 606;
+met.	O
+1,	O
+199	O
+e	O
+244;	O
+15,	O
+606;	O
+
+# Original line: Aen. 5, 148: Tum plausu fremituque virum...; 6, 175 s.
+Aen.	B-CRF
+5,	I-CRF
+148:	I-CRF
+Tum	O
+plausu	O
+fremituque	O
+virum...;	O
+6,	B-CRF
+175	I-CRF
+s.	I-CRF
+
+# Original line: Varrone (ling. 6, 67)
+Varrone	B-CRF
+(ling.	I-CRF
+6,	I-CRF
+67)	I-CRF
+
+# Original line: Non. 717 L.: fremere magnum sonare;
+Non.	B-CRF
+717	I-CRF
+L.:	I-CRF
+fremere	O
+magnum	O
+sonare;	O
+
+# Original line: Aen. 11, 453: hoc fremebant «arma, arma» et militaris vox est...
+Aen.	B-CRF
+11,	I-CRF
+453:	I-CRF
+hoc	O
+fremebant	O
+«arma,	O
+arma»	O
+et	O
+militaris	O
+vox	O
+est...	O
+
+# Original line: E. Riganti, Varrone De Lingua Latina libro VI, Bologna 1978
+E.	O
+Riganti,	O
+Varrone	O
+De	O
+Lingua	O
+Latina	O
+libro	O
+VI,	O
+Bologna	O
+1978	O
+
+# Original line: 1, 244 e 9, 419: gli dei; 15, 606: populus
+1,	O
+244	O
+e	O
+9,	O
+419:	O
+gli	O
+dei;	O
+15,	O
+606:	O
+populus	O
+
+# Original line: met. 3, 528: agn che risuonano di ululati; 6, 146: Lydia
+met.	B-CRF
+3,	I-CRF
+528:	I-CRF
+agn	O
+che	O
+risuonano	O
+di	O
+ululati;	O
+6,	O
+146:	O
+Lydia	O
+
+# Original line: met. 3, 704: equus; 4, 719: fera; 5, 627: lupi
+met.	B-CRF
+3,	I-CRF
+704:	I-CRF
+equus;	O
+4,	O
+719:	O
+fera;	O
+5,	O
+627:	O
+lupi	O
+
+# Original line: vento: trist. 1, 2, 25;
+vento:	O
+trist.	B-CRF
+1,	I-CRF
+2,	I-CRF
+25;	I-CRF
+
+# Original line: mare: met. 4, 136
+mare:	O
+met.	B-CRF
+4,	I-CRF
+136	I-CRF
+
+# Original line: met. 12, 47
+met.	B-CRF
+12,	I-CRF
+47	I-CRF
+
+# Original line: M. Haupt, H. J. Müller, Ο. Korn, R. Ehwald, M. von Albrecht, P. Ovidius Naso Metamorphosen, I-II, Dublin-Zürich 1966 (rist. 1969);
+M.	O
+Haupt,	O
+H.	O
+J.	O
+Müller,	O
+Ο.	O
+Korn,	O
+R.	O
+Ehwald,	O
+M.	O
+von	O
+Albrecht,	O
+P.	O
+Ovidius	O
+Naso	O
+Metamorphosen,	O
+I-II,	O
+Dublin-Zürich	O
+1966	O
+(rist.	O
+1969);	O
+
+# Original line: J. G. Frazer, P. Ovidii Nasonis Fastorum libri sex, London 1929;
+J.	O
+G.	O
+Frazer,	O
+P.	O
+Ovidii	O
+Nasonis	O
+Fastorum	O
+libri	O
+sex,	O
+London	O
+1929;	O
+
+# Original line: F. Bömer, P. Ovidius Naso, Die Fasten, I-II, Heidelberg 1957-1958;
+F.	O
+Bömer,	O
+P.	O
+Ovidius	O
+Naso,	O
+Die	O
+Fasten,	O
+I-II,	O
+Heidelberg	O
+1957-1958;	O
+
+# Original line: J.C. Me Keown, Ovid: Amores, A commentary on book one, vol. II, Leeds 1989.
+J.C.	O
+Me	O
+Keown,	O
+Ovid:	O
+Amores,	O
+A	O
+commentary	O
+on	O
+book	O
+one,	O
+vol.	O
+II,	O
+Leeds	O
+1989.	O
+
+# Original line: W. H. Roscher; Ausführliches Lexikon der griechischen und römischen Mythologie, voll. I-VI, Leipzig 1884-1937;
+W.	O
+H.	O
+Roscher;	O
+Ausführliches	O
+Lexikon	O
+der	O
+griechischen	O
+und	O
+römischen	O
+Mythologie,	O
+voll.	O
+I-VI,	O
+Leipzig	O
+1884-1937;	O
+
+# Original line: J. B. Carter, Epitheta deorum quae apud poetas Latinos leguntur, Leipzig 1902, Supplementum a Roscher.
+J.	O
+B.	O
+Carter,	O
+Epitheta	O
+deorum	O
+quae	O
+apud	O
+poetas	O
+Latinos	O
+leguntur,	O
+Leipzig	O
+1902,	O
+Supplementum	O
+a	O
+Roscher.	O
+
+# Original line: Anth. lat. 580, 1 R.
+Anth.	B-CRF
+lat.	I-CRF
+580,	I-CRF
+1	I-CRF
+R.	I-CRF
+
+# Original line: (frg. 584 Pf.).
+(frg.	B-CRF
+584	I-CRF
+Pf.).	I-CRF
+
+# Original line: fast. 5, 159
+fast.	B-CRF
+5,	I-CRF
+159	I-CRF
+
+# Original line: Hyperionis e Bömer ad 6, 567
+Hyperionis	O
+e	O
+Bömer	O
+ad	O
+6,	O
+567	O
+
+# Original line: Hymn. Hom. 31 (Helios), 6
+Hymn.	B-CRF
+Hom.	I-CRF
+31	I-CRF
+(Helios),	O
+6	O
+
+# Original line: Apollod. 1, 8;
+Apollod.	B-CRF
+1,	I-CRF
+8;	I-CRF
+
+# Original line: fab. praef 12.
+fab.	B-CRF
+praef	I-CRF
+12.	I-CRF
+
+# Original line: Forcellini VI, 416
+Forcellini	O
+VI,	O
+416	O
+
+# Original line: Radke e Seel (RE, XVIII, 3, 229, 64 ss.; 234, 36 ss., 47 ss.; 235, 10 ss.)
+Radke	O
+e	O
+Seel	O
+(RE,	O
+XVIII,	O
+3,	O
+229,	O
+64	O
+ss.;	O
+234,	O
+36	O
+ss.,	O
+47	O
+ss.;	O
+235,	O
+10	O
+ss.)	O
+
+# Original line: Hymn. Hom. 4, 100, dove la figlia di Pallas è la Luna
+Hymn.	B-CRF
+Hom.	I-CRF
+4,	I-CRF
+100,	I-CRF
+dove	O
+la	O
+figlia	O
+di	O
+Pallas	O
+è	O
+la	O
+Luna	O
+
+# Original line: J. G. Frazer, ad fast. 4, 373 s.
+J.	O
+G.	O
+Frazer,	O
+ad	O
+fast.	O
+4,	O
+373	O
+s.	O
+
+# Original line: Theog. 371-374
+Theog.	B-CRF
+371-374	I-CRF
+
+# Original line: Theog. 383 s.
+Theog.	B-CRF
+383	I-CRF
+s.	I-CRF
+
+# Original line: fast. 4, 943 s.
+fast.	B-CRF
+4,	I-CRF
+943	I-CRF
+s.	I-CRF
+
+# Original line: Röscher, s.v. Eos I, 1, 1261, 43 ss.
+Röscher,	O
+s.v.	O
+Eos	O
+I,	O
+1,	O
+1261,	O
+43	O
+ss.	O
+
+# Original line: Ov. met. 9, 421:
+Ov.	B-CRF
+met.	I-CRF
+9,	I-CRF
+421:	I-CRF
+
+# Original line: W. Kroll, Die Dichtersprache, in: W. Kroll, Studien zum Verständnis der römischen Literatur, Stuttgart 1924
+W.	O
+Kroll,	O
+Die	O
+Dichtersprache,	O
+in:	O
+W.	O
+Kroll,	O
+Studien	O
+zum	O
+Verständnis	O
+der	O
+römischen	O
+Literatur,	O
+Stuttgart	O
+1924	O
+
+# Original line: Darmstadt 1964, New YorkLondon 1978), pp. 247-279
+Darmstadt	O
+1964,	O
+New	O
+YorkLondon	O
+1978),	O
+pp.	O
+247-279	O
+
+# Original line: La lingua poetica latina, a cura di A. Lunelli, Bologna 1974, p. 44
+La	O
+lingua	O
+poetica	O
+latina,	O
+a	O
+cura	O
+di	O
+A.	O
+Lunelli,	O
+Bologna	O
+1974,	O
+p.	O
+44	O
+
+# Original line: (3, 150: curri croceis invecta rotis Aurora reducet...)
+(3,	O
+150:	O
+curri	O
+croceis	O
+invecta	O
+rotis	O
+Aurora	O
+reducet...)	O
+
+# Original line: J.C. Me Keown, pp. 339 s. (ad am. 1, 13, 1-2).
+J.C.	O
+Me	O
+Keown,	O
+pp.	O
+339	O
+s.	O
+(ad	O
+am.	O
+1,	O
+13,	O
+1-2).	O
+
+# Original line: 4 Jacoby, frg. 140
+4	O
+Jacoby,	B-CRF
+frg.	I-CRF
+140	I-CRF
+
+# Original line: RE, 6 A, 1518, 18 ss.;
+RE,	O
+6	O
+A,	O
+1518,	O
+18	O
+ss.;	O
+
+# Original line: Roscher, s.v. Eos, I, 1, 1263, 20 ss.
+Roscher,	O
+s.v.	O
+Eos,	O
+I,	O
+1,	O
+1263,	O
+20	O
+ss.	O
+
+# Original line: Men. 854: barbatum, tremulum Tithonum
+Men.	B-CRF
+854:	I-CRF
+barbatum,	O
+tremulum	O
+Tithonum	O
+
+# Original line: Berlin 1929 ad loc
+Berlin	O
+1929	O
+ad	O
+loc	O
+
+# Original line: Men. frg. 544
+Men.	O
+frg.	O
+544	O
+
+# Original line: Diog. Laert. 4, 51).
+Diog.	B-CRF
+Laert.	I-CRF
+4,	I-CRF
+51).	I-CRF
+
+# Original line: H. Dahlmann, Bemerkungen zu Varros Menippea Tithonus, περί γήϱως, in Studien zur Textgeschichte und Textkritik, Köln 1959, pp. 37 ss.
+H.	O
+Dahlmann,	O
+Bemerkungen	O
+zu	O
+Varros	O
+Menippea	O
+Tithonus,	O
+περί	O
+γήϱως,	O
+in	O
+Studien	O
+zur	O
+Textgeschichte	O
+und	O
+Textkritik,	O
+Köln	O
+1959,	O
+pp.	O
+37	O
+ss.	O
+
+# Original line: Per Tithonos si rimanda a RE, 6 A, 1512 ss.
+Per	O
+Tithonos	O
+si	O
+rimanda	O
+a	O
+RE,	O
+6	O
+A,	O
+1512	O
+ss.	O
+
+# Original line: (Cato, 3)
+(Cato,	B-CRF
+3)	I-CRF
+
+# Original line: georg. 1, 446 s.: ...ubi pallida surget / Tithoni croceum linquens Aurora cubile...; 3, 48
+georg.	B-CRF
+1,	I-CRF
+446	I-CRF
+s.:	I-CRF
+...ubi	O
+pallida	O
+surget	O
+/	O
+Tithoni	O
+croceum	O
+linquens	O
+Aurora	O
+cubile...;	O
+3,	B-CRF
+48	I-CRF
+
+# Original line: Hor. carm. 1, 28, 8; 2, 16, 30; Priap. 57, 4; 76, 4
+Hor.	B-CRF
+carm.	I-CRF
+1,	I-CRF
+28,	I-CRF
+8;	I-CRF
+2,	I-CRF
+16,	I-CRF
+30;	I-CRF
+Priap.	B-CRF
+57,	I-CRF
+4;	I-CRF
+76,	I-CRF
+4	I-CRF
+
+# Original line: C. Goldberg, Carmina Priapea, Heidelberg 1992, ad loc
+C.	O
+Goldberg,	O
+Carmina	O
+Priapea,	O
+Heidelberg	O
+1992,	O
+ad	O
+loc	O
+
+# Original line: epist. 18, 111 ss.;
+epist.	B-CRF
+18,	I-CRF
+111	I-CRF
+ss.;	I-CRF
+
+# Original line: fast. 1, 461; 4, 943 s.; 6, 473 s.; 6, 729 s.; am. 2, 5, 35
+fast.	B-CRF
+1,	I-CRF
+461;	I-CRF
+4,	I-CRF
+943	I-CRF
+s.;	I-CRF
+6,	I-CRF
+473	I-CRF
+s.;	I-CRF
+6,	I-CRF
+729	I-CRF
+s.;	I-CRF
+am.	B-CRF
+2,	I-CRF
+5,	I-CRF
+35	I-CRF
+
+# Original line: J. G. F. Powell, Cicero. Cato Maior de senectute, Cambridge 1988, pp. 101 ss.
+J.	O
+G.	O
+F.	O
+Powell,	O
+Cicero.	O
+Cato	O
+Maior	O
+de	O
+senectute,	O
+Cambridge	O
+1988,	O
+pp.	O
+101	O
+ss.	O
+
+# Original line: W. Headlam, Herondas. The Mimes and Fragments, Cambridge 1922, ad Herond. 10, pp. 411 s.);
+W.	O
+Headlam,	O
+Herondas.	O
+The	O
+Mimes	O
+and	O
+Fragments,	O
+Cambridge	O
+1922,	O
+ad	O
+Herond.	O
+10,	O
+pp.	O
+411	O
+s.);	O
+
+# Original line: RE, VI A, 1518, 65 ss., 1519, 1 ss.
+RE,	O
+VI	O
+A,	O
+1518,	O
+65	O
+ss.,	O
+1519,	O
+1	O
+ss.	O
+
+# Original line: (Aen. 8, 384)
+(Aen.	B-CRF
+8,	I-CRF
+384)	I-CRF
+
+# Original line: J.-M. Frécaut, L'esprit et l'humour chez Ovide, Grenoble 1972, p. 32
+J.-M.	O
+Frécaut,	O
+L'esprit	O
+et	O
+l'humour	O
+chez	O
+Ovide,	O
+Grenoble	O
+1972,	O
+p.	O
+32	O
+
+# Original line: E. Doblhofer, Ovidius urbanus, «Philologus» 104, 1960, pp. 87 ss.
+E.	O
+Doblhofer,	O
+Ovidius	O
+urbanus,	O
+«Philologus»	O
+104,	O
+1960,	O
+pp.	O
+87	O
+ss.	O
+
+# Original line: J. C. Me Keown ad loc.
+J.	O
+C.	O
+Me	O
+Keown	O
+ad	O
+loc.	O
+
+# Original line: Anth. Pal. 5, 171 e 172
+Anth.	B-CRF
+Pal.	I-CRF
+5,	I-CRF
+171	O
+e	O
+172	O
+
+# Original line: Anth. Pal. 5, 3
+Anth.	B-CRF
+Pal.	I-CRF
+5,	I-CRF
+3	I-CRF
+
+# Original line: P. Waltz, J. Guillon, Anthologie Palatine, Paris 1960, p. 22)
+P.	O
+Waltz,	O
+J.	O
+Guillon,	O
+Anthologie	O
+Palatine,	O
+Paris	O
+1960,	O
+p.	O
+22)	O
+
+# Original line: F. Bertini, Ovidio, Amori, Milano 1983, p. 52).
+F.	O
+Bertini,	O
+Ovidio,	O
+Amori,	O
+Milano	O
+1983,	O
+p.	O
+52).	O
+
+# Original line: A. G. Elliott, Amores 1. 13: Ovid's Art, «Class. Journ.» 69, 1973, pp. 131 s. e
+A.	O
+G.	O
+Elliott,	O
+Amores	O
+1.	O
+13:	O
+Ovid's	O
+Art,	O
+«Class.	O
+Journ.»	O
+69,	O
+1973,	O
+pp.	O
+131	O
+s.	O
+e	O
+
+# Original line: A.-F. Sabot, Ovide, poète de l'amour dans ses oeuvres de jeunesse, Paris 1976, pp. 477 ss
+A.-F.	O
+Sabot,	O
+Ovide,	O
+poète	O
+de	O
+l'amour	O
+dans	O
+ses	O
+oeuvres	O
+de	O
+jeunesse,	O
+Paris	O
+1976,	O
+pp.	O
+477	O
+ss	O
+
+# Original line: H. Fränkel, Ovid: A poet between two worlds, Berkeley-Los Angeles 1945, pp. 15 s.
+H.	O
+Fränkel,	O
+Ovid:	O
+A	O
+poet	O
+between	O
+two	O
+worlds,	O
+Berkeley-Los	O
+Angeles	O
+1945,	O
+pp.	O
+15	O
+s.	O
+
+# Original line: vv. 47 s.: Iurgia finieram. Sàres audisse: rubebat; / nee tarnen adsueto tardius orta dies
+vv.	O
+47	O
+s.:	O
+Iurgia	O
+finieram.	O
+Sàres	O
+audisse:	O
+rubebat;	O
+/	O
+nee	O
+tarnen	O
+adsueto	O
+tardius	O
+orta	O
+dies	O
+
+# Original line: v. 2: diem;
+v.	O
+2:	O
+diem;	O
+
+# Original line: v. 48: dies
+v.	O
+48:	O
+dies	O
+
+# Original line: G. Β. Conte, L'amore senza elegia: i Remedia amoris e la logica di un genere, in: Ovidio, Rimedi contro l'amore, a cura di C. Lazzarini, Venezia 1986, pp. 22 ss., 27
+G.	O
+Β.	O
+Conte,	O
+L'amore	O
+senza	O
+elegia:	O
+i	O
+Remedia	O
+amoris	O
+e	O
+la	O
+logica	O
+di	O
+un	O
+genere,	O
+in:	O
+Ovidio,	O
+Rimedi	O
+contro	O
+l'amore,	O
+a	O
+cura	O
+di	O
+C.	O
+Lazzarini,	O
+Venezia	O
+1986,	O
+pp.	O
+22	O
+ss.,	O
+27	O
+
+# Original line: cum variatione si verifica tra am. 1, 13 e met. 9, 421
+cum	O
+variatione	O
+si	O
+verifica	O
+tra	O
+am.	B-CRF
+1,	I-CRF
+13	I-CRF
+e	O
+met.	B-CRF
+9,	I-CRF
+421	I-CRF
+
+# Original line: Cefalo, in 7, 700 ss.
+Cefalo,	O
+in	O
+7,	B-CRF
+700	I-CRF
+ss.	I-CRF
+
+# Original line: met. 13, 576 ss.
+met.	B-CRF
+13,	I-CRF
+576	I-CRF
+ss.	I-CRF
+
+# Original line: Prop. 2, 18a, 15 s
+Prop.	B-CRF
+2,	I-CRF
+18a,	I-CRF
+15	I-CRF
+s	I-CRF
+
+# Original line: met. 9, 421, sia am. 1, 13, che Prop. 2, 18a;
+met.	B-CRF
+9,	I-CRF
+421,	I-CRF
+sia	O
+am.	B-CRF
+1,	I-CRF
+13,	I-CRF
+che	O
+Prop.	B-CRF
+2,	I-CRF
+18a;	I-CRF
+
+# Original line: 18, 111: Iamque fugatura Tithoni coniuge noctem / praevius Aurorae Lucifer ortus erat...
+18,	O
+111:	O
+Iamque	O
+fugatura	O
+Tithoni	O
+coniuge	O
+noctem	O
+/	O
+praevius	O
+Aurorae	O
+Lucifer	O
+ortus	O
+erat...	O
+
+# Original line: met. 2, 111 ss. (donna); 7, 703 ss. (amante); 13, 576 ss., 587 ss., 621 s.
+met.	B-CRF
+2,	I-CRF
+111	I-CRF
+ss.	I-CRF
+(x);	O
+7,	B-CRF
+703	I-CRF
+ss.	I-CRF
+(amante);	O
+13,	B-CRF
+576	I-CRF
+ss.,	I-CRF
+587	I-CRF
+ss.,	I-CRF
+621	I-CRF
+s.	I-CRF
+
+# Original line: F. Giordano, Concezione del tempo e struttura compositiva dei Tristia, in «Cultura poesia ideologia nell'opera di Ovidio», Napoli 1991, pp. 253 ss.
+F.	O
+Giordano,	O
+Concezione	O
+del	O
+tempo	O
+e	O
+struttura	O
+compositiva	O
+dei	O
+Tristia,	O
+in	O
+«Cultura	O
+poesia	O
+ideologia	O
+nell'opera	O
+di	O
+Ovidio»,	O
+Napoli	O
+1991,	O
+pp.	O
+253	O
+ss.	O
+
+# Original line: C. Segai, Cephalus and Procris. Myth and Tragedy, in «Grazer Beiträge» 7, 1978, p. 196
+C.	O
+Segai,	O
+Cephalus	O
+and	O
+Procris.	O
+Myth	O
+and	O
+Tragedy,	O
+in	O
+«Grazer	O
+Beiträge»	O
+7,	O
+1978,	O
+p.	O
+196	O
+
+# Original line: P. Green, The Innocence of Procris: Ovid A.A. 3, 687-746, «Class. Journ.» 75, 1979, p. 23
+P.	O
+Green,	O
+The	O
+Innocence	O
+of	O
+Procris:	O
+Ovid	O
+A.A.	O
+3,	O
+687-746,	O
+«Class.	O
+Journ.»	O
+75,	O
+1979,	O
+p.	O
+23	O
+
+# Original line: Sole...: cf. n. 83
+Sole...:	O
+cf.	O
+n.	O
+83	O
+
+# Original line: Lucr. 2, 144 ss.;
+Lucr.	B-CRF
+2,	I-CRF
+144	I-CRF
+ss.;	I-CRF
+
+# Original line: georg. 3, 338;
+georg.	B-CRF
+3,	I-CRF
+338;	I-CRF
+
+# Original line: Aen. 8, 455 s.;
+Aen.	B-CRF
+8,	I-CRF
+455	I-CRF
+s.;	I-CRF
+
+# Original line: Sen. Herc. f. 146-151
+Sen.	B-CRF
+Herc.	I-CRF
+f.	I-CRF
+146-151	I-CRF
+
+# Original line: fast., 2, 767
+fast.,	B-CRF
+2,	I-CRF
+767	I-CRF
+
+# Original line: «scuotersi da se stesso»: v. 621
+«scuotersi	O
+da	O
+se	O
+stesso»:	O
+v.	O
+621	O
+
+# Original line: epist. 122, 11-13
+epist.	B-CRF
+122,	I-CRF
+11-13	I-CRF
+
+# Original line: met. 3, 50; 142 s.; 14, 53 s.
+met.	I-CRF
+3,	I-CRF
+50;	I-CRF
+142	I-CRF
+s.;	I-CRF
+14,	I-CRF
+53	I-CRF
+s.	I-CRF
+
+# Original line: Metamorfosi e Ars amatoria (3, 723).
+Metamorfosi	O
+e	O
+Ars	O
+amatoria	O
+(3,	O
+723).	O
+
+# Original line: Fasti (3, 415; 6, 473 s.)
+Fasti	B-CRF
+(3,	I-CRF
+415;	I-CRF
+6,	I-CRF
+473	I-CRF
+s.)	I-CRF
+
+# Original line: Aen. 4, 129 = 11, 1;
+Aen.	B-CRF
+4,	I-CRF
+129	I-CRF
+=	I-CRF
+11,	I-CRF
+1;	I-CRF
+
+# Original line: Bibac. carm. frg. 7 Büch.;
+Bibac.	B-CRF
+carm.	I-CRF
+frg.	I-CRF
+7	I-CRF
+Büch.;	I-CRF
+
+# Original line: Hom. Od. 12, 1 ss.; 19, 433 s.; 22, 197...
+Hom.	B-CRF
+Od.	I-CRF
+12,	I-CRF
+1	I-CRF
+ss.;	I-CRF
+19,	I-CRF
+433	I-CRF
+s.;	I-CRF
+22,	I-CRF
+197...	I-CRF
+
+# Original line: met. 4, 91 s., 633 s.; 7, 324 s.; 11, 257 s.; 15, 30 s.
+met.	B-CRF
+4,	I-CRF
+91	I-CRF
+s.,	I-CRF
+633	I-CRF
+s.;	I-CRF
+7,	I-CRF
+324	I-CRF
+s.;	I-CRF
+11,	I-CRF
+257	I-CRF
+s.;	I-CRF
+15,	I-CRF
+30	I-CRF
+s.	I-CRF
+
+# Original line: met. 2, 63 s.
+met.	I-CRF
+2,	I-CRF
+63	I-CRF
+s.	I-CRF
+
+# Original line: Mane erat; egreditur tectis... (nell'episodio di Ceice e Alcione); 15, 192 s.
+Mane	O
+erat;	O
+egreditur	O
+tectis...	O
+(nell'episodio	O
+di	O
+Ceice	O
+e	O
+Alcione);	O
+15,	B-CRF
+192	I-CRF
+s.	I-CRF
+
+# Original line: Mane eratt et thalamo cara recepta soror...; 14, 79
+Mane	O
+eratt	O
+et	O
+thalamo	O
+cara	O
+recepta	O
+soror...;	O
+14,	O
+79	O
+
+# Original line: Mane erat, et Danaus...; fast. 1, 547
+Mane	O
+erat,	O
+et	O
+Danaus...;	O
+fast.	B-CRF
+1,	I-CRF
+547	I-CRF
+
+# Original line: di fast. 6, 199
+di	O
+fast.	B-CRF
+6,	I-CRF
+199	I-CRF
+
+# Original line: Prop. 2, 29, 23
+Prop.	B-CRF
+2,	I-CRF
+29,	I-CRF
+23	I-CRF
+
+# Original line: Georgiche (1, 440; 2, 462; 3, 325; 4, 185)
+Georgiche	B-CRF
+(1,	I-CRF
+440;	I-CRF
+2,	I-CRF
+462;	I-CRF
+3,	I-CRF
+325;	I-CRF
+4,	I-CRF
+185)	I-CRF
+
+# Original line: Leucotoe: 4, 194 ss.: Nempe, tuis omnes qui terras ignibus uris, / ureris igne novo; quique omnia cernere debes, / Leucothoen spectas et virgine figis in una, / quos mando debes, oculos...
+Leucotoe:	O
+4,	B-CRF
+194	I-CRF
+ss.:	I-CRF
+Nempe,	O
+tuis	O
+omnes	O
+qui	O
+terras	O
+ignibus	O
+uris,	O
+/	O
+ureris	O
+igne	O
+novo;	O
+quique	O
+omnia	O
+cernere	O
+debes,	O
+/	O
+Leucothoen	O
+spectas	O
+et	O
+virgine	O
+figis	O
+in	O
+una,	O
+/	O
+quos	O
+mando	O
+debes,	O
+oculos...	O
+
+# Original line: mondo (2, 381 ss.)
+mondo	O
+(2,	B-CRF
+381	I-CRF
+ss.)	I-CRF
+
+# Original line: Ceice (11, 570 ss.).
+Ceice	O
+(11,	B-CRF
+570	I-CRF
+ss.).	I-CRF
+
+# Original line: Aen. 3, 521; 5, 42 s.; 10, 257;
+Aen.	B-CRF
+3,	I-CRF
+521;	I-CRF
+5,	I-CRF
+42	I-CRF
+s.;	I-CRF
+10,	I-CRF
+257;	I-CRF
+
+# Original line: Aen. 9, 78, 109
+Aen.	I-CRF
+9,	I-CRF
+78,	I-CRF
+109	I-CRF
+
+# Original line: ecl. 1, 21; 3, 82
+ecl.	I-CRF
+1,	I-CRF
+21;	I-CRF
+3,	I-CRF
+82	I-CRF
+
+# Original line: georg. 3, 187
+georg.	B-CRF
+3,	I-CRF
+187	I-CRF
+
+# Original line: Georgiche (4, 51: ubi pulsam hiemem sol aureus egit...)
+Georgiche	B-CRF
+(4,	I-CRF
+51:	I-CRF
+ubi	O
+pulsam	O
+hiemem	O
+sol	O
+aureus	O
+egit...)	O
+
+# Original line: H. Blümner, Die Farbenbezeichnungen bei den römischen Dichtern, Berlin 1892;
+H.	O
+Blümner,	O
+Die	O
+Farbenbezeichnungen	O
+bei	O
+den	O
+römischen	O
+Dichtern,	O
+Berlin	O
+1892;	O
+
+# Original line: G. Mayer, Die Farbenbezeichnung bei Ovid, Diss. Erlangen, Bamberg 1934, pp. 47 s.;
+G.	O
+Mayer,	O
+Die	O
+Farbenbezeichnung	O
+bei	O
+Ovid,	O
+Diss.	O
+Erlangen,	O
+Bamberg	O
+1934,	O
+pp.	O
+47	O
+s.;	O
+
+# Original line: J. André, Etude sur les termes de couleur dans la langue latine ·, Paris 1949, pp. 151 ss.
+J.	O
+André,	O
+Etude	O
+sur	O
+les	O
+termes	O
+de	O
+couleur	O
+dans	O
+la	O
+langue	O
+latine	O
+·,	O
+Paris	O
+1949,	O
+pp.	O
+151	O
+ss.	O
+
+# Original line: V. Pöschl, Kephalos und Prokris, «Hermes» 87, 1959, pp. 335 s.
+V.	O
+Pöschl,	O
+Kephalos	O
+und	O
+Prokris,	O
+«Hermes»	O
+87,	O
+1959,	O
+pp.	O
+335	O
+s.	O
+
+# Original line: Od. 5, 209 ss., 215 ss.
+Od.	B-CRF
+5,	I-CRF
+209	I-CRF
+ss.,	I-CRF
+215	I-CRF
+ss.	I-CRF
+
+# Original line: (Ov. met. 7, 661-865), «Ann. Se. Norm. Pisa» s. III, 5, 1, 1975, pp. 110 ss.
+(Ov.	B-CRF
+met.	I-CRF
+7,	I-CRF
+661-865),	I-CRF
+«Ann.	O
+Se.	O
+Norm.	O
+Pisa»	O
+s.	O
+III,	O
+5,	O
+1,	O
+1975,	O
+pp.	O
+110	O
+ss.	O
+
+# Original line: Dafne (1, 512 ss.);
+Dafne	O
+(1,	B-CRF
+512	I-CRF
+ss.);	I-CRF
+
+# Original line: Leucotoe (4, 226 ss.)
+Leucotoe	O
+(4,	B-CRF
+226	I-CRF
+ss.)	I-CRF
+
+# Original line: Galatea (13, 810 ss.);
+Galatea	O
+(13,	B-CRF
+810	I-CRF
+ss.);	I-CRF
+
+# Original line: epist. 4, 159 ss.
+epist.	B-CRF
+4,	I-CRF
+159	I-CRF
+ss.	I-CRF
+
+# Original line: C. Segai, Cephalus and Procris... cit., pp. 190 ss.
+C.	O
+Segai,	O
+Cephalus	O
+and	O
+Procris...	O
+cit.,	O
+pp.	O
+190	O
+ss.	O
+
+# Original line: H. Blümner, Die Farbenbezeichnungen... cit., pp. 202 ss.
+H.	O
+Blümner,	O
+Die	O
+Farbenbezeichnungen...	O
+cit.,	O
+pp.	O
+202	O
+ss.	O
+
+# Original line: J. André, Etude sur les termes de couleur... cit., pp. 111 ss.,
+J.	O
+André,	O
+Etude	O
+sur	O
+les	O
+termes	O
+de	O
+couleur...	O
+cit.,	O
+pp.	O
+111	O
+ss.,	O
+
+# Original line: Lucr. 5, 656 (r. auroram)
+Lucr.	B-CRF
+5,	I-CRF
+656	I-CRF
+(r.	O
+auroram)	O
+
+# Original line: Ov. ars 3, 84 (r. dea);
+Ov.	B-CRF
+ars	I-CRF
+3,	I-CRF
+84	I-CRF
+(r.	O
+dea);	O
+
+# Original line: Culex 44 (crinibus...roseis)
+Culex	B-CRF
+44	I-CRF
+(crinibus...roseis)	O
+
+# Original line: Apul. met. 3, 1, 1
+Apul.	B-CRF
+met.	I-CRF
+3,	I-CRF
+1,	I-CRF
+1	I-CRF
+
+# Original line: Theoer. 15, 128
+Theoer.	B-CRF
+15,	I-CRF
+128	I-CRF
+
+# Original line: Aen. 6, 535 (r. quadngis), 7, 26 (r. bigis);
+Aen.	B-CRF
+6,	I-CRF
+535	I-CRF
+(r.	O
+quadngis),	O
+7,	B-CRF
+26	I-CRF
+(r.	O
+bigis);	O
+
+# Original line: Eleg. in Maecen. 1, 125 (r. bigas);
+Eleg.	B-CRF
+in	I-CRF
+Maecen.	I-CRF
+1,	I-CRF
+125	I-CRF
+(r.	O
+bigas);	O
+
+# Original line: Fl. 2, 261;
+Fl.	B-CRF
+2,	I-CRF
+261;	I-CRF
+
+# Original line: Tib. 1, 3, 94.
+Tib.	B-CRF
+1,	I-CRF
+3,	I-CRF
+94.	I-CRF
+
+# Original line: papillae: Catull. 55, 12;
+papillae:	B-CRF
+Catull.	I-CRF
+55,	I-CRF
+12;	I-CRF
+
+# Original line: Aen. 12, 606;
+Aen.	B-CRF
+12,	I-CRF
+606;	I-CRF
+
+# Original line: Lydia, 11;
+Lydia,	B-CRF
+11;	I-CRF
+
+# Original line: Ov. am. 3, 3, 5...
+Ov.	B-CRF
+am.	I-CRF
+3,	I-CRF
+3,	I-CRF
+5...	I-CRF
+
+# Original line: Verg. Aen. 1, 402
+Verg.	B-CRF
+Aen.	I-CRF
+1,	I-CRF
+402	I-CRF
+
+# Original line: Apul. met. 4, 31, 4
+Apul.	B-CRF
+met.	I-CRF
+4,	I-CRF
+31,	I-CRF
+4	I-CRF
+
+# Original line: pueri delicati (7, 80, 9; 8, 55, 15...).
+pueri	O
+delicati	O
+(7,	B-CRF
+80,	I-CRF
+9;	I-CRF
+8,	I-CRF
+55,	I-CRF
+15...).	I-CRF
+
+# Original line: Cattili. 63, 74
+Cattili.	O
+63,	O
+74	O
+
+# Original line: labellis: 63, 74;
+labellis:	O
+63,	O
+74;	O
+
+# Original line: labella: 80, 1
+labella:	O
+80,	O
+1	O
+
+# Original line: P. Flobert, Catulle et les cheveaux des Parques (LXIV, 309), «Rev. Ét. Lat.» 54, 1976, pp. 144 ss.
+P.	O
+Flobert,	O
+Catulle	O
+et	O
+les	O
+cheveaux	O
+des	O
+Parques	O
+(LXIV,	O
+309),	O
+«Rev.	O
+Ét.	O
+Lat.»	O
+54,	O
+1976,	O
+pp.	O
+144	O
+ss.	O
+
+# Original line: am. 1, 13, 47 s.
+am.	B-CRF
+1,	I-CRF
+13,	I-CRF
+47	I-CRF
+s.	I-CRF
+
+# Original line: trist. 3, 5, 55 s.
+trist.	B-CRF
+3,	I-CRF
+5,	I-CRF
+55	I-CRF
+s.	I-CRF
+
+# Original line: epist. 4, 72
+epist.	B-CRF
+4,	I-CRF
+72	I-CRF
+
+# Original line: am. 2, 5, 34 ss.
+am.	B-CRF
+2,	I-CRF
+5,	I-CRF
+34	I-CRF
+ss.	I-CRF
+
+Si	O
+veda	O
+la	O
+n.	O
+53	O
+
+Prop.	B-CRF
+3,	I-CRF
+24,	I-CRF
+7	I-CRF
+
+P.	O
+Fedeli,	O
+Properzio,	O
+Il	O
+libro	O
+terzo	O
+delle	O
+elegie,	O
+Bari	O
+1985,	O
+ad	O
+loc.	O
+
+J.	O
+André,	O
+Paris	O
+1977:	O
+«levres»	O
+
+Sii.	B-CRF
+7,	I-CRF
+448	I-CRF
+
+Mart.	B-CRF
+11,	I-CRF
+56,	I-CRF
+12	I-CRF
+
+Theb.	B-CRF
+3,	I-CRF
+440	I-CRF
+s.	I-CRF
+
+georg.	B-CRF
+1,	I-CRF
+430	I-CRF
+s.	I-CRF
+
+R.	O
+F.	O
+Thomas,	O
+Virgil	O
+Georgics,	O
+Cambridge	O
+1988,	O
+ad	O
+loc.,	O
+
+J.	O
+Conington,	O
+H.	O
+Nettleship,	O
+The	O
+Works	O
+of	O
+Virgil,	O
+London	O
+1898	O
+
+R.	O
+G.	O
+Austin,	O
+P.	O
+Vergili	O
+Maronis	O
+Aeneidos	O
+liber	O
+secundus,	O
+Oxford	O
+1964	O
+
+Ad	O
+esempio:	O
+Aen.	B-CRF
+3,	I-CRF
+463	I-CRF
+
+est;	O
+4,	B-CRF
+276;	I-CRF
+7,	I-CRF
+194	I-CRF
+e	I-CRF
+451;	I-CRF
+11,	I-CRF
+251.	I-CRF
+
+Passi	O
+citati	O
+alle	O
+nn.	O
+1-3.	O
+
+#Il	O
+#ThlL	O
+#(IV,	B-CRF
+#217,	I-CRF
+#1	I-CRF
+#ss.)	I-CRF
+
+fast.	B-CRF
+5,	I-CRF
+187	I-CRF
+
+Apul.	B-CRF
+met.	I-CRF
+2,	I-CRF
+17,	I-CRF
+5	I-CRF
+
+Amm.	B-CRF
+19,	I-CRF
+6,	I-CRF
+11	I-CRF
+
+Aen.	B-CRF
+6,	I-CRF
+402,	I-CRF
+575...,	I-CRF
+
+met.	B-CRF
+10,	I-CRF
+383;	I-CRF
+
+fast.	B-CRF
+1,	I-CRF
+173,	I-CRF
+
+am.	B-CRF
+1,	I-CRF
+6,	I-CRF
+63	I-CRF
+s.;	I-CRF
+1,	I-CRF
+9,	I-CRF
+19	I-CRF
+
+Prop.	B-CRF
+2,	I-CRF
+6,	I-CRF
+24,	I-CRF
+
+P.	O
+J.	O
+Enk,	O
+Sex.	O
+Propertii	O
+elegiarum	O
+liber	O
+secundus,	O
+Lugduni	O
+Batavorum	O
+1962,	O
+ad	O
+loc.;	O
+
+Theb.	B-CRF
+10,	I-CRF
+89:	I-CRF
+
+Borner	O
+ad	O
+met.	B-CRF
+10,	I-CRF
+383	I-CRF
+
+E.	O
+Norden,	O
+P.	O
+Vergilius	O
+Maro,	O
+Aeneis	O
+Buch	O
+VI,	O
+Darmstadt	O
+1957,	O
+ad	O
+Aen.	B-CRF
+6,	I-CRF
+402	I-CRF
+
+nat.	B-CRF
+14,	I-CRF
+108	I-CRF
+
+Sil.	B-CRF
+14,	I-CRF
+199	I-CRF
+
+Mart.	B-CRF
+13,	I-CRF
+108	I-CRF
+
+Apul.	B-CRF
+flor.	I-CRF
+20,	I-CRF
+4;	I-CRF
+
+met.	B-CRF
+2,	I-CRF
+10,	I-CRF
+4...	I-CRF
+
+Maecen.	B-CRF
+1,	I-CRF
+119	I-CRF
+
+#ed.	O
+#8,	I-CRF
+#17	O
+
+Aen.	B-CRF
+1,	I-CRF
+305	I-CRF
+
+#Ciris	O
+#349	I-CRF
+
+Hor.	B-CRF
+carm.	I-CRF
+4,	I-CRF
+7,	I-CRF
+7	I-CRF
+s.	I-CRF
+
+Manil.	B-CRF
+3,	I-CRF
+187;	I-CRF
+
+CE	O
+880,	O
+2	O
+
+Borner	O
+ad	O
+met.	B-CRF
+7,	I-CRF
+835	I-CRF
+
+FGrHist	B-CRF
+3	I-CRF
+F	I-CRF
+34	I-CRF
+
+«MD»	O
+2,	O
+1979,	O
+p.	O
+135,	O
+n.	O
+54	O
+
+G.	O
+Β.	O
+Conte,	O
+Memoria	O
+dei	O
+poeti	O
+e	O
+sistema	O
+letterario,	O
+Torino	O
+1974	O
+
+E.	O
+Pianezzola,	O
+Ovidio,	O
+Varte	O
+di	O
+amare,	O
+Milano	O
+1991,	O
+p.	O
+416	O
+
+ars	B-CRF
+3,	I-CRF
+723-724.	I-CRF
+
+Ciparisso:	O
+10,	B-CRF
+126	I-CRF
+ss.;	I-CRF
+
+Giacinto	O
+e	O
+Apollo:	O
+10,	B-CRF
+174	I-CRF
+ss.	I-CRF
+
+Atteone,	O
+in	O
+3,	B-CRF
+144	I-CRF
+ss.,	I-CRF
+150	I-CRF
+s.;	I-CRF
+
+Scilla,	O
+8,	B-CRF
+81	I-CRF
+ss.;	I-CRF
+
+Mirra,	O
+10,	B-CRF
+368	I-CRF
+ss.	I-CRF
+
+F.	O
+W.	O
+Lenz,	O
+Kephalos	O
+und	O
+Prokns	O
+in	O
+Ovids	O
+Ars	O
+amatoria,	O
+«Maia»	O
+14,	O
+1962,	O
+pp.	O
+183	O
+s.	O
+
+J.	O
+Fontenrose,	O
+Ovid's	O
+Procrìs,	O
+«Class.	O
+Journ.»	O
+75,	O
+1979,	O
+p.	O
+289	O
+
+Varro	B-CRF
+ling.	I-CRF
+5,	I-CRF
+24;	I-CRF
+
+Prise,	O
+gramm.	O
+III,	O
+509,	O
+27	O
+s.,	O
+
+P.	O
+Green,	O
+The	O
+Innocence	O
+of	O
+Procris...	O
+cit.,	O
+pp.	O
+15	O
+ss.	O
+
+J.	O
+Fontenrose,	O
+Ovid's	O
+Procris...	O
+cit.,	O
+p.	O
+290	O
+
+Sen.	B-CRF
+nat.	I-CRF
+1,	I-CRF
+2,	I-CRF
+6	I-CRF
+
+Aen.	B-CRF
+8,	I-CRF
+22	I-CRF
+ss.	I-CRF
+
+Od.	B-CRF
+19,	I-CRF
+433	I-CRF
+s.	I-CRF
+
+Ap.	B-CRF
+Rh.	I-CRF
+1,	I-CRF
+1273	I-CRF
+s.	I-CRF
+
+Aen.	B-CRF
+12,	I-CRF
+113	I-CRF
+s.	I-CRF
+
+Sil.	B-CRF
+9,	I-CRF
+33	I-CRF
+s.	I-CRF
+
+#ThlL	O
+#VI,	O
+#1,	I-CRF
+#509,	I-CRF
+#9	I-CRF
+#ss.;	O
+#510,	I-CRF
+#73	O
+#ss.	O
+
+OLD	O
+686	O
+
+al	O
+v.	O
+836	O
+
+met.	B-CRF
+5,	I-CRF
+570	I-CRF
+s.	I-CRF
+
+sopra,	O
+pp.	O
+72	O
+ss.	O
+
+M.	O
+Labate,	O
+Amore	O
+coniugale	O
+e	O
+amore	O
+'elegiaco'...	O
+cit.,	O
+pp.	O
+117	O
+ss.,	O
+123	O
+ss.,	O
+126	O
+s.;	O
+
+G.	O
+Davis,	O
+The	O
+Death	O
+of	O
+Procris,	O
+Roma	O
+1983,	O
+pp.	O
+131,	O
+133.	O
+
+M.	O
+Labate,	O
+Amore	O
+coniugale	O
+e	O
+amore	O
+'elegiaco'...	O
+cit.,	O
+pp.	O
+108	O
+s.;	O
+117	O
+s.	O
+
+M.	O
+Labate,	O
+Amore	O
+coniugale	O
+e	O
+amore	O
+'elegiaco'...	O
+cit.,	O
+pp.	O
+126	O
+s.	O
+
+G.	O
+Huber	O
+Rebenich,	O
+Beobachtungen	O
+zur	O
+Feuermetaphorìk	O
+im	O
+Sermo	O
+amatorius	O
+in	O
+Ovids	O
+Metamorphosen,	O
+«Rhein.	O
+Mus.»	O
+137,	O
+1994,	O
+p.	O
+132	O
+
+J.-M.	O
+Frécaut,	O
+L'espnt	O
+et	O
+l'humour...	O
+cit,	O
+pp.	O
+32	O
+s.,	O
+
+H.	O
+Fränkel,	O
+Ovid:	O
+a	O
+poet	O
+between	O
+two	O
+worlds...	O
+cit.,	O
+p.	O
+214,	O
+n.	O
+35	O
+
+met.	B-CRF
+4,	I-CRF
+192	I-CRF
+ss.	I-CRF
+
+R.	O
+Sciava,	O
+Procri,	O
+Cefalo	O
+e	O
+l'Aurora,	O
+«Athenaeum»	O
+4,	O
+1916,	O
+pp.	O
+181	O
+ss.;	O
+
+A.	O
+Rohde	O
+cit,	O
+pp.	O
+42	O
+ss.;	O
+
+V.	O
+Pöschl,	O
+Kephalos	O
+und	O
+Prokris...	O
+cit.,	O
+pp.	O
+328	O
+ss.;	O
+
+B.	O
+Otis,	O
+Ovid	O
+as	O
+an	O
+Epie	O
+Poet,	O
+Cambridge	O
+1966	O
+
+l'Appendice	O
+aile	O
+pp.	O
+381	O
+ss.;	O
+
+G.	O
+K.	O
+Galinsky,	O
+Ovid's	O
+Metamorphoses,	O
+Oxford	O
+1975,	O
+pp.	O
+151	O
+ss.;	O
+
+M.	O
+Labate,	O
+Amore	O
+coniugale	O
+e	O
+amore	O
+'elegiaco'...	O
+cit,	O
+pp.	O
+103	O
+ss.;	O
+
+C.	O
+Segal,	O
+Cephalus	O
+and	O
+Procris...	O
+cit.,	O
+pp.	O
+178	O
+ss.;	O
+
+P.	O
+Green,	O
+The	O
+Innocence	O
+of	O
+Procris...	O
+cit.,	O
+pp.	O
+15	O
+ss.;	O
+
+A.	O
+Sabot,	O
+Heur	O
+et	O
+malheur	O
+d'un	O
+amour	O
+conjugal:	O
+Céphale	O
+et	O
+Procris	O
+(Ov.	B-CRF
+met.	I-CRF
+VII,	I-CRF
+661-862),	I-CRF
+«Journées	O
+Ovidiennes	O
+de	O
+Parménie.	O
+Actes	O
+du	O
+colloque	O
+sur	O
+Ovide,	O
+24-26	O
+Juine	O
+1983»,	O
+Bruxelles	O
+1985,	O
+pp.	O
+199	O
+ss.	O
+
+Börner,	O
+vol.	O
+III,	O
+p.	O
+366	O
+
+FGrHist	B-CRF
+3F34	I-CRF
+
+M	O
+V	O
+Hom.	B-CRF
+Od.	I-CRF
+11,	I-CRF
+321;	I-CRF
+
+#Ovidio	O
+#(ars	O
+#e	O
+#met.);	O
+
+Hyg.	B-CRF
+fah.	I-CRF
+189;	I-CRF
+
+Antonin.	B-CRF
+Lib.	I-CRF
+41;	I-CRF
+
+Apollod.	B-CRF
+3,	I-CRF
+197	I-CRF
+s.;	I-CRF
+
+Serv.	B-CRF
+Aen.	I-CRF
+6,	I-CRF
+445	I-CRF
+
+(fab.	B-CRF
+189)	I-CRF
+
+P.	O
+Green,	O
+The	O
+Innocence	O
+of	O
+Procris...	O
+cit.,	O
+p.	O
+23	O
+
+nell'Ars	O
+amatoria	O
+(3,	B-CRF
+686	I-CRF
+ss.)	I-CRF
+
+C.	O
+Segai,	O
+Cephalus	O
+and	O
+Procris...	O
+cit.,	O
+p.	O
+196	O
+
+Alle	O
+pp.	O
+189	O
+ss.	O
+
+met.	B-CRF
+1,	I-CRF
+354	I-CRF
+
+Od.	B-CRF
+11,	I-CRF
+15	I-CRF
+s.;	I-CRF
+
+K.	O
+Kost,	O
+Musaios	O
+Hero	O
+und	O
+Leander,	O
+Bonn	O
+1971,	O
+pp.	O
+136	O
+e	O
+491	O
+s.;	O
+
+H.	O
+Fränkel,	O
+Noten	O
+zu	O
+den	O
+Argonautika...	O
+cit.,	O
+p.	O
+81	O
+
+Saffo,	B-CRF
+fr.	I-CRF
+104a	I-CRF
+L.-P.	I-CRF
+
+E.	O
+Degani,	O
+G.	O
+Burzacchini,	O
+Lirici	O
+greci,	O
+Firenze	O
+1980,	O
+pp.	O
+173	O
+s.	O
+
+mesi:	O
+vv.	O
+565	O
+ss.	O
+
+Cattili.	O
+61,	O
+56	O
+ss.;	O
+62,	O
+20	O
+ss.	O
+
+infra:	O
+udis	O
+capillis	O
+
+(Hymn.	B-CRF
+6,	I-CRF
+7	I-CRF
+s.),	I-CRF
+
+Fasti	B-CRF
+(4,	I-CRF
+417	I-CRF
+ss.)	I-CRF
+
+Th.	O
+W.	O
+Allen,	O
+W.	O
+R.	O
+Halliday,	O
+E.	O
+E.	O
+Sikes,	O
+The	O
+Homeric	O
+Hymns,	O
+Oxford	O
+1936	O
+
+Hymn.	B-CRF
+Hom.	I-CRF
+2,	I-CRF
+75	I-CRF
+
+L.	O
+P.	O
+Wilkinson,	O
+Ovid	O
+recalled,	O
+Cambridge	O
+1955,	O
+p.	O
+149.	O
+
+S.	O
+Hinds,	O
+The	O
+Metamorphosis	O
+of	O
+Persephone.	O
+Ovid	O
+and	O
+the	O
+self-conscious	O
+Muse,	O
+Cambridge	O
+1987,	O
+pp.	O
+51-98	O
+
+nell'Inno	O
+omerico	O
+a	O
+Demetra	O
+(v.	O
+51)	I-CRF
+
+Varrò	B-CRF
+ling.	I-CRF
+5,	I-CRF
+23-24	I-CRF
+
+met.	B-CRF
+13,	I-CRF
+584	I-CRF
+
+Culex	B-CRF
+44	I-CRF
+
+(Arat.	B-CRF
+1628)	I-CRF
+
+Aen.	B-CRF
+5,	I-CRF
+528,	I-CRF
+
+Ov.	B-CRF
+met.	I-CRF
+15,	I-CRF
+849	I-CRF
+s.,	I-CRF
+
+Lucan.	B-CRF
+1,	I-CRF
+528	I-CRF
+s.	I-CRF
+
+Manil.	B-CRF
+1,	I-CRF
+835	I-CRF
+ss.	I-CRF
+
+C.	O
+De	O
+Meo,	O
+Lingue	O
+tecniche	O
+del	O
+latino,	O
+Bologna	O
+1986,	O
+p.	O
+242	O
+
+A.	O
+Le	O
+Boeuffle,	O
+Les	O
+noms	O
+latins	O
+d'astres	O
+et	O
+de	O
+constellations,	O
+Paris	O
+1977,	O
+p.	O
+66	O
+
+R.	O
+O.	O
+A.	O
+M.	O
+Lyne,	O
+The	O
+dating	O
+of	O
+Ciris,	O
+«Class.	O
+Quart.»	O
+21,	I-CRF
+1971,	O
+pp.	O
+239	O
+ss.,	O
+
+Callim.	B-CRF
+Hymn.	I-CRF
+4,	I-CRF
+302	I-CRF
+s.	I-CRF
+
+E.	O
+Cahen,	O
+Les	O
+Hymnes	O
+de	O
+Callimaque,	O
+Paris	O
+1930,	O
+ad	O
+loc.	O
+
+#Aetna	O
+#594	I-CRF
+
+F.	O
+R.	O
+D.	O
+Goodyear,	O
+Incerti	O
+auetons	O
+Aetna,	O
+Cambridge	O
+1965,	O
+ad	O
+loc.	O
+
+Apul.	B-CRF
+met.	I-CRF
+2,	I-CRF
+16,	I-CRF
+7	I-CRF
+
+Aug.	B-CRF
+civ.	I-CRF
+7,	I-CRF
+26	I-CRF
+
+Theb.	B-CRF
+2,	I-CRF
+134	I-CRF
+ss.	I-CRF
+
+H.	O
+M.	O
+Mulder,	O
+P.	O
+P.	O
+Statii	O
+Thebaidos	O
+liber	O
+secundus,	O
+Groningae	O
+1954	O
+ad	O
+loc.	O
+
+Ach.	B-CRF
+1,	I-CRF
+242	I-CRF
+ss.;	I-CRF
+2,	I-CRF
+1	I-CRF
+ss.)	I-CRF
+
+met.	B-CRF
+2,	I-CRF
+12	I-CRF
+
+Solis;	B-CRF
+5,	I-CRF
+53	I-CRF
+
+Ati;	B-CRF
+5,	I-CRF
+488	I-CRF
+
+Aretusa;	O
+11,	I-CRF
+57	I-CRF
+
+Orfeo	O
+gettato	O
+sul	O
+lido;	O
+11,	I-CRF
+656	O
+
+fast.	B-CRF
+4,	I-CRF
+141	I-CRF
+
+Bömer;	O
+5,	O
+679	O
+
+trist.	B-CRF
+2,	I-CRF
+527	I-CRF
+s.	I-CRF
+
+Pont.	B-CRF
+4,	I-CRF
+1,	I-CRF
+29	I-CRF
+s.	I-CRF
+
+H.	O
+Bardon,	O
+L'aurore	O
+et	O
+le	O
+crépuscule,	O
+thèmes	O
+et	O
+clichés,	O
+«Rev.	O
+Et.	O
+Lat.»	O
+24,	O
+1946,	O
+p.	O
+91.	O
+
+P.	O
+E.	O
+Knox,	O
+Ovid's	O
+Metamorphoses	O
+and	O
+the	O
+traditions	O
+of	O
+Augustan	O
+poetry,	O
+Cambridge	O
+1986,	O
+p.	O
+33	O
+
+infra,	O
+la	O
+n.	O
+100.	O
+
+J.	O
+C.	O
+Me	O
+Keown,	O
+p.	O
+339	O
+
+B.	O
+Axelson,	O
+Unpoetische	O
+Wörter,	O
+Lund	O
+1945,	O
+p.	O
+51;	O
+
+P.	O
+E.	O
+Knox,	O
+Ovid's	O
+Metamorphoses...	O
+cit,	O
+p.	O
+33;	O
+
+A.	O
+Barchiesi,	O
+P.	O
+Ovidii	O
+Nasonis	O
+Epistulae	O
+Heroidum	O
+1-3,	O
+Firenze	O
+1992	O
+ad	O
+epist.	B-CRF
+3,	I-CRF
+15	I-CRF
+(rupique	O
+capillos),	O
+p.	O
+207.	O
+
+(georg.	B-CRF
+1,	I-CRF
+405)	I-CRF
+
+dell'Eneide	O
+(10,	B-CRF
+832	I-CRF
+
+Barchiesi,	O
+P.	O
+Ovidii	O
+Nasonis	O
+Epistulae...	O
+cit,	O
+p.	O
+207.	O
+
+P.	O
+Heuzé,	O
+L'image	O
+du	O
+corps	O
+dans	O
+l'oeuvre	O
+de	O
+Virgile,	O
+Roma	O
+1985,	O
+pp.	O
+62	O
+ss	O
+
+V.	O
+Grassmann,	O
+Die	O
+erotischen	O
+Epoden	O
+des	O
+Horaz,	O
+München	O
+1966,	O
+p.	O
+152	O
+
+A.	O
+S.	O
+F.	O
+Gow,	O
+Diminutives	O
+in	O
+augustan	O
+poetry,	O
+«Class.	O
+Quart.»	O
+26,	O
+1932,	O
+pp.	O
+151,	O
+154.	O
+
+capillus,	O
+coma,	O
+crinis	O
+è,	O
+rispettivamente,	O
+il	O
+seguente:	O
+Lucan.	B-CRF
+2;	I-CRF
+27;	I-CRF
+20;	I-CRF
+
+FI.:	B-CRF
+2;	I-CRF
+18;	I-CRF
+25;	I-CRF
+
+Sil.:	B-CRF
+2;	I-CRF
+24;	I-CRF
+27;	I-CRF
+
+Stat.:	B-CRF
+4;	I-CRF
+90;	I-CRF
+84.	I-CRF
+
+Hor.	B-CRF
+epod.	I-CRF
+15,	I-CRF
+9	I-CRF
+
+Varrone,	O
+in	O
+un	O
+rapporto	O
+di	O
+14;	B-CRF
+5;	I-CRF
+3;	I-CRF
+
+Vitruvio:	B-CRF
+8;	I-CRF
+0;	I-CRF
+1;	I-CRF
+
+Plin.	B-CRF
+nati	I-CRF
+93;	I-CRF
+32;	I-CRF
+19	O
+
+Seneca	I-CRF
+(4;	I-CRF
+61;	I-CRF
+20).	I-CRF
+
+Prop.:	B-CRF
+15;	I-CRF
+29;	I-CRF
+8;	I-CRF
+
+Tib.:	B-CRF
+12;	I-CRF
+26;	I-CRF
+8.	I-CRF
+
+P.	O
+E.	O
+Knox,	O
+Ovid's	O
+Métamorphoses...	O
+cit.,	O
+p.	O
+33:	O
+
+Prop.	B-CRF
+1,	I-CRF
+2,	I-CRF
+1	I-CRF
+ss.;	I-CRF
+
+Ov.	B-CRF
+am.	B-CRF
+1,	I-CRF
+14,	I-CRF
+1	I-CRF
+ss.	I-CRF
+
+ars	B-CRF
+3,	I-CRF
+133-154	I-CRF
+
+L.	O
+Cristante,	O
+in	O
+Ovidio.	O
+L'arte	O
+di	O
+amare,	O
+...	O
+cit.,	O
+ad	O
+loc.	O
+
+fast.	B-CRF
+4,	I-CRF
+309.	I-CRF
+
+R.	O
+Pichon,	O
+De	O
+sermone	O
+amatono	O
+apud	O
+latinos	O
+elegiarum	O
+scriptores,	O
+Paris	O
+1902,	O
+p.	O
+99	O
+
+met.	B-CRF
+2,	I-CRF
+111	I-CRF
+ss.	I-CRF
+
+Aen.	B-CRF
+4,	I-CRF
+567	I-CRF
+s.	I-CRF
+
+W.	O
+H.	O
+Mineur,	O
+Callimachus.	O
+Hymn	O
+to	O
+Delos,	O
+Introduction	O
+and	O
+Commentary,	O
+Leiden	O
+1984,	O
+ad	O
+Cali.	B-CRF
+Hymn.	I-CRF
+4,	I-CRF
+302	I-CRF
+
+Hymn.	B-CRF
+2,	I-CRF
+90	I-CRF
+
+F.	O
+Bornmann,	O
+Callimacbi	O
+Hymnus	O
+in	O
+Dianam,	O
+Firenze	O
+1968,	O
+ad	O
+3,	O
+249	O
+
+Hor.	B-CRF
+carm.	I-CRF
+saec.	I-CRF
+9	I-CRF
+ss.	I-CRF
+
+Il.	B-CRF
+5,	I-CRF
+266	I-CRF
+s.;	I-CRF
+7,	I-CRF
+451	I-CRF
+
+Ap.	B-CRF
+Rh.	I-CRF
+1,	I-CRF
+519-521	I-CRF
+
+Η.	O
+Fränkel,	O
+Noten	O
+zu	O
+den	O
+Argonautika...	O
+cit,	O
+ad	O
+loc.,	O
+
+fast.	B-CRF
+4,	I-CRF
+389	I-CRF
+
+Lucan.	B-CRF
+1,	I-CRF
+233	I-CRF
+
+#ThlL	O
+#V,	O
+#1,	I-CRF
+#1047,	O
+#22	O
+#ss.,	O
+
+Ercole	O
+(v.	O
+97),	O
+
+Pico	O
+e	O
+Canente,	O
+in	O
+14,	O
+416	O
+
+met.	B-CRF
+9,	I-CRF
+795	I-CRF
+
+Hom.	B-CRF
+Il.	I-CRF
+7,	I-CRF
+476	I-CRF
+ss.	I-CRF
+8,	I-CRF
+1;	I-CRF
+9,	I-CRF
+710	I-CRF
+ss.	I-CRF
+
+Od.	B-CRF
+1,	I-CRF
+443	I-CRF
+s.	I-CRF
+2,	I-CRF
+1;	I-CRF
+2,	I-CRF
+434	I-CRF
+3,	I-CRF
+1	I-CRF
+ss.	I-CRF
+
+M.	O
+G.	O
+Ferrini,	O
+Espressioni	O
+di	O
+tempo	O
+nell'epica	O
+omerica...	O
+cit.	O
+p.	O
+23;	O
+
+M.	O
+Lombardi,	O
+La	O
+tradizione	O
+letteraria	O
+delle	O
+notazioni	O
+temporali.,	O
+cit.,	O
+pp.	O
+73	O
+s.;	O
+
+M.	O
+Fantuzzi,	O
+Descrivere	O
+il	O
+tempo...	O
+cit.,	O
+pp.	O
+121	O
+ss.,	O
+129).	O
+
+F.	O
+Mehmel,	O
+Virgil	O
+und	O
+Apollonios	O
+Rhodios...	O
+cit.,	O
+p.	O
+61	O
+
+Plaut.	B-CRF
+Amph.	I-CRF
+546	I-CRF
+ss.	I-CRF
+
+J.	O
+J.	O
+Moore-Blunt,	O
+A	O
+commentary	O
+on	O
+Ovid	O
+Metamorphoses	O
+Il,	O
+Uithoorn,	O
+Netherland	O
+1977,	O
+ad	O
+loc.,	O
+
+Lucrezio	B-CRF
+in	I-CRF
+5,	I-CRF
+29	I-CRF
+
+Hom.	B-CRF
+Il.	I-CRF
+8,	I-CRF
+432	I-CRF
+ss.;	I-CRF
+
+Lucian.	B-CRF
+deor.	O
+dial.	O
+10,	I-CRF
+1;	I-CRF
+
+G.	O
+Knaak	O
+Quaestiones	O
+Pkaethonteae,	O
+in	O
+«Philologische	O
+Untersuchungen»	O
+8,	I-CRF
+Berlin	O
+1886,	O
+pp.	O
+28	O
+ss.	O
+
+Aen.	B-CRF
+2,	I-CRF
+270	I-CRF
+
+Aen.	B-CRF
+3,	I-CRF
+521	I-CRF
+s.,	I-CRF
+588	I-CRF
+ss.	I-CRF
+
+Aen.	B-CRF
+2,	I-CRF
+132	I-CRF
+ss.,	I-CRF
+172	I-CRF
+
+Aen.	B-CRF
+2,	I-CRF
+268	I-CRF
+s.;	I-CRF
+10,	I-CRF
+219.	I-CRF
+
+Aen.	B-CRF
+2,	I-CRF
+57,	I-CRF
+203,	I-CRF
+270	I-CRF
+
+J.	O
+J.	O
+Moore-Blunt,	O
+A	O
+commentary	O
+on	O
+Ovid...	O
+cit.,	O
+ad	O
+2,	I-CRF
+111	I-CRF
+ss.,	O
+
+Aen.	B-CRF
+4,	I-CRF
+182	I-CRF
+
+Hor.	B-CRF
+carm.	I-CRF
+3,	I-CRF
+8,	I-CRF
+14	I-CRF
+
+fast.	B-CRF
+6,	I-CRF
+474	I-CRF
+
+Carter,	O
+pp.	O
+17	O
+s.,	O
+153.	O
+
+fast.	B-CRF
+1,	I-CRF
+456	I-CRF
+
+Lucr.	B-CRF
+5,	I-CRF
+1436	I-CRF
+ss.,	I-CRF
+
+J.	O
+J.	O
+Moore-Blunt,	O
+A	O
+commentary	O
+on	O
+Ovid...	O
+cit.,	O
+
+Verg.:	B-CRF
+1;	I-CRF
+
+Prop.:	B-CRF
+1;	I-CRF
+
+Tib.:	B-CRF
+1;	I-CRF
+
+Hor.	B-CRF
+carm.:	O
+1;	I-CRF
+
+Ov.	B-CRF
+met:	I-CRF
+6.	I-CRF
+
+Plaut.	B-CRF
+Most.	I-CRF
+1046:	I-CRF
+
+Ter.	B-CRF
+Haut.	I-CRF
+481	I-CRF
+
+Cic.	B-CRF
+Cael.	I-CRF
+49	I-CRF
+
+Pis.	B-CRF
+26	I-CRF
+
+Prop.	B-CRF
+1,	I-CRF
+3,	I-CRF
+33	I-CRF
+
+Ov.	B-CRF
+met.	I-CRF
+9,	I-CRF
+795;	I-CRF
+
+Aen.	B-CRF
+1,	I-CRF
+374	I-CRF
+
+#Olympo;	B-CRF
+#10,	I-CRF
+#1	I-CRF
+
+#Olympi;	B-CRF
+#11,	I-CRF
+#210	I-CRF
+
+#Homer.	B-CRF
+#49	O
+
+M.	O
+Scaffai,	O
+Baebii	O
+Italia.	O
+Ilias	O
+Latina,	O
+Bologna	O
+1982,	O
+ad	O
+locc.,	O
+
+Ov.	B-CRF
+met.	I-CRF
+9,	I-CRF
+795	I-CRF
+
+Enn.	B-CRF
+ann.	I-CRF
+572	I-CRF
+
+Enn.	B-CRF
+ann.	I-CRF
+85	I-CRF
+
+Aen.	B-CRF
+4,	I-CRF
+118	I-CRF
+s.	I-CRF
+
+Smyrn.	B-CRF
+2,	I-CRF
+665	I-CRF
+s.,	I-CRF
+
+Hom.	B-CRF
+Od.	I-CRF
+12,	I-CRF
+3	I-CRF
+s.	I-CRF
+
+Bömer	O
+ad	O
+loc.,	O
+che	O
+richiama	O
+met.	B-CRF
+2,	I-CRF
+23	I-CRF
+s.	I-CRF
+
+J.	O
+André,	O
+Étude	O
+sur	O
+les	O
+termes	O
+de	O
+couleur...	O
+cit,	O
+pp.	O
+90-102.	O
+
+J.	O
+André,	O
+Étude	O
+sur	O
+les	O
+termes	O
+de	O
+couleur...	O
+cit.,	O
+p.	O
+99.	O
+
+André,	O
+p.	O
+102	O
+
+Ov.	B-CRF
+trist.	I-CRF
+1,	I-CRF
+1,	I-CRF
+6	I-CRF
+
+Acc.	B-CRF
+trag.	I-CRF
+675	I-CRF
+R.	I-CRF
+
+Lucr.	B-CRF
+5,	I-CRF
+656	I-CRF
+s.	I-CRF
+
+Aen.	B-CRF
+3,	I-CRF
+521	I-CRF
+
+Culex	B-CRF
+44	I-CRF
+
+Laev.	B-CRF
+carm.	I-CRF
+frg.	I-CRF
+9	I-CRF
+Büch.	I-CRF
+
+Gell.	B-CRF
+19,	I-CRF
+7,	I-CRF
+6	I-CRF
+
+Tib.	B-CRF
+1,	I-CRF
+3,	I-CRF
+93	I-CRF
+ss.	I-CRF
+
+Ov.	B-CRF
+am.	B-CRF
+1,	I-CRF
+8,	I-CRF
+3	I-CRF
+s.	I-CRF
+
+ars	B-CRF
+3,	I-CRF
+84	I-CRF
+
+fast.	B-CRF
+4,	I-CRF
+713	I-CRF
+s.	I-CRF
+
+Maecen.	B-CRF
+1,	I-CRF
+126	I-CRF
+
+G.	O
+Mayer,	O
+Die	O
+Farbenbezeichnung...	O
+cit,	O
+pp.	O
+84	O
+ss.,	O
+
+(georg.):	B-CRF
+1;	I-CRF
+
+Hor.	B-CRF
+carm.:	I-CRF
+3;	I-CRF
+
+Prop.:	B-CRF
+1;	I-CRF
+
+Tib.:	B-CRF
+1.	I-CRF
+
+H.	O
+Bardon,	O
+L'Aurore	O
+et	O
+le	O
+crépuscule...	O
+cit,	O
+pp.	O
+93	O
+s.	I-CRF
+
+fast.	B-CRF
+4,	I-CRF
+389	I-CRF
+s.	I-CRF
+
+Aen.	B-CRF
+3,	I-CRF
+521	I-CRF
+
+Culex	B-CRF
+44	I-CRF
+
+Hor.	B-CRF
+carm.	I-CRF
+3,	I-CRF
+21,	I-CRF
+23	I-CRF
+s.	I-CRF
+
+Octavia,	B-CRF
+1	I-CRF
+s.	I-CRF
+
+Eur.	B-CRF
+Ion.	I-CRF
+82	I-CRF
+ss.	I-CRF
+
+#Il	O
+#ThlL	O
+#(V,	O
+#1,	I-CRF
+#1106,	O
+#16	O
+#ss.)	I-CRF
+
+P.	O
+Ovidii	O
+Nasonis	O
+opera	O
+omnia,	O
+e	O
+textu	O
+Burmanni,	O
+cum	O
+notis	O
+Bentleii,	O
+vol.	O
+III,	O
+Oxonii	O
+1	O
+826	O
+
+Acc.	B-CRF
+trag.	I-CRF
+678	I-CRF
+R.	I-CRF
+
+Lucr.	B-CRF
+1,	I-CRF
+788	I-CRF
+
+met.	B-CRF
+5,	I-CRF
+440	I-CRF
+s.	I-CRF
+
+Aen.	B-CRF
+3,	I-CRF
+521	I-CRF
+
+vedano	O
+i	O
+vv.	O
+142	O
+ss.	O
+
+Virgilio,	O
+Eneide,	O
+libri	O
+V-VI,	O
+Milano	O
+1979,	O
+p.	O
+145	O
+
+Aen.	B-CRF
+5,	I-CRF
+835	I-CRF
+s.	I-CRF
+
+Aen.	B-CRF
+3,	I-CRF
+521	I-CRF
+
+(met.	B-CRF
+14,	I-CRF
+114)	I-CRF
+
+F.	O
+Bömer,	O
+Ovid	O
+und	O
+die	O
+Sprache	O
+Vergib,	O
+«Gymnasium»	O
+66,	O
+1959,	O
+p.	O
+284,	O
+
+Ov.	B-CRF
+epist.	I-CRF
+3,	I-CRF
+57	I-CRF
+
+fast.	B-CRF
+4,	I-CRF
+373	I-CRF
+s.	I-CRF
+
+Atell.	B-CRF
+74	I-CRF
+R.	I-CRF
+
+Cic.	B-CRF
+Arat.	I-CRF
+96	I-CRF
+
+Cattill.	B-CRF
+8,	I-CRF
+3	I-CRF
+
+Lucr.	B-CRF
+5,	I-CRF
+708	I-CRF
+
+#Aetna	O
+#332	I-CRF
+
+N.V.	O
+Baran,	O
+Les	O
+caractéristiques	O
+essentielles	O
+du	O
+vocabulaire	O
+chromatique	O
+latin,	O
+in	O
+«Aufstieg	O
+und	O
+Niedergang	O
+Rom.	O
+Welt»	O
+II,	O
+29,	O
+1,	O
+325,	O
+392);	O
+
+A.	O
+Le	O
+Boeuf	O
+fie,	O
+Astronomie.	O
+Astrologie.	O
+Lexique	O
+latin,	O
+Paris	O
+1987,	O
+s.w.	O
+effulgere,	O
+fulgens,	O
+fulgidus,	O
+(pp.	O
+126	O
+s.,	O
+141)	O
+
+H.	O
+Dahlmann,	O
+Das	O
+Rosausepigramm	O
+des	O
+Q.	O
+L.	O
+Catulus,	O
+«Gymnasium»	O
+88,	O
+1981,	O
+pp.	O
+33-34.	O
+
+dum	O
+loquor	O
+(v.	O
+142)	O
+
+libera	O
+nobis	O
+(v.	O
+143).	O
+
+met.	B-CRF
+3,	I-CRF
+144	I-CRF
+s.,	I-CRF
+e	I-CRF
+151	I-CRF
+s.,	I-CRF
+
+Aen.	B-CRF
+4,	I-CRF
+129	I-CRF
+s.	I-CRF
+
+Aen.	B-CRF
+6,	I-CRF
+535	I-CRF
+
+Aen.	B-CRF
+4,	I-CRF
+584	I-CRF
+s.	I-CRF
+(=	I-CRF
+9,	I-CRF
+459	I-CRF
+s.)	I-CRF
+
+A.	O
+S.	O
+Pease,	O
+P.	O
+Vergili	O
+Maronis	O
+Aeneidos	O
+liber	O
+quartusy	O
+Cambridge	O
+1935	O
+ad	O
+loc.,	O
+e	O
+n.	O
+141;	O
+12,	O
+113	O
+ss.	O
+
+Lucr.	B-CRF
+2,	I-CRF
+144	I-CRF
+
+Giulio	O
+Montano	O
+(frg.	O
+1-2)	O
+
+Seneca	B-CRF
+(epist.	I-CRF
+122,	I-CRF
+11-13)	I-CRF
+
+Fl.	B-CRF
+3,	I-CRF
+257	I-CRF
+s.	I-CRF
+
+met.	B-CRF
+11,	I-CRF
+309	I-CRF
+
+an	B-CRF
+3,	I-CRF
+72	I-CRF
+
+am.	B-CRF
+1,	I-CRF
+2,	I-CRF
+40	I-CRF
+
+sparserat	O
+in	O
+14,	B-CRF
+416	I-CRF
+
+Zeus	O
+(13,	B-CRF
+576	I-CRF
+ss.).	I-CRF
+
+Dopo	O
+R.	O
+Heinze,	O
+Ovids	O
+elegische	O
+Erzählung,	O
+Leipzig	O
+1919,	O
+in	O
+Vom	O
+Geist	O
+des	O
+Römertums,	O
+Stuttgart	O
+1960,	O
+
+H.	O
+Tränkle,	O
+Elegisches	O
+in	O
+Ovids	O
+Metamorphosen,	O
+«Hermes»	O
+91,	O
+1963,	O
+pp.	O
+459-476	O
+
+E.	O
+Paratore,	O
+L'influenza	O
+delle	O
+«Heroides»	O
+sull'episodio	O
+di	O
+Biblide	O
+e	O
+Cauno	O
+nel	O
+libro	O
+IX	O
+delle	O
+Metamorfosi	O
+ovidiane,	O
+in	O
+«Studia	O
+Fiorentina	O
+A.	O
+Ronconi	O
+sexagenario	O
+oblata»,	O
+Roma	O
+1970,	O
+pp.	O
+291	O
+ss.;	O
+
+M.	O
+Labate,	O
+Amore	O
+coniugale	O
+e	O
+amore	O
+'elegiaco'...	O
+cit	O
+
+A.	O
+Barchiesi,	O
+P.	O
+Ovidii	O
+Nasonis	O
+Epistulae	O
+Heroidum...	O
+cit.	I-CRF
+
+id.,	O
+
+Ovidio	O
+e	O
+il	O
+discorso	O
+augusteo,	O
+Roma-Bari	O
+1994,	O
+pp.	O
+44	O
+s.,	O
+
+Fantuzzi,	O
+Ferrini...	O
+(e	O
+la	O
+bibliografia	O
+cit.	O
+alla	O
+n.	O
+12).	O
+
+W.	O
+Kraus,	O
+RE,	O
+XVIII,	O
+2,	O
+1946,	O
+66	O
+ss.	O
+
+E.	O
+Doblhofer,	O
+Ovidius	O
+urbanus...	O
+cit.,	O
+pp.	O
+72	O
+s.,	O
+83	O
+s.	O

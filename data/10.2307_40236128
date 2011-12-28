@@ -1,0 +1,4787 @@
+# File generated from /phdcode/python/10.2307_40236128.xml via /phdcode/python/crfx.py
+# The tag to be used to mark up Canonical References are: B-CRF, I-CRF and O (according to the
+# classical IOB format for NER)
+# Original line: Hom. Il. 1, 477; 24, 788;
+Hom.	O
+Il.	O
+1,	O
+477;	O
+24,	O
+788;	O
+
+# Original line: Od. 2, 1; 3, 404, 491; 4, 306, 431, 576; 5, 228; 9, 152, 170, 307, 437, 560; 10, 187; 12, 8, 316; 13, 18; 15, 189; 17, 1; 19, 428.
+Od.	O
+2,	O
+1;	O
+3,	O
+404,	O
+491;	O
+4,	O
+306,	O
+431,	O
+576;	O
+5,	O
+228;	O
+9,	O
+152,	O
+170,	O
+307,	O
+437,	O
+560;	O
+10,	O
+187;	O
+12,	O
+8,	O
+316;	O
+13,	O
+18;	O
+15,	O
+189;	O
+17,	O
+1;	O
+19,	O
+428.	O
+
+# Original line: Hom. Il. 6, 175; 23, 109.
+Hom.	O
+Il.	O
+6,	O
+175;	O
+23,	O
+109.	O
+
+# Original line: Hom Il. 9, 707.
+Hom	O
+Il.	O
+9,	O
+707.	O
+
+# Original line: Hom. Il. 8, 1; 23, 227; 24, 695...
+Hom.	O
+Il.	O
+8,	O
+1;	O
+23,	O
+227;	O
+24,	O
+695...	O
+
+# Original line: Hom. Od. 15, 56, 250
+Hom.	O
+Od.	O
+15,	O
+56,	O
+250	O
+
+# Original line: Hymn. Hom. 5, 226;
+Hymn.	O
+Hom.	O
+5,	O
+226;	O
+
+# Original line: Quint. Smyrn. 2, 592; 14, 1).
+Quint.	O
+Smyrn.	O
+2,	O
+592;	O
+14,	O
+1).	O
+
+# Original line: Aen. 3, 521 s.
+Aen.	O
+3,	O
+521	O
+s.	O
+
+# Original line: Aen. 6, 535.
+Aen.	O
+6,	O
+535.	O
+
+# Original line: Aen. 7, 25 s.
+Aen.	O
+7,	O
+25	O
+s.	O
+
+# Original line: Tib. 1, 3, 93 s.: ...aurora... / ...roseis candida... equis e poi Val. Fl. 2, 261;
+Tib.	O
+1,	O
+3,	O
+93	O
+s.:	O
+...aurora...	O
+/	O
+...roseis	O
+candida...	O
+equis	O
+e	O
+poi	O
+Val.	O
+Fl.	O
+2,	O
+261;	O
+
+# Original line: Sii. 1, 578
+Sii.	O
+1,	O
+578	O
+
+# Original line: Aen. 12, 76 s.
+Aen.	O
+12,	O
+76	O
+s.	O
+
+# Original line: Lucr. 5, 656 s.: roseam./ auroram).
+Lucr.	O
+5,	O
+656	O
+s.:	O
+roseam./	O
+auroram).	O
+
+# Original line: Hom. Il. 11, 1 s.;
+Hom.	O
+Il.	O
+11,	O
+1	O
+s.;	O
+
+# Original line: Od. 5, 1 s.
+Od.	O
+5,	O
+1	O
+s.	O
+
+# Original line: Quint. Smyrn. 6, 1
+Quint.	O
+Smyrn.	O
+6,	O
+1	O
+
+# Original line: Eur. Tro. 853 s. cum Schol).
+Eur.	O
+Tro.	O
+853	O
+s.	O
+cum	O
+Schol).	O
+
+# Original line: Aen. 4, 584 s.; 9, 459 s.
+Aen.	O
+4,	O
+584	O
+s.;	O
+9,	O
+459	O
+s.	O
+
+# Original line: Bibac. carm. frg. 7 Büch.: Oceani croceum linquens Aurora cubile, citato da Macr. Sat. 6, 1, 31
+Bibac.	O
+carm.	O
+frg.	O
+7	O
+Büch.:	O
+Oceani	O
+croceum	O
+linquens	O
+Aurora	O
+cubile,	O
+citato	O
+da	O
+Macr.	O
+Sat.	O
+6,	O
+1,	O
+31	O
+
+# Original line: georg. 1, 447.
+georg.	O
+1,	O
+447.	O
+
+# Original line: Si veda anche Prop. 2, 18a, 7 ss.
+Si	O
+veda	O
+anche	O
+Prop.	O
+2,	O
+18a,	O
+7	O
+ss.	O
+
+# Original line: Dopo Ovidio: Sii. 1, 576: Pellebat somnos Tithoni roscida coniunx; 5, 25 s.: ...nec se thalamis Tithonia coniunx / protulerat...;
+Dopo	O
+Ovidio:	O
+Sii.	O
+1,	O
+576:	O
+Pellebat	O
+somnos	O
+Tithoni	O
+roscida	O
+coniunx;	O
+5,	O
+25	O
+s.:	O
+...nec	O
+se	O
+thalamis	O
+Tithonia	O
+coniunx	O
+/	O
+protulerat...;	O
+
+# Original line: Stat. Theb. 2, 134 s.
+Stat.	O
+Theb.	O
+2,	O
+134	O
+s.	O
+
+# Original line: silv. 1, 2, 44 s.: ...nec si alma per auras /te... veberet Tithonia biga);
+silv.	O
+1,	O
+2,	O
+44	O
+s.:	O
+...nec	O
+si	O
+alma	O
+per	O
+auras	O
+/te...	O
+veberet	O
+Tithonia	O
+biga);	O
+
+# Original line: Auson. app. A6 Od. 5 (449 s.),'
+Auson.	O
+app.	O
+A6	O
+Od.	O
+5	O
+(449	O
+s.),'	O
+
+# Original line: 1 s.: liquerat in tepido Tithonum Aurora cubile...;
+1	O
+s.:	O
+liquerat	O
+in	O
+tepido	O
+Tithonum	O
+Aurora	O
+cubile...;	O
+
+# Original line: Auson. app. A6 Il 11 (431 s.), 1 ss.: Tithoni croceum linquens Aurora cubile spargebat terras
+Auson.	O
+app.	O
+A6	O
+Il	O
+11	O
+(431	O
+s.),	O
+1	O
+ss.:	O
+Tithoni	O
+croceum	O
+linquens	O
+Aurora	O
+cubile	O
+spargebat	O
+terras	O
+
+# Original line: frg. 21, 3 s. Pf.
+frg.	O
+21,	O
+3	O
+s.	O
+Pf.	O
+
+# Original line: E. Wüst, RE, VI A, 1516, 45 ss.
+E.	O
+Wüst,	O
+RE,	O
+VI	O
+A,	O
+1516,	O
+45	O
+ss.	O
+
+# Original line: M. P. Nilsson, Primitive time-reckoning, Lund 1920;
+M.	O
+P.	O
+Nilsson,	O
+Primitive	O
+time-reckoning,	O
+Lund	O
+1920;	O
+
+# Original line: O. Weinreich, Phobus, Aurora, Kalender und Uhr, u'ber eine Doppelform der typischen Zeitbestimmung in der Erzdhlung der Antike und Neuzeit, in «Schrift. u. Vortr. Wiirtenberg Gesellschaft d. Wissenschaft.* 4, 1937;
+O.	O
+Weinreich,	O
+Phobus,	O
+Aurora,	O
+Kalender	O
+und	O
+Uhr,	O
+u'ber	O
+eine	O
+Doppelform	O
+der	O
+typischen	O
+Zeitbestimmung	O
+in	O
+der	O
+Erzdhlung	O
+der	O
+Antike	O
+und	O
+Neuzeit,	O
+in	O
+«Schrift.	O
+u.	O
+Vortr.	O
+Wiirtenberg	O
+Gesellschaft	O
+d.	O
+Wissenschaft.*	O
+4,	O
+1937;	O
+
+# Original line: F. Mehmel, Virgil und Apollonios Rhodios. Untersuchungen über die Zeitvorstellung in der antiken epischen Erzählung, Hamburg 1940;
+F.	O
+Mehmel,	O
+Virgil	O
+und	O
+Apollonios	O
+Rhodios.	O
+Untersuchungen	O
+über	O
+die	O
+Zeitvorstellung	O
+in	O
+der	O
+antiken	O
+epischen	O
+Erzählung,	O
+Hamburg	O
+1940;	O
+
+# Original line: M. Brauneiser, Tagzeiten und Landschaft im Epos der Griechen und Römer, Würzburg 1944;
+M.	O
+Brauneiser,	O
+Tagzeiten	O
+und	O
+Landschaft	O
+im	O
+Epos	O
+der	O
+Griechen	O
+und	O
+Römer,	O
+Würzburg	O
+1944;	O
+
+# Original line: W. Bühler, Die Europa des Moschos, Wiesbaden 1960, pp. 210 ss.;
+W.	O
+Bühler,	O
+Die	O
+Europa	O
+des	O
+Moschos,	O
+Wiesbaden	O
+1960,	O
+pp.	O
+210	O
+ss.;	O
+
+# Original line: H. Fränkel, Wege und Formen frühgriechischen Denkens, München 1968;
+H.	O
+Fränkel,	O
+Wege	O
+und	O
+Formen	O
+frühgriechischen	O
+Denkens,	O
+München	O
+1968;	O
+
+# Original line: A. W. James, Night and Day in Epie Narrative from Homer to Quintus of Smyrna, «Mus. Philol. Lond.» 3, 1978, pp. 153-183;
+A.	O
+W.	O
+James,	O
+Night	O
+and	O
+Day	O
+in	O
+Epie	O
+Narrative	O
+from	O
+Homer	O
+to	O
+Quintus	O
+of	O
+Smyrna,	O
+«Mus.	O
+Philol.	O
+Lond.»	O
+3,	O
+1978,	O
+pp.	O
+153-183;	O
+
+# Original line: P. Vivante, Rose-fingered Dawn and the Idea of Time, «Ramus» 8, 2, 1980, pp. 125136;
+P.	O
+Vivante,	O
+Rose-fingered	O
+Dawn	O
+and	O
+the	O
+Idea	O
+of	O
+Time,	O
+«Ramus»	O
+8,	O
+2,	O
+1980,	O
+pp.	O
+125136;	O
+
+# Original line: J. Van Sickle, Dawn and dusk as motifs of opening or closure, in heroic and bucolic epos (Homer, Apollonius, Theocritus, Virgil), in «Atti del Convegno mondiale scientifico di studi su Virgilio, Mantova, Roma, Napoli, 19-24 sett. 1981», Milano 1984, pp. 125 ss.;
+J.	O
+Van	O
+Sickle,	O
+Dawn	O
+and	O
+dusk	O
+as	O
+motifs	O
+of	O
+opening	O
+or	O
+closure,	O
+in	O
+heroic	O
+and	O
+bucolic	O
+epos	O
+(Homer,	O
+Apollonius,	O
+Theocritus,	O
+Virgil),	O
+in	O
+«Atti	O
+del	O
+Convegno	O
+mondiale	O
+scientifico	O
+di	O
+studi	O
+su	O
+Virgilio,	O
+Mantova,	O
+Roma,	O
+Napoli,	O
+19-24	O
+sett.	O
+1981»,	O
+Milano	O
+1984,	O
+pp.	O
+125	O
+ss.;	O
+
+# Original line: M. F. Ferrini, Espressioni di tempo nell'epica omerica e postomerica, «Giorn. it. fil.» 16, 1985, pp. 15 ss., 26 s., 32 s.;
+M.	O
+F.	O
+Ferrini,	O
+Espressioni	O
+di	O
+tempo	O
+nell'epica	O
+omerica	O
+e	O
+postomerica,	O
+«Giorn.	O
+it.	O
+fil.»	O
+16,	O
+1985,	O
+pp.	O
+15	O
+ss.,	O
+26	O
+s.,	O
+32	O
+s.;	O
+
+# Original line: M. Lombardi, La tradizione letteraria delle notazioni temporali nelle «Ecloghe» di Virgilio, «Quad. Urb.» 50, 1985, pp. 71 ss.;
+M.	O
+Lombardi,	O
+La	O
+tradizione	O
+letteraria	O
+delle	O
+notazioni	O
+temporali	O
+nelle	O
+«Ecloghe»	O
+di	O
+Virgilio,	O
+«Quad.	O
+Urb.»	O
+50,	O
+1985,	O
+pp.	O
+71	O
+ss.;	O
+
+# Original line: M. Fantuzzi, Ricerche su Apollonio Rodio. Diacronie della dizione epica, Urbino 1988
+M.	O
+Fantuzzi,	O
+Ricerche	O
+su	O
+Apollonio	O
+Rodio.	O
+Diacronie	O
+della	O
+dizione	O
+epica,	O
+Urbino	O
+1988	O
+
+# Original line: R. Coleman, Ovid and the antiepic, «Class. Rev.» 81, 1967, pp. 46-51;
+R.	O
+Coleman,	O
+Ovid	O
+and	O
+the	O
+antiepic,	O
+«Class.	O
+Rev.»	O
+81,	O
+1967,	O
+pp.	O
+46-51;	O
+
+# Original line: R. Lamacchia, Precisazioni su alcuni aspetti dell'epica ovidiana, «Atene e Roma» 14, 1969, pp. 14-18;
+R.	O
+Lamacchia,	O
+Precisazioni	O
+su	O
+alcuni	O
+aspetti	O
+dell'epica	O
+ovidiana,	O
+«Atene	O
+e	O
+Roma»	O
+14,	O
+1969,	O
+pp.	O
+14-18;	O
+
+# Original line: G. Κ. Galinsky, L'«Eneide» di Ovidio, «Maia» 28, 1976, pp. 3 ss.;
+G.	O
+Κ.	O
+Galinsky,	O
+L'«Eneide»	O
+di	O
+Ovidio,	O
+«Maia»	O
+28,	O
+1976,	O
+pp.	O
+3	O
+ss.;	O
+
+# Original line: G. Baldo, Il codice epico nelle Metamorfosi di Ovidio, «MD» 16, 1986, pp. 109 ss.
+G.	O
+Baldo,	O
+Il	O
+codice	O
+epico	O
+nelle	O
+Metamorfosi	O
+di	O
+Ovidio,	O
+«MD»	O
+16,	O
+1986,	O
+pp.	O
+109	O
+ss.	O
+
+# Original line: P. Vivante cit., a p. 126
+P.	O
+Vivante	O
+cit.,	O
+a	O
+p.	O
+126	O
+
+# Original line: A. Rohde, De Ovidi arte epica capita duo, Diss. Berolini 1929, p. 15;
+A.	O
+Rohde,	O
+De	O
+Ovidi	O
+arte	O
+epica	O
+capita	O
+duo,	O
+Diss.	O
+Berolini	O
+1929,	O
+p.	O
+15;	O
+
+# Original line: V. Pöschl, Varie narrativa di Ovidio nelle 'Metamorfosi', in «Atti del Convegno Internazionale Ovidiano, Sulmona, maggio 1958», II, Roma 1959, pp. 295 ss.;
+V.	O
+Pöschl,	O
+Varie	O
+narrativa	O
+di	O
+Ovidio	O
+nelle	O
+'Metamorfosi',	O
+in	O
+«Atti	O
+del	O
+Convegno	O
+Internazionale	O
+Ovidiano,	O
+Sulmona,	O
+maggio	O
+1958»,	O
+II,	O
+Roma	O
+1959,	O
+pp.	O
+295	O
+ss.;	O
+
+# Original line: R. Crahay, La vision poétique d'Ovide et l'esthétique baroque, in «Atti...» cit., I, Roma 1959, pp. 91 ss.
+R.	O
+Crahay,	O
+La	O
+vision	O
+poétique	O
+d'Ovide	O
+et	O
+l'esthétique	O
+baroque,	O
+in	O
+«Atti...»	O
+cit.,	O
+I,	O
+Roma	O
+1959,	O
+pp.	O
+91	O
+ss.	O
+
+# Original line: J. Wilkins, Ovid and the Erymanthian Bear, «Mnemosyne» 41, 1988, pp. 379 s.
+J.	O
+Wilkins,	O
+Ovid	O
+and	O
+the	O
+Erymanthian	O
+Bear,	O
+«Mnemosyne»	O
+41,	O
+1988,	O
+pp.	O
+379	O
+s.	O
+
+# Original line: W. S. Anderson, Ovid's Métamorphoses books 6-10, Norman, Oklahoma 1972 ad 9, 419
+W.	O
+S.	O
+Anderson,	O
+Ovid's	O
+Métamorphoses	O
+books	O
+6-10,	O
+Norman,	O
+Oklahoma	O
+1972	O
+ad	O
+9,	O
+419	O
+
+# Original line: met. 1, 199 e 244; 15, 606;
+met.	O
+1,	O
+199	O
+e	O
+244;	O
+15,	O
+606;	O
+
+# Original line: Aen. 5, 148: Tum plausu fremituque virum...; 6, 175 s.
+Aen.	O
+5,	O
+148:	O
+Tum	O
+plausu	O
+fremituque	O
+virum...;	O
+6,	O
+175	O
+s.	O
+
+# Original line: Varrone (ling. 6, 67)
+Varrone	O
+(ling.	O
+6,	O
+67)	O
+
+# Original line: Non. 717 L.: fremere magnum sonare;
+Non.	O
+717	O
+L.:	O
+fremere	O
+magnum	O
+sonare;	O
+
+# Original line: Aen. 11, 453: hoc fremebant «arma, arma» et militaris vox est...
+Aen.	O
+11,	O
+453:	O
+hoc	O
+fremebant	O
+«arma,	O
+arma»	O
+et	O
+militaris	O
+vox	O
+est...	O
+
+# Original line: E. Riganti, Varrone De Lingua Latina libro VI, Bologna 1978
+E.	O
+Riganti,	O
+Varrone	O
+De	O
+Lingua	O
+Latina	O
+libro	O
+VI,	O
+Bologna	O
+1978	O
+
+# Original line: 1, 244 e 9, 419: gli dei; 15, 606: populus
+1,	O
+244	O
+e	O
+9,	O
+419:	O
+gli	O
+dei;	O
+15,	O
+606:	O
+populus	O
+
+# Original line: met. 3, 528: agn che risuonano di ululati; 6, 146: Lydia
+met.	O
+3,	O
+528:	O
+agn	O
+che	O
+risuonano	O
+di	O
+ululati;	O
+6,	O
+146:	O
+Lydia	O
+
+# Original line: met. 3, 704: equus; 4, 719: fera; 5, 627: lupi
+met.	O
+3,	O
+704:	O
+equus;	O
+4,	O
+719:	O
+fera;	O
+5,	O
+627:	O
+lupi	O
+
+# Original line: vento: trist. 1, 2, 25;
+vento:	O
+trist.	O
+1,	O
+2,	O
+25;	O
+
+# Original line: mare: met. 4, 136
+mare:	O
+met.	O
+4,	O
+136	O
+
+# Original line: met. 12, 47
+met.	O
+12,	O
+47	O
+
+# Original line: M. Haupt, H. J. Müller, Ο. Korn, R. Ehwald, M. von Albrecht, P. Ovidius Naso Metamorphosen, I-II, Dublin-Zürich 1966 (rist. 1969);
+M.	O
+Haupt,	O
+H.	O
+J.	O
+Müller,	O
+Ο.	O
+Korn,	O
+R.	O
+Ehwald,	O
+M.	O
+von	O
+Albrecht,	O
+P.	O
+Ovidius	O
+Naso	O
+Metamorphosen,	O
+I-II,	O
+Dublin-Zürich	O
+1966	O
+(rist.	O
+1969);	O
+
+# Original line: J. G. Frazer, P. Ovidii Nasonis Fastorum libri sex, London 1929;
+J.	O
+G.	O
+Frazer,	O
+P.	O
+Ovidii	O
+Nasonis	O
+Fastorum	O
+libri	O
+sex,	O
+London	O
+1929;	O
+
+# Original line: F. Bömer, P. Ovidius Naso, Die Fasten, I-II, Heidelberg 1957-1958;
+F.	O
+Bömer,	O
+P.	O
+Ovidius	O
+Naso,	O
+Die	O
+Fasten,	O
+I-II,	O
+Heidelberg	O
+1957-1958;	O
+
+# Original line: J.C. Me Keown, Ovid: Amores, A commentary on book one, vol. II, Leeds 1989.
+J.C.	O
+Me	O
+Keown,	O
+Ovid:	O
+Amores,	O
+A	O
+commentary	O
+on	O
+book	O
+one,	O
+vol.	O
+II,	O
+Leeds	O
+1989.	O
+
+# Original line: W. H. Roscher; Ausführliches Lexikon der griechischen und römischen Mythologie, voll. I-VI, Leipzig 1884-1937;
+W.	O
+H.	O
+Roscher;	O
+Ausführliches	O
+Lexikon	O
+der	O
+griechischen	O
+und	O
+römischen	O
+Mythologie,	O
+voll.	O
+I-VI,	O
+Leipzig	O
+1884-1937;	O
+
+# Original line: J. B. Carter, Epitheta deorum quae apud poetas Latinos leguntur, Leipzig 1902, Supplementum a Roscher.
+J.	O
+B.	O
+Carter,	O
+Epitheta	O
+deorum	O
+quae	O
+apud	O
+poetas	O
+Latinos	O
+leguntur,	O
+Leipzig	O
+1902,	O
+Supplementum	O
+a	O
+Roscher.	O
+
+# Original line: Anth. lat. 580, 1 R.
+Anth.	O
+lat.	O
+580,	O
+1	O
+R.	O
+
+# Original line: (frg. 584 Pf.).
+(frg.	O
+584	O
+Pf.).	O
+
+# Original line: fast. 5, 159
+fast.	O
+5,	O
+159	O
+
+# Original line: Hyperionis e Bömer ad 6, 567
+Hyperionis	O
+e	O
+Bömer	O
+ad	O
+6,	O
+567	O
+
+# Original line: Hymn. Hom. 31 (Helios), 6
+Hymn.	O
+Hom.	O
+31	O
+(Helios),	O
+6	O
+
+# Original line: Apollod. 1, 8;
+Apollod.	O
+1,	O
+8;	O
+
+# Original line: fab. praef 12.
+fab.	O
+praef	O
+12.	O
+
+# Original line: Forcellini VI, 416
+Forcellini	O
+VI,	O
+416	O
+
+# Original line: Radke e Seel (RE, XVIII, 3, 229, 64 ss.; 234, 36 ss., 47 ss.; 235, 10 ss.)
+Radke	O
+e	O
+Seel	O
+(RE,	O
+XVIII,	O
+3,	O
+229,	O
+64	O
+ss.;	O
+234,	O
+36	O
+ss.,	O
+47	O
+ss.;	O
+235,	O
+10	O
+ss.)	O
+
+# Original line: Hymn. Hom. 4, 100, dove la figlia di Pallas è la Luna
+Hymn.	O
+Hom.	O
+4,	O
+100,	O
+dove	O
+la	O
+figlia	O
+di	O
+Pallas	O
+è	O
+la	O
+Luna	O
+
+# Original line: J. G. Frazer, ad fast. 4, 373 s.
+J.	O
+G.	O
+Frazer,	O
+ad	O
+fast.	O
+4,	O
+373	O
+s.	O
+
+# Original line: Theog. 371-374
+Theog.	O
+371-374	O
+
+# Original line: Theog. 383 s.
+Theog.	O
+383	O
+s.	O
+
+# Original line: fast. 4, 943 s.
+fast.	O
+4,	O
+943	O
+s.	O
+
+# Original line: Röscher, s.v. Eos I, 1, 1261, 43 ss.
+Röscher,	O
+s.v.	O
+Eos	O
+I,	O
+1,	O
+1261,	O
+43	O
+ss.	O
+
+# Original line: Ov. met. 9, 421:
+Ov.	O
+met.	O
+9,	O
+421:	O
+
+# Original line: W. Kroll, Die Dichtersprache, in: W. Kroll, Studien zum Verständnis der römischen Literatur, Stuttgart 1924
+W.	O
+Kroll,	O
+Die	O
+Dichtersprache,	O
+in:	O
+W.	O
+Kroll,	O
+Studien	O
+zum	O
+Verständnis	O
+der	O
+römischen	O
+Literatur,	O
+Stuttgart	O
+1924	O
+
+# Original line: Darmstadt 1964, New YorkLondon 1978), pp. 247-279
+Darmstadt	O
+1964,	O
+New	O
+YorkLondon	O
+1978),	O
+pp.	O
+247-279	O
+
+# Original line: La lingua poetica latina, a cura di A. Lunelli, Bologna 1974, p. 44
+La	O
+lingua	O
+poetica	O
+latina,	O
+a	O
+cura	O
+di	O
+A.	O
+Lunelli,	O
+Bologna	O
+1974,	O
+p.	O
+44	O
+
+# Original line: (3, 150: curri croceis invecta rotis Aurora reducet...)
+(3,	O
+150:	O
+curri	O
+croceis	O
+invecta	O
+rotis	O
+Aurora	O
+reducet...)	O
+
+# Original line: J.C. Me Keown, pp. 339 s. (ad am. 1, 13, 1-2).
+J.C.	O
+Me	O
+Keown,	O
+pp.	O
+339	O
+s.	O
+(ad	O
+am.	O
+1,	O
+13,	O
+1-2).	O
+
+# Original line: 4 Jacoby, frg. 140
+4	O
+Jacoby,	O
+frg.	O
+140	O
+
+# Original line: RE, 6 A, 1518, 18 ss.;
+RE,	O
+6	O
+A,	O
+1518,	O
+18	O
+ss.;	O
+
+# Original line: Roscher, s.v. Eos, I, 1, 1263, 20 ss.
+Roscher,	O
+s.v.	O
+Eos,	O
+I,	O
+1,	O
+1263,	O
+20	O
+ss.	O
+
+# Original line: Men. 854: barbatum, tremulum Tithonum
+Men.	O
+854:	O
+barbatum,	O
+tremulum	O
+Tithonum	O
+
+# Original line: Berlin 1929 ad loc
+Berlin	O
+1929	O
+ad	O
+loc	O
+
+# Original line: Men. frg. 544
+Men.	O
+frg.	O
+544	O
+
+# Original line: Diog. Laert. 4, 51).
+Diog.	O
+Laert.	O
+4,	O
+51).	O
+
+# Original line: H. Dahlmann, Bemerkungen zu Varros Menippea Tithonus, περί γήϱως, in Studien zur Textgeschichte und Textkritik, Köln 1959, pp. 37 ss.
+H.	O
+Dahlmann,	O
+Bemerkungen	O
+zu	O
+Varros	O
+Menippea	O
+Tithonus,	O
+περί	O
+γήϱως,	O
+in	O
+Studien	O
+zur	O
+Textgeschichte	O
+und	O
+Textkritik,	O
+Köln	O
+1959,	O
+pp.	O
+37	O
+ss.	O
+
+# Original line: Per Tithonos si rimanda a RE, 6 A, 1512 ss.
+Per	O
+Tithonos	O
+si	O
+rimanda	O
+a	O
+RE,	O
+6	O
+A,	O
+1512	O
+ss.	O
+
+# Original line: (Cato, 3)
+(Cato,	O
+3)	O
+
+# Original line: georg. 1, 446 s.: ...ubi pallida surget / Tithoni croceum linquens Aurora cubile...; 3, 48
+georg.	O
+1,	O
+446	O
+s.:	O
+...ubi	O
+pallida	O
+surget	O
+/	O
+Tithoni	O
+croceum	O
+linquens	O
+Aurora	O
+cubile...;	O
+3,	O
+48	O
+
+# Original line: Hor. carm. 1, 28, 8; 2, 16, 30; Priap. 57, 4; 76, 4
+Hor.	O
+carm.	O
+1,	O
+28,	O
+8;	O
+2,	O
+16,	O
+30;	O
+Priap.	O
+57,	O
+4;	O
+76,	O
+4	O
+
+# Original line: C. Goldberg, Carmina Priapea, Heidelberg 1992, ad loc
+C.	O
+Goldberg,	O
+Carmina	O
+Priapea,	O
+Heidelberg	O
+1992,	O
+ad	O
+loc	O
+
+# Original line: epist. 18, 111 ss.;
+epist.	O
+18,	O
+111	O
+ss.;	O
+
+# Original line: fast. 1, 461; 4, 943 s.; 6, 473 s.; 6, 729 s.; am. 2, 5, 35
+fast.	O
+1,	O
+461;	O
+4,	O
+943	O
+s.;	O
+6,	O
+473	O
+s.;	O
+6,	O
+729	O
+s.;	O
+am.	O
+2,	O
+5,	O
+35	O
+
+# Original line: J. G. F. Powell, Cicero. Cato Maior de senectute, Cambridge 1988, pp. 101 ss.
+J.	O
+G.	O
+F.	O
+Powell,	O
+Cicero.	O
+Cato	O
+Maior	O
+de	O
+senectute,	O
+Cambridge	O
+1988,	O
+pp.	O
+101	O
+ss.	O
+
+# Original line: W. Headlam, Herondas. The Mimes and Fragments, Cambridge 1922, ad Herond. 10, pp. 411 s.);
+W.	O
+Headlam,	O
+Herondas.	O
+The	O
+Mimes	O
+and	O
+Fragments,	O
+Cambridge	O
+1922,	O
+ad	O
+Herond.	O
+10,	O
+pp.	O
+411	O
+s.);	O
+
+# Original line: RE, VI A, 1518, 65 ss., 1519, 1 ss.
+RE,	O
+VI	O
+A,	O
+1518,	O
+65	O
+ss.,	O
+1519,	O
+1	O
+ss.	O
+
+# Original line: (Aen. 8, 384)
+(Aen.	O
+8,	O
+384)	O
+
+# Original line: J.-M. Frécaut, L'esprit et l'humour chez Ovide, Grenoble 1972, p. 32
+J.-M.	O
+Frécaut,	O
+L'esprit	O
+et	O
+l'humour	O
+chez	O
+Ovide,	O
+Grenoble	O
+1972,	O
+p.	O
+32	O
+
+# Original line: E. Doblhofer, Ovidius urbanus, «Philologus» 104, 1960, pp. 87 ss.
+E.	O
+Doblhofer,	O
+Ovidius	O
+urbanus,	O
+«Philologus»	O
+104,	O
+1960,	O
+pp.	O
+87	O
+ss.	O
+
+# Original line: J. C. Me Keown ad loc.
+J.	O
+C.	O
+Me	O
+Keown	O
+ad	O
+loc.	O
+
+# Original line: Anth. Pal. 5, 171 e 172
+Anth.	O
+Pal.	O
+5,	O
+171	O
+e	O
+172	O
+
+# Original line: Anth. Pal. 5, 3
+Anth.	O
+Pal.	O
+5,	O
+3	O
+
+# Original line: P. Waltz, J. Guillon, Anthologie Palatine, Paris 1960, p. 22)
+P.	O
+Waltz,	O
+J.	O
+Guillon,	O
+Anthologie	O
+Palatine,	O
+Paris	O
+1960,	O
+p.	O
+22)	O
+
+# Original line: F. Bertini, Ovidio, Amori, Milano 1983, p. 52).
+F.	O
+Bertini,	O
+Ovidio,	O
+Amori,	O
+Milano	O
+1983,	O
+p.	O
+52).	O
+
+# Original line: A. G. Elliott, Amores 1. 13: Ovid's Art, «Class. Journ.» 69, 1973, pp. 131 s. e
+A.	O
+G.	O
+Elliott,	O
+Amores	O
+1.	O
+13:	O
+Ovid's	O
+Art,	O
+«Class.	O
+Journ.»	O
+69,	O
+1973,	O
+pp.	O
+131	O
+s.	O
+e	O
+
+# Original line: A.-F. Sabot, Ovide, poète de l'amour dans ses oeuvres de jeunesse, Paris 1976, pp. 477 ss
+A.-F.	O
+Sabot,	O
+Ovide,	O
+poète	O
+de	O
+l'amour	O
+dans	O
+ses	O
+oeuvres	O
+de	O
+jeunesse,	O
+Paris	O
+1976,	O
+pp.	O
+477	O
+ss	O
+
+# Original line: H. Fränkel, Ovid: A poet between two worlds, Berkeley-Los Angeles 1945, pp. 15 s.
+H.	O
+Fränkel,	O
+Ovid:	O
+A	O
+poet	O
+between	O
+two	O
+worlds,	O
+Berkeley-Los	O
+Angeles	O
+1945,	O
+pp.	O
+15	O
+s.	O
+
+# Original line: vv. 47 s.: Iurgia finieram. Sàres audisse: rubebat; / nee tarnen adsueto tardius orta dies
+vv.	O
+47	O
+s.:	O
+Iurgia	O
+finieram.	O
+Sàres	O
+audisse:	O
+rubebat;	O
+/	O
+nee	O
+tarnen	O
+adsueto	O
+tardius	O
+orta	O
+dies	O
+
+# Original line: v. 2: diem;
+v.	O
+2:	O
+diem;	O
+
+# Original line: v. 48: dies
+v.	O
+48:	O
+dies	O
+
+# Original line: G. Β. Conte, L'amore senza elegia: i Remedia amoris e la logica di un genere, in: Ovidio, Rimedi contro l'amore, a cura di C. Lazzarini, Venezia 1986, pp. 22 ss., 27
+G.	O
+Β.	O
+Conte,	O
+L'amore	O
+senza	O
+elegia:	O
+i	O
+Remedia	O
+amoris	O
+e	O
+la	O
+logica	O
+di	O
+un	O
+genere,	O
+in:	O
+Ovidio,	O
+Rimedi	O
+contro	O
+l'amore,	O
+a	O
+cura	O
+di	O
+C.	O
+Lazzarini,	O
+Venezia	O
+1986,	O
+pp.	O
+22	O
+ss.,	O
+27	O
+
+# Original line: cum variatione si verifica tra am. 1, 13 e met. 9, 421
+cum	O
+variatione	O
+si	O
+verifica	O
+tra	O
+am.	O
+1,	O
+13	O
+e	O
+met.	O
+9,	O
+421	O
+
+# Original line: Cefalo, in 7, 700 ss.
+Cefalo,	O
+in	O
+7,	O
+700	O
+ss.	O
+
+# Original line: met. 13, 576 ss.
+met.	O
+13,	O
+576	O
+ss.	O
+
+# Original line: Prop. 2, 18a, 15 s
+Prop.	O
+2,	O
+18a,	O
+15	O
+s	O
+
+# Original line: met. 9, 421, sia am. 1, 13, che Prop. 2, 18a;
+met.	O
+9,	O
+421,	O
+sia	O
+am.	O
+1,	O
+13,	O
+che	O
+Prop.	O
+2,	O
+18a;	O
+
+# Original line: 18, 111: Iamque fugatura Tithoni coniuge noctem / praevius Aurorae Lucifer ortus erat...
+18,	O
+111:	O
+Iamque	O
+fugatura	O
+Tithoni	O
+coniuge	O
+noctem	O
+/	O
+praevius	O
+Aurorae	O
+Lucifer	O
+ortus	O
+erat...	O
+
+# Original line: met. 2, 111 ss. (donna); 7, 703 ss. (amante); 13, 576 ss., 587 ss., 621 s.
+met.	O
+2,	O
+111	O
+ss.	O
+(donna);	O
+7,	O
+703	O
+ss.	O
+(amante);	O
+13,	O
+576	O
+ss.,	O
+587	O
+ss.,	O
+621	O
+s.	O
+
+# Original line: F. Giordano, Concezione del tempo e struttura compositiva dei Tristia, in «Cultura poesia ideologia nell'opera di Ovidio», Napoli 1991, pp. 253 ss.
+F.	O
+Giordano,	O
+Concezione	O
+del	O
+tempo	O
+e	O
+struttura	O
+compositiva	O
+dei	O
+Tristia,	O
+in	O
+«Cultura	O
+poesia	O
+ideologia	O
+nell'opera	O
+di	O
+Ovidio»,	O
+Napoli	O
+1991,	O
+pp.	O
+253	O
+ss.	O
+
+# Original line: C. Segai, Cephalus and Procris. Myth and Tragedy, in «Grazer Beiträge» 7, 1978, p. 196
+C.	O
+Segai,	O
+Cephalus	O
+and	O
+Procris.	O
+Myth	O
+and	O
+Tragedy,	O
+in	O
+«Grazer	O
+Beiträge»	O
+7,	O
+1978,	O
+p.	O
+196	O
+
+# Original line: P. Green, The Innocence of Procris: Ovid A.A. 3, 687-746, «Class. Journ.» 75, 1979, p. 23
+P.	O
+Green,	O
+The	O
+Innocence	O
+of	O
+Procris:	O
+Ovid	O
+A.A.	O
+3,	O
+687-746,	O
+«Class.	O
+Journ.»	O
+75,	O
+1979,	O
+p.	O
+23	O
+
+# Original line: Sole...: cf. n. 83
+Sole...:	O
+cf.	O
+n.	O
+83	O
+
+# Original line: Lucr. 2, 144 ss.;
+Lucr.	O
+2,	O
+144	O
+ss.;	O
+
+# Original line: georg. 3, 338;
+georg.	O
+3,	O
+338;	O
+
+# Original line: Aen. 8, 455 s.;
+Aen.	O
+8,	O
+455	O
+s.;	O
+
+# Original line: Sen. Herc. f. 146-151
+Sen.	O
+Herc.	O
+f.	O
+146-151	O
+
+# Original line: fast., 2, 767
+fast.,	O
+2,	O
+767	O
+
+# Original line: «scuotersi da se stesso»: v. 621
+«scuotersi	O
+da	O
+se	O
+stesso»:	O
+v.	O
+621	O
+
+# Original line: epist. 122, 11-13
+epist.	O
+122,	O
+11-13	O
+
+# Original line: met. 3, 50; 142 s.; 14, 53 s.
+met.	O
+3,	O
+50;	O
+142	O
+s.;	O
+14,	O
+53	O
+s.	O
+
+# Original line: Metamorfosi e Ars amatoria (3, 723).
+Metamorfosi	O
+e	O
+Ars	O
+amatoria	O
+(3,	O
+723).	O
+
+# Original line: Fasti (3, 415; 6, 473 s.)
+Fasti	O
+(3,	O
+415;	O
+6,	O
+473	O
+s.)	O
+
+# Original line: Aen. 4, 129 = 11, 1;
+Aen.	O
+4,	O
+129	O
+=	O
+11,	O
+1;	O
+
+# Original line: Bibac. carm. frg. 7 Büch.;
+Bibac.	O
+carm.	O
+frg.	O
+7	O
+Büch.;	O
+
+# Original line: Hom. Od. 12, 1 ss.; 19, 433 s.; 22, 197...
+Hom.	O
+Od.	O
+12,	O
+1	O
+ss.;	O
+19,	O
+433	O
+s.;	O
+22,	O
+197...	O
+
+# Original line: met. 4, 91 s., 633 s.; 7, 324 s.; 11, 257 s.; 15, 30 s.
+met.	O
+4,	O
+91	O
+s.,	O
+633	O
+s.;	O
+7,	O
+324	O
+s.;	O
+11,	O
+257	O
+s.;	O
+15,	O
+30	O
+s.	O
+
+# Original line: met. 2, 63 s.
+met.	O
+2,	O
+63	O
+s.	O
+
+# Original line: Mane erat; egreditur tectis... (nell'episodio di Ceice e Alcione); 15, 192 s.
+Mane	O
+erat;	O
+egreditur	O
+tectis...	O
+(nell'episodio	O
+di	O
+Ceice	O
+e	O
+Alcione);	O
+15,	O
+192	O
+s.	O
+
+# Original line: Mane eratt et thalamo cara recepta soror...; 14, 79
+Mane	O
+eratt	O
+et	O
+thalamo	O
+cara	O
+recepta	O
+soror...;	O
+14,	O
+79	O
+
+# Original line: Mane erat, et Danaus...; fast. 1, 547
+Mane	O
+erat,	O
+et	O
+Danaus...;	O
+fast.	O
+1,	O
+547	O
+
+# Original line: di fast. 6, 199
+di	O
+fast.	O
+6,	O
+199	O
+
+# Original line: Prop. 2, 29, 23
+Prop.	O
+2,	O
+29,	O
+23	O
+
+# Original line: Georgiche (1, 440; 2, 462; 3, 325; 4, 185)
+Georgiche	O
+(1,	O
+440;	O
+2,	O
+462;	O
+3,	O
+325;	O
+4,	O
+185)	O
+
+# Original line: Leucotoe: 4, 194 ss.: Nempe, tuis omnes qui terras ignibus uris, / ureris igne novo; quique omnia cernere debes, / Leucothoen spectas et virgine figis in una, / quos mando debes, oculos...
+Leucotoe:	O
+4,	O
+194	O
+ss.:	O
+Nempe,	O
+tuis	O
+omnes	O
+qui	O
+terras	O
+ignibus	O
+uris,	O
+/	O
+ureris	O
+igne	O
+novo;	O
+quique	O
+omnia	O
+cernere	O
+debes,	O
+/	O
+Leucothoen	O
+spectas	O
+et	O
+virgine	O
+figis	O
+in	O
+una,	O
+/	O
+quos	O
+mando	O
+debes,	O
+oculos...	O
+
+# Original line: mondo (2, 381 ss.)
+mondo	O
+(2,	O
+381	O
+ss.)	O
+
+# Original line: Ceice (11, 570 ss.).
+Ceice	O
+(11,	O
+570	O
+ss.).	O
+
+# Original line: Aen. 3, 521; 5, 42 s.; 10, 257;
+Aen.	O
+3,	O
+521;	O
+5,	O
+42	O
+s.;	O
+10,	O
+257;	O
+
+# Original line: Aen. 9, 78, 109
+Aen.	O
+9,	O
+78,	O
+109	O
+
+# Original line: ecl. 1, 21; 3, 82
+ecl.	O
+1,	O
+21;	O
+3,	O
+82	O
+
+# Original line: georg. 3, 187
+georg.	O
+3,	O
+187	O
+
+# Original line: Georgiche (4, 51: ubi pulsam hiemem sol aureus egit...)
+Georgiche	O
+(4,	O
+51:	O
+ubi	O
+pulsam	O
+hiemem	O
+sol	O
+aureus	O
+egit...)	O
+
+# Original line: H. Blümner, Die Farbenbezeichnungen bei den römischen Dichtern, Berlin 1892;
+H.	O
+Blümner,	O
+Die	O
+Farbenbezeichnungen	O
+bei	O
+den	O
+römischen	O
+Dichtern,	O
+Berlin	O
+1892;	O
+
+# Original line: G. Mayer, Die Farbenbezeichnung bei Ovid, Diss. Erlangen, Bamberg 1934, pp. 47 s.;
+G.	O
+Mayer,	O
+Die	O
+Farbenbezeichnung	O
+bei	O
+Ovid,	O
+Diss.	O
+Erlangen,	O
+Bamberg	O
+1934,	O
+pp.	O
+47	O
+s.;	O
+
+# Original line: J. André, Etude sur les termes de couleur dans la langue latine ·, Paris 1949, pp. 151 ss.
+J.	O
+André,	O
+Etude	O
+sur	O
+les	O
+termes	O
+de	O
+couleur	O
+dans	O
+la	O
+langue	O
+latine	O
+·,	O
+Paris	O
+1949,	O
+pp.	O
+151	O
+ss.	O
+
+# Original line: V. Pöschl, Kephalos und Prokris, «Hermes» 87, 1959, pp. 335 s.
+V.	O
+Pöschl,	O
+Kephalos	O
+und	O
+Prokris,	O
+«Hermes»	O
+87,	O
+1959,	O
+pp.	O
+335	O
+s.	O
+
+# Original line: Od. 5, 209 ss., 215 ss.
+Od.	O
+5,	O
+209	O
+ss.,	O
+215	O
+ss.	O
+
+# Original line: (Ov. met. 7, 661-865), «Ann. Se. Norm. Pisa» s. III, 5, 1, 1975, pp. 110 ss.
+(Ov.	O
+met.	O
+7,	O
+661-865),	O
+«Ann.	O
+Se.	O
+Norm.	O
+Pisa»	O
+s.	O
+III,	O
+5,	O
+1,	O
+1975,	O
+pp.	O
+110	O
+ss.	O
+
+# Original line: Dafne (1, 512 ss.);
+Dafne	O
+(1,	O
+512	O
+ss.);	O
+
+# Original line: Leucotoe (4, 226 ss.)
+Leucotoe	O
+(4,	O
+226	O
+ss.)	O
+
+# Original line: Galatea (13, 810 ss.);
+Galatea	O
+(13,	O
+810	O
+ss.);	O
+
+# Original line: epist. 4, 159 ss.
+epist.	O
+4,	O
+159	O
+ss.	O
+
+# Original line: C. Segai, Cephalus and Procris... cit., pp. 190 ss.
+C.	O
+Segai,	O
+Cephalus	O
+and	O
+Procris...	O
+cit.,	O
+pp.	O
+190	O
+ss.	O
+
+# Original line: H. Blümner, Die Farbenbezeichnungen... cit., pp. 202 ss.
+H.	O
+Blümner,	O
+Die	O
+Farbenbezeichnungen...	O
+cit.,	O
+pp.	O
+202	O
+ss.	O
+
+# Original line: J. André, Etude sur les termes de couleur... cit., pp. 111 ss.,
+J.	O
+André,	O
+Etude	O
+sur	O
+les	O
+termes	O
+de	O
+couleur...	O
+cit.,	O
+pp.	O
+111	O
+ss.,	O
+
+# Original line: Lucr. 5, 656 (r. auroram)
+Lucr.	O
+5,	O
+656	O
+(r.	O
+auroram)	O
+
+# Original line: Ov. ars 3, 84 (r. dea);
+Ov.	O
+ars	O
+3,	O
+84	O
+(r.	O
+dea);	O
+
+# Original line: Culex 44 (crinibus...roseis)
+Culex	O
+44	O
+(crinibus...roseis)	O
+
+# Original line: Apul. met. 3, 1, 1
+Apul.	O
+met.	O
+3,	O
+1,	O
+1	O
+
+# Original line: Theoer. 15, 128
+Theoer.	O
+15,	O
+128	O
+
+# Original line: Aen. 6, 535 (r. quadngis), 7, 26 (r. bigis);
+Aen.	O
+6,	O
+535	O
+(r.	O
+quadngis),	O
+7,	O
+26	O
+(r.	O
+bigis);	O
+
+# Original line: Eleg. in Maecen. 1, 125 (r. bigas);
+Eleg.	O
+in	O
+Maecen.	O
+1,	O
+125	O
+(r.	O
+bigas);	O
+
+# Original line: Fl. 2, 261;
+Fl.	O
+2,	O
+261;	O
+
+# Original line: Tib. 1, 3, 94.
+Tib.	O
+1,	O
+3,	O
+94.	O
+
+# Original line: papillae: Catull. 55, 12;
+papillae:	O
+Catull.	O
+55,	O
+12;	O
+
+# Original line: Aen. 12, 606;
+Aen.	O
+12,	O
+606;	O
+
+# Original line: Lydia, 11;
+Lydia,	O
+11;	O
+
+# Original line: Ov. am. 3, 3, 5...
+Ov.	O
+am.	O
+3,	O
+3,	O
+5...	O
+
+# Original line: Verg. Aen. 1, 402
+Verg.	O
+Aen.	O
+1,	O
+402	O
+
+# Original line: Apul. met. 4, 31, 4
+Apul.	O
+met.	O
+4,	O
+31,	O
+4	O
+
+# Original line: pueri delicati (7, 80, 9; 8, 55, 15...).
+pueri	O
+delicati	O
+(7,	O
+80,	O
+9;	O
+8,	O
+55,	O
+15...).	O
+
+# Original line: Cattili. 63, 74
+Cattili.	O
+63,	O
+74	O
+
+# Original line: labellis: 63, 74;
+labellis:	O
+63,	O
+74;	O
+
+# Original line: labella: 80, 1
+labella:	O
+80,	O
+1	O
+
+# Original line: P. Flobert, Catulle et les cheveaux des Parques (LXIV, 309), «Rev. Ét. Lat.» 54, 1976, pp. 144 ss.
+P.	O
+Flobert,	O
+Catulle	O
+et	O
+les	O
+cheveaux	O
+des	O
+Parques	O
+(LXIV,	O
+309),	O
+«Rev.	O
+Ét.	O
+Lat.»	O
+54,	O
+1976,	O
+pp.	O
+144	O
+ss.	O
+
+# Original line: am. 1, 13, 47 s.
+am.	O
+1,	O
+13,	O
+47	O
+s.	O
+
+# Original line: trist. 3, 5, 55 s.
+trist.	O
+3,	O
+5,	O
+55	O
+s.	O
+
+# Original line: epist. 4, 72
+epist.	O
+4,	O
+72	O
+
+# Original line: am. 2, 5, 34 ss.
+am.	O
+2,	O
+5,	O
+34	O
+ss.	O
+
+# Original line: Si veda la n. 53
+Si	O
+veda	O
+la	O
+n.	O
+53	O
+
+# Original line: Prop. 3, 24, 7
+Prop.	O
+3,	O
+24,	O
+7	O
+
+# Original line: P. Fedeli, Properzio, Il libro terzo delle elegie, Bari 1985, ad loc.
+P.	O
+Fedeli,	O
+Properzio,	O
+Il	O
+libro	O
+terzo	O
+delle	O
+elegie,	O
+Bari	O
+1985,	O
+ad	O
+loc.	O
+
+# Original line: J. André, Paris 1977: «levres»
+J.	O
+André,	O
+Paris	O
+1977:	O
+«levres»	O
+
+# Original line: Sii. 7, 448
+Sii.	O
+7,	O
+448	O
+
+# Original line: Mart. 11, 56, 12
+Mart.	O
+11,	O
+56,	O
+12	O
+
+# Original line: Theb. 3, 440 s.
+Theb.	O
+3,	O
+440	O
+s.	O
+
+# Original line: georg. 1, 430 s.
+georg.	O
+1,	O
+430	O
+s.	O
+
+# Original line: R. F. Thomas, Virgil Georgics, Cambridge 1988, ad loc.,
+R.	O
+F.	O
+Thomas,	O
+Virgil	O
+Georgics,	O
+Cambridge	O
+1988,	O
+ad	O
+loc.,	O
+
+# Original line: J. Conington, H. Nettleship, The Works of Virgil, London 1898
+J.	O
+Conington,	O
+H.	O
+Nettleship,	O
+The	O
+Works	O
+of	O
+Virgil,	O
+London	O
+1898	O
+
+# Original line: R. G. Austin, P. Vergili Maronis Aeneidos liber secundus, Oxford 1964
+R.	O
+G.	O
+Austin,	O
+P.	O
+Vergili	O
+Maronis	O
+Aeneidos	O
+liber	O
+secundus,	O
+Oxford	O
+1964	O
+
+# Original line: Ad esempio: Aen. 3, 463
+Ad	O
+esempio:	O
+Aen.	O
+3,	O
+463	O
+
+# Original line: est; 4, 276; 7, 194 e 451; 11, 251.
+est;	O
+4,	O
+276;	O
+7,	O
+194	O
+e	O
+451;	O
+11,	O
+251.	O
+
+# Original line: Passi citati alle nn. 1-3.
+Passi	O
+citati	O
+alle	O
+nn.	O
+1-3.	O
+
+# Original line: Il ThlL (IV, 217, 1 ss.)
+Il	O
+ThlL	O
+(IV,	O
+217,	O
+1	O
+ss.)	O
+
+# Original line: fast. 5, 187
+fast.	O
+5,	O
+187	O
+
+# Original line: Apul. met. 2, 17, 5
+Apul.	O
+met.	O
+2,	O
+17,	O
+5	O
+
+# Original line: Amm. 19, 6, 11
+Amm.	O
+19,	O
+6,	O
+11	O
+
+# Original line: Aen. 6, 402, 575...,
+Aen.	O
+6,	O
+402,	O
+575...,	O
+
+# Original line: met. 10, 383;
+met.	O
+10,	O
+383;	O
+
+# Original line: fast. 1, 173,
+fast.	O
+1,	O
+173,	O
+
+# Original line: am. 1, 6, 63 s.; 1, 9, 19
+am.	O
+1,	O
+6,	O
+63	O
+s.;	O
+1,	O
+9,	O
+19	O
+
+# Original line: Prop. 2, 6, 24,
+Prop.	O
+2,	O
+6,	O
+24,	O
+
+# Original line: P. J. Enk, Sex. Propertii elegiarum liber secundus, Lugduni Batavorum 1962, ad loc.;
+P.	O
+J.	O
+Enk,	O
+Sex.	O
+Propertii	O
+elegiarum	O
+liber	O
+secundus,	O
+Lugduni	O
+Batavorum	O
+1962,	O
+ad	O
+loc.;	O
+
+# Original line: Theb. 10, 89:
+Theb.	O
+10,	O
+89:	O
+
+# Original line: Borner ad met. 10, 383
+Borner	O
+ad	O
+met.	O
+10,	O
+383	O
+
+# Original line: E. Norden, P. Vergilius Maro, Aeneis Buch VI, Darmstadt 1957, ad Aen. 6, 402
+E.	O
+Norden,	O
+P.	O
+Vergilius	O
+Maro,	O
+Aeneis	O
+Buch	O
+VI,	O
+Darmstadt	O
+1957,	O
+ad	O
+Aen.	O
+6,	O
+402	O
+
+# Original line: nat. 14, 108
+nat.	O
+14,	O
+108	O
+
+# Original line: Sil. 14, 199
+Sil.	O
+14,	O
+199	O
+
+# Original line: Mart. 13, 108
+Mart.	O
+13,	O
+108	O
+
+# Original line: Apul. flor. 20, 4;
+Apul.	O
+flor.	O
+20,	O
+4;	O
+
+# Original line: met. 2, 10, 4...
+met.	O
+2,	O
+10,	O
+4...	O
+
+# Original line: Maecen. 1, 119
+Maecen.	O
+1,	O
+119	O
+
+# Original line: ed. 8, 17
+ed.	O
+8,	O
+17	O
+
+# Original line: Aen. 1, 305
+Aen.	O
+1,	O
+305	O
+
+# Original line: Ciris 349
+Ciris	O
+349	O
+
+# Original line: Hor. carm. 4, 7, 7 s.
+Hor.	O
+carm.	O
+4,	O
+7,	O
+7	O
+s.	O
+
+# Original line: Manil. 3, 187;
+Manil.	O
+3,	O
+187;	O
+
+# Original line: CE 880, 2
+CE	O
+880,	O
+2	O
+
+# Original line: Borner ad met. 7, 835
+Borner	O
+ad	O
+met.	O
+7,	O
+835	O
+
+# Original line: FGrHist 3 F 34
+FGrHist	O
+3	O
+F	O
+34	O
+
+# Original line: «MD» 2, 1979, p. 135, n. 54
+«MD»	O
+2,	O
+1979,	O
+p.	O
+135,	O
+n.	O
+54	O
+
+# Original line: G. Β. Conte, Memoria dei poeti e sistema letterario, Torino 1974
+G.	O
+Β.	O
+Conte,	O
+Memoria	O
+dei	O
+poeti	O
+e	O
+sistema	O
+letterario,	O
+Torino	O
+1974	O
+
+# Original line: E. Pianezzola, Ovidio, Varte di amare, Milano 1991, p. 416
+E.	O
+Pianezzola,	O
+Ovidio,	O
+Varte	O
+di	O
+amare,	O
+Milano	O
+1991,	O
+p.	O
+416	O
+
+# Original line: ars 3, 723-724.
+ars	O
+3,	O
+723-724.	O
+
+# Original line: Ciparisso: 10, 126 ss.;
+Ciparisso:	O
+10,	O
+126	O
+ss.;	O
+
+# Original line: Giacinto e Apollo: 10, 174 ss.
+Giacinto	O
+e	O
+Apollo:	O
+10,	O
+174	O
+ss.	O
+
+# Original line: Atteone, in 3, 144 ss., 150 s.;
+Atteone,	O
+in	O
+3,	O
+144	O
+ss.,	O
+150	O
+s.;	O
+
+# Original line: Scilla, 8, 81 ss.;
+Scilla,	O
+8,	O
+81	O
+ss.;	O
+
+# Original line: Mirra, 10, 368 ss.
+Mirra,	O
+10,	O
+368	O
+ss.	O
+
+# Original line: F. W. Lenz, Kephalos und Prokns in Ovids Ars amatoria, «Maia» 14, 1962, pp. 183 s.
+F.	O
+W.	O
+Lenz,	O
+Kephalos	O
+und	O
+Prokns	O
+in	O
+Ovids	O
+Ars	O
+amatoria,	O
+«Maia»	O
+14,	O
+1962,	O
+pp.	O
+183	O
+s.	O
+
+# Original line: J. Fontenrose, Ovid's Procrìs, «Class. Journ.» 75, 1979, p. 289
+J.	O
+Fontenrose,	O
+Ovid's	O
+Procrìs,	O
+«Class.	O
+Journ.»	O
+75,	O
+1979,	O
+p.	O
+289	O
+
+# Original line: Varro ling. 5, 24;
+Varro	O
+ling.	O
+5,	O
+24;	O
+
+# Original line: Prise, gramm. III, 509, 27 s.,
+Prise,	O
+gramm.	O
+III,	O
+509,	O
+27	O
+s.,	O
+
+# Original line: P. Green, The Innocence of Procris... cit., pp. 15 ss.
+P.	O
+Green,	O
+The	O
+Innocence	O
+of	O
+Procris...	O
+cit.,	O
+pp.	O
+15	O
+ss.	O
+
+# Original line: J. Fontenrose, Ovid's Procris... cit., p. 290
+J.	O
+Fontenrose,	O
+Ovid's	O
+Procris...	O
+cit.,	O
+p.	O
+290	O
+
+# Original line: Sen. nat. 1, 2, 6
+Sen.	O
+nat.	O
+1,	O
+2,	O
+6	O
+
+# Original line: Aen. 8, 22 ss.
+Aen.	O
+8,	O
+22	O
+ss.	O
+
+# Original line: Od. 19, 433 s.
+Od.	O
+19,	O
+433	O
+s.	O
+
+# Original line: Ap. Rh. 1, 1273 s.
+Ap.	O
+Rh.	O
+1,	O
+1273	O
+s.	O
+
+# Original line: Aen. 12, 113 s.
+Aen.	O
+12,	O
+113	O
+s.	O
+
+# Original line: Sil. 9, 33 s.
+Sil.	O
+9,	O
+33	O
+s.	O
+
+# Original line: ThlL VI, 1, 509, 9 ss.; 510, 73 ss.
+ThlL	O
+VI,	O
+1,	O
+509,	O
+9	O
+ss.;	O
+510,	O
+73	O
+ss.	O
+
+# Original line: OLD 686
+OLD	O
+686	O
+
+# Original line: al v. 836
+al	O
+v.	O
+836	O
+
+# Original line: met. 5, 570 s.
+met.	O
+5,	O
+570	O
+s.	O
+
+# Original line: sopra, pp. 72 ss.
+sopra,	O
+pp.	O
+72	O
+ss.	O
+
+# Original line: M. Labate, Amore coniugale e amore 'elegiaco'... cit., pp. 117 ss., 123 ss., 126 s.;
+M.	O
+Labate,	O
+Amore	O
+coniugale	O
+e	O
+amore	O
+'elegiaco'...	O
+cit.,	O
+pp.	O
+117	O
+ss.,	O
+123	O
+ss.,	O
+126	O
+s.;	O
+
+# Original line: G. Davis, The Death of Procris, Roma 1983, pp. 131, 133.
+G.	O
+Davis,	O
+The	O
+Death	O
+of	O
+Procris,	O
+Roma	O
+1983,	O
+pp.	O
+131,	O
+133.	O
+
+# Original line: M. Labate, Amore coniugale e amore 'elegiaco'... cit., pp. 108 s.; 117 s.
+M.	O
+Labate,	O
+Amore	O
+coniugale	O
+e	O
+amore	O
+'elegiaco'...	O
+cit.,	O
+pp.	O
+108	O
+s.;	O
+117	O
+s.	O
+
+# Original line: M. Labate, Amore coniugale e amore 'elegiaco'... cit., pp. 126 s.
+M.	O
+Labate,	O
+Amore	O
+coniugale	O
+e	O
+amore	O
+'elegiaco'...	O
+cit.,	O
+pp.	O
+126	O
+s.	O
+
+# Original line: G. Huber Rebenich, Beobachtungen zur Feuermetaphorìk im Sermo amatorius in Ovids Metamorphosen, «Rhein. Mus.» 137, 1994, p. 132
+G.	O
+Huber	O
+Rebenich,	O
+Beobachtungen	O
+zur	O
+Feuermetaphorìk	O
+im	O
+Sermo	O
+amatorius	O
+in	O
+Ovids	O
+Metamorphosen,	O
+«Rhein.	O
+Mus.»	O
+137,	O
+1994,	O
+p.	O
+132	O
+
+# Original line: J.-M. Frécaut, L'espnt et l'humour... cit, pp. 32 s.,
+J.-M.	O
+Frécaut,	O
+L'espnt	O
+et	O
+l'humour...	O
+cit,	O
+pp.	O
+32	O
+s.,	O
+
+# Original line: H. Fränkel, Ovid: a poet between two worlds... cit., p. 214, n. 35
+H.	O
+Fränkel,	O
+Ovid:	O
+a	O
+poet	O
+between	O
+two	O
+worlds...	O
+cit.,	O
+p.	O
+214,	O
+n.	O
+35	O
+
+# Original line: met. 4, 192 ss.
+met.	O
+4,	O
+192	O
+ss.	O
+
+# Original line: R. Sciava, Procri, Cefalo e l'Aurora, «Athenaeum» 4, 1916, pp. 181 ss.;
+R.	O
+Sciava,	O
+Procri,	O
+Cefalo	O
+e	O
+l'Aurora,	O
+«Athenaeum»	O
+4,	O
+1916,	O
+pp.	O
+181	O
+ss.;	O
+
+# Original line: A. Rohde cit, pp. 42 ss.;
+A.	O
+Rohde	O
+cit,	O
+pp.	O
+42	O
+ss.;	O
+
+# Original line: V. Pöschl, Kephalos und Prokris... cit., pp. 328 ss.;
+V.	O
+Pöschl,	O
+Kephalos	O
+und	O
+Prokris...	O
+cit.,	O
+pp.	O
+328	O
+ss.;	O
+
+# Original line: B. Otis, Ovid as an Epie Poet, Cambridge 1966
+B.	O
+Otis,	O
+Ovid	O
+as	O
+an	O
+Epie	O
+Poet,	O
+Cambridge	O
+1966	O
+
+# Original line: l'Appendice aile pp. 381 ss.;
+l'Appendice	O
+aile	O
+pp.	O
+381	O
+ss.;	O
+
+# Original line: G. K. Galinsky, Ovid's Metamorphoses, Oxford 1975, pp. 151 ss.;
+G.	O
+K.	O
+Galinsky,	O
+Ovid's	O
+Metamorphoses,	O
+Oxford	O
+1975,	O
+pp.	O
+151	O
+ss.;	O
+
+# Original line: M. Labate, Amore coniugale e amore 'elegiaco'... cit, pp. 103 ss.;
+M.	O
+Labate,	O
+Amore	O
+coniugale	O
+e	O
+amore	O
+'elegiaco'...	O
+cit,	O
+pp.	O
+103	O
+ss.;	O
+
+# Original line: C. Segal, Cephalus and Procris... cit., pp. 178 ss.;
+C.	O
+Segal,	O
+Cephalus	O
+and	O
+Procris...	O
+cit.,	O
+pp.	O
+178	O
+ss.;	O
+
+# Original line: P. Green, The Innocence of Procris... cit., pp. 15 ss.;
+P.	O
+Green,	O
+The	O
+Innocence	O
+of	O
+Procris...	O
+cit.,	O
+pp.	O
+15	O
+ss.;	O
+
+# Original line: A. Sabot, Heur et malheur d'un amour conjugal: Céphale et Procris (Ov. met. VII, 661-862), «Journées Ovidiennes de Parménie. Actes du colloque sur Ovide, 24-26 Juine 1983», Bruxelles 1985, pp. 199 ss.
+A.	O
+Sabot,	O
+Heur	O
+et	O
+malheur	O
+d'un	O
+amour	O
+conjugal:	O
+Céphale	O
+et	O
+Procris	O
+(Ov.	O
+met.	O
+VII,	O
+661-862),	O
+«Journées	O
+Ovidiennes	O
+de	O
+Parménie.	O
+Actes	O
+du	O
+colloque	O
+sur	O
+Ovide,	O
+24-26	O
+Juine	O
+1983»,	O
+Bruxelles	O
+1985,	O
+pp.	O
+199	O
+ss.	O
+
+# Original line: Börner, vol. III, p. 366
+Börner,	O
+vol.	O
+III,	O
+p.	O
+366	O
+
+# Original line: FGrHist 3F34
+FGrHist	O
+3F34	O
+
+# Original line: M V Hom. Od. 11, 321;
+M	O
+V	O
+Hom.	O
+Od.	O
+11,	O
+321;	O
+
+# Original line: Ovidio (ars e met.);
+Ovidio	O
+(ars	O
+e	O
+met.);	O
+
+# Original line: Hyg. fah. 189;
+Hyg.	O
+fah.	O
+189;	O
+
+# Original line: Antonin. Lib. 41;
+Antonin.	O
+Lib.	O
+41;	O
+
+# Original line: Apollod. 3, 197 s.;
+Apollod.	O
+3,	O
+197	O
+s.;	O
+
+# Original line: Serv. Aen. 6, 445
+Serv.	O
+Aen.	O
+6,	O
+445	O
+
+# Original line: (fab. 189)
+(fab.	O
+189)	O
+
+# Original line: P. Green, The Innocence of Procris... cit., p. 23
+P.	O
+Green,	O
+The	O
+Innocence	O
+of	O
+Procris...	O
+cit.,	O
+p.	O
+23	O
+
+# Original line: nell'Ars amatoria (3, 686 ss.)
+nell'Ars	O
+amatoria	O
+(3,	O
+686	O
+ss.)	O
+
+# Original line: C. Segai, Cephalus and Procris... cit., p. 196
+C.	O
+Segai,	O
+Cephalus	O
+and	O
+Procris...	O
+cit.,	O
+p.	O
+196	O
+
+# Original line: Alle pp. 189 ss.
+Alle	O
+pp.	O
+189	O
+ss.	O
+
+# Original line: met. 1, 354
+met.	O
+1,	O
+354	O
+
+# Original line: Od. 11, 15 s.;
+Od.	O
+11,	O
+15	O
+s.;	O
+
+# Original line: K. Kost, Musaios Hero und Leander, Bonn 1971, pp. 136 e 491 s.;
+K.	O
+Kost,	O
+Musaios	O
+Hero	O
+und	O
+Leander,	O
+Bonn	O
+1971,	O
+pp.	O
+136	O
+e	O
+491	O
+s.;	O
+
+# Original line: H. Fränkel, Noten zu den Argonautika... cit., p. 81
+H.	O
+Fränkel,	O
+Noten	O
+zu	O
+den	O
+Argonautika...	O
+cit.,	O
+p.	O
+81	O
+
+# Original line: Saffo, fr. 104a L.-P.
+Saffo,	O
+fr.	O
+104a	O
+L.-P.	O
+
+# Original line: E. Degani, G. Burzacchini, Lirici greci, Firenze 1980, pp. 173 s.
+E.	O
+Degani,	O
+G.	O
+Burzacchini,	O
+Lirici	O
+greci,	O
+Firenze	O
+1980,	O
+pp.	O
+173	O
+s.	O
+
+# Original line: mesi: vv. 565 ss.
+mesi:	O
+vv.	O
+565	O
+ss.	O
+
+# Original line: Cattili. 61, 56 ss.; 62, 20 ss.
+Cattili.	O
+61,	O
+56	O
+ss.;	O
+62,	O
+20	O
+ss.	O
+
+# Original line: infra: udis capillis
+infra:	O
+udis	O
+capillis	O
+
+# Original line: (Hymn. 6, 7 s.),
+(Hymn.	O
+6,	O
+7	O
+s.),	O
+
+# Original line: Fasti (4, 417 ss.)
+Fasti	O
+(4,	O
+417	O
+ss.)	O
+
+# Original line: Th. W. Allen, W. R. Halliday, E. E. Sikes, The Homeric Hymns, Oxford 1936
+Th.	O
+W.	O
+Allen,	O
+W.	O
+R.	O
+Halliday,	O
+E.	O
+E.	O
+Sikes,	O
+The	O
+Homeric	O
+Hymns,	O
+Oxford	O
+1936	O
+
+# Original line: Hymn. Hom. 2, 75
+Hymn.	O
+Hom.	O
+2,	O
+75	O
+
+# Original line: L. P. Wilkinson, Ovid recalled, Cambridge 1955, p. 149.
+L.	O
+P.	O
+Wilkinson,	O
+Ovid	O
+recalled,	O
+Cambridge	O
+1955,	O
+p.	O
+149.	O
+
+# Original line: S. Hinds, The Metamorphosis of Persephone. Ovid and the self-conscious Muse, Cambridge 1987, pp. 51-98
+S.	O
+Hinds,	O
+The	O
+Metamorphosis	O
+of	O
+Persephone.	O
+Ovid	O
+and	O
+the	O
+self-conscious	O
+Muse,	O
+Cambridge	O
+1987,	O
+pp.	O
+51-98	O
+
+# Original line: nell'Inno omerico a Demetra (v. 51)
+nell'Inno	O
+omerico	O
+a	O
+Demetra	O
+(v.	O
+51)	O
+
+# Original line: Varrò ling. 5, 23-24
+Varrò	O
+ling.	O
+5,	O
+23-24	O
+
+# Original line: met. 13, 584
+met.	O
+13,	O
+584	O
+
+# Original line: Culex 44
+Culex	O
+44	O
+
+# Original line: (Arat. 1628)
+(Arat.	O
+1628)	O
+
+# Original line: Aen. 5, 528,
+Aen.	O
+5,	O
+528,	O
+
+# Original line: Ov. met. 15, 849 s.,
+Ov.	O
+met.	O
+15,	O
+849	O
+s.,	O
+
+# Original line: Lucan. 1, 528 s.
+Lucan.	O
+1,	O
+528	O
+s.	O
+
+# Original line: Manil. 1, 835 ss.
+Manil.	O
+1,	O
+835	O
+ss.	O
+
+# Original line: C. De Meo, Lingue tecniche del latino, Bologna 1986, p. 242
+C.	O
+De	O
+Meo,	O
+Lingue	O
+tecniche	O
+del	O
+latino,	O
+Bologna	O
+1986,	O
+p.	O
+242	O
+
+# Original line: A. Le Boeuffle, Les noms latins d'astres et de constellations, Paris 1977, p. 66
+A.	O
+Le	O
+Boeuffle,	O
+Les	O
+noms	O
+latins	O
+d'astres	O
+et	O
+de	O
+constellations,	O
+Paris	O
+1977,	O
+p.	O
+66	O
+
+# Original line: R. O. A. M. Lyne, The dating of Ciris, «Class. Quart.» 21, 1971, pp. 239 ss.,
+R.	O
+O.	O
+A.	O
+M.	O
+Lyne,	O
+The	O
+dating	O
+of	O
+Ciris,	O
+«Class.	O
+Quart.»	O
+21,	O
+1971,	O
+pp.	O
+239	O
+ss.,	O
+
+# Original line: Callim. Hymn. 4, 302 s.
+Callim.	O
+Hymn.	O
+4,	O
+302	O
+s.	O
+
+# Original line: E. Cahen, Les Hymnes de Callimaque, Paris 1930, ad loc.
+E.	O
+Cahen,	O
+Les	O
+Hymnes	O
+de	O
+Callimaque,	O
+Paris	O
+1930,	O
+ad	O
+loc.	O
+
+# Original line: Aetna 594
+Aetna	O
+594	O
+
+# Original line: F. R. D. Goodyear, Incerti auetons Aetna, Cambridge 1965, ad loc.
+F.	O
+R.	O
+D.	O
+Goodyear,	O
+Incerti	O
+auetons	O
+Aetna,	O
+Cambridge	O
+1965,	O
+ad	O
+loc.	O
+
+# Original line: Apul. met. 2, 16, 7
+Apul.	O
+met.	O
+2,	O
+16,	O
+7	O
+
+# Original line: Aug. civ. 7, 26
+Aug.	O
+civ.	O
+7,	O
+26	O
+
+# Original line: Theb. 2, 134 ss.
+Theb.	O
+2,	O
+134	O
+ss.	O
+
+# Original line: H. M. Mulder, P. P. Statii Thebaidos liber secundus, Groningae 1954 ad loc.
+H.	O
+M.	O
+Mulder,	O
+P.	O
+P.	O
+Statii	O
+Thebaidos	O
+liber	O
+secundus,	O
+Groningae	O
+1954	O
+ad	O
+loc.	O
+
+# Original line: Ach. 1, 242 ss.; 2, 1 ss.)
+Ach.	O
+1,	O
+242	O
+ss.;	O
+2,	O
+1	O
+ss.)	O
+
+# Original line: met. 2, 12
+met.	O
+2,	O
+12	O
+
+# Original line: Solis; 5, 53
+Solis;	O
+5,	O
+53	O
+
+# Original line: Ati; 5, 488
+Ati;	O
+5,	O
+488	O
+
+# Original line: Aretusa; 11, 57
+Aretusa;	O
+11,	O
+57	O
+
+# Original line: Orfeo gettato sul lido; 11, 656
+Orfeo	O
+gettato	O
+sul	O
+lido;	O
+11,	O
+656	O
+
+# Original line: fast. 4, 141
+fast.	O
+4,	O
+141	O
+
+# Original line: Bömer; 5, 679
+Bömer;	O
+5,	O
+679	O
+
+# Original line: trist. 2, 527 s.
+trist.	O
+2,	O
+527	O
+s.	O
+
+# Original line: Pont. 4, 1, 29 s.
+Pont.	O
+4,	O
+1,	O
+29	O
+s.	O
+
+# Original line: H. Bardon, L'aurore et le crépuscule, thèmes et clichés, «Rev. Et. Lat.» 24, 1946, p. 91.
+H.	O
+Bardon,	O
+L'aurore	O
+et	O
+le	O
+crépuscule,	O
+thèmes	O
+et	O
+clichés,	O
+«Rev.	O
+Et.	O
+Lat.»	O
+24,	O
+1946,	O
+p.	O
+91.	O
+
+# Original line: P. E. Knox, Ovid's Metamorphoses and the traditions of Augustan poetry, Cambridge 1986, p. 33
+P.	O
+E.	O
+Knox,	O
+Ovid's	O
+Metamorphoses	O
+and	O
+the	O
+traditions	O
+of	O
+Augustan	O
+poetry,	O
+Cambridge	O
+1986,	O
+p.	O
+33	O
+
+# Original line: infra, la n. 100.
+infra,	O
+la	O
+n.	O
+100.	O
+
+# Original line: J. C. Me Keown, p. 339
+J.	O
+C.	O
+Me	O
+Keown,	O
+p.	O
+339	O
+
+# Original line: B. Axelson, Unpoetische Wörter, Lund 1945, p. 51;
+B.	O
+Axelson,	O
+Unpoetische	O
+Wörter,	O
+Lund	O
+1945,	O
+p.	O
+51;	O
+
+# Original line: P. E. Knox, Ovid's Metamorphoses... cit, p. 33;
+P.	O
+E.	O
+Knox,	O
+Ovid's	O
+Metamorphoses...	O
+cit,	O
+p.	O
+33;	O
+
+# Original line: A. Barchiesi, P. Ovidii Nasonis Epistulae Heroidum 1-3, Firenze 1992 ad epist. 3, 15 (rupique capillos), p. 207.
+A.	O
+Barchiesi,	O
+P.	O
+Ovidii	O
+Nasonis	O
+Epistulae	O
+Heroidum	O
+1-3,	O
+Firenze	O
+1992	O
+ad	O
+epist.	O
+3,	O
+15	O
+(rupique	O
+capillos),	O
+p.	O
+207.	O
+
+# Original line: (georg. 1, 405)
+(georg.	O
+1,	O
+405)	O
+
+# Original line: dell'Eneide (10, 832
+dell'Eneide	O
+(10,	O
+832	O
+
+# Original line: Barchiesi, P. Ovidii Nasonis Epistulae... cit, p. 207.
+Barchiesi,	O
+P.	O
+Ovidii	O
+Nasonis	O
+Epistulae...	O
+cit,	O
+p.	O
+207.	O
+
+# Original line: P. Heuzé, L'image du corps dans l'oeuvre de Virgile, Roma 1985, pp. 62 ss
+P.	O
+Heuzé,	O
+L'image	O
+du	O
+corps	O
+dans	O
+l'oeuvre	O
+de	O
+Virgile,	O
+Roma	O
+1985,	O
+pp.	O
+62	O
+ss	O
+
+# Original line: V. Grassmann, Die erotischen Epoden des Horaz, München 1966, p. 152
+V.	O
+Grassmann,	O
+Die	O
+erotischen	O
+Epoden	O
+des	O
+Horaz,	O
+München	O
+1966,	O
+p.	O
+152	O
+
+# Original line: A. S. F. Gow, Diminutives in augustan poetry, «Class. Quart.» 26, 1932, pp. 151, 154.
+A.	O
+S.	O
+F.	O
+Gow,	O
+Diminutives	O
+in	O
+augustan	O
+poetry,	O
+«Class.	O
+Quart.»	O
+26,	O
+1932,	O
+pp.	O
+151,	O
+154.	O
+
+# Original line: capillus, coma, crinis è, rispettivamente, il seguente: Lucan. 2; 27; 20;
+capillus,	O
+coma,	O
+crinis	O
+è,	O
+rispettivamente,	O
+il	O
+seguente:	O
+Lucan.	O
+2;	O
+27;	O
+20;	O
+
+# Original line: FI.: 2; 18; 25;
+FI.:	O
+2;	O
+18;	O
+25;	O
+
+# Original line: Sil.: 2; 24; 27;
+Sil.:	O
+2;	O
+24;	O
+27;	O
+
+# Original line: Stat.: 4; 90; 84.
+Stat.:	O
+4;	O
+90;	O
+84.	O
+
+# Original line: Hor. epod. 15, 9
+Hor.	O
+epod.	O
+15,	O
+9	O
+
+# Original line: Varrone, in un rapporto di 14; 5; 3;
+Varrone,	O
+in	O
+un	O
+rapporto	O
+di	O
+14;	O
+5;	O
+3;	O
+
+# Original line: Vitruvio: 8; 0; 1;
+Vitruvio:	O
+8;	O
+0;	O
+1;	O
+
+# Original line: Plin. nati 93; 32; 19
+Plin.	O
+nati	O
+93;	O
+32;	O
+19	O
+
+# Original line: Seneca (4; 61; 20).
+Seneca	O
+(4;	O
+61;	O
+20).	O
+
+# Original line: Prop.: 15; 29; 8;
+Prop.:	O
+15;	O
+29;	O
+8;	O
+
+# Original line: Tib.: 12; 26; 8.
+Tib.:	O
+12;	O
+26;	O
+8.	O
+
+# Original line: P. E. Knox, Ovid's Métamorphoses... cit., p. 33:
+P.	O
+E.	O
+Knox,	O
+Ovid's	O
+Métamorphoses...	O
+cit.,	O
+p.	O
+33:	O
+
+# Original line: Prop. 1, 2, 1 ss.;
+Prop.	O
+1,	O
+2,	O
+1	O
+ss.;	O
+
+# Original line: Ov. am. 1, 14, 1 ss.
+Ov.	O
+am.	O
+1,	O
+14,	O
+1	O
+ss.	O
+
+# Original line: ars 3, 133-154
+ars	O
+3,	O
+133-154	O
+
+# Original line: L. Cristante, in Ovidio. L'arte di amare, ... cit., ad loc.
+L.	O
+Cristante,	O
+in	O
+Ovidio.	O
+L'arte	O
+di	O
+amare,	O
+...	O
+cit.,	O
+ad	O
+loc.	O
+
+# Original line: fast. 4, 309.
+fast.	O
+4,	O
+309.	O
+
+# Original line: R. Pichon, De sermone amatono apud latinos elegiarum scriptores, Paris 1902, p. 99
+R.	O
+Pichon,	O
+De	O
+sermone	O
+amatono	O
+apud	O
+latinos	O
+elegiarum	O
+scriptores,	O
+Paris	O
+1902,	O
+p.	O
+99	O
+
+# Original line: met. 2, 111 ss.
+met.	O
+2,	O
+111	O
+ss.	O
+
+# Original line: Aen. 4, 567 s.
+Aen.	O
+4,	O
+567	O
+s.	O
+
+# Original line: W. H. Mineur, Callimachus. Hymn to Delos, Introduction and Commentary, Leiden 1984, ad Cali. Hymn. 4, 302
+W.	O
+H.	O
+Mineur,	O
+Callimachus.	O
+Hymn	O
+to	O
+Delos,	O
+Introduction	O
+and	O
+Commentary,	O
+Leiden	O
+1984,	O
+ad	O
+Cali.	O
+Hymn.	O
+4,	O
+302	O
+
+# Original line: Hymn. 2, 90
+Hymn.	O
+2,	O
+90	O
+
+# Original line: F. Bornmann, Callimacbi Hymnus in Dianam, Firenze 1968, ad 3, 249
+F.	O
+Bornmann,	O
+Callimacbi	O
+Hymnus	O
+in	O
+Dianam,	O
+Firenze	O
+1968,	O
+ad	O
+3,	O
+249	O
+
+# Original line: Hor. carm. saec. 9 ss.
+Hor.	O
+carm.	O
+saec.	O
+9	O
+ss.	O
+
+# Original line: Il. 5, 266 s.; 7, 451
+Il.	O
+5,	O
+266	O
+s.;	O
+7,	O
+451	O
+
+# Original line: Ap. Rh. 1, 519-521
+Ap.	O
+Rh.	O
+1,	O
+519-521	O
+
+# Original line: Η. Fränkel, Noten zu den Argonautika... cit, ad loc.,
+Η.	O
+Fränkel,	O
+Noten	O
+zu	O
+den	O
+Argonautika...	O
+cit,	O
+ad	O
+loc.,	O
+
+# Original line: fast. 4, 389
+fast.	O
+4,	O
+389	O
+
+# Original line: Lucan. 1, 233
+Lucan.	O
+1,	O
+233	O
+
+# Original line: ThlL V, 1, 1047, 22 ss.,
+ThlL	O
+V,	O
+1,	O
+1047,	O
+22	O
+ss.,	O
+
+# Original line: Ercole (v. 97),
+Ercole	O
+(v.	O
+97),	O
+
+# Original line: Pico e Canente, in 14, 416
+Pico	O
+e	O
+Canente,	O
+in	O
+14,	O
+416	O
+
+# Original line: met. 9, 795
+met.	O
+9,	O
+795	O
+
+# Original line: Hom. Il. 7, 476 ss. 8, 1; 9, 710 ss.
+Hom.	O
+Il.	O
+7,	O
+476	O
+ss.	O
+8,	O
+1;	O
+9,	O
+710	O
+ss.	O
+
+# Original line: Od. 1, 443 s. 2, 1; 2, 434 3, 1 ss.
+Od.	O
+1,	O
+443	O
+s.	O
+2,	O
+1;	O
+2,	O
+434	O
+3,	O
+1	O
+ss.	O
+
+# Original line: M. G. Ferrini, Espressioni di tempo nell'epica omerica... cit. p. 23;
+M.	O
+G.	O
+Ferrini,	O
+Espressioni	O
+di	O
+tempo	O
+nell'epica	O
+omerica...	O
+cit.	O
+p.	O
+23;	O
+
+# Original line: M. Lombardi, La tradizione letteraria delle notazioni temporali., cit., pp. 73 s.;
+M.	O
+Lombardi,	O
+La	O
+tradizione	O
+letteraria	O
+delle	O
+notazioni	O
+temporali.,	O
+cit.,	O
+pp.	O
+73	O
+s.;	O
+
+# Original line: M. Fantuzzi, Descrivere il tempo... cit., pp. 121 ss., 129).
+M.	O
+Fantuzzi,	O
+Descrivere	O
+il	O
+tempo...	O
+cit.,	O
+pp.	O
+121	O
+ss.,	O
+129).	O
+
+# Original line: F. Mehmel, Virgil und Apollonios Rhodios... cit., p. 61
+F.	O
+Mehmel,	O
+Virgil	O
+und	O
+Apollonios	O
+Rhodios...	O
+cit.,	O
+p.	O
+61	O
+
+# Original line: Plaut. Amph. 546 ss.
+Plaut.	O
+Amph.	O
+546	O
+ss.	O
+
+# Original line: J. J. Moore-Blunt, A commentary on Ovid Metamorphoses Il, Uithoorn, Netherland 1977, ad loc.,
+J.	O
+J.	O
+Moore-Blunt,	O
+A	O
+commentary	O
+on	O
+Ovid	O
+Metamorphoses	O
+Il,	O
+Uithoorn,	O
+Netherland	O
+1977,	O
+ad	O
+loc.,	O
+
+# Original line: Lucrezio in 5, 29
+Lucrezio	O
+in	O
+5,	O
+29	O
+
+# Original line: Hom. Il. 8, 432 ss.;
+Hom.	O
+Il.	O
+8,	O
+432	O
+ss.;	O
+
+# Original line: Lucian. deor. dial. 10, 1;
+Lucian.	O
+deor.	O
+dial.	O
+10,	O
+1;	O
+
+# Original line: G. Knaak Quaestiones Pkaethonteae, in «Philologische Untersuchungen» 8, Berlin 1886, pp. 28 ss.
+G.	O
+Knaak	O
+Quaestiones	O
+Pkaethonteae,	O
+in	O
+«Philologische	O
+Untersuchungen»	O
+8,	O
+Berlin	O
+1886,	O
+pp.	O
+28	O
+ss.	O
+
+# Original line: Aen. 2, 270
+Aen.	O
+2,	O
+270	O
+
+# Original line: Aen. 3, 521 s., 588 ss.
+Aen.	O
+3,	O
+521	O
+s.,	O
+588	O
+ss.	O
+
+# Original line: Aen. 2, 132 ss., 172
+Aen.	O
+2,	O
+132	O
+ss.,	O
+172	O
+
+# Original line: Aen. 2, 268 s.; 10, 219.
+Aen.	O
+2,	O
+268	O
+s.;	O
+10,	O
+219.	O
+
+# Original line: Aen. 2, 57, 203, 270
+Aen.	O
+2,	O
+57,	O
+203,	O
+270	O
+
+# Original line: J. J. Moore-Blunt, A commentary on Ovid... cit., ad 2, 111 ss.,
+J.	O
+J.	O
+Moore-Blunt,	O
+A	O
+commentary	O
+on	O
+Ovid...	O
+cit.,	O
+ad	O
+2,	O
+111	O
+ss.,	O
+
+# Original line: Aen. 4, 182
+Aen.	O
+4,	O
+182	O
+
+# Original line: Hor. carm. 3, 8, 14
+Hor.	O
+carm.	O
+3,	O
+8,	O
+14	O
+
+# Original line: fast. 6, 474
+fast.	O
+6,	O
+474	O
+
+# Original line: Carter, pp. 17 s., 153.
+Carter,	O
+pp.	O
+17	O
+s.,	O
+153.	O
+
+# Original line: fast. 1, 456
+fast.	O
+1,	O
+456	O
+
+# Original line: Lucr. 5, 1436 ss.,
+Lucr.	O
+5,	O
+1436	O
+ss.,	O
+
+# Original line: J. J. Moore-Blunt, A commentary on Ovid... cit.,
+J.	O
+J.	O
+Moore-Blunt,	O
+A	O
+commentary	O
+on	O
+Ovid...	O
+cit.,	O
+
+# Original line: Verg.: 1;
+Verg.:	O
+1;	O
+
+# Original line: Prop.: 1;
+Prop.:	O
+1;	O
+
+# Original line: Tib.: 1;
+Tib.:	O
+1;	O
+
+# Original line: Hor. carm.: 1;
+Hor.	O
+carm.:	O
+1;	O
+
+# Original line: Ov. met: 6.
+Ov.	O
+met:	O
+6.	O
+
+# Original line: Plaut. Most. 1046:
+Plaut.	O
+Most.	O
+1046:	O
+
+# Original line: Ter. Haut. 481
+Ter.	O
+Haut.	O
+481	O
+
+# Original line: Cic. Cael. 49
+Cic.	O
+Cael.	O
+49	O
+
+# Original line: Pis. 26
+Pis.	O
+26	O
+
+# Original line: Prop. 1, 3, 33
+Prop.	O
+1,	O
+3,	O
+33	O
+
+# Original line: Ov. met. 9, 795;
+Ov.	O
+met.	O
+9,	O
+795;	O
+
+# Original line: Aen. 1, 374
+Aen.	O
+1,	O
+374	O
+
+# Original line: Olympo; 10, 1
+Olympo;	O
+10,	O
+1	O
+
+# Original line: Olympi; 11, 210
+Olympi;	O
+11,	O
+210	O
+
+# Original line: Homer. 49
+Homer.	O
+49	O
+
+# Original line: M. Scaffai, Baebii Italia. Ilias Latina, Bologna 1982, ad locc.,
+M.	O
+Scaffai,	O
+Baebii	O
+Italia.	O
+Ilias	O
+Latina,	O
+Bologna	O
+1982,	O
+ad	O
+locc.,	O
+
+# Original line: Ov. met. 9, 795
+Ov.	O
+met.	O
+9,	O
+795	O
+
+# Original line: Enn. ann. 572
+Enn.	O
+ann.	O
+572	O
+
+# Original line: Enn. ann. 85
+Enn.	O
+ann.	O
+85	O
+
+# Original line: Aen. 4, 118 s.
+Aen.	O
+4,	O
+118	O
+s.	O
+
+# Original line: Smyrn. 2, 665 s.,
+Smyrn.	O
+2,	O
+665	O
+s.,	O
+
+# Original line: Hom. Od. 12, 3 s.
+Hom.	O
+Od.	O
+12,	O
+3	O
+s.	O
+
+# Original line: Bömer ad loc., che richiama met. 2, 23 s.
+Bömer	O
+ad	O
+loc.,	O
+che	O
+richiama	O
+met.	O
+2,	O
+23	O
+s.	O
+
+# Original line: J. André, Étude sur les termes de couleur... cit, pp. 90-102.
+J.	O
+André,	O
+Étude	O
+sur	O
+les	O
+termes	O
+de	O
+couleur...	O
+cit,	O
+pp.	O
+90-102.	O
+
+# Original line: J. André, Étude sur les termes de couleur... cit., p. 99.
+J.	O
+André,	O
+Étude	O
+sur	O
+les	O
+termes	O
+de	O
+couleur...	O
+cit.,	O
+p.	O
+99.	O
+
+# Original line: André, p. 102
+André,	O
+p.	O
+102	O
+
+# Original line: Ov. trist. 1, 1, 6
+Ov.	O
+trist.	O
+1,	O
+1,	O
+6	O
+
+# Original line: Acc. trag. 675 R.
+Acc.	O
+trag.	O
+675	O
+R.	O
+
+# Original line: Lucr. 5, 656 s.
+Lucr.	O
+5,	O
+656	O
+s.	O
+
+# Original line: Aen. 3, 521
+Aen.	O
+3,	O
+521	O
+
+# Original line: Culex 44
+Culex	O
+44	O
+
+# Original line: Laev. carm. frg. 9 Büch.
+Laev.	O
+carm.	O
+frg.	O
+9	O
+Büch.	O
+
+# Original line: Gell. 19, 7, 6
+Gell.	O
+19,	O
+7,	O
+6	O
+
+# Original line: Tib. 1, 3, 93 ss.
+Tib.	O
+1,	O
+3,	O
+93	O
+ss.	O
+
+# Original line: Ov. am. 1, 8, 3 s.
+Ov.	O
+am.	O
+1,	O
+8,	O
+3	O
+s.	O
+
+# Original line: ars 3, 84
+ars	O
+3,	O
+84	O
+
+# Original line: fast. 4, 713 s.
+fast.	O
+4,	O
+713	O
+s.	O
+
+# Original line: Maecen. 1, 126
+Maecen.	O
+1,	O
+126	O
+
+# Original line: G. Mayer, Die Farbenbezeichnung... cit, pp. 84 ss.,
+G.	O
+Mayer,	O
+Die	O
+Farbenbezeichnung...	O
+cit,	O
+pp.	O
+84	O
+ss.,	O
+
+# Original line: (georg.): 1;
+(georg.):	O
+1;	O
+
+# Original line: Hor. carm.: 3;
+Hor.	O
+carm.:	O
+3;	O
+
+# Original line: Prop.: 1;
+Prop.:	O
+1;	O
+
+# Original line: Tib.: 1.
+Tib.:	O
+1.	O
+
+# Original line: H. Bardon, L'Aurore et le crépuscule... cit, pp. 93 s.
+H.	O
+Bardon,	O
+L'Aurore	O
+et	O
+le	O
+crépuscule...	O
+cit,	O
+pp.	O
+93	O
+s.	O
+
+# Original line: fast. 4, 389 s.
+fast.	O
+4,	O
+389	O
+s.	O
+
+# Original line: Aen. 3, 521
+Aen.	O
+3,	O
+521	O
+
+# Original line: Culex 44
+Culex	O
+44	O
+
+# Original line: Hor. carm. 3, 21, 23 s.
+Hor.	O
+carm.	O
+3,	O
+21,	O
+23	O
+s.	O
+
+# Original line: Octavia, 1 s.
+Octavia,	O
+1	O
+s.	O
+
+# Original line: Eur. Ion. 82 ss.
+Eur.	O
+Ion.	O
+82	O
+ss.	O
+
+# Original line: Il ThlL (V, 1, 1106, 16 ss.)
+Il	O
+ThlL	O
+(V,	O
+1,	O
+1106,	O
+16	O
+ss.)	O
+
+# Original line: P. Ovidii Nasonis opera omnia, e textu Burmanni, cum notis Bentleii, vol. III, Oxonii 1 826
+P.	O
+Ovidii	O
+Nasonis	O
+opera	O
+omnia,	O
+e	O
+textu	O
+Burmanni,	O
+cum	O
+notis	O
+Bentleii,	O
+vol.	O
+III,	O
+Oxonii	O
+1	O
+826	O
+
+# Original line: Acc. trag. 678 R.
+Acc.	O
+trag.	O
+678	O
+R.	O
+
+# Original line: Lucr. 1, 788
+Lucr.	O
+1,	O
+788	O
+
+# Original line: met. 5, 440 s.
+met.	O
+5,	O
+440	O
+s.	O
+
+# Original line: Aen. 3, 521
+Aen.	O
+3,	O
+521	O
+
+# Original line: vedano i vv. 142 ss.
+vedano	O
+i	O
+vv.	O
+142	O
+ss.	O
+
+# Original line: Virgilio, Eneide, libri V-VI, Milano 1979, p. 145
+Virgilio,	O
+Eneide,	O
+libri	O
+V-VI,	O
+Milano	O
+1979,	O
+p.	O
+145	O
+
+# Original line: Aen. 5, 835 s.
+Aen.	O
+5,	O
+835	O
+s.	O
+
+# Original line: Aen. 3, 521
+Aen.	O
+3,	O
+521	O
+
+# Original line: (met. 14, 114)
+(met.	O
+14,	O
+114)	O
+
+# Original line: F. Bömer, Ovid und die Sprache Vergib, «Gymnasium» 66, 1959, p. 284,
+F.	O
+Bömer,	O
+Ovid	O
+und	O
+die	O
+Sprache	O
+Vergib,	O
+«Gymnasium»	O
+66,	O
+1959,	O
+p.	O
+284,	O
+
+# Original line: Ov. epist. 3, 57
+Ov.	O
+epist.	O
+3,	O
+57	O
+
+# Original line: fast. 4, 373 s.
+fast.	O
+4,	O
+373	O
+s.	O
+
+# Original line: Atell. 74 R.
+Atell.	O
+74	O
+R.	O
+
+# Original line: Cic. Arat. 96
+Cic.	O
+Arat.	O
+96	O
+
+# Original line: Cattill. 8, 3
+Cattill.	O
+8,	O
+3	O
+
+# Original line: Lucr. 5, 708
+Lucr.	O
+5,	O
+708	O
+
+# Original line: Aetna 332
+Aetna	O
+332	O
+
+# Original line: N.V. Baran, Les caractéristiques essentielles du vocabulaire chromatique latin, in «Aufstieg und Niedergang Rom. Welt» II, 29, 1, 325, 392);
+N.V.	O
+Baran,	O
+Les	O
+caractéristiques	O
+essentielles	O
+du	O
+vocabulaire	O
+chromatique	O
+latin,	O
+in	O
+«Aufstieg	O
+und	O
+Niedergang	O
+Rom.	O
+Welt»	O
+II,	O
+29,	O
+1,	O
+325,	O
+392);	O
+
+# Original line: A. Le Boeuf fie, Astronomie. Astrologie. Lexique latin, Paris 1987, s.w. effulgere, fulgens, fulgidus, (pp. 126 s., 141)
+A.	O
+Le	O
+Boeuf	O
+fie,	O
+Astronomie.	O
+Astrologie.	O
+Lexique	O
+latin,	O
+Paris	O
+1987,	O
+s.w.	O
+effulgere,	O
+fulgens,	O
+fulgidus,	O
+(pp.	O
+126	O
+s.,	O
+141)	O
+
+# Original line: H. Dahlmann, Das Rosausepigramm des Q. L. Catulus, «Gymnasium» 88, 1981, pp. 33-34.
+H.	O
+Dahlmann,	O
+Das	O
+Rosausepigramm	O
+des	O
+Q.	O
+L.	O
+Catulus,	O
+«Gymnasium»	O
+88,	O
+1981,	O
+pp.	O
+33-34.	O
+
+# Original line: dum loquor (v. 142)
+dum	O
+loquor	O
+(v.	O
+142)	O
+
+# Original line: libera nobis (v. 143).
+libera	O
+nobis	O
+(v.	O
+143).	O
+
+# Original line: met. 3, 144 s., e 151 s.,
+met.	O
+3,	O
+144	O
+s.,	O
+e	O
+151	O
+s.,	O
+
+# Original line: Aen. 4, 129 s.
+Aen.	O
+4,	O
+129	O
+s.	O
+
+# Original line: Aen. 6, 535
+Aen.	O
+6,	O
+535	O
+
+# Original line: Aen. 4, 584 s. (= 9, 459 s.)
+Aen.	O
+4,	O
+584	O
+s.	O
+(=	O
+9,	O
+459	O
+s.)	O
+
+# Original line: A. S. Pease, P. Vergili Maronis Aeneidos liber quartusy Cambridge 1935 ad loc., e n. 141; 12, 113 ss.
+A.	O
+S.	O
+Pease,	O
+P.	O
+Vergili	O
+Maronis	O
+Aeneidos	O
+liber	O
+quartusy	O
+Cambridge	O
+1935	O
+ad	O
+loc.,	O
+e	O
+n.	O
+141;	O
+12,	O
+113	O
+ss.	O
+
+# Original line: Lucr. 2, 144
+Lucr.	O
+2,	O
+144	O
+
+# Original line: Giulio Montano (frg. 1-2)
+Giulio	O
+Montano	O
+(frg.	O
+1-2)	O
+
+# Original line: Seneca (epist. 122, 11-13)
+Seneca	O
+(epist.	O
+122,	O
+11-13)	O
+
+# Original line: Fl. 3, 257 s.
+Fl.	O
+3,	O
+257	O
+s.	O
+
+# Original line: met. 11, 309
+met.	O
+11,	O
+309	O
+
+# Original line: an 3, 72
+an	O
+3,	O
+72	O
+
+# Original line: am. 1, 2, 40
+am.	O
+1,	O
+2,	O
+40	O
+
+# Original line: sparserat in 14, 416
+sparserat	O
+in	O
+14,	O
+416	O
+
+# Original line: Zeus (13, 576 ss.).
+Zeus	O
+(13,	O
+576	O
+ss.).	O
+
+# Original line: Dopo R. Heinze, Ovids elegische Erzählung, Leipzig 1919, in Vom Geist des Römertums, Stuttgart 1960,
+Dopo	O
+R.	O
+Heinze,	O
+Ovids	O
+elegische	O
+Erzählung,	O
+Leipzig	O
+1919,	O
+in	O
+Vom	O
+Geist	O
+des	O
+Römertums,	O
+Stuttgart	O
+1960,	O
+
+# Original line: H. Tränkle, Elegisches in Ovids Metamorphosen, «Hermes» 91, 1963, pp. 459-476
+H.	O
+Tränkle,	O
+Elegisches	O
+in	O
+Ovids	O
+Metamorphosen,	O
+«Hermes»	O
+91,	O
+1963,	O
+pp.	O
+459-476	O
+
+# Original line: E. Paratore, L'influenza delle «Heroides» sull'episodio di Biblide e Cauno nel libro IX delle Metamorfosi ovidiane, in «Studia Fiorentina A. Ronconi sexagenario oblata», Roma 1970, pp. 291 ss.;
+E.	O
+Paratore,	O
+L'influenza	O
+delle	O
+«Heroides»	O
+sull'episodio	O
+di	O
+Biblide	O
+e	O
+Cauno	O
+nel	O
+libro	O
+IX	O
+delle	O
+Metamorfosi	O
+ovidiane,	O
+in	O
+«Studia	O
+Fiorentina	O
+A.	O
+Ronconi	O
+sexagenario	O
+oblata»,	O
+Roma	O
+1970,	O
+pp.	O
+291	O
+ss.;	O
+
+# Original line: M. Labate, Amore coniugale e amore 'elegiaco'... cit
+M.	O
+Labate,	O
+Amore	O
+coniugale	O
+e	O
+amore	O
+'elegiaco'...	O
+cit	O
+
+# Original line: A. Barchiesi, P. Ovidii Nasonis Epistulae Heroidum... cit.
+A.	O
+Barchiesi,	O
+P.	O
+Ovidii	O
+Nasonis	O
+Epistulae	O
+Heroidum...	O
+cit.	O
+
+# Original line: id.,
+id.,	O
+
+# Original line: Ovidio e il discorso augusteo, Roma-Bari 1994, pp. 44 s.,
+Ovidio	O
+e	O
+il	O
+discorso	O
+augusteo,	O
+Roma-Bari	O
+1994,	O
+pp.	O
+44	O
+s.,	O
+
+# Original line: Fantuzzi, Ferrini... (e la bibliografia cit. alla n. 12).
+Fantuzzi,	O
+Ferrini...	O
+(e	O
+la	O
+bibliografia	O
+cit.	O
+alla	O
+n.	O
+12).	O
+
+# Original line: W. Kraus, RE, XVIII, 2, 1946, 66 ss.
+W.	O
+Kraus,	O
+RE,	O
+XVIII,	O
+2,	O
+1946,	O
+66	O
+ss.	O
+
+# Original line: E. Doblhofer, Ovidius urbanus... cit., pp. 72 s., 83 s.
+E.	O
+Doblhofer,	O
+Ovidius	O
+urbanus...	O
+cit.,	O
+pp.	O
+72	O
+s.,	O
+83	O
+s.	O
+

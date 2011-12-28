@@ -1,0 +1,25 @@
+# The tab symbol after each token should be added automatically (and also the default "O" tag)
+# Each line should be reported at the beginning of each entity inside a comment
+# The tag to be used to mark up Canonical References are: B-CRF, I-CRF and O (according to the
+# classical IOB format for NER) 
+#
+# Hom. Il. 1, 477; 24, 788;
+#
+Hom.	B-CRF
+Il.	I-CRF
+1,	I-CRF
+477; I-CRF
+24, I-CRF
+788; I-CRF
+
+#
+# Si veda anche Prop. 2, 18a, 7 ss.
+#
+Si	O
+veda	O
+anche	O
+Prop.	B-CRF
+2,	I-CRF
+18a,	I-CRF
+7	I-CRF
+ss.	I-CRF
