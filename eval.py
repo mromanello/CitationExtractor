@@ -1,11 +1,11 @@
 import sys,logging,re
 from citation_extractor.core import *
 from citation_extractor.crfpp_wrap import CRF_classifier
-from partitioner import *
-from partitioner import crossvalidationdataconstructor
+from miguno.partitioner import *
+from miguno.crossvalidationdataconstructor import *
 import pprint
 
-logger=logging.getLogger('CREX.EVAL')
+logger=logging.getLogger('CREX.EVAL') # TODO add an initialise_logger function
 EVAL_PATH="/home/ngs0554/eval/"
 DATA_PATH="/home/ngs0554/crex_data/"
 
@@ -178,10 +178,11 @@ def eval(fname,n_folds):
 
 def main():
 	global DATA_PATH,EVAL_PATH
-	DATA_PATH=sys.argv[1]
-	EVAL_PATH=sys.argv[2]
-	c=CRefEx(cfg_file="crefex.cfg")
-	eval("%s/test.txt"%DATA_PATH,10)
+	DATA_PATH = sys.argv[1]
+	EVAL_PATH = sys.argv[2]
+	FNAME = sys.argv[3]
+	#c=CRefEx(cfg_file="crefex.cfg")
+	eval("%s/%s"%(DATA_PATH,FNAME),10)
 
 def run_example(data_dir):
 	DATA_PATH=data_dir

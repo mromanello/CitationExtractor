@@ -11,7 +11,7 @@ from citation_extractor.Utils.IO import *
 """
 Description
 """
-
+global logger
 logger = logging.getLogger('CREX')
 
 pp = pprint.PrettyPrinter(indent=5)
@@ -31,17 +31,14 @@ def determine_path ():
 class citation_extractorService:
 	def __init__(self,cfg_file=None):
 		self.core = CRefEx(cfg_file)
-	
 	#replace this method
 	def test(self,arg):
 		res = self.core.clf(arg)
 		return self.core.output(res,"xml")
-        
-        def json(self,arg):
-            res = self.core.clf(arg)
-            return self.core.output(res,"json")
-
-		
+	def json(self,arg):
+		res = self.core.clf(arg)
+			return self.core.output(res,"json")
+	
 	def test_unicode(self,arg,outp):
 		temp = arg.data.decode("utf-8")
 		res = self.core.clf(temp)
@@ -69,13 +66,12 @@ class CRFPP_Classifier:
 		train_crfpp(dir+"crex.tpl",train_fname,model_fname)
 		self.crf_model=CRF_classifier(model_fname)
 		return
-	
 	def classify(self,tagged_tokens_list):
 		"""
 		@param tagged_tokens_list the list of tokens with tab separated tags
 		"""
 		return self.crf_model.classify(tagged_tokens_list)
-		
+	
 class CRefEx:
 	"""Canonical Reference Extractor"""
 	def __init__(self,cfg_file=None,training_model=None,training_file=None):
@@ -226,7 +222,7 @@ class FeatureExtractor:
 		self.feat_labels[21]="ROMAN_NUMBER"
 		self.feat_labels[22]="MIXED_ALPHANUM"
 		self.feat_labels[0]="OTHERS"
-		
+	
 	def extract_bracket_feature(self,check_str):
 		"""
 		Extract a feature concerning the eventual presence of brackets
@@ -249,7 +245,7 @@ class FeatureExtractor:
 		else:
 			res = self.OTHERS
 		return ("brackets",res)
-		
+	
 	def extract_case_feature(self,check_str):
 		"""
 		Extract a feature concerning the ortographic case of a token
@@ -264,7 +260,7 @@ class FeatureExtractor:
 			elif(naked[0].isupper()):
 				res = self.INIT_CAPS
 		return ("case",res)
-		
+	
 	def extract_punctuation_feature(self,check_str):
 		res = self.OTHERS
 		punct_exp=re.compile('[%s]' % re.escape(string.punctuation))
@@ -278,7 +274,7 @@ class FeatureExtractor:
 		elif(cont_punct.match(check_str)):
 			res = self.CONTINUING_PUNCTUATION
 		return ("punct",res)
-		
+	
 	def extract_number_feature(self,check_str):
 		"""
 		TODO
@@ -292,7 +288,7 @@ class FeatureExtractor:
 		elif(naked.isalnum()):
 			res = self.MIXED_ALPHANUM
 		return ("number",res)
-		
+	
 	def extract_char_ngrams(self,inp):
 		"""
 		"""
@@ -308,7 +304,7 @@ class FeatureExtractor:
 			temp = ("susb -%i"%(i),inp[len(inp)-i:])
 			out.append(temp)
 		return out
-		
+	
 	def extract_string_features(self,check_str):
 		"""
 		Extract string length and text only string lowercase
@@ -344,7 +340,7 @@ class FeatureExtractor:
 				for r in result:
 					feature_set.append(r)	
 		return feature_set
-		
+	
 	def get_features(self,instance,labels=[],outp_label=True):
 		out = [self.extract_features(tok) for tok in instance]
 		res = [dict(r) for r in out]
@@ -388,7 +384,7 @@ class FeatureExtractor:
 		res3 = ["\n".join(i) for i in res2]
 		out = "\n\n".join(res3)
 		return out
-	
+
 def main():
 	pass
 

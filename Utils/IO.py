@@ -5,7 +5,8 @@ import CRFPP
 import sys,pprint,re,string,logging
 from citation_extractor.crfpp_wrap import CRF_classifier
 import citation_extractor
-from partitioner import *
+from miguno.partitioner import *
+from miguno.crossvalidationdataconstructor import *
 from random import *
 import xml.dom.minidom as mdom
 	
@@ -20,7 +21,7 @@ def read_instances(inp_text):
 		if(inst):
 			out.append(inst)
 	return out
-	
+
 def out_html(out):
 	"""docstring for out_xml"""
 	import libxml2,libxslt
@@ -33,7 +34,7 @@ def out_html(out):
 	doc = libxml2.parseDoc(out.encode("utf-8"))
 	result = style.applyStylesheet(doc, None)
 	return style.saveResultToString(result)
-	
+
 def verbose_to_XML(instances):
 	"""docstring for verbose_to_XML"""
 	out = mdom.Document()
@@ -75,6 +76,7 @@ def verbose_to_XML(instances):
 		root.appendChild(ins)
 	out.appendChild(root)
 	return out.toprettyxml(encoding="UTF-8")
+
 def read_IOB_file(file):
 	# instances is a list of lists
 	instances=[]
@@ -91,26 +93,26 @@ def read_IOB_file(file):
 		if(instance):
 			instances.append(instance)
 	return instances
-	
+
 def token_to_string(tok_dict):
 	tmp = []
 	for k in sorted(tok_dict.keys()):
 		tmp.append(tok_dict[k])
 	return tmp
-	
+
 def instance_to_string(inst):
 	out = []
 	for fs in inst:
 		tmp = token_to_string(fs)
 		out.append("\t".join(tmp))
 	return out
-	
+
 def instance_contains_label(instance,neg_label="O"):
 	temp=[]
 	for token in instance:
 		temp.append(neg_label in [tag for i,tag in enumerate(token) if(i==len(token)-1)])
 	return True in temp
-	
+
 def token_tostring(token):
 	string=""
 	for count,t in enumerate(token):
@@ -119,7 +121,7 @@ def token_tostring(token):
 			else:
 				string+="%s"%t
 	return string
-	
+
 def filter_IOB(instances,tag_name):
 	"""docstring for filter_IOB"""
 	out=[]
@@ -157,7 +159,7 @@ def instance_tostring(instance):
 			else:
 				string+="%s"%t[0]
 	return string
-	
+
 def result_to_string(result):
 	"""
 	Tranform the result to a string.
@@ -195,7 +197,7 @@ def eval_results_to_HTML(results,labels=[]):
 		out+="</div>"
 	out+="</body></html>"
 	return out
-	
+
 def results_to_HTML(results,labels=[]):
 	"""
 	Tranform the result to a string.
@@ -207,7 +209,7 @@ def results_to_HTML(results,labels=[]):
 	out+="</div></body>"
 	#out+="</html>"
 	return out
-	
+
 def parse_jstordfr_XML(inp):
 	"""
 	Describe what the function does.
@@ -222,7 +224,7 @@ def parse_jstordfr_XML(inp):
 		#	res1=cdata_exp.match(item)
 		#	out.append(res1.groups()[0])
 	return out
-	
+
 def parse_dfr_keyword_xml(inp):
 	"""docstring for fname"""
 	out=[]
@@ -231,7 +233,7 @@ def parse_dfr_keyword_xml(inp):
 		res2=xml_exp.findall(inp)
 		out = res2
 	return out
-	
+
 def parse_dfr_wordcount_xml(inp):
 	"""docstring for fname"""
 	out=[]
@@ -270,14 +272,13 @@ def tag_IOB_file(train_file_name,to_tag_file_name):
 
 def prepare_for_tagging(file_name,inp="jstor/xml"):
 	"""
-
 	"""
 	inp=open(file_name).read()
 	prolog="""
 # File generated from %s
 # The tag to be used to mark up Canonical References are: B-CRF, I-CRF and O (according to the
 # classical IOB format for NER)
-	"""%(file_name)
+"""%(file_name)
 	out=""
 	out+=prolog
 	raw = None
@@ -305,8 +306,7 @@ def read_jstor_data(dir):
 		if(os.path.isdir("%s%s"%(dir,x))):
 			xml_files += ["%s%s/%s"%(dir,x,y) for y in os.listdir("%s%s/"%(dir,x)) if y.endswith('.xml')]
 			next  += read_jstor_data("%s%s/"%(dir,x))
-	return xml_files + next
-		
+	return xml_files + next	
 
 def main():
 	insts = read_IOB_file(sys.argv[1])
