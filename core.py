@@ -9,7 +9,7 @@ from citation_extractor.crfpp_wrap import *
 from citation_extractor.Utils.IO import *
 
 """
-Description
+This module contains the core of the citation extractor.
 """
 global logger
 logger = logging.getLogger('CREX')
@@ -59,7 +59,7 @@ class CRFPP_Classifier:
 	"""	
 	This class should extend an abstract classifier	
 	"""
-	def __init__(self,train_file_name):
+	def __init__(self,train_file_name,template_file_name):
 		dir=determine_path()+"/data/"
 		fe = FeatureExtractor()
 		path,fn = os.path.split(train_file_name)
@@ -67,7 +67,9 @@ class CRFPP_Classifier:
 		t = fe.prepare_for_training(train_file_name)
 		out=open(train_fname,'w').write(t.encode("utf-8"))
 		model_fname=dir+fn+'.mdl'
-		train_crfpp(dir+"crex.tpl",train_fname,model_fname)
+		#template_fname = dir+"crex.tpl"
+		template_fname = template_file_name
+		train_crfpp(template_fname,train_fname,model_fname)
 		self.crf_model=CRF_classifier(model_fname)
 		return
 	
@@ -80,45 +82,50 @@ class CRFPP_Classifier:
 
 class CRefEx:
 	"""
-	Canonical Reference Extractor
-	TODO move the main() test here, as doctest
-	"""
-	def __init__(self,cfg_file=None,training_model=None,training_file=None):
-		#self.init_logger(loglevel=logging.DEBUG,log_file="/Users/56k/phd/code/python_crex/citation_extractor/crfx_3.log")
-		self.read_config_file(cfg_file)
-		self.training_model=training_model
-		self.classifier=None
-		self._default_training_dir="data/"
-		self._default_training_file="test.txt"
-		self.fe = FeatureExtractor()
-		
-		if(training_model=="CRF" or training_model is None):
-			if(training_file is not None):
-				self.classifier=CRFPP_Classifier(training_file)
-			else:
-				# read the default value
-				self.classifier=CRFPP_Classifier("%s/%s%s"%(determine_path(),self._default_training_dir,self._default_training_file))
+	CRefEx stands for Canonical Reference Extractor.
+	First off, import the settings via module import
+	>>> import base_settings
 	
-	def read_config_file(self,cfg_file):
-		parser = SafeConfigParser()
-		parser.read(cfg_file)
-		verbose = parser.getboolean("logging","verbose")
-		logfile = parser.get("logging","file")
-		if(verbose):
-			self.init_logger(loglevel=logging.DEBUG, log_file=logfile)
+	Then create an extractor passing as argument the settings
+	>>> extractor = CRefEx(base_settings)
+	
+	Let's suppose now that want to extract the canonical references from the following string
+	>>> example_text = u"Eschilo interprete di se stesso (Ar. Ran. 1126ss., 1138-1150)"
+	
+	Tokenise the text before passing it to the extractor
+	>>> tokenised_example = extractor.tokenize(example_text)
+	>>> result  = extractor.extract([tokenised_example,])
+	>>> " ".join(["%s/%s"%(n["token"],n["label"]) for n in result[0]])
+	'Eschilo/O interprete/O di/O se/O stesso/O (Ar./O Ran./B-CRF 1126ss.,/I-CRF 1138-1150)/I-CRF'
+	
+	Now let's create a second extractor, initialised with different settings
+	
+	>>> import settings
+	>>> second_extractor = CRefEx(settings)
+	>>> result = second_extractor.extract([tokenised_example])
+	
+	"""
+	def __init__(self,options):
+		self.classifier=None
+		logfile = ""
+		if(options.DEBUG):
+			self.init_logger(loglevel=logging.DEBUG, log_file=options.LOG_FILE)
 		else:
-			self.init_logger(loglevel=logging.INFO, log_file=logfile)
-		logger.info("Reading configuration from file %s"%cfg_file)
-		pass
+			self.init_logger(loglevel=logging.INFO, log_file=options.LOG_FILE)
+		self.fe = FeatureExtractor()
+		self.classifier=CRFPP_Classifier(options.DATA_FILE,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE))
 	
 	def init_logger(self,log_file=None, loglevel=logging.DEBUG):
 		"""
 		Initialise the logger
 		"""
 		if(log_file !="" or log_file is not None):
-			logging.basicConfig(filename=log_file,level=loglevel,format='%(asctime)s - %(name)s - [%(levelname)s] %(message)s',filemode='w',datefmt='%a, %d %b %Y %H:%M:%S')
+			logging.basicConfig(
+				filename=log_file
+				,level=loglevel,format='%(asctime)s - %(name)s - [%(levelname)s] %(message)s',filemode='w',datefmt='%a, %d %b %Y %H:%M:%S'
+			)
 			logger = logging.getLogger('CREX')
-			logger.info("Logger initialised with %s, %s"%(log_file,str(loglevel)))
+			logger.info("Logger initialised")
 		else:
 			logger = logging.getLogger('CREX')
 			logger.setLevel(loglevel)
@@ -131,7 +138,13 @@ class CRefEx:
 	
 	def tokenize(self, blurb):
 		"""
-		Utility function to tokenise a text.
+		Tokenize a string of text.
+		
+		Args:
+			blurb: the string to tokenise.
+		Returns:
+			A list of tokens.
+			
 		"""
 		return [y.split(" ") for y in blurb.split("\n")]
 	
@@ -164,15 +177,21 @@ class CRefEx:
 		elif(outp=="json"):
 			return json.dumps(result)
 	
-	def classify(self, instances,input="text"):
+	def extract(self, instances):
 		"""
-		actually it's a proxy method
+		This method is actually a proxy for the classify() method of the classifier.
+		
+		Args:
+			instances: A list of instances, for example sentences.
+		Returns:
+			TODO describe
 		"""
-		res = []
+		result = []
 		for i in instances:
-			feat_sets = self.fe.get_features(i,[],False)
-			res.append(self.classifier.classify(instance_to_string(feat_sets)))		
-		return res
+			for tok in i:
+				feat_sets = self.fe.get_features(tok,[],False)
+				result.append(self.classifier.classify(instance_to_string(feat_sets)))		
+		return result
 	
 
 class FeatureExtractor:
@@ -401,42 +420,6 @@ class FeatureExtractor:
 
 		
 if __name__ == "__main__":
-	conf_file=None
-	tests=["Hom. Il. 1.125) is a citation"
-	, u"this is a string Il. 1.125 randomÜ Hom. Il. 1.125 γρα"
-	,u"Eschilo interprete di Ü se stesso (Ar. Ran. 1126s. e 1138-1150)"
-	]
-	try:
-		opts, args = getopt.getopt(sys.argv[1:], "hc:i:", ["help","conf_file","input"])
-	except getopt.GetoptError, err:
-		print str(err) # will print something like "option -a not recognized"
-		usage()
-		sys.exit(2)
-	for o, a in opts:
-		if o == "-v":
-			verbose = True
-		elif o in ("-h", "--help"):
-			usage()
-			sys.exit()
-		elif o in ("-i", "--inp"):
-			import codecs
-			f = codecs.open(a, "r", "utf-8" )
-			tests = f.read().split("\n")
-		elif o in ("-c", "--config"):
-			conf_file = a
-			if(conf_file is not None):
-				c=CRefEx(cfg_file=conf_file)
-				"""
-				TODO:	The tests should be read directly from a file.
-				Path to file should go in the configuration file
-				"""
-				
-				for n,t in enumerate(tests):
-					logger.info("*** Quick Test %i***"%(n+1))
-					result = c.clf(t)
-					readable_result = ["%s/%s"%(n["token"],n["label"]) for n in result[0]]
-					logger.info(" ".join(readable_result).decode("UTF-8"))
-				
-		else:
-			assert False, "unhandled option"
+	import doctest
+	doctest.testmod()
 

@@ -6,11 +6,10 @@ import CRFPP
 import sys,logging,os
 import pprint
 
-#global logger
-moodule_logger = logging.getLogger('CREX.CRFPP_WRAP')
-
 def train_crfpp(template_file,train_data_file,model_file):
 		cmd="crf_learn -f 1 -t %s %s %s"%(template_file,train_data_file,model_file)
+		logger = logging.getLogger('CREX.TRAIN_CRFPP')
+		logger.info(cmd)
 		os.popen(cmd).readlines()
 		return
 
@@ -25,6 +24,19 @@ class CRF_classifier:
 			print "RuntimeError: ", e,
 	
 	def classify(self,l_tokens):
+		"""
+		Classify a lost of tokens.
+		
+		Args:
+			l_tokens: A list of string where the token and its feature vector are separated by tabs ("\t").
+			
+			For example: an instance with tokens ("Eschilo","interprete") would correspond to the following list
+			[
+			u'Eschilo\tOTHERS\tINIT_CAPS\teschilo\tNO_DIGITS\tOTHERS\t7\tE\tEs\tEsc\tEsch\to\tlo\tilo\thilo'
+			, u'interprete\tOTHERS\tALL_LOWER\tinterprete\tNO_DIGITS\tOTHERS\t10\ti\tin\tint\tinte\te\tte\tete\trete'
+			]
+		"""
+		#self.logger.debug("%s##"%l_tokens)
 		out=[]
 		self.tagger.clear()
 		for t in l_tokens:
@@ -59,6 +71,7 @@ class CRF_classifier:
 		   out.append(res)
 		return out
 	
+
 if __name__ == "__main__":
     # crf_learn -t /56k/phd/code/python/crfx.tpl /56k/phd/code/python/doc1.train /56k/phd/code/python/crfx.mdl
     train_crfpp("/56k/phd/code/python/crfx.tpl","/56k/phd/code/python/doc1.train","/56k/phd/code/python/eval/new.mdl")
