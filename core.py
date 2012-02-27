@@ -66,8 +66,7 @@ class CRFPP_Classifier:
 		train_fname=dir+fn+'.train'
 		t = fe.prepare_for_training(train_file_name)
 		out=open(train_fname,'w').write(t.encode("utf-8"))
-		model_fname=dir+fn+'.mdl'
-		#template_fname = dir+"crex.tpl"
+		model_fname=dir+fn+'.mdl' # the .mdl file should go somewhere else
 		template_fname = template_file_name
 		train_crfpp(template_fname,train_fname,model_fname)
 		self.crf_model=CRF_classifier(model_fname)
@@ -75,7 +74,10 @@ class CRFPP_Classifier:
 	
 	def classify(self,tagged_tokens_list):
 		"""
-		@param tagged_tokens_list the list of tokens with tab separated tags
+		Args:
+			tagged_tokens_list: the list of tokens with tab separated tags.
+		Returns:
+			TODO document
 		"""
 		return self.crf_model.classify(tagged_tokens_list)
 	
@@ -151,6 +153,7 @@ class CRefEx:
 	def clf(self, text):
 		"""
 		Classify method.
+		TODO this should probably be deprecated!
 		"""
 		if(type(text) is not type(unicode("string"))):
 			text = unicode(text,"utf-8")
@@ -179,7 +182,8 @@ class CRefEx:
 	
 	def extract(self, instances):
 		"""
-		This method is actually a proxy for the classify() method of the classifier.
+		Extracts canonical citations from a list of instances, such as sentences or other meaningful and 
+		comparable subvisions of a text. This method acts as a proxy for the classify() method of the classifier.
 		
 		Args:
 			instances: A list of instances, for example sentences.
@@ -189,8 +193,8 @@ class CRefEx:
 		result = []
 		for i in instances:
 			for tok in i:
-				feat_sets = self.fe.get_features(tok,[],False)
-				result.append(self.classifier.classify(instance_to_string(feat_sets)))		
+				feat_sets = self.fe.get_features(tok,[],False) # get the feature set for the current token
+				result.append(self.classifier.classify(instance_to_string(feat_sets)))
 		return result
 	
 
