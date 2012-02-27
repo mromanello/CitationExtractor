@@ -111,6 +111,7 @@ def instance_contains_label(instance,neg_label="O"):
 	temp=[]
 	for token in instance:
 		temp.append(neg_label in [tag for i,tag in enumerate(token) if(i==len(token)-1)])
+	print "instance %s does not contain %s"%(instance,neg_label)
 	return True in temp
 
 def token_tostring(token):

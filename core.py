@@ -14,10 +14,11 @@ Description
 global logger
 logger = logging.getLogger('CREX')
 
-pp = pprint.PrettyPrinter(indent=5)
-
 def determine_path ():
-    """Borrowed from wxglade.py"""
+    """
+	Borrowed from wxglade.py
+	TODO move to Utils module
+	"""
     try:
         root = __file__
         if os.path.islink (root):
@@ -29,6 +30,9 @@ def determine_path ():
         sys.exit ()
 
 class citation_extractorService:
+	"""
+	TODO: Document
+	"""
 	def __init__(self,cfg_file=None):
 		self.core = CRefEx(cfg_file)
 	#replace this method
@@ -37,13 +41,13 @@ class citation_extractorService:
 		return self.core.output(res,"xml")
 	def json(self,arg):
 		res = self.core.clf(arg)
-			return self.core.output(res,"json")
+		return self.core.output(res,"json")
 	
 	def test_unicode(self,arg,outp):
 		temp = arg.data.decode("utf-8")
 		res = self.core.clf(temp)
 		return self.core.output(res,outp)
-		
+	
 	def version(self): 
 		"""
 		Return the version of CRefEx
@@ -51,10 +55,10 @@ class citation_extractorService:
 		logger.debug("Printing version")
 		return citation_extractor.__version__
 
-"""	
-This class should extend an abstract classifier	
-"""
 class CRFPP_Classifier:
+	"""	
+	This class should extend an abstract classifier	
+	"""
 	def __init__(self,train_file_name):
 		dir=determine_path()+"/data/"
 		fe = FeatureExtractor()
@@ -66,14 +70,19 @@ class CRFPP_Classifier:
 		train_crfpp(dir+"crex.tpl",train_fname,model_fname)
 		self.crf_model=CRF_classifier(model_fname)
 		return
+	
 	def classify(self,tagged_tokens_list):
 		"""
 		@param tagged_tokens_list the list of tokens with tab separated tags
 		"""
 		return self.crf_model.classify(tagged_tokens_list)
 	
+
 class CRefEx:
-	"""Canonical Reference Extractor"""
+	"""
+	Canonical Reference Extractor
+	TODO move the main() test here, as doctest
+	"""
 	def __init__(self,cfg_file=None,training_model=None,training_file=None):
 		#self.init_logger(loglevel=logging.DEBUG,log_file="/Users/56k/phd/code/python_crex/citation_extractor/crfx_3.log")
 		self.read_config_file(cfg_file)
@@ -102,10 +111,10 @@ class CRefEx:
 		logger.info("Reading configuration from file %s"%cfg_file)
 		pass
 	
-	"""
-	Initialise the logger
-	"""
 	def init_logger(self,log_file=None, loglevel=logging.DEBUG):
+		"""
+		Initialise the logger
+		"""
 		if(log_file !="" or log_file is not None):
 			logging.basicConfig(filename=log_file,level=loglevel,format='%(asctime)s - %(name)s - [%(levelname)s] %(message)s',filemode='w',datefmt='%a, %d %b %Y %H:%M:%S')
 			logger = logging.getLogger('CREX')
@@ -119,25 +128,26 @@ class CRefEx:
 			ch.setFormatter(formatter)
 			logger.addHandler(ch)
 			logger.info("Logger initialised")
-			
-			
 	
-	"""
-	Utility function to tokenise a text.
-	"""
 	def tokenize(self, blurb):
+		"""
+		Utility function to tokenise a text.
+		"""
 		return [y.split(" ") for y in blurb.split("\n")]
-	"""
-	Classify method.
-	"""
+	
 	def clf(self, text):
+		"""
+		Classify method.
+		"""
 		if(type(text) is not type(unicode("string"))):
 			text = unicode(text,"utf-8")
 		temp = self.tokenize(text)
 		return self.classify(temp)
-		
+	
 	def output(self,result,outp=None):
-		"""docstring for output"""
+		"""
+		docstring for output
+		"""
 		fname = determine_path()+"/data/"+"temp.xml"
 		f = open(fname,"w")
 		temp = verbose_to_XML(result)
@@ -153,15 +163,18 @@ class CRefEx:
 			return out_html(text).decode("utf-8")
 		elif(outp=="json"):
 			return json.dumps(result)
-				
-	# actually it's a proxy method
+	
 	def classify(self, instances,input="text"):
+		"""
+		actually it's a proxy method
+		"""
 		res = []
 		for i in instances:
 			feat_sets = self.fe.get_features(i,[],False)
 			res.append(self.classifier.classify(instance_to_string(feat_sets)))		
 		return res
-		
+	
+
 class FeatureExtractor:
 	"""
 	A feature extractor to extract features from tokens.
@@ -354,7 +367,7 @@ class FeatureExtractor:
 			if(outp_label is True):
 				x['z_gt_label']=labels[n]
 		return res
-
+	
 	def prepare_for_training(self,file_name):
 		"""
 		@param file_name the input file in IOB format
@@ -384,15 +397,15 @@ class FeatureExtractor:
 		res3 = ["\n".join(i) for i in res2]
 		out = "\n\n".join(res3)
 		return out
-
-def main():
-	pass
-
 	
 
+		
 if __name__ == "__main__":
 	conf_file=None
-	tests=["Hom. Il. 1.125) is a citation", u"this is a string Il. 1.125 randomÜ Hom. Il. 1.125 γρα",u"Eschilo interprete di Ü se stesso (Ar. Ran. 1126s. e 1138-1150)"]
+	tests=["Hom. Il. 1.125) is a citation"
+	, u"this is a string Il. 1.125 randomÜ Hom. Il. 1.125 γρα"
+	,u"Eschilo interprete di Ü se stesso (Ar. Ran. 1126s. e 1138-1150)"
+	]
 	try:
 		opts, args = getopt.getopt(sys.argv[1:], "hc:i:", ["help","conf_file","input"])
 	except getopt.GetoptError, err:

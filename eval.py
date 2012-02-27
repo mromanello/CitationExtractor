@@ -1,21 +1,102 @@
+"""
+.. module:: eval
+   :platform: Unix
+   :synopsis: A module to test and evaluate the citation extractor.
+
+.. moduleauthor:: Matteo Romanello <matteo.romanello@gmail.com>
+
+
+"""
 import sys,logging,re
+import os
+import glob
 from citation_extractor.core import *
 from citation_extractor.crfpp_wrap import CRF_classifier
 from miguno.partitioner import *
 from miguno.crossvalidationdataconstructor import *
 import pprint
 
-logger=logging.getLogger('CREX.EVAL') # TODO add an initialise_logger function
+global logger
 EVAL_PATH="/home/ngs0554/eval/"
 DATA_PATH="/home/ngs0554/crex_data/"
 
+def init_logger(verbose=False, log_file=None):
+	"""
+    Initialise a logger.
+	
+    Parameters
+    ----------
+    verbose : bool, optional
+        Verbosity of the logger. By default is turned off (False).
+    log_file : str, optional
+        The name of the file where all log messages are to be redirected.
+		When no file name is provided the log will be printed to the standard output.
+		
+    Returns
+    -------
+    l_logger : logging.Logger
+      The initialised array.
+	
+    Examples
+    --------
+    >>> l = init_logger()
+    >>> type(l)
+    <class 'logging.Logger'>
+	
+    """
+	import logging
+	l_logger = logging.getLogger('CREX.EVAL')
+	if(verbose):
+		l_logger.setLevel(logging.DEBUG)
+	else:
+		l_logger.setLevel(logging.INFO)
+	if(log_file is None):
+		ch = logging.StreamHandler()
+		ch.setLevel(logging.DEBUG)
+		ch.setFormatter(logging.Formatter("%(asctime)s -- %(name)s -- %(levelname)s -- %(message)s"))
+		l_logger.addHandler(ch)
+		l_logger.info("Logger initialised.")
+	else:
+		pass # I should actually complete this  function as initialise a logger which writes to a file
+	return l_logger
+
 def eval(fname,n_folds):
+	"""
+    Evaluate...
+	
+    Parameters
+    ----------
+    fname : str
+        File name.
+    n_folds : int
+        Number of iterations
+		
+    Returns
+    -------
+    ...
+	
+    Examples
+    --------
+	>>> print "here we go"
+	here we go
+    """
 	valid_res=[]
 	fe = FeatureExtractor()
+	instances=[]
 	try:
-		instances=read_instances(fe.prepare_for_training(fname))
-		pos_inst=[ins for ins in instances if not instance_contains_label(ins,'O')]
-		neg_inst=[ins for ins in instances if instance_contains_label(ins,'O')]
+		for infile in glob.glob( os.path.join(fname, '*.iob') ):
+			try:
+				temp = read_instances(fe.prepare_for_training(infile))
+				instances+=temp
+				logger.debug("read %i instances from file %s"%(len(temp),infile))
+			except:
+				logger.error("failed reading from %s"%infile)
+		#neg_inst=[ins for ins in instances if not instance_contains_label(ins,'B-REFAUWORK')] # TODO check if it works
+		#pos_inst=[ins for ins in instances if instance_contains_label(ins,'B-REFAUWORK')] # TODO check if it works
+		mn = len(instances)/2
+		pos_inst = instances[:mn]
+		neg_inst = instances[mn:]
+		logger.debug(instances)
 		shuffle(neg_inst)
 		max=0
 		logger.debug('# of negative instances: %i'%len(neg_inst))
@@ -49,12 +130,15 @@ def eval(fname,n_folds):
 			print"\tFirst 10 random instances of training (out of %i)"%len(train_set)
 			shuffle(train_set)
 			for n in range(0,10):
-				print "\t\t%s"%instance_tostring(train_set[n])
+				print "\t\t%s"%instance_tostring(train_set[n]).encode("utf-8")
 			print"\t\t..."
 			print"\tFirst 10 random instances of testing (out of %i)"%len(test_set)
 			shuffle(test_set)
 			for n in range(0,10):
-				print "\t\t%s"%instance_tostring(test_set[n])
+				try:
+					print "\t\t%s"%instance_tostring(test_set[n]).encode("utf-8")
+				except:
+					logger.error("max limit reached")
 			print"\t\t..."
 		logger.debug('# of instances in training set: %i'%len(train_set))
 		logger.debug('# of instances in test set: %i'%len(test_set))
@@ -89,7 +173,8 @@ def eval(fname,n_folds):
 			model_file="%sfold_%i.mdl"%(EVAL_PATH,y+1)
 			file=open(train_file,"w").write(out.encode("utf-8"))
 			open(test_file,"w").write(out2.encode("utf-8"))
-			train_crfpp("%screx.tpl"%DATA_PATH,train_file,model_file)
+			#train_crfpp("%screx.tpl"%"data/",train_file,model_file)
+			train_crfpp("%sbaseline.tpl"%"crfpp_templates/",train_file,model_file)
 			crf=CRF_classifier(model_file)
 			errors=0
 			fp=0
@@ -101,6 +186,7 @@ def eval(fname,n_folds):
 			tot_tokens=0
 			
 			print "Processing #Fold %i..."%(y+1)
+			results = []
 			for ex in test:
 				tokens=[]
 				for t in ex: 
@@ -140,7 +226,7 @@ def eval(fname,n_folds):
 			prec=tp/float(tp+fp)
 			acc=(tp+tn)/float(tp+fp+tn+fn)
 			rec=tp/float(tp+fn)
-			fscore=2*((prec*rec)/float(prec+rec))
+			fscore=2*(float(prec*rec)/float(prec+rec))
 			tot_acc+=acc
 			tot_prec+=prec
 			tot_rec+=rec
@@ -161,28 +247,28 @@ def eval(fname,n_folds):
 				}
 			valid_res.append(res)
 		
-		#open('data/output.html','w').write(eval_results_to_HTML(results.encode("utf-8")))
+		#open('%soutput.html'%EVAL_PATH,'w').write(eval_results_to_HTML(results.encode("utf-8"))) #this html export is not working any longer
 		for n,r in enumerate(results):
-			print "%i %s"%(n+1," ".join(["%s/%s"%(n["token"],n["label"]) for n in r]))
+			print "%i %s\n"%(n+1," ".join(["%s/%s"%(n["token"],n["label"]) for n in r]))
 			
 		print "*********"
 		print "Average fscore: %f"%(tot_fscore/float(iterations_num))
 		print "Average accuracy: %f"%(tot_acc/float(iterations_num))
 		print "Average precision: %f"%(tot_prec/float(iterations_num))
 		print "Average recall: %f"%(tot_fscore/float(iterations_num))
-		print "Output in HTML format written to output.html"
+		#print "Output in HTML format written to output.html"
 		print "*********"
+		print valid_res
 		
 	except RuntimeError,e:
 		"Not able to prepare %s for training!"%fname	
 
 def main():
-	global DATA_PATH,EVAL_PATH
+	global DATA_PATH,EVAL_PATH,logger
+	logger = init_logger(verbose=False)
 	DATA_PATH = sys.argv[1]
 	EVAL_PATH = sys.argv[2]
-	FNAME = sys.argv[3]
-	#c=CRefEx(cfg_file="crefex.cfg")
-	eval("%s/%s"%(DATA_PATH,FNAME),10)
+	eval("%s"%(DATA_PATH),10)
 
 def run_example(data_dir):
 	DATA_PATH=data_dir
@@ -194,3 +280,5 @@ def run_example():
 
 if __name__ == "__main__":
     main()
+	#import doctest
+	#doctest.testmod()
