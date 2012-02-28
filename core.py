@@ -150,19 +150,9 @@ class CRefEx:
 		"""
 		return [y.split(" ") for y in blurb.split("\n")]
 	
-	def clf(self, text):
-		"""
-		Classify method.
-		TODO this should probably be deprecated!
-		"""
-		if(type(text) is not type(unicode("string"))):
-			text = unicode(text,"utf-8")
-		temp = self.tokenize(text)
-		return self.classify(temp)
-	
 	def output(self,result,outp=None):
 		"""
-		docstring for output
+		Outputs the result of extraction/classification in several formats.
 		"""
 		fname = determine_path()+"/data/"+"temp.xml"
 		f = open(fname,"w")
@@ -284,7 +274,12 @@ class FeatureExtractor:
 	
 	def extract_case_feature(self,check_str):
 		"""
-		Extract a feature concerning the ortographic case of a token
+		Extracts a feature concerning the ortographic case of a token.
+		
+		Args:
+			check_str: the string from which the feature will be extracted.
+		Returns:
+			A tuple TODO -> explain
 		"""
 		naked = re.sub('[%s]' % re.escape(string.punctuation), '', check_str)
 		res = self.OTHERS
@@ -380,28 +375,34 @@ class FeatureExtractor:
 	def get_features(self,instance,labels=[],outp_label=True):
 		out = [self.extract_features(tok) for tok in instance]
 		res = [dict(r) for r in out]
-		# transform the numeric values into strings
 		logger = logging.getLogger('CREX.FeatureExtractor')
 		logger.debug(res)
+		
 		for n,x in enumerate(res):
+			# transform the numeric values into strings
 			for m,key in enumerate(x.iterkeys()):
 				if(type(x[key]) is type(12)):
-					x[key] = self.feat_labels[x[key]]
+					x[key] = self.feat_labels[x[key]] # get the string label corresponding to a given int value
+					#x[key] = str(x[key]) # leave the numeric feature value
 			if(outp_label is True):
 				x['z_gt_label']=labels[n]
+		
 		return res
 	
 	def prepare_for_training(self,file_name):
 		"""
-		@param file_name the input file in IOB format
-		@return 
+		Args:
+			file_name: the input file in IOB format
+		
+		Returns:
+			TODO document
 		"""
 		import codecs
 		fp = codecs.open(file_name, "r", "utf-8")
 		comment=re.compile(r'#.*?')
 		lines = fp.read()
 		instances=[group.split('\n')for group in lines.split("\n\n")]
-		res = []
+		all_tokens = []
 		all_labels = []
 		for inst in instances:
 			labels= []
@@ -411,12 +412,11 @@ class FeatureExtractor:
 					tokens.append(line.split('\t')[0])
 					labels.append(line.split('\t')[1])
 			all_labels.append(labels)
-			res.append(tokens)
-		res2=[]
-		for n,r in enumerate(res):
-			res2.append(self.get_features(r,all_labels[n]))
+			all_tokens.append(tokens)
+		res2 = [self.get_features(r,all_labels[n]) for n,r in enumerate(all_tokens)]
+			
 		# all this fuss is to have instances and feature sets as text
-		res2=[instance_to_string(r) for r in res2]
+		res2 = [instance_to_string(r) for r in res2]
 		res3 = ["\n".join(i) for i in res2]
 		out = "\n\n".join(res3)
 		return out

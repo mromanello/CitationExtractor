@@ -1,6 +1,7 @@
 # Settings for the citation extractor
 
 # Sets debug on (=true) or off (=false)
+#DEBUG = True
 DEBUG = False
 
 # leave empty to write the log to the console

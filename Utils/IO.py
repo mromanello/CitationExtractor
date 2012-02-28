@@ -279,7 +279,7 @@ def prepare_for_tagging(file_name,inp="jstor/xml"):
 # File generated from %s
 # The tag to be used to mark up Canonical References are: B-CRF, I-CRF and O (according to the
 # classical IOB format for NER)
-"""%(file_name)
+	"""%(file_name)
 	out=""
 	out+=prolog
 	raw = None
@@ -293,7 +293,7 @@ def prepare_for_tagging(file_name,inp="jstor/xml"):
 			out+="%s\tO\n"%t
 		out+="\n"
 	return out
-	
+
 def read_jstor_data(dir):
 	"""
 	Returns a list of strings being the absolute paths to XML files in the dataset
