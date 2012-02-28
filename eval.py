@@ -174,7 +174,8 @@ def eval(fname,n_folds):
 			file=open(train_file,"w").write(out.encode("utf-8"))
 			open(test_file,"w").write(out2.encode("utf-8"))
 			#train_crfpp("%screx.tpl"%"data/",train_file,model_file)
-			train_crfpp("%sbaseline.tpl"%"crfpp_templates/",train_file,model_file)
+			#train_crfpp("%sbaseline.tpl"%"crfpp_templates/",train_file,model_file)
+			train_crfpp("%stemplate_1.tpl"%"crfpp_templates/",train_file,model_file)
 			crf=CRF_classifier(model_file)
 			errors=0
 			fp=0
@@ -279,6 +280,10 @@ def run_example():
 	run_example(DATA_PATH)
 
 if __name__ == "__main__":
+	"""
+	Usage example:
+		python eval.py aph_data_100_positive/ out/
+	"""
     main()
 	#import doctest
 	#doctest.testmod()

@@ -34,7 +34,7 @@ class citation_extractorService:
 	TODO: Document
 	"""
 	def __init__(self,cfg_file=None):
-		self.core = CRefEx(cfg_file)
+		self.core = citation_extractor(cfg_file)
 	#replace this method
 	def test(self,arg):
 		res = self.core.clf(arg)
@@ -50,7 +50,7 @@ class citation_extractorService:
 	
 	def version(self): 
 		"""
-		Return the version of CRefEx
+		Return the version of citation_extractor
 		"""
 		logger.debug("Printing version")
 		return citation_extractor.__version__
@@ -82,14 +82,14 @@ class CRFPP_Classifier:
 		return self.crf_model.classify(tagged_tokens_list)
 	
 
-class CRefEx:
+class citation_extractor:
 	"""
-	CRefEx stands for Canonical Reference Extractor.
+	A Canonical Citation Extractor.
 	First off, import the settings via module import
 	>>> import base_settings
 	
 	Then create an extractor passing as argument the settings
-	>>> extractor = CRefEx(base_settings)
+	>>> extractor = citation_extractor(base_settings)
 	
 	Let's suppose now that want to extract the canonical references from the following string
 	>>> example_text = u"Eschilo interprete di se stesso (Ar. Ran. 1126ss., 1138-1150)"
@@ -103,7 +103,7 @@ class CRefEx:
 	Now let's create a second extractor, initialised with different settings
 	
 	>>> import settings
-	>>> second_extractor = CRefEx(settings)
+	>>> second_extractor = citation_extractor(settings)
 	>>> result = second_extractor.extract([tokenised_example])
 	
 	"""
