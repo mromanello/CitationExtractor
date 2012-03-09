@@ -12,6 +12,7 @@ import os
 import glob
 from citation_extractor.core import *
 from citation_extractor.crfpp_wrap import CRF_classifier
+from Utils import IO
 from miguno.partitioner import *
 from miguno.crossvalidationdataconstructor import *
 import pprint
@@ -279,11 +280,127 @@ def run_example():
 	DATA_PATH="/home/ngs0554/crex_data"
 	run_example(DATA_PATH)
 
+class SimpleEvaluator:
+	"""
+	>>> import base_settings, settings
+	>>> extractor_1 = citation_extractor(base_settings)
+	>>> extractor_2 = citation_extractor(settings)
+	>>> se = SimpleEvaluator([extractor_1,extractor_2],"data/75-02637.iob")
+	
+	"""
+	def __init__(self,extractors,iob_test_file):
+		"""
+		Args:
+			extractors: the list of canonical citation extractors to evaluate
+			iob_test_file: the file in IOB format to be used for testing and evaluating the extactors
+		"""
+		
+		self.test_instances = IO.file_to_instances(iob_test_file)
+		temp = [[tok[0] for tok in inst]for inst in self.test_instances]
+		self.string_instances = [" ".join(n) for n in temp]
+		
+		for eng in extractors:
+			input = [eng.tokenize(inst) for inst in self.string_instances]
+			output = eng.extract(input)
+			to_evaluate = [[tuple([t["token"],t["label"]]) for t in i] for i in output]
+			eval_results = self.evaluate(to_evaluate,self.test_instances)
+			print eval_results
+			print "f-score %f"%self.calc_fscore(eval_results)
+			print "accuracy %f"%self.calc_accuracy(eval_results)
+		return
+	
+	@staticmethod
+	def evaluate(l_tagged_instances,l_test_instances,negative_BIO_tag = "O"):
+		"""
+		Evaluates a list of tagged instances against one of test instances (gold standard).
+		>>> tagged = [[('vd.','O'),('Hom','O'),('Il.','B-CREF')]]
+		>>> test = [[('vd.','O'),('Hom','B-CREF'),('Il.','I-CREF')]]
+		>>> res = SimpleEvaluator.evaluate(tagged,test)
+		>>> print res
+		{'false_pos': 2, 'true_pos': 0, 'true_neg': 1, 'false_neg': 0}
+		
+		Args:
+			l_tagged_instances:
+				A list of instances. Each instance is a list of tokens, the tokens being tuples.
+				Each tuple has the token (i=0) and the assigned label (i=1).
+				For example:
+				>>> l_instances = [[('vd.','O'),('Hom','B-CREF')]]
+				
+			l_test_instances:
+			
+		Returns:
+			A dictionary: 
+			{
+				"true_pos": <int>
+				,"false_pos": <int>
+				,"true_neg": <int>
+				,"false_neg": <int>
+			}
+		"""
+		# TODO: check same lenght and identity of tokens
+		
+		fp = 0 # false positive counter
+		tp = 0 # true positive counter
+		fn = 0 # false negative counter
+		tn = 0 # true negative counter
+		
+		for n,inst in enumerate(l_tagged_instances):
+			tag_inst = l_tagged_instances[n]
+			gold_inst = l_test_instances[n]
+			
+			for n,tok in enumerate(tag_inst):
+				tag_tok = tok
+				gold_tok = gold_inst[n]
+				
+				if(gold_tok[1] == negative_BIO_tag and (gold_tok[1] == tag_tok[1])):
+					tn += 1 # increment the value of true negative counter
+				elif(gold_tok[1] != negative_BIO_tag and (gold_tok[1] == tag_tok[1])):
+					tp += 1 # increment the value of true positive counter
+				elif(gold_tok[1] == negative_BIO_tag and (tag_tok[1] != gold_tok[1])):
+					fn += 1 # increment the value of false negative counter
+				elif(gold_tok[1] != negative_BIO_tag and (tag_tok[1] != gold_tok[1])):
+					fp += 1 # increment the value of true positive counter
+		
+		return {"true_pos": tp
+				,"false_pos": fp
+				,"true_neg": tn
+				,"false_neg": fn
+				}
+	
+	@staticmethod		
+	def calc_precision(d_errors):
+		"""
+		Calculates the precision given the input error dictionary.
+		"""
+		return d_errors["true_pos"] / float(d_errors["true_pos"] + d_errors["false_pos"])
+	
+	@staticmethod
+	def calc_recall(d_errors):
+		"""
+		Calculates the recall given the input error dictionary.
+		"""
+		return d_errors["true_pos"] / float(d_errors["true_pos"] + d_errors["false_neg"])
+	
+	@staticmethod
+	def calc_accuracy(d_errors):
+		"""
+		Calculates the accuracy given the input error dictionary.
+		"""
+		acc = (d_errors["true_pos"] + d_errors["true_neg"]) / float(d_errors["true_pos"] + d_errors["false_pos"] + d_errors["true_neg"] + d_errors["false_neg"])
+		return acc
+	
+	@staticmethod
+	def calc_fscore(d_errors):
+		"""
+		Calculates the accuracy given the input error dictionary.
+		"""
+		prec = SimpleEvaluator.calc_precision(d_errors)
+		rec = SimpleEvaluator.calc_recall(d_errors)
+		return 2*(float(prec * rec) / float(prec + rec))
+	
+
 if __name__ == "__main__":
-	"""
-	Usage example:
-		python eval.py aph_data_100_positive/ out/
-	"""
-    main()
-	#import doctest
-	#doctest.testmod()
+	#Usage example: python eval.py aph_data_100_positive/ out/
+	#main()
+	import doctest
+	doctest.testmod(verbose=True)

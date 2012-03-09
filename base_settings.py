@@ -13,7 +13,7 @@ DATA_DIRS = (
 	"data_C1/",
 )
 
-DATA_FILE = "data/test.txt"
+DATA_FILE = "aph_data_C1/all_in_one2.iob"
 
 OUTPUT_DIR = "out/"
 

@@ -2,6 +2,7 @@
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
 import CRFPP
+import codecs
 import sys,pprint,re,string,logging
 from citation_extractor.crfpp_wrap import CRF_classifier
 import citation_extractor
@@ -9,7 +10,30 @@ from miguno.partitioner import *
 from miguno.crossvalidationdataconstructor import *
 from random import *
 import xml.dom.minidom as mdom
-	
+
+def file_to_instances(inp_file):
+	"""
+	Reads a IOB file a converts it into a list of instances.
+	Each instance is a list of tuples, where tuple[0] is the token and tuple[1] contains its assigned label
+	Example:
+	>>> file_to_instances("data/75-02637.iob")
+	"""
+	f = codecs.open(inp_file,"r","utf-8")
+	inp_text = f.read()
+	f.close()
+	out=[]
+	comment=re.compile(r'#.*?')
+	for i in inp_text.split("\n\n"):
+		inst=[]
+		for j in i.split("\n"):
+			if(not comment.match(j)):
+				temp = tuple(j.split("\t"))
+				if(len(temp)>1):
+					inst.append(temp)
+		if(inst and len(inst)>1):
+			out.append(inst)
+	return out
+
 def read_instances(inp_text):
 	out=[]
 	comment=re.compile(r'#.*?')

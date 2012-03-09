@@ -23,6 +23,6 @@ print "done"
 """
 
 all_in_one_file = open("%s%s"%(download_dir,"all_in_one.iob"),"w")
-all_in_one = "\n".join(files)
+all_in_one = "\n\n".join(files)
 all_in_one_file.write(all_in_one)
 all_in_one_file.close()
