@@ -115,7 +115,25 @@ class citation_extractor:
 		else:
 			self.init_logger(loglevel=logging.INFO, log_file=options.LOG_FILE)
 		self.fe = FeatureExtractor()
-		self.classifier=CRFPP_Classifier(options.DATA_FILE,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE))
+		if(options.DATA_FILE != ""):
+			self.classifier=CRFPP_Classifier(options.DATA_FILE,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE))
+		elif(options.DATA_DIRS != ""):
+			import glob
+			import codecs
+			for dir in options.DATA_DIRS:
+				# get all .iob files
+				# concatenate their content with line return
+				# write to a new file
+				all_in_one = []
+				logger.debug("Processing %s"%dir)
+				for infile in glob.glob( os.path.join(dir, '*.iob') ):
+					logger.debug("Found the file %s"%infile)
+					file_content = codecs.open("%s"%(infile), 'r',encoding="utf-8").read()
+					all_in_one.append(file_content)
+				result = "\n\n".join(all_in_one)
+				codecs.open("%sall_in_one.iob"%dir, 'w',encoding="utf-8").write(result)
+				self.classifier=CRFPP_Classifier("%sall_in_one.iob"%dir,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE))
+			pass
 	
 	def init_logger(self,log_file=None, loglevel=logging.DEBUG):
 		"""
