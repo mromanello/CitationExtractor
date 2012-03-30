@@ -58,7 +58,11 @@ def init_logger(verbose=False, log_file=None):
 		l_logger.addHandler(ch)
 		l_logger.info("Logger initialised.")
 	else:
-		pass # I should actually complete this  function as initialise a logger which writes to a file
+		ch = logging.FileHandler(log_file)
+		ch.setLevel(logging.DEBUG)
+		ch.setFormatter(logging.Formatter("%(asctime)s -- %(name)s -- %(levelname)s -- %(message)s"))
+		l_logger.addHandler(ch)
+		l_logger.info("Logger initialised.")
 	return l_logger
 
 def eval(fname,n_folds):
@@ -310,7 +314,7 @@ class SimpleEvaluator:
 		return
 	
 	@staticmethod
-	def evaluate(l_tagged_instances,l_test_instances,negative_BIO_tag = "O"):
+	def evaluate(l_tagged_instances,l_test_instances,negative_BIO_tag = u'O'):
 		"""
 		Evaluates a list of tagged instances against one of test instances (gold standard).
 		>>> tagged = [[('vd.','O'),('Hom','O'),('Il.','B-CREF')]]
@@ -339,6 +343,9 @@ class SimpleEvaluator:
 		"""
 		# TODO: check same lenght and identity of tokens
 		
+		import logging
+		l_logger = logging.getLogger('CREX.EVAL')
+		
 		fp = 0 # false positive counter
 		tp = 0 # true positive counter
 		fn = 0 # false negative counter
@@ -354,12 +361,16 @@ class SimpleEvaluator:
 				
 				if(gold_tok[1] == negative_BIO_tag and (gold_tok[1] == tag_tok[1])):
 					tn += 1 # increment the value of true negative counter
+					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: true negative"%(gold_tok[0],gold_tok[1],tag_tok[0],tag_tok[1]))
 				elif(gold_tok[1] != negative_BIO_tag and (gold_tok[1] == tag_tok[1])):
 					tp += 1 # increment the value of true positive counter
-				elif(gold_tok[1] == negative_BIO_tag and (tag_tok[1] != gold_tok[1])):
-					fn += 1 # increment the value of false negative counter
+					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: true positive"%(gold_tok[0],gold_tok[1],tag_tok[0],tag_tok[1]))
 				elif(gold_tok[1] != negative_BIO_tag and (tag_tok[1] != gold_tok[1])):
+					fn += 1 # increment the value of false negative counter
+					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: false negative"%(gold_tok[0],gold_tok[1],tag_tok[0],tag_tok[1]))
+				elif(gold_tok[1] == negative_BIO_tag and (tag_tok[1] != gold_tok[1])):
 					fp += 1 # increment the value of true positive counter
+					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: false positive"%(gold_tok[0],gold_tok[1],tag_tok[0],tag_tok[1]))
 		
 		return {"true_pos": tp
 				,"false_pos": fp
@@ -372,14 +383,20 @@ class SimpleEvaluator:
 		"""
 		Calculates the precision given the input error dictionary.
 		"""
-		return d_errors["true_pos"] / float(d_errors["true_pos"] + d_errors["false_pos"])
+		if(d_errors["true_pos"] + d_errors["false_pos"] == 0):
+			return 0
+		else:
+			return d_errors["true_pos"] / float(d_errors["true_pos"] + d_errors["false_pos"])
 	
 	@staticmethod
 	def calc_recall(d_errors):
 		"""
 		Calculates the recall given the input error dictionary.
 		"""
-		return d_errors["true_pos"] / float(d_errors["true_pos"] + d_errors["false_neg"])
+		if(d_errors["true_pos"] + d_errors["false_neg"] == 0):
+			return 0
+		else:
+			return d_errors["true_pos"] / float(d_errors["true_pos"] + d_errors["false_neg"])
 	
 	@staticmethod
 	def calc_accuracy(d_errors):
@@ -396,7 +413,10 @@ class SimpleEvaluator:
 		"""
 		prec = SimpleEvaluator.calc_precision(d_errors)
 		rec = SimpleEvaluator.calc_recall(d_errors)
-		return 2*(float(prec * rec) / float(prec + rec))
+		if(prec == 0 and rec == 0):
+			return 0
+		else:
+			return 2*(float(prec * rec) / float(prec + rec))
 	
 
 if __name__ == "__main__":
