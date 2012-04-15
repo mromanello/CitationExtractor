@@ -21,7 +21,7 @@ CROSS_VAL_FOLDS = 10
 
 CRFPP_TEMPLATE_DIR = "crfpp_templates/"
 
-CRFPP_TEMPLATE = "template_1.tpl"
+CRFPP_TEMPLATE = "template_2.tpl"
 
 # Leave empty to use CRF++'s default value
 CRFPP_PARAM_C = ''

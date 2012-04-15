@@ -1,10 +1,16 @@
+# -*- coding: utf-8 -*-
 class LookupDictionary:
 	"""
 	>>> auth_dict = "http://cwkb.webfactional.com/cwkb/dict/authors/all/json"
 	>>> raw_data = LookupDictionary.fetch_data(auth_dict)
-	>>> d = LookupDictionary(raw_data)
-	>>> d.lookup("Hom.")
-	{'/cwkb/authors/929#abbr': 'h. Hom.', '/cwkb/authors/927#abbr': 'Hom.'}
+	>>> import codecs
+	>>> fname = dir="../data/works.csv"
+	>>> file = codecs.open(fname,"r","utf-8")
+	>>> raw_data = file.read()
+	>>> file.close()
+	>>> d = LookupDictionary(raw_data.encode('utf-8'))
+	>>> d.lookup("Od.")
+
 	"""
 	def __init__(self,raw_data):
 		#self.raw_data = self.fetch_data(source)
@@ -69,6 +75,7 @@ class LookupDictionary:
 		for res in temp:
 			result[res] = self.keys[res]
 		return result
+	
 
 if __name__ == '__main__':
 	import doctest

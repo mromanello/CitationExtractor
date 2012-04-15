@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 .. module:: eval
    :platform: Unix
@@ -271,7 +272,7 @@ def eval(fname,n_folds):
 
 def main():
 	global DATA_PATH,EVAL_PATH,logger
-	logger = init_logger(verbose=False)
+	logger = init_logger(verbose=False,log_file="eval.log")
 	DATA_PATH = sys.argv[1]
 	EVAL_PATH = sys.argv[2]
 	eval("%s"%(DATA_PATH),10)
@@ -306,22 +307,25 @@ class SimpleEvaluator:
 		for eng in extractors:
 			input = [eng.tokenize(inst) for inst in self.string_instances]
 			output = eng.extract(input)
-			to_evaluate = [[tuple([t["token"],t["label"]]) for t in i] for i in output]
-			eval_results = self.evaluate(to_evaluate,self.test_instances)
+			to_evaluate = [[tuple([t["token"].decode("utf-8"),t["label"].decode("utf-8")]) for t in i] for i in output]
+			results = self.evaluate(to_evaluate,self.test_instances)
+			eval_results = results[0]
 			print eval_results
 			print "f-score %f"%self.calc_fscore(eval_results)
 			print "accuracy %f"%self.calc_accuracy(eval_results)
+			print self.calc_stats_by_tag(results[1])
 		return
 	
 	@staticmethod
 	def evaluate(l_tagged_instances,l_test_instances,negative_BIO_tag = u'O'):
 		"""
 		Evaluates a list of tagged instances against one of test instances (gold standard).
-		>>> tagged = [[('vd.','O'),('Hom','O'),('Il.','B-CREF')]]
-		>>> test = [[('vd.','O'),('Hom','B-CREF'),('Il.','I-CREF')]]
+		>>> tagged = [[('ü','O'),('Hom','O'),('Il.','B-CREF')]]
+		>>> test = [[('ü','O'),('Hom','B-CREF'),('Il.','I-CREF')]]
 		>>> res = SimpleEvaluator.evaluate(tagged,test)
-		>>> print res
+		>>> print res[0]
 		{'false_pos': 2, 'true_pos': 0, 'true_neg': 1, 'false_neg': 0}
+		>>> print SimpleEvaluator.calc_stats_by_tag(res[1])
 		
 		Args:
 			l_tagged_instances:
@@ -350,33 +354,74 @@ class SimpleEvaluator:
 		tp = 0 # true positive counter
 		fn = 0 # false negative counter
 		tn = 0 # true negative counter
+		token_counter = 0
+		errors_by_tag = {}
 		
 		for n,inst in enumerate(l_tagged_instances):
 			tag_inst = l_tagged_instances[n]
 			gold_inst = l_test_instances[n]
-			
+			token_counter += len(tag_inst)
 			for n,tok in enumerate(tag_inst):
+				p_fp = 0 # false positive counter
+				p_tp = 0 # true positive counter
+				p_fn = 0 # false negative counter
+				p_tn = 0 # true negative counter
+				
 				tag_tok = tok
 				gold_tok = gold_inst[n]
-				
 				if(gold_tok[1] == negative_BIO_tag and (gold_tok[1] == tag_tok[1])):
-					tn += 1 # increment the value of true negative counter
+					p_tn += 1 # increment the value of true negative counter
 					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: true negative"%(gold_tok[0],gold_tok[1],tag_tok[0],tag_tok[1]))
 				elif(gold_tok[1] != negative_BIO_tag and (gold_tok[1] == tag_tok[1])):
-					tp += 1 # increment the value of true positive counter
+					p_tp += 1 # increment the value of true positive counter
 					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: true positive"%(gold_tok[0],gold_tok[1],tag_tok[0],tag_tok[1]))
 				elif(gold_tok[1] != negative_BIO_tag and (tag_tok[1] != gold_tok[1])):
-					fn += 1 # increment the value of false negative counter
+					p_fn += 1 # increment the value of false negative counter
 					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: false negative"%(gold_tok[0],gold_tok[1],tag_tok[0],tag_tok[1]))
 				elif(gold_tok[1] == negative_BIO_tag and (tag_tok[1] != gold_tok[1])):
-					fp += 1 # increment the value of true positive counter
+					p_fp += 1 # increment the value of false positive counter
 					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: false positive"%(gold_tok[0],gold_tok[1],tag_tok[0],tag_tok[1]))
-		
+				
+				fp += p_fp
+				tp += p_tp
+				fn += p_fn
+				tn += p_tn
+				
+				# TODO: handle differently TN when 
+				if(errors_by_tag.has_key(gold_tok[1])):
+					errors_by_tag[gold_tok[1]]["true_pos"] += p_tp
+					errors_by_tag[gold_tok[1]]["false_pos"] += p_fp
+					errors_by_tag[gold_tok[1]]["true_neg"] += p_tn
+					errors_by_tag[gold_tok[1]]["false_neg"] += p_fn
+				else:
+					if(gold_tok[1] != negative_BIO_tag):
+						errors_by_tag[gold_tok[1]] = {"true_pos": p_tp
+													,"false_pos": p_fp
+													,"true_neg": p_tn
+													,"false_neg": p_fn
+													}
+					else:
+						errors_by_tag[gold_tok[1]] = {"true_pos": p_tn
+													,"false_pos": p_fn
+													,"true_neg": p_tp
+													,"false_neg": p_fp
+													}
+		#print errors_by_tag
+		assert tp+fp+tn+fn == token_counter
+		print "%i == %i"%(tp+fp+tn+fn,token_counter)
 		return {"true_pos": tp
 				,"false_pos": fp
 				,"true_neg": tn
 				,"false_neg": fn
-				}
+				},errors_by_tag
+	
+	@staticmethod
+	def calc_stats_by_tag(d_by_tag_errors):
+		for tag in d_by_tag_errors:
+			d_by_tag_errors[tag]["prec"] = SimpleEvaluator.calc_precision(d_by_tag_errors[tag])
+			d_by_tag_errors[tag]["rec"] = SimpleEvaluator.calc_recall(d_by_tag_errors[tag])
+			d_by_tag_errors[tag]["f-sc"] = SimpleEvaluator.calc_fscore(d_by_tag_errors[tag])
+		return d_by_tag_errors
 	
 	@staticmethod		
 	def calc_precision(d_errors):

@@ -14,7 +14,7 @@ This module contains the core of the citation extractor.
 global logger
 logger = logging.getLogger('CREX')
 
-def determine_path ():
+def determine_path():
     """
 	Borrowed from wxglade.py
 	TODO move to Utils module
@@ -86,10 +86,10 @@ class citation_extractor:
 	"""
 	A Canonical Citation Extractor.
 	First off, import the settings via module import
-	>>> import base_settings
+	>>> import settings
 	
 	Then create an extractor passing as argument the settings
-	>>> extractor = citation_extractor(base_settings)
+	>>> extractor = citation_extractor(settings)
 	
 	Let's suppose now that want to extract the canonical references from the following string
 	>>> example_text = u"Eschilo interprete di se stesso (Ar. Ran. 1126ss., 1138-1150)"
@@ -98,7 +98,7 @@ class citation_extractor:
 	>>> tokenised_example = extractor.tokenize(example_text)
 	>>> result  = extractor.extract([tokenised_example,])
 	>>> " ".join(["%s/%s"%(n["token"],n["label"]) for n in result[0]])
-	'Eschilo/O interprete/O di/O se/O stesso/O (Ar./O Ran./B-CRF 1126ss.,/I-CRF 1138-1150)/I-CRF'
+	'Eschilo/O interprete/O di/O se/O stesso/O (Ar./B-REFAUWORK Ran./I-REFAUWORK 1126ss.,/B-REFSCOPE 1138-1150)/I-REFSCOPE'
 	
 	Now let's create a second extractor, initialised with different settings
 	
@@ -209,8 +209,13 @@ class citation_extractor:
 class FeatureExtractor:
 	"""
 	A feature extractor to extract features from tokens.
+	
+	Usage:
+		>>> fe = FeatureExtractor()
 	"""
+
 	def __init__(self):
+		self.OTHERS=0
 		# brackets
 		self.PAIRED_ROUND_BRACKETS=1
 		self.UNPAIRED_ROUND_BRACKETS=2
@@ -221,7 +226,6 @@ class FeatureExtractor:
 		self.ALL_CAPS=6
 		self.INIT_CAPS=7
 		self.ALL_LOWER=8
-		self.OTHERS=0
 		# punctuation
 		self.FINAL_DOT=10
 		self.CONTINUING_PUNCTUATION=11
@@ -238,38 +242,86 @@ class FeatureExtractor:
 		self.ROMAN_NUMBER=21
 		self.NO_DIGITS=9
 		self.MIXED_ALPHANUM=22
+		# dictionaries
+		self.MATCH_AUTHORS_DICT=23
+		self.MATCH_WORKS_DICT=24
+		
 		self.feat_labels=['i']*30
+		self.feat_labels[self.OTHERS]="OTHERS"
 		# brackets
-		self.feat_labels[1]="PAIRED_ROUND_BRACKETS"
-		self.feat_labels[2]="UNPAIRED_ROUND_BRACKETS"
-		self.feat_labels[3]="PAIRED_SQUARE_BRACKETS"
-		self.feat_labels[4]="UNPAIRED_SQUARE_BRACKETS"
+		self.feat_labels[self.PAIRED_ROUND_BRACKETS]="PAIRED_ROUND_BRACKETS"
+		self.feat_labels[self.UNPAIRED_ROUND_BRACKETS]="UNPAIRED_ROUND_BRACKETS"
+		self.feat_labels[self.PAIRED_SQUARE_BRACKETS]="PAIRED_SQUARE_BRACKETS"
+		self.feat_labels[self.UNPAIRED_SQUARE_BRACKETS]="UNPAIRED_SQUARE_BRACKETS"
 		# case
-		self.feat_labels[5]="MIXED_CAPS"
-		self.feat_labels[6]="ALL_CAPS"
-		self.feat_labels[7]="INIT_CAPS"
-		self.feat_labels[8]="ALL_LOWER"
+		self.feat_labels[self.MIXED_CAPS]="MIXED_CAPS"
+		self.feat_labels[self.ALL_CAPS]="ALL_CAPS"
+		self.feat_labels[self.INIT_CAPS]="INIT_CAPS"
+		self.feat_labels[self.ALL_LOWER]="ALL_LOWER"
 		# punctuation
-		self.feat_labels[10]="FINAL_DOT"
-		self.feat_labels[11]="CONTINUING_PUNCTUATION"
-		self.feat_labels[12]="STOPPING_PUNCTUATION"
-		self.feat_labels[13]="QUOTATION_MARK"
-		self.feat_labels[14]="HAS_HYPHEN"
-		self.feat_labels[15]="NO_PUNCTUATION"
+		self.feat_labels[self.FINAL_DOT]="FINAL_DOT"
+		self.feat_labels[self.CONTINUING_PUNCTUATION]="CONTINUING_PUNCTUATION"
+		self.feat_labels[self.STOPPING_PUNCTUATION]="STOPPING_PUNCTUATION"
+		self.feat_labels[self.QUOTATION_MARK]="QUOTATION_MARK"
+		self.feat_labels[self.HAS_HYPHEN]="HAS_HYPHEN"
+		self.feat_labels[self.NO_PUNCTUATION]="NO_PUNCTUATION"
 		# number
-		self.feat_labels[9]="NO_DIGITS"
-		self.feat_labels[16]="YEAR"
-		self.feat_labels[17]="RANGE"
-		self.feat_labels[18]="DOT_SEPARATED_NUMBER"
-		self.feat_labels[19]="DOT_SEPARATED_PLUS_RANGE"
-		self.feat_labels[20]="NUMBER"
-		self.feat_labels[21]="ROMAN_NUMBER"
-		self.feat_labels[22]="MIXED_ALPHANUM"
-		self.feat_labels[0]="OTHERS"
+		self.feat_labels[self.NO_DIGITS]="NO_DIGITS"
+		self.feat_labels[self.YEAR]="YEAR"
+		self.feat_labels[self.RANGE]="RANGE"
+		self.feat_labels[self.DOT_SEPARATED_NUMBER]="DOT_SEPARATED_NUMBER"
+		self.feat_labels[self.DOT_SEPARATED_PLUS_RANGE]="DOT_SEPARATED_PLUS_RANGE"
+		self.feat_labels[self.NUMBER]="NUMBER"
+		self.feat_labels[self.ROMAN_NUMBER]="ROMAN_NUMBER"
+		self.feat_labels[self.MIXED_ALPHANUM]="MIXED_ALPHANUM"
+		# dictionaries
+		self.feat_labels[self.MATCH_AUTHORS_DICT]="MATCH_AUTHORS_DICT"
+		self.feat_labels[self.MATCH_WORKS_DICT]="MATCH_WORKS_DICT"
+		# dictionary matching
+		
+		self.init_dictionaries()
+	
+	def init_dictionaries(self):
+		from FastDict import LookupDictionary
+		import codecs
+		try:
+			# initialise works dictionary
+			fname = dir="%s/data/works.csv"%determine_path()
+			file = codecs.open(fname,"r","utf-8")
+			raw_data = file.read()
+			file.close()
+			self.works_dict = LookupDictionary(raw_data.encode('utf-8'))
+		except Exception, e:
+			raise e
+		
+		try:
+			# initialise authors dictionary
+			fname = dir="%s/data/authors.csv"%determine_path()
+			file = codecs.open(fname,"r","utf-8")
+			raw_data = file.read()
+			file.close()
+			self.authors_dict = LookupDictionary(raw_data.encode('utf-8'))
+		except Exception, e:
+			raise e
+		return
 	
 	def extract_bracket_feature(self,check_str):
 		"""
 		Extract a feature concerning the eventual presence of brackets
+
+		Args:
+			check_str: the string for which we need to extract features
+
+		Returns:
+			a tuple:
+				result[0] : is the name of the feature
+				result[1] : is the feature value expressed as integer
+
+		Example:
+			>>> test_str = u'[Hom.]'
+			>>> fe = FeatureExtractor()
+			>>> value = fe.extract_bracket_feature(test_str)
+			>>> print fe.feat_labels[value[1]]
 		"""
 		res = None
 		# define check regexps
@@ -288,12 +340,12 @@ class FeatureExtractor:
 			res = self.UNPAIRED_ROUND_BRACKETS
 		else:
 			res = self.OTHERS
-		return ("brackets",res)
+		return ("c_brackets",res)
 	
 	def extract_case_feature(self,check_str):
 		"""
 		Extracts a feature concerning the ortographic case of a token.
-		
+
 		Args:
 			check_str: the string from which the feature will be extracted.
 		Returns:
@@ -308,7 +360,7 @@ class FeatureExtractor:
 				res = self.ALL_LOWER
 			elif(naked[0].isupper()):
 				res = self.INIT_CAPS
-		return ("case",res)
+		return ("d_case",res)
 	
 	def extract_punctuation_feature(self,check_str):
 		res = self.OTHERS
@@ -322,7 +374,7 @@ class FeatureExtractor:
 			res = self.FINAL_DOT
 		elif(cont_punct.match(check_str)):
 			res = self.CONTINUING_PUNCTUATION
-		return ("punct",res)
+		return ("b_punct",res)
 	
 	def extract_number_feature(self,check_str):
 		"""
@@ -336,7 +388,7 @@ class FeatureExtractor:
 			res = self.NO_DIGITS
 		elif(naked.isalnum()):
 			res = self.MIXED_ALPHANUM
-		return ("number",res)
+		return ("e_number",res)
 	
 	def extract_char_ngrams(self,inp):
 		"""
@@ -346,11 +398,11 @@ class FeatureExtractor:
 		inp  = u"%s"%inp
 		for i in range(0,4):
 			i+=1
-			temp = ("subs %i"%i,inp[0:i])
+			temp = ("f_subs %i"%i,inp[0:i])
 			out.append(temp)
 		for i in range(0,4):
 			i+=1
-			temp = ("susb -%i"%(i),inp[len(inp)-i:])
+			temp = ("g_susb -%i"%(i),inp[len(inp)-i:])
 			out.append(temp)
 		return out
 	
@@ -361,26 +413,75 @@ class FeatureExtractor:
 		out = re.sub('[%s]' % re.escape(string.punctuation), '', check_str)
 		res = []
 		if(not out==""):
-			t = ('lowcase',out.lower())
+			t = ('h_lowcase',out.lower())
 			res.append(t)
-			t = ('str-length',str(len(out)))
+			t = ('i_str-length',str(len(out)))
 			res.append(t)
 		else:
-			t = ('lowcase','_')
+			t = ('h_lowcase','_')
 			res.append(t)
-			t = ('str-length',str(len(out)))
+			t = ('i_str-length',str(len(out)))
 			res.append(t)
 		res.append(('a_token',check_str))
 		return res
 	
+	def extract_dictionary_feature(self,check_str):
+		"""
+		TODO
+		* remove eventual end-of-string punctuation before the lookup
+		* check that the string is actually a word
+		
+		"""
+		feature_name = "n_works_dictionary"
+		match_works = self.works_dict.lookup(check_str.encode("utf-8"))
+		match_authors = self.authors_dict.lookup(check_str.encode("utf-8"))
+		
+		if(len(match_authors)>0):
+			return (feature_name,self.MATCH_AUTHORS_DICT)
+		elif(len(match_works)>0):
+			return (feature_name,self.MATCH_WORKS_DICT)
+		else:
+			return (feature_name,self.OTHERS)
+	
+	def extract_pattern_feature(self,check_str):
+		"""
+		>>> fe = FeatureExtractor()
+		>>> test = "Homero,1999"
+		>>> value = fe.extract_pattern_feature(test)
+		>>> print value[1]
+		Aaaaaa-0000
+		"""
+		result = re.sub(r'[%s+]'%re.escape(string.punctuation),'-',check_str)
+		result = re.sub(r'[a-z+]','a',result)
+		result = re.sub(r'[A-Z+]','A',result)
+		result = re.sub(r'[\d+]','0',result)
+		return ('l_pattern',result)
+	
+	def extract_compressed_pattern_feature(self,check_str):
+		"""
+		>>> fe = FeatureExtractor()
+		>>> test = "Homero,1999"
+		>>> value = fe.extract_compressed_pattern_feature(test)
+		>>> print value[1]
+		Aa-0
+		"""
+		result = re.sub(r'[%s]+'%re.escape(string.punctuation),'-',check_str)
+		result = re.sub(r'[a-z]+','a',result)
+		result = re.sub(r'[A-Z]+','A',result)
+		result = re.sub(r'[\d]+','0',result)
+		return ('m_compressed-pattern',result)
+	
 	def extract_features(self,inp):
 		feature_set=[]
-		feat_funcs=[self.extract_punctuation_feature,
-		self.extract_bracket_feature,
-		self.extract_case_feature,
-		self.extract_number_feature,
-		self.extract_char_ngrams,
-		self.extract_string_features]
+		feat_funcs=[self.extract_punctuation_feature
+		,self.extract_bracket_feature
+		,self.extract_case_feature
+		,self.extract_number_feature
+		,self.extract_char_ngrams
+		,self.extract_string_features
+		,self.extract_pattern_feature
+		,self.extract_compressed_pattern_feature
+		,self.extract_dictionary_feature]
 		for f in feat_funcs:
 			result = f(inp)
 			if(type(result) == types.TupleType):
@@ -392,28 +493,43 @@ class FeatureExtractor:
 	
 	def get_features(self,instance,labels=[],outp_label=True):
 		out = [self.extract_features(tok) for tok in instance]
+		tok1 = out[0]
+		keys = [f[0] for f in tok1]
 		res = [dict(r) for r in out]
 		logger = logging.getLogger('CREX.FeatureExtractor')
 		logger.debug(res)
-		
 		for n,x in enumerate(res):
 			# transform the numeric values into strings
-			for m,key in enumerate(x.iterkeys()):
+			for key in keys:
 				if(type(x[key]) is type(12)):
 					x[key] = self.feat_labels[x[key]] # get the string label corresponding to a given int value
 					#x[key] = str(x[key]) # leave the numeric feature value
 			if(outp_label is True):
 				x['z_gt_label']=labels[n]
-		
 		return res
+	
+	def get_feature_order(self):
+		"""
+		>>> fe = FeatureExtractor()
+		>>> fe.get_feature_order()
+		"""
+		dumb_tok = ("Test.","O")
+		temp = self.get_features([dumb_tok[0]],[dumb_tok[1]])[0]
+		return [k for k in sorted(temp.keys())]
 	
 	def prepare_for_training(self,file_name):
 		"""
+		#TODO: can be made staticmethod at some point
+
 		Args:
 			file_name: the input file in IOB format
-		
+
 		Returns:
 			TODO document
+
+		Example:
+			>>> fe = FeatureExtractor()
+			>>> print fe.prepare_for_training("data/75-02637.iob")
 		"""
 		import codecs
 		fp = codecs.open(file_name, "r", "utf-8")
@@ -431,8 +547,7 @@ class FeatureExtractor:
 					labels.append(line.split('\t')[1])
 			all_labels.append(labels)
 			all_tokens.append(tokens)
-		res2 = [self.get_features(r,all_labels[n]) for n,r in enumerate(all_tokens)]
-			
+		res2 = [self.get_features(r,all_labels[n]) for n,r in enumerate(all_tokens)]	
 		# all this fuss is to have instances and feature sets as text
 		res2 = [instance_to_string(r) for r in res2]
 		res3 = ["\n".join(i) for i in res2]
