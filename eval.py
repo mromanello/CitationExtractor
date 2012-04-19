@@ -369,17 +369,35 @@ class SimpleEvaluator:
 				
 				tag_tok = tok
 				gold_tok = gold_inst[n]
+				if(not errors_by_tag.has_key(gold_tok[1])):
+					errors_by_tag[gold_tok[1]] = {"true_pos": 0
+							,"false_pos": 0
+							,"true_neg": 0
+							,"false_neg": 0
+							}
+				if(not errors_by_tag.has_key(tag_tok[1])):
+					errors_by_tag[tag_tok[1]] = {"true_pos": 0
+							,"false_pos": 0
+							,"true_neg": 0
+							,"false_neg": 0
+							}
 				if(gold_tok[1] == negative_BIO_tag and (gold_tok[1] == tag_tok[1])):
 					p_tn += 1 # increment the value of true negative counter
+					#errors_by_tag[gold_tok[1]]["true_neg"] += p_tn
+					errors_by_tag[gold_tok[1]]["true_pos"] += 1
 					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: true negative"%(gold_tok[0],gold_tok[1],tag_tok[0],tag_tok[1]))
 				elif(gold_tok[1] != negative_BIO_tag and (gold_tok[1] == tag_tok[1])):
 					p_tp += 1 # increment the value of true positive counter
+					errors_by_tag[gold_tok[1]]["true_pos"] += p_tp
 					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: true positive"%(gold_tok[0],gold_tok[1],tag_tok[0],tag_tok[1]))
 				elif(gold_tok[1] != negative_BIO_tag and (tag_tok[1] != gold_tok[1])):
 					p_fn += 1 # increment the value of false negative counter
+					errors_by_tag[gold_tok[1]]["false_neg"] += p_fn
 					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: false negative"%(gold_tok[0],gold_tok[1],tag_tok[0],tag_tok[1]))
 				elif(gold_tok[1] == negative_BIO_tag and (tag_tok[1] != gold_tok[1])):
 					p_fp += 1 # increment the value of false positive counter
+					errors_by_tag[tag_tok[1]]["false_pos"] += p_fp
+					errors_by_tag[gold_tok[1]]["false_neg"] += 1
 					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: false positive"%(gold_tok[0],gold_tok[1],tag_tok[0],tag_tok[1]))
 				
 				fp += p_fp
@@ -387,25 +405,7 @@ class SimpleEvaluator:
 				fn += p_fn
 				tn += p_tn
 				
-				# TODO: handle differently TN when 
-				if(errors_by_tag.has_key(gold_tok[1])):
-					errors_by_tag[gold_tok[1]]["true_pos"] += p_tp
-					errors_by_tag[gold_tok[1]]["false_pos"] += p_fp
-					errors_by_tag[gold_tok[1]]["true_neg"] += p_tn
-					errors_by_tag[gold_tok[1]]["false_neg"] += p_fn
-				else:
-					if(gold_tok[1] != negative_BIO_tag):
-						errors_by_tag[gold_tok[1]] = {"true_pos": p_tp
-													,"false_pos": p_fp
-													,"true_neg": p_tn
-													,"false_neg": p_fn
-													}
-					else:
-						errors_by_tag[gold_tok[1]] = {"true_pos": p_tn
-													,"false_pos": p_fn
-													,"true_neg": p_tp
-													,"false_neg": p_fp
-													}
+			l_logger.debug(errors_by_tag)
 		#print errors_by_tag
 		assert tp+fp+tn+fn == token_counter
 		print "%i == %i"%(tp+fp+tn+fn,token_counter)
