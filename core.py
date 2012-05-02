@@ -59,14 +59,15 @@ class CRFPP_Classifier:
 	"""	
 	This class should extend an abstract classifier	
 	"""
-	def __init__(self,train_file_name,template_file_name):
-		dir=determine_path()+"/data/"
+	def __init__(self,train_file_name,template_file_name,dir):
+		#dir=determine_path()+"/data/"
 		fe = FeatureExtractor()
 		path,fn = os.path.split(train_file_name)
 		train_fname=dir+fn+'.train'
 		t = fe.prepare_for_training(train_file_name)
 		out=open(train_fname,'w').write(t.encode("utf-8"))
-		model_fname=dir+fn+'.mdl' # the .mdl file should go somewhere else
+		# TODO the .mdl file should go somewhere else
+		model_fname=dir+fn+'.mdl' 
 		template_fname = template_file_name
 		train_crfpp(template_fname,train_fname,model_fname)
 		self.crf_model=CRF_classifier(model_fname)
@@ -116,7 +117,7 @@ class citation_extractor:
 			self.init_logger(loglevel=logging.INFO, log_file=options.LOG_FILE)
 		self.fe = FeatureExtractor()
 		if(options.DATA_FILE != ""):
-			self.classifier=CRFPP_Classifier(options.DATA_FILE,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE))
+			self.classifier=CRFPP_Classifier(options.DATA_FILE,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE),options.TEMP_DIR)
 		elif(options.DATA_DIRS != ""):
 			import glob
 			import codecs
@@ -131,8 +132,8 @@ class citation_extractor:
 					file_content = codecs.open("%s"%(infile), 'r',encoding="utf-8").read()
 					all_in_one.append(file_content)
 				result = "\n\n".join(all_in_one)
-				codecs.open("%sall_in_one.iob"%dir, 'w',encoding="utf-8").write(result)
-				self.classifier=CRFPP_Classifier("%sall_in_one.iob"%dir,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE))
+				codecs.open("%sall_in_one.iob"%options.TEMP_DIR, 'w',encoding="utf-8").write(result)
+				self.classifier=CRFPP_Classifier("%sall_in_one.iob"%options.TEMP_DIR,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE),options.TEMP_DIR)
 			pass
 	
 	def init_logger(self,log_file=None, loglevel=logging.DEBUG):

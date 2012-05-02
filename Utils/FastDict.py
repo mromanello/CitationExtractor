@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 class LookupDictionary:
 	"""
-	>>> auth_dict = "http://cwkb.webfactional.com/cwkb/dict/authors/all/json"
+	>>> auth_dict = "http://cwkb.webfactional.com/cwkb/dict/authors/all/json" #doctest: +SKIP
 	>>> raw_data = LookupDictionary.fetch_data(auth_dict)
 	>>> import codecs
 	>>> fname = dir="../data/works.csv"
@@ -16,6 +16,7 @@ class LookupDictionary:
 		#self.raw_data = self.fetch_data(source)
 		self.keys = self.process_source(raw_data)
 		self.indexer = self.index(self.keys)
+	
 	@staticmethod
 	def fetch_data(source):
 		"""

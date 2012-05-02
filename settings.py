@@ -1,7 +1,7 @@
 # Settings for the citation extractor
 
 # Sets debug on (=true) or off (=false)
-DEBUG = False
+DEBUG = True
 
 # leave empty to write the log to the console
 LOG_FILE = ""
@@ -13,6 +13,8 @@ DATA_DIRS = (
 )
 
 DATA_FILE = "aph_data_C1/all_in_one.iob"
+
+TEMP_DIR = "tmp/"
 
 OUTPUT_DIR = "out/"
 

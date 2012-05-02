@@ -22,7 +22,7 @@ global logger
 EVAL_PATH="/home/ngs0554/eval/"
 DATA_PATH="/home/ngs0554/crex_data/"
 
-def init_logger(verbose=False, log_file=None):
+def init_logger(verbose=False, log_file=None, log_name='CREX.EVAL'):
 	"""
     Initialise a logger.
 	
@@ -47,7 +47,7 @@ def init_logger(verbose=False, log_file=None):
 	
     """
 	import logging
-	l_logger = logging.getLogger('CREX.EVAL')
+	l_logger = logging.getLogger(log_name)
 	if(verbose):
 		l_logger.setLevel(logging.DEBUG)
 	else:

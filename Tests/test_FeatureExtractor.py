@@ -1,4 +1,4 @@
-from citation_extractor.crex import FeatureExtractor as FE
+from citation_extractor.core import FeatureExtractor as FE
 import pprint
 
 class TestExample:
