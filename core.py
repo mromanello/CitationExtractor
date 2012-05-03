@@ -87,25 +87,25 @@ class citation_extractor:
 	"""
 	A Canonical Citation Extractor.
 	First off, import the settings via module import
-	>>> import settings
+	>>> import settings #doctest: +SKIP
 	
 	Then create an extractor passing as argument the settings
-	>>> extractor = citation_extractor(settings)
+	>>> extractor = citation_extractor(settings) #doctest: +SKIP
 	
 	Let's suppose now that want to extract the canonical references from the following string
-	>>> example_text = u"Eschilo interprete di se stesso (Ar. Ran. 1126ss., 1138-1150)"
+	>>> example_text = u"Eschilo interprete di se stesso (Ar. Ran. 1126ss., 1138-1150)" #doctest: +SKIP
 	
 	Tokenise the text before passing it to the extractor
-	>>> tokenised_example = extractor.tokenize(example_text)
-	>>> result  = extractor.extract([tokenised_example,])
-	>>> " ".join(["%s/%s"%(n["token"],n["label"]) for n in result[0]])
+	>>> tokenised_example = extractor.tokenize(example_text) #doctest: +SKIP
+	>>> result  = extractor.extract([tokenised_example,]) #doctest: +SKIP
+	>>> " ".join(["%s/%s"%(n["token"],n["label"]) for n in result[0]]) #doctest: +SKIP
 	'Eschilo/O interprete/O di/O se/O stesso/O (Ar./B-REFAUWORK Ran./I-REFAUWORK 1126ss.,/B-REFSCOPE 1138-1150)/I-REFSCOPE'
 	
 	Now let's create a second extractor, initialised with different settings
 	
-	>>> import settings
-	>>> second_extractor = citation_extractor(settings)
-	>>> result = second_extractor.extract([tokenised_example])
+	>>> import settings #doctest: +SKIP
+	>>> second_extractor = citation_extractor(settings) #doctest: +SKIP
+	>>> result = second_extractor.extract([tokenised_example]) #doctest: +SKIP
 	
 	"""
 	def __init__(self,options):
@@ -121,20 +121,19 @@ class citation_extractor:
 		elif(options.DATA_DIRS != ""):
 			import glob
 			import codecs
+			all_in_one = []
 			for dir in options.DATA_DIRS:
 				# get all .iob files
 				# concatenate their content with line return
 				# write to a new file
-				all_in_one = []
 				logger.debug("Processing %s"%dir)
 				for infile in glob.glob( os.path.join(dir, '*.iob') ):
 					logger.debug("Found the file %s"%infile)
 					file_content = codecs.open("%s"%(infile), 'r',encoding="utf-8").read()
 					all_in_one.append(file_content)
-				result = "\n\n".join(all_in_one)
-				codecs.open("%sall_in_one.iob"%options.TEMP_DIR, 'w',encoding="utf-8").write(result)
-				self.classifier=CRFPP_Classifier("%sall_in_one.iob"%options.TEMP_DIR,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE),options.TEMP_DIR)
-			pass
+			result = "\n\n".join(all_in_one)
+			codecs.open("%sall_in_one.iob"%options.TEMP_DIR, 'w',encoding="utf-8").write(result)
+			self.classifier=CRFPP_Classifier("%sall_in_one.iob"%options.TEMP_DIR,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE),options.TEMP_DIR)
 	
 	def init_logger(self,log_file=None, loglevel=logging.DEBUG):
 		"""
@@ -246,6 +245,7 @@ class FeatureExtractor:
 		# dictionaries
 		self.MATCH_AUTHORS_DICT=23
 		self.MATCH_WORKS_DICT=24
+		# misc
 		
 		self.feat_labels=['i']*30
 		self.feat_labels[self.OTHERS]="OTHERS"
@@ -319,10 +319,9 @@ class FeatureExtractor:
 				result[1] : is the feature value expressed as integer
 
 		Example:
-			>>> test_str = u'[Hom.]'
+			>>> tests = [u'(one)',u'another']
 			>>> fe = FeatureExtractor()
-			>>> value = fe.extract_bracket_feature(test_str)
-			>>> print fe.feat_labels[value[1]]
+			>>> [(tests[n],fe.feat_labels[fe.extract_bracket_feature(t)[1]]) for n,t in enumerate(tests)]
 		"""
 		res = None
 		# define check regexps
@@ -380,9 +379,18 @@ class FeatureExtractor:
 	def extract_number_feature(self,check_str):
 		"""
 		TODO
+		1. first part of the features is concerns the whole string
+		2. second part should relate to the presence of number in a string
+		
+		Example:
+			>>> tests = [u'100',u'1994',u'1990-1999',u'23s.',u'10-11']
+			>>> fe = FeatureExtractor()
+			>>> [(tests[n],fe.feat_labels[fe.extract_number_feature(t)[1]]) for n,t in enumerate(tests)]
 		"""
 		res = self.OTHERS
 		naked = re.sub('[%s]' % re.escape(string.punctuation), '', check_str).lower()
+		is_modern_date_range = r"(\d{4}-\d{4})"
+		
 		if(naked.isdigit()):
 			res = self.NUMBER
 		elif(naked.isalpha()):
@@ -391,19 +399,41 @@ class FeatureExtractor:
 			res = self.MIXED_ALPHANUM
 		return ("e_number",res)
 	
-	def extract_char_ngrams(self,inp):
+	def extract_char_ngrams(self,inp,size=4):
 		"""
+		Extract ngram features (prefixes and suffixes), provided that the input string has a minimum length
+
+		Args:
+			inp: the string for which we need to extract features
+
+		Returns:
+			a list of tuples. each tuple:
+				result[0] : is the name of the feature
+				result[1] : is the feature value, in this case a string
+
+		Example:
+			>>> tests = [u'Hom',u'Esiodo',u'a']
+			>>> fe = FeatureExtractor()
+			>>> [fe.extract_char_ngrams(t) for t in tests]
 		"""
-		size=4
 		out=[]
+		nd="ND"
 		inp  = u"%s"%inp
-		for i in range(0,4):
+		for i in range(0,4): # ngram prefixes
 			i+=1
-			temp = ("f_subs %i"%i,inp[0:i])
+			if(len(inp) >= size): # string length matches minimum size				
+				temp = ("f_ngram_%i"%i,inp[0:i])
+			else:
+				#  string length below minimum size
+				temp = ("f_ngram_%i"%i,nd)
 			out.append(temp)
-		for i in range(0,4):
+		for i in range(0,4): # ngram suffixes
 			i+=1
-			temp = ("g_susb -%i"%(i),inp[len(inp)-i:])
+			if(len(inp) >= size):  # string length matches minimum size
+				temp = ("g_ngram_%i"%(i),inp[len(inp)-i:])
+			else:
+				#  string length below minimum size
+				temp = ("g_ngram_%i"%i,nd)
 			out.append(temp)
 		return out
 	
@@ -493,6 +523,9 @@ class FeatureExtractor:
 		return feature_set
 	
 	def get_features(self,instance,labels=[],outp_label=True):
+		"""
+		>>> fe = FeatureExtractor() #doctest: +SKIP
+		"""
 		out = [self.extract_features(tok) for tok in instance]
 		tok1 = out[0]
 		keys = [f[0] for f in tok1]
@@ -529,8 +562,8 @@ class FeatureExtractor:
 			TODO document
 
 		Example:
-			>>> fe = FeatureExtractor()
-			>>> print fe.prepare_for_training("data/75-02637.iob")
+			>>> fe = FeatureExtractor() #doctest: +SKIP
+			>>> print fe.prepare_for_training("data/75-02637.iob") #doctest: +SKIP
 		"""
 		import codecs
 		fp = codecs.open(file_name, "r", "utf-8")

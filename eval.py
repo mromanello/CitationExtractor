@@ -289,8 +289,10 @@ class SimpleEvaluator:
 	"""
 	>>> import base_settings, settings
 	>>> extractor_1 = citation_extractor(base_settings)
-	>>> extractor_2 = citation_extractor(settings)
-	>>> se = SimpleEvaluator([extractor_1,extractor_2],"data/75-02637.iob")
+	>>> extractor_2 = citation_extractor(settings) #doctest: +SKIP
+	>>> se = SimpleEvaluator([extractor_1,],"data/75-02637.iob") #doctest: +SKIP
+	>>> se = SimpleEvaluator([extractor_1,],["/Users/56k/phd/code/APh/experiments/C2/",]) 
+	>>> print se.eval()
 	
 	"""
 	def __init__(self,extractors,iob_test_file):
@@ -299,12 +301,16 @@ class SimpleEvaluator:
 			extractors: the list of canonical citation extractors to evaluate
 			iob_test_file: the file in IOB format to be used for testing and evaluating the extactors
 		"""
-		
-		self.test_instances = IO.file_to_instances(iob_test_file)
+		# read the test instances from a list of directories containing the test data
+		self.test_instances = self.read_instances(iob_test_file)
 		temp = [[tok[0] for tok in inst]for inst in self.test_instances]
 		self.string_instances = [" ".join(n) for n in temp]
-		
-		for eng in extractors:
+		self.extractors = extractors
+		return
+
+	def eval(self):
+		extractor_results = {}
+		for eng in self.extractors:
 			input = [eng.tokenize(inst) for inst in self.string_instances]
 			output = eng.extract(input)
 			to_evaluate = [[tuple([t["token"].decode("utf-8"),t["label"].decode("utf-8")]) for t in i] for i in output]
@@ -314,8 +320,16 @@ class SimpleEvaluator:
 			print "f-score %f"%self.calc_fscore(eval_results)
 			print "accuracy %f"%self.calc_accuracy(eval_results)
 			print self.calc_stats_by_tag(results[1])
-		return
-	
+			extractor_results[str(eng)] = results
+		return extractor_results
+
+	@staticmethod
+	def read_instances(directories):
+		result = []
+		for d in directories:
+			result += IO.read_iob_files(d)
+		return result
+
 	@staticmethod
 	def evaluate(l_tagged_instances,l_test_instances,negative_BIO_tag = u'O'):
 		"""
@@ -422,6 +436,9 @@ class SimpleEvaluator:
 			d_by_tag_errors[tag]["rec"] = SimpleEvaluator.calc_recall(d_by_tag_errors[tag])
 			d_by_tag_errors[tag]["f-sc"] = SimpleEvaluator.calc_fscore(d_by_tag_errors[tag])
 		return d_by_tag_errors
+	@staticmethod
+	def calc_stats_by_entity():
+		pass
 	
 	@staticmethod		
 	def calc_precision(d_errors):

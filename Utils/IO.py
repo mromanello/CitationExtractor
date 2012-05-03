@@ -333,6 +333,17 @@ def read_jstor_data(dir):
 			next  += read_jstor_data("%s%s/"%(dir,x))
 	return xml_files + next	
 
+def read_iob_files(inp_dir):
+	import glob
+	import os
+	logger = logging.getLogger()
+	instances = []
+	for infile in glob.glob( os.path.join(inp_dir, '*.iob') ):
+		temp = file_to_instances(infile)
+		instances +=temp
+		logger.debug("read %i instances from file %s"%(len(temp),infile))
+	return instances
+
 def main():
 	insts = read_IOB_file(sys.argv[1])
 	tag_name = 'CRF'
