@@ -381,6 +381,8 @@ class FeatureExtractor:
 		TODO
 		1. first part of the features is concerns the whole string
 		2. second part should relate to the presence of number in a string
+		* presence of range
+		* presence of modern dates
 		
 		Example:
 			>>> tests = [u'100',u'1994',u'1990-1999',u'23s.',u'10-11']
@@ -544,8 +546,11 @@ class FeatureExtractor:
 	
 	def get_feature_order(self):
 		"""
-		>>> fe = FeatureExtractor()
-		>>> fe.get_feature_order()
+		Returns the order in which the features are output.
+		
+		Example:
+			>>> fe = FeatureExtractor()
+			>>> fe.get_feature_order()
 		"""
 		dumb_tok = ("Test.","O")
 		temp = self.get_features([dumb_tok[0]],[dumb_tok[1]])[0]

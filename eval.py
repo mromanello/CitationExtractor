@@ -307,8 +307,15 @@ class SimpleEvaluator:
 		self.string_instances = [" ".join(n) for n in temp]
 		self.extractors = extractors
 		return
-
+	
 	def eval(self):
+		"""
+		Run the evaluator.
+		
+		Returns:
+			TODO
+		
+		"""
 		extractor_results = {}
 		for eng in self.extractors:
 			input = [eng.tokenize(inst) for inst in self.string_instances]
@@ -316,20 +323,21 @@ class SimpleEvaluator:
 			to_evaluate = [[tuple([t["token"].decode("utf-8"),t["label"].decode("utf-8")]) for t in i] for i in output]
 			results = self.evaluate(to_evaluate,self.test_instances)
 			eval_results = results[0]
-			print eval_results
-			print "f-score %f"%self.calc_fscore(eval_results)
-			print "accuracy %f"%self.calc_accuracy(eval_results)
-			print self.calc_stats_by_tag(results[1])
+			by_tag_results = results[1]
+			eval_results["f-score"] = self.calc_fscore(eval_results)
+			eval_results["precision"] = self.calc_precision(eval_results)
+			eval_results["recall"] = self.calc_recall(eval_results)
+			by_tag_results = self.calc_stats_by_tag(by_tag_results)
 			extractor_results[str(eng)] = results
 		return extractor_results
-
+	
 	@staticmethod
 	def read_instances(directories):
 		result = []
 		for d in directories:
 			result += IO.read_iob_files(d)
 		return result
-
+	
 	@staticmethod
 	def evaluate(l_tagged_instances,l_test_instances,negative_BIO_tag = u'O'):
 		"""
@@ -436,6 +444,7 @@ class SimpleEvaluator:
 			d_by_tag_errors[tag]["rec"] = SimpleEvaluator.calc_recall(d_by_tag_errors[tag])
 			d_by_tag_errors[tag]["f-sc"] = SimpleEvaluator.calc_fscore(d_by_tag_errors[tag])
 		return d_by_tag_errors
+	
 	@staticmethod
 	def calc_stats_by_entity():
 		pass
