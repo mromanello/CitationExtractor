@@ -186,6 +186,81 @@ class ActiveLearner:
 		self.candidates.sort(key=operator.attrgetter('ci_score'),reverse=True)
 		return self.candidates
 	
+	@staticmethod
+	def select_candidates(settings):
+		"""
+		Run the ActiveLearner and select a set of effective candidates.
+		"""
+		from citation_extractor.core import citation_extractor
+		from citation_extractor.Utils import aph_corpus
+		
+		extr = citation_extractor(settings)
+		#example_text = u"Eschilo interprete di se stesso (Ar. Ran. 1126ss., 1138-1150)"
+		#tokens = extr.tokenize(example_text)
+		#result = extr.extract([tokens])
+		# create an ActiveLearner instance
+		al = ActiveLearner(extr,0.2,settings.DEV_DIR,settings.TEST_DIR)
+		candidates = al.learn()
+		pruned_candidates = al.get_pruned_candidates()
+
+		effective_candidates_detail = "\n".join(["[%s] %s -> %f"%(c.instance,c.token,c.ci_score) for c in candidates])
+		file = open("%sec_details.txt"%settings.TEMP_DIR,"w")
+		file.write(effective_candidates_detail)
+		file.close()
+
+		effective_candidate_list = "\n".join(["%s/%s\t%s"%(n,len(al.get_pruned_candidates()),id) for n,id in enumerate(pruned_candidates)])
+		file = open("%sec_list.txt"%settings.TEMP_DIR,"w")
+		file.write(effective_candidate_list)
+		file.close()
+	
+	@staticmethod
+	def test_improvement(pre_settings,post_settings):
+		"""
+		TODO: what this function should do:
+		1. run without selected candidates in the train set and evaluate
+		2. run with selected candidates in the train set and evaluate
+		3. return: stats for the 1st run, stats for the 2nd run and improvement obtained 
+		"""
+		from citation_extractor.core import citation_extractor
+		from citation_extractor.eval import SimpleEvaluator
+		# extractor without selected candidates in the train set and evaluate
+		pre_extractor = citation_extractor(pre_settings)
+		# extractor with selected candidates in the train set and evaluate
+		post_extractor = citation_extractor(post_settings)
+		# initialise evaluator and evaluate against the test set
+		se = SimpleEvaluator([pre_extractor,post_extractor],[post_settings.TEST_DIR])
+		results = se.eval()
+
+		print "*** pre-active learning ***"
+		pre_al_results = results[str(pre_extractor)][0]
+		print "fscore: %f \nprecision: %f\nrecall: %f\n"%(pre_al_results["f-score"]*100,pre_al_results["precision"]*100,pre_al_results["recall"]*100)
+		print "*** post-active learning ***"
+		post_al_results = results[str(post_extractor)][0]
+		print "fscore: %f \nprecision: %f\nrecall: %f\n"%(post_al_results["f-score"]*100,post_al_results["precision"]*100,post_al_results["recall"]*100)
+	
+	@staticmethod
+	def tag_candidates(settings):
+		import glob
+		import os
+		import codecs
+		from citation_extractor.Utils import IO
+		from citation_extractor.core import citation_extractor
+		
+		extractor = citation_extractor(settings)
+		for infile in glob.glob( os.path.join(settings.CANDIDATES_DIR, '*.iob') ):
+			print "processing %s"%infile
+			instances = IO.file_to_instances(infile)
+			string_instances = [[tok[0] for tok in i]for i in instances]
+			results = extractor.extract([string_instances])
+			out_dir = settings.OUT_DIR
+			out_fname = "%s%s"%(out_dir,os.path.basename(infile))
+			file = codecs.open(out_fname, 'w',encoding="utf-8")
+			instances = ["\n".join(["%s\t%s"%(t["token"].decode("utf-8"),t["label"]) for t in r]) for r in results]
+			file.write("\n\n".join(instances))
+			file.close()
+			print "output written to %s"%out_fname
+		
+	
 if __name__ == "__main__":
 	import doctest
 	doctest.testmod(verbose=True)

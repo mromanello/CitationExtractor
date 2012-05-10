@@ -363,6 +363,9 @@ class FeatureExtractor:
 		return ("d_case",res)
 	
 	def extract_punctuation_feature(self,check_str):
+		"""
+		presence of hyphen and quotation marks
+		"""
 		res = self.OTHERS
 		punct_exp=re.compile('[%s]' % re.escape(string.punctuation))
 		final_dot=re.compile(r'.*?\.$')
@@ -383,6 +386,7 @@ class FeatureExtractor:
 		2. second part should relate to the presence of number in a string
 		* presence of range
 		* presence of modern dates
+		* is an ordinale number (Roman)?
 		
 		Example:
 			>>> tests = [u'100',u'1994',u'1990-1999',u'23s.',u'10-11']
@@ -462,7 +466,7 @@ class FeatureExtractor:
 		"""
 		TODO
 		* remove eventual end-of-string punctuation before the lookup
-		* check that the string is actually a word
+		* check that the string is actually a word (may not be necessary with different tokenisation)
 		
 		"""
 		feature_name = "n_works_dictionary"
@@ -475,6 +479,16 @@ class FeatureExtractor:
 			return (feature_name,self.MATCH_WORKS_DICT)
 		else:
 			return (feature_name,self.OTHERS)
+	
+	def extract_pos_feature(self):
+		pass
+	
+	def extract_word_length_feature(self,check_str,threshold=5):
+		"""
+		Features which gets fired when len(check_str) > threshold.
+		TODO We should probably calculate (periodically) the average length for diff tags (aauthor,awork,refauwork).
+		"""
+		pass
 	
 	def extract_pattern_feature(self,check_str):
 		"""
@@ -526,7 +540,16 @@ class FeatureExtractor:
 	
 	def get_features(self,instance,labels=[],outp_label=True):
 		"""
-		>>> fe = FeatureExtractor() #doctest: +SKIP
+		Args:
+			instance:
+				the instance to be classified, represented as a list of tokens.
+			labels:
+				...
+			out_label:
+				...
+			
+		Example:
+			>>> fe = FeatureExtractor() #doctest: +SKIP
 		"""
 		out = [self.extract_features(tok) for tok in instance]
 		tok1 = out[0]
