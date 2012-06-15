@@ -344,6 +344,19 @@ def read_iob_files(inp_dir):
 		logger.debug("read %i instances from file %s"%(len(temp),infile))
 	return instances
 
+def scan_iob_files(inp_dir):
+	import glob
+	import os
+	import re
+	logger = logging.getLogger()
+	exp=r'(?:aph_corpus)([0-9\-a-z]+)(?:\.iob)'
+	result = {}
+	for infile in glob.glob( os.path.join(inp_dir, '*.iob') ):
+		fname = os.path.split(infile)[1]
+		aph_number = re.match(exp,fname).groups()[0]
+		result[fname] = aph_number
+	return result
+
 def main():
 	insts = read_IOB_file(sys.argv[1])
 	tag_name = 'CRF'

@@ -48,7 +48,7 @@ def save_collection_onebyone(download_dir,files,data):
 		print "there was a problem writing file %s"%fname
 		print "I/O error({0}): {1}".format(errno, strerror)
 
-def download_collection(coll_url,download_dir):
+def download_collection(coll_url,download_dir,pos=False):
 	"""
 	Simple utility function to download an APh collection.
 	"""
@@ -59,7 +59,10 @@ def download_collection(coll_url,download_dir):
 	data = json.loads(urllib.urlopen(coll_url).read()) # the json returned here is just a list of file names
 	results = []
 	for n,id in enumerate(data):
-		url = "%s%s"%("http://cwkb.webfactional.com",id)
+		if(pos):
+			url = "%s%s2"%("http://cwkb.webfactional.com",id)
+		else:
+			url = "%s%s"%("http://cwkb.webfactional.com",id)
 		print "Downloaded %s [%i/%i]"%(url,n+1,len(data))
 		content = urllib.urlopen("%s"%url).read()
 		try:
@@ -73,6 +76,128 @@ def download_collection(coll_url,download_dir):
 
 def tokenise_collection(coll_name):
 	return
+
+def get_collection_details(collection_urls):
+	import urllib2
+	result = {}
+	tmp = []
+	for url in collection_urls:
+		req = urllib2.Request(url)
+		req.add_header('Content-Type','application/json')
+		res = urllib2.urlopen(req)
+		tmp.append(json.loads(res.read()))
+	for key in tmp[0].keys():
+		result[key] = 0
+	for r in tmp:
+		for k in r.keys():
+			if(type(r[k]) == type(3)):
+				result[k] += r[k]
+			elif(type(r[k]) == type({})):
+				result[k] = r[k]
+	return result
+
+def tokenise_and_tag(text, lang_code):
+	import os
+	lang_mappings = {
+		'en':'english'
+		,'it':'italian-utf8'
+		,'fr':'french-utf8'
+		,'es':'spanish-utf8'
+		,'de':'german-utf8'
+	}
+	cmd = "/Applications/treetagger/cmd/tree-tagger-%s"%(lang_mappings[lang_code])
+	if(lang_code!='en'):
+		cmd = "echo \"%s\" | %s"%(text.encode('utf-8'),cmd)
+	else:
+		cmd = "echo \"%s\" | %s"%(text.encode('latin-1'),cmd)
+	print cmd
+	out = os.popen(cmd).readlines()
+	return [tuple(tok.split('\t')) for tok in out]
+
+def reformat_iob(input_fname, output_fname,lang_code):
+	"""
+	TODO this should go into the Utils module.
+	Utility function. Reformat an existing IOB file applying a tokenisation based on punctuation instead of white spaces.
+	The IOB tags get transferred to the newly created tokens.
+	
+	Args:
+		input_fname:
+			a string, being the path to the input file
+		output_fname:
+			a string, being the path to the output file
+		lang_code:
+			the language of the file content, important for tokenisation and POS
+	"""
+	from citation_extractor.Utils import IO
+	from urllib import urlopen
+	import re
+	import codecs
+	result = []
+	file = codecs.open(input_fname,"r",'utf-8')
+	data = file.read()
+	file.close()
+	sentences = IO.read_instances(data)
+	plain_sentences = []
+	for s in sentences:
+		plain = [t[0] for t in s]
+		plain_sentences.append(" ".join(plain))
+	for n,sent in enumerate(sentences):
+		new_sent = []
+		wt_sent = tokenise_and_tag(plain_sentences[n],lang_code)
+		read = 0 # is a pointer which helps to synchronize the reading between the two streams of tokens
+		prev_tok = ""
+		print wt_sent
+		for n,tok in enumerate(wt_sent):
+			print type(tok[0])
+			try:
+				token = tok[0].decode('utf-8')
+			except Exception, e:
+				token = tok[0].decode('latin-1')
+				
+			pos_tag = None
+			if(tok[1] == ''):
+				pos_tag = tok[2]
+			elif(tok[1] != ''):
+				pos_tag = tok[1]
+				
+			if(token == sent[read][0]): # the two tokens are identical
+				print token,sent[read][1]
+				new_sent.append((tok[0],pos_tag,sent[read][1]))
+				read += 1
+			elif("%s%s"%(prev_tok,token) == sent[read][0]): # current + previous token are equal to the token in the other stream
+				#print "eureka"
+				label = sent[read][1]
+				if(re.match(r"B-",sent[read][1]) is not None):
+					label = re.sub(r"B-","I-",sent[read][1])
+				print token,label
+				new_sent.append((tok[0],pos_tag,label))
+				read += 1
+			elif(token in sent[read][0]): # TODO
+				if(re.match("^%s.*"%re.escape(tok[0]),sent[read][0])):
+					print token,sent[read][1]
+					new_sent.append((tok[0],pos_tag,sent[read][1]))
+				else:
+					label = sent[read][1]
+					if(re.match(r"B-",sent[read][1]) is not None):
+						label = re.sub(r"B-","I-",sent[read][1])
+					print token,label
+					new_sent.append((tok[0],pos_tag,label))
+			else:
+				read += 1
+				print token,sent[read][1]
+				new_sent.append((tok[0],pos_tag,sent[read][1]))	
+		result.append(new_sent)
+	file = codecs.open(output_fname,"w",'utf-8')
+	for sentence in result:
+		for token in sentence:
+			if(lang_code!="en"):
+				file.write("%s\t%s\t%s\n"%(token[0].decode('utf-8'),token[1],token[2]))
+			else:
+				file.write("%s\t%s\t%s\n"%(token[0].decode('latin-1'),token[1],token[2]))
+		file.write("\n")
+	file.close()
+	return result
+
 
 class Candidate:
 	"""
@@ -99,6 +224,7 @@ class ActiveLearner:
 	"""
 	def __init__(self, extractor=None,threshold=0.2,dev_set=None,test_set=None):
 		import logging
+		#from citation_extractor import eval
 		self.logger = logging.getLogger("CREX.ActiveLearner")
 		# set extractor
 		try:
@@ -223,20 +349,32 @@ class ActiveLearner:
 		"""
 		from citation_extractor.core import citation_extractor
 		from citation_extractor.eval import SimpleEvaluator
+		from citation_extractor.Utils import aph_corpus
 		# extractor without selected candidates in the train set and evaluate
 		pre_extractor = citation_extractor(pre_settings)
 		# extractor with selected candidates in the train set and evaluate
 		post_extractor = citation_extractor(post_settings)
 		# initialise evaluator and evaluate against the test set
-		se = SimpleEvaluator([pre_extractor,post_extractor],[post_settings.TEST_DIR])
+		se = SimpleEvaluator([pre_extractor,post_extractor],post_settings.TEST_DIR)
 		results = se.eval()
-
+		print "***data***"
+		print "pre-active learning TRAIN-SET: %s"%str(pre_settings.DATA_DIRS)
+		train_details = aph_corpus.get_collection_details(pre_settings.TRAIN_COLLECTIONS)
+		print "pre-active learning TRAIN-SET: # tokens = %i; # NEs = %i"%(train_details['total_token_count'],train_details['ne_token_count'])
+		train_details = aph_corpus.get_collection_details(post_settings.TRAIN_COLLECTIONS)
+		print "post-active learning TRAIN-SET: %s"%str(post_settings.DATA_DIRS)
+		print "post-active learning TRAIN-SET: # tokens = %i; # NEs = %i"%(train_details['total_token_count'],train_details['ne_token_count'])
+		test_details = aph_corpus.get_collection_details(post_settings.TEST_COLLECTIONS)
+		print "TEST-SET: %s"%str(post_settings.TEST_DIR)
+		print "TEST-SET details: # tokens = %i; # NEs = %i\n"%(test_details['total_token_count'],test_details['ne_token_count'])
 		print "*** pre-active learning ***"
 		pre_al_results = results[str(pre_extractor)][0]
 		print "fscore: %f \nprecision: %f\nrecall: %f\n"%(pre_al_results["f-score"]*100,pre_al_results["precision"]*100,pre_al_results["recall"]*100)
 		print "*** post-active learning ***"
 		post_al_results = results[str(post_extractor)][0]
 		print "fscore: %f \nprecision: %f\nrecall: %f\n"%(post_al_results["f-score"]*100,post_al_results["precision"]*100,post_al_results["recall"]*100)
+		print "*** post-active learning gain (%) ***"
+		print "fscore: %f \nprecision: %f\nrecall: %f\n"%(post_al_results["f-score"]*100 - pre_al_results["f-score"]*100,post_al_results["precision"]*100 - pre_al_results["precision"]*100,post_al_results["recall"]*100 - pre_al_results["recall"]*100)
 	
 	@staticmethod
 	def tag_candidates(settings):

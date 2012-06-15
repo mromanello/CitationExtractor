@@ -298,8 +298,10 @@ class SimpleEvaluator:
 	def __init__(self,extractors,iob_test_file):
 		"""
 		Args:
-			extractors: the list of canonical citation extractors to evaluate
-			iob_test_file: the file in IOB format to be used for testing and evaluating the extactors
+			extractors:
+				the list of canonical citation extractors to evaluate
+			iob_test_file: 
+				the file in IOB format to be used for testing and evaluating the extactors
 		"""
 		# read the test instances from a list of directories containing the test data
 		self.test_instances = self.read_instances(iob_test_file)
