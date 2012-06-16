@@ -448,8 +448,57 @@ class SimpleEvaluator:
 		return d_by_tag_errors
 	
 	@staticmethod
-	def calc_stats_by_entity():
-		pass
+	def calc_stats_by_entity(d_by_tag_errors):
+		"""
+		Aggregates results by entity (B-X and I-X are aggregated together.)
+		
+		Args:
+			d_by_tag_errors:
+				a dictionary containing error details by tag
+				
+		Example:
+			>>> import core
+			>>> from core import citation_extractor
+			>>> from eval import SimpleEvaluator
+			>>> import base_settings, settings
+			>>> extractor_1 = citation_extractor(base_settings)
+			>>> se = SimpleEvaluator([extractor_1,],["/Users/56k/phd/code/APh/experiments/C2/",]) 
+			>>> res = se.eval()
+			>>> by_entity = se.calc_stats_by_entity(res[str(extractor_1)][1])
+			
+			
+		"""
+		overall_errors = d_by_tag_errors
+		stats_by_entity = {}
+		for tag in d_by_tag_errors:
+				"""
+				logger.debug("(%s) True Positives (tp): %i"%(tag,overall_errors[tag]['true_pos']))
+				logger.debug("(%s) False Positives (fp): %i"%(tag,overall_errors[tag]['false_pos']))
+				logger.debug("(%s) False Negatives (fn): %i"%(tag,overall_errors[tag]['false_neg']))
+				logger.debug("(%s) Total labels in test set: %i"%(tag,test_label_counts[tag]))
+				logger.debug("(%s) precision: %f"%(tag,details[tag]["prec"]))
+				logger.debug("(%s) recall: %f"%(tag,details[tag]["rec"]))
+				logger.debug("(%s) F-score: %f"%(tag,details[tag]["f-sc"]))
+				logger.debug("************")
+				"""
+				if(tag != "O"):
+					aggreg_tag = tag.replace("B-","").replace("I-","")
+					if(not stats_by_entity.has_key(aggreg_tag)):
+						stats_by_entity[aggreg_tag] = {
+							"true_pos":0,
+							"true_neg":0,
+							"false_pos":0,
+							"false_neg":0,
+						}	
+					stats_by_entity[aggreg_tag]['false_pos'] += overall_errors[tag]['false_pos']
+					stats_by_entity[aggreg_tag]['true_pos'] += overall_errors[tag]['true_pos']
+					stats_by_entity[aggreg_tag]['true_neg'] += overall_errors[tag]['true_neg']
+					stats_by_entity[aggreg_tag]['false_neg'] += overall_errors[tag]['false_neg']
+		for aggreg_tag in stats_by_entity:
+				stats_by_entity[aggreg_tag]['prec'] = SimpleEvaluator.calc_precision(stats_by_entity[aggreg_tag])
+				stats_by_entity[aggreg_tag]['rec'] = SimpleEvaluator.calc_recall(stats_by_entity[aggreg_tag])
+				stats_by_entity[aggreg_tag]['f-sc'] = SimpleEvaluator.calc_fscore(stats_by_entity[aggreg_tag])
+		return stats_by_entity
 	
 	@staticmethod		
 	def calc_precision(d_errors):
@@ -491,6 +540,9 @@ class SimpleEvaluator:
 		else:
 			return 2*(float(prec * rec) / float(prec + rec))
 	
+
+class CrossEvaluator(SimpleEvaluator):
+	pass
 
 if __name__ == "__main__":
 	#Usage example: python eval.py aph_data_100_positive/ out/

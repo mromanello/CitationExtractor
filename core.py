@@ -551,10 +551,10 @@ class FeatureExtractor:
 		Example:
 			>>> fe = FeatureExtractor() #doctest: +SKIP
 		"""
-		out = [self.extract_features(tok) for tok in instance]
-		tok1 = out[0]
+		features = [self.extract_features(tok) for tok in instance]
+		tok1 = features[0]
 		keys = [f[0] for f in tok1]
-		res = [dict(r) for r in out]
+		res = [dict(r) for r in features]
 		logger = logging.getLogger('CREX.FeatureExtractor')
 		logger.debug(res)
 		for n,x in enumerate(res):

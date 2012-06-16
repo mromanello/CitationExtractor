@@ -226,6 +226,7 @@ class ActiveLearner:
 		import logging
 		#from citation_extractor import eval
 		self.logger = logging.getLogger("CREX.ActiveLearner")
+		self.token_count = 0
 		# set extractor
 		try:
 			assert extractor is not None
@@ -309,6 +310,7 @@ class ActiveLearner:
 					cand = Candidate(tok["token"],"%s#%i"%(infile,n),probs[:2]) # just the 2 top most likely tags are considered
 					if(self.is_effective_candidate(cand)):
 						self.candidates.append(cand)
+					self.token_count+=1
 		self.candidates.sort(key=operator.attrgetter('ci_score'),reverse=True)
 		return self.candidates
 	
@@ -328,6 +330,7 @@ class ActiveLearner:
 		al = ActiveLearner(extr,0.2,settings.DEV_DIR,settings.TEST_DIR)
 		candidates = al.learn()
 		pruned_candidates = al.get_pruned_candidates()
+		al.logger.info("Total tokens classified: %i"%al.token_count)
 
 		effective_candidates_detail = "\n".join(["[%s] %s -> %f"%(c.instance,c.token,c.ci_score) for c in candidates])
 		file = open("%sec_details.txt"%settings.TEMP_DIR,"w")
