@@ -131,6 +131,9 @@ def instance_to_string(inst):
 		out.append("\t".join(tmp))
 	return out
 
+def instance_to_IOB(instance):
+	pass
+
 def instance_contains_label(instance,labels=["O"]):
 	temp=[token[1] for token in instance] 
 	res = set(temp).intersection(set(labels))

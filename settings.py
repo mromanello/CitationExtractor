@@ -1,7 +1,7 @@
 # Settings for the citation extractor
 
 # Sets debug on (=true) or off (=false)
-DEBUG = True
+DEBUG = False
 
 # leave empty to write the log to the console
 LOG_FILE = ""
@@ -23,7 +23,7 @@ CROSS_VAL_FOLDS = 10
 
 CRFPP_TEMPLATE_DIR = "crfpp_templates/"
 
-CRFPP_TEMPLATE = "template_2.tpl"
+CRFPP_TEMPLATE = "template_4.tpl"
 
 # Leave empty to use CRF++'s default value
 CRFPP_PARAM_C = ''

@@ -290,12 +290,12 @@ class SimpleEvaluator(object):
 	>>> import base_settings, settings #doctest: +SKIP
 	>>> extractor_1 = citation_extractor(base_settings) #doctest: +SKIP
 	>>> extractor_2 = citation_extractor(settings) #doctest: +SKIP
-	>>> se = SimpleEvaluator([extractor_1,],"data/75-02637.iob") #doctest: +SKIP
+	>>> se = SimpleEvaluator([extractor_1,],iob_file="data/75-02637.iob") #doctest: +SKIP
 	>>> se = SimpleEvaluator([extractor_1,],["/Users/56k/phd/code/APh/experiments/C2/",]) #doctest: +SKIP
 	>>> print se.eval() #doctest: +SKIP
 	
 	"""
-	def __init__(self,extractors,iob_test_file):
+	def __init__(self,extractors,iob_directories=[],iob_file=None):
 		"""
 		Args:
 			extractors:
@@ -304,7 +304,11 @@ class SimpleEvaluator(object):
 				the file in IOB format to be used for testing and evaluating the extactors
 		"""
 		# read the test instances from a list of directories containing the test data
-		self.test_instances = self.read_instances(iob_test_file)
+		
+		if(iob_file is None):
+			self.test_instances = self.read_instances(iob_directories)
+		else:
+			self.test_instances = IO.file_to_instances(iob_file)
 		temp = [[tok[0] for tok in inst]for inst in self.test_instances]
 		self.string_instances = [" ".join(n) for n in temp]
 		self.extractors = extractors
@@ -543,20 +547,23 @@ class SimpleEvaluator(object):
 
 class CrossEvaluator(SimpleEvaluator):
 	"""
-	>>> import base_settings
+	>>> import settings
+	>>> import pprint
 	>>> base_settings.DEBUG = False
-	>>> extractor_1 = citation_extractor(base_settings)
+	>>> extractor_1 = settings
 	>>> test_files = ["/Users/56k/phd/code/APh/experiments/eff_cand_1_a/","/Users/56k/phd/code/APh/experiments/C1/","/Users/56k/phd/code/APh/experiments/C2/",]
-	>>> ce = CrossEvaluator([extractor_1,],test_files,culling_size=100,fold_number=10) 
-	>>> ce.run()
+	>>> ce = CrossEvaluator([extractor_1,],test_files,culling_size=100,fold_number=10,evaluation_dir="/Users/56k/Downloads/eval_temp/") 
+	>>> result = ce.run()
+	>>> pprint.pprint(result)
 	"""
 	
-	def __init__(self,extractors,iob_test_file,culling_size=None,fold_number=10):
+	def __init__(self,extractors,iob_test_file,culling_size=None,fold_number=10,evaluation_dir="./"):
 		super(CrossEvaluator, self).__init__(extractors,iob_test_file)
 		self.culling_size = culling_size
 		self.fold_number = fold_number
+		self.evaluation_dir = evaluation_dir
 		import logging
-		self.logger = logging.getLogger('CREX.CROSSEVAL')
+		self.logger = init_logger(verbose=False,log_name='CREX.CROSSEVAL')
 		if(self.culling_size is not None):
 			self.logger.info("Culling set at %i"%self.culling_size)
 			import random
@@ -608,6 +615,8 @@ class CrossEvaluator(SimpleEvaluator):
 		
 		"""
 		iterations = []
+		results = {}
+		# first lets' create test and train set for each iteration
 		for x,iter in enumerate(self.dataSets_iterator):
 			self.logger.info("Iteration %i"%(x+1))
 			train_set=[]
@@ -619,6 +628,38 @@ class CrossEvaluator(SimpleEvaluator):
 					else:
 						test_set+=group
 			iterations.append((train_set,test_set))
+		
+		# let's go through all the iterations
+		for i,iter in enumerate(iterations):
+			for n,extractor_settings in enumerate(self.extractors):
+					self.logger.info("Running iteration #%i with extractor #%i"%(i+1,n+1))
+					self.logger.info(extractor_settings)
+					train_file="%sfold_%i.train"%(self.evaluation_dir,i+1)
+					test_file="%sfold_%i.test"%(self.evaluation_dir,i+1)
+					self.logger.info(train_file)
+					self.logger.info(test_file)
+					import codecs
+					file = codecs.open(train_file,'w','utf-8')
+					tmp = [[("%s\t%s"%(token[0],token[1]))for token in instance] for instance in iter[0]]
+					tmp = ["\n".join(x) for x in tmp]
+					to_write = "\n\n".join(tmp)
+					file.write(to_write)
+					file.close()
+					file = codecs.open(test_file,'w','utf-8')
+					tmp = [[("%s\t%s"%(token[0],token[1]))for token in instance] for instance in iter[1]]
+					tmp = ["\n".join(x) for x in tmp]
+					to_write = "\n\n".join(tmp)
+					file.write(to_write)
+					file.close()
+					extractor_settings.DATA_FILE = train_file
+					extractor = citation_extractor(extractor_settings)
+					results[str(extractor)] = {}
+					se = SimpleEvaluator([extractor,],iob_file=test_file)
+					results[str(extractor)]["iter-%i"%(i+1)]= se.eval()
+		return results
+					
+							
+					
 	
 		
 		pass
