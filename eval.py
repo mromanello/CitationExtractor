@@ -41,8 +41,8 @@ def init_logger(verbose=False, log_file=None, log_name='CREX.EVAL'):
 	
     Examples
     --------
-    >>> l = init_logger()
-    >>> type(l)
+    >>> l = init_logger() #doctest: +SKIP
+    >>> type(l) #doctest: +SKIP
     <class 'logging.Logger'>
 	
     """
@@ -285,14 +285,14 @@ def run_example():
 	DATA_PATH="/home/ngs0554/crex_data"
 	run_example(DATA_PATH)
 
-class SimpleEvaluator:
+class SimpleEvaluator(object):
 	"""
-	>>> import base_settings, settings
-	>>> extractor_1 = citation_extractor(base_settings)
+	>>> import base_settings, settings #doctest: +SKIP
+	>>> extractor_1 = citation_extractor(base_settings) #doctest: +SKIP
 	>>> extractor_2 = citation_extractor(settings) #doctest: +SKIP
 	>>> se = SimpleEvaluator([extractor_1,],"data/75-02637.iob") #doctest: +SKIP
-	>>> se = SimpleEvaluator([extractor_1,],["/Users/56k/phd/code/APh/experiments/C2/",]) 
-	>>> print se.eval()
+	>>> se = SimpleEvaluator([extractor_1,],["/Users/56k/phd/code/APh/experiments/C2/",]) #doctest: +SKIP
+	>>> print se.eval() #doctest: +SKIP
 	
 	"""
 	def __init__(self,extractors,iob_test_file):
@@ -344,19 +344,19 @@ class SimpleEvaluator:
 	def evaluate(l_tagged_instances,l_test_instances,negative_BIO_tag = u'O'):
 		"""
 		Evaluates a list of tagged instances against one of test instances (gold standard).
-		>>> tagged = [[('ü','O'),('Hom','O'),('Il.','B-CREF')]]
-		>>> test = [[('ü','O'),('Hom','B-CREF'),('Il.','I-CREF')]]
-		>>> res = SimpleEvaluator.evaluate(tagged,test)
-		>>> print res[0]
+		>>> tagged = [[('ü','O'),('Hom','O'),('Il.','B-CREF')]] #doctest: +SKIP
+		>>> test = [[('ü','O'),('Hom','B-CREF'),('Il.','I-CREF')]] #doctest: +SKIP
+		>>> res = SimpleEvaluator.evaluate(tagged,test) #doctest: +SKIP
+		>>> print res[0] #doctest: +SKIP
 		{'false_pos': 2, 'true_pos': 0, 'true_neg': 1, 'false_neg': 0}
-		>>> print SimpleEvaluator.calc_stats_by_tag(res[1])
+		>>> print SimpleEvaluator.calc_stats_by_tag(res[1]) #doctest: +SKIP
 		
 		Args:
 			l_tagged_instances:
 				A list of instances. Each instance is a list of tokens, the tokens being tuples.
 				Each tuple has the token (i=0) and the assigned label (i=1).
 				For example:
-				>>> l_instances = [[('vd.','O'),('Hom','B-CREF')]]
+				>>> l_instances = [[('vd.','O'),('Hom','B-CREF')]] #doctest: +SKIP
 				
 			l_test_instances:
 			
@@ -457,14 +457,14 @@ class SimpleEvaluator:
 				a dictionary containing error details by tag
 				
 		Example:
-			>>> import core
-			>>> from core import citation_extractor
-			>>> from eval import SimpleEvaluator
-			>>> import base_settings, settings
-			>>> extractor_1 = citation_extractor(base_settings)
-			>>> se = SimpleEvaluator([extractor_1,],["/Users/56k/phd/code/APh/experiments/C2/",]) 
-			>>> res = se.eval()
-			>>> by_entity = se.calc_stats_by_entity(res[str(extractor_1)][1])
+			>>> import core #doctest: +SKIP
+			>>> from core import citation_extractor #doctest: +SKIP
+			>>> from eval import SimpleEvaluator #doctest: +SKIP
+			>>> import base_settings, settings #doctest: +SKIP
+			>>> extractor_1 = citation_extractor(base_settings) #doctest: +SKIP
+			>>> se = SimpleEvaluator([extractor_1,],["/Users/56k/phd/code/APh/experiments/C2/",]) #doctest: +SKIP
+			>>> res = se.eval() #doctest: +SKIP
+			>>> by_entity = se.calc_stats_by_entity(res[str(extractor_1)][1]) #doctest: +SKIP
 			
 			
 		"""
@@ -542,8 +542,86 @@ class SimpleEvaluator:
 	
 
 class CrossEvaluator(SimpleEvaluator):
-	pass
-
+	"""
+	>>> import base_settings
+	>>> base_settings.DEBUG = False
+	>>> extractor_1 = citation_extractor(base_settings)
+	>>> test_files = ["/Users/56k/phd/code/APh/experiments/eff_cand_1_a/","/Users/56k/phd/code/APh/experiments/C1/","/Users/56k/phd/code/APh/experiments/C2/",]
+	>>> ce = CrossEvaluator([extractor_1,],test_files,culling_size=100,fold_number=10) 
+	>>> ce.run()
+	"""
+	
+	def __init__(self,extractors,iob_test_file,culling_size=None,fold_number=10):
+		super(CrossEvaluator, self).__init__(extractors,iob_test_file)
+		self.culling_size = culling_size
+		self.fold_number = fold_number
+		import logging
+		self.logger = logging.getLogger('CREX.CROSSEVAL')
+		if(self.culling_size is not None):
+			self.logger.info("Culling set at %i"%self.culling_size)
+			import random
+			random.shuffle(self.test_instances)
+			self.culled_instances = self.test_instances[:self.culling_size]
+		else:
+			self.logger.info("Culling not set.")
+		self.logger.info("Evaluation type: %i-fold cross evaluations"%self.fold_number)
+		self.logger.info("Training/Test set contains %i instances."%len(self.test_instances))
+		self.create_datasets()
+	
+	def create_datasets(self):
+		"""
+		docstring for create_datasets
+		"""
+		
+		from miguno.partitioner import *
+		from miguno.crossvalidationdataconstructor import *
+		from citation_extractor.Utils import IO
+		positive_labels = ["B-REFSCOPE","I-REFSCOPE","B-AAUTHOR","I-AAUTHOR","B-REFAUWORK","I-REFAUWORK","B-AWORK","I-AWORK"]
+		if(self.culling_size is not None):
+			positives_negatives = [(n,IO.instance_contains_label(inst,positive_labels)) for n,inst in enumerate(self.culled_instances)]
+			positives = [self.culled_instances[i[0]] for i in positives_negatives if i[1] is True]
+			negatives = [self.culled_instances[i[0]] for i in positives_negatives if i[1] is False]
+		else:
+			positives_negatives = [(n,IO.instance_contains_label(inst,positive_labels)) for n,inst in enumerate(self.test_instances)]
+			positives = [self.test_instances[i[0]] for i in positives_negatives if i[1] is True]
+			negatives = [self.test_instances[i[0]] for i in positives_negatives if i[1] is False]
+		self.logger.info("%i Positive instances"%len(positives))
+		self.logger.info("%i Negative instances"%len(negatives))
+		self.logger.info("%i Total instances"%(len(positives)+len(negatives)))
+		self.dataSets_iterator = CrossValidationDataConstructor(positives, negatives, numPartitions=self.fold_number, randomize=True).getDataSets()
+		pass
+	
+	def run(self):
+		"""
+		docstring for run
+		
+		TODO:
+			for each iteration
+				for each engine (extractor)
+					write to file the train set
+					write to file the test set
+					evaluate
+					append to 
+						results[extractors[str(extractor_1)]][round-n][fscore]
+						results[extractors[str(extractor_1)]][round-n][prec]
+						results[extractors[str(extractor_1)]][round-n][...]
+		
+		"""
+		iterations = []
+		for x,iter in enumerate(self.dataSets_iterator):
+			self.logger.info("Iteration %i"%(x+1))
+			train_set=[]
+			test_set=[]
+			for y,set in enumerate(iter):
+				for n,group in enumerate(set):
+					if(y==0):
+						train_set+=group
+					else:
+						test_set+=group
+			iterations.append((train_set,test_set))
+	
+		
+		pass
 if __name__ == "__main__":
 	#Usage example: python eval.py aph_data_100_positive/ out/
 	#main()
