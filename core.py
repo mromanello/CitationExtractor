@@ -211,10 +211,14 @@ class FeatureExtractor:
 	A feature extractor to extract features from tokens.
 	
 	Usage:
-		>>> fe = FeatureExtractor()
+		>>> tokens = "the cat is dead".split()
+		>>> POStags = [[("zz_POS","fake")] for i in range(len(tokens))]
+		>>> fe = FeatureExtractor(legacy_features = POStags)
+		>>> token_labels = ["O","O","O","O"]
+		>>> fe.get_features(tokens, token_labels)
 	"""
 
-	def __init__(self):
+	def __init__(self, legacy_features=None):
 		self.OTHERS=0
 		# brackets
 		self.PAIRED_ROUND_BRACKETS=1
@@ -281,6 +285,8 @@ class FeatureExtractor:
 		# dictionary matching
 		
 		self.init_dictionaries()
+		if(legacy_features is not None):
+			self.legacy_features = legacy_features
 	
 	def init_dictionaries(self):
 		from FastDict import LookupDictionary
@@ -538,7 +544,7 @@ class FeatureExtractor:
 					feature_set.append(r)	
 		return feature_set
 	
-	def get_features(self,instance,labels=[],outp_label=True):
+	def get_features(self,instance,labels=[],outp_label=True):	
 		"""
 		Args:
 			instance:
@@ -552,6 +558,10 @@ class FeatureExtractor:
 			>>> fe = FeatureExtractor() #doctest: +SKIP
 		"""
 		features = [self.extract_features(tok) for tok in instance]
+		
+		if(self.legacy_features is not None):
+			features = [features[i] + self.legacy_features[i] for i in range(len(instance))]
+			
 		tok1 = features[0]
 		keys = [f[0] for f in tok1]
 		res = [dict(r) for r in features]
