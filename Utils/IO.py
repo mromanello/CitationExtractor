@@ -134,8 +134,8 @@ def instance_to_string(inst):
 def instance_to_IOB(instance):
 	pass
 
-def instance_contains_label(instance,labels=["O"]):
-	temp=[token[1] for token in instance] 
+def instance_contains_label(instance,labels=["O"],index=1):
+	temp=[token[index] for token in instance] 
 	res = set(temp).intersection(set(labels))
 	if(len(res)==0):
 		return False
@@ -361,6 +361,13 @@ def scan_iob_files(inp_dir):
 		result[fname] = aph_number
 	return result
 
+
+def count_tokens(instance):
+	"""
+	Instance is a list
+	"""
+	return sum([1 for token in instance])
+
 def main():
 	insts = read_IOB_file(sys.argv[1])
 	tag_name = 'CRF'
@@ -370,7 +377,7 @@ def main():
 	for i in res:
 		print i
 		print re.sub(r'[^\w]','',i)
-	
+
 		
 if __name__ == "__main__":
     main()

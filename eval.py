@@ -91,7 +91,7 @@ class SimpleEvaluator(object):
 	>>> print se.eval() #doctest: +SKIP
 	
 	"""
-	def __init__(self,extractors,iob_directories=[],iob_file=None):
+	def __init__(self,extractors,iob_directories=[],iob_file=None,gold_tag_column=1):
 		"""
 		Args:
 			extractors:
@@ -108,6 +108,7 @@ class SimpleEvaluator(object):
 		temp = [[tok[0] for tok in inst]for inst in self.test_instances]
 		self.string_instances = [" ".join(n) for n in temp]
 		self.extractors = extractors
+		self.gold_tag_column = gold_tag_column
 		return
 	
 	def eval(self):
@@ -123,7 +124,7 @@ class SimpleEvaluator(object):
 			input = [eng.tokenize(inst) for inst in self.string_instances]
 			output = eng.extract(input)
 			to_evaluate = [[tuple([t["token"].decode("utf-8"),t["label"].decode("utf-8")]) for t in i] for i in output]
-			results = self.evaluate(to_evaluate,self.test_instances)
+			results = self.evaluate(to_evaluate,self.test_instances,self.gold_tag_column)
 			eval_results = results[0]
 			by_tag_results = results[1]
 			eval_results["f-score"] = self.calc_fscore(eval_results)
@@ -141,7 +142,7 @@ class SimpleEvaluator(object):
 		return result
 	
 	@staticmethod
-	def evaluate(l_tagged_instances,l_test_instances,negative_BIO_tag = u'O'):
+	def evaluate(l_tagged_instances,l_test_instances,negative_BIO_tag = u'O',gold_tag_column=1):
 		"""
 		Evaluates a list of tagged instances against one of test instances (gold standard).
 		>>> tagged = [[('ü','O'),('Hom','O'),('Il.','B-CREF')]] #doctest: +SKIP
@@ -193,7 +194,7 @@ class SimpleEvaluator(object):
 				
 				tag_tok = tok
 				gold_tok = gold_inst[n]
-				if(not errors_by_tag.has_key(gold_tok[1])):
+				if(not errors_by_tag.has_key(gold_tok[gold_tag_column])):
 					errors_by_tag[gold_tok[1]] = {"true_pos": 0
 							,"false_pos": 0
 							,"true_neg": 0
@@ -205,24 +206,24 @@ class SimpleEvaluator(object):
 							,"true_neg": 0
 							,"false_neg": 0
 							}
-				if(gold_tok[1] == negative_BIO_tag and (gold_tok[1] == tag_tok[1])):
+				if(gold_tok[1] == negative_BIO_tag and (gold_tok[gold_tag_column] == tag_tok[1])):
 					p_tn += 1 # increment the value of true negative counter
 					#errors_by_tag[gold_tok[1]]["true_neg"] += p_tn
 					errors_by_tag[gold_tok[1]]["true_pos"] += 1
-					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: true negative"%(gold_tok[0],gold_tok[1],tag_tok[0],tag_tok[1]))
+					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: true negative"%(gold_tok[0],gold_tok[gold_tag_column],tag_tok[0],tag_tok[1]))
 				elif(gold_tok[1] != negative_BIO_tag and (gold_tok[1] == tag_tok[1])):
 					p_tp += 1 # increment the value of true positive counter
 					errors_by_tag[gold_tok[1]]["true_pos"] += p_tp
-					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: true positive"%(gold_tok[0],gold_tok[1],tag_tok[0],tag_tok[1]))
+					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: true positive"%(gold_tok[0],gold_tok[gold_tag_column],tag_tok[0],tag_tok[1]))
 				elif(gold_tok[1] != negative_BIO_tag and (tag_tok[1] != gold_tok[1])):
 					p_fn += 1 # increment the value of false negative counter
 					errors_by_tag[gold_tok[1]]["false_neg"] += p_fn
-					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: false negative"%(gold_tok[0],gold_tok[1],tag_tok[0],tag_tok[1]))
+					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: false negative"%(gold_tok[0],gold_tok[gold_tag_column],tag_tok[0],tag_tok[1]))
 				elif(gold_tok[1] == negative_BIO_tag and (tag_tok[1] != gold_tok[1])):
 					p_fp += 1 # increment the value of false positive counter
 					errors_by_tag[tag_tok[1]]["false_pos"] += p_fp
 					errors_by_tag[gold_tok[1]]["false_neg"] += 1
-					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: false positive"%(gold_tok[0],gold_tok[1],tag_tok[0],tag_tok[1]))
+					l_logger.debug("comparing \"%s\" (%s) <=> \"%s\" (%s) :: false positive"%(gold_tok[0],gold_tok[gold_tag_column],tag_tok[0],tag_tok[1]))
 				
 				fp += p_fp
 				tp += p_tp
@@ -352,13 +353,13 @@ class CrossEvaluator(SimpleEvaluator):
 	>>> result = ce.run()
 	>>> pprint.pprint(result)
 	"""
-	def __init__(self,extractors,iob_test_file,culling_size=None,fold_number=10,evaluation_dir="./"):
+	def __init__(self,extractors,iob_test_file,culling_size=None,fold_number=10,evaluation_dir="./",tag_column=1):
 		super(CrossEvaluator, self).__init__(extractors,iob_test_file)
 		self.culling_size = culling_size
 		self.fold_number = fold_number
 		self.evaluation_dir = evaluation_dir
 		import logging
-		self.logger = init_logger(verbose=False,log_name='CREX.CROSSEVAL')
+		self.logger = logging.getLogger('CREX.CROSSEVAL')
 		if(self.culling_size is not None):
 			self.logger.info("Culling set at %i"%self.culling_size)
 			import random
@@ -368,9 +369,9 @@ class CrossEvaluator(SimpleEvaluator):
 			self.logger.info("Culling not set.")
 		self.logger.info("Evaluation type: %i-fold cross evaluations"%self.fold_number)
 		self.logger.info("Training/Test set contains %i instances."%len(self.test_instances))
-		self.create_datasets()
+		self.create_datasets(tag_column)
 	
-	def create_datasets(self):
+	def create_datasets(self,tag_column):
 		"""
 		docstring for create_datasets
 		"""
@@ -380,11 +381,11 @@ class CrossEvaluator(SimpleEvaluator):
 		from citation_extractor.Utils import IO
 		positive_labels = ["B-REFSCOPE","I-REFSCOPE","B-AAUTHOR","I-AAUTHOR","B-REFAUWORK","I-REFAUWORK","B-AWORK","I-AWORK"]
 		if(self.culling_size is not None):
-			positives_negatives = [(n,IO.instance_contains_label(inst,positive_labels)) for n,inst in enumerate(self.culled_instances)]
+			positives_negatives = [(n,IO.instance_contains_label(inst,positive_labels,tag_column)) for n,inst in enumerate(self.culled_instances)]
 			positives = [self.culled_instances[i[0]] for i in positives_negatives if i[1] is True]
 			negatives = [self.culled_instances[i[0]] for i in positives_negatives if i[1] is False]
 		else:
-			positives_negatives = [(n,IO.instance_contains_label(inst,positive_labels)) for n,inst in enumerate(self.test_instances)]
+			positives_negatives = [(n,IO.instance_contains_label(inst,positive_labels,tag_column)) for n,inst in enumerate(self.test_instances)]
 			positives = [self.test_instances[i[0]] for i in positives_negatives if i[1] is True]
 			negatives = [self.test_instances[i[0]] for i in positives_negatives if i[1] is False]
 		self.logger.info("%i Positive instances"%len(positives))
@@ -429,8 +430,8 @@ class CrossEvaluator(SimpleEvaluator):
 			for n,extractor_settings in enumerate(self.extractors):
 					self.logger.info("Running iteration #%i with extractor #%i"%(i+1,n+1))
 					self.logger.info(extractor_settings)
-					train_file="%sfold_%i.train"%(self.evaluation_dir,i+1)
-					test_file="%sfold_%i.test"%(self.evaluation_dir,i+1)
+					train_file="%sfold_%i_%i.train"%(self.evaluation_dir,n,i+1)
+					test_file="%sfold_%i_%i.test"%(self.evaluation_dir,n,i+1)
 					self.logger.info(train_file)
 					self.logger.info(test_file)
 					import codecs
@@ -446,11 +447,16 @@ class CrossEvaluator(SimpleEvaluator):
 					to_write = "\n\n".join(tmp)
 					file.write(to_write)
 					file.close()
+					if(results.has_key("extractor-%i"%n)):
+						results["extractor-%i"%n]["iter-%i"%(i+1)] = None
+					else:
+						results["extractor-%i"%n] = {}
+						results["extractor-%i"%n]["iter-%i"%(i+1)] = None
 					extractor_settings.DATA_FILE = train_file
 					extractor = citation_extractor(extractor_settings)
-					results[str(extractor)] = {}
 					se = SimpleEvaluator([extractor,],iob_file=test_file)
-					results[str(extractor)]["iter-%i"%(i+1)]= se.eval()
+					tmp = se.eval()
+					results["extractor-%i"%n]["iter-%i"%(i+1)] = tmp[str(extractor)]
 		return results						
 
 	
