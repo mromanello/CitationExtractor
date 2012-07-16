@@ -11,6 +11,17 @@ from miguno.crossvalidationdataconstructor import *
 from random import *
 import xml.dom.minidom as mdom
 
+def write_iob_file(instances,dest_file):
+	to_write = "\n\n".join(["\n".join(["\t".join(token) for token in instance]) for instance in instances])
+	try:
+		import codecs
+		f = codecs.open(dest_file,'w','utf-8')
+		f.write(to_write)
+		f.close()
+		return True
+	except Exception, e:
+		raise e
+
 def file_to_instances(inp_file):
 	"""
 	Reads a IOB file a converts it into a list of instances.

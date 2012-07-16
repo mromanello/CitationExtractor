@@ -404,8 +404,8 @@ class ActiveLearner:
 		print "fscore: %f \nprecision: %f\nrecall: %f\n"%(post_al_results["f-score"]*100,post_al_results["precision"]*100,post_al_results["recall"]*100)
 		print "*** post-active learning gain (%) ***"
 		print "fscore: %f \nprecision: %f\nrecall: %f\n"%(post_al_results["f-score"]*100 - pre_al_results["f-score"]*100,post_al_results["precision"]*100 - pre_al_results["precision"]*100,post_al_results["recall"]*100 - pre_al_results["recall"]*100)
-		#IO.write_iob_file(se.output[str(pre_extractor)],"%spre_out.data"%post_settings.OUT_DIR)
-		#IO.write_iob_file(se.output[str(post_extractor)],"%spost_out.data"%post_settings.OUT_DIR)
+		IO.write_iob_file(se.output[str(pre_extractor)],"%spre_out.data"%post_settings.OUT_DIR)
+		IO.write_iob_file(se.output[str(post_extractor)],"%spost_out.data"%post_settings.OUT_DIR)
 	
 	@staticmethod
 	def tag_candidates(settings):
