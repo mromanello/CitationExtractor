@@ -134,8 +134,8 @@ def instance_to_string(inst):
 def instance_to_IOB(instance):
 	pass
 
-def instance_contains_label(instance,labels=["O"],index=1):
-	temp=[token[index] for token in instance] 
+def instance_contains_label(instance,labels=["O"]):
+	temp=[token[1] for token in instance] 
 	res = set(temp).intersection(set(labels))
 	if(len(res)==0):
 		return False
@@ -361,25 +361,6 @@ def scan_iob_files(inp_dir):
 		result[fname] = aph_number
 	return result
 
-
-def count_tokens(instance):
-	"""
-	Instance is a list
-	"""
-	return sum([1 for token in instance])
-
-def write_iob_file(instances,dest_file):
-	to_write = "\n\n".join(["\n".join(["\t".join(token) for token in instance]) for instance in instances])
-	try:
-		import codecs
-		f = codecs.open(dest_file,'w','utf-8')
-		f.write(to_write)
-		f.close()
-		return True
-	except Exception, e:
-		raise e
-	
-
 def main():
 	insts = read_IOB_file(sys.argv[1])
 	tag_name = 'CRF'
@@ -389,7 +370,7 @@ def main():
 	for i in res:
 		print i
 		print re.sub(r'[^\w]','',i)
-
+	
 		
 if __name__ == "__main__":
     main()

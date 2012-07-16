@@ -115,8 +115,6 @@ class citation_extractor:
 			self.init_logger(loglevel=logging.DEBUG, log_file=options.LOG_FILE)
 		else:
 			self.init_logger(loglevel=logging.INFO, log_file=options.LOG_FILE)
-		self.POS = options.POS
-		logger.debug("POS option set to %s"%str(self.POS))
 		self.fe = FeatureExtractor()
 		if(options.DATA_FILE != ""):
 			self.classifier=CRFPP_Classifier(options.DATA_FILE,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE),options.TEMP_DIR)
@@ -168,20 +166,7 @@ class citation_extractor:
 			A list of tokens.
 			
 		"""
-		if(self.POS):
-			import guess_language
-			from citation_extractor.Utils.aph_corpus import tokenise_and_tag
-			lang = guess_language.guessLanguage(blurb)
-			try:
-				temp = tokenise_and_tag(blurb,lang)
-				tokens = [token[0] for token in temp]
-				pos_tags = [("z_POS",token[1]) for token in temp]
-				return tokens,pos_tags
-			except Exception, e:
-				print type(blurb),blurb
-				raise e
-		else:
-			return [y.split(" ") for y in blurb.split("\n")]
+		return [y.split(" ") for y in blurb.split("\n")]
 	
 	def output(self,result,outp=None):
 		"""
@@ -203,7 +188,7 @@ class citation_extractor:
 		elif(outp=="json"):
 			return json.dumps(result)
 	
-	def extract(self, instances,legacy_features=[]):
+	def extract(self, instances):
 		"""
 		Extracts canonical citations from a list of instances, such as sentences or other meaningful and 
 		comparable subvisions of a text. This method acts as a proxy for the classify() method of the classifier.
@@ -215,11 +200,8 @@ class citation_extractor:
 		"""
 		result = []
 		for i in instances:
-			for n,tok in enumerate(i):
-				if(len(legacy_features)>0):
-					feat_sets = self.fe.get_features(tok,[],False,legacy_features[n]) # get the feature set for the current token
-				else:
-					feat_sets = self.fe.get_features(tok,[],False) # get the feature set for the current token
+			for tok in i:
+				feat_sets = self.fe.get_features(tok,[],False) # get the feature set for the current token
 				result.append(self.classifier.classify(instance_to_string(feat_sets)))
 		return result
 	
@@ -228,19 +210,11 @@ class FeatureExtractor:
 	"""
 	A feature extractor to extract features from tokens.
 	
-	Args:
-		legacy_features:
-			TODO
-	
 	Usage:
-		>>> tokens = "the cat is dead".split()
-		>>> POStags = [[("zz_POS","fake")] for i in range(len(tokens))]
-		>>> fe = FeatureExtractor(legacy_features = POStags)
-		>>> token_labels = ["O","O","O","O"]
-		>>> fe.get_features(tokens, token_labels)
+		>>> fe = FeatureExtractor()
 	"""
 
-	def __init__(self, legacy_features=None):
+	def __init__(self):
 		self.OTHERS=0
 		# brackets
 		self.PAIRED_ROUND_BRACKETS=1
@@ -307,8 +281,6 @@ class FeatureExtractor:
 		# dictionary matching
 		
 		self.init_dictionaries()
-		self.legacy_features = legacy_features
-			
 	
 	def init_dictionaries(self):
 		from FastDict import LookupDictionary
@@ -452,7 +424,6 @@ class FeatureExtractor:
 		"""
 		out=[]
 		nd="ND"
-		
 		inp  = u"%s"%inp
 		for i in range(0,4): # ngram prefixes
 			i+=1
@@ -567,7 +538,7 @@ class FeatureExtractor:
 					feature_set.append(r)	
 		return feature_set
 	
-	def get_features(self,instance,labels=[],outp_label=True,legacy_features=None):	
+	def get_features(self,instance,labels=[],outp_label=True):
 		"""
 		Args:
 			instance:
@@ -580,27 +551,18 @@ class FeatureExtractor:
 		Example:
 			>>> fe = FeatureExtractor() #doctest: +SKIP
 		"""
-		logger = logging.getLogger('CREX.FeatureExtractor')
 		features = [self.extract_features(tok) for tok in instance]
-		if(legacy_features is not None):
-			self.legacy_features = legacy_features
-		
-		if(self.legacy_features is not None):
-			features = [features[i] + self.legacy_features[i] for i in range(len(instance))]
-			logger.debug(features)
-			
 		tok1 = features[0]
 		keys = [f[0] for f in tok1]
-		logger.debug(keys)
 		res = [dict(r) for r in features]
+		logger = logging.getLogger('CREX.FeatureExtractor')
 		logger.debug(res)
 		for n,x in enumerate(res):
 			# transform the numeric values into strings
 			for key in keys:
 				if(type(x[key]) is type(12)):
 					x[key] = self.feat_labels[x[key]] # get the string label corresponding to a given int value
-				else:
-					x[key] = x[key] # leave the numeric feature value
+					#x[key] = str(x[key]) # leave the numeric feature value
 			if(outp_label is True):
 				x['z_gt_label']=labels[n]
 		return res
@@ -638,38 +600,16 @@ class FeatureExtractor:
 		instances=[group.split('\n')for group in lines.split("\n\n")]
 		all_tokens = []
 		all_labels = []
-		all_POS_tags = []
-		other_features = []
-		has_POS = False
 		for inst in instances:
 			labels= []
 			tokens=[]
-			POS_tags=[]
 			for line in inst:
 				if(not comment.match(line)):
-					if(len(line.split('\t'))>2):
-						tokens.append(line.split('\t')[0])
-						labels.append(line.split('\t')[2])
-						POS_tags.append(line.split('\t')[1])
-						if(not has_POS):
-							has_POS = True
-					else:
-						tokens.append(line.split('\t')[0])
-						labels.append(line.split('\t')[1])
-				
+					tokens.append(line.split('\t')[0])
+					labels.append(line.split('\t')[1])
 			all_labels.append(labels)
 			all_tokens.append(tokens)
-			all_POS_tags.append(POS_tags)
-			
-		if(has_POS):
-			all_POS_tags = [[[("z_POS",t)] for t in i] for i in all_POS_tags]
-			other_features + all_POS_tags
-		
-		if(has_POS):
-			res2 = [self.get_features(r,all_labels[n],legacy_features=all_POS_tags[n]) for n,r in enumerate(all_tokens)]
-		else:
-			res2 = [self.get_features(r,all_labels[n],legacy_features=None) for n,r in enumerate(all_tokens)]
-		
+		res2 = [self.get_features(r,all_labels[n]) for n,r in enumerate(all_tokens)]	
 		# all this fuss is to have instances and feature sets as text
 		res2 = [instance_to_string(r) for r in res2]
 		res3 = ["\n".join(i) for i in res2]
