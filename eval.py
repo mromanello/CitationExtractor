@@ -109,6 +109,7 @@ class SimpleEvaluator(object):
 		self.string_instances = [" ".join(n) for n in temp]
 		self.extractors = extractors
 		self.gold_tag_column = gold_tag_column
+		self.output = {}
 		return
 	
 	def eval(self):
@@ -122,9 +123,11 @@ class SimpleEvaluator(object):
 		extractor_results = {}
 		for eng in self.extractors:
 			input = [eng.tokenize(inst) for inst in self.string_instances]
+			IO.write_iob_file(self.test_instances,"/Users/56k/Downloads/puzzled/test_curr.data")
 			output = eng.extract(input)
 			to_evaluate = [[tuple([t["token"].decode("utf-8"),t["label"].decode("utf-8")]) for t in i] for i in output]
 			results = self.evaluate(to_evaluate,self.test_instances,self.gold_tag_column)
+			self.output[str(eng)] = self.write_result(to_evaluate,self.test_instances)
 			eval_results = results[0]
 			by_tag_results = results[1]
 			eval_results["f-score"] = self.calc_fscore(eval_results)
@@ -133,6 +136,11 @@ class SimpleEvaluator(object):
 			by_tag_results = self.calc_stats_by_tag(by_tag_results)
 			extractor_results[str(eng)] = results
 		return extractor_results
+	
+	@staticmethod
+	def write_result(l_tagged_instances,l_test_instances):
+		temp = [[(l_test_instances[n][i][0],l_test_instances[n][i][1],l_tagged_instances[n][i][1]) for i,token in enumerate(instance)] for n,instance in enumerate(l_test_instances)]
+		return temp
 	
 	@staticmethod
 	def read_instances(directories):

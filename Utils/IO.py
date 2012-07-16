@@ -368,6 +368,18 @@ def count_tokens(instance):
 	"""
 	return sum([1 for token in instance])
 
+def write_iob_file(instances,dest_file):
+	to_write = "\n\n".join(["\n".join(["\t".join(token) for token in instance]) for instance in instances])
+	try:
+		import codecs
+		f = codecs.open(dest_file,'w','utf-8')
+		f.write(to_write)
+		f.close()
+		return True
+	except Exception, e:
+		raise e
+	
+
 def main():
 	insts = read_IOB_file(sys.argv[1])
 	tag_name = 'CRF'

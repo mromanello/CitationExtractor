@@ -378,6 +378,7 @@ class ActiveLearner:
 		from citation_extractor.core import citation_extractor
 		from citation_extractor.eval import SimpleEvaluator
 		from citation_extractor.Utils import aph_corpus
+		from citation_extractor.Utils import IO
 		# extractor without selected candidates in the train set and evaluate
 		pre_extractor = citation_extractor(pre_settings)
 		# extractor with selected candidates in the train set and evaluate
@@ -403,6 +404,8 @@ class ActiveLearner:
 		print "fscore: %f \nprecision: %f\nrecall: %f\n"%(post_al_results["f-score"]*100,post_al_results["precision"]*100,post_al_results["recall"]*100)
 		print "*** post-active learning gain (%) ***"
 		print "fscore: %f \nprecision: %f\nrecall: %f\n"%(post_al_results["f-score"]*100 - pre_al_results["f-score"]*100,post_al_results["precision"]*100 - pre_al_results["precision"]*100,post_al_results["recall"]*100 - pre_al_results["recall"]*100)
+		IO.write_iob_file(se.output[str(pre_extractor)],"%spre_out.data"%post_settings.OUT_DIR)
+		IO.write_iob_file(se.output[str(post_extractor)],"%spost_out.data"%post_settings.OUT_DIR)
 	
 	@staticmethod
 	def tag_candidates(settings):
