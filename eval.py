@@ -100,11 +100,14 @@ class SimpleEvaluator(object):
 				the file in IOB format to be used for testing and evaluating the extactors
 		"""
 		# read the test instances from a list of directories containing the test data
-		
+		import logging
+		self.logger = logging.getLogger("CREX.SIMPLEVAL")
 		if(iob_file is None):
+			self.logger.debug(iob_directories)
 			self.test_instances = self.read_instances(iob_directories)
 		else:
 			self.test_instances = IO.file_to_instances(iob_file)
+		self.logger.debug("Found %i instances for test"%len(self.test_instances))
 		temp = [[tok[0] for tok in inst]for inst in self.test_instances]
 		self.string_instances = [" ".join(n) for n in temp]
 		self.extractors = extractors
@@ -139,6 +142,18 @@ class SimpleEvaluator(object):
 	def write_result(l_tagged_instances,l_test_instances):
 		temp = [[(l_test_instances[n][i][0],l_test_instances[n][i][1],l_tagged_instances[n][i][1]) for i,token in enumerate(instance)] for n,instance in enumerate(l_test_instances)]
 		return temp
+	
+	
+	@staticmethod
+	def print_stats(d_results):
+		"""
+		Pretty print of the evaluation stats.
+		"""
+		for item in d_results:
+			print "%s\n%s\n%s"%("="*len(item),item,"="*len(item))
+			print "%10s\t%10s\t%10s\t%5s\t%5s\t%5s\t%5s"%("f-score","precision","recall","tp","fp","tn","fn")
+			print "%10f\t%10f\t%10f\t%5i\t%5i\t%5i\t%5i\n"%(d_results[item]["f-sc"],d_results[item]["prec"],d_results[item]["rec"],d_results[item]["true_pos"],d_results[item]["false_pos"],d_results[item]["true_neg"],d_results[item]["false_neg"],)
+		return
 	
 	@staticmethod
 	def read_instances(directories):

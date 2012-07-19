@@ -351,7 +351,7 @@ def read_jstor_data(dir):
 def read_iob_files(inp_dir):
 	import glob
 	import os
-	logger = logging.getLogger()
+	logger = logging.getLogger("CREX.IO")
 	instances = []
 	for infile in glob.glob( os.path.join(inp_dir, '*.iob') ):
 		temp = file_to_instances(infile)
