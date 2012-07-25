@@ -146,7 +146,10 @@ def instance_to_IOB(instance):
 	pass
 
 def instance_contains_label(instance,labels=["O"]):
-	temp=[token[1] for token in instance] 
+	"""
+	TODO: 
+	"""
+	temp=[token[len(token)-1] for token in instance] 
 	res = set(temp).intersection(set(labels))
 	if(len(res)==0):
 		return False

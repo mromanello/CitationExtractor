@@ -188,7 +188,7 @@ class citation_extractor:
 		elif(outp=="json"):
 			return json.dumps(result)
 	
-	def extract(self, instances):
+	def extract(self, instances,legacy_features=None):
 		"""
 		Extracts canonical citations from a list of instances, such as sentences or other meaningful and 
 		comparable subvisions of a text. This method acts as a proxy for the classify() method of the classifier.
@@ -199,13 +199,15 @@ class citation_extractor:
 			TODO describe
 		"""
 		result = []
-		for i in instances:
-			for tok in i:
-				feat_sets = self.fe.get_features(tok,[],False) # get the feature set for the current token
+		for i,instance in enumerate(instances):
+			for n,tokens in enumerate(instance):
+				if(legacy_features is not None):
+					feat_sets = self.fe.get_features(tokens,[],False,legacy_features[i][n]) # get the feature set for the current token
+				else:
+					feat_sets = self.fe.get_features(tokens,[],False)
 				result.append(self.classifier.classify(instance_to_string(feat_sets)))
 		return result
 	
-
 class FeatureExtractor:
 	"""
 	A feature extractor to extract features from tokens.
@@ -538,18 +540,21 @@ class FeatureExtractor:
 					feature_set.append(r)	
 		return feature_set
 	
-	def get_features(self,instance,labels=[],outp_label=True):
+	def get_features(self,instance,labels=[],outp_label=True, legacy_features=None):
 		"""
 		Args:
 			instance:
 				the instance to be classified, represented as a list of tokens.
 			labels:
 				...
-			out_label:
+			outp_label:
 				...
 			
 		Example:
-			>>> fe = FeatureExtractor() #doctest: +SKIP
+			>>> fe = FeatureExtractor()
+			>>> test = ['cf.', 'Hom', 'Il.', '1.1', ';']
+			>>> postags = [('z_POS','N/A'),('z_POS','N/A'),('z_POS','N/A'),('z_POS','N/A'),('z_POS','N/A')]
+			>>> tmp = fe.get_features(test,outp_label=False,legacy_features=postags)
 		"""
 		features = [self.extract_features(tok) for tok in instance]
 		tok1 = features[0]
@@ -565,6 +570,9 @@ class FeatureExtractor:
 					#x[key] = str(x[key]) # leave the numeric feature value
 			if(outp_label is True):
 				x['z_gt_label']=labels[n]
+		if(legacy_features is not None):
+			for n,token in enumerate(res):
+				token[legacy_features[n][0]] = legacy_features[n][1]
 		return res
 	
 	def get_feature_order(self):
@@ -600,24 +608,36 @@ class FeatureExtractor:
 		instances=[group.split('\n')for group in lines.split("\n\n")]
 		all_tokens = []
 		all_labels = []
+		all_postags = []
 		for inst in instances:
 			labels= []
 			tokens=[]
+			postags=[]
 			for line in inst:
 				if(not comment.match(line)):
-					tokens.append(line.split('\t')[0])
-					labels.append(line.split('\t')[1])
+					temp = line.split('\t')
+					if(len(temp) == 2):
+						tokens.append(temp[0])
+						labels.append(temp[1])
+					else:
+						tokens.append(temp[0])
+						labels.append(temp[2])
+						postags.append(temp[1])
 			all_labels.append(labels)
 			all_tokens.append(tokens)
-		res2 = [self.get_features(r,all_labels[n]) for n,r in enumerate(all_tokens)]	
+			if(len(postags) > 0):
+				all_postags.append(postags)
+		if(len(all_postags) > 0): 
+			all_postags = [[("z_POS",token) for token in instance] for instance in all_postags]
+			res2 = [self.get_features(r,all_labels[n],legacy_features=all_postags[n]) for n,r in enumerate(all_tokens)]
+		else:
+			res2 = [self.get_features(r,all_labels[n]) for n,r in enumerate(all_tokens)]
 		# all this fuss is to have instances and feature sets as text
 		res2 = [instance_to_string(r) for r in res2]
 		res3 = ["\n".join(i) for i in res2]
 		out = "\n\n".join(res3)
 		return out
 	
-
-		
 if __name__ == "__main__":
 	import doctest
 	doctest.testmod()
