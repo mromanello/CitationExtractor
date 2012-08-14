@@ -206,6 +206,7 @@ class SimpleEvaluator(object):
 		labels = ['O','B-AAUTHOR','I-AAUTHOR','B-AWORK','I-AWORK','B-REFAUWORK','I-REFAUWORK','B-REFSCOPE','I-REFSCOPE']
 		import numpy
 		error_matrix = numpy.zeros((len(labels),len(labels)),dtype=numpy.int)
+		error_details = {}
 		
 		for n,inst in enumerate(l_tagged_instances):
 			tag_inst = l_tagged_instances[n]
@@ -236,6 +237,14 @@ class SimpleEvaluator(object):
 							}
 							
 				error_matrix[labels.index(gold_label)][labels.index(tagged_label)] += 1
+				error = "%s => %s"%(gold_label, tagged_label)
+				if(gold_label != tagged_label):
+					if(error_details.has_key(error)):
+						error_details[error].append(gold_token)
+					else:
+						error_details[error] = []
+						error_details[error].append(gold_token)
+				
 				if(gold_label != negative_BIO_tag):
 					l_logger.debug("Label \"%s\" for token \"%s\" is not negative"%(gold_label,gold_token))
 					if(tagged_label == gold_label):
@@ -283,6 +292,7 @@ class SimpleEvaluator(object):
 		assert (global_sum["true_pos"] + global_sum["false_pos"] + global_sum["false_neg"]) == token_counter
 		l_logger.debug("asserted %i (tp +fp + fn) == %i (token counter)"%(tp+fp+tn+fn,token_counter))
 		SimpleEvaluator.render_error_matrix(error_matrix,labels)
+		print pprint.pprint(error_details)
 		return result
 	
 	@staticmethod
@@ -293,7 +303,7 @@ class SimpleEvaluator(object):
 		Prints the error matrix
 		
 		"""
-		print '                     %11s'%" ".join(labels)
+		print '                        %11s'%" ".join(labels)
 		for row_label, row in zip(labels, matrix):
 		    print '%11s [%s]' % (row_label, ' '.join('%09s' % i for i in row))
 		return
@@ -411,8 +421,8 @@ class CrossEvaluator(SimpleEvaluator):
 	>>> result = ce.run() #doctest: +SKIP
 	>>> pprint.pprint(result) #doctest: +SKIP
 	"""
-	def __init__(self,extractors,iob_test_file,culling_size=None,fold_number=10,evaluation_dir="./"):
-		super(CrossEvaluator, self).__init__(extractors,iob_test_file)
+	def __init__(self,extractors,iob_test_file,culling_size=None,fold_number=10,evaluation_dir="./",label_index=-1):
+		super(CrossEvaluator, self).__init__(extractors,iob_test_file,label_index=label_index)
 		self.culling_size = culling_size
 		self.fold_number = fold_number
 		self.evaluation_dir = evaluation_dir
@@ -485,7 +495,9 @@ class CrossEvaluator(SimpleEvaluator):
 		
 		# let's go through all the iterations
 		for i,iter in enumerate(iterations):
+			results["iter-%i"%(i+1)] = {}
 			for n,extractor_settings in enumerate(self.extractors):
+					results["iter-%i"%(i+1)]["extractor-%i"%(n+1)] = {}
 					self.logger.info("Running iteration #%i with extractor #%i"%(i+1,n+1))
 					self.logger.info(extractor_settings)
 					train_file="%sfold_%i.train"%(self.evaluation_dir,i+1)
@@ -513,11 +525,10 @@ class CrossEvaluator(SimpleEvaluator):
 					file.close()
 					extractor_settings.DATA_FILE = train_file
 					extractor = citation_extractor(extractor_settings)
-					results[str(extractor)] = {}
 					se = SimpleEvaluator([extractor,],iob_file=test_file)
-					results[str(extractor)]["iter-%i"%(i+1)]= se.eval()
+					results["iter-%i"%(i+1)]["extractor-%i"%(n+1)] = se.eval()[str(extractor)]
 		return results	
-
+	
 if __name__ == "__main__":
 	#Usage example: python eval.py aph_data_100_positive/ out/
 	#main()

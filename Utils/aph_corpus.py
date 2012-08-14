@@ -97,7 +97,7 @@ def get_collection_details(collection_urls):
 	return result
 
 def tokenise_and_tag(text, lang_code):
-	
+	abbrev_file="/Users/56k/phd/code/APh/corpus/abbreviations.txt"
 	import os
 	lang_mappings = {
 		'en':'english'
@@ -107,17 +107,14 @@ def tokenise_and_tag(text, lang_code):
 		,'de':'german-utf8'
 		,'la':'english'
 	}
-	
-	
-	
 	if(lang_code == "es"):
 		import treetaggerwrapper
 		print type(text)
-		tagger = treetaggerwrapper.TreeTagger(TAGLANG=lang_code,TAGDIR='/Applications/treetagger/',TAGINENC='utf-8',TAGOUTENC='utf-8')
+		tagger = treetaggerwrapper.TreeTagger(TAGLANG=lang_code,TAGDIR='/Applications/treetagger/',TAGINENC='utf-8',TAGOUTENC='utf-8',TAGABBREV=abbrev_file)
 		temp = tagger.TagText(text)
 		return [tuple(line.split('\t'))[:2] for line in temp]
-	elif(lang_mappings.has_key(lang_code)):
-		cmd = "/Applications/treetagger/cmd/tree-tagger-%s"%(lang_mappings[lang_code])
+	if(lang_mappings.has_key(lang_code)):
+		cmd = "/Applications/treetagger/cmd/tree-tagger-%s -a %s"%(lang_mappings[lang_code],abbrev_file)
 		if(lang_code!='en'):
 			cmd = "echo \"%s\" | %s"%(text.encode('utf-8'),cmd)
 		else:
@@ -126,7 +123,7 @@ def tokenise_and_tag(text, lang_code):
 		out = os.popen(cmd).readlines()
 		return [tuple(tok.split('\t')) for tok in out]
 	else:
-		cmd = "/Applications/treetagger/cmd/tree-tagger-%s"%("english")
+		cmd = "/Applications/treetagger/cmd/tree-tagger-%s -a %s"%("english",abbrev_file)
 		if(lang_code!='en'):
 			cmd = "echo \"%s\" | %s"%(text.encode('utf-8'),cmd)
 		else:
@@ -170,14 +167,17 @@ def reformat_iob(input_fname, output_fname,lang_code):
 		wt_sent = tokenise_and_tag(plain_sentences[n],lang_code)
 		read = 0 # is a pointer which helps to synchronize the reading between the two streams of tokens
 		prev_tok = ""
-		#print wt_sent
+		unic = False
 		for n,tok in enumerate(wt_sent):
-			print type(tok[0])
-			try:
-				token = tok[0].decode('utf-8')
-			except Exception, e:
-				token = tok[0].decode('latin-1')
-				
+			if(type(tok[0])!=type(u"x")):
+				try:
+					token = tok[0].decode('utf-8')
+				except Exception, e:
+					token = tok[0].decode('latin-1')
+			else:
+				unic = True
+				token = tok[0]
+			#print type(token)
 			pos_tag = None
 			if(tok[1] == ''):
 				pos_tag = tok[2]
@@ -185,7 +185,6 @@ def reformat_iob(input_fname, output_fname,lang_code):
 				pos_tag = tok[1]
 				
 			if(token == sent[read][0]): # the two tokens are identical
-				print token,sent[read][1]
 				new_sent.append((tok[0],pos_tag,sent[read][1]))
 				read += 1
 			elif("%s%s"%(prev_tok,token) == sent[read][0]): # current + previous token are equal to the token in the other stream
@@ -193,31 +192,30 @@ def reformat_iob(input_fname, output_fname,lang_code):
 				label = sent[read][1]
 				if(re.match(r"B-",sent[read][1]) is not None):
 					label = re.sub(r"B-","I-",sent[read][1])
-				print token,label
 				new_sent.append((tok[0],pos_tag,label))
 				read += 1
 			elif(token in sent[read][0]): # TODO
 				if(re.match("^%s.*"%re.escape(tok[0]),sent[read][0])):
-					print token,sent[read][1]
 					new_sent.append((tok[0],pos_tag,sent[read][1]))
 				else:
 					label = sent[read][1]
 					if(re.match(r"B-",sent[read][1]) is not None):
 						label = re.sub(r"B-","I-",sent[read][1])
-					print token,label
 					new_sent.append((tok[0],pos_tag,label))
 			else:
 				read += 1
-				print token,sent[read][1]
 				new_sent.append((tok[0],pos_tag,sent[read][1]))	
 		result.append(new_sent)
 	
 	file = codecs.open(output_fname,"w",'utf-8')
 	tmp = []
-	if(lang_code!="en"):
-		tmp = [["\t".join([token[0].decode('utf-8'),token[1],token[2]]) for token in sentence] for sentence in result]
+	if(not unic):
+		if(lang_code!="en"):
+			tmp = [["\t".join([token[0].decode('utf-8'),token[1],token[2]]) for token in sentence] for sentence in result]
+		else:
+			tmp = [["\t".join([token[0].decode('latin-1'),token[1],token[2]]) for token in sentence] for sentence in result]
 	else:
-		tmp = [["\t".join([token[0].decode('latin-1'),token[1],token[2]]) for token in sentence] for sentence in result]
+		tmp = [["\t".join([token[0],token[1],token[2]]) for token in sentence] for sentence in result]
 	tmp = "\n\n".join(["\n".join(instance) for instance in tmp])
 	file.write(tmp)
 	file.close()
