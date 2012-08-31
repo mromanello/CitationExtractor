@@ -247,6 +247,8 @@ class FeatureExtractor:
 		# dictionaries
 		self.MATCH_AUTHORS_DICT=23
 		self.MATCH_WORKS_DICT=24
+		self.CONTAINED_AUTHORS_DICT=25
+		self.CONTAINED_WORKS_DICT=26
 		# misc
 		
 		self.feat_labels=['i']*30
@@ -280,6 +282,8 @@ class FeatureExtractor:
 		# dictionaries
 		self.feat_labels[self.MATCH_AUTHORS_DICT]="MATCH_AUTHORS_DICT"
 		self.feat_labels[self.MATCH_WORKS_DICT]="MATCH_WORKS_DICT"
+		self.feat_labels[self.CONTAINED_AUTHORS_DICT]="CONTAINED_AUTHORS_DICT"
+		self.feat_labels[self.CONTAINED_WORKS_DICT]="CONTAINED_WORKS_DICT"
 		# dictionary matching
 		
 		self.init_dictionaries()
@@ -311,7 +315,7 @@ class FeatureExtractor:
 	def extract_bracket_feature(self,check_str):
 		"""
 		Extract a feature concerning the eventual presence of brackets
-
+		
 		Args:
 			check_str: the string for which we need to extract features
 
@@ -366,25 +370,46 @@ class FeatureExtractor:
 	
 	def extract_punctuation_feature(self,check_str):
 		"""
-		presence of hyphen and quotation marks
+		Checks the presence of hyphen and quotation marks.
+		
+		Args:
+			check_str: the string for which we need to extract features
+
+		Returns:
+			a tuple:
+				result[0] : is the name of the feature
+				result[1] : is the feature value expressed as integer
+
+		Example:
+			>>> tests = [u'"',u'Iliad',u'"']
+			>>> fe = FeatureExtractor()
+			>>> [(tests[n],fe.feat_labels[fe.extract_punctuation_feature(t)[1]]) for n,t in enumerate(tests)]
+			>>> tests = [u'«',u'De',u'uirginitate',u'»']
+			>>> [(tests[n],fe.feat_labels[fe.extract_punctuation_feature(t)[1]]) for n,t in enumerate(tests)]
+			
 		"""
 		res = self.OTHERS
 		punct_exp=re.compile('[%s]' % re.escape(string.punctuation))
 		final_dot=re.compile(r'.*?\.$')
 		three_dots=re.compile(r'.*?\.\.\.$')
 		cont_punct=re.compile(r'.*?[,;:]$')
+		quot_punct=re.compile(r'.*?[\"\'«»]')
 		if(three_dots.match(check_str)):
 			res = self.OTHERS
 		elif(final_dot.match(check_str)):
 			res = self.FINAL_DOT
 		elif(cont_punct.match(check_str)):
 			res = self.CONTINUING_PUNCTUATION
+		elif(quot_punct.match(check_str)):
+			res = self.QUOTATION_MARK
+		#elif(punct_exp.match(check_str)):
+			#res = self.OTHER_PUNCTUATION
 		return ("b_punct",res)
 	
 	def extract_number_feature(self,check_str):
 		"""
 		TODO
-		1. first part of the features is concerns the whole string
+		1. first part of the features concerns the whole string
 		2. second part should relate to the presence of number in a string
 		* presence of range
 		* presence of modern dates
@@ -467,23 +492,34 @@ class FeatureExtractor:
 	def extract_dictionary_feature(self,check_str):
 		"""
 		TODO
-		* remove eventual end-of-string punctuation before the lookup
 		* check that the string is actually a word (may not be necessary with different tokenisation)
+		
+		Example:
+			>>> tests = [u'Hom.',u'Homér']
+			>>> fe = FeatureExtractor()
+			>>> [(tests[n],fe.feat_labels[fe.extract_dictionary_feature(t)[1]]) for n,t in enumerate(tests)]
 		
 		"""
 		feature_name = "n_works_dictionary"
 		match_works = self.works_dict.lookup(check_str.encode("utf-8"))
 		match_authors = self.authors_dict.lookup(check_str.encode("utf-8"))
+		result = (feature_name,self.OTHERS)
 		
 		if(len(match_authors)>0):
-			return (feature_name,self.MATCH_AUTHORS_DICT)
+			for key in match_authors:
+				if(len(match_authors[key]) == len(check_str)):
+					result = (feature_name,self.MATCH_AUTHORS_DICT)
+				else:
+					result = (feature_name,self.CONTAINED_AUTHORS_DICT)
 		elif(len(match_works)>0):
-			return (feature_name,self.MATCH_WORKS_DICT)
+			for key in match_works:
+				if(len(match_works[key]) == len(check_str)):
+					result = (feature_name,self.MATCH_WORKS_DICT)
+				else:
+					result = (feature_name,self.CONTAINED_WORKS_DICT)
 		else:
-			return (feature_name,self.OTHERS)
-	
-	def extract_pos_feature(self):
-		pass
+			result = (feature_name,self.OTHERS)
+		return result
 	
 	def extract_word_length_feature(self,check_str,threshold=5):
 		"""
@@ -495,30 +531,58 @@ class FeatureExtractor:
 	def extract_pattern_feature(self,check_str):
 		"""
 		>>> fe = FeatureExtractor()
-		>>> test = "Homero,1999"
+		>>> test = u"Homéro,1999"
 		>>> value = fe.extract_pattern_feature(test)
 		>>> print value[1]
 		Aaaaaa-0000
 		"""
-		result = re.sub(r'[%s+]'%re.escape(string.punctuation),'-',check_str)
-		result = re.sub(r'[a-z+]','a',result)
-		result = re.sub(r'[A-Z+]','A',result)
-		result = re.sub(r'[\d+]','0',result)
-		return ('l_pattern',result)
+		result=[]
+		for n,char in enumerate(check_str):
+			if(char.isalnum()):
+				if(char.isalpha()):
+					if(char.islower()):
+						result.append('a')
+					else:
+						result.append('A')
+				else:
+					result.append('0')
+			else:
+				result.append('-')
+		return ('l_pattern',"".join(result))
 	
 	def extract_compressed_pattern_feature(self,check_str):
 		"""
 		>>> fe = FeatureExtractor()
-		>>> test = "Homero,1999"
+		>>> test = u"Homéro,1999"
 		>>> value = fe.extract_compressed_pattern_feature(test)
 		>>> print value[1]
 		Aa-0
 		"""
-		result = re.sub(r'[%s]+'%re.escape(string.punctuation),'-',check_str)
-		result = re.sub(r'[a-z]+','a',result)
-		result = re.sub(r'[A-Z]+','A',result)
-		result = re.sub(r'[\d]+','0',result)
-		return ('m_compressed-pattern',result)
+		result=[]
+		for n,char in enumerate(check_str):
+			if(char.isalnum()):
+				if(char.isalpha()):
+					if(char.islower()):
+						if(n+1 <= len(check_str)-1 and check_str[n+1].islower()):
+							pass
+						else:
+							result.append('a')
+					else:
+						if(n+1 <= len(check_str)-1 and check_str[n+1].isupper()):
+							pass
+						else:
+							result.append('A')
+				else:
+					if(n+1 <= len(check_str)-1 and check_str[n+1].isdigit()):
+						pass
+					else:
+						result.append('0')
+			else:
+				if(n+1 <= len(check_str)-1 and (check_str[n+1].isalnum() is False)):
+					pass
+				else:
+					result.append('-')
+		return ('m_compressed-pattern',"".join(result))
 	
 	def extract_features(self,inp):
 		feature_set=[]

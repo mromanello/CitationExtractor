@@ -121,7 +121,7 @@ class SimpleEvaluator(object):
 			else:
 				to_evaluate = [[tuple([token["token"].decode("utf-8"),token["label"].decode("utf-8")]) for n,token in enumerate(instance)] for i,instance in enumerate(output)]
 			results = self.evaluate(to_evaluate,self.test_instances,label_index = self.label_index)
-			self.output[str(eng)] = self.write_result(to_evaluate,self.test_instances)
+			self.output[str(eng)] = self.write_result(to_evaluate,self.test_instances,self.label_index)
 			eval_results = results[0]
 			by_tag_results = results[1]
 			eval_results["f-score"] = self.calc_fscore(eval_results)
@@ -132,11 +132,11 @@ class SimpleEvaluator(object):
 		return extractor_results
 	
 	@staticmethod
-	def write_result(l_tagged_instances,l_test_instances):
+	def write_result(l_tagged_instances,l_test_instances,label_index=1):
 		"""
 		TODO: this will not work with postagged data
 		"""
-		temp = [[(l_test_instances[n][i][0],l_test_instances[n][i][1],l_tagged_instances[n][i][1]) for i,token in enumerate(instance)] for n,instance in enumerate(l_test_instances)]
+		temp = [[(l_test_instances[n][i][0],l_test_instances[n][i][label_index],l_tagged_instances[n][i][label_index]) for i,token in enumerate(instance)] for n,instance in enumerate(l_test_instances)]
 		return temp
 	
 	@staticmethod
