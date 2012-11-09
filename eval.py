@@ -134,7 +134,7 @@ class SimpleEvaluator(object):
 	@staticmethod
 	def write_result(l_tagged_instances,l_test_instances,label_index=1):
 		"""
-		TODO: this will not work with postagged data
+		
 		"""
 		temp = [[(l_test_instances[n][i][0],l_test_instances[n][i][label_index],l_tagged_instances[n][i][label_index]) for i,token in enumerate(instance)] for n,instance in enumerate(l_test_instances)]
 		return temp
