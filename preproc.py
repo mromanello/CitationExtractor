@@ -96,6 +96,8 @@ def create_instance_tokenizer(train_dirs=[("/Users/56k/phd/code/APh/corpus/txt/"
 
 if __name__ == "__main__":
 	"""
+	# this code process the APh corpus devset dynamically (sentence tokenization -> lang detection -> tokenization and POS tagging)
+	
 	import os, glob, codecs
 	dir = ('/Users/56k/Documents/Research/CCH_PhD/ResearchProject/code/APh/corpus/devset','.txt')
 	texts = [codecs.open(file,'r','utf-8').read() for file in glob.glob( os.path.join(dir[0], '*%s'%dir[1]))]
@@ -103,4 +105,17 @@ if __name__ == "__main__":
 	for text in texts[:10]:
 		res = [tokenize_and_POStag(sent, detect_language(sent)) for sent in sent_tokenizer.tokenize(text)]
 		print res
+	
+	# at this point we should extract the NEs and write output to IOB files
+	
+	"""
+	
+	"""
+	# this snippet will come in handy later
+	
+	input = [[[token[0] for token in instance] for instance in self.test_instances]]
+	if(len(self.test_instances[0][0]) > 2):
+		self.label_index = 2 # the last one is the label
+		legacy_features = [[("z_POS",token[1]) for token in instance] for instance in self.test_instances]
+		output = eng.extract(input,[legacy_features])
 	"""

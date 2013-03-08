@@ -289,7 +289,7 @@ class FeatureExtractor:
 		self.init_dictionaries()
 	
 	def init_dictionaries(self):
-		from FastDict import LookupDictionary
+		from citation_extractor.Utils.FastDict import LookupDictionary
 		import codecs
 		try:
 			# initialise works dictionary

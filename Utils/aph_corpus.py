@@ -291,8 +291,11 @@ class ActiveLearner:
 		"""
 		# check if greater or smaller than... TODO
 		cand.ci_score = self.calc_confidence_interval(cand.probs[0][1],cand.probs[1][1])
-		self.logger.debug("Confidence Interval for \"%s\"%f"%(cand.token,cand.ci_score))
-		return cand.ci_score < self.threshold
+		result = cand.ci_score < self.threshold
+		if(result):
+			self.logger.info("Confidence Interval for \"%s\" %f = %f (%s) - %f (%s)"%(cand.token,cand.ci_score,float(cand.probs[0][1]),cand.probs[0][0],float(cand.probs[1][1]),cand.probs[1][0]))
+		else:
+			self.logger.debug("Confidence Interval for \"%s\" %f = %f (%s) - %f (%s)"%(cand.token,cand.ci_score,float(cand.probs[0][1]),cand.probs[0][0],float(cand.probs[1][1]),cand.probs[1][0]))
 	
 	def get_pruned_candidates(self):
 		"""
@@ -330,6 +333,7 @@ class ActiveLearner:
 				for tok in r:
 					probs = [(tag,tok["probs"][tag]["prob"]) for tag in tok["probs"].keys()] # extract the probabilities for each tag
 					probs.sort(key=lambda tup: tup[1],reverse=True)
+					self.logger.debug(probs)
 					cand = Candidate(tok["token"],"%s#%i"%(infile,n),probs[:2]) # just the 2 top most likely tags are considered
 					if(self.is_effective_candidate(cand)):
 						self.candidates.append(cand)
