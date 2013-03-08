@@ -69,7 +69,7 @@ class CRF_classifier:
 			probs['alpha']="%f"%vals[1]
 			probs['beta']="%f"%vals[2]
 			res['probs'][tag]=probs
-		   self.logger.info("%s => %s (%s)"%(res["token"].decode("utf-8"),res["label"].decode("utf-8"),str(res["probs"][res["label"]]['prob'])))
+		   self.logger.debug("%s => %s (%s)"%(res["token"].decode("utf-8"),res["label"].decode("utf-8"),str(res["probs"][res["label"]]['prob'])))
 		   out.append(res)
 		return out
 	

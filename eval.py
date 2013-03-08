@@ -291,8 +291,8 @@ class SimpleEvaluator(object):
 				global_sum[value]+= result[1][tag][value]
 		assert (global_sum["true_pos"] + global_sum["false_pos"] + global_sum["false_neg"]) == token_counter
 		l_logger.debug("asserted %i (tp +fp + fn) == %i (token counter)"%(tp+fp+tn+fn,token_counter))
-		SimpleEvaluator.render_error_matrix(error_matrix,labels)
-		print pprint.pprint(error_details)
+		#SimpleEvaluator.render_error_matrix(error_matrix,labels)
+		#print pprint.pprint(error_details)
 		return result
 	
 	@staticmethod
@@ -459,7 +459,7 @@ class CrossEvaluator(SimpleEvaluator):
 		self.logger.info("%i Positive instances"%len(positives))
 		self.logger.info("%i Negative instances"%len(negatives))
 		self.logger.info("%i Total instances"%(len(positives)+len(negatives)))
-		self.dataSets_iterator = CrossValidationDataConstructor(positives, negatives, numPartitions=self.fold_number, randomize=True).getDataSets()
+		self.dataSets_iterator = CrossValidationDataConstructor(positives, negatives, numPartitions=self.fold_number, randomize=False).getDataSets()
 		pass
 	
 	def run(self):
