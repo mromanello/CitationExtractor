@@ -2,7 +2,7 @@
 class LookupDictionary:
 	"""
 	>>> auth_dict = "http://cwkb.webfactional.com/cwkb/dict/authors/all/json" #doctest: +SKIP
-	>>> raw_data = LookupDictionary.fetch_data(auth_dict)
+	>>> raw_data = LookupDictionary.fetch_data(auth_dict) #doctest: +SKIP
 	>>> import codecs
 	>>> fname = dir="../data/works.csv"
 	>>> file = codecs.open(fname,"r","utf-8")
@@ -10,6 +10,7 @@ class LookupDictionary:
 	>>> file.close()
 	>>> d = LookupDictionary(raw_data.encode('utf-8'))
 	>>> d.lookup("Od.")
+	{'/cwkb/works/2816#abbr': 'Od. ', '/cwkb/works/1600#abbr': 'Od.'}
 
 	"""
 	def __init__(self,raw_data):
@@ -55,7 +56,8 @@ class LookupDictionary:
 		"""
 		Indexes a dictionary for quick lookups.
 		"""
-		from suffixIndexers import DictValuesIndexer
+		from pysuffix import suffixIndexers
+		from pysuffix.suffixIndexers import DictValuesIndexer
 		return DictValuesIndexer(dictionary)
 	
 	def lookup(self,search_key):

@@ -87,27 +87,22 @@ class citation_extractor:
 	"""
 	A Canonical Citation Extractor.
 	First off, import the settings via module import
-	>>> import settings #doctest: +SKIP
+	>>> from settings import base_settings
 	
-	Then create an extractor passing as argument the settings
-	>>> extractor = citation_extractor(settings) #doctest: +SKIP
+	Then create an extractor passing as argument the settings file
+	>>> extractor = citation_extractor(base_settings)
 	
-	Let's suppose now that want to extract the canonical references from the following string
-	>>> example_text = u"Eschilo interprete di se stesso (Ar. Ran. 1126ss., 1138-1150)" #doctest: +SKIP
+	Let's now get some test instances...
+	>>> test = read_iob_files(base_settings.TEST_DIRS[0])
 	
-	Tokenise the text before passing it to the extractor
-	>>> tokenised_example = extractor.tokenize(example_text) #doctest: +SKIP
-	>>> result  = extractor.extract([tokenised_example,]) #doctest: +SKIP
-	>>> " ".join(["%s/%s"%(n["token"],n["label"]) for n in result[0]]) #doctest: +SKIP
-	'Eschilo/O interprete/O di/O se/O stesso/O (Ar./B-REFAUWORK Ran./I-REFAUWORK 1126ss.,/B-REFSCOPE 1138-1150)/I-REFSCOPE'
+	We pass the postags and tokens separately:
+	>>> postags = [[("z_POS",token[1]) for token in instance] for instance in test if len(instance)>0]
+	>>> instances = [[token[0] for token in instance] for instance in test if len(instance)>0]
 	
-	Now let's create a second extractor, initialised with different settings
-	
-	>>> import settings #doctest: +SKIP
-	>>> second_extractor = citation_extractor(settings) #doctest: +SKIP
-	>>> result = second_extractor.extract([tokenised_example]) #doctest: +SKIP
-	
+	And finally we classify the test instances
+	>>> result = extractor.extract(instances, postags)
 	"""
+
 	def __init__(self,options):
 		self.classifier=None
 		logfile = ""
@@ -132,7 +127,10 @@ class citation_extractor:
 					file_content = codecs.open("%s"%(infile), 'r',encoding="utf-8").read()
 					all_in_one.append(file_content)
 			result = "\n\n".join(all_in_one)
-			codecs.open("%sall_in_one.iob"%options.TEMP_DIR, 'w',encoding="utf-8").write(result)
+			
+			file = codecs.open("%sall_in_one.iob"%options.TEMP_DIR, 'w',encoding="utf-8")
+			file.write(result)
+			file.close()
 			self.classifier=CRFPP_Classifier("%sall_in_one.iob"%options.TEMP_DIR,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE),options.TEMP_DIR)
 	
 	def init_logger(self,log_file=None, loglevel=logging.DEBUG):
