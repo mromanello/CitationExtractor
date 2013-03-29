@@ -10,6 +10,9 @@ _default_username_ = ""
 _default_password_ = ""
 
 def read_jstor_rdf_catalog(file_path):
+	"""
+	TODO
+	"""
 	from lxml import etree
 	print file_path
 	file=open(file_path)
@@ -48,9 +51,6 @@ def read_jstor_rdf_catalog(file_path):
 				print "%s: %s"%(n.tag,n.text)
 				el_res["type"]=n.text
 		return
-"""
-TODO
-"""	
 
 def get_jstor_info(doc_id=None,reqs = ["wordcounts","references","keyterms"],username=_default_username_,password=_default_password_):
 	#reqs = ["wordcounts","bigrams","trigrams","quadgrams","references","keyterms"]
@@ -61,7 +61,7 @@ def get_jstor_info(doc_id=None,reqs = ["wordcounts","references","keyterms"],use
 			logger.info("Getting %s for %s"%(r,doc_id))
 			res[r] = get_jstor(r,doc_id,username,password)
 	return res
-		
+
 	
 def get_jstor(request,doc_id=None,username=_default_username_,password=_default_password_):
 	base_url = "dfr.jstor.org/resource/"
@@ -77,7 +77,7 @@ def get_jstor(request,doc_id=None,username=_default_username_,password=_default_
 		return url,result.read()
 	else:
 		return None,result
-	
+
 def read_jstor_csv_catalog(file_path):
 	import csv,re
 	indexes = {'JOURNALTITLE':{},'PUBDATE':{},'TYPE':{}}

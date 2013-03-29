@@ -199,13 +199,12 @@ class citation_extractor:
 			TODO describe
 		"""
 		result = []
-		for i,instance in enumerate(instances):
-			for n,tokens in enumerate(instance):
-				if(legacy_features is not None):
-					feat_sets = self.fe.get_features(tokens,[],False,legacy_features[i][n]) # get the feature set for the current token
-				else:
-					feat_sets = self.fe.get_features(tokens,[],False)
-				result.append(self.classifier.classify(instance_to_string(feat_sets)))
+		for n,instance in enumerate(instances):
+			if(legacy_features is not None):
+				feat_sets = self.fe.get_features(instances[n],[],False,legacy_features[n])
+			else:
+				feat_sets = self.fe.get_features(instances[n],[],False)
+			result.append(self.classifier.classify(instance_to_string(feat_sets)))
 		return result
 	
 class FeatureExtractor:
