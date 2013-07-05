@@ -15,6 +15,7 @@ def count_tokens(instances):
 	return sum([1 for instance in instances for token in instance])
 
 def write_iob_file(instances,dest_file):
+	
 	to_write = "\n\n".join(["\n".join(["\t".join(token) for token in instance]) for instance in instances])
 	try:
 		import codecs
@@ -339,7 +340,7 @@ def prepare_for_tagging(file_name,inp="jstor/xml"):
 		out+="\n"
 	return out
 
-def read_jstor_data(dir):
+def read_jstor_data(dir):	
 	"""
 	Returns a list of strings being the absolute paths to XML files in the dataset
 	"""
@@ -387,7 +388,7 @@ def main():
 	for i in res:
 		print i
 		print re.sub(r'[^\w]','',i)
-	
+
 		
 if __name__ == "__main__":
     main()

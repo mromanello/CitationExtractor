@@ -622,7 +622,6 @@ class FeatureExtractor:
 		keys = [f[0] for f in tok1]
 		res = [dict(r) for r in features]
 		logger = logging.getLogger('CREX.FeatureExtractor')
-		logger.debug(res)
 		for n,x in enumerate(res):
 			# transform the numeric values into strings
 			for key in keys:
@@ -634,6 +633,7 @@ class FeatureExtractor:
 		if(legacy_features is not None):
 			for n,token in enumerate(res):
 				token[legacy_features[n][0]] = legacy_features[n][1]
+		logger.debug("\n"+"\n".join(instance_to_string(res)))
 		return res
 	
 	def get_feature_order(self):

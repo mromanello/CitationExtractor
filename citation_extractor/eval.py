@@ -421,6 +421,7 @@ class CrossEvaluator(SimpleEvaluator):
 	>>> result = ce.run() #doctest: +SKIP
 	>>> pprint.pprint(result) #doctest: +SKIP
 	"""
+
 	def __init__(self,extractors,iob_test_file,culling_size=None,fold_number=10,evaluation_dir="./",label_index=-1):
 		super(CrossEvaluator, self).__init__(extractors,iob_test_file,label_index=label_index)
 		self.culling_size = culling_size

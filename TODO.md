@@ -4,19 +4,5 @@
 	
 * test the installation process using `virtualenv`
 
-* possible *new* layout
-
-	--citation_extractor
-		--__init_.py
-		--settings
-			--default_settings.py
-			--base_settings.py
-		--tests
-	--miguno
-		--__init__.py
-	--pysuffix
-		--__init__.py
-	--setup.py
-	--LICENSE.txt
-	--README.md
-	--INSTALL.txt
+* change the debug log for `FeatureExtractor`
+* 
