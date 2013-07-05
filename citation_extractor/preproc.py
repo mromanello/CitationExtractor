@@ -58,28 +58,18 @@ def tokenize_and_POStag(text, lang_code, abbrev_file="/Users/56k/phd/code/APh/co
 		,'la':'english'
 	}
 	# Spanish needs to be treated differently because of a bug in the CLI treetagger
-	if(lang_code == "es"):
-		import treetaggerwrapper
+	import treetaggerwrapper
+	if(lang_code != "en"):
 		tagger = treetaggerwrapper.TreeTagger(TAGLANG=lang_code,TAGDIR=treetagger_dir,TAGINENC='utf-8',TAGOUTENC='utf-8',TAGABBREV=abbrev_file)
 		temp = tagger.TagText(text)
 		return [tuple(line.split('\t'))[:2] for line in temp]
-	if(lang_mappings.has_key(lang_code)):
-		cmd = "%scmd/tree-tagger-%s -a %s"%(treetagger_dir,lang_mappings[lang_code],abbrev_file)
-		if(lang_code!='en'):
-			cmd = "echo \"%s\" | %s"%(text.encode('utf-8'),cmd)
-		else:
-			cmd = "echo \"%s\" | %s"%(text.encode('latin-1'),cmd)
-		out = os.popen(cmd).readlines()
-		return [tuple(tok.split('\t')[:2]) for tok in out]
-	# every language code not contained in lang_mappings is treated as English
+	elif(lang_code == "en"):
+		tagger = treetaggerwrapper.TreeTagger(TAGLANG=lang_code,TAGDIR=treetagger_dir,TAGINENC='latin-1',TAGOUTENC='utf-8',TAGABBREV=abbrev_file)
+		temp = tagger.TagText(text)
+		return [tuple(line.split('\t'))[:2] for line in temp]	
 	else:
-		cmd = "%scmd/tree-tagger-%s -a %s"%(treetagger_dir,"english",abbrev_file)
-		if(lang_code!='en'):
-			cmd = "echo \"%s\" | %s"%(text.encode('utf-8'),cmd)
-		else:
-			cmd = "echo \"%s\" | %s"%(text.encode('latin-1'),cmd)
-		out = os.popen(cmd).readlines()
-		return [tuple(tok.split('\t')[:2]) for tok in out]
+		# instead we should raise an exception
+		return None
 
 def create_instance_tokenizer(train_dirs=[("/Users/56k/phd/code/APh/corpus/txt/",'.txt'),]):
 	from nltk.tokenize.punkt import PunktSentenceTokenizer
