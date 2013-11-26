@@ -34,42 +34,18 @@ def detect_language(text):
 	except Exception,e:
 		print "lang detection raised error \"%s\""%str(e)
 
-def tokenize_and_POStag(text, lang_code, abbrev_file="/Users/56k/phd/code/APh/corpus/extra/abbreviations.txt",treetagger_dir="/Applications/treetagger/"):
+def create_tagger(lang_code,inp_enc="utf-8",out_enc="utf-8",abbrev_file="/Users/56k/phd/code/APh/corpus/extra/abbreviations.txt",treetagger_dir="/Applications/treetagger/"):
+	"""docstring for create_tagger"""
+	import treetaggerwrapper
+	return treetaggerwrapper.TreeTagger(TAGLANG=lang_code,TAGDIR=treetagger_dir,TAGINENC=inp_enc,TAGOUTENC=out_enc,TAGABBREV=abbrev_file)
+
+def tokenize_and_POStag(treetagger,text):
 	"""
 	Performs the tokenization and POS tagging of the input text.
 	
-	Args:
-		text:
-			the text to be tokenized
-		lang_code:
-			the language of the input text
-		abbrev_file:
-			a list of abbreviations to improve the accuracy of tokenization
-		treetagger_dir:
-			the installation directory of the Treetagger
 	"""
-	import os
-	lang_mappings = {
-		'en':'english'
-		,'it':'italian-utf8'
-		,'fr':'french-utf8'
-		,'es':'spanish-utf8'
-		,'de':'german-utf8'
-		,'la':'english'
-	}
-	# Spanish needs to be treated differently because of a bug in the CLI treetagger
-	import treetaggerwrapper
-	if(lang_code != "en"):
-		tagger = treetaggerwrapper.TreeTagger(TAGLANG=lang_code,TAGDIR=treetagger_dir,TAGINENC='utf-8',TAGOUTENC='utf-8',TAGABBREV=abbrev_file)
-		temp = tagger.TagText(text)
-		return [tuple(line.split('\t'))[:2] for line in temp]
-	elif(lang_code == "en"):
-		tagger = treetaggerwrapper.TreeTagger(TAGLANG=lang_code,TAGDIR=treetagger_dir,TAGINENC='latin-1',TAGOUTENC='utf-8',TAGABBREV=abbrev_file)
-		temp = tagger.TagText(text)
-		return [tuple(line.split('\t'))[:2] for line in temp]	
-	else:
-		# instead we should raise an exception
-		return None
+	temp = treetagger.TagText(text)
+	return [tuple(line.split('\t'))[:2] for line in temp]
 
 def create_instance_tokenizer(train_dirs=[("/Users/56k/phd/code/APh/corpus/txt/",'.txt'),]):
 	from nltk.tokenize.punkt import PunktSentenceTokenizer

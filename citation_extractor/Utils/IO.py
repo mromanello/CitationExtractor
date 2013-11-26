@@ -12,10 +12,11 @@ from random import *
 import xml.dom.minidom as mdom
 
 def count_tokens(instances):
+	"""
+	"""
 	return sum([1 for instance in instances for token in instance])
 
 def write_iob_file(instances,dest_file):
-	
 	to_write = "\n\n".join(["\n".join(["\t".join(token) for token in instance]) for instance in instances])
 	try:
 		import codecs
