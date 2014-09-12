@@ -1,3 +1,25 @@
+import sys
+
+def get_taggers(treetagger_dir = '/Applications/treetagger/cmd/',abbrev_file=None):
+	"""docstring for create_taggers"""
+	from treetagger import TreeTagger
+	import os
+	os.environ["TREETAGGER"]=treetagger_dir
+	lang_codes = {
+		'en':('english','latin-1'),
+		'it':('italian','utf8'),
+		'es':('spanish','utf8'),
+		'de':('german','utf8'),
+		'fr':('french','utf8'),
+	}
+	taggers = {}
+	for lang in lang_codes.keys():
+		try:
+			taggers[lang]=TreeTagger(encoding=lang_codes[lang][1],language=lang_codes[lang][0],abbreviation_list=abbrev_file)
+		except Exception, e:
+			raise e
+	return taggers	
+
 def detect_language(text):
 	"""
 	Detect language of a notice by using the module guess_language.
@@ -17,6 +39,18 @@ def detect_language(text):
 	except Exception,e:
 		print "lang detection raised error \"%s\""%str(e)
 
+def create_instance_tokenizer(train_dirs=[("/Users/56k/phd/code/APh/corpus/txt/",'.txt'),]):
+        from nltk.tokenize.punkt import PunktSentenceTokenizer
+        import glob
+        import os
+        import re
+        import codecs
+        sep = "\n"
+        train_text = []
+        for dir in train_dirs:
+                train_text += [codecs.open(file,'r','utf-8').read() for file in glob.glob( os.path.join(dir[0], '*%s'%dir[1]))]
+        return PunktSentenceTokenizer(sep.join(train_text))
+
 def split_sentences(filename,outfilename=None):
 	"""	
     sentence tokenization
@@ -26,12 +60,13 @@ def split_sentences(filename,outfilename=None):
 	import codecs
 	import os.path
 	import re
+	import sys
 	file = codecs.open(filename,'r','UTF-8')
 	text = file.read()
 	file.close()
 	# determine the language
 	try:
-		sent_tok = preproc.create_instance_tokenizer(train_dirs=[("/Users/rromanello/Documents/APh_Corpus/goldset/txt/",'.txt'),])
+		sent_tok = create_instance_tokenizer(train_dirs=[("/Users/rromanello/Documents/APh_Corpus/goldset/txt/",'.txt'),])
 		sentences = sent_tok.tokenize(text)
 		blurb = "\n".join(sentences)
 		# the following lines try to correct the most predictable mistakes of the sentence tokenizer 
@@ -141,20 +176,28 @@ def read_ann_file(fileid,ann_dir):
 	res_annotations = []
 	for annot in annotations:
 		rel_id,label,urn = annot
-		rel = relations[rel_id[0]]
-		arg1 = rel[1].split(":")[1]
-		arg2 = rel[2].split(":")[1]
-		label = "%s %s"%(entities[arg1][1],entities[arg2][1])
-		res_annotations.append([rel_id[0],label,urn])
+		try:
+			rel = relations[rel_id[0]]
+			arg1 = rel[1].split(":")[1]
+			arg2 = rel[2].split(":")[1]
+			label = "%s %s"%(entities[arg1][1],entities[arg2][1])
+			res_annotations.append([rel_id[0],label,urn])
+		except Exception, e:
+			entity = entities[rel_id[0]]
+			res_annotations.append([rel_id[0],entity[1],urn])
 	return entities, relations, res_annotations
 
-def extract_citations(extractor,filename,iob_sentences,outfilename=None):
+def extract_citations(extractor,outputdir,filename,iob_sentences,outfilename=None):
 	"""docstring for extract_citations"""
 	# this is the important bit which performs the citation extraction
+	import sys
+	import os
+	from citation_extractor.eval import IO
+
 	result,out_fname = None, ""
 	if(outfilename is None):
 		path,name = os.path.split(filename)
-		out_fname = '%sout/%s'%(outputdir,name)
+		out_fname = '%s%s'%(outputdir,name)
 	else:
 		out_fname = outfilename
 	try:
@@ -225,7 +268,7 @@ def extract_relationships(doc_tree):
 		traverse(sentence,n_sentence)
 	return entities,relations
 
-def save_scope_relationships(fileid, ann_dir, relations):
+def save_scope_relationships(fileid, ann_dir, relations, entities):
 	"""
 	appends relationships (type=scope) to an .ann file. 
 	"""
@@ -233,7 +276,10 @@ def save_scope_relationships(fileid, ann_dir, relations):
 	ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
 	keys = relations.keys()
 	keys.sort(key=lambda k:(k[0], int(k[1:])))
-	result = "\n".join(["%s\tScope Arg1:%s Arg2:%s"%(rel,relations[rel][0],relations[rel][1]) for rel in keys])
+	entities_keys = entities.keys()
+	entities_keys.sort(key=lambda k:(k[0], int(k[1:])))
+	#result = "\n".join(["%s\tScope Arg1:%s Arg2:%s"%(rel,relations[rel][0],relations[rel][1]) for rel in keys])
+	result = "\n".join(["%s\tScope Arg1:%s Arg2:%s"%(rel,entities_keys[relations[rel][0]],entities_keys[relations[rel][1]]) for rel in keys])
 	try:
 		f = codecs.open(ann_file,'r','utf-8')
 		hasblankline = f.read().endswith("\n")
@@ -253,23 +299,46 @@ def clean_relations_annotation(fileid, ann_dir, entities):
 	overwrites relationships (type=scope) to an .ann file. 
 	"""
 	import codecs
+	import sys
 	ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
 	keys = entities.keys()
 	keys.sort(key=lambda k:(k[0], int(k[1:])))
 	result = "\n".join(["%s\t%s %s %s\t%s"%(ent,entities[ent][0],entities[ent][2],entities[ent][3],entities[ent][1]) for ent in keys])
-	#result2 = "\n".join(["%s\tScope Arg1:%s Arg2:%s"%(rel,relations[rel][0],relations[rel][1]) for rel in relations])
+	#result2 = "\n".join(["%s\tScope Arg1:%s Arg2:%s"%(rel,relations[rel][0],relations[rel][1]) for rel in keys])
 	try:
 		f = codecs.open(ann_file,'w','utf-8')
 		f.write(result)
-		#f.write(result2)
 		f.close()
-		#print result
 		print >> sys.stderr,"Cleaned relations annotations from %s"%ann_file
 	except Exception, e:
 		raise e
 	return result
 
-def tokenize(sentences,outfilename=None):
+def remove_all_annotations(fileid, ann_dir):
+	import codecs
+	ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
+	entities, relations, annotations = read_ann_file(fileid, ann_dir)
+
+	entity_keys = entities.keys()
+	entity_keys.sort(key=lambda k:(k[0], int(k[1:])))
+	entities_string = "\n".join(["%s\t%s %s %s\t%s"%(ent,entities[ent][0],entities[ent][2],entities[ent][3],entities[ent][1]) for ent in entity_keys])
+
+	relation_keys = relations.keys()
+	relation_keys.sort(key=lambda k:(k[0], int(k[1:])))
+	relation_string = "\n".join(["%s\tScope Arg1:%s Arg2:%s"%(rel,relations[rel][1].replace('Arg1:',''),relations[rel][2].replace('Arg2:','')) for rel in relation_keys])
+	
+	try:
+		f = codecs.open(ann_file,'w','utf-8')
+		f.write(entities_string)
+		f.write("\n")
+		f.write(relation_string)
+		f.close()
+		print >> sys.stderr,"Cleaned all relations annotations from %s"%ann_file
+	except Exception, e:
+		raise e
+	return
+
+def tokenize(sentences,taggers, outfilename=None):
 	"""
 	Detect language of a notice by using the module guess_language.
 	The IANA label is returned.
@@ -284,6 +353,7 @@ def tokenize(sentences,outfilename=None):
 	import codecs
 	from citation_extractor.Utils import IO
 	import os.path
+	import sys
 	
 	text = "\n".join(sentences)
 	# determine the language
@@ -296,12 +366,15 @@ def tokenize(sentences,outfilename=None):
 	print >> sys.stderr,"Language detected is %s"%lang
 	iob = []
 	for n,sent in enumerate(sentences):
-		tmp = [result[:2] for result in taggers[lang].tag(sent)]
+		tok_lang = lang
+		if(tok_lang in ["en*","en**"]):
+			tok_lang = "en"
+		tmp = [result[:2] for result in taggers[tok_lang].tag(sent)]
 		#print >> sys.stderr,"Tokenized sentence %i / %i"%(n,len(sentences))
 		iob.append(tmp)
 	return lang,iob
 
-def preprocess(filename,outfilename=None,split_sentence=False):
+def preprocess(filename,taggers, outputdir, outfilename=None,split_sentence=False):
 	"""	
     sentence tokenization
     text tokenization
@@ -310,6 +383,7 @@ def preprocess(filename,outfilename=None,split_sentence=False):
 	import codecs
 	from citation_extractor.Utils import IO
 	import os.path
+	import sys
 	
 	file = codecs.open(filename,'r','UTF-8')
 	text = file.read()
@@ -317,10 +391,12 @@ def preprocess(filename,outfilename=None,split_sentence=False):
 	# split into sentences
 	if(split_sentence):
 		sentences = split_sentences(filename)
+	else:
+		sentences = [text.replace("\n"," ")]
 	print >> sys.stderr, "Text was split into %i sentences"%len(sentences)
 	# tokenize
-	lang, iob = tokenize(sentences)
-	print >> sys.stderr, "%i sentences were tokenied into %i tokens"%(len(sentences),IO.count_tokens(iob))
+	lang, iob = tokenize(sentences,taggers)
+	print >> sys.stderr, "%i sentences were tokenized into %i tokens"%(len(sentences),IO.count_tokens(iob))
 	# save the intermediate output
 	if(outfilename is None):
 		path,name = os.path.split(filename)
@@ -332,23 +408,97 @@ def preprocess(filename,outfilename=None,split_sentence=False):
 	    print >> sys.stderr,"IOB output successfully written to file \"%s\""%out_fname
 	except Exception, e:
 	    print "Failed while writing IOB output to file \"%s\", %s"%(out_fname,e)
-	return lang, iob
+	return lang, iob, out_fname
 
 def save_scope_annotations(fileid, ann_dir, annotations):
+	"""
+	this method expects a tuple `t` where
+	t[0] is the ID of the entity/relation the annotation is about
+	t[1] is the label (it doesn't get written to the file)
+	t[2] is the URN, i.e. the content of the annotation
+	if t[2] is None the annotation is skipped
+
+	"""
 	ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
+	file_content = open(ann_file,'r').read()
 	file = open(ann_file,'a')
+	if(not (file_content.endswith('\n') or file_content.endswith('\r'))):
+		file.write("\n")
 	for n,annot in enumerate(annotations):
-	    file.write("#%i\tAnnotatorNotes %s\t%s\n"%(n,annot[0],annot[2]))
+		if(annot[2] is not None):
+			file.write("#%i\tAnnotatorNotes %s\t%s\n"%(n,annot[0],annot[2]))
+		else:
+			print >> sys.stderr, "The annotation \"%s\" in %s is None, therefore was not written to file"%(annot[1],fileid)
 	file.close()
 	return
 
-def tostandoff(iobfile,standoffdir):
+def tostandoff(iobfile,standoffdir,brat_script):
 	"""
 	Converts the .iob file with NE annotation into standoff markup.
 	"""
+	import sys
+	import os
 	try:
 		cmd = "python %s -o %s %s"%(brat_script,standoffdir,iobfile)
 		os.popen(cmd).readlines()
 		print >> sys.stderr,".ann output written successfully."
 	except Exception, e:
 		raise e
+
+def disambiguate_relations(citation_matcher, relations,entities,docid):
+	"""
+
+	TODO
+
+	Returns:
+		 (u'R5', u'[ Verg. ] catal. 47s', u'urn:cts:TODO:47s')
+	"""
+	import re
+	print >> sys.stderr, "Disambiguating the %i relation contained in %s..."%(len(relations), docid)
+	result = []
+	for relation in relations:
+	    relation_type = relations[relation][0]
+	    arg1 = relations[relation][1].split(":")[1]
+	    arg2 = relations[relation][2].split(":")[1]
+	    refauwo=entities[arg1][1]
+	    refauwo=re.sub("[\(, \)]","",refauwo) # TODO move this to CitationParser
+	    scope = entities[arg2][1]
+	    scope = re.sub("\.$","",scope)
+	    scope = re.sub("\,$","",scope)
+	    scope = re.sub("[\(, \)]","",scope)
+	    try:
+	        urn = citation_matcher.disambiguate(refauwo,scope)[0]
+	        result.append((relation,"%s %s"%(refauwo,scope),urn))
+	    except Exception, e:
+	    	normalized_scope = scope
+	    	try:
+	    		normalized_scope = citation_matcher._citation_parser.parse(scope)
+	    		normalized_scope = citation_matcher._format_scope(normalized_scope[0]['scp'])
+	    	except Exception, e:
+	    		print >> sys.stderr, e
+	        result.append((relation,"%s %s"%(refauwo,scope),None))
+	return result
+
+def disambiguate_entities(citation_matcher,entities,docid,min_distance_threshold,max_distance_threshold):
+	print >> sys.stderr, "Disambiguating the %i entities contained in %s..."%(len(entities), docid)
+	result = []
+	distance_threshold = min_distance_threshold
+	for entity in entities:
+		entity_type = entities[entity][0]
+		if entity_type == "AAUTHOR":
+			string = entities[entity][1]
+			matches = citation_matcher.matches_author(string,True,distance_threshold)
+			while(matches is None and distance_threshold <= max_distance_threshold):
+				distance_threshold+=1
+				matches = citation_matcher.matches_author(string,True,distance_threshold)
+			if(matches is not None):
+				result.append((entity, string ,matches[0][0]))
+		elif(entity_type == "AWORK"):
+			string = entities[entity][1]
+			matches = citation_matcher.matches_work(string,True,distance_threshold)
+			while(matches is None and distance_threshold <= max_distance_threshold):
+				distance_threshold+=1
+				matches = citation_matcher.matches_work(string,True,distance_threshold)
+			if(matches is not None):
+				result.append((entity, string ,matches[0][0]))
+	return result

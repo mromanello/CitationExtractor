@@ -322,10 +322,9 @@ def prepare_for_tagging(file_name,inp="jstor/xml"):
 	"""
 	"""
 	inp=open(file_name).read()
-	prolog="""
-# File generated from %s
-# The tag to be used to mark up Canonical References are: B-CRF, I-CRF and O (according to the
-# classical IOB format for NER)
+	prolog="""# File generated from %s
+	# The tag to be used to mark up Canonical References are: B-CRF, I-CRF and O (according to the
+	# classical IOB format for NER)
 	"""%(file_name)
 	out=""
 	out+=prolog
@@ -356,12 +355,12 @@ def read_jstor_data(dir):
 			next  += read_jstor_data("%s%s/"%(dir,x))
 	return xml_files + next	
 
-def read_iob_files(inp_dir):
+def read_iob_files(inp_dir,extension=".iob"):
 	import glob
 	import os
 	logger = logging.getLogger("CREX.IO")
 	instances = []
-	for infile in glob.glob( os.path.join(inp_dir, '*.iob') ):
+	for infile in glob.glob( os.path.join(inp_dir, '*%s'%extension) ):
 		temp = file_to_instances(infile)
 		instances +=temp
 		logger.debug("read %i instances from file %s"%(len(temp),infile))

@@ -29,32 +29,6 @@ def determine_path():
         print "There is no __file__ variable. Please contact the author."
         sys.exit ()
 
-class citation_extractorService:
-	"""
-	TODO: Document
-	"""
-	def __init__(self,cfg_file=None):
-		self.core = citation_extractor(cfg_file)
-	#replace this method
-	def test(self,arg):
-		res = self.core.clf(arg)
-		return self.core.output(res,"xml")
-	def json(self,arg):
-		res = self.core.clf(arg)
-		return self.core.output(res,"json")
-	
-	def test_unicode(self,arg,outp):
-		temp = arg.data.decode("utf-8")
-		res = self.core.clf(temp)
-		return self.core.output(res,outp)
-	
-	def version(self): 
-		"""
-		Return the version of citation_extractor
-		"""
-		logger.debug("Printing version")
-		return citation_extractor.__version__
-
 class CRFPP_Classifier:
 	"""	
 	This class should extend an abstract classifier	
@@ -72,16 +46,82 @@ class CRFPP_Classifier:
 		train_crfpp(template_fname,train_fname,model_fname)
 		self.crf_model=CRF_classifier(model_fname)
 		return
-	
-	def classify(self,tagged_tokens_list):
+	def classify(self,feature_sets):
 		"""
 		Args:
-			tagged_tokens_list: the list of tokens with tab separated tags.
+			feature_sets: 
+				a list of dictionaries like the following:
+
+				[{'a_token': u'Nella',
+				 'b_punct': 'OTHERS',
+				 'c_brackets': 'OTHERS',
+				 'd_case': 'INIT_CAPS',
+				 'e_number': 'NO_DIGITS',
+				 'f_ngram_1': u'N',
+				 'f_ngram_2': u'Ne',
+				 'f_ngram_3': u'Nel',
+				 'f_ngram_4': u'Nell',
+				 'g_ngram_1': u'a',
+				 'g_ngram_2': u'la',
+				 'g_ngram_3': u'lla',
+				 'g_ngram_4': u'ella',
+				 'h_lowcase': u'nella',
+				 'i_str-length': '5',
+				 'l_pattern': 'Aaaaa',
+				 'm_compressed-pattern': 'Aa',
+				 'n_works_dictionary': 'OTHERS',
+				 'z': '_'}, ... ]
+
 		Returns:
-			TODO document
+			result:
+				a list of dictionaries, where each dictionary corresponds
+				to a token,
+
+				[{'features': [],
+				 'id': 37,
+				 'label': 'O',
+				 'probs': {'B-AAUTHOR': 
+				 	{'alpha': '234.113833',
+				 	'beta': '-2.125040',
+				 	'prob': '0.000262'},
+				   },
+				 'token': '.'},...]
 		"""
+		tagged_tokens_list = instance_to_string(feature_sets)
 		return self.crf_model.classify(tagged_tokens_list)
-	
+
+class SVM_Classifier:
+	"""
+	Just a wrapper around a an SklearnClassifier (nltk.classify.scikitlearn) object
+	to make sure that all classifiers take same input and return the same output. 
+	"""
+	def __init__():
+		pass
+ 	
+	def classify():
+		pass
+
+class NaiveBayes_Classifier:
+	"""
+	Just a wrapper around a an SklearnClassifier (nltk.classify.scikitlearn) object
+	to make sure that all classifiers take same input and return the same output.
+	"""
+	def __init__():
+		pass
+
+	def classify():
+		pass
+
+class RandomForest_Classifier:
+	"""
+	Just a wrapper around a an SklearnClassifier (nltk.classify.scikitlearn) object
+	to make sure that all classifiers take same input and return the same output.
+	"""
+	def __init__():
+		pass
+
+	def classify():
+		pass
 
 class citation_extractor:
 	"""
@@ -103,7 +143,7 @@ class citation_extractor:
 	>>> result = extractor.extract(instances, postags)
 	"""
 
-	def __init__(self,options):
+	def __init__(self,options,classifier_type):
 		self.classifier=None
 		logfile = ""
 		if(options.DEBUG):
@@ -153,18 +193,6 @@ class citation_extractor:
 			ch.setFormatter(formatter)
 			logger.addHandler(ch)
 			logger.info("Logger initialised")
-	
-	def tokenize(self, blurb):
-		"""
-		Tokenize a string of text.
-		
-		Args:
-			blurb: the string to tokenise.
-		Returns:
-			A list of tokens.
-			
-		"""
-		return [y.split(" ") for y in blurb.split("\n")]
 	
 	def output(self,result,outp=None):
 		"""
