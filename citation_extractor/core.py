@@ -95,11 +95,31 @@ class SVM_Classifier:
 	Just a wrapper around a an SklearnClassifier (nltk.classify.scikitlearn) object
 	to make sure that all classifiers take same input and return the same output. 
 	"""
-	def __init__():
-		pass
- 	
-	def classify():
-		pass
+	def __init__(self, train_file_name):
+		from sklearn.svm import LinearSVC
+		from nltk.classify.scikitlearn import SklearnClassifier
+		fe = FeatureExtractor()
+		self.classifier = SklearnClassifier(LinearSVC(),sparse=False)
+		feature_sets = []
+		iob_data = 	file_to_instances(train_file_name)
+		print "instances ",len(iob_data)
+		print "tokens",count_tokens(iob_data)
+		for n,instance in enumerate(iob_data[:10]):
+		    sentence_n = n
+		    pos_tags = [('z_POS',token[1]) for token in instance]
+		    labels = [token[2] for token in instance]
+		    tokens = [token[0] for token in instance]
+		    for n,token in enumerate(tokens):
+		        dict_features = fe.get_features([token],labels=labels,outp_label=False,legacy_features=pos_tags)[0]
+		        # this has to be removed when training the CRF model (!)
+		        dict_features["q:id"]=sentence_n
+		        feature_sets.append([dict_features, labels[n]])
+		    #pprint(feature_sets)
+		print len(feature_sets)
+		self.classifier.train(feature_sets)
+		return
+	def classify(self,feature_sets):
+		return self.classifier.classify_many(feature_sets)
 
 class NaiveBayes_Classifier:
 	"""
@@ -122,6 +142,29 @@ class RandomForest_Classifier:
 
 	def classify():
 		pass
+
+def chain_IOB_files(directories,output_fname):
+	import glob
+	import codecs
+	all_in_one = []
+	for dir in directories:
+		# get all .iob files
+		# concatenate their content with line return
+		# write to a new file
+		logger.debug("Processing %s"%dir)
+		for infile in glob.glob( os.path.join(dir, '*.iob') ):
+			logger.debug("Found the file %s"%infile)
+			file_content = codecs.open("%s"%(infile), 'r',encoding="utf-8").read()
+			all_in_one.append(file_content)
+	result = "\n\n".join(all_in_one)
+	try:
+		file = codecs.open(output_fname, 'w',encoding="utf-8")
+		file.write(result)
+		file.close()
+		return True
+	except Exception, e:
+		raise e
+
 
 class citation_extractor:
 	"""
@@ -152,26 +195,21 @@ class citation_extractor:
 			self.init_logger(loglevel=logging.INFO, log_file=options.LOG_FILE)
 		self.fe = FeatureExtractor()
 		if(options.DATA_FILE != ""):
-			self.classifier=CRFPP_Classifier(options.DATA_FILE,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE),options.TEMP_DIR)
+			allinone_iob_file = options.DATA_FILE
 		elif(options.DATA_DIRS != ""):
-			import glob
-			import codecs
-			all_in_one = []
-			for dir in options.DATA_DIRS:
-				# get all .iob files
-				# concatenate their content with line return
-				# write to a new file
-				logger.debug("Processing %s"%dir)
-				for infile in glob.glob( os.path.join(dir, '*.iob') ):
-					logger.debug("Found the file %s"%infile)
-					file_content = codecs.open("%s"%(infile), 'r',encoding="utf-8").read()
-					all_in_one.append(file_content)
-			result = "\n\n".join(all_in_one)
-			
-			file = codecs.open("%sall_in_one.iob"%options.TEMP_DIR, 'w',encoding="utf-8")
-			file.write(result)
-			file.close()
-			self.classifier=CRFPP_Classifier("%sall_in_one.iob"%options.TEMP_DIR,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE),options.TEMP_DIR)
+			chain_IOB_files(options.DATA_DIRS,"%sall_in_one.iob"%options.TEMP_DIR)
+			allinone_iob_file = "%sall_in_one.iob"%options.TEMP_DIR
+		# initialise the classifier
+		if(classifier_type == "crf"):
+			self.classifier=CRFPP_Classifier(allinone_iob_file,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE),options.TEMP_DIR)
+		elif(classifier_type == "svm"):
+			self.classifier = SVM_Classifier(allinone_iob_file)
+		elif(classifier_type == "rf"):
+			self.classifier = RandomForest_Classifier(allinone_iob_file)
+		elif(classifier_type == "nb"):
+			self.classifier = NaiveBayes_Classifier(allinone_iob_file)
+		else:
+			pass
 	
 	def init_logger(self,log_file=None, loglevel=logging.DEBUG):
 		"""
@@ -230,7 +268,7 @@ class citation_extractor:
 				feat_sets = self.fe.get_features(instances[n],[],False,legacy_features[n])
 			else:
 				feat_sets = self.fe.get_features(instances[n],[],False)
-			result.append(self.classifier.classify(instance_to_string(feat_sets)))
+			result.append(self.classifier.classify(feat_sets))
 		return result
 	
 class FeatureExtractor:
