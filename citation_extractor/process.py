@@ -219,31 +219,57 @@ def extract_citations(extractor,outputdir,filename,iob_sentences,outfilename=Non
 	except Exception, e:
 		raise e
 
-def extract_relationships(doc_tree):
+def extract_relationships(entities):
+	"""
+	TODO: implement properly the pseudocode!
+	"""
+	relations = {}
+	arg1 = None
+	arg2 = None
+	# why it's important to sort this way the entities?
+	items = entities.items()
+	items.sort(key=lambda x:int(x[1][2]))
+	for item in items:
+		entity_type,entity_label,entity_start,entity_end = item[1]
+		if(entity_type!="REFSCOPE"):
+			arg1 = item[0]
+			arg2 = None
+		else:
+			arg2 = item[0]
+			if(arg1 is not None):
+				rel_id = "R%s"%(len(relations.keys())+1)
+				relations[rel_id] = (arg1,arg2)
+				print "Detected relation %s"%str(relations[rel_id])
+
+	return relations
+
+def extract_relationships_old(doc_tree):
 	"""
 	TODO
 	"""
 	def traverse(t,n):
 	    global token_count,context
 	    try:
-	        t.node
+	        t.label()
 	    except AttributeError:
 	        token_count+=1
+	        print "%s / %s"%(t[0],t[1])
 	    else:
-	        if(t.node!='S'):
+	        if(t.label()!='S'):
+	            print context
 	        	# clear the context
-	            if(t.node=='AAUTHOR' or t.node=='REFAUWORK'):
+	            if(t.label()=='AAUTHOR' or t.label()=='REFAUWORK'):
 	                context = {}
 	            start = token_count
 	            end = token_count
 	            for leave in t.leaves():
 	                end +=1
 	            #text=[doc_tree[n][x] for x in range(start,end)]
-	            #print t.node,':'," ".join(text),"[start %i, end %i]"%(start,end)
+	            #print t.label(),':'," ".join(text),"[start %i, end %i]"%(start,end)
 	            entity_num = len(entities.keys())
-	            entities[entity_num]=(t.node,start,end)
-	            context[t.node]=entity_num
-	            if(t.node=='REFSCOPE'):
+	            entities[entity_num]=(t.label(),start,end)
+	            context[t.label()]=entity_num
+	            if(t.label()=='REFSCOPE'):
 	                #print context
 	                relation_num = len(relations.keys())+1
 	                if(context.has_key("REFAUWORK")):
@@ -276,10 +302,7 @@ def save_scope_relationships(fileid, ann_dir, relations, entities):
 	ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
 	keys = relations.keys()
 	keys.sort(key=lambda k:(k[0], int(k[1:])))
-	entities_keys = entities.keys()
-	entities_keys.sort(key=lambda k:(k[0], int(k[1:])))
-	#result = "\n".join(["%s\tScope Arg1:%s Arg2:%s"%(rel,relations[rel][0],relations[rel][1]) for rel in keys])
-	result = "\n".join(["%s\tScope Arg1:%s Arg2:%s"%(rel,entities_keys[relations[rel][0]],entities_keys[relations[rel][1]]) for rel in keys])
+	result = "\n".join(["%s\tScope Arg1:%s Arg2:%s"%(rel,relations[rel][0],relations[rel][1]) for rel in keys])
 	try:
 		f = codecs.open(ann_file,'r','utf-8')
 		hasblankline = f.read().endswith("\n")
