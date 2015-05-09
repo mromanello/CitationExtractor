@@ -88,7 +88,10 @@ class SimpleEvaluator(object):
 		self.logger = logging.getLogger("CREX.SIMPLEVAL")
 		if(iob_file is None):
 			self.logger.debug(iob_directories)
-			self.test_instances = self.read_instances(iob_directories)
+			data = []
+			for directory in iob_directories:
+				data += IO.read_iob_files(directory,".txt")
+			self.test_instances = data
 		else:
 			self.test_instances = IO.file_to_instances(iob_file)
 		self.logger.debug("Found %i instances for test"%len(self.test_instances))
@@ -106,13 +109,15 @@ class SimpleEvaluator(object):
 			TODO
 		"""
 		extractor_results = {}
-		for eng in self.extractors:
-			input = [[[token[0] for token in instance] for instance in self.test_instances]]
+		for extractor in self.extractors:
+			eng = extractor[1]
+			extractor_name = extractor[0]
+			input = [[token[0] for token in instance] for instance in self.test_instances if len(instance)>0]
 			POS = False
 			if(len(self.test_instances[0][0]) > 2):
 				self.label_index = 2 # the last one is the label
-				legacy_features = [[("z_POS",token[1]) for token in instance] for instance in self.test_instances]
-				output = eng.extract(input,[legacy_features])
+				legacy_features = [[("z_POS",token[1]) for token in instance] for instance in self.test_instances if len(instance)>0]
+				output = eng.extract(input,legacy_features)
 				POS = True
 			else:
 				output = eng.extract(input)
@@ -128,7 +133,7 @@ class SimpleEvaluator(object):
 			eval_results["precision"] = self.calc_precision(eval_results)
 			eval_results["recall"] = self.calc_recall(eval_results)
 			by_tag_results = self.calc_stats_by_tag(by_tag_results)
-			extractor_results[str(eng)] = results
+			extractor_results[extractor_name] = results
 		return extractor_results
 	
 	@staticmethod
@@ -250,27 +255,27 @@ class SimpleEvaluator(object):
 					if(tagged_label == gold_label):
 						p_tp += 1
 						errors_by_tag[gold_label]["true_pos"] += 1
-						l_logger.debug("\"%s\"=> tagged: %s / gold: %s [%s]"%(tagged_token, tagged_label, gold_label, "TP"))
+						l_logger.info("[%s] \"%s\"=> tagged: %s / gold: %s"%("TP",tagged_token, tagged_label, gold_label))
 					elif(tagged_label != gold_label):
 						if(tagged_label == negative_BIO_tag):
 							p_fn += 1
 							errors_by_tag[gold_label]["false_neg"] += 1
-							l_logger.debug("\"%s\"=> tagged: %s / gold: %s [%s]"%(tagged_token, tagged_label, gold_label, "FN"))
+							l_logger.info("[%s] \"%s\"=> tagged: %s / gold: %s"%("FN",tagged_token, tagged_label, gold_label))
 						else:
 							p_fp += 1
 							errors_by_tag[gold_label]["false_pos"] += p_fp
-							l_logger.debug("\"%s\"=> tagged: %s / gold: %s [%s]"%(tagged_token, tagged_label, gold_label, "FP"))
+							l_logger.info("[%s] \"%s\"=> tagged: %s / gold: %s"%("FP",tagged_token, tagged_label, gold_label))
 				elif(gold_label == negative_BIO_tag):
 					l_logger.debug("Label \"%s\" for token \"%s\" is negative"%(gold_label,gold_token))	
 					if(tagged_label == gold_label):
 						p_tn += 1
 						errors_by_tag[gold_label]["true_pos"] += 1
-						l_logger.debug("\"%s\"=> tagged: %s / gold: %s [%s]"%(tagged_token, tagged_label, gold_label, "TN"))
+						l_logger.info("[%s] \"%s\"=> tagged: %s / gold: %s"%("TN",tagged_token, tagged_label, gold_label))
 					elif(tagged_label != gold_label):
 						if(tagged_label != negative_BIO_tag):
 							p_fp += 1
 							errors_by_tag[gold_label]["false_pos"] += 1
-							l_logger.debug("\"%s\"=> tagged: %s / gold: %s [%s]"%(tagged_token, tagged_label, gold_label, "FP"))
+							l_logger.info("[%s] \"%s\"=> tagged: %s / gold: %s"%("FP",tagged_token, tagged_label, gold_label))
 				fp += p_fp
 				tp += p_tp
 				fn += p_fn
@@ -408,8 +413,6 @@ class SimpleEvaluator(object):
 			return 0
 		else:
 			return 2*(float(prec * rec) / float(prec + rec))
-	
-
 class CrossEvaluator(SimpleEvaluator):
 	"""
 	>>> import settings #doctest: +SKIP
@@ -442,7 +445,7 @@ class CrossEvaluator(SimpleEvaluator):
 	
 	def create_datasets(self):
 		"""
-		docstring for create_datasets
+		TODO
 		"""
 		
 		from miguno.partitioner import *
@@ -465,22 +468,11 @@ class CrossEvaluator(SimpleEvaluator):
 	
 	def run(self):
 		"""
-		docstring for run
-		
-		TODO:
-			for each iteration
-				for each engine (extractor)
-					write to file the train set
-					write to file the test set
-					evaluate
-					append to 
-						results[extractors[str(extractor_1)]][round-n][fscore]
-						results[extractors[str(extractor_1)]][round-n][prec]
-						results[extractors[str(extractor_1)]][round-n][...]
-		
+		TODO		
 		"""
 		iterations = []
 		results = {}
+		results_by_entity = {}
 		# first lets' create test and train set for each iteration
 		for x,iter in enumerate(self.dataSets_iterator):
 			self.logger.info("Iteration %i"%(x+1))
@@ -497,38 +489,47 @@ class CrossEvaluator(SimpleEvaluator):
 		# let's go through all the iterations
 		for i,iter in enumerate(iterations):
 			results["iter-%i"%(i+1)] = {}
-			for n,extractor_settings in enumerate(self.extractors):
-					results["iter-%i"%(i+1)]["extractor-%i"%(n+1)] = {}
-					self.logger.info("Running iteration #%i with extractor #%i"%(i+1,n+1))
-					self.logger.info(extractor_settings)
-					train_file="%sfold_%i.train"%(self.evaluation_dir,i+1)
-					test_file="%sfold_%i.test"%(self.evaluation_dir,i+1)
+			results_by_entity["iter-%i"%(i+1)] = {}
+			train_file="%sfold_%i.train"%(self.evaluation_dir,i+1)
+			test_file="%sfold_%i.test"%(self.evaluation_dir,i+1)
+			IO.write_iob_file(iter[0],train_file)
+			IO.write_iob_file(iter[1],test_file)
+			# the following line is a bit of a workaround
+			# to avoid recomputing the features when training
+			# each new classifier, I take them from the file created
+			# to train the CRF model (which should always be the first extractor
+			# to be evaluated).
+			filename = "%sfold_%i.train.train"%(self.extractors[0][1].TEMP_DIR,(i+1))
+			f=codecs.open(filename,'r','utf-8')
+			data = f.read()
+			f.close()
+			feature_sets=[[[token.split('\t')[:len(token.split('\t'))-1],token.split('\t')[len(token.split('\t'))-1:]] for token in instance.split('\n')] for instance in data.split('\n\n')]
+			order = FeatureExtractor().get_feature_order()
+			labelled_feature_sets=[]
+			for instance in feature_sets:
+				for token in instance:
+					temp = [{order[n]:feature for n,feature in enumerate(token[0])},token[1][0]]
+					labelled_feature_sets.append(temp)
+			self.logger.info("read %i labelled instances"%len(feature_sets))
+			for n,extractor in enumerate(self.extractors):
+					extractor_settings = extractor[1]
+					extractor_name = extractor[0]
+					results["iter-%i"%(i+1)][extractor_name] = {}
+					self.logger.info("Running iteration #%i with extractor %s"%(i+1,extractor_name))
 					self.logger.info(train_file)
 					self.logger.info(test_file)
-					import codecs
-					file = codecs.open(train_file,'w','utf-8')
-					if(len(iter[0][0][0])==2):
-						tmp = [[("%s\t%s"%(token[0],token[1]))for token in instance] for instance in iter[0]]
-					else:
-						tmp = [[("%s\t%s\t%s"%(token[0],token[1],token[2]))for token in instance] for instance in iter[0]]
-					tmp = ["\n".join(x) for x in tmp]
-					to_write = "\n\n".join(tmp)
-					file.write(to_write)
-					file.close()
-					file = codecs.open(test_file,'w','utf-8')
-					if(len(iter[0][0][0])==2):
-						tmp = [[("%s\t%s"%(token[0],token[1]))for token in instance] for instance in iter[1]]
-					else:
-						tmp = [[("%s\t%s\t%s"%(token[0],token[1],token[2]))for token in instance] for instance in iter[1]]
-					tmp = ["\n".join(x) for x in tmp]
-					to_write = "\n\n".join(tmp)
-					file.write(to_write)
-					file.close()
+					self.logger.info(extractor_settings)
 					extractor_settings.DATA_FILE = train_file
-					extractor = citation_extractor(extractor_settings)
-					se = SimpleEvaluator([extractor,],iob_file=test_file)
-					results["iter-%i"%(i+1)]["extractor-%i"%(n+1)] = se.eval()[str(extractor)]
-		return results	
+					if(extractor_settings.CLASSIFIER is not None):
+						extractor = citation_extractor(extractor_settings, extractor_settings.CLASSIFIER,labelled_feature_sets)
+					else:
+						extractor = citation_extractor(extractor_settings)
+					self.logger.info(extractor.classifier)
+					se = SimpleEvaluator([(extractor_name, extractor),],iob_file=test_file)
+					results["iter-%i"%(i+1)][extractor_name] = se.eval()[extractor_name][0]
+					results_by_entity["iter-%i"%(i+1)][extractor_name] = SimpleEvaluator.calc_stats_by_entity(se.eval()[extractor_name][1])
+					#self.logger.info(results_by_entity["iter-%i"%(i+1)][extractor_name])
+		return results,results_by_entity	
 	
 if __name__ == "__main__":
 	#Usage example: python eval.py aph_data_100_positive/ out/

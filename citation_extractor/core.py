@@ -90,60 +90,158 @@ class CRFPP_Classifier:
 		tagged_tokens_list = instance_to_string(feature_sets)
 		return self.crf_model.classify(tagged_tokens_list)
 
-class SVM_Classifier:
+class ScikitClassifierAdapter:
 	"""
-	Just a wrapper around a an SklearnClassifier (nltk.classify.scikitlearn) object
-	to make sure that all classifiers take same input and return the same output. 
+	An adapter for an SklearnClassifier (nltk.classify.scikitlearn) object
+	to make sure that all classifiers take same input and return the same output
+	and are trained in the same way.
+
+	scikit_classifier:
+		a Scikit classifier *instance*
+
+	train_file_name:
+		the path to the training settings
+
+	template_file_name:
+		the template to extract additional feature for optimization purposes
+
 	"""
-	def __init__(self, train_file_name):
-		from sklearn.svm import LinearSVC
+	def __init__(self, scikit_classifier, train_file_name,template_file_name,labelled_feature_sets=None):
 		from nltk.classify.scikitlearn import SklearnClassifier
+		from sklearn.ensemble import AdaBoostClassifier
+		from sklearn.naive_bayes import GaussianNB
+		from sklearn.ensemble import RandomForestClassifier
 		fe = FeatureExtractor()
-		self.classifier = SklearnClassifier(LinearSVC(),sparse=False)
+		#self.classifier = SklearnClassifier(scikit_classifier,sparse=False)
+		if(isinstance(scikit_classifier,RandomForestClassifier)):
+			self.classifier = SklearnClassifier(scikit_classifier,sparse=False) 
+		elif(isinstance(scikit_classifier,GaussianNB)):
+			self.classifier = SklearnClassifier(scikit_classifier,sparse=False) 
+		else:
+			self.classifier = SklearnClassifier(scikit_classifier)
+		self.compiled_templates = self.process_template(template_file_name)
 		feature_sets = []
-		iob_data = 	file_to_instances(train_file_name)
-		print "instances ",len(iob_data)
-		print "tokens",count_tokens(iob_data)
-		for n,instance in enumerate(iob_data[:10]):
-		    sentence_n = n
-		    pos_tags = [('z_POS',token[1]) for token in instance]
-		    labels = [token[2] for token in instance]
-		    tokens = [token[0] for token in instance]
-		    for n,token in enumerate(tokens):
-		        dict_features = fe.get_features([token],labels=labels,outp_label=False,legacy_features=pos_tags)[0]
-		        # this has to be removed when training the CRF model (!)
-		        dict_features["q:id"]=sentence_n
-		        feature_sets.append([dict_features, labels[n]])
-		    #pprint(feature_sets)
-		print len(feature_sets)
-		self.classifier.train(feature_sets)
+		if(labelled_feature_sets is not None):
+			feature_sets = labelled_feature_sets
+			logger.info("using a pre-computed feature_sets containing %i instances"%len(feature_sets))
+		else:
+			iob_data = 	file_to_instances(train_file_name)
+			logger.info("instances ",len(iob_data))
+			logger.info("tokens",count_tokens(iob_data))
+			for n,instance in enumerate(iob_data):
+			    sentence_n = n
+			    pos_tags = [('z_POS',token[1]) for token in instance]
+			    labels = [token[2] for token in instance]
+			    tokens = [token[0] for token in instance]
+			    for n,token in enumerate(tokens):
+			        dict_features = fe.get_features([token],labels=labels,outp_label=False,legacy_features=pos_tags)[0]
+			        feature_sets.append([dict_features, labels[n]])
+		self.classifier.train(self.apply_feature_template(feature_sets,out_label=True))
 		return
 	def classify(self,feature_sets):
-		return self.classifier.classify_many(feature_sets)
+		"""
+		Args:
+			feature_sets: 
+				a list of dictionaries like the following:
 
-class NaiveBayes_Classifier:
-	"""
-	Just a wrapper around a an SklearnClassifier (nltk.classify.scikitlearn) object
-	to make sure that all classifiers take same input and return the same output.
-	"""
-	def __init__():
-		pass
+				[{'a_token': u'Nella',
+				 'b_punct': 'OTHERS',
+				 'c_brackets': 'OTHERS',
+				 'd_case': 'INIT_CAPS',
+				 'e_number': 'NO_DIGITS',
+				 'f_ngram_1': u'N',
+				 'f_ngram_2': u'Ne',
+				 'f_ngram_3': u'Nel',
+				 'f_ngram_4': u'Nell',
+				 'g_ngram_1': u'a',
+				 'g_ngram_2': u'la',
+				 'g_ngram_3': u'lla',
+				 'g_ngram_4': u'ella',
+				 'h_lowcase': u'nella',
+				 'i_str-length': '5',
+				 'l_pattern': 'Aaaaa',
+				 'm_compressed-pattern': 'Aa',
+				 'n_works_dictionary': 'OTHERS',
+				 'z': '_'}, ... ]
 
-	def classify():
-		pass
+		Returns:
+			result:
+				a list of dictionaries, where each dictionary corresponds
+				to a token,
 
-class RandomForest_Classifier:
-	"""
-	Just a wrapper around a an SklearnClassifier (nltk.classify.scikitlearn) object
-	to make sure that all classifiers take same input and return the same output.
-	"""
-	def __init__():
-		pass
+				[{'features': [],
+				 'id': 37,
+				 'label': 'O',
+				 'probs': {'B-AAUTHOR': 
+				 	{'alpha': '234.113833',
+				 	'beta': '-2.125040',
+				 	'prob': '0.000262'},
+				   },
+				 'token': '.'},...]
+		"""
+		# apply feature templates (from CRF++)
+		template_feature_sets = self.apply_feature_template(feature_sets,out_label=False)
+		# keep the output labels
+		output_labels = self.classifier.classify_many(template_feature_sets)
+		result = []
+		for n,feature_set in enumerate(feature_sets):
+			temp = {}
+			temp["token"]=feature_set["a_token"].encode('utf-8')
+			temp["label"]=str(output_labels[n])
+			result.append(temp)
+		return result
+	def process_template(self,template_file):
+		"""
 
-	def classify():
-		pass
+		Example of the output:
 
-def chain_IOB_files(directories,output_fname):
+		[('U01:%s', [(-2, 0)]),
+ 		('U02:%s', [(-1, 0)]),...]
+
+		"""
+		f = open(template_file,'r')
+		lines = [line.replace('\n','') for line in f.readlines() if not line.startswith('\n') and not line.startswith('#') and not line.startswith('B')]
+		f.close()
+		import re
+		exp = re.compile("%x\[(-?\d+),(-?\d+)\]")
+		result = []
+		for line in lines:
+			result.append((exp.sub('%s',line),[(int(match[0]),int(match[1])) for match in exp.findall(line)]))
+		return result
+	def apply_feature_template(self,feature_sets,out_label=False):
+		"""
+		
+		TODO: apply each of the compiled templates
+
+		"""
+		def get_value(feature_sets,token_n,feature_n):
+			if(token_n < 0):
+				return "ND"
+			elif(token_n > (len(feature_sets)-1)):
+				return "ND"
+			else:
+				return feature_sets[token_n][feature_n]
+		if(out_label):
+			unlabelled_feature_sets = [[f[0][key] for key in sorted(f[0])] for f in feature_sets]
+		else:
+			unlabelled_feature_sets = [[f[key] for key in sorted(f)] for f in feature_sets]
+		assert len(feature_sets) == len(unlabelled_feature_sets)
+		new_features = []
+		for n,fs in enumerate(unlabelled_feature_sets):
+			result = {}
+			for template,replacements in self.compiled_templates:
+				template_name = template.split(":")[0]
+				template = template.split(":")[1]
+				values = [get_value(unlabelled_feature_sets,n+r[0],r[1]) for r in replacements]
+				result[template_name] = template%tuple(values)
+			if(out_label):
+				# keep the expected label for training
+				new_features.append([result,feature_sets[n][1]])
+			else:
+				new_features.append(result)
+		return new_features
+
+def chain_IOB_files(directories,output_fname,extension=".iob"):
 	import glob
 	import codecs
 	all_in_one = []
@@ -152,7 +250,7 @@ def chain_IOB_files(directories,output_fname):
 		# concatenate their content with line return
 		# write to a new file
 		logger.debug("Processing %s"%dir)
-		for infile in glob.glob( os.path.join(dir, '*.iob') ):
+		for infile in glob.glob( os.path.join(dir, '*%s'%extension) ):
 			logger.debug("Found the file %s"%infile)
 			file_content = codecs.open("%s"%(infile), 'r',encoding="utf-8").read()
 			all_in_one.append(file_content)
@@ -184,53 +282,28 @@ class citation_extractor:
 	
 	And finally we classify the test instances
 	>>> result = extractor.extract(instances, postags)
+
+	As deafult, a CRF model is used. However, when initialising the `citation_extractor` you can 
+	pass on to it any scikit classifier, e.g. RandomForest:
+
+	>>> from sklearn.ensemble import RandomForestClassifier
+	>>> extractor = citation_extractor(base_settings,RandomForestClassifier())
+
 	"""
 
-	def __init__(self,options,classifier_type):
+	def __init__(self,options,classifier=None,labelled_feature_sets=None):
 		self.classifier=None
-		logfile = ""
-		if(options.DEBUG):
-			self.init_logger(loglevel=logging.DEBUG, log_file=options.LOG_FILE)
-		else:
-			self.init_logger(loglevel=logging.INFO, log_file=options.LOG_FILE)
 		self.fe = FeatureExtractor()
 		if(options.DATA_FILE != ""):
 			allinone_iob_file = options.DATA_FILE
 		elif(options.DATA_DIRS != ""):
-			chain_IOB_files(options.DATA_DIRS,"%sall_in_one.iob"%options.TEMP_DIR)
+			chain_IOB_files(options.DATA_DIRS,"%sall_in_one.iob"%options.TEMP_DIR,".txt")
 			allinone_iob_file = "%sall_in_one.iob"%options.TEMP_DIR
 		# initialise the classifier
-		if(classifier_type == "crf"):
+		if(classifier is None):
 			self.classifier=CRFPP_Classifier(allinone_iob_file,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE),options.TEMP_DIR)
-		elif(classifier_type == "svm"):
-			self.classifier = SVM_Classifier(allinone_iob_file)
-		elif(classifier_type == "rf"):
-			self.classifier = RandomForest_Classifier(allinone_iob_file)
-		elif(classifier_type == "nb"):
-			self.classifier = NaiveBayes_Classifier(allinone_iob_file)
 		else:
-			pass
-	
-	def init_logger(self,log_file=None, loglevel=logging.DEBUG):
-		"""
-		Initialise the logger
-		"""
-		if(log_file !="" or log_file is not None):
-			logging.basicConfig(
-				filename=log_file
-				,level=loglevel,format='%(asctime)s - %(name)s - [%(levelname)s] %(message)s',filemode='w',datefmt='%a, %d %b %Y %H:%M:%S'
-			)
-			logger = logging.getLogger('CREX')
-			logger.info("Logger initialised")
-		else:
-			logger = logging.getLogger('CREX')
-			logger.setLevel(loglevel)
-			ch = logging.StreamHandler()
-			ch.setLevel(loglevel)
-			formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
-			ch.setFormatter(formatter)
-			logger.addHandler(ch)
-			logger.info("Logger initialised")
+			self.classifier = ScikitClassifierAdapter(classifier,allinone_iob_file,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE),labelled_feature_sets)
 	
 	def output(self,result,outp=None):
 		"""

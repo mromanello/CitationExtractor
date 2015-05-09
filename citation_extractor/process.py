@@ -1,4 +1,58 @@
+# -*- coding: utf-8 -*-
+# author: Matteo Romanello, matteo.romanello@gmail.com
+
 import sys
+import logging
+
+global logger
+logger = logging.getLogger()
+
+def recover_segmentation_errors(text,abbreviation_list,verbose=False):
+	"""
+
+	Pretty straightforward heuristic here:
+	if a line of text contains one token, which matches against a list of abbreviations
+	assume that after this token there shouldn't be a sentence break; the same for
+	the last token of a line consisting of more than one token.
+
+	>> import  codecs
+	>> abbrev_file = "data/abbreviations_all_in_one.txt"
+	>> abbrev = codecs.open(abbrev_file).read().split('\n')
+	>> text_file = 'data/txt/ocr_10.2307_40231021.txt'
+	>> text = codecs.open(text_file,'r','utf-8').read()
+	>> recover_segmentation_errors(text,abbrev,verbose=True)
+	"""
+	def is_abbreviation(token,abbreviations):
+		return token in abbreviations	
+	output = []
+	text_lines = text.split('\n')
+	if(verbose):
+		print >> sys.stderr, "Input text has %i lines"%len(text_lines)
+	for line in text_lines:
+	    tokens=line.split()
+	    if(len(tokens)==1):
+	    	output+=tokens
+	        if(not is_abbreviation(tokens[0],abbreviation_list)):
+	        	output.append('\n')
+	        else:
+	        	if(verbose):
+	        		print >> sys.stderr,"%s is an abbreviation"%tokens[0]
+	    else:
+	    	output+=tokens
+	    	try:
+	    		last_token = tokens[len(tokens)-1]
+	    		if(not is_abbreviation(last_token,abbreviation_list)):
+	    			output.append('\n')
+	    		else:
+	    			if(verbose):
+	    				print >> sys.stderr,"%s is an abbreviation"%last_token
+	    	except Exception, e:
+	    		pass
+	output_text = " ".join(output)
+	if(verbose):
+		print >> sys.stderr, "Output text has %i lines"%len(output_text.split('\n'))
+		print >> sys.stderr, "%i line were breaks recovered"%(len(text_lines)-len(output_text.split('\n')))
+	return output_text
 
 def get_taggers(treetagger_dir = '/Applications/treetagger/cmd/',abbrev_file=None):
 	"""docstring for create_taggers"""
@@ -6,7 +60,7 @@ def get_taggers(treetagger_dir = '/Applications/treetagger/cmd/',abbrev_file=Non
 	import os
 	os.environ["TREETAGGER"]=treetagger_dir
 	lang_codes = {
-		'en':('english','latin-1'),
+		'en':('english','utf8'),
 		'it':('italian','utf8'),
 		'es':('spanish','utf8'),
 		'de':('german','utf8'),
@@ -19,6 +73,27 @@ def get_taggers(treetagger_dir = '/Applications/treetagger/cmd/',abbrev_file=Non
 		except Exception, e:
 			raise e
 	return taggers	
+
+def get_extractor(settings):
+	"""
+	Instantiate, train and return a Citation_Extractor. 
+	"""
+	import sys
+	import citation_extractor as citation_extractor_module
+	from citation_extractor.core import citation_extractor
+	from citation_extractor.eval import IO
+	ce = None
+	try:
+		logger.info("Using CitationExtractor v. %s"%citation_extractor_module.__version__)
+		train_instances = []
+		for directory in settings.DATA_DIRS:
+		    train_instances += IO.read_iob_files(directory,extension=".txt")
+		logger.info("Training data: found %i directories containing %i  sentences and %i tokens"%(len(settings.DATA_DIRS),len(train_instances),IO.count_tokens(train_instances)))
+		ce = citation_extractor(settings)
+	except Exception, e:
+		print e
+	finally:
+		return ce
 
 def detect_language(text):
 	"""
@@ -50,6 +125,36 @@ def create_instance_tokenizer(train_dirs=[("/Users/56k/phd/code/APh/corpus/txt/"
         for dir in train_dirs:
                 train_text += [codecs.open(file,'r','utf-8').read() for file in glob.glob( os.path.join(dir[0], '*%s'%dir[1]))]
         return PunktSentenceTokenizer(sep.join(train_text))
+
+def compact_abbreviations(abbreviation_dir):
+	"""
+	process several files with abbreviations
+	chain them together and write them to a file
+	"""
+	fname = "%s%s"%(abbreviation_dir,"kb_abbrevs.txt")
+	import codecs
+	f = codecs.open(fname,'w','utf-8')
+	abbrvs = get_abbreviations_from_knowledge_base()
+	f.write("\n".join(abbrvs))
+	f.close()
+	abbreviations = []
+	files = [
+		fname
+		,"/Applications/TextPro1.5.2/SentencePro/bin/dict/ita/abbreviations.txt"
+		,"/Applications/TextPro1.5.2/SentencePro/bin/dict/eng/abbreviations.txt"
+		,"/Applications/TextPro1.5.2/SentencePro/bin/dict/ita/no_split_abbreviations.txt"
+		,"/Applications/TextPro1.5.2/SentencePro/bin/dict/eng/no_split_abbreviations.txt"
+	]
+	for fn in files:
+		f = codecs.open(fn,'r','utf-8')
+		print >> sys.stderr, "getting abbreviations from %s"%fn
+		abbreviations = abbreviations + [line for line in f.readlines() if not line.startswith("#") and line !=""]
+	abbreviations = sorted(list(set(abbreviations)))
+	fname = "%s%s"%(abbreviation_dir,"abbreviations_all_in_one.txt")
+	f = codecs.open(fname,'w','utf-8')
+	f.write("".join(abbreviations))
+	f.close()
+	return fname,abbreviations
 
 def split_sentences(filename,outfilename=None):
 	"""	
@@ -392,8 +497,10 @@ def tokenize(sentences,taggers, outfilename=None):
 		tok_lang = lang
 		if(tok_lang in ["en*","en**"]):
 			tok_lang = "en"
-		tmp = [result[:2] for result in taggers[tok_lang].tag(sent)]
-		#print >> sys.stderr,"Tokenized sentence %i / %i"%(n,len(sentences))
+		try:
+			tmp = [result[:2] for result in taggers[tok_lang].tag(sent)]
+		except Exception, e:
+			print >> sys.stderr,e
 		iob.append(tmp)
 	return lang,iob
 
@@ -415,7 +522,7 @@ def preprocess(filename,taggers, outputdir, outfilename=None,split_sentence=Fals
 	if(split_sentence):
 		sentences = split_sentences(filename)
 	else:
-		sentences = [text.replace("\n"," ")]
+		sentences = text.split('\n')
 	print >> sys.stderr, "Text was split into %i sentences"%len(sentences)
 	# tokenize
 	lang, iob = tokenize(sentences,taggers)
@@ -440,7 +547,6 @@ def save_scope_annotations(fileid, ann_dir, annotations):
 	t[1] is the label (it doesn't get written to the file)
 	t[2] is the URN, i.e. the content of the annotation
 	if t[2] is None the annotation is skipped
-
 	"""
 	ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
 	file_content = open(ann_file,'r').read()
@@ -468,60 +574,102 @@ def tostandoff(iobfile,standoffdir,brat_script):
 	except Exception, e:
 		raise e
 
-def disambiguate_relations(citation_matcher, relations,entities,docid):
+def disambiguate_relations(citation_matcher,relations,entities,docid,fuzzy=False,distance_threshold=3,fill_nomatch_with_bogus_urn=False):
 	"""
-
-	TODO
-
 	Returns:
-		 (u'R5', u'[ Verg. ] catal. 47s', u'urn:cts:TODO:47s')
+		 [(u'R5', u'[ Verg. ] catal. 47s', u'urn:cts:TODO:47s')]
 	"""
 	import re
-	print >> sys.stderr, "Disambiguating the %i relation contained in %s..."%(len(relations), docid)
 	result = []
 	for relation in relations:
 	    relation_type = relations[relation][0]
 	    arg1 = relations[relation][1].split(":")[1]
 	    arg2 = relations[relation][2].split(":")[1]
-	    refauwo=entities[arg1][1]
-	    refauwo=re.sub("[\(, \)]","",refauwo) # TODO move this to CitationParser
+	    citation_string=entities[arg1][1]
 	    scope = entities[arg2][1]
-	    scope = re.sub("\.$","",scope)
-	    scope = re.sub("\,$","",scope)
-	    scope = re.sub("[\(, \)]","",scope)
+	    regex_clean_citstring = r'(« )|( »)|\(|\)|\,'
+	    regex_clean_scope = r'(\(|\)| ?\;$|\.$|\,$)'
+	    citation_string_cleaned = re.sub(regex_clean_citstring,"",citation_string)
+	    scope_cleaned = re.sub(regex_clean_scope,"",scope)
+	    print >> sys.stderr, "Citation_string cleaning: from \'%s\' to \'%s\'"%(citation_string,citation_string_cleaned)
+	    print >> sys.stderr, "Scope cleaning: from \'%s\' to \'%s\'"%(scope,scope_cleaned)
+	    citation_string = citation_string_cleaned
+	    scope = scope_cleaned
 	    try:
-	        urn = citation_matcher.disambiguate(refauwo,scope)[0]
-	        result.append((relation,"%s %s"%(refauwo,scope),urn))
+	        urn = citation_matcher.disambiguate(citation_string,scope,fuzzy=fuzzy,distance_threshold=distance_threshold,cleanup=True)[0]
+	        result.append((relation,"%s %s"%(citation_string,scope),urn))
 	    except Exception, e:
 	    	normalized_scope = scope
 	    	try:
 	    		normalized_scope = citation_matcher._citation_parser.parse(scope)
 	    		normalized_scope = citation_matcher._format_scope(normalized_scope[0]['scp'])
 	    	except Exception, e:
-	    		print >> sys.stderr, e
-	        result.append((relation,"%s %s"%(refauwo,scope),None))
+	    		print e
+	    	if(fill_nomatch_with_bogus_urn):
+	        	result.append((relation,"%s %s"%(citation_string,scope),"urn:cts:TODO:%s"%normalized_scope))
 	return result
-
 def disambiguate_entities(citation_matcher,entities,docid,min_distance_threshold,max_distance_threshold):
+	"""
+
+	When no match is found it's better not to fill with a bogus URN. The
+	reason is that in some cases it's perfectly ok that no match is found. An entity
+	can be valid entity also without having disambiguation information in the groundtruth.
+
+	"""
+	def longestSubstringFinder(string1, string2):
+		"""
+		solution taken from http://stackoverflow.com/questions/18715688/find-common-substring-between-two-strings
+		"""
+		answer = ""
+		len1, len2 = len(string1), len(string2)
+		for i in range(len1):
+			match = ""
+			for j in range(len2):
+				if (i + j < len1 and string1[i + j] == string2[j]):
+					match += string2[j]
+				else:
+					if (len(match) > len(answer)): answer = match
+					match = ""
+		return answer
+	import re
+	from operator import itemgetter
 	print >> sys.stderr, "Disambiguating the %i entities contained in %s..."%(len(entities), docid)
 	result = []
+	matches = []
 	distance_threshold = min_distance_threshold
+	regex_clean_string = r'(« )|( »)|\(|\)|\,'
 	for entity in entities:
 		entity_type = entities[entity][0]
+		string = entities[entity][1].encode("utf-8")
+		cleaned_string = re.sub(regex_clean_string,"",string)
+		print >> sys.stderr, "String cleaning: from \'%s\' to \'%s\'"%(string,cleaned_string)
+		string = cleaned_string
 		if entity_type == "AAUTHOR":
-			string = entities[entity][1]
 			matches = citation_matcher.matches_author(string,True,distance_threshold)
 			while(matches is None and distance_threshold <= max_distance_threshold):
 				distance_threshold+=1
 				matches = citation_matcher.matches_author(string,True,distance_threshold)
-			if(matches is not None):
-				result.append((entity, string ,matches[0][0]))
 		elif(entity_type == "AWORK"):
-			string = entities[entity][1]
 			matches = citation_matcher.matches_work(string,True,distance_threshold)
 			while(matches is None and distance_threshold <= max_distance_threshold):
 				distance_threshold+=1
 				matches = citation_matcher.matches_work(string,True,distance_threshold)
-			if(matches is not None):
-				result.append((entity, string ,matches[0][0]))
+		if(matches is not None and (entity_type == "AAUTHOR" or entity_type == "AWORK")):
+			lowest_score = 1000
+			for match in matches:
+			    score = match[2]
+			    if(score < lowest_score):
+			        lowest_score = score
+			filtered_matches = [match for match in matches if match[2]==lowest_score]
+			filtered_matches = sorted(filtered_matches, key =itemgetter(2))
+			best_match = ("",None)
+			if(lowest_score > 0):
+				for match in filtered_matches:
+				    lcs = longestSubstringFinder(match[1],string)
+				    if(len(lcs)>len(best_match[0])):
+				        best_match = (lcs,match)
+				if(best_match[1] is not None):
+					result.append((entity,string,best_match[1][0]))
+			else:
+				result.append((entity, string ,filtered_matches[0][0]))
 	return result
