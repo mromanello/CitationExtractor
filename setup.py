@@ -7,10 +7,10 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 
-setup(name='crex',
+setup(name='citation_extractor',
 	author='Matteo Romanello',
 	author_email='matteo.romanello@gmail.com',
-	url='http://github.com/mromanello/CRefEx/',
+	url='http://github.com/mromanello/CitationExtractor/',
     version=VERSION,
     packages=find_packages(),
     include_package_data=True,
