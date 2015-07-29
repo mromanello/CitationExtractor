@@ -65,6 +65,9 @@ def get_taggers(treetagger_dir = '/Applications/treetagger/cmd/',abbrev_file=Non
 		'es':('spanish','utf-8'),
 		'de':('german','utf-8'),
 		'fr':('french','utf-8'),
+		'la':{'latin','latin-1'},
+		'nl':{'dutch','utf-8'},
+		'pt':{'portugues','utf-8'}
 	}
 	taggers = {}
 	for lang in lang_codes.keys():
