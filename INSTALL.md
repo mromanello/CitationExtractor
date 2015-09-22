@@ -2,6 +2,12 @@
 
 (This document assumes as working directory the root of the git repository)
 
+The module `citation_extractor` can be installed by running:
+
+    pip install https://github.com/mromanello/CitationExtractor/archive/master.zip
+
+However, before doing so, a few depencies need to be manually installed.
+
 ## Local Dependencies
 
 The following command installs a few dependencies that need to be installed from local files (these files are shipped together as part of the `citation_extractor`):
@@ -26,14 +32,12 @@ Uncompress, compile and install:
     make
     make install
 
-### Install the CRF++ python bundle
+### Install the CRF++ python bindings
 
 From within the `CRF++-0.58` directory:
 
     pip install -e python/
 
-## Download the training/evaluation data
-
-TODO
+(note: it's important **not to delete** the directory form which CRF was installed and the python bindings were installed)
 
 
