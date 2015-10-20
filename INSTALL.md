@@ -31,6 +31,8 @@ Uncompress, compile and install:
     ./configure
     make
     make install
+    
+**Note**: you may need to add `/usr/local/lib` to your `LD_LIBRARY_PATH` env variable.
 
 ### Install the CRF++ python bindings
 
