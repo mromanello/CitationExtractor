@@ -2,17 +2,9 @@
 
 (This document assumes as working directory the root of the git repository)
 
-The module `citation_extractor` can be installed by running:
+## TreeTagger
 
-    pip install https://github.com/mromanello/CitationExtractor/archive/master.zip
-
-However, before doing so, a few depencies need to be manually installed.
-
-## Local Dependencies
-
-The following command installs a few dependencies that need to be installed from local files (these files are shipped together as part of the `citation_extractor`):
-
-    pip install -e lib/
+    pip install https://github.com/miotto/treetagger-python/archive/master.zip
 
 ## CRF++
 
@@ -31,6 +23,9 @@ Uncompress, compile and install:
     ./configure
     make
     make install
+    make clean
+    
+**Note**: you may need to add `/usr/local/lib` to your `LD_LIBRARY_PATH` env variable.
 
 ### Install the CRF++ python bindings
 
@@ -39,5 +34,19 @@ From within the `CRF++-0.58` directory:
     pip install -e python/
 
 (note: it's important **not to delete** the directory form which CRF was installed and the python bindings were installed)
+
+## CitationExtractor
+
+The module `citation_extractor` can be installed by running:
+
+    pip install https://github.com/mromanello/CitationExtractor/archive/master.zip
+
+However, before doing so, a few depencies need to be manually installed.
+
+## Local Dependencies
+
+The following command installs a few dependencies that need to be installed from local files (these files are shipped together as part of the `citation_extractor`):
+
+    pip install -e lib/
 
 
