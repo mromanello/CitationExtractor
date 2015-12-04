@@ -3,6 +3,8 @@
 
 import sys
 import logging
+import codecs
+from citation_extractor.Utils import IO
 
 global logger
 logger = logging.getLogger()
@@ -53,7 +55,6 @@ def recover_segmentation_errors(text,abbreviation_list,verbose=False):
 		print >> sys.stderr, "Output text has %i lines"%len(output_text.split('\n'))
 		print >> sys.stderr, "%i line were breaks recovered"%(len(text_lines)-len(output_text.split('\n')))
 	return output_text
-
 def get_taggers(treetagger_dir = '/Applications/treetagger/cmd/',abbrev_file=None):
 	"""docstring for create_taggers"""
 	from treetagger import TreeTagger
@@ -78,7 +79,6 @@ def get_taggers(treetagger_dir = '/Applications/treetagger/cmd/',abbrev_file=Non
 			logger.error("initialising Treetagger for language %s raised error: \"%s\""%(lang_codes[lang][0],e))
 			raise e
 	return taggers	
-
 def get_extractor(settings):
 	"""
 	Instantiate, train and return a Citation_Extractor. 
@@ -99,7 +99,6 @@ def get_extractor(settings):
 		print e
 	finally:
 		return ce
-
 def detect_language(text):
 	"""
 	Detect language of a notice by using the module guess_language.
@@ -118,7 +117,6 @@ def detect_language(text):
 		return lang
 	except Exception,e:
 		print "lang detection raised error \"%s\""%str(e)
-
 def create_instance_tokenizer(train_dirs=[("/Users/56k/phd/code/APh/corpus/txt/",'.txt'),]):
         from nltk.tokenize.punkt import PunktSentenceTokenizer
         import glob
@@ -130,7 +128,6 @@ def create_instance_tokenizer(train_dirs=[("/Users/56k/phd/code/APh/corpus/txt/"
         for dir in train_dirs:
                 train_text += [codecs.open(file,'r','utf-8').read() for file in glob.glob( os.path.join(dir[0], '*%s'%dir[1]))]
         return PunktSentenceTokenizer(sep.join(train_text))
-
 def compact_abbreviations(abbreviation_dir):
 	"""
 	process several files with abbreviations
@@ -160,7 +157,6 @@ def compact_abbreviations(abbreviation_dir):
 	f.write("".join(abbreviations))
 	f.close()
 	return fname,abbreviations
-
 def split_sentences(filename,outfilename=None):
 	"""	
     sentence tokenization
@@ -190,7 +186,6 @@ def split_sentences(filename,outfilename=None):
 	except Exception, e:
 		raise e
 	return new_sentences
-
 def output_to_json(fileid, dir, metadata):
 	"""
 	TODO
@@ -201,7 +196,6 @@ def output_to_json(fileid, dir, metadata):
 	json.dump([metadata],f)
 	f.close()
 	return
-
 def output_to_oac(fileid, dir, metadata, annotations):
 	"""
 	TODO
@@ -233,7 +227,6 @@ def output_to_oac(fileid, dir, metadata, annotations):
 	f.write(g.serialize(format="turtle"))
 	f.close()
 	return
-
 def annotations_to_ctsurns(doc_metadata, annotations):
 	"""
 	TODO
@@ -253,7 +246,6 @@ def annotations_to_ctsurns(doc_metadata, annotations):
 	    temp["ctsurn"]=str(cts_urn)
 	    doc_metadata["citations"].append(temp)
 	return doc_metadata
-
 def read_ann_file(fileid,ann_dir):
 	"""
 	TODO
@@ -296,7 +288,6 @@ def read_ann_file(fileid,ann_dir):
 			entity = entities[rel_id[0]]
 			res_annotations.append([rel_id[0],entity[1],urn])
 	return entities, relations, res_annotations
-
 def extract_citations(extractor,outputdir,filename,iob_sentences,outfilename=None):
 	"""docstring for extract_citations"""
 	# this is the important bit which performs the citation extraction
@@ -328,7 +319,6 @@ def extract_citations(extractor,outputdir,filename,iob_sentences,outfilename=Non
 		    raise e
 	except Exception, e:
 		raise e
-
 def extract_relationships(entities):
 	"""
 	TODO: implement properly the pseudocode!
@@ -352,7 +342,6 @@ def extract_relationships(entities):
 				print "Detected relation %s"%str(relations[rel_id])
 
 	return relations
-
 def extract_relationships_old(doc_tree):
 	"""
 	TODO
@@ -403,7 +392,6 @@ def extract_relationships_old(doc_tree):
 		token_count=0
 		traverse(sentence,n_sentence)
 	return entities,relations
-
 def save_scope_relationships(fileid, ann_dir, relations, entities):
 	"""
 	appends relationships (type=scope) to an .ann file. 
@@ -426,7 +414,6 @@ def save_scope_relationships(fileid, ann_dir, relations, entities):
 	except Exception, e:
 		raise e
 	return result
-
 def clean_relations_annotation(fileid, ann_dir, entities):
 	"""
 	overwrites relationships (type=scope) to an .ann file. 
@@ -446,7 +433,6 @@ def clean_relations_annotation(fileid, ann_dir, entities):
 	except Exception, e:
 		raise e
 	return result
-
 def remove_all_annotations(fileid, ann_dir):
 	import codecs
 	ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
@@ -470,7 +456,6 @@ def remove_all_annotations(fileid, ann_dir):
 	except Exception, e:
 		raise e
 	return
-
 def tokenize(sentences,taggers, outfilename=None):
 	"""
 	Detect language of a notice by using the module guess_language.
@@ -508,7 +493,6 @@ def tokenize(sentences,taggers, outfilename=None):
 			print >> sys.stderr,e
 		iob.append(tmp)
 	return lang,iob
-
 def preprocess(filename,taggers, outputdir, outfilename=None,split_sentence=False):
 	"""	
     sentence tokenization
@@ -544,7 +528,6 @@ def preprocess(filename,taggers, outputdir, outfilename=None,split_sentence=Fals
 	except Exception, e:
 	    print "Failed while writing IOB output to file \"%s\", %s"%(out_fname,e)
 	return lang, iob, out_fname
-
 def save_scope_annotations(fileid, ann_dir, annotations):
 	"""
 	this method expects a tuple `t` where
@@ -565,7 +548,6 @@ def save_scope_annotations(fileid, ann_dir, annotations):
 			print >> sys.stderr, "The annotation \"%s\" in %s is None, therefore was not written to file"%(annot[1],fileid)
 	file.close()
 	return
-
 def tostandoff(iobfile,standoffdir,brat_script):
 	"""
 	Converts the .iob file with NE annotation into standoff markup.
@@ -578,7 +560,6 @@ def tostandoff(iobfile,standoffdir,brat_script):
 		print >> sys.stderr,".ann output written successfully."
 	except Exception, e:
 		raise e
-
 def disambiguate_relations(citation_matcher,relations,entities,docid,fuzzy=False,distance_threshold=3,fill_nomatch_with_bogus_urn=False):
 	"""
 	Returns:
@@ -678,3 +659,77 @@ def disambiguate_entities(citation_matcher,entities,docid,min_distance_threshold
 			else:
 				result.append((entity, string ,filtered_matches[0][0]))
 	return result
+def preproc_document(doc_id,inp_dir,interm_dir,out_dir,abbreviations,taggers):
+	"""
+	Returns:
+
+	language, number of sentences, number of tokens
+
+	"""
+	lang, no_sentences, no_tokens = np.nan,np.nan,np.nan
+	try:
+		intermediate_out_file = "%s%s"%(textdir,doc_id)
+		iob_out_file = "%s%s"%(iobdir,doc_id)
+		text = codecs.open("%s%s"%(inp_dir,doc_id),'r','utf-8').read()
+		intermediate_text = sentencebreaks_to_newlines(text)
+		recovered_text= recover_segmentation_errors(intermediate_text,abbreviations,verbose=False)
+		codecs.open(intermediate_out_file,'w','utf-8').write(recovered_text)
+		logger.debug("Written intermediate output to %s"%intermediate_out_file)
+		lang = detect_language(text)
+		logger.debug("Language detected=\"%s\""%lang)
+		sentences = recovered_text.split('\n')
+		logger.debug("Document \"%s\" has %i sentences"%(doc_id,len(sentences)))
+		tagged_sentences = taggers[lang].tag_sents(sentences)
+		tokenised_text = [[token[:2] for token in line] for line in tagged_sentences]
+		IO.write_iob_file(tokenised_text,iob_out_file)
+		logger.debug("Written IOB output to %s"%iob_out_file)
+		no_sentences = len(recovered_text.split('\n'))
+		no_tokens = IO.count_tokens(tokenised_text)
+	except Exception, e:
+		logger.error("The pre-processing of document %s (lang=\'%s\') failed with error \"%s\""%(doc_id,lang,e)) 
+	finally:
+		return lang, no_sentences, no_tokens
+def do_ner(doc_id,inp_dir,interm_dir,out_dir,extractor,so2iob_script):
+	from citation_extractor.Utils import IO
+	data = IO.file_to_instances("%s%s"%(inp_dir,doc_id))
+	postags = [[("z_POS",token[1]) for token in instance] for instance in data if len(instance)>0]
+	instances = [[token[0] for token in instance] for instance in data if len(instance)>0]
+	result = extractor.extract(instances,postags)
+	output = [[(res[n]["token"].decode('utf-8'), postags[i][n][1], res[n]["label"]) for n,d_res in enumerate(res)] for i,res in enumerate(result)]
+	out_fname = "%s%s"%(interm_dir,doc_id)
+	IO.write_iob_file(output,out_fname)
+	logger.info("Output successfully written to file \"%s\""%out_fname)
+	tostandoff(out_fname,out_dir,so2iob_script)
+	return
+def do_ned(doc_id,inp_dir,citation_matcher,clean_annotations=False,relation_matching_distance_threshold=3,relation_matching_approx=True,entity_matching_distance_minthreshold=1,entity_matching_distance_maxthreshold=4):
+	if(clean_annotations):
+		remove_all_annotations(doc_id,inp_dir)
+	entities, relations, disambiguations = read_ann_file(doc_id,inp_dir)
+	annotations = []
+	# match relations
+	if relations > 0:
+		if(relation_matching_approx):
+			logger.debug("Fuzzy matching of relations: threshold = %i"%relation_matching_distance_threshold)
+			annotations += disambiguate_relations(citation_matcher,relations,entities,doc_id,fuzzy=True,distance_threshold=relation_matching_distance_threshold,fill_nomatch_with_bogus_urn=False,)
+		else:
+			logger.debug("Exact matching of relations")
+			annotations += disambiguate_relations(citation_matcher,relations,entities,doc_id,fill_nomatch_with_bogus_urn=False)
+	else:
+		logger.info("No relations found.")
+    # match entities
+	logger.debug("Fuzzy matching of entities: threshold > %i, < %i"%(entity_matching_distance_minthreshold,entity_matching_distance_maxthreshold))
+	annotations += disambiguate_entities(citation_matcher,entities,doc_id,min_distance_threshold=entity_matching_distance_minthreshold,max_distance_threshold=entity_matching_distance_maxthreshold)
+	logger.debug(annotations)
+	save_scope_annotations(doc_id,inp_dir,annotations)
+	return annotations
+def do_relex(doc_id,inp_dir,clean_relations=False):
+	entities, relations, disambiguations = read_ann_file(doc_id,inp_dir)
+	logger.info("%s: %i entities; %i relations; %i disambiguations"%(doc_id,len(entities),len(relations),len(disambiguations)))
+	if(clean_relations):
+		clean_relations_annotation(doc_id,inp_dir,entities)
+	relations = extract_relationships(entities)
+	for r in relations:
+	    logger.debug("%s %s -> %s"%(r,entities[relations[r][0]][1],entities[relations[r][1]][1]))
+	if(len(relations)>0):
+		save_scope_relationships(doc_id,inp_dir,relations,entities)
+	return entities,relations

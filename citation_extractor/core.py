@@ -263,7 +263,6 @@ def chain_IOB_files(directories,output_fname,extension=".iob"):
 	except Exception, e:
 		raise e
 
-
 class citation_extractor:
 	"""
 	A Canonical Citation Extractor.

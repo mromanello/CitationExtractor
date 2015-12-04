@@ -62,7 +62,6 @@ def get_jstor_info(doc_id=None,reqs = ["wordcounts","references","keyterms"],use
 			res[r] = get_jstor(r,doc_id,username,password)
 	return res
 
-	
 def get_jstor(request,doc_id=None,username=_default_username_,password=_default_password_):
 	base_url = "dfr.jstor.org/resource/"
 	result = None
