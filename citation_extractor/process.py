@@ -6,6 +6,7 @@ import logging
 import codecs
 from citation_extractor.Utils import IO
 import numpy as np
+from sentencesplit import sentencebreaks_to_newlines # contained in brat tools
 
 global logger
 logger = logging.getLogger()
