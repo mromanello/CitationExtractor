@@ -586,7 +586,7 @@ def preproc_document(doc_id,inp_dir,interm_dir,out_dir,abbreviations,taggers):
 	"""
 	lang, no_sentences, no_tokens = np.nan,np.nan,np.nan
 	try:
-		intermediate_out_file = "%s%s"%(textdir,doc_id)
+		intermediate_out_file = "%s%s"%(interm_dir,doc_id)
 		iob_out_file = "%s%s"%(iobdir,doc_id)
 		text = codecs.open("%s%s"%(inp_dir,doc_id),'r','utf-8').read()
 		intermediate_text = sentencebreaks_to_newlines(text)
