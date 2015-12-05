@@ -11,11 +11,31 @@ from miguno.crossvalidationdataconstructor import *
 from random import *
 import xml.dom.minidom as mdom
 
+def init_logger(log_file=None, loglevel=logging.DEBUG):
+	"""
+	Initialise the logger
+	"""
+	if(log_file !="" or log_file is not None):
+		logging.basicConfig(
+			filename=log_file
+			,level=loglevel,format='%(asctime)s - %(name)s - [%(levelname)s] %(message)s',filemode='w',datefmt='%a, %d %b %Y %H:%M:%S'
+		)
+		logger = logging.getLogger(__name__)
+		logger.info("Logger initialised")
+	else:
+		logger = logging.getLogger(__name__)
+		logger.setLevel(loglevel)
+		ch = logging.StreamHandler()
+		ch.setLevel(loglevel)
+		formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+		ch.setFormatter(formatter)
+		logger.addHandler(ch)
+		logger.info("Logger initialised")
+	return logger
 def count_tokens(instances):
 	"""
 	"""
 	return sum([1 for instance in instances for token in instance])
-
 def write_iob_file(instances,dest_file):
 	to_write = "\n\n".join(["\n".join(["\t".join(token) for token in instance]) for instance in instances])
 	try:
@@ -26,7 +46,6 @@ def write_iob_file(instances,dest_file):
 		return True
 	except Exception, e:
 		raise e
-
 def file_to_instances(inp_file):
 	"""
 	Reads a IOB file a converts it into a list of instances.
@@ -49,7 +68,6 @@ def file_to_instances(inp_file):
 		if(inst and len(inst)>1):
 			out.append(inst)
 	return out
-
 def read_instances(inp_text):
 	out=[]
 	comment=re.compile(r'#.*?')
@@ -61,7 +79,6 @@ def read_instances(inp_text):
 		if(inst):
 			out.append(inst)
 	return out
-
 def out_html(out):
 	"""docstring for out_xml"""
 	import libxml2,libxslt
@@ -74,7 +91,6 @@ def out_html(out):
 	doc = libxml2.parseDoc(out.encode("utf-8"))
 	result = style.applyStylesheet(doc, None)
 	return style.saveResultToString(result)
-
 def verbose_to_XML(instances):
 	"""docstring for verbose_to_XML"""
 	out = mdom.Document()
@@ -116,7 +132,6 @@ def verbose_to_XML(instances):
 		root.appendChild(ins)
 	out.appendChild(root)
 	return out.toprettyxml(encoding="UTF-8")
-
 def read_IOB_file(file):
 	# instances is a list of lists
 	instances=[]
@@ -133,23 +148,19 @@ def read_IOB_file(file):
 		if(instance):
 			instances.append(instance)
 	return instances
-
 def token_to_string(tok_dict):
 	tmp = []
 	for k in sorted(tok_dict.keys()):
 		tmp.append(tok_dict[k])
 	return tmp
-
 def instance_to_string(inst):
 	out = []
 	for fs in inst:
 		tmp = token_to_string(fs)
 		out.append("\t".join(tmp))
 	return out
-
 def instance_to_IOB(instance):
 	pass
-
 def instance_contains_label(instance,labels=["O"]):
 	"""
 	TODO: 
@@ -160,7 +171,6 @@ def instance_contains_label(instance,labels=["O"]):
 		return False
 	else:
 		return True
-
 def token_tostring(token):
 	string=""
 	for count,t in enumerate(token):
@@ -169,7 +179,6 @@ def token_tostring(token):
 			else:
 				string+="%s"%t
 	return string
-
 def filter_IOB(instances,tag_name):
 	"""docstring for filter_IOB"""
 	out=[]
@@ -198,7 +207,6 @@ def filter_IOB(instances,tag_name):
 	for r in out:
 		res.append(' '.join(r))	
 	return res
-
 def instance_tostring(instance):
 	string=""
 	for count,t in enumerate(instance):
@@ -207,7 +215,6 @@ def instance_tostring(instance):
 			else:
 				string+="%s"%t[0]
 	return string
-
 def result_to_string(result):
 	"""
 	Tranform the result to a string.
@@ -218,7 +225,6 @@ def result_to_string(result):
 		if(i<len(result)-1):
 			out+=" "
 	return out
-
 def eval_results_to_HTML(results,labels=[]):
 	"""
 	Tranform the result to a string.
@@ -245,7 +251,6 @@ def eval_results_to_HTML(results,labels=[]):
 		out+="</div>"
 	out+="</body></html>"
 	return out
-
 def results_to_HTML(results,labels=[]):
 	"""
 	Tranform the result to a string.
@@ -257,7 +262,6 @@ def results_to_HTML(results,labels=[]):
 	out+="</div></body>"
 	#out+="</html>"
 	return out
-
 def parse_jstordfr_XML(inp):
 	"""
 	Describe what the function does.
@@ -272,7 +276,6 @@ def parse_jstordfr_XML(inp):
 		#	res1=cdata_exp.match(item)
 		#	out.append(res1.groups()[0])
 	return out
-
 def parse_dfr_keyword_xml(inp):
 	"""docstring for fname"""
 	out=[]
@@ -281,7 +284,6 @@ def parse_dfr_keyword_xml(inp):
 		res2=xml_exp.findall(inp)
 		out = res2
 	return out
-
 def parse_dfr_wordcount_xml(inp):
 	"""docstring for fname"""
 	out=[]
@@ -290,13 +292,11 @@ def parse_dfr_wordcount_xml(inp):
 		res2=xml_exp.findall(inp)
 		out = res2
 	return out
-
 def parse_one_p_line(inp):
 	"""
 	Describe what the function does.
 	"""
 	return [line for line in inp.split("\n")]
-
 def tag_IOB_file(train_file_name,to_tag_file_name):
 	"""
 	Takes as input a IOB file and tags it according to a given CRF model
@@ -317,7 +317,6 @@ def tag_IOB_file(train_file_name,to_tag_file_name):
 		print "%s"%out
 	logger.info('Tagged %i instances'%len(instances))
 	return
-
 def prepare_for_tagging(file_name,inp="jstor/xml"):
 	"""
 	"""
@@ -339,7 +338,6 @@ def prepare_for_tagging(file_name,inp="jstor/xml"):
 			out+="%s\tO\n"%t
 		out+="\n"
 	return out
-
 def read_jstor_data(dir):	
 	"""
 	Returns a list of strings being the absolute paths to XML files in the dataset
@@ -354,7 +352,6 @@ def read_jstor_data(dir):
 			xml_files += ["%s%s/%s"%(dir,x,y) for y in os.listdir("%s%s/"%(dir,x)) if y.endswith('.xml')]
 			next  += read_jstor_data("%s%s/"%(dir,x))
 	return xml_files + next	
-
 def read_iob_files(inp_dir,extension=".iob"):
 	import glob
 	import os
@@ -365,7 +362,6 @@ def read_iob_files(inp_dir,extension=".iob"):
 		instances +=temp
 		logger.debug("read %i instances from file %s"%(len(temp),infile))
 	return instances
-
 def scan_iob_files(inp_dir):
 	import glob
 	import os
@@ -378,7 +374,6 @@ def scan_iob_files(inp_dir):
 		aph_number = re.match(exp,fname).groups()[0]
 		result[fname] = aph_number
 	return result
-
 def main():
 	insts = read_IOB_file(sys.argv[1])
 	tag_name = 'CRF'
