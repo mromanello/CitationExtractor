@@ -5,6 +5,7 @@ import sys
 import logging
 import codecs
 from citation_extractor.Utils import IO
+import numpy as np
 
 global logger
 logger = logging.getLogger()
@@ -117,17 +118,6 @@ def detect_language(text):
 		return lang
 	except Exception,e:
 		print "lang detection raised error \"%s\""%str(e)
-def create_instance_tokenizer(train_dirs=[("/Users/56k/phd/code/APh/corpus/txt/",'.txt'),]):
-        from nltk.tokenize.punkt import PunktSentenceTokenizer
-        import glob
-        import os
-        import re
-        import codecs
-        sep = "\n"
-        train_text = []
-        for dir in train_dirs:
-                train_text += [codecs.open(file,'r','utf-8').read() for file in glob.glob( os.path.join(dir[0], '*%s'%dir[1]))]
-        return PunktSentenceTokenizer(sep.join(train_text))
 def compact_abbreviations(abbreviation_dir):
 	"""
 	process several files with abbreviations
@@ -456,78 +446,6 @@ def remove_all_annotations(fileid, ann_dir):
 	except Exception, e:
 		raise e
 	return
-def tokenize(sentences,taggers, outfilename=None):
-	"""
-	Detect language of a notice by using the module guess_language.
-	The IANA label is returned.
-	
-	Args:
-		text:
-			the text whose language is to be detected
-	Returns:
-		lang:
-			the language detected
-	"""
-	import codecs
-	from citation_extractor.Utils import IO
-	import os.path
-	import sys
-	
-	text = "\n".join(sentences)
-	# determine the language
-	lang = detect_language(text)
-	if(lang=="la"):
-		lang = "en**"
-	# split into sentences, tokenize and POS-tag
-	if(lang=="UNKNOWN"):
-		lang = "en*"
-	print >> sys.stderr,"Language detected is %s"%lang
-	iob = []
-	for n,sent in enumerate(sentences):
-		tok_lang = lang
-		if(tok_lang in ["en*","en**"]):
-			tok_lang = "en"
-		try:
-			tmp = [result[:2] for result in taggers[tok_lang].tag(sent)]
-		except Exception, e:
-			print >> sys.stderr,e
-		iob.append(tmp)
-	return lang,iob
-def preprocess(filename,taggers, outputdir, outfilename=None,split_sentence=False):
-	"""	
-    sentence tokenization
-    text tokenization
-    POS-tagging
-	"""
-	import codecs
-	from citation_extractor.Utils import IO
-	import os.path
-	import sys
-	
-	file = codecs.open(filename,'r','UTF-8')
-	text = file.read()
-	file.close()
-	# split into sentences
-	if(split_sentence):
-		sentences = split_sentences(filename)
-	else:
-		sentences = text.split('\n')
-	print >> sys.stderr, "Text was split into %i sentences"%len(sentences)
-	# tokenize
-	lang, iob = tokenize(sentences,taggers)
-	print >> sys.stderr, "%i sentences were tokenized into %i tokens"%(len(sentences),IO.count_tokens(iob))
-	# save the intermediate output
-	if(outfilename is None):
-		path,name = os.path.split(filename)
-		out_fname = '%siob/%s'%(outputdir,name)
-	else:
-		out_fname = outfilename
-	try:
-	    IO.write_iob_file(iob,out_fname)
-	    print >> sys.stderr,"IOB output successfully written to file \"%s\""%out_fname
-	except Exception, e:
-	    print "Failed while writing IOB output to file \"%s\", %s"%(out_fname,e)
-	return lang, iob, out_fname
 def save_scope_annotations(fileid, ann_dir, annotations):
 	"""
 	this method expects a tuple `t` where
@@ -688,7 +606,7 @@ def preproc_document(doc_id,inp_dir,interm_dir,out_dir,abbreviations,taggers):
 	except Exception, e:
 		logger.error("The pre-processing of document %s (lang=\'%s\') failed with error \"%s\""%(doc_id,lang,e)) 
 	finally:
-		return lang, no_sentences, no_tokens
+		return doc_id,lang, no_sentences, no_tokens
 def do_ner(doc_id,inp_dir,interm_dir,out_dir,extractor,so2iob_script):
 	from citation_extractor.Utils import IO
 	data = IO.file_to_instances("%s%s"%(inp_dir,doc_id))

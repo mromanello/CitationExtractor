@@ -4,6 +4,7 @@
 ## Code Refactoring
 
 * remove obsolete bits from module `process`
+* move active learning classes to a separate module
 
 ## Testing
 
