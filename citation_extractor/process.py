@@ -626,7 +626,7 @@ def do_ner(doc_id,inp_dir,interm_dir,out_dir,extractor,so2iob_script):
 		return (doc_id,True)
 	except Exception, e:
 		logger.error("The NER of document %sfailed with error \"%s\""%(doc_id,e))
-		return (doc_id,True)
+		return (doc_id,False)
 	finally:
 		logger.info("Finished processing document \"%s\""%doc_id)
 	return
