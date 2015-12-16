@@ -383,7 +383,5 @@ def main():
 	for i in res:
 		print i
 		print re.sub(r'[^\w]','',i)
-
-		
 if __name__ == "__main__":
     main()

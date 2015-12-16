@@ -609,16 +609,24 @@ def preproc_document(doc_id,inp_dir,interm_dir,out_dir,abbreviations,taggers):
 	finally:
 		return doc_id,lang, no_sentences, no_tokens
 def do_ner(doc_id,inp_dir,interm_dir,out_dir,extractor,so2iob_script):
+	# TODO:
+	# wrap with a try/except/finally
+	# return doc_id and a boolean
 	from citation_extractor.Utils import IO
-	data = IO.file_to_instances("%s%s"%(inp_dir,doc_id))
-	postags = [[("z_POS",token[1]) for token in instance] for instance in data if len(instance)>0]
-	instances = [[token[0] for token in instance] for instance in data if len(instance)>0]
-	result = extractor.extract(instances,postags)
-	output = [[(res[n]["token"].decode('utf-8'), postags[i][n][1], res[n]["label"]) for n,d_res in enumerate(res)] for i,res in enumerate(result)]
-	out_fname = "%s%s"%(interm_dir,doc_id)
-	IO.write_iob_file(output,out_fname)
-	logger.info("Output successfully written to file \"%s\""%out_fname)
-	tostandoff(out_fname,out_dir,so2iob_script)
+	try:
+		data = IO.file_to_instances("%s%s"%(inp_dir,doc_id))
+		postags = [[("z_POS",token[1]) for token in instance] for instance in data if len(instance)>0]
+		instances = [[token[0] for token in instance] for instance in data if len(instance)>0]
+		result = extractor.extract(instances,postags)
+		output = [[(res[n]["token"].decode('utf-8'), postags[i][n][1], res[n]["label"]) for n,d_res in enumerate(res)] for i,res in enumerate(result)]
+		out_fname = "%s%s"%(interm_dir,doc_id)
+		IO.write_iob_file(output,out_fname)
+		logger.info("Output successfully written to file \"%s\""%out_fname)
+		tostandoff(out_fname,out_dir,so2iob_script)
+	except Exception, e:
+		logger.error("The NER of document %sfailed with error \"%s\""%(doc_id,e))
+	finally:
+		logger.info("Finished processing document \"%s\""%doc_id)
 	return
 def do_ned(doc_id,inp_dir,citation_matcher,clean_annotations=False,relation_matching_distance_threshold=3,relation_matching_approx=True,entity_matching_distance_minthreshold=1,entity_matching_distance_maxthreshold=4):
 	if(clean_annotations):
