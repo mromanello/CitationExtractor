@@ -476,7 +476,7 @@ def tostandoff(iobfile,standoffdir,brat_script):
 	try:
 		cmd = "python %s -o %s %s"%(brat_script,standoffdir,iobfile)
 		os.popen(cmd).readlines()
-		logger.info(sys.stderr,"Document %s: .ann output written successfully."%iobfile)
+		logger.info("Document %s: .ann output written successfully."%iobfile)
 	except Exception, e:
 		raise e
 def disambiguate_relations(citation_matcher,relations,entities,docid,fuzzy=False,distance_threshold=3,fill_nomatch_with_bogus_urn=False):
