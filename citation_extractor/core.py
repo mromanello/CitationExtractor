@@ -210,9 +210,7 @@ class ScikitClassifierAdapter:
 		return result
 	def apply_feature_template(self,feature_sets,out_label=False):
 		"""
-		
 		TODO: apply each of the compiled templates
-
 		"""
 		def get_value(feature_sets,token_n,feature_n):
 			if(token_n < 0):

@@ -23,8 +23,7 @@ class CRF_classifier:
 			self.tagger = CRFPP.Tagger("-m %s -v %i -n%i"%(model_file,verb_level,best_out_n))
 			self.logger.info("CRFPP Tagger initialized with command %s"%("-m %s -v %i -n%i"%(self.m,self.v,self.bn)))
 		except RuntimeError, e:
-			print "RuntimeError: ", e,
-	
+			print "RuntimeError: ", e,	
 	def classify(self,l_tokens):
 		"""
 		Classify a lost of tokens.
