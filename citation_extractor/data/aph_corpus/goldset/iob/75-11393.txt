@@ -1,0 +1,17 @@
+Una	DET:indef	O
+comune	ADJ	O
+esegesi	NOM	O
+dei	PRE:det	O
+due	ADJ	O
+frammenti	NOM	O
+permette	VER:pres	O
+di	PRE	O
+tracciare	VER:infi	O
+un	DET:indef	O
+quadro	NOM	O
+di	PRE	O
+insieme	ADV	O
+della	PRE:det	O
+storia	NOM	O
+di	PRE	O
+Mileto	NOM	O

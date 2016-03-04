@@ -1,0 +1,21 @@
+T1	REFAUWORK 30 35	Lucr.
+T2	REFSCOPE 36 44	1, 62-79
+T3	REFSCOPE 47 56	3, 14-21,
+T4	REFAUWORK 60 76	[ Verg. ] catal.
+T5	REFSCOPE 77 81	47s.
+T6	REFSCOPE 84 88	53s.
+T7	REFAUWORK 94 100	Avien.
+T8	REFSCOPE 101 109	115-129,
+T9	REFSCOPE 110 117	375-412
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T7 Arg2:T8
+R3	Scope Arg1:T7 Arg2:T9
+R4	Scope Arg1:T1 Arg2:T3
+R5	Scope Arg1:T4 Arg2:T5
+R6	Scope Arg1:T4 Arg2:T6
+#0	AnnotatorNotes R4	urn:cts:latinLit:phi0550.phi001:3.14-3.21
+#1	AnnotatorNotes R5	urn:cts:cwkb:1351.4377:47-48
+#2	AnnotatorNotes R6	urn:cts:cwkb:1351.4377:53-54
+#3	AnnotatorNotes R1	urn:cts:latinLit:phi0550.phi001:1.62-1.79
+#4	AnnotatorNotes R2	urn:cts:cwkb:2447.8028:115-129
+#5	AnnotatorNotes R3	urn:cts:cwkb:2447.8028:375-412

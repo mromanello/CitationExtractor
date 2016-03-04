@@ -1,0 +1,8 @@
+T1	REFAUWORK 26 34	Polybios
+T2	REFSCOPE 35 43	27, 6, 2
+T3	REFAUWORK 48 54	Livius
+T4	REFSCOPE 55 63	42, 6, 3
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0543.tlg001:27.6.2
+#1	AnnotatorNotes R2	urn:cts:cwkb:524.1088:42.6.3

@@ -1,0 +1,6 @@
+T1	AAUTHOR 12 21	Thucydide
+T2	REFAUWORK 126 130	(Po.
+T3	REFSCOPE 131 143	1450b-1453b)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0086.tlg034:1450b-1453b
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0003

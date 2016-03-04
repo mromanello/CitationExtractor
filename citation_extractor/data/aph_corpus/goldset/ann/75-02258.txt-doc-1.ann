@@ -1,0 +1,14 @@
+T1	AAUTHOR 65 73	Hérodote
+T2	REFSCOPE 230 240	(1, 30-33)
+T3	REFSCOPE 276 286	(3, 40-43)
+T4	REFSCOPE 431 438	(1, 24)
+T5	REFSCOPE 467 475	(7, 190)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+R4	Scope Arg1:T1 Arg2:T5
+#0	AnnotatorNotes R4	urn:cts:greekLit:tlg0016.tlg001:7.190
+#1	AnnotatorNotes R1	urn:cts:greekLit:tlg0016.tlg001:1.30-1.33
+#2	AnnotatorNotes R2	urn:cts:greekLit:tlg0016.tlg001:3.40-3.43
+#3	AnnotatorNotes R3	urn:cts:greekLit:tlg0016.tlg001:1.24
+#4	AnnotatorNotes T1	urn:cts:greekLit:tlg0016

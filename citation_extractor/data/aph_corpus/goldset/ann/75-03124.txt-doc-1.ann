@@ -1,0 +1,9 @@
+T1	AAUTHOR 156 163	Malalas
+T2	AWORK 180 202	« Chronicon Paschale »
+T3	AAUTHOR 209 219	Théophane,
+T4	REFSCOPE 244 252	livre 18
+T5	AWORK 259 276	« Chronographia »
+R1	Scope Arg1:T5 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:943.4531:18
+#1	AnnotatorNotes T5	urn:cts:cwkb:943.4531
+#4	AnnotatorNotes T1	urn:cts:cwkb:943

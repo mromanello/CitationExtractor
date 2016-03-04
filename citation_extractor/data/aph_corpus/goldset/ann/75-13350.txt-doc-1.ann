@@ -1,0 +1,5 @@
+T1	AAUTHOR 67 73	Polybe
+T2	REFSCOPE 297 304	livre 6
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0543.tlg001:6
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0543

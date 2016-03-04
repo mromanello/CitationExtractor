@@ -1,0 +1,10 @@
+T1	AAUTHOR 24 30	Seneca
+T2	AAUTHOR 35 42	Tacitus
+T3	AAUTHOR 73 89	Cremutius Cordus
+T4	AWORK 178 189	« Annalen »
+T5	AWORK 307 318	« Annalen »
+#0	AnnotatorNotes T4	urn:cts:latinLit:phi1351.phi005
+#1	AnnotatorNotes T5	urn:cts:latinLit:phi1351.phi005
+#2	AnnotatorNotes T2	urn:cts:latinLit:phi1351
+#3	AnnotatorNotes T3	urn:cts:cwkb:452
+#4	AnnotatorNotes T1	urn:cts:cwkb:620

@@ -1,0 +1,10 @@
+T1	AWORK 74 101	« Florilegium Baroccianum »
+T3	AAUTHOR 155 163	Euripide
+T4	AAUTHOR 190 198	Isocrate
+T5	AWORK 199 216	(« Ad Demonicum »
+T6	REFSCOPE 217 223	21-23)
+R1	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0010.tlg007:21-23
+#1	AnnotatorNotes T4	urn:cts:greekLit:tlg0010
+#2	AnnotatorNotes T5	urn:cts:greekLit:tlg0010.tlg007
+#4	AnnotatorNotes T3	urn:cts:greekLit:tlg0006

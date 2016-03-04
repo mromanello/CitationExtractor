@@ -1,0 +1,10 @@
+T1	REFAUWORK 33 51	Donato, Vita Verg.
+T2	REFSCOPE 52 55	43,
+T3	REFAUWORK 177 183	Georg.
+T4	REFSCOPE 184 190	1, 299
+T5	AAUTHOR 248 256	Virgilio
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:1363.4411:43
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0690.phi002:1.299
+#2	AnnotatorNotes T5	urn:cts:latinLit:phi0690

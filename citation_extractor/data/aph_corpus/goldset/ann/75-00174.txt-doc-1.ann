@@ -1,0 +1,29 @@
+T1	AAUTHOR 0 10	Ammianus '
+T2	REFAUWORK 106 111	(Aen.
+T3	REFSCOPE 112 124	6, 851-853).
+T4	AAUTHOR 151 159	Ammianus
+T5	REFSCOPE 243 254	(15, 8, 7),
+T6	REFSCOPE 283 296	(14, 10, 1-16
+T7	REFSCOPE 297 313	and 30, 3, 3-6).
+T8	AAUTHOR 339 347	Ammianus
+T9	AWORK 552 562	« Aeneid »
+T10	AAUTHOR 581 589	Ammianus
+T11	AAUTHOR 623 631	Ammianus
+T12	AAUTHOR 793 799	Vergil
+T13	AAUTHOR 65 71	Vergil
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T4 Arg2:T6
+R4	Scope Arg1:T4 Arg2:T7
+#0	AnnotatorNotes R4	urn:cts:latinLit:stoa0023.stoa001:30.3.3-30.3.6
+#1	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:6.851-6.853
+#2	AnnotatorNotes R2	urn:cts:latinLit:stoa0023.stoa001:15.8.7
+#3	AnnotatorNotes R3	urn:cts:latinLit:stoa0023.stoa001:14.10.1-14.10.16
+#4	AnnotatorNotes T8	urn:cts:latinLit:stoa0023
+#5	AnnotatorNotes T9	urn:cts:latinLit:phi0690.phi003
+#6	AnnotatorNotes T4	urn:cts:latinLit:stoa0023
+#7	AnnotatorNotes T1	urn:cts:latinLit:stoa0023
+#8	AnnotatorNotes T10	urn:cts:latinLit:stoa0023
+#9	AnnotatorNotes T11	urn:cts:latinLit:stoa0023
+#10	AnnotatorNotes T12	urn:cts:latinLit:phi0690
+#11	AnnotatorNotes T13	urn:cts:latinLit:phi0690

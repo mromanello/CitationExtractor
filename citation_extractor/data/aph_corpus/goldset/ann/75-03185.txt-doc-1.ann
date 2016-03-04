@@ -1,0 +1,19 @@
+T1	AAUTHOR 51 58	Martial
+T2	REFAUWORK 166 191	(Calpurnius Siculus, ecl.
+T3	REFSCOPE 192 204	4, 158-163 ;
+T4	REFAUWORK 205 217	Laus Pisonis
+T5	REFSCOPE 218 227	230-248).
+T6	REFAUWORK 228 235	Martial
+T7	REFSCOPE 236 249	(7, 29, 7-8 ;
+T8	REFSCOPE 250 270	8, 55 [ 56 ], 21-24)
+T9	AAUTHOR 414 421	Martial
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T6 Arg2:T7
+R4	Scope Arg1:T6 Arg2:T8
+#0	AnnotatorNotes R4	urn:cts:cwkb:539.1115:8.55.21-8.55.24
+#1	AnnotatorNotes R1	urn:cts:cwkb:415.829:4.158-4.163
+#2	AnnotatorNotes R2	urn:cts:cwkb:1151.1084:230-248
+#3	AnnotatorNotes R3	urn:cts:cwkb:539.1115:7.29.7-7.29.8
+#4	AnnotatorNotes T9	urn:cts:cwkb:539
+#5	AnnotatorNotes T1	urn:cts:cwkb:539

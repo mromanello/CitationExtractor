@@ -1,0 +1,6 @@
+T1	REFAUWORK 3 8	carm.
+T3	REFSCOPE 9 25	2, 2, 5, 116-157
+T5	AAUTHOR 26 34	Gregorio
+R2	Scope Arg1:T1 Arg2:T3
+#2	AnnotatorNotes T5	urn:cts:cwkb:896
+#1	AnnotatorNotes R2	urn:cts:cwkb:896.2544:2.2.5.116-2.2.5.157

@@ -1,0 +1,8 @@
+Continuación	NC	O
+y	CC	O
+complemento	NC	O
+del	PDEL	O
+trabajo	NC	O
+consignado	VLadj	O
+en	PREP	O
+69-11321	CARD	O

@@ -1,0 +1,6 @@
+T1	REFAUWORK 73 77	Pel.
+T2	REFSCOPE 78 85	21, 5),
+T3	AAUTHOR 86 95	Plutarque
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0007.tlg021:21.5
+#1	AnnotatorNotes T3	urn:cts:greekLit:tlg0007

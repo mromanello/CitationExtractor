@@ -1,0 +1,16 @@
+T1	AWORK 4 27	« Vita Sancti Martini »
+T2	AAUTHOR 42 55	Fortunatus 's
+T4	REFSCOPE 235 243	Books 2,
+T5	REFSCOPE 273 279	Book 4
+T6	REFSCOPE 478 488	1, 487-500
+#2	AnnotatorNotes T2	urn:cts:cwkb:1315
+#3	AnnotatorNotes T1	urn:cts:cwkb:1315.4328
+R1	Scope Arg1:T1 Arg2:T4	
+R2	Scope Arg1:T1 Arg2:T5	
+R3	Scope Arg1:T1 Arg2:T6	
+T3	REFSCOPE 244 246	3,
+R4	Scope Arg1:T1 Arg2:T3	
+#1	AnnotatorNotes R1	urn:cts:cwkb:1315.4328:2
+#4	AnnotatorNotes R4	urn:cts:cwkb:1315.4328:3
+#5	AnnotatorNotes R2	urn:cts:cwkb:1315.4328:4
+#6	AnnotatorNotes R3	urn:cts:cwkb:1315.4328:1.487-1.500

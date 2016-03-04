@@ -1,0 +1,10 @@
+T1	REFAUWORK 119 124	Thuc.
+T2	REFSCOPE 125 136	1, 126, 12,
+T3	REFSCOPE 215 226	5, 111, 4 ;
+T4	REFSCOPE 227 235	111, 2-3
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0003.tlg001:1.126.12
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0003.tlg001:5.111.4
+#2	AnnotatorNotes R3	urn:cts:greekLit:tlg0003.tlg001:5.111.2-5.111.3

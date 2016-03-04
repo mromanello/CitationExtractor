@@ -1,0 +1,13 @@
+T1	AAUTHOR 45 52	Malalas
+T2	AWORK 97 120	« Barbarus Scaligeri ».
+T3	AWORK 145 158	« Chronique »
+T4	REFSCOPE 214 221	(9, 3).
+T5	AWORK 261 263	BS
+T6	REFSCOPE 264 280	(1, 324, 14-22 ;
+T7	REFSCOPE 281 300	1, 330, 4-9 Frick),
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T5 Arg2:T6
+R3	Scope Arg1:T5 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:cwkb:943.4531:9.3
+#3	AnnotatorNotes T3	urn:cts:cwkb:2820.9027
+#4	AnnotatorNotes T1	urn:cts:cwkb:943

@@ -1,0 +1,4 @@
+Pour	PRP	O
+1	NUM	O
+=>	ABR	O
+75-06900	NUM	O

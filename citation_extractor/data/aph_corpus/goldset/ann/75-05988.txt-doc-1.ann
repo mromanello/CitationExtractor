@@ -1,0 +1,11 @@
+T1	REFAUWORK 9 16	Idylles
+T2	REFSCOPE 17 18	6
+T3	REFSCOPE 22 25	11,
+T4	AAUTHOR 156 165	Théocrite
+T5	AAUTHOR 203 209	Homère
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0005.tlg001:6
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0005.tlg001:11
+#2	AnnotatorNotes T4	urn:cts:greekLit:tlg0005
+#3	AnnotatorNotes T5	urn:cts:greekLit:tlg0012

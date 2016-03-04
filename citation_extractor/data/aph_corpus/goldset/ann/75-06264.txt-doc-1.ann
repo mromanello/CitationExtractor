@@ -1,0 +1,21 @@
+T1	REFAUWORK 91 97	georg.
+T2	REFSCOPE 98 105	4, 234.
+T3	AAUTHOR 370 379	Vergil 's
+T4	REFAUWORK 406 412	georg.
+T5	REFSCOPE 413 423	3, 414-439
+T6	REFAUWORK 473 479	georg.
+T7	REFSCOPE 480 486	1, 205
+T8	REFSCOPE 491 500	244-245 ;
+T9	REFAUWORK 556 562	georg.
+T10	REFSCOPE 563 573	4, 457-459
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T6 Arg2:T7
+R4	Scope Arg1:T6 Arg2:T8
+R5	Scope Arg1:T9 Arg2:T10
+#0	AnnotatorNotes R4	urn:cts:latinLit:phi0690.phi002:1.244-1.245
+#1	AnnotatorNotes R5	urn:cts:latinLit:phi0690.phi002:4.457-4.459
+#2	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi002:4.234
+#3	AnnotatorNotes R2	urn:cts:latinLit:phi0690.phi002:3.414-3.439
+#4	AnnotatorNotes R3	urn:cts:latinLit:phi0690.phi002:1.205
+#5	AnnotatorNotes T3	urn:cts:latinLit:phi0690

@@ -1,0 +1,12 @@
+T1	AAUTHOR 94 103	d' Homère
+T2	REFAUWORK 104 108	(Il.
+T3	REFSCOPE 109 120	6, 179-182)
+T4	AAUTHOR 124 131	Hésiode
+T5	REFAUWORK 132 136	(Th.
+T6	REFSCOPE 137 146	319-324),
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0012.tlg001:6.179-6.182
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0020.tlg001:319-324
+#2	AnnotatorNotes T1	urn:cts:greekLit:tlg0012
+#3	AnnotatorNotes T4	urn:cts:greekLit:tlg0020

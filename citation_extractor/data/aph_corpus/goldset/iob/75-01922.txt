@@ -1,0 +1,9 @@
+Notas	VER:simp	O
+sobre	ADJ	O
+Eurípides	NAM	O
+,	PUN	O
+fr.	ABR	O
+784	NUM	O
+y	PRO:PER	B-REFSCOPE
+1110	NUM	O
+Nauck	NAM	O

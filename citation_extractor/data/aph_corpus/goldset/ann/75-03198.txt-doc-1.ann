@@ -1,0 +1,10 @@
+T1	AAUTHOR 94 102	Marziale
+T2	REFSCOPE 207 213	3, 58,
+T4	REFSCOPE 262 268	l. 13,
+T6	AAUTHOR 330 338	Marziale
+#1	AnnotatorNotes T6	urn:cts:cwkb:539
+#3	AnnotatorNotes T1	urn:cts:cwkb:539
+R1	Scope Arg1:T1 Arg2:T2	
+R2	Scope Arg1:T1 Arg2:T4	
+#2	AnnotatorNotes R2	urn:cts:cwkb:539.1115:13
+#4	AnnotatorNotes R1	urn:cts:cwkb:539.1115:3.58

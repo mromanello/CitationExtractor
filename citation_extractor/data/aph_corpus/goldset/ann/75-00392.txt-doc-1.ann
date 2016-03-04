@@ -1,0 +1,13 @@
+T1	AAUTHOR 37 51	Aristophanes '
+T2	AWORK 57 81	« Thesmophoriazusae II »
+T3	AAUTHOR 186 195	Satyros '
+T4	AWORK 196 217	« Life of Euripides »
+T5	AAUTHOR 252 261	Euripides
+T6	AAUTHOR 371 385	Aristophanes '
+#0	AnnotatorNotes T6	urn:cts:greekLit:tlg0019
+#1	AnnotatorNotes T5	urn:cts:greekLit:tlg0006
+#3	AnnotatorNotes T3	urn:cts:cwkb:1075
+#4	AnnotatorNotes T1	urn:cts:greekLit:tlg0019
+#2	AnnotatorNotes T4	urn:cts:cwkb:1075.3866
+T7	AAUTHOR 462 469	Satyros
+#5	AnnotatorNotes T7	urn:cts:cwkb:1075

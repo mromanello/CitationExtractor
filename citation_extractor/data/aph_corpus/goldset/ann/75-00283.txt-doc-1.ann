@@ -1,0 +1,14 @@
+T1	REFAUWORK 3 11	De mundo
+T2	REFSCOPE 12 20	287-289,
+T3	AAUTHOR 21 28	Apuleyo
+T4	AAUTHOR 190 197	Apuleyo
+T5	AWORK 283 313	(« Tusculanae disputationes »,
+T6	AWORK 314 328	« De oratore »
+T7	AWORK 331 352	« De natura deorum »)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:377.768:287-289
+#1	AnnotatorNotes T6	urn:cts:cwkb:431.901
+#2	AnnotatorNotes T7	urn:cts:cwkb:431.914
+#3	AnnotatorNotes T4	urn:cts:cwkb:377
+#4	AnnotatorNotes T3	urn:cts:cwkb:377
+#5	AnnotatorNotes T5	urn:cts:cwkb:431.913

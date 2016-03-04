@@ -1,0 +1,13 @@
+T1	AAUTHOR 31 39	Lucrecio
+T3	REFSCOPE 49 67	lib. 5, 1308 y ss.
+T4	AAUTHOR 105 113	Plutarco
+T5	REFAUWORK 117 123	Brutus
+T6	REFSCOPE 124 132	8, 6-7 :
+T7	AAUTHOR 338 347	Lucrecio,
+R1	Scope Arg1:T1 Arg2:T3
+R2	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0550.phi001:5.1308-5.1308++
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0007.tlg061:8.6-8.7
+#2	AnnotatorNotes T7	urn:cts:cwkb:528
+#3	AnnotatorNotes T4	urn:cts:greekLit:tlg0007
+#4	AnnotatorNotes T1	urn:cts:cwkb:528
