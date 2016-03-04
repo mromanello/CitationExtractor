@@ -16,13 +16,13 @@ setup(name='citation_extractor'
     #,include_package_data=True
     ,package_data={'citation_extractor': ['data/*.*']}
     ,long_description=read('README.md')
-    ,install_requires=[
-        'citation-extractor-dependencies'
-        ,'guess_language'
-        ,'mecab-python'
-        ,'nltk'
-        ,'scikit-learn'
-        ,'treetagger'
-        ,'pandas'
-        ]
+    #,install_requires=[
+    #    'citation-extractor-dependencies'
+    #    ,'guess_language'
+    #    ,'mecab-python'
+    #    ,'nltk'
+    #    ,'scikit-learn'
+    #    ,'treetagger'
+    #    ,'pandas'
+    #    ]
 )
