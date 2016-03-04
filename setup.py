@@ -14,7 +14,9 @@ setup(name='citation_extractor'
     ,version=VERSION
     ,packages=find_packages()
     #,include_package_data=True
-    ,package_data={'citation_extractor': ['data/*.*']}
+    ,package_data={'citation_extractor': ['data/*.*'
+                                          ,'data/aph_corpus/goldset/ann/*.*'
+                                          ,'data/aph_corpus/goldset/iob/*.*']}
     ,long_description=read('README.md')
     #,install_requires=[
     #    'citation-extractor-dependencies'

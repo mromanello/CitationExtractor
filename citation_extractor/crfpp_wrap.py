@@ -24,6 +24,14 @@ class CRF_classifier:
 			self.logger.info("CRFPP Tagger initialized with command %s"%("-m %s -v %i -n%i"%(self.m,self.v,self.bn)))
 		except RuntimeError, e:
 			print "RuntimeError: ", e,
+	def __getstate__(self):
+		odict = self.__dict__.copy()
+		del odict['tagger']
+		return odict
+	def __setstate__(self,dict):
+		self.__dict__.update(dict)
+		self.tagger = CRFPP.Tagger("-m %s -v %i -n%i"%(self.m,self.v,self.bn))
+		print "CRFPP Tagger initialized with command %s"%("-m %s -v %i -n%i"%(self.m,self.v,self.bn))
 	
 	def classify(self,l_tokens):
 		"""
