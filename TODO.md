@@ -1,7 +1,6 @@
+* move `crfpp_templates` to the `data` directory
 * re-organise the logging
 * in `process.preproc_document` replace `guess_language` with `langid` library as it seems way more accurate (!!)
-* https://docs.python.org/2/library/pkgutil.html#pkgutil.get_data
-    * `get_resource_filename` and `resource_isdir()`
 
 ## Code Refactoring
 

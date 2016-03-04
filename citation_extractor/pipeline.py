@@ -278,6 +278,45 @@ def read_ann_file(fileid,ann_dir):
 			entity = entities[rel_id[0]]
 			res_annotations.append([rel_id[0],entity[1],urn])
 	return entities, relations, res_annotations
+def read_ann_file_new(fileid,ann_dir,suffix="-doc-1.ann"):
+	"""
+	TODO
+	"""
+	import codecs
+	ann_file = "%s%s%s"%(ann_dir,fileid,suffix)
+	f = codecs.open(ann_file,'r','utf-8')
+	data = f.read()
+	f.close()
+	rows = data.split('\n')
+	entities = {}
+	ent_count = 0
+	relations = {}
+	annotations = []
+	for row in rows:
+	    cols = row.split("\t")
+	    ann_id = cols[0]
+	    if(u"#" in cols[0]):
+	    	tmp = {
+	    		"ann_id":"%s%s"%(cols[1].split()[0],cols[0])
+	    		,"anchor":cols[1].split()[1:][0]
+	    		,"text":cols[2]
+	    	}
+	    	annotations.append(tmp)
+	    elif(len(cols)==3 and u"T" in cols[0]):
+	        # is an entity
+	        ent_count += 1
+	        ent_type = cols[1].split()[0]
+	        ranges = cols[1].replace("%s"%ent_type,"")
+	        entities[cols[0]] = {"ann_id":ann_id
+								,"entity_type": ent_type
+								,"positions": ranges
+								,"surface":cols[2]}
+	    elif(len(cols)>=2 and u"R" in cols[0]):
+	        rel_type, arg1, arg2 = cols[1].split()
+	        relations[cols[0]] = {"ann_id":ann_id
+								,"arguments":(arg1.split(":")[1], arg2.split(":")[1])
+								,"relation_type":rel_type}
+	return entities, relations, annotations
 def extract_citations(extractor,outputdir,filename,iob_sentences,outfilename=None):
 	"""docstring for extract_citations"""
 	# this is the important bit which performs the citation extraction
