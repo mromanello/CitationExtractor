@@ -309,7 +309,8 @@ def read_ann_file_new(fileid,ann_dir,suffix="-doc-1.ann"):
 	        ranges = cols[1].replace("%s"%ent_type,"")
 	        entities[cols[0]] = {"ann_id":ann_id
 								,"entity_type": ent_type
-								,"positions": ranges
+								,"offset_start":ranges.split()[0]
+								,"offset_end":ranges.split()[1]
 								,"surface":cols[2]}
 	    elif(len(cols)>=2 and u"R" in cols[0]):
 	        rel_type, arg1, arg2 = cols[1].split()

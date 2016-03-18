@@ -27,50 +27,6 @@ then SciPy, then scikit-learn
 
     class= (scope_pos | scope_neg)
 
-def prepare_for_training(doc_id, basedir):
-    """
-    result = [
-        [
-            [
-                "arg1_entity":"AAUTHOR"
-                ,"arg2_entity":"REFSCOPE"
-                ,"concent":"AAUTHORREFSCOPE"
-            ]
-            ,'scope_pos'
-        ]
-        ,[
-            [
-                "arg1_entity":"REFSCOPE"
-                ,"arg2_entity":"AAUTHOR"
-                ,"concent":"REFSCOPEAAUTHOR"
-            ]
-            ,'scope_neg'
-        ]
-    ]
-    """
-    instances = []
-    entities, relations = read_ann_file(doc_id, basedir)
-    for arg1,arg2 in relations:
-        instance.append(extract_relation_features(arg1,arg2,entities,fulltext),'scope_pos')
-        instance.append(extract_relation_features(arg2,arg1,entities,fulltext),'scope_neg')
-    return instances
-
-def extract_relation_features(arg1,arg2,entities,fulltext):
-    """
-    the following features should be extracted:
-        Arg1_entity:AAUTHOR
-        Arg2_entity:REFSCOPE
-        ConcEnt: AAUTHORREFSCOPE
-        WordsBtw:0
-        EntBtw:0 
-        Thuc.=True (bow_arg1)
-        1.8=True (bow_arg2)
-        word_before_arg1
-        word_after_arg1
-        word_before_arg2
-        word_after_arg2
-    """
-    pass
 
 class relation_extractor:
     __init__(self,classifier,train_dirs):

@@ -22,3 +22,5 @@ def test_read_ann_file_new():
 		logger.debug(annotations)
 		for annotation in annotations:
 			assert (relations.has_key(annotation["anchor"]) or entities.has_key(annotation["anchor"])) 
+def test_preprocessing():
+	pass
