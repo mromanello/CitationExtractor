@@ -1,0 +1,7 @@
+T1	AAUTHOR 0 6	Lukrez
+T2	REFSCOPE 16 26	1, 921 ff.
+T3	AAUTHOR 292 298	Vergil
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0550.phi001:1.921-1.921++
+#1	AnnotatorNotes T3	urn:cts:latinLit:phi0690
+#2	AnnotatorNotes T1	urn:cts:cwkb:528

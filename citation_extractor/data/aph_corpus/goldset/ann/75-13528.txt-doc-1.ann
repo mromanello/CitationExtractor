@@ -1,0 +1,10 @@
+T1	AAUTHOR 101 108	Platons
+T2	AWORK 109 118	« Staat »
+T3	REFSCOPE 119 124	(332d
+T4	REFSCOPE 129 134	335d)
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0059.tlg030:332d
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0059.tlg030:335d
+#2	AnnotatorNotes T2	urn:cts:greekLit:tlg0059.tlg030
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0059

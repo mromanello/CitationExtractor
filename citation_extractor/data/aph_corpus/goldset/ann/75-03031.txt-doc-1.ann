@@ -1,0 +1,4 @@
+T1	REFAUWORK 40 56	Lucian, Philops.
+T2	REFSCOPE 57 62	33-36
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0062.tlg031:33-36

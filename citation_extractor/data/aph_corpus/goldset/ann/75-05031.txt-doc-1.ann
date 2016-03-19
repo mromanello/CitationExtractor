@@ -1,0 +1,9 @@
+T1	AAUTHOR 61 69	Sophocle
+T2	REFSCOPE 126 133	livre 6
+T3	AWORK 138 155	« Métamorphoses »
+T4	AAUTHOR 156 164	d' Ovide
+#1	AnnotatorNotes T4	urn:cts:cwkb:568
+#2	AnnotatorNotes T3	urn:cts:latinLit:phi0959.phi006
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0011
+R1	Scope Arg1:T3 Arg2:T2	
+#4	AnnotatorNotes R1	urn:cts:latinLit:phi0959.phi006:6

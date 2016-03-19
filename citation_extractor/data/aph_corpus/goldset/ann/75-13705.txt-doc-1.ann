@@ -1,0 +1,9 @@
+T1	REFAUWORK 180 189	Lucretius
+T2	REFSCOPE 190 200	5, 526-533
+T3	REFSCOPE 514 526	2, 1090-1104
+T4	AAUTHOR 527 538	Lucretius '
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0550.phi001:5.526-5.533
+#1	AnnotatorNotes T4	urn:cts:cwkb:528
+R2	Scope Arg1:T4 Arg2:T3	
+#2	AnnotatorNotes R2	urn:cts:latinLit:phi0550.phi001:2.1090-2.1104

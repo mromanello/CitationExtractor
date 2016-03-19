@@ -1,0 +1,21 @@
+T1	AWORK 7 18	« Thebaid »
+T2	REFSCOPE 25 35	9, 570-670
+T3	REFSCOPE 36 48	and 712-736)
+T4	AWORK 53 63	« Siluae »
+T5	AAUTHOR 64 71	Statius
+T6	AAUTHOR 306 313	Statius
+T7	AWORK 324 335	« Thebaid »
+T8	AWORK 419 429	« Siluae »
+T9	REFSCOPE 437 442	5, 5)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T8 Arg2:T9
+#1	AnnotatorNotes R1	urn:cts:cwkb:634.1315:9.570-9.670
+#2	AnnotatorNotes R2	urn:cts:cwkb:634.1315:712-736
+#3	AnnotatorNotes R3	urn:cts:cwkb:634.1316:5.5
+#4	AnnotatorNotes T8	urn:cts:cwkb:634.1316
+#5	AnnotatorNotes T6	urn:cts:cwkb:634
+#6	AnnotatorNotes T7	urn:cts:cwkb:634.1315
+#7	AnnotatorNotes T4	urn:cts:cwkb:634.1316
+#8	AnnotatorNotes T5	urn:cts:cwkb:634
+#9	AnnotatorNotes T1	urn:cts:cwkb:634.1315

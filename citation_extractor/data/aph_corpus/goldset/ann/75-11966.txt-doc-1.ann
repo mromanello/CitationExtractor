@@ -1,0 +1,17 @@
+T1	AAUTHOR 31 38	Píndaro
+T2	AWORK 39 54	(« Olímpicas »)
+T3	AAUTHOR 60 69	Pausanias
+T4	REFSCOPE 70 78	(5, 13),
+T5	AAUTHOR 237 246	Pausanias
+T6	AAUTHOR 572 578	Homero
+T7	REFAUWORK 579 586	(Ilíada
+T8	REFSCOPE 587 590	12)
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T7 Arg2:T8
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0525.tlg001:5.13
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0012.tlg001:12
+#2	AnnotatorNotes T6	urn:cts:greekLit:tlg0012
+#3	AnnotatorNotes T5	urn:cts:greekLit:tlg0525
+#4	AnnotatorNotes T2	urn:cts:greekLit:tlg0033.tlg001
+#5	AnnotatorNotes T3	urn:cts:greekLit:tlg0525
+#6	AnnotatorNotes T1	urn:cts:greekLit:tlg0033

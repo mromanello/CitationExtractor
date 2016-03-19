@@ -1,0 +1,6 @@
+T1	AAUTHOR 56 63	Apuleyo
+T2	REFAUWORK 106 112	(Apol.
+T3	REFSCOPE 113 121	91, 7) :
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:377.761:91.7
+#1	AnnotatorNotes T1	urn:cts:cwkb:377

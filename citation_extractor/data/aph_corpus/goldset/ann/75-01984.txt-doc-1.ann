@@ -1,0 +1,5 @@
+T1	REFSCOPE 26 34	livre 10
+T2	AWORK 38 56	« De usu partium »
+#1	AnnotatorNotes T2	urn:cts:cwkb:890.2489
+R1	Scope Arg1:T2 Arg2:T1	
+#2	AnnotatorNotes R1	urn:cts:cwkb:890.2489:10

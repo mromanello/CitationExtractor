@@ -1,0 +1,12 @@
+T1	REFAUWORK 543 560	Callimachus, Cer.
+T2	REFSCOPE 561 570	100-104),
+T3	REFAUWORK 739 745	Lysias
+T4	REFSCOPE 746 753	6, 53 ;
+T5	REFAUWORK 754 770	Aristophanes Eq.
+T6	REFSCOPE 771 780	247-252).
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0533.tlg020:100-104
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0540.tlg006:6.53
+#2	AnnotatorNotes R3	urn:cts:greekLit:tlg0019.tlg002:247-252

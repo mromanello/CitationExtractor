@@ -1,0 +1,4 @@
+T1	REFAUWORK 55 64	Hérodote,
+T2	REFSCOPE 65 77	6, 102-117 :
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0016.tlg001:6.102-6.117

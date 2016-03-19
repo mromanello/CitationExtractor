@@ -1,0 +1,22 @@
+T1	AAUTHOR 4 10	Terenz
+T2	AWORK 21 31	« Hecyra »
+T3	AAUTHOR 39 44	Horaz
+T4	REFAUWORK 48 53	Serm.
+T5	REFSCOPE 54 58	1, 6
+T6	REFAUWORK 288 291	Ep.
+T7	REFSCOPE 292 294	88
+T8	AAUTHOR 299 305	Seneca
+T9	REFAUWORK 310 313	Ep.
+T10	REFSCOPE 314 318	9, 6
+T11	AAUTHOR 323 331	Plinius.
+R1	Scope Arg1:T4 Arg2:T5
+R2	Scope Arg1:T6 Arg2:T7
+R3	Scope Arg1:T9 Arg2:T10
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0893.phi004:1.6
+#1	AnnotatorNotes R2	urn:cts:cwkb:620.1288:88
+#2	AnnotatorNotes R3	urn:cts:cwkb:584.1207:9.6
+#3	AnnotatorNotes T8	urn:cts:cwkb:620
+#4	AnnotatorNotes T2	urn:cts:latinLit:phi0134.phi005
+#5	AnnotatorNotes T3	urn:cts:latinLit:phi0893
+#6	AnnotatorNotes T1	urn:cts:latinLit:phi0134
+#7	AnnotatorNotes T11	urn:cts:cwkb:584

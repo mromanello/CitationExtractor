@@ -1,0 +1,11 @@
+Das	NAM	O
+Fragment	NAM	O
+enthält	NAM	O
+Reste	NAM	O
+von	NAM	O
+Ps	NAM	O
+148	NUM	O
+,	PUN	O
+2-5	NUM	O
+LXX	NUM	O
+.	SENT	O

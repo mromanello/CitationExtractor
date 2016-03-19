@@ -12,7 +12,7 @@ from citation_extractor.Utils.IO import *
 This module contains the core of the citation extractor.
 """
 global logger
-logger = logging.getLogger('CREX')
+logger = logging.getLogger(__name__)
 
 def determine_path():
     """

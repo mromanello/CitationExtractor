@@ -13,7 +13,8 @@ where I left: try to provide the module with minimum data and directory structur
 
 ## Installation problems:
 
-to install SciPy on Ubuntu when needs:
+to install SciPy on Ubuntu one needs:
+>>>>>>> 50b3d56ee26142cac9842b2a3ad49bd14de4e602
 
     sudo apt-get install gfortran libopenblas-dev liblapack-dev
 
@@ -26,51 +27,6 @@ then SciPy, then scikit-learn
 * the training set should contain both positive and negative examples; to create a negative example out of a positive relation, e.g. "rel(arg1,arg2)" is enough to invert it, "rel(arg2,arg1)"
 
     class= (scope_pos | scope_neg)
-
-def prepare_for_training(doc_id, basedir):
-    """
-    result = [
-        [
-            [
-                "arg1_entity":"AAUTHOR"
-                ,"arg2_entity":"REFSCOPE"
-                ,"concent":"AAUTHORREFSCOPE"
-            ]
-            ,'scope_pos'
-        ]
-        ,[
-            [
-                "arg1_entity":"REFSCOPE"
-                ,"arg2_entity":"AAUTHOR"
-                ,"concent":"REFSCOPEAAUTHOR"
-            ]
-            ,'scope_neg'
-        ]
-    ]
-    """
-    instances = []
-    entities, relations = read_ann_file(doc_id, basedir)
-    for arg1,arg2 in relations:
-        instance.append(extract_relation_features(arg1,arg2,entities,fulltext),'scope_pos')
-        instance.append(extract_relation_features(arg2,arg1,entities,fulltext),'scope_neg')
-    return instances
-
-def extract_relation_features(arg1,arg2,entities,fulltext):
-    """
-    the following features should be extracted:
-        Arg1_entity:AAUTHOR
-        Arg2_entity:REFSCOPE
-        ConcEnt: AAUTHORREFSCOPE
-        WordsBtw:0
-        EntBtw:0 
-        Thuc.=True (bow_arg1)
-        1.8=True (bow_arg2)
-        word_before_arg1
-        word_after_arg1
-        word_before_arg2
-        word_after_arg2
-    """
-    pass
 
 class relation_extractor:
     __init__(self,classifier,train_dirs):

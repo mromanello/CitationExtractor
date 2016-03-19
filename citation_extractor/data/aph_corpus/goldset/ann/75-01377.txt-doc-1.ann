@@ -1,0 +1,22 @@
+T1	REFAUWORK 25 36	Cic., Orat.
+T2	REFSCOPE 37 44	3, 214,
+T3	REFAUWORK 314 325	Cic., Orat.
+T4	REFSCOPE 326 334	3, 217).
+T5	AAUTHOR 430 438	Cicerone
+T6	REFAUWORK 439 444	(Mur.
+T7	REFSCOPE 445 451	88s. ;
+T8	REFAUWORK 452 457	Verr.
+T9	REFSCOPE 458 469	2, 5, 126),
+T10	REFAUWORK 626 633	Cluent.
+T11	REFSCOPE 634 635	4
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T6 Arg2:T7
+R4	Scope Arg1:T8 Arg2:T9
+R5	Scope Arg1:T10 Arg2:T11
+#0	AnnotatorNotes R4	urn:cts:latinLit:phi0474.phi005:2.5.126
+#1	AnnotatorNotes R5	urn:cts:latinLit:phi0474.phi010:4
+#2	AnnotatorNotes R1	urn:cts:cwkb:431.904:3.214
+#3	AnnotatorNotes R2	urn:cts:cwkb:431.904:3.217
+#4	AnnotatorNotes R3	urn:cts:latinLit:phi0474.phi014:88-89
+#5	AnnotatorNotes T5	urn:cts:cwkb:431

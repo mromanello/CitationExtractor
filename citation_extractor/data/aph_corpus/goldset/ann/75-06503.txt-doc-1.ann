@@ -1,0 +1,16 @@
+T1	REFAUWORK 288 299	Verg., Aen.
+T2	REFSCOPE 300 314	4, 474 y ss.),
+T3	REFAUWORK 322 333	(Sil. Ital.
+T4	REFSCOPE 334 345	1, 70-139),
+T5	REFAUWORK 353 360	(Lucan.
+T6	REFSCOPE 361 372	6, 413-830)
+T7	REFAUWORK 384 397	(Stat., Theb.
+T8	REFSCOPE 398 409	4, 406-645)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T5 Arg2:T6
+R4	Scope Arg1:T7 Arg2:T8
+#0	AnnotatorNotes R4	urn:cts:cwkb:634.1315:4.406-4.645
+#1	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:4.474-4.474++
+#2	AnnotatorNotes R2	urn:cts:cwkb:630.1310:1.70-1.139
+#3	AnnotatorNotes R3	urn:cts:latinLit:phi0917.phi001:6.413-6.830

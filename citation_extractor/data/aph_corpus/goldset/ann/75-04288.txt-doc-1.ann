@@ -1,0 +1,14 @@
+T1	AAUTHOR 56 64	Plautus,
+T2	AAUTHOR 368 377	Plautus '
+T3	AWORK 378 390	« Captiui »,
+T4	AWORK 391 405	« Trinummus »,
+T5	AWORK 406 416	« Persa »,
+T6	AWORK 417 431	« Pseudolus »,
+T7	AWORK 432 452	« Miles gloriosus »,
+#0	AnnotatorNotes T6	urn:cts:latinLit:phi0119.phi016
+#1	AnnotatorNotes T7	urn:cts:latinLit:phi0119.phi012
+#2	AnnotatorNotes T4	urn:cts:latinLit:phi0119.phi019
+#3	AnnotatorNotes T5	urn:cts:latinLit:phi0119.phi014
+#4	AnnotatorNotes T2	urn:cts:latinLit:phi0119
+#5	AnnotatorNotes T3	urn:cts:latinLit:phi0119.phi005
+#6	AnnotatorNotes T1	urn:cts:latinLit:phi0119

@@ -1,0 +1,10 @@
+T1	AAUTHOR 0 6	Cicero
+T2	AAUTHOR 430 437	Seneca.
+T3	AAUTHOR 509 515	Seneca
+T4	REFAUWORK 516 520	ben.
+T5	REFSCOPE 521 530	4, 3, 1 ;
+R1	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:620.1286:4.3.1
+#1	AnnotatorNotes T2	urn:cts:cwkb:620
+#2	AnnotatorNotes T3	urn:cts:cwkb:620
+#3	AnnotatorNotes T1	urn:cts:cwkb:431

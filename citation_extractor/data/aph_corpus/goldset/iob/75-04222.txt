@@ -1,0 +1,4 @@
+Chez	PRP	O
+Platon	NAM	B-AAUTHOR
+et	KON	O
+Aristote	NAM	B-AAUTHOR

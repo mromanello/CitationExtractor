@@ -1,0 +1,22 @@
+T1	AAUTHOR 52 60	Aristote
+T2	REFAUWORK 162 170	(Meteor.
+T3	REFSCOPE 171 179	3, 2-5),
+T4	AWORK 357 370	« De l' âme »
+T5	AWORK 379 416	« De la sensation et des sensibles ».
+T6	AAUTHOR 670 679	Aristote.
+T7	AWORK 711 730	« Météorologiques »
+T8	AAUTHOR 731 742	d' Aristote
+T9	AWORK 746 760	l' « Optique »
+T10	AWORK 767 782	« Catoptrique »
+T11	AAUTHOR 783 794	d' Euclide.
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:766.1654:3.2-3.5
+#1	AnnotatorNotes T8	urn:cts:greekLit:tlg0086
+#2	AnnotatorNotes T9	urn:cts:cwkb:861.8107
+#3	AnnotatorNotes T6	urn:cts:greekLit:tlg0086
+#4	AnnotatorNotes T7	urn:cts:cwkb:766.1654
+#5	AnnotatorNotes T4	urn:cts:cwkb:766.1642
+#6	AnnotatorNotes T5	urn:cts:cwkb:766.1640
+#7	AnnotatorNotes T1	urn:cts:greekLit:tlg0086
+#8	AnnotatorNotes T10	urn:cts:cwkb:861.2274
+#9	AnnotatorNotes T11	urn:cts:greekLit:tlg1799

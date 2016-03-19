@@ -1,0 +1,36 @@
+T1	AWORK 61 79	« Passio Felicis »
+T2	REFAUWORK 80 86	(carm.
+T3	REFSCOPE 87 90	15,
+T4	REFSCOPE 94 100	et 18)
+T5	AAUTHOR 104 118	Paulin de Nole
+T6	AWORK 125 143	« Passio Agnetis »
+T7	REFAUWORK 144 152	(Perist.
+T8	REFSCOPE 153 156	14)
+T9	AAUTHOR 193 201	Prudence
+T10	AAUTHOR 215 221	Paulin
+T11	AAUTHOR 269 275	Paulin
+T12	REFAUWORK 283 288	carm.
+T13	REFSCOPE 289 292	18,
+T14	AAUTHOR 316 324	Prudence
+T15	REFAUWORK 336 343	Perist.
+T16	REFSCOPE 344 346	14
+T17	AAUTHOR 160 168	Prudence
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+R3	Scope Arg1:T7 Arg2:T8
+R4	Scope Arg1:T12 Arg2:T13
+R5	Scope Arg1:T15 Arg2:T16
+#0	AnnotatorNotes R4	urn:cts:cwkb:2746.8743:18
+#1	AnnotatorNotes R5	urn:cts:cwkb:2755.8765:14
+#2	AnnotatorNotes R1	urn:cts:cwkb:2746.8743:15
+#3	AnnotatorNotes R2	urn:cts:cwkb:2746.8743:18
+#4	AnnotatorNotes R3	urn:cts:cwkb:2755.8765:14
+#5	AnnotatorNotes T9	urn:cts:cwkb:2755
+#7	AnnotatorNotes T5	urn:cts:cwkb:2746
+#9	AnnotatorNotes T14	urn:cts:cwkb:2755
+#10	AnnotatorNotes T17	urn:cts:cwkb:2755
+#11	AnnotatorNotes T10	urn:cts:cwkb:2746
+#12	AnnotatorNotes T11	urn:cts:cwkb:2746
+T18	REFSCOPE 91 93	16
+R6	Scope Arg1:T2 Arg2:T18	
+#8	AnnotatorNotes R6	urn:cts:cwkb:2746.8743:16

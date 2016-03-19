@@ -1,0 +1,16 @@
+T1	REFAUWORK 82 86	Aen.
+T2	REFSCOPE 87 88	3
+T3	AAUTHOR 92 105	Callimachus '
+T4	AWORK 106 116	« Aetia ».
+T5	AAUTHOR 247 256	Vergil 's
+T6	REFSCOPE 278 284	3, 702
+T7	REFSCOPE 449 460	3, 707-710.
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:3
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0690.phi003:3.702
+#2	AnnotatorNotes T4	urn:cts:cwkb:789.1882
+#3	AnnotatorNotes T5	urn:cts:latinLit:phi0690
+#4	AnnotatorNotes T3	urn:cts:greekLit:tlg0533
+R3	Scope Arg1:T5 Arg2:T7	
+#5	AnnotatorNotes R3	urn:cts:latinLit:phi0690.phi003:3.707-3.710
