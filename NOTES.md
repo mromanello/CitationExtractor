@@ -33,7 +33,7 @@ class relation_extractor:
         """
         todo
         """
-        training = [(file.replace(".ann",""),train_dir) for dir in train_dir 
+        training = [(file.replace(".ann",""),train_dir) for dir in train_dirs 
                         for file in glob.glob("%s*.ann"%dir)]
         training_instances = [prepare_for_training(doc_id,base_dir) 
                                         for doc_id,based_dir in doc_ids]
