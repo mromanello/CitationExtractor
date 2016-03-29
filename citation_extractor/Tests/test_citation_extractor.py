@@ -23,6 +23,10 @@ def crf_citation_extractor(tmpdir):
 	crf.LOG_FILE = "%s/extractor.log"%crf.TEMP_DIR
 	return pipeline.get_extractor(crf)
 def test_pickle_crf_citation_extractor(crf_citation_extractor):
+	"""
+	Make sure that instances of `citation_extractor` can be pickled (important 
+		for parallel processing!)
+	"""
 	# try to pickle the extractor
 	data = pickle.dumps(crf_citation_extractor) 
 	# now unpickle it
@@ -33,7 +37,5 @@ def test_pickle_crf_citation_extractor(crf_citation_extractor):
 	instances = [[token[0] for token in instance] for instance in test if len(instance)>0]
 	crf_citation_extractor.extract(instances,postags)
 	unpickled_extractor.extract(instances,postags)
-def test_multiprocessing_crf_citation_extractor(crf_citation_extractor):
-	pass
 
 

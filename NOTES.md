@@ -2,10 +2,7 @@ where I left: try to provide the module with minimum data and directory structur
 
 ## Tests
 
-* use `py.test` to run the tests
-* combine standlone and doctests, depending from the context
 * [testing good practices](http://pytest.org/latest/goodpractises.html)
-* <https://pytest.org/latest/getting-started.html>
 
 ## Distributing the package
 
@@ -52,10 +49,18 @@ class relation_extractor:
                 relations.append((arg1,arg2,label))
         return relations
 
-* when detecting relations it is necessary to compare all pairs of entities
-* to find all unique pairs (combinations) in a list with python:
+## Notes to improve the Named Entity Disambiguation
 
-    import itertools
-    my_list = [1,2,3,4]
-    for p in itertools.combinations(my_list,2):
-        print p
+### Code
+
+* improve the logging
+* test that the code can be parallelised
+
+### Logic
+
+* instead of disambiguating relations first and then entities
+* try to do that by following the sequence of the document
+* get all the annotations for a given document, ordered as they appear...
+* ... then proceed to disambiguate each annotation, using the annotation type to call appropriate function/method
+* this way, neighbouring entity mentions can be used to help with the disambiguation of relations
+
