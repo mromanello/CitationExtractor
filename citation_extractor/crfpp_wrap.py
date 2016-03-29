@@ -77,8 +77,6 @@ class CRF_classifier:
 		   logger.debug("%s => %s (%s)"%(res["token"].decode("utf-8"),res["label"].decode("utf-8"),str(res["probs"][res["label"]]['prob'])))
 		   out.append(res)
 		return out
-	
-
 if __name__ == "__main__":
     # crf_learn -t /56k/phd/code/python/crfx.tpl /56k/phd/code/python/doc1.train /56k/phd/code/python/crfx.mdl
     train_crfpp("/56k/phd/code/python/crfx.tpl","/56k/phd/code/python/doc1.train","/56k/phd/code/python/eval/new.mdl")

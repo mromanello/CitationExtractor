@@ -1,6 +1,8 @@
 * move `crfpp_templates` to the `data` directory
 * re-organise the logging
 * in `process.preproc_document` replace `guess_language` with `langid` library as it seems way more accurate (!!)
+* https://docs.python.org/2/library/pkgutil.html#pkgutil.get_data
+    * `get_resource_filename` and `resource_isdir()`
 
 ## Code Refactoring
 
@@ -8,6 +10,7 @@
 ~~* rename `process` -> `pipeline`~~
 * move active learning classes to a separate module
 ~~* in the `settings.base_settings` replace absolute paths with use of `pkg_resources`:~~
+>>>>>>> 50b3d56ee26142cac9842b2a3ad49bd14de4e602
 
     pkg_resources.resource_filename('citation_extractor','data/authors.csv')
 

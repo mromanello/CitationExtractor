@@ -23,4 +23,22 @@ def test_read_ann_file_new():
 		for annotation in annotations:
 			assert (relations.has_key(annotation["anchor"]) or entities.has_key(annotation["anchor"])) 
 def test_preprocessing():
-	pass
+	"""
+	TODO
+	"""
+	return
+def test_do_ned():
+	"""
+	TODO
+	"""
+	return
+def test_do_ner():
+	"""
+	TODO
+	"""
+	return
+def test_do_relex():
+	"""
+	TODO
+	"""
+	return
