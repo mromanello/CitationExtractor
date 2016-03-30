@@ -1,0 +1,3 @@
+T1	AAUTHOR 20 30	Cassiodore
+T2	AWORK 66 76	« Variae »
+R1	authorOf Arg1:T1 Arg2:T2	

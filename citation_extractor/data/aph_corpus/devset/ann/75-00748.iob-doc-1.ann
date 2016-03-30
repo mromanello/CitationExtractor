@@ -1,0 +1,4 @@
+T1	REFAUWORK 100 103	Il.
+T2	REFSCOPE 104 115	11, 632-637
+R1	Scope Arg1:T1 Arg2:T2	
+#1	AnnotatorNotes R1	http://cwkb.webfactional.com/cwkb/works/2815/11.632-11.637
