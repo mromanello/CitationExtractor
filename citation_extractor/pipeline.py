@@ -370,7 +370,6 @@ def extract_relationships(entities):
 				rel_id = "R%s"%(len(relations.keys())+1)
 				relations[rel_id] = (arg1,arg2)
 				print "Detected relation %s"%str(relations[rel_id])
-
 	return relations
 def extract_relationships_old(doc_tree):
 	"""
