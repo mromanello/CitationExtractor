@@ -1,0 +1,7 @@
+Dans le cadre du « Projet de recherche en lexicologie grecque » mené depuis 1991 à l' Institut orientaliste de l' Université de Louvain-la-Neuve.
+Bibliographie.
+Définition du projet.
+Principes formels de lemmatisation.
+Principes morpho-syntaxiques et sémantiques : distinction des lemmes homographes.
+Principes de lemmatisation liés à la classe morphosyntaxique des mots.
+Principes liés au statut lexical des lemmes

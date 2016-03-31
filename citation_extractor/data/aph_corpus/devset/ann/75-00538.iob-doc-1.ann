@@ -1,0 +1,3 @@
+T1	AWORK 77 95	Athenaion politeia
+T2	REFSCOPE 96 101	21-22
+R1	Scope Arg1:T1 Arg2:T2	

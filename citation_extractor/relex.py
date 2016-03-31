@@ -4,12 +4,14 @@
 import logging
 import codecs
 import itertools
+import pkg_resources
 from citation_extractor.pipeline import read_ann_file_new
+from nltk.classify.scikitlearn import SklearnClassifier
 
 global logger
 logger = logging.getLogger(__name__)
 
-def prepare_for_training(doc_id, basedir):
+def prepare_for_training(doc_id, basedir,output_class_label=True):
 	"""
 
 	Generate tagged instances for the task of relation extraction from a given document.
@@ -44,6 +46,8 @@ def prepare_for_training(doc_id, basedir):
 		]
 	]
 	"""
+	positive_label = "scope_pos"
+	negative_label = "scope_neg"
 	instances = []
 	entities, relations, annotations = read_ann_file_new(doc_id, basedir)
 	fulltext = codecs.open("%s%s-doc-1.txt"%(basedir,doc_id),'r','utf-8').read()
@@ -55,27 +59,35 @@ def prepare_for_training(doc_id, basedir):
 		for relation in itertools.combinations(entity_ids,2):
 			is_positive_instance = relation in relation_list
 			if(is_positive_instance):
-				class_label = "scope_pos"
+				class_label = positive_label
 			else:
-				class_label = "scope_neg"
+				class_label = negative_label
 			features = extract_relation_features(relation[0],relation[1],entities,fulltext)
-			if(is_positive_instance):
-				instances.append([features,class_label])
+			if(output_class_label):
+				if(is_positive_instance):
+					instances.append([features,class_label])
+				else:
+					instances.append([features,class_label])
+				logger.info("[%s] Features for %s %s (%s-%s): %s"%(class_label,entities[relation[0]]["surface"],entities[relation[1]]["surface"],relation[0],relation[1],features))
 			else:
-				instances.append([features,class_label])
-			logger.info("[%s] Features for %s %s (%s-%s): %s"%(class_label,entities[relation[0]]["surface"],entities[relation[1]]["surface"],relation[0],relation[1],features))
+				instances.append(features)
+				logger.info("Features for %s %s (%s-%s): %s"%(entities[relation[0]]["surface"],entities[relation[1]]["surface"],relation[0],relation[1],features))
 			# now reverse the arguments...
 			is_positive_instance = (relation[1],relation[0]) in relation_list
 			if(is_positive_instance):
-				class_label = "scope_pos"
+				class_label = positive_label
 			else:
-				class_label = "scope_neg"
+				class_label = negative_label
 			features = extract_relation_features(relation[1],relation[0],entities,fulltext)
-			if(is_positive_instance):
-				instances.append([features,class_label])
+			if(output_class_label):
+				if(is_positive_instance):
+					instances.append([features,class_label])
+				else:
+					instances.append([features,class_label])
+				logger.info("[%s] Features for %s %s (%s-%s): %s"%(class_label,entities[relation[1]]["surface"],entities[relation[0]]["surface"],relation[1],relation[0],features))
 			else:
-				instances.append([features,class_label])
-			logger.info("[%s] Features for %s %s (%s-%s): %s"%(class_label,entities[relation[1]]["surface"],entities[relation[0]]["surface"],relation[1],relation[0],features))
+				instances.append(features)
+				logger.info("Features for %s %s (%s-%s): %s"%(entities[relation[0]]["surface"],entities[relation[1]]["surface"],relation[0],relation[1],features))
 	return instances
 def extract_relation_features(arg1,arg2,entities,fulltext):
 	"""
@@ -157,8 +169,43 @@ def extract_relation_features(arg1,arg2,entities,fulltext):
 	features["word_before_arg2"],features["word_after_arg2"] = get_word_before_after(entities[arg2],fulltext)
 	return features
 class relation_extractor(object):
-	"""docstring for relation_extractor"""
-	def __init__(self, classifier, training_directories):
-		pass
+	"""
+	TODO: finish implementation
+	"""
+	def __init__(self, classifier, training_files):
+		self._training_files = training_files
+		self._classifier = SklearnClassifier(classifier) # TODO: handle sparseness of training data
+		train_data = reduce(lambda x, y: x+y,[prepare_for_training(file,dir) for dir,file in self._training_files])
+		try:
+			logger.info(self._classifier.train(train_data))
+		except Exception, e:
+			raise e
+		return
+	def __repr__(self):
+	        class_name = self.__class__.__name__
+	        return '%s(classifier=%s,n_training_files=%s)' % (class_name, self._classifier,len(self._training_files))
 	def extract(self,entities,fulltext):
-		pass
+		"""
+		Returns a dictionary like
+		{
+		"R1": (T1,T2)
+		}
+
+		"""
+		relations = {}
+		entity_ids = [entities[entity]["ann_id"] for entity in entities]
+		for relation in itertools.combinations(entity_ids,2):
+			arg1 = relation[0]
+			arg2 = relation[1]
+			feature_set = extract_relation_features(arg1,arg2,entities,fulltext)
+			label = self._classifier.classify(feature_set)
+			if(label=="scope_pos"):
+				relations["R%s"%(len(relations.keys())+1)] = (arg1,arg2)
+			# now reverse the arguments
+			arg1 = relation[1]
+			arg2 = relation[0]
+			feature_set = extract_relation_features(arg1,arg2,entities,fulltext)
+			label = self._classifier.classify(feature_set)
+			if(label=="scope_pos"):
+				relations["R%s"%(len(relations.keys())+1)] = (arg1,arg2)
+		return relations

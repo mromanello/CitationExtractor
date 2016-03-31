@@ -1,0 +1,1 @@
+Suite à des articles antérieurs (=> 74-08869 et 74-08870), description du prototype OLISSIPO, projet exécuté par le Centro de Estudos classicos (Université de Lisbonne) et l' istituto di Linguistica Computazionale (Consiglio Nazionale della Ricerche, à Pise), qui vise à produire un instrument pour l' analyse statistique du vocabulaire de base du latin
