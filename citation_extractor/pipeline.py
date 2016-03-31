@@ -704,6 +704,6 @@ def do_relex(doc_id,inp_dir,clean_relations=False):
 		return (doc_id,True,({"n_entities":len(entities),"n_relations":len(relations)}))
 	except Exception, e:
 		logger.error("The RelationExtraction from document %s failed with error \"%s\""%(doc_id,e))
-		return (doc_id,False)
+		return (doc_id,False,{})
 	finally:
 		logger.info("Finished processing document \"%s\""%doc_id)
