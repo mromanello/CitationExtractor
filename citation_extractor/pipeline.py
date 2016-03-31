@@ -701,7 +701,7 @@ def do_relex(doc_id,inp_dir,clean_relations=False):
 		    logger.debug("%s %s -> %s"%(r,entities[relations[r][0]][1],entities[relations[r][1]][1]))
 		if(len(relations)>0):
 			save_scope_relationships(doc_id,inp_dir,relations,entities)
-		return (doc_id,True)
+		return (doc_id,True,({"n_entities":len(entities),"n_relations":len(relations)}))
 	except Exception, e:
 		logger.error("The RelationExtraction from document %s failed with error \"%s\""%(doc_id,e))
 		return (doc_id,False)
