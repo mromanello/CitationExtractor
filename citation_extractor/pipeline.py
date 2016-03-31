@@ -369,7 +369,7 @@ def extract_relationships(entities):
 			if(arg1 is not None):
 				rel_id = "R%s"%(len(relations.keys())+1)
 				relations[rel_id] = (arg1,arg2)
-				print "Detected relation %s"%str(relations[rel_id])
+				logger.debug("Detected relation %s"%str(relations[rel_id]))
 
 	return relations
 def extract_relationships_old(doc_tree):
@@ -440,7 +440,7 @@ def save_scope_relationships(fileid, ann_dir, relations, entities):
 			f.write("\n")
 		f.write(result)
 		f.close()
-		print >> sys.stderr,"Written %i relations to%s"%(len(relations),ann_file)
+		logger.info("Written %i relations to %s"%(len(relations),ann_file))
 	except Exception, e:
 		raise e
 	return result
@@ -691,13 +691,19 @@ def do_ned(doc_id,inp_dir,citation_matcher,clean_annotations=False,relation_matc
 	save_scope_annotations(doc_id,inp_dir,annotations)
 	return annotations
 def do_relex(doc_id,inp_dir,clean_relations=False):
-	entities, relations, disambiguations = read_ann_file(doc_id,inp_dir)
-	logger.info("%s: %i entities; %i relations; %i disambiguations"%(doc_id,len(entities),len(relations),len(disambiguations)))
-	if(clean_relations):
-		clean_relations_annotation(doc_id,inp_dir,entities)
-	relations = extract_relationships(entities)
-	for r in relations:
-	    logger.debug("%s %s -> %s"%(r,entities[relations[r][0]][1],entities[relations[r][1]][1]))
-	if(len(relations)>0):
-		save_scope_relationships(doc_id,inp_dir,relations,entities)
-	return entities,relations
+	try:
+		entities, relations, disambiguations = read_ann_file(doc_id,inp_dir)
+		logger.info("%s: %i entities; %i relations; %i disambiguations"%(doc_id,len(entities),len(relations),len(disambiguations)))
+		if(clean_relations):
+			clean_relations_annotation(doc_id,inp_dir,entities)
+		relations = extract_relationships(entities)
+		for r in relations:
+		    logger.debug("%s %s -> %s"%(r,entities[relations[r][0]][1],entities[relations[r][1]][1]))
+		if(len(relations)>0):
+			save_scope_relationships(doc_id,inp_dir,relations,entities)
+		return (doc_id,True)
+	except Exception, e:
+		logger.error("The RelationExtraction from document %s failed with error \"%s\""%(doc_id,e))
+		return (doc_id,False)
+	finally:
+		logger.info("Finished processing document \"%s\""%doc_id)
