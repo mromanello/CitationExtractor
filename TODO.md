@@ -21,11 +21,12 @@
 
 ## Testing
 
-* use py.test [doku](http://pytest.org/latest/pytest.pdf)
-* what to test
+
+* write tests for:
     * ~~creating and running a citation extractor~~
     * ~~test whether the `citation_extractor` can be pickled~~
     * use of the several classifiers (not only CRF) i.e. scikitlearnadapter
     * test that the ActiveLearner still works
+* ~~use py.test [doku](http://pytest.org/latest/pytest.pdf)~~
 
 
