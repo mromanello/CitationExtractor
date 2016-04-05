@@ -1,0 +1,32 @@
+@prefix CRM: <http://erlangen-crm.org/current/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://127.0.0.1:8000/cwkb/works/1096> a <http://erlangen-crm.org/efrbroo/F1_Work>;
+    CRM:P2_has_type <http://127.0.0.1:8000/cwkb/types#opusmaximum> .
+
+<http://127.0.0.1:8000/cwkb/works/1115> a <http://erlangen-crm.org/efrbroo/F1_Work>;
+    CRM:P2_has_type <http://127.0.0.1:8000/cwkb/types#opusmaximum> .
+
+<http://127.0.0.1:8000/cwkb/works/1367> a <http://erlangen-crm.org/efrbroo/F1_Work>;
+    CRM:P2_has_type <http://127.0.0.1:8000/cwkb/types#opusmaximum> .
+
+<http://127.0.0.1:8000/cwkb/works/2691> a <http://erlangen-crm.org/efrbroo/F1_Work>;
+    CRM:P2_has_type <http://127.0.0.1:8000/cwkb/types#opusmaximum> .
+
+<http://127.0.0.1:8000/cwkb/works/3998> a <http://erlangen-crm.org/efrbroo/F1_Work>;
+    CRM:P2_has_type <http://127.0.0.1:8000/cwkb/types#opusmaximum> .
+
+<http://127.0.0.1:8000/cwkb/works/8028> a <http://erlangen-crm.org/efrbroo/F1_Work>;
+    CRM:P2_has_type <http://127.0.0.1:8000/cwkb/types#opusmaximum> .
+
+<http://127.0.0.1:8000/cwkb/works/858> a <http://erlangen-crm.org/efrbroo/F1_Work>;
+    CRM:P2_has_type <http://127.0.0.1:8000/cwkb/types#opusmaximum> .
+
+<http://127.0.0.1:8000/cwkb/works/9086> a <http://erlangen-crm.org/efrbroo/F1_Work>;
+    CRM:P2_has_type <http://127.0.0.1:8000/cwkb/types#opusmaximum> .
+
+<http://127.0.0.1:8000/cwkb/types#opusmaximum> a CRM:E55_Type;
+    rdfs:label """The opux maximum of a given author:
+					hat is, the only preserved work by that
+					author or the most known one""" .
+
