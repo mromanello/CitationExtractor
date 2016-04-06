@@ -6,6 +6,7 @@ from citation_parser import CitationParser
 from operator import itemgetter
 import nltk
 import sys
+from pyCTS import CTS_URN
 
 global logger
 logger = logging.getLogger(__name__)
