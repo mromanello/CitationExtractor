@@ -670,25 +670,31 @@ def do_ner(doc_id,inp_dir,interm_dir,out_dir,extractor,so2iob_script):
 		logger.info("Finished processing document \"%s\""%doc_id)
 	return
 def do_ned(doc_id,inp_dir,citation_matcher,clean_annotations=False,relation_matching_distance_threshold=3,relation_matching_approx=True,entity_matching_distance_minthreshold=1,entity_matching_distance_maxthreshold=4):
-	if(clean_annotations):
-		remove_all_annotations(doc_id,inp_dir)
-	entities, relations, disambiguations = read_ann_file(doc_id,inp_dir)
-	annotations = []
-	# match relations
-	if relations > 0:
-		if(relation_matching_approx):
-			logger.debug("Fuzzy matching of relations: threshold = %i"%relation_matching_distance_threshold)
-			annotations += disambiguate_relations(citation_matcher,relations,entities,doc_id,fuzzy=True,distance_threshold=relation_matching_distance_threshold,fill_nomatch_with_bogus_urn=False,)
+	try:
+		if(clean_annotations):
+			remove_all_annotations(doc_id,inp_dir)
+		entities, relations, disambiguations = read_ann_file(doc_id,inp_dir)
+		annotations = []
+		# match relations
+		if relations > 0:
+			if(relation_matching_approx):
+				logger.debug("Fuzzy matching of relations: threshold = %i"%relation_matching_distance_threshold)
+				annotations += disambiguate_relations(citation_matcher,relations,entities,doc_id,fuzzy=True,distance_threshold=relation_matching_distance_threshold,fill_nomatch_with_bogus_urn=False,)
+			else:
+				logger.debug("Exact matching of relations")
+				annotations += disambiguate_relations(citation_matcher,relations,entities,doc_id,fill_nomatch_with_bogus_urn=False)
 		else:
-			logger.debug("Exact matching of relations")
-			annotations += disambiguate_relations(citation_matcher,relations,entities,doc_id,fill_nomatch_with_bogus_urn=False)
-	else:
-		logger.info("No relations found.")
-    # match entities
-	logger.debug("Fuzzy matching of entities: threshold > %i, < %i"%(entity_matching_distance_minthreshold,entity_matching_distance_maxthreshold))
-	annotations += disambiguate_entities(citation_matcher,entities,doc_id,min_distance_threshold=entity_matching_distance_minthreshold,max_distance_threshold=entity_matching_distance_maxthreshold)
-	logger.debug(annotations)
-	save_scope_annotations(doc_id,inp_dir,annotations)
+			logger.info("No relations found.")
+	    # match entities
+		logger.debug("Fuzzy matching of entities: threshold > %i, < %i"%(entity_matching_distance_minthreshold,entity_matching_distance_maxthreshold))
+		annotations += disambiguate_entities(citation_matcher,entities,doc_id,min_distance_threshold=entity_matching_distance_minthreshold,max_distance_threshold=entity_matching_distance_maxthreshold)
+		logger.debug(annotations)
+		save_scope_annotations(doc_id,inp_dir,annotations)
+	except Exception, e:
+		logger.error("The NED of document %s failed with error \"%s\""%(doc_id,e))
+		return (doc_id,False)
+	finally:
+		logger.info("Finished processing document \"%s\""%doc_id)
 	return annotations
 def do_relex(doc_id,inp_dir,clean_relations=False):
 	try:
