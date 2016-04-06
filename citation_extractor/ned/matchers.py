@@ -4,6 +4,8 @@
 import logging
 from citation_parser import CitationParser
 from operator import itemgetter
+import nltk
+import sys
 
 global logger
 logger = logging.getLogger(__name__)
