@@ -690,12 +690,12 @@ def do_ned(doc_id,inp_dir,citation_matcher,clean_annotations=False,relation_matc
 		annotations += disambiguate_entities(citation_matcher,entities,doc_id,min_distance_threshold=entity_matching_distance_minthreshold,max_distance_threshold=entity_matching_distance_maxthreshold)
 		logger.debug(annotations)
 		save_scope_annotations(doc_id,inp_dir,annotations)
+		return (doc_id,True,len(annotations))
 	except Exception, e:
 		logger.error("The NED of document %s failed with error \"%s\""%(doc_id,e))
-		return (doc_id,False)
+		return (doc_id,False,None)
 	finally:
 		logger.info("Finished processing document \"%s\""%doc_id)
-	return annotations
 def do_relex(doc_id,inp_dir,clean_relations=False):
 	try:
 		entities, relations, disambiguations = read_ann_file(doc_id,inp_dir)
