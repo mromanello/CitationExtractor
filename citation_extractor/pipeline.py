@@ -545,6 +545,7 @@ def disambiguate_relations(citation_matcher,relations,entities,docid,fuzzy=False
 	        logger.debug("Disambiguated relation %s as %s"%(tmp[1],tmp[2]))
 	        result.append(tmp)
 	    except Exception, e: # TODO: be more precise about the Exception
+	    	logger.error(e)
 	    	normalized_scope = scope
 	    	try:
 	    		normalized_scope = citation_matcher._citation_parser.parse(scope)
