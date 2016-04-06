@@ -7,6 +7,7 @@ from operator import itemgetter
 import nltk
 import sys
 from pyCTS import CTS_URN
+from kb import DisambiguationNotFound
 
 global logger
 logger = logging.getLogger(__name__)
