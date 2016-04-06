@@ -541,8 +541,10 @@ def disambiguate_relations(citation_matcher,relations,entities,docid,fuzzy=False
 	    scope = scope_cleaned
 	    try:
 	        urn = citation_matcher.disambiguate(citation_string,scope,fuzzy=fuzzy,distance_threshold=distance_threshold,cleanup=True)[0]
-	        result.append((relation,"%s %s"%(citation_string,scope),urn))
-	    except Exception, e:
+	        tmp = (relation,"%s %s"%(citation_string,scope),urn)
+	        logger.debug("Disambiguated relation %s as %s"%(tmp[1],tmp[2]))
+	        result.append(tmp)
+	    except Exception, e: # TODO: be more precise about the Exception
 	    	normalized_scope = scope
 	    	try:
 	    		normalized_scope = citation_matcher._citation_parser.parse(scope)
@@ -586,7 +588,7 @@ def disambiguate_entities(citation_matcher,entities,docid,min_distance_threshold
 		entity_type = entities[entity][0]
 		string = entities[entity][1].encode("utf-8")
 		cleaned_string = re.sub(regex_clean_string,"",string)
-		print >> sys.stderr, "String cleaning: from \'%s\' to \'%s\'"%(string,cleaned_string)
+		#print >> sys.stderr, "String cleaning: from \'%s\' to \'%s\'"%(string,cleaned_string)
 		string = cleaned_string
 		if entity_type == "AAUTHOR":
 			matches = citation_matcher.matches_author(string,True,distance_threshold)
