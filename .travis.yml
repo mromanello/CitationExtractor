@@ -9,6 +9,8 @@ install:
   - sudo ./install_dependencies.sh
   - sudo chmod 777 -R crfpp
   - cd crfpp/
+  - export C_INCLUDE_PATH=/usr/local/include/:${C_INCLUDE_PATH}
+  - export CPLUS_INCLUDE_PATH=/usr/local/include/:${CPLUS_INCLUDE_PATH}
   - "pip install -e python"
   - cd ../
   - "pip install -e lib/"
