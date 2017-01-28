@@ -8,8 +8,10 @@ before_install:
 install:
   - sudo ./install_dependencies.sh
   - sudo chmod 777 -R crfpp
-  - "pip install -e crfpp/python"
+  - cd crfpp/
+  - "pip install -e python"
+  - cd ../
   - "pip install -e lib/"
-  - "pip install -U -r requirements.txt"
+  #- "pip install -U -r requirements.txt"
 # command to run tests
 script: pytest
