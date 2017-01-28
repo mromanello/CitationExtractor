@@ -174,7 +174,6 @@ def annotations2references(doc_id, directory, kb):
 			annotations.append(annotation)
 		except Exception as e:
 			logger.error("The annotations %s raised an error: %s"%(annotation,e))
-			#raise e
 	logger.info("Read %i annotations from file %s%s"%(len(annotations), directory, doc_id))
 	return annotations
 
