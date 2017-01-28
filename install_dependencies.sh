@@ -10,5 +10,5 @@ sed -i '/#include "winmain.h"/d' crf_learn.cpp
 make install
 make clean
 ldconfig
-rm -fr ../crfpp
+#rm -fr ../crfpp
 
