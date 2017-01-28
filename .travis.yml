@@ -7,6 +7,7 @@ before_install:
   - sudo apt-get install gfortran libopenblas-dev liblapack-dev
 install:
   - sudo ./install_dependencies.sh
+  - sudo chmod 777 -R crfpp
   - "pip install -e crfpp/python"
   - "pip install -e lib/"
   - "pip install -U -r requirements.txt"
