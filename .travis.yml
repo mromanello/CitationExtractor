@@ -2,8 +2,12 @@ language: python
 python:
   - "2.7"
 # command to install dependencies
+before_install:
+  - sudo apt-get update --fix-missing
+  - sudo apt-get install gfortran libopenblas-dev liblapack-dev
 install:
+  - "sudo ./i"
   - "pip install -e lib/"
-  - "pip install -r requirements.txt"
+  - "pip install -U -r requirements.txt"
 # command to run tests
 script: pytest
