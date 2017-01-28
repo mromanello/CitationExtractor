@@ -5,6 +5,7 @@ python:
 before_install:
   - sudo apt-get update --fix-missing
   - sudo apt-get install gfortran libopenblas-dev liblapack-dev
+  - sudo apt-get remove automake
 install:
   - sudo ./install_dependencies.sh
   - sudo chmod 777 -R crfpp
