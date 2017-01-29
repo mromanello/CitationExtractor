@@ -5,7 +5,7 @@ import CRFPP
 import codecs
 import sys,pprint,re,string,logging
 from citation_extractor.crfpp_wrap import CRF_classifier
-import knowledge_base
+#import knowledge_base
 import citation_extractor
 from miguno.partitioner import *
 from miguno.crossvalidationdataconstructor import *
@@ -176,7 +176,6 @@ def annotations2references(doc_id, directory, kb):
 			logger.error("The annotations %s raised an error: %s"%(annotation,e))
 	logger.info("Read %i annotations from file %s%s"%(len(annotations), directory, doc_id))
 	return annotations
-
 def init_logger(log_file=None, loglevel=logging.DEBUG):
 	"""
 	Initialise the logger
