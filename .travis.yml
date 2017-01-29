@@ -16,7 +16,6 @@ install:
   - cd ../
   - "pip install -e lib/"
   - "pip install -U -r requirements.txt"
-  - cd 
   - pip install .
 # command to run tests
 script: pytest
