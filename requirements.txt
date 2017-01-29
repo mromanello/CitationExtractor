@@ -3,8 +3,5 @@ git+https://github.com/miotto/treetagger-python.git#egg=miotto-treetagger-python
 nltk>=3.0.4
 numpy>=1.9.2
 scipy>=0.17.0
-pandas>=0.16.2
 python-dateutil==2.4.2
 scikit-learn>=0.16.1
-rdflib==3.2.1
-rdfextras
