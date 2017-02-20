@@ -13,6 +13,7 @@ from citation_extractor.ned import CitationMatcher
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+
 @fixture
 def knowledge_base():
 	"""
@@ -23,6 +24,8 @@ def knowledge_base():
 	kb = KnowledgeBase(files,"turtle")
 	logger.info("The KnowledgeBase %s was initialised"%kb)
 	return kb
+
+
 def test_pickle_kb(knowledge_base):
 	"""
 	Tests whether instances of `KnowledgeBase` can be pickled.
@@ -30,6 +33,8 @@ def test_pickle_kb(knowledge_base):
 	pickled_kb = pickle.dumps(knowledge_base)
 	unpickled_kb = pickle.loads(pickled_kb)
 	logger.info("The KnowledgeBase contains %i author names"%len(unpickled_kb.author_names))
+
+
 def test_pickle_citation_matcher(knowledge_base):
 	"""
 	Tests whether instances of `CitationMatcher` (and contained objects) can be pickled.
@@ -37,3 +42,11 @@ def test_pickle_citation_matcher(knowledge_base):
 	cm = CitationMatcher(knowledge_base)
 	pickled_citation_matcher = pickle.dumps(cm)
 	unpickled_citation_matcher = pickle.loads(pickled_citation_matcher)
+
+
+def test_dummy(knowledge_base):
+	"""
+	Dummy test...
+	"""
+	ml_cm = MLCitationMatcher()
+	ml_cm.disambiguate('Hello', '1.2.3')
