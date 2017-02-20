@@ -46,7 +46,7 @@ def test_pickle_citation_matcher(knowledge_base):
 
 def test_dummy(knowledge_base):
 	"""
-	Dummy test...
+	Dummy test..
 	"""
 	ml_cm = MLCitationMatcher()
 	ml_cm.disambiguate('Hello', '1.2.3')
