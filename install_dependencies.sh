@@ -53,5 +53,4 @@ pip install .
 cd
 git clone https://github.com/mromanello/CitationParser.git
 cd CitationParser
-pip install -r requirements.txt
-pip install .
+python setup.py install
