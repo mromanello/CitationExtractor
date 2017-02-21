@@ -1,6 +1,7 @@
 citation-extractor-dependencies==0.0.0
 git+https://github.com/miotto/treetagger-python.git#egg=miotto-treetagger-python
 https://github.com/mromanello/pyCTS/archive/master.zip
+https://github.com/mromanello/CitationParser/archive/master.zip
 rdflib==4.2.1
 nltk>=3.0.4
 numpy>=1.9.2
