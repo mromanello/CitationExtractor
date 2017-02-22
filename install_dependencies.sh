@@ -52,10 +52,13 @@ pip install .
 # INSTALL CitationParser #
 ##########################
 
+cd
 git clone https://github.com/mromanello/CitationParser.git
 cd CitationParser/
 pip install wheel
 pip wheel --wheel-dir ../ -r requirements.txt
 pip install -r requirements.txt
 pip install .
+
+ll ./
 
