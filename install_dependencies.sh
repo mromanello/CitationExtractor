@@ -39,11 +39,4 @@ wget http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/spanish-chunke
 chmod +x install-tagger.sh 
 ./install-tagger.sh
 rm *.gz
-####################
-# INSTALL HUCIT KB #
-####################
-cd
-git clone https://github.com/mromanello/hucit_kb.git
-cd hucit_kb
-pip install -r requirements.txt
-pip install .
+

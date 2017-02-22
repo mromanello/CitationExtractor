@@ -7,15 +7,21 @@ before_install:
   - sudo apt-get install gfortran libopenblas-dev liblapack-dev
   - sudo apt-get remove automake
 install:
-  - sudo ./install_dependencies.sh
+  - sudo -H ./install_dependencies.sh
   - sudo chmod 777 -R crfpp
   - cd crfpp/
   - export C_INCLUDE_PATH=/usr/local/include/:${C_INCLUDE_PATH}
   - export CPLUS_INCLUDE_PATH=/usr/local/include/:${CPLUS_INCLUDE_PATH}
-  - "pip install -e python"
-  - cd ../
-  - "pip install -e lib/"
-  - "pip install -U -r requirements.txt"
+  - pip install -e python
+  - cd
+  - git clone https://github.com/mromanello/hucit_kb.git
+  - cd hucit_kb
+  - pip install -r requirements.txt
+  - pip install .
+  - pip install http://www.antlr3.org/download/Python/antlr_python_runtime-3.1.3.tar.gz https://github.com/mromanello/pyCTS/archive/master.zip  citation_parser
+  - cd $TRAVIS_BUILD_DIR
+  - pip install -e lib/
+  - pip install -r requirements.txt
   - pip install .
 # command to run tests
-script: pytest
+script: pytest -vv
