@@ -47,3 +47,10 @@ git clone https://github.com/mromanello/hucit_kb.git
 cd hucit_kb
 pip install -r requirements.txt
 pip install .
+
+##########################
+# INSTALL CitationParser #
+##########################
+
+pip install citation_parser
+
