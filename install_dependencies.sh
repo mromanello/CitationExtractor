@@ -52,5 +52,7 @@ pip install .
 # INSTALL CitationParser #
 ##########################
 
+pip install http://www.antlr3.org/download/Python/antlr_python_runtime-3.1.3.tar.gz
+pip install https://github.com/mromanello/pyCTS/archive/master.zip
 pip install citation_parser
 
