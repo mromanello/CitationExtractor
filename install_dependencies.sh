@@ -60,5 +60,3 @@ pip wheel --wheel-dir ../ -r requirements.txt
 pip install -r requirements.txt
 pip install .
 
-ll ./
-
