@@ -18,12 +18,7 @@ install:
   - cd hucit_kb
   - pip install -r requirements.txt
   - pip install .
-  - git clone https://github.com/mromanello/CitationParser.git
-  - cd CitationParser/
-  - pip install wheel
-  - pip wheel --wheel-dir ../ -r requirements.txt
-  - pip install -r requirements.txt
-  - pip install .
+  - pip install http://www.antlr3.org/download/Python/antlr_python_runtime-3.1.3.tar.gz https://github.com/mromanello/pyCTS/archive/master.zip  citation_parser
   - cd $TRAVIS_BUILD_DIR
   - pip install -e lib/
   - pip install -r requirements.txt
