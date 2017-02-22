@@ -10,16 +10,19 @@ import sys
 global logger
 logger = logging.getLogger(__name__)
 
+
 class DisambiguationNotFound(Exception):
     def __init__(self, message):
         Exception.__init__(self, message)
     def __str__(self):
         return repr(self.message)
+
+
 class KnowledgeBase(object):
 	"""
 	docstring for KnowledgeBase
 
-	TODO: 
+	TODO:
 	* test allegrordf to connect to an AG 3store via rdflib (hard to run AG3 locally)
 	* test mysql as backend
 
@@ -28,12 +31,12 @@ class KnowledgeBase(object):
 	>>> kb = KnowledgeBase("/Users/rromanello/Documents/APh_Corpus_GUI/cwkb/export_triples/kb-all-in-one.ttl", "turtle")
 
 	"""
-	def __init__(self,source_file=None, source_format=None, source_endpoint=None):
-		super(KnowledgeBase, self).__init__()
-		try:
+    def __init__(self, source_file=None, source_format=None, source_endpoint=None):
+        super(KnowledgeBase, self).__init__()
+        try:
 			assert source_file is not None and source_format is not None
 			self._source_file = source_file
-			self._source_format = source_format 
+			self._source_format = source_format
 			self._graph = Graph()
 			if(type(source_file) == type("string")):
 				self._graph.parse(source_file,format=source_format)
@@ -47,15 +50,17 @@ class KnowledgeBase(object):
 			self._work_abbreviations = None
 		except Exception, e:
 			raise e
-	def __getstate__(self):
+
+    def __getstate__(self):
 		"""
 		Instances of `rdflib.Graph` cannot be serialised. Thus they need to be dropped
-		when pickling 
+		when pickling
 		"""
 		odict = self.__dict__.copy()
 		del odict['_graph']
 		return odict
-	def __setstate__(self,dict):
+
+    def __setstate__(self,dict):
 		self.__dict__.update(dict)
 		self._graph = Graph()
 		if(type(self._source_file) == type("string")):
@@ -64,42 +69,47 @@ class KnowledgeBase(object):
 			for file in self._source_file:
 				self._graph.parse(file,format=self._source_format)
 			logger.info("Loaded %i triples"%len(self._graph))
-	@property
+
+    @property
 	def author_names(self):
 		if(self._author_names is not None):
 			return self._author_names
 		else:
 			self._author_names = self._fetch_author_names()
 			return self._author_names
-	@property
+
+    @property
 	def author_abbreviations(self):
 		if(self._author_abbreviations is not None):
 			return self._author_abbreviations
 		else:
 			self._author_abbreviations = self._fetch_author_abbreviations()
 			return self._author_abbreviations
-	@property
+
+    @property
 	def work_titles(self):
 		if(self._work_titles is not None):
 			return self._work_titles
 		else:
 			self._work_titles = self._fetch_work_titles()
 			return self._work_titles
-	@property
+
+    @property
 	def work_abbreviations(self):
 		if(self._work_abbreviations is not None):
 			return self._work_abbreviations
 		else:
 			self._work_abbreviations = self._fetch_work_abbreviations()
 			return self.work_abbreviations
-	def _fetch_author_names(self,to_lowercase=True):
+
+    def _fetch_author_names(self,to_lowercase=True):
 		authors_query = """
 		    PREFIX frbroo: <http://erlangen-crm.org/efrbroo/>
 			PREFIX crm: <http://erlangen-crm.org/current/>
-			PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
-			
+			PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
 			SELECT DISTINCT ?author ?label ?urnstring
-			
+
 			WHERE {
 				?author crm:P1_is_identified_by ?name .
 		        ?name a frbroo:F12_Name .
@@ -138,14 +148,15 @@ class KnowledgeBase(object):
 			for n,lang in enumerate(author_names[key]):
 				flat_author_names["%s$$%i"%(key,n+1)] = unicode(author_names[key][lang])
 		return flat_author_names
-	def _fetch_author_abbreviations(self, to_lowercase=True):
+
+    def _fetch_author_abbreviations(self, to_lowercase=True):
 		author_abbreviations_query = """
 		    PREFIX frbroo: <http://erlangen-crm.org/efrbroo/>
 			PREFIX crm: <http://erlangen-crm.org/current/>
-			PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
-			
+			PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
 			SELECT DISTINCT ?author ?label ?urnstring ?abbr
-			
+
 			WHERE {
 		        ?author crm:P1_is_identified_by ?name .
 		        ?name crm:P139_has_alternative_form ?abbrev .
@@ -183,14 +194,15 @@ class KnowledgeBase(object):
 			else:
 				print key, abbreviations[key]
 		return flat_abbreviations
-	def _fetch_work_titles(self, to_lowercase=True):
+
+    def _fetch_work_titles(self, to_lowercase=True):
 		works_query = """
 		    PREFIX frbroo: <http://erlangen-crm.org/efrbroo/>
 			PREFIX crm: <http://erlangen-crm.org/current/>
-			PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
-			
+			PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
 			SELECT DISTINCT ?work ?title ?urnstring
-			
+
 			WHERE {
 		        ?work a frbroo:F1_Work .
 		        ?work frbroo:P102_has_title ?utitle .
@@ -200,7 +212,7 @@ class KnowledgeBase(object):
 		            ?urn a crm:E42_Identifier .
 		            ?urn rdfs:label ?urnstring .
 		        }
-		    } 
+		    }
 		    ORDER BY (?work)
 
 		"""
@@ -241,14 +253,15 @@ class KnowledgeBase(object):
 			for n,lang in enumerate(work_titles[key]):
 				flat_work_titles["%s$$%i"%(key,n+1)] = unicode(work_titles[key][lang])
 		return flat_work_titles
-	def _fetch_work_abbreviations(self, to_lowercase=True):
+
+    def _fetch_work_abbreviations(self, to_lowercase=True):
 		work_abbreviations_query = """
 		    PREFIX frbroo: <http://erlangen-crm.org/efrbroo/>
 			PREFIX crm: <http://erlangen-crm.org/current/>
-			PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
-			
+			PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
 			SELECT DISTINCT ?work ?label ?urnstring ?abbr
-			
+
 			WHERE {
 		        ?work frbroo:P102_has_title ?title .
 		        ?title crm:P139_has_alternative_form ?abbrev .
@@ -285,17 +298,18 @@ class KnowledgeBase(object):
 			else:
 				print key, work_abbreviations[key]
 		return flat_work_abbreviations
-	def get_URI_by_CTS_URN(self,input_urn):
+
+    def get_URI_by_CTS_URN(self,input_urn):
 		"""
 		Takes a CTS URN as input and returns the matching URI
 		"""
 		search_query = """
 		    PREFIX frbroo: <http://erlangen-crm.org/efrbroo/>
 			PREFIX crm: <http://erlangen-crm.org/current/>
-			PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
-			
+			PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
 			SELECT ?resource_URI
-			
+
 			WHERE {
 				?resource_URI crm:P1_is_identified_by ?urn .
 				?urn a crm:E42_Identifier .
@@ -306,14 +320,15 @@ class KnowledgeBase(object):
 		# there must be only one URI match for a given URN
 		assert len(query_result)==1
 		return query_result[0][0]
-	def get_author_of(self,work_cts_urn):
+
+    def get_author_of(self,work_cts_urn):
 		search_query = """
 		PREFIX frbroo: <http://erlangen-crm.org/efrbroo/>
 		PREFIX crm: <http://erlangen-crm.org/current/>
-		PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+		PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 		PREFIX frbroo: <http://erlangen-crm.org/efrbroo/>
-		
-		SELECT ?author_urn_string	
+
+		SELECT ?author_urn_string
 		WHERE {
 			?work crm:P1_is_identified_by ?urn .
 			?urn a crm:E42_Identifier .
@@ -327,13 +342,14 @@ class KnowledgeBase(object):
 		"""%work_cts_urn
 		query_result = list(self._graph.query(search_query))
 		return query_result[0][0]
-	def get_name_of(self,author_cts_urn):
+
+    def get_name_of(self,author_cts_urn):
 		search_query = """
 		PREFIX frbroo: <http://erlangen-crm.org/efrbroo/>
 		PREFIX crm: <http://erlangen-crm.org/current/>
-		PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+		PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 		PREFIX frbroo: <http://erlangen-crm.org/efrbroo/>
-		
+
 		SELECT ?name
 		WHERE {
 	      	?author crm:P1_is_identified_by ?author_urn .
@@ -346,14 +362,15 @@ class KnowledgeBase(object):
 		"""%author_cts_urn
 		query_result = list(self._graph.query(search_query))
 		return [name[0] for name in query_result]
-	def get_title_of(self,work_cts_urn):
+
+    def get_title_of(self,work_cts_urn):
 		search_query = """
 		PREFIX frbroo: <http://erlangen-crm.org/efrbroo/>
 			PREFIX crm: <http://erlangen-crm.org/current/>
-			PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
-			
+			PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
 			SELECT DISTINCT ?title
-			
+
 			WHERE {
 		        ?work a frbroo:F1_Work .
 		        ?work frbroo:P102_has_title ?utitle .
@@ -365,7 +382,8 @@ class KnowledgeBase(object):
 		"""%work_cts_urn
 		query_result = list(self._graph.query(search_query))
 		return [title[0] for title in query_result]
-	def get_opus_maximum_of(self,author_cts_urn):
+
+    def get_opus_maximum_of(self,author_cts_urn):
 		"""
 		given the CTS URN of an author, this method returns the CTS URN of
 		its opus maximum. If not available returns None.
@@ -373,11 +391,11 @@ class KnowledgeBase(object):
 		search_query = """
 		PREFIX frbroo: <http://erlangen-crm.org/efrbroo/>
 		PREFIX crm: <http://erlangen-crm.org/current/>
-		PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+		PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 		PREFIX frbroo: <http://erlangen-crm.org/efrbroo/>
 		PREFIX base: <http://127.0.0.1:8000/cwkb/types#>
-		
-		SELECT ?urn	
+
+		SELECT ?urn
 		WHERE {
 			?work crm:P1_is_identified_by ?work_urn .
 			?work crm:P2_has_type base:opusmaximum .
@@ -395,9 +413,11 @@ class KnowledgeBase(object):
 			return query_result[0][0]
 		except Exception, e:
 			return None
-	def validate():
+
+    def validate():
 		pass
-	def describe(cts_urn, language="en"):
+
+    def describe(cts_urn, language="en"):
 		"""
 		TODO: given a CTS URN, return a description
 		Return a tuple where:
