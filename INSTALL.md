@@ -24,7 +24,7 @@ Uncompress, compile and install:
     make
     make install
     make clean
-    
+
 **Note**: you may need to add `/usr/local/lib` to your `LD_LIBRARY_PATH` env variable.
 
 ### Install the CRF++ python bindings
@@ -41,12 +41,10 @@ The module `citation_extractor` can be installed by running:
 
     pip install https://github.com/mromanello/CitationExtractor/archive/master.zip
 
-However, before doing so, a few depencies need to be manually installed.
+However, before doing so, a few dependencies need to be manually installed.
 
 ## Local Dependencies
 
 The following command installs a few dependencies that need to be installed from local files (these files are shipped together as part of the `citation_extractor`):
 
     pip install -e lib/
-
-
