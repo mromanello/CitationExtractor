@@ -525,8 +525,4 @@ def main():
 		print i
 		print re.sub(r'[^\w]','',i)
 if __name__ == "__main__":
-<<<<<<< HEAD
     main()
-=======
-	main()
->>>>>>> 8c5621bd507301701cca94a1a03c1dabbe16fc19
