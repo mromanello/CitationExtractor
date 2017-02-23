@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
-import CRFPP
+#import CRFPP
 import codecs
 import sys,pprint,re,string,logging
-from citation_extractor.crfpp_wrap import CRF_classifier
+#from citation_extractor.crfpp_wrap import CRF_classifier
 import citation_extractor
-from miguno.partitioner import *
-from miguno.crossvalidationdataconstructor import *
+#from miguno.partitioner import *
+#from miguno.crossvalidationdataconstructor import *
 from random import *
 import xml.dom.minidom as mdom
 

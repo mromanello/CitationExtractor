@@ -5,7 +5,7 @@
 ## Code Refactoring
 
 * `CRFSuite` instead of `CRF++`: <http://sklearn-crfsuite.readthedocs.org/en/latest/> (and combine with <http://www.nltk.org/api/nltk.classify.html>)
-* move active learning classes to a separate module
+* move active learning classes from `Utils.aph_corpus` to a separate module
 ~~* remove obsolete bits from module `process`~~
 ~~* rename `process` -> `pipeline`~~
 ~~* in the `settings.base_settings` replace absolute paths with use of `pkg_resources`:~~
