@@ -13,7 +13,6 @@ setup(name='citation_extractor'
 	,url='http://github.com/mromanello/CitationExtractor/'
     ,version=VERSION
     ,packages=find_packages()
-    #,include_package_data=True
     ,package_data={'citation_extractor': ['data/*.*'
                                           ,'data/aph_corpus/goldset/ann/*.*'
                                           ,'data/aph_corpus/goldset/iob/*.*']}

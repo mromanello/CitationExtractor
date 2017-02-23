@@ -1,11 +1,24 @@
-* move `crfpp_templates` to the `data` directory
-* re-organise the logging
-* in `process.preproc_document` replace `guess_language` with `langid` library as it seems way more accurate (!!)
+## Next steps
+
+* create evaluation `py.tests` for NER, RelEX and (as soon as possible) NED
+    - k-fold cross evaluation
+    - this way evaluations can be ran every time e.g. a feature extraction function is changed/introduced
+    - write results to disk so that they can be inspected e.g. via brat
+    - for RelEx: compare rule-based and ML-based extraction 
+* create some stats about the traning/test corpus
+    - number of entities by class
+    - number of relations
+    - number tokens
+    - language distribution of documents
 
 ## Code Refactoring
 
 * `CRFSuite` instead of `CRF++`: <http://sklearn-crfsuite.readthedocs.org/en/latest/> (and combine with <http://www.nltk.org/api/nltk.classify.html>)
 * move active learning classes from `Utils.aph_corpus` to a separate module
+* move `crfpp_templates` to the `data` directory
+* re-organise the logging
+* in `process.preproc_document` replace `guess_language` with `langid` library as it seems way more accurate (!!)
+
 ~~* remove obsolete bits from module `process`~~
 ~~* rename `process` -> `pipeline`~~
 ~~* in the `settings.base_settings` replace absolute paths with use of `pkg_resources`:~~

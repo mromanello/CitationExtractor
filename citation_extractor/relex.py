@@ -176,6 +176,7 @@ class relation_extractor(object):
 		self._training_files = training_files
 		self._classifier = SklearnClassifier(classifier) # TODO: handle sparseness of training data
 		train_data = reduce(lambda x, y: x+y,[prepare_for_training(file,dir) for dir,file in self._training_files])
+		self._n_train_instances = len(train_data)
 		try:
 			logger.info(self._classifier.train(train_data))
 		except Exception, e:
@@ -183,7 +184,7 @@ class relation_extractor(object):
 		return
 	def __repr__(self):
 	        class_name = self.__class__.__name__
-	        return '%s(classifier=%s,n_training_files=%s)' % (class_name, self._classifier,len(self._training_files))
+	        return '%s(classifier=%s,n_training_files=%s,n_training_instances=%s)' % (class_name, self._classifier,len(self._training_files),self._n_train_instances)
 	def extract(self,entities,fulltext):
 		"""
 		Returns a dictionary like
