@@ -1,0 +1,31 @@
+L'	DET:def
+opera	NOM
+esegetica	ADJ
+sulla	PRE:det
+«	PON
+Consolatio	NOM
+»	PON
+in	PRE
+età	NOM
+medievale	ADJ
+e	CON
+il	DET:def
+commento	NOM
+anonimo	ADJ
+contenuto	VER:pper
+nel	PRE:det
+ms.	NOM
+Bucarest	NPR
+,	PON
+Bibl	NOM
+.	SENT
+
+dell'	PRE:det
+Accademia	NOM
+Rumena	NOM
+,	PON
+It	NOM
+.	SENT
+
+40	NUM
+

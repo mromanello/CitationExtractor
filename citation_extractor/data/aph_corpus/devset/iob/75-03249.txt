@@ -1,0 +1,27 @@
+Extant	JJ
+fragments	NNS
+indicate	VBP
+that	IN
+Melissus	NP
+is	VBZ
+more	RBR
+original	JJ
+a	DT
+thinker	NN
+than	IN
+is	VBZ
+often	RB
+thought	VBN
+,	,
+though	IN
+there	EX
+are	VBP
+clear	JJ
+cases	NNS
+of	IN
+adaptation	NN
+of	IN
+Parmenidean	JJ
+views	NNS
+.	SENT
+

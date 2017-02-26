@@ -1,0 +1,30 @@
+Die	ART
+im	APPRART
+Hof	NN
+des	ART
+Fürstenpalastes	NN
+gefundenen	ADJA
+Reliefs	NN
+könnten	VMFIN
+zumindest	ADV
+teilweise	ADV
+zur	APPRART
+Forumsausstattung	NN
+gehört	VVPP
+haben	VAINF
+.	$.
+
+Das	ART
+Forum	NN
+hat	VAFIN
+wahrscheinlich	ADJD
+eher	ADV
+hier	ADV
+als	KOKOM
+am	APPRART
+Fundort	NN
+der	ART
+Benefiziarierweihungen	NN
+gelegen	VVPP
+.	$.
+

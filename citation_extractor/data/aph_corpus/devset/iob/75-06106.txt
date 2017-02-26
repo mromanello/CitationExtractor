@@ -1,0 +1,15 @@
+Pompeius	ADJA
+Trogus	NN
+hatte	VAFIN
+aufgrund	APPR
+seiner	PPOSAT
+Herkunft	NN
+eine	ART
+insgesamt	ADV
+eher	ADV
+positive	ADJA
+Einstellung	NN
+zu	APPR
+den	ART
+Kelten	NN
+

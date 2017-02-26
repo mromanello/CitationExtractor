@@ -1,0 +1,22 @@
+Das	ART
+sinnwidrige	ADJA
+«	$(
+nos	NE
+»	$(
+sollte	VMFIN
+aufgrund	APPR
+des	ART
+Kontextes	NN
+und	KON
+der	ART
+ganzen	ADJA
+Anthropologie	NN
+Augustins	NN
+durch	APPR
+«	$(
+non	NE
+»	$(
+ersetzt	VVPP
+werden	VAINF
+.	$.
+

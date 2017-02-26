@@ -1,0 +1,27 @@
+Sobre	PREP
+la	ART
+crítica	ADJ
+y	CC
+la	ART
+racionalización	NC
+del	PDEL
+mito	NC
+en	PREP
+algunos	QU
+autores	NC
+del	PDEL
+período	NC
+helenístico	ADJ
+,	CM
+especialmente	ADV
+Hecateo	VLfin
+de	PREP
+Abdera	NC
+,	CM
+Manetón	NP
+,	CM
+Evémero	VLger
+y	CC
+Dionisio	NP
+Escitobraquión	NC
+

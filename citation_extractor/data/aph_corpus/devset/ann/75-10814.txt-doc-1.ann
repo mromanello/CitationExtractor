@@ -1,0 +1,8 @@
+T1	REFAUWORK 46 62	(Aurelius Victor
+T2	REFSCOPE 63 70	35, 7 ;
+T3	REFAUWORK 71 95	Historia Augusta, Aurel.
+T4	REFSCOPE 96 102	39, 4)
+T5	AAUTHOR 197 205	Aurelian
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes T5	urn:cts:cwkb:2671

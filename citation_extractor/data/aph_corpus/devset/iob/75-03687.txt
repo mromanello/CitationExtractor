@@ -1,0 +1,20 @@
+Implications	NOM
+politiques	ADJ
+et	KON
+idéologiques	ADJ
+de	PRP
+ce	PRO:DEM
+poème	NOM
+de	PRP
+commande	NOM
+(	PUN
+CPG	NAM
+7513	NUM
+)	PUN
+,	PUN
+qui	PRO:REL
+sacralise	VER:pres
+le	DET:ART
+pouvoir	NOM
+impérial	ADJ
+

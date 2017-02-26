@@ -1,0 +1,36 @@
+Tonplatten	NN
+mit	APPR
+einfachem	ADJA
+Relief	NN
+sind	VAFIN
+für	APPR
+die	ART
+Spätantike	NN
+aus	APPR
+Nordafrika	NE
+,	$,
+Spanien	NE
+und	KON
+neuerdings	ADV
+auch	ADV
+auf	APPR
+dem	ART
+Balkan	NE
+belegt	VVPP
+.	$.
+
+Sie	PPER
+zeigen	VVFIN
+biblische	ADJA
+Szenen	NN
+oder	KON
+Heilige	NN
+und	KON
+gehören	VVFIN
+wohl	ADV
+zur	APPRART
+Wanddekoration	NN
+der	ART
+Kirchen	NN
+.	$.
+

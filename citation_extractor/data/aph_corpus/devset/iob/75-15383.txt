@@ -1,0 +1,18 @@
+Nota	NOM
+augurale	ADJ
+in	PRE
+occasione	NOM
+del	PRE:det
+70°	NOM
+compleanno	NOM
+dello	PRE:det
+studioso	NOM
+,	PON
+cui	PRO:rela
+è	VER:pres
+dedicato	VER:pper
+il	DET:def
+fascicolo	NOM
+della	PRE:det
+rivista	NOM
+

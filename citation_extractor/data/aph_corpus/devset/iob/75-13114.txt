@@ -1,0 +1,24 @@
+Rassegna	NOM
+di	PRE
+storia	NOM
+dell'	PRE:det
+arte	NOM
+bizantina	ADJ
+fino	CON
+al	PRE:det
+14°	NOM
+s.	NOM
+;	PON
+i	DET:def
+pittori	NOM
+sono	VER:pres
+gli	DET:def
+unici	ADJ
+artisti	NOM
+con	PRE
+un	DET:indef
+certo	ADJ
+grado	NOM
+di	PRE
+personalizzazione	NOM
+

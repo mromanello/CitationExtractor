@@ -1,0 +1,25 @@
+Erodoto	NOM
+nel	PRE:det
+7°	NOM
+libro	NOM
+raccoglie	VER:pres
+tradizioni	NOM
+contrastanti	ADJ
+,	PON
+in	PRE
+parte	NOM
+favorevoli	ADJ
+in	PRE
+parte	NOM
+sfavorevoli	ADJ
+,	PON
+sul	PRE:det
+comportamento	NOM
+di	PRE
+Argo	NOM
+in	PRE
+occasione	NOM
+delle	PRE:det
+guerre	NOM
+persiane	ADJ
+

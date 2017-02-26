@@ -1,0 +1,28 @@
+Estudio	NC
+de	PREP
+conjunto	NC
+sobre	PREP
+el	ART
+mito	NC
+de	PREP
+Harmonía	NC
+y	CC
+el	ART
+concepto	NC
+musical	ADJ
+vinculado	VLadj
+a	PREP
+esta	DM
+divinidad	NC
+,	CM
+así como	CSUBF
+su	PPO
+empleo	NC
+en	PREP
+la	ART
+literatura	NC
+y	CC
+el	ART
+pensamiento	NC
+griegos	ADJ
+

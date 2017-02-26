@@ -1,0 +1,37 @@
+Diese	PDAT
+seitens	APPR
+der	ART
+Forschung	NN
+bereits	ADV
+mehrfach	ADJD
+verdächtigten	ADJA
+Verse	NN
+zeichnen	VVFIN
+sich	PRF
+durch	APPR
+sprachliche	ADJA
+und	KON
+inhaltliche	ADJA
+Unstimmigkeiten	NN
+aus	PTKVZ
+und	KON
+sind	VAFIN
+Spuren	NN
+einer	ART
+späten	ADJA
+,	$,
+im	APPRART
+4.	ADJA
+oder	KON
+5.	ADJA
+
+Jh	NE
+.	$.
+erfolgten	ADJA
+Bearbeitung	NN
+durch	APPR
+mindestens	ADV
+zwei	CARD
+Interpolatoren	NN
+.	$.
+

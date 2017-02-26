@@ -1,0 +1,16 @@
+Tipologia	NOM
+delle	PRE:det
+sepolture	NOM
+e	CON
+posture	NOM
+della	PRE:det
+salma	NOM
+nella	PRE:det
+necropoli	NOM
+.	SENT
+
+Bibliografia	NOM
+alle	PRE:det
+p.	NOM
+543-555	NUM
+

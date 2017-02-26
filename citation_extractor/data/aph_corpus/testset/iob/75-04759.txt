@@ -1,0 +1,15 @@
+Su	NP	O
+Sall.	NP	B-REFAUWORK
+hist.	NP	I-REFAUWORK
+2	CD	O
+,	,	O
+23	CD	O
+;	:	O
+2	CD	O
+,	,	O
+25-26	CD	O
+;	:	O
+3	CD	O
+,	,	O
+48	CD	O
+Maurenbrecher	NP	O

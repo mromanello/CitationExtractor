@@ -1,0 +1,10 @@
+Diffusion	NOM
+de	PRP
+la	DET:ART
+religion	NOM
+grecque	ADJ
+dans	PRP
+le	DET:ART
+monde	NOM
+ancien	ADJ
+

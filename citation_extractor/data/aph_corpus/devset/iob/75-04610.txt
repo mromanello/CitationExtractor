@@ -1,0 +1,27 @@
+Osservazioni	NOM
+paleografiche	ADJ
+e	CON
+testuali	ADJ
+sull'	PRE:det
+epigramma	NOM
+in	PRE
+questione	NOM
+(	PON
+in	PRE
+PMilVogl	NOM
+.	SENT
+8	NUM
+,	PON
+309	NUM
+)	PON
+,	PON
+per	PRE
+una	DET:indef
+nuova	ADJ
+proposta	NOM
+di	PRE
+lettura	NOM
+del	PRE:det
+primo	ADJ
+esametro	NOM
+

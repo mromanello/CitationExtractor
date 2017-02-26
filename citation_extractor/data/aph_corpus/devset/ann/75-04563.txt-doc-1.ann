@@ -1,0 +1,6 @@
+T1	AAUTHOR 23 31	Pomponio
+T2	REFAUWORK 46 50	dig.
+T3	REFSCOPE 51 62	46, 3, 107,
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:611.1263:46.3.107
+#1	AnnotatorNotes T1	urn:cts:cwkb:590

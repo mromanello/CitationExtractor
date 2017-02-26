@@ -1,0 +1,10 @@
+Bibliografia	NP
+ungherese	VLfin
+completa	ADJ
+su	PPO
+Origene	ADJ
+dal	NC
+1985	CARD
+al	PAL
+2004	CARD
+

@@ -1,0 +1,12 @@
+T1	REFAUWORK 25 30	poema
+T2	REFSCOPE 31 32	4
+T3	AAUTHOR 36 42	Catulo
+T4	REFAUWORK 49 57	epigrama
+T5	REFSCOPE 58 60	10
+T6	AWORK 75 99	« Appendix Vergiliana »,
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0472.phi001:4
+#1	AnnotatorNotes R2	urn:cts:cwkb:1351.4377:10
+#2	AnnotatorNotes T3	urn:cts:latinLit:phi0472
+#3	AnnotatorNotes T6	urn:cts:cwkb:1351.4377

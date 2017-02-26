@@ -1,0 +1,7 @@
+T1	AAUTHOR 41 48	Servius
+T2	AWORK 57 80	« supplementa Italica »
+T3	REFAUWORK 170 174	Aen.
+T4	REFSCOPE 175 185	6, 37-135,
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:6.37-6.135
+#1	AnnotatorNotes T1	urn:cts:cwkb:1079

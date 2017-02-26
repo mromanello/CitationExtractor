@@ -1,0 +1,22 @@
+Analisi	NOM
+del	PRE:det
+passo	NOM
+paolino	ADJ
+sul	PRE:det
+piano	NOM
+retorico	ADJ
+e	CON
+storico	ADJ
+e	CON
+suo	PRO:poss
+confronto	NOM
+con	PRE
+Rm	NOM
+.	SENT
+
+6	NUM
+e	CON
+1	NUM
+,	PON
+19-32	NUM
+

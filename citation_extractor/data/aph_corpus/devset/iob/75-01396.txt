@@ -1,0 +1,22 @@
+Argues	VBZ
+on	IN
+rhetorical	JJ
+grounds	NNS
+for	IN
+the	DT
+reading	NN
+«	)
+quod	NN
+»	(
+rather	RB
+than	IN
+«	)
+quae	NNS
+»	(
+in	IN
+the	DT
+passage	NN
+in	IN
+question	NN
+.	SENT
+

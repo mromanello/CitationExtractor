@@ -1,0 +1,18 @@
+Le	DET:ART
+concept	NOM
+de	PRP
+microcosme	NOM
+chez	PRP
+Grégoire	NAM
+et	KON
+dans	PRP
+la	DET:ART
+tradition	NOM
+qui	PRO:REL
+le	PRO:PER
+précède	VER:pres
+,	PUN
+classique	ADJ
+et	KON
+chrétienne	ADJ
+

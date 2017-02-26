@@ -1,0 +1,10 @@
+Conférence	NOM
+donnée	VER:pper
+le	DET:ART
+7	NUM
+mai	NOM
+1998	NUM
+à	PRP
+la	DET:ART
+Sorbonne	NAM
+

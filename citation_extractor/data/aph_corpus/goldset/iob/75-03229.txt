@@ -1,0 +1,10 @@
+Il	PRO:PER	O
+est	VER:pres	O
+probable	ADJ	O
+que	KON	O
+Maxime	NAM	O
+était	VER:impf	O
+palestinien	ADJ	O
+et	KON	O
+non	ADV	O
+constantinopolitain	ADJ	O

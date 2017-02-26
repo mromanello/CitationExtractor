@@ -1,0 +1,24 @@
+Moyens	NOM
+lexicaux	ADJ
+et	KON
+rhétoriques	ADJ
+d'	PRP
+appel	NOM
+à	PRP
+la	DET:ART
+pitié	NOM
+des	PRP:det
+destinataires	NOM
+.	SENT
+
+En	PRP
+ce	PRO:DEM
+sens	NOM
+,	PUN
+la	DET:ART
+subjectivité	NOM
+locutoire	ADJ
+est	VER:pres
+surtout	ADV
+interlocutoire	ADJ
+

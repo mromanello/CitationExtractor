@@ -1,0 +1,4 @@
+T1	REFAUWORK 511 527	(Aristotle, Aud.
+T2	REFSCOPE 528 539	803-804 A).
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:767.1667:803-804

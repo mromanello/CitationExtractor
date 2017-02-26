@@ -1,0 +1,40 @@
+En	PRP
+provenance	NOM
+probable	ADJ
+de	PRP
+Coptos	NAM
+,	PUN
+cette	PRO:DEM
+inscription	NOM
+datée	VER:pper
+de	PRP
+133	NUM
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+(	PUN
+Musée	NOM
+National	NAM
+de	PRP
+Varsovie	NAM
+,	PUN
+inv.	ABR
+198728	NUM
+=	NOM
+SEG	NAM
+49	NUM
+,	PUN
+225	NUM
+)	PUN
+documente	VER:pres
+le	DET:ART
+trafic	NOM
+maritime	ADJ
+en	PRP
+Mer	NAM
+Rouge	NAM
+

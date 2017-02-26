@@ -1,0 +1,16 @@
+Critical	JJ
+study	NN
+of	IN
+the	DT
+recent	JJ
+work	NN
+on	IN
+Commodus	NP
+by	IN
+O.	NP
+Hekster	NP
+(	(
+=>	NP
+74-12114	CD
+)	)
+

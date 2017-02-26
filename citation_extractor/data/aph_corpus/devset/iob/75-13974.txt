@@ -1,0 +1,25 @@
+Several	JJ
+items	NNS
+found	VBN
+at	IN
+Veleia	NP
+can	MD
+be	VB
+connected	VBN
+with	IN
+the	DT
+presence	NN
+of	IN
+the	DT
+late	JJ
+Roman	NP
+military	JJ
+unit	NN
+.	SENT
+
+Includes	VBZ
+a	DT
+short	JJ
+catalog	NN
+.	SENT
+

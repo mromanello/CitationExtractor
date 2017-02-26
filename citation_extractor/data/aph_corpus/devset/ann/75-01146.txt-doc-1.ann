@@ -1,0 +1,5 @@
+T1	REFSCOPE 274 286	102, 1, 70).
+T2	AAUTHOR 456 467	Plutarch 's
+T3	AWORK 468 481	« Amatorius »
+#0	AnnotatorNotes T2	urn:cts:greekLit:tlg0007
+#1	AnnotatorNotes T3	urn:cts:greekLit:tlg0007.tlg113

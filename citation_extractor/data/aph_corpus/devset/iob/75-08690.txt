@@ -1,0 +1,30 @@
+Fragment	NOM
+d'	PRP
+autel	NOM
+païen	ADJ
+du	PRP:det
+2e	NUM
+ou	KON
+du	PRP:det
+3e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+
+Épingle	NOM
+en	PRP
+bronze	NOM
+du	PRP:det
+Bas-Empire	NAM
+.	SENT
+
+Chapiteau	NOM
+à	PRP
+feuilles	NOM
+d'	PRP
+acanthe	NOM
+des	PRP:det
+5e-6e	NOM
+s.	ADJ

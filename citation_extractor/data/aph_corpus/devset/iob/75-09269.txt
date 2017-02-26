@@ -1,0 +1,20 @@
+Panoramica	NOM
+su	PRE
+varie	ADJ
+epigrafi	NOM
+romane	ADJ
+di	PRE
+Parma	NOM
+riutilizzate	VER:pper
+a	PRE
+vari	ADJ
+fini	NOM
+tanto	CON
+in	PRE
+età	NOM
+tardoantica	NOM
+quanto	ADV
+in	PRE
+epoca	NOM
+moderna	ADJ
+

@@ -1,0 +1,22 @@
+Sur	PRP
+l'	DET:ART
+idéologie	NOM
+perceptible	ADJ
+dans	PRP
+le	DET:ART
+monnayage	NOM
+d'	PRP
+Herennius	NAM
+.	SENT
+
+Suite	NOM
+et	KON
+mise	NOM
+à	PRP
+jour	NOM
+de	PRP
+l'	DET:ART
+étude	NOM
+notée	VER:pper
+63-11383	NUM
+

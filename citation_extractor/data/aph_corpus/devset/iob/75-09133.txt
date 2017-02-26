@@ -1,0 +1,45 @@
+À	PRP
+propos	NOM
+des	PRP:det
+inscriptions	NOM
+n°	ABR
+33-34	NUM
+du	PRP:det
+recueil	NOM
+de	PRP
+C.	ABR
+Heurtel	NAM
+noté	VER:pper
+75-08971	NUM
+.	SENT
+
+Le	DET:ART
+second	NUM
+graffite	NOM
+reprend	VER:pres
+en	PRP
+isopséphie	NOM
+la	DET:ART
+signature	NOM
+que	PRO:REL
+constitue	VER:pres
+le	DET:ART
+premier	NOM
+,	PUN
+selon	PRP
+un	DET:ART
+procédé	NOM
+attesté	VER:pper
+par	PRP
+ailleurs	ADV
+.	SENT
+
+Leur	DET:POS
+datation	NOM
+médiévale	ADJ
+n'	ADV
+est	VER:pres
+donc	ADV
+plus	ADV
+assurée	VER:pper
+

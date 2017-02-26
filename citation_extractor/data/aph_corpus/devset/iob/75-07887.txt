@@ -1,0 +1,30 @@
+Présentation	NOM
+des	PRP:det
+5	NUM
+types	NOM
+d'	PRP
+amphores	NOM
+présentes	ADJ
+dans	PRP
+la	DET:ART
+couche	NOM
+de	PRP
+destruction	NOM
+datée	VER:pper
+de	PRP
+365	NUM
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+
+(	PUN
+fouilles	NOM
+de	PRP
+D.	ABR
+Soren	NAM
+,	PUN
+=>	ABR
+75-07884	NUM
+)	PUN
+

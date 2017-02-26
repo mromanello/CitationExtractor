@@ -1,0 +1,9 @@
+T1	AAUTHOR 75 90	Aristotle 's De
+T2	REFSCOPE 95 100	2, 2,
+T3	AAUTHOR 287 299	Aristotle 's
+T4	AWORK 300 312	« De anima »
+T5	AWORK 360 372	« De anima »
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes T4	urn:cts:cwkb:726.1477
+#1	AnnotatorNotes T5	urn:cts:cwkb:726.1477
+#2	AnnotatorNotes T3	urn:cts:greekLit:tlg0086

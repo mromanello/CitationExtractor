@@ -1,0 +1,35 @@
+À	PRP
+partir	VER:infi
+de	PRP
+fragments	NOM
+de	PRP
+bronze	NOM
+et	KON
+de	PRP
+fer	NOM
+découverts	VER:pper
+en	PRP
+contexte	NOM
+archaïque	ADJ
+pendant	PRP
+la	DET:ART
+campagne	NOM
+de	PRP
+fouilles	NOM
+de	PRP
+1976.	NAM
+
+P.	ABR
+16-35	NUM
+:	PUN
+catalogue	NOM
+Histria	NAM
+1976	NUM
+:	PUN
+fragments	NOM
+en	PRP
+bronze	NOM
+et	KON
+en	PRP
+fer	NOM
+

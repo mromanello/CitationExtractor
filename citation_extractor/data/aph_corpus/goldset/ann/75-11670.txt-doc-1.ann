@@ -1,0 +1,12 @@
+T1	AWORK 4 23	« Deipnosophistes »
+T2	AAUTHOR 27 34	Athénée
+T3	AWORK 41 72	« De alimentorum facultatibus »
+T4	AAUTHOR 76 82	Galien
+T5	AAUTHOR 321 328	Athénée
+T6	AAUTHOR 380 386	Galien
+#0	AnnotatorNotes T6	urn:cts:greekLit:tlg0057
+#1	AnnotatorNotes T4	urn:cts:greekLit:tlg0057
+#2	AnnotatorNotes T1	urn:cts:greekLit:tlg0008.tlg001
+#3	AnnotatorNotes T2	urn:cts:greekLit:tlg0008
+#4	AnnotatorNotes T3	urn:cts:cwkb:890.2419
+#5	AnnotatorNotes T5	urn:cts:greekLit:tlg0008

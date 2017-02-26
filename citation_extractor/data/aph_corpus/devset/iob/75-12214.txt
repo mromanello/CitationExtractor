@@ -1,0 +1,11 @@
+In	PRE
+riferimento	NOM
+agli	PRE:det
+articoli	NOM
+schedati	ADJ
+75-13080	NUM
+,	PON
+75-08338	NUM
+e	CON
+75-12123	NUM
+

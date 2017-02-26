@@ -1,0 +1,11 @@
+Metrical	JJ
+and	CC
+textual	JJ
+discussion	NN
+of	IN
+11	CD
+«	)
+cantica	NN
+»	(
+.	SENT
+

@@ -1,0 +1,21 @@
+Among	IN
+recent	JJ
+finds	NNS
+of	IN
+Romano-British	JJ
+objects	NNS
+recovered	VBN
+by	IN
+metal-detectorists	NNS
+from	IN
+sites	NNS
+in	IN
+Surrey	NP
+are	VBP
+two	CD
+hairpins	NNS
+with	IN
+unusual	JJ
+designs	NNS
+.	SENT
+

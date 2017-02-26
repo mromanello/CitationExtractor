@@ -1,0 +1,16 @@
+Umfassender	ADJA
+Überblick	NN
+über	APPR
+literarische	ADJA
+,	$,
+inschriftliche	ADJA
+und	KON
+numismatische	ADJA
+Zeugnisse	NN
+zum	APPRART
+römischen	ADJA
+Leben	NN
+in	APPR
+Bingen	NN
+.	$.
+

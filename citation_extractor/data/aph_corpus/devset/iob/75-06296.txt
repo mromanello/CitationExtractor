@@ -1,0 +1,26 @@
+La	DET:def
+tradizione	NOM
+della	PRE:det
+«	PON
+Passio	NOM
+»	PON
+(	PON
+BHG	NOM
+376	NUM
+sq	NOM
+.	SENT
+)	PON
+nella	PRE:det
+versione	NOM
+siriana	ADJ
+e	CON
+la	DET:def
+diffusione	NOM
+del	PRE:det
+culto	NOM
+dei	PRE:det
+due	ADJ
+santi	NOM
+in	PRE
+Siria	NPR
+

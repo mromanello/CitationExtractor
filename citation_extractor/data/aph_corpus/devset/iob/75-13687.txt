@@ -1,0 +1,46 @@
+Apollonios	NOM
+de	PRP
+Tyane	NAM
+,	PUN
+le	DET:ART
+pythagorisme	NOM
+et	KON
+le	DET:ART
+temple	NOM
+d'	PRP
+Apollon	NAM
+à	PRP
+Daphné	NAM
+.	SENT
+
+Jamblique	NAM
+à	PRP
+Daphné	NAM
+:	PUN
+le	DET:ART
+néoplatonisme	NOM
+et	KON
+la	DET:ART
+théurgie	NOM
+.	SENT
+
+Julien	NAM
+,	PUN
+le	DET:ART
+«	PUN:cit
+Discours	NAM
+sur	PRP
+Hélios-Roi	NAM
+»	PUN:cit
+et	KON
+le	DET:ART
+rêve	NOM
+d'	PRP
+une	DET:ART
+«	PUN:cit
+cité	NOM
+sainte	ADJ
+du	PRP:det
+soleil	NOM
+»	PUN:cit
+

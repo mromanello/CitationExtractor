@@ -1,0 +1,8 @@
+T1	REFAUWORK 91 101	Homer, Il.
+T2	REFSCOPE 102 111	18, 38-45
+T3	REFAUWORK 116 127	Apollodorus
+T4	REFSCOPE 128 134	3, 13)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:2703.9034:18.38-18.45
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0548:3.13

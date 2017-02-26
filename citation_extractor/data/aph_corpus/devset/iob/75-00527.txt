@@ -1,0 +1,48 @@
+Fols	NP
+.	SENT
+
+2	CD
+ra-75	JJ
+vb	NN
+of	IN
+Uppsala	NP
+,	,
+Universitetsbibliotek	NP
+,	,
+Cod.	NP
+C	NP
+627	CD
+contain	VBP
+an	DT
+anonymous	JJ
+set	NN
+of	IN
+47	CD
+questions	NNS
+on	IN
+Aristotle	NP
+'s	POS
+«	)
+De	NP
+anima	NN
+»	(
+.	SENT
+
+The	DT
+commentary	NN
+may	MD
+bear	VB
+witness	NN
+to	TO
+Franciscan	JJ
+teachings	NNS
+on	IN
+this	DT
+work	NN
+at	IN
+15th-cent	JJ
+.	SENT
+
+Erfurt	NP
+.	SENT
+

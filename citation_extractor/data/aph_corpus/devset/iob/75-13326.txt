@@ -1,0 +1,17 @@
+In	PRE
+margine	NOM
+al	PRE:det
+volume	NOM
+di	PRE
+A.	NPR
+Castro	NOM
+Sáenz	NOM
+sul	PRE:det
+diritto	NOM
+successorio	ADJ
+romano	ADJ
+(	PON
+=>	NOM
+75-13305	NUM
+)	PON
+

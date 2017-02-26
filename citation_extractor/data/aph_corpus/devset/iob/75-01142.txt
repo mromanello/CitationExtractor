@@ -1,0 +1,13 @@
+Osservazioni	NOM
+su	PRE
+GVI	NOM
+1881	NUM
+(	PON
+Sardi	NOM
+,	PON
+2°-1°	NOM
+sec.	NOM
+a.	NOM
+C.	NPR
+)	PON
+

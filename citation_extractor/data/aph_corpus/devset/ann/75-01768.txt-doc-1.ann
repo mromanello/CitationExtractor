@@ -1,0 +1,9 @@
+T1	AAUTHOR 57 66	Epimenide
+T2	REFAUWORK 110 114	(FdV
+T3	REFSCOPE 115 116	3
+T4	REFSCOPE 117 122	B 1),
+T5	AAUTHOR 351 360	Epimenide
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+#0	AnnotatorNotes T5	urn:cts:cwkb:2420
+#1	AnnotatorNotes T1	urn:cts:cwkb:2420

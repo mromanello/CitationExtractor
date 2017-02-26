@@ -1,0 +1,40 @@
+Sobre	PREP
+la	ART
+cuestión	NC
+de	PREP
+si	NC
+es	VSfin
+o	CC
+no	NEG
+compatible	ADJ
+la	ART
+responsabilidad	NC
+con	PREP
+el	ART
+determinismo	NC
+en	PREP
+la	ART
+filosofía	NC
+antigua	ADJ
+,	CM
+y	CC
+la	ART
+postura	NC
+en particular	ADV
+de	PREP
+los	ART
+estoicos	ADJ
+contra	PREP
+la	ART
+incompatibilidad	NC
+de	PREP
+ambos	QU
+conceptos	NC
+.	FS
+
+Cf	NP
+.	FS
+
+ya	ADV
+72-16121	CODE
+

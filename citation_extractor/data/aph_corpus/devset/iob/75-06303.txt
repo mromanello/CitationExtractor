@@ -1,0 +1,12 @@
+Zu	APPR
+den	ART
+Märtyrerlegenden	NN
+Ägyptens	NE
+auch	ADV
+im	APPRART
+Vergleich	NN
+mit	APPR
+der	ART
+griechischen	ADJA
+Überlieferung	NN
+

@@ -1,0 +1,7 @@
+Spécialiste	NOM
+de	PRP
+la	DET:ART
+numismatique	ADJ
+juive	NOM
+antique	ADJ
+

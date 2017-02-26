@@ -1,0 +1,33 @@
+Cratère	NOM
+d'	PRP
+inspiration	NOM
+minoenne	ADJ
+,	PUN
+trouvé	VER:pper
+à	PRP
+Hala	NAM
+Sultan	NAM
+Tekke	NAM
+en	PRP
+1983	NUM
+(	PUN
+musée	NOM
+de	PRP
+Chypre	NAM
+,	PUN
+inv.	ABR
+1566	NUM
+)	PUN
+,	PUN
+à	PRP
+dater	VER:infi
+du	PRP:det
+12e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+

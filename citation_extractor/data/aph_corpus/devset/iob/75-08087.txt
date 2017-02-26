@@ -1,0 +1,21 @@
+Résumé	VER:pper
+des	PRP:det
+différentes	ADJ
+orientations	NOM
+de	PRP
+recherche	NOM
+sur	PRP
+le	DET:ART
+christianisme	NOM
+du	PRP:det
+4e	NUM
+au	PRP:det
+8e	NUM
+s.	NOM
+en	PRP
+Grande-Bretagne	NAM
+.	SENT
+
+Aspects	NOM
+archéologiques	ADJ
+

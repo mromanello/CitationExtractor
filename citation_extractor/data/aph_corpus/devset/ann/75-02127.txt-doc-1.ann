@@ -1,0 +1,10 @@
+T1	REFAUWORK 9 14	Carm.
+T2	REFSCOPE 15 31	2, 2, 7, 204-230
+T3	REFSCOPE 34 36	2,
+T4	REFSCOPE 37 51	2, 5, 116-164,
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:642.1333:2.2.7.204-2.2.7.230
+#1	AnnotatorNotes R2	urn:cts:cwkb:642.1333:2
+#2	AnnotatorNotes R3	urn:cts:cwkb:642.1333:2.5.116-2.5.164

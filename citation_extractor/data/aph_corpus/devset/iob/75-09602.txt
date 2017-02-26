@@ -1,0 +1,53 @@
+Suite	NOM
+de	PRP
+l'	DET:ART
+article	NOM
+noté	VER:pper
+73-11057	NUM
+.	SENT
+
+Les	DET:ART
+petites	ADJ
+dénominations	NOM
+prévalent	VER:pres
+au	PRP:det
+début	NOM
+du	PRP:det
+monnayage	NOM
+,	PUN
+vers	PRP
+600.	DET:POS
+
+Les	DET:ART
+statères	NOM
+prennent	VER:pres
+de	PRP
+l'	DET:ART
+importance	NOM
+dans	PRP
+le	DET:ART
+dernier	ADJ
+quart	NOM
+du	PRP:det
+6e	NUM
+s.	NOM
+,	PUN
+pour	PRP
+dominer	VER:infi
+ensuite	ADV
+,	PUN
+depuis	PRP
+la	DET:ART
+fin	NOM
+du	PRP:det
+5e	NUM
+s.	ABR
+jusqu'	PRP
+en	PRP
+330	NUM
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+

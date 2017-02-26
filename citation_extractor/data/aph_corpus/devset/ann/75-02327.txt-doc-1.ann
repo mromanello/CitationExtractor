@@ -1,0 +1,7 @@
+T1	REFAUWORK 0 12	Hier. epist.
+T2	REFSCOPE 13 19	21, 13
+T3	AWORK 39 57	Renatum monachum »
+T4	AAUTHOR 61 80	Asterio Ansedunense
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:999.3422:21.13
+#1	AnnotatorNotes T4	urn:cts:cwkb:2670

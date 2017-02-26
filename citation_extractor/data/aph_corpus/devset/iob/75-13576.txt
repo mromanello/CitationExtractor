@@ -1,0 +1,11 @@
+Zur	APPRART
+Bedeutung	NN
+der	ART
+theologischen	ADJA
+Grundlagen	NN
+für	APPR
+die	ART
+stoische	ADJA
+Ethik	NN
+.	$.
+

@@ -1,0 +1,23 @@
+Cronaca	NOM
+del	PRE:det
+convegno	NOM
+internazionale	ADJ
+di	PRE
+studi	NOM
+organizzato	VER:pper
+dalla	PRE:det
+Pontificia	NOM
+Facoltà	NOM
+Teologica	ADJ
+dell'	PRE:det
+Italia	NPR
+Meridionale	NOM
+,	PON
+tenutosi	VER:pper
+a	PRE
+Napoli	NPR
+il	DET:def
+4-5	NUM
+dicembre	NOM
+2003	NUM
+

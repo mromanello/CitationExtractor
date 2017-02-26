@@ -1,0 +1,4 @@
+T1	REFAUWORK 254 260	(Books
+T2	REFSCOPE 261 265	5-7)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:788:5-7

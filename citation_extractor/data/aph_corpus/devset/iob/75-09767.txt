@@ -1,0 +1,45 @@
+New	JJ
+edition	NN
+,	,
+transl.	NN
+and	CC
+commentary	NN
+of	IN
+this	DT
+6th-7th	JJ
+cent	NN
+.	SENT
+
+A.	NP
+D.	NP
+Greek	JJ
+papyrus	NN
+,	,
+containing	VBG
+an	DT
+itemization	NN
+of	IN
+various	JJ
+types	NNS
+of	IN
+vessels	NNS
+and	CC
+commodities	NNS
+belonging	VBG
+to	TO
+an	DT
+anonymous	JJ
+«	)
+stratelates	NNS
+»	(
+.	SENT
+
+Appendix	NN
+:	:
+new	JJ
+readings	NNS
+in	IN
+P.	NP
+Got	VBD
+19	CD
+

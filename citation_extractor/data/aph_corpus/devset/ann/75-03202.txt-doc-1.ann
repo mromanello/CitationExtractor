@@ -1,0 +1,13 @@
+T1	REFAUWORK 9 17	Epigrams
+T2	REFSCOPE 18 24	12.32,
+T3	AAUTHOR 25 32	Martial
+T4	REFAUWORK 406 413	(Catul.
+T5	REFSCOPE 414 417	23)
+T6	AAUTHOR 464 471	Martial
+T7	AWORK 704 721	« Schadenfreude »
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:539.1115:12.32
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0472:23
+#2	AnnotatorNotes T6	urn:cts:cwkb:539
+#3	AnnotatorNotes T3	urn:cts:cwkb:539

@@ -1,0 +1,15 @@
+Étudie	VER:pres
+notamment	ADV
+la	DET:ART
+méthode	NOM
+philosophique	ADJ
+de	PRP
+Socrate	NAM
+et	KON
+son	DET:POS
+opposition	NOM
+avec	PRP
+celle	PRO:DEM
+des	PRP:det
+Sophistes	NOM
+

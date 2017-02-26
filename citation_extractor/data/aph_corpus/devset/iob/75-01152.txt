@@ -1,0 +1,18 @@
+Concerne	VER:pres
+SEG	NAM
+50	NUM
+,	PUN
+1465	NUM
+(	PUN
+bloc	NOM
+inscrit	ADJ
+utilisé	VER:pper
+en	PRP
+remploi	NOM
+dans	PRP
+la	DET:ART
+forteresse	NOM
+de	PRP
+Belvoir	NAM
+)	PUN
+

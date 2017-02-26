@@ -1,0 +1,9 @@
+T1	REFSCOPE 9 12	3-5
+T2	AAUTHOR 32 45	Callimachus '
+T3	AWORK 46 55	« Aetia »
+T4	AAUTHOR 122 135	Callimachus '
+#0	AnnotatorNotes T4	urn:cts:greekLit:tlg0533
+#1	AnnotatorNotes T2	urn:cts:greekLit:tlg0533
+#2	AnnotatorNotes T3	urn:cts:cwkb:789.1882
+R1	Scope Arg1:T3 Arg2:T1	
+#3	AnnotatorNotes R1	urn:cts:cwkb:789.1882:3-5

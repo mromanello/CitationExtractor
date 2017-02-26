@@ -1,0 +1,4 @@
+T1	REFAUWORK 119 125	strat.
+T2	REFSCOPE 126 134	4, 7, 37
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:474.998:4.7.37

@@ -1,0 +1,10 @@
+Scoperte	NOM
+,	PON
+studi	NOM
+ed	CON
+edizioni	NOM
+nel	PRE:det
+corso	NOM
+del	PRE:det
+20°	NOM
+sec.	NOM

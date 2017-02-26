@@ -1,0 +1,15 @@
+T1	AAUTHOR 8 18	Irenaeus '
+T2	REFAUWORK 146 151	Haer.
+T3	REFSCOPE 152 160	3, 33, 4
+T4	REFSCOPE 161 175	and 3, 22, 5 ;
+T5	REFAUWORK 176 181	Epid.
+T6	REFSCOPE 182 186	14),
+T7	AAUTHOR 286 296	Irenaeus '
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+R3	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:853.2263:3.33.4
+#1	AnnotatorNotes R2	urn:cts:cwkb:853.2263:3.22.5
+#2	AnnotatorNotes R3	urn:cts:greekLit:tlg0627.tlg006:14
+#3	AnnotatorNotes T7	urn:cts:cwkb:1401
+#4	AnnotatorNotes T1	urn:cts:cwkb:1401

@@ -1,0 +1,15 @@
+Suite	NOM
+de	PRP
+la	DET:ART
+chronique	NOM
+notée	VER:pper
+70-13412	NUM
+.	SENT
+
+Concerne	VER:pres
+en	PRP
+partie	NOM
+la	DET:ART
+documentation	NOM
+papyrologique	ADJ
+

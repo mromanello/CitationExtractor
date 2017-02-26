@@ -1,0 +1,4 @@
+T1	REFAUWORK 246 250	(Is.
+T2	REFSCOPE 251 254	5).
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0081.tlg005:5

@@ -1,0 +1,6 @@
+T1	AAUTHOR 115 122	Achille
+T2	REFAUWORK 123 127	(Il.
+T3	REFSCOPE 128 134	9, 182
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:763.1599:9.182
+#1	AnnotatorNotes T1	urn:cts:cwkb:1137

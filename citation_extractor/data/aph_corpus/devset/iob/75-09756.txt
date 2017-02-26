@@ -1,0 +1,16 @@
+PVindob	NP
+.	FS
+
+G	ALFS
+20958	CARD
+,	CM
+Arsinoites	NP
+,	CM
+2.	VLger
+
+Hälfte	ADV
+7.	CM
+
+Jh	NP
+.	FS
+

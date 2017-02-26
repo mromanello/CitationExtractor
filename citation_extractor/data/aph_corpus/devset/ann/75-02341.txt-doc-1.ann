@@ -1,0 +1,4 @@
+T1	REFAUWORK 67 81	Virgilio, Aen.
+T2	REFSCOPE 82 94	6, 733-734 (
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:6.733-6.734

@@ -1,0 +1,36 @@
+Tertullien	NAM
+argumente	VER:pres
+selon	PRP
+les	DET:ART
+règles	NOM
+de	PRP
+la	DET:ART
+rhétorique	NOM
+classique	ADJ
+pour	PRP
+combattre	VER:infi
+l'	DET:ART
+idée	NOM
+de	PRP
+l'	DET:ART
+élection	NOM
+les	DET:ART
+juifs	NOM
+.	SENT
+
+Il	PRO:PER
+utilise	VER:pres
+des	PRP:det
+arguments	NOM
+historiques	ADJ
+et	KON
+topiques	ADJ
+,	PUN
+affirmant	VER:ppre
+au	PRP:det
+contraire	NOM
+la	DET:ART
+prééminence	NOM
+des	PRP:det
+chrétiens	NOM
+

@@ -1,0 +1,86 @@
+Zu	APPR
+PIand	NN
+.	$.
+
+3	CARD
+,	$,
+40.	ADJA
+
+50	CARD
+;	$.
+PKöln	NN
+3	CARD
+,	$,
+159	CARD
+;	$.
+PMich	NE
+.	$.
+
+15	CARD
+,	$,
+743.	ADJA
+
+748	CARD
+;	$.
+POxy	NE
+.	$.
+
+1	CARD
+,	$,
+204	CARD
+;	$.
+16	CARD
+,	$,
+2045.	ADJA
+
+2057	CARD
+;	$.
+6	CARD
+,	$,
+993	CARD
+;	$.
+16	CARD
+,	$,
+1980	CARD
+;	$.
+18	CARD
+,	$,
+2197	CARD
+;	$.
+PUG	NN
+2	CARD
+,	$,
+70	CARD
+;	$.
+POxy	NE
+.	$.
+
+19	CARD
+,	$,
+2244	CARD
+fr.	NN
+1	CARD
+;	$.
+22	CARD
+,	$,
+2350	CARD
+;	$.
+36	CARD
+,	$,
+2799	CARD
+;	$.
+67	CARD
+,	$,
+4607	CARD
+;	$.
+SB	NE
+24	CARD
+,	$,
+15960.	ADJA
+
+Zu	APPR
+2	CARD
+=>	NN
+71-10536	CARD
+.	$.
+

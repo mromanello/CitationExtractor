@@ -1,0 +1,18 @@
+Reedition	NN
+des	ART
+erstmals	ADV
+in	APPR
+=>	ADJA
+70-10068a	NN
+edierten	VVFIN
+griechischen	ADJA
+Textes	NN
+,	$,
+mit	APPR
+lateinischem	ADJA
+Kommentar	NN
+und	KON
+italienischer	ADJA
+Übersetzung	NN
+.	$.
+

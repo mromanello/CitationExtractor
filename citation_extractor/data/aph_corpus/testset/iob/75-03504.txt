@@ -1,0 +1,12 @@
+In	PE	O
+den	VLfin	O
+«	SYM	B-AWORK
+Tristia	NC	I-AWORK
+»	SYM	I-AWORK
+und	ADJ	O
+«	SYM	B-AWORK
+Epistulae	VLfin	I-AWORK
+ex	ADJ	I-AWORK
+Ponto	NP	I-AWORK
+»	SYM	I-AWORK
+.	FS	I-AWORK

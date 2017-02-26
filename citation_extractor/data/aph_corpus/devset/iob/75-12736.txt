@@ -1,0 +1,18 @@
+Vitruve	NAM
+et	KON
+la	DET:ART
+transmission	NOM
+des	PRP:det
+principes	NOM
+de	PRP
+l'	DET:ART
+architecture	NOM
+classique	ADJ
+,	PUN
+notamment	ADV
+ses	DET:POS
+remarques	NOM
+sur	PRP
+le	DET:ART
+Parthénon	NAM
+

@@ -1,0 +1,18 @@
+Panoramica	NOM
+sull'	PRE:det
+immagine	NOM
+dei	PRE:det
+Traci	NOM
+quale	PRO:rela
+ci	PRO:refl
+è	VER:pres
+restituita	VER:pper
+dalle	PRE:det
+fonti	NOM
+greche	ADJ
+di	PRE
+età	NOM
+arcaica	ADJ
+e	CON
+classica	ADJ
+

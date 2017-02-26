@@ -1,0 +1,8 @@
+T1	REFAUWORK 99 102	Ps.
+T2	REFSCOPE 103 106	90,
+T3	REFAUWORK 122 125	Ps.
+T4	REFSCOPE 126 128	91
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:1106.3964:90
+#1	AnnotatorNotes R2	urn:cts:cwkb:1106.3964:91

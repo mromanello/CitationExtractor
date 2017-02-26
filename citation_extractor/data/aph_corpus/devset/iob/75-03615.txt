@@ -1,0 +1,15 @@
+Exégèse	NOM
+de	PRP
+Parménide	NAM
+,	PUN
+v.	ABR
+15-32	NUM
+et	KON
+fragment	NOM
+2.	SENT
+
+Pour	PRP
+2-3	NUM
+=>	ABR
+75-03614	NUM
+

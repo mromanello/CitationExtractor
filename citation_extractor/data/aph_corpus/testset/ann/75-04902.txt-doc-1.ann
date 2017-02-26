@@ -1,0 +1,23 @@
+T1	REFAUWORK 46 51	(Aen.
+T2	REFSCOPE 52 63	2, 298-303.
+T3	REFSCOPE 64 73	3, 19-21.
+T4	REFSCOPE 74 85	3, 172-178.
+T5	REFSCOPE 86 97	3, 278-280.
+T6	REFSCOPE 98 109	3, 568-569.
+T7	REFSCOPE 110 121	4, 571-572.
+T8	REFSCOPE 122 134	12, 116-120)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+R4	Scope Arg1:T1 Arg2:T5
+R5	Scope Arg1:T1 Arg2:T6
+R6	Scope Arg1:T1 Arg2:T7
+R7	Scope Arg1:T1 Arg2:T8
+#0	AnnotatorNotes R4	urn:cts:latinLit:phi0690.phi003:3.278-3.280
+#1	AnnotatorNotes R5	urn:cts:latinLit:phi0690.phi003:3.568-3.569
+#2	AnnotatorNotes R6	urn:cts:latinLit:phi0690.phi003:4.571-4.572
+#3	AnnotatorNotes R7	urn:cts:latinLit:phi0690.phi003:12.116-12.120
+#4	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:2.298-2.303
+#5	AnnotatorNotes R2	urn:cts:latinLit:phi0690.phi003:3.19-3.21
+#6	AnnotatorNotes R3	urn:cts:latinLit:phi0690.phi003:3.172-3.178
+T9	AAUTHOR 157 163	Servio

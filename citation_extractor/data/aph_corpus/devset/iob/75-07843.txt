@@ -1,0 +1,23 @@
+Baquet	NOM
+en	PRP
+terre	NOM
+cuite	VER:pper
+du	PRP:det
+11e	NUM
+s.	NOM
+;	PUN
+naiskos	NOM
+chypro-géométrique	ADJ
+;	PUN
+amphore	NOM
+archaïque	ADJ
+à	PRP
+frises	NOM
+animalières	ADJ
+.	SENT
+
+Pour	PRP
+11	NUM
+=>	ABR
+75-07842	NUM
+

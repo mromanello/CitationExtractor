@@ -1,0 +1,23 @@
+Un'	DET:indef
+analisi	NOM
+degli	PRE:det
+scritti	NOM
+paolini	ADJ
+evidenzia	VER:pres
+la	DET:def
+volontà	NOM
+di	PRE
+affermare	VER:infi
+il	DET:def
+principio	NOM
+di	PRE
+uguaglianza	NOM
+nella	PRE:det
+dignità	NOM
+e	CON
+nella	PRE:det
+responsabilità	NOM
+missionaria	ADJ
+delle	PRE:det
+donne	NOM
+

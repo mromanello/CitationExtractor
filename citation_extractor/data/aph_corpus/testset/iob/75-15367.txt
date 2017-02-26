@@ -1,0 +1,8 @@
+Concerne	VER:pres	O
+notamment	ADV	O
+l'	DET:ART	O
+histoire	NOM	O
+institutionnelle	ADJ	O
+du	PRP:det	O
+monde	NOM	O
+grec	ADJ	O

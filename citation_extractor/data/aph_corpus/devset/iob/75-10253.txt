@@ -1,0 +1,16 @@
+Réflexions	NOM
+générales	ADJ
+sur	PRP
+plusieurs	PRO:IND
+aspects	NOM
+de	PRP
+la	DET:ART
+ville	NOM
+tardo-antique	NOM
+à	PRP
+la	DET:ART
+recherche	NOM
+de	PRP
+son	DET:POS
+identité	NOM
+

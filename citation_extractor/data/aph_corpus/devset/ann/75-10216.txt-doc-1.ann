@@ -1,0 +1,4 @@
+T1	REFAUWORK 280 289	(Polybius
+T2	REFSCOPE 290 302	1, 41, 4-5).
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0543:1.41.4-1.41.5

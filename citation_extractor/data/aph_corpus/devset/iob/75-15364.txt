@@ -1,0 +1,24 @@
+Relazione	NOM
+tenuta	VER:pper
+il	DET:def
+10	NUM
+aprile	NOM
+2003	NUM
+all'	PRE:det
+Accademia	NOM
+Nazionale	NOM
+dei	PRE:det
+Lincei	NOM
+di	PRE
+Roma	NPR
+in	PRE
+occasione	NOM
+della	PRE:det
+giornata	NOM
+di	PRE
+studi	NOM
+in	PRE
+ricordo	NOM
+della	PRE:det
+studiosa	NOM
+

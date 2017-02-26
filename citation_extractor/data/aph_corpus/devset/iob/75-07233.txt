@@ -1,0 +1,26 @@
+Utilisation	NOM
+de	PRP
+l'	DET:ART
+informatique	NOM
+pour	PRP
+restituer	VER:infi
+le	DET:ART
+latin	NOM
+parlé	VER:pper
+.	SENT
+
+Sources	NOM
+de	PRP
+la	DET:ART
+connaissance	NOM
+de	PRP
+la	DET:ART
+parole	NOM
+latine	ADJ
+:	PUN
+les	DET:ART
+composantes	NOM
+phonologiques	ADJ
+et	KON
+prosodiques	ADJ
+

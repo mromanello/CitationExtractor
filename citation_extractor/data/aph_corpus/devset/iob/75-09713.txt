@@ -1,0 +1,12 @@
+L'	DET:ART
+authenticité	NOM
+de	PRP
+l'	DET:ART
+étiquette	NOM
+de	PRP
+momie	NOM
+SB	NAM
+3992	NUM
+demeure	NOM
+discutable	ADJ
+

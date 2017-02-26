@@ -1,0 +1,12 @@
+T1	AWORK 29 43	« Periegesis »
+T2	AAUTHOR 156 167	Pausanias '
+T3	AAUTHOR 214 223	Pausanias
+T4	AAUTHOR 375 384	Pausanias
+T5	AAUTHOR 558 569	Pausanias '
+T6	AAUTHOR 693 702	Pausanias
+#0	AnnotatorNotes T6	urn:cts:greekLit:tlg0525
+#1	AnnotatorNotes T4	urn:cts:greekLit:tlg0525
+#2	AnnotatorNotes T5	urn:cts:greekLit:tlg0525
+#3	AnnotatorNotes T2	urn:cts:greekLit:tlg0525
+#4	AnnotatorNotes T3	urn:cts:greekLit:tlg0525
+#5	AnnotatorNotes T1	urn:cts:cwkb:837.2084

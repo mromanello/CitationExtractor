@@ -1,0 +1,11 @@
+À	PRP
+propos	NOM
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+de	PRP
+M.	NOM
+Aouad	NAM
+noté	VER:pper
+74-00504	NUM
+

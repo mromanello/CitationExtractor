@@ -1,0 +1,19 @@
+Analisi	NOM
+delle	PRE:det
+reminescenze	NOM
+dotte	ADJ
+di	PRE
+autori	NOM
+classici	ADJ
+riscontrabili	ADJ
+nel	PRE:det
+commento	NOM
+ai	PRE:det
+primi	ADJ
+due	ADJ
+canti	NOM
+dell'	PRE:det
+«	PON
+Odissea	NOM
+»	PON
+

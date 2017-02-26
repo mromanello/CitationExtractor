@@ -1,0 +1,30 @@
+Profilo	NOM
+biografico	ADJ
+di	PRE
+Niccolò	NOM
+Leonico	NOM
+Tomeo	NOM
+ed	CON
+elenco	NOM
+dei	PRE:det
+manoscritti	NOM
+(	PON
+in	PRE
+parte	NOM
+plutarchei	ADJ
+)	PON
+da	PRE
+lui	PRO:pers
+posseduti	VER:pper
+.	SENT
+
+Profilo	NOM
+dello	PRE:det
+scriba	NOM
+Lascaris	NOM
+appartenente	VER:ppre
+allo	PRE:det
+stesso	ADJ
+ambiente	NOM
+padovano	ADJ
+

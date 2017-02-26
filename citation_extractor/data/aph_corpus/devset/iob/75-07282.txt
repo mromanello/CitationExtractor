@@ -1,0 +1,6 @@
+Notes	NOM
+sur	PRP
+55	NUM
+mots	NOM
+latins	ADJ
+

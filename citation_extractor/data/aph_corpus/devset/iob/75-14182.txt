@@ -1,0 +1,15 @@
+Gli	DET:def
+ottant'anni	NOM
+della	PRE:det
+rivista	NOM
+e	CON
+la	DET:def
+sua	PRO:poss
+importanza	NOM
+per	PRE
+gli	DET:def
+studi	NOM
+papirologici	ADJ
+ed	CON
+egittologici	NOM
+

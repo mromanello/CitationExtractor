@@ -1,0 +1,22 @@
+Einführung	NN
+in	APPR
+Geschichte	NN
+,	$,
+Problematik	NN
+und	KON
+Methodik	NN
+der	ART
+Erforschung	NN
+des	ART
+Umlands	NN
+einer	ART
+antiken	ADJA
+Stadt	NN
+unter	APPR
+wirtschaftlichen	ADJA
+,	$,
+administrativen	ADJA
+und	KON
+besiedlungsgeschichtlichen	ADJA
+Fragestellungen	NN
+

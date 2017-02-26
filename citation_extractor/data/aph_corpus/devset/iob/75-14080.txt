@@ -1,0 +1,27 @@
+Au	PRP:det
+20e	NUM
+s.	NOM
+,	PUN
+le	DET:ART
+concept	NOM
+d'	PRP
+«	PUN:cit
+Antiquité	NOM
+tardive	ADJ
+»	PUN:cit
+est	VER:pres
+demeuré	VER:pper
+tributaire	ADJ
+des	PRP:det
+différents	ADJ
+contextes	NOM
+politiques	ADJ
+et	KON
+culturels	ADJ
+où	PRO:REL
+se	PRO:PER
+trouvaient	VER:impf
+placés	VER:pper
+les	DET:ART
+historiens	NOM
+

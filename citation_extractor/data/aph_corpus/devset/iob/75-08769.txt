@@ -1,0 +1,16 @@
+Confrontation	NOM
+des	PRP:det
+résultats	NOM
+des	PRP:det
+fouilles	NOM
+de	PRP
+1936-1937	NUM
+à	PRP
+ceux	PRO:DEM
+de	PRP
+la	DET:ART
+propection	NOM
+effectuée	VER:pper
+en	PRP
+1999	NUM
+

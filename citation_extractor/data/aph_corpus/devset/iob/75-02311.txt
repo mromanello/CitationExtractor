@@ -1,0 +1,21 @@
+Panoramica	NOM
+sull'	PRE:det
+operato	NOM
+di	PRE
+Gerolamo	NOM
+,	PON
+sul	PRE:det
+suo	PRO:poss
+contesto	NOM
+culturale	ADJ
+,	PON
+sui	PRE:det
+criteri	NOM
+da	PRE
+lui	PRO:pers
+seguiti	VER:pper
+nell'	PRE:det
+attività	NOM
+di	PRE
+traduttore	NOM
+

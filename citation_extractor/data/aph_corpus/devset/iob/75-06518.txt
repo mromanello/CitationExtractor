@@ -1,0 +1,21 @@
+Concerne	VER:pres
+soprattutto	ADV
+il	DET:def
+«	PON
+De	NPR
+bello	ADJ
+Gildonico	NOM
+»	PON
+di	PRE
+Claudiano	NOM
+e	CON
+i	DET:def
+panegirici	NOM
+di	PRE
+Sidonio	NOM
+per	PRE
+Avito	NOM
+e	CON
+per	PRE
+Antemio	NOM
+

@@ -1,0 +1,35 @@
+15e	NUM
+colloque	NOM
+de	PRP
+la	DET:ART
+Société	NOM
+française	ADJ
+d'	PRP
+archéologie	NOM
+classique	ADJ
+tenu	VER:pper
+à	PRP
+l'	DET:ART
+École	NOM
+normale	ADJ
+supérieure	ADJ
+(	PUN
+Paris	NAM
+)	PUN
+,	PUN
+pour	PRP
+la	DET:ART
+journée	NOM
+de	PRP
+rentrée	NOM
+du	PRP:det
+16	NUM
+novembre	NOM
+2002.	SENT
+
+Dépouillé	VER:pper
+dans	PRP
+le	DET:ART
+vol.	ABR
+75	NUM
+

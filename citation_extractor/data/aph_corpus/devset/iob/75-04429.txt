@@ -1,0 +1,12 @@
+Osservazioni	NOM
+sulla	PRE:det
+critica	NOM
+di	PRE
+Plotino	NOM
+alla	PRE:det
+teoria	NOM
+delle	PRE:det
+categorie	NOM
+di	PRE
+Aristotele	NPR
+

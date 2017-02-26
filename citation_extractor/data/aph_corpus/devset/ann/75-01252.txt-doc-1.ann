@@ -1,0 +1,18 @@
+T1	AAUTHOR 69 76	Origene
+T2	REFAUWORK 77 83	(Cels.
+T3	REFSCOPE 84 91	2, 36),
+T4	REFAUWORK 121 126	(Ioh.
+T5	REFSCOPE 127 133	19,34)
+T6	AAUTHOR 226 234	Giovanni
+T7	REFAUWORK 319 323	(Il.
+T8	REFSCOPE 324 335	5, 335-342)
+T9	AAUTHOR 384 394	Alessandro
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T7 Arg2:T8
+#0	AnnotatorNotes R1	urn:cts:cwkb:1015.3455:2.36
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0010:19.34
+#2	AnnotatorNotes R3	urn:cts:cwkb:763.1599:5.335-5.342
+#3	AnnotatorNotes T9	urn:cts:cwkb:1397
+#4	AnnotatorNotes T6	urn:cts:cwkb:468
+#5	AnnotatorNotes T1	urn:cts:cwkb:1015

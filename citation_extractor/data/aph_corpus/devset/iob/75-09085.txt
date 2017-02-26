@@ -1,0 +1,45 @@
+Kommentierte	ADJA
+Neuedition	NN
+der	ART
+unter	APPR
+anderem	PIS
+von	APPR
+A.	NE
+Bernand	NE
+als	KOKOM
+Nr	NE
+.	$.
+
+82	CARD
+in	APPR
+Les	NE
+portes	NN
+du	PPER
+désert	VVFIN
+(	$(
+=>	NN
+56-09459	CARD
+)	$(
+veröffentlichten	VVFIN
+,	$,
+auf	APPR
+den	ART
+15.	ADJA
+-24	CARD
+.	$.
+
+April	NN
+210	CARD
+n.	APPR
+Chr.	NE
+datierten	VVFIN
+griechischen	ADJA
+Inschrift	NN
+aus	APPR
+dem	ART
+Gebiet	NN
+zwischen	APPR
+Koptos	NE
+und	KON
+Shenhur	NE
+

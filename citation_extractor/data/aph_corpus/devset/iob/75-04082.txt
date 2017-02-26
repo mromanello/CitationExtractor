@@ -1,0 +1,19 @@
+Die	ART
+Passage	NN
+ist	VAFIN
+stilistisch	ADJD
+auffällig	ADJD
+und	KON
+inhaltlich	ADJD
+überflüssig	ADJD
+bzw	VVFIN
+.	$.
+
+sinnstörend	ADJD
+und	KON
+sollte	VMFIN
+somit	ADV
+athetiert	ADJD
+werden	VAINF
+.	$.
+

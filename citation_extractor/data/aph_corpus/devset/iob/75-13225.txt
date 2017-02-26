@@ -1,0 +1,10 @@
+Resoconto	NOM
+dei	PRE:det
+lavori	NOM
+(	PON
+cf	ADJ
+.	SENT
+anche	ADV
+74-15799	NUM
+)	PON
+

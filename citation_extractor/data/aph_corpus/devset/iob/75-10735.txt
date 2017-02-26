@@ -1,0 +1,31 @@
+Examine	VER:pres
+le	DET:ART
+changement	NOM
+institutionnel	ADJ
+et	KON
+le	DET:ART
+phénomène	NOM
+de	PRP
+maturation	NOM
+politique	ADJ
+qu'	PRO:REL
+implique	VER:pres
+l'	DET:ART
+établissement	NOM
+des	PRP:det
+décemvirs	NOM
+au	PRP:det
+5e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+notamment	ADV
+d'	PRP
+après	PRP
+Tite-Live	NAM
+

@@ -1,0 +1,13 @@
+Commemorazione	NOM
+pronunciata	VER:pper
+all'	PRE:det
+Università	NOM
+Federico	NPR
+II	NUM
+di	PRE
+Napoli	NPR
+il	DET:def
+26	NUM
+maggio	NOM
+2003	NUM
+

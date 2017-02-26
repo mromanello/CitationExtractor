@@ -1,0 +1,25 @@
+L'	DET:def
+uso	NOM
+delle	PRE:det
+immagini	NOM
+degli	PRE:det
+antenati	NOM
+nelle	PRE:det
+cerimonie	NOM
+funebri	ADJ
+gentilizie	ADJ
+cambia	VER:pres
+gradualmente	ADV
+significato	VER:pper
+col	PRE:det
+mutare	VER:infi
+del	PRE:det
+contesto	NOM
+storico-sociale	ADJ
+dall'	PRE:det
+età	NOM
+repubblicana	ADJ
+all'	PRE:det
+età	NOM
+imperiale	ADJ
+

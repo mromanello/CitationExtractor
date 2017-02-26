@@ -1,0 +1,22 @@
+Cratère	NOM
+de	PRP
+l'	DET:ART
+Helladique	NAM
+récent	ADJ
+IIIB	NOM
+trouvé	VER:pper
+à	PRP
+Hala	NAM
+Sultan	NAM
+Tekke	NAM
+et	KON
+conservé	VER:pper
+au	PRP:det
+British	NAM
+Museum	NAM
+(	PUN
+inv.	ABR
+BMC	NAM
+410	NUM
+)	PUN
+

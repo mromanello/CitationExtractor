@@ -1,0 +1,31 @@
+La	ART
+acuñación	NC
+en	PREP
+bronce	NC
+CNH	NP
+Celsa	VLfin
+17	CARD
+,	CM
+a pesar de	CSUBI
+su	PPO
+metrología	NC
+uncial	ADJ
+,	CM
+fue	VSfin
+emitida	VLadj
+hacia	PREP
+el	ART
+año	NC
+45	CODE
+a.	NC
+C.	ACRNM
+por	PREP
+Sexto	NC
+Pompeyo	ADJ
+con	PREP
+objeto	NC
+de	CSUBI
+financiar	VLinf
+gastos	NC
+militares	ADJ
+

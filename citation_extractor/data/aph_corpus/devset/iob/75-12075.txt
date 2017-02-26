@@ -1,0 +1,6 @@
+Byzantinische	ADJA
+Kirchengeschichte	NN
+(	$(
+Fortsetzung	NN
+)	$(
+

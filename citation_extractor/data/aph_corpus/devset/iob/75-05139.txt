@@ -1,0 +1,33 @@
+Edizione	NOM
+dei	PRE:det
+ff	NOM
+.	SENT
+
+8r-16v	NOM
+del	PRE:det
+Codex	NPR
+Universitatis	NOM
+Bruxellensis	NOM
+,	PON
+con	PRE
+note	NOM
+a	PRE
+1	NUM
+,	PON
+312-2	NUM
+,	PON
+167	NUM
+,	PON
+e	CON
+appendice	NOM
+di	PRE
+osservazioni	NOM
+sul	PRE:det
+commento	NOM
+.	SENT
+
+Per	PRE
+1	NUM
+=>	NOM
+74-05991	NUM
+

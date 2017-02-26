@@ -1,0 +1,11 @@
+T1	REFAUWORK 224 235	Pliny, nat.
+T2	REFSCOPE 236 245	15, 74-75
+T3	REFAUWORK 250 268	Plutarch, Cat. Ma.
+T4	REFSCOPE 269 277	54, 1-2)
+T5	REFAUWORK 479 488	(Polybius
+T6	REFSCOPE 489 499	3, 20, 6).
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:951.3205:15.74-15.75
+#1	AnnotatorNotes R3	urn:cts:greekLit:tlg0543:3.20.6

@@ -1,0 +1,22 @@
+D'	PRP
+après	PRP
+les	DET:ART
+sources	NOM
+archéologiques	ADJ
+et	KON
+historiques	ADJ
+sur	PRP
+Paphos	NOM
+à	PRP
+la	DET:ART
+fin	NOM
+du	PRP:det
+4e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+

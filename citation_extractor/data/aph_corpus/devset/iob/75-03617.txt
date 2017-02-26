@@ -1,0 +1,31 @@
+Discussione	NOM
+sul	PRE:det
+testo	NOM
+e	CON
+sull'	PRE:det
+interpretazione	NOM
+di	PRE
+fr.	ABR
+8	NUM
+,	PON
+4-6	NUM
+D.	LS
+-K	NOM
+.	SENT
+
+Nel	PRE:det
+passo	NOM
+non	ADV
+è	VER:pres
+questione	NOM
+di	PRE
+atemporalità	NOM
+,	PON
+ma	CON
+di	PRE
+totalità	NOM
+dell'	PRE:det
+«	PON
+essere	VER:infi
+»	PON
+

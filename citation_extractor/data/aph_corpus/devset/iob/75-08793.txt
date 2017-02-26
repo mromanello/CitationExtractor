@@ -1,0 +1,22 @@
+Discussione	NOM
+dei	PRE:det
+dati	NOM
+archeologici	ADJ
+su	PRE
+questo	PRO:demo
+edificio	NOM
+del	PRE:det
+2°	NOM
+sec.	NOM
+d.	VER:geru
+C.	LS
+che	PRO:rela
+in	PRE
+età	NOM
+tardoantica	NOM
+fu	VER:remo
+riadattato	VER:pper
+come	PRE
+chiesa	NOM
+cristiana	ADJ
+

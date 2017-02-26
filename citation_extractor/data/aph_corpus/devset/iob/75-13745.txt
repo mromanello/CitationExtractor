@@ -1,0 +1,23 @@
+Zu	APPR
+Etymologie	NN
+und	KON
+Bedeutung	NN
+der	ART
+Hyaden	NN
+und	KON
+Plejaden	NN
+als	KOKOM
+Ankündiger	NN
+der	ART
+jährlichen	ADJA
+Kälte-	TRUNC
+und	KON
+Hitzeperioden	NN
+in	APPR
+antiken	ADJA
+griechischen	ADJA
+und	KON
+lateinischen	ADJA
+Quellen	NN
+.	$.
+

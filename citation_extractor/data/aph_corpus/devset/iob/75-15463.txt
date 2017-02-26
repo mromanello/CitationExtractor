@@ -1,0 +1,15 @@
+Avec	PRP
+bibliographie	NOM
+de	PRP
+ce	PRO:DEM
+savant	NOM
+hollandais	ADJ
+,	PUN
+spécialiste	NOM
+d'	PRP
+archéologie	NOM
+et	KON
+d'	PRP
+épigraphie	NOM
+romaine	ADJ
+

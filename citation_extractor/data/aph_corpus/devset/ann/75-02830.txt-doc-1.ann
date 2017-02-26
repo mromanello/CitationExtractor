@@ -1,0 +1,4 @@
+T1	AWORK 145 160	« Etimologías »
+T2	REFSCOPE 161 172	(19, 9-11),
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes T1	urn:cts:cwkb:2437.8993

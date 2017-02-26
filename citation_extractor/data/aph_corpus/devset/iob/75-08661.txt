@@ -1,0 +1,12 @@
+Fouilles	NOM
+récentes	ADJ
+en	PRP
+Suisse	NAM
+.	SENT
+
+Époque	NOM
+romaine	ADJ
+:	PUN
+p.	ABR
+368-403	NUM
+

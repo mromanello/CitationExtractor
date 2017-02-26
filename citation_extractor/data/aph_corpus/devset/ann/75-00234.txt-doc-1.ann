@@ -1,0 +1,3 @@
+T1	REFAUWORK 105 122	(Antonino Liberal
+T2	REFSCOPE 123 125	7)
+R1	Scope Arg1:T1 Arg2:T2

@@ -1,0 +1,8 @@
+T1	AWORK 181 190	« Médée »
+T2	AAUTHOR 191 202	d' Euripide
+T3	AAUTHOR 360 369	Pausanias
+T4	REFSCOPE 370 382	(2, 3, 6-11)
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0525:2.3.6-2.3.11
+#1	AnnotatorNotes T2	urn:cts:greekLit:tlg0006
+#2	AnnotatorNotes T3	urn:cts:greekLit:tlg0525

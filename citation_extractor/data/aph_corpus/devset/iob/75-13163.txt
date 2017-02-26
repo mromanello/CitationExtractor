@@ -1,0 +1,12 @@
+Influenze	NOM
+dello	PRE:det
+stile	NOM
+greco	ADJ
+di	PRE
+età	NOM
+ellenistica	ADJ
+sull'	PRE:det
+architettura	NOM
+di	PRE
+Nisa	NOM
+

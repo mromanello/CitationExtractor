@@ -1,0 +1,19 @@
+Le	DET:ART
+premier	NUM
+document	NOM
+date	NOM
+du	PRP:det
+22	NUM
+juin	NOM
+135	NUM
+;	PUN
+le	DET:ART
+second	NOM
+documente	VER:pres
+le	DET:ART
+taux	NOM
+des	PRP:det
+intérêts	NOM
+en	PRP
+212	NUM
+

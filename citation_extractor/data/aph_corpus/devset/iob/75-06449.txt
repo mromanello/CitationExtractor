@@ -1,0 +1,14 @@
+Con	PRE
+esempi	NOM
+di	PRE
+traduzione	NOM
+di	PRE
+passi	NOM
+di	PRE
+interpretazione	NOM
+controversa	ADJ
+di	PRE
+Seneca	NPR
+e	CON
+Lucrezio	NOM
+

@@ -1,0 +1,67 @@
+The	DT
+head-vase	NN
+Paris	NP
+,	,
+Musée	NP
+du	NP
+Louvre	NP
+Inv	NP
+.	SENT
+
+Br	NN
+.	SENT
+
+2955	CD
+is	VBZ
+among	IN
+the	DT
+most	RBS
+famous	JJ
+Etruscan	JJ
+bronze	NN
+works	NNS
+,	,
+yet	CC
+it	PP
+has	VBZ
+never	RB
+been	VBN
+the	DT
+subject	NN
+of	IN
+a	DT
+stylistic	JJ
+analysis	NN
+.	SENT
+
+On	IN
+the	DT
+basis	NN
+of	IN
+a	DT
+detailed	JJ
+stylistic	JJ
+and	CC
+typological	JJ
+examination	NN
+a	DT
+dating	VBG
+of	IN
+the	DT
+work	NN
+to	TO
+the	DT
+2nd	JJ
+quarter	NN
+of	IN
+the	DT
+4th	JJ
+cent	NN
+.	SENT
+
+B.	NP
+C.	NP
+is	VBZ
+proposed	VBN
+.	SENT
+

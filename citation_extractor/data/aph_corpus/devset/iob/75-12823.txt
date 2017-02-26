@@ -1,0 +1,24 @@
+A	PRE
+partire	VER:infi
+dalle	PRE:det
+attestazioni	NOM
+del	PRE:det
+mito	NOM
+nella	PRE:det
+letteratura	NOM
+greca	ADJ
+e	CON
+romana	ADJ
+,	PON
+si	PRO:pers
+studia	VER:pres
+la	DET:def
+funzione	NOM
+funeraria	ADJ
+da	PRE
+esso	PRO:pers
+assunto	VER:pper
+nell'	PRE:det
+arte	NOM
+etrusca	ADJ
+

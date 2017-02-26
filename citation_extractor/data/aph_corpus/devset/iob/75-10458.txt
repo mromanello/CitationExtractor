@@ -1,0 +1,8 @@
+Attributions	NOM
+juridictionnelles	ADJ
+de	PRP
+l'	DET:ART
+«	PUN:cit
+archonte-roi	NOM
+»	PUN:cit
+

@@ -1,0 +1,24 @@
+Analisi	NOM
+delle	PRE:det
+testimonianze	NOM
+dell'	PRE:det
+erudito	ADJ
+arciprete	NOM
+Antonino	VER:cpre
+Carioti	NOM
+(	PON
+1683-1780	NUM
+)	PON
+sui	PRE:det
+siti	NOM
+che	PRO:rela
+potrebbero	VER:cond
+aver	VER:infi
+ospitato	VER:pper
+eremi	NOM
+paleocristiani	ADJ
+nel	PRE:det
+territorio	NOM
+di	PRE
+Scicli	NOM
+

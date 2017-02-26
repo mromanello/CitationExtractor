@@ -1,0 +1,81 @@
+El	ART
+«	SYM
+Eutidemo	NP
+»	SYM
+forma	NC
+parte	NC
+de	PREP
+los	ART
+diálogos	NC
+socráticos	ADJ
+con	PREP
+forma	NC
+narrativa	ADJ
+.	FS
+
+Este	DM
+método	NC
+permite	VLfin
+la	ART
+elaboración	NC
+de	PREP
+un	ART
+sistema	NC
+de	PREP
+comunicación	NC
+en	PREP
+dos	CARD
+niveles	NC
+,	CM
+con	PREP
+la	ART
+presencia	NC
+de	PREP
+Sócrates	NP
+que	CQUE
+representa	VLfin
+al mismo tiempo	ADV
+el	ART
+papel	NC
+de	PREP
+narrador	NC
+frente a	PREP
+Critón	NC
+y	CC
+el	ART
+de	PREP
+interlocutor	NC
+frente a	PREP
+los	ART
+otros	QU
+personajes	NC
+.	FS
+
+Gracias a	PREP
+este	DM
+sistema	NC
+,	CM
+resulta	VLfin
+posible	ADJ
+la	ART
+enunciación	NC
+de	PREP
+un	ART
+discurso	NC
+envuelto	VLadj
+en	PREP
+la	ART
+máscara	NC
+de	PREP
+la	ART
+ironía	NC
+,	CM
+que	CQUE
+constituye	VLfin
+para	PREP
+Sócrates	NP
+un	ART
+instrumento	NC
+dialéctico	NC
+.	FS
+

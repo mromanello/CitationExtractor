@@ -1,0 +1,5 @@
+T1	REFAUWORK 36 48	Eusebius, VC
+T2	REFSCOPE 49 59	2, 48-60),
+T3	AWORK 92 113	« Great Persecution »
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:2468.8534:2.48-2.60

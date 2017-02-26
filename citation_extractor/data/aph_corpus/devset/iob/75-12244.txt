@@ -1,0 +1,11 @@
+Organisation	NOM
+ecclésiale	ADJ
+de	PRP
+la	DET:ART
+Péninsule	NAM
+Ibérique	ADJ
+dans	PRP
+l'	DET:ART
+antiquité	NOM
+tardive	ADJ
+

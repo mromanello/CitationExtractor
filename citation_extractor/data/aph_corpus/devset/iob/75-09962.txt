@@ -1,0 +1,27 @@
+Esquisse	NOM
+d'	PRP
+une	DET:ART
+histoire	NOM
+des	PRP:det
+relations	NOM
+entre	PRP
+Grecs	NAM
+et	KON
+Égyptiens	NAM
+,	PUN
+depuis	PRP
+le	DET:ART
+deuxième	NUM
+millénaire	ADJ
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+jusqu'	PRP
+à	PRP
+l'	DET:ART
+époque	NOM
+macédonienne	ADJ
+

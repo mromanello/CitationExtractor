@@ -1,0 +1,7 @@
+T1	REFAUWORK 35 39	Aen.
+T2	REFSCOPE 40 41	6
+T3	REFAUWORK 146 159	Silio Italico
+T4	REFSCOPE 160 162	13
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:6

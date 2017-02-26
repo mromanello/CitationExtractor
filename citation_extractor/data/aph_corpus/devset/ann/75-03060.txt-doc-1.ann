@@ -1,0 +1,6 @@
+T1	REFAUWORK 15 20	Lucr.
+T2	REFSCOPE 21 29	1, 62-79
+T3	AAUTHOR 124 132	Lucrezio
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:528:1.62-1.79
+#1	AnnotatorNotes T3	urn:cts:cwkb:528

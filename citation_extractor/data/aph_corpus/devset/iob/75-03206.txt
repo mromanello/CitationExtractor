@@ -1,0 +1,5 @@
+Tradition	NOM
+manuscrite	ADJ
+et	KON
+fortune	NOM
+

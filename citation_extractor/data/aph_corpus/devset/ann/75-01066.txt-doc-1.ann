@@ -1,0 +1,14 @@
+T1	AAUTHOR 0 13	Callimachus '
+T2	AWORK 14 23	« Hymns »
+T3	AWORK 100 118	« Homeric hymns ».
+T4	AWORK 166 186	« Hymn to Artemis »,
+T5	AWORK 219 236	« Homeric hymns »
+T6	REFAUWORK 332 338	(Dian.
+T7	REFSCOPE 339 348	110-112),
+T8	AWORK 577 597	« Hymn to Artemis ».
+R1	Scope Arg1:T6 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0533.tlg017:110-112
+#1	AnnotatorNotes T8	urn:cts:greekLit:tlg0533.tlg017
+#2	AnnotatorNotes T4	urn:cts:greekLit:tlg0533.tlg017
+#3	AnnotatorNotes T2	urn:cts:cwkb:1059.3812
+#4	AnnotatorNotes T1	urn:cts:greekLit:tlg0533

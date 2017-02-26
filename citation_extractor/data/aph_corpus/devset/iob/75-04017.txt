@@ -1,0 +1,21 @@
+Zu	APPR
+einer	ART
+möglichen	ADJA
+gegenseitigen	ADJA
+Kenntnis	NN
+bzw	VVFIN
+.	$.
+
+Beeinflussung	NN
+ausgehend	ADJD
+von	APPR
+der	ART
+jeweiligen	ADJA
+Darstellung	NN
+des	ART
+historischen	ADJA
+und	KON
+des	ART
+idealen	ADJA
+Perikles	NE
+

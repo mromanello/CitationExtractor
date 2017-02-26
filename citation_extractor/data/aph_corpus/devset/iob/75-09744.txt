@@ -1,0 +1,43 @@
+Zu	APPR
+CPR	NN
+19	CARD
+,	$,
+8.	ADJA
+
+11.	ADJA
+
+16.	ADJA
+
+31.	ADJA
+
+33.	ADJA
+
+36.	ADJA
+
+40.	ADJA
+
+44.	ADJA
+
+46.	ADJA
+
+49.	ADJA
+
+51-53	CARD
+.	$.
+
+66.	ADJA
+
+67.	ADJA
+
+69	CARD
+;	$.
+PEirene	NN
+2	CARD
+,	$,
+8	CARD
+und	KON
+SB	NE
+12	CARD
+,	$,
+11032.	ADJA
+

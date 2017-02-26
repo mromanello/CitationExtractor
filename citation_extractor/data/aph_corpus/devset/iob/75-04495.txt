@@ -1,0 +1,22 @@
+Nuova	ADJ
+interpretazione	NOM
+del	PRE:det
+«	PON
+dictum	NOM
+»	PON
+di	PRE
+Alessandro	NPR
+,	PON
+conservato	VER:pper
+da	PRE
+Plutarco	NOM
+,	PON
+relativo	ADJ
+all'	PRE:det
+incontro	NOM
+del	PRE:det
+re	NOM
+macedone	ADJ
+con	PRE
+Diogene	NOM
+

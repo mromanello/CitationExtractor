@@ -1,0 +1,23 @@
+Pubblicazione	NOM
+di	PRE
+un	DET:indef
+articolo	NOM
+del	PRE:det
+1939	NUM
+riguardante	VER:ppre
+un	DET:indef
+papiro	NOM
+(	PON
+PSI	NOM
+1304	NUM
+)	PON
+contenente	VER:ppre
+ampi	ADJ
+frammenti	NOM
+delle	PRE:det
+«	PON
+Elleniche	NOM
+di	PRE
+Ossirinco	NOM
+»	PON
+

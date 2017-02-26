@@ -1,0 +1,19 @@
+T1	AAUTHOR 45 51	Plotin
+T2	AAUTHOR 81 89	Porphyre
+T3	REFAUWORK 90 96	(Sent.
+T4	REFSCOPE 97 100	16)
+T5	AWORK 175 187	« De anima »
+T6	AWORK 194 210	« De memoria »).
+T7	AAUTHOR 211 217	Plotin
+T8	AAUTHOR 514 526	qu' Aristote
+T9	REFSCOPE 162 171	livre III
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T5 Arg2:T9
+#0	AnnotatorNotes R1	urn:cts:cwkb:1056.3782:16
+#1	AnnotatorNotes R2	urn:cts:cwkb:766.9614:3
+#2	AnnotatorNotes T6	urn:cts:cwkb:766.9614
+#3	AnnotatorNotes T7	urn:cts:cwkb:1051
+#4	AnnotatorNotes T5	urn:cts:cwkb:766.9614
+#5	AnnotatorNotes T2	urn:cts:cwkb:1056
+#6	AnnotatorNotes T1	urn:cts:cwkb:1051
+#7	AnnotatorNotes T8	urn:cts:cwkb:urn:cts:cwkb:766

@@ -1,0 +1,23 @@
+Origine	NOM
+etrusca	ADJ
+dei	PRE:det
+nomi	NOM
+delle	PRE:det
+tre	ADJ
+tribù	NOM
+che	PRO:rela
+formarono	VER:remo
+la	DET:def
+prima	ADJ
+«	PON
+ciuitas	VER:geru
+Romana	NOM
+»	PON
+e	CON
+origine	NOM
+romana	ADJ
+di	PRE
+«	PON
+tribus	NOM
+»	PON
+

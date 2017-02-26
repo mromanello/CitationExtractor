@@ -1,0 +1,13 @@
+Bilan	NOM
+des	PRP:det
+recherches	NOM
+.	SENT
+
+Introduction	NOM
+aux	PRP:det
+études	NOM
+notées	VER:pper
+75-08146	NUM
+et	KON
+75-08147	NUM
+

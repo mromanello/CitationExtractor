@@ -1,0 +1,19 @@
+L'	DET:ART
+Apocalypse	NOM
+met	VER:pres
+en	PRP
+question	NOM
+l'	DET:ART
+hégémonie	NOM
+romaine	ADJ
+sur	PRP
+le	DET:ART
+plan	NOM
+religieux	ADJ
+,	PUN
+mais	KON
+aussi	ADV
+politique	ADJ
+et	KON
+économique	ADJ
+

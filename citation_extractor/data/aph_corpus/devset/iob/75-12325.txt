@@ -1,0 +1,30 @@
+L'	DET:ART
+importance	NOM
+de	PRP
+la	DET:ART
+philosophie	NOM
+grecque	ADJ
+et	KON
+du	PRP:det
+judaïsme	NOM
+hellénistique	ADJ
+dans	PRP
+l'	DET:ART
+élaboration	NOM
+de	PRP
+la	DET:ART
+spiritualité	NOM
+chrétienne	ADJ
+.	SENT
+
+L'	DET:ART
+exemple	NOM
+de	PRP
+Clément	NAM
+d'	PRP
+Alexandrie	NAM
+(	PUN
+Prot.	ABR
+1	NUM
+)	PUN
+

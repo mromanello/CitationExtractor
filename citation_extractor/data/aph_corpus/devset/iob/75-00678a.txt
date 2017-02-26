@@ -1,0 +1,12 @@
+Recueil	NOM
+de	PRP
+6	NUM
+études	NOM
+.	SENT
+
+Dépouillé	VER:pper
+dans	PRP
+le	DET:ART
+tome	NOM
+75	NUM
+

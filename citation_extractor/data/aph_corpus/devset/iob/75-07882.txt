@@ -1,0 +1,31 @@
+Lampes	NOM
+et	KON
+candélabres	NOM
+de	PRP
+terre	NOM
+cuite	ADJ
+et	KON
+de	PRP
+bronze	NOM
+,	PUN
+matériel	ADJ
+issu	ADJ
+des	PRP:det
+fouilles	NOM
+de	PRP
+l'	DET:ART
+université	NOM
+d'	PRP
+Arizona	NAM
+.	SENT
+
+Plusieurs	PRO:IND
+portent	VER:pres
+des	PRP:det
+inscriptions	NOM
+,	PUN
+parfois	ADV
+à	PRP
+caractère	NOM
+chrétien	ADJ
+

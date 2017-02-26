@@ -1,0 +1,18 @@
+T1	AWORK 135 153	« Metamorphoses »,
+T2	REFAUWORK 187 191	Met.
+T3	REFSCOPE 192 195	11,
+T4	AWORK 233 245	« Heroides »
+T5	REFAUWORK 246 251	(Her.
+T6	REFSCOPE 252 258	18-9),
+T7	AWORK 310 321	« Tristia »
+T8	REFSCOPE 322 339	(1.2, 1.4, 1.11).
+T9	AAUTHOR 550 557	Ovid 's
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T5 Arg2:T6
+R3	Scope Arg1:T7 Arg2:T8
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0959.phi006:11
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0638.tlg004:18-9
+#2	AnnotatorNotes T9	urn:cts:cwkb:568
+#3	AnnotatorNotes T7	urn:cts:cwkb:568.1163
+#4	AnnotatorNotes T4	urn:cts:latinLit:phi0959.phi002
+#5	AnnotatorNotes T1	urn:cts:cwkb:741.1536

@@ -1,0 +1,6 @@
+T1	REFAUWORK 76 80	Inno
+T2	REFSCOPE 81 83	5,
+T3	AWORK 172 181	« Aitia »
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:462:5
+#1	AnnotatorNotes T3	urn:cts:cwkb:789.1882

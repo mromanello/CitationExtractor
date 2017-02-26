@@ -1,0 +1,21 @@
+Les	DET:ART
+principes	NOM
+de	PRP
+méthode	NOM
+instaurés	VER:pper
+par	PRP
+Letronne	NAM
+pour	KON
+intégrer	VER:infi
+les	DET:ART
+données	NOM
+archéologiques	ADJ
+et	KON
+épigraphiques	ADJ
+à	PRP
+la	DET:ART
+construction	NOM
+de	PRP
+l'	DET:ART
+histoire	NOM
+

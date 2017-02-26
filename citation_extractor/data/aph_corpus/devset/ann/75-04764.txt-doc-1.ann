@@ -1,0 +1,4 @@
+T1	REFAUWORK 437 448	Sall., Iug.
+T2	REFSCOPE 449 454	76, 3
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0085.tlg007:76.3

@@ -1,0 +1,35 @@
+Auf	APPR
+der	ART
+wiederverwendeten	ADJA
+eisenzeitlichen	ADJA
+Stele	NN
+sind	VAFIN
+Herkules	NE
+,	$,
+Merkur	NN
+,	$,
+Apoll	NN
+,	$,
+Mars	NN
+und	KON
+Hygieia	NN
+dargestellt	VVPP
+.	$.
+
+Sie	PPER
+ähnelt	VVFIN
+trotz	APPR
+der	ART
+grossen	ADJA
+Entfernung	NN
+zu	APPR
+den	ART
+nächsten	ADJA
+Belegen	NN
+am	PTKA
+ehesten	ADJD
+Viergöttersteinen	NN
+mit	APPR
+Jupiter-Gigantensäule	NN
+.	$.
+

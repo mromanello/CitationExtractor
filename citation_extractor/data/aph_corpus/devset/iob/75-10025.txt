@@ -1,0 +1,16 @@
+Établissement	NOM
+d'	PRP
+une	DET:ART
+chronologie	NOM
+.	SENT
+
+L'	DET:ART
+archontat	NOM
+de	PRP
+Philinos	NOM
+doit	VER:pres
+être	VER:infi
+situé	VER:pper
+en	PRP
+259-258	NUM
+

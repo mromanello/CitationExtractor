@@ -1,0 +1,22 @@
+A	PRE
+proposito	NOM
+dei	PRE:det
+criteri	NOM
+espositivi	ADJ
+che	PRO:rela
+hanno	VER:pres
+guidato	VER:pper
+il	DET:def
+recente	ADJ
+allestimento	NOM
+di	PRE
+sei	ADJ
+nuove	ADJ
+sale	NOM
+del	PRE:det
+Museo	NOM
+dedicate	VER:pper
+alle	PRE:det
+raccolte	NOM
+numismatiche	ADJ
+

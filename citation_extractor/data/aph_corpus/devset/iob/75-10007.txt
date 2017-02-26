@@ -1,0 +1,24 @@
+Benché	CON
+la	DET:def
+sua	PRO:poss
+propaganda	NOM
+ostentasse	VER:cimp
+fedeltà	NOM
+ai	PRE:det
+valori	NOM
+tradizionali	ADJ
+,	PON
+la	DET:def
+politica	NOM
+di	PRE
+Cleomene	NOM
+fu	VER:remo
+pesantemente	ADV
+influenzata	VER:pper
+dai	PRE:det
+nuovi	ADJ
+modelli	NOM
+ellenistici	ADJ
+di	PRE
+regalità	NOM
+

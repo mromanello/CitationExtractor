@@ -1,0 +1,23 @@
+T1	AAUTHOR 97 106	Seneca 's
+T2	AWORK 107 119	« Thyestes »
+T3	AWORK 128 140	« Octavia ».
+T4	REFAUWORK 293 298	(Thy.
+T5	REFSCOPE 299 308	204-335 ;
+T6	REFAUWORK 309 316	Octavia
+T7	REFSCOPE 317 324	377-592
+T8	REFSCOPE 329 339	820-876) ;
+T9	AWORK 484 495	« Octavia »
+T10	AWORK 532 545	« Thyestes ».
+T11	AWORK 564 575	« Octavia »
+R1	Scope Arg1:T4 Arg2:T5
+R2	Scope Arg1:T6 Arg2:T7
+R3	Scope Arg1:T6 Arg2:T8
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0003:204-335
+#1	AnnotatorNotes R2	urn:cts:cwkb:2384:377-592
+#2	AnnotatorNotes R3	urn:cts:cwkb:2384:820-876
+#3	AnnotatorNotes T9	urn:cts:cwkb:1358.4386
+#4	AnnotatorNotes T2	urn:cts:cwkb:620.1282
+#5	AnnotatorNotes T3	urn:cts:cwkb:1358.4386
+#6	AnnotatorNotes T1	urn:cts:cwkb:620
+#7	AnnotatorNotes T10	urn:cts:cwkb:620.1282
+#8	AnnotatorNotes T11	urn:cts:cwkb:1358.4386

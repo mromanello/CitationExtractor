@@ -1,0 +1,10 @@
+Le	DET:ART
+matériel	ADJ
+céramique	NOM
+découvert	VER:pper
+à	PRP
+Saïrkhè	NAM
+(	PUN
+Géorgie	NAM
+)	PUN
+

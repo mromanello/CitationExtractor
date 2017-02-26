@@ -1,0 +1,16 @@
+T1	AAUTHOR 0 5	Homer
+T2	REFAUWORK 107 111	(Il.
+T3	REFSCOPE 112 118	1, 2),
+T4	REFSCOPE 255 267	(19, 67-68).
+T5	REFSCOPE 336 343	24, 516
+T6	AAUTHOR 440 445	Homer
+T7	AWORK 449 458	« Iliad »
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0012.tlg001:1.2
+#2	AnnotatorNotes T6	urn:cts:greekLit:tlg0012
+#3	AnnotatorNotes T7	urn:cts:greekLit:tlg0012.tlg001
+#4	AnnotatorNotes T1	urn:cts:greekLit:tlg0012
+R2	Scope Arg1:T2 Arg2:T4	
+R3	Scope Arg1:T2 Arg2:T5	
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0012.tlg001:19.67-19.68
+#5	AnnotatorNotes R3	urn:cts:greekLit:tlg0012.tlg001:24.516

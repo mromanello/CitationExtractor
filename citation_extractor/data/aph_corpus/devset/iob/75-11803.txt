@@ -1,0 +1,20 @@
+Cronaca	NOM
+del	PRE:det
+convegno	NOM
+,	PON
+che	PRO:rela
+ha	VER:pres
+riguardato	VER:pper
+in	PRE
+parte	NOM
+anche	ADV
+le	DET:def
+religioni	NOM
+antiche	ADJ
+e	CON
+il	DET:def
+Cristianesimo	NOM
+dei	PRE:det
+primi	ADJ
+secoli	NOM
+

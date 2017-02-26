@@ -1,0 +1,42 @@
+Ces	PRO:DEM
+deux	NUM
+lettres	NOM
+décrivent	VER:pres
+des	PRP:det
+propriétés	NOM
+de	PRP
+l'	DET:ART
+auteur	NOM
+,	PUN
+qui	PRO:REL
+célèbre	VER:pres
+notamment	ADV
+leurs	DET:POS
+jardins	NOM
+avec	PRP
+emphase	NOM
+.	SENT
+
+Ils	PRO:PER
+étaient	VER:impf
+divisés	VER:pper
+en	PRP
+plusieurs	PRO:IND
+parties	NOM
+offrant	VER:ppre
+chacune	PRO:IND
+un	DET:ART
+paysage	NOM
+particulier	ADJ
+.	SENT
+
+Avec	PRP
+des	PRP:det
+éléments	NOM
+généraux	ADJ
+sur	PRP
+l'	DET:ART
+art	NOM
+des	PRP:det
+jardins	NOM
+

@@ -1,0 +1,25 @@
+Se	SE
+estudia	VLfin
+la	ART
+doctrina	NC
+de	PREP
+Gorgias	NC
+respecto	NC
+a	PREP
+la	ART
+palabra	NC
+como	CSUBX
+seducción	NC
+y	CC
+al	CSUBI
+poder	VMinf
+de	PREP
+la	ART
+retórica	NC
+como	CSUBX
+arte	NC
+de	PREP
+la	ART
+persuasión	NC
+.	FS
+

@@ -1,0 +1,20 @@
+Riguarda	VER:pres
+anche	ADV
+testi	NOM
+antichi	ADJ
+,	PON
+greci	ADJ
+e	CON
+latini	ADJ
+.	SENT
+
+Riproduzione	NOM
+dell'	PRE:det
+inventario	NOM
+contenuto	VER:pper
+ai	PRE:det
+f.	NOM
+112r-159v	NOM
+del	PRE:det
+manoscritto	NOM
+

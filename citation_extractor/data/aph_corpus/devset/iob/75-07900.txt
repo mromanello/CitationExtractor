@@ -1,0 +1,23 @@
+Travaux	NOM
+de	PRP
+la	DET:ART
+mission	NOM
+polonaise	ADJ
+à	PRP
+Nea	NAM
+Paphos	NAM
+en	PRP
+1986	NUM
+dans	PRP
+les	DET:ART
+niveaux	NOM
+hellénistiques	ADJ
+et	KON
+romains	ADJ
+,	PUN
+sous	PRP
+la	DET:ART
+villa	NOM
+du	PRP:det
+Bas-Empire	NAM
+

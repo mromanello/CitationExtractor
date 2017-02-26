@@ -1,0 +1,24 @@
+Die	ART
+unterschiedlichen	ADJA
+Auslegungen	NN
+der	ART
+Wundergeschichten	NN
+ergeben	VVFIN
+sich	PRF
+aus	APPR
+dem	ART
+unterschiedlichen	ADJA
+Kenntnisstand	NN
+,	$,
+den	ART
+Interessen	NN
+und	KON
+den	ART
+gesellschaftlich	ADJD
+geprägten	ADJA
+Vorstellungen	NN
+der	ART
+jeweiligen	ADJA
+Interpreten	NN
+.	$.
+

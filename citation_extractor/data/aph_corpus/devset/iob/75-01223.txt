@@ -1,0 +1,11 @@
+Traduzione	NOM
+,	PON
+discussione	NOM
+sulla	PRE:det
+costituzione	NOM
+del	PRE:det
+testo	NOM
+e	CON
+commento	NOM
+esegetico	ADJ
+

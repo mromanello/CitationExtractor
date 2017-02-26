@@ -1,0 +1,8 @@
+T1	REFSCOPE 108 115	v. 7-10
+T3	REFAUWORK 255 258	(O.
+T4	REFSCOPE 259 267	12, 14),
+R1	Scope Arg1:T3 Arg2:T4	
+#1	AnnotatorNotes R1	urn:cts:greekLit:tlg0033.tlg001:12.14
+T2	AWORK 36 63	quarto epinicio bacchilideo
+R2	Scope Arg1:T2 Arg2:T1	
+#2	AnnotatorNotes R2	urn:cts:greekLit:tlg0199.tlg001:4.7-4.10

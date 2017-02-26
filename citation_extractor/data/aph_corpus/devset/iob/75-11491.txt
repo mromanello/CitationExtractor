@@ -1,0 +1,15 @@
+Il	DET:def
+viaggio	NOM
+dell'	PRE:det
+eroe	NOM
+e	CON
+la	DET:def
+fondazione	NOM
+della	PRE:det
+città	NOM
+cipriota	ADJ
+tra	PRE
+storia	NOM
+e	CON
+leggenda	NOM
+

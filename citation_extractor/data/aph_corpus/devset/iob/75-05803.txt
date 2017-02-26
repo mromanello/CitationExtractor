@@ -1,0 +1,16 @@
+Arguments	NOM
+en	PRP
+faveur	NOM
+de	PRP
+la	DET:ART
+priorité	NOM
+du	PRP:det
+texte	NOM
+alexandrin	ADJ
+sur	PRP
+le	DET:ART
+texte	NOM
+antiochien	ADJ
+du	PRP:det
+NT	NAM
+

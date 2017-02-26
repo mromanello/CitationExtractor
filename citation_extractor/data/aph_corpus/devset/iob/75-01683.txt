@@ -1,0 +1,16 @@
+Édition	NOM
+parue	VER:pper
+en	PRP
+1565	NUM
+à	PRP
+Strasbourg	NAM
+,	PUN
+avec	PRP
+texte	NOM
+grec	ADJ
+,	PUN
+traduction	NOM
+latine	ADJ
+et	KON
+commentaire	NOM
+

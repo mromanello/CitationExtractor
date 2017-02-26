@@ -1,0 +1,45 @@
+Première	NUM
+publication	NOM
+d'	PRP
+un	DET:ART
+vase	NOM
+datable	ADJ
+du	PRP:det
+début	NOM
+du	PRP:det
+6e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+et	KON
+appartenant	VER:ppre
+à	PRP
+une	DET:ART
+collection	NOM
+temporairement	ADV
+exposée	VER:pper
+au	PRP:det
+musée	NOM
+de	PRP
+Princeton	NAM
+.	SENT
+
+Le	DET:ART
+décor	NOM
+présente	ADJ
+deux	NUM
+sphynx	NOM
+de	PRP
+part	NOM
+et	KON
+d'	PRP
+autre	ADJ
+d'	PRP
+un	DET:ART
+arbre	NOM
+

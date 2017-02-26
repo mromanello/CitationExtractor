@@ -1,0 +1,8 @@
+T1	AAUTHOR 57 63	Seneca
+T2	AAUTHOR 219 225	Seneca
+T3	AWORK 301 312	« Tristia »
+T4	AWORK 321 343	« Epistulae ex Ponto »
+#0	AnnotatorNotes T4	urn:cts:cwkb:568.1164
+#1	AnnotatorNotes T2	urn:cts:cwkb:620
+#2	AnnotatorNotes T3	urn:cts:cwkb:568.1163
+#3	AnnotatorNotes T1	urn:cts:cwkb:620

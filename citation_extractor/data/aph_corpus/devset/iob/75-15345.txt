@@ -1,0 +1,15 @@
+Obituario	VLfin
+de	PREP
+quien	REL
+fuera	VSfin
+profesor	NC
+de	PREP
+Filología	NC
+Griega	NP
+de	PREP
+la	ART
+Universidad	NC
+de	PREP
+La	ART
+Laguna	NC
+

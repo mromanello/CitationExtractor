@@ -1,0 +1,4 @@
+T1	REFAUWORK 34 39	Thuc.
+T2	REFSCOPE 40 48	4, 58-65
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0003.tlg001:4.58-4.65

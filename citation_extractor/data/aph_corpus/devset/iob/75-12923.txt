@@ -1,0 +1,17 @@
+Panorama	NOM
+topographique	ADJ
+et	KON
+typologique	ADJ
+des	PRP:det
+résidences	NOM
+impériales	ADJ
+,	PUN
+urbaines	ADJ
+ou	KON
+périurbaines	ADJ
+,	PUN
+dès	PRP
+l'	DET:ART
+époque	NOM
+sévérienne	ADJ
+

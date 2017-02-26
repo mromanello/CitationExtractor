@@ -1,0 +1,18 @@
+T1	AAUTHOR 109 116	Photios
+T2	REFAUWORK 126 129	ep.
+T3	REFSCOPE 130 133	187
+T4	REFSCOPE 134 141	et 265,
+T5	REFAUWORK 277 279	Lc
+T6	REFSCOPE 280 285	12,33
+T7	AAUTHOR 290 307	Julien l' Apostat
+T8	AWORK 317 342	« Contre les Galiléens »,
+T9	AWORK 535 552	« Bibliothèque »,
+T10	AAUTHOR 621 628	Photios
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:2427.7997:187
+#1	AnnotatorNotes R2	urn:cts:cwkb:2427.7997:265
+#3	AnnotatorNotes T8	urn:cts:greekLit:tlg2003.tlg017
+#5	AnnotatorNotes T7	urn:cts:greekLit:tlg2003
+#6	AnnotatorNotes T1	urn:cts:cwkb:2427
+#7	AnnotatorNotes T10	urn:cts:cwkb:2427

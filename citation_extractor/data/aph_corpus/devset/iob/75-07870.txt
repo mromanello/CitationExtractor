@@ -1,0 +1,18 @@
+Lot	NAM
+de	PRP
+céramique	NOM
+mycénienne	ADJ
+provenant	VER:ppre
+du	PRP:det
+bâtiment	NOM
+administratif	ADJ
+abandonné	VER:pper
+vers	PRP
+1200	NUM
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+

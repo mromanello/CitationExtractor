@@ -1,0 +1,12 @@
+T1	AAUTHOR 0 13	Callimachus '
+T2	REFAUWORK 79 87	In Hymns
+T3	REFSCOPE 88 93	1, 2,
+T4	REFAUWORK 275 280	Hymns
+T5	REFSCOPE 281 286	4, 5,
+T6	AWORK 429 438	« Aetia »
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:981.3368:1.2
+#1	AnnotatorNotes R2	urn:cts:cwkb:1059.3812:4.5
+#2	AnnotatorNotes T6	urn:cts:cwkb:789.1882
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0533

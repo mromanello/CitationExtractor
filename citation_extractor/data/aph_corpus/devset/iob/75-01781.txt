@@ -1,0 +1,31 @@
+Historische	ADJA
+und	KON
+gesellschaftliche	ADJA
+Aspekte	NN
+sprechen	VVFIN
+dafür	PAV
+,	$,
+dass	KOUS
+auch	ADV
+der	ART
+Brief	NN
+PMich	NE
+.	$.
+
+8	CARD
+,	$,
+510	CARD
+im	APPRART
+selben	PDAT
+Kontext	NN
+wie	KOKOM
+das	ART
+Archiv	NN
+zu	PTKZU
+lokalisieren	VVINF
+und	KON
+zu	PTKZU
+verstehen	VVINF
+ist	VAFIN
+.	$.
+

@@ -1,0 +1,16 @@
+Osservazioni	NOM
+su	ADV
+come	CON
+le	DET:def
+capacità	NOM
+argomentative	ADJ
+della	PRE:det
+comicità	NOM
+furono	VER:remo
+assimilate	VER:pper
+e	CON
+consapevolmente	ADV
+elaborate	VER:pper
+dalla	PRE:det
+retorica	NOM
+

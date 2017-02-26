@@ -1,0 +1,13 @@
+Analyse	VER:pres
+iconographique	ADJ
+et	KON
+épigraphique	ADJ
+des	PRP:det
+ex-voto	NOM
+des	PRP:det
+sanctuaires	NOM
+guérisseurs	ADJ
+en	PRP
+Gaule	NAM
+romaine	ADJ
+

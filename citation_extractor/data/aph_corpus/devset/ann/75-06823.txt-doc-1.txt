@@ -1,0 +1,5 @@
+A proposed new model for the voting procedure at the Athenian dramatic competitions, with demonstration of its mathematical viability.
+Previous proposals (A. W. Pickard-Cambridge => APh 40, p. 338 ; M. Pope => 57-02650 ; E. Caspo and W. J. Slater => 66-05600 ; and P. J. Wilson => 72-07659) have either failed to take full account of the ancient sources or have not considered all the possible permutations of judging results.
+As is generally recognized, ten votes were cast, but in most circumstances not all were counted.
+The example studied is the tragic competition at the Dionysia, in which three competitors vied for the prize.
+Discussion includes : the typical number of lots drawn before a victory is obtained ; how other places are determined ; whether the person who receives the most votes actually wins ; adjudication for comedies and at the Lenaia ; and dithyrambic competitions.

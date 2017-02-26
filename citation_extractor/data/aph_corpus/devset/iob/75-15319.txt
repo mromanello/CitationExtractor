@@ -1,0 +1,21 @@
+Semblanza	NC
+de	PREP
+C.	ACRNM
+Castillo	ADJ
+,	CM
+Catedrática	NC
+de	PREP
+Filología	NC
+latina	ADJ
+,	CM
+con ocasión de	PREP
+su	PPO
+jubilación	NC
+y	CC
+promoción	NC
+a	PREP
+Profesora	NC
+Emérita	NC
+en	PREP
+2002.	INT
+

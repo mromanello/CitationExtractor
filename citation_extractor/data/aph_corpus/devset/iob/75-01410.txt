@@ -1,0 +1,22 @@
+Discussione	NOM
+del	PRE:det
+ciclo	NOM
+di	PRE
+epigrammi	NOM
+claudianei	ADJ
+sul	PRE:det
+cristallo	NOM
+e	CON
+argomenti	NOM
+per	PRE
+mantenere	VER:infi
+il	DET:def
+tradito	VER:pper
+«	PON
+ardens	VER:geru
+»	PON
+in	PRE
+36	NUM
+,	PON
+5	NUM
+

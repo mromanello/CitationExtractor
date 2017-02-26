@@ -1,0 +1,15 @@
+Análisis	NC
+de	PREP
+proverbios	NC
+y	CC
+frases	NC
+hechas	VLadj
+usadas	VLadj
+por	PREP
+diversos	QU
+autores	NC
+latinos	ADJ
+,	CM
+en especial	ADV
+Petronio	NC
+

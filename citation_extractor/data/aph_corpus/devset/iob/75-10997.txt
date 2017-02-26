@@ -1,0 +1,43 @@
+Untersuchungen	NN
+zu	APPR
+Aufschwung	NN
+,	$,
+Entwicklung	NN
+und	KON
+Niedergang	NN
+des	ART
+Keramikhandels	NN
+von	APPR
+Brigetio	NN
+zwischen	APPR
+1.	ADJA
+und	KON
+4.	ADJA
+
+Jh	NE
+.	$.
+
+n.	APPR
+Chr.	NE
+anhand	APPR
+von	APPR
+Datierung	NN
+und	KON
+Herkunftsbestimmung	NN
+der	ART
+gestempelten	ADJA
+Lampen	NN
+,	$,
+der	PRELS
+zwischen	APPR
+1998	CARD
+und	KON
+2001	CARD
+gefundenen	ADJA
+Terra	NE
+Sigillata	NE
+und	KON
+der	ART
+dünnwandigen	ADJA
+Keramik	NN
+

@@ -1,0 +1,16 @@
+Résumés	VER:pper
+des	PRP:det
+communications	NOM
+proposées	VER:pper
+au	PRP:det
+colloque	NOM
+.	SENT
+
+Pour	PRP
+la	DET:ART
+publication	NOM
+des	PRP:det
+actes	NOM
+=>	ADJ
+72-17557	NUM
+

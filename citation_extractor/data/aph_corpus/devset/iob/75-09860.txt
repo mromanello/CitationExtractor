@@ -1,0 +1,24 @@
+Auch	ADV
+zur	APPRART
+Karte	NN
+mit	APPR
+Hinweisen	NN
+auf	APPR
+mythologische	ADJA
+und	KON
+historische	ADJA
+Griechen	NN
+sowie	KON
+historisch	ADJD
+bedeutsame	ADJA
+Orte	NN
+und	KON
+Kunstwerke	NN
+,	$,
+die	ART
+Lazius	NN
+seinen	PPOSAT
+Griechenland-Büchern	NN
+beigab	VVFIN
+.	$.
+

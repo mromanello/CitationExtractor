@@ -1,0 +1,19 @@
+Examen	NOM
+de	PRP
+six	NUM
+fragments	NOM
+sculptés	VER:pper
+découverts	VER:pper
+à	PRP
+Elusa	NAM
+et	KON
+replacés	VER:pper
+dans	PRP
+le	DET:ART
+contexte	NOM
+iconographique	ADJ
+de	PRP
+la	DET:ART
+production	NOM
+palestinienne	ADJ
+

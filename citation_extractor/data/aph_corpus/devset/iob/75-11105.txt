@@ -1,0 +1,18 @@
+Il	DET:def
+paesaggio	NOM
+agricolo	ADJ
+dell'	PRE:det
+area	NOM
+iblea	ADJ
+in	PRE
+epoca	NOM
+tardoantica	NOM
+:	PON
+specie	ADV
+coltivate	VER:pper
+,	PON
+strutture	NOM
+produttive	ADJ
+,	PON
+alimentazione	NOM
+

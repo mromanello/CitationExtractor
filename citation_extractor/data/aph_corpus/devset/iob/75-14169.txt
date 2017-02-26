@@ -1,0 +1,10 @@
+Importanza	NOM
+dell'	PRE:det
+«	PON
+e-learning	NOM
+»	PON
+per	PRE
+le	DET:def
+discipline	NOM
+classiche	ADJ
+

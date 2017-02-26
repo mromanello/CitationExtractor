@@ -1,0 +1,15 @@
+Storia	NOM
+delle	PRE:det
+ricerche	NOM
+archeologiche	ADJ
+ed	CON
+antiquarie	ADJ
+sul	PRE:det
+sito	NOM
+di	PRE
+Veleia	NOM
+dal	PRE:det
+1747	NUM
+ad	PRE
+oggi	ADV
+

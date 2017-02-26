@@ -1,0 +1,26 @@
+Sulle	PRE:det
+gemme	NOM
+magiche	ADJ
+e	CON
+gnostiche	ADJ
+del	PRE:det
+2°	NOM
+e	CON
+3°	NOM
+sec.	NOM
+d.	NOM
+C.	NPR
+è	VER:pres
+frequente	ADJ
+la	DET:def
+figura	NOM
+di	PRE
+Arpocrate	NOM
+,	PON
+risultato	VER:pper
+di	PRE
+un	DET:indef
+complesso	ADJ
+sincretismo	NOM
+culturale	ADJ
+

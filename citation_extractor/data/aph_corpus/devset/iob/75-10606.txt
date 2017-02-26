@@ -1,0 +1,22 @@
+Études	NOM
+de	PRP
+géographie	NOM
+administrative	ADJ
+et	KON
+réexamen	NOM
+des	PRP:det
+inscriptions	NOM
+mentionnant	VER:ppre
+les	DET:ART
+carrières	NOM
+d'	PRP
+autres	ADJ
+«	PUN:cit
+iuridici	NOM
+»	PUN:cit
+contemporains	NOM
+de	PRP
+P.	ABR
+Plotius	NAM
+Romanus	NAM
+

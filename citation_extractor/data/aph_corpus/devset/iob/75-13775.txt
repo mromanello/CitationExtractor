@@ -1,0 +1,22 @@
+Ausgehend	ADJD
+von	APPR
+Überlegungen	NN
+zur	APPRART
+Entstehung	NN
+des	ART
+antiken	ADJA
+Weltbilds	NN
+wird	VAFIN
+die	ART
+geographische	ADJA
+Breitenbestimmungen	NN
+des	ART
+Pytheas	NE
+mit	APPR
+Hilfe	NN
+der	ART
+experimentellen	ADJA
+Archäologie	NN
+rekonstruiert	VVPP
+.	$.
+

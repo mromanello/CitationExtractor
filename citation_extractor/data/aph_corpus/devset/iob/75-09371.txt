@@ -1,0 +1,43 @@
+Les	DET:ART
+estampilles	NOM
+permettent	VER:pres
+de	PRP
+dater	VER:infi
+nombre	NOM
+des	PRP:det
+épisodes	NOM
+de	PRP
+l'	DET:ART
+histoire	NOM
+de	PRP
+cette	PRO:DEM
+légion	NOM
+et	KON
+de	PRP
+cerner	VER:infi
+ses	DET:POS
+déplacements	NOM
+.	SENT
+
+Discussions	NOM
+p.	ABR
+323-326	NUM
+.	SENT
+
+Voir	VER:infi
+depuis	PRP
+la	DET:ART
+mise	NOM
+à	PRP
+jour	NOM
+de	PRP
+la	DET:ART
+question	NOM
+par	PRP
+M.	NOM
+Reddé	NAM
+(	PUN
+=>	ABR
+74-12839	NUM
+)	PUN
+

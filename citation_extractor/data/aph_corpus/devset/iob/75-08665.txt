@@ -1,0 +1,19 @@
+Découverte	VER:pper
+d'	PRP
+un	DET:ART
+mur	NOM
+avec	PRP
+arc	NOM
+aveugle	ADJ
+vers	PRP
+l'	DET:ART
+entrée	NOM
+sud	ADJ
+.	SENT
+
+Exploration	NOM
+du	PRP:det
+système	NOM
+de	PRP
+canalisations	NOM
+

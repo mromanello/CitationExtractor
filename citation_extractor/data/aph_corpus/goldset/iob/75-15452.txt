@@ -1,0 +1,14 @@
+Il	DET:def	O
+contributo	NOM	O
+dello	PRE:det	O
+studioso	NOM	O
+agli	PRE:det	O
+studi	NOM	O
+papirologici	ADJ	O
+,	PON	O
+con	PRE	O
+bibliografia	NOM	O
+(	PON	O
+p.	NOM	O
+251-257	NUM	O
+)	PON	O

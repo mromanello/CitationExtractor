@@ -1,0 +1,17 @@
+Trascrizione	NOM
+e	CON
+commento	NOM
+di	PRE
+questo	PRO:demo
+testamento	NOM
+bilingue	ADJ
+greco-copto	ADJ
+proveniente	ADJ
+da	PRE
+Ermoupoli	NOM
+e	CON
+databile	ADJ
+al	PRE:det
+7°-8°	NOM
+secolo	NOM
+

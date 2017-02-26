@@ -1,0 +1,11 @@
+Indices	NOM
+sur	PRP
+la	DET:ART
+personnalité	NOM
+et	KON
+l'	DET:ART
+origine	NOM
+de	PRP
+l'	DET:ART
+auteur	NOM
+

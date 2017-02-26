@@ -1,0 +1,17 @@
+Si	PRO:pers
+pone	VER:pres
+la	DET:def
+questione	NOM
+se	CON
+l'	DET:def
+individuazione	NOM
+delle	PRE:det
+due	ADJ
+mani	NOM
+risalga	VER:cpre
+a	PRE
+Wilcken	NOM
+o	CON
+a	PRE
+Zucker	NOM
+

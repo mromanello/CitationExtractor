@@ -1,0 +1,21 @@
+Correggere	VER:infi
+il	DET:def
+tràdito	NOM
+«	PON
+nobilis	NOM
+»	PON
+in	PRE
+«	PON
+nebulis	NOM
+»	PON
+,	PON
+con	PRE
+riferimento	NOM
+alla	PRE:det
+oscurità	NOM
+e	CON
+alla	PRE:det
+melancolia	NOM
+di	PRE
+Eraclito	NOM
+

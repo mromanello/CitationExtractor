@@ -1,0 +1,11 @@
+La	DET:ART
+comparaison	NOM
+met	VER:pres
+en	PRP
+valeur	NOM
+les	DET:ART
+innovations	NOM
+introduites	VER:pper
+par	PRP
+Euripide	NAM
+

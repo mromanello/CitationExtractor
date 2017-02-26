@@ -1,0 +1,16 @@
+Zum	APPRART
+Nutzen	NN
+der	ART
+in	APPR
+der	ART
+neueren	ADJA
+bohemistischen	ADJA
+Sprachforschung	NN
+erarbeiteten	ADJA
+Kategorien	NN
+für	APPR
+die	ART
+lateinische	ADJA
+Semantik	NN
+.	$.
+

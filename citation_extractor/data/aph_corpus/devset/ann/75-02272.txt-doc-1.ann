@@ -1,0 +1,4 @@
+T1	REFAUWORK 112 115	Op.
+T2	REFSCOPE 116 123	414-503
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0020.tlg002:414-503

@@ -1,0 +1,14 @@
+Al	PRE:det
+posto	NOM
+del	PRE:det
+tràdito	NOM
+«	PON
+cogis	NOM
+»	PON
+si	PRO:pers
+può	VER:pres
+leggere	VER:infi
+«	PON
+miror	NOM
+»	PON
+

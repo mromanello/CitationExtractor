@@ -1,0 +1,40 @@
+Al	PAL
+igual	ADJ
+que	CQUE
+en	PREP
+la	ART
+vida	NC
+,	CM
+la	ART
+sabiduría	NC
+es	VSfin
+el	ART
+criterio	NC
+que	CQUE
+habrá de	VMfin
+guiar	VLinf
+al	PAL
+orador	NC
+para	CSUBI
+tomar	VLinf
+la	ART
+decisión	NC
+más	ADV
+delicada	ADJ
+y	CC
+difícil	ADJ
+en lo que	CSUBF
+a	PREP
+su	PPO
+discurso	NC
+respecta	VLfin
+:	COLON
+la	ART
+de	PREP
+decidir	VLinf
+qué	INT
+es	VSfin
+conveniente	ADJ
+,	CM
+adecuado	VLadj
+

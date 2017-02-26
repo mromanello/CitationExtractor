@@ -1,0 +1,26 @@
+Histoire	NOM
+complexe	ADJ
+de	PRP
+la	DET:ART
+transmission	NOM
+et	KON
+de	PRP
+la	DET:ART
+tradition	NOM
+manuscrite	ADJ
+des	PRP:det
+trois	NUM
+éloges	NOM
+funèbres	ADJ
+impériaux	ADJ
+rédigés	VER:pper
+par	PRP
+Ambroise	NAM
+.	SENT
+
+L'	DET:ART
+importance	NOM
+du	PRP:det
+milieu	NOM
+milanais	ADJ
+

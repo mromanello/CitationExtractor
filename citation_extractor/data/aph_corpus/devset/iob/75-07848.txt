@@ -1,0 +1,42 @@
+Analyse	NOM
+des	PRP:det
+scories	NOM
+et	KON
+des	PRP:det
+échantillons	NOM
+miniers	ADJ
+et	KON
+datations	NOM
+radiocarbones	NOM
+:	PUN
+l'	DET:ART
+activité	NOM
+métallurgique	ADJ
+s'	PRO:PER
+est	VER:pres
+déroulée	VER:pper
+entre	PRP
+700	NUM
+et	KON
+400	NUM
+puis	ADV
+,	PUN
+après	PRP
+un	DET:ART
+hiatus	NOM
+,	PUN
+autour	ADV
+de	PRP
+200	NUM
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+Pour	PRP
+1	NUM
+=>	ABR
+75-07847	NUM
+

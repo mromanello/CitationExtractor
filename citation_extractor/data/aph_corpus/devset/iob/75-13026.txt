@@ -1,0 +1,35 @@
+Étude	NOM
+iconographique	ADJ
+de	PRP
+ce	PRO:DEM
+sarcophage	NOM
+sculpté	VER:pper
+,	PUN
+déposé	VER:pper
+au	PRP:det
+Rockefeller	NAM
+Museum	NAM
+de	PRP
+Jérusalem	NAM
+(	PUN
+IAA	NAM
+2002-1245	NUM
+)	PUN
+et	KON
+datable	ADJ
+au	PRP:det
+2e	NUM
+ou	KON
+au	PRP:det
+début	NOM
+du	PRP:det
+3e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+
+Provenance	NOM
+inconnue	ADJ
+

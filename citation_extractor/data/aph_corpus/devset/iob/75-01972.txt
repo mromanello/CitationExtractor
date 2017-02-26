@@ -1,0 +1,11 @@
+Conferma	VER:impe
+dell'	PRE:det
+identificazione	NOM
+del	PRE:det
+mitografo	NOM
+con	PRE
+il	DET:def
+vescovo	NOM
+di	PRE
+Ruspe	NOM
+

@@ -1,0 +1,12 @@
+Il	DET:def
+ruolo	NOM
+degli	PRE:det
+animali	NOM
+in	PRE
+«	PON
+Vitae	NOM
+»	PON
+monastiche	ADJ
+del	PRE:det
+4°	NOM
+sec.	NOM

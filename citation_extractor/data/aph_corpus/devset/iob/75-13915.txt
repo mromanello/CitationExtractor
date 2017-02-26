@@ -1,0 +1,21 @@
+Presses	NOM
+à	PRP
+huile	NOM
+en	PRP
+pierre	NOM
+,	PUN
+peu	ADV
+coûteuses	ADJ
+à	PRP
+fabriquer	VER:infi
+,	PUN
+dont	PRO:REL
+l'	DET:ART
+usage	NOM
+se	PRO:PER
+répand	VER:pres
+à	PRP
+l'	DET:ART
+époque	NOM
+tardo-antique	ADJ
+

@@ -1,0 +1,27 @@
+Die	ART
+Untersuchung	NN
+zeigt	VVFIN
+anhand	APPR
+zahlreicher	ADJA
+Beispiele	NN
+die	ART
+Abhängigkeit	NN
+der	ART
+keltischen	ADJA
+Statuen	NN
+in	APPR
+Mitteleuropa	NE
+von	APPR
+der	ART
+etruskisch-italischen	ADJA
+Grossplastik	NN
+,	$,
+insbesondere	ADV
+der	ART
+Gräber	NN
+.	$.
+
+Diskussion	NN
+S.	NE
+189-195	CARD
+

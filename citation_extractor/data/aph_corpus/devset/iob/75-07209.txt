@@ -1,0 +1,13 @@
+Repertorio	NOM
+dei	PRE:det
+vocaboli	NOM
+interessati	ADJ
+e	CON
+prospettive	ADJ
+per	PRE
+una	DET:indef
+futura	ADJ
+ricerca	NOM
+sull'	PRE:det
+argomento	NOM
+

@@ -1,0 +1,26 @@
+Pièces	NOM
+très	ADV
+tardives	ADJ
+(	PUN
+6e-8e	VER:pres
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+)	PUN
+,	PUN
+à	PRP
+l'	DET:ART
+exception	NOM
+d'	PRP
+une	DET:ART
+monnaie	NOM
+tardo-romaine	NOM
+(	PUN
+fin	ADJ
+3e-début	NOM
+4e	NUM
+s.	ABR
+)	PUN
+

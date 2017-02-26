@@ -1,0 +1,17 @@
+Même	ADV
+dans	PRP
+le	DET:ART
+cas	NOM
+du	PRP:det
+priscillianisme	NOM
+,	PUN
+il	PRO:PER
+n'	ADV
+y	PRO:PER
+a	VER:pres
+pas	ADV
+d'	PRP
+hérésie	NOM
+spécifiquement	ADV
+hispanique	ADJ
+

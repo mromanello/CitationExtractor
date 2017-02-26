@@ -1,0 +1,5 @@
+T1	AAUTHOR 108 115	Sénèque
+T2	REFAUWORK 201 209	(Ad Luc.
+T3	REFSCOPE 210 218	114, 1).
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0545.tlg003:114.1

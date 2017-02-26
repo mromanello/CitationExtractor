@@ -1,0 +1,20 @@
+Il	DET:def
+nuovo	ADJ
+lapidario	NOM
+a	PRE
+Graz	NOM
+,	PON
+inaugurato	VER:pper
+nel	PRE:det
+2004	NUM
+,	PON
+contenente	VER:ppre
+pietre	NOM
+romane	ADJ
+,	PON
+mosaici	ADJ
+,	PON
+iscrizioni	NOM
+e	CON
+rilievi	NOM
+

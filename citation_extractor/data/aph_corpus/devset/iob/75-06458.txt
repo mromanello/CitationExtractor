@@ -1,0 +1,28 @@
+Le	DET:def
+tecniche	NOM
+e	CON
+le	DET:def
+teorie	NOM
+che	PRO:rela
+presiedono	VER:pres
+all'	PRE:det
+analisi	NOM
+di	PRE
+un	DET:indef
+testo	NOM
+nell'	PRE:det
+antichità	NOM
+classica	ADJ
+e	CON
+nel	PRE:det
+mondo	NOM
+contemporaneo	ADJ
+.	SENT
+
+Intervento	NOM
+introduttivo	ADJ
+ai	PRE:det
+temi	NOM
+del	PRE:det
+Colloquio	NOM
+

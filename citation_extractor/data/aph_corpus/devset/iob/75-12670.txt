@@ -1,0 +1,26 @@
+Vase	NOM
+en	PRP
+fabrique	NOM
+Bichrome	NAM
+I	NUM
+(	PUN
+début	NOM
+du	PRP:det
+Fer	NAM
+)	PUN
+de	PRP
+la	DET:ART
+collection	NOM
+Constantinos	NAM
+Ioannou	NAM
+à	PRP
+Limassol	NAM
+.	SENT
+
+La	DET:ART
+pièce	NOM
+pourrait	VER:cond
+venir	VER:infi
+d'	PRP
+Amathonte	NAM
+

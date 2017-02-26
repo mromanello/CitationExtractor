@@ -1,0 +1,23 @@
+Les	DET:ART
+techniques	ADJ
+narratives	ADJ
+et	KON
+romanesques	ADJ
+chez	PRP
+Hérodote	NAM
+.	SENT
+
+Exemple	NOM
+de	PRP
+l'	DET:ART
+histoire	NOM
+de	PRP
+Gygès	NAM
+et	KON
+Candaule	NAM
+(	PUN
+1	NUM
+,	PUN
+8-14	NUM
+)	PUN
+

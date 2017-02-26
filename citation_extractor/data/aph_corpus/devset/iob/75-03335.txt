@@ -1,0 +1,27 @@
+Note	NOM
+testuali	ADJ
+a	PRE
+Nic.	NOM
+alex	ADJ
+.	SENT
+
+25	NUM
+,	PON
+42	NUM
+,	PON
+423	NUM
+,	PON
+454	NUM
+:	PON
+a	PRE
+proposito	NOM
+del	PRE:det
+contributo	NOM
+di	PRE
+K.	NPR
+Oikonomakos	NOM
+(	PON
+=>	NOM
+67-02828	NUM
+)	PON
+

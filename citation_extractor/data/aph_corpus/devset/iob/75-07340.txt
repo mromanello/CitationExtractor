@@ -1,0 +1,21 @@
+Se	SE
+considera	VLfin
+el	ART
+modo	NC
+como	CSUBX
+los	ART
+intelectuales	ADJ
+latinos	ADJ
+tomaron	VLfin
+prestada	VLadj
+o	CC
+bien	ADV
+tradujeron	VLfin
+la	ART
+terminología	NC
+griega	ADJ
+sobre	PREP
+las	ART
+artes	NC
+liberales	ADJ
+

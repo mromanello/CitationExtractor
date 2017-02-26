@@ -1,0 +1,18 @@
+Edition	NN
+eines	ART
+Abschnittes	NN
+aus	APPR
+einer	ART
+arabischen	ADJA
+Übersetzung	NN
+des	ART
+«	$(
+Carmen	NE
+astrologicum	NE
+»	$(
+des	ART
+Dorotheus	NN
+von	APPR
+Sidon	NE
+.	$.
+

@@ -1,0 +1,96 @@
+Während	APPR
+im	APPRART
+1.	ADJA
+
+Jh	NE
+.	$.
+
+Konsekrationsmünzen	NN
+nur	ADV
+für	APPR
+verstorbene	ADJA
+Mitglieder	NN
+der	ART
+jeweiligen	ADJA
+kaiserlichen	ADJA
+Familie	NN
+ausgegeben	VVPP
+wurden	VAFIN
+,	$,
+dienten	VVFIN
+sie	PPER
+seit	APPR
+dem	ART
+2.	ADJA
+
+Jh	NE
+.	$.
+als	KOKOM
+Mittel	NN
+zur	APPRART
+Legitimation	NN
+durch	APPR
+die	ART
+Anknüpfung	NN
+an	APPR
+den	ART
+verstorbenen	ADJA
+Vorgänger	NN
+.	$.
+
+Gleichzeitig	ADJD
+wurde	VAFIN
+göttliche	ADJA
+Legitimation	NN
+gesucht	VVPP
+und	KON
+die	ART
+persönliche	ADJA
+Tugend	NN
+durch	APPR
+Beinamen	NN
+hervorgehoben	VVPP
+.	$.
+
+Mit	APPR
+der	ART
+Verehrung	NN
+«	$(
+guter	ADJA
+Kaiser	NN
+»	$(
+z.	APPRART
+
+B.	NN
+in	APPR
+der	ART
+Serie	NN
+der	ART
+Konsekrationsmünzen	NN
+des	ART
+Decius	NE
+im	APPRART
+3.	ADJA
+
+Jh	NE
+.	$.
+wurden	VAFIN
+diese	PDS
+Traditionen	NN
+gebündelt	VVPP
+und	KON
+so	ADV
+der	ART
+Übergang	NN
+zum	APPRART
+späteren	ADJA
+Anspruch	NN
+auf	APPR
+göttlichen	ADJA
+Ursprung	NN
+der	ART
+kaiserlichen	ADJA
+Macht	NN
+geschaffen	VVPP
+.	$.
+

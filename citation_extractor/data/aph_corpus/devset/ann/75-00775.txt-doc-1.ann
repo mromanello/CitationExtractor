@@ -1,0 +1,11 @@
+T1	AAUTHOR 28 34	Ateneo
+T2	REFSCOPE 35 47	(10, 475b-c)
+T3	AAUTHOR 58 64	Eliano
+T4	REFAUWORK 65 70	(Nat.
+T5	REFSCOPE 71 78	15, 12)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:1173:10.475
+#1	AnnotatorNotes R2	urn:cts:cwkb:620.1289:15.12
+#2	AnnotatorNotes T3	urn:cts:greekLit:tlg0545
+#3	AnnotatorNotes T1	urn:cts:cwkb:1173

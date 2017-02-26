@@ -1,0 +1,15 @@
+Recherches	NOM
+sur	PRP
+le	DET:ART
+sanctuaire	NOM
+d'	PRP
+Aphrodite	NAM
+,	PUN
+du	PRP:det
+7e	NUM
+s.	ABR
+à	PRP
+l'	DET:ART
+époque	NOM
+paléochrétienne	ADJ
+

@@ -1,0 +1,26 @@
+L'	DET:ART
+utilisation	NOM
+et	KON
+le	DET:ART
+transport	NOM
+de	PRP
+l'	DET:ART
+eau	NOM
+dans	PRP
+le	DET:ART
+monde	NOM
+gréco-romain	ADJ
+.	SENT
+
+Problèmes	NOM
+de	PRP
+santé	NOM
+liés	VER:pper
+à	PRP
+l'	DET:ART
+eau	NOM
+:	PUN
+malaria	NOM
+,	PUN
+paludisme	NOM
+

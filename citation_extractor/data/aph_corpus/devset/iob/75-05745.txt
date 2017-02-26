@@ -1,0 +1,7 @@
+Zu	APPR
+11	CARD
+Publikationen	NN
+der	ART
+Jahre	NN
+1997-2004	CARD
+

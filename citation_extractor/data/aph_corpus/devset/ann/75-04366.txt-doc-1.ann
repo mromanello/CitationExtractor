@@ -1,0 +1,11 @@
+T1	REFSCOPE 58 63	6, 16
+T2	REFSCOPE 64 69	et 20
+T3	AAUTHOR 73 78	Pline
+T4	AAUTHOR 138 154	Pline l' Ancien,
+T5	AAUTHOR 192 208	Pline l' Ancien,
+T6	REFSCOPE 229 235	(6, 16
+R1	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:585:6.16
+#1	AnnotatorNotes T4	urn:cts:cwkb:585
+#2	AnnotatorNotes T5	urn:cts:cwkb:585
+#3	AnnotatorNotes T3	urn:cts:cwkb:585

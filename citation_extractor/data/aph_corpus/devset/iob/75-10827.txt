@@ -1,0 +1,17 @@
+Analisi	NOM
+comparata	VER:pper
+delle	PRE:det
+testimonianze	NOM
+numismatiche	ADJ
+e	CON
+letterarie	ADJ
+sulla	PRE:det
+regalità	NOM
+femminile	ADJ
+nella	PRE:det
+Costantinopoli	NOM
+del	PRE:det
+5°	NOM
+sec.	NOM
+d.	NOM
+C.	NPR

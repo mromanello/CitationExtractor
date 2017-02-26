@@ -1,0 +1,10 @@
+Beda	NE
+war	VAFIN
+weniger	PIAT
+systematischer	ADJA
+Theologe	NN
+als	KOKOM
+Vermittler	NN
+seines	PPOSAT
+Wissens	NN
+

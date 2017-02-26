@@ -1,0 +1,11 @@
+Riflessioni	NOM
+sulla	PRE:det
+comicità	NOM
+del	PRE:det
+teatro	NOM
+plautino	VER:cpre
+e	CON
+sui	PRE:det
+suoi	PRO:poss
+meccanismi	NOM
+

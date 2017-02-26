@@ -1,0 +1,25 @@
+Deutung	NN
+der	ART
+beiden	PIAT
+Träume	NN
+,	$,
+insbesondere	ADV
+ihrer	PPOSAT
+Farb-	TRUNC
+und	KON
+Bildsymbolik	NN
+,	$,
+im	APPRART
+Rahmen	NN
+des	ART
+narrativen	ADJA
+Geschehens	NN
+und	KON
+mit	APPR
+Hilfe	NN
+der	ART
+Traumtheorie	NN
+des	ART
+Artemidor	NN
+.	$.
+

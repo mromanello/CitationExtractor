@@ -1,0 +1,11 @@
+Zum	APPRART
+Programm	NN
+des	ART
+Basilius	NE
+und	KON
+seiner	PPOSAT
+Bedeutung	NN
+in	APPR
+der	ART
+Kirchengeschichte	NN
+

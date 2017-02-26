@@ -1,0 +1,22 @@
+Présentation	NOM
+de	PRP
+26	NUM
+textes	NOM
+métriques	ADJ
+,	PUN
+classés	VER:pper
+selon	PRP
+leur	DET:POS
+intérêt	NOM
+spécifique	ADJ
+(	PUN
+origine	NOM
+,	PUN
+contenu	VER:pper
+,	PUN
+prosodie	NOM
+,	PUN
+niveau	NOM
+littéraire	ADJ
+)	PUN
+

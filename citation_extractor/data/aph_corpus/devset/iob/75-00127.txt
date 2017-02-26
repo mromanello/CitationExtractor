@@ -1,0 +1,15 @@
+Parue	VER:pper
+en	PRP
+1548	NUM
+et	KON
+préparée	VER:pper
+par	PRP
+les	DET:ART
+soins	NOM
+du	PRP:det
+médecin	NOM
+et	KON
+érudit	ADJ
+J.	NAM
+Goupyl	NAM
+

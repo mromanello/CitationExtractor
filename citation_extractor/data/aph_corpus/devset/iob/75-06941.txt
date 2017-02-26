@@ -1,0 +1,15 @@
+Concerne	VER:pres
+Gélase	NOM
+de	PRP
+Césarée	NAM
+,	PUN
+Rufin	NOM
+d'	PRP
+Aquilée	NAM
+et	KON
+l'	DET:ART
+«	PUN:cit
+Histoire	NAM
+acéphale	ADJ
+»	PUN:cit
+

@@ -1,0 +1,22 @@
+Le	DET:ART
+rôle	NOM
+des	PRP:det
+femmes	NOM
+de	PRP
+la	DET:ART
+famille	NOM
+d'	PRP
+Apion	NOM
+d'	PRP
+après	PRP
+leurs	DET:POS
+archives	NOM
+(	PUN
+5e-7e	VER:pres
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+)	PUN
+

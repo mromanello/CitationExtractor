@@ -1,0 +1,37 @@
+La	DET:ART
+restitution	NOM
+d'	PRP
+A	PRP
+.	SENT
+
+Paccard	NAM
+,	PUN
+en	PRP
+1844-1845	NUM
+,	PUN
+est	VER:pres
+pour	PRP
+beaucoup	ADV
+dans	PRP
+l'	DET:ART
+idée	NOM
+de	PRP
+quatre	NUM
+colonnes	NOM
+ioniques	ADJ
+soutenant	VER:ppre
+le	DET:ART
+plafond	NOM
+de	PRP
+l'	DET:ART
+opisthodome	NOM
+,	PUN
+au	PRP:det
+lieu	NOM
+des	PRP:det
+six	NUM
+colonnes	NOM
+doriques	ADJ
+réellement	ADV
+existantes	ADJ
+

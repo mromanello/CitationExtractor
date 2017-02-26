@@ -1,0 +1,11 @@
+Würdigung	NN
+der	ART
+Leistung	NN
+Ulpians	NE
+unter	APPR
+Berücksichtigung	NN
+der	ART
+neueren	ADJA
+Forschung	NN
+.	$.
+

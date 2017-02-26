@@ -1,0 +1,35 @@
+Analisi	NOM
+di	PRE
+Aphthon	NOM
+.	SENT
+
+GLK	NOM
+6	NUM
+,	PON
+64	NUM
+,	PON
+30	NUM
+ss.	ABR
+,	PON
+il	DET:def
+capitolo	NOM
+sulle	PRE:det
+cesure	NOM
+,	PON
+e	CON
+dei	PRE:det
+suoi	PRO:poss
+rapporti	NOM
+con	PRE
+Terenziano	NOM
+Mauro	NPR
+,	PON
+GLK	NOM
+6	NUM
+,	PON
+375	NUM
+s.	NOM
+,	PON
+v.	ABR
+1669-1718	NUM
+

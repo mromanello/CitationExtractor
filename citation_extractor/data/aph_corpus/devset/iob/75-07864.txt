@@ -1,0 +1,24 @@
+Petit	ADJ
+sanctuaire	NOM
+du	PRP:det
+Bronze	NAM
+récent	ADJ
+dégagé	VER:pper
+en	PRP
+1997	NUM
+à	PRP
+proximité	NOM
+d'	PRP
+installations	NOM
+métallurgiques	ADJ
+,	PUN
+avec	PRP
+lesquelles	PRO:REL
+la	DET:ART
+divinité	NOM
+vénérée	VER:pper
+pouvait	VER:impf
+être	VER:infi
+en	PRP
+rapport	NOM
+

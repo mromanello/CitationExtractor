@@ -1,0 +1,11 @@
+Analisi	NOM
+testuale	ADJ
+del	PRE:det
+passo	ADJ
+ciceroniano	NOM
+quale	PRO:rela
+esempio	NOM
+di	PRE
+tecnica	NOM
+retorica	ADJ
+

@@ -1,0 +1,18 @@
+Histoire	NOM
+complexe	ADJ
+de	PRP
+la	DET:ART
+formation	NOM
+de	PRP
+la	DET:ART
+légende	NOM
+de	PRP
+saint	ADJ
+Georges	NAM
+,	PUN
+à	PRP
+partir	VER:infi
+du	PRP:det
+5e	NUM
+s	NOM
+

@@ -1,0 +1,24 @@
+L'	DET:ART
+envol	NOM
+,	PUN
+l'	DET:ART
+aspiration	NOM
+au	PRP:det
+divin	ADJ
+,	PUN
+la	DET:ART
+chute	NOM
+éventuelle	ADJ
+sont	VER:pres
+des	PRP:det
+motifs	NOM
+récurrents	ADJ
+dans	PRP
+les	DET:ART
+contes	NOM
+,	PUN
+qu'	PRO:REL
+Apulée	NAM
+exploite	VER:pres
+diversement	ADV
+

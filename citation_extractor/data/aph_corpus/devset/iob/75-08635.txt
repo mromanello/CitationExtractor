@@ -1,0 +1,22 @@
+Catalogue	NOM
+d'	PRP
+un	DET:ART
+groupe	NOM
+de	PRP
+12	NUM
+amphores	NOM
+qui	PRO:REL
+semblent	VER:pres
+provenir	VER:infi
+d'	PRP
+une	DET:ART
+épave	NOM
+romaine	ADJ
+du	PRP:det
+1er	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+

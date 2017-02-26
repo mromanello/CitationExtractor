@@ -1,0 +1,16 @@
+Le	DET:ART
+corpus	NOM
+choisi	VER:pper
+est	VER:pres
+l'	DET:ART
+œuvre	NOM
+de	PRP
+Lysias	NAM
+.	SENT
+
+Voir	VER:infi
+aussi	ADV
+70-07137	NUM
+et	KON
+73-08276	NUM
+

@@ -1,0 +1,21 @@
+Concerne	VER:pres
+il	DET:def
+lavoro	NOM
+di	PRE
+G.	NPR
+Ottone	NOM
+(	PON
+=>	NOM
+74-02814	NUM
+)	PON
+,	PON
+con	PRE
+riflessioni	NOM
+sui	PRE:det
+metodi	NOM
+di	PRE
+edizione	NOM
+dei	PRE:det
+frammenti	NOM
+storiografici	ADJ
+

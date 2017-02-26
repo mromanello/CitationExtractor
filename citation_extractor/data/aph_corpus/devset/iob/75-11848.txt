@@ -1,0 +1,13 @@
+Zu	APPR
+Paulus	NE
+'	$(
+Verständnis	NN
+von	APPR
+Judentum	NN
+im	APPRART
+Gegensatz	NN
+zum	APPRART
+jüdischen	ADJA
+Selbstverständnis	NN
+.	$.
+

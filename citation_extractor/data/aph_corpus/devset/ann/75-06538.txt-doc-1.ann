@@ -1,0 +1,4 @@
+T1	REFAUWORK 335 339	Livy
+T2	REFSCOPE 340 346	1.7.7.
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:524:1.7.7

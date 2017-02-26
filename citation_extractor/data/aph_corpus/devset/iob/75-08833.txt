@@ -1,0 +1,20 @@
+Se	SE
+analizan	VLfin
+las	ART
+distintas	ADJ
+categorías	NC
+de	PREP
+objetos	NC
+,	CM
+tanto	ADV
+de	PREP
+premios	NC
+como	CSUBX
+de	PREP
+ex-votos	NC
+,	CM
+y	CC
+su	PPO
+función	NC
+específica	ADJ
+

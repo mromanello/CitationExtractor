@@ -1,0 +1,15 @@
+T1	AAUTHOR 363 372	Suetonius
+T2	REFAUWORK 373 378	(Aug.
+T3	REFSCOPE 379 383	48).
+T4	REFAUWORK 485 492	(Strabo
+T5	REFSCOPE 493 505	17, 2, 25) ;
+T6	AWORK 765 783	« Genius Augusti »
+T7	REFAUWORK 784 800	(Suetonius, Aug.
+T8	REFSCOPE 801 805	60).
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T7 Arg2:T8
+#0	AnnotatorNotes R1	urn:cts:cwkb:2386:48
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0099:17.2.25
+#2	AnnotatorNotes R3	urn:cts:cwkb:637.1322:60
+#3	AnnotatorNotes T1	urn:cts:cwkb:638

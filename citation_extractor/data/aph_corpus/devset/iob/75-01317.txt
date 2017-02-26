@@ -1,0 +1,24 @@
+Analisi	NOM
+della	PRE:det
+prospettiva	NOM
+etica	ADJ
+e	CON
+politica	ADJ
+che	PRO:rela
+i	DET:def
+testi	NOM
+drammatici	ADJ
+assumono	VER:pres
+nell'	PRE:det
+opera	NOM
+di	PRE
+Cicerone	NOM
+,	PON
+con	PRE
+particolare	ADJ
+riferimento	NOM
+alle	PRE:det
+«	PON
+Tusculanae	NOM
+»	PON
+

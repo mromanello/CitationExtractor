@@ -1,0 +1,8 @@
+Auch	ADV
+in	APPR
+griechisch-römischer	ADJA
+Zeit	NN
+und	KON
+Überlieferung	NN
+.	$.
+

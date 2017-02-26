@@ -1,0 +1,17 @@
+Le	DET:def
+modalità	NOM
+della	PRE:det
+metamorfosi	NOM
+,	PON
+con	PRE
+riferimento	NOM
+ai	PRE:det
+passi	NOM
+rilevanti	ADJ
+e	CON
+con	PRE
+attenzione	NOM
+anche	ADV
+per	PRE
+Virgilio	NPR
+

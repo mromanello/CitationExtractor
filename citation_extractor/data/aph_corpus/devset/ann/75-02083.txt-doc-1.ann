@@ -1,0 +1,7 @@
+T1	AAUTHOR 64 71	Aftonio
+T2	REFAUWORK 72 75	(GL
+T3	REFSCOPE 76 83	6, 86 ;
+T4	AWORK 156 169	« De metris »
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes T4	urn:cts:cwkb:364.741
+#1	AnnotatorNotes T1	urn:cts:cwkb:745

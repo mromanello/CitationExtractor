@@ -1,0 +1,33 @@
+Analisi	NOM
+dei	PRE:det
+nomi	NOM
+propri	ADJ
+«	PON
+Artile	NOM
+»	PON
+,	PON
+attestato	VER:pper
+unicamente	ADV
+sullo	PRE:det
+specchio	NOM
+di	PRE
+Bolsena	NOM
+(	PON
+London	NPR
+,	PON
+British	NPR
+Museum	NPR
+633	NUM
+)	PON
+,	PON
+e	CON
+«	PON
+Cacu	NOM
+»	PON
+.	SENT
+
+Per	PRE
+2	NUM
+=>	NOM
+75-07352	NUM
+

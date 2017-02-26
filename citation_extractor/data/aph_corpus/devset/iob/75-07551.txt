@@ -1,0 +1,35 @@
+L'	DET:def
+attività	NOM
+del	PRE:det
+Calfurnio	NOM
+e	CON
+le	DET:def
+sue	PRO:poss
+relazioni	NOM
+con	PRE
+altri	PRO:indef
+eruditi	ADJ
+ed	CON
+editori	ADJ
+.	SENT
+
+P.	ABR
+257-283	NUM
+:	PON
+schede	NOM
+degli	PRE:det
+incunaboli	NOM
+appartenuti	VER:pper
+all'	PRE:det
+umanista	NOM
+,	PON
+molti	PRO:indef
+dei	PRE:det
+quali	PRO:rela
+contengono	VER:pres
+opere	NOM
+antiche	ADJ
+greche	ADJ
+e	CON
+latine	ADJ
+

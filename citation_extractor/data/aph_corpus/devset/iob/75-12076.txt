@@ -1,0 +1,11 @@
+Byzantinische	ADJA
+Kirchengeschichte	NN
+vor	APPR
+1453	CARD
+(	$(
+3	CARD
+)	$(
+bis	APPR
+S.	NE
+90.	ADJA
+

@@ -1,0 +1,17 @@
+Nella	PRE:det
+sua	PRO:poss
+definizione	NOM
+dell'	PRE:det
+unità	NOM
+del	PRE:det
+tutto	ADJ
+,	PON
+Pindaro	NOM
+si	PRO:refl
+rifà	VER:pres
+alla	PRE:det
+concezione	NOM
+divina	ADJ
+di	PRE
+Senofane	NOM
+

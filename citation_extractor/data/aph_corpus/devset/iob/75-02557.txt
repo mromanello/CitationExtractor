@@ -1,0 +1,7 @@
+In	PRE
+margine	NOM
+al	PRE:det
+volume	NOM
+schedato	ADJ
+73-03080	NUM
+

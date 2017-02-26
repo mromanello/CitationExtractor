@@ -1,0 +1,19 @@
+Étude	NOM
+iconographique	ADJ
+de	PRP
+ces	PRO:DEM
+pièces	NOM
+de	PRP
+style	NOM
+gréco-romain	ADJ
+(	PUN
+inv.	ABR
+20917	NUM
+,	PUN
+7770	NUM
+,	PUN
+12658	NUM
+,	PUN
+10314	NUM
+)	PUN
+

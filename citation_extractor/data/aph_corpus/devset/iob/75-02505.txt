@@ -1,0 +1,24 @@
+Zu	APPR
+den	ART
+Fragmenten	NN
+von	APPR
+Il.	NE
+1	CARD
+in	APPR
+MP3	NN
+572	CARD
+(	$(
+=>	NN
+74-02878	CARD
+)	$(
+gehört	VVFIN
+auch	ADV
+MP3	NN
+571	CARD
+(	$(
+PGenav	NN
+.	$.
+inv.	ADJA
+95	CARD
+)	$(
+

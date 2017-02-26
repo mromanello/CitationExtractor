@@ -1,0 +1,26 @@
+Le	DET:def
+idee	NOM
+politiche	ADJ
+e	CON
+religiose	ADJ
+di	PRE
+Budé	NOM
+,	PON
+i	DET:def
+suoi	PRO:poss
+studi	NOM
+classici	ADJ
+e	CON
+l'	DET:def
+influenza	NOM
+delle	PRE:det
+sue	PRO:poss
+teorie	NOM
+nell'	PRE:det
+ambiente	NOM
+umanistico	ADJ
+del	PRE:det
+tardo	ADJ
+Cinquecento	NOM
+francese	ADJ
+

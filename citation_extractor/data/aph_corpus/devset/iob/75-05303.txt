@@ -1,0 +1,25 @@
+Forschungsberichte	NN
+zur	APPRART
+Literatur	NN
+seit	APPR
+1989	CARD
+unter	APPR
+den	ART
+Aspekten	NN
+:	$.
+Einleitungen	NN
+,	$,
+Einführungen	NN
+,	$,
+der	ART
+Kanon	NN
+,	$,
+Literaturgeschichte	NN
+,	$,
+Methoden-	TRUNC
+und	KON
+Arbeitsbücher	NN
+,	$,
+Forschungsgeschichte	NN
+.	$.
+

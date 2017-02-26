@@ -1,0 +1,34 @@
+Aspects	NOM
+juridiques	ADJ
+.	SENT
+
+Le	DET:ART
+discrédit	NOM
+dont	PRO:REL
+les	DET:ART
+comédiens	NOM
+avaient	VER:impf
+souffert	VER:pper
+depuis	PRP
+le	DET:ART
+début	NOM
+du	PRP:det
+théâtre	NOM
+facilita	VER:simp
+l'	DET:ART
+émergence	NOM
+d'	PRP
+une	DET:ART
+législation	NOM
+coercitive	ADJ
+à	PRP
+la	DET:ART
+fin	NOM
+du	PRP:det
+3e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+

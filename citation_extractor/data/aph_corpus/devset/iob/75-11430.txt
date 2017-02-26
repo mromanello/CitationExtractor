@@ -1,0 +1,23 @@
+Zur	APPRART
+Entwicklung	NN
+von	APPR
+Besiedlung	NN
+und	KON
+Landbesitz	NN
+(	$(
+städtisch/königlich	ADJD
+)	$(
+vom	APPRART
+6.	ADJA
+
+Jh	NE
+.	$.
+
+v.	APPR
+Chr.	NE
+bis	KON
+in	APPR
+die	ART
+Spätantike	NN
+.	$.
+

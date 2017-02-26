@@ -1,0 +1,22 @@
+Gli	DET:def
+inni	NOM
+alle	PRE:det
+divinità	NOM
+vergini	ADJ
+,	PON
+spesso	ADV
+considerati	VER:pper
+come	PRE
+digressioni	NOM
+,	PON
+sono	VER:pres
+funzionali	ADJ
+a	PRE
+far	VER:infi
+risaltare	VER:infi
+il	DET:def
+potenziale	NOM
+seduttivo	ADJ
+di	PRE
+Afrodite	NOM
+

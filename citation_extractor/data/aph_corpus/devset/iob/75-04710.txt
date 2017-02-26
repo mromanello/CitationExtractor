@@ -1,0 +1,23 @@
+Presentazione	NOM
+,	PON
+testo	NOM
+,	PON
+traduzione	NOM
+e	CON
+commento	NOM
+di	PRE
+tre	ADJ
+frammenti	NOM
+dell'	PRE:det
+«	PON
+Introduzione	NOM
+pitagorica	ADJ
+alla	PRE:det
+musica	NOM
+»	PON
+e	CON
+di	PRE
+una	DET:indef
+relativa	ADJ
+testimonianza	NOM
+

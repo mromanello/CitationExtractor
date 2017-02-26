@@ -1,0 +1,9 @@
+T1	AWORK 45 60	« Istituzioni »
+T2	AAUTHOR 64 78	Giustiniano, a
+T3	AWORK 172 187	« Istituzioni »
+T4	AAUTHOR 216 223	Teofilo
+T5	REFSCOPE 381 392	(4, 14, 2),
+T7	REFSCOPE 421 429	4, 14, 2
+#1	AnnotatorNotes T4	urn:cts:greekLit:tlg0014
+T6	REFAUWORK 415 420	inst.
+R1	Scope Arg1:T6 Arg2:T7	

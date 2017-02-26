@@ -1,0 +1,25 @@
+Concerne	VER:pres
+soprattutto	ADV
+le	DET:def
+magistrature	NOM
+di	PRE
+età	NOM
+arcaica	ADJ
+,	PON
+il	DET:def
+rapporto	NOM
+col	PRE:det
+santuario	NOM
+di	PRE
+Didima	NOM
+e	CON
+la	DET:def
+distinzione	NOM
+tra	PRE
+assemblea	NOM
+generale	ADJ
+e	CON
+assemblee	NOM
+locali	ADJ
+secondarie	ADJ
+

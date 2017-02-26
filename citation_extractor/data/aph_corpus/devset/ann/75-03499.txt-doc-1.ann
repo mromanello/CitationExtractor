@@ -1,0 +1,8 @@
+T1	AAUTHOR 34 41	Ovid 's
+T2	AWORK 42 61	« Metamorphoses » :
+T3	REFSCOPE 239 250	2, 536-539)
+T4	REFSCOPE 319 329	2, 533-832
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+#0	AnnotatorNotes T2	urn:cts:cwkb:741.1536
+#1	AnnotatorNotes T1	urn:cts:cwkb:568

@@ -1,0 +1,5 @@
+T1	REFAUWORK 76 80	(CIL
+T2	REFSCOPE 81 92	22, 5, 205)
+T3	AWORK 252 268	« Via Augusta ».
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes T3	urn:cts:cwkb:2751.8751

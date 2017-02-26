@@ -1,0 +1,24 @@
+Esame	NOM
+della	PRE:det
+tradizione	NOM
+manoscritta	ADJ
+dell'	PRE:det
+adattamento	NOM
+attribuito	VER:pper
+a	PRE
+Nilo	NOM
+e	CON
+di	PRE
+quello	PRO:demo
+anonimo	ADJ
+,	PON
+recentemente	ADV
+editi	ADJ
+da	PRE
+G.	NPR
+Boter	NOM
+(	PON
+=>	NOM
+70-01706	NUM
+)	PON
+

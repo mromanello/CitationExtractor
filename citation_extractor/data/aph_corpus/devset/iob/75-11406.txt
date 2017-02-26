@@ -1,0 +1,33 @@
+Le	DET:ART
+réseau	NOM
+urbain	ADJ
+.	SENT
+
+Les	DET:ART
+relations	NOM
+ville-campagne	NOM
+.	SENT
+
+Le	DET:ART
+peuplement	NOM
+rural	ADJ
+.	SENT
+
+L'	DET:ART
+habitat	NOM
+dispersé	VER:pper
+.	SENT
+
+L'	DET:ART
+habitat	NOM
+groupé	VER:pper
+.	SENT
+
+Les	DET:ART
+nécropoles	NOM
+.	SENT
+
+Les	DET:ART
+échanges	NOM
+culturels	ADJ
+

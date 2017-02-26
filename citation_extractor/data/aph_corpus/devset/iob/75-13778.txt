@@ -1,0 +1,11 @@
+Zum	APPRART
+Wandel	NN
+im	APPRART
+Umgang	NN
+mit	APPR
+der	ART
+Tradierung	NN
+der	ART
+ptolemäischen	NN
+Karten	NN
+

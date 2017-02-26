@@ -1,0 +1,22 @@
+Évaluation	NOM
+de	PRP
+la	DET:ART
+profondeur	NOM
+de	PRP
+la	DET:ART
+romanisation	NOM
+et	KON
+de	PRP
+sa	DET:POS
+survivance	NOM
+parmi	PRP
+les	DET:ART
+populations	NOM
+lombardes	ADJ
+puis	ADV
+avares	ADJ
+(	PUN
+4e-9e	VER:pres
+s.	VER:pper
+)	PUN
+

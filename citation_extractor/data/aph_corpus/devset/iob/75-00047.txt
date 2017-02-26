@@ -1,0 +1,20 @@
+Se	SE
+considera	VLfin
+la	ART
+relación	NC
+entre	PREP
+estructura	NC
+métrica	ADJ
+y	CC
+contenido	NC
+en	PREP
+Prometeo	NC
+encadenado	VLadj
+1040-1093	CODE
+,	CM
+y	CC
+Persas	VLfin
+1-64	CARD
+y	CC
+65-139	CARD
+

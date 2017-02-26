@@ -1,0 +1,24 @@
+Analisi	NOM
+delle	PRE:det
+varie	ADJ
+modalità	NOM
+con	PRE
+cui	PRO:rela
+nel	PRE:det
+poema	NOM
+lucaneo	ADJ
+opera	NOM
+la	DET:def
+paura	NOM
+,	PON
+tema	NOM
+ricorrente	ADJ
+e	CON
+fondamentale	ADJ
+nel	PRE:det
+delinearsi	VER:infi
+dell'	PRE:det
+ideologia	NOM
+di	PRE
+Lucano	NOM
+

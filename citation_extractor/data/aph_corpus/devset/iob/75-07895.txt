@@ -1,0 +1,29 @@
+Rapide	ADJ
+présentation	NOM
+des	PRP:det
+fouilles	NOM
+de	PRP
+1986	NUM
+et	KON
+de	PRP
+son	DET:POS
+bâtiment	NOM
+du	PRP:det
+Bronze	NAM
+récent	ADJ
+,	PUN
+ayant	VER:ppre
+livré	VER:pper
+des	PRP:det
+poids	NOM
+inscrits	VER:pper
+en	PRP
+écriture	NOM
+mineo-chypriote	ADJ
+.	SENT
+
+Pour	PRP
+2	NUM
+=>	ABR
+75-07894	NUM
+

@@ -1,0 +1,4 @@
+T1	REFAUWORK 153 163	Hist. eccl
+T2	REFSCOPE 164 174	5, 24, 2),
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:602.1247:5.24.2

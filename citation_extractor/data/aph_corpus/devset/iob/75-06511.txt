@@ -1,0 +1,13 @@
+Osservazioni	NOM
+sulle	PRE:det
+valenze	NOM
+culturali	ADJ
+e	CON
+antropologiche	ADJ
+della	PRE:det
+bellezza	NOM
+femminile	ADJ
+nella	PRE:det
+letteratura	NOM
+latina	ADJ
+

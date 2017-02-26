@@ -1,0 +1,8 @@
+T1	AAUTHOR 345 354	Irenaeus,
+T2	AAUTHOR 355 377	Clement of Alexandria,
+T3	AAUTHOR 378 385	Origen,
+T4	AAUTHOR 386 407	Gregory Thaumaturgus,
+#0	AnnotatorNotes T4	urn:cts:cwkb:898
+#1	AnnotatorNotes T2	urn:cts:greekLit:tlg0555
+#2	AnnotatorNotes T3	urn:cts:cwkb:1015
+#3	AnnotatorNotes T1	urn:cts:cwkb:1401

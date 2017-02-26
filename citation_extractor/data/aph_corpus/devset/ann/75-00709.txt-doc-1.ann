@@ -1,0 +1,12 @@
+T1	REFSCOPE 37 42	3, 6,
+T2	AAUTHOR 357 371	Theophrastus '
+T3	REFAUWORK 479 484	Sens.
+T4	REFSCOPE 485 498	3, 440a 20-23
+T5	REFSCOPE 503 518	7, 448a 19-b 16
+T6	AWORK 610 629	« De audibilibus ».
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T3 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:1113.3991:3.440
+#1	AnnotatorNotes R2	urn:cts:cwkb:1113.3991:7.448
+#2	AnnotatorNotes T6	urn:cts:cwkb:766.1622
+#3	AnnotatorNotes T2	urn:cts:greekLit:tlg0093

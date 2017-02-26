@@ -1,0 +1,6 @@
+T1	REFAUWORK 210 216	(Hist.
+T2	REFSCOPE 217 225	2, 4, 4)
+T3	AAUTHOR 437 445	Mucianus
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:639.1329:2.4.4
+#1	AnnotatorNotes T3	urn:cts:greekLit:tlg0062

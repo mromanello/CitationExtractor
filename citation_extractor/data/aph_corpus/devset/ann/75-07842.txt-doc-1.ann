@@ -1,0 +1,8 @@
+T1	AAUTHOR 192 198	Chypre
+T2	REFAUWORK 199 209	(inv. Met.
+T3	REFSCOPE 210 212	28
+T4	REFSCOPE 213 220	et 81),
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:1346.4372:28
+#1	AnnotatorNotes R2	urn:cts:cwkb:1346.4372:81

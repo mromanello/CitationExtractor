@@ -1,0 +1,15 @@
+Sur	PRP
+la	DET:ART
+fortune	NOM
+des	PRP:det
+«	PUN:cit
+Héroïdes	NOM
+»	PUN:cit
+,	PUN
+principalement	ADV
+des	PRP:det
+lettres	NOM
+16	NUM
+à	PRP
+21	NUM
+

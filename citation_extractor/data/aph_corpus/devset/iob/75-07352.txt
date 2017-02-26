@@ -1,0 +1,18 @@
+Legami	NOM
+tra	PRE
+materiale	NOM
+onomastico	ADJ
+del	PRE:det
+mito	NOM
+etrusco-romano	ADJ
+e	CON
+materiale	NOM
+lessicale	ADJ
+indoiranico	ADJ
+.	SENT
+
+Per	PRE
+1	NUM
+=>	NOM
+73-08598	NUM
+

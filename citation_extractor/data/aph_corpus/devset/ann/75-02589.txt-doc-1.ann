@@ -1,0 +1,21 @@
+T1	AWORK 12 43	« Die Militärmedicin Homer 's »
+T2	AAUTHOR 485 490	Homer
+T3	REFSCOPE 710 720	(16, 143 ;
+T4	REFSCOPE 721 728	20, 259
+T5	REFSCOPE 733 738	277 ;
+T6	REFSCOPE 739 746	21, 162
+T7	REFSCOPE 751 756	169 ;
+T8	REFSCOPE 757 765	22, 328)
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+R3	Scope Arg1:T2 Arg2:T5
+R4	Scope Arg1:T2 Arg2:T6
+R5	Scope Arg1:T2 Arg2:T7
+R6	Scope Arg1:T2 Arg2:T8
+#0	AnnotatorNotes R4	urn:cts:greekLit:tlg0012:21.162
+#1	AnnotatorNotes R5	urn:cts:greekLit:tlg0012:169
+#2	AnnotatorNotes R6	urn:cts:greekLit:tlg0012:22.328
+#3	AnnotatorNotes R1	urn:cts:greekLit:tlg0012:16.143
+#4	AnnotatorNotes R2	urn:cts:greekLit:tlg0012:20.259
+#5	AnnotatorNotes R3	urn:cts:greekLit:tlg0012:277
+#6	AnnotatorNotes T2	urn:cts:greekLit:tlg0012

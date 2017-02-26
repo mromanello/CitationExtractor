@@ -1,0 +1,12 @@
+Pour	PRP
+la	DET:ART
+version	NOM
+complète	ADJ
+=>	NOM
+70-12017	NUM
+.	SENT
+
+Discussion	NOM
+p.	ABR
+136-137	NUM
+

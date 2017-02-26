@@ -1,0 +1,12 @@
+Zur	APPRART
+Bedeutung	NN
+der	ART
+rituellen	ADJA
+Vorgänge	NN
+für	APPR
+die	ART
+Gestaltung	NN
+des	ART
+Baus	NN
+.	$.
+

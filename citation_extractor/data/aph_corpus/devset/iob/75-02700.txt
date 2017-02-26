@@ -1,0 +1,23 @@
+Proposte	NOM
+testuali	ADJ
+ed	CON
+esegetiche	NOM
+su	PRE
+7	NUM
+,	PON
+43-8	NUM
+,	PON
+17	NUM
+;	PON
+9	NUM
+,	PON
+18-23	NUM
+;	PON
+10	NUM
+,	PON
+25-29	NUM
+;	PON
+13	NUM
+,	PON
+18-25	NUM
+

@@ -1,0 +1,23 @@
+Orientamenti	NOM
+politici	ADJ
+,	PON
+militari	ADJ
+,	PON
+religiosi	ADJ
+di	PRE
+questo	PRO:demo
+sovrano	NOM
+orientale	ADJ
+ellenizzato	ADJ
+del	PRE:det
+1°	ADJ
+sec.	NOM
+a.	NOM
+C.	NPR
+,	PON
+alla	PRE:det
+luce	NOM
+della	PRE:det
+documentazione	NOM
+numismatica	ADJ
+

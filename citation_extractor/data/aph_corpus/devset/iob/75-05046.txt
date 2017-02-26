@@ -1,0 +1,8 @@
+Analisi	NOM
+psicopatologica	ADJ
+dei	PRE:det
+personaggi	NOM
+delle	PRE:det
+tragedie	NOM
+sofoclee	ADJ
+

@@ -1,0 +1,25 @@
+Presentazione	NOM
+di	PRE
+questa	PRO:demo
+procedura	NOM
+,	PON
+con	PRE
+particolare	ADJ
+riguardo	NOM
+per	PRE
+i	DET:def
+problemi	NOM
+posti	ADJ
+da	PRE
+monosillabi	NOM
+e	CON
+particelle	NOM
+e	CON
+per	PRE
+la	DET:def
+definizione	NOM
+del	PRE:det
+concetto	NOM
+di	PRE
+formula	NOM
+

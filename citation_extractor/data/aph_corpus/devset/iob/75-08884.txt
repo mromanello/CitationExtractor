@@ -1,0 +1,7 @@
+Pour	PRP
+la	DET:ART
+livraison	NOM
+précédente	ADJ
+=>	NOM
+74-10682	NUM
+

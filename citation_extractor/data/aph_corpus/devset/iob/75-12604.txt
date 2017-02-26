@@ -1,0 +1,10 @@
+Reply	NN
+to	TO
+K.	NP
+Pilafidis-Williams	NP
+(	(
+=>	NP
+75-12601	CD
+)	)
+.	SENT
+

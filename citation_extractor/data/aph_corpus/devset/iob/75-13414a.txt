@@ -1,0 +1,10 @@
+Développe	VER:pres
+des	PRP:det
+réflexions	NOM
+initiées	VER:pper
+dans	PRP
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+61-10289	NUM
+

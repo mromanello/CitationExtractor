@@ -1,0 +1,10 @@
+T1	AWORK 39 54	« Polyhistor »,
+T2	AAUTHOR 55 60	Solin
+T3	AAUTHOR 348 358	Tertullien
+T4	REFAUWORK 359 364	(nat.
+T5	REFSCOPE 365 372	1, 20).
+R1	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:620.1289:1.20
+#1	AnnotatorNotes T2	urn:cts:cwkb:1380
+#2	AnnotatorNotes T3	urn:cts:cwkb:2390
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0086.tlg035

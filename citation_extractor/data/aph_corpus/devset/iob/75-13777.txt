@@ -1,0 +1,12 @@
+Auch	ADV
+zu	APPR
+den	ART
+antiken	ADJA
+Traditionen	NN
+in	APPR
+der	ART
+Karte	NN
+des	ART
+Globus	NN
+.	$.
+

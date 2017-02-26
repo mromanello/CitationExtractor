@@ -1,0 +1,26 @@
+PVindob	NE
+.	$.
+
+G	NN
+881	CARD
+und	KON
+25585	CARD
+schliessen	VVFIN
+weitgehend	ADJD
+die	ART
+Lücken	NN
+im	APPRART
+unteren	ADJA
+Drittel	NN
+der	ART
+Apionenurkunde	NN
+von	APPR
+492	CARD
+n.	APPR
+Chr.	NE
+PVindob	NE
+.	$.
+
+G	NN
+29964.	ADJA
+

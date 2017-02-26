@@ -1,0 +1,6 @@
+T1	AAUTHOR 24 41	Basile de Césarée
+T2	REFAUWORK 42 47	(hom.
+T3	REFSCOPE 48 51	1),
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:2423.8035:1
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg2040

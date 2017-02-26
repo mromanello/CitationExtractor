@@ -1,0 +1,57 @@
+Exploitation	NOM
+des	PRP:det
+vies	NOM
+exemplaires	ADJ
+de	PRP
+Valère	NAM
+Maxime	NAM
+,	PUN
+Cornelius	NAM
+Nepos	NAM
+et	KON
+Plutarque	NAM
+.	SENT
+
+La	DET:ART
+gestion	NOM
+et	KON
+l'	DET:ART
+évolution	NOM
+des	PRP:det
+patrimoines	NOM
+privés	VER:pper
+.	SENT
+
+Les	DET:ART
+prises	NOM
+de	PRP
+décision	NOM
+sont	VER:pres
+conditionnées	VER:pper
+dans	PRP
+une	DET:ART
+large	ADJ
+mesure	NOM
+par	PRP
+des	PRP:det
+contraintes	NOM
+publiques	ADJ
+,	PUN
+c'	PRO:DEM
+est-à-dire	ADV
+morales	ADJ
+.	SENT
+
+En	PRP
+effet	NOM
+,	PUN
+l'	DET:ART
+enrichissement	NOM
+excessif	ADJ
+était	VER:impf
+considéré	VER:pper
+comme	ADV
+un	DET:ART
+mal	NOM
+social	ADJ
+

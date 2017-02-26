@@ -1,0 +1,4 @@
+T1	REFAUWORK 26 30	Sph.
+T2	REFSCOPE 31 42	242 B 6-250
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0059.tlg007:242

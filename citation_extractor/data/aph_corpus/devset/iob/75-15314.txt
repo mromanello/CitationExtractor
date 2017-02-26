@@ -1,0 +1,14 @@
+Ricostruzione	NOM
+della	PRE:det
+figura	NOM
+dello	PRE:det
+studioso	NOM
+scomparso	VER:pper
+attraverso	PRE
+la	DET:def
+rievocazione	NOM
+di	PRE
+alcune	PRO:indef
+vicende	NOM
+personali	ADJ
+

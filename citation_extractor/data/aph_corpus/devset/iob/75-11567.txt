@@ -1,0 +1,18 @@
+Deutung	NN
+anhand	APPR
+der	ART
+ikonographischen	ADJA
+Kontexte	NN
+in	APPR
+Vasenmalerei	NN
+und	KON
+Plastik	NN
+sowie	KON
+der	ART
+Fundkontexte	NN
+in	APPR
+Gräbern	NN
+und	KON
+Weihgaben	NN
+.	$.
+

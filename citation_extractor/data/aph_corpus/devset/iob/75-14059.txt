@@ -1,0 +1,15 @@
+Il	DET:def
+ruolo	NOM
+della	PRE:det
+cultura	NOM
+greco-latina	ADJ
+per	PRE
+la	DET:def
+comprensione	NOM
+del	PRE:det
+presente	NOM
+nella	PRE:det
+sua	PRO:poss
+relatività	NOM
+storica	ADJ
+

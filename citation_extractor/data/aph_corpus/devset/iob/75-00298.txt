@@ -1,0 +1,26 @@
+Éléments	NOM
+épiques	ADJ
+,	PUN
+en	PRP
+particulier	NOM
+homériques	ADJ
+,	PUN
+dans	PRP
+les	DET:ART
+«	PUN:cit
+Métamorphoses	NOM
+»	PUN:cit
+et	KON
+,	PUN
+notamment	ADV
+,	PUN
+dans	PRP
+le	DET:ART
+conte	NOM
+d'	PRP
+«	PUN:cit
+Amour	NAM
+et	KON
+Psyché	NAM
+»	PUN:cit
+

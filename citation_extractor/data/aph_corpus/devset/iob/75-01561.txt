@@ -1,0 +1,16 @@
+L'	DET:def
+insistenza	NOM
+su	PRE
+«	PON
+politeia	NOM
+»	PON
+nell'	PRE:det
+accezione	NOM
+di	PRE
+attività	NOM
+politica	ADJ
+individuale	ADJ
+nell'	PRE:det
+opera	NOM
+demostenica	NOM
+

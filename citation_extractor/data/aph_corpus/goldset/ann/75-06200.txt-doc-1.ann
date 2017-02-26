@@ -1,0 +1,21 @@
+T1	REFAUWORK 363 367	ecl.
+T2	REFSCOPE 368 378	6, 61-73 ;
+T3	REFAUWORK 379 385	georg.
+T4	REFSCOPE 386 398	4, 520-521 ;
+T5	REFAUWORK 399 403	Aen.
+T6	REFSCOPE 404 416	7, 740-741 ;
+T7	REFSCOPE 417 425	9, 214 ;
+T8	REFSCOPE 426 435	10, 366 ;
+T9	REFSCOPE 436 452	and 10, 545-546.
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T5 Arg2:T6
+R4	Scope Arg1:T5 Arg2:T7
+R5	Scope Arg1:T5 Arg2:T8
+R6	Scope Arg1:T5 Arg2:T9
+#0	AnnotatorNotes R4	urn:cts:latinLit:phi0690.phi003:9.214
+#1	AnnotatorNotes R5	urn:cts:latinLit:phi0690.phi003:10.366
+#2	AnnotatorNotes R6	urn:cts:latinLit:phi0690.phi003:10.545-10.546
+#3	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi001:6.61-6.73
+#4	AnnotatorNotes R2	urn:cts:latinLit:phi0690.phi002:4.520-4.521
+#5	AnnotatorNotes R3	urn:cts:latinLit:phi0690.phi003:7.740-7.741

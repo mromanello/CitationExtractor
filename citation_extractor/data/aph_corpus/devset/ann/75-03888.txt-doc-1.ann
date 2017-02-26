@@ -1,0 +1,12 @@
+T1	REFAUWORK 65 67	O.
+T2	REFSCOPE 68 70	3,
+T3	AAUTHOR 71 77	Pindar
+T4	REFSCOPE 185 192	(12-14)
+T5	REFSCOPE 351 358	(33-34)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T3 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0033.tlg001:3
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0033:12-14
+#2	AnnotatorNotes R3	urn:cts:greekLit:tlg0033:33-34
+#3	AnnotatorNotes T3	urn:cts:greekLit:tlg0033

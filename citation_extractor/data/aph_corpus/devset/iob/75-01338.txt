@@ -1,0 +1,21 @@
+A	PRE
+proposito	NOM
+della	PRE:det
+seconda	ADJ
+edizione	NOM
+aggiornata	VER:pper
+e	CON
+corretta	VER:pper
+della	PRE:det
+«	PON
+Cronologia	NOM
+ciceroniana	NOM
+»	PON
+di	PRE
+N.	NOM
+Marinone	NOM
+(	PON
+=>	NOM
+75-01366	NUM
+)	PON
+

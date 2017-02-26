@@ -1,0 +1,20 @@
+D'	PRP
+après	PRP
+les	DET:ART
+canons	NOM
+du	PRP:det
+concile	NOM
+d'	PRP
+Elvire	NAM
+et	KON
+les	DET:ART
+documents	NOM
+sur	PRP
+les	DET:ART
+cercles	NOM
+priscilliens	ADJ
+(	PUN
+4e	NUM
+s.	ABR
+)	PUN
+

@@ -1,0 +1,15 @@
+Amphores	NOM
+archaïques	ADJ
+documentant	VER:ppre
+les	DET:ART
+emballages	NOM
+vinaires	ADJ
+et	KON
+les	DET:ART
+exportations	NOM
+de	PRP
+vins	NOM
+grecs	ADJ
+en	PRP
+Colchide	NAM
+

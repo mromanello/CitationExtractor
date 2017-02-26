@@ -1,0 +1,11 @@
+Étude	NOM
+palynologique	ADJ
+et	KON
+comparative	ADJ
+dans	PRP
+les	DET:ART
+niveaux	NOM
+d'	PRP
+époque	NOM
+romaine	ADJ
+

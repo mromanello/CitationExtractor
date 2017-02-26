@@ -1,0 +1,27 @@
+D'	PRP
+après	PRP
+les	DET:ART
+récentes	ADJ
+découvertes	NOM
+archéologiques	ADJ
+(	PUN
+=>	ABR
+74-10476	NUM
+)	PUN
+,	PUN
+réévaluation	NOM
+de	PRP
+l'	DET:ART
+extension	NOM
+de	PRP
+la	DET:ART
+ville	NOM
+et	KON
+définition	NOM
+des	PRP:det
+grandes	ADJ
+étapes	NOM
+de	PRP
+son	DET:POS
+évolution	NOM
+

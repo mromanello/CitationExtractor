@@ -1,0 +1,21 @@
+Studio	NOM
+delle	PRE:det
+interferenze	NOM
+tra	PRE
+greco	NOM
+e	CON
+pelasgo	VER:impe
+in	PRE
+Il.	ABR
+2	NUM
+,	PON
+681-685	NUM
+,	PON
+840-843	NUM
+,	PON
+851-855	NUM
+e	CON
+16	NUM
+,	PON
+233-235	NUM
+

@@ -1,0 +1,25 @@
+Il	DET:def
+motivo	NOM
+della	PRE:det
+fertilità	NOM
+dell'	PRE:det
+Egitto	NPR
+e	CON
+della	PRE:det
+Palestina	NPR
+,	PON
+a	PRE
+partire	VER:infi
+dalla	PRE:det
+visione	NOM
+biblica	ADJ
+,	PON
+nella	PRE:det
+tradizione	NOM
+apologetica	ADJ
+giudaica	ADJ
+e	CON
+nella	PRE:det
+letteratura	NOM
+cristiana	ADJ
+

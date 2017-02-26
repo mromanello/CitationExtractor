@@ -1,0 +1,16 @@
+État	NOM
+des	PRP:det
+antiquités	NOM
+gréco-bactriennes	VER:subp
+notamment	ADV
+au	PRP:det
+Tepe	NAM
+Zargaran	NAM
+,	PUN
+à	PRP
+Bactres	NAM
+et	KON
+à	PRP
+Aï	NAM
+Khanoum	NAM
+

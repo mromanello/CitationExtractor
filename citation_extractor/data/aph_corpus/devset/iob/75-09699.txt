@@ -1,0 +1,22 @@
+À	PRP
+propos	NOM
+de	PRP
+SB	NAM
+22	NUM
+,	PUN
+15768	NUM
+,	PUN
+qui	PRO:REL
+documente	VER:pres
+une	DET:ART
+querelle	NOM
+concernant	VER:ppre
+un	DET:ART
+héritage	NOM
+(	PUN
+364	NUM
+apr.	ABR
+J.	ABR
+-C	ADJ
+)	PUN
+

@@ -1,0 +1,15 @@
+T1	AAUTHOR 26 34	Agostino
+T2	REFAUWORK 35 48	(Gest. Pelag.
+T3	REFSCOPE 49 52	66)
+T4	AAUTHOR 278 289	Innocenzo I
+T6	REFAUWORK 291 304	Hier., Epist.
+T7	REFSCOPE 305 308	136
+T8	REFSCOPE 309 316	e 137),
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T6 Arg2:T7
+R3	Scope Arg1:T6 Arg2:T8
+#0	AnnotatorNotes R1	urn:cts:cwkb:2386.8494:66
+#1	AnnotatorNotes R2	urn:cts:cwkb:1322.4345:136
+#2	AnnotatorNotes R3	urn:cts:cwkb:1322.4345:137
+#3	AnnotatorNotes T4	urn:cts:cwkb:1322
+#4	AnnotatorNotes T1	urn:cts:cwkb:2386

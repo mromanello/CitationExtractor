@@ -1,0 +1,45 @@
+Examine	VER:pres
+comment	ADV
+et	KON
+avec	PRP
+quel	PRO:REL
+vocabulaire	NOM
+Dion	NAM
+évalue	VER:pres
+et	KON
+décrit	VER:pres
+un	DET:ART
+certain	PRO:IND
+nombre	NOM
+de	PRP
+crises	NOM
+du	PRP:det
+pouvoir	NOM
+qui	PRO:REL
+ont	VER:pres
+frappé	VER:pper
+Rome	NAM
+.	SENT
+
+Il	PRO:PER
+considère	VER:pres
+qu'	KON
+elles	PRO:PER
+sont	VER:pres
+néfastes	ADJ
+pour	PRP
+l'	DET:ART
+ordre	NOM
+public	ADJ
+.	SENT
+
+Seul	NOM
+un	DET:ART
+pouvoir	NOM
+personnel	ADJ
+fort	ADV
+peut	VER:pres
+apporter	VER:infi
+la	DET:ART
+stabilité	NOM
+

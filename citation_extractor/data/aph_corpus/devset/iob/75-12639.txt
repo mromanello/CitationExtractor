@@ -1,0 +1,30 @@
+Formule	NOM
+quatre	NUM
+hypothèses	NOM
+de	PRP
+restitution	NOM
+,	PUN
+dessin	NOM
+à	PRP
+l'	DET:ART
+appui	NOM
+,	PUN
+pour	PRP
+réfuter	VER:infi
+l'	DET:ART
+idée	NOM
+reçue	VER:pper
+des	PRP:det
+quatre	NUM
+colonnes	NOM
+ioniques	ADJ
+dans	PRP
+l'	DET:ART
+opisthodome	NOM
+.	SENT
+
+Pour	PRP
+3	NUM
+=>	ABR
+75-12638	NUM
+

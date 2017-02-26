@@ -1,0 +1,12 @@
+En	PREP
+toda	QU
+la	ART
+obra	NC
+se	SE
+dejan	VLfin
+oír	VLinf
+reminiscencias	NC
+ciceronianas	NC
+y	CC
+virgilianas	NC
+

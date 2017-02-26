@@ -1,0 +1,12 @@
+In	APPR
+den	ART
+archäologischen	ADJA
+Quellen	NN
+wird	VAFIN
+der	ART
+Wandel	NN
+erst	ADV
+verzögert	VVFIN
+sichtbar	ADJD
+.	$.
+

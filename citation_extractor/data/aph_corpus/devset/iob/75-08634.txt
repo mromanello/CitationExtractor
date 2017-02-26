@@ -1,0 +1,16 @@
+Avec	PRP
+réexamen	NOM
+de	PRP
+la	DET:ART
+date	NOM
+de	PRP
+trois	NUM
+constructions	NOM
+romaines	ADJ
+tardives	ADJ
+.	SENT
+
+Voir	VER:infi
+aussi	ADV
+73-09993	NUM
+

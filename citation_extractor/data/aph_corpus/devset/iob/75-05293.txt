@@ -1,0 +1,24 @@
+Aspects	NOM
+culturels	ADJ
+,	PUN
+moraux	ADJ
+et	KON
+théologiques	ADJ
+de	PRP
+l'	DET:ART
+argumentaire	NOM
+en	PRP
+faveur	NOM
+du	PRP:det
+port	NOM
+du	PRP:det
+voile	NOM
+développé	VER:pper
+dans	PRP
+le	DET:ART
+«	PUN:cit
+De	ABR
+uirginibus	NOM
+uelandis	NOM
+»	PUN:cit
+

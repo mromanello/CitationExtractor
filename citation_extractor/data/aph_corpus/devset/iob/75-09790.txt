@@ -1,0 +1,16 @@
+Nuova	ADJ
+edizione	NOM
+di	PRE
+questo	PRO:demo
+papiro	NOM
+documentario	ADJ
+proveniente	ADJ
+da	PRE
+Ermoupoli	NOM
+e	CON
+risalente	VER:ppre
+alla	PRE:det
+metà	NOM
+del	PRE:det
+7°	NOM
+sec.	NOM

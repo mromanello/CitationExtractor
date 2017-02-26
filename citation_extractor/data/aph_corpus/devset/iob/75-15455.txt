@@ -1,0 +1,4 @@
+Ricordo	NOM
+dello	PRE:det
+studioso	NOM
+

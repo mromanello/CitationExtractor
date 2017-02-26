@@ -1,0 +1,13 @@
+Zur	APPRART
+Bedeutung	NN
+des	ART
+Helios	NE
+als	KOKOM
+Familiengott	NN
+der	ART
+Dynastie	NN
+,	$,
+insbesondere	ADV
+für	APPR
+Julian	NE
+

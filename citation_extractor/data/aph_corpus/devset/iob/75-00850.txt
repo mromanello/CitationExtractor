@@ -1,0 +1,9 @@
+Il	DET:def
+concetto	NOM
+di	PRE
+menzogna	NOM
+negli	PRE:det
+scritti	NOM
+di	PRE
+Agostino	NPR
+

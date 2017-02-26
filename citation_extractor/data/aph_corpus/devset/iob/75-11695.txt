@@ -1,0 +1,10 @@
+Zur	APPRART
+Kleidung	NN
+früher	ADV
+Christen	NN
+,	$,
+speziell	ADJD
+frühchristlicher	ADJA
+Kleriker	NN
+.	$.
+

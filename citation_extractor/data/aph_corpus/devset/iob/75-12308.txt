@@ -1,0 +1,17 @@
+Analisi	NOM
+delle	PRE:det
+diverse	ADJ
+interpretazioni	NOM
+patristiche	ADJ
+di	PRE
+Mt	NOM
+20	NUM
+,	PON
+20-23	NUM
+fino	CON
+alla	PRE:det
+sistemazione	NOM
+operata	VER:pper
+da	PRE
+Gerolamo	NOM
+

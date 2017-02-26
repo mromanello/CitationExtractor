@@ -1,0 +1,34 @@
+L'	DET:ART
+auteur	NOM
+et	KON
+son	DET:POS
+œuvre	NOM
+.	SENT
+
+Aspects	NOM
+généraux	ADJ
+.	SENT
+
+Si	KON
+Solin	NAM
+n'	ADV
+a	VER:pres
+pas	ADV
+fait	VER:pres
+progresser	VER:infi
+la	DET:ART
+science	NOM
+de	PRP
+son	DET:POS
+temps	NOM
+,	PUN
+il	PRO:PER
+a	VER:pres
+été	VER:pper
+un	DET:ART
+instrument	NOM
+de	PRP
+diffusion	NOM
+des	PRP:det
+connaissances	NOM
+

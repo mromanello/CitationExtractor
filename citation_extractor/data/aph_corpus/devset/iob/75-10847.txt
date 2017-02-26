@@ -1,0 +1,25 @@
+Dans	PRP
+le	DET:ART
+«	PUN:cit
+monnayage	NOM
+satrapique	ADJ
+»	PUN:cit
+.	SENT
+
+Représenter	VER:infi
+la	DET:ART
+suprématie	NOM
+navale	ADJ
+sur	PRP
+les	DET:ART
+monnaies	NOM
+serait	VER:cond
+une	DET:ART
+inspiration	NOM
+de	PRP
+leurs	DET:POS
+subordonnés	NOM
+phéniciens	ADJ
+ou	KON
+grecs	ADJ
+

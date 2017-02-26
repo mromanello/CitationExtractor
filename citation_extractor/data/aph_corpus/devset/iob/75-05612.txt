@@ -1,0 +1,18 @@
+La	DET:ART
+poétique	NOM
+dont	PRO:REL
+procède	VER:pres
+le	DET:ART
+«	PUN:cit
+Cantique	NAM
+des	PRP:det
+cantiques	NOM
+»	PUN:cit
+trouve	VER:pres
+des	PRP:det
+correspondances	NOM
+dans	PRP
+la	DET:ART
+culture	NOM
+grecque	ADJ
+

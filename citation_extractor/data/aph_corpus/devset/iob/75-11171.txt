@@ -1,0 +1,20 @@
+Sur	PRP
+les	DET:ART
+changements	NOM
+dans	PRP
+l'	DET:ART
+occupation	NOM
+du	PRP:det
+territoire	NOM
+entre	PRP
+la	DET:ART
+fin	NOM
+de	PRP
+la	DET:ART
+période	NOM
+romaine	ADJ
+et	KON
+les	DET:ART
+installations	NOM
+lombardes	ADJ
+

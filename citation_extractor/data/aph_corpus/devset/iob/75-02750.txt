@@ -1,0 +1,24 @@
+Il	DET:def
+Crisostomo	NOM
+interpreta	VER:pres
+il	DET:def
+primato	NOM
+di	PRE
+Pietro	NPR
+come	PRE
+segno	NOM
+della	PRE:det
+centralità	NOM
+della	PRE:det
+fede	NOM
+in	PRE
+Dio	NOM
+e	CON
+dell'	PRE:det
+amore	NOM
+di	PRE
+Dio	NOM
+per	PRE
+la	DET:def
+Chiesa	NOM
+

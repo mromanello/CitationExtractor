@@ -1,0 +1,6 @@
+Profilo	NOM
+bio-bibliografico	ADJ
+della	PRE:det
+cristianista	NOM
+ungherese	ADJ
+

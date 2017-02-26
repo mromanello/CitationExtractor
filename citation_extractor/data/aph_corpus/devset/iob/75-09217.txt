@@ -1,0 +1,25 @@
+Esame	NOM
+autoptico	ADJ
+e	CON
+nuove	ADJ
+interpretazioni	NOM
+dell'	PRE:det
+epigrafe	NOM
+etrusca	ADJ
+(	PON
+=>	NOM
+69-08913	NUM
+)	PON
+,	PON
+a	PRE
+integrazione	NOM
+del	PRE:det
+commento	NOM
+degli	PRE:det
+stessi	ADJ
+autori	NOM
+(	PON
+=>	NOM
+75-09216	NUM
+)	PON
+

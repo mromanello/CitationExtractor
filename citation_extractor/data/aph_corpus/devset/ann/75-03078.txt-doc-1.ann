@@ -1,0 +1,11 @@
+T1	AAUTHOR 61 69	Lucrecio
+T2	REFSCOPE 115 138	1, 433-435, 1075-1076 ;
+T3	REFSCOPE 139 169	2, 277-283, 502-503, 714-715 ;
+T4	REFSCOPE 170 182	4, 632, 1165
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:528:1.433-435.1075
+#1	AnnotatorNotes R2	urn:cts:cwkb:528:2.277-283.502
+#2	AnnotatorNotes R3	urn:cts:cwkb:528:4.632.1165
+#3	AnnotatorNotes T1	urn:cts:cwkb:528

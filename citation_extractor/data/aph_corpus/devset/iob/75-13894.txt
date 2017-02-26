@@ -1,0 +1,27 @@
+Extrait	VER:pper
+,	PUN
+en	PRO:PER
+trad.	VER:cond
+française	ADJ
+,	PUN
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+70-11300	NUM
+.	SENT
+
+Influence	NOM
+de	PRP
+la	DET:ART
+tradition	NOM
+médicale	ADJ
+grecque	ADJ
+et	KON
+du	PRP:det
+christianisme	NOM
+sur	PRP
+la	DET:ART
+médecine	NOM
+byzantine	ADJ
+

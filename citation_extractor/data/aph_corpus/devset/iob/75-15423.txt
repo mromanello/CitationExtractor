@@ -1,0 +1,12 @@
+Nécrologie	NOM
+de	PRP
+ce	PRO:DEM
+spécialiste	NOM
+de	PRP
+musique	NOM
+byzantine	ADJ
+.	SENT
+
+Avec	PRP
+bibliographie	NOM
+

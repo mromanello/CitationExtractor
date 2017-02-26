@@ -1,0 +1,16 @@
+On	NE
+B.	NE
+Bischoff	NE
+(	$(
+=>	NN
+69-07255	CARD
+)	$(
+and	FM
+S.	NE
+Krämer	NE
+(	$(
+=>	NN
+70-15153	CARD
+)	$(
+.	$.
+

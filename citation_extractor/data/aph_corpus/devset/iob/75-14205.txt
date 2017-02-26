@@ -1,0 +1,24 @@
+Se	SE
+hace	VLfin
+un	ART
+repaso	NC
+de	PREP
+las	ART
+aplicaciones	NC
+informáticas	NC
+y	CC
+«	SYM
+webs	NC
+»	SYM
+especializadas	ADJ
+relacionadas	VLadj
+con	PREP
+el	ART
+teatro	NC
+clásico	ADJ
+grecolatino	ADJ
+,	CM
+en particular	ADV
+con	PREP
+Sófocles	NC
+

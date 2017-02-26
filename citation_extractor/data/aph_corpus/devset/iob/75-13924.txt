@@ -1,0 +1,36 @@
+La	DET:ART
+lampe	NOM
+ecclésiastique	ADJ
+désignée	VER:pper
+sous	PRP
+ce	PRO:DEM
+terme	NOM
+pourrait	VER:cond
+relever	VER:infi
+du	PRP:det
+type	NOM
+«	PUN:cit
+polycandelon	NOM
+»	PUN:cit
+.	SENT
+
+Voir	VER:infi
+l'	DET:ART
+inventaire	NOM
+publié	VER:pper
+par	PRP
+D.	ABR
+Montserrat	NAM
+,	PUN
+Early	NAM
+Byzantine	NAM
+church	ADJ
+lighting	NOM
+,	PUN
+in	ADJ
+Orientalia	NAM
+1995	NUM
+64	NUM
+:	PUN
+430-444	NUM
+

@@ -1,0 +1,15 @@
+Comparaison	NOM
+entre	PRP
+Pacien	NOM
+de	PRP
+Barcelone	NAM
+et	KON
+Paulin	NAM
+de	PRP
+Nole	NAM
+,	PUN
+tous	PRO:IND
+deux	NUM
+aristocrates	NOM
+convertis	VER:pper
+

@@ -1,0 +1,24 @@
+Zur	APPRART
+Einpassung	NN
+von	APPR
+Komödienfiguren	NN
+und	KON
+Techniken	NN
+des	ART
+dramatischen	ADJA
+Erzählens	NN
+in	APPR
+die	ART
+poetische	ADJA
+Welt	NN
+Catulls	NN
+,	$,
+insbesondere	ADV
+am	APPRART
+Beispiel	NN
+der	ART
+Komödien	NN
+des	ART
+Plautus	NN
+.	$.
+

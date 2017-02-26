@@ -1,0 +1,26 @@
+Concerne	VER:pres
+soprattutto	ADV
+la	DET:def
+produzione	NOM
+del	PRE:det
+2°	NOM
+sec.	NOM
+d.	NOM
+C.	NPR
+,	PON
+ove	ADV
+le	DET:def
+tipologie	NOM
+imperiali	ADJ
+si	PRO:refl
+incrociano	VER:pres
+con	PRE
+la	DET:def
+tradizione	NOM
+ellenistica	ADJ
+e	CON
+con	PRE
+i	DET:def
+culti	NOM
+locali	ADJ
+

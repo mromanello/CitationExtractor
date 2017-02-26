@@ -1,0 +1,24 @@
+Menzione	NOM
+di	PRE
+un	DET:indef
+«	PON
+vicus	NOM
+Caniscus	NOM
+»	PON
+del	PRE:det
+territorio	NOM
+di	PRE
+Ratiaria	NOM
+in	PRE
+CIL	NOM
+6	NUM
+,	PON
+2730	NUM
+(	PON
+epitafio	NOM
+)	PON
+e	CON
+determinazione	NOM
+del	PRE:det
+toponimo	NOM
+

@@ -1,0 +1,37 @@
+Édition	NOM
+de	PRP
+la	DET:ART
+col	NOM
+.	SENT
+
+4	NUM
+du	PRP:det
+PVindob	NAM
+K	NAM
+10157.	PUN
+
+Elle	PRO:PER
+permet	VER:pres
+de	PRP
+dater	VER:infi
+précisément	ADV
+de	PRP
+l'	DET:ART
+an	NOM
+413	NUM
+quelques	PRO:IND
+nominations	NOM
+d'	PRP
+évêques	NOM
+et	KON
+surtout	ADV
+de	PRP
+certifier	VER:infi
+l'	DET:ART
+existence	NOM
+d'	PRP
+une	DET:ART
+dizaine	NOM
+de	PRP
+diocèses	NOM
+

@@ -1,0 +1,6 @@
+Témoignage	NOM
+de	PRP
+la	DET:ART
+documentation	NOM
+papyrologique	ADJ
+

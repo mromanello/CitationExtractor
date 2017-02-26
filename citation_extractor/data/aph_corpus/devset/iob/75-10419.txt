@@ -1,0 +1,24 @@
+Analisi	NOM
+delle	PRE:det
+problematiche	NOM
+relative	ADJ
+alla	PRE:det
+gestione	NOM
+dei	PRE:det
+territori	NOM
+sacri	ADJ
+,	PON
+che	PRO:rela
+spesso	ADV
+vedevano	VER:impf
+contrapporsi	VER:infi
+gli	DET:def
+interessi	NOM
+dell'	PRE:det
+amministrazione	NOM
+cittadina	ADJ
+e	CON
+quelli	PRO:demo
+del	PRE:det
+santuario	NOM
+

@@ -1,0 +1,27 @@
+Discussione	NOM
+delle	PRE:det
+ricostruzioni	NOM
+proposte	VER:pper
+sinora	ADV
+per	PRE
+la	DET:def
+«	PON
+Stenebea	NOM
+»	PON
+di	PRE
+Euripide	NOM
+e	CON
+,	PON
+per	PRE
+quanto	ADV
+lo	PRO:pers
+consentono	VER:pres
+i	DET:def
+dati	NOM
+disponibili	ADJ
+,	PON
+del	PRE:det
+comportamento	NOM
+della	PRE:det
+protagonista	NOM
+

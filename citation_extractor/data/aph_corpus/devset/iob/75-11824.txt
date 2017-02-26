@@ -1,0 +1,14 @@
+Analisi	NOM
+delle	PRE:det
+ragioni	NOM
+dei	PRE:det
+«	PON
+vinti	NOM
+»	PON
+nella	PRE:det
+polemica	NOM
+pagano-cristiana	ADJ
+dei	PRE:det
+primi	ADJ
+secoli	NOM
+

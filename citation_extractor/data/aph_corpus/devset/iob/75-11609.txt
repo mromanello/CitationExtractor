@@ -1,0 +1,8 @@
+Für	APPR
+die	ART
+Antike	NN
+zur	APPRART
+römischen	ADJA
+Arena	NN
+.	$.
+

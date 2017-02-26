@@ -1,0 +1,17 @@
+T1	REFAUWORK 64 73	Athenaeus
+T2	REFSCOPE 74 84	10, 456 B)
+T3	REFAUWORK 210 213	Od.
+T4	REFSCOPE 214 217	12,
+T5	REFSCOPE 273 285	(12, 85-97 ;
+T6	REFSCOPE 286 295	232-259 ;
+T7	REFSCOPE 296 305	441-458).
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T3 Arg2:T5
+R4	Scope Arg1:T3 Arg2:T6
+R5	Scope Arg1:T3 Arg2:T7
+#0	AnnotatorNotes R4	urn:cts:cwkb:763.1600:232-259
+#1	AnnotatorNotes R5	urn:cts:cwkb:763.1600:441-458
+#2	AnnotatorNotes R1	urn:cts:cwkb:1173:10.456
+#3	AnnotatorNotes R2	urn:cts:cwkb:763.1600:12
+#4	AnnotatorNotes R3	urn:cts:cwkb:763.1600:12.85-12.97

@@ -1,0 +1,49 @@
+1.	ADV
+
+Zu	APPR
+einer	ART
+Gruppe	NN
+von	APPR
+Grabhügeln	NN
+des	ART
+5.	ADJA
+-3	CARD
+.	$.
+
+Jh	NE
+.	$.
+
+v.	APPR
+Chr.	NE
+,	$,
+bei	APPR
+denen	PRELS
+u.	APPR
+
+a.	APPR
+eine	ART
+etruskische	ADJA
+Bronzeschnabelkanne	NN
+gefunden	VVPP
+wurde	VAFIN
+.	$.
+
+2.	ADV
+
+Zu	APPR
+zwei	CARD
+römischen	ADJA
+Monumentalgrabhügeln	NN
+und	KON
+einem	ART
+Grabdenkmal	NN
+des	ART
+1.	ADJA
+-3	CARD
+.	$.
+
+Jh	NE
+.	$.
+
+n.	APPR
+Chr.	NE

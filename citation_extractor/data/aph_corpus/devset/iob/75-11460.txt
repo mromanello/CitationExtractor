@@ -1,0 +1,19 @@
+Histoire	NOM
+de	PRP
+la	DET:ART
+région	NOM
+du	PRP:det
+3e	NUM
+au	PRP:det
+9e	NUM
+s.	NOM
+et	KON
+des	PRP:det
+différentes	ADJ
+populations	NOM
+qui	PRO:REL
+s'	PRO:PER
+y	PRO:PER
+sont	VER:pres
+installées	VER:pper
+

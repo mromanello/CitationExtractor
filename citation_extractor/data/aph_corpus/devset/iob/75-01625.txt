@@ -1,0 +1,31 @@
+Die	ART
+beiden	PIAT
+Fragmente	NN
+haben	VAFIN
+nicht	PTKNEG
+nur	ADV
+zahlreiche	ADJA
+Parallelen	NN
+in	APPR
+der	ART
+Komödie	NN
+,	$,
+sondern	KON
+könnten	VMFIN
+tatsächlich	ADJD
+auf	APPR
+eine	ART
+Komödie	NN
+über	APPR
+Diogenes	NE
+zurückgehen	VVINF
+.	$.
+
+Dafür	PAV
+spricht	VVFIN
+auch	ADV
+ihre	PPOSAT
+metrische	ADJA
+Gestalt	NN
+.	$.
+

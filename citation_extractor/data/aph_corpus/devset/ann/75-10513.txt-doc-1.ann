@@ -1,0 +1,10 @@
+T1	AAUTHOR 178 194	Aelius Aristide,
+T2	AAUTHOR 342 351	Pausanias
+T3	REFSCOPE 352 362	(3, 5, 1 ;
+T4	REFSCOPE 363 373	1, 29, 3),
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0525:3.5.1
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0525:1.29.3
+#2	AnnotatorNotes T2	urn:cts:greekLit:tlg0525
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0284

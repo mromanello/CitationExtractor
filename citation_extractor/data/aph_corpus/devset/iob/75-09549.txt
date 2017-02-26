@@ -1,0 +1,46 @@
+Trésor	NOM
+de	PRP
+700	NUM
+monnaies	NOM
+environ	ADV
+,	PUN
+enfoui	VER:pper
+à	PRP
+la	DET:ART
+fin	NOM
+du	PRP:det
+5e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+trouvé	VER:pper
+en	PRP
+1933	NUM
+et	KON
+dispersé	VER:pper
+depuis	ADV
+.	SENT
+
+Il	PRO:PER
+a	VER:pres
+pu	VER:pper
+être	VER:infi
+reconstitué	VER:pper
+pour	PRP
+près	ADV
+de	PRP
+470	NUM
+monnaies	NOM
+,	PUN
+toutes	PRO:IND
+des	PRP:det
+statères	NOM
+de	PRP
+poids	NOM
+persique	ADJ
+

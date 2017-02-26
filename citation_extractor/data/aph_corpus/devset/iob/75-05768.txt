@@ -1,0 +1,25 @@
+Réflexions	NOM
+sur	PRP
+l'	DET:ART
+écriture	NOM
+prophétique	ADJ
+,	PUN
+notamment	ADV
+à	PRP
+partir	VER:infi
+d'	PRP
+un	DET:ART
+passage	NOM
+de	PRP
+Philon	NAM
+d'	PRP
+Alexandrie	NAM
+(	PUN
+De	NAM
+uita	NOM
+Mosis	NAM
+2	NUM
+,	PUN
+37-40	NUM
+)	PUN
+

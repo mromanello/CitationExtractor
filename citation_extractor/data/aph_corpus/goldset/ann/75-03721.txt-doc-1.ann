@@ -1,0 +1,4 @@
+T1	REFAUWORK 110 117	(Satyr.
+T2	REFSCOPE 118 124	62, 9)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0972.phi001:62.9

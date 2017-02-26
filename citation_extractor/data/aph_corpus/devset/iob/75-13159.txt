@@ -1,0 +1,28 @@
+La	DET:ART
+coiffure	NOM
+du	PRP:det
+buste	NOM
+de	PRP
+Marc	NAM
+Aurèle	NAM
+d'	PRP
+Avenches	NAM
+(	PUN
+2e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+)	PUN
+est	VER:pres
+clairement	ADV
+influencée	VER:pper
+par	PRP
+les	DET:ART
+conventions	NOM
+celtiques	ADJ
+.	SENT
+
+Typologie	NOM
+

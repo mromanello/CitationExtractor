@@ -1,0 +1,12 @@
+Notice	NOM
+absente	ADJ
+d'	PRP
+APh	NAM
+67	NUM
+,	PUN
+où	PRO:REL
+elle	PRO:PER
+aurait	VER:cond
+dû	VER:pper
+figurer	VER:infi
+

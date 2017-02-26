@@ -1,0 +1,5 @@
+T1	REFAUWORK 441 444	(AP
+T2	REFSCOPE 445 457	16, 135-143)
+T3	AAUTHOR 498 507	Euripides
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes T3	urn:cts:greekLit:tlg0006

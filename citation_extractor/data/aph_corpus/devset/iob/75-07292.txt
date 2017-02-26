@@ -1,0 +1,38 @@
+Se	SE
+estudia	VLfin
+la	ART
+evolución	NC
+semántica	ADJ
+de	PREP
+«	SYM
+praelatus	NC
+»	SYM
+a partir de	PREP
+los	ART
+textos	NC
+que	CQUE
+testimonian	VLfin
+el	ART
+cambio	NC
+de	PREP
+sentido	NC
+de	PREP
+esta	DM
+palabra	NC
+.	FS
+
+Se	SE
+sugiere	VLfin
+una	ART
+explicación	NC
+a partir de	PREP
+la	ART
+evolución	NC
+semántica	ADJ
+del	PDEL
+sustantivo	VLfin
+«	SYM
+praelatio	NC
+»	SYM
+.	FS
+

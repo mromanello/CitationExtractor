@@ -1,0 +1,17 @@
+L'	DET:ART
+exégèse	NOM
+origénienne	ADJ
+,	PUN
+tributaire	ADJ
+à	PRP
+la	DET:ART
+fois	NOM
+du	PRP:det
+judaïsme	NOM
+hellénistique	ADJ
+et	KON
+de	PRP
+la	DET:ART
+tradition	NOM
+rabbinique	ADJ
+

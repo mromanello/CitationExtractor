@@ -1,0 +1,13 @@
+T1	REFAUWORK 35 39	(Joh
+T2	REFSCOPE 40 48	2, 1-11)
+T3	AAUTHOR 92 100	Iuvencus
+T4	REFSCOPE 101 114	(2, 127-152),
+T5	AWORK 118 137	« Carmen paschale »
+T6	AAUTHOR 142 158	Coelius Sedulius
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:1381:2.1-2.11
+#1	AnnotatorNotes R2	urn:cts:cwkb:2732:2.127-2.152
+#2	AnnotatorNotes T6	urn:cts:cwkb:375
+#3	AnnotatorNotes T5	urn:cts:cwkb:1144.838
+#4	AnnotatorNotes T3	urn:cts:cwkb:2732

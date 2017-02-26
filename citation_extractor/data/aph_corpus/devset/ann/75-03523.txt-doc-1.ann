@@ -1,0 +1,10 @@
+T1	REFAUWORK 41 46	fast.
+T2	REFSCOPE 47 57	2, 533-638
+T3	REFSCOPE 417 427	(593-616),
+T4	REFSCOPE 609 619	(547-556).
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:568.1162:2.533-2.638
+#1	AnnotatorNotes R2	urn:cts:cwkb:568.1162:593-616
+#2	AnnotatorNotes R3	urn:cts:cwkb:568.1162:547-556

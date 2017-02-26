@@ -1,0 +1,20 @@
+T1	AWORK 35 57	« Choice of Heracles »
+T2	REFAUWORK 71 85	Xenophon, Mem.
+T3	REFSCOPE 86 97	2, 1, 21-33
+T4	AAUTHOR 186 196	Prodicus '
+T5	AAUTHOR 270 279	Xenophon,
+T6	AAUTHOR 298 308	Prodicus '
+T7	AAUTHOR 596 604	Prodicus
+T8	AAUTHOR 697 705	Prodicus
+T9	AWORK 766 788	« Choice of Heracles »
+T10	AAUTHOR 821 831	Prodicus '
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0032.tlg002:2.1.21-2.1.33
+#1	AnnotatorNotes T8	urn:cts:cwkb:2488
+#2	AnnotatorNotes T9	urn:cts:greekLit:tlg0020.tlg003
+#3	AnnotatorNotes T6	urn:cts:cwkb:2488
+#4	AnnotatorNotes T7	urn:cts:cwkb:2488
+#5	AnnotatorNotes T4	urn:cts:cwkb:2488
+#6	AnnotatorNotes T5	urn:cts:cwkb:1186
+#7	AnnotatorNotes T1	urn:cts:greekLit:tlg0020.tlg003
+#8	AnnotatorNotes T10	urn:cts:cwkb:2488

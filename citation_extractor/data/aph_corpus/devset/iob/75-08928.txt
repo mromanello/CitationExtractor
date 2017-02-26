@@ -1,0 +1,35 @@
+Les	DET:ART
+types	NOM
+amphoriques	ADJ
+identifiés	VER:pper
+comme	ADV
+produits	VER:pper
+à	PRP
+Demirci-Sinope	NAM
+.	SENT
+
+Les	DET:ART
+ressemblances	NOM
+techniques	ADJ
+entre	PRP
+Sinope	NAM
+et	KON
+la	DET:ART
+Colchide	NOM
+.	SENT
+
+Les	DET:ART
+amphores	NOM
+«	PUN:cit
+pseudo-colchidiennes	ADJ
+»	PUN:cit
+à	PRP
+pâte	NOM
+brune	ADJ
+du	PRP:det
+sud	NOM
+de	PRP
+la	DET:ART
+mer	NOM
+Noire	NAM
+

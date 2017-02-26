@@ -1,0 +1,16 @@
+Zum	APPRART
+letzten	ADJA
+Vers	NN
+,	$,
+der	PRELS
+vielleicht	ADV
+die	ART
+Signatur	NN
+des	ART
+Künstlers	NN
+auf	APPR
+dem	ART
+Koloss	NN
+zitiert	VVPP
+.	$.
+

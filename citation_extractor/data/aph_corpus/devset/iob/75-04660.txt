@@ -1,0 +1,10 @@
+Procope	NOM
+aurait	VER:cond
+été	VER:pper
+membre	NOM
+de	PRP
+la	DET:ART
+secte	NOM
+des	PRP:det
+Samaritains	NAM
+

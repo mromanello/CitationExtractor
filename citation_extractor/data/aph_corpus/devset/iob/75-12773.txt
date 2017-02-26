@@ -1,0 +1,32 @@
+Diskussion	NN
+der	ART
+Chronologie	NN
+von	APPR
+Terrakotten	NN
+des	ART
+7.	ADJA
+-5	CARD
+.	$.
+
+Jh	NE
+.	$.
+,	$,
+insbesondere	ADV
+anhand	APPR
+der	ART
+Funde	NN
+aus	APPR
+Agia	NE
+Irini	NE
+und	KON
+Samos	NE
+und	KON
+im	APPRART
+Vergleich	NN
+mit	APPR
+der	ART
+Chronologie	NN
+der	ART
+Steinplastik	NN
+.	$.
+

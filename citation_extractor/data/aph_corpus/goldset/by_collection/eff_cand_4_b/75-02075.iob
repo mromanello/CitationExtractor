@@ -1,0 +1,10 @@
+Legame	NOM	O
+tra	PRE	O
+poetica	NOM	O
+e	CON	O
+grammatica	NOM	O
+da	PRE	O
+Aristotele	NPR	B-AAUTHOR
+ad	PRE	O
+Apollonio	NOM	B-AAUTHOR
+Discolo	NOM	I-AAUTHOR

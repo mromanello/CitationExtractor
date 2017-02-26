@@ -1,0 +1,7 @@
+Elementi	NOM
+comici	ADJ
+nella	PRE:det
+rappresentazione	NOM
+dei	PRE:det
+Sofisti	NOM
+

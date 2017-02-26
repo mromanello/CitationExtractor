@@ -1,0 +1,4 @@
+T1	AAUTHOR 196 212	Aurelius Victor)
+T2	REFSCOPE 212 213	,
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes T1	urn:cts:cwkb:2919

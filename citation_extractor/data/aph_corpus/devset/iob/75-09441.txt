@@ -1,0 +1,22 @@
+Su	PRE
+iscrizioni	NOM
+ritenute	NOM
+perdute	ADJ
+,	PON
+trascurate	VER:pper
+dalla	PRE:det
+storia	NOM
+degli	PRE:det
+studi	NOM
+o	CON
+inedite	ADJ
+,	PON
+rinvenute	VER:pper
+in	PRE
+occasione	NOM
+di	PRE
+ricognizioni	NOM
+nell'	PRE:det
+area	NOM
+umbra	ADJ
+

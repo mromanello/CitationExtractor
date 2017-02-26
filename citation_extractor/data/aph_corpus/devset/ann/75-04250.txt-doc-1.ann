@@ -1,0 +1,12 @@
+T1	AAUTHOR 29 35	Platon
+T2	AWORK 197 208	« Gorgias »
+T3	AWORK 214 229	« République »,
+T4	AWORK 242 255	« Sophiste »,
+T5	AWORK 336 345	« Lois »,
+T6	AAUTHOR 400 406	Platon
+#0	AnnotatorNotes T6	urn:cts:greekLit:tlg0059
+#1	AnnotatorNotes T4	urn:cts:greekLit:tlg0059.tlg007
+#2	AnnotatorNotes T5	urn:cts:greekLit:tlg0059.tlg034
+#3	AnnotatorNotes T2	urn:cts:greekLit:tlg0059.tlg023
+#4	AnnotatorNotes T3	urn:cts:greekLit:tlg0059.tlg030
+#5	AnnotatorNotes T1	urn:cts:greekLit:tlg0059

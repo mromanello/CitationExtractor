@@ -1,0 +1,6 @@
+Sciences	NOM
+diverses	ADJ
+et	KON
+leur	DET:POS
+développement	NOM
+

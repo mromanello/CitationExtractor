@@ -1,0 +1,17 @@
+Edition	NN
+,	$,
+textkritische	ADJA
+Anmerkungen	NN
+und	KON
+knappe	ADJA
+Kommentare	NN
+.	$.
+
+Für	APPR
+Iambus	ADJA
+V	NN
+siehe	ADV
+=>	ADJD
+74-01233	CARD
+.	$.
+

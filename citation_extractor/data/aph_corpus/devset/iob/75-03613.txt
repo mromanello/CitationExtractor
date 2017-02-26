@@ -1,0 +1,6 @@
+Exégèse	NOM
+de	PRP
+Parménide	NAM
+,	PUN
+1-5	NUM
+

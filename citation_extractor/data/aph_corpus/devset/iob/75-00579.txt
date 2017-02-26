@@ -1,0 +1,27 @@
+Il	DET:def
+capitolo	NOM
+14	NUM
+della	PRE:det
+«	PON
+Poetica	NOM
+»	PON
+di	PRE
+Aristotele	NPR
+corregge	VER:pres
+e	CON
+precisa	VER:pres
+quanto	ADV
+affermato	VER:pper
+nel	PRE:det
+capitolo	NOM
+13	NUM
+riguardo	NOM
+all'	PRE:det
+esito	NOM
+preferibile	ADJ
+per	PRE
+una	DET:indef
+tragedia	NOM
+ben	ADV
+riuscita	VER:pper
+

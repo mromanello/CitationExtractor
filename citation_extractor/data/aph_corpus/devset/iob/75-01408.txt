@@ -1,0 +1,12 @@
+Étude	NOM
+du	PRP:det
+vocabulaire	NOM
+exprimant	VER:ppre
+l'	DET:ART
+ancienneté	NOM
+et	KON
+la	DET:ART
+vieillesse	NOM
+chez	PRP
+Claudien	NAM
+

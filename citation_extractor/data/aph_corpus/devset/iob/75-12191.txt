@@ -1,0 +1,26 @@
+Les	DET:ART
+débuts	NOM
+du	PRP:det
+culte	NOM
+chrétien	ADJ
+à	PRP
+Édesse	NOM
+sur	PRP
+la	DET:ART
+base	NOM
+de	PRP
+l'	DET:ART
+«	PUN:cit
+Histoire	NAM
+du	PRP:det
+roi	NOM
+Abgar	NAM
+et	KON
+de	PRP
+Jésus	NAM
+»	PUN:cit
+(	PUN
+=>	ABR
+66-04970	NUM
+)	PUN
+

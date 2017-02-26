@@ -1,0 +1,8 @@
+Reseña	NC
+crítica	ADJ
+del	PDEL
+libro	NC
+consignado	VLadj
+en	PREP
+68-13653	CARD
+

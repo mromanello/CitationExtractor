@@ -1,0 +1,34 @@
+Première	NUM
+table	NOM
+ronde	ADJ
+du	PRP:det
+programme	NOM
+«	PUN:cit
+Les	DET:ART
+victimes	NOM
+de	PRP
+la	DET:ART
+“	PUN:cit
+damnatio	NOM
+memoriae	ADJ
+”	PUN:cit
+»	PUN:cit
+(	PUN
+Paris	NAM
+,	PUN
+25	NUM
+octobre	NOM
+2003	NUM
+)	PUN
+.	SENT
+
+1re	NOM
+série	NOM
+de	PRP
+communications	NOM
+dépouillée	VER:pper
+dans	PRP
+le	DET:ART
+tome	NOM
+75	NUM
+

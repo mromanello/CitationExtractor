@@ -1,0 +1,33 @@
+Sur	PRP
+la	DET:ART
+question	NOM
+de	PRP
+l'	DET:ART
+ancienneté	NOM
+du	PRP:det
+culte	NOM
+d'	PRP
+Hera	NAM
+à	PRP
+Olympie	NAM
+,	PUN
+notamment	ADV
+d'	PRP
+après	PRP
+le	DET:ART
+témoignage	NOM
+de	PRP
+Pausanias	NOM
+(	PUN
+5	NUM
+,	PUN
+17	NUM
+,	PUN
+1	NUM
+)	PUN
+.	SENT
+
+Discussion	NOM
+p.	ABR
+221-222	NUM
+

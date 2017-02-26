@@ -1,0 +1,7 @@
+Per	VLfin
+la	ART
+rassegna	VLfin
+precedente	ADJ
+=>	NC
+74-07542	CARD
+

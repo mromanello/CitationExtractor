@@ -1,0 +1,23 @@
+Die	ART
+erhaltenen	ADJA
+Anlagen	NN
+ermöglichen	VVFIN
+unter	APPR
+anderem	PIS
+besonders	ADV
+detaillierte	ADJA
+Erkenntnisse	NN
+zum	APPRART
+Bewässerungssystem	NN
+.	$.
+
+Mit	APPR
+einem	ART
+Exkurs	NN
+zur	APPRART
+Fundkeramik	NN
+(	$(
+2000-2003	CARD
+)	$(
+.	$.
+

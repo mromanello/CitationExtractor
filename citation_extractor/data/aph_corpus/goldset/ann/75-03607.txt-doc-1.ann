@@ -1,0 +1,27 @@
+T1	REFAUWORK 143 164	ps. -Aristotele, Mir.
+T2	REFSCOPE 165 210	1, 1. 30, 1. 31. 34. 49. 126. 130. 149. 157 ;
+T3	REFAUWORK 211 229	Flegonte di Tralle
+T4	REFSCOPE 230 241	1, 4. 1, 7.
+T5	REFSCOPE 242 253	1, 17. 16 ;
+T6	REFAUWORK 258 277	Antigono di Caristo
+T7	REFSCOPE 278 297	5. 7, 1. 121. 152 ;
+T8	REFAUWORK 298 325	Paradoxographus Florentinus
+T9	REFSCOPE 326 329	4 ;
+T10	REFAUWORK 330 355	Paradoxographus Vaticanus
+T11	REFSCOPE 356 366	9, 2. 37 ;
+T12	REFAUWORK 367 392	Paradoxographus Palatinus
+T13	REFSCOPE 393 395	10
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T3 Arg2:T5
+R4	Scope Arg1:T6 Arg2:T7
+R5	Scope Arg1:T8 Arg2:T9
+R6	Scope Arg1:T10 Arg2:T11
+R7	Scope Arg1:T12 Arg2:T13
+#0	AnnotatorNotes R4	urn:cts:cwkb:737:5.7.1.121.152
+#1	AnnotatorNotes R5	urn:cts:cwkb:1023:4
+#2	AnnotatorNotes R6	urn:cts:cwkb:1025:9.2.37
+#3	AnnotatorNotes R7	urn:cts:cwkb:1024:10
+#4	AnnotatorNotes R1	urn:cts:TODO:1.1.30.1.31.34.49.126.130.149.157
+#5	AnnotatorNotes R2	urn:cts:cwkb:1067:1.4.1.7
+#6	AnnotatorNotes R3	urn:cts:cwkb:1067:1.17.16

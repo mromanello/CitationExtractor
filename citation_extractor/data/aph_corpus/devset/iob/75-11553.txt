@@ -1,0 +1,24 @@
+On	NPR
+V.	ABR
+Pirenne-Delforge	NOM
+(	PON
+=>	NOM
+66-10494	NUM
+)	PON
+,	PON
+L.	ABR
+K.	LS
+McClure	NOM
+(	PON
+=>	NOM
+75-00779	NUM
+)	PON
+and	NPR
+D.	NPR
+Hamel	NOM
+(	PON
+=>	NOM
+74-01813	NUM
+)	PON
+.	SENT
+

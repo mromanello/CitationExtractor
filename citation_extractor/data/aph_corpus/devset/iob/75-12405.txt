@@ -1,0 +1,17 @@
+Recense	VER:pres
+des	PRP:det
+ouvrages	NOM
+traitant	VER:ppre
+de	PRP
+la	DET:ART
+magie	NOM
+antique	ADJ
+,	PUN
+de	PRP
+l'	DET:ART
+alchimie	NOM
+,	PUN
+de	PRP
+l'	DET:ART
+astrologie	NOM
+

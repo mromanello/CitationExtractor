@@ -1,0 +1,21 @@
+T1	AAUTHOR 15 23	Plato 's
+T2	AAUTHOR 266 274	Plato 's
+T3	AAUTHOR 370 380	Heraclitus
+T4	REFSCOPE 391 394	2 ;
+T5	REFSCOPE 395 399	12 ;
+T6	REFSCOPE 400 404	17 ;
+T7	REFSCOPE 405 409	34 ;
+T8	REFSCOPE 410 421	49 A ; 60).
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T3 Arg2:T5
+R3	Scope Arg1:T3 Arg2:T6
+R4	Scope Arg1:T3 Arg2:T7
+R5	Scope Arg1:T3 Arg2:T8
+#0	AnnotatorNotes R4	urn:cts:cwkb:907:34
+#1	AnnotatorNotes R5	urn:cts:cwkb:907:49
+#2	AnnotatorNotes R1	urn:cts:cwkb:907:2
+#3	AnnotatorNotes R2	urn:cts:cwkb:907:12
+#4	AnnotatorNotes R3	urn:cts:cwkb:907:17
+#5	AnnotatorNotes T2	urn:cts:greekLit:tlg0059
+#6	AnnotatorNotes T3	urn:cts:cwkb:907
+#7	AnnotatorNotes T1	urn:cts:greekLit:tlg0059

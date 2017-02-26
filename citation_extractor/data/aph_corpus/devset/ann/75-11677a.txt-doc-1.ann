@@ -1,0 +1,15 @@
+T1	AAUTHOR 929 941	Athanasius '
+T2	AWORK 942 961	« Life of Antony »,
+T3	AAUTHOR 962 969	Didymus
+T4	AWORK 983 1011	« Commentary on Zechariah »,
+T5	AAUTHOR 1012 1022	Cassian 's
+T6	AWORK 1023 1039	« Conferences »,
+T7	AWORK 1044 1068	« Historia monachorum »,
+T8	AWORK 1077 1102	« Apophthegmata Patrum ».
+#0	AnnotatorNotes T6	urn:cts:cwkb:2437.8994
+#1	AnnotatorNotes T7	urn:cts:cwkb:1330.4355
+#2	AnnotatorNotes T4	urn:cts:cwkb:831.2064
+#3	AnnotatorNotes T5	urn:cts:cwkb:798
+#4	AnnotatorNotes T2	urn:cts:cwkb:1315.4328
+#5	AnnotatorNotes T3	urn:cts:cwkb:832
+#6	AnnotatorNotes T1	urn:cts:cwkb:775

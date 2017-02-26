@@ -1,0 +1,11 @@
+T1	AAUTHOR 237 252	Pline l' Ancien
+T2	REFAUWORK 253 256	(HN
+T3	REFSCOPE 257 265	35, 85).
+T4	AAUTHOR 571 577	Lucien
+T5	REFAUWORK 578 585	(Opusc.
+T6	REFSCOPE 586 590	22),
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R2	urn:cts:cwkb:2508:22
+#1	AnnotatorNotes T4	urn:cts:greekLit:tlg0062
+#2	AnnotatorNotes T1	urn:cts:cwkb:585

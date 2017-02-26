@@ -1,0 +1,21 @@
+A	PRE
+proposito	NOM
+della	PRE:det
+prevalenza	NOM
+,	PON
+nella	PRE:det
+ricostruzione	NOM
+del	PRE:det
+testo	NOM
+dell'	PRE:det
+Antico	NOM
+Testamento	NOM
+,	PON
+della	PRE:det
+versione	NOM
+ebraica	ADJ
+o	CON
+di	PRE
+quella	PRO:demo
+greca	ADJ
+

@@ -1,0 +1,44 @@
+Montre	VER:pres
+comment	ADV
+les	DET:ART
+textes	NOM
+des	PRP:det
+divers	ADJ
+témoins	NOM
+vieux	ADJ
+latins	ADJ
+de	PRP
+Marc	NAM
+s'	PRO:PER
+articulent	VER:pres
+entre	PRP
+eux	PRO:PER
+.	SENT
+
+La	DET:ART
+tradition	NOM
+africaine	ADJ
+et	KON
+la	DET:ART
+tradition	NOM
+européenne	ADJ
+.	SENT
+
+Proposition	NOM
+d'	PRP
+une	DET:ART
+chronologie	NOM
+relative	ADJ
+,	PUN
+puis	ADV
+d'	PRP
+une	DET:ART
+chronologie	NOM
+absolue	VER:pper
+sur	PRP
+la	DET:ART
+base	NOM
+de	PRP
+citations	NOM
+patristiques	ADJ
+

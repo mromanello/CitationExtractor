@@ -1,0 +1,29 @@
+Étude	NOM
+ethno-archéologique	ADJ
+sur	PRP
+les	DET:ART
+pressoirs	NOM
+à	PRP
+vin	NOM
+dans	PRP
+la	DET:ART
+région	NOM
+de	PRP
+Meda	NAM
+depuis	PRP
+l'	DET:ART
+époque	NOM
+romaine	ADJ
+.	SENT
+
+Sept	NUM
+installations	NOM
+sur	PRP
+la	DET:ART
+vingtaine	NOM
+repérée	VER:pper
+présentent	VER:pres
+des	PRP:det
+vestiges	NOM
+romains	ADJ
+

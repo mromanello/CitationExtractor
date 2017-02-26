@@ -1,0 +1,55 @@
+1.	ADV
+
+Überblick	NN
+über	APPR
+Ich-Aussagen	NN
+in	APPR
+der	ART
+griechischen	ADJA
+und	KON
+lateinischen	ADJA
+Dichtung	NN
+und	KON
+Versuch	NN
+,	$,
+ihre	PPOSAT
+Funktionen	NN
+in	APPR
+einer	ART
+Typologie	NN
+zu	PTKZU
+erfassen	VVINF
+.	$.
+
+2.	ADV
+
+Überlegung	NN
+,	$,
+an	APPR
+welchen	PRELS
+Punkten	NN
+bzw	VVFIN
+.	$.
+
+Funktionen	NN
+die	ART
+biographische	ADJA
+Leseweise	NN
+in	APPR
+der	ART
+Antike	NN
+ansetzt	VVFIN
+.	$.
+
+3.	ADJA
+
+Zur	APPRART
+Reaktion	NN
+der	ART
+Poesie	NN
+auf	APPR
+die	ART
+biographische	ADJA
+Leseweise	NN
+.	$.
+

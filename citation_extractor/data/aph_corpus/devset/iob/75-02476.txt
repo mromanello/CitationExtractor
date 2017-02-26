@@ -1,0 +1,14 @@
+Analisi	NOM
+dei	PRE:det
+vari	ADJ
+significati	NOM
+di	PRE
+questo	PRO:demo
+avverbio	NOM
+negli	PRE:det
+scolii	NOM
+all'	PRE:det
+«	PON
+Iliade	NOM
+»	PON
+

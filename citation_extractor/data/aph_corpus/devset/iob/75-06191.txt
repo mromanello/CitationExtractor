@@ -1,0 +1,27 @@
+Il	DET:def
+richiamo	NOM
+allusivo	ADJ
+di	PRE
+Virgilio	NPR
+a	PRE
+Callimaco	NOM
+consente	VER:pres
+il	DET:def
+rispecchiamento	NOM
+tra	PRE
+Ottaviano	NPR
+e	CON
+Giove	NOM
+,	PON
+evitando	VER:geru
+una	DET:indef
+troppo	ADV
+aperta	ADJ
+,	PON
+inopportuna	ADJ
+,	PON
+sovrapposizione	NOM
+dei	PRE:det
+due	ADJ
+personaggi	NOM
+

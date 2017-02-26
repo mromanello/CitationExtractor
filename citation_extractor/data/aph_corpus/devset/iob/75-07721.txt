@@ -1,0 +1,15 @@
+Concerne	VER:pres
+les	DET:ART
+régions	NOM
+Est	NAM
+et	KON
+Centre-Est	NAM
+.	SENT
+
+Pour	PRP
+la	DET:ART
+précédente	ADJ
+livraison	NOM
+=>	ADJ
+75-07720	NUM
+

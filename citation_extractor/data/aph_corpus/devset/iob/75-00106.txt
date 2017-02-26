@@ -1,0 +1,16 @@
+I	DET:def
+primi	ADJ
+due	ADJ
+versi	NOM
+si	PRO:pers
+possono	VER:pres
+interpretare	VER:infi
+come	PRE
+una	DET:indef
+falsa	ADJ
+affermazione	NOM
+dei	PRE:det
+nemici	NOM
+del	PRE:det
+poeta	NOM
+

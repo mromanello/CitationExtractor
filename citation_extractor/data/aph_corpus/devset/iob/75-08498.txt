@@ -1,0 +1,30 @@
+Observations	NOM
+tirées	VER:pper
+du	PRP:det
+journal	NOM
+de	PRP
+voyage	NOM
+du	PRP:det
+père	NOM
+F.	ABR
+K.	ABR
+M.	NOM
+Bohusz	NAM
+,	PUN
+édité	VER:pper
+à	PRP
+Varsovie	NAM
+en	PRP
+1903.	NAM
+
+Cet	PRO:DEM
+auteur	NOM
+insiste	VER:pres
+notamment	ADV
+sur	PRP
+l'	DET:ART
+origine	NOM
+païenne	ADJ
+des	PRP:det
+catacombes	NOM
+

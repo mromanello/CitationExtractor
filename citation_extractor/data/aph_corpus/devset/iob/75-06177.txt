@@ -1,0 +1,9 @@
+Esame	NOM
+della	PRE:det
+tradizione	NOM
+in	PRE
+vista	NOM
+dell'	PRE:det
+edizione	NOM
+critica	ADJ
+

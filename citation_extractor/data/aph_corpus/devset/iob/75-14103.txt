@@ -1,0 +1,23 @@
+Sur	PRP
+la	DET:ART
+réception	NOM
+de	PRP
+l'	DET:ART
+œuvre	NOM
+de	PRP
+ces	PRO:DEM
+deux	NUM
+céramologues	NOM
+liés	VER:pper
+à	PRP
+la	DET:ART
+franc-maçonnerie	NOM
+,	PUN
+défenseurs	NOM
+d'	PRP
+une	DET:ART
+interprétation	NOM
+mystique	ADJ
+des	PRP:det
+antiquités	NOM
+

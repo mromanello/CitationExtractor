@@ -1,0 +1,18 @@
+On	IN
+the	DT
+presence	NN
+of	IN
+wandering	VBG
+Sophists	NNS
+in	IN
+late	JJ
+antique	JJ
+Palestine	NP
+,	,
+and	CC
+their	PP$
+influence	NN
+on	IN
+Jewish	JJ
+thought	NN
+

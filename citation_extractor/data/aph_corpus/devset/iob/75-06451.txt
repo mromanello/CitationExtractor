@@ -1,0 +1,12 @@
+On	IN
+A.	NP
+Sharrock	NP
+and	CC
+H.	NP
+Morales	NP
+(	(
+=>	NP
+72-17345	CD
+)	)
+.	SENT
+

@@ -1,0 +1,14 @@
+T1	REFAUWORK 59 78	[ Xen. ] Ath. resp.
+T2	REFSCOPE 79 83	1, 2
+T3	REFAUWORK 150 155	Thuc.
+T4	REFSCOPE 156 168	1, 142-143 ;
+T5	REFSCOPE 169 179	2, 36-41 ;
+T6	REFSCOPE 180 185	2, 62
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T3 Arg2:T5
+R4	Scope Arg1:T3 Arg2:T6
+#0	AnnotatorNotes R4	urn:cts:greekLit:tlg0003.tlg001:2.62
+#1	AnnotatorNotes R1	urn:cts:greekLit:tlg0032.tlg015:1.2
+#2	AnnotatorNotes R2	urn:cts:greekLit:tlg0003.tlg001:1.142-1.143
+#3	AnnotatorNotes R3	urn:cts:greekLit:tlg0003.tlg001:2.36-2.41

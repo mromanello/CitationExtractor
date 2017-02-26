@@ -1,0 +1,7 @@
+Vorschläge	NN
+zur	APPRART
+Gestaltung	NN
+des	ART
+Texts	NN
+.	$.
+

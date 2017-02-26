@@ -1,0 +1,75 @@
+Étymologie	NOM
+et	KON
+signification	NOM
+du	PRP:det
+terme	NOM
+.	SENT
+
+Définition	NOM
+de	PRP
+la	DET:ART
+fonction	NOM
+.	SENT
+
+Étude	NOM
+des	PRP:det
+80	NUM
+«	PUN:cit
+accensi	NOM
+»	PUN:cit
+,	PUN
+repertoriés	VER:pper
+d'	PRP
+après	PRP
+les	DET:ART
+données	NOM
+littéraires	ADJ
+(	PUN
+notamment	ADV
+Cicéron	NAM
+)	PUN
+et	KON
+épigraphiques	ADJ
+,	PUN
+entre	PRP
+190	NUM
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+et	KON
+le	DET:ART
+2e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+
+Les	DET:ART
+«	PUN:cit
+accensi	ADJ
+uelati	NOM
+»	PUN:cit
+et	KON
+les	DET:ART
+autres	ADJ
+.	SENT
+
+Index	NOM
+nominal	ADJ
+,	PUN
+organigramme	NOM
+et	KON
+tableau	NOM
+chronologique	ADJ
+(	PUN
+«	PUN:cit
+praeter	NOM
+uelatos	NOM
+»	PUN:cit
+)	PUN
+

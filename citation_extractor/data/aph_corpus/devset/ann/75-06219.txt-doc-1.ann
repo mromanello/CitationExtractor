@@ -1,0 +1,12 @@
+T1	AAUTHOR 3 12	Virgil 's
+T2	REFAUWORK 204 208	Aen.
+T3	REFSCOPE 209 219	7, 371-372
+T4	REFAUWORK 255 259	Aen.
+T5	REFSCOPE 260 266	1, 338
+T6	AWORK 456 466	« Aeneid »
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:7.371-7.372
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0690.phi003:1.338
+#2	AnnotatorNotes T6	urn:cts:latinLit:phi0690.phi003
+#3	AnnotatorNotes T1	urn:cts:cwkb:3103

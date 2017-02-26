@@ -1,0 +1,13 @@
+T1	REFAUWORK 13 17	Aen.
+T2	REFSCOPE 18 19	5
+T3	REFSCOPE 269 280	(5, 46-50),
+T5	REFAUWORK 359 363	Aen.
+T6	REFSCOPE 364 365	5
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:5
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0690.phi003:5
+R3	Scope Arg1:T1 Arg2:T3	
+#3	AnnotatorNotes R3	urn:cts:latinLit:phi0690.phi003:5.46-5.50
+T4	AAUTHOR 346 352	Vergil
+#2	AnnotatorNotes T4	urn:cts:latinLit:phi0690

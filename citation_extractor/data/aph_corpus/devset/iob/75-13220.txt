@@ -1,0 +1,16 @@
+Rassegna	NOM
+di	PRE
+studi	NOM
+sul	PRE:det
+diritto	NOM
+antico	ADJ
+e	CON
+romano	ADJ
+.	SENT
+
+Per	PRE
+la	DET:def
+precedente	ADJ
+=>	NOM
+74-15790	NUM
+

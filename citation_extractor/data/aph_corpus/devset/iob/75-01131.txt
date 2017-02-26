@@ -1,0 +1,26 @@
+Nouvelle	ADJ
+lecture	NOM
+de	PRP
+l'	DET:ART
+inscription	NOM
+publiée	VER:pper
+par	PRP
+J.	NAM
+des	PRP:det
+Courtils	NAM
+(	PUN
+=>	ABR
+74-10607	NUM
+)	PUN
+,	PUN
+qui	PRO:REL
+serait	VER:cond
+une	DET:ART
+épigramme	NOM
+monostique	ADJ
+et	KON
+non	ADV
+une	DET:ART
+citation	NOM
+tronquée	VER:pper
+

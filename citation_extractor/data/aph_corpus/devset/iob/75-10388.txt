@@ -1,0 +1,7 @@
+In	PRE
+margine	NOM
+al	PRE:det
+volume	NOM
+schedato	ADJ
+75-10389	NUM
+

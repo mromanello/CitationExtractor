@@ -1,0 +1,4 @@
+T1	REFAUWORK 20 30	Plato, Ap.
+T2	REFSCOPE 31 40	17 B-20 D
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:1095.3923:17

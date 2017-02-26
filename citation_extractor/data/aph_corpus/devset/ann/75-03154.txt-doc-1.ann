@@ -1,0 +1,8 @@
+T1	REFAUWORK 0 6	Manil.
+T2	REFSCOPE 7 15	1, 40-65
+T3	REFAUWORK 26 35	Ou. fast.
+T4	REFSCOPE 36 46	1, 295-320
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0474.phi009:1.40-1.65
+#1	AnnotatorNotes R2	urn:cts:cwkb:502.1061:1.295-1.320

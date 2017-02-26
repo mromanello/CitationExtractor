@@ -1,0 +1,22 @@
+In	PRE
+conf	NOM
+.	SENT
+
+11	NUM
+,	PON
+24	NUM
+,	PON
+14-17	NUM
+Agostino	NPR
+esemplifica	VER:pres
+il	DET:def
+concetto	NOM
+di	PRE
+previsione	NOM
+,	PON
+confermando	VER:geru
+involontariamente	ADV
+la	DET:def
+concezione	NOM
+epicurea	ADJ
+

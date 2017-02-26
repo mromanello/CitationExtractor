@@ -1,0 +1,14 @@
+Concerne	VER:pres
+l'	DET:def
+esegesi	NOM
+bizantina	ADJ
+di	PRE
+Pindaro	NOM
+,	PON
+soprattutto	ADV
+dal	PRE:det
+punto	NOM
+di	PRE
+vista	NOM
+metrico	ADJ
+

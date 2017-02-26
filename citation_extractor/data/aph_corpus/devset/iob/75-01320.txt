@@ -1,0 +1,40 @@
+Se	SE
+reflexiona	VLfin
+sobre	PREP
+si	CSUBX
+se	SE
+puede	VMfin
+deducir	VLinf
+,	CM
+de	PREP
+las	ART
+palabras	NC
+de	PREP
+Cicerón	NC
+al respecto	ADV
+,	CM
+la	ART
+existencia	NC
+de	PREP
+una	ART
+edición	NC
+de	PREP
+los	ART
+«	SYM
+Annales	NC
+»	SYM
+,	CM
+y	CC
+sobre	PREP
+la	ART
+supuesta	VLadj
+dependencia	NC
+de	PREP
+la	ART
+historiografía	NC
+literaria	ADJ
+respecto de	PREP
+la	ART
+analística	ADJ
+pontificia	VLfin
+

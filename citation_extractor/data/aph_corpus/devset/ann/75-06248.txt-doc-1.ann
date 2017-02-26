@@ -1,0 +1,7 @@
+T1	REFAUWORK 157 161	Aen.
+T2	REFSCOPE 162 163	5
+T3	REFSCOPE 164 167	e 6
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:5
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0690.phi003:6

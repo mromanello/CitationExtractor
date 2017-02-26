@@ -1,0 +1,41 @@
+Dans	PRP
+le	DET:ART
+cadre	NOM
+de	PRP
+la	DET:ART
+préparation	NOM
+d'	PRP
+un	DET:ART
+«	PUN:cit
+Repertorium	NOM
+»	PUN:cit
+des	PRP:det
+conjectures	NOM
+dans	PRP
+les	DET:ART
+tragédies	NOM
+de	PRP
+Sénèque	NAM
+,	PUN
+histoire	NOM
+de	PRP
+la	DET:ART
+critique	NOM
+de	PRP
+ces	PRO:DEM
+textes	NOM
+.	SENT
+
+Exemple	NOM
+particulier	ADJ
+de	PRP
+la	DET:ART
+«	PUN:cit
+Médée	NAM
+»	PUN:cit
+.	SENT
+
+Discussion	NOM
+p.	ABR
+162-171	NUM
+

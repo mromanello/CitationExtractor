@@ -1,0 +1,33 @@
+Histoire	NOM
+des	PRP:det
+fouilles	NOM
+.	SENT
+
+État	NOM
+des	PRP:det
+recherches	NOM
+actuelles	ADJ
+.	SENT
+
+Le	DET:ART
+site	NOM
+présente	VER:pres
+un	DET:ART
+«	PUN:cit
+castrum	NOM
+»	PUN:cit
+fortifié	VER:pper
+du	PRP:det
+4e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+avec	PRP
+des	PRP:det
+traces	NOM
+d'	PRP
+occupations	NOM
+antérieures	ADJ
+

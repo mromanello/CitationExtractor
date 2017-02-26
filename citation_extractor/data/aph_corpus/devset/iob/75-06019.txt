@@ -1,0 +1,22 @@
+La	DET:def
+«	PON
+Catena	NOM
+alla	PRE:det
+Genesi	NOM
+»	PON
+,	PON
+nel	PRE:det
+commento	NOM
+a	PRE
+24	NUM
+,	PON
+43-44	NUM
+,	PON
+contiene	VER:pres
+un	DET:indef
+frammento	NOM
+della	PRE:det
+«	PON
+Replica	NOM
+»	PON
+

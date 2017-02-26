@@ -1,0 +1,21 @@
+Sur	PRP
+les	DET:ART
+différents	ADJ
+styles	NOM
+de	PRP
+maçonnerie	NOM
+des	PRP:det
+fortifications	NOM
+grecques	ADJ
+,	PUN
+d'	PRP
+après	PRP
+la	DET:ART
+documentation	NOM
+archéologique	ADJ
+complétée	VER:pper
+par	PRP
+les	DET:ART
+témoignages	NOM
+littéraires	ADJ
+

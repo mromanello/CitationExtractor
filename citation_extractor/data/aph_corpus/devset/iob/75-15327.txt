@@ -1,0 +1,16 @@
+Bibliografia	NOM
+completa	ADJ
+dei	PRE:det
+lavori	NOM
+romanistici	ADJ
+dello	PRE:det
+studioso	NOM
+e	CON
+bibliografia	NOM
+selettiva	ADJ
+dei	PRE:det
+lavori	NOM
+a	PRE
+lui	PRO:pers
+dedicati	VER:pper
+

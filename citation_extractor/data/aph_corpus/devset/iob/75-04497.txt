@@ -1,0 +1,16 @@
+Plutarco	NOM
+adotta	VER:pres
+sostanzialmente	ADV
+il	DET:def
+modello	NOM
+sallustiano	ADJ
+,	PON
+integrandolo	VER:geru
+tuttavia	ADV
+con	PRE
+particolari	NOM
+desunti	VER:pper
+da	PRE
+altre	ADJ
+fonti	NOM
+

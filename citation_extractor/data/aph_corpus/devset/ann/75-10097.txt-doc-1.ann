@@ -1,0 +1,16 @@
+T1	AAUTHOR 114 121	Tacitus
+T2	REFAUWORK 122 127	(Ann.
+T3	REFSCOPE 128 139	13, 34-41 ;
+T4	REFSCOPE 140 151	14, 23-27 ;
+T5	REFSCOPE 152 162	15, 1-17 ;
+T6	REFSCOPE 163 174	15, 24-31),
+T7	AWORK 202 218	« Lex Portorii »
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+R3	Scope Arg1:T2 Arg2:T5
+R4	Scope Arg1:T2 Arg2:T6
+#0	AnnotatorNotes R4	urn:cts:cwkb:467.985:15.24-15.31
+#1	AnnotatorNotes R1	urn:cts:cwkb:467.985:13.34-13.41
+#2	AnnotatorNotes R2	urn:cts:cwkb:467.985:14.23-14.27
+#3	AnnotatorNotes R3	urn:cts:cwkb:467.985:15.1-15.17
+#4	AnnotatorNotes T1	urn:cts:latinLit:phi1351

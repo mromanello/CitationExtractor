@@ -1,0 +1,33 @@
+Étude	NOM
+de	PRP
+la	DET:ART
+place	NOM
+occupée	VER:pper
+par	PRP
+ces	PRO:DEM
+déesses	NOM
+spécifiques	ADJ
+des	PRP:det
+eaux	NOM
+,	PUN
+longtemps	ADV
+présentées	VER:pper
+comme	ADV
+des	PRP:det
+divinités	NOM
+mineures	ADJ
+.	SENT
+
+Dossier	NOM
+iconographique	ADJ
+,	PUN
+épigraphique	ADJ
+(	PUN
+plus	ADV
+de	PRP
+soixante	NUM
+dédicaces	NOM
+)	PUN
+et	KON
+onomastique	ADJ
+

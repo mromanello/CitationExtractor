@@ -1,0 +1,8 @@
+Confronti	NOM
+tra	PRE
+le	DET:def
+versioni	NOM
+e	CON
+il	DET:def
+TM	NOM
+

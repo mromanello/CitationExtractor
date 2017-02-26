@@ -1,0 +1,27 @@
+Bilan	NOM
+sur	PRP
+les	DET:ART
+quelque	PRO:IND
+165	NUM
+attestations	NOM
+d'	PRP
+un	DET:ART
+culte	NOM
+à	PRP
+Artemis	NAM
+dans	PRP
+le	DET:ART
+Péloponnèse	NOM
+,	PUN
+entre	PRP
+l'	DET:ART
+époque	NOM
+géométrique	ADJ
+et	KON
+la	DET:ART
+fin	NOM
+de	PRP
+l'	DET:ART
+époque	NOM
+romaine	ADJ
+

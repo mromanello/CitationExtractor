@@ -1,0 +1,7 @@
+Riesame	NOM
+delle	PRE:det
+testimonianze	NOM
+epigrafiche	ADJ
+e	CON
+letterarie	ADJ
+

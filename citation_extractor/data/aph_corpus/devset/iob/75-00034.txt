@@ -1,0 +1,17 @@
+Introduzione	NOM
+alla	PRE:det
+parte	NOM
+della	PRE:det
+rivista	NOM
+dedicata	VER:pper
+agli	PRE:det
+atti	NOM
+del	PRE:det
+convegno	NOM
+«	PON
+Metrica	NOM
+ed	CON
+ecdotica	ADJ
+eschilea	NOM
+»	PON
+

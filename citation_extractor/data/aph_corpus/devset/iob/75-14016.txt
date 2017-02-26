@@ -1,0 +1,10 @@
+L'	DET:def
+attività	NOM
+scientifica	ADJ
+e	CON
+i	DET:def
+rapporti	NOM
+con	PRE
+l'	DET:def
+editoria	NOM
+

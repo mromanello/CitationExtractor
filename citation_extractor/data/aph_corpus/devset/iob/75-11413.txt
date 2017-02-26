@@ -1,0 +1,34 @@
+Examen	NOM
+de	PRP
+tous	PRO:IND
+les	DET:ART
+paramètres	NOM
+nécessaires	ADJ
+à	PRP
+la	DET:ART
+réalisation	NOM
+de	PRP
+la	DET:ART
+collection	NOM
+des	PRP:det
+Atlas	NAM
+topographiques	ADJ
+,	PUN
+dans	PRP
+la	DET:ART
+lignée	NOM
+des	PRP:det
+exigences	NOM
+de	PRP
+P.	ABR
+-A	NAM
+.	SENT
+
+Février	NOM
+.	SENT
+
+L'	DET:ART
+exemple	NOM
+de	PRP
+Fréjus	NAM
+

@@ -1,0 +1,26 @@
+Fouilles	NOM
+de	PRP
+1983	NUM
+et	KON
+1985	NUM
+par	PRP
+l'	DET:ART
+université	NOM
+de	PRP
+Cincinnati	NAM
+portant	VER:ppre
+sur	PRP
+le	DET:ART
+bâtiment	NOM
+administratif	ADJ
+du	PRP:det
+Bronze	NAM
+récent	ADJ
+.	SENT
+
+Pour	PRP
+1	NUM
+=>	ABR
+55-06710	NUM
+.	SENT
+

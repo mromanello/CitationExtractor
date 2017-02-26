@@ -1,0 +1,34 @@
+Compte	VER:pres
+rendu	VER:pper
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+sur	PRP
+les	DET:ART
+cités	NOM
+d'	PRP
+Asie	NAM
+Mineure	NAM
+occidentale	ADJ
+au	PRP:det
+2e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+édité	VER:pper
+par	PRP
+A.	ABR
+Bresson	NAM
+et	KON
+R.	NAM
+Descat	NAM
+(	PUN
+=>	ABR
+72-17075	NUM
+)	PUN
+

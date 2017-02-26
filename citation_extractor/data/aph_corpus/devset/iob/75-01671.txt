@@ -1,0 +1,19 @@
+Contrairement	ADV
+à	PRP
+l'	DET:ART
+opinion	NOM
+reçue	ADJ
+,	PUN
+l'	DET:ART
+œuvre	NOM
+de	PRP
+Denys	NAM
+est	VER:pres
+ouverte	VER:pper
+au	PRP:det
+monde	NOM
+qui	PRO:REL
+lui	PRO:PER
+fut	VER:simp
+contemporain	ADJ
+

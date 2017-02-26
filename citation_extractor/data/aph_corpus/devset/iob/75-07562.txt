@@ -1,0 +1,15 @@
+Analisi	NOM
+dei	PRE:det
+metodi	NOM
+utili	ADJ
+alla	PRE:det
+ricostruzione	NOM
+degli	PRE:det
+spostamenti	NOM
+dei	PRE:det
+manoscritti	NOM
+antichi	ADJ
+in	PRE
+età	NOM
+medioevale	ADJ
+

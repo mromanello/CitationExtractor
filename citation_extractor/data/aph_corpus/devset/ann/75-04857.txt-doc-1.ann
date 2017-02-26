@@ -1,0 +1,15 @@
+T1	AWORK 433 451	« Octauia » frente
+T2	AWORK 493 513	« Hercules Oetaeus »
+T3	AWORK 614 630	« Phoenissae » ;
+T4	AWORK 663 674	« Troades »
+T5	AWORK 677 693	« Phoenissae » ;
+T6	AWORK 714 725	« Phaedra »
+T7	AWORK 728 739	« Medea » ;
+T8	AWORK 782 795	« Troades » ;
+#0	AnnotatorNotes T8	urn:cts:cwkb:620.1276
+#1	AnnotatorNotes T6	urn:cts:cwkb:620.1279
+#2	AnnotatorNotes T7	urn:cts:greekLit:tlg0006.tlg003
+#3	AnnotatorNotes T4	urn:cts:cwkb:620.1276
+#4	AnnotatorNotes T5	urn:cts:greekLit:tlg0006.tlg015
+#5	AnnotatorNotes T2	urn:cts:cwkb:620.1283
+#6	AnnotatorNotes T3	urn:cts:greekLit:tlg0006.tlg015

@@ -1,0 +1,29 @@
+Sobre	PREP
+el	ART
+motivo	NC
+de	PREP
+la	ART
+oposición	NC
+«	SYM
+cueva/jardín	NC
+»	SYM
+(	LP
+«	SYM
+espacio	NC
+natural/artificial-humano	ADJ
+»	SYM
+)	RP
+y	CC
+las	ART
+deudas	NC
+del	PDEL
+género	NC
+novelístico	VLfin
+con respecto a	PREP
+otros	QU
+géneros	NC
+literarios	ADJ
+como	CSUBX
+el	ART
+bucólico	NC
+

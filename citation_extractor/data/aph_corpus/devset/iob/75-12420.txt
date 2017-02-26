@@ -1,0 +1,22 @@
+Anhand	APPR
+der	ART
+Sibyllinischen	NN
+Orakel	NN
+,	$,
+dem	ART
+weisheitlichen	ADJA
+Lehrgedicht	NN
+des	ART
+Pseudo-Phokylides	NN
+und	KON
+den	ART
+katechismusartigen	ADJA
+Gesetzeszusammenfassungen	NN
+bei	APPR
+Philo	NE
+von	APPR
+Alexandrien	NE
+und	KON
+Josephus	NE
+.	$.
+

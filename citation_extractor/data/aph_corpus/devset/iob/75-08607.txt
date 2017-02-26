@@ -1,0 +1,32 @@
+Examen	NOM
+des	PRP:det
+données	NOM
+archéologiques	ADJ
+anciennes	ADJ
+et	KON
+récentes	ADJ
+.	SENT
+
+L'	DET:ART
+aménagement	NOM
+des	PRP:det
+places	NOM
+publiques	ADJ
+des	PRP:det
+deux	NUM
+villes	NOM
+montre	VER:pres
+,	PUN
+dès	PRP
+l'	DET:ART
+époque	NOM
+augustéenne	ADJ
+,	PUN
+une	DET:ART
+adhésion	NOM
+aux	PRP:det
+modèles	NOM
+imposés	VER:pper
+par	PRP
+Rome	NAM
+

@@ -1,0 +1,19 @@
+Chapiteau	NOM
+inscrit	ADJ
+inédit	ADJ
+faisant	VER:ppre
+l'	DET:ART
+éloge	NOM
+d'	PRP
+un	DET:ART
+savant	NOM
+africain	ADJ
+du	PRP:det
+Bas-Empire	NAM
+.	SENT
+
+Pas	ADV
+de	PRP
+datation	NOM
+précise	ADJ
+

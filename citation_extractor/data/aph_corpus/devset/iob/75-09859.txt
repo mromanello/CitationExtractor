@@ -1,0 +1,6 @@
+Mit	APPR
+Resümees	NN
+der	ART
+Beiträge	NN
+.	$.
+

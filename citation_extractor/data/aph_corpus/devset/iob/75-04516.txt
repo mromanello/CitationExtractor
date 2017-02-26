@@ -1,0 +1,20 @@
+Diagnostic	NOM
+et	KON
+thérapie	NOM
+.	SENT
+
+Chez	PRP
+Plutarque	NAM
+,	PUN
+réflexion	NOM
+politique	ADJ
+,	PUN
+morale	NOM
+et	KON
+médecine	NOM
+procèdent	VER:pres
+d'	PRP
+un	DET:ART
+même	ADJ
+raisonnement	NOM
+

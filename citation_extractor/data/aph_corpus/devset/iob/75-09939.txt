@@ -1,0 +1,19 @@
+Periandro	NOM
+mirava	VER:impf
+a	PRE
+stabilire	VER:infi
+un'	DET:indef
+egemonia	NOM
+commerciale	ADJ
+,	PON
+ma	CON
+anche	ADV
+allo	PRE:det
+sfruttamento	NOM
+delle	PRE:det
+notevoli	ADJ
+risorse	NOM
+minerarie	ADJ
+della	PRE:det
+Tracia	NOM
+

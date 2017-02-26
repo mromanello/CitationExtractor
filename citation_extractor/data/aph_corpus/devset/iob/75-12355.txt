@@ -1,0 +1,24 @@
+Précisions	NOM
+lexicologiques	ADJ
+et	KON
+étymologiques	ADJ
+.	SENT
+
+Panorama	NOM
+des	PRP:det
+catéchèses	NOM
+,	PUN
+du	PRP:det
+2e	NUM
+au	PRP:det
+6e	NUM
+s.	NOM
+,	PUN
+dans	PRP
+le	DET:ART
+monde	NOM
+latin	ADJ
+et	KON
+en	PRP
+Orient	NAM
+

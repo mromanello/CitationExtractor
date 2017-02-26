@@ -1,0 +1,10 @@
+T1	AWORK 38 55	« Institutiones »
+T2	AWORK 162 175	« Parafrasi »
+T3	AAUTHOR 179 187	Teofilo,
+T4	REFAUWORK 423 425	D.
+T5	REFSCOPE 426 435	45, 1, 64
+R1	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg2045.tlg001:45.1.64
+#1	AnnotatorNotes T2	urn:cts:greekLit:tlg0032.tlg006
+#2	AnnotatorNotes T3	urn:cts:cwkb:1112
+#3	AnnotatorNotes T1	urn:cts:cwkb:478.1023

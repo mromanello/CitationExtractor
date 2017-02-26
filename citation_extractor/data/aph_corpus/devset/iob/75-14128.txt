@@ -1,0 +1,11 @@
+Zur	APPRART
+beruflichen	ADJA
+Situation	NN
+insgesamt	ADV
+und	KON
+anhand	APPR
+der	ART
+Karriere	NN
+einzelner	ADJA
+.	$.
+

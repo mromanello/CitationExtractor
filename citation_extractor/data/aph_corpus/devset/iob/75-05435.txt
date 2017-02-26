@@ -1,0 +1,20 @@
+L'	DET:def
+ecclesiologia	NOM
+dell'	PRE:det
+epistola	NOM
+non	ADV
+si	PRO:refl
+discosta	VER:pres
+da	PRE
+quella	PRO:demo
+delle	PRE:det
+epistole	NOM
+proto-paoline	ADJ
+,	PON
+ma	CON
+è	VER:pres
+complementare	ADJ
+rispetto	NOM
+ad	PRE
+esse	PRO:pers
+

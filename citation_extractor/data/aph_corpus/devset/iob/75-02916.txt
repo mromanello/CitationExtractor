@@ -1,0 +1,16 @@
+Le	DET:ART
+vocabulaire	NOM
+de	PRP
+la	DET:ART
+raison	NOM
+,	PUN
+de	PRP
+l'	DET:ART
+irrationnel	ADJ
+et	KON
+de	PRP
+la	DET:ART
+transcendance	NOM
+chez	PRP
+Lactance	NAM
+

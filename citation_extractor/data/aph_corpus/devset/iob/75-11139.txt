@@ -1,0 +1,7 @@
+Pour	PRP
+la	DET:ART
+précédente	ADJ
+livraison	NOM
+=>	ADJ
+74-13226	NUM
+

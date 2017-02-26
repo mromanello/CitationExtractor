@@ -1,0 +1,20 @@
+Exemple	NOM
+de	PRP
+Phaen.	ABR
+284-299	NUM
+,	PUN
+à	PRP
+propos	NOM
+du	PRP:det
+Capricorne	NAM
+,	PUN
+dans	PRP
+les	DET:ART
+traductions	NOM
+de	PRP
+Cicéron	NAM
+,	PUN
+Germanicus	NAM
+et	KON
+Aviénus	NAM
+

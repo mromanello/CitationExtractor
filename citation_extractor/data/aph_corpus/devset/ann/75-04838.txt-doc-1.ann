@@ -1,0 +1,6 @@
+T1	AWORK 12 34	« Hercules Oetaeus » ;
+T2	REFSCOPE 35 36	4
+T3	AWORK 73 86	« Thyestes ».
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes T3	urn:cts:cwkb:620.1282
+#1	AnnotatorNotes T1	urn:cts:cwkb:620.1283

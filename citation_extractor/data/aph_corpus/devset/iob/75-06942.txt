@@ -1,0 +1,33 @@
+Les	DET:ART
+mentions	NOM
+d'	PRP
+événements	NOM
+sonores	ADJ
+sont	VER:pres
+rares	ADJ
+dans	PRP
+le	DET:ART
+roman	NOM
+antique	ADJ
+et	KON
+ils	PRO:PER
+concernent	VER:pres
+la	DET:ART
+plupart	NOM
+du	PRP:det
+temps	NOM
+le	DET:ART
+domaine	NOM
+religieux	ADJ
+.	SENT
+
+Ils	PRO:PER
+possèdent	VER:pres
+souvent	ADV
+une	DET:ART
+fonction	NOM
+dans	PRP
+la	DET:ART
+trame	NOM
+narrative	ADJ
+

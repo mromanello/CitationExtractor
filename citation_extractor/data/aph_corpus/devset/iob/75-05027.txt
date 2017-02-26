@@ -1,0 +1,9 @@
+A	PRE
+partire	VER:infi
+dall'	PRE:det
+esame	NOM
+puntuale	ADJ
+di	PRE
+passi	NOM
+scoliastici	ADJ
+

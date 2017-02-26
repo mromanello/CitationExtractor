@@ -1,0 +1,17 @@
+Alle	PIAT
+drei	CARD
+Wörter	NN
+sind	VAFIN
+von	APPR
+einer	ART
+indogermanischen	ADJA
+Wurzel	NN
+*sh2i	NN
+«	$(
+verbinden	VVINF
+,	$,
+vereinigen	VVINF
+»	$(
+abzuleiten	VVIZU
+.	$.
+

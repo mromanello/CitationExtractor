@@ -1,0 +1,10 @@
+Examen	NOM
+des	PRP:det
+manœuvres	NOM
+décrites	VER:pper
+par	PRP
+les	DET:ART
+textes	NOM
+médicaux	ADJ
+antiques	ADJ
+

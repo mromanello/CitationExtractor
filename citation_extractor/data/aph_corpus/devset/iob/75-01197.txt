@@ -1,0 +1,28 @@
+In	PRE
+uar	VER:infi
+.	SENT
+
+12	NUM
+,	PON
+14	NUM
+,	PON
+1	NUM
+Cassiodoro	NOM
+parla	VER:pres
+del	PRE:det
+territorio	NOM
+di	PRE
+Reggio	NPR
+riprendendo	VER:geru
+verosimilmente	ADV
+la	DET:def
+descrizione	NOM
+di	PRE
+Samo	NOM
+fatta	VER:pper
+da	PRE
+Apuleio	NOM
+in	PRE
+Flor.	ABR
+15	NUM
+

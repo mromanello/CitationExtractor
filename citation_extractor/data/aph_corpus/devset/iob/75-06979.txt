@@ -1,0 +1,12 @@
+Einführung	NN
+in	APPR
+die	ART
+Geschichte	NN
+der	ART
+Etymologie	NN
+und	KON
+Resümees	NN
+der	ART
+Beiträge	NN
+.	$.
+

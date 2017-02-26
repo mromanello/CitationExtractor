@@ -1,0 +1,14 @@
+Insbesondere	ADV
+unter	APPR
+der	ART
+Fragestellung	NN
+,	$,
+wie	KOUS
+sie	PPER
+in	APPR
+die	ART
+dramatische	ADJA
+Handlung	NN
+einbezogen	VVPP
+werden	VAINF
+

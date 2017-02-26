@@ -1,0 +1,17 @@
+Acerca de	PREP
+los	ART
+mencionados	ADJ
+atributos	NC
+de	PREP
+Cristo	NP
+y	CC
+de	PREP
+su	PPO
+función	NC
+central	ADJ
+en	PREP
+la	ART
+aludida	VLadj
+obra	NC
+agustiniana	ADJ
+

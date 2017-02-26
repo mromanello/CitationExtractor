@@ -1,0 +1,15 @@
+Reedición	NC
+del	PDEL
+opúsculo	ADJ
+publicado	VLadj
+en	PREP
+Madrid	NP
+:	COLON
+Imprenta	NC
+de	PREP
+El	ART
+Clamor	NC
+Público	NP
+,	CM
+1862	CARD
+

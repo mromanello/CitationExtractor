@@ -1,0 +1,4 @@
+T1	REFAUWORK 31 39	Val. Fl.
+T2	REFSCOPE 40 46	4, 165
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:1346.4372:4.165

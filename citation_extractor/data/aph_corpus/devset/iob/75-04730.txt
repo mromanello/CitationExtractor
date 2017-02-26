@@ -1,0 +1,15 @@
+Il	DET:def
+cannibalismo	NOM
+come	PRE
+tema	NOM
+nelle	PRE:det
+«	PON
+controuersiae	NOM
+»	PON
+;	PON
+struttura	NOM
+della	PRE:det
+12a	NOM
+declamazione	NOM
+maggiore	ADJ
+

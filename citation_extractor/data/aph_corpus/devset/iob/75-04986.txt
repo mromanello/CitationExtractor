@@ -1,0 +1,10 @@
+In	PRE
+margine	NOM
+al	PRE:det
+volume	NOM
+di	PRE
+N.	NOM
+Grimaldi	NOM
+schedato	ADJ
+75-04982	NUM
+

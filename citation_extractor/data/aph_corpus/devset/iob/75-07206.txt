@@ -1,0 +1,21 @@
+Dalla	PRE:det
+conquista	NOM
+romana	ADJ
+alla	PRE:det
+guerra	NOM
+gotica	ADJ
+(	PON
+6°	NOM
+s.	NOM
+d.	NOM
+C.	NPR
+)	PON
+.	SENT
+
+Esame	NOM
+di	PRE
+testimonianze	NOM
+epigrafiche	ADJ
+e	CON
+letterarie	ADJ
+

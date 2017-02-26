@@ -1,0 +1,23 @@
+Osservazioni	NOM
+metodologiche	ADJ
+sulle	PRE:det
+recenti	ADJ
+interpretazioni	NOM
+del	PRE:det
+poema	NOM
+e	CON
+sulle	PRE:det
+ragioni	NOM
+della	PRE:det
+lettura	NOM
+di	PRE
+esso	PRO:pers
+come	PRE
+opera	NOM
+augustea	ADJ
+o	CON
+,	PON
+viceversa	ADV
+,	PON
+antiaugustea	ADJ
+

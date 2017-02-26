@@ -1,0 +1,23 @@
+Reedition	NN
+von	APPR
+IG	NN
+22	CARD
+,	$,
+1957	CARD
+und	KON
+präzisere	ADJA
+Datierung	NN
+auf	APPR
+301/300	CARD
+anhand	APPR
+der	ART
+Herkunftsstädte	NN
+der	ART
+genannten	ADJA
+Personen	NN
+und	KON
+deren	PDAT
+politischer	ADJA
+Zugehörigkeit	NN
+.	$.
+

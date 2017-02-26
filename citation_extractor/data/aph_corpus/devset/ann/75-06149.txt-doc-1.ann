@@ -1,0 +1,4 @@
+T1	REFAUWORK 30 36	(Rust.
+T2	REFSCOPE 37 45	3, 5, 8)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:672.1377:3.5.8

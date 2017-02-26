@@ -1,0 +1,24 @@
+Étudie	VER:pres
+la	DET:ART
+corrélation	NOM
+entre	PRP
+signifié	NOM
+exprimé	VER:pper
+par	PRP
+le	DET:ART
+langage	NOM
+et	KON
+signifiant	VER:ppre
+pictural	ADJ
+dans	PRP
+les	DET:ART
+descriptions	NOM
+d'	PRP
+œuvres	NOM
+d'	PRP
+art	NOM
+chez	PRP
+divers	ADJ
+poètes	NOM
+latins	ADJ
+

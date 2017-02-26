@@ -1,0 +1,13 @@
+Confronto	NOM
+tra	PRE
+le	DET:def
+dodici	ADJ
+recensioni	NOM
+e	CON
+ipotesi	NOM
+per	PRE
+la	DET:def
+ricostruzione	NOM
+dell'	PRE:det
+opera	NOM
+

@@ -1,0 +1,25 @@
+La	DET:def
+tradizione	NOM
+greca	ADJ
+manoscritta	ADJ
+della	PRE:det
+passione	NOM
+di	PRE
+Parasceve	NOM
+,	PON
+martirizzata	VER:pper
+nel	PRE:det
+160	NUM
+d.	NOM
+C.	NPR
+circa	ADV
+,	PON
+il	DET:def
+racconto	NOM
+agiografico	ADJ
+e	CON
+le	DET:def
+oscillazioni	NOM
+sul	PRE:det
+nome	NOM
+

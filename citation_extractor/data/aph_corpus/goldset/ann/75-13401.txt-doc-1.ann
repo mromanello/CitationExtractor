@@ -1,0 +1,14 @@
+T1	AWORK 88 103	« Etymologiae »
+T2	AAUTHOR 107 125	Isidoro de Sevilla
+T3	REFAUWORK 126 132	(Etym.
+T4	REFSCOPE 133 143	5, 1, 5) ;
+T5	AWORK 203 219	« Etimologías »,
+T8	AWORK 329 358	« De uita duodecim Caesarum »
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:2437.8993:5.1.5
+#1	AnnotatorNotes T8	urn:cts:cwkb:638.1323
+#3	AnnotatorNotes T5	urn:cts:cwkb:2437.8993
+#4	AnnotatorNotes T2	urn:cts:cwkb:2437
+#5	AnnotatorNotes T1	urn:cts:cwkb:2437.8993
+T7	AAUTHOR 320 328	Suetonio
+#2	AnnotatorNotes T7	urn:cts:cwkb:638

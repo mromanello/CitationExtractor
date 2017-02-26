@@ -1,0 +1,11 @@
+Brevi	ADJ
+note	NOM
+sulla	PRE:det
+periodizzazione	NOM
+della	PRE:det
+storia	NOM
+ad	PRE
+opera	NOM
+degli	PRE:det
+Umanisti	NOM
+

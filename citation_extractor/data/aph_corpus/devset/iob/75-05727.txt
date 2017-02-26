@@ -1,0 +1,22 @@
+Contexte	NOM
+historique	ADJ
+,	PUN
+analyse	NOM
+,	PUN
+signification	NOM
+allégorique	ADJ
+et	KON
+fortune	NOM
+de	PRP
+l'	DET:ART
+histoire	NOM
+des	PRP:det
+Rois	NAM
+Mages	NOM
+(	PUN
+Mt	VER:pper
+2	NUM
+,	PUN
+1-12	NUM
+)	PUN
+

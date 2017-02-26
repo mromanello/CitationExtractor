@@ -1,0 +1,8 @@
+T1	AWORK 111 120	« Fasti »
+T2	REFAUWORK 332 338	Jahren
+T3	REFSCOPE 339 355	1822-23, 137-69.
+T4	AAUTHOR 569 576	Ovid 's
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:520:1822-137.23
+#1	AnnotatorNotes T4	urn:cts:cwkb:568
+#2	AnnotatorNotes T1	urn:cts:cwkb:568.1162

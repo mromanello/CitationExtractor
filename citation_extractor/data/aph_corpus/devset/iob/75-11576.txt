@@ -1,0 +1,21 @@
+Sur	PRP
+les	DET:ART
+différentes	ADJ
+sortes	NOM
+de	PRP
+violences	NOM
+,	PUN
+aussi	ADV
+bien	ADV
+physiques	ADJ
+que	KON
+verbales	ADJ
+,	PUN
+exercées	VER:pper
+contre	PRP
+des	PRP:det
+femmes	NOM
+et	KON
+par	PRP
+elles	PRO:PER
+

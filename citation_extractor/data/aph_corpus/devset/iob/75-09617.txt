@@ -1,0 +1,35 @@
+Trésor	NOM
+du	PRP:det
+4e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+publié	VER:pper
+par	PRP
+A.	ABR
+Destrooper-Georgiades	NAM
+(	PUN
+=>	ABR
+54-10585	NUM
+)	PUN
+.	SENT
+
+Informations	NOM
+sur	PRP
+les	DET:ART
+circonstances	NOM
+de	PRP
+la	DET:ART
+trouvaille	NOM
+d'	PRP
+après	PRP
+les	DET:ART
+archives	NOM
+du	PRP:det
+musée	NOM
+Chypriote	ADJ
+

@@ -1,0 +1,17 @@
+L'	DET:def
+origine	NOM
+giudaico-cristiana	ADJ
+di	PRE
+Clemente	NOM
+può	VER:pres
+spiegare	VER:infi
+i	DET:def
+suoi	PRO:poss
+punti	NOM
+di	PRE
+contatto	NOM
+col	PRE:det
+vangelo	NOM
+di	PRE
+Giovanni	NPR
+

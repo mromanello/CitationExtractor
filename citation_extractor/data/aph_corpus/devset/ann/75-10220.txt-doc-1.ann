@@ -1,0 +1,3 @@
+T1	AAUTHOR 108 123	Flavio Giuseppe
+T2	REFSCOPE 124 138	(19, 167-184),
+R1	Scope Arg1:T1 Arg2:T2

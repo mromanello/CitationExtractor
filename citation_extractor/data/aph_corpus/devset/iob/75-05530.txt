@@ -1,0 +1,26 @@
+Non	ADV
+è	VER:pres
+tanto	ADV
+importante	ADJ
+verificare	VER:infi
+quali	PRO:rela
+siano	VER:cpre
+le	DET:def
+fonti	NOM
+di	PRE
+1Cor	NOM
+.	SENT
+
+6	NUM
+,	PON
+12-20	NUM
+:	PON
+Paolo	NOM
+infatti	ADV
+non	ADV
+vuole	VER:pres
+affatto	ADV
+che	PRO:rela
+siano	VER:cpre
+riconosciute	VER:pper
+

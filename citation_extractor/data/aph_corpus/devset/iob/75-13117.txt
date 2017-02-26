@@ -1,0 +1,5 @@
+Documentation	NOM
+iconographique	ADJ
+et	KON
+littéraire	ADJ
+

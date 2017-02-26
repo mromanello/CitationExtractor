@@ -1,0 +1,13 @@
+Conférence	NOM
+donnée	VER:pper
+au	PRP:det
+Ministère	NAM
+de	PRP
+la	DET:ART
+Santé	NAM
+,	PUN
+le	DET:ART
+16	NUM
+octobre	NOM
+2001	NUM
+

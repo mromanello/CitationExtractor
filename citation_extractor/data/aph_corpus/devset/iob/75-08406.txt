@@ -1,0 +1,12 @@
+Travaux	NOM
+de	PRP
+2003	NUM
+,	PUN
+notamment	ADV
+dans	PRP
+la	DET:ART
+nécropole	NOM
+impériale	ADJ
+et	KON
+hellénistique	ADJ
+

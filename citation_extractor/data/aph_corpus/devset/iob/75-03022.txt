@@ -1,0 +1,22 @@
+Emploi	NOM
+du	PRP:det
+suffixe	NOM
+pour	PRP
+produire	VER:infi
+un	DET:ART
+effet	NOM
+comique	ADJ
+chez	PRP
+Lucien	NAM
+,	PUN
+dans	PRP
+des	PRP:det
+hapax	NOM
+,	PUN
+des	PRP:det
+mots	NOM
+rares	ADJ
+ou	KON
+des	PRP:det
+néologismes	NOM
+

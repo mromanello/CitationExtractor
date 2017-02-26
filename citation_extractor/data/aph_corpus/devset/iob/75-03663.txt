@@ -1,0 +1,22 @@
+Nel	PRE:det
+pensiero	NOM
+patristico	ADJ
+l'	DET:def
+allegoria	NOM
+si	PRO:refl
+definisce	VER:pres
+in	PRE
+modo	NOM
+duplice	ADJ
+,	PON
+in	PRE
+riferimento	NOM
+alla	PRE:det
+stesura	NOM
+del	PRE:det
+testo	NOM
+e	CON
+alla	PRE:det
+sua	PRO:poss
+interpretazione	NOM
+

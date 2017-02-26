@@ -1,0 +1,26 @@
+Obiezioni	NOM
+al	PRE:det
+tentativo	NOM
+della	PRE:det
+«	PON
+scuola	NOM
+di	PRE
+Tubinga-Milano	NOM
+»	PON
+di	PRE
+conciliare	VER:infi
+con	PRE
+le	DET:def
+proprie	ADJ
+posizioni	NOM
+l'	DET:def
+interpretazione	NOM
+dei	PRE:det
+dialoghi	NOM
+di	PRE
+Platone	NPR
+offerta	NOM
+da	PRE
+Hans-Georg	NOM
+Gadamer	NOM
+

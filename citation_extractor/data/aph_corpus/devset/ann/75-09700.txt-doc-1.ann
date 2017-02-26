@@ -1,0 +1,4 @@
+T1	REFAUWORK 203 209	PErasm
+T2	REFSCOPE 210 215	1, 4.
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:578:1.4

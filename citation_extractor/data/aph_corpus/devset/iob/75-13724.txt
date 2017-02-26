@@ -1,0 +1,9 @@
+Concerne	VER:pres
+notamment	ADV
+les	DET:ART
+démonstrations	NOM
+de	PRP
+Théodore	NAM
+de	PRP
+Cyrène	NAM
+

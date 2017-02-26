@@ -1,0 +1,14 @@
+Recensione	NOM
+alla	PRE:det
+raccolta	NOM
+di	PRE
+studi	NOM
+.	SENT
+in	PRE
+onore	NOM
+di	PRE
+Carmen	NPR
+Castillo	VER:pres
+schedata	VER:pper
+74-17740	NUM
+

@@ -1,0 +1,18 @@
+In	PRE
+margine	NOM
+al	PRE:det
+volume	NOM
+curato	VER:pper
+da	PRE
+G.	NPR
+Franciosi	NOM
+sulla	PRE:det
+romanizzazione	NOM
+della	PRE:det
+Campania	NPR
+antica	ADJ
+(	PON
+=>	NOM
+73-12740	NUM
+)	PON
+

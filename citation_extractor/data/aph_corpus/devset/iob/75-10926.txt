@@ -1,0 +1,19 @@
+Stand	NN
+der	ART
+Forschung	NN
+bezüglich	APPR
+des	ART
+Schuldenmachens	NN
+;	$.
+verschiedene	ADJA
+Termini	NN
+des	ART
+Schuldenwesens	NN
+;	$.
+Rechtsmassnahmen	NN
+zur	APPRART
+Eintreibung	NN
+von	APPR
+Schulden	NN
+.	$.
+

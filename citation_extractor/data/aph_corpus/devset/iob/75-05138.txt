@@ -1,0 +1,19 @@
+Note	ADJ
+esegetiche	NOM
+e	CON
+critico-testuali	VER:impe
+a	PRE
+numerosi	ADJ
+passi	NOM
+degli	PRE:det
+scolii	NOM
+staziani	ADJ
+(	PON
+ed.	NOM
+R.	ABR
+C.	LS
+Sweeney	NOM
+=>	NOM
+68-02636	NUM
+)	PON
+

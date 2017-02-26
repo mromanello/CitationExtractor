@@ -1,0 +1,27 @@
+Le	DET:ART	O
+roman	NOM	O
+de	PRP	O
+Longus	NAM	B-AAUTHOR
+contient	VER:pres	O
+de	PRP	O
+nombreuses	ADJ	O
+allusions	NOM	O
+à	PRP	O
+Platon	NAM	B-AAUTHOR
+,	PUN	I-AAUTHOR
+notamment	ADV	O
+au	PRP:det	O
+«	PUN:cit	B-AWORK
+Phèdre	NAM	I-AWORK
+»	PUN:cit	I-AWORK
+.	SENT	I-AWORK
+
+Réflexions	NOM	O
+dans	PRP	O
+le	DET:ART	O
+prolongement	NOM	O
+de	PRP	O
+l'	DET:ART	O
+ouvrage	NOM	O
+noté	VER:pper	O
+54-03057	NUM	O

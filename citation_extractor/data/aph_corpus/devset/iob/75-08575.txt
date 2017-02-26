@@ -1,0 +1,15 @@
+Ampia	ADJ
+discussione	NOM
+dei	PRE:det
+dati	NOM
+archeologici	ADJ
+e	CON
+topografici	ADJ
+,	PON
+con	PRE
+considerazioni	NOM
+sui	PRE:det
+problemi	NOM
+tuttora	ADV
+aperti	ADJ
+

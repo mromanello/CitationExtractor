@@ -1,0 +1,26 @@
+Analisi	NOM
+del	PRE:det
+nesso	NOM
+,	PON
+che	PRO:rela
+compare	VER:pres
+su	PRE
+due	ADJ
+iscrizioni	NOM
+rinvenute	VER:pper
+rispettivamente	ADV
+a	PRE
+Teano	NOM
+e	CON
+a	PRE
+Treglia	NOM
+,	PON
+e	CON
+ricostruzione	NOM
+delle	PRE:det
+competenze	NOM
+attribuite	VER:pper
+a	PRE
+questa	PRO:demo
+figura	NOM
+

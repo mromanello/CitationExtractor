@@ -1,0 +1,24 @@
+In	PRE
+un'	DET:indef
+epoca	NOM
+di	PRE
+profonda	ADJ
+crisi	NOM
+,	PON
+Paolino	VER:impe
+reinterpreta	VER:impe
+le	DET:def
+figure	NOM
+dei	PRE:det
+due	ADJ
+apostoli	NOM
+anche	ADV
+come	PRE
+protettori	NOM
+di	PRE
+Roma	NPR
+e	CON
+salvatori	NOM
+dell'	PRE:det
+Impero	NOM
+

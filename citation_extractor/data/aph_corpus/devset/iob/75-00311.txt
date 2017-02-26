@@ -1,0 +1,23 @@
+Étude	NOM
+et	KON
+signification	NOM
+du	PRP:det
+motif	NOM
+du	PRP:det
+conjoint	NOM
+revenant	VER:ppre
+dans	PRP
+les	DET:ART
+«	PUN:cit
+Métamorphoses	NOM
+»	PUN:cit
+d'	PRP
+Apulée	NAM
+et	KON
+dans	PRP
+la	DET:ART
+littérature	NOM
+antique	ADJ
+en	PRP
+général	ADJ
+

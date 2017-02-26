@@ -1,0 +1,11 @@
+Analogie	NOM
+e	CON
+differenze	NOM
+tra	PRE
+latino	NOM
+e	CON
+italico	NOM
+nella	PRE:det
+flessione	NOM
+nominale	ADJ
+

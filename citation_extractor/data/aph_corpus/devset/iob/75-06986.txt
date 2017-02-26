@@ -1,0 +1,22 @@
+Histoire	NOM
+et	KON
+évolution	NOM
+du	PRP:det
+mot	NOM
+et	KON
+du	PRP:det
+concept	NOM
+,	PUN
+en	PRP
+grec	NOM
+et	KON
+en	PRP
+latin	NOM
+,	PUN
+de	PRP
+l'	DET:ART
+Antiquité	NOM
+au	PRP:det
+16e	NUM
+s	NOM
+

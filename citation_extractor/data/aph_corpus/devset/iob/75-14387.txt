@@ -1,0 +1,16 @@
+Atti	NOM
+del	PRE:det
+convegno	NOM
+tenutosi	VER:pper
+a	PRE
+Bologna	NPR
+,	PON
+24-26	NUM
+giugno	NOM
+2002.	ORD
+
+Spogliati	VER:pper
+nel	PRE:det
+vol.	ABR
+75	NUM
+

@@ -1,0 +1,27 @@
+Interpretation	NN
+der	ART
+Verse	NN
+15-20	CARD
+von	APPR
+Solon	NE
+C.	NE
+30	CARD
+Gentili/Prato	NE
+(	$(
+=	$(
+36	CARD
+W2	NN
+=	$(
+24	CARD
+D3	NN
+)	$(
+,	$,
+die	PRELS
+als	KOKOM
+Solons	NN
+politisches	ADJA
+Testament	NN
+anzusehen	VVIZU
+ist	VAFIN
+.	$.
+

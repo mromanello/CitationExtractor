@@ -1,0 +1,7 @@
+T1	AAUTHOR 46 54	Martial,
+T2	REFSCOPE 103 111	livre 4,
+T3	AAUTHOR 152 159	Martial
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:539:4
+#1	AnnotatorNotes T3	urn:cts:cwkb:539
+#2	AnnotatorNotes T1	urn:cts:cwkb:539

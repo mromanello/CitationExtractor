@@ -1,0 +1,15 @@
+Influence	NOM
+sur	PRP
+le	DET:ART
+projet	NOM
+guerrier	ADJ
+d'	PRP
+Alexandre	NAM
+et	KON
+son	DET:POS
+exercice	NOM
+de	PRP
+la	DET:ART
+fonction	NOM
+royale	ADJ
+

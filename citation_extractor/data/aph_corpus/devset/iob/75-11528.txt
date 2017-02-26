@@ -1,0 +1,26 @@
+Zu	APPR
+den	ART
+Wettkampfsportarten	NN
+Diskuswurf	NN
+,	$,
+Weitsprung	NN
+,	$,
+Speerwurf	NN
+,	$,
+Lauf	NN
+,	$,
+Ringen	NN
+,	$,
+Pankration	NN
+,	$,
+Boxen	NN
+,	$,
+Pferde-	TRUNC
+und	KON
+Wagenrennen	NN
+bis	KON
+in	APPR
+römische	ADJA
+Zeit	NN
+.	$.
+

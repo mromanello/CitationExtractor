@@ -1,0 +1,37 @@
+La	DET:ART
+vision	NOM
+de	PRP
+Solon	NAM
+concernant	VER:ppre
+la	DET:ART
+nature	NOM
+humaine	ADJ
+l'	PRO:PER
+apparente	VER:pres
+aux	PRP:det
+prophètes	NOM
+de	PRP
+Delphes	NAM
+.	SENT
+
+Sa	DET:POS
+perception	NOM
+du	PRP:det
+malaise	NOM
+social	ADJ
+lui	PRO:PER
+fait	VER:pres
+privilégier	VER:infi
+la	DET:ART
+voie	NOM
+du	PRP:det
+milieu	NOM
+,	PUN
+mais	KON
+il	PRO:PER
+se	PRO:PER
+montre	VER:pres
+politiquement	ADV
+peu	ADV
+efficace	ADJ
+

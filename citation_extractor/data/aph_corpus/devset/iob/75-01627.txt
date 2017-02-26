@@ -1,0 +1,22 @@
+Zur	APPRART
+Bedeutung	NN
+der	ART
+Anthologia	NE
+Palatina	NE
+(	$(
+eher	ADV
+gering	ADJD
+)	$(
+und	KON
+der	ART
+Suda	NE
+(	$(
+ziemlich	ADV
+gross	ADJD
+)	$(
+für	APPR
+die	ART
+Überlieferung	NN
+des	ART
+Textes	NN
+

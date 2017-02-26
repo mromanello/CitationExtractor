@@ -1,0 +1,20 @@
+A	PRE
+proposito	NOM
+del	PRE:det
+commento	NOM
+curato	VER:pper
+da	PRE
+R.	NOM
+G.	NPR
+M.	ABR
+
+Nisbet	NOM
+e	CON
+N.	NOM
+Rudd	NOM
+(	PON
+=>	NOM
+75-02623	NUM
+)	PON
+,	PON
+

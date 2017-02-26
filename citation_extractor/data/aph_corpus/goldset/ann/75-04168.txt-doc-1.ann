@@ -1,0 +1,12 @@
+T1	AWORK 5 17	« Critias »,
+T2	AWORK 18 30	« Gorgias »,
+T3	AWORK 31 41	« Ménon »,
+T4	AWORK 42 53	« Phédon »,
+T5	AWORK 54 68	« Protagoras »
+T6	AWORK 72 85	« Théétète ».
+#0	AnnotatorNotes T6	urn:cts:greekLit:tlg0059.tlg006
+#1	AnnotatorNotes T4	urn:cts:greekLit:tlg0059.tlg004
+#2	AnnotatorNotes T5	urn:cts:greekLit:tlg0059.tlg022
+#3	AnnotatorNotes T2	urn:cts:greekLit:tlg0059.tlg023
+#4	AnnotatorNotes T3	urn:cts:greekLit:tlg0059.tlg024
+#5	AnnotatorNotes T1	urn:cts:greekLit:tlg0059.tlg032

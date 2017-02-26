@@ -1,0 +1,18 @@
+Exposé	VER:pper
+pour	PRP
+l'	DET:ART
+excursion	NOM
+annuelle	ADJ
+de	PRP
+la	DET:ART
+Société	NOM
+française	ADJ
+d'	PRP
+archéologie	NOM
+classique	ADJ
+,	PUN
+le	DET:ART
+21	NUM
+juin	NOM
+2003	NUM
+

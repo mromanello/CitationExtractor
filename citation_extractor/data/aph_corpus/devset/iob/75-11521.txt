@@ -1,0 +1,9 @@
+Zur	APPRART
+Beurteilung	NN
+bis	KON
+in	APPR
+die	ART
+christliche	ADJA
+Spätantike	NN
+.	$.
+

@@ -1,0 +1,10 @@
+T1	AWORK 79 98	« Sacred History ».
+T2	REFAUWORK 222 239	Lactantius, inst.
+T3	REFSCOPE 240 252	1, 22, 21-23
+T4	REFAUWORK 257 265	Diodorus
+T5	REFSCOPE 266 275	6, 1, 10)
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:2733.8702:1.22.21-1.22.23
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0060:6.1.10
+#2	AnnotatorNotes T1	urn:cts:greekLit:tlg4029.tlg002

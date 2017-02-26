@@ -1,0 +1,33 @@
+Il	PRO:PER
+n'	ADV
+existe	VER:pres
+pas	ADV
+de	PRP
+mythes	NOM
+dans	PRP
+la	DET:ART
+tradition	NOM
+romaine	ADJ
+touchant	VER:ppre
+à	PRP
+la	DET:ART
+naissance	NOM
+du	PRP:det
+droit	NOM
+,	PUN
+mais	KON
+seulement	ADV
+des	PRP:det
+récits	NOM
+historiques	ADJ
+.	SENT
+
+Cette	PRO:DEM
+tradition	NOM
+est	VER:pres
+dès	PRP
+l'	DET:ART
+origine	NOM
+entièrement	ADV
+laïcisée	VER:pper
+

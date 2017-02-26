@@ -1,0 +1,24 @@
+Présentation	NOM
+succincte	ADJ
+de	PRP
+quelques	PRO:IND
+peintures	NOM
+murales	ADJ
+,	PUN
+placages	NOM
+en	PRP
+pierre	NOM
+et	KON
+ornements	NOM
+de	PRP
+jardin	NOM
+découverts	VER:pper
+dans	PRP
+des	PRP:det
+villas	NOM
+romaines	ADJ
+du	PRP:det
+canton	NOM
+de	PRP
+Zurich	NAM
+

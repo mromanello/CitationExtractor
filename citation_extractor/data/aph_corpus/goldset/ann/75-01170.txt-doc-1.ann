@@ -1,0 +1,9 @@
+T1	REFAUWORK 205 207	AP
+T2	REFSCOPE 208 215	6, 197,
+T3	AAUTHOR 529 538	Thucydide
+T4	REFSCOPE 539 552	(1, 132, 2-3)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg7000.tlg001:6.197
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0003.tlg001:1.132.2-1.132.3
+#2	AnnotatorNotes T3	urn:cts:greekLit:tlg0003

@@ -1,0 +1,4 @@
+T1	AWORK 226 240	« Saturnalia »
+T2	REFSCOPE 241 251	1, 13, 17)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes T1	urn:cts:cwkb:1368.4417

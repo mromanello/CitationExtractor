@@ -1,0 +1,21 @@
+Cronaca	NOM
+del	PRE:det
+congresso	NOM
+internazionale	ADJ
+svoltosi	VER:pper
+presso	PRE
+l'	DET:def
+Università	NOM
+«	PON
+G.	NPR
+D'	NOM
+Annunzio	NOM
+»	PON
+di	PRE
+Chieti	NPR
+nei	PRE:det
+giorni	NOM
+9-11	NUM
+aprile	NOM
+2003	NUM
+

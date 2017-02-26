@@ -1,0 +1,43 @@
+Überlegungen	NN
+zur	APPRART
+politischen	ADJA
+,	$,
+ökonomischen	ADJA
+und	KON
+militärischen	ADJA
+Situation	NN
+und	KON
+Rolle	NN
+der	ART
+Händler	NN
+in	APPR
+den	ART
+«	$(
+emporia	NE
+»	$(
+in	APPR
+Nordafrika	NE
+,	$,
+Gallien	NE
+oder	KON
+Spanien	NE
+im	APPRART
+2.	ADJA
+
+Jh	NE
+.	$.
+
+v	NE
+Chr.	NE
+werfen	VVFIN
+auch	ADV
+Licht	NN
+auf	APPR
+die	ART
+Situation	NN
+der	ART
+Siedlung	NN
+auf	APPR
+dem	ART
+Magdalensberg	NN
+

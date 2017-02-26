@@ -1,0 +1,35 @@
+Aux	PRP:det
+2e	NUM
+et	KON
+3e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+la	DET:ART
+croix	NOM
+prend	VER:pres
+une	DET:ART
+fonction	NOM
+symbolique	ADJ
+de	PRP
+force	NOM
+et	KON
+de	PRP
+victoire	NOM
+.	SENT
+
+Dans	PRP
+une	DET:ART
+perspective	NOM
+apologétique	ADJ
+,	PUN
+son	DET:POS
+caractère	NOM
+initialement	ADV
+scandaleux	ADJ
+s'	PRO:PER
+estompe	VER:pres
+

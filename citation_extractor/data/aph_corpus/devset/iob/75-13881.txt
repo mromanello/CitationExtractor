@@ -1,0 +1,34 @@
+Avec	PRP
+traduction	NOM
+française	ADJ
+de	PRP
+passages	NOM
+du	PRP:det
+livre	NOM
+4	NUM
+des	PRP:det
+«	PUN:cit
+Maladies	NOM
+des	PRP:det
+femmes	NOM
+»	PUN:cit
+de	PRP
+Soranos	NAM
+.	SENT
+
+Il	PRO:PER
+apparaît	VER:pres
+que	KON
+la	DET:ART
+césarienne	NOM
+est	VER:pres
+un	DET:ART
+mythe	NOM
+et	KON
+que	KON
+seule	ADJ
+l'	DET:ART
+embryotomie	NOM
+était	VER:impf
+pratiquée	VER:pper
+

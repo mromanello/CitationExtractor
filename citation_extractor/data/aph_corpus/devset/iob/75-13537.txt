@@ -1,0 +1,18 @@
+A	PRE
+proposito	NOM
+del	PRE:det
+volume	NOM
+di	PRE
+A.	NPR
+Aportone	NOM
+,	PON
+F.	NPR
+Aronadio	NOM
+e	CON
+P.	NOM
+Spinicci	NOM
+(	PON
+=>	NOM
+73-14892	NUM
+)	PON
+

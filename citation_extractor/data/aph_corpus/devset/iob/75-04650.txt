@@ -1,0 +1,49 @@
+Ce	PRO:DEM
+système	NOM
+est	VER:pres
+conçu	VER:pper
+sur	PRP
+le	DET:ART
+modèle	NOM
+d'	PRP
+un	DET:ART
+tourbillon	NOM
+incessant	ADJ
+.	SENT
+
+Dieux	NOM
+et	KON
+autres	ADJ
+entités	NOM
+dansent	VER:pres
+en	PRP
+cercles	NOM
+concentriques	ADJ
+,	PUN
+ce	PRO:DEM
+qui	PRO:REL
+donne	VER:pres
+au	PRP:det
+système	NOM
+sa	DET:POS
+vitalité	NOM
+et	KON
+sa	DET:POS
+force	NOM
+.	SENT
+
+Rapports	NOM
+avec	PRP
+l'	DET:ART
+astronomie	NOM
+.	SENT
+
+Réception	NOM
+des	PRP:det
+schèmes	NOM
+de	PRP
+Proclus	NOM
+en	PRP
+Occident	NAM
+.	SENT
+

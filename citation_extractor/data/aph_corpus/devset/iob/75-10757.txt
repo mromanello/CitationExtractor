@@ -1,0 +1,27 @@
+Réexamen	NOM
+de	PRP
+l'	DET:ART
+institution	NOM
+consulaire	ADJ
+,	PUN
+dans	PRP
+la	DET:ART
+perspective	NOM
+des	PRP:det
+précédentes	ADJ
+études	NOM
+de	PRP
+l'	DET:ART
+auteur	NOM
+sur	PRP
+la	DET:ART
+législation	NOM
+républicaine	ADJ
+,	PUN
+notamment	ADV
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+73-12101	NUM
+

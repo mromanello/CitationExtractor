@@ -1,0 +1,7 @@
+Zusammenstellung	NN
+aller	PIAT
+bekannten	ADJA
+lusitanisch-galläkischen	ADJA
+Kriegerstatuen	NN
+.	$.
+

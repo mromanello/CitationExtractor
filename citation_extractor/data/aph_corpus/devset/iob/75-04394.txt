@@ -1,0 +1,44 @@
+Se	SE
+estudian	VLfin
+los	ART
+apectos	NC
+cronológicos	ADJ
+,	CM
+de	PREP
+naturaleza	NC
+y	CC
+de	PREP
+implicaciones	NC
+de	PREP
+la	ART
+donación	NC
+del	PDEL
+derecho	NC
+latino	ADJ
+a	PREP
+Hispania	NP
+por parte de	PREP
+Vespasiano	NC
+,	CM
+a partir de	PREP
+un	ART
+detallado	VLadj
+comentario	NC
+del	PDEL
+pasaje	NC
+de	PREP
+la	ART
+«	SYM
+Naturalis	NP
+Historia	NP
+»	SYM
+de	PREP
+Plinio	NC
+que	CQUE
+nos	PPX
+informa	VLfin
+de	PREP
+este	DM
+hecho	NC
+.	FS
+

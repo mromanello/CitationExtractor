@@ -1,0 +1,13 @@
+Aspects	NOM
+généraux	ADJ
+et	KON
+particuliers	ADJ
+de	PRP
+la	DET:ART
+tradition	NOM
+manuscrite	ADJ
+d'	PRP
+Anastase	NAM
+le	DET:ART
+Sinaïte	NAM
+

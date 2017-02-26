@@ -1,0 +1,24 @@
+Trotz	APPR
+des	ART
+grossen	ADJA
+Interesses	NN
+am	APPRART
+Heiligen	ADJA
+Land	NN
+(	$(
+Kreuzzüge	NN
+)	$(
+verweisen	VVFIN
+die	ART
+Karten	NN
+nur	ADV
+selten	ADJD
+auf	APPR
+biblisches	ADJA
+Geschehen	NN
+an	APPR
+den	ART
+jeweiligen	ADJA
+Orten	NN
+.	$.
+

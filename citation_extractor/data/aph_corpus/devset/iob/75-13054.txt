@@ -1,0 +1,26 @@
+Se	SE
+examinan	VLfin
+los	ART
+ejemplares	ADJ
+más	ADV
+importantes	ADJ
+de	PREP
+retratos	NC
+en	PREP
+mosaicos	ADJ
+del	PDEL
+Bajo	NP
+Imperio	NC
+provenientes	ADJ
+de	PREP
+la	ART
+Península	NP
+Ibérica	NP
+,	CM
+así como	CSUBF
+de	PREP
+Siria	NP
+y	CC
+Jordania	NP
+.	FS
+

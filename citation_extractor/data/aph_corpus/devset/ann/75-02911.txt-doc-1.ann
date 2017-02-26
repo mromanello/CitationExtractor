@@ -1,0 +1,4 @@
+T1	REFAUWORK 209 211	D.
+T2	REFSCOPE 212 225	21, 1, 1 pr.,
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg2045.tlg001:21.1.1

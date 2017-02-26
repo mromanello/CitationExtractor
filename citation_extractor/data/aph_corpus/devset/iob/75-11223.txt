@@ -1,0 +1,13 @@
+Sur	PRP
+le	DET:ART
+terriroire	NOM
+d'	PRP
+Apollonia	NAM
+Pontica	NAM
+et	KON
+la	DET:ART
+localisation	NOM
+des	PRP:det
+implantations	NOM
+voisines	ADJ
+

@@ -1,0 +1,15 @@
+Réponse	NOM
+à	PRP
+W.	ABR
+Burkert	NAM
+(	PUN
+=>	ABR
+55-12122	NUM
+)	PUN
+sur	PRP
+les	DET:ART
+pratiques	NOM
+du	PRP:det
+sacrifice	NOM
+humain	ADJ
+

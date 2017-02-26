@@ -1,0 +1,16 @@
+Note	NOM
+a	PRE
+epigrammi	NOM
+del	PRE:det
+libro	NOM
+11°	NOM
+(	PON
+2	NUM
+;	PON
+29	NUM
+;	PON
+243	NUM
+;	PON
+320	NUM
+)	PON
+

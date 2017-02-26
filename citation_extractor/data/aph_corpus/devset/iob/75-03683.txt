@@ -1,0 +1,31 @@
+Difesa	NOM
+del	PRE:det
+testo	NOM
+tràdito	ADJ
+in	PRE
+un	DET:indef
+passo	NOM
+di	PRE
+Paolo	NOM
+(	PON
+dig.	ABR
+46	NUM
+,	PON
+2	NUM
+,	PON
+32	NUM
+)	PON
+contro	PRE
+la	DET:def
+proposta	NOM
+di	PRE
+emendamento	NOM
+di	PRE
+A.	NPR
+D'	NOM
+Ors	NOM
+(	PON
+=>	NOM
+71-01488	NUM
+)	PON
+

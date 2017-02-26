@@ -1,0 +1,13 @@
+Zur	APPRART
+Diskussion	NN
+über	APPR
+Luxus	NN
+und	KON
+zu	APPR
+dessen	PDS
+sich	PRF
+wandelnder	ADJA
+Funktion	NN
+in	APPR
+Rom	NE
+

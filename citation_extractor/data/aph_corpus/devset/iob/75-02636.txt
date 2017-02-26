@@ -1,0 +1,42 @@
+Horaz	NE
+bietet	VVFIN
+in	APPR
+der	ART
+Ode	NN
+keinen	PIAT
+ideologischen	ADJA
+Programmentwurf	NN
+für	APPR
+den	ART
+Aufbruch	NN
+in	APPR
+eine	ART
+neue	ADJA
+Epoche	NN
+unter	APPR
+der	ART
+Führung	NN
+eines	ART
+Gottes	NN
+Mercurius-Augustus	NE
+.	$.
+
+Er	PPER
+hat	VAFIN
+keine	PIAT
+Geschichtstheologie	NN
+zu	PTKZU
+verkünden	VVINF
+,	$,
+sondern	KON
+eine	ART
+von	APPR
+Verantwortung	NN
+geprägte	ADJA
+Herrschafts-	TRUNC
+bzw	VVFIN
+.	$.
+
+Herrscherethik	NN
+.	$.
+

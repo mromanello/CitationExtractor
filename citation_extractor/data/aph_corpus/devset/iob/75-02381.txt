@@ -1,0 +1,14 @@
+Note	NOM
+critico-testuali	ADJ
+a	PRE
+Hippocr	NOM
+.	SENT
+
+Epid.	ABR
+7	NUM
+e	CON
+a	PRE
+vari	ADJ
+autori	NOM
+bizantini	ADJ
+

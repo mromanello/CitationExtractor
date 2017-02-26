@@ -1,0 +1,11 @@
+Storia	NOM
+e	CON
+particolarità	NOM
+(	PON
+ecistiche	ADJ
+e	CON
+politiche	ADJ
+)	PON
+della	PRE:det
+città	NOM
+

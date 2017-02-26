@@ -1,0 +1,21 @@
+Rassegna	NOM
+dei	PRE:det
+contributi	NOM
+,	PON
+apparsi	VER:pper
+negli	PRE:det
+ultimi	ADJ
+anni	NOM
+in	PRE
+monografie	NOM
+,	PON
+riviste	ADJ
+e	CON
+miscellanee	ADJ
+,	PON
+riguardanti	VER:ppre
+le	DET:def
+antichità	NOM
+delle	PRE:det
+Marche	NOM
+

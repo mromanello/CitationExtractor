@@ -1,0 +1,19 @@
+Consultable	ADJ
+via	PRP
+l'	DET:ART
+Internet	NOM
+à	PRP
+l'	DET:ART
+adresse	NOM
+suivante	ADJ
+:	PUN
+http	NOM
+:	PUN
+//www	NOM
+.	SENT
+vfkk	NOM
+.	SENT
+de/index1	NOM
+.	SENT
+html	NOM
+

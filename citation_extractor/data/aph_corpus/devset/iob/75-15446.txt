@@ -1,0 +1,14 @@
+Ricordo	NOM
+e	CON
+bibliografia	NOM
+(	PON
+ancora	ADV
+parziale	ADJ
+)	PON
+dell'	PRE:det
+amico	NOM
+e	CON
+studioso	NOM
+appena	ADV
+scomparso	VER:pper
+

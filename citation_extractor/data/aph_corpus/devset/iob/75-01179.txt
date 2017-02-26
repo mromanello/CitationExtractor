@@ -1,0 +1,23 @@
+Analisi	NOM
+della	PRE:det
+terminologia	NOM
+di	PRE
+questo	PRO:demo
+frammento	NOM
+verosimilmente	ADV
+ellenistico	ADJ
+,	PON
+che	PRO:rela
+si	PRO:pers
+direbbe	VER:cond
+del	PRE:det
+tutto	NOM
+appropriata	VER:pper
+alla	PRE:det
+descrizione	NOM
+di	PRE
+un	DET:indef
+personaggio	NOM
+a	PRE
+cavallo	NOM
+

@@ -1,0 +1,8 @@
+T1	REFAUWORK 96 102	Epist.
+T2	REFSCOPE 103 105	23
+T3	REFAUWORK 551 557	Epist.
+T4	REFSCOPE 558 566	39, 3, 7
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:897.2630:23
+#1	AnnotatorNotes R2	urn:cts:cwkb:897.2630:39.3.7

@@ -1,0 +1,28 @@
+Latrines	NOM
+du	PRP:det
+2e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+
+Les	DET:ART
+restes	NOM
+de	PRP
+leur	DET:POS
+contenus	NOM
+renseignent	VER:pres
+sur	PRP
+les	DET:ART
+habitudes	NOM
+alimentaires	ADJ
+des	PRP:det
+habitants	NOM
+,	PUN
+proches	ADJ
+de	PRP
+la	DET:ART
+mentalité	NOM
+méditerranéenne	ADJ
+

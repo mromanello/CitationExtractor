@@ -1,0 +1,20 @@
+Arguments	NNS
+for	IN
+a	DT
+modification	NN
+of	IN
+the	DT
+position	NN
+of	IN
+M.	NP
+Bévenot	NP
+(	(
+=>	NN
+APh	NP
+42	CD
+,	,
+p.	NN
+82	CD
+)	)
+.	SENT
+

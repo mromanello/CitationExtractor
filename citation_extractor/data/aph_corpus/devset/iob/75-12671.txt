@@ -1,0 +1,13 @@
+Vase	NOM
+bichrome	ADJ
+du	PRP:det
+Chypriote	NOM
+archaïque	ADJ
+II	NUM
+représentant	NOM
+une	DET:ART
+scène	NOM
+de	PRP
+danse	NOM
+circulaire	ADJ
+

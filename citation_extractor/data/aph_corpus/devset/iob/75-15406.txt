@@ -1,0 +1,12 @@
+Rappel	NOM
+de	PRP
+la	DET:ART
+carrière	NOM
+de	PRP
+cet	PRO:DEM
+archéologue	NOM
+israélien	ADJ
+(	PUN
+1955-2002	NUM
+)	PUN
+

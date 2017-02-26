@@ -1,0 +1,21 @@
+Per	PRE
+Filone	NOM
+vivere	VER:infi
+in	PRE
+Egitto	NPR
+significa	VER:pres
+creare	VER:infi
+il	DET:def
+presupposto	NOM
+per	PRE
+un'	DET:indef
+allegorica	ADJ
+fuga	NOM
+dal	PRE:det
+mondo	NOM
+dei	PRE:det
+sensi	NOM
+e	CON
+delle	PRE:det
+passioni	NOM
+

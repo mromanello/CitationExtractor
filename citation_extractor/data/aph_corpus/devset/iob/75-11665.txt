@@ -1,0 +1,13 @@
+Témoignages	NOM
+littéraires	ADJ
+,	PUN
+papyrologiques	ADJ
+et	KON
+épigraphique	ADJ
+(	PUN
+SEG	NAM
+39	NUM
+,	PUN
+1711	NUM
+)	PUN
+

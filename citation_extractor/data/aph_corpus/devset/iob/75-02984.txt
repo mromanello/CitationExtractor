@@ -1,0 +1,26 @@
+Il	DET:def
+tema	NOM
+dell'	PRE:det
+«	PON
+exclusus	NOM
+amator	NOM
+»	PON
+nel	PRE:det
+«	PON
+Dafni	NOM
+e	CON
+Cloe	NOM
+»	PON
+di	PRE
+Longo	NPR
+e	CON
+nel	PRE:det
+3°	NOM
+idillio	NOM
+di	PRE
+Teocrito	NOM
+:	PON
+differenze	NOM
+ed	CON
+analogie	NOM
+

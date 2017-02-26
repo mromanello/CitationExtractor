@@ -1,0 +1,22 @@
+In	PRE
+margine	NOM
+alla	PRE:det
+traduzione	NOM
+in	PRE
+italiano	ADJ
+del	PRE:det
+volume	NOM
+di	PRE
+M.	NOM
+Hengel	NOM
+sull'	PRE:det
+incontro	NOM
+fra	PRE
+Giudaismo	NOM
+ed	CON
+Ellenismo	NOM
+(	PON
+=>	NOM
+73-06587	NUM
+)	PON
+

@@ -1,0 +1,9 @@
+T1	AAUTHOR 67 81	Hephaestion 's
+T2	REFSCOPE 117 123	(12.3)
+T3	REFAUWORK 347 355	Catullus
+T4	REFSCOPE 356 359	63.
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:904.2678:12.3
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0472.phi001:63
+#2	AnnotatorNotes T1	urn:cts:cwkb:904

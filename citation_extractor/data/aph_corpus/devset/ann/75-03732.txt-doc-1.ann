@@ -1,0 +1,4 @@
+T1	REFAUWORK 49 56	Petron.
+T2	REFSCOPE 57 62	95, 5
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0972:95.5

@@ -1,0 +1,23 @@
+Critique	NOM
+du	PRP:det
+modèle	NOM
+rhétorique	ADJ
+choisi	VER:pper
+par	PRP
+J.	NAM
+Smit	NAM
+(	PUN
+=>	ABR
+75-05846	NUM
+)	PUN
+pour	PRP
+analyser	VER:infi
+le	DET:ART
+passage	NOM
+et	KON
+proposition	NOM
+d'	PRP
+un	DET:ART
+autre	ADJ
+découpage	NOM
+

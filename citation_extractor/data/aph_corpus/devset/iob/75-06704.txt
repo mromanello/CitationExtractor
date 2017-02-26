@@ -1,0 +1,11 @@
+Zum	APPRART
+Verständnis	NN
+der	ART
+Dichtung	NN
+zwischen	APPR
+göttlicher	ADJA
+Gabe	NN
+und	KON
+Technik	NN
+.	$.
+

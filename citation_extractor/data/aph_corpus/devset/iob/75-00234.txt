@@ -1,0 +1,24 @@
+Se	SE
+interpreta	VLfin
+en	PREP
+un	ART
+contexto	NC
+agrícola	ADJ
+el	ART
+relato	NC
+de	PREP
+metamorfosis	NC
+según	PREP
+el	ART
+cual	REL
+Antos	NC
+se	SE
+transforma	VLfin
+en	PREP
+ave	NC
+(	LP
+Antonino	NP
+Liberal	NC
+7	CARD
+)	RP
+

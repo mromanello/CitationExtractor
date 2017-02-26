@@ -1,0 +1,22 @@
+Le	DET:def
+caratteristiche	NOM
+architettoniche	ADJ
+di	PRE
+questo	PRO:demo
+teatro	NOM
+riflettono	VER:pres
+i	DET:def
+mutamenti	NOM
+sociali	ADJ
+di	PRE
+Cordoba	NOM
+e	CON
+il	DET:def
+progredire	VER:infi
+della	PRE:det
+sua	PRO:poss
+romanizzazione	NOM
+in	PRE
+età	NOM
+augustea	ADJ
+

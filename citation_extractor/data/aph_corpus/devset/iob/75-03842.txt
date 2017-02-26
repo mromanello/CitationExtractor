@@ -1,0 +1,26 @@
+Testo	NOM
+,	PON
+traduzione	NOM
+e	CON
+commento	NOM
+di	PRE
+Philostr.	NOM
+Her.	ABR
+53	NUM
+,	PON
+10	NUM
+e	CON
+55	NUM
+,	PON
+3	NUM
+nonché	CON
+di	PRE
+Hld.	ABR
+3	NUM
+,	PON
+2	NUM
+e	CON
+8	NUM
+,	PON
+11	NUM
+

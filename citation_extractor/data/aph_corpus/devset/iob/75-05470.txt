@@ -1,0 +1,25 @@
+Indagine	NOM
+sulle	PRE:det
+origini	NOM
+del	PRE:det
+cliché	NOM
+letterario	ADJ
+dei	PRE:det
+Greci	NOM
+«	PON
+cercatori	NOM
+di	PRE
+sapienza	NOM
+»	PON
+e	CON
+considerazioni	NOM
+sulla	PRE:det
+sua	PRO:poss
+presenza	NOM
+nell'	PRE:det
+epistola	NOM
+di	PRE
+Paolo	NOM
+ai	PRE:det
+Corinzi	NOM
+

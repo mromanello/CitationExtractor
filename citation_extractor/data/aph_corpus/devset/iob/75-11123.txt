@@ -1,0 +1,11 @@
+Modalités	NOM
+de	PRP
+la	DET:ART
+domination	NOM
+des	PRP:det
+villes	NOM
+et	KON
+affirmation	NOM
+des	PRP:det
+campagnes	NOM
+

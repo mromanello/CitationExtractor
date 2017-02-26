@@ -1,0 +1,21 @@
+A	VER:pres
+servi	VER:pper
+d'	PRP
+introduction	NOM
+à	PRP
+la	DET:ART
+réédition	NOM
+de	PRP
+la	DET:ART
+traduction	NOM
+de	PRP
+la	DET:ART
+«	PUN:cit
+Poétique	NOM
+»	PUN:cit
+par	PRP
+M.	NOM
+Valgimigli	NAM
+notée	VER:pper
+75-00462	NUM
+

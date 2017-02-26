@@ -1,0 +1,22 @@
+Riflessione	NOM
+introduttiva	ADJ
+al	PRE:det
+volume	NOM
+,	PON
+che	PRO:rela
+punta	VER:pres
+a	PRE
+illuminare	VER:infi
+la	DET:def
+matrice	NOM
+comune	ADJ
+a	PRE
+grammatica	NOM
+e	CON
+filosofia	NOM
+nella	PRE:det
+cultura	NOM
+greca	ADJ
+e	CON
+latina	ADJ
+

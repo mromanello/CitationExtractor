@@ -1,0 +1,15 @@
+Se	SE
+revisan	VLfin
+siete	CARD
+epígrafes	NC
+procedentes	VLadj
+de	PREP
+Soria	NP
+(	LP
+=	SYM
+AE	ACRNM
+2002	CARD
+,	CM
+789-795	CARD
+)	RP
+

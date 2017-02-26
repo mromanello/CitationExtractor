@@ -1,0 +1,15 @@
+Si	PRO:pers
+individuano	VER:pres
+e	CON
+analizzano	VER:pres
+le	DET:def
+strategie	NOM
+di	PRE
+«	PON
+riscrittura	NOM
+»	PON
+elegiaca	ADJ
+della	PRE:det
+Didone	NOM
+virgiliana	ADJ
+

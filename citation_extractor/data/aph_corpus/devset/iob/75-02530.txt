@@ -1,0 +1,40 @@
+Les	DET:ART
+épreuves	NOM
+d'	PRP
+Ulysse	NAM
+n'	ADV
+indiquent	VER:pres
+pas	ADV
+un	DET:ART
+périple	NOM
+réel	ADJ
+.	SENT
+
+L'	DET:ART
+«	PUN:cit
+Odyssée	NAM
+»	PUN:cit
+doit	VER:pres
+être	VER:infi
+lue	VER:pper
+comme	ADV
+un	DET:ART
+récit	NOM
+initiatique	ADJ
+et	KON
+symbolique	ADJ
+de	PRP
+la	DET:ART
+quête	NOM
+d'	PRP
+une	DET:ART
+forme	NOM
+d'	PRP
+immortalité	NOM
+.	SENT
+
+Pour	PRP
+2	NUM
+=>	ABR
+75-02529	NUM
+

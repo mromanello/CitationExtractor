@@ -1,0 +1,4 @@
+T1	REFAUWORK 13 20	Metaph.
+T2	REFSCOPE 21 31	1046b-47a,
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0086.tlg025:1046

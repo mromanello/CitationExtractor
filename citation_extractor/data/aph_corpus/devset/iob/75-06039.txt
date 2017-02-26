@@ -1,0 +1,21 @@
+Discussione	NOM
+sul	PRE:det
+testo	NOM
+di	PRE
+questo	PRO:demo
+frammento	NOM
+,	PON
+in	PRE
+cui	PRO:rela
+la	DET:def
+menzione	NOM
+del	PRE:det
+popolo	NOM
+illirico	ADJ
+degli	PRE:det
+Ardiei	NOM
+si	PRO:pers
+deve	VER:pres
+considerare	VER:infi
+sana	ADJ
+

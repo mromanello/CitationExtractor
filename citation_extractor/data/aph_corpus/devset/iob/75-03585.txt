@@ -1,0 +1,24 @@
+Le	DET:ART
+baptême	NOM
+et	KON
+la	DET:ART
+pénitence	NOM
+chez	PRP
+Pacien	NOM
+sont	VER:pres
+intimement	ADV
+liés	VER:pper
+.	SENT
+
+Ils	PRO:PER
+sont	VER:pres
+au	PRP:det
+centre	NOM
+de	PRP
+la	DET:ART
+discipline	NOM
+de	PRP
+toute	PRO:IND
+l'	DET:ART
+Église	NAM
+

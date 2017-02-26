@@ -1,0 +1,27 @@
+Préparation	NOM
+de	PRP
+la	DET:ART
+publication	NOM
+de	PRP
+la	DET:ART
+nécropole	NOM
+,	PUN
+en	PRP
+partie	NOM
+grecque	ADJ
+,	PUN
+fouillée	VER:pper
+entre	PRP
+1969	NUM
+et	KON
+1971	NUM
+(	PUN
+7e-6e	VER:pres
+s.	VER:pper
+av	NOM
+.	SENT
+J.	ABR
+-C	ADJ
+.	SENT
+)	PUN
+

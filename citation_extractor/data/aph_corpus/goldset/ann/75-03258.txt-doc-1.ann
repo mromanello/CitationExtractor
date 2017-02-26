@@ -1,0 +1,13 @@
+T1	AWORK 27 36	« Heros »
+T2	REFSCOPE 37 45	v. 1-17,
+T3	AWORK 46 62	« Dis Exapaton »
+T4	AWORK 142 156	« Misoumenos »
+T5	AWORK 197 207	« Phasma »
+T6	AWORK 317 332	(« Perinthia »)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:981.3368:1-17
+#1	AnnotatorNotes T6	urn:cts:cwkb:981.3374
+#2	AnnotatorNotes T4	urn:cts:cwkb:981.3371
+#3	AnnotatorNotes T5	urn:cts:cwkb:981.3376
+#4	AnnotatorNotes T3	urn:cts:cwkb:981.3357
+#5	AnnotatorNotes T1	urn:cts:cwkb:981.3368

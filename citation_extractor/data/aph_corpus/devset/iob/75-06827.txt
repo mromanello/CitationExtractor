@@ -1,0 +1,14 @@
+Ripubblicazione	NOM
+di	PRE
+contributi	NOM
+già	ADV
+editi	ADJ
+(	PON
+=>	NOM
+56-05596	NUM
+,	PON
+59-04454	NUM
+,	PON
+59-05169	NUM
+)	PON
+

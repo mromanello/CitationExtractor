@@ -1,0 +1,23 @@
+Esame	NOM
+del	PRE:det
+ms.	NOM
+Athos	NOM
+,	PON
+Bibl	NOM
+.	SENT
+del	PRE:det
+Monastero	NOM
+Philotheou	NOM
+,	PON
+249	NUM
+,	PON
+contenente	VER:ppre
+tra	PRE
+l'	DET:def
+altro	ADJ
+opere	NOM
+di	PRE
+Massimo	NOM
+il	DET:def
+Confessore	NOM
+

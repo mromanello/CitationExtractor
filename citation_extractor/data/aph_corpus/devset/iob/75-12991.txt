@@ -1,0 +1,41 @@
+Trouvaille	NOM
+fortuite	ADJ
+dans	PRP
+le	DET:ART
+village	NOM
+de	PRP
+Brut	NAM
+(	PUN
+Albanie	NAM
+)	PUN
+.	SENT
+
+C'	PRO:DEM
+est	VER:pres
+une	DET:ART
+production	NOM
+gréco-romaine	ADJ
+du	PRP:det
+1er	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+qui	PRO:REL
+s'	PRO:PER
+inscrit	VER:pres
+dans	PRP
+une	DET:ART
+série	NOM
+de	PRP
+statuettes	NOM
+de	PRP
+ce	PRO:DEM
+dieu	NOM
+trouvées	VER:pper
+au	PRP:det
+Kosovo	NAM
+

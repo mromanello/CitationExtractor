@@ -1,0 +1,17 @@
+Discussion	NOM
+de	PRP
+l'	DET:ART
+étude	NOM
+notée	VER:pper
+75-12460	NUM
+sur	PRP
+les	DET:ART
+masques	NOM
+à	PRP
+Chypre	NAM
+à	PRP
+l'	DET:ART
+âge	NOM
+du	PRP:det
+Bronze	NAM
+

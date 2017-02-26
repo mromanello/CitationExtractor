@@ -1,0 +1,22 @@
+La	DET:def
+vicenda	NOM
+e	CON
+l'	DET:def
+attività	NOM
+di	PRE
+J.	NOM
+Dorat	NOM
+come	PRE
+poeta	NOM
+,	PON
+filologo	NOM
+e	CON
+insegnante	NOM
+di	PRE
+lingue	NOM
+e	CON
+letterature	NOM
+greca	ADJ
+e	CON
+latina	ADJ
+

@@ -1,0 +1,21 @@
+Analisi	NOM
+delle	PRE:det
+fonti	NOM
+letterarie	ADJ
+e	CON
+archeologiche	ADJ
+sul	PRE:det
+culto	NOM
+samio	NOM
+di	PRE
+Hera	NOM
+,	PON
+che	PRO:rela
+presenta	VER:pres
+influssi	NOM
+egiziani	ADJ
+e	CON
+in	PRE
+generale	ADJ
+orientali	ADJ
+

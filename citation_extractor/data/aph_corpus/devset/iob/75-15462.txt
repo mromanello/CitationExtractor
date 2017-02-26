@@ -1,0 +1,12 @@
+Archéologue	NOM
+et	KON
+épigraphiste	NOM
+israélien	ADJ
+,	PUN
+spécialiste	NOM
+des	PRP:det
+époques	NOM
+romaine	ADJ
+et	KON
+byzantine	ADJ
+

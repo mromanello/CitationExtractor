@@ -1,0 +1,32 @@
+D'	PRP
+après	PRP
+Aristote	NAM
+(	PUN
+fragment	NOM
+208	NUM
+Rose	NAM
+)	PUN
+et	KON
+Trogue-Pompée	NAM
+(	PUN
+=	NOM
+Justin	NAM
+,	PUN
+43	NUM
+,	PUN
+3	NUM
+,	PUN
+4-13	NUM
+)	PUN
+.	SENT
+
+Voir	VER:infi
+aussi	ADV
+l'	DET:ART
+étude	NOM
+de	PRP
+l'	DET:ART
+auteur	NOM
+notée	VER:pper
+68-06468	NUM
+

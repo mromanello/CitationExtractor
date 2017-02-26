@@ -1,0 +1,7 @@
+T1	AAUTHOR 255 261	Eliano
+T2	REFAUWORK 262 266	(VH.
+T3	REFSCOPE 267 273	9, 8),
+T4	AAUTHOR 462 471	Strabone,
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes T4	urn:cts:greekLit:tlg0099
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0545

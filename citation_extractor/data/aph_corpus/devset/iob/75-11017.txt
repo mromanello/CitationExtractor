@@ -1,0 +1,32 @@
+Conséquences	NOM
+des	PRP:det
+conditions	NOM
+sanitaires	ADJ
+sur	PRP
+l'	DET:ART
+évolution	NOM
+démographique	ADJ
+dans	PRP
+une	DET:ART
+ville	NOM
+,	PUN
+ici	ADV
+la	DET:ART
+Rome	NAM
+antique	ADJ
+.	SENT
+
+La	DET:ART
+fertilité	NOM
+.	SENT
+
+La	DET:ART
+résistance	NOM
+aux	PRP:det
+maladies	NOM
+.	SENT
+
+Les	DET:ART
+flux	NOM
+migratoires	ADJ
+

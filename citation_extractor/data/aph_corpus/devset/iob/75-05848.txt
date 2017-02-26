@@ -1,0 +1,31 @@
+La	DET:ART
+forme	NOM
+de	PRP
+l'	DET:ART
+argumentation	NOM
+de	PRP
+Paul	NAM
+relève	VER:pres
+de	PRP
+la	DET:ART
+rhétorique	NOM
+hellénistique	ADJ
+,	PUN
+mais	KON
+son	DET:POS
+contenu	NOM
+est	VER:pres
+juif	ADJ
+.	SENT
+
+L'	DET:ART
+ethos	NOM
+juif	ADJ
+vaut	VER:pres
+donc	ADV
+ici	ADV
+pour	PRP
+les	DET:ART
+chrétiens	NOM
+non-juifs	ADJ
+

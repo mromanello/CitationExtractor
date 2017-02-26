@@ -1,0 +1,55 @@
+Die	ART
+in	APPR
+der	ART
+Nähe	NN
+von	APPR
+Modena	NE
+gefundenen	ADJA
+Monumente	NN
+des	ART
+7.	ADJA
+/6	CARD
+.	$.
+
+Jh	NE
+.	$.
+
+v.	APPR
+Chr.	NE
+sind	VAFIN
+wohl	ADV
+als	KOKOM
+Grabstelen	NN
+einer	ART
+orientalisierenden	ADJA
+Elite	NN
+zu	PTKZU
+deuten	VVINF
+.	$.
+
+Interessant	ADJD
+ist	VAFIN
+vor	APPR
+allem	PIS
+die	ART
+Inschrift	NN
+von	APPR
+Cippus	NN
+II	CARD
+,	$,
+die	PRELS
+vermutlich	ADV
+als	KOKOM
+Stiftung	NN
+zu	PTKZU
+interpretieren	VVINF
+ist	VAFIN
+und	KON
+das	ART
+Amt	NN
+des	ART
+«	$(
+zilath	NE
+»	$(
+erwähnt	VVPP
+

@@ -1,0 +1,45 @@
+Analyse	VER:pres
+linguistique	ADJ
+des	PRP:det
+prières	NOM
+dans	PRP
+les	DET:ART
+cinq	NUM
+principaux	ADJ
+«	PUN:cit
+Actes	NOM
+apocryphes	ADJ
+des	PRP:det
+Apôtres	NAM
+»	PUN:cit
+.	SENT
+
+Relativement	ADV
+peu	ADV
+marqué	VER:pper
+,	PUN
+ce	PRO:DEM
+discours	NOM
+se	PRO:PER
+rapproche	VER:pres
+plus	ADV
+du	PRP:det
+discours	NOM
+direct	ADJ
+que	KON
+de	PRP
+toute	PRO:IND
+autre	ADJ
+tradition	NOM
+religieuse	ADJ
+.	SENT
+
+Il	PRO:PER
+illustre	VER:pres
+la	DET:ART
+prière	NOM
+authentique	ADJ
+des	PRP:det
+premiers	NUM
+chrétiens	NOM
+

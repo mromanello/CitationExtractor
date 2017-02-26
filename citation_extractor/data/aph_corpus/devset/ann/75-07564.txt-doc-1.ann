@@ -1,0 +1,4 @@
+T1	REFAUWORK 353 363	Cic., Leg.
+T2	REFSCOPE 364 377	2, 24, 60-62.
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:1084.3886:2.24.60-2.24.62

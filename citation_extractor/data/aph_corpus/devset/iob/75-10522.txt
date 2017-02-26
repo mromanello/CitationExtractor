@@ -1,0 +1,25 @@
+Les	DET:ART
+subdivisions	NOM
+de	PRP
+la	DET:ART
+population	NOM
+.	SENT
+
+Les	DET:ART
+institutions	NOM
+de	PRP
+la	DET:ART
+cité	NOM
+,	PUN
+municipales	ADJ
+et	KON
+politiques	ADJ
+.	SENT
+
+Le	DET:ART
+développement	NOM
+de	PRP
+la	DET:ART
+constitution	NOM
+démocratique	ADJ
+

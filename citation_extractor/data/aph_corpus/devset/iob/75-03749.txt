@@ -1,0 +1,9 @@
+Nel	PRE:det
+frammento	NOM
+è	VER:pres
+riconoscibile	ADJ
+un	DET:indef
+doppio	ADJ
+senso	NOM
+erotico	ADJ
+

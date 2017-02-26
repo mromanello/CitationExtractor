@@ -1,0 +1,26 @@
+Reply	NN
+to	TO
+critiques	NNS
+of	IN
+the	DT
+author	NN
+'s	POS
+edition	NN
+,	,
+with	IN
+C.	NP
+Minns	NP
+,	,
+of	IN
+Justin	NP
+'s	POS
+«	)
+First	JJ
+apology	NN
+»	(
+(	(
+=>	NN
+66-02406	CD
+)	)
+.	SENT
+

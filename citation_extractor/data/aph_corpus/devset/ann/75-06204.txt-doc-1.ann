@@ -1,0 +1,5 @@
+T1	REFAUWORK 38 43	(Aen.
+T2	REFSCOPE 44 51	7, 338)
+T3	AWORK 211 221	« Énéide »
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:7.338

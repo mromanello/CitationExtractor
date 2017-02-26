@@ -1,0 +1,42 @@
+À	PRP
+propos	NOM
+de	PRP
+Libanios	NAM
+,	PUN
+Or.	ABR
+11	NUM
+,	PUN
+220.	INT
+
+Examen	NOM
+de	PRP
+la	DET:ART
+documentation	NOM
+disponible	ADJ
+(	PUN
+littéraire	ADJ
+,	PUN
+épigraphique	ADJ
+et	KON
+matérielle	ADJ
+)	PUN
+.	SENT
+
+Annexe	NOM
+1	NUM
+,	PUN
+p.	ABR
+301-306	NUM
+:	PUN
+«	PUN:cit
+Répertoire	NAM
+des	PRP:det
+attestations	NOM
+littéraires	ADJ
+et	KON
+épigraphiques	ADJ
+de	PRP
+thermes	NOM
+saisonniers	ADJ
+»	PUN:cit
+

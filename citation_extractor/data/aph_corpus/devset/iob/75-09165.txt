@@ -1,0 +1,35 @@
+28	NUM
+épitaphes	NOM
+du	PRP:det
+2e-3e	NAM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+une	DET:ART
+épitaphe	NOM
+hellénistique	ADJ
+et	KON
+une	DET:ART
+dalle	NOM
+inscrite	VER:pper
+du	PRP:det
+1er	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+
+(	PUN
+?	SENT
+)	PUN
+.	SENT
+
+Pour	PRP
+26	NUM
+=>	ABR
+75-09164	NUM
+

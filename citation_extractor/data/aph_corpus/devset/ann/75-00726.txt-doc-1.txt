@@ -1,0 +1,5 @@
+In « Metaphysics » Gamma 3 Aristotle declares that the philosopher investigates things that are qua things that are and that he therefore should be able to state the firmest principles of everything.
+The firmest principle of all is identified as the principle of non-contradiction (PNC).
+Includes discussion of Aristotle 's notion of the firmness of a principle, and analysis of the firmness proof for PNC, focusing on some key assumptions of the proof, and on the range and force of the proof.
+Aristotle closes Gamma 3 with the claim that PNC is ultimate in the sense that all other principles somehow rest on it.
+This claim is given a defensible reading and shown to be central to the chapter 's effort to establish PNC as the firmest principle of all. As such it completes the firmness proof and is not simply an appended remark.

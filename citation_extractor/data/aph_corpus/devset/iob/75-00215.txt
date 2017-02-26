@@ -1,0 +1,33 @@
+Instead	RB
+of	IN
+the	DT
+senseless	JJ
+«	)
+meruit	NN
+»	(
+at	IN
+Anth	NP
+.	SENT
+
+36	CD
+,	,
+1	CD
+one	CD
+may	MD
+read	VB
+«	)
+mansit	NN
+»	(
+,	,
+citing	VBG
+for	IN
+contextual	JJ
+background	NN
+Vergil	NP
+,	,
+Aen.	NP
+9	CD
+,	,
+481-483	CD
+.	SENT
+

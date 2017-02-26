@@ -1,0 +1,12 @@
+T1	REFAUWORK 12 16	Met.
+T2	REFSCOPE 17 26	3, 2-12 ;
+T3	REFSCOPE 27 37	4, 13 sq ;
+T4	REFSCOPE 38 48	10, 35-11.
+T5	AAUTHOR 98 104	Lucius
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0959.phi006:3.2-3.12
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0959.phi006:4.13
+#2	AnnotatorNotes R3	urn:cts:latinLit:phi0959.phi006:10.35-10.11
+#3	AnnotatorNotes T5	urn:cts:greekLit:tlg0062

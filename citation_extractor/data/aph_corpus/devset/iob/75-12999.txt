@@ -1,0 +1,8 @@
+Stèles	NOM
+et	KON
+sarcophages	NOM
+romains	ADJ
+arlésiens	ADJ
+et	KON
+provençaux	ADJ
+

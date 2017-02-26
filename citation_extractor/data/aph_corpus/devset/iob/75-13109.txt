@@ -1,0 +1,13 @@
+Discussione	NOM
+delle	PRE:det
+attestazioni	NOM
+iconografiche	ADJ
+di	PRE
+angeli	NOM
+ed	CON
+arcangeli	NOM
+rinvenute	VER:pper
+in	PRE
+questa	PRO:demo
+regione	NOM
+

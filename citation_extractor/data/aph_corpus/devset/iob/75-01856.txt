@@ -1,0 +1,22 @@
+Sobre	PREP
+la	ART
+reutilización	NC
+por parte de	PREP
+Eurípides	NP
+de	PREP
+versos	NC
+de	PREP
+sus	PPO
+predecesores	NC
+(	LP
+Esquilo	NP
+y	CC
+Sófocles	NP
+)	RP
+en	PREP
+un	ART
+nuevo	ADJ
+metro	NMEA
+y	CC
+contexto	NC
+

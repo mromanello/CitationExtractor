@@ -1,0 +1,32 @@
+Note	ADJ
+critiche	NOM
+a	PRE
+:	PON
+203	NUM
+,	PON
+9-12	NUM
+;	PON
+367	NUM
+;	PON
+372	NUM
+,	PON
+4-10	NUM
+;	PON
+382	NUM
+,	PON
+6-8	NUM
+Sh	NOM
+.	SENT
+-B	NOM
+.	SENT
+
+;	PON
+487a	NOM
+,	PON
+17-18	NUM
+Riese2	NOM
+(	PON
+olim	NOM
+683	NUM
+)	PON
+

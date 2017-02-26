@@ -1,0 +1,10 @@
+Commistione	NOM
+di	PRE
+elementi	NOM
+storici	ADJ
+e	CON
+mitici	ADJ
+nella	PRE:det
+tradizione	NOM
+argiva	ADJ
+

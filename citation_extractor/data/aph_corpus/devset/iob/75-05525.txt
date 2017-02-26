@@ -1,0 +1,14 @@
+Zur	APPRART
+Beziehung	NN
+des	ART
+Apostels	NN
+zu	APPR
+seiner	PPOSAT
+Gemeinde	NN
+und	KON
+zur	APPRART
+Vermittlung	NN
+der	ART
+Tora	NE
+.	$.
+

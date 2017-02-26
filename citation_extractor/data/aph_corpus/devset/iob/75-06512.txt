@@ -1,0 +1,5 @@
+Témoignages	NOM
+littéraires	ADJ
+et	KON
+artistiques	ADJ
+

@@ -1,0 +1,41 @@
+Presentación	NC
+general	ADJ
+de	PREP
+la	ART
+obra	NC
+bibliográfica	ADJ
+consignada	VLadj
+en	PREP
+=>	NC
+70-07460	CODE
+.	FS
+
+Se	SE
+exponen	VLfin
+los	ART
+objetivos	NC
+y	CC
+la	ART
+metodología	NC
+utilizada	VLadj
+en	PREP
+su	PPO
+elaboración	NC
+.	FS
+
+Para	CSUBI
+terminar	VLinf
+se	SE
+ofrece	VLfin
+una	ART
+selección	NC
+de	PREP
+algunos	QU
+de	PREP
+los	ART
+trabajos	NC
+incluidos	VLadj
+en	PREP
+esta	DM
+bibliografía	NC
+

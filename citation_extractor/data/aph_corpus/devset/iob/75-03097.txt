@@ -1,0 +1,19 @@
+Le	DET:ART
+concept	NOM
+de	PRP
+savoir	NOM
+rationnel	ADJ
+chez	PRP
+Macrobe	NOM
+.	SENT
+
+Rapports	NOM
+à	PRP
+Platon	NAM
+,	PUN
+Cicéron	NAM
+,	PUN
+Homère	NAM
+et	KON
+Virgile	NAM
+

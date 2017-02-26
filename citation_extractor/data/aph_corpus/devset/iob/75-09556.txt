@@ -1,0 +1,33 @@
+Trésor	NOM
+touvé	VER:pper
+en	PRP
+1899.	DET:POS
+
+Catalogue	NOM
+des	PRP:det
+31	NUM
+monnaies	NOM
+de	PRP
+la	DET:ART
+collection	NOM
+Müller	NAM
+,	PUN
+seul	ADJ
+vestige	NOM
+d'	PRP
+un	DET:ART
+ensemble	NOM
+monétaire	ADJ
+de	PRP
+1	NUM
+550	NUM
+monnaies	NOM
+aujourd'hui	ADV
+éparpillé	VER:pper
+.	SENT
+
+Pour	PRP
+6	NUM
+=>	ABR
+75-09542	NUM
+

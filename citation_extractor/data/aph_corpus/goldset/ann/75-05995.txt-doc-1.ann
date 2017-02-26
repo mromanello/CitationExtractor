@@ -1,0 +1,14 @@
+T1	REFSCOPE 59 64	(12 ;
+T2	REFSCOPE 65 69	23 ;
+T3	REFSCOPE 75 78	30)
+T4	AAUTHOR 92 102	Theocritus
+#0	AnnotatorNotes T4	urn:cts:greekLit:tlg0005
+T5	REFSCOPE 70 74	29 ;
+R1	Scope Arg1:T4 Arg2:T1	
+R2	Scope Arg1:T4 Arg2:T2	
+R3	Scope Arg1:T4 Arg2:T3	
+#1	AnnotatorNotes R1	urn:cts:greekLit:tlg0005.tlg001:12
+#2	AnnotatorNotes R2	urn:cts:greekLit:tlg0005.tlg001:23
+R4	Scope Arg1:T4 Arg2:T5	
+#3	AnnotatorNotes R4	urn:cts:greekLit:tlg0005.tlg001:29
+#4	AnnotatorNotes R3	urn:cts:greekLit:tlg0005.tlg001:30

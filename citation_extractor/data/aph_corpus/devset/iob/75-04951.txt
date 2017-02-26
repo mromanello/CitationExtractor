@@ -1,0 +1,24 @@
+L'	DET:def
+aneddoto	NOM
+di	PRE
+Simonide	NOM
+messo	VER:pper
+in	PRE
+guardia	NOM
+da	PRE
+un	DET:indef
+fantasma	NOM
+sui	PRE:det
+pericoli	NOM
+della	PRE:det
+navigazione	NOM
+rientra	VER:pres
+in	PRE
+una	DET:indef
+diffusa	ADJ
+tipologia	NOM
+di	PRE
+racconti	NOM
+del	PRE:det
+folclore	NOM
+

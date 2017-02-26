@@ -1,0 +1,18 @@
+Il	DET:def
+genere	NOM
+tragico	ADJ
+ricorre	VER:pres
+spesso	ADV
+al	PRE:det
+luogo	NOM
+comune	ADJ
+della	PRE:det
+Tracia	NOM
+come	PRE
+una	DET:indef
+sorta	NOM
+di	PRE
+terra	NOM
+di	PRE
+nessuno	ADJ
+

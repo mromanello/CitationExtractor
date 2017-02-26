@@ -1,0 +1,15 @@
+Découverte	VER:pper
+en	PRP
+1998	NUM
+à	PRP
+Baar	NAM
+de	PRP
+nombreuses	ADJ
+sépultures	NOM
+du	PRP:det
+6e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+

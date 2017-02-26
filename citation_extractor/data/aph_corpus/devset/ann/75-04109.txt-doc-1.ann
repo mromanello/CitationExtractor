@@ -1,0 +1,12 @@
+T1	AWORK 102 115	« Politique »
+T2	AWORK 123 131	« Lois »
+T3	AAUTHOR 206 213	Platon.
+T4	REFAUWORK 240 244	Leg.
+T5	REFSCOPE 245 259	5, 739a1-740a2
+T6	AWORK 509 523	« République »
+R1	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:431.908:5.739
+#1	AnnotatorNotes T6	urn:cts:greekLit:tlg0059.tlg030
+#2	AnnotatorNotes T2	urn:cts:greekLit:tlg0059.tlg034
+#3	AnnotatorNotes T3	urn:cts:greekLit:tlg0059
+#4	AnnotatorNotes T1	urn:cts:greekLit:tlg0086.tlg035

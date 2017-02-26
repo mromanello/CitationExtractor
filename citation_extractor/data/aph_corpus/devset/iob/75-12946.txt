@@ -1,0 +1,27 @@
+Die	ART
+Dichte	NN
+der	ART
+Fundplätze	NN
+,	$,
+das	ART
+Format	NN
+der	ART
+Denkmäler	NN
+und	KON
+zum	APPRART
+Teil	NN
+die	ART
+Qualität	NN
+der	ART
+Ausführung	NN
+sind	VAFIN
+für	APPR
+eine	ART
+abseits	APPR
+der	ART
+Zentren	NN
+liegende	ADJA
+Region	NN
+aussergewöhnlich	ADJD
+.	$.
+

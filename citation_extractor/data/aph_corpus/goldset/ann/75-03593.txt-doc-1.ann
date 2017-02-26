@@ -1,0 +1,8 @@
+T1	REFAUWORK 117 119	AP
+T2	REFSCOPE 120 126	10, 45
+T3	REFSCOPE 127 136	e 11, 340
+T4	AAUTHOR 162 170	Temistio
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg7000.tlg001:10.45
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg7000.tlg001:11.340

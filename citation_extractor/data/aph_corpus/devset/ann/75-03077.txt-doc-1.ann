@@ -1,0 +1,4 @@
+T1	REFAUWORK 10 19	Lucretius
+T2	REFSCOPE 20 28	5, 1105,
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:527:5.1105

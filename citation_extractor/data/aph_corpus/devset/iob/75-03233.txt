@@ -1,0 +1,13 @@
+La	DET:ART
+spiritualité	NOM
+et	KON
+le	DET:ART
+dogme	NOM
+sont	VER:pres
+intimement	ADV
+liés	VER:pper
+chez	PRP
+Maxime	NAM
+le	DET:ART
+Confesseur	NAM
+

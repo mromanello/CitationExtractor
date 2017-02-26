@@ -1,0 +1,27 @@
+Nella	PRE:det
+retorica	NOM
+romana	ADJ
+si	PRO:refl
+afferma	VER:pres
+gradualmente	ADV
+il	DET:def
+modello	NOM
+dell'	PRE:det
+oratore	NOM
+imperturbabile	ADJ
+,	PON
+che	PRO:rela
+evita	VER:pres
+di	PRE
+manifestare	VER:infi
+il	DET:def
+pudore	NOM
+perché	CON
+ciò	PRO:demo
+non	ADV
+sembri	VER:pres
+un	DET:indef
+segno	NOM
+di	PRE
+debolezza	NOM
+

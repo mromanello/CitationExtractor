@@ -1,0 +1,62 @@
+Publication	NOM
+d'	PRP
+une	DET:ART
+dédicace	NOM
+latine	ADJ
+inédite	ADJ
+à	PRP
+Drusus	NAM
+(	PUN
+mentionnée	VER:pper
+par	PRP
+l'	DET:ART
+auteur	NOM
+dans	PRP
+:	PUN
+BCH	NOM
+1985	NUM
+109	NUM
+:	PUN
+870	NUM
+)	PUN
+,	PUN
+découverte	VER:pper
+en	PRP
+1984.	DET:POS
+
+Examen	NOM
+d'	PRP
+autres	ADJ
+dédicaces	NOM
+publiques	ADJ
+que	PRO:REL
+l'	DET:ART
+on	PRO:PER
+peut	VER:pres
+dater	VER:infi
+du	PRP:det
+1er	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+au	PRP:det
+1er	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+
+et	KON
+associer	VER:infi
+aux	PRP:det
+premiers	NUM
+états	NOM
+du	PRP:det
+forum	NOM
+

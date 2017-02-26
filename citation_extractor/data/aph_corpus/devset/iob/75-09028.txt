@@ -1,0 +1,10 @@
+Aperçu	NOM
+historique	ADJ
+de	PRP
+1900	NUM
+à	PRP
+la	DET:ART
+fin	NOM
+du	PRP:det
+20e	NUM
+s.	ABR

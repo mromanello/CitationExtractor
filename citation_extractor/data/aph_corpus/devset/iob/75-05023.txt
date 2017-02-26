@@ -1,0 +1,25 @@
+Sobre	PREP
+la	ART
+influencia	NC
+de	PREP
+Sófocles	NC
+en	PREP
+numerosos	ADJ
+poetas	NC
+egipcios	ADJ
+tardoantiguos	ADJ
+,	CM
+entre	PREP
+ellos	PPX
+Nono	ADJ
+de	PREP
+Panópolis	NP
+,	CM
+Coluto	NC
+de	PREP
+Licópolis	NC
+y	CC
+Dioscoro	NC
+de	PREP
+Afrodito	NP
+

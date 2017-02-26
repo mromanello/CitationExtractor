@@ -1,0 +1,14 @@
+T1	AWORK 63 73	« Aeneid »
+T2	AWORK 97 108	« Aeneid ».
+T3	AWORK 425 435	« Aeneid »
+T4	REFSCOPE 436 445	(1, 118 ;
+T5	REFSCOPE 446 458	2, 268-269 ;
+T6	REFSCOPE 459 471	3, 448-452 ;
+T7	REFSCOPE 472 487	and 7, 601-603)
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T3 Arg2:T5
+R3	Scope Arg1:T3 Arg2:T6
+R4	Scope Arg1:T3 Arg2:T7
+#0	AnnotatorNotes T2	urn:cts:latinLit:phi0690.phi003
+#1	AnnotatorNotes T3	urn:cts:latinLit:phi0690.phi003
+#2	AnnotatorNotes T1	urn:cts:latinLit:phi0690.phi003

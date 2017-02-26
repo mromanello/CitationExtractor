@@ -1,0 +1,23 @@
+Zu	APPR
+«	$(
+Schlüsselfiguren	NN
+der	ART
+kollektiven	ADJA
+Imagination	NN
+»	$(
+,	$,
+zum	APPRART
+Umfeld	NN
+der	ART
+Forschung	NN
+sowie	KON
+zum	APPRART
+antiken	ADJA
+Kontext	NN
+und	KON
+zu	APPR
+den	ART
+einzelnen	ADJA
+Beiträgen	NN
+.	$.
+

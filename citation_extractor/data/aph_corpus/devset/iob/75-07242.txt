@@ -1,0 +1,6 @@
+Prosegue	VER:pres
+il	DET:def
+contributo	NOM
+=>	NOM
+75-07243	NUM
+

@@ -1,0 +1,8 @@
+T1	AAUTHOR 43 52	Irenaeus,
+T2	AAUTHOR 210 220	Irenaeus '
+T3	AAUTHOR 342 350	Irenaeus
+T4	AAUTHOR 424 432	Irenaeus
+#0	AnnotatorNotes T4	urn:cts:cwkb:1401
+#1	AnnotatorNotes T2	urn:cts:cwkb:1401
+#2	AnnotatorNotes T3	urn:cts:cwkb:1401
+#3	AnnotatorNotes T1	urn:cts:cwkb:1401

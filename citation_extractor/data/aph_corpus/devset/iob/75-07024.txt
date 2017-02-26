@@ -1,0 +1,41 @@
+Les	DET:ART
+substantifs	NOM
+désignant	VER:ppre
+l'	DET:ART
+homme	NOM
+,	PUN
+le	DET:ART
+peuple	NOM
+,	PUN
+l'	DET:ART
+enfant	NOM
+et	KON
+les	DET:ART
+êtres	NOM
+féminins	ADJ
+,	PUN
+notamment	ADV
+en	PRP
+grec	NOM
+et	KON
+en	PRP
+latin	NOM
+.	SENT
+
+La	DET:ART
+première	NUM
+apparition	NOM
+du	PRP:det
+collectif	NOM
+grammatical	ADJ
+avec	PRP
+une	DET:ART
+marque	NOM
+propre	ADJ
+.	SENT
+
+Pour	PRP
+1	NUM
+=>	ABR
+75-07023	NUM
+
