@@ -1,0 +1,12 @@
+# MacOS Specific
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# pytest
+.cache
+
+# Vim tmp files
+*~

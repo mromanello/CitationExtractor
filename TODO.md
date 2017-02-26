@@ -14,7 +14,7 @@
 ## Code Refactoring
 
 * `CRFSuite` instead of `CRF++`: <http://sklearn-crfsuite.readthedocs.org/en/latest/> (and combine with <http://www.nltk.org/api/nltk.classify.html>)
-* move active learning classes to a separate module
+* move active learning classes from `Utils.aph_corpus` to a separate module
 * move `crfpp_templates` to the `data` directory
 * re-organise the logging
 * in `process.preproc_document` replace `guess_language` with `langid` library as it seems way more accurate (!!)

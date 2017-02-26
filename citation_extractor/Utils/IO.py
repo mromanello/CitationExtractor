@@ -1,14 +1,10 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
-import CRFPP
+
 import codecs
 import sys,pprint,re,string,logging
-from citation_extractor.crfpp_wrap import CRF_classifier
-#import knowledge_base
 import citation_extractor
-from miguno.partitioner import *
-from miguno.crossvalidationdataconstructor import *
 from random import *
 import xml.dom.minidom as mdom
 from pyCTS import CTS_URN
@@ -16,7 +12,7 @@ from pyCTS import CTS_URN
 global logger
 logger = logging.getLogger(__name__)
 
-def read_ann_file_new(fileid,ann_dir,suffix="-doc-1.ann"):
+def read_ann_file_new(fileid, ann_dir, suffix="-doc-1.ann"):
 	"""
 	TODO
 	"""
@@ -462,26 +458,6 @@ def parse_one_p_line(inp):
 	Describe what the function does.
 	"""
 	return [line for line in inp.split("\n")]
-def tag_IOB_file(train_file_name,to_tag_file_name):
-	"""
-	Takes as input a IOB file and tags it according to a given CRF model
-	"""
-	dir="data/"
-	path,fn = os.path.split(train_file_name)
-	out=open(dir+fn+'.train','w').write(prepare_for_training(train_file_name))
-	train_fname=dir+fn+'.train'
-	model_fname=dir+fn+'.mdl'
-	train_crfpp("data/crex.tpl",train_fname,model_fname)
-	cl=CRF_classifier(model_fname)
-	instances=read_instances(prepare_for_testing(to_tag_file_name))
-	for i in instances:
-		tokens=[token_tostring(t) for t in i]
-		out=""
-		for r in cl.classify(tokens):
-			out+="%s\t%s\n"%(r['token'],r['label'])
-		print "%s"%out
-	logger.info('Tagged %i instances'%len(instances))
-	return
 def prepare_for_tagging(file_name,inp="jstor/xml"):
 	"""
 	"""
@@ -549,4 +525,4 @@ def main():
 		print i
 		print re.sub(r'[^\w]','',i)
 if __name__ == "__main__":
-	main()
+    main()
