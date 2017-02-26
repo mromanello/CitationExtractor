@@ -1,4 +1,0 @@
-T1	AWORK 144 162	« De Ebdomadibus »
-T2	AAUTHOR 137 143	Boezio
-T3	AAUTHOR 270 276	Boezio
-R1	authorOf Arg1:T2 Arg2:T1	

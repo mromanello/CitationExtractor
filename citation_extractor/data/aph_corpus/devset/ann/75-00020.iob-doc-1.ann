@@ -1,7 +1,0 @@
-T1	AAUTHOR 14 22	Eschine,
-T2	AWORK 41 60	« Contre Timarque »
-T3	AWORK 64 91	« Sur la fausse ambassade »
-T4	AAUTHOR 100 110	Démosthène
-R1	authorOf Arg1:T1 Arg2:T2	
-T5	AWORK 137 164	« Sur la fausse ambassade »
-R2	authorOf Arg1:T4 Arg2:T5	

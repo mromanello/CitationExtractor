@@ -1,3 +1,0 @@
-T1	AAUTHOR 69 78	Eschyle :
-T3	AWORK 60 65	œuvre
-R1	authorOf Arg1:T1 Arg2:T3	

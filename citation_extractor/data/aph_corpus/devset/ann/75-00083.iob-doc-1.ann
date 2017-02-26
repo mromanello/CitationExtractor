@@ -1,4 +1,0 @@
-T1	AWORK 135 146	« Odissea »
-T2	AWORK 72 86	« Agamennone »
-T3	AAUTHOR 87 95	eschileo
-R1	authorOf Arg1:T3 Arg2:T2	

@@ -1,4 +1,0 @@
-T1	AWORK 25 42	« Métamorphoses »
-T2	AAUTHOR 173 179	Plaute
-T3	AAUTHOR 67 73	Apulée
-R1	authorOf Arg1:T3 Arg2:T1	

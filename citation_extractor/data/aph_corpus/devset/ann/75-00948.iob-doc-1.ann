@@ -1,7 +1,0 @@
-T1	REFSCOPE 37 45	2, 14-15
-T2	AAUTHOR 0 9	Augustine
-T3	REFAUWORK 31 36	conf.
-R1	Scope Arg1:T3 Arg2:T1	
-R2	authorOf Arg1:T2 Arg2:T3	
-#1	AnnotatorNotes R1	http://cwkb.webfactional.com/cwkb/works/8404/2.14-2.15
-T4	AAUTHOR 159 168	Augustine

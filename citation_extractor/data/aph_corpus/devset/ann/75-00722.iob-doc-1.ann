@@ -1,3 +1,0 @@
-T1	AAUTHOR 50 61	Aristotele,
-T2	AWORK 273 285	« Politica »
-R1	authorOf Arg1:T1 Arg2:T2	

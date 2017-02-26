@@ -1,3 +1,0 @@
-T1	AWORK 21 41	« Cupido cruciatus »
-T2	AAUTHOR 68 75	Ausonio
-R1	authorOf Arg1:T2 Arg2:T1	

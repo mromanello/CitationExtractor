@@ -1,5 +1,0 @@
-T1	AAUTHOR 95 102	Eschilo
-T2	AWORK 108 119	« Ciclope »
-T3	AAUTHOR 123 131	Euripide
-T4	AWORK 81 91	« Proteo »
-R1	authorOf Arg1:T3 Arg2:T2	

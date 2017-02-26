@@ -1,3 +1,0 @@
-T1	AWORK 50 65	Amour et Psyché
-T2	AAUTHOR 107 113	Apulée
-R1	authorOf Arg1:T2 Arg2:T1	

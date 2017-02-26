@@ -1,5 +1,0 @@
-T1	AWORK 13 29	« Confessions »,
-T2	AAUTHOR 63 71	Augustin
-R1	authorOf Arg1:T2 Arg2:T1	
-T3	AWORK 266 284	« Retractationes »
-R2	authorOf Arg1:T2 Arg2:T3	

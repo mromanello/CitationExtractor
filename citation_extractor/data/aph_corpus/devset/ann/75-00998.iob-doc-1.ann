@@ -1,4 +1,0 @@
-T1	AAUTHOR 0 6	Basile
-T2	AWORK 194 205	« Lettres »
-T3	AAUTHOR 150 167	Grégoire de Nysse
-R1	authorOf Arg1:T3 Arg2:T2	

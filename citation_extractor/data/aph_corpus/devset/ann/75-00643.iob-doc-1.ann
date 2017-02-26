@@ -1,9 +1,0 @@
-T1	REFAUWORK 65 68	APo
-T2	REFSCOPE 69 76	72-100.
-T3	AAUTHOR 216 225	Aristotle
-R1	Scope Arg1:T1 Arg2:T2	
-T4	REFAUWORK 48 50	EN
-T5	REFSCOPE 51 60	1139-1141
-R2	Scope Arg1:T4 Arg2:T5	
-#1	AnnotatorNotes R2	http://cwkb.webfactional.com/cwkb/works/1649/1139-1141
-R3	authorOf Arg1:T3 Arg2:T4	

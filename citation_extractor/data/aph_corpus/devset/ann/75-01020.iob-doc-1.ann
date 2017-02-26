@@ -1,4 +1,0 @@
-T1	AWORK 78 105	« De topicis differentiis »
-T2	AAUTHOR 49 59	Pachymeres
-T3	AAUTHOR 109 114	Boèce
-R1	authorOf Arg1:T3 Arg2:T1	

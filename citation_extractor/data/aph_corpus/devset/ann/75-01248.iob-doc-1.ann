@@ -1,3 +1,0 @@
-T1	AWORK 26 41	« De medicina »
-T2	AAUTHOR 45 50	Celse
-R1	authorOf Arg1:T2 Arg2:T1	

@@ -1,6 +1,0 @@
-T1	AWORK 25 40	« De magistro »
-T2	AWORK 171 187	« De trinitate »
-T3	AAUTHOR 503 511	Augustin
-T4	AAUTHOR 0 10	Augustinus
-R1	authorOf Arg1:T4 Arg2:T1	
-R2	authorOf Arg1:T3 Arg2:T2	

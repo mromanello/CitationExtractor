@@ -1,6 +1,0 @@
-T1	AWORK 31 44	« Elleniche »
-T2	AAUTHOR 48 58	Senofonte,
-T3	AWORK 130 149	« De bello ciuili »
-R1	authorOf Arg1:T2 Arg2:T1	
-T4	AAUTHOR 230 236	Cesare
-R2	authorOf Arg1:T4 Arg2:T3	

@@ -1,7 +1,0 @@
-T1	REFAUWORK 99 105	Physik
-T2	REFSCOPE 106 122	2, 1, 193b 20-23
-T3	AAUTHOR 21 32	Aristoteles
-T4	AAUTHOR 656 667	Aristoteles
-R1	authorOf Arg1:T3 Arg2:T1	
-R2	Scope Arg1:T1 Arg2:T2	
-#1	AnnotatorNotes R2	http://cwkb.webfactional.com/cwkb/works/1657/2.1.193b_20-2.1.193b_23

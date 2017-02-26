@@ -1,6 +1,0 @@
-T1	REFSCOPE 8 17	12, 14, 1
-T2	REFAUWORK 3 7	uar.
-T3	AAUTHOR 18 28	Cassiodoro
-R1	Scope Arg1:T2 Arg2:T1	
-R2	authorOf Arg1:T3 Arg2:T2	
-T4	AAUTHOR 119 126	Apuleio

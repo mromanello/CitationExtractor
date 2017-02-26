@@ -1,7 +1,0 @@
-T1	REFSCOPE 36 45	2, 21-32)
-T2	AAUTHOR 164 170	Platon
-T3	REFAUWORK 31 35	met.
-R8	Scope Arg1:T3 Arg2:T1	
-T4	AAUTHOR 72 78	Apulée
-R1	authorOf Arg1:T4 Arg2:T3	
-#1	AnnotatorNotes R8	http://cwkb.webfactional.com/cwkb/works/762/2.21-2.32
