@@ -1,0 +1,506 @@
+Vitruvius - Wikipedia
+Vitruvius
+From Wikipedia, the free encyclopedia
+Jump to:					navigation, 					search
+A 1684 depiction of Vitruvius (right) presenting De Architectura to Augustus
+Marcus Vitruvius Pollio (born c. 80–70 BC, died after c. 15 BC), commonly known as Vitruvius or Vitruvi or Vitruvio, was a Roman author, architect, civil engineer and military engineer during the 1st century BC, known for his multi-volume work entitled De architectura.
+By his own description[1] Vitruvius served as an artilleryman, the third class of arms in the military offices. He probably served as a senior officer of artillery in charge of doctores ballistarum (artillery experts) and libratores who actually operated the machines.[2]
+Contents
+1 Life and career
+2 De Architectura
+2.1 Scope
+2.2 Proportions of Man
+2.3 Lists of names given in Book VII Introduction
+2.4 Rediscovery
+2.5 Notable editions
+3 Roman technology
+3.1 Machines
+3.2 Aqueducts
+3.3 Materials
+3.4 Dewatering machines
+3.5 Surveying instruments
+3.6 Central heating
+4 Legacy
+5 See also
+6 References
+7 Sources
+8 External links
+Life and career[edit]
+Little is known about Vitruvius' life. Most inferences about him are extracted from his only surviving work De Architectura. Even his first name Marcus and his cognomen Pollio are uncertain. Cetius Faventinus writes of "Vitruvius Polio aliique auctores"; this can be read as "Vitruvius Polio, and others" or, less likely, as "Vitruvius, Polio, and others". An inscription in Verona, which names a Lucius Vitruvius Cordo, and an inscription from Thilbilis in North Africa, which names a Marcus Vitruvius Mamurra have been suggested as evidence that Vitruvius and Mamurra (who was a military praefectus fabrum under Julius Caesar) were from the same family;[3] or were even the same individual.[4])[5] Neither association, however, is borne out by De Architectura (which Vitruvius dedicated to Augustus), nor by the little that is known of Mamurra.
+Vitruvius was a military engineer (praefectus fabrum), or a praefect architectus armamentarius of the apparitor status group (a branch of the Roman civil service). He is mentioned in Pliny the Elder's table of contents for Naturalis Historia (Natural History), in the heading for mosaic techniques.[6] Frontinus refers to "Vitruvius the architect" in his late 1st-century work De aquaeductu.
+Likely born a free Roman citizen, by his own account, Vitruvius served the Roman army under Caesar with the otherwise poorly identified Marcus Aurelius, Publius Minidius, and Gnaeus Cornelius. These names vary depending on the edition of De architectura. Publius Minidius is also written as Publius Numidicus and Publius Numidius, speculated as the same Publius Numisius inscribed on the Roman Theatre at Heraclea.[7]
+As an army engineer he specialized in the construction of ballista and scorpio artillery war machines for sieges. It is speculated that Vitruvius served with Caesar's chief engineer Lucius Cornelius Balbus.[8]
+The locations where he served can be reconstructed from, for example, descriptions of the building methods of various "foreign tribes". Although he describes places throughout De Architectura, he does not say he was present. His service likely included north Africa, Hispania, Gaul (including Aquitaine) and Pontus.
+To place the role of Vitruvius the military engineer in context, a description of "The Prefect of the camp" or army engineer is quoted here as given by Flavius Vegetius Renatus in The Military Institutions of the Romans:
+The Prefect of the camp, though inferior in rank to the [Prefect], had a post of no small importance. The position of the camp, the direction of the entrenchments, the inspection of the tents or huts of the soldiers and the baggage were comprehended in his province. His authority extended over the sick, and the physicians who had the care of them; and he regulated the expenses relative thereto. He had the charge of providing carriages, bathhouses and the proper tools for sawing and cutting wood, digging trenches, raising parapets, sinking wells and bringing water into the camp. He likewise had the care of furnishing the troops with wood and straw, as well as the rams, onagri, balistae and all the other engines of war under his direction. This post was always conferred on an officer of great skill, experience and long service, and who consequently was capable of instructing others in those branches of the profession in which he had distinguished himself.[9]
+At various locations described by Vitruvius,[citation needed] battles and sieges occurred. He is the only source for the siege of Larignum in 56 BC.[10] Of the battlegrounds of the Gallic War there are references to: the siege and massacre of the 40,000 residents at Avaricum in 52 BC; Vercingetorix commented that "the Romans did not conquer by valor nor in the field, but by a kind of art and skill in assault, with which they [Gauls] themselves were unacquainted."[11] The broken siege at Gergovia in 52 BC. The circumvallation and Battle of Alesia in 52 BC; the women and children of the encircled city were evicted to conserve food, where they starved to death between the opposing walls of the defenders and besiegers. And the siege of Uxellodunum in 51 BC. These are all sieges of large Gallic oppida. Of the sites involved in Caesar's civil war, we find the Siege of Massilia in 49 BC,[12] the Battle of Dyrrhachium of 48 BC (modern Albania), the Battle of Pharsalus in 48 BC (Hellas – Greece), the Battle of Zela of 47 BC (modern Turkey) and the Battle of Thapsus in 46 BC in Caesar's African campaign.[13] A legion that fits the same sequence of locations is the Legio VI Ferrata, of which ballista would be an auxiliary unit.
+Mainly known for his writings, Vitruvius was himself an architect. In Roman times architecture was a broader subject than at present including the modern fields of architecture, construction management, construction engineering, chemical engineering, civil engineering, materials engineering, mechanical engineering, military engineering and urban planning;[14] architectural engineers consider him the first of their discipline, a specialization previously known as technical architecture. Frontinus mentions him in connection with the standard sizes of pipes.[15] He is often credited as father of architectural acoustics for describing the technique of echeas placement in theaters.[16] The only building, however, that we know Vitruvius to have worked on is one he tells us about,[17] a basilica completed in 19 BC.[18] It was built at Fanum Fortunae, now the modern town of Fano. The Basilica di Fano (to give the building its Italian name) has disappeared so completely that its very site is a matter of conjecture, although various attempts have been made to visualise it.[19] The early Christian practice of converting Roman basilicae (public buildings) into cathedrals implies the basilica may be incorporated into the cathedral located in Fano.
+In later years the emperor Augustus, through his sister Octavia Minor, sponsored Vitruvius, entitling him with what may have been a pension to guarantee financial independence.[1] Whether De architectura was written by one author or is a compilation completed by subsequent librarians and copyists, remains an open question. The date of his death is unknown, which suggests that he had enjoyed only little popularity during his lifetime.[citation needed]
+Gerolamo Cardano, in his 1552 book De subtilitate rerum, ranks Vitruvius as one of the 12 persons whom he supposes to have excelled all men in the force of genius and invention; and would not have scrupled to have given him the first place, if it could be imagined that he had delivered nothing but his own discoveries.[20]
+De Architectura[edit]
+Roman house plan after Vitruvius
+Further information: Mathematics and architecture
+Vitruvius is the author of De architectura, known today as The Ten Books on Architecture,[21] a treatise written in Latin on architecture, dedicated to the emperor Augustus. In the preface of Book I, Vitruvius dedicates his writings so as to give personal knowledge of the quality of buildings to the emperor. Likely Vitruvius is referring to Marcus Agrippa's campaign of public repairs and improvements. This work is the only surviving major book on architecture from classical antiquity. According to Petri Liukkonen, this text "influenced deeply from the Early Renaissance onwards artists, thinkers, and architects, among them Leon Battista Alberti (1404–1472), Leonardo da Vinci (1452–1519), and Michelangelo (1475–1564)."[13] The next major book on architecture, Alberti's reformulation of Ten Books, was not written until 1452.
+Vitruvius is famous for asserting in his book De architectura that a structure must exhibit the three qualities of firmitas, utilitas, venustas – that is, it must be solid, useful, beautiful. These are sometimes termed the Vitruvian virtues or the Vitruvian Triad. According to Vitruvius, architecture is an imitation of nature. As birds and bees built their nests, so humans constructed housing from natural materials, that gave them shelter against the elements. When perfecting this art of building, the Greeks invented the architectural orders: Doric, Ionic and Corinthian. It gave them a sense of proportion, culminating in understanding the proportions of the greatest work of art: the human body. This led Vitruvius in defining his Vitruvian Man, as drawn later by Leonardo da Vinci: the human body inscribed in the circle and the square (the fundamental geometric patterns of the cosmic order).
+Scope[edit]
+Vitruvius is sometimes loosely referred to as the first architect, but it is more accurate to describe him as the first Roman architect to have written surviving records of his field. He himself cites older but less complete works. He was less an original thinker or creative intellect than a codifier of existing architectural practice. It should also be noted that Vitruvius had a much wider scope than modern architects. Roman architects practised a wide variety of disciplines; in modern terms, they could be described as being engineers, architects, landscape architects, surveyors, artists, and craftsmen combined. Etymologically the word architect derives from Greek words meaning 'master' and 'builder'. The first of the Ten Books deals with many subjects which now come within the scope of landscape architecture.
+In Book I, Chapter 1, titled The Education of the Architect, Vitruvius instructs...
+1. Architecture is a science arising out of many other sciences, and adorned with much and varied learning; by the help of which a judgment is formed of those works which are the result of other arts. Practice and theory are its parents. Practice is the frequent and continued contemplation of the mode of executing any given work, or of the mere operation of the hands, for the conversion of the material in the best and readiest way. Theory is the result of that reasoning which demonstrates and explains that the material wrought has been so converted as to answer the end proposed.
+2. Wherefore the mere practical architect is not able to assign sufficient reasons for the forms he adopts; and the theoretic architect also fails, grasping the shadow instead of the substance. He who is theoretic as well as practical, is therefore doubly armed; able not only to prove the propriety of his design, but equally so to carry it into execution.[22]
+He goes on to say that the architect should be versed in drawing, geometry, optics (lighting), history, philosophy, music, theatre, medicine, and law.
+In Book I, Chapter 3 (The Departments of Architecture), Vitruvius divides architecture into three branches, namely; building; the construction of sundials and water clocks;[23] and the design and use of machines in construction and warfare.[24][25] He further divides building into public and private. Public building includes city planning, public security structures such as walls, gates and towers; the convenient placing of public facilities such as theatres, forums and markets, baths, roads and pavings; and the construction and position of shrines and temples for religious use.[22] Later books are devoted to the understanding, design and construction of each of these.
+Proportions of Man[edit]
+"Vitruvian Man", illustration in the edition of De architectura by Vitruvius; illustrated edition by Cesare Cesariano (1521)
+Vitruvian Man by Leonardo da Vinci, an illustration of the human body inscribed in the circle and the square derived from a passage about geometry and human proportions in Vitruvius' writings
+In Book III, Chapter 1, Paragraph 3, Vitruvius writes about the proportions of man...
+3. Just so the parts of Temples should correspond with each other, and with the whole. The navel is naturally placed in the centre of the human body, and, if in a man lying with his face upward, and his hands and feet extended, from his navel as the centre, a circle be described, it will touch his fingers and toes. It is not alone by a circle, that the human body is thus circumscribed, as may be seen by placing it within a square. For measuring from the feet to the crown of the head, and then across the arms fully extended, we find the latter measure equal to the former; so that lines at right angles to each other, enclosing the figure, will form a square.[26]
+It was upon these writings that Leonardo da Vinci based his Vitruvian Man.
+Vitruvius described the human figure as being the principal source of proportion.
+The drawing itself is often used as an implied symbol of the essential symmetry of the human body, and by extension, of the universe as a whole.[27]
+Lists of names given in Book VII Introduction[edit]
+In the introduction to book seven, Vitruvius goes to great lengths to present why he is qualified to write De Architectura. This is the only location in the work where Vitruvius specifically addresses his personal breadth of knowledge. Similar to a modern reference section, the author's position as one who is knowledgeable and educated is established. The topics range across many fields of expertise reflecting that in Roman times as today construction is a diverse field. Vitruvius is clearly a well-read man.
+In addition to providing his qualification, Vitruvius summarizes a recurring theme throughout the 10 books, a non-trivial and core contribution of his treatise outside simply a construction book. Vitruvius makes the point that the work of some of the most talented are unknown, while many who are of lesser talent but greater political position are famous.[21] This theme runs through Vitruvius’s ten books repeatedly – echoing an implicit prediction that his works and himself will also be unknown. Which was true for over a thousand years after he completed the 10 books.
+Vitruvius illustrates this point by naming what he considers are the most talented individuals in history.[21] Implicitly challenging the reader that they have never heard of some of these people, Vitruvius goes on and predicts that some of these individuals will be forgotten and their works will be lost, while other less deserving political characters of history will be forever remembered with pageantry.
+List of physicists: Thales, Democritus, Anaxagoras, Xenophanes
+List of philosophers: Socrates, Plato, Aristotle, Zeno, Epicurus
+List of kings: Croesus, Alexander the Great, Darius
+On plagiarism: Aristophanes, Ptolemy I Soter, a person named Attalus
+On abusing dead authors: Zoilus Homeromastix, Ptolemy II Philadelphus
+On divergence of the visual rays: Agatharchus, Aeschylus, Democritus, Anaxagoras
+List of writers on temples: Silenus, Theodorus, Chersiphron and Metagenes, Ictinus and Carpion, Theodorus the Phocian, Hermogenes, Arcesius, Satyrus and a person named Pytheos
+List of artists: Leochares, Bryaxis, Scopas, Praxiteles, Timotheus
+List of writers on laws of symmetry: Nexaris, Theocydes, a person named Demophilus, Pollis, a person named Leonidas, Silanion, Melampus, Sarnacus, Euphranor
+List of writers on machinery: Diades of Pella, Archytas, Archimedes, Ctesibius, Nymphodorus, Philo of Byzantium, Diphilus, Democles, Charias, Polyidus of Thessaly, Pyrrus, Agesistratus, Abdaraxus
+List of writers on architecture: Fuficius, Terentius Varro, Publius Septimius (writer)
+List of architects: Antistates, Callaeschrus, Antimachides, Pormus, Cossutius
+List of greatest temple architects: Chersiphron of Gnosus, Metagenes, Demetrius, Paeonius the Milesian, Ephesian Daphnis, Ictinus, Philo, Cossutius, Gaius Muc
+Rediscovery[edit]
+Battle of Thapsus as depicted in an engraving after Andrea Palladio
+The interior of the Pantheon (from an 18th-century painting by Panini). Although built after Vitruvius' death, its excellent state of preservation makes it of great importance to those interested in Vitruvian architecture
+Vitruvius' De architectura was rediscovered in 1414 by the Florentine humanist Poggio Bracciolini. Leon Battista Alberti (1404–1472) publicised it in his seminal treatise on architecture, De re aedificatoria (c. 1450). The first known Latin printed edition was by Fra Giovanni Sulpitius in Rome, 1486.[28][29] Translations followed in Italian (Como, 1521), French (Jean Martin, 1547,[30] English, German (Walter H. Ryff, 1543) and Spanish and several other languages. The original illustrations had been lost and the first illustrated edition was published in Venice in 1511 with woodcut illustrations, based on descriptions in the text, probably by Fra Giovanni Giocondo.[31] Later in the 16th-century Andrea Palladio provided illustrations for Daniele Barbaro's commentary on Vitruvius, published in Italian and Latin versions. The most famous illustration is probably Da Vinci's Vitruvian Man.
+The surviving ruins of Roman antiquity, the Roman Forum, temples, theatres, triumphal arches and their reliefs and statues offered visual examples of the descriptions in the Vitruvian text. Printed and illustrated editions of De Architectura inspired Renaissance, Baroque and Neoclassical architecture. Filippo Brunelleschi, for example, invented a new type of hoist to lift the large stones for the dome of the cathedral in Florence and was inspired by De Architectura as well as surviving Roman monuments such as the Pantheon and the Baths of Diocletian.
+Notable editions[edit]
+Latin
+1800 Augustus Rode, Berlin[32]
+1857 Teubner Edition by Valentin Rose
+1899 Teubner Edition
+1912 Teubner edition at The Latin Library[33]
+Bill Thayer, transcription of the 1912 Teubner Edition[34]
+Italian
+Cesare Cesariano, 1521, Como, Italy, includes illustrations by Cesare Cesariano
+Danielle Barbaro, includes illustration by Andrea Palladio
+French
+Jean Martin, 1547[35]
+Auguste Choisy
+English
+Henry Wotton, 1624
+Joseph Gwilt, 1826
+Bill Thayer transcription of the Gwilt 1826 Edition[22]
+Morris Hickey Morgan, with illustrations by Herbert Langford Warren, 1914, Harvard University Press[36]
+Frank Granger, Loeb Edition, 1931[37]
+Ingrid Rowland, 2001[38]
+Thomas Gordon Smith, The Monacelli Press (January 5, 2004)[39]
+Roman technology[edit]
+Drainage wheel from Rio Tinto mines
+Books VIII, IX and X form the basis of much of what we know about Roman technology, now augmented by archaeological studies of extant remains, such as the water mills at Barbegal in France. The other major source of information is the Naturalis Historia compiled by Pliny the Elder much later in c. 75 AD.
+Machines[edit]
+The work is important for its descriptions of the many different machines used for engineering structures such as hoists, cranes and pulleys, as well as war machines such as catapults, ballistae, and siege engines. As a practising engineer, Vitruvius must be speaking from personal experience rather than simply describing the works of others. He also describes the construction of sundials and water clocks, and the use of an aeolipile (the first steam engine) as an experiment to demonstrate the nature of atmospheric air movements (wind).
+Aqueducts[edit]
+His description of aqueduct construction includes the way they are surveyed, and the careful choice of materials needed, although Frontinus (a general who was appointed in the late 1st century AD to administer the many aqueducts of Rome), writing a century later, gives much more detail of the practical problems involved in their construction and maintenance. Surely Vitruvius' book would have been of great assistance in this. Vitruvius was writing in the 1st century BC when many of the finest Roman aqueducts were built, and survive to this day, such as those at Segovia and the Pont du Gard. The use of the inverted siphon is described in detail, together with the problems of high pressures developed in the pipe at the base of the siphon, a practical problem with which he seems to be acquainted.
+Materials[edit]
+He describes many different construction materials used for a wide variety of different structures, as well as such details as stucco painting. Concrete and lime receive in-depth descriptions.
+Vitruvius is cited as one of the earliest sources to connect lead mining and manufacture, its use in drinking water pipes, and its adverse effects on health. For this reason, he recommended the use of clay pipes and masonry channels in the provision of piped drinking-water.[40]
+Vitruvius is the source for the anecdote that credits Archimedes with the discovery of the mass-to-volume ratio while relaxing in his bath. Having been asked to investigate the suspected adulteration of the gold used to make a crown, Archimedes realised that the crown's volume could be measured exactly by its displacement of water, and ran into the street with the cry of Eureka!
+Dewatering machines[edit]
+Design for an Archimedean water-screw
+He describes the construction of Archimedes' screw in Chapter X (without mentioning Archimedes by name). It was a device widely used for raising water to irrigate fields and drain mines. Other lifting machines he mentions include the endless chain of buckets and the reverse overshot water-wheel. Remains of the water wheels used for lifting water were discovered when old mines were re-opened at Rio Tinto in Spain, Rosia Montana in Romania and Dolaucothi in west Wales. The Rio Tinto wheel is now shown in the British Museum, and the Dolaucothi specimen in the National Museum of Wales.
+Surveying instruments[edit]
+That he must have been well practised in surveying is shown by his descriptions of surveying instruments, especially the water level or chorobates, which he compares favourably with the groma, a device using plumb lines. They were essential in all building operations, but especially in aqueduct construction, where a uniform gradient was important to the provision of a regular supply of water without damage to the walls of the channel. He also developed one of the first odometers, consisting of a wheel of known circumference that dropped a pebble into a container on every rotation.
+Central heating[edit]
+Ruins of the hypocaust under the floor of a Roman villa. The part under the exedra is covered.
+He describes the many innovations made in building design to improve the living conditions of the inhabitants. Foremost among them is the development of the hypocaust, a type of central heating where hot air developed by a fire was channelled under the floor and inside the walls of public baths and villas. He gives explicit instructions how to design such buildings so that fuel efficiency is maximised, so that for example, the caldarium is next to the tepidarium followed by the frigidarium. He also advises on using a type of regulator to control the heat in the hot rooms, a bronze disc set into the roof under a circular aperture which could be raised or lowered by a pulley to adjust the ventilation. Although he does not suggest it himself, it is likely that his dewatering devices such as the reverse overshot water-wheel was used in the larger baths to lift water to header tanks at the top of the larger thermae, such as the Baths of Diocletian. The one which was used in Bath of Caracalla for grinding flour.
+Legacy[edit]
+Vitruvian Man - a drawing by Leonardo da Vinci
+Vitruvius Britannicus - 18th century work on British architecture named after Vitruvius.
+Den Danske Vitruvius - 18th century work on Danish architecture - inspired by Vitruvius Britannicus.[41]
+The American Vitruvius - 20th century work on civil architecture by Werner Hegemann
+William Vitruvius Morrison (1794–1838), the son of Irish architect Sir Richard Morrison and himself a noted architect of great houses, bridges, court houses and prisons.
+A small lunar crater has been named after Vitruvius and also an elongated lunar mountain Mons Vitruvius close-by.
+The Design Quality Indicator (DQI) tool for buildings uses Vitruvius's principles.
+The leader of the Master Builders in The Lego Movie is named Vitruvius.
+See also[edit]
+Archimedes
+Aristotle
+Ctesibius
+Colen Campbell
+Frontinus
+Pliny the Elder
+Roman architecture
+Roman aqueducts
+Roman engineering
+Roman technology
+Vitruvian man
+Vitruvian scroll
+Lucius Vitruvius Cordo
+References[edit]
+^ a b De Arch. Book 1, preface. section 2
+^ Yann Le Bohec "The Imperial Roman Army" Routledge, pg 49 2000 ISBN 0-415-22295-8 [1]
+^ Pais, E. Ricerche sulla storia e sul diritto publico di Roma (Rome, 1916).
+^ History of ancient North Africa: CONFLICTS AND BATTLES OF THE HUMANITY, Ancient North Africa until the Roman conquest, last assessed 10/09/2011. http://miltiae.pagesperso-orange.fr/GB/Ancient_North_Africa.htm
+^ Vitruvius Pollio http://www.encyclopedia.com/topic/Vitruvius.aspx
+^ Moore, Richard E. M. (January 1968). "A Newly Observed Stratum in Roman Floor Mosaics". American Journal of Archaeology. Archaeological Institute of America. 72 (1): 57–68. JSTOR 501823. 
+^ Niccolò Marcello Venuti Description of the First Discoveries of the Ancient City of Heraclea, Found Near Portici A Country Palace Belonging to the King of the Two Sicilies published by R. Baldwin, translated by Wickes Skurray, 1750. p62 [2]
+^ Trumbull, David (2007). "Classical Sources, Greek and Roman Esthetics Reading: The Grand Tour Reader; Vitruvius Background: Life of Marcus Vitruvius Pollio (c. 90–20 BC)". An Epitome of Book III of Vitruvius. Retrieved 2009-11-18. [dead link]
+^ Flavius Vegetius Renatus The Military Institutions of the Romans Translated from the Latin by Lieutenant John Clarke, Text written in 390 BC. British translation published in 1767. Copyright Expired, http://www.digitalattic.org/home/war/vegetius/
+^ Planning the twentieth-century American city By Mary Corbin Sies, Christopher Silver, JHU Press, 1996, page 42. https://books.google.com/books?id=TUpLvJrKc64C&lpg=PA42&dq=battle%20of%20Larignum&pg=PA42#v=onepage&q=battle%20of%20Larignum&f=false
+^ Caesar, De bello Gallico 7.29
+^ Vitruvius mentions Massilia several times, and the siege itself in Book X.
+^ a b Liukkonen, Petri. "Vitruvius". Books and Writers (kirjasto.sci.fi). Finland: Kuusankoski Public Library. Archived from the original on 10 February 2015. 
+^ The "Vitruvius Project" at Carnegie Mellon University, Computer Science Department This software engineering project sees itself in the Vitruvian tradition. Accessed August 2008
+^ De Aquis, I.25 (Latin) ebook of work also known as De aquaeductu, accessed August 2008
+^ Reed Business Information (21 November 1974). New Scientist. Reed Business Information. pp. 552–. ISSN 0262-4079. Retrieved 6 May 2013. 
+^ (De Arch., Book V.i.6) (Latin) but with link to English translation, accessed August 2008
+^ Fausto Pugnaloni and Paolo Clini "Vitruvius Basilica in Fano, Italy, journey through the virtual space of the reconstructed memory" GISdevelopment.net last accessed 3/8/2008 [3]
+^ P. Clini "VITRUVIUS’ BASILICA AT FANO: THE DRAWINGS OF A LOST BUILDING FROM DE ARCHITECTURA LIBRI DECEM" The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Vol. XXXIV, Part 5/W12 pp121 – 126 2002 [4]
+^ Charles Hutton, Mathematical and Philosophical Dictionary (1795)
+^ a b c Vitruvius, Pollio (transl. Morris Hicky Morgan, 1960), The Ten Books on Architecture. Courier Dover Publications. ISBN 0-486-20645-9.
+^ a b c http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Vitruvius/1*.html
+^ Turner, A. J., in Folkrets, M., and Lorch, R., (Editors), "Sic itur ad astra", Studien zur Geschichte der Mathematik und Naturwissenschaften - Festschrift für den Arabisten Paul Kunitzsch zum 70, Harrassowitz Verlag, 2000, p.563 ff.
+^ Long, Pamela O., in Galison, Peter, and Thompson, Emily (Editors), The Architecture of Science, The MIT Press, 1999, p. 81
+^ Borys, Ann Marie, Vincenzo Scamozzi and the Chorography of Early Modern Architecture, Routledge, 2014, pp. 85, 179
+^ http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Vitruvius/3*.html
+^ "Bibliographic reference". The Whole Universe Book. Retrieved 2011-11-30. 
+^ http://www.palladiancenter.org/predecessors.html
+^ http://www.historyofinformation.com/index.php?id=2840
+^ Architectura – Les livres d'Architecture (French)
+^ Architectura – Les livres d'Architecture; Center for Palladian Studies in America, Inc., Palladio's Literary Predecessors
+^ http://www.hs-augsburg.de/~harsch/Chronologia/Lsante01/Vitruvius/vit_ar00.html
+^ http://www.thelatinlibrary.com/vitruvius.html
+^ http://penelope.uchicago.edu/Thayer/L/Roman/Texts/Vitruvius/1*.html
+^ http://homes.chass.utoronto.ca/~wulfric/vitruve/ http://homes.chass.utoronto.ca/~wulfric/vitruve/
+^ Morgan, Morris Hickey (1914). Vitruvius: The Ten Books on Architecture. Dover. p. 331. ISBN 0486206459. 
+^ Granger, Frank (1931). Vitruvius: On Architecture. Harvard University Press. p. 368. ISBN 0674992776. 
+^ Rowland, Ingrid (2001). Vitruvius: 'Ten Books on Architecture'. Cambridge University Press. p. 352. ISBN 0521002923. 
+^ Smith, Thoma Granger (2004). Vitruvius on Architecture. The Monacelli Press. p. 224. ISBN 1885254989. 
+^ Hodge, Trevor, A. (October 1981). "Vitruvius, Lead Pipes and Lead Poisoning". American Journal of Archaeology. Archaeological Institute of America. 85 (4): 486–491. JSTOR 504874.  CS1 maint: Multiple names: authors list (link)
+^ "Den Danske Vitruvius". AOK. Retrieved 2009-06-23. 
+Sources[edit]
+Indra Kagis McEwen, Vitruvius: Writing the Body of Architecture. Cambridge, MA: MIT Press, 2004. ISBN O-262-63306-X
+B. Baldwin, "The Date, Identity, and Career of Vitruvius." In Latomus 49 (1990), 425–34.
+Kai Brodersen & Christiane Brodersen: Cetius Faventinus. Das römische Eigenheim / De architectura privata, Latin and German. Wiesbaden: Marix 2015, ISBN 978-3-7374-0998-8
+External links[edit]
+Library resources about
+Vitruvius
+Resources in your library
+Resources in other libraries
+Media related to Vitruvius at Wikimedia Commons
+Works written by or about Vitruvius at Wikisource
+ Latin Wikisource has original text related to this article: Marcus Vitruvius Pollio
+Quotations related to Vitruvius at Wikiquote
+Works by Vitruvius at Project Gutenberg
+Works by or about Vitruvius at Internet Archive
+Works by Vitruvius at LibriVox (public domain audiobooks)
+The Ten Books on Architecture online: cross-linked Latin text and English translation
+The Ten Books on Architecture at the Perseus Classics Collection. Latin and English text, but the Latin text is unavailable. Images. Latin text has hyperlinks to pop-up dictionary.
+Palladio's Literary Predecessors
+Latin text, version 2
+An Abridgment of the Architecture of Vitruvius
+Ten Books on Architecture at Project Gutenberg (Morris Hicky Morgan translation with illustrations)
+Vitruvius online
+Leonardo da Vincis Vitruvian man as an algorithm for the approximation of the squaring of the circle
+Vitruvius' theories of beauty – a learning resource from the British Library
+Shockwave-Animation: The Odometer of Vitruv
+Discussion of the inventions of Vitruvius
+Online Galleries, History of Science Collections, University of Oklahoma Libraries[dead link] High resolution images of works by Vitruvius in .jpg and .tiff format.
+digital scans in high resolution of 73 editions of Vitruvius from 1497 to 1909 from the Werner Oechslin Library, Einsiedeln, Switzerland
+Vitruvius Summary
+VITRUVII, M. De architectura. Naples, (ca.1480). At Somni.
+v
+t
+e
+Ancient Rome topics
+Outline
+Timeline
+Epochs
+Foundation
+Kingdom (overthrow)
+Republic
+Empire
+(Pax Romana
+Principate
+Dominate)
+Western Empire (fall
+historiography of the fall)
+Eastern (Byzantine) Empire (decline
+fall)
+Constitution
+History
+Kingdom
+Republic
+Empire
+Late Empire
+Senate
+Legislative assemblies (Curiate
+Centuriate
+Tribal
+Plebeian)
+Executive magistrates
+SPQR
+Government
+Curia
+Forum
+Cursus honorum
+Collegiality
+Emperor
+Legatus
+Dux
+Officium
+Praefectus
+Vicarius
+Vigintisexviri
+Lictor
+Magister militum
+Imperator
+Princeps senatus
+Pontifex Maximus
+Augustus
+Caesar
+Tetrarch
+Optimates
+Populares
+Province
+Magistrates
+Ordinary
+Tribune
+Quaestor
+Aedile
+Praetor
+Consul
+Censor
+Promagistrate
+Governor
+Extraordinary
+Dictator
+Magister Equitum
+Decemviri
+Consular Tribune
+Triumvir
+Rex
+Interrex
+Law
+Twelve Tables
+Mos maiorum
+Citizenship
+Auctoritas
+Imperium
+Status
+Litigation
+Military
+Borders
+Establishment
+Structure
+Campaigns
+Political control
+Strategy
+Engineering
+Frontiers and fortifications (castra)
+Technology
+Army (Legion
+Infantry tactics
+Personal equipment
+Siege engines)
+Navy (fleets)
+Auxiliaries
+Decorations and punishments
+Hippika gymnasia
+Economy
+Agriculture
+Deforestation
+Commerce
+Finance
+Currency
+Republican currency
+Imperial currency
+Technology
+Abacus
+Numerals
+Civil engineering
+Military engineering
+Military technology
+Aqueducts
+Bridges
+Circus
+Concrete
+Domes
+Forum
+Metallurgy
+Roads
+Sanitation
+Thermae
+Culture
+Architecture
+Art
+Bathing
+Calendar
+Clothing
+Cosmetics
+Cuisine
+Hairstyles
+Education
+Literature
+Music
+Mythology
+Religion
+Romanization
+Sexuality
+Theatre
+Wine
+Society
+Patricians
+Plebs
+Conflict of the Orders
+Secessio plebis
+Equites
+Gens
+Tribes
+Naming conventions
+Demography
+Women
+Marriage
+Adoption
+Slavery
+Bagaudae
+Language (Latin)
+History
+Alphabet
+Versions (Old
+Classical
+Vulgar
+Late
+Medieval
+Renaissance
+New
+Contemporary
+Ecclesiastical)
+Romance languages
+Writers
+Apuleius
+Caesar
+Catullus
+Cicero
+Ennius
+Horace
+Juvenal
+Livy
+Lucan
+Lucretius
+Martial
+Ovid
+Petronius
+Phaedrus
+Plautus
+Pliny the Elder
+Pliny the Younger
+Propertius
+Quintilian
+Quintus Curtius Rufus
+Sallust
+Seneca
+Statius
+Suetonius
+Tacitus
+Terence
+Tibullus
+Marcus Terentius Varro
+Virgil
+Vitruvius
+Major cities
+Alexandria
+Antioch
+Aquileia
+Berytus
+Bononia
+Carthage
+Constantinopolis
+Eboracum
+Leptis Magna
+Londinium
+Lutetia
+Mediolanum
+Pompeii
+Ravenna
+Roma
+Smyrna
+Vindobona
+Volubilis
+Lists and other
+topics
+Wars and battles
+Generals
+Legions
+Emperors
+Geographers
+Cities and towns
+Institutions
+Laws
+Consuls
+Tribunes
+Distinguished women
+Nomina
+Gentes
+Climate
+Legacy
+Fiction / Films
+Ancient Rome Portal
+Authority control
+WorldCat Identities
+VIAF: 46768430
+LCCN: n79043913
+ISNI: 0000 0001 2130 962X
+GND: 118627252
+SELIBR: 200265
+SUDOC: 027648869
+BNF: cb11928567v (data)
+ULAN: 500014983
+NLA: 35583220
+NKC: jn19981002335
+ICCU: IT\ICCU\CFIV\072607
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Vitruvius&oldid=762927553"
+Categories: 1st-century BC births1st-century BC Romans1st-century deathsAncient Roman architectsRoman military writersAncient Roman civil engineersAncient Roman military engineersAncient Roman soldiersArchitectural theoreticiansClassical antiquarian architecture writersClassical Latin literatureLatin-language writersGolden Age Latin writersHistory of miningRoman people of the Gallic WarsJulius CaesarHidden categories: All articles with dead external linksArticles with dead external links from June 2016Articles with Latin-language external linksArticles with French-language external linksCS1 maint: Multiple names: authors listPages using ISBN magic linksUse dmy dates from August 2013All articles with unsourced statementsArticles with unsourced statements from December 2010Articles with unsourced statements from September 2007Articles with Project Gutenberg linksArticles with Internet Archive linksArticles with LibriVox linksArticles with dead external links from August 2016Wikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with SELIBR identifiersWikipedia articles with BNF identifiersWikipedia articles with ULAN identifiersWikipedia articles with NLA identifiersWikipedia articles with SBN identifiersYear of death unknown
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+Article
+Talk
+Variants
+Views
+Read
+Edit
+View history
+More
+Search
+Navigation
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+Interaction
+HelpAbout WikipediaCommunity portalRecent changesContact page
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page
+Print/export
+Create a bookDownload as PDFPrintable version
+In other projects
+Wikimedia CommonsWikiquoteWikisource
+Languages
+العربيةAsturianuAzərbaycancaБеларускаяБеларуская (тарашкевіца)‎БългарскиBosanskiCatalàČeštinaDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisGaeilgeGalego한국어Հայերենहिन्दीHrvatskiIdoBahasa IndonesiaInterlinguaÍslenskaItalianoעבריתLatinaLatviešuLietuviųMagyarМакедонскиMalagasyമലയാളംमराठीNederlandsनेपाल भाषा日本語Norsk bokmålOccitanPolskiPortuguêsRomânăРусскийScotsSicilianuSimple EnglishSlovenčinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaதமிழ்ไทยTürkçeУкраїнськаTiếng ViệtWinaray粵語中文
+Edit links
+This page was last modified on 31 January 2017, at 13:33.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view

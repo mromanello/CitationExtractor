@@ -1,0 +1,181 @@
+Euclide - Wikipedia
+Euclide
+Da Wikipedia, l'enciclopedia libera.
+Vai a:					navigazione, 					ricerca
+Disambiguazione – Se stai cercando il filosofo greco, vedi Euclide di Megara.
+Disambiguazione – Se stai cercando il nome proprio di persona, vedi Euclide (nome).
+Euclide
+Euclide (in greco antico: Εὐκλείδης, Eukléidēs; ... – ...) è stato un matematico greco antico. È stato sicuramente il più importante matematico della storia antica, e uno dei più importanti e riconosciuti di ogni tempo e luogo.
+Euclide è noto soprattutto come autore degli Elementi, la più importante opera di geometria dell'antichità; tuttavia di lui si sa pochissimo. Fu attivo ad Alessandria durante il regno di Tolomeo I (323–283 a.C.). Euclide è menzionato in un brano di Pappo, ma la testimonianza più importante su cui si basa la storiografia che lo riguarda viene da Proclo, che lo colloca tra i più giovani discepoli di Platone.
+« Non molto più giovane di loro, Ermotimo di Colofone e Filippo di Mende, Euclide; egli raccolse gli "Elementi", ne ordinò in sistema molti di Eudosso, ne perfezionò molti di Teeteto, e ridusse a dimostrazioni inconfutabili quelli che suoi predecessori avevano poco rigorosamente dimostrato. Visse al tempo del primo Tolomeo, perché Archimede, che visse subito dopo Tolomeo primo, cita Euclide; e anche si racconta che Tolomeo gli chiese una volta se non ci fosse una via più breve degli Elementi per apprendere la geometria; ed egli rispose che per la geometria non esistevano vie fatte per i re. Euclide era dunque più giovane dei discepoli di Platone, ma più anziano di Eratostene e di Archimede che erano fra loro contemporanei, come afferma in qualche luogo Eratostene. Per le idee Euclide era platonico e aveva molto familiare questa filosofia, tanto che si propose come scopo finale di tutta la raccolta degli Elementi la costruzione delle figure chiamate platoniche »
+(Proclo, Comm. Eucl., II, 68)
+Controversa è invece la notizia secondo cui sarebbe stato un platonico convinto. Oggi prevale anzi la tendenza a considerare questo giudizio come privo di fondamento[1] e dettato verosimilmente dal desiderio di Proclo di annettere il più grande matematico dell'antichità alla schiera dei neoplatonici a cui lo stesso Proclo apparteneva.
+Indice
+1 Opere
+1.1 Gli Elementi
+1.1.1 Visione moderna
+1.2 Altre opere
+2 Teoremi di Euclide
+2.1 Il primo teorema di Euclide
+2.2 Il secondo teorema di Euclide
+3 I cinque postulati di Euclide
+4 Edizioni e traduzioni
+5 Note
+6 Bibliografia
+7 Voci correlate
+8 Altri progetti
+9 Collegamenti esterni
+Opere[modifica | modifica wikitesto]
+Gli Elementi[modifica | modifica wikitesto]
+Lo stesso argomento in dettaglio: Elementi (Euclide).
+Una rappresentazione di Euclide di Raffaello Sanzio nella Scuola di Atene del 1509.
+Euclide, cui venne attribuito l'epiteto di στοιχειωτής (compositore degli Elementi), formulò la prima rappresentazione organica e completa della geometria nella sua fondamentale opera: gli Elementi, divisa in 13 libri.
+I primi 4 parlano della planimetria elementare; il 5º ed il 6º delle principali proprietà dei segmenti e dei poligoni relativi alle proporzioni; dal 7º al 10º libro dell'aritmetica dei numeri razionali ed irrazionali; gli ultimi libri della geometria solida.
+Euclidis quae supersunt omnia, 1704
+Ogni libro inizia con una pagina contenente delle affermazioni che possono essere considerate come una specie di definizioni che servono a chiarire i concetti successivi; esse sono seguite da altre proposizioni che sono invece veri e propri problemi o teoremi: questi si differenziano fra di loro per il modo con cui vengono enunciati e per la frase rituale con cui si chiudono.
+Questo testo è stato tramandato grazie alla prima ricostruzione che ne fece Teone di Alessandria, che fu tradotta in latino da Adelardo di Bath. Nel 1270, la traduzione di Adelardo fu riveduta, anche alla luce di altre fonti arabe (a loro volta derivate da altre versioni greche del manoscritto di Teone) da Campano di Novara. Questa versione (o una copia di una copia) venne stampata a Venezia nel 1482.
+Successivamente, sono state ritrovate altre versioni greche del manoscritto di Teone e una copia greca che probabilmente è precedente a quella di Teone. La ricostruzione attuale si basa sulla versione del filologo danese J. L. Heiberg risalente al 1880 e su quella dello storico inglese T. L. Heath del 1908. La prima traduzione in lingua cinese dal latino fu opera del gesuita Matteo Ricci, nel 1607.
+La prima edizione italiana è dovuta al matematico italiano Federigo Enriques e risale al 1935. Nel 1970 compare nei tipi della UTET un'altra versione italiana, tradotta da Lamberto Maccioni e commentata da Attilio Frajese.
+Secondo alcune fonti, gli Elementi non è tutta opera del solo Euclide: egli ha raccolto insieme, rielaborandolo e sistemandolo assiomaticamente, lo scibile matematico disponibile nella sua epoca. La sua opera è stata considerata per oltre 20 secoli un testo esemplare per chiarezza e rigore espositivo, e può considerarsi il testo per l'insegnamento della matematica e della precisione argomentativa di maggior successo della storia, ovvero il testo più letto dopo la Bibbia.
+Gli Elementi non sono un compendio della matematica dell'epoca, bensì un manuale introduttivo che abbraccia tutta la matematica "elementare", cioè l'aritmetica (la teoria dei numeri), la geometria sintetica (dei punti, delle linee, dei piani, dei cerchi e delle sfere) e l'algebra (non nel senso moderno dell'algebra simbolica, ma di un equivalente in termini geometrici).
+Di quest'opera non ci sono pervenute copie dirette; nella versione che ci è pervenuta, il trattato euclideo si limita a presentare una sobria e logica esposizione degli elementi fondamentali della matematica elementare.
+Molte edizioni antiche contengono altri due libri che la critica più recente attribuisce rispettivamente a Ipsicle (II secolo a.C.) e a Isidoro di Mileto (IV secolo d.C.).
+Visione moderna[modifica | modifica wikitesto]
+Euclide
+Nel 1899 David Hilbert si pone il problema di dare un fondamento assiomatico rigoroso alla geometria, ossia di descrivere la geometria euclidea senza lasciare nessun assioma inespresso. Giunge così a definire 28 assiomi, espressi nel suo lavoro Grundlagen der Geometrie (fondamenti di geometria). Molti di questi assiomi sono assunti implicitamente da Euclide negli Elementi: ad esempio, Euclide non dice mai espressamente "esiste almeno un punto esterno alla retta", o "dati tre punti non allineati, esiste un solo piano che li contiene", eppure li utilizza implicitamente in molte dimostrazioni.
+Prendendo spunto da Hilbert, e ispirandosi allo spirito di Euclide, il matematico "virtuale" Nicolas Bourbaki, frutto della collaborazione di alcuni dei migliori matematici attivi dal 1935 al 1975, compone la monumentale opera "Elementi di matematica", in 11 volumi e decine di migliaia di pagine, dando una trattazione assiomatica ai vari rami della matematica. Tuttavia, per il teorema di incompletezza di Gödel, nessuna assiomatizzazione della matematica che contenga almeno l'aritmetica può essere completa.
+Altre opere[modifica | modifica wikitesto]
+Un frammento di papiro contenente alcuni elementi della geometria di Euclide
+Frontespizio de La prospettiva (Da BEIC, biblioteca digitale.)
+Euclide fu autore di altre opere:
+i Dati, strettamente legati ai primi 6 libri degli Elementi
+i Porismi, in 3 libri, giunti fino a noi grazie al riassunto che ne fece Pappo di Alessandria
+i Luoghi superficiali, andato perduto
+le Coniche, andato perduto
+l'Ottica
+la Catottrica
+i Fenomeni, descrizione della sfera celeste
+Sezione del Canone, trattato di musica
+Introduzione armonica, trattato di musica
+Da lui prendono il nome la geometria euclidea e gli spazi euclidei.
+Teoremi di Euclide[modifica | modifica wikitesto]
+Solo nei 13 libri degli Elementi Euclide enuncia e dimostra ben 465 Proposizioni o Teoremi, senza contare i lemmi e i corollari. A questi vanno aggiunte le Proposizioni contenute in altre opere. I due teoremi che nei manuali scolastici di geometria vanno sotto il nome di primo e secondo teorema di Euclide, sono in realtà dei semplici corollari della Proposizione 8 del VI libro, che nel testo originale è così enunciata:
+« Se in un triangolo rettangolo si conduce la perpendicolare dall'angolo retto alla base, i triangoli così formati saranno simili al dato, e simili tra loro »
+(Euclide [2])
+Quelli che seguono sono invece i due enunciati chiamati "Teoremi di Euclide" nei manuali moderni.
+Il primo teorema di Euclide[modifica | modifica wikitesto]
+« In un triangolo rettangolo ogni cateto è medio proporzionale tra l'ipotenusa e la sua proiezione sull'ipotenusa »
+Lo stesso teorema si può esprimere geometricamente come segue:
+« In un triangolo rettangolo il quadrato costruito su un cateto è equivalente al rettangolo che ha per dimensioni la sua proiezione sull'ipotenusa e l'ipotenusa stessa »
+La proporzione invece è
+i
+:
+c
+=
+c
+:
+p
+{\displaystyle i:c=c:p}
+(con i=ipotenusa e c=cateto p=proiezione del cateto)
+Il secondo teorema di Euclide[modifica | modifica wikitesto]
+« In un triangolo rettangolo l'altezza relativa all'ipotenusa è medio proporzionale tra le proiezioni dei cateti sull'ipotenusa »
+Il secondo teorema può anche essere espresso come:
+« In ogni triangolo rettangolo il quadrato costruito sull'altezza relativa all'ipotenusa è equivalente al rettangolo avente i lati congruenti alle proiezioni dei cateti sull'ipotenusa »
+I cinque postulati di Euclide[modifica | modifica wikitesto]
+Lo stesso argomento in dettaglio: geometria euclidea.
+Tutta la geometria di Euclide si poggia su cinque postulati che il matematico Playfair (1795) espose nel seguente modo:
+È sempre possibile tracciare una retta tra due punti qualunque;
+È sempre possibile prolungare una linea retta;
+È sempre possibile costruire una circonferenza di centro e raggio qualunque (ossia è sempre possibile determinare una distanza maggiore o minore);
+Tutti gli angoli retti sono tra loro congruenti;
+Data una retta e un punto esterno ad essa esiste un'unica retta parallela passante per detto punto.
+Il quinto postulato è conosciuto anche come postulato del parallelismo ed è quello che distingue la geometria euclidea dalle altre, dette non euclidee.
+Negando il quinto postulato nella versione data da Playfair possono ottenersi due diverse geometrie: quella ellittica (nella quale non esistono rette passanti per un punto esterno alla retta data ad essa parallele) e quella iperbolica (nella quale esistono almeno due rette passanti per un punto e parallele alla retta data). L'enunciato originale di Euclide (che è dato alla voce quinto postulato) era invece compatibile con la geometria ellittica.
+Edizioni e traduzioni[modifica | modifica wikitesto]
+Acerbi Fabio (a cura di), Euclide, Tutte le opere. Testo greco a fronte, Bompiani, Milano, 2007, ISBN 978-88-452-5975-3.
+Incardona, F. (1998), (a cura di), Euclide: Ottica. Immagini di una teoria della visione, Roma, Di Renzo Editore, ristampa 2011.
+Frajese A., Maccioni M. (a cura di), Euclide, Gli elementi, Utet, Torino, prima edizione 1976, ristampa 1996
+(IT, EN) Euclide, Gli Elementi d'Euclide e la critica antica e moderna, a cura di Federigo Enriques, traduzione a cura di Maria Teresa Zapelloni, 3 Voll., Bologna, Zanichelli, 1912-1935.
+Note[modifica | modifica wikitesto]
+^ Heath (1956), Enriques, Neugebauer, Russo (1997)(1998), Migliorato-Gentile, Migliorato
+^ Enriques
+Bibliografia[modifica | modifica wikitesto]
+(LA, EL, IT) Euclides, Optica (in italiano), Giunta, 1573.
+Boyer, C. B. (1968), A history of Mathematics, Edizione italiana: Storia della matematica, ISEDI, Milano 1976.
+Heath, T. L. (1931), A history of Greek mathematics, 1, Oxford, 1931.
+Heath, T. L. (1956), The Thirteen Books of Euclid's Elements (3 Volumes), New York, 1956.
+Kline, M., (1972), Mathematical Thought from Ancient to Modern Times, Edizione Italiana: Storia del pensiero matematico, Vol I, Torino: Einaudi, 1991.
+Gian Carlo Duranti (2013), Terzo numero binomiale di Euclide e terza civiltà di Ammon-Zeus, Cesati editore, Firenze 1991.
+Loria G. (1914), Le scienze esatte nell'antichità, Milano, 1914.
+Migliorato, R., Gentile, G, (2005) Euclid and the scientific thought in the third century B.C., Ratio Mathematica, n. 15, (2005), pp. 37–64; disponibile versione italiana on line: Euclide e il pensiero scientifico nel III secolo a.C.[1].
+Migliorato, R. (2005) La rivoluzione euclidea e i paradigmi scientifici nei regni ellenistici, Incontri Mediterranei, n.15, 2005, pp. 3–24. Disponibile on line: [2]
+Neugebauer, O. (1951) The exact sciences in antiquity. Edizione italiana: Le scienze esatte nell'antichità, Milano, 1974.
+Proclo Diadoco, Commento al 1o libro degli Elementi di Euclide, a cura di M. Timpanaro Cardini, Pisa, 1978.
+Lucio Russo, La rivoluzione dimenticata, VII edizione, Milano, Feltrinelli, 2013, ISBN 978-88-07-88323-1.
+Russo, L. (1998), The definitions of fundamental geometric entities contained in book I of Euclid's Elements, Arch. Hist. Exact. Sci., 52, No.3, 1998, pp. 195–219.
+Saccheri G., Euclide liberato da ogni macchia, Saggio introduttivo di I. Toth e E. Cattanei; Traduzione e apparati di P. Frigerio, 2001
+Piergiorgio Odifreddi, Pitagora, Euclide e la nascita del pensiero scientifico Gruppo Editoriale L'Espresso, Roma 2012
+(LA) Euclide, [Opere], Oxoniae, E Theatro Sheldoniano, 1703.
+(LA) Euclide, Elementale geometricum, ex Euclidis geometria, [Wien], Excusum in aedibus Ioannis Singrenij, 1528.
+(LA) Euclide, Optica, in Fiorenza, nella Stamperia de' Giunti, 1573.
+Voci correlate[modifica | modifica wikitesto]
+Primo teorema di Euclide
+Secondo teorema di Euclide
+Geometria euclidea
+Altri progetti[modifica | modifica wikitesto]
+Altri progetti
+Wikisource
+Wikiquote
+Wikimedia Commons
+Wikisource contiene una pagina dedicata a Euclide
+Wikiquote contiene citazioni di o su Euclide
+Wikimedia Commons contiene immagini o altri file su Euclide
+Collegamenti esterni[modifica | modifica wikitesto]
+(EN) John J. O'Connor e Edmund F. Robertson, Euclide, su MacTutor, University of St Andrews, Scotland.
+(EN) Gli elementi di Euclide, aleph0.clarku.edu.
+Euclide, il matematico, matematicadivertente.com.
+Le opere di Euclide, web.unife.it.
+Assiomi della geometria euclidea, cs.unm.edu.
+Controllo di autorità
+VIAF: (EN) 176184097 · LCCN: (EN) n50043341 · ISNI: (EN) 0000 0001 2321 3955 · GND: (DE) 118638955 · BNF: (FR) cb11901997s (data) · BAV: ADV11512299 · CERL: cnp01259923
+Portale Biografie
+Portale Ellenismo
+Portale Matematica
+Estratto da "https://it.wikipedia.org/w/index.php?title=Euclide&oldid=86124161"
+Categorie: Matematici greci antichiEuclideBiblioteca di AlessandriaCategorie nascoste: Anno di morte sconosciutoBioBotVoci con template Bio e nazionalità assente su WikidataVoci con codice VIAFVoci con codice LCCNVoci con codice ISNIVoci con codice GNDVoci con codice BNFVoci con codice BAVVoci con codice CERLVoci biografiche con codici di controllo di autoritàPagine che utilizzano collegamenti magici ISBN
+Menu di navigazione
+Strumenti personali
+Accesso non effettuatodiscussionicontributiRegistratiEntra
+Namespace
+Voce
+Discussione
+Varianti
+Visite
+Leggi
+Modifica
+Modifica wikitesto
+Cronologia
+Altro
+Ricerca
+Navigazione
+Pagina principaleUltime modificheUna voce a casoVetrinaAiutoSportello informazioni
+Comunità
+Portale ComunitàBarIl WikipedianoFai una donazioneContatti
+Strumenti
+Puntano quiModifiche correlatePagine specialiLink permanenteInformazioni sulla paginaElemento WikidataCita questa voce
+Stampa/esporta
+Crea un libroScarica come PDFVersione stampabile
+In altri progetti
+Wikimedia CommonsWikiquoteWikisource
+In altre lingue
+AfrikaansAlemannischአማርኛAragonésالعربيةمصرىঅসমীয়াAsturianuAzərbaycancaБашҡортсаŽemaitėškaБеларускаяБеларуская (тарашкевіца)‎БългарскиभोजपुरीBislamaবাংলাབོད་ཡིགBrezhonegBosanskiБуряадCatalàНохчийнکوردیی ناوەندیČeštinaЧӑвашлаCymraegDanskDeutschΕλληνικάEnglishEsperantoEspañolEestiEuskaraEstremeñuفارسیSuomiVõroFrançaisNordfriiskFryskGaeilge贛語Galegoગુજરાતી客家語/Hak-kâ-ngîעבריתहिन्दीFiji HindiHrvatskiMagyarՀայերենInterlinguaBahasa IndonesiaIlokanoIdoÍslenska日本語PatoisLa .lojban.Basa JawaქართულიQaraqalpaqshaҚазақша한국어RipoarischKurdîКыргызчаLatinaLigureLumbaartLietuviųLatviešuMalagasyМакедонскиമലയാളംМонголमराठीBahasa MelayuMaltiMirandésမြန်မာဘာသာNederlandsNorsk nynorskNorsk bokmålOccitanOromooଓଡ଼ିଆਪੰਜਾਬੀPolskiPiemontèisپنجابیپښتوPortuguêsRomânăРусскийРусиньскыйСаха тылаSicilianuScotsسنڌيSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaSlovenščinaShqipСрпски / srpskiSvenskaKiswahiliதமிழ்తెలుగుТоҷикӣไทยTagalogTürkçeТатарча/tatarçaУкраїнськаاردوOʻzbekcha/ўзбекчаVènetoVepsän kel’Tiếng ViệtVolapükWinaray吴语ХальмгIsiXhosaმარგალურიייִדישYorùbáVahcuengh中文文言粵語
+Modifica collegamenti
+Questa pagina è stata modificata per l'ultima volta il 24 feb 2017 alle 09:22.
+Il testo è disponibile secondo la licenza Creative Commons Attribuzione-Condividi allo stesso modo; possono applicarsi condizioni ulteriori. Vedi le
+Condizioni d'uso per i dettagli. Wikipedia® è un marchio registrato della Wikimedia Foundation, Inc.
+Politica sulla privacy
+Informazioni su Wikipedia
+Avvertenze
+Sviluppatori
+Dichiarazione sui cookie
+Versione mobile

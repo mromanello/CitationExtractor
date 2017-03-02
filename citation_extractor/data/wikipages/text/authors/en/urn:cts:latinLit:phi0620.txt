@@ -1,0 +1,412 @@
+Propertius - Wikipedia
+Propertius
+From Wikipedia, the free encyclopedia
+Jump to:					navigation, 					search
+For the butterfly genus, see Propertius (skipper).
+Auguste Jean Baptiste Vinchon, Propertius and Cynthia at Tivoli
+Sextus Propertius was a Latin elegiac poet of the Augustan age. He was born around 50–45 BC in Assisium and died shortly after 15 BC.[1]
+Propertius' surviving work comprises four books of Elegies (Elegiae). He was a friend of the poets Gallus and Virgil and, with them, had as his patron Maecenas and, through Maecenas, the emperor Augustus. Although Propertius was not as renowned in his own time as other Latin elegists,[2] he is today regarded by scholars as a major poet.[3][4]
+Contents
+1 Life
+2 Poetry
+3 Textual problems
+4 Influence
+5 Modern assessment
+6 Latin editions
+7 Notes
+8 References
+9 External links
+Life[edit]
+Very little information is known about Propertius outside of his own writing. His praenomen "Sextus" is mentioned by Aelius Donatus,[5] a few manuscripts list him as "Sextus Propertius", but the rest of his name is unknown. From numerous references in his poetry[6] it is clear he was born and raised in Umbria; modern Assisi claims for itself the honor of his birthplace. As a boy his father died and the family lost land as part of a confiscation,[7] probably the same one which reduced Virgil's estates when Octavian allotted lands to his veterans in 41 BC. Combining this with cryptic references in Ovid[8] implying he was younger than his contemporary Tibullus, a birthdate after 55 BC seems appropriate.
+After his father's death, Propertius' mother set him on course for a public career,[9] indicating his family still had some wealth, while the abundance of obscure mythology present in his poetry indicates he received a good education. Frequent mention of friends like Tullus,[10] the nephew of Lucius Volcatius Tullus, consul in 33 BC, plus the fact that he lived on Rome's Esquiline Hill[11] indicate he moved among the children of the rich and politically connected during the early part of the 20s BC. It was during this time that he met Cynthia, the older woman[12] who would inspire him to express his poetic genius.
+Propertius published a first book of love elegies in 25 BC, with Cynthia herself as the main theme; the book's complete devotion gave it the natural title Cynthia Monobiblos. The Monobiblos must have attracted the attention of Maecenas, a patron of the arts who took Propertius into his circle of court poets. A second, larger book of elegies was published perhaps a year later, one that includes poems addressed directly to his patron and (as expected) praises for Augustus. The 19th century classics scholar Karl Lachmann argued, based on the unusually large number of poems in this book and Propertius' mention of tres libelli,[13] that the single Book II actually comprises two separate books of poetry mashed together in the manuscript tradition, an idea which the state of the manuscript tradition of "Book II" strongly supports. Propertius most recent and best editor, Paul Fedeli, accepts this hypothesis, as does G.P. Gould, editor of the Loeb edition.
+The publication of a third book came sometime after 23 BC.[14] Its content shows the poet beginning to move beyond simple love themes, as some poems (e.g. III.5) use Amor merely as a starting point for other topics. The book also shows the poet growing tired of the demanding yet fickle Cynthia,[15] and implies a bitter end to their torrid love affair. Book IV, published sometime after 16 BC, displays more of the poet's ambitious agenda, and includes several aetiological poems explaining the origin of various Roman rites and landmarks.
+Book IV, the last Propertius wrote, has only half the number of poems as Book I. Given the change in direction apparent in his poetry, scholars assume only his death a short time after publication prevented him from further exploration; the collection may in fact have been published posthumously. It is also possible that Propertius had children, either with Cynthia or a later liaison.[16] An elegy of Ovid dated to 2 BC makes it clear that Propertius was dead by this time.
+Poetry[edit]
+Propertius' fame rests on his four books of elegies, totaling around 92 poems (the exact number cannot be known as over the intervening years, scholars have divided and regrouped the poems creating doubt as to the precise number). All his poems are written using the elegiac couplet, a form in vogue among the Roman social set during the late 1st century BC.
+Like nearly all the elegists, Propertius' work is dominated by the figure of a single woman, one he refers to throughout his poetry by the pseudonym Cynthia. She is named in over half the elegies of the first book and appears indirectly in several others, right from the first word of the first poem in the Monobiblos:
+Cynthia prima suis miserum me cepit ocellis,
+contactum nullis ante cupidinibus.
+ 
+Cynthia first captivated wretched me with her eyes,
+I who had never before been touched by Cupid.
+—(I.1.1-2)
+Apuleius[17] identifies her as a woman named Hostia, and Propertius suggests[18] she is a descendent of the Roman poet Hostius. Scholars guess that she was probably a courtesan. Propertius frequently compliments her as docta puella 'learned girl',[19] and, like Sulpicia, she herself was a writer of verse.[20] Their affair veers wildly between emotional extremes, and as a lover she clearly dominates his life at least through the publication of the third book:
+cuncta tuus sepelivit amor, nec femina post te
+ulla dedit collo dulcia vincla meo.
+ 
+Thy love has buried all others, nor has any woman after thee
+put sweet fetters upon my neck.
+—(III.15.11-2)
+It is difficult to precisely date many of Propertius' poems, but they chronicle the kind of declarations, passions, jealousies, quarrels, and lamentations that were commonplace subjects among the Latin elegists. The last two poems in Book III seem to indicate a final break with her (versibus insignem te pudet esse meis - "It is a shame that my verses have made you famous"[21]), and Cynthia died some time before the publication of the final book IV. In this last book Cynthia is the subject of only two poems, best regarded as a postscript. The bi-polar complexity of the relationship is amply demonstrated in a poignant, if amusing, poem from the final book. Cynthia's ghost addresses Propertius from beyond the grave with criticism (among other things) that her funeral was not lavish enough, yet the longing of the poet remains in the final line inter complexus excidit umbra meos. - "Her shade then slipped away from my embrace."[22]
+Book IV strongly indicates Propertius was planning a new direction for his poetry. The book includes several aetiological poems which, in reviewing the mythological origins of Rome and its landmarks, can also be read as critical—even vaguely subversive—of Augustus and his agenda for the new Rome. The position is currently a subject of debate among modern classicists.[23] The final poem[24] is a touching address by the recently deceased Cornelia consoling her husband Paullus and their three children. Although the poem (given Cornelia's connection to Augustus' family) was most likely an imperial commission, its dignity, nobility, and pathos have led critics to call it the "queen of the elegies", and it is commonly considered the best in the collection.
+Propertius' style is marked by seemingly abrupt transitions (in the manner of Latin neoteric poetry) and a high and imaginative allusion, often to the more obscure passages of Greek and Roman myth and legend. His idiosyncratic use of language, together with the corrupted state of the text, have made his elegies a challenge to edit; among the more famous names who have offered criticism of and emendations to the text have been the classicist John Percival Postgate and the English poet A. E. Housman.
+Textual problems[edit]
+The text contains many syntactic, organizational and logical problems as it has survived. Some of these are no doubt exacerbated by Propertius' bold and occasionally unconventional use of Latin. Others have led scholars to alter and sometimes rearrange the text as preserved in the manuscripts.
+A total of 146 Propertius manuscripts survive, the oldest of which dates from the 12th century. However, some of the poems in these manuscripts appear disjointed, such as I.8, which begins as a plea for Cynthia to abandon a planned sea voyage, then closes with sudden joy that the voyage has been called off. This poem has therefore been split by most scholars into a I.8a (comprising the first 26 lines) and I.8b (lines 27-46). More complicated organizational problems are presented by poems like II.26, a confusing piece in which Propertius first (1) dreams of Cynthia being shipwrecked, and then (2) praises Cynthia's faithfulness. Following this, he (3) declares that she plans to sail and he will come along, (4) shifts to the couple together on the shore, and then (5) quickly has them back on-board ship, ready to face the potential dangers of the sea. The images seem to conflict logically and chronologically, and have led different commentators to rearrange the lines or assume some lacuna in the text.
+More modern critics[25] have pointed out that all the proposed rearrangements assume Propertius' original poetry adhered strictly to the classical literary principles as set down by Aristotle, and so the apparent jumble is a result of manuscript corruptions. Another possibility is that Propertius was deliberately presenting disjointed images in violation of principles such as the Classical Unities, a theory which argues for different unifying structures in Propertius' elegies. This interpretation also implies that Propertius' style represented a mild reaction against the orthodoxy of classical literary theory. However, although these theories may have some bearing on issues of continuity in the other three surviving books of Propertius, modern philological scholarship tends toward a consensus that the extant text "Book Two" in fact represents the conflated remains of what were originally two books of poems.
+Influence[edit]
+Propertius himself says he was popular and even scandalous in his own day.[26] Horace, however, says that he would have to "endure much" and "stop up his ears" if he had to listen to "Callimachus...to please the sensitive stock of poets";[27] Postgate and others see this as a veiled attack on Propertius, who considered himself the Roman heir to Callimachus.[28] This judgement also seems to be upheld by Quintilian, who ranks the elegies of Tibullus higher and is somewhat dismissive of the poet, but Propertius' popularity is attested by the presence of his verses in the graffiti preserved at Pompeii.
+Propertius fell into obscurity in the Middle Ages, but was rediscovered during the Italian Renaissance along with the other elegists. Petrarch's love sonnets certainly show the influence of his writing, and Aeneas Silvius (the future Pope Pius II) titled a collection of his youthful elegies "Cinthia". There are also a set of "Propertian Elegies" attributed to the English writer Ben Jonson, though the authorship of these is disputed. Johann Wolfgang von Goethe's 1795 collection of "Elegies" also shows some familiarity with Propertius' poetry.
+Propertius is the lyrical protagonist of Joseph Brodsky's poem "Anno Domini" (1968), originally written in Russian. His relationship with Cynthia is also addressed in Robert Lowell's poem, "The Ghost."
+Modern assessment[edit]
+In the 20th century Ezra Pound's poem "Homage to Sextus Propertius" cast Propertius as something of a satirist and political dissident,[29] and his translation/interpretation of the elegies presented them as ancient examples of Pound's own Imagist theory of art. Pound identified in Propertius an example of what he called (in "How to Read") 'logopoeia', "the dance of the intellect among words." Gilbert Highet, in Poets in a Landscape, attributed this to Propertius' use of mythic allusions and circumlocution, which Pound mimics to more comic effect in his Homage. The imagist interpretation, the poet's tendency to sustain an interior monologue, and the deeply personal nature of his poetry have made Propertius a favorite in the modern age. Two modern English translations of his work have appeared since 2000,[30] and the playwright Tom Stoppard suggests in his best-known work The Invention of Love that the poet was responsible for much of what the West regards today as "romantic love".
+Latin editions[edit]
+Emil Baehrens, Bibliotheca Teubneriana, 1880
+John Percival Postgate, Cambridge, 1894
+E.A. Barber, Oxford Classical Text, 1953 (2nd ed., 1960)
+W.A. Camps, Book 1, Cambridge, 1961
+L. Richardson, Jr., Lawrence, Okla., 1977
+Rudolf Hanslik, Bibliotheca Teubneriana, 1979
+Paolo Fedeli, Bibliotheca Teubneriana, 1984
+Paolo Fedeli, Book 3, Bari, 1985
+G.P. Goold, Loeb Classical Library, 1990
+Robert J. Baker, Book 1, Warminster, 2000
+Paolo Fedeli, Book 2, Cambridge, 2005
+Giancarlo Giardina, Rome, 2005
+Simone Viarre, Collection Budé, 2005
+Gregory Hutchinson, Book 4, Cambridge, 2006
+S. J. Heyworth, Oxford Classical Text, 2007
+Notes[edit]
+^ John Lemprière's Classical Dictionary
+^ Thorsen, Thea S. (2013). The Cambridge Companion to Latin Love Elegy. Cambridge University Press. p. 97. ISBN 0521765366. 
+^ Tarrant, Richard (2016). Texts, Editors, and Readers: Methods and Problems in Latin Textual Criticism. Cambridge University Press. ISBN 131653880X. 
+^ Fain, Gordon L. (2010). Ancient Greek Epigrams: Major Poets in Verse Translation. University of California Press. p. 119. ISBN 0520265793. 
+^ Vita Vergiliana, V
+^ e.g. I.22.9-10; IV.1.63-6 and 121-6; unless otherwise noted numerical references refer to Propertius' collections
+^ IV.1.127
+^ e.g. Tristia IV.10.41-54
+^ IV.1.131
+^ e.g. I.1.9, 6.2, 14.20, and 22.1
+^ III.23.24
+^ cf. II.18.19
+^ II.13.25
+^ See III.18, a poem which mentions the death of Marcellus in 23 BC
+^ See e.g. III.21 and III.24
+^ Cf. Pliny Epistles VI.125, where Pliny says a Roman knight Passennus Paulus scribit elegos ... atque etiam inter maiores suos Propertium numerat. (writes elegies ... and even numbers among his ancestors Propertius); though this may be nothing more than a tall tale
+^ Apologia, ch. X
+^ III.20.8
+^ I.7.11; II.131.6; II.13.11
+^ I.2.27-8: cum tibi praesertim Phoebus sua carmina donet/Aoniamque libens Calliopea lyram - "While Apollo grants you above all his power of song, and Calliope willingly an Aonian lyre"
+^ III.24.4
+^ IV.7.96
+^ Micaela Janan, The Politics of Desire: Propertius IV. Berkeley: University of California Press, 2001. Pp. 255. ISBN 0-520-22321-7
+^ IV.11
+^ e.g. D. Thomas Benediktson - "Propertius: Modernist Poet of Antiquity", Southern Illinois University Press (1989)
+^ II.24a.1-8
+^ For his complete criticism, v. Epistles II.2.87-104
+^ cf. e.g. III.1.1-2
+^ Slavitt, p. 8
+^ Slavitt's translation appeared in 2002, while Katz's 2004 translation was a winner of the 2005 National Translation Award, American Literary Translators Association.
+References[edit]
+Propertius, The Poems (Oxford World's Classics) - see especially Lyne's introduction
+David Slavitt, Propertius in Love: The Elegies University of Cal. Press (2002)
+Vincent Katz, The Complete Elegies of Sextus Propertius Princeton University Press (2004)
+D.Feeney, Literature and Religion at Rome: Cultures, Contexts, and Beliefs
+M.Beard, J. North & S.Price, Religions of Rome
+J.North, 'Religion and Politics: from Republic to Principate' in Journal of Roman Studies 76
+J.Hallett, 'Queens, princeps and women of the Augustan elite: Propertius' Cornelia elegy and the Res Gestae Divi Augusti' in R. Winkes (ed.) 'The Age of Augustus'
+Max Turiel, " Propertivs: Algunas Elegías y Variaciones ", Spanish edition, ( Ediciones RIE, 2008 ), ISBN 978-84-96785-56-4.
+Syndikus, H. P. 2010. Die Elegien des Properz: Eine Interpretation. Darmstadt: WBG, Wissenschaftliche Buchgesellschaft.
+External links[edit]
+See also...
+Works at Project Gutenberg
+Works at Domínio Público
+Works at Dominio Público
+ Latin Wikisource has original text related to this article: Propertius
+Quotations related to Propertius at Wikiquote
+Works by Sextus Propertius at Project Gutenberg
+Works by or about Propertius at Internet Archive
+Works by Propertius at LibriVox (public domain audiobooks)
+The Elegies of Propertius at The Latin Library
+English translations of Propertius with introductory essay and notes by Jon Corelis
+Complete English translation of the Elegies by A. S. Kline
+Propertius at the Perseus Project
+Propertius and cacozelia latens
+v
+t
+e
+Ancient Rome topics
+Outline
+Timeline
+Epochs
+Foundation
+Kingdom (overthrow)
+Republic
+Empire
+(Pax Romana
+Principate
+Dominate)
+Western Empire (fall
+historiography of the fall)
+Eastern (Byzantine) Empire (decline
+fall)
+Constitution
+History
+Kingdom
+Republic
+Empire
+Late Empire
+Senate
+Legislative assemblies (Curiate
+Centuriate
+Tribal
+Plebeian)
+Executive magistrates
+SPQR
+Government
+Curia
+Forum
+Cursus honorum
+Collegiality
+Emperor
+Legatus
+Dux
+Officium
+Praefectus
+Vicarius
+Vigintisexviri
+Lictor
+Magister militum
+Imperator
+Princeps senatus
+Pontifex Maximus
+Augustus
+Caesar
+Tetrarch
+Optimates
+Populares
+Province
+Magistrates
+Ordinary
+Tribune
+Quaestor
+Aedile
+Praetor
+Consul
+Censor
+Promagistrate
+Governor
+Extraordinary
+Dictator
+Magister Equitum
+Decemviri
+Consular Tribune
+Triumvir
+Rex
+Interrex
+Law
+Twelve Tables
+Mos maiorum
+Citizenship
+Auctoritas
+Imperium
+Status
+Litigation
+Military
+Borders
+Establishment
+Structure
+Campaigns
+Political control
+Strategy
+Engineering
+Frontiers and fortifications (castra)
+Technology
+Army (Legion
+Infantry tactics
+Personal equipment
+Siege engines)
+Navy (fleets)
+Auxiliaries
+Decorations and punishments
+Hippika gymnasia
+Economy
+Agriculture
+Deforestation
+Commerce
+Finance
+Currency
+Republican currency
+Imperial currency
+Technology
+Abacus
+Numerals
+Civil engineering
+Military engineering
+Military technology
+Aqueducts
+Bridges
+Circus
+Concrete
+Domes
+Forum
+Metallurgy
+Roads
+Sanitation
+Thermae
+Culture
+Architecture
+Art
+Bathing
+Calendar
+Clothing
+Cosmetics
+Cuisine
+Hairstyles
+Education
+Literature
+Music
+Mythology
+Religion
+Romanization
+Sexuality
+Theatre
+Wine
+Society
+Patricians
+Plebs
+Conflict of the Orders
+Secessio plebis
+Equites
+Gens
+Tribes
+Naming conventions
+Demography
+Women
+Marriage
+Adoption
+Slavery
+Bagaudae
+Language (Latin)
+History
+Alphabet
+Versions (Old
+Classical
+Vulgar
+Late
+Medieval
+Renaissance
+New
+Contemporary
+Ecclesiastical)
+Romance languages
+Writers
+Apuleius
+Caesar
+Catullus
+Cicero
+Ennius
+Horace
+Juvenal
+Livy
+Lucan
+Lucretius
+Martial
+Ovid
+Petronius
+Phaedrus
+Plautus
+Pliny the Elder
+Pliny the Younger
+Propertius
+Quintilian
+Quintus Curtius Rufus
+Sallust
+Seneca
+Statius
+Suetonius
+Tacitus
+Terence
+Tibullus
+Marcus Terentius Varro
+Virgil
+Vitruvius
+Major cities
+Alexandria
+Antioch
+Aquileia
+Berytus
+Bononia
+Carthage
+Constantinopolis
+Eboracum
+Leptis Magna
+Londinium
+Lutetia
+Mediolanum
+Pompeii
+Ravenna
+Roma
+Smyrna
+Vindobona
+Volubilis
+Lists and other
+topics
+Wars and battles
+Generals
+Legions
+Emperors
+Geographers
+Cities and towns
+Institutions
+Laws
+Consuls
+Tribunes
+Distinguished women
+Nomina
+Gentes
+Climate
+Legacy
+Fiction / Films
+Ancient Rome Portal
+Authority control
+WorldCat Identities
+VIAF: 100907186
+LCCN: n79042233
+ISNI: 0000 0001 2103 4435
+GND: 118596764
+SELIBR: 84990
+SUDOC: 026668408
+BNF: cb11887318x (data)
+NKC: ola2002159446
+BNE: XX1111110
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Propertius&oldid=766389303"
+Categories: Roman-era poetsGolden Age Latin writersElegiac poetsPeople from Assisi1st-century BC poets1st-century BC births10s BC deathsHidden categories: Articles containing Latin-language textPages using ISBN magic linksArticles with Project Gutenberg linksArticles with Internet Archive linksArticles with LibriVox linksWikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with SELIBR identifiersWikipedia articles with BNF identifiers
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+Article
+Talk
+Variants
+Views
+Read
+Edit
+View history
+More
+Search
+Navigation
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+Interaction
+HelpAbout WikipediaCommunity portalRecent changesContact page
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page
+Print/export
+Create a bookDownload as PDFPrintable version
+In other projects
+Wikimedia CommonsWikiquoteWikisource
+Languages
+العربيةAsturianuБеларускаяБеларуская (тарашкевіца)‎БългарскиCatalàČeštinaDanskDeutschΕλληνικάEspañolEsperantoEuskaraفارسیFrançais한국어ՀայերենÍslenskaItalianoLatinaMagyarNederlands日本語Norsk bokmålPolskiPortuguêsRomânăРусскийScotsSicilianuSlovenčinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaTürkçeУкраїнська中文
+Edit links
+This page was last modified on 19 February 2017, at 22:58.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view

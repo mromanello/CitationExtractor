@@ -1,0 +1,596 @@
+Lucrèce — Wikipédia
+Lucrèce
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Lucrèce (homonymie).
+Lucrèce
+Naissance
+94 av. J.-C. ?
+Pompei
+Décès
+54 av. J.-C. ?
+Rome
+École/tradition
+Atomisme, épicurisme, précurseur du matérialisme
+Principaux intérêts
+Épistémologie, physique, éthique, eudémonisme, poésie, anthropologie
+Idées remarquables
+clinamen, matérialité de l'âme
+Influencé par
+Empédocle, Épicure
+A influencé
+Montaigne, Spinoza, Marx, Nietzsche, Althusser, Deleuze, Giordano Bruno, Schopenhauer,
+modifier - modifier le code - modifier Wikidata
+Lucrèce (en latin Titus Lucretius Carus) est un poète philosophe latin du Ier siècle av. J.-C. (peut-être 98-55), auteur d'un seul livre inachevé, le De rerum natura (De la nature des choses, qu’on traduit le plus souvent par De la nature), un long poème passionné qui décrit le monde selon les principes d'Épicure.
+C’est essentiellement grâce à lui que nous connaissons l'une des plus importantes écoles philosophiques de l'Antiquité, l'épicurisme, car des ouvrages d’Épicure, qui fut beaucoup lu et célébré dans toute l’Antiquité tardive, il ne reste pratiquement rien, sauf trois lettres et quelques sentences.
+Si Lucrèce expose fidèlement la doctrine de son maître, il met à la défendre une âpreté nouvelle, une sombre ardeur. « On entend dans son vers les spectres qui s'appellent[1] », dit Hugo. Son tempérament angoissé et passionné est presque à l’opposé de celui du philosophe grec. Et il vit une époque troublée par les guerres civiles et les proscriptions (massacres de Marius, proscriptions de Sylla, révolte de Spartacus, conjuration de Catilina). De là, les pages sombres du De rerum natura sur la mort, le dégoût de la vie, la peste d’Athènes, de là aussi sa passion anti-religieuse qui s’en prend avec acharnement aux dieux, aux cultes et aux prêtres, passion que l’on ne retrouve pas dans les textes conservés d’Épicure, même si celui-ci critique la superstition et même la religion populaire. Contre les positions du monde clérical, il propose de se soustraire aux craintes induites par la sphère religieuse, à laquelle il oppose la dimension rationnelle.
+Ainsi, il explique de façon matérielle les objets et le vivant, qui prennent forme via des combinaisons d'atomes.
+Surtout, Lucrèce unit à la science épicurienne, souvent difficile, la douceur et la dimension visionnaire de la poésie.
+Sommaire
+1 Un auteur mal connu
+2 Son œuvre
+2.1 Le poète et le philosophe
+2.2 Structure du poème
+2.3 Contre la religion
+2.4 La science de Lucrèce
+2.4.1 Atomisme
+2.4.2 Pluralité des mondes dans un univers infini
+2.4.3 Un précurseur
+2.5 Un précurseur de Rousseau
+2.5.1 La démarche de Lucrèce
+2.6 La philosophie de Lucrèce
+2.6.1 La doctrine épicurienne
+2.6.2 Un penseur tragique
+3 Redécouverte et influence
+3.1 Redécouverte
+3.2 Influences
+4 Les familiers de Lucrèce en France
+4.1 Montaigne
+4.2 Molière
+4.3 La Fontaine
+5 Notes
+6 Bibliographie
+6.1 Traductions
+6.2 Ouvrages généraux
+6.3 Articles
+7 Sources
+8 Voir aussi
+8.1 Articles connexes
+8.2 Liens externes
+Un auteur mal connu[modifier | modifier le code]
+On ne dispose sur la vie de Lucrèce d'aucune information fiable.
+Ses contemporains l'ignorent ou se taisent sur son compte. Les exceptions sont très rares. Cicéron lui consacre une phrase dans une lettre à son frère Quintus en 44 av. J.-C. : « Le poème de Lucrèce, comme tu dis, témoigne à la fois de beaucoup de génie et de beaucoup d'art[2] ». Un passage du Chronicon de Jérôme de Stridon, ouvrage postérieur de quatre siècles, affirme que Cicéron fut son éditeur, ce qui ne cadre pas avec les critiques contre l'épicurisme que Cicéron énonce dans ses traités[3]. Ovide écrit dans Les Amours : « Les poèmes du sublime Lucrèce ne périront que le jour où le monde entier sera détruit[4]. ». Mais ils ne disent rien sur sa vie. Tacite évoque le De rerum sans rien dire de son auteur. Sous l'Empire, Lucrèce semble oublié.
+Sur cette quasi-absence de témoignages, Henri Bergson a proposé une explication : « Il faut croire qu'après la chute de la République, lorsque la politique des empereurs eut remis le paganisme à la mode, Lucrèce, adversaire de la religion, devint un ami dangereux, dont il était prudent de ne pas trop s'entretenir[5]. »
+Seuls deux textes du IVe siècle, donc très postérieurs, donnent des indications douteuses : Donat écrit dans sa Vie de Virgile que Lucrèce est mort l'année où Crassus et Pompée furent consuls et où Virgile prit, à 17 ans la toge virile[6]. Mais cette affirmation est contradictoire : Virgile a eu 17 ans en 53 et le deuxième consulat commun de Pompée et Crassus date de 55. Par ailleurs, le crédit accordé à cette œuvre est très faible. Dans sa Chronique, saint Jérôme, élève de Donat, semble à peu près s'accorder avec son maître sur les dates. Il ajoute des informations que beaucoup jugent assez incertaines, en raison notamment de l'hostilité des chrétiens à l'égard de l'épicurisme. À l'année 96 ou 94 suivant les manuscrits, il est écrit : « Le poète Titus Lucretius naît. Rendu fou par un philtre d'amour, il rédigea dans ses moments de lucidité quelques livres que Cicéron corrigea par la suite. Il se donna la mort dans sa quarante-quatrième année[7]. »
+La courte biographie de saint Jérôme et la lettre de Cicéron ont laissé imaginer que ce dernier, à la mort de Lucrèce, a eu le manuscrit du poème inachevé pour le mettre en ordre et le publier.
+Quant au suicide, Alfred Ernout, le traducteur des Belles Lettres, écrit : « La folie, le suicide ont dû être des châtiments inventés par l'imagination populaire pour punir l'impie qui refusait de croire à la survie de l'âme et à l'influence des dieux comme au pouvoir des prêtres[8]. » De même, Bergson : « Cette sombre histoire a tout l'air d'un roman. Dans les temps anciens, l'imagination populaire se plaisait à faire punir ainsi l'athée, dès cette vie, par les dieux qu'il avait bravés. »
+D'autres auteurs (Pierre Boyancé[9], le Dr Logre[10], André Comte-Sponville[11], Paul Nizan[12]) considèrent plausible l'hypothèse du suicide en raison du climat d'angoisse ou de mélancolie qui domine l'œuvre : « Le sens extraordinaire de l'angoisse qui domine le De rerum natura révèle assez un homme capable de pousser jusqu'à la mort volontaire le désir d'échapper à l'angoisse[13] » dit Paul Nizan.
+Fidèle en tout à sa doctrine, écrit Constant Martha[14], Lucrèce aura trop mis en pratique un des plus importants préceptes d’Épicure : « Cache ta vie ».
+Son œuvre[modifier | modifier le code]
+Le poète et le philosophe[modifier | modifier le code]
+Comme philosophe, Lucrèce est un disciple fidèle et enthousiaste d'Épicure. Quatre des six livres du poème s'ouvrent sur l'éloge du maître. Ainsi le début du livre III :
+ « C'est toi, père, qui découvris la vérité,
+    Qui guides notre vie; c'est dans ton œuvre, ô maître,
+    Que nous venons chercher, abeilles butinant
+    Dans les vallées en fleurs, ces paroles d'or, oui,
+    D'or, dignes à jamais d'une vie éternelle[15] ! »
+Le poème est un exposé de la doctrine d'Épicure. C'est d'ailleurs essentiellement grâce à lui que nous connaissons sa pensée. Il ne reste en effet pratiquement rien de l'œuvre considérable d'Épicure — trois cents ouvrages selon Diogène Laërce (les livres antiques se présentant sous la forme de rouleaux de papyrus) — peu recopiée par les moines du Moyen Âge. Seuls subsistent, grâce au même Diogène Laërce qui les a reproduits dans ses Vies et doctrines des philosophes illustres, le testament du philosophe, trois lettres à ses amis qui sont des abrégés de sa doctrine[16] et quarante Maximes capitales, ainsi qu'une série de sentences, les Sentences vaticanes, découvertes en 1888 dans un manuscrit du Vatican datant du XIVe siècle. Ajoutons des fragments du De la nature d'Épicure en trente-sept livres (l'équivalent, a-t-on calculé[17], d'une dizaine de volumes dans une collection moderne de textes classiques) récupérés de l'importante bibliothèque de la Villa des Papyrus à Herculanum que l'éruption du Vésuve en 79 a à la fois carbonisée et protégée.
+L'œuvre de Lucrèce a été préservée de justesse (deux manuscrits seulement datant du IXe siècle conservés aujourd'hui à Leyde et recopiés d'après les spécialistes à partir d'un même manuscrit remontant au IVe ou Ve siècle aujourd'hui perdu[18]), peut-être parce qu'il était poète. Le paradoxe est que Lucrèce a écrit un long poème tout entier consacré à l'exposition de la doctrine épicurienne alors que le maître, qui se méfiait de la poésie, en déconseillait la pratique à ses disciples.
+Lucrèce, qui a l'ambition de créer une grande œuvre littéraire, s'en explique au début du livre IV par la métaphore du remède amer que les enfants refusent d'absorber si l'on ne met pas du miel sur la coupe :
+  « L'enfant imprévoyant, tout au plaisir des lèvres,
+    Avale jusqu'au bout le très amer remède :
+    Dupé, mais pour son bien, il guérit peu à peu...
+    Ainsi fais-je à présent. Je sais notre doctrine
+    Trop triste pour celui qui ne fait qu'y goûter;
+    La foule horrifiée la fuit. C'est pourquoi, moi
+    Je vais te l'exposer dans la langue des Muses,
+    Comme tout imprégnée du doux miel poétique.
+    J'ai voulu par mon chant séduire ton esprit,
+    Le temps qu'il ait compris le seul remède utile :
+    Connaître entièrement la nature des choses[19] ! »
+Structure du poème[modifier | modifier le code]
+De rerum natura (édition de 1675).
+Le De rerum natura, composé à partir de l'ouvrage d'Épicure La Nature, est rédigé en hexamètres dactyliques. Il comprend 7 415 vers et se compose de six livres se regroupant en trois parties successives :
+La première partie porte sur la nature considérée dans ses constituants essentiels, les atomes et le vide :
+Elle correspond à peu près à la Lettre à Hérodote d’Epicure : dans le vide tombent éternellement des atomes indivisibles, indestructibles, semences de tous les univers passés, présents ou à venir, car rien ne se crée, rien ne se perd (Livre I). La pesanteur et une certaine « déclinaison » (clinamen) de la verticale les amènent à se grouper, à donner naissance aux corps inertes et animés, sans l’intervention des dieux (Livre II).
+La deuxième partie est consacrée à « l’homme » :
+Elle recouvre partiellement la Lettre à Ménécée : l’homme est matériel, même son esprit et son âme. Matériel donc mortel, car toute combinaison d’atomes finit par se résoudre en ses éléments. Et, si l’âme est mortelle, une vie future n’est pas à craindre (Livre III). À l’origine de la connaissance sont les sensations qui, matériellement émanées des corps, ne trompent pas si on les interprète sans illusions passionnelles (Livre IV).
+La troisième partie porte sur « le monde et les choses de la nature » :
+Elle recouvre en partie la Lettre à Hérodote et la Lettre à Pythoclès: le monde non plus n’est pas l’œuvre des dieux : son évolution et celle de l’humanité peuvent se suivre à partir de combinaisons fortuites par progrès conjoints (Livre V). Et les phénomènes les plus étranges qui épouvantent les hommes, même les épidémies, sont dus à des causes naturelles (Livre VI).
+Le poème s'adresse à Caius Memmius, habituellement identifié à un patricien romain, protecteur des lettres et des poètes (Catulle en particulier), préteur en -58, gouverneur de Bithynie en -57.
+Contre la religion[modifier | modifier le code]
+    « Tant la religion put conseiller de crimes[20] ! »
+Lucrèce termine ainsi son tableau de la mort d’Iphigénie qui le révolte, après avoir fait, dans le même prologue du livre I, l’éloge d’Épicure vainqueur de la religion :
+« Alors qu’aux yeux de tous, l’humanité traînait sur terre une vie abjecte, écrasée sous le poids d’une religion dont le visage, se montrant du haut des régions célestes, menaçait les mortels de son aspect horrible, le premier un Grec, un homme osa lever ses yeux mortels contre elle, et contre elle se dresser (…) Et par là, la religion est à son tour renversée et foulée aux pieds, et nous, la victoire nous élève jusqu’aux cieux[21]. »
+« Je ne connais pas de texte, dans toute l’Antiquité, qui ait cette vivacité antireligieuse, cette rage, cette radicalité. » écrit Comte-Sponville[22] Lucrèce donne (à la critique de la religion) une tension, une violence, une espèce de fureur tragique, qu'on ne retrouve guère dans les textes d'Épicure, du moins dans ceux qui sont parvenus jusqu'à nous. C'est ce qui donne à cet éloge d'Épicure sa singularité, ici très lucrétienne. Camus dira la chose joliment : « Épicure, dans l'épopée de Lucrèce, deviendra le rebelle magnifique qu'il n'était pas[23]. »
+« Quelle cause, se demande Lucrèce, a répandu parmi les grandes nations l’idée de la divinité, a rempli d’autels les villes, et fait instituer ces cérémonies solennelles dont l’éclat se déploie de nos jours[24] ? »
+L’ignorance et la peur, répond-il. Il fallait expliquer ce qu’on ne comprenait pas :
+  « En ces temps éloignés, les mortels…
+    ... observaient aussi le mouvement des astres,
+    Le retour des saisons, dans un ordre immuable,
+    Qu’ils ne pouvaient en rien expliquer par leurs causes.
+    Leur seul recours fut donc d’attribuer tout aux dieux,
+    De tout interpréter comme un signe divin.
+    …
+    Ô race infortunée des hommes, qui prêta
+    Aux dieux de tels pouvoirs, d’effrayantes colères !
+    Que de gémissements pour vous, pour nous combien
+    De souffrances, pour nos enfants combien de larmes[25] ! »
+Lucrèce était-il athée ? À s’en tenir au texte, d'une stricte orthodoxie épicurienne, ce serait aller trop loin. Épicure n’était pas athée (« Il ne supprime pas la Divinité, il la désarme, écrit Constant Marta[26], peut-être pour écarter les reproches d’impiété »). Pour lui, les dieux existaient bien mais ils étaient étrangers à notre monde et à sa création. On pouvait prendre modèle sur leur bonheur, leur sérénité, mais il était inutile de les prier et absurde de les craindre. La piété de Lucrèce n’est pas celle des prêtres et du vulgaire :
+  « La piété ce n’est point se recouvrir d’un voile,
+    Tourné vers une pierre ou courant les autels,
+    Ni se mettre à genoux, ni s’allonger par terre,
+    Mains tendues ; ce n’est pas inonder les autels
+    Du sang des animaux, ni faire vœux sur vœux :
+    C’est pouvoir, l’âme en paix, contempler toutes choses[27] ! »
+La science de Lucrèce[modifier | modifier le code]
+Atomisme[modifier | modifier le code]
+  « Il faut poser d’abord notre premier principe
+    Rien n’est jamais créé divinement de rien[28].
+    …
+    Rien ne s’anéantit ; toute chose retourne,
+    Par division, aux corps premiers de la matière[29]. »
+Ces corps premiers sont les atomes. Les deux premiers livres leur sont entièrement consacrés: il n’y a rien d’autre dans la nature que du vide et des atomes, qui sont éternels, absolument pleins et insécables (atome signifie en grec « qui ne peut être coupé »). Avec un nombre limité d’atomes différents on peut composer tout l’univers: ciel, mer, terre, fleuves, soleil, plantes, animaux, tout est constitué des mêmes éléments. Tout est naturel, tout est rationnel.
+Le De rerum natura est d’abord un traité de physique, même si l’enjeu essentiel de cette explication scientifique de la nature est, pour les épicuriens et pour Lucrèce, de montrer que le surnaturel n’existe pas, tournant philosophique majeur, à l'origine du matérialisme et de la séparation de la science et de la religion.
+  « Si tu possède bien ce savoir, la nature t’apparaît
+    Aussitôt libre et dépourvue de maîtres tyranniques,
+    Accomplissant tout d’elle-même sans nul secours divin[30]. »
+En se rencontrant, les atomes composent les agrégats, c’est-à-dire les composés qui font le monde. Pour qu’ils se rencontrent, il faut qu’ils subissent dans leurs trajectoires des déviations dues au hasard (clinamen) car s’ils tombaient parallèlement dans le vide sous l’effet de leur poids, ils ne se rencontreraient jamais :
+  « Tous sont en mouvements incessants et divers
+    Soit qu’ils s’écartent loin après s’être heurtés,
+    Soit qu’ils restent voisins tout en s’entrechoquant.
+    …
+    Pendant qu’ils tombent droit, entraînés dans le vide
+    Par leur poids, en un lieu et un moment quelconques,
+    Les atomes dévient, mais très peu, juste assez
+    Pour que leur mouvement puisse être dit changé.
+    S’ils ne déviaient ainsi, tous tomberaient tout droit,
+    Comme gouttes de pluie, dans le vide sans fond :
+    Il n’y aurait entre eux ni rencontres ni chocs ;
+    La nature jamais n’aurait rien pu créer[31]. »
+Le monde ne résulte ainsi que de la matière et du hasard. La nature est libre, sans maître, sans dieux, sans contraintes et nous sommes libres, nous aussi, comme tous les animaux.
+L’atomisme de Lucrèce, qui reprend celui d’Épicure, lui-même repris des philosophes présocratiques, notamment Leucippe et Démocrite, est évidemment une intuition sans confirmation et n’a guère de rapports avec l’atomisme moderne : les atomes ne sont ni insécables, ni éternels, ni absolument pleins. Mais il l’anticipe de plus de vingt siècles. Il faudra attendre Torricelli, puis Pascal pour démontrer l’existence du vide, Dalton (1803) pour la première théorie atomique moderne, Mendeleïev (1869) pour la classification des atomes et le XXe siècle pour la physique quantique.
+Cet atomisme est un matérialisme, « un des plus radicaux de toute l’Antiquité, écrit Comte-Sponville[32], il faudra attendre le XVIIIe siècle, et encore, pour trouver quelque chose d’approchant ». L’examen de la nature et son explication (naturae species ratioque), formulation quatre fois reprise[33] par Lucrèce dans son poème, exclut toute théologie, tout idéalisme, tout spiritualisme.
+Pluralité des mondes dans un univers infini[modifier | modifier le code]
+Lucrèce, comme Épicure, pense que l’univers ne se réduit pas à notre système solaire. Il est illimité et d’autres mondes existent :
+    « L’univers existant n’est limité dans aucune de ses dimensions[34]. »
+    « On ne saurait tenir pour nullement vraisemblable… que seuls notre terre et notre ciel aient été créés (…)
+    Aussi, je te le répète encore, il te faut avouer qu’il y a ailleurs d’autres groupements de matière analogues à ce qu’est notre monde[35]. »
+Un précurseur[modifier | modifier le code]
+Il croit à la génération spontanée des êtres vivants par la terre. Pourtant, comme Darwin , il pense que si les êtres que nous observons sont adaptés à leur mode de vie, c'est parce que ceux qui ne l'étaient pas ont disparu. Le résumé que fait Lucrèce dans sa description des âges préhistoriques concorde assez bien avec « ce qu'il faut bien appeler, écrit Comte-Sponville[36], sans craindre l'anachronisme, une sélection naturelle". Cette convergence entre Lucrèce et Darwin est d'autant plus intéressante que l'idée de sélection était justement la principale innovation de Darwin, car la notion d'évolution était connue à son époque, ayant notamment été formulée par Lamarck. Remarquons cependant qu'Empédocle avait défendu un point de vue comparable avant Lucrèce.
+D’abord à la surface de la terre il n’y a que des végétaux. Puis, la terre crée une multitude d’êtres animés, au hasard.
+  « La terre dans sa nouveauté commença par faire pousser les herbes et les arbrisseaux,
+    Pour créer ensuite les espèces vivantes qui naquirent alors en grand nombre,
+    de mille manières, sous des aspects divers[37]. »
+Beaucoup mal organisés périssent parce qu’ils ne peuvent ni se nourrir, ni se reproduire. Seuls survivent les plus aptes au combat et les plus habiles :
+  « Beaucoup d'espèces ont péri, qui n'ont pas pu
+    Sauver leur descendance en se reproduisant.
+    Car celles que tu vois profiter de la vie,
+    C'est leur propre ruse, ou leur force, ou leur vitesse,
+    Qui les ont protégées, préservant leur lignée.
+    Beaucoup d'autres aussi, que leur utilité
+    Nous pousse à élever, survivent grâce à nous...
+    Mais les bêtes qui n'ont reçu de la nature
+    Ni les moyens de vivre en liberté ni ceux
+    De nous rendre service et de gagner ainsi
+    Le droit de vivre en paix sous notre protection,
+    Celles-là constituaient une proie trop facile,
+    Entravées par les liens de leur propre destin,
+    Jusqu'à l'extinction de toute leur espèce[38]. »
+Charles Darwin
+Un précurseur de Rousseau[modifier | modifier le code]
+Lucrèce tente également d'expliquer comment l'homme, qui est apparu de la même manière que les autres espèces, a pu fonder la civilisation, la religion, les arts, la métallurgie, la justice. Hélas, la plupart de ces progrès conduisirent à de nouvelles violences, dues au goût du lucre et du luxe, l'homme ne sachant pas se limiter. Ainsi, les premiers rois furent renversés, d'où des guerres. L'humanité, lasse de ces crimes, inventa alors le Droit. Lucrèce note, comme plus tard Jean-Jacques Rousseau, que nous n'avons pas de témoignages de ces époques, faute d'écriture, et qu'il en est réduit, malgré l'empirisme épicurien, à de simples conjectures. Les raisonnements prennent alors la place des faits.
+La démarche de Lucrèce[modifier | modifier le code]
+L’histoire des sciences reconnaît comme première révolution scientifique la mise au premier plan de la rationalité qu’illustre si bien Lucrèce à la suite des Grecs présocratiques.
+Certes la méthode expérimentale est inconnue de l’Antiquité et Lucrèce commet de graves erreurs, mais il croit qu’on peut expliquer, de manière cohérente, l’ensemble des phénomènes connus.
+Les sens permettent cette connaissance : un phénomène frappe vos sens ; vous l’observez avec l’intention d’en découvrir la cause. Les erreurs ne viennent point des sens, mais de la raison qui sait mal interpréter leurs témoignages. Pour les phénomènes inaccessibles à nos sens, il est légitime de raisonner par analogie.
+Lucrèce sait que trouver la bonne explication est le plus souvent impossible de son temps, mais il veut montrer qu’il existe une ou plusieurs explications rationnelles qui suffisent à expliquer le phénomène en question. Et faire reculer la superstition. Il lui arrive donc de proposer plusieurs hypothèses également possibles, de dire : la lune a une lumière propre, à moins qu’elle ne reflète celle du soleil (De rerum, V, v. 575-578) ou les éclipses viennent de l’interposition des corps ou bien de l’extinction des astres (De rerum, V, v. 752-771).
+Il s’en explique au sujet du mouvement des astres :
+  « Déterminer exactement celle de ces causes qui agit dans notre monde
+    est chose difficile ; mais indiquer ce qui est possible, voilà ce que j’enseigne ;
+    et je m’attache à exposer tour à tour les multiples causes qui peuvent
+    être à l’origine du mouvement des astres : entre toutes, il ne peut y en
+    avoir qu’une qui fassent mouvoir nos étoiles : mais laquelle ?
+    L’enseigner n’est pas donné à notre science, qui n’avance que pas à pas[39]. »
+La philosophie de Lucrèce[modifier | modifier le code]
+Lucrèce n’innove pratiquement jamais. Sa philosophie est celle d’Épicure. « Peut-être, remarque Pierre Boyancé[40], n’y a-t-il pas dans l’histoire de la pensée, d’autre exemple de ce cas : d’un disciple de génie qui ne se veut que le disciple, qui l’est en effet, et qui est cependant un génie. » Mais autant le philosophe grec est doux, serein et lumineux, autant le poète latin est passionné, angoissé et sombre.
+La doctrine épicurienne[modifier | modifier le code]
+On peut en résumer en quelques mots les grands principes :
+La sensibilité humaine est liée à l'existence d'atomes plus subtils encore que ceux qui composent l'air, le vent, le feu. Néanmoins ces atomes ne sont pas sensibles en eux-mêmes, mais seulement dans les mouvements communs à eux et au reste du corps. Ce que réclame la nature, c’est l’absence de douleur (dans le corps) et d’inquiétude (dans l'âme). Pour cela, il faut se soustraire à la crainte des dieux et de la vie future, apprécier le plaisir et l’amitié qui est une valeur essentielle de l'épicurisme, mais se débarrasser des passions pour éviter la souffrance. En politique ne pas prendre part aux affaires, dans la vie privée éviter toutes les causes de trouble et de chagrin. Primat absolu de l'intérêt individuel. L'essentiel est d'être heureux, c'est-à-dire que rien ne vienne troubler notre plaisir.
+Le morceau le plus célèbre du poème, le fameux Suave mari magno, devenu dès l’Antiquité proverbial[41], oppose à la cupidité et à l’ambition la paix du philosophe dans le sein de la sagesse :
+  « Qu’il est doux quand les vents lèvent la mer immense,
+    D’assister du rivage au combat des marins !
+    Non que l’on jouisse alors des souffrances d’autrui,
+    Mais parce qu’il nous plaît de voir qu’on y échappe.
+    Doux aussi, lors des grands carnages de la guerre,
+    De regarder de loin les armées dans la plaine.
+    Mais rien n’est aussi doux que d’habiter les monts
+    Fortifiés du savoir, citadelle de paix
+    D’où l’on peut abaisser ses regards vers les autres,
+    Les voir errer sans trêve, essayant de survivre,
+    Se battant pour leur rang, leur talent, leur noblesse,
+    S’efforçant nuit et jour par un labeur extrême
+    D’atteindre des sommets de pouvoir, de richesse…
+    Misérables esprits des hommes, cœurs aveugles !
+    Dans quelle obscurité, dans quels périls absurdes
+    Se consume pour rien leur presque rien de vie !
+    N’entendez-vous donc pas ce que crie la nature ?
+    Que veut-elle sinon l’absence de douleur
+    Pour le corps, et pour l’âme un bonheur pacifié,
+    Délivré des soucis, affranchi de la peur ?
+    Le corps, nous le voyons se soucie de très peu :
+    L’absence de souffrance est un plaisir exquis ;
+    La nature apaisée n’en demande pas plus[42]. »
+Il faut éviter la passion amoureuse toujours mêlée d’angoisse et de possessivité, qui vous rend esclave ou tyran. Le but est d’être libre. En effet, l'amour naît de simulacres si fins qu'ils ne nourrissent pas l'âme, malgré ses efforts pour se repaître de l'aspect de l'élu. En revanche la satisfaction sexuelle est réelle.
+  « Éviter l’amour, ce n’est pas se priver
+    Des plaisirs de Vénus ; c’est en jouir sans rançon.
+    Le plaisir est plus pur chez les amants sereins
+    Que chez ces malheureux dont l’ardeur passionnée
+    Erre et flotte indécise au seuil même d’aimer[43]. »
+À défaut de la vertu, l’amour libre est encore le moyen le plus efficace d’échapper à la tyrannie de la passion :
+  « Le premier corps venu suffit à notre sève ;
+    Pourquoi la réserver pour un unique amour
+    Qui nous voue à tout coup au chagrin, aux soucis[44]. »
+Mais l’amour apaisé et durable est aussi possible :
+  « Sans le secours des dieux, sans les traits de Venus,
+    Même une femme laide est aimable ou peut l’être.
+    Tout son comportement, son plaisant caractère,
+    Les soins attentionnés qu’elle donne à son corps,
+    Font naître en toi le goût de partager sa vie.
+    Au reste l’habitude est propice à l’amour ;
+    Car les plus légers chocs, répétés sans relâche,
+    Triomphent doucement de toute résistance.
+    Ainsi les gouttes d’eau qui tombent sur la pierre,
+    Finissent par percer le plus dur des rochers[45]. »
+Quant à la mort, elle est séparation de l'âme et du corps qui chacun sont périssables. Qu'est-ce qui fait peur dans la mort ?
+  « La mort n’est rien pour nous, ni ne nous touche en rien,
+    Puisque tout notre esprit est d’essence mortelle.
+    …
+    Car s’il doit y avoir quelque douleur future,
+    Il faut, pour en souffrir, que l’on existe encore.
+    Puisque la mort l’exclut en supprimant celui
+    Qui serait supposé justement en pâtir,
+    Il est clair que la mort n’est nullement à craindre,
+    Que celui qui n’est plus ne peut pas être mal[46]. »
+Un penseur tragique[modifier | modifier le code]
+Si Lucrèce expose fidèlement la doctrine d’Épicure, il y a chez lui une sensibilité tragique que l’on ne retrouve pas chez son maître grec. Question de personnalité ? De lieu (Rome, Athènes) ? D’époque (deux siècles et demi les séparent) ? Sans doute un peu des trois, répond Comte-Sponville[47].
+Quand Lucrèce parle de la mort - qui pour un épicurien n’est rien, une fois le néant reconnu, alors que la vie est tout - on est loin de la sérénité d’Épicure :
+  « Quel piètre amour de vivre à la vie nous enchaîne ?
+    Tout mortel doit mourir tôt ou tard à son heure.
+    Personne n’y échappe : à quoi bon résister ?
+    Et puis l’on tourne en rond dans le cercle de vivre,
+    Où nul plaisir nouveau ne peut plus nous surprendre.
+    …
+    En prolongeant ta vie tu ne retranches rien
+    A l’infini du temps que durera ta mort.
+    Tu n’en peux rien ôter, rien soustraire au néant.
+    Vivrais-tu plus longtemps, vivrais-tu plusieurs siècles,
+    Tu n’en mourrais pas moins d’une mort éternelle.
+    Le néant dure autant, que la vie ait pris fin
+    A l’aube de ce jour ou depuis des années[48]. »
+« On voudrait savoir, écrit Constant Martha[49], d’où vient au poète ce sombre amour pour l’éternel sommeil. Est-ce dégoût et fatigue de la vie, désenchantement des passions humaines, découragement du citoyen contristé par le spectacle des révolutions sanglantes ? »
+Quand il décrit la souffrance des amants victimes de l’amour-passion, sur un thème de stricte orthodoxie épicurienne, c’est avec des accents déchirants et angoissés :
+  « La vue de l’être aimé ne peut les rassasier,
+    Leurs mains rien arracher de ces membres graciles ;
+    Ils errent incertains sur le corps tout entier.
+    Enfin ils vont cueillir la fleur de la jeunesse ;
+    Ils sentent dans leurs corps la volupté qui monte ;
+    Vénus va féconder le sillon de la femme ;
+    Leurs deux corps vont se fondre, ils mêlent leurs salives,
+    Ils s’aspirent l’un l’autre, ils se boivent, se mordent…
+    En vain ! Leur corps ne peut absorber l’autre corps,
+    Non plus qu’y pénétrer et s’y fondre en entier[50]. »
+Enfin le poème s’achève sur la description de la peste d’Athènes inspirée de Thucydide mais systématiquement tirée vers le noir :
+  « Les ulcères, le flux noir de leurs intestins,
+    Annonçaient l’arrivée prochaine de la mort.
+    Un jet de sang vicié leur giclait des narines,
+    Emportant avec lui ce qu’il restait de vie.
+    …
+    La peste rongeait tout, et jusqu’au sexe même.
+    Certains, épouvantés sur le seuil de la mort,
+    S’amputaient par le fer de leur membre viril[51]. »
+Redécouverte et influence[modifier | modifier le code]
+Les œuvres de l'antiquité gréco-latine ne nous sont parvenues qu'à travers le filtre des copistes chrétiens du Moyen Âge. Si des œuvres comme celles de Platon et d'Aristote furent rapidement considérées compatibles avec le christianisme, et à ce titres recopiées assez largement, le matérialisme rationaliste et a-religieux d’Épicure et de ses disciples fut rejetés par la nouvelle religion.
+Épicure fut dès la fin de l'antiquité présenté par les auteurs chrétiens comme un adepte de la débauche la plus extrême, bien loin de sa philosophie de la modération[52]. Alors que l'épicurisme fut une des philosophies les plus influente de l'antiquité[53], ses livres disparurent faute de copistes. Seuls quelques allusions chez d'autres auteurs, en particulier tout le livre X de Vies et doctrines des philosophes de l'historien de la philosophie Diogène Laërce, permettait d'en conserver trace.
+Redécouverte[modifier | modifier le code]
+La recherche de textes anciens par Pétrarque (à partir de 1330), puis par ses successeurs humanistes, permit de retrouver dans divers monastères des textes qui n'étaient plus diffusés depuis des siècles, de les commenter, de les copier puis de les diffuser, dans un milieu d'abord restreint (les humanistes italiens), puis plus large et européen[54]. La diffusion de l'imprimerie, dans la seconde moitié du XVe siècle, permettra d'accélérer le processus. C'est dans ce contexte que le secrétaire du pape Jean XXIII, Poggio Bracciolini, alors privé d'emploi par la destitution de son employeur au concile de Constance, retrouva plusieurs parchemins importants jusqu'alors inconnus[55] dans un ou des monastères du sud de l'Allemagne, sans doute à l'abbaye de Fulda[56]. Parmi ces parchemins se trouvait le texte du De rerum natura. Le poème était connu des lettrés comme un des grands poèmes antiques par différentes citations, mais était considéré comme perdu[54].
+Poggio Bracciolini put copier le texte dans le monastère, avant de l'envoyer à son ami l'humaniste Niccolò Niccoli. Celui-ci le conservera sans le diffuser jusqu'au début des années 1430[57] , avant d'en restituer une copie à Bracciolini. À partir des années 1430, des copies de l’œuvre de Lucrèce commencent à circuler en Italie[57]. La première édition imprimée date de 1473. La copie faite par Bracciolini dans le monastère, mais aussi le parchemin détenu par le monastère ont disparu depuis cette date, et seules des copies ultérieures (dont celle de Niccoli) subsistent. Deux parchemins "originaux" (en fait des copies faites au Moyen-âge) apparaîtront vers la fin du XVIIe siècle aux Pays-Bas, sans qu'on en connaisse l'origine. Mais toutes les versions actuelles sont issues du manuscrit retrouvé et copié par Bracciolini.
+Influences[modifier | modifier le code]
+Le Poème de Lucrèce eut rapidement un grand succès. Il était perçu, y compris par la papauté, comme un grand poème antique, mais sa philosophie était considérée comme inacceptable. La plupart des éditions, en latin d'abord, puis en langue vulgaire, étaient donc précédées de préfaces mettant en garde contre toute lecture et interprétation allant au-delà de la beauté du poème.
+À compter de la seconde moitié du XVe siècle, sa diffusion s'accélère et quitte l'Italie. En 1516, Thomas More, pourtant catholique fervent, tente dans Utopia une synthèse entre la philosophie d’Épicure (telle que transmise par Lucrèce) et sa foi chrétienne en imaginant une société idéale basée sur la raison, la liberté et la tempérance.
+Dans le courant du siècle, Montaigne développe également une interprétation de Lucrèce compatible avec le christianisme.
+Dans les années 1580, Giordano Bruno se fait le porte-parole d'une philosophie épicurienne beaucoup plus radicale en matière religieuse, qui lui vaudra finalement le bûcher en 1600.
+Lors de la révolution américaine, Thomas Jefferson, qui se définit lui-même comme un disciple d’Épicure, intègre dans la Déclaration d'indépendance américaine des « droits inaliénables [...] la vie, la liberté et la recherche du bonheur ». Cette idée de la recherche du bonheur est explicitement relié, dans certaines de ses lettres, aux notions épicuriennes du droit de chacun à éviter la souffrance et à rechercher le plaisir, à travers la renonciation à l'ambition et à l'accumulation excessive des biens.
+Les familiers de Lucrèce en France[modifier | modifier le code]
+Le De rerum natura paraît en France pour la première fois en 1514, avec un commentaire latin violemment hostile à la doctrine épicurienne, mais la diffusion de l'œuvre se fait essentiellement grâce à l'édition de Denis Lambin, professeur de littérature grecque au Collège royal, parue en 1564 à Paris. Lambin qualifie la philosophie de Lucrèce de « délirante et sur bien des points impie », mais il admire sa poésie.
+Montaigne[modifier | modifier le code]
+Montaigne est un grand lecteur de Lucrèce. Dans ses Essais, il fait quelque cent cinquante citations du De rerum natura[58].
+« Quand je vois ces belles formes d’expression, si vives, si profondes, je ne dis pas que c’est bien dire, je dis que c’est bien penser. C’est la vigueur de la pensée qui élève et enfle les paroles[59]. »
+On a retrouvé l’édition de Lucrèce de Denis Lambin qu'il possédait et qu’il a annotée. Ses notes[60] montrent son amour pour la poésie de Lucrèce et sa sensibilité aux débats épicuriens, malgré son incompréhension de la physique des atomes et du clinamen (« un amas d’âneries[61] »).
+Molière[modifier | modifier le code]
+Molière aurait traduit Lucrèce. Selon Grimarest, le premier à avoir écrit une Vie de Molière en 1705 en s’appuyant sur les confidences de sa veuve et de Baron, son comédien préféré, Gassendi, philosophe sceptique et épicurien, aurait admis Molière à ses cours parce qu’il avait remarqué chez lui des dispositions philosophiques. « Il avait traduit presque tout Lucrèce (…) Pour donner plus de goût à sa traduction, Molière avait rendu en prose toutes les matières philosophiques ; et il avait mis en vers ces belles descriptions de Lucrèce[62]. » Tralage raconte qu’en 1682 on avait voulu joindre les passages traduits par Molière à l’édition complète de ses Œuvres. « Mais le libraire, les ayant trouvés trop fort contre l’immortalité de l’âme, ne les a pas voulu imprimer[63]. »
+On en retrouve quelques vers dans la tirade d’Eliante dans Le Misanthrope (acte II, scène IV) :
+    C’est ainsi qu’un amant dont l’ardeur est extrême,
+    Aime jusqu’aux défauts des personnes qu’il aime.
+    …
+    La noire à faire peur, une brune adorable
+    La maigre a de la taille et de la liberté ;
+    La grasse est, dans son port, pleine de majesté ;
+    La malpropre sur soi, de peu d’attraits chargé,
+    Est mise sous le nom de beauté négligée ;
+    La géante paraît une déesse aux yeux ;
+    La naine un abrégé des merveilles des cieux ;
+    La trop grande parleuse est d’agréable humeur ;
+    Et la muette garde une aimable pudeur.
+reprenant les vers de Lucrèce :
+    Ainsi font les hommes que le désir aveugle :
+    Ils prêtent à celles qu’ils aiment des mérites irréels.
+    …
+    Noire, elle est couleur miel, sale et puante, naturelle ;
+    Yeux glauques, c’est Pallas, nerveuse et sèche, une gazelle ;
+    La naine paraît une des Grâces, à croquer,
+    La géante une déesse pleine de majesté ;
+    La bègue gazouille, la muette est modeste ;
+    La mégère odieuse et bavarde, ardente flamme ;
+    Petite chose adorable, celle qui dépérit
+    De maigreur ; délicate celle qui tousse à mourir ;
+    La grosse mamelue, Cérès accouchée de Bacchus ;
+    La camarde, Silène et Satyre, pur baiser la lippue.
+    Mais je serais trop long si je voulais tout dire[64].
+La Fontaine[modifier | modifier le code]
+    Volupté, Volupté, qui fus jadis maîtresse
+    Du plus bel esprit de la Grèce,
+    Ne me dédaigne pas, viens-t'en loger chez moi;
+    Tu n'y seras pas sans emploi[65].
+La Fontaine est un familier d'Épicure et de Lucrèce dont il n'hésite pas à se proclamer le disciple :
+    Qu'à des sujets profonds j'occupe mon génie,
+    Disciple de Lucrèce une seconde fois[66].
+Sa philosophie, au-delà d'emprunts ponctuels (voir la fable Un animal dans la lune) est souvent lucrétienne et anti-stoïcienne. L'« indiscret stoïcien » « retranche de l'âme désirs et passions » :
+    Contre de tels gens, quant à moi, je réclame.
+    Ils ôtent à nos cœurs le principal ressort :
+    Ils font cesser de vivre avant que l'on soit mort[67].
+Notes[modifier | modifier le code]
+Les citations du De rerum natura sont, sauf mention contraire, d’André Comte-Sponville, en alexandrins pour transposer l'hexamètre dactylique de Lucrèce, et extraites de son livre Le Miel et l'absinthe, Hermann, 2008.
+↑ Cité par J. Pigeaud dans son introduction au volume de La Pléiade, Les Épicuriens, Gallimard, 2010, p. XLIX.
+↑ Cicéron, Ad Quintum Fratrem, II, 9, 3.
+↑ Pierre Grimal, Cicéron, Fayard, 1986, (ISBN 978-2213017860), p=271
+↑ Les Amours, (I, 15)
+↑ H.Bergson, Extraits de Lucrèce, Paris, Delagrave, 1884.
+↑ « (Vergilius) initia aetatis Cremonae egit usque ad virilem togam, quam decimo septimo anno natali suo accepit isdem illis consulibus (Pompeo et Grasso), iterum, quibus erat natus evenitque ut eo ipso die Lucretius poeta decederet », Donat., Vita Vergilii, 6.
+↑ « T. Lucretius poeta nascitur. Postea amatorio poculo in furorem versus, cum aliquot libros per intervalla insaniae conscripsisset, quos postea Cicero emendavit, propria se manu interfecit anno aetatis quadragesimo quarto ». Chron., [96] 94 a.C.)
+↑ A. Ernoult, De rerum natura, Les Belles Lettres, rééd. 1968, p. XI.
+↑ Lucrèce et l'épicurisme, PUF, 1963
+↑ L'Anxiété de Lucrèce, Paris, Janin, 1946
+↑ Le Miel et l'absinthe, Hermann, 2008
+↑ Les Matérialistes de l'Antiquité, Maspero, 1971
+↑ Paul Nizan, Les Matérialistes de l'Antiquité, Maspero, 1971, p. 36
+↑ Le Poème de Lucrèce, Hachette, 1896.
+↑ De rerum natura, III, v. 9-13.
+↑ Lettre à Hérodote, Lettre à Pythoclès et Lettre à Ménecée
+↑ Bibliothèque de La Pléiade, Les Épicuriens, Gallimard, 2010, p. 1099.
+↑ Lucrèce, De la nature, présentation par J. Kany-Turpin, Flammarion, 1998, p. 44.
+↑ De rerum natura, IV, v. 15-25.
+↑ De rerum natura, I, v. 101.
+↑ De rerum natura, I, v. 62-79 (traduction d’Alfred Ernout, Les Belles Lettres, 1924).
+↑ Le Miel et l'absinthe, Hermann, 2008, p. 48.
+↑ L'Homme révolté, Pléiade, 1965 rééd. 1990, p. 440.
+↑ De rerum natura, V, v. 1162-1164 (traduction de Alfred Ernout, Les Belles Lettres, 1924).
+↑ De rerum natura, V, v. 1169-1197.
+↑ Le poème de Lucrèce, Hachette, 1896, p. 60.
+↑ De rerum natura, V, v. 1198-1203.
+↑ De rerum natura, I, v. 149-150.
+↑ De rerum natura, I, v. 248-249.
+↑ De rerum natura, II, v. 1090-1093 (traduction de J. Kany-Turpin, Flammarion, 1998).
+↑ De rerum natura, II, v. 83-102 et 217-224.
+↑ Le Miel et l'absinthe, Hermann, 2008, p. 116.
+↑ I, v. 148, II, v. 61, III, v. 93, VI, v. 41.
+↑ De rerum natura, I, v. 958 (traduction de A.Ernout, Les Belles Lettres, 1924).
+↑ De rerum natura, II, v. 1053 et suivants (traduction d’A. Ernout, Les Belles Lettres, 1924).
+↑ Le Miel et l'absinthe, Hermann, 2008, p. 176.
+↑ De rerum natura, V, v. 790 et suivants (traduction d’A. Ernout, Les Belles Lettres, 1924).
+↑ De rerum natura, V, v.847-877.
+↑ De rerum natura, V, v. 526 et suivants (traduction d’A. Ernout, Les Belles Lettres, 1924).
+↑ Lucrèce et l’épicurisme, PUF, 1963, p. 300.
+↑ Au hasard d'une lecture (Alain Peyrefitte, C'était de Gaulle, Fayard, 1994, p. 175) :
+Peyrefitte raconte son entretien avec de Gaulle à la sortie du Conseil des ministres du 4 juillet 1962.
+De Gaulle me dit : « Il n'y a pas de gouvernement algérien. Ce qui n'empêche pas qu'il y en ait trois. Il en poussera peut-être d'autres. C'est normal étant donné ce que nous savons de ces messieurs. Suave mari magno turbantibus aequora ventis. Nous n'avons pas à prendre parti. »
+↑ De rerum natura, II, v. 1 et suivants.
+↑ De rerum natura, IV, v. 74 et suivants.
+↑ De rerum natura, IV, v. 65 et suivants.
+↑ De rerum natura, IV, v. 1278 et suivants.
+↑ De rerum natura, III, v. 830 et suivants (traduction de J. Kany-Turpin, Flammarion, 1998).
+↑ Le Miel et l’absinthe, Hermann, 2008, p. 66.
+↑ De rerum natura, III, v. 1076 et suivants.
+↑ Le Poème de Lucrèce, Hachette, 1896, p. 170.
+↑ De rerum natura, IV, v. 1101 et suivants.
+↑ De rerum natura, VI, v. 1207 et suivants.
+↑ « On voit par ses lettres qu'il se contentait d'eau et de pain commun : « envoie-moi, dit-il, du fromage de Cythère, afin que je puisse faire grande chère, quand je le voudrai. [...] Mortels, vous vous soumettez aux plus rudes travaux : la soif insatiable du gain vous jette au milieu des luttes et des combats; et cependant la nature se contente de peu de chose. », Diogène Laërce, Vies et doctrines des philosophes, livre X, traduction de Robert Genaille, 1933.
+↑ Selon Diogène Laërce, « des villes entières n'auraient pu contenir [...] cette foule de disciples que retenait auprès de lui le charme de sa doctrine ». Vies et doctrines des philosophes, livre X, traduction de Robert Genaille, 1933.
+↑ a et b Quattrocento, pages 35 et suivantes, Stephen Greenblatt, collection Libres Champs, mars 2015.
+↑ Quattrocento, pages 62 et suivantes, Stephen Greenblatt, collection Libres Champs, mars 2015.
+↑ Quattrocento, pages 58 et suivantes, Stephen Greenblatt, collection Libres Champs, mars 2015.
+↑ a et b Quattrocento, pages 252-253, Stephen Greenblatt, collection Libres Champs, mars 2015.
+↑ J. Kany-Turpin, Lucrèce, De la nature, Flammarion, 1997, p. 37.
+↑ Montaigne, Les Essais en français moderne, Quarto Gallimard, 2009, p. 1057 (livre III, chapitre 5).
+↑ Elles ont été publiées dans le volume de la Pléiade consacré aux Essais (éd. J. Balsamo, C. Magnien-Simonin et M. Magnien, Gallimard, 2007) p. 1188-1250.
+↑ Montaigne, Les Essais en français moderne, Quarto Gallimard, 2009, p. 665 (livre II, chapitre 12).
+↑ Jean-Léonor Le Gallois de Grimarest, La Vie de M. de Molière, Paris, 1705, p. 168 (disponible sur Gallica).
+↑ R. Duchêne, Molière, Fayard, 1998, p. 42.
+↑ Lucrèce, De la nature, Flammarion, 1998, traduction de J. Kany-Turpin, IV, v. 1153 et suivants.
+↑ La Fontaine, Les Amours de Psyché, 1669.
+↑ La Fontaine, Poème du Quinqina, 1682
+↑ Le Philosophe scythe, XII, 20.
+Bibliographie[modifier | modifier le code]
+Traductions[modifier | modifier le code]
+Lucrèce, De la nature. De rerum natura, (éd., trad., intr. et notes de José Kany-Turpin), Paris, Aubier, 1993. réédition, Paris, Flammarion, 1997 revue en 1998.
+l'introduction fait le point des connaissances sur Lucrèce et sur l'épicurisme à Rome au Ier siècle.
+Lucrèce, De la nature des choses, (intr., notes et bibl. Alain Gigandet) et (trad. Bernard Pautrat), Le Livre de poche, 2002
+traduction par J. Pigeaud, dans Les Epicuriens, Bibliothèque de la Pléiade, Paris, 2010, p. 269-531.
+Lucrèce, La naissance des choses, traduction par B. Combeaud, Mollat, Bordeaux, 2016
+Ouvrages généraux[modifier | modifier le code]
+Pierre Boyancé, Lucrèce et l'épicurisme, PUF, coll. « Les grands penseurs », 1963.
+Paul Nizan, Les Matérialistes de l'Antiquité, Maspero, 1965.
+Marcel Conche, Lucrèce et l'expérience, Seghers, coll. « Philosophes de tous les temps », 1967.
+Michel Serres, La Naissance de la physique dans le texte de Lucrèce : Fleuves et Turbulences, Minuit, coll. « Critique », 1977.
+Philippe Sollers, Théorie des Exceptions, Gallimard, 1986.
+Sabine Luciani, L'Éclair immobile dans la plaine, philosophie et poétique du temps chez Lucrèce, Bibliothèque d'Études classiques 21, Éditions Peeters, Louvain/Paris, 2000.
+Michel Onfray, Les Sagesses antiques, contre-histoire de la philosophie, tome I, Grasset, 2006, (ISBN 2-246-64791-6), p. 255-294.
+André Comte-Sponville, Le Miel et l'absinthe. Poésie et philosophie chez Lucrèce, Éditions Hermann, 2008.
+Articles[modifier | modifier le code]
+Sabine Luciani, Lucrèce et la psychologie démocritéenne, Vita Latina, No 167, 2002. p. 22-36 [1].
+Carlos Lévy, Lucrèce et le scepticisme, Vita Latina, N°152, 1998. pp. 2-9 [2].
+Sources[modifier | modifier le code]
+Les sources principales de cet article sont :
+André Comte-Sponville, Le Miel et l'absinthe. Poésie et philosophie chez Lucrèce, Éditions Hermann, 2008.
+Jean Bayet, Littérature latine, Armand Colin, 1964.
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Lucrèce, sur Wikimedia Commons
+Lucrèce, sur Wikisource
+Lucrèce, sur Wikiquote
+Articles connexes[modifier | modifier le code]
+Épicure
+Clinamen
+De rerum natura
+Liens externes[modifier | modifier le code]
+Notices d'autorité : Fichier d'autorité international virtuel • International Standard Name Identifier • Bibliothèque nationale de France (données) • Système universitaire de documentation • Bibliothèque du Congrès • Gemeinsame Normdatei • Bibliothèque nationale de la Diète • Bibliothèque nationale d'Espagne • WorldCat
+En latin
+En latin, format pdf
+En français
+Bibliographie pour le livre 3 du De rerum natura
+De rerum natura (1475-1494), codex numérisé, disponible sur Somni
+v · m
+Philosophie hellénistique
+Stoïcisme
+Philosophie antique · Philosophie hellénistique
+Frise chronologique
+Autres philosophes
+Persée de Cition · Ariston de Chios  · Hérillos de Carthage · Denys le transfuge (en) · Sphéros · Chrysippe de Soles  · Aristocréon · Caton d'Utique · Thraséa Paetus
+Épicurisme
+Aire grecque
+Épicure · Métrodore · Hermarque de Mytilène · Dionysios de Lamptrée · Zénon de Sidon · Polystrate · Apollodore · Philodème de Gadara · Diogène d'Œnoanda · Idoménée de Lampsaque · Batis de Lampsaque · Colotès · Léontée de Lampsaque · Basilide
+Aire romaine
+Lucrèce
+Scepticisme
+Pyrrhon d'Élis · Timon de Phlionte · Énésidème · Agrippa · Sextus Empiricus
+Voir aussi : Esquisses pyrrhoniennes · Vocabulaire · Liste des sceptiques anciens
+La Nouvelle Académie
+Antiochos d'Ascalon · Arcésilas de Pitane · Carnéade · Charmadas · Cicéron · Clitomaque de Carthage · Pamphile · Philon de Larissa · Héraclite de Tyr
+v · m
+Athéisme
+Concepts
+Anticléricalisme
+Antireligion
+Antithéisme
+Athéisme militant
+Athéisme négatif et positif
+Apostasie
+Débaptisation
+Existentialisme
+Humanisme séculier
+Irréligion
+Pays
+Amérique latine
+États-Unis
+France
+Libre-pensée
+Matérialisme
+Post-théisme
+Rationalisme
+Sécularisation
+Séparation des églises et de l'État (laïcité)
+Nouvel athéisme
+Personnalités notoires
+Mikhaïl Bakounine
+Charles Bradlaugh
+André Comte-Sponville
+Marcel Conche
+Richard Dawkins
+Daniel Dennett
+Denis Diderot
+Ludwig Feuerbach
+Sam Harris
+Helvétius
+Christopher Hitchens
+Paul Henri Thiry d'Holbach
+Julien Offray de La Mettrie
+Piero Martinetti
+Karl Marx
+Diagoras de Mélos
+Jean Meslier
+Friedrich Nietzsche
+Michel Onfray
+Marquis de Sade
+George Santayana
+Jean-Paul Sartre
+Arthur Schopenhauer
+Théodore l'Athée
+Structures collectives
+Union des athées
+Union internationale humaniste et éthique
+Alliance internationale athée
+Rationalist International
+Conseil central des ex-musulmans
+Littérature athée
+De la suffisance de la religion naturelle
+Lettre sur les aveugles à l'usage de ceux qui voient
+Dieu n'est pas grand
+Traité d'athéologie
+Traité des trois imposteurs
+L'Esprit de l'athéisme
+La Nécessité de l'athéisme
+Pour en finir avec Dieu
+Dieu et l'État
+Articles liés
+Athéisme d'État
+Athéisme dans la philosophie hindoue
+Athéisme juif
+Démographie de l'athéisme
+Critique
+Discrimination contre les athées
+Histoire de l'athéisme en Occident
+Théière de Russell
+ Critique de la religion
+Agnosticisme
+Portail de la poésie
+Portail de la philosophie antique
+Portail de la Rome antique
+Portail de l’athéisme
+Ce document provient de « https://fr.wikipedia.org/w/index.php?title=Lucrèce&oldid=133970321 ».
+Catégories : Écrivain romain du Ier siècle av. J.-C.Philosophe romainPoète didactiquePhilosophe du Ier siècle av. J.-C.Poète de la Rome antiqueÉpicurismeDate de naissance incertaine (Ier siècle av. J.-C.)Décès en 54 av. J.-C.Philosophe matérialisteÉcrivain latin classiqueCatégories cachées : Page utilisant P19Page utilisant P20Page utilisant P18Article utilisant une Infobox en LuaCatégorie Commons avec lien local identique sur WikidataArticle de Wikipédia avec notice d'autoritéArticle contenant un appel à traduction en anglaisPortail:Poésie/Articles liésPortail:Littérature/Articles liésPortail:Philosophie antique/Articles liésPortail:Philosophie/Articles liésPortail:Grèce antique/Articles liésPortail:Monde antique/Articles liésPortail:Rome antique/Articles liésPortail:Italie/Articles liésPortail:Histoire/Articles liésPortail:Athéisme/Articles liésWikipédia:Article biographiquePortail:Biographie/Articles liés/Culture et artsPortail:Biographie/Articles liés/Sciences
+Menu de navigation
+Outils personnels
+Non connectéDiscussionContributionsCréer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+AccueilPortails thématiquesArticle au hasardContact
+Contribuer
+Débuter sur WikipédiaAideCommunautéModifications récentesFaire un don
+Outils
+Pages liéesSuivi des pages liéesImporter un fichierPages spécialesAdresse permanenteInformation sur la pageÉlément WikidataCiter cette page
+Imprimer / exporter
+Créer un livreTélécharger comme PDFVersion imprimable
+Dans d’autres projets
+Wikimédia CommonsWikiquoteWikisource
+Dans d’autres langues
+AragonésالعربيةAzərbaycancaБеларускаяБългарскиবাংলাBrezhonegCatalàČeštinaDanskDeutschZazakiΕλληνικάEnglishEsperantoEspañolEestiEuskaraفارسیSuomiFryskGalegoעבריתहिन्दीHrvatskiKreyòl ayisyenMagyarՀայերենBahasa IndonesiaIdoÍslenskaItaliano日本語Қазақша한국어КыргызчаLatinaLumbaartLietuviųLatviešuNederlandsNorsk bokmålOccitanPolskiPortuguêsRomânăРусскийSarduSicilianuScotsSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaSlovenščinaShqipСрпски / srpskiSvenskaTagalogTürkçeТатарча/tatarçaУкраїнськаTiếng Việt中文
+Modifier les liens
+Dernière modification de cette page le 25 janvier 2017, à 14:51.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Déclaration sur les témoins (cookies)
+Version mobile

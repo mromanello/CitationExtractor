@@ -1,0 +1,199 @@
+Euklid – Wikipedia
+Euklid
+aus Wikipedia, der freien Enzyklopädie
+Wechseln zu:					Navigation, 					Suche
+Der Titel dieses Artikels ist mehrdeutig. Weitere Bedeutungen sind unter Euklid (Begriffsklärung) aufgeführt.
+Euklid, Elemente 10, Appendix in der 888 geschriebenen Handschrift Oxford, Bodleian Library, MS. D’Orville 301, fol. 268r
+Euklid von Alexandria (altgriechisch Εὐκλείδης Eukleídēs, latinisiert Euclides) war ein griechischer Mathematiker, der wahrscheinlich im 3. Jahrhundert v. Chr. in Alexandria gelebt hat.
+Inhaltsverzeichnis
+1 Leben
+2 Werke
+3 Geometrie – Arithmetik – Proportionslehre
+4 Musiktheorie
+5 Eponyme
+6 Ausgaben und Übersetzungen
+7 Literatur
+8 Weblinks
+9 Anmerkungen
+Leben[Bearbeiten | Quelltext bearbeiten]
+Darstellung Euklids, Oxford University Museum
+Über das Leben Euklids ist fast nichts bekannt. Aus einer Notiz bei Pappos[1] hat man geschlossen, dass er im ägyptischen Alexandria wirkte. Die Lebensdaten sind unbekannt. Die Annahme, dass er um 300 v. Chr. gelebt hat, beruht auf einem Verzeichnis von Mathematikern bei Proklos,[2] andere Indizien lassen hingegen vermuten, dass Euklid etwas jünger als Archimedes (ca. 285–212 v. Chr.) war.[3]
+Aus einer Stelle bei Proklos hat man auch geschlossen, dass er um das Jahr 360 v. Chr. in Athen geboren wurde, dort seine Ausbildung an Platons Akademie erhielt und dann zur Zeit Ptolemaios’ I. (ca. 367–283 v. Chr.) in Alexandria wirkte.
+Er sollte nicht mit Euklid von Megara verwechselt werden, wie das bis in die frühe Neuzeit häufig geschah, so dass der Name Euklids von Megara auch auf den Titeln der Ausgaben der Elemente erschien.
+Werke[Bearbeiten | Quelltext bearbeiten]
+Die überlieferten Werke umfassen sämtliche Bereiche der antiken griechischen Mathematik: das sind die theoretischen Disziplinen Arithmetik und Geometrie (Die Elemente, Data), Musiktheorie (Die Teilung des Kanon), eine methodische Anleitung zur Findung von planimetrischen Problemlösungen von bestimmten gesicherten Ausgangspunkten aus (Porismen) sowie die physikalischen bzw. angewandten Werke (Optik, astronomische Phänomene).
+In seinem berühmtesten Werk Elemente (altgriechisch Στοιχεῖα Stoicheia ‚Anfangsgründe‘, ‚Prinzipien‘, ‚Elemente‘) trug er das Wissen der griechischen Mathematik seiner Zeit zusammen. Er zeigte darin die Konstruktion geometrischer Objekte, natürlicher Zahlen sowie bestimmter Größen und untersuchte deren Eigenschaften. Dazu benutzte er Definitionen, Postulate (nach Aristoteles Grundsätze, die akzeptiert oder abgelehnt werden können) und Axiome (nach Aristoteles allgemeine und unbezweifelbare Grundsätze). Viele Sätze der Elemente stammen offenbar nicht von Euklid selbst. Seine Hauptleistung besteht vielmehr in der Sammlung und einheitlichen Darstellung des mathematischen Wissens sowie der strengen Beweisführung, die zum Vorbild für die spätere Mathematik wurde.
+Erhaltene Schriften von Euklid sind neben den Elementen, den Data und der Teilung des Kanons: Optika, Über die Teilung der Figuren (auszugsweise erhalten in einer arabischen Übersetzung). Von weiteren Werken sind nur die Titel bekannt: u. a. Pseudaria (Trugschlüsse), Katoptrika und Phainomena (Astronomie).
+Die Elemente waren vielerorts bis ins 20. Jahrhundert hinein Grundlage des Geometrieunterrichts, vor allem im angelsächsischen Raum.
+Geometrie – Arithmetik – Proportionslehre[Bearbeiten | Quelltext bearbeiten]
+Neben der pythagoreischen Geometrie enthalten Euklids Elemente in Buch VII-IX die pythagoreische Arithmetik, die Anfänge der Zahlentheorie (die bereits Archytas kannte) sowie die Konzepte der Teilbarkeit und des größten gemeinsamen Teilers. Zu dessen Bestimmung fand er einen Algorithmus, den euklidischen Algorithmus. Euklid bewies auch, dass es unendlich viele Primzahlen gibt, nach ihm Satz des Euklid genannt. Auch Euklids Musiktheorie baut auf der Arithmetik auf. Ferner enthält das Buch V die Proportionslehre des Eudoxos, eine Verallgemeinerung der Arithmetik auf positive irrationale Größen.
+Veranschaulichung von Euklids fünftem Postulat
+Das bekannte fünfte Postulat der ebenen euklidischen Geometrie (heute Parallelenaxiom genannt) fordert: Wenn eine Strecke
+s
+{\displaystyle s}
+beim Schnitt mit zwei Geraden
+g
+{\displaystyle g}
+und
+h
+{\displaystyle h}
+bewirkt, dass die innen auf derselben Seite von
+s
+{\displaystyle s}
+entstehenden Winkel
+α
+{\displaystyle \alpha }
+und
+β
+{\displaystyle \beta }
+zusammen kleiner als zwei rechte Winkel sind, dann treffen sich die beiden Geraden
+g
+{\displaystyle g}
+und
+h
+{\displaystyle h}
+auf eben der Seite von
+s
+{\displaystyle s}
+, auf der die Winkel
+α
+{\displaystyle \alpha }
+und
+β
+{\displaystyle \beta }
+liegen. Schneiden also zwei Geraden eine Strecke (oder Gerade) so, dass die auf einer Seite von der Strecke und den zwei Geraden eingeschlossenen zwei Winkel kleiner als 180° sind, dann schneiden sich die beiden Geraden auf dieser Seite und begrenzen zusammen mit der Strecke (oder dritten Geraden) ein Dreieck.
+Für die Wissenschaftsgeschichte ist die Beschäftigung mit dem Parallelenaxiom von großer Bedeutung, weil sie viel zur Präzisierung mathematischer Begriffe und Beweisverfahren beigetragen hat. Im Zuge dessen wurde im 19. Jahrhundert auch die Unzulänglichkeit der euklidischen Axiome offenkundig. Eine formale Axiomatik der euklidischen Geometrie findet sich in David Hilberts Werk Grundlagen der Geometrie (1899), das zu vielen weiteren Auflagen und anschließenden Forschungen geführt hat. Darin wird zum ersten Mal ein vollständiger Aufbau der euklidischen Geometrie geleistet, bis zu der Erkenntnis, dass jedes Modell des Hilbertschen Axiomensystems isomorph zum dreidimensionalen reellen Zahlenraum mit den üblichen Deutungen der geometrischen Grundbegriffe (wie Punkt, Gerade, Ebene, Länge, Winkel, Kongruenz, Ähnlichkeit usw.) in der Analytischen Geometrie ist. Schon seit der Antike versuchten viele bedeutende Mathematiker vergeblich, das Parallelenaxiom mit den übrigen Axiomen und Postulaten zu beweisen (es wäre dann entbehrlich). Erst im 19. Jahrhundert wurde die Unverzichtbarkeit des Parallelenaxioms mit der Entdeckung einer nichteuklidischen Geometrie durch Bolyai und Lobatschewski klar. Die Poincaré'sche Halbebene H (Henri Poincaré) ist ein Modell für ein solches Axiomensystem, in dem das Parallelenaxiom nicht gilt. Somit kann das Parallelenaxiom nicht aus den übrigen Axiomen gefolgert werden (siehe nichteuklidische Geometrie).
+Musiktheorie[Bearbeiten | Quelltext bearbeiten]
+In Euklids musiktheoretischer Schrift Die Teilung des Kanon (griechisch Katatomē kanonos, lat. Sectio canonis),[4][5] die als authentisch einzustufen ist, griff er die Musiktheorie des Archytas auf und stellte sie auf eine solidere akustische Basis, nämlich auf Frequenzen von Schwingungen (er sprach von Häufigkeit der Bewegungen). Er verallgemeinerte dabei den Satz des Archytas über die Irrationalität der Quadratwurzel
+m
++
+1
+m
+{\displaystyle {\sqrt {\tfrac {m+1}{m}}}}
+und bewies ganz allgemein die Irrationalität beliebiger Wurzeln
+m
++
+1
+m
+n
+{\displaystyle {\sqrt[{n}]{\tfrac {m+1}{m}}}}
+. Der Grund für diese Verallgemeinerung ist seine Antithese gegen die Harmonik des Aristoxenos, die auf rationalen Vielfachen des Tons (Halbton ... n-tel-Ton) aufbaut. Denn in der pythagoreischen Harmonik hat der Ton (Ganzton) die Proportion 9:8, was Euklid zu seiner Antithese „Der Ton ist weder in zwei noch in mehrere gleiche Teile teilbar“ veranlasste; sie setzt allerdings kommensurable Frequenzen voraus, die in der pythagoreischen Harmonik bis zum Ende des 16. Jahrhunderts (Simon Stevin) angenommen wurden. Die Antithese „Die Oktave ist kleiner als 6 Ganztöne“ stützte er auf die Berechnung des pythagoreischen Kommas. Ferner enthält Euklids Teilung des Kanons – wie ihr Titel signalisiert – die älteste überlieferte Darstellung eines Tonsystems am Kanon, einer geteilten Saite, und zwar eine pythagoreische Umdeutung des vollständigen diatonischen Tonsystems des Aristoxenos. Euklids Tonsystem wurde durch Boethius tradiert; es wurde in der Tonbuchstaben-Notation Odos zur Grundlage des modernen Tonsystems.
+Eponyme[Bearbeiten | Quelltext bearbeiten]
+Nach Euklid sind folgende mathematische Strukturen benannt:
+Euklidischer Abstand, die Länge der direkten Verbindung zweier Punkte in der Ebene oder im Raum
+Euklidischer Algorithmus, ein Verfahren zur Berechnung des größten gemeinsamen Teilers zweier natürlicher Zahlen
+Euklidische Geometrie, die anschauliche Geometrie der Ebene oder des Raums
+Euklidischer Körper, ein geordneter Körper, in dem jedes nichtnegative Element eine Quadratwurzel besitzt
+Euklidische Norm, die Länge eines Vektors in der Ebene oder im Raum
+Euklidischer Raum, der Anschauungsraum, ein reeller affiner Raum mit dem Standardskalarprodukt
+Euklidische Relation, eine Relation, für die gilt: stehen zwei Elemente jeweils zu einem dritten in Relation, dann stehen sie auch zueinander in Relation
+Euklidischer Ring, ein Ring, in dem eine Division mit Rest möglich ist
+Euklidische Werkzeuge, die erlaubten Handlungen bei der Konstruktion mit Zirkel und Lineal
+Zudem sind nach Euklid folgende mathematische Sätze und Beweise benannt:
+Euklids Beweis der Irrationalität der Wurzel aus 2, der erste Widerspruchsbeweis in der Geschichte der Mathematik
+Höhensatz des Euklid: In einem rechtwinkligen Dreieck ist das Quadrat über der Höhe flächengleich dem Rechteck aus den Hypotenusenabschnitten
+Kathetensatz des Euklid: In einem rechtwinkligen Dreieck sind die Kathetenquadrate jeweils gleich dem Produkt aus der Hypotenuse und dem zugehörigen Hypotenusenabschnitt
+Lemma von Euklid: Teilt eine Primzahl ein Produkt zweier Zahlen, dann auch mindestens einen der beiden Faktoren
+Satz von Euklid: Es gibt unendlich viele Primzahlen
+Weiter sind nach Euklid benannt:
+Euclides (Mondkrater), ein Krater auf der Mondvorderseite
+(4354) Euclides, ein Asteroid des Hauptgürtels
+Ausgaben und Übersetzungen[Bearbeiten | Quelltext bearbeiten]
+Johan Ludvig Heiberg, Heinrich Menge (Hrsg.): Euclidis Opera Omnia. 9 Bände, Teubner, Leipzig 1888–1916 (griechisch/lateinisch), genauer 8 Bände mit Supplement (der Kommentar zu den Elementen von Al-Nayrizi in der Übersetzung von Gerhard von Cremona herausgegeben von Maximilian Curtze)
+Euklid: Die Elemente. Bücher I–XIII. Hrsg. u. übers. v. Clemens Thaer. (= Ostwalds Klass. d. exakten Wiss. 235). 4. Auflage. Harri Deutsch, Frankfurt am Main 2003, ISBN 3-8171-3413-4.
+Euclid: The thirteen books of Euclid’s elements. Hrsg. u. übers. v. Thomas Heath, 3 Bände, Cambridge University Press 1908, Nachdruck Dover 1956 (englische Übersetzung mit ausführlichem Kommentar und Einleitung zu Euklid)
+Euklides: Data. Die Data von Euklid, nach Menges Text aus d. Griech. übers. u. hrsg. v. Clemens Thaer. Springer, Berlin 1962.
+The Medieval Latin Translation of the Data of Euclid. übersetzt von Shuntaro Ito, Tokyo University Press, 1980, Birkhauser, 1998.
+Euklid: Sectio canonis. neu ediert, übersetzt und kommentiert in: Oliver Busch: Logos syntheseos. Die euklidische Sectio canonis, Aristoxenos, und die Rolle der Mathematik in der antiken Musiktheorie. Hildesheim 2004, ISBN 3-487-11545-X.
+Paul ver Eecke Euclide, L’Optique et la catoptrique. Paris, Brügge 1938 (französische Übersetzung der Optik)
+Literatur[Bearbeiten | Quelltext bearbeiten]
+Bernard Vitrac: Euclide. In: Richard Goulet (Hrsg.): Dictionnaire des philosophes antiques. Band 3, CNRS Éditions, Paris 2000, ISBN 2-271-05748-5, S. 252–272
+Ivor Bulmer-Thomas, John Murdoch: Euclid. In: Dictionary of Scientific Biography. Band 4, Charles Scribner's Sons, New York 1981, ISBN 0-684-16964-9, S. 414–459
+Menso Folkerts, Frieder Zaminer: Eukleides [3]. In: Der Neue Pauly (DNP). Band 4, Metzler, Stuttgart 1998, ISBN 3-476-01474-6, Sp. 238–243.
+Friedrich Hultsch: Artikel Euklid. in Pauly-Wissowa.
+Peter Schreiber: Euklid. Teubner, Leipzig 1987.
+Hans Wußing: Euklid. In: Arnold Wußing (Hrsg.) Biographien bedeutender Mathematiker. Berlin 1983.
+Christoph J. Scriba, Peter Schreiber: 5000 Jahre Geometrie. Geschichte, Kulturen, Menschen, Springer, Berlin 2005, ISBN 3-540-22471-8, S. 49–65 (die Elemente Euklids und andere Schriften sowie im weiteren Verlauf des Buches deren Kontext und Rezeption in der weiteren Entwicklung der Geometrie)
+Jürgen Schönbeck: Euklid: Um 300 v. Chr. Springer, 2002, ISBN 3-7643-6584-6.
+Benno Artmann: Euclid: The creation of mathematics. Springer, 1999.
+Rezeption
+Diego De Brasi: Euklid. In: Peter von Möllendorff, Annette Simonis, Linda Simonis (Hrsg.): Historische Gestalten der Antike. Rezeption in Literatur, Kunst und Musik (= Der Neue Pauly. Supplemente. Band 8). Metzler, Stuttgart/Weimar 2013, ISBN 978-3-476-02468-8, Sp. 433–438.
+Max Steck: Bibliographia Euclideana. Die Geisteslinien der Tradition in den Editionen der „Elemente“ des Euklid (um 365–300). Handschriften, Inkunabeln, Frühdrucke (16. Jahrhundert). Textkritische Editionen des 17.–20. Jahrhunderts. Editionen der Opera minora (16.–20. Jahrhundert). Nachdruck, hg. von Menso Folkerts. Hildesheim: Gerstenberg, 1981.
+Arabische Überlieferung
+Jan Hogendijk: The Arabic version of Euclid’s ‘On divisions’. In: Vestigia mathematica. Amsterdam 1993, S. 143–162.
+Jan Hogendijk: On Euclid’s lost ‘Porisms’' and its Arabic traces. In: Boll. Storia Sci. Mat. Band 7, 1987, S. 93–115.
+Weblinks[Bearbeiten | Quelltext bearbeiten]
+ Wiktionary: Euklid – Bedeutungserklärungen, Wortherkunft, Synonyme, Übersetzungen
+ Commons: Euklid – Sammlung von Bildern, Videos und Audiodateien
+  Wikiquote: Euklid – Zitate
+ Wikisource: Euklid – Quellen und Volltexte
+John J. O’Connor, Edmund F. Robertson: Euclid of Alexandria. In: MacTutor History of Mathematics archive
+Literatur von und über Euklid im Katalog der Deutschen Nationalbibliothek
+Werke von und über Euklid in der Deutschen Digitalen Bibliothek
+Die Elemente des Euklid, Euklides: Stoicheia, Buch 1 bis 12, vollständig in deutsch.
+Perseus Euklid. Informative Seite von Perseus mit Übersetzung und weiteren Quellen, sowie weiterführenden Links.
+Euklids Elemente, alle 13 Bücher in englischer Sprache.
+Euklids Elemente, alle 13 Bücher in griechischer Sprache mit der lateinischen Übersetzung des Heiberg. (PDF)
+Textausgaben (altgriechisch, arabische, englische Übersetzungen), Amund Bjørsnøs u. a., Oslo Arabic Seminar.
+Die sechs ersten Bücher Evclidis, Deß Hochgelaehrten weitberuembten, Griechischen Philosophi und Mathematici: von den anfaengen vnd fundamenten der Geometriae. Amsterdam 1618, Online-Ausgabe der Sächsischen Landesbibliothek - Staats- und Universitätsbibliothek Dresden
+Euclidis Megarensis ... sex libri priores, de Geometricis principiis. Basileae 1550, Online-Ausgabe der Sächsischen Landesbibliothek - Staats- und Universitätsbibliothek Dresden
+Euclidis Megarensis Mathematici Clarissimi Elementorum geometricorum Lib. XV. Basileae 1537, Online-Ausgabe der Sächsischen Landesbibliothek - Staats- und Universitätsbibliothek Dresden
+Elementale Geometricum. Argentorati 1529, Online-Ausgabe der Sächsischen Landesbibliothek - Staats- und Universitätsbibliothek Dresden
+Elementorum Libri XV. Coloniae 1627, Online-Ausgabe der Sächsischen Landesbibliothek - Staats- und Universitätsbibliothek Dresden
+Anmerkungen[Bearbeiten | Quelltext bearbeiten]
+↑ Pappos, Mathematische Sammlungen 2,33–34.
+↑ Zu finden in Proklos' Werk: Kommentar zum ersten Buch von Euklids „Elementen“.
+↑ Hans-Joachim Waschkies: Euklid. In: Hellmut Flashar (Hrsg.): Grundriss der Geschichte der Philosophie. Die Philosophie der Antike. Band 2/1, Schwabe, Basel 1998, S. 372–392, hier: S. 372.
+↑ Wilfried Neumaier: Was ist ein Tonsystem? Frankfurt am Main/ Bern/ New York 1986, Kap. 6, Die „Teilung des Kanons“ des Eukleides
+↑ Oliver Busch: Logos Syntheseos. Die Euklidische Sectio Canonis, Aristoxenos und die Rolle der Mathematik in der antiken Musiktheorie. Berlin 1998, zugl. Mag.-Schrift als Band X der Veröffentlichungen des Staatlichen Instituts für Musikforschung Preußischer Kulturbesitz
+Normdaten (Person): GND: 118638955 (PICA, AKS) | LCCN: n50043341 | VIAF: 176184097 | Wikipedia-Personensuche
+Personendaten
+NAME
+Euklid
+ALTERNATIVNAMEN
+Euklid von Alexandria; Eukleidēs (altgriechisch); Εὐκλείδης
+KURZBESCHREIBUNG
+griechischer Mathematiker
+GEBURTSDATUM
+um 365 v. Chr.
+STERBEDATUM
+um 300 v. Chr.
+Abgerufen von „https://de.wikipedia.org/w/index.php?title=Euklid&oldid=163120383“
+Kategorien: EuklidMathematiker der AntikeMusiktheoretikerNamensgeber für einen AsteroidenPerson (Alexandria)Geboren im 4. Jahrhundert v. Chr.Gestorben im 4. oder 3. Jahrhundert v. Chr.Mann
+Navigationsmenü
+Meine Werkzeuge
+Nicht angemeldetDiskussionsseiteBeiträgeBenutzerkonto erstellenAnmelden
+Namensräume
+Artikel
+Diskussion
+Varianten
+Ansichten
+Lesen
+Bearbeiten
+Quelltext bearbeiten
+Versionsgeschichte
+Mehr
+Suche
+Navigation
+HauptseiteThemenportaleVon A bis ZZufälliger Artikel
+Mitmachen
+Artikel verbessernNeuen Artikel anlegenAutorenportalHilfeLetzte ÄnderungenKontaktSpenden
+Werkzeuge
+Links auf diese SeiteÄnderungen an verlinkten SeitenSpezialseitenPermanenter LinkSeiten­informationenWikidata-DatenobjektArtikel zitieren
+Drucken/­exportieren
+Buch erstellenAls PDF herunterladenDruckversion
+In anderen Projekten
+CommonsWikiquoteWikisource
+In anderen Sprachen
+AfrikaansAlemannischአማርኛAragonésالعربيةمصرىঅসমীয়াAsturianuAzərbaycancaБашҡортсаŽemaitėškaБеларускаяБеларуская (тарашкевіца)‎БългарскиभोजपुरीBislamaবাংলাབོད་ཡིགBrezhonegBosanskiБуряадCatalàНохчийнکوردیی ناوەندیČeštinaЧӑвашлаCymraegDanskΕλληνικάEnglishEsperantoEspañolEestiEuskaraEstremeñuفارسیSuomiVõroFrançaisNordfriiskFryskGaeilge贛語Galegoગુજરાતી客家語/Hak-kâ-ngîעבריתहिन्दीFiji HindiHrvatskiMagyarՀայերենInterlinguaBahasa IndonesiaIlokanoIdoÍslenskaItaliano日本語PatoisLa .lojban.Basa JawaქართულიQaraqalpaqshaҚазақша한국어RipoarischKurdîКыргызчаLatinaLigureLumbaartLietuviųLatviešuMalagasyМакедонскиമലയാളംМонголमराठीBahasa MelayuMaltiMirandésမြန်မာဘာသာNederlandsNorsk nynorskNorsk bokmålOccitanOromooଓଡ଼ିଆਪੰਜਾਬੀPolskiPiemontèisپنجابیپښتوPortuguêsRomânăРусскийРусиньскыйСаха тылаSicilianuScotsسنڌيSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaSlovenščinaShqipСрпски / srpskiSvenskaKiswahiliதமிழ்తెలుగుТоҷикӣไทยTagalogTürkçeТатарча/tatarçaУкраїнськаاردوOʻzbekcha/ўзбекчаVènetoVepsän kel’Tiếng ViệtVolapükWinaray吴语ХальмгIsiXhosaმარგალურიייִדישYorùbáVahcuengh中文文言粵語
+Links bearbeiten
+Diese Seite wurde zuletzt am 1. März 2017 um 02:37 Uhr geändert.
+Abrufstatistik
+Der Text ist unter der Lizenz „Creative Commons Attribution/Share Alike“ verfügbar; Informationen zu den Urhebern und zum Lizenzstatus eingebundener Mediendateien (etwa Bilder oder Videos) können im Regelfall durch Anklicken dieser abgerufen werden. Möglicherweise unterliegen die Inhalte jeweils zusätzlichen Bedingungen. Durch die Nutzung dieser Website erklären Sie sich mit den Nutzungsbedingungen und der Datenschutzrichtlinie einverstanden.
+Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.
+Datenschutz
+Über Wikipedia
+Impressum
+Entwickler
+Stellungnahme zu Cookies
+Mobile Ansicht

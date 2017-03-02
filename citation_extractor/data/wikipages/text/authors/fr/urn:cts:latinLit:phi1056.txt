@@ -1,0 +1,166 @@
+Vitruve — Wikipédia
+Vitruve
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Vitruve
+Gravure de 1654 : Vitruve présentant le De architectura à Auguste.
+Présentation
+Nom de naissance
+Marcus Vitruvius Pollio
+Naissance
+v. 90 av. J.-C.
+Décès
+v. 20 av. J.-C.
+Activités
+Architecte
+Œuvre
+Publications
+De architectura
+modifier 
+Principe de filiation entre les œuvres des ingénieurs de l'Antiquité.
+Marcus Vitruvius Pollio, connu sous le nom de Vitruve, est un architecte romain qui vécut au Ier siècle av. J.-C. (on situe sa naissance aux alentours de 90 av. J.-C. et sa mort vers 20 av. J.-C.[1]). Son prénom Marcus et son surnom (cognomen) Polio sont eux-mêmes incertains.
+C'est de son traité, De Architectura, que nous vient l’essentiel des connaissances sur les techniques de construction de l'Antiquité classique.
+Sommaire
+1 Biographie
+2 Vitruve architecte
+3 De architectura
+4 L’apport de Vitruve dans notre connaissance de la technologie de l’Empire romain
+4.1 Machines
+4.2 Aqueducs
+4.3 Matériaux
+4.4 Machines de drainage et d'irrigation
+4.5 Instruments d'arpentage
+4.6 Chauffage central
+4.7 Travaux maritimes
+5 Notes et références
+6 Annexes
+6.1 Bibliographie
+6.1.1 Études sur Vitruve
+6.2 Articles connexes
+6.3 Liens externes
+Biographie[modifier | modifier le code]
+Cetius Faventinus parle de « Vitruvius Polio aliique auctores » dans son épitaphe. Il est possible que le cognomen dérive de cette mention par Cetius et qu’il s’agisse d’une erreur d’interprétation, celle-ci signifiant Vitruve, Polio et d’autres. La plupart des faits connus sur sa vie sont extraits de son seul ouvrage, De architectura, qui nous est parvenu. Il semble cependant être connu de Pline l’Ancien qui l'évoque dans sa description de la construction de mosaïques dans Naturalis Historia sans toutefois le nommer explicitement. Frontin se réfère à « l’architecte Vitruve » dans son traité de la fin du Ier siècle, Sur les aqueducs. Après avoir été soldat en Gaule, en Espagne et en Grèce, constructeur de machines de guerre[2], Vitruve devient architecte à Rome. Il nous dit de lui-même qu’il n’est pas grand, et se plaint des affres de l’âge[3]. Sa prose, à la fois technique et imagée, comporte essentiellement des phrases brèves, et son vocabulaire paraît avoir été celui des artisans.
+Vitruve architecte[modifier | modifier le code]
+Principalement connu pour ses écrits, Vitruve était lui-même architecte. Dans l’Antiquité romaine, l’architecture était entendue comme un vaste domaine qui comprenait la gestion de la construction, le génie civil, le génie chimique, la construction, le génie des matériaux, le génie mécanique, le génie militaire et la planification urbaine. Frontin mentionne Vitruve dans le cadre de la standardisation de la taille des tuyaux.
+Le seul bâtiment, cependant, que nous savons être attribué à Vitruve est une basilique achevée en 19 av. J.-C.. Elle a été construite à Fanum Fortunae, aujourd’hui la ville moderne de Fano. La basilique de Fano a disparu totalement, si bien que son site même est encore incertain malgré plusieurs tentatives de localisation. La transformation chrétienne de la basilique civile romaine en église à plan basilical, suggère que la basilique a pu être intégrée à l’actuelle cathédrale de Fano. Léonard de Vinci en a fait une œuvre de cet architecte, car pour lui ceci méritait d'être exposé et non ignoré.
+De architectura[modifier | modifier le code]
+Article détaillé : De architectura.
+L’homme vitruvien de Léonard de Vinci.
+Vitruve est l’auteur d’un célèbre traité nommé De architectura (en français, « au sujet de l’architecture »), écrit à la fin de sa vie (Ier siècle av. J.-C.), et qu’il dédie à l’empereur Auguste. Dans la préface du livre i, Vitruve donne comme but à ses écrits d’exposer sa connaissance personnelle de la qualité des bâtiments à l'empereur. Vitruve fait allusion à la campagne de réparations et d’améliorations des bâtiments publics menée sous Marcus Agrippa. De architectura est le seul livre majeur qui nous reste sur l’architecture de l’Antiquité classique.
+Ce texte « a profondément influencé, dès la Renaissance, des artistes, des penseurs et des architectes, parmi lesquels Leon Battista Alberti (1404-72), Léonard de Vinci (1452-1519), et Michel-Ange (1475-1564) » selon Petri Liukkonen (2008). Excepté le De architectura, le livre majeur le plus ancien sur l’architecture dont nous disposons est la reformulation par Alberti des Dix Livres en 1452.
+Vitruve est resté célèbre pour avoir fait valoir dans son De architectura qu’une structure devait présenter les trois qualités de firmitas, utilitas, et venustas — autrement dit forte (ou pérenne), utile et belle. Selon Vitruve, l’architecture est une imitation de la nature. C’est ce que l’on appellera par la suite la conception classique de l’architecture.
+En perfectionnant cet art de la construction, la Grèce antique a inventé les ordres architecturaux : dorique, ionique et corinthien. Elle leur a donné un sens des proportions, culminant dans la compréhension des proportions du corps humain. Ceci conduit Vitruve à sa définition de l’homme vitruvien, qui sera ultérieurement réactualisé avec Léonard de Vinci et son célèbre dessin : le corps humain inscrit dans le cercle et le carré (tracé géométrique des caractéristiques fondamentales de l’ordre cosmique).
+Vitruve est parfois considéré hâtivement comme le premier architecte. Il est plus exact de le décrire comme le premier architecte romain dont les écrits nous soient parvenus. Il cite lui-même une multitude de travaux qui lui sont antérieurs, moins complets que les siens. Il est moins un penseur original qu’un codificateur de la pratique architecturale de son époque. Les architectes romains pratiquaient une grande variété de disciplines ; en termes modernes, ils pourraient être décrits comme étant des ingénieurs, architectes, architectes-paysagistes, artistes et artisans. Étymologiquement, le mot architecte dérive du mot grec qui signifie « maître » et « constructeur »[4]. Le premier des dix livres traite de nombreux sujets qui se situent dans le champ que l’on définit de nos jours par le paysage.
+L’apport de Vitruve dans notre connaissance de la technologie de l’Empire romain[modifier | modifier le code]
+Dispositif de drainage par roue à aubes dans les mines de Rio Tinto
+Les livres VIII, IX et X du De architectura forment la base d'une grande partie de ce que nous savons sur la technologie romaine. Cette connaissance est aujourd'hui complétée par l'étude archéologique des vestiges qui subsistent, tels que les moulins à eau de Barbegal en France.
+Machines[modifier | modifier le code]
+Le travail de Vitruve tire une grande partie de son importance de la description des différentes machines utilisées pour des ouvrages d'art (palans, grues et poulies en particulier) ainsi que des machines de guerre (catapultes, balistes, machines de siège). En tant qu’ingénieur en exercice, Vitruve parle de son expérience personnelle et ne fait pas que rapporter ou commenter le travail de ses prédécesseurs. Il décrit également la construction de cadrans solaires et d’horloges à eau, ainsi que l'utilisation d'un Éolipyle (la première machine à vapeur) dans une expérience visant à démontrer la nature des mouvements de l'air atmosphérique (vent).
+Aqueducs[modifier | modifier le code]
+Sa description de la construction d'aqueduc comprend la façon dont ils sont suivis et entretenus, ainsi que le choix attentif des matériaux nécessaires. Frontin, un siècle plus tard, donne beaucoup plus détails sur les problèmes pratiques liés à leur construction et leur entretien. Le travail de Vitruve date du Ier siècle av. J.-C., soit la période au cours de laquelle un grand nombre des plus grands aqueducs romains ont été construits (et survivent jusqu'à ce jour) tels que l’aqueduc de Ségovie et le pont du Gard. L'utilisation du siphon inversé est décrite en détail, ainsi que les problèmes posés par les hautes pressions développées dans le tuyau à la base du siphon, problème pratique que Vitruve semble bien connaître. De architectura était semble-t-il déjà considéré comme un ouvrage de référence par Frontin, un général nommé à la fin du Ier siècle apr. J.-C. pour administrer les aqueducs de Rome. Il est à l’origine de la découverte de la différence entre l'apport et la fourniture d'eau causée par des conduites illégales insérées dans les canaux pour détourner l'eau.
+Matériaux[modifier | modifier le code]
+Vitruve a décrit de nombreux matériaux de construction utilisés pour une grande variété de structures différentes. Il a également fourni une description détaillée de la peinture sur stuc. Il s’est particulièrement intéressé au béton et à la chaux auxquels il consacre de larges passages de son œuvre. Il explique en particulier l'intérêt de la pouzzolane pour le béton hydraulique qui durcit sous l'eau. La longévité de beaucoup de bâtiments de l’époque romaine est encore aujourd’hui le témoin de la maîtrise avancée par des Romains des matériaux de construction et leur utilisation.
+Vitruve est bien connu et souvent citée comme l'une des premières sources à avoir indiqué que le plomb ne devrait pas être utilisé pour transporter l'eau potable. Il s’est fait l’avocat des tuyaux en terre et des canaux en maçonnerie. Il en arrive à cette conclusion dans le livre viii du De Architectura après observation empirique d’ouvriers malades dans les fonderies de plomb. Vitruve nous rapporte l'histoire célèbre d'Archimède détectant de l'or frelaté par un alliage dans une couronne royale. Archimède se rendit compte que le volume de la couronne pouvait être mesurée exactement par le déplacement créé dans un bain d'eau. Cette découverte lui permit de comparer la densité de la couronne avec celle de l’or pur, et ainsi de montrer que la couronne était composée d’un alliage d’or et d’argent.
+Machines de drainage et d'irrigation[modifier | modifier le code]
+Schéma d'une vis d'Archimède, reconstitué par Morgan[5] (1914) d’après un passage du De architectura.
+Vitruve a décrit la construction d'une vis d’Archimède au chapitre X du De architectura. Il n’y mentionne cependant pas le nom d’Archimède.
+Il s’agissait à l’époque d’un dispositif déjà largement utilisé pour élever l’eau afin d'irriguer les champs et pour drainer les mines. Parmi les autres machines de levage qu’il décrit, on trouve notamment une chaîne sans fin de seaux et une roue à aube.
+Des vestiges de roues à aubes ont été découverts dans les mines antiques, comme celle du Rio Tinto en Espagne et Dolaucothi dans l’ouest du Pays de Galles. Celles-ci sont exposées au British Museum, et au Musée national du Pays de Galles. Les restes ont été découverts à l’occasion de la réouverture de ces mines dans le cadre de tentatives d’exploitation minière moderne.
+Instruments d'arpentage[modifier | modifier le code]
+Vitruve démontre sa maîtrise de l’arpentage dans ses descriptions des instruments d’arpentage, en particulier le niveau à eau ou chorobate, qu’il préfère à la groma, un dispositif utilisant un fil à plomb. Ces instruments sont essentiels dans toutes les opérations de construction, et tout particulièrement dans la construction d’aqueducs, où s’assurer de l’uniformité de la pente était crucial afin de préserver un approvisionnement régulier en eau sans endommager les parois du canal. Il a également développé l'un des tout premiers odomètres, constitué d'une roue de circonférence connue qui laisse tomber un caillou dans un récipient à chaque rotation.
+Chauffage central[modifier | modifier le code]
+Ruines de l’hypocauste sous le plancher d’une villa romaine. La partie sous l’exèdre est recouverte.
+Vitruve a décrit les nombreuses innovations intervenues dans la conception des bâtiments pour améliorer les conditions de vie des habitants. La plus importante de ces innovations est le développement de l’hypocauste, un type de chauffage central où l’air chaud généré par un feu de bois est canalisé sous le plancher et à l’intérieur des murs des bains publics et des villas. Il donne des instructions explicites sur la façon de concevoir de tels bâtiments afin d’en optimiser l’efficacité énergétique (par exemple, il conseille de placer le caldarium à côté du tepidarium suivi du frigidarium afin de limiter les déperditions énergétiques). Il conseille également d’utiliser une sorte de régulateur pour contrôler la chaleur dans les pièces chaudes. Il s’agit d'un disque en bronze, installé dans une ouverture circulaire pratiquée dans le toit, et qui pourrait être relevé ou abaissé par une poulie pour ajuster la ventilation. Bien qu’il ne les propose pas lui-même, il est probable que ses dispositifs de roues à aubes aient été utilisés dans les bains les plus vastes pour soulever l'eau dans la partie supérieure des thermes, comme dans les thermes de Dioclétien et les thermes de Caracalla.
+Travaux maritimes[modifier | modifier le code]
+Vitruve décrit trois méthodes de construction des brise-lames, des jetées et quais :
+En eau protégée et si un mortier de pouzzolane est disponible en abondance, un coffrage constitué de palplanches en bois agencées à la façon d’une « berlinoise » ou de pieux juxtaposés sera fiché dans le fond marin, puis l’espace intérieur sera rempli de béton hydraulique coulé in-situ, après décapage éventuel du fond afin d'assurer une bonne fondation.
+En eau plus agitée ou si la pouzzolane n’est pas disponible, le coffrage sera remplacé par un batardeau plus solide, puis l’espace intérieur sera asséché afin de construire la jetée à sec (puisque l’absence de pouzzolane empêche la préparation d’un béton hydraulique qui durcit sous l’eau).
+Si la mer est soumise aux marées (ce qui n’était pas souvent le cas pour les romains), la structure sera construite depuis la côte vers le large sur un massif sableux qu’on laissera ensuite s’éroder sous l’action des vagues de façon que la structure s’affaisse progressivement sur le fond marin.
+Son texte a fait l’objet de diverses analyses par des ingénieurs maritimes modernes, dont le Professeur italien de génie maritime Leopoldo Franco[6].
+Notes et références[modifier | modifier le code]
+↑ Vitruve dans la base Gallica de la BNF.
+↑ « Itaque cum M. Aurelio et P. Minidio et Cn. Cornelio ad apparationem balistárum et scorpionum reliquórumque tormentórum refectionem fui præsto... ». De architectura, livre i, Préambule.
+↑ « Mihi autem… staturam non tribuit natura, faciem deformavit ætas, valetudo detraxit vires. », De architectura, livre ii, Préambule
+↑ Voir l’article Architecte et Définitions lexicographiques et étymologiques de « architecte » du Trésor de la langue française informatisé, sur le site du Centre national de ressources textuelles et lexicales
+↑ Source : Morris Hicky Morgan, Vitruvius: The Ten Books on Architecture, Cambridge, Harvard University Press, 1914, p. 295-297
+↑ Prof. Leopoldo Franco, Ancient Mediterranean harbours: a heritage to preserve. Ocean & Coastal Management, Vol 30, no 2 & 3, (1996)
+Annexes[modifier | modifier le code]
+Bibliographie[modifier | modifier le code]
+Études sur Vitruve[modifier | modifier le code]
+Vitruve et André Dalmas (éditeur scientifique) (trad. Claude Perrault), De l'architecture : Les Dix Livres d’architecture, Traduction intégrale de Claude Perrault, 1673, revue et corrigée sur les textes latins, Paris, Balland, coll. « Point de vue du spectateur », 1965 (réimpr. 1979), 349 p. (ISBN 2-7158-0211-0 et 978-2-7158-0211-7, OCLC 37187775, notice BnF no FRBNF34648991)
+Le Projet de Vitruve : Objet, destinataires et réception du "De architectura", Rome, École française de Rome, coll. « Collection de l'École française de Rome » (no 192), 1994, 260 p. (ISBN 2-7283-0305-3 et 978-2-7283-0305-2, OCLC 32005336, notice BnF no FRBNF35739147)
+Actes du colloque international de Rome, organisé par l'École française de Rome, l'Institut de recherche sur l'architecture antique du CNRS et la Scuola normale superiore de Pisa, Rome, 26-27 mars 1993. Résumés en français, en italien et en allemand.
+Pierre Caye (ill. Didier Laroque), Empire et Décor : Le vitruvianisme et la question de la technique à l’âge humaniste et classique, Paris, J. Vrin, coll. « Philologie et Mercure », 1999, 156 p. (ISBN 2-7116-1385-2 et 978-2-7116-1385-4, OCLC 46420277, notice BnF no FRBNF37041033)
+Georg Germann, Vitruve et le Vitruvianisme : Introduction à l'histoire de la théorie architecturale, Lausanne, Presses polytechniques et universitaires romandes, coll. « pochearchitecture », 2016, 327 p. (ISBN 978-2-88915-167-7).
+Articles connexes[modifier | modifier le code]
+De architectura
+Homme de Vitruve
+Cesare Cesariano
+Liens externes[modifier | modifier le code]
+Notices d'autorité : Fichier d'autorité international virtuel • International Standard Name Identifier • Union List of Artist Names • Bibliothèque nationale de France (données) • Système universitaire de documentation • Bibliothèque du Congrès • Gemeinsame Normdatei • Service bibliothécaire national • WorldCat
+(fr) Vitruvius. Architecture, ou Art de bien bastir traduit en français par Jean Martin, Paris, Jacques Gazeau 1547
+(fr) La BNF et Google Books ont mis en ligne diverses traductions du de architectura de Vitruve : celle de Jean Martin (1547), chez Jean Baptiste Coignard, avec notes ; celle de Perrault (1673); celle de De Bioul (1816) et celle de Ch. L. Maufras, avec texte latin (1847). Texte latin et traduction avec recherche plein texte dans Itinera electronica.
+(fr) Base Architectura du Centre d’études supérieures de la Renaissance (éditions de 1511, 1521 et traductions françaises de 1547, 1572... Voir aussi les pages "Faventinus" [1], "Cesariano"[2] et "Perrault"Architectura : Livres d’architecture, Architecture, textes et images des XVIe – XIIe siècles.
+VITRUVII, M. De architectura. Naples, (ca.1480). Disponible sur Somni.
+v · m
+Architecture romaine
+Traités d'architecture
+De architectura de Vitruve · De aquaeductibus urbis Romae de Frontin · De limitibus constituendis de Hygin le Gromatique · De munitionibus castrorum du « Pseudo-Hygin »
+Appareils
+Opus africanum · Opus caementicium · Opus craticium · Opus incertum · Opus latericium · Opus mixtum · Opus musivum · Opus quadratum · Opus reticulatum · Opus sectile · Opus siliceum · Opus signinum · Opus spicatum · Opus tesselatum · Opus testaceum · Opus vermiculatum · Opus vittatum
+Habitat
+Domus · Insula · Villa
+Lieux de divertissement
+Amphithéâtre · Cirque · Odéon · Théâtre · Thermes
+Religion
+Fanum · Mithraeum · Temple
+Activités commerciales
+Basilique civile · Forum · Horreum · Cryptoportique (occasionnel)
+Transport
+Aqueduc · Phare · Pont · Port · Tunnel routier · Voie
+Architecture militaire
+Camp · Castellum · Limes
+Monuments commémoratifs
+Arc de triomphe · Colonne triomphale · Trophée
+Architecture funéraire
+Catacombes · Mausolée · Pile · Tumulus
+Portail de l’architecture et de l’urbanisme
+Portail de la Rome antique
+Ce document provient de « https://fr.wikipedia.org/w/index.php?title=Vitruve&oldid=133352213 ».
+Catégories : Personnalité du Ier siècle av. J.-C.Architecte de la Rome antiqueIngénieur militaireThéoricien de l'architectureDate de naissance incertaine (Ier siècle av. J.-C.)Date de décès incertaine (Ier siècle)Écrivain latin classiqueCatégories cachées : Article de Wikipédia avec notice d'autoritéPortail:Architecture et urbanisme/Articles liésPortail:Rome antique/Articles liésPortail:Italie/Articles liésPortail:Monde antique/Articles liésPortail:Histoire/Articles liésWikipédia:Article biographiquePortail:Biographie/Articles liés/Culture et artsPortail:Biographie/Articles liés/Sciences
+Menu de navigation
+Outils personnels
+Non connectéDiscussionContributionsCréer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+AccueilPortails thématiquesArticle au hasardContact
+Contribuer
+Débuter sur WikipédiaAideCommunautéModifications récentesFaire un don
+Outils
+Pages liéesSuivi des pages liéesImporter un fichierPages spécialesAdresse permanenteInformation sur la pageÉlément WikidataCiter cette page
+Imprimer / exporter
+Créer un livreTélécharger comme PDFVersion imprimable
+Dans d’autres projets
+Wikimédia Commons
+Dans d’autres langues
+العربيةAsturianuAzərbaycancaБеларускаяБеларуская (тарашкевіца)‎БългарскиBosanskiCatalàČeštinaDanskDeutschΕλληνικάEnglishEsperantoEspañolEestiEuskaraفارسیSuomiGaeilgeGalegoעבריתहिन्दीHrvatskiMagyarՀայերենInterlinguaBahasa IndonesiaIdoÍslenskaItaliano日本語한국어LatinaLietuviųLatviešuMalagasyМакедонскиമലയാളംमराठीनेपाल भाषाNederlandsNorsk bokmålOccitanPolskiPortuguêsRomânăРусскийSicilianuScotsSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaСрпски / srpskiSvenskaதமிழ்ไทยTürkçeУкраїнськаTiếng ViệtWinaray中文粵語
+Modifier les liens
+Dernière modification de cette page le 5 janvier 2017, à 11:57.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Déclaration sur les témoins (cookies)
+Version mobile

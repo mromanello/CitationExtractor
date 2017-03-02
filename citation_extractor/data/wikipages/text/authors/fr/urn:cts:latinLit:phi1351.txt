@@ -1,0 +1,217 @@
+Tacite — Wikipédia
+Tacite
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Tacite (homonymie).
+Tacite
+Portrait fictif de Tacite du début du XXe siècle, prétendument d'après un buste antique (Bryce, James Bryce, Viscount ; Thompson, Holland ; Petrie, William Matthew Flinders, Sir. The Book of History: A History of All Nations from the Earliest Times to the Present, avec plus de 8 000 illustrations. Volume 7 : The Roman Empire. (1920). New York : Grolier Society. p. 2 741).
+Fonctions
+Sénateur romain (d)
+Gouverneur romain
+Consul de l'Empire romain
+Tribun de la plèbe
+Préteur
+Biographie
+Naissance
+54
+Gaule narbonnaise
+Décès
+120
+Empire romain
+Époque
+Empire romain
+Activités
+Historien, homme politique, écrivain
+Conjoint
+Julia Agricola (en)
+Autres informations
+Maître
+Quintilien
+Œuvres réputées
+Annales, Histoires, La Germanie
+modifier - modifier le code - modifier Wikidata
+Tacite (en latin Publius Cornelius Tacitus) est un historien et sénateur romain né en 58[1] et mort vers 120 ap. J.-C.
+Sommaire
+1 Biographie
+2 Œuvres
+2.1 La Vie d’Agricola (De Vita Iulii Agricolae)
+2.2 La Germanie (De situ ac populis Germaniae)
+2.3 Le Dialogue des orateurs (Dialogus de oratoribus)
+2.4 Les Histoires (Historiae)
+2.5 Les Annales (Ab excessu diui Augusti)
+3 L’historien
+3.1 Sa démarche
+3.2 Sa pensée
+4 L’écrivain
+5 Publications
+6 Notes et références
+7 Voir aussi
+7.1 Bibliographie
+7.1.1 Biographies
+7.1.2 Ouvrages critiques
+7.2 Articles connexes
+7.3 Liens externes
+Biographie[modifier | modifier le code]
+On connaît peu de choses sur la vie de Tacite. Les débuts de sa carrière et son contexte familial sont désormais mieux connus grâce à l'identification quasi certaine d'un fragment d'inscription latine avec son épitaphe[2],[3],[4]. L'historien romain est né probablement en 58, sous Néron. De ce fragment et de son contexte archéologique on peut supposer que le nom complet de Tacite était Publius Cornelius Tacitus Caecina Paetus[5]. D'une des Lettres de Pline le Jeune[6] on déduit[7] qu'il était vraisemblablement originaire d'Italie du Nord, ou de Gaule narbonnaise, peut-être de Vaison-la-Romaine[8]. Il était issu d'une famille de l'ordre équestre. On sait grâce à Pline l'Ancien que son père probable, nommé aussi Cornelius Tacitus, fut procurateur de la province de Gaule belgique[9],[10]. En revanche, l'épouse de son père était peut-être issue d'une famille sénatoriale[11] puisqu'elle semble avoir été une Caecina appartenant à une famille sénatoriale originaire d'Étrurie. Premier membre de sa lignée à entrer au sénat, Tacite fut donc un homo novus.
+Tacite a fort probablement suivi le parcours classique de l'éducation des jeunes aristocrates romains, il a fréquenté le grammaticus, puis le rhetor et il est possible qu'il ait été l'élève de Quintilien. Ses études et ses origines lui ouvrent les portes du forum et c'est ainsi que commence sa carrière vers 75, date à laquelle il situe plus tard son Dialogue des orateurs : grâce à Vespasien il entre dans l'ordre sénatorial[12],[13]. Ayant reçu le laticlave, il commence sa carrière vers 76 par le vigintivirat et plus précisément le poste de decemvir stlitibus iudicandis avant d'accomplir, fort probablement, son tribunat militaire dans une légion[14]. Selon Antony Birley il est possible alors que Tacite ait pu servir en Bretagne sous les ordres de son beau-père[15]. Il a en effet épousé en 77 Cnaeus Julius Agricola (originaire de Fréjus)[16], la fille du consul Julius Agricola, ce qui l'associe à un personnage prestigieux.
+En 81, sous Titus[17], il devient questeur en tant que quaestor augusti, distinction remarquable car ces questeurs sont plus particulièrement attachés à l'empereur, signe d'une grande faveur[14]. Tacite est alors sans doute un peu plus jeune que l'âge normal pour cette fonction. Vers 83, il est tribun de la plèbe ou édile, deux degrés du cursus considérés comme équivalents[18].
+Ainsi qu'il le précise lui-même dans les Annales[19], il est nommé Quindecemvir sacris faciundis avant 88, cette prêtrise prestigieuse lui est conférée à un âge relativement jeune[13]. Le même passage des Annales nous apprend qu'en 88, sous Domitien, il devient préteur sans doute à l'âge minimal, il a alors 30 ans[1]. Tacite joue alors un rôle important lors des cérémonies des Jeux séculaires qui sont tenus cette année. De 89 à 93, il est en poste en province, sans doute en tant que légat, vraisemblablement de légion, dans un endroit indéterminé de l'empire[20],[21]. Le règne de Domitien vit donc Tacite avancer régulièrement dans la carrière[22].
+En 93, après la mort d'Agricola, Tacite retourne à Rome. Le sénat est alors secoué par des procès et de violentes attaques de Domitien contre les sénateurs, et Tacite se voit contraint d'assister et de participer à la purge[23],[24]. Tacite n'ayant obtenu le consulat qu'en 97, il faut lui supposer entre 94 et 97 au moins une fonction de rang prétorien, vraisemblablement un gouvernement de province, avancement normal pour une carrière comme la sienne[24].
+Tacite fut donc consul suffect, sous l'empereur Nerva, mais il avait peut-être été désigné par Domitien[25]. La même année, il fut chargé de l’oraison funèbre de Lucius Verginius Rufus[26], personnage prestigieux qui avait tenu un rôle déterminant lors de la fin du règne de Néron. Ces circonstances, associées au climat politique du règne de Nerva, sont peut-être à l'origine de sa décision de rédiger l'Agricola et de se tourner vers l'écriture de l'histoire[27]. L'arrivée de Trajan au pouvoir en 98 confirme le changement politique apporté par la mort de Domitien ; en écrivant La Germanie, Tacite se consacre à une région où se trouvait Trajan lors de sa prise de pouvoir, et aborde une question d'actualité : l'éventuelle poursuite d'une politique de conquêtes[28]. Dès lors Tacite partage ses activités entre l'écriture de l'histoire et ses activités de sénateur, en particulier dans le rôle d'avocat.
+En 100, il se fait l’avocat de la province d’Asie contre l’ancien gouverneur Marius Priscus ; Pline le Jeune a souligné l’éloquence et la dignité de ce plaidoyer.
+De 112 à 114, il est gouverneur de la province d’Asie et accède, par là même, à la plus haute fonction politique. On ne sait rien sur le reste de sa vie. Il serait mort dans les années 120.
+Œuvres[modifier | modifier le code]
+Janvier 98 : De uita Iulii Agricolae (La vie d'Agricola)
+Fin 98 : De situ ac populis Germaniae ou De origine et situ Germanorum (La Germanie)
+107 : Dialogus de oratoribus (Le Dialogue des orateurs)
+109 : Historiae (Histoires)
+110 : Ab excessu diui Augusti (œuvre inachevée correspondant à ce que la tradition a nommé Les Annales)
+La Vie d’Agricola (De Vita Iulii Agricolae)[modifier | modifier le code]
+Article détaillé : De Vita Agricolae.
+Cette biographie parait en 98, cinq ans après la mort d'Agricola, beau-père de Tacite. Cette œuvre a deux motivations :
+Tacite n'était pas à Rome au moment de la mort de son beau-père et n'a donc pas pu prononcer son éloge funèbre.
+Tacite voulait, par contraste avec le régime en exercice, faire l'apologie d'une forme de virtus et de qualités humaines dont Domitien était dépourvu. Il tenait ainsi à montrer une opposition discrète, une sorte de résistance passive.
+En écrivant La Vie d'Agricola, Tacite veut rendre hommage à un homme qu'il a aimé et estimé. Il loue en lui un bon serviteur de l'Empire, qu'il a contribué à étendre, en achevant la conquête de la Bretagne (Britannia, la Grande-Bretagne actuelle) et en la pacifiant. Ainsi l’œuvre se présente à la fois comme un éloge funèbre et un essai historique sur la Bretagne, sur ses habitants et sa conquête. C’est aussi un manifeste contre la tyrannie de Domitien, assassiné en 96. Ce qui est frappant dans cette œuvre, c'est l’approche originale que Tacite fait du phénomène de la conquête impérialiste. Il s’intéresse en géographe et en ethnologue - comme dans la Germanie - à ces Barbares attaqués par l’expansion romaine, en tenant compte du point de vue des conquis et pas seulement de celui des conquérants. Quelles raisons auraient-ils d’accepter passivement la servitude ? La conquête assure la force et la gloire du peuple romain, mais peut-elle prétendre assurer le bonheur des vaincus ? En voici la composition :
+Chap. I à III : le début de l'œuvre est placé sous le patronage de Nerva et Trajan, qui ont rendu la liberté au peuple romain.
+Chap. IV à IX : la vie d'Agricola proprement dite.
+Chap. X à XXXVIII : dissertation ethnographique et géographique sur la Bretagne et les Bretons. Tacite détaille la conquête de l'ile. Agricola y est montré comme le représentant de toutes les vertus.
+Chap. XXXIV - XLVI : portrait d'Agricola. Tacite invite à suivre cet exemple.
+La Germanie (De situ ac populis Germaniae)[modifier | modifier le code]
+Article détaillé : La Germanie.
+En 98 paraît également La Germanie (ou Sur l’origine et le pays des Germains), petit ouvrage d’actualité — Trajan fortifiait la frontière du Rhin —, mais dont le caractère est plus nettement historique et ethnographique. C’est une description des différentes tribus vivant au nord du Rhin et du Danube. Tacite s’inspira nettement d’auteurs antérieurs comme Tite-Live ou Pline l’Ancien. L’amour de la liberté des Germains, leur vigueur, leur bravoure sont opposés à la corruption sévissant à Rome.
+46 chapitres nous sont parvenus, dont la répartition est très nette :
+chapitres I à XXVII : chaque chapitre est consacré à une question. C'est une notice sur un sujet déterminé : habitat, nourriture, hospitalité, jeux, mariage, habillement ;
+chapitres XXVIII à XLVI : passage en revue des différents peuples germains d'ouest en est, depuis les bords du Rhin jusqu'à l’actuelle Russie, en passant par la Baltique et la Scandinavie.
+On peut retenir deux leçons :
+leçon morale : la pauvreté et la simplicité des institutions maintiennent chez les Germains une pureté de mœurs dont les Romains se sont éloignés. C'est un thème stoïcien constamment présent ;
+leçon politique : ces vertus, qui sont les mêmes que celles qui ont rendu redoutable la Rome ancienne, sont inquiétantes pour l'avenir de l'Empire romain.
+Le Dialogue des orateurs (Dialogus de oratoribus)[modifier | modifier le code]
+On a hésité quelquefois à attribuer Le Dialogue des orateurs à Tacite, mais tous les manuscrits le mettent sous son nom. L’ouvrage fut sans doute composé en 80 ou 81, au moment où Tacite était encore entièrement tourné vers l’éloquence et publié vraisemblablement en 107.
+Tacite adresse le Dialogue à Lucius Fabius Iustus, qui lui a demandé les causes du déclin de l’éloquence. Il rapporte, à la manière cicéronienne, un entretien auquel il assista en 75 entre le poète Maternus et les orateurs Marcus Aper, Julius Secundus (ses deux maîtres) et Vipstanus Messala. Le Dialogue ne répond pas immédiatement à la question posée. Dans une première partie, Aper et Maternus discutent avec chaleur des mérites respectifs de l’éloquence et de la poésie. Dans une seconde partie, en recherchant si l’éloquence est en décadence, les interlocuteurs opposent les modernes aux anciens. On en arrive enfin aux causes du déclin de l’éloquence : relâchement moral dans l’éducation, médiocrité de l’enseignement des rhéteurs, perte de la liberté politique et nouvelles conditions sociales.
+Les Histoires (Historiae)[modifier | modifier le code]
+Article détaillé : Histoires (Tacite).
+Les Histoires, publiées entre 106 et 109[29], décrivent l'Empire romain du 1er janvier 69 à l'année 96, c’est-à-dire de l'avènement de Galba à la mort de Domitien. Saint Jérôme nous indique que l’œuvre de Tacite comptait 30 livres[30], on considère en général que les Histoires occupaient 12 livres de ce total[29]. Il n'en reste néanmoins aujourd'hui que 5 : l'intégralité des 4 premiers livres et les 26 premiers chapitres du livre V. Le contenu de l'œuvre originelle couvre les règnes suivants : Galba, Othon, Vitellius, Vespasien, Titus et Domitien. La partie de l'œuvre qui nous est parvenue s'achève au début du règne de Vespasien :
+Les Annales (Ab excessu diui Augusti)[modifier | modifier le code]
+Article détaillé : Annales (Tacite).
+Écrite en 110, cette œuvre constitue, sans doute, la grande œuvre historique de Tacite. Le titre apocryphe qu'a retenu la tradition (Les Annales) est issu d'une interprétation abusive du passage IV, 32. On ne sait si l'auteur acheva son œuvre avant de mourir. Celle-ci devait comporter 18 livres dont le contenu s'étend du début du règne de Tibère (14 ap. J.-C.) à la fin du règne de Néron (68 ap. J.-C.). Nous avons conservé les livres I à IV, le début du livre V, une partie du livre VI ainsi que tout ce qui est compris entre la deuxième moitié du livre IX et la première moitié du livre XVI. Nous avons donc perdu la fin du règne de Tibère, entièrement celui de Caligula, le début du règne de Claude et les deux dernières années du règne de Néron.
+Tacite puisa ses sources dans les ouvrages d’autres historiens, dans les registres publics et parfois dans sa propre expérience. À la fois historien et moraliste, Tacite y dépeint avec pessimisme, comme pour les Histoires, les mentalités, les grands événements et les mœurs des hommes de son temps : l'analyse est équilibrée et le style concis. Ainsi le portrait que trace l'historien des empereurs et de leur entourage est-il impitoyable : obsession du complot chez Tibère, faiblesse indigne d'un prince chez Claude, monstruosité de Néron. L'entourage - composé d'Agrippine, la mère de Néron, et des affranchis, exécuteurs des basses œuvres - est au diapason. L'assassinat est l'arme favorite du pouvoir. De cette œuvre, Racine tirera le sujet d'une de ses tragédies : Britannicus. Nous retrouvons dans les Annales la matière littéraire des Histoires, mais l’approche des évènements politiques est sensiblement différente. Tacite tourne essentiellement ses regards vers la politique intérieure et l’équilibre traditionnel entre « ce qui se passe à Rome » et « ce qui se passe à l’extérieur » n’est pas respecté.
+L’historien[modifier | modifier le code]
+Sa démarche[modifier | modifier le code]
+Sa valeur d’historien est très contestée : Tacite n’aurait pas été objectif dans ce qu’il écrivait et on conteste la rigueur de son information. On le considère comme trop passionné. Il savait cependant nuancer son portrait laudatif par l’appréciation des erreurs de ses héros (sa haine pour Tibère et Agrippine ne l’empêche pas de leur donner une dimension exceptionnelle dans son œuvre). Les récits des historiens romains postérieurs au règne de Néron, tels Tacite, Dion Cassius et Suétone, soulèvent ainsi une multitude d'interrogations sur la fiabilité de ces témoignages de « seconde main »[31].
+Tacite, lorsqu’il écrivait ses œuvres, combinait plusieurs sources, les interprétait et les repensait d’une manière originale. Il bâtissait sa réflexion historique sur sa pensée philosophique. Il combinait la pensée des trois grands historiens qui l’ont précédé : Tite-Live, Salluste et Cicéron.
+Sa pensée[modifier | modifier le code]
+De plus, il laisse dans son œuvre certaines zones d’ombre, qui rendent difficile l’interprétation de sa pensée, et qui lui permettent de ne pas s’asservir à des thèses trop tranchées. Était-il un ami ou un ennemi de l’empire ? Il était certainement un ami de l’empire, et sans aucun doute un ami de Rome. Il servait les empereurs, ce qui ne l’empêchait pas de les critiquer. En fait, son but premier n’était pas de servir les empereurs, mais Rome. Il aurait été très proche d’Hadrien et de Trajan. Comme le dit Alain Michel[32], « Tacite se présente un peu comme l'Alceste de l'Histoire : parce qu'il ne veut flatter personne, il dit du mal de tous ; cependant, l'on éprouve toujours un peu de gêne à se rendre semblable à Philinte et à lui donner tort. »
+Tacite accorde dans son œuvre une grande place à la philosophie, qu’il connaît sans doute grâce aux maîtres grecs qui se trouvaient à Rome à son époque. Il est le seul à parler des stoïciens dans son œuvre. Enfin, tout en écrivant, il n’a jamais cessé de penser à son temps. Les grands thèmes de l'œuvre de Tacite sont la glorification des grands administrateurs, la défense libérale de la domination romaine, la critique de la tyrannie, et l’éloge de la sagesse philosophique tempérée par la défiance à l’égard du fanatisme et du dogmatisme[réf. nécessaire].
+L’écrivain[modifier | modifier le code]
+Tacite, dont Racine écrit, dans la préface de Britannicus, qu'il est le « plus grand peintre de l’Antiquité », est à la fois homme de culture et homme d’ordre. Il a été formé par Marcus Aper et Julius Secundus qu’il met en scène dans le Dialogue des Orateurs. C’est en écoutant ses maîtres, comme lui Gaulois d’origine, que Tacite a nourri son talent. Comme son ami Pline le Jeune, il fut un orateur brillant et renommé qui admire Cicéron, mais ne l’imite pas. Il recherche non l’abondance mais la force expressive, ce que Pline appelle la semnotès, mot grec signifiant la gravité. Il était apprécié pour son style vif et concis.
+Tacite savait faire des portraits grandioses et sobres de ses personnages. L’histoire lui offrait d’ailleurs de beaux sujets qu’il réussit à mettre en scène. Dans son œuvre, la grandeur s’est toujours jointe à l’ironie ou à l’amertume. Sa production littéraire, s'inscrivant dans le cadre de son amitié pour Trajan et Pline le Jeune, était appréciée par le milieu impérial. Tacite fut l'historien officieux du régime, ce qui ne l'empêcha pas d'être aussi un historien critique. Il a toujours été vu par le peuple comme un très bon historien et penseur[réf. nécessaire].
+Publications[modifier | modifier le code]
+Tacite, Œuvres complètes, traduction de Pierre Grimal, Gallimard, coll. « Pléiade », Paris, 1990, (ISBN 2070111768)
+Tacite, Œuvres, dans la traduction de Nicolas Perrot d'Ablancourt, édition établie par Jean Pietri et Eric Pesty, volume relié, Paris, éditions Ivrea, 2004
+Tacite, La Germanie, trad. en ligne [lire en ligne]
+Tacite, Les Annales, éd. Flammarion, coll. Garnier Flammarion/Littérature étrangère, 1999, (ISBN 2-08-070071-5), trad. en ligne Les Annales
+Tacite, Histoires, texte établi et traduit par P. Wuilleumier et H. Le Bonniec, annoté par J. Hellegouarch (3 volumes), CUF, Paris, 1987-1992. Trad. en ligne [1]
+Notes et références[modifier | modifier le code]
+↑ a et b Birley 2000, p. 236.
+↑ Corpus Inscriptionum Latinarum, VI, 1574=41106 ; AE 1995, 92.
+↑ Alföldy, 1995.
+↑ Birley 2000, p. ?[réf. incomplète].
+↑ Birley 2000, p. 232.
+↑ Pline le Jeune, Ep. IX, 23.
+↑ Birley 2000, p. 233-234.
+↑ Syme, 1958, p. 619.
+↑ Pline l'Ancien, Historia Naturalis, VII, 76.
+↑ Birley 2000, p. 233
+↑ Birley 2000, p. 232-233
+↑ « Dignitatem nostram a Vespasiano inchoatam » Histoires, I, 1, 3.
+↑ a et b Birley 2000, p. 234
+↑ a et b Birley 2000, p. 237
+↑ Birley 2000, p. 237-238
+↑ Christophe Badel, La noblesse de l'Empire romain, Éditions Champ Vallon, 2005, p. 254
+↑ « Dignitatem nostram... a Tito auctam », Histoires, I, 1, 3.
+↑ Pierre Grimal,Tacite, Fayard, 1990, p.71. Nous ignorons laquelle de ces deux magistratures lui fut attribuée.
+↑ Annales XI, 11 : « Nam is quoque edidit ludos saecularis iisque intentius adfui sacerdotio quindecimvirali praeditus ac tunc praetor ; quod non iactantia refero sed quia collegio quindecimvirum antiquitus ea cura et magistratus potissimum exequebantur officia caerimoniarum » : « Car ce prince aussi donna des jeux séculaires et j'y assistai assidûment, en ma qualité de quindécemvir et de préteur ; si je rappelle ce fait, ce n'est pas par vanité, mais pour montrer que de tout temps le collège des quindécemvirs a eu ce soin, et que les magistrats s'acquittaient des devoirs requis par les cérémonies. »
+↑ Agricola, 45, 8
+↑ Birley, 2000, p. 234-235.
+↑ Histoires, I, 1, 3 : «…a Domitiano longius provectam… ».
+↑ Agricola, 45, 2 : « mox nostrae duxere Helvidium in carcerem manus ; nos Mauricum Rusticumque divisimus ; nos innocenti sanguine Senecio perfudit » : « C'est dans la suite que nos propres mains ont traîné Helvidius en prison, que nous avons arraché l'un à l'autre Mauricus et Rusticus, que Sénécion nous a couverts de son sang innocent. »
+↑ a et b Birley 2000, p. 235
+↑ Birley 2000, p. 238
+↑ Pline le Jeune, Lettres, II, 1, 6
+↑ Birley 2000, p. 239
+↑ Birley 2000, p. 240
+↑ a et b P. Wuilleumier dans P. Wuilleumier, H. Le Bonniec éd. Tacite, Histoires I, C.U.F., Paris, (1987), 2002, p. xiii
+↑ Comm. ad Zacch., 3, 14
+↑ Bope Katal Shaminga, La justice de Néron d'après Tacite, Presses universitaires du Septentrion, 2000, p. 7
+↑ Cf. Bibliographie.[réf. incomplète]
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Tacite, sur Wikimedia Commons
+Tacite, sur Wikisource
+Tacite, sur Wikiquote
+Bibliographie[modifier | modifier le code]
+Biographies[modifier | modifier le code]
+Géza Alföldy, « Bricht der Schweigsame sein Schweigen ? Eine Grabinschrift in Rom », Mitteilungen des deutschen archäologischen Instituts, römische Abteilung, 102, 1995, p. 251-268.
+Antony R. Birley, « The Life and Death of Cornelius Tacitus », Historia, no 49,‎ 2000, p. 230-247
+Pierre Grimal, Tacite, Paris, 1990.
+Ronald Syme, Tacitus, Oxford, 1958.
+Ouvrages critiques[modifier | modifier le code]
+E. Aubrion, Rhétorique et histoire chez Tacite, Metz, 1985.
+R. Chevalier éd., Actes du colloque « Présence de Tacite », Tours, 1992.
+O. Devillers, L'art de la persuasion dans les Annales de Tacite, Latomus 223, Bruxelles, 1994.
+O. Devillers, Tacite et les sources des «Annales». Enquêtes sur la méthode historique, Bibliothèque d'Études Classiques, Louvain, 2003.
+R. Mellor, Tacitus, New York, Routledge, 1993.
+Alain Michel, Tacite et le destin de l'Empire, Arthaud, Paris, 1966.
+Xavier Darcos, Tacite, ses vérités sont les nôtres, Plon, 2006
+D. Sailor, Writing and Empire in Tacitus, Cambridge-New York, 2008.
+A. J. Woodman (éd.), The Cambridge Companion to Tacitus, Cambridge, Cambridge University Press, 2009.
+F. Galtier, L'image tragique de l'Histoire chez Tacite, Latomus 333, Bruxelles, 2011.
+P. Robin, L'ironie chez Tacite, Thèse présentée devant la faculté des lettres et Sciences humaines de Paris le 5 décembre 1970. Lille. 2 vol.
+Articles connexes[modifier | modifier le code]
+Historiographie latine
+Historiens célèbres
+Tacite, Marcus Claudius, empereur romain en 275-276.
+Liens externes[modifier | modifier le code]
+Notices d'autorité : Fichier d'autorité international virtuel • International Standard Name Identifier • Bibliothèque nationale de France (données) • Système universitaire de documentation • Bibliothèque du Congrès • Gemeinsame Normdatei • Service bibliothécaire national • Bibliothèque nationale de la Diète • WorldCat
+Traduction des œuvres de Tacite en ligne
+Portail de la philosophie antique
+Portail de la Rome antique
+Portail de l’historiographie
+Ce document provient de « https://fr.wikipedia.org/w/index.php?title=Tacite&oldid=132517986 ».
+Catégories : Personnalité du Ier sièclePersonnalité du IIe siècleÉcrivain romain du Ier siècleÉcrivain romain du IIe siècleBiographe de l'AntiquitéHistorien romainPhilosophe romainDate de décès incertaine (IIe siècle)Écrivain latin classiqueHomo novusCatégories cachées : Page utilisant Infobox Biographie2Page utilisant P569Page utilisant P19Page utilisant P570Page utilisant P20Page utilisant P2348Page utilisant P106Page utilisant P26Page utilisant P1066Page utilisant P800Page utilisant P39Article à référence nécessairePage utilisant le modèle Références avec un paramètre obsolèteCatégorie Commons avec lien local identique sur WikidataArticle de Wikipédia avec notice d'autoritéPortail:Philosophie antique/Articles liésPortail:Philosophie/Articles liésPortail:Grèce antique/Articles liésPortail:Monde antique/Articles liésPortail:Rome antique/Articles liésPortail:Italie/Articles liésPortail:Histoire/Articles liésPortail:Historiographie/Articles liésBon article en frison occidentalArticle de qualité en interlinguaArticle de qualité en russeBon article en espérantoWikipédia:Article biographiquePortail:Biographie/Articles liés/SciencesPortail:Biographie/Articles liés/PolitiquePortail:Biographie/Articles liés/Culture et arts
+Menu de navigation
+Outils personnels
+Non connectéDiscussionContributionsCréer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+AccueilPortails thématiquesArticle au hasardContact
+Contribuer
+Débuter sur WikipédiaAideCommunautéModifications récentesFaire un don
+Outils
+Pages liéesSuivi des pages liéesImporter un fichierPages spécialesAdresse permanenteInformation sur la pageÉlément WikidataCiter cette page
+Imprimer / exporter
+Créer un livreTélécharger comme PDFVersion imprimable
+Dans d’autres projets
+Wikimédia CommonsWikiquoteWikisource
+Dans d’autres langues
+AfrikaansAlemannischAragonésالعربيةAsturianuAzərbaycancaБеларускаяБългарскиবাংলাBrezhonegBosanskiCatalàČeštinaCymraegDanskDeutschZazakiΕλληνικάEnglishEsperantoEspañolEestiEuskaraEstremeñuفارسیSuomiNordfriiskFryskGaeilgeGalegoעבריתHrvatskiMagyarՀայերենInterlinguaBahasa IndonesiaIdoÍslenskaItaliano日本語ქართულიҚазақша한국어LatinaLietuviųLatviešuMalagasyമലയാളംNedersaksiesNederlandsNorsk nynorskNorsk bokmålOccitanPolskiPortuguêsRomânăРусскийSicilianuScotsSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaSlovenščinaShqipСрпски / srpskiSvenskaKiswahiliไทยTürkçeУкраїнськаOʻzbekcha/ўзбекчаTiếng ViệtWinaray中文
+Modifier les liens
+Dernière modification de cette page le 9 décembre 2016, à 10:56.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Déclaration sur les témoins (cookies)
+Version mobile

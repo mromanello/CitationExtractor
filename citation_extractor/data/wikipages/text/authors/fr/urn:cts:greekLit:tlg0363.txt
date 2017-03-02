@@ -1,0 +1,214 @@
+Claude Ptolémée — Wikipédia
+Claude Ptolémée
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+« Ptolémée » redirige ici. Pour les autres significations, voir Ptolémée (homonymie).
+Ptolémée
+Ptolémée d'après une gravure allemande du XVIe siècle.
+Données clés
+Naissance
+Vers 90
+Haute-Égypte, province romaine d’Égypte (actuelle Égypte)
+Décès
+168
+Canope, province romaine d’Égypte (actuelle Égypte)
+Domicile
+Province romaine d’Égypte (actuelle Égypte)
+Nationalité
+Probablement Romaine
+Domaines
+Astronomie, mathématiques, géographie, astrologie
+Renommé pour
+Almageste, Tetrabiblos
+modifier
+Claude Ptolémée (en grec ancien Κλαύδιος Πτολεμαῖος Claúdios Ptolemaîos, en latin Claudius Ptolemaeus), communément appelé Ptolémée (Ptolémaïs de Thébaïde (Haute-Égypte) vers 90 - Canope vers 168) est un astronome et astrologue grec qui vécut à Alexandrie (Égypte). Il est également l’un des précurseurs de la géographie. Sa vie est mal connue. Son cognomen Ptolemaeus semble indiquer des origines gréco-égyptiennes, et son nomen Claudius une citoyenneté romaine. Son prænomen est inconnu.
+Ptolémée est l’auteur de plusieurs traités scientifiques, dont deux ont exercé une très grande influence sur les sciences occidentales et orientales. L’un est le traité d’astronomie, aujourd’hui connu sous le nom d’Almageste (arabisation de Ἡ Μεγάλη Σύνταξις,ʿē Megálē Súntaxis, La Grande Composition puis Ὴ μεγίστη,ʿē megístē, La Très Grande, al-Mijisti, mais dont le titre original en grec était Μαθηματική σύνταξις, Mathēmatikḗ súntaxis, Composition mathématique). L’autre est la Géographie, qui est une synthèse des connaissances géographiques du monde gréco-romain.
+L’œuvre de Ptolémée est un sommet et l’aboutissement d’une longue évolution de la science antique fondée sur l'observation des astres, les nombres, le calcul et la mesure. Avec l’œuvre d’Aristote, c’est essentiellement à travers elle, transmise à la fois par les Arabes et les Byzantins, que l’Occident redécouvrira la science grecque au Moyen Âge[N 1] et à la Renaissance[1], laissant leurs prédécesseurs dans l’obscurité[2]. Pourtant Ptolémée ne manque pas de faire abondamment référence à ceux-ci[N 2] dans ses écrits.
+Sommaire
+1 Astronomie
+2 Géographie
+3 Astrologie
+4 Musique
+5 Mathématiques
+6 Optique
+7 Notes et références
+7.1 Notes
+7.2 Références
+8 Bibliographie
+8.1 Œuvres de Claude Ptolémée
+8.2 Études sur Claude Ptolémée
+8.3 Pseudo-Ptolémée
+9 Hommages
+10 Articles connexes
+Astronomie[modifier | modifier le code]
+Article détaillé : Almageste.
+Système de Ptolémée.
+L’Almageste est le seul ouvrage antique complet sur l’astronomie qui nous soit parvenu. Les astronomes babyloniens avaient mis au point des techniques de calcul pour la prévision de phénomènes astronomiques. Surtout, ils avaient consigné soigneusement, pendant des siècles, de précieuses observations (positions des astres, éclipses…)[N 3] Les astronomes grecs, tels qu’Eudoxe de Cnide et surtout Hipparque, avaient intégré ces observations et les leurs dans des modèles géométriques (théorie des épicycles) pour calculer les mouvements de certains corps célestes. Dans son traité, Ptolémée reprend ces différents modèles astronomiques et les perfectionne[3], notamment en ajoutant la notion d’équant[4]. Ses observations, jointes aux données antérieures dont il disposait, offrent un recul permettant une mesure fort précise des mouvements astronomiques, puisque l'ensemble couvre une période de près de neuf siècles. Ses « tables » de données, indispensables pour déterminer la position des astres, ont en effet comme point de départ le premier jour du calendrier égyptien de la première année du règne de Nabonassar, c’est-à-dire le 26 février 747 av. J. C[5]. Ptolémée consacre donc le modèle géocentrique d’Hipparque, qui lui fut souvent attribué[N 4] et qui fut accepté pendant plus de mille trois cents ans, quoique de manière discontinue. En Europe occidentale, en effet, il sombra dans l’oubli au début du Moyen Âge, avant d’être redécouvert à la fin de cette période. Cet héritage fut cependant préservé dans le monde arabe et, avec des hauts et des bas, dans l’Empire romain d’Orient et plus spécifiquement à Byzance[6]. Sa méthode et son modèle de calcul ont d’ailleurs été adoptés avec quelques modifications dans le monde arabophone et en Inde, car ils étaient d’une précision suffisante pour satisfaire les besoins des astronomes, des astrologues, des détenteurs de calendriers et des navigateurs.
+Ptolémée réalisa aussi une sorte de manuel essentiellement pratique, appelé « Les tables faciles » ou parfois « Les tables manuelles » (Πρόχειροι κανόνες, Prócheiroi kanónes), dérivé de l’Almageste[N 5] et destinées à réaliser des calculs de position des astres et d’éclipses.
+Contrairement à une idée reçue, Ptolémée ne reprit pas à son compte l’idée d’Aristote selon laquelle les astres étaient placés sur des sphères de cristal[7]. Il dit même expressément que « les astres nagent dans un fluide parfait qui n’oppose aucune résistance à leurs mouvements[8] ». On ignore si cette vision, proche de la notion de vide, était déjà présente chez Hipparque ou si elle doit être mise au crédit de Ptolémée. Pour celui-ci, déférents et épicycles sont donc immatériels. Nicolas Halma considère en outre que son choix du système des épicycles plutôt que de celui des excentriques résulte davantage d’une volonté de rendre les calculs plus commodes, que d’une foi dans la réalité matérielle du système[N 6].
+Durant les treize siècles qui suivirent, l’astronomie ne progressa plus guère. L’Almageste et les tables faciles ne reçurent que des corrections mineures, bien qu’elles aient fait l’objet, à la fin de l’Antiquité, de nombreuses publications de la part des « commentateurs »[9], dont le plus connu est Théon d’Alexandrie. Ce furent donc les tables et les textes de Ptolémée qui furent utilisés directement ou indirectement comme références[10] jusqu’à ce que les progrès des instruments d’observation et la théorie élaborée par Nicolas Copernic et perfectionnée par Johannes Kepler n’entraînent son abandon. Mais ce fut à grand peine : le système héliocentrique de Copernic (1543), appuyé par Galilée (1630) fut rejeté par l’Église catholique et Galilée se vit contraint de renier officiellement ses théories en 1633. Le modèle de Ptolémée ne fut définitivement abandonné par l'Église que sous le pape Benoît XIV vers 1750[N 7].
+L’Almageste contient également un catalogue de 1 022 étoiles regroupées en quarante-huit constellations. Bien que ne couvrant pas toute la sphère céleste, ce système fut la référence pendant de nombreux siècles. Ptolémée a aussi décrit l’astrolabe, inventé probablement par Hipparque.
+Géographie[modifier | modifier le code]
+Article détaillé : Géographie (Ptolémée).
+La carte du monde de Ptolémée, reconstituée au XVe siècle à partir de sa Géographie, indique les pays de Serica, Sinae (Chine) à l’extrême droite, au-delà de l’île de Taprobane (Sri Lanka, trop grande) et l’Aurea Chersonesus (Asie du Sud-Est).
+Sa Géographie est une autre œuvre majeure. Il s’agit d’une compilation des connaissances géographiques à l’époque de l’empire romain sous le règne d’Hadrien (125), couvrant la totalité du monde connu ou écoumène[11]. Comme pour le modèle du système solaire dans l’Almageste, Ptolémée unifie dans un grand ensemble toutes les informations dont il dispose.
+Le premier livre définit le sujet de la Géographie et présente les données et la méthode utilisée pour dessiner une carte du monde habité[12]. Dans les livres 2 à 7, il fournit des listes topographiques et attribue des coordonnées à tous les lieux et particularités géographiques, répertoriant 8 000 endroits d'Europe, d'Asie et d'Afrique disposés dans une grille. Il commence à l'ouest avec l'Irlande et la Grande-Bretagne puis se déplace vers l'est en passant par l'Allemagne, l'Italie, la Grèce, l'Afrique du nord, l'Asie mineure et la Perse, pour terminer en Inde. Le livre 8 présente une division de l' écoumène"" en 26 cartes régionales: dix pour l'Europe, quatre pour l'Afrique (appelée Libye) et douze pour l'Asie[12]. Outre les données géographiques, Ptolémée intègre des données astronomiques et des témoignages de voyageurs.
+Révisant les calculs d'Ératosthène et d'Hipparque, Ptolémée divise le globe en 360°, en prenant comme base le système sexagésimal des Babyloniens. Il estime[Comment ?] la longueur de chaque degré à 500 stades, ce qui lui donne comme circonférence de la terre le chiffre auquel était arrivé Posidonios (180 000 stades, ou 34 500 km), soit 14% de moins que la circonférence réelle qui est de 40 075. La dimension du monde connu couvrait un arc de 177°, allant des îles « Fortunata » (îles des Bienheureux) associées aux îles Canaries[13], jusqu'à Cattigara, qui correspondrait à Hanoi. La latitude était mesurée à partir de Thulé, situé à 63° N jusqu'à Agisymba dans l'Afrique sub-saharienne, que Ptolémée situe à 16° S, la distance totale couvrant ainsi 79°. Posant l’équateur au degré zéro, comme aujourd’hui, Ptolémée calcule la distance selon la durée du jour le plus long plutôt qu’en degrés car la durée du solstice d’été passe de 12 h à 24 h au fur et à mesure qu’on s’éloigne de l’équateur vers le cercle polaire. Il utilise des incréments de quinze minutes par degré, jusqu'au parallèle où le jour le plus long dure quinze heures et demie pour alors passer à des incréments de trente minutes, jusqu'à Thulé, où le jour le plus long dure vingt heures[13]. Pour le calcul des longitudes, il fixe le méridien de longitude 0 au point le plus à l’ouest qu’il connaissait, soit les îles Fortunées, en posant des intervalles de cinq degrés correspondant au tiers d'une heure d'équinoxe et couvrant au total douze heures, soit 180°[14].
+Reproduction d’une carte de Ptolémée imprimée au XVe siècle.
+Ptolémée s’est essentiellement appuyé sur les travaux d’un autre géographe, Marinos de Tyr, dont les ouvrages ne nous sont pas parvenus. Il s'est aussi basé sur les index géographiques des empires romain et perse, mais la plupart de ses sources au-delà du périmètre de l’empire étaient d’origines douteuses.
+Des cartes fondées sur des critères scientifiques avaient été réalisées depuis Ératosthène, mais Ptolémée améliora les techniques de projection cartographique, en s'appuyant sur la géométrie d'Euclide, produisant une méthode qui exerça une influence durable sur la façon de projeter une sphère sur une surface plane[15]. Ses cartes sont orientées vers le nord[N 8]. Une carte du monde développée sur la base de sa Géographie était exposée à Autun en France à la fin de l’époque romaine.
+Cet ouvrage a été perdu dans le monde occidental jusqu'à sa redécouverte par le Byzantin Maximus Planudes, vers 1300. Il se peut que les cartes des manuscrits de la Géographie ne datent que de cette époque[16]. En revanche, dès le début du IXe siècle, il faisait l'objet d'une traduction en arabe pour le calife Abbasside al-Mamun, et il servira de base aux travaux de ibn Khurradadhbih, Ibn Khordadbeh, Suhrab, Al Kwarizmi, Ibn Hawqal et al Idrissi[17].
+À partir du XVe siècle, les premières reproductions sur papier imprimé firent leur apparition. Le premier exemplaire de la Géographie fut édité avec les cartes à Bologne en 1477, rapidement suivi par une édition romaine de 1478. Jusqu’au XVIe siècle, cet ouvrage a servi de guide à tous les voyageurs qui, à chaque découverte, croyaient reconnaître quelque contrée déjà indiquée par celui-ci. Ptolémée estimait la circonférence de la terre, à laquelle il donnait une forme sphérique, à 180 000 stades (environ 33 345 km), suivant en cela le calcul de Posidonios plutôt que celui d'Ératosthène, qui était beaucoup plus juste[13]. Pour la partie habitable, il assignait une longitude de 72 000 stades et une latitude de 40 000 stades[18].
+Astrologie[modifier | modifier le code]
+Article détaillé : Tetrabiblos.
+Le traité de Ptolémée sur l’astrologie, le Tetrabiblos (tetra signifie en grec « quatre » et biblos « livre »), était l’ouvrage astrologique le plus célèbre de l’Antiquité mais qui n’atteignait pas le statut de l’Almageste. Il exerça une grande influence dans l’étude des corps célestes dans la sphère sublunaire. Ainsi, il fournissait des explications des effets astrologiques des planètes, en fonction de leurs effets : chauffant, rafraîchissant, mouillant, et séchant. Celui-ci traite en particulier de l’astrologie horoscopique en quatre livres qui consiste en une interprétation thématique à l’aide de l’érection d’une carte basée sur un tableau déterminant l’emplacement des sept planètes (Soleil compris) connues de l’époque à un moment donné.
+Ptolémée estimait que l’astrologie est comme la médecine qui est hypothétique en raison de nombreux facteurs variables à prendre en compte. Ces facteurs étaient pour lui principalement, la race, le pays et l’éducation qui devaient affecter une personne au même titre que la position des planètes dans le ciel au moment de la naissance.
+À la différence de Vettius Valens, il semble aujourd’hui que Ptolémée, surtout connu pour son traité sur l’astronomie, était un compilateur (un théoricien) en astrologie[19].
+Il convient de remarquer qu'il n'y a, chez Ptolémée, aucune confusion entre astronomie et astrologie : tout ce qui concerne cette dernière discipline est contenu dans le Tetrabiblos, pas une ligne à ce sujet dans l'Almageste.
+Détail de L’École d’Athènes de Raphaël, montrant Zoroastre et Ptolémée.
+Musique[modifier | modifier le code]
+Ptolémée a également écrit les Harmoniques, un traité de musicologie de référence sur la théorie et les principes mathématiques de la musique[20]. Après une critique des approches de ses prédécesseurs, Ptolémée y plaide pour baser des intervalles musicaux sur des proportions mathématiques (contrairement aux partisans d’Aristoxène) soutenus par observation empirique (contrairement à l’approche purement théorique de l’École pythagoricienne). Il a présenté ses propres divisions du tétracorde et de l’octave, qu’il a dérivés avec l’aide d’un monocorde. L’intérêt de Ptolémée pour l’astronomie apparaît également dans une discussion sur la musique des sphères.
+Les Harmoniques contribua très largement au développement de la théorie musicale au XVIe siècle.
+Mathématiques[modifier | modifier le code]
+Article détaillé : Théorème de Ptolémée.
+Ptolémée a découvert un théorème qui porte son nom : dans un quadrilatère convexe inscrit dans un cercle, le produit des diagonales est égal à la somme des produits des côtés opposés[21].
+Dans sa Composition mathématique (Almageste), Ptolémée veut suivre la méthode rigoureuse de la géométrie et procéder par la démonstration introduite par les mathématiciens de la Grèce antique, dont le représentant essentiel est Euclide. Sa trigonométrie se fonde sur celle d'Hipparque, mais il a également connaissance de l'œuvre de Ménélaos, qui a développé la trigonométrie sphérique et qu'il cite dans l'Almageste[22].
+Optique[modifier | modifier le code]
+Article détaillé : Histoire de l'optique#Antiquité.
+Dans l’Optique, Ptolémée traite des propriétés de la lumière, notamment de la réflexion, de la réfraction et de la couleur, ainsi que d'une théorie de la vision, fondée sur une combinaison des propriétés des objets observés, de la lumière et d'un "flux visuel" (visus dans le texte latin) issu des yeux. Ce travail est une partie importante de l’histoire de l’optique, mais il nous est parvenu par l'intermédiaire d'une traduction latine réalisée par l'émir Eugène de Sicile vers 1150, elle-même issue d'une traduction arabe assez imparfaite et incomplète[23].
+En cette matière comme dans les autres, Ptolémée dispose d'apports antérieurs. Certains éléments d'optique sont présents chez Euclide[N 9], Archimède et Héron d'Alexandrie, mais les sources précises de Ptolémée sont discutées[24]. La rédaction de l’Optique est postérieure à l'Almageste, comme l'attestent en particulier certains progrès réalisés par Ptolémée dans l'intervalle. Ainsi, l’Optique expose le phénomène de réfraction atmosphérique qui se produit lors de l'observation du soleil ou de la lune, phénomène totalement ignoré dans l'Almageste[25].
+Notes et références[modifier | modifier le code]
+Notes[modifier | modifier le code]
+↑ Essentiellement au XIIe siècle, avec Gérard de Crémone pour les sources arabes.
+↑ En particulier à Hipparque. Voir par exemple Almageste, IV, 2, où il souligne la qualité de ses observations de l’anomalie lunaire. Mais Gérard de Crémone dans sa traduction de l’Almageste ne reconnaît pas Hipparque sous son appellation arabe Abrachir.
+↑ De nombreuses tablettes en cunéiformes avec ce type de contenu nous sont parvenues. Les plus anciennes dont nous disposons sont du VIIe siècleav. J.-C.
+↑ On parle souvent du « système de Ptolémée ». Ce n’est pas faux, si l’on entend par là « le système utilisé par Ptolémée », mais l’expression donne à croire qu’il en est l’initiateur, ce qui est inexact. Ptolémée lui-même, dans l’Almageste, parle des épicycles d’Hipparque dans plusieurs passages relevés dans la préface de Halma.
+↑ Certaines tables y sont cependant plus précises que dans l’Almageste, allant parfois jusqu’à la sixte d’angle (la tierce vaut 1/60 de seconde, la quarte 1/60 de tierce etc.). Ceci montre que Ptolémée, même après la publication de l’Almageste, n’a cessé d’affiner son travail. Les « Tables faciles » figurent également dans Halma, tables, où elles sont considérées comme une sorte d’appendice à Halma, Almageste. Mais elles sont clairement postérieures.
+↑ Voir sur ce point l’analyse très pointue de la préface de Halma : "(Ptolémée) ne regardoit pas, lui-même, les siennes (ses hypothèses), comme réelles, mais seulement comme des moyens d’expliquer l’ordre céleste qu’il avoit paru impossible à Hipparque d’expliquer autrement que par cette complication de cercles. Nous pensons, dit-il dans son liv. III, qu’il convient de démontrer les phénomènes par les hypothèses les plus simples, pourvu que ce qu’elles supposent ne paroisse contredit en rien d’important par les observations (…) Elle se trouve confirmée par la manière dont Ptolémée énonce ces hypothèses et les déductions qu’il en tire. Il se sert presque toujours du futur ἔσαι sera, ou du conditionnel au lieu du temps présent, comme dans le ch. 4 du liv. IV, où il dit que les similitudes non seulement des rapports, mais encore des temps de l’un et de l’autre mouvement seroient ainsi sauvées (διασώζοιντο ἄν). Le choix arbitraire qu’il propose dans son liv. III, de l’excentrique ou de l’épicycle pour expliquer le mouvement du soleil, montre bien qu’il ne regardoit pas l’un comme plus réel que l’autre. Il a choisi dans les moyens que la géométrie lui fournissoit, ceux qu’il jugeoit les plus propres à représenter les effets dont il vouloit rendre compte, « La géométrie n’est qu’un instrument dans les mains de l’astronome », dit Bailly, cet instrument ne crée rien, mais en se prêtant à l’usage qu’on en fait sur de bonnes observations, il donne des résultats justes."
+↑ Cet abandon de fait se fit en plusieurs étapes. Voir héliocentrisme.
+↑ Nombre d'historiens estiment que les cartes illustrant sa Géographie ont en fait été ajoutées dans les copies byzantines du XIIIe siècle. Voir Brotton 2012, p. 20-21
+↑ Plus précisément, il s'agit des Catoptrica (Théorie des miroirs) attribués à Euclide. Mais sa paternité, pour cette œuvre, n'est pas certaine (Smith 1996, p. 4 et 14-17).
+Références[modifier | modifier le code]
+↑ Voir Renaissances médiévales.
+↑ Figure de la Terre dans l’Antiquité - L. Génicot, Les lignes de faîte du Moyen Âge, Casterman, 1961
+↑ Ces faits sont indiqués, par petites touches, dans l’Almageste elle-même et soulignés dans la préface de Halma.
+↑ Voir Géocentrisme.
+↑ Astronomie babylonienne - J. Mogenet, A. Tihon, R. Royez, A. Berg, Nicéphore Grégoras : Calcul de l’éclipse de soleil du 16 juillet 1330, Corpus des astronomes byzantins, I, Gleben, 1983, page 96. (ISBN 9789070265342) - Ptolémée, Almageste III, 6.
+↑ Voir Sciences et techniques dans l'Empire byzantin
+↑ P. Couderc, Histoire de l’astronomie, Que sais-je no 165, pp.56 et ss.
+↑ Almageste, XIII,12. - préface de Halma, p. 15-16.
+↑ A. Tihon, Théon d’Alexandrie et les « Tables Faciles » de Ptolémée, Archives internationales d’histoire des sciences, 1985 (35), no 1124-115, p. 106-123. ISSN 0003-9810.
+↑ Comme exemple de l’emploi tardif des textes de Ptolémée, on peut trouver les détails d’un calcul d’éclipse selon l’Almageste et selon les Tables faciles dans J. Mogenet, A. Tihon, R. Royez, A. Berg, Op. cit.
+↑ Brotton 2012, p. 19
+↑ a et b Brotton 2012, p. 43
+↑ a, b et c Brotton 2012, p. 45
+↑ Brotton 2012, p. 46
+↑ Brotton 2012, p. 48
+↑ Brotton 2012, p. 51
+↑ Brotton 2012, p. 60-66
+↑ Nouvelle biographie générale depuis les temps les plus reculés jusqu’à nos jours. De Hoefer (Jean Chrétien Ferdinand), tome 41, page 161 (Firmin Didot, Paris - 1866)
+↑ Source: (en) James Herschel Holden, A history of horoscopic astrology, American Federation of Astrologers, 2e édition, 1996
+↑ Thomas Henri Martin, Études sur le Timée (Platon), t. 1, Paris, Ladrange, 1841, p. 412
+↑ Almageste, I, 9 - Ptolémée sur le site personnel de Serge Mehl
+↑ Almageste, VII, 3.
+↑ Ou Eugène de Palerme. Lejeune 1956 : voir les p. 9-20 et 132-135. Le livre I, qui contient la théorie de la vision, est perdu. Son contenu n'est connu que par un bref résumé au début du livre II. Les grandes lignes de la théorie de la vision de Ptolémée peuvent aussi se déduire d'indications éparses dans le texte, par exemple en II, 12.
+↑ Smith 1996, p. 4 et 14-17
+↑ Smith 1996, p. 2-3.
+Bibliographie[modifier | modifier le code]
+Notices d'autorité : Fichier d'autorité international virtuel • International Standard Name Identifier • Union List of Artist Names • Bibliothèque nationale de France (données) • Système universitaire de documentation • Bibliothèque du Congrès • Gemeinsame Normdatei • Bibliothèque nationale de la Diète • Bibliothèque nationale d'Espagne • WorldCat
+Œuvres de Claude Ptolémée[modifier | modifier le code]
+L’Almageste de Ptolémée (13 livres, vers 140), Paris, éditée et traduite par l’abbé Nicolas Halma (2 vol.), 1813-1817
+rééd. Paris, Hermann, 1927. « Transcrite » dans Ptolemy's Almagest, G. J. Toomer, Londres, 1984 (rééd. Princeton, 1998) et repris dans Le livre unique de l’astrologie (synthèse de l’œuvre de Ptolémée), éditions Nil, 2000 (ISBN 2-84111-159-8)
+« Les tables faciles », dans
+Halma, Almageste
+La Tétrabible (4 livres), Loge Astrologique de France, 1985. La bible de l’astrologie antique (Jean-Baptiste Morin de Villefranche fera la bible de l’astrologie classique). Extraits : Manuel d’astrologie. La Tétrabible, introduction de Elizabeth Teissier, Les Belles Lettres, collection « Aux sources de la tradition », 1993.
+Claude Ptolémée, Traité de géographie (8 livres). – La traduction française de Nicolas Halma (édition Ebherhart, Paris 1828, sur Gallica) ne comporte que le premier livre avec la fin du septième (tome 1) et le huitième livre (tome 2), soit la partie théorique à l'exclusion des listes de lieux avec coordonnées (voir p. XV et XXI).
+Théorie harmonique, relevant de l’ouvrage originel Les Harmoniques. Texte en grec édité par Ingemar Düring, Die Harmonielehre des Klaudios Ptolemaios, Göteborg, Elander, 1930.
+Albert Lejeune, L'Optique de Claude Ptolémée : (5 livres), dans la version latine d'après l'arabe de l'émir Eugène de Sicile, édition critique et exégétique augmentée d'une traduction française et de compléments, Louvain, Bibl. universitaire, 1956 (réimpr. 2e Brill (Leiden, New York), 1989) (lire en ligne)
+Claudii Ptolomei Cosmographie. Texte en latin, traduction de Jacobus Angelus (Italie), 1460-1477. Codex numérisé disponible sur Somni
+Études sur Claude Ptolémée[modifier | modifier le code]
+Germaine Aujac, Claude Ptolémée, astronome, astrologue, géographe. Connaissance et représentation du monde habité, Comité des travaux historiques et scientifiques, Paris, 1993 (ISBN 2-7355-0284-8) ; p. 428.
+Pascal Charvet, Le livre unique de l'Astrologie, ed. Nil, 2000.
+Pierre Costabel, Ptolémée (Claude) IIe siècle apr. J.-C., dans Encyclopædia Universalis, Paris, av. 1989 ; mis à jour ap. 1993 [consulté dans l’éd. de 2004].
+Patrick Gautier Dalché, La géographie de Ptolémée en occident, IVe-XVIe siècle, Turnhout, Brépols, 2009. 1 vol. (442 p.) : ill. ; 28 cm. - (Terrarum orbis ; 9). (ISBN 978-2-503-53164-9)
+N. Halma, « Préface », dans
+de Halma, Almageste
+(en) A. Mark Smith, Ptolemy's theory of visual perception : an English translation of the Optics with Introduction and Commentary, Philadelphie, American Philosophical Society, 1996 (ISBN 978-0-87169862-9, lire en ligne)
+(en) Jerry Brotton, A history of the world in twelve maps, London, Penguin Books, 2012, 514 p. (ISBN 978-0-141-03493-5)
+Pseudo-Ptolémée[modifier | modifier le code]
+Les sentences ou Centiloque : Claude Ptolémée, La Tétrabible ou les quatre livres des jugements des astres, suivi de 'Le centiloque ou les cent sentences', traduction de Nicolas Bourdin. Paris, Culture, Art, Loisirs, 1974, 285 p. Le Centiloque est d'un Pseudo-Claude Ptolémée (Étienne de Messine, vers 1260 ; ou Ahmad ibn Yusuf, mort en 912), et le Commentaire du Centiloque est de Nicolas Bourdin (1651).
+Opus imaginum : cf. Jean-Patrice Boudet, « Un traité de magie astrale arabo-latin : le Liber de imaginibus du pseudo-Ptolémée », in Claudio Leonardi, Natura, scienze e società medievali : studi in onore di Agostino Paravicini Bagliani, Florence, 2008, p. 17-36.
+Hommages[modifier | modifier le code]
+L’astéroïde (4001) Ptolémée (4001 Ptolemaeus) a été nommé en son honneur, tout comme les cratères Ptolémée sur Mars et sur la Lune ainsi qu'une tempête sur Vénus.
+Le prix littéraire de vulgarisation géographique décerné annuellement par le jury du salon du livre du Festival international de géographie (FIG de Saint-Dié des Vosges) porte le nom de prix Ptolémée.
+Articles connexes[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Ptolémée, sur Wikimedia Commons
+Alhazen
+Figure de la Terre dans l’Antiquité
+Histoire de l'astronomie
+Monde (univers)
+Révolution copernicienne
+v · m
+Astronomes de la Grèce antique
+Astronomes
+Acoreus · Aglaonice de Thessalie · Agrippa · Apollonios de Perga · Aristarque de Samos · Aristylle · Callippe de Cyzique · Cléomède · Cléostrate · Conon de Samos · Ecphantos · Ératosthène · Euctémon · Eudoxe de Cnide · Geminos · Harpale · Hicétas · Hipparque · Hypsiclès · Matricétas · Ménélaos d'Alexandrie · Méton · Ptolémée · Sosigène · Théodose de Tripoli · Théon d'Alexandrie · Timocharis
+Travaux
+Almageste · Des grandeurs et des distances du Soleil et de la Lune
+Instruments
+Astrolabe · Machine d'Anticythère · Armille, Sphère armillaire · Quadrant
+Théories
+Anti-Terre · Cycle métonique · Épicycle · Géocentrisme · Héliocentrisme
+v · m
+Mathématiques de la Grèce antique
+Mathématiciens
+Adraste · Anaxagore · Anthémius de Tralles · Antiphon · Apollonios · Archimède · Archytas · Aristarque · Aristée l'Ancien · Aristote · Autolycos · Bion · Boèce · Bryson · Callippe · Carpos · Chrysippe · Cléomède · Conon · Ctésibios · Démocrite · Dicéarque · Dioclès · Diophante · Dinostrate · Dionysodoros · Domninos · Ératosthène · Eudème · Euclide · Eudoxe · Eutocios · Eurytos · Geminos · Hélicon · Héron · Hipparque · Hippase · Hippias · Hippocrate · Hypatie · Hypsiclès · Isidore de Milet · Léodamas · Léon · Marinos · Ménechme · Ménélaos · Métrodore · Nicomaque · Nicomède · Nicotèle · Œnopide · Pappus · Persée · Philolaos · Philon · Porphyre · Posidonios · Ptolémée · Pythagore · Sérénos · Soudinès · Sporos · Thalès · Théano · Théétète · Théodore · Théodose · Théon d'Alexandrie · Théon de Smyrne · Thymaridas · Xénocrate · Zénon d'Élée · Zénodore
+Frise chronologique des mathématiciens
+Traités
+Almageste · Palimpseste · Arithmétiques · Les Coniques · Éléments · sur les grandeurs et les distances du Soleil et de la Lune (Aristarque) · Des grandeurs et des distances du Soleil et de la Lune (Hipparque) · La Sphère en mouvement · L'Arénaire
+Problèmes
+Problème d'Apollonius · Quadrature du cercle · Duplication du cube · Trisection de l'angle
+Centres
+Académie de Platon · Bibliothèque d'Alexandrie · Cyrène
+Portail de l’astronomie
+Portail de la géographie
+Portail de la Grèce antique
+Portail des mathématiques
+Ce document provient de « https://fr.wikipedia.org/w/index.php?title=Claude_Ptolémée&oldid=134395959 ».
+Catégories : Personnalité du IIe siècleGéographe grecAstronome de la Grèce antiqueMathématicien de la Grèce antiqueMusicologue grecAstrologuePoète de la Grèce antiquePersonnalité de l'Égypte antiquePersonnage cité dans la Divine Comédie (Enfer)Mathématicien du IIe siècleAstronome du IIe sièclePhilosophe du IIe siècleRelations entre l'Égypte et la GrèceCatégories cachées : Page utilisant le modèle Références avec un paramètre obsolèteArticle de Wikipédia avec notice d'autoritéCatégorie Commons avec lien local identique sur WikidataPortail:Astronomie/Articles liésPortail:Sciences de la Terre et de l'Univers/Articles liésPortail:Géographie/Articles liésPortail:Grèce antique/Articles liésPortail:Monde antique/Articles liésPortail:Histoire/Articles liésPortail:Europe/Articles liésPortail:Mathématiques/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/ArticlesWikipédia:Article biographiquePortail:Biographie/Articles liés/SciencesPortail:Biographie/Articles liés/Religions et croyancesPortail:Biographie/Articles liés/Culture et arts
+Menu de navigation
+Outils personnels
+Non connectéDiscussionContributionsCréer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+AccueilPortails thématiquesArticle au hasardContact
+Contribuer
+Débuter sur WikipédiaAideCommunautéModifications récentesFaire un don
+Outils
+Pages liéesSuivi des pages liéesImporter un fichierPages spécialesAdresse permanenteInformation sur la pageÉlément WikidataCiter cette page
+Imprimer / exporter
+Créer un livreTélécharger comme PDFVersion imprimable
+Dans d’autres projets
+Wikimédia CommonsWikisource
+Dans d’autres langues
+AfrikaansAlemannischAragonésالعربيةمصرىAsturianuAzərbaycancaБеларускаяБеларуская (тарашкевіца)‎БългарскиবাংলাBrezhonegBosanskiCatalàChavacano de Zamboangaکوردیی ناوەندیČeštinaCymraegDanskDeutschΕλληνικάEnglishEsperantoEspañolEestiEuskaraفارسیSuomiVõroFryskGaeilgeGàidhligGalegoעבריתहिन्दीHrvatskiMagyarՀայերենInterlinguaBahasa IndonesiaIdoÍslenskaItaliano日本語Basa JawaქართულიҚазақша한국어KurdîLatinaLëtzebuergeschLietuviųLatviešuМокшеньMalagasyМакедонскиമലയാളംBahasa Melayuမြန်မာဘာသာNedersaksiesNederlandsNorsk nynorskNorsk bokmålOccitanଓଡ଼ିଆਪੰਜਾਬੀPolskiPiemontèisپنجابیپښتوPortuguêsRomânăArmãneashtiРусскийСаха тылаSicilianuScotsSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaSlovenščinaShqipСрпски / srpskiSvenskaதமிழ்ТоҷикӣไทยTagalogTürkçeТатарча/tatarçaУкраїнськаاردوOʻzbekcha/ўзбекчаTiếng ViệtWinaray中文粵語
+Modifier les liens
+Dernière modification de cette page le 9 février 2017, à 14:22.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Déclaration sur les témoins (cookies)
+Version mobile

@@ -1,0 +1,247 @@
+Josephus - Wikipedia
+Josephus
+From Wikipedia, the free encyclopedia
+Jump to:					navigation, 					search
+For other uses, see Josephus (disambiguation).
+Josephus
+The romanticized engraving of Flavius Josephus appearing in William Whiston's translation of his works
+Born
+Yosef ben Matityahu
+37 CE
+Jerusalem, Roman Judea
+Died
+c. 100 CE (aged c. 63)
+Spouse(s)
+Captured Jewish woman
+Alexandrian Jewish woman
+Greek Jewish woman from Crete
+Children
+Flavius Hyrcanus
+Flavius Simonides Agrippa
+Flavius Justus
+Parent(s)
+Matthias
+Jewish noblewoman
+Titus Flavius Josephus (/dʒoʊˈsiːfəs/;[1] 37 – c. 100),[2] born Joseph ben Matityahu (Hebrew: יוסף בן מתתיהו, Yosef ben Matityahu; Greek: Ἰώσηπος Ματθίου),[3] was a first-century Romano-Jewish scholar, historian and hagiographer, who was born in Jerusalem—then part of Roman Judea—to a father of priestly descent and a mother who claimed royal ancestry.
+He initially fought against the Romans during the First Jewish–Roman War as head of Jewish forces in Galilee, until surrendering in 67 CE to Roman forces led by Vespasian after the six-week siege of Jotapata. Josephus claimed the Jewish Messianic prophecies that initiated the First Roman-Jewish War made reference to Vespasian becoming Emperor of Rome. In response Vespasian decided to keep Josephus as a slave and interpreter. After Vespasian became Emperor in 69 CE, he granted Josephus his freedom, at which time Josephus assumed the emperor's family name of Flavius.[4]
+Flavius Josephus fully defected to the Roman side and was granted Roman citizenship. He became an advisor and friend of Vespasian's son Titus, serving as his translator when Titus led the Siege of Jerusalem. Since the siege proved ineffective at stopping the Jewish revolt, the city's destruction and the looting and destruction of Herod's Temple (Second Temple) soon followed.
+Josephus recorded Jewish history, with special emphasis on the first century CE and the First Jewish–Roman War, including the Siege of Masada. His most important works were The Jewish War (c. 75) and Antiquities of the Jews (c. 94).[5] The Jewish War recounts the Jewish revolt against Roman occupation (66–70). Antiquities of the Jews recounts the history of the world from a Jewish perspective for an ostensibly Roman audience. These works provide valuable insight into first century Judaism and the background of Early Christianity.[5] (See main article Josephus on Jesus).
+Contents
+1 Biography
+2 Scholarship
+2.1 Manuscripts, textual criticism, and editions
+2.2 Josephus's audience
+3 Historiography and Josephus
+4 Works
+4.1 The Jewish War
+4.2 Jewish Antiquities
+4.3 Against Apion
+5 See also
+6 Notes
+7 References
+8 Further reading
+9 External links
+Biography[edit]
+Galilee, site of Josephus's governorship, before the First Jewish–Roman War
+Josephus introduces himself in Greek as Iōsēpos (Ιώσηπος), son of Matthias, an ethnic Hebrew. He was the second-born son of Matthias. His older full-blooded brother was also called Matthias.[6] Their mother was an aristocratic woman who descended from the royal and formerly ruling Hasmonean dynasty.[7] Josephus's paternal grandparents were Josephus and his wife—an unnamed Hebrew noblewoman, distant relatives of each other and direct descendants of Simon Psellus.[8] Josephus's family was wealthy. He descended through his father from the priestly order of the Jehoiarib, which was the first of the 24 orders of priests in the Temple in Jerusalem.[9] Josephus was a descendant of the high priest Jonathon.[9] Born and raised in Jerusalem, Josephus was educated alongside his brother.[10] In his early twenties, he traveled to negotiate with Emperor Nero for the release of 12 Jewish priests.
+Upon his return to Jerusalem, at the outbreak of the First Jewish-Roman War, Josephus was appointed the military governor of Galilee,[11] but eventually he strove with John of Gischala over the control of Galilee, who like Josephus, had amassed to himself a large band of supporters from Gischala (Gush Halab) and Gabara,[12] including the support of the Sanhedrin in Jerusalem.[13] Josephus successfully fought the Roman army in Galilee, until he was captured by the Romans during the height of the war.
+After the Jewish garrison of Yodfat fell under siege, the Romans invaded, killing thousands; the survivors committed suicide. According to Josephus, he was trapped in a cave with 40 of his companions in July 67 CE. The Romans (commanded by Flavius Vespasian and his son Titus, both subsequently Roman emperors) asked the group to surrender, but they refused. Josephus suggested a method of collective suicide;[14] they drew lots and killed each other, one by one, counting to every third person. Two men were left (this method as a mathematical problem is referred to as the Josephus problem, or Roman roulette),[15] who surrendered to the Roman forces and became prisoners. In 69 CE, Josephus was released.[16] According to his account, he acted as a negotiator with the defenders during the Siege of Jerusalem in 70 CE, in which his parents and first wife died.
+While being confined at Yodfat (Jotapata), Josephus claimed to have experienced a divine revelation, that later led to his speech predicting Vespasian would become emperor. After the prediction came true, he was released by Vespasian, who considered his gift of prophecy to be divine. Josephus wrote that his revelation had taught him three things: that God, the creator of the Jewish people, had decided to "punish" them, that "fortune" had been given to the Romans, and that God had chosen him "to announce the things that are to come".[17][18][19]
+In 71 CE, he went to Rome in the entourage of Titus, becoming a Roman citizen and client of the ruling Flavian dynasty (hence he is often referred to as Flavius Josephus—see below). In addition to Roman citizenship, he was granted accommodation in conquered Judaea and a decent, if not extravagant, pension. While in Rome and under Flavian patronage, Josephus wrote all of his known works. Although he uses "Josephus", he appears to have taken the Roman praenomen Titus and nomen Flavius from his patrons.[20] This was standard practice for "new" Roman citizens.[citation needed]
+Vespasian arranged for the widower Josephus to marry a captured Jewish woman, who ultimately left him. About 71 CE, Josephus married an Alexandrian Jewish woman as his third wife. They had three sons, of whom only Flavius Hyrcanus survived childhood. Josephus later divorced his third wife. Around 75 CE, he married his fourth wife, a Greek Jewish woman from Crete, who was a member of a distinguished family. They had a happy married life and two sons, Flavius Justus and Flavius Simonides Agrippa.
+Josephus's life story remains ambiguous. He was described by Harris in 1985 as a law-observant Jew who believed in the compatibility of Judaism and Graeco-Roman thought, commonly referred to as Hellenistic Judaism.[5] Before the 19th century, the scholar Nitsa Ben-Ari notes that his work was shunned like that of converts, then banned as those of a traitor, whose work was not to be studied or translated into Hebrew.[21] His critics were never satisfied as to why he failed to commit suicide in Galilee, and after his capture, accepted the patronage of Romans.
+The historian E. Mary Smallwood writes:
+[Josephus] was conceited, not only about his own learning, but also about the opinions held of him as commander both by the Galileans and by the Romans; he was guilty of shocking duplicity at Jotapata, saving himself by sacrifice of his companions; he was too naive to see how he stood condemned out of his own mouth for his conduct, and yet no words were too harsh when he was blackening his opponents; and after landing, however involuntarily, in the Roman camp, he turned his captivity to his own advantage, and benefited for the rest of his days from his change of side.[22]
+Author Joseph Raymond calls Josephus "the Jewish Benedict Arnold" for betraying his own troops at Jotapata.[23]
+Scholarship[edit]
+The 1st century Roman portrait bust said to be of Josephus, conserved in the Ny Carlsberg Glyptotek, Copenhagen, Denmark
+The works of Josephus provide crucial information about the First Jewish-Roman War and also represent important literary source material for understanding the context of the Dead Sea Scrolls and late Temple Judaism.
+Josephan scholarship in the 19th and early 20th centuries became focused on Josephus's relationship to the sect of the Pharisees.[citation needed] It consistently portrayed him as a member of the sect, and as a traitor to the Jewish nation—a view which became known as the classical concept of Josephus.[24] In the mid-20th century a new generation of scholars[who?] challenged this view and formulated the modern concept of Josephus. They consider him a Pharisee, but restore his reputation in part as patriot and a historian of some standing. In his 1991 book, Steve Mason argued that Josephus was not a Pharisee but an orthodox Aristocrat-Priest who became associated with the philosophical school of the Pharisees as a matter of deference, and not by willing association.[25]
+The works of Josephus include material about individuals, groups, customs, and geographical places. Some of these, such as the city of Seron, receive no mention in the surviving texts of any other ancient authority. His writings provide a significant, extra-Biblical account of the post-Exilic period of the Maccabees, the Hasmonean dynasty, and the rise of Herod the Great. He refers to the Sadducees, Jewish High Priests of the time, Pharisees and Essenes, the Herodian Temple, Quirinius' census and the Zealots, and to such figures as Pontius Pilate, Herod the Great, Agrippa I and Agrippa II, John the Baptist, James the brother of Jesus, and to Jesus (for more see Josephus on Jesus).[26] Josephus represents an important source for studies of immediate post-Temple Judaism and the context of early Christianity.
+A careful reading of Josephus's writings and years of excavation allowed Ehud Netzer, an archaeologist from Hebrew University, to discover what he considered to be the location of Herod's Tomb, after a search of 35 years.[27] It was above aqueducts and pools, at a flattened desert site, halfway up the hill to the Herodium, 12 km south of Jerusalem—as described in Josephus's writings.[28] In October 2013, archaeologists Joseph Patrich and Benjamin Arubas challenged the identification of the tomb as that of Herod.[29] According to Patrich and Arubas, the tomb is too modest to be Herod's and has several unlikely features.[29] Roi Porat, who replaced Netzer as excavation leader after the latter's death, stood by the identification.[29]
+Manuscripts, textual criticism, and editions[edit]
+For many years, printed editions of the works of Josephus appeared only in an imperfect Latin translation from the original Greek. Only in 1544 did a version of the standard Greek text become available in French, edited by the Dutch humanist Arnoldus Arlenius. The first English translation, by Thomas Lodge, appeared in 1602, with subsequent editions appearing throughout the 17th century. The 1544 Greek edition formed the basis of the 1732 English translation by William Whiston, which achieved enormous popularity in the English-speaking world. It was often the book—after the Bible—that Christians most frequently owned.[citation needed] A cross-reference apparatus for Whiston's version of Josephus and the biblical canon also exists.[30][31] Whiston claimed that certain works by Josephus had a similar style to the Epistles of St Paul (Saul).[32]
+Later editions of the Greek text include that of Benedikt Niese, who made a detailed examination of all the available manuscripts, mainly from France and Spain. Henry St. John Thackeray used Niese's version for the Loeb Classical Library edition widely used today.
+The standard editio maior of the various Greek manuscripts is that of Benedictus Niese, published 1885–95. The text of Antiquities is damaged in some places. In the Life, Niese follows mainly manuscript P, but refers also to AMW and R. Henry St. John Thackeray for the Loeb Classical Library has a Greek text also mainly dependent on P.[citation needed] André Pelletier edited a new Greek text for his translation of Life. The ongoing Münsteraner Josephus-Ausgabe of Münster University will provide a new critical apparatus. There also exist late Old Slavonic translations of the Greek, but these contain a large number of Christian interpolations.[33]
+Josephus's audience[edit]
+Scholars debate about Josephus's main and secondary audiences. For example, Antiquities of the Jews could be written for Jews—"a few scholars from Laqueur onward have suggested that Josephus must have written primarily for fellow-Jews (if also secondarily for Gentiles.) The most common motive suggested is repentance: in later life he felt so badly about the traitorous War that he needed to demonstrate … his loyalty to Jewish history, law and culture."[34] However, Josephus's "countless incidental remarks explaining basic Judean language, customs and laws … assume a Gentile audience. He does not expect his first hearers to know anything about the laws or Judean origins."[35] The issue of who would read this multivolume work is unresolved. Other possible motives for writing Antiquities could be to dispel the misrepresentation of Jewish origins[36] or as an apologetic to Greek cities of the Diaspora in order to protect Jews and to Roman authorities to garner their support for the Jews facing persecution.[37] Unfortunately, neither motive explains why the proposed Gentile audience would read this large body of material.
+Historiography and Josephus[edit]
+In the Preface to Jewish Wars, Josephus criticizes historians who misrepresent the events of the Jewish–Roman War, writing that "they have a mind to demonstrate the greatness of the Romans, while they still diminish and lessen the actions of the Jews."[38] Josephus states that his intention is to correct this method but that he "will not go to the other extreme … [and] will prosecute the actions of both parties with accuracy."[39] Josephus suggests his method will not be wholly objective by saying he will be unable to contain his lamentations in transcribing these events; to illustrate this will have little effect on his historiography, Josephus suggests, "But if any one be inflexible in his censures of me, let him attribute the facts themselves to the historical part, and the lamentations to the writer himself only."[39]
+His preface to Antiquities offers his opinion early on, saying, "Upon the whole, a man that will peruse this history, may principally learn from it, that all events succeed well, even to an incredible degree, and the reward of felicity is proposed by God."[40] After inserting this attitude, Josephus contradictorily declares, "I shall accurately describe what is contained in our records, in the order of time that belongs to them … without adding any thing to what is therein contained, or taking away any thing therefrom."[40] Interestingly, he notes the difference between history and philosophy by saying, "[T]hose that read my book may wonder how it comes to pass, that my discourse, which promises an account of laws and historical facts, contains so much of philosophy."[41]
+In both works, Josephus emphasizes that accuracy is crucial to historiography. Louis H. Feldman notes that in Wars, Josephus commits himself to critical historiography, but in Antiquities, Josephus shifts to rhetorical historiography, which was the norm of his time.[42] Feldman notes further that it is significant that Josephus called his later work "Antiquities" (literally, archaeology) rather than history; in the Hellenistic period, archaeology meant either "history from the origins or archaic history."[43] Thus, his title implies a Jewish peoples' history from their origins until the time he wrote. This distinction is significant to Feldman, because "in ancient times, historians were expected to write in chronological order," while "antiquarians wrote in a systematic order, proceeding topically and logically" and included all relevant material for their subject.[43] Antiquarians moved beyond political history to include institutions and religious and private life.[44] Josephus does offer this wider perspective in Antiquities.
+To compare his historiography with another ancient historian, consider Dionysius of Halicarnassus. Feldman lists these similarities: "Dionysius in praising Rome and Josephus in praising Jews adopt same pattern; both often moralize and psychologize and stress piety and role of divine providence; and the parallels between … Dionysius's account of deaths of Aeneas and Romulus and Josephus's description of the death of Moses are striking."[44]
+Works[edit]
+The works of Josephus are major sources of our understanding of Jewish life and history during the first century.[45]
+The works of Josephus translated by Thomas Lodge (1602).
+(c. 75) War of the Jews, or The Jewish War, or Jewish Wars, or History of the Jewish War (commonly abbreviated JW, BJ or War)
+(date unknown) Josephus's Discourse to the Greeks concerning Hades (spurious; adaptation of "Against Plato, on the Cause of the Universe" by Hippolytus of Rome)
+(c. 94) Antiquities of the Jews, or Jewish Antiquities, or Antiquities of the Jews/Jewish Archeology (frequently abbreviated AJ, AotJ or Ant. or Antiq.)
+(c. 97) Flavius Josephus Against Apion, or Against Apion, or Contra Apionem, or Against the Greeks, on the antiquity of the Jewish people (usually abbreviated CA)
+(c. 99) The Life of Flavius Josephus, or Autobiography of Flavius Josephus (abbreviated Life or Vita)
+The Jewish War[edit]
+Main article: The Jewish War
+His first work in Rome was an account of the Jewish War, addressed to certain "upper barbarians"—usually thought to be the Jewish community in Mesopotamia—in his "paternal tongue" (War I.3), arguably the Western Aramaic language. In 78 CE he finished a seven-volume account in Greek known as the Jewish War (Latin Bellum Judaicum or De Bello Judaico). It starts with the period of the Maccabees and concludes with accounts of the fall of Jerusalem, and the succeeding fall of the fortresses of Herodion, Macharont and Masada and the Roman victory celebrations in Rome, the mopping-up operations, Roman military operations elsewhere in the Empire and the uprising in Cyrene. Together with the account in his Life of some of the same events, it also provides the reader with an overview of Josephus's own part in the events since his return to Jerusalem from a brief visit to Rome in the early 60s (Life 13–17).
+In the wake of the suppression of the Jewish revolt, Josephus would have witnessed the marches of Titus's triumphant legions leading their Jewish captives, and carrying treasures from the despoiled Temple in Jerusalem. It was against this background that Josephus wrote his War, claiming to be countering anti-Judean accounts. He disputes the claim[citation needed] that the Jews served a defeated God, and were naturally hostile to Roman civilization. Rather, he blames the Jewish War on what he calls "unrepresentative and over-zealous fanatics" among the Jews, who led the masses away from their traditional aristocratic leaders (like himself), with disastrous results. Josephus also blames some of the Roman governors of Judea, representing them as atypically corrupt and incompetent administrators. According to Josephus, the traditional Jew was, should be, and can be a loyal and peace-loving citizen. Jews can, and historically have, accepted Rome's hegemony precisely because their faith declares that God himself gives empires their power.[citation needed]
+Jewish Antiquities[edit]
+Main article: Antiquities of the Jews
+The next work by Josephus is his twenty-one volume Antiquities of the Jews, completed during the last year of the reign of the Emperor Flavius Domitian (between 1.9.93 and 14.3.94, cf. AJ X.267). In expounding Jewish history, law and custom, he is entering into many philosophical debates current in Rome at that time. Again he offers an apologia for the antiquity and universal significance of the Jewish people. Josephus claims to be writing this history because he "saw that others perverted the truth of those actions in their writings,"[46] those writings being the history of the Jews. In terms of some of his sources for the project, Josephus says that he drew from and "interpreted out of the Hebrew Scriptures"[47] and that he was an eyewitness to the wars between the Jews and the Romans,[46] which were earlier recounted in Jewish Wars.
+He outlines Jewish history beginning with the creation, as passed down through Jewish historical tradition. Abraham taught science to the Egyptians, who, in turn, taught the Greeks.[48] Moses set up a senatorial priestly aristocracy, which, like that of Rome, resisted monarchy. The great figures of the Tanakh are presented as ideal philosopher-leaders. He includes an autobiographical appendix defending his conduct at the end of the war when he cooperated with the Roman forces.
+Louis H. Feldman outlines the difference between calling this work Antiquities of the Jews instead of History of the Jews. Although Josephus says that he describes the events contained in Antiquities "in the order of time that belongs to them,"[40] Feldman argues that Josephus "aimed to organize [his] material systematically rather than chronologically" and had a scope that "ranged far beyond mere political history to political institutions, religious and private life."[44]
+Against Apion[edit]
+Main article: Against Apion
+Josephus's Against Apion is a two-volume defence of Judaism as classical religion and philosophy, stressing its antiquity, as opposed to what Josephus claimed was the relatively more recent tradition of the Greeks. Some anti-Judaic allegations ascribed by Josephus to the Greek writer Apion, and myths accredited to Manetho are also addressed.
+See also[edit]
+Josephus on Jesus
+Josephus problem – a mathematical problem named after Josephus
+Josippon
+Notes[edit]
+^ "Josephus" entry in Collins English Dictionary, HarperCollins Publishers, 1998.
+^ Louis Feldman, Steve Mason (1999). Flavius Josephus. Brill Academic Publishers. 
+^ Josephus refers to himself in his Greek works as Ἰώσηπος Ματθίου παῖς, Iōsēpos Matthiou pais (Josephus the son of Matthias). Josephus spoke Aramaic, Hebrew and Greek.
+^ Simon Claude Mimouni, Le Judaïsme ancien du VIe siècle avant notre ère au IIIe siècle de notre ère : Des prêtres aux rabbins, Paris, P.U.F., coll. « Nouvelle Clio », 2012, p. 133.
+^ a b c Stephen L. Harris, Understanding the Bible, (Palo Alto: Mayfield, 1985).
+^ Josephus, Flavius Josephus: Translation and Commentary p.12–13
+^ Nodet, A search for the Origins of Judaism: From Joshua to the Mishnah p.250
+^ Josephus' Lineage, History of the Daughters
+^ a b Fergus Millar, The History of the Jewish People in the Age of Jesus Christ, pp. 45–46
+^ Josephus, Flavius Josephus: Translation and Commentary, p.13
+^ G J Goldberg. "The Life of Flavius Josephus". Josephus.org. Retrieved 2012-05-18. 
+^ A large village in Galilee during the 1st century CE., located to the north of Nazareth. In antiquity, the town was called "Garaba", but in Josephus' historical works of antiquity, the town is mentioned by its Greek corruption, "Gabara" (see: J. Klausner, Qobetz, Journal of the Jewish Palestinian Exploration Society, 3 [1934], pp. 261–263 [Hebrew]; Uriel Rappaport, John of Gischala, from the mountains of Galilee to the walls of Jerusalem, 2013, p. 44 [note 2]; Ze'ev Safrai, The Galilee in the time of the Mishna and Talmud, 2nd edition, Jerusalem 1985, pp. 59–62 [Hebrew]).
+^ Josephus, The Life of Flavius Josephus, (abbreviated Life or Vita), § 25; § 38; Josephus. "The Life of Josephus". doi:10.4159/DLCL.josephus-life.1926. Retrieved 31 May 2016.   – via digital Loeb Classical Library (subscription required)
+^ Josephus, The Jewish War Book 3, Chapter 8, par. 7
+^ Cf. this example, Roman Roulette. Archived February 21, 2007, at the Wayback Machine.
+^ Jewish War IV.622–629
+^ Rebecca Gray, Prophetic Figures in Late Second Temple Jewish Palestine: The Evidence from Josephus, pp. 35–38 (Oxford University Press, 1993). ISBN 0-19-507615-X
+^ David Edward Aune, Prophecy In Early Christianity and the Ancient Mediterranean World, page 140 (William B. Eerdmans Publishing Company, 1991; first published 1983). ISBN 0-8028-0635-X
+^ Robert Karl Gnuse, Dreams & Dream Reports in the Writings of Josephus: A Traditio-Historical Analysis, pages 136–142 (E. J. Brill, 1996). ISBN 90-04-10616-2
+^ Attested by the third-century Church theologian Origen (Comm. Matt. 10.17).
+^ Nitsa Ben-Ari, "The double conversion of Ben-Hur: a case of manipulative translation", Target, Vol. 14, No. 2, 2003, pp. 263–301, Quote: "The converts themselves were banned from society as outcasts and so was their historiographic work or, in the more popular historical novels, their literary counterparts. Josephus Flavius, formerly Yosef Ben Matityahu (34-95), had been shunned, then banned as a traitor.", accessed 28 November 2011.
+^ Josephus, Flavius: The Jewish War. Translated by G. A. Williamson, introduction by E. Mary Smallwood. New York, Penguin, 1981, p. 24.
+^ Herodian Messiah: Case For Jesus As Grandson of Herod (Tower Grover Publishing 2010) at page 222.
+^ Alan Ralph Millard, Discoveries From Bible Times: Archaeological Treasures Throw Light on The Bible, p. 306 (Lion Publishing, 1997). ISBN 0-7459-3740-3
+^ "Flavius Josephus and the Pharisees". Bibleinterp.com. Retrieved 2012-05-18. 
+^ "In the sixteenth century the authenticity of the text [Testimonium Flavianum] was publicly challenged, launching a controversy that has still not been resolved today", in Alice Whealey, Josephus on Jesus: The Testimonium Flavianum Controversy from Late Antiquity to Modern Times (Peter Lang Publishing; 2003). ISBN 978-0-8204-5241-8
+^ Dina Kraft (May 9, 2007). "Archaeologist Says Remnants of King Herod's Tomb Are Found". NYTimes. Retrieved 24 September 2015. 
+^ Catherine M. Murphy, The Historical Jesus For Dummies, page 99 (Wiley Publishing, Inc., 2008). ISBN 978-0-470-16785-4
+^ a b c Nir Hasson (October 11, 2013). "Archaeological stunner: Not Herod's Tomb after all?". Haaretz. Retrieved 24 September 2015. 
+^ Clontz, T. E. and J., "The Comprehensive New Testament", Cornerstone Publications (2008), ISBN 978-0-9778737-1-5
+^ Rick Bennett. "New Release: Comprehensive Crossreferences". Accordancebible.com. Retrieved 2012-05-18. 
+^ Josephus (1999). "Appendix: Dissertation 6 (by Whiston)". In Maier, Paul L. The New Complete Works of Josephus. Kregel Academic. p. 1070. ISBN 978-0-8254-9692-9. Retrieved 2013-05-07. 
+^ Steven Bowman, "Josephus in Byzantium", in Louis H. Feldman, Gōhei Hata (editors), Josephus, Judaism and Christianity. p. 373 (Wayne State University Press, 1987). ISBN 90-04-08554-8
+^ Steve Mason, "Should Any Wish to Enquire Further (Ant. 1.25): The Aim and Audience of Josephus's Judean Antiquities/Life," in Understanding Josephus: Seven Perspectives, ed. Steve Mason (Sheffield: Sheffield Academic Press, 1998), 66.
+^ Steve Mason, "Should Any Wish to Enquire Further (Ant. 1.25): The Aim and Audience of Josephus's Judean Antiquities/Life," in Understanding Josephus: Seven Perspectives, ed. Steve Mason (Sheffield: Sheffield Academic Press, 1998), 67.
+^ Steve Mason, "Should Any Wish to Enquire Further (Ant. 1.25): The Aim and Audience of Josephus's Judean Antiquities/Life," in Understanding Josephus: Seven Perspectives, ed. Steve Mason (Sheffield: Sheffield Academic Press, 1998), 68.
+^ Steve Mason, "Should Any Wish to Enquire Further (Ant. 1.25): The Aim and Audience of Josephus's Judean Antiquities/Life," in Understanding Josephus: Seven Perspectives, ed. Steve Mason (Sheffield: Sheffield Academic Press, 1998), 70.
+^ JW preface.3.
+^ a b JW preface.4.
+^ a b c Ant. preface.3.
+^ Ant. preface.4.
+^ Feldman, Louis H. (1998). Josephus's Interpretation of the Bible. Berkeley: University of California Press. p. 9. ISBN 0-520-20853-6. 
+^ a b Feldman, Louis H. (1998). Josephus's Interpretation of the Bible. Berkeley: University of California Press. p. 10. ISBN 0-520-20853-6. 
+^ a b c Feldman, Louis H. (1998). Josephus's Interpretation of the Bible. Berkeley: University of California Press. p. 13. ISBN 0520208536. 
+^ Bart D. Ehrman. Jesus: Apocalyptic Prophet of the New Millennium (Kindle Locations 848–849). Kindle Edition.
+^ a b Ant. preface.1.
+^ Ant. preface.2.
+^ Louis H. Feldman, Josephus's Interpretation of The Bible, p. 232 (University of California Press, 1998). ISBN 0-520-20853-6
+References[edit]
+Fergus Millar, Emil Schurer & Geza Vermes, The History of the Jewish People in the Age of Jesus Christ (175 B.C.–A.D. 135), Continuum International Publishing Group, 1973
+É. Nodet: A search for the origins of Judaism: from Joshua to the Mishnah. Continuum International Publishing Group, 1997
+The Works of Josephus, Complete and Unabridged New Updated Edition Translated by William Whiston & A. M. Peabody, M. A. Hendrickson Publishers, Inc., 1987. ISBN 0-913573-86-8 (Hardcover). ISBN 1-56563-167-6 (Paperback).
+Flavius Josephus: Translation and Commentary. Edited by Steve Mason, 10 vols. in 12 Leiden: Brill, 2000.
+Pastor, Jack, Stern, Pnina, Mor, Menahem (ed.): Flavius Josephus: Interpretation and History. Leiden: Brill, 2011. ISBN 978-90-04-19126-6. ISSN 1384-2161
+Bilde, Per. Flavius Josephus between Jerusalem and Rome: his life, his works and their importance. Sheffield: JSOT, 1988.
+Shaye J. D. Cohen. Josephus in Galilee and Rome: his vita and development as a historian. (Columbia Studies in the Classical Tradition; 8). Leiden: Brill, 1979.
+Louis Feldman. "Flavius Josephus revisited: the man, his writings, and his significance". In: Aufstieg und Niedergang der Römischen Welt 21.2 (1984).
+Mason, Steve: Flavius Josephus on the Pharisees: a composition-critical study. Leiden: Brill, 1991.
+Rajak, Tessa: Josephus: the Historian and His Society. 2nd ed. London: 2002. (Oxford D.Phil. thesis, 2 vols. 1974.)
+Marian Hillar, "Flavius Josephus and His Testimony Concerning the Historical Jesus." Paper published in Essays in the Philosophy of Humanism, Vol. 13, 2005, pp. 66–103 (Washington, DC: American Humanist Association.
+Further reading[edit]
+The Josephus Trilogy, a novel by Lion Feuchtwanger
+Der jüdische Krieg (Josephus), 1932
+Die Söhne (The Jews of Rome), 1935
+Der Tag wird kommen (The day will come, Josephus and the Emperor), 1942
+Flavius Josephus Eyewitness to Rome's first-century conquest of Judea, Mireille Hadas-lebel, Macmillan 1993, Simon and Schuster 2001
+"The 2000 Year Old Middle East Policy Expert", a chapter from Give War A Chance by P. J. O'Rourke[1]
+Josephus and the New Testament: Second Edition, by Steve Mason, Hendrickson Publishers, 2003.
+Making History: Josephus and Historical Method, edited by Zuleika Rodgers (Boston: Brill, 2007).
+Josephus's Interpretation of the Bible, by Louis H. Feldman (Berkeley: University of California Press, 1998).
+Understanding Josephus: Seven Perspectives, edited by Steve Mason (Sheffield: Sheffield Academic Press, 1998).
+Josephus, the Emperors, and the City of Rome: From Hostage to Historian, by William den Hollander (Boston: Brill, 2014).
+Josephus, the Bible, and History, edited by Louis H. Feldman and Gohei Hata (Detroit: Wayne State University Press, 1988).
+Josephus: The Man and the Historian, by H. St. John Thackeray (New York: Ktav Publishing House, 1967).
+A Jew Among Romans: The Life and Legacy of Flavius Josephus, by Frederic Raphael (New York: Pantheon Books, 2013).
+A Companion to Josephus, edited by Honora Chapman and Zuleika Rodgers (Oxford, 2016).
+External links[edit]
+Find more aboutJosephusat Wikipedia's sister projects
+Media from Commons
+Quotations from Wikiquote
+Texts from Wikisource
+Works
+PACE Josephus: text and resources in the Project on Ancient Cultural Engagement at York University, edited by Steve Mason.
+works by Flavius Josephus at Perseus digital library - Greek (Niese) and English (Whiston) 1895 editions
+Works by Josephus at Project Gutenberg
+Works by or about Josephus at Internet Archive
+Works by Josephus at LibriVox (public domain audiobooks)
+The Works of Flavius Josephus at Christian Classics Ethereal Library (Whiston, lacks Loeb numbers)
+De bello judaico digitized codex (1475) at Somni
+Other
+Flavius Josephus Home Page, G. J. Goldberg
+Josephus's Lineage
+Flavius Josephus The Jewish History Resource Center — Project of the Dinur Center for Research in Jewish History, The Hebrew University of Jerusalem
+Flavius Josephus, Judaea and Rome: A Question of Context
+Flavius Josephus at livius.org
+Flavius Josephus at Jewish Virtual Library
+Authority control
+WorldCat Identities
+VIAF: 22143666
+LCCN: n80015583
+ISNI: 0000 0001 2123 5616
+GND: 118640003
+SELIBR: 191979
+SUDOC: 026940434
+BNF: cb11909011p (data)
+NLA: 35254596
+NDL: 00444936
+NKC: jn19981001581
+ICCU: IT\ICCU\BVEV\003796
+BNE: XX901356
+^ O'Rourke, P. J. Give War a Chance. Vintage, 1993.
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Josephus&oldid=768150689"
+Categories: 37 birthsAD 100 deaths1st-century historians1st-century Jews1st-century Romans1st-century writersAncient Roman antiquariansFlaviiGreco-Roman military writersHellenistic Jewish writersJewish apologistsJewish historiansJewish Roman (city) historyJudean peopleRoman-era Greek historiansRoman-era JewsHidden categories: Articles containing Ancient Greek-language textSubscription required using viaPages containing links to subscription-only contentWebarchive template wayback linksPages using ISBN magic linksArticles with hCardsAll articles with unsourced statementsArticles with unsourced statements from November 2012Articles with unsourced statements from February 2011All articles with specifically marked weasel-worded phrasesArticles with specifically marked weasel-worded phrases from November 2009Articles with unsourced statements from August 2012Articles with unsourced statements from November 2009Articles with unsourced statements from October 2012Articles with Project Gutenberg linksArticles with Internet Archive linksArticles with LibriVox linksWikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with SELIBR identifiersWikipedia articles with BNF identifiersWikipedia articles with NLA identifiersWikipedia articles with SBN identifiers
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+Article
+Talk
+Variants
+Views
+Read
+Edit
+View history
+More
+Search
+Navigation
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+Interaction
+HelpAbout WikipediaCommunity portalRecent changesContact page
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page
+Print/export
+Create a bookDownload as PDFPrintable version
+In other projects
+Wikimedia CommonsWikiquoteWikisource
+Languages
+AfrikaansAlemannischالعربيةAsturianuAzərbaycancaБеларускаяБългарскиBrezhonegCatalàČeštinaCymraegDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisGalego한국어ՀայերենHrvatskiBahasa IndonesiaÍslenskaItalianoעבריתBasa JawaქართულიKiswahiliLatinaLatviešuLa .lojban.MagyarമലയാളംNederlands日本語Norsk bokmålNorsk nynorskOccitanPiemontèisPolskiPortuguêsRomânăРусскийScotsShqipSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaTagalogதமிழ்ไทยTürkçeУкраїнськаاردوייִדיש粵語中文
+Edit links
+This page was last modified on 2 March 2017, at 02:43.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view

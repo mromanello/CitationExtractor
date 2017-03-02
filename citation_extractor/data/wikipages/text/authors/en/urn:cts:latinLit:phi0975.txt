@@ -1,0 +1,108 @@
+Phaedrus (fabulist) - Wikipedia
+Phaedrus (fabulist)
+From Wikipedia, the free encyclopedia
+Jump to:					navigation, 					search
+Gaius Julius Phaedrus (/ˈfiːdrəs/; Greek: Φαῖδρος; fl. first century AD), Roman fabulist, was a Latin author and versifier of Aesop's fables.
+His place of birth is unknown. Traditional biographical reconstructions on the basis of the few autobiographical references within the surviving text tend toward his being a Thracian slave,[1] born in Pydna of Roman Macedonia and alive in the reigns of Augustus, Tiberius, and quite possibly also those of Caligula and Claudius. He is recognized as the first writer to Latinize entire books of fables, retelling in senarii, a loose iambic metre, the Aesopic tales in Greek prose.
+Contents
+1 Biography
+2 Work
+3 Historical editions
+4 Later prose and verse derivations
+4.1 Prose Romulus
+4.2 Verse Romulus
+5 Modern derivations
+6 Bibliography
+7 References
+8 Sources
+9 External links
+Biography[edit]
+According to his own statement (3.prol.), he claims to have been born on the Pierian Mountain in Macedonia. However, the reliability of this is highly suspect. Phaedrus introduces the work (1.prol.) with a reminder telling us that he 'speaks in jest of things which never happened'. Whilst the Latin heading of the first book states he was a slave of the emperor and freed (liberti Augusti), there is nothing to suggest it was by Augustus.
+He claims to have incurred the wrath of (a) Sejanus, the powerful minister of Tiberius (3.prol.). The suggestion that the third book, which is dedicated to Eutychus, dates the work to the reign of Gaius on the basis of identification with the famous charioteer and favorite, is not water-tight. (Eutychus good-fortune is more probably, like most names in Phaedrus, including his own (shiny), a pun.)
+Work[edit]
+The dates of composition and publication are unknown, but Seneca, writing between AD 41 and 43, suggests to Claudius' freedman Polybius to turn his hand to Latinizing Aesop, which suggests Seneca knew nothing of Phaedrus, offering a terminus post quem.
+Phaedrus' metre is simple and his fables tend toward the pithy. He reworks Greek stock examples (such as the frogs desiring a king from Jupiter), but intersperses with particularly Roman examples (Tiberius and the slave, Augustus and the accused wife, the piper Prince). Interest in his work inspired a modern imitator, la Fontaine, and a number of serious scholarly studies have arisen since the turn of the century. He is mentioned by Martial and by Avianus; Prudentius must have read him, for he imitates one of his lines (Prud. Cath. VII 115; cf. Phaedrus, IV 6, 10).
+Historical editions[edit]
+The first edition of the five books of Phaedrus was published by Pithou at Troyes in 1596 from a manuscript now in the possession of the Marquis of Rosanbo. Near the beginning of the 18th century, a manuscript of Perotti (1430–1480), archbishop of Siponto (Manfredonia, in Apulia), was discovered at Parma containing sixty-four fables of Phaedrus, of which some thirty were previously unknown. These new fables were first published in Naples by Cassitto in 1808, and afterwards (much more correctly) by Jannehli in 1809. Both editions were superseded by the discovery of a much better preserved manuscript of Perotti in the Vatican Library, published by Angelo Mai in 1831. For some time the authenticity of these new fables was disputed, but they are now generally accepted as genuine fables of Phaedrus. They do not form a sixth book, for we know from Avianus that Phaedrus wrote only five books, but it is impossible to assign them to their original places in the five books. They are usually printed as an appendix.
+Later prose and verse derivations[edit]
+In the Middle Ages Phaedrus exercised a considerable influence through the prose and verse versions of his fables, which were current, even though his own works (and even his name) were apparently forgotten. Of the prose versions, the oldest existing one seems to be that known as the Anonymus Nilanti, so called because it was first edited by Nilant at Leiden in 1709 from a manuscript of the 13th century. It follows the text of Phaedrus so closely that it was probably made directly from it. Of the sixty-seven fables which it contains, thirty are derived from lost fables of Phaedrus.
+Prose Romulus[edit]
+The largest, oldest known and most influential of the prose versions of Phaedrus is that which bears the name of Romulus. It contains eighty-three fables, is as old as the 10th century, and seems to have been based on a still earlier prose version, which, under the name of "Aesop," and addressed to one Rufus, may have been made in the Carolingian period or even earlier. About this Romulus nothing is known.
+The collection of fables in the Weissenburg (now Wolfenbüttel) manuscript is based on the same version as Romulus. These three prose versions contain in all one hundred distinct fables, of which fifty-six are derived from the existing fables and the remaining forty-four presumably from lost fables of Phaedrus. Some scholars, as Burmann, Dressier and L Muller, have tried to restore these lost fables by versifying the prose versions.
+The prose Romulus collection became the source from which, during the second half of the Middle Ages, almost all the collections of Latin fables in prose and verse were wholly or partially drawn.
+Verse Romulus[edit]
+A version of the first three books of Romulus in elegiac verse, possibly made in around the 12th century, was one of the most highly influential texts in medieval Europe. Referred to variously (among other titles) as the verse Romulus or elegiac Romulus, it was a common teaching text for Latin and enjoyed a wide popularity well into the Renaissance. Its unknown author is usually referred to as "Anonynius Neveleti",[2] although "he" has sometimes been identified with known figures such as Gualterus Anglicus.[citation needed] Another version of Romulus in Latin elegiacs was made by Alexander Neckam, born at St Albans in 1157.
+Interpretive vernacular "translations" of the elegiac Romulus were very common in Europe in the Middle Ages. Among the collections partly derived from it, one of the most well-known is probably that in French verse by Marie de France. A collection of fables in Latin prose based partly on Romulus and given a strong medieval and clerical tinge was made c.1200 by the Cistercian monk Odo of Cheriton. In 1370 Gerard of Minden wrote a poetical version of Romulus in Middle Low German.
+However, the most developed poetic derivation from the elegiac Romulus text, combined with other genres, was made in Dunfermline in the late 15th century by Robert Henryson. His version, composed in Middle Scots, is the only surviving example known to have made high art of the genre.
+Modern derivations[edit]
+Since Pithou's edition in 1596 Phaedrus has been often edited and translated; among the editions may be mentioned those of Burmann (1718 and 1727), Richard Bentley (1726), Schwabe (1806), Berger de Xivrey (fr) (1830), Johann Caspar von Orelli (1832), Franz Eyssenhardt (1867), L. Müller (1877), Rica (1885), and above all that of Louis Havet (Paris, 1895). For the medieval versions of Phaedrus and their derivatives see L. Roth, in Philologus; E. Grosse, in Jahrb. f. class. Philol., cv. (1872); and especially the learned work of Léopold Hervieux, Les Fabulistes latins depuis le siècle d'Auguste jusqu'a la fin du Moyen Âge (Paris, 1884), who gives the Latin texts of all the medieval imitators (direct and indirect) of Phaedrus, some of them being published for the first time.
+The most recent critical editions are those of Postgate (1919) for the Oxford Classical Texts series (now out of print) and Perry's (1965) Loeb edition with Babrius.
+Bibliography[edit]
+Fabulae Aesopiae
+References[edit]
+^ John Henderson (2001), Telling Tales on Caesar (Oxford).
+^ Since the edition of Isaac Nicholas Nevelet in 1610
+Sources[edit]
+ This article incorporates text from a publication now in the public domain: Chisholm, Hugh, ed. (1911). "Phaedrus". Encyclopædia Britannica. 21 (11th ed.). Cambridge University Press. 
+"Phaedrus Biography"
+"Phaedrus' fable"
+Works by Phaedrus at Project Gutenberg
+External links[edit]
+Quotations related to Phaedrus at Wikiquote
+Works written by or about Phaedrus at Wikisource
+Media related to Phaedrus (fabulist) at Wikimedia Commons
+Pithou's editio princeps (Troyes: Jean Oudot, 1596)
+The fables of Phaedrus - Multilanguage website
+Works by Phaedrus at Project Gutenberg
+Works by or about Phaedrus at Internet Archive
+Works by Phaedrus at LibriVox (public domain audiobooks)
+Authority control
+WorldCat Identities
+VIAF: 100219094
+LCCN: n50047685
+ISNI: 0000 0001 1821 9332
+GND: 118593730
+SELIBR: 228545
+SUDOC: 027918769
+BNF: cb11985800x (data)
+NKC: jn19981001978
+BNE: XX1164815
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Phaedrus_(fabulist)&oldid=763719773"
+Categories: 1st-century RomansFabulistsLatin-language writersAncient Roman writersSilver Age Latin writersHidden categories: Use dmy dates from June 2012Articles containing Ancient Greek-language textAll articles with unsourced statementsArticles with unsourced statements from March 2009Interlanguage link template link numberWikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource referenceWikipedia articles incorporating text from the 1911 Encyclopædia BritannicaArticles with Project Gutenberg linksCommons category with page title different than on WikidataArticles with Internet Archive linksArticles with LibriVox linksWikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with SELIBR identifiersWikipedia articles with BNF identifiers
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+Article
+Talk
+Variants
+Views
+Read
+Edit
+View history
+More
+Search
+Navigation
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+Interaction
+HelpAbout WikipediaCommunity portalRecent changesContact page
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page
+Print/export
+Create a bookDownload as PDFPrintable version
+In other projects
+Wikimedia CommonsWikiquoteWikisource
+Languages
+BrezhonegCatalàDeutschΕλληνικάEspañolEsperantoEuskaraFrançaisՀայերենItalianoLatinaMagyarNederlandsPiemontèisPolskiPortuguêsRomânăРусскийSeelterskSicilianuSlovenčinaSlovenščinaSrpskohrvatski / српскохрватскиSvenskaTagalogУкраїнська
+Edit links
+This page was last modified on 4 February 2017, at 21:39.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view

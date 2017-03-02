@@ -1,0 +1,146 @@
+Vitruvio - Wikipedia, la enciclopedia libre
+Vitruvio
+De Wikipedia, la enciclopedia libre
+Saltar a:					navegación, 					búsqueda
+Marco Vitruvio
+Representación de 1684 de Vitruvio (derecha) presentando De architectura a Augusto.
+Información personal
+Nacimiento
+c. 80-70 a. C.
+Defunción
+c. 15 a. C.
+Nacionalidad
+Romana
+Carrera profesional
+Proyectos representativos
+De Architectura
+[editar datos en Wikidata]
+Marco Vitruvio Polión (en latín Marcus Vitruvius Pollio; c. 80-70 a. C.-15 a. C.) fue un arquitecto, escritor, ingeniero y tratadista romano del siglo I a. C.
+Índice
+1 Biografía y obra
+2 De Architectura libri decem (De architectura) de Vitruvio
+3 Tecnología romana
+3.1 Máquinas
+3.2 Acueductos
+3.3 Materiales
+3.4 Máquinas de desagüe
+3.5 Instrumentos de topografía
+3.6 Calefacción central
+4 Redescubrimiento
+5 Legado
+6 Véase también
+7 Referencias
+7.1 Bibliografía
+8 Enlaces externos
+Biografía y obra[editar]
+Fue arquitecto de Julio César durante su juventud, y al retirarse del servicio entró en la arquitectura civil, siendo de este periodo su única obra conocida, la basílica de Fanum (en Italia). Es el autor del tratado sobre arquitectura más antiguo que se conserva y el único de la Antigüedad clásica, De Architectura, en 10 libros (probablemente escrito entre los años 27 a. C. y 23 a. C.). Inspirada en teóricos helenísticos –se refiere expresamente a inventos del gran Ctesibio–, la obra trata sobre órdenes, materiales, técnicas decorativas, construcción, tipos de edificios, hidráulica, colores, mecánica y gnomónica (Libro IX).
+El último libro está dedicado a las máquinas: de tracción, elevadoras de agua y todo tipo de artefactos bélicos (catapultas, ballestas, tortugas, etc.). Vitruvio describió muy bien la rueda hidráulica en el cap. X.5. La rueda de Vitruvio era vertical y el agua la empujaba por abajo; unos engranajes tenían la finalidad de cambiar la dirección del giro y aumentar la velocidad de las muelas; se calcula que con la energía producida por una de estas ruedas se podían moler 150 kg de trigo por hora, mientras que dos esclavos solo molían 7 kg.[1]
+Hombre de Vitruvio, de Leonardo da Vinci.
+De Architectura, conocido y empleado en la Edad Media, se imprimió por primera vez en Roma en 1486, edición del humanista y gramático Fray Giovanni Sulpicio de Veroli, ofreciendo al artista del Renacimiento, imbuido de la admiración por las virtudes de la cultura clásica tan propio de la época, un canal privilegiado mediante el que reproducir las formas arquitectónicas de la antigüedad greco-latina. Posteriormente, se publicó en la mayor parte de los países y todavía hoy constituye una fuente documental insustituible, también por las informaciones que aporta sobre la pintura y la escultura griegas y romanas.[2] El famoso dibujo de Leonardo da Vinci, el Hombre de Vitruvio, sobre las proporciones del hombre está basado en las indicaciones dadas en esta obra. El dibujo se conserva ahora en la Galleria dell'Accademia, en Venecia. El gran redescubridor de Vitruvio fue Petrarca, y tras la difusión por el florentino de la obra de este autor clásico, se puede afirmar que Vitruvio sentó las bases de la arquitectura Renacentista.[3]
+Las imágenes que ilustran la obra de Vitruvio, en sus ediciones hasta el siglo XVIII, no solo aclaran y embellecen el tratado grecorromano, sino que son expresión de distintas intenciones y usos que ese libro ha tenido en la modernidad europea.
+Lucio Vitruvio Cerdón, arquitecto de época incierta, pudo ser un liberto de su familia.[4]
+De Architectura libri decem (De architectura) de Vitruvio[editar]
+Plano de una casa griega según Vitruvio
+Vitruvio es el autor de De architectura, conocido hoy como Los Diez Libros de Arquitectura,[5] un tratado escrito en latín y griego antiguo acerca de arquitectura, dedicado al emperador Augusto. En el prefacio del libro I, Vitruvio dedica sus escritos para dar conocimiento personal de la calidad de los edificios al emperador. Probablemente Vitruvio se refiere a la campaña de reparaciones y mejoras públicas de Marco Agripa. Este trabajo es un gran libro y único superviviente de la arquitectura de la antigüedad clásica. Según Petri Liukkonen, este texto "influyó profundamente a los artistas desde el primer Renacimiento en adelante, como a pensadores y arquitectos, entre ellos Leon Battista Alberti (1404-1472), Leonardo da Vinci (1452-1519) y Miguel Ángel (1475-1564)."[6] El siguiente libro importante en la arquitectura fue la reformulación de los diez libros de Alberti, que no fue escrito hasta 1452.
+Vitruvio es famoso por afirmar en su libro De Architectura que ciertos edificios públicos deben exhibir las tres cualidades de firmitas, utilitas, venustas –es decir, deben ser sólidos, útiles, hermosos–. Estas cualidades a veces se llaman las virtudes de Vitruvio o la Tríada de Vitruvio. Desde el siglo XVII, esta Tríada se usa para describir la arquitectura en general, aunque la descripción vitruviana de la disciplina es muy diferente.
+Según Vitruvio, la arquitectura es una imitación de la naturaleza. Como las aves y las abejas construyen sus nidos, los seres humanos construyen vivienda a partir de materiales naturales, que les da refugio contra los elementos. Para el perfeccionamiento de este arte de la construcción, los griegos inventaron los órdenes arquitectónicos: dórico, jónico y corintio. Se les dio un sentido de la proporción, que culminó en la comprensión de las proporciones de la mayor obra de arte: el cuerpo humano. Esto llevó Vitruvio a la definición de un canon del cuerpo humano, el Hombre de Vitruvio, adoptado más tarde por Leonardo da Vinci: el cuerpo humano inscrito en el círculo y el cuadrado (los patrones geométricos fundamentales del orden cósmico).
+A Vitruvio se le considera a veces libremente como el primer arquitecto, pero es más exacto describirlo como el primer arquitecto romano que escribió registros de su campo que sobrevivieron. Él mismo cita a obras mayores, pero menos completas. Era al menos un pensador original o tenía el intelecto creativo de un codificador de la práctica arquitectónica existente. También hay que señalar que Vitruvio tenía un alcance mucho más amplio que los arquitectos modernos. Los arquitectos romanos practicaban una amplia variedad de disciplinas; en términos modernos, podrían describirse como la combinación de ingenieros, arquitectos, arquitectos paisajistas, artistas y artesanos. Etimológicamente la palabra arquitecto deriva de las palabras griegas que significan "maestro" y "constructor". El primero de los diez libros se ocupa de muchos temas que ahora entran en el ámbito de la arquitectura del paisaje.
+Tecnología romana[editar]
+Rueda de drenaje de las minas de Río Tinto
+Los Libros VIII, IX y X son la base de gran parte de lo que sabemos acerca de la tecnología romana, ahora aumentados por los estudios arqueológicos de los restos existentes, tales como los molinos de agua en Barbegal, Francia. La otra fuente importante de información es la Historia Naturalis compilada por Plinio el Viejo mucho más tarde en el año 75 de nuestra era.
+Máquinas[editar]
+El trabajo es importante por describir las diferentes máquinas utilizadas para estructuras de ingeniería, tales como montacargas, grúas y poleas, también máquinas de guerra, como catapultas, ballestas y máquinas de asedio. Como ingeniero practicante, Vitruvio debe estar hablando de la experiencia personal en lugar de la simple descripción de las obras de los demás. Asimismo se describe la construcción de relojes de sol y de agua, y el uso de un eolípila (la primera máquina de vapor ) como un experimento para demostrar la naturaleza de los movimientos de aire atmosféricas (viento).
+Acueductos[editar]
+Su descripción de la construcción de un acueducto incluye la forma en que se registran y la cuidadosa elección de los materiales necesarios, aunque Frontino (un general que fue nombrado a fines del Siglo I para administrar los numerosos acueductos de Roma) los describiría un siglo más tarde, con mucho más detalle acerca de los problemas prácticos involucrados en la construcción y el mantenimiento. Seguramente el libro de Vitruvio habría sido de gran ayuda en esto. Vitruvio escribió esto en el siglo I a. C., cuando muchos de los mejores acueductos romanos fueron construidos, y que sobreviven hasta nuestros días, como los de Segovia o Pont du Gard. El uso del sifón invertido se describe en detalle, junto con los problemas de altas presiones desarrolladas en la base del tubo del sifón, un problema práctico con el que parece estar familiarizado.
+Materiales[editar]
+Vitruvio describe muchos diferentes materiales de construcción usados para una amplia variedad de diferentes estructuras, así como detalles tales como pintura estuco. El concreto y la cal reciben profundas descripciones, la longevidad de muchas estructuras romanas que son mudo testimonio de la habilidad de los romanos en los materiales de construcción y diseño.
+Vitruvio es muy conocido y citado a menudo como una de las fuentes más antiguas que sobreviven por haber advertido que el plomo no se debe utilizar para conducir el agua potable, recomendando en cambio pipas de arcilla o canales de mampostería. Se llega a esta conclusión en el Libro VIII De Architectura después de la observación empírica de las aparentes enfermedades de los obreros en las fundiciones de plomo de su tiempo.[7]
+Vitruvio fue el que nos relató la famosa historia de Arquímedes y su detección de oro adulterado en una corona real. Cuando Arquímedes se dio cuenta de que el volumen de la corona podría medirse exactamente por el desplazamiento creado en un baño de agua, corrió a la calle con el grito de ¡Eureka!, y el descubrimiento le permitió comparar la densidad de la corona de oro puro. Demostró que el oro de la corona había sido aleado con plata, y el rey había sido defraudado.
+Máquinas de desagüe[editar]
+Diseño para un tornillo de agua de Arquímedes
+Describe la construcción del tornillo de Arquímedes en el Capítulo X (sin mencionar a Arquímedes por su nombre). Era un dispositivo ampliamente utilizado para la elevación de agua para el riego de los campos y desaguar las minas. Otras máquinas de elevación hídrica que menciona son la interminable cadena de cubos y la rueda reversa de drenaje. Estos restos de ruedas de agua empleadas para la elevación de agua fueron descubiertos cuando las antiguas minas fueron reabiertas en río Tinto en España, Rosia Montana en Rumania y Dolaucothi en el oeste de Gales. La rueda de río Tinto se muestra ahora en el Museo Británico, y el espécimen Dolaucothi en el Museo Nacional de Gales.
+Instrumentos de topografía[editar]
+Vitruvio debe haber sido ducho en el arte del levantamiento topográfico, y esto se demuestra por sus descripciones de instrumentos topográficos, especialmente el nivel de agua o chorobates, que compara favorablemente con el groma, un dispositivo mediante plomadas. Eran esenciales en todas las operaciones de construcción, pero sobre todo en la construcción de acueductos, donde un degradado uniforme era importante para la provisión de un suministro regular de agua sin dañar las paredes del canal. También desarrolló uno de los primeros odómetros, que consta de una rueda de circunferencia conocida que dejaba caer una piedra en un recipiente en cada rotación.
+Calefacción central[editar]
+Ruinas del hipocausto bajo el piso de una villa romana. La parte debajo de la exedra está cubierto.
+Describe muchas innovaciones introducidas en el diseño de edificios para mejorar las condiciones de vida de los habitantes. La más importante de ellas es el desarrollo del hipocausto, un tipo de calefacción central, donde el aire calentado por un fuego era canalizado bajo el suelo y en el interior de las paredes de los baños públicos y villas. Da instrucciones explícitas de cómo diseñar estos edificios para maximizar la eficiencia del combustible, como por ejemplo, el caldarium debe estar al lado del tepidarium seguido del frigidarium. También aconseja sobre el uso de un tipo de regulador para controlar el calor en las habitaciones calientes, un disco de bronce fijado en el techo por debajo de una abertura circular que podría ser elevada o bajada por una polea para ajustar la ventilación. A pesar de que no lo sugiere, es probable que sus dispositivos de desagüe, como la rueda hidráulica de paso inverso, se utilizaran en los baños más grandes para elevar el agua a los tanques de cabecera en la parte superior de las grandes termas, como las Termas de Diocleciano y las de Caracalla.
+Redescubrimiento[editar]
+El interior del Panteón (de una pintura del siglo XVIII por Panini. Aunque fue construido después de la muerte de Vitruvio, su excelente estado de conservación hace que sea de gran importancia para los interesados en la arquitectura de Vitruvio).
+La falsa leyenda, tantas veces repetida, de que el libro De architectura fue redescubierto en 1414 por el humanista florentino Poggio Bracciolini en la biblioteca de Montecassino no se puede sostener en la actualidad. Durante el año 1414, Bracciolini permaneció en la ciudad de Constanza, y probablemente no fue hasta 1416 cuando encontró el códice Harleianus de Vitruvio, entonces guardado en la biblioteca del monasterio de San Gall, pero esto no fue un redescubrimiento de la obra, pues durante la Edad Media se escribieron muchos manuscritos del tratado de Vitruvio que en 1416 eran conocidos. De hecho, ya en el siglo XIV los tempranos humanistas italianos Petrarca y Boccaccio se habían ocupado del tratado de Vitruvio. No obstante, la crítica y difusión de Vitruvio mejoró en el Renacimiento debido al renovado interés por los escritos de la Antigüedad grecoromana, y al análisis y conocimiento de los restos arquitectónicos de la Antigüedad[8] .
+En Leon Battista Alberti (1404-1472) recae el honor de haber dado a conocer ampliamente esta obra en su tratado fundamental sobre la arquitectura De re aedificatoria (c. 1450). La primera edición conocida de Vitruvio fue presentada en Roma por Fra Giovanni Sulpicio en 1486.[9] [10] Traducciones siguieron en italiano (Como, 1521), francés (Jean Martin, 1547,,[11] inglés, alemán (Walter H. Ryff, 1543), español y otros idiomas. Las ilustraciones originales se habían perdido y la primera edición ilustrada fue publicada en Venecia en 1511, con grabados en madera sobre la base de las descripciones en el texto, probablemente por Fra Giovanni Giocondo.[12] Más tarde, en el siglo XVI Andrea Palladio realizó ilustraciones para los comentarios de Daniele Barbaro sobre Vitruvio (que apareció en las versiones en italiano y latín). Sin embargo, la ilustración más famosa sigue siendo una del siglo XV, el Hombre de Vitruvio de da Vinci.
+Las ruinas que sobreviven de la antigüedad romana, el Foro Romano, templos, teatros, arcos de triunfo, relieves y estatuas dieron numerosos ejemplos visuales de las descripciones dadas en el texto de Vitruvio. Este libro se convirtió rápidamente por ello en una importante fuente de inspiración para el Renacimiento, el Barroco y la arquitectura neoclásica. Filippo Brunelleschi, por ejemplo, inventó un nuevo tipo de elevador para levantar las grandes piedras de la cúpula de la catedral de Florencia y se inspiró en De Architectura, así como viendo los numerosos monumentos sobrevivientes romanos, como el Panteón y las Termas de Diocleciano en Roma.
+Legado[editar]
+Un pequeño cráter lunar lleva el nombre de Vitruvio y también una montaña lunar alargada, el Mons Vitruvio. Este cráter se encuentra cerca del valle que sirvió como el lugar de aterrizaje de la misión Apolo 17.
+El Indicador de Calidad de Diseño (ICD) es un conjunto de herramientas para medir, evaluar y mejorar la calidad del diseño de los edificios. Utiliza principios de Vitruvio.
+El asistente (voz de Morgan Freeman), líder de los Maestros Constructores en The Lego Movie, se llama Vitruvio.
+Véase también[editar]
+Filarete
+Palmanova (Italia)
+Vincenzo Scamozzi
+Referencias[editar]
+↑ Plafón informativo del Museo de la Ciencia y de la Técnica de Cataluña (Tarrasa)
+↑ Biografías y Vidas. «Marco Vitruvio». Consultado el 14 de octubre de 2004. 
+↑ | Rico, Francisco: Petrarca: su vida, su obra, su tiempo min. 34
+↑ Encyclopaedia Britannica (1911). «Vitruvius». 1911encyclopedia.com.
+↑ Vitruvius, Pollio (transl. Morris Hicky Morgan, 1960), The Ten Books on Architecture. Courier Dover Publications. ISBN 0-486-20645-9.
+↑ Liukkonen, Petri (2008). «Vitruvius (fl. 46-30 B.C.E.)». Archivado desde el original el 28 de noviembre de 2015. Consultado el 14 de noviembre de 2009. 
+↑ Hodge, Trevor, A. (octubre de 1981). «Vitruvius, Lead Pipes and Lead Poisoning». American Journal of Archaeology (Archaeological Institute of America) 85 (4): 486-491. JSTOR 504874. 
+↑ Hanno-Walter Kruft, Historia de la teoría de la arquitectura, Madrid, Alianza Editorial, 1990, I p 47.
+↑ «Palladio's Literary Predecessors» (en inglés). Consultado el 5 de junio de 2014. 
+↑ Norman, Jeremy. «The First Printed Work on Classical Architecture» (en inglés). Consultado el 5 de junio de 2014. 
+↑ Architectura – Les livres d'Architecture (en francés)
+↑ Architectura – Les livres d'Architecture ; Center for Palladian Studies in America, Inc., [http://www.palladiancenter.org/predecessors.html Palladio's Literary Predecessors
+Bibliografía[editar]
+Vitruvio Polión, Marco (2009). Los diez libros de Arquitectura. Con prólogo de D. Rodríguez, "Vitruvio y la piel del clasicismo", pp. 11-51. Madrid: Editorial Alianza. ISBN 9788420671338. 
+– (2008). Arquitectura: Libros I-IV. Madrid: Editorial Gredos. ISBN 978-84-249-0210-0. 
+Ingrid D. Rowland y Thomas Noble Howe, Vitruvius. Ten Books on Architecture, Cambridgem, Cambridge University Press, 1999, ISBN 0-521-00292-3.(en inglés)
+B. Baldwin, The Date, Identity, and Career of Vitruvius. In: Latomus 49, 1990, ISSN 0023-8856, pp. 425–434.(en inglés)
+Vitruvii de architectura libri decem. / Vitruv. Zehn Bücher über Architektur, Darmstadt, Primus Verlag, 1996, ISBN 3-89678-005-0.(en alemán)
+Stefan Schuler, Vitruv im Mittelalter. Die Rezeption von „De architectura“ von der Antike bis in die frühe Neuzeit, Colonia, Böhlau, 1999, ISBN 3-412-09998-8.(en alemán)
+Hartmut Wulfram, Literarische Vitruvrezeption in Leon Battista Albertis „De re aedificatoria“, Munich, Saur, 2001, ISBN 3-598-77704-3.(en alemán)
+Enlaces externos[editar]
+Wikimedia Commons alberga contenido multimedia sobre Vitruvio. Commons
+De Architectura (castellano)
+De Architectura (inglés)
+De Architectura (latín)
+Extracto de De Architectura, donde Vitruvio explica el origen de las cariatides
+Vitruvio mirando a Agripa
+Dissertação de mestrado "Analema de Vitruvius: dos relógios solares até o relógio de sol plano horizontal" de Marcos R. Calil (PUC-SP Barsil)
+Vitruvio en el Proyecto Perseus.
+Vitruvio y la ciudad del Renacimiento
+VITRUVII, M. De architectura. Nápoles, ca. 1480. En Somni.
+Obtenido de «https://es.wikipedia.org/w/index.php?title=Vitruvio&oldid=97198017»
+Categorías: Arquitectos de la Antigua RomaArquitectos del siglo I a. C.Escritores de la Antigua RomaEscritores en latínIngenieros de la Antigua RomaTeóricos de la arquitecturaEscritores del siglo I a. C.Antiguos romanos del siglo I a. C.Gens VitruviaCategorías ocultas: Wikipedia:Páginas con plantillas con argumentos duplicadosWikipedia:Páginas con enlaces mágicos de ISBN
+Menú de navegación
+Herramientas personales
+No has iniciado sesiónDiscusiónContribucionesCrear una cuentaAcceder
+Espacios de nombres
+Artículo
+Discusión
+Variantes
+Vistas
+Leer
+Editar
+Ver historial
+Más
+Buscar
+Navegación
+PortadaPortal de la comunidadActualidadCambios recientesPáginas nuevasPágina aleatoriaAyudaDonacionesNotificar un error
+Imprimir/exportar
+Crear un libroDescargar como PDFVersión para imprimir
+En otros proyectos
+Wikimedia Commons
+Herramientas
+Lo que enlaza aquíCambios en enlazadasSubir archivoPáginas especialesEnlace permanenteInformación de la páginaElemento de WikidataCitar esta página
+En otros idiomas
+العربيةAsturianuAzərbaycancaБеларускаяБеларуская (тарашкевіца)‎БългарскиBosanskiCatalàČeštinaDanskDeutschΕλληνικάEnglishEsperantoEestiEuskaraفارسیSuomiFrançaisGaeilgeGalegoעבריתहिन्दीHrvatskiMagyarՀայերենInterlinguaBahasa IndonesiaIdoÍslenskaItaliano日本語한국어LatinaLietuviųLatviešuMalagasyМакедонскиമലയാളംमराठीनेपाल भाषाNederlandsNorsk bokmålOccitanPolskiPortuguêsRomânăРусскийSicilianuScotsSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaСрпски / srpskiSvenskaதமிழ்ไทยTürkçeУкраїнськаTiếng ViệtWinaray中文粵語
+Editar enlaces
+Esta página fue modificada por última vez el 27 feb 2017 a las 16:14.
+El texto está disponible bajo la Licencia Creative Commons Atribución Compartir Igual 3.0;
+pueden aplicarse cláusulas adicionales. Al usar este sitio, usted acepta nuestros términos de uso y nuestra política de privacidad. Wikipedia® es una marca registrada de la Fundación Wikimedia, Inc., una organización sin ánimo de lucro.
+Política de privacidad
+Acerca de Wikipedia
+Limitación de responsabilidad
+Desarrolladores
+Declaración de cookies
+Versión para móviles

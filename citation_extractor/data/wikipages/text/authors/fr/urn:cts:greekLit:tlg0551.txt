@@ -1,0 +1,101 @@
+Appien — Wikipédia
+Appien
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant un historien.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Appien d'Alexandrie (en latin Appianus) est un historien grec de l'époque romaine, né à la fin du Ier siècle et mort sans doute après 161, auteur d'une Histoire romaine.
+Sommaire
+1 Biographie
+2 Œuvre
+2.1 Description
+2.2 Datation
+3 Éditions et traductions
+4 Notes
+5 Voir aussi
+5.1 Bibliographie
+5.2 Liens externes
+Biographie[modifier | modifier le code]
+Sa vie est très mal connue. Les sources sont le § 15 (dernier) de la préface de l'Histoire romaine (où l'auteur se présente en une phrase) et une ou deux autres allusions autobiographiques dans l'ouvrage ; une lettre d'Appien à Fronton et la réponse de Fronton (toutes deux en grec) ; une lettre de recommandation (en latin) de Fronton à l'empereur Antonin le Pieux ; probablement une épigramme funéraire grecque de Rome composée par un « Appianos » parlant de lui-même et de son épouse Eutychia[1] ; enfin le codex 57 de la Bibliothèque du patriarche Photius, qui est consacré à l'ouvrage historique d'Appien. L'article de la Souda ne contient pas d'information biographique (sinon qu'Appien était « sophiste »).
+La phrase d'Appien lui-même est la suivante : « Je suis Appien d'Alexandrie, ayant atteint le rang le plus élevé dans ma patrie, puis ayant plaidé à Rome dans des procès devant les empereurs, jusqu'à ce qu'ils me jugent digne d'exercer pour eux la fonction de procurateur ». Il semble donc avoir été un temps avocat du fisc à Rome sous au moins deux empereurs (sans doute Hadrien et Antonin le Pieux). La lettre de Fronton à Antonin témoigne des longues démarches du consulaire pour faire accorder à Appien la dignité de procurateur (« Supplicavi tibi jam per biennium pro Appiano, amico meo [...] ») ; la dignité requise signifie qu'Appien était un citoyen romain appartenant à l'ordre équestre ; apparemment l'empereur était réticent à accéder à cette requête, craignant qu'ensuite trop d'avocats ne la sollicitent aussi pour eux (« futurum ut... causidicorum scatebra exoriretur idem petentium »). Appien finit donc par obtenir sa nomination, et il semble avoir continué à exercer la fonction de procurateur (ἐπιτροπεύειν en grec) jusqu'après l'avènement de Marc Aurèle (161), puisqu'il parle à nouveau d'une pluralité d'empereurs (cependant il faut rappeler que Marc Aurèle fut coempereur à partir de 147).
+Photius écrit qu'il fut florissant (Ἤκμασε) sous les règnes de Trajan et d'Hadrien, la mention du premier correspondant sans doute au début de la brillante carrière d'Appien à Alexandrie. Il a donc dû naître vers 90. À la fin du livre XXIV de l'Histoire romaine, il évoque le fait qu'il dut fuir Alexandrie pendant la révolte des Juifs (116-117) pour se réfugier en Arabie Pétrée. Il devint très riche : dans sa lettre à Fronton il lui offre deux esclaves, et dans sa réponse le Romain ne croit pas pouvoir accepter un présent de cette valeur. Si l'épigramme funéraire mentionnée plus haut est bien d'Appien, il fut prêtre de la déesse Fortune à Rome et fut marié pendant trente-et-un ans à une certaine Eutychia qu'il avait épousée quand elle avait douze ans et qui mourut avant lui ; il aurait alors été enseveli à ses côtés sur la colline du Vatican.
+Œuvre[modifier | modifier le code]
+Appien précise dans le § 15 de sa préface qu'il avait publié une autobiographie, signe certainement de la grande fierté qu'il ressentait de sa brillante carrière, et à laquelle il renvoie les lecteurs qui voudraient en savoir plus sur lui. Ce texte n'a pas été conservé. Appien est donc pour nous (en dehors de la lettre à Fronton) l'auteur d'une seule œuvre, l'Histoire romaine.
+Description[modifier | modifier le code]
+L'ouvrage est clairement décrit dans le codex 57 de Photius. Il était divisé en trois parties et vingt-quatre livres. Consacré exclusivement aux guerres de conquête et aux guerres civiles de la fin de la République, il couvrait l'ensemble de l'histoire de Rome depuis la légende d'Énée jusqu'au règne de Trajan. Voici le plan de l'ouvrage tel qu'il découle du codex : 1. les rois de Rome (Βασιλική) ; 2. les guerres d'Italie (Ίταλική) ; 3. les guerres contre les Samnites (Σαυνιτική) ; 4. les guerres contre les Gaulois (Κελτική) ; 5. la conquête de la Sicile et des îles voisines (Νησιωτική) ; 6. les guerres d'Espagne (Ίβηρική) ; 7. la guerre contre Hannibal (Άννιβαική) ; 8. les guerres d'Afrique, ou contre Carthage, ou numidiques (Λιβυκή, ou Καρχηδονική, ou Νομαδική) ; 9. les guerres de Macédoine et d'Illyrie (Μακεδονική καί Ίλλυρική) ; 10. les guerres de Grèce et d'Ionie (Έλληνική καί Ίωνική) ; 11. les guerres de Syrie et contre les Parthes (Συριακή καί Παρθική) ; 12. la guerre contre Mithridate (Μιθριδάτειος) ; 13-21. les guerres civiles (Έμφυλίων πρώτη - ένάτη), depuis la lutte entre Marius et Sylla jusqu'à l'établissement de l'Empire par Auguste ; 22. les cent ans (Έκατονταετία) d'Auguste jusqu'à l'avènement de Trajan ; 23. la conquête de la Dacie (Δακική) ; 24. les campagnes de Trajan en Orient (Άράβιος). Selon Photius, le récit dans les trois derniers livres était sommaire et incomplet. Appien a dû les ajouter après coup, car il n'en fait pas mention dans la préface, et peut-être les avait-il laissés inachevés.
+Sont parvenus jusqu'à nous en entier : la préface ; les livres 6, 7, 8 ; la seconde partie du livre 9 (sur l'Illyrie) ; les livres 11 à 17 (les livres 13 à 17 correspondent aux guerres civiles jusqu'à la mort de Sextus Pompée en 35 av. J.-C. ; dans le livre 11, la partie consacrée aux guerres contre les Parthes n'est pas d'Appien, mais a été ajoutée au début de la période byzantine). Des anthologies de l'époque byzantine fournissent quelques fragments des livres 1 à 5, de la partie perdue du livre 9 et du livre 24.
+La principale originalité de l'ouvrage réside dans sa composition. En effet, le récit des conquêtes de Rome n'est pas organisé chronologiquement, mais géographiquement, ou plutôt « par nation » (kata génos). Ainsi, le livre 4 (Les guerres contre les Gaulois) racontait l'ensemble des démêlés des Romains avec les Gaulois (jusqu'au temps de Jules César), mais du coup les opérations de César en Gaule ne sont pas du tout évoquées dans le livre 14, qui raconte la guerre civile entre César et Pompée. De même tous les événements concernant l'Égypte étaient regroupés dans les livres 18 à 21 (perdus), si bien qu'ils sont omis dans les livres précédents consacrés aux guerres civiles. Cette organisation présente des inconvénients évidents pour la cohérence du récit et la perception synthétique des événements, mais elle permet aussi une meilleure prise en compte de la géographie et de la logique à long terme de chaque conquête, ainsi qu'une meilleure analyse des choix stratégiques des généraux.
+Datation[modifier | modifier le code]
+L'Histoire romaine date de la vieillesse d'Appien : la préface a certainement été rédigée à la fin de sa vie, puisqu'il y récapitule toute sa carrière. Dans cette même préface (§ 7), il compte 200 ans « depuis le rétablissement de la monarchie » (qui correspond sans doute dans l'esprit de l'auteur à la dictature à vie décernée à César en 45 av. J.-C., ce qui renverrait donc précisément à l'an 155, mais il s'agit sûrement d'un arrondi, comme au § 9 les 900 ans comptés depuis la fondation de Rome, ce qui donnerait 147). Quant à un terminus ante quem, la frontière de l'Euphrate donnée à l'Empire romain par le § 2 de la préface correspond à la situation avant la campagne de Lucius Verus contre les Parthes (163-166)
+Éditions et traductions[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Appien, sur Wikimedia Commons
+Appien, sur Wikisource
+Histoire romaine - Livre VI, bilingue, texte établi et trad. par Paul Goukowsky, coll. Budé, Les Belles Lettres, 1997.
+Histoire romaine - Livre VII,coll. Budé, Les Belles Lettres, 2002.
+Histoire romaine - Livre VIII, bilingue, texte établi et trad. par Paul Goukowsky, coll. Budé, Les Belles Lettres, 2002.
+Histoire romaine - Livre XI, bilingue, texte établi et traduit par Paul Goukowsky, coll Budé, Les Belles Lettres, 2007.
+Histoire romaine - Livre XII, bilingue, texte établi et traduit par Paul Goukowsky, coll Budé, Les Belles Lettres, 2001.
+Histoire romaine - Livre XIII, bilingue, texte établi et trad. par Paul Goukowsky, coll. Budé, Les Belles Lettres, 2008.
+Histoire romaine - Livre XV - Livre III, texte établi et trad. par Paul Goukowsky, bilingue, coll. Budé, Les Belles Lettres, 2010.
+Histoire romaine - Livre IX, texte établi et trad. par Paul Goukowsky, bilingue, coll. Budé, Les Belles Lettres, 2011.
+Les Guerres civiles à Rome, livre I, traduction de Jean-Isaac Combes-Dounous, 1993, 217 pages, Les Belles Lettres, (ISBN 2251339213)
+Les Guerres civiles à Rome, livre II, traduction de Jean-Isaac Combes-Dounous, 1994, 208 pages, Les Belles Lettres, (ISBN 225133923X)
+Les Guerres civiles à Rome, livre III, traduction de Philippe Torrens, 2000, 202 pages, Les Belles Lettres, (ISBN 2251339396)
+Les Guerres civiles à Rome, livre IV, traduction de Philippe Torrens, 2008, 306 pages, Les Belles Lettres, (ISBN 978-2-251-33952-8)
+Les Guerres civiles à Rome, livre V, traduction de Philippe Torrens
+Notes[modifier | modifier le code]
+↑ Lire sur cette épigramme l'article de Paul Goukowsky dont le lien se trouve dans la bibliographie.
+Voir aussi[modifier | modifier le code]
+Bibliographie[modifier | modifier le code]
+Notices d'autorité : Fichier d'autorité international virtuel • International Standard Name Identifier • Bibliothèque nationale de France (données) • Système universitaire de documentation • Bibliothèque du Congrès • Gemeinsame Normdatei • Service bibliothécaire national • Bibliothèque nationale d'Espagne • WorldCat
+P. Goukowsky, « Appien d'Alexandrie, prêtre de Rome sous Hadrien ? », CRAI, 142-3, 1998, p. 835-356 Lire en ligne sur Persée
+Leclant, Jean (dir.), Dictionnaire de l'Antiquité, Paris, PUF, 2008.
+Howatson, Margaret C.(dir.), Dictionnaire de l'Antiquité : mythologie, littérature, civilisation, Paris, Robert Laffont, 1993.
+Liens externes[modifier | modifier le code]
+Œuvres d'Appien
+Codex 57 de Photius
+(grc) (fr) Opera, site remacle.org
+(grc) (la) Opera sur Google Livres
+(la) Bellum Civile
+(en) De Appiano Alexandrino, site Livius.org
+Portail de la Rome antique
+Portail de l’historiographie
+Ce document provient de « https://fr.wikipedia.org/w/index.php?title=Appien&oldid=132094730 ».
+Catégories : Écrivain de langue grecque d'époque romaineHistorien romainDate de naissance incertaine (Ier siècle)Date de décès incertaine (IIe siècle)Catégories cachées : Wikipédia:ébauche historienCatégorie Commons avec lien local identique sur WikidataArticle de Wikipédia avec notice d'autoritéPortail:Rome antique/Articles liésPortail:Italie/Articles liésPortail:Monde antique/Articles liésPortail:Histoire/Articles liésPortail:Historiographie/Articles liésWikipédia:Article biographiquePortail:Biographie/Articles liés/SciencesPortail:Biographie/Articles liés/Culture et artsPortail:Biographie/Articles liés/Droit
+Menu de navigation
+Outils personnels
+Non connectéDiscussionContributionsCréer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+AccueilPortails thématiquesArticle au hasardContact
+Contribuer
+Débuter sur WikipédiaAideCommunautéModifications récentesFaire un don
+Outils
+Pages liéesSuivi des pages liéesImporter un fichierPages spécialesAdresse permanenteInformation sur la pageÉlément WikidataCiter cette page
+Imprimer / exporter
+Créer un livreTélécharger comme PDFVersion imprimable
+Dans d’autres projets
+Wikimédia CommonsWikisource
+Dans d’autres langues
+العربيةAzərbaycancaБългарскиBosanskiCatalàČeštinaCymraegDanskDeutschΕλληνικάEnglishEsperantoEspañolEestiEuskaraEstremeñuفارسیSuomiGalegoעבריתHrvatskiMagyarՀայերենBahasa IndonesiaItaliano日本語ქართულიҚазақшаLatinaLëtzebuergeschമലയാളംBahasa MelayuNederlandsNorsk bokmålPolskiPortuguêsRomânăРусскийSrpskohrvatski / српскохрватскиSlovenčinaSlovenščinaShqipСрпски / srpskiSvenskaTürkçeУкраїнська中文
+Modifier les liens
+Dernière modification de cette page le 24 novembre 2016, à 09:48.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Déclaration sur les témoins (cookies)
+Version mobile

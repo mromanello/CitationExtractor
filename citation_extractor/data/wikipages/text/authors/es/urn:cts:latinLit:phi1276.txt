@@ -1,0 +1,172 @@
+Juvenal - Wikipedia, la enciclopedia libre
+Juvenal
+De Wikipedia, la enciclopedia libre
+Saltar a:					navegación, 					búsqueda
+Para otros usos de este término, véase Juvenal (desambiguación).
+Juvenal
+Frontispicio de John Dryden: Las sátiras de Decimus Junius Juvenalis y de Aulus Persius Flaccus.
+Información personal
+Nombre de nacimiento
+Décimo Junio Juvenal
+Nacimiento
+siglo I
+Aquino ?
+Fallecimiento
+siglo II
+Roma, Italia
+Nacionalidad
+Romana
+Educación
+Alumno de
+Quintiliano
+Información profesional
+Ocupación
+Poeta
+Género
+Sátira romana
+[editar datos en Wikidata]
+Décimo Junio Juvenal (en latín, Decimus Iunius Iuvenalis; Aquino, 60-Roma, 128) fue un poeta latino, activo a finales del siglo I y comienzos del siglo II, autor de dieciséis Sátiras. Los detalles de la vida del autor son confusos, aunque referencias dentro de su texto a personas conocidas a finales del siglo I y principios del II fijan su terminus post quem (fecha de composición más temprana).
+Conforme con el estilo vitriólico de Lucilio, creador del género de la sátira romana, y dentro de una tradición poética que también incluye a Horacio y Persio, Juvenal escribió al menos 16 poemas en hexámetro dactílico abarcando un conjunto enciclopédico de tópicos de todo el mundo romano. Mientras que las Sátiras son una fuente vital para el estudio de la Antigua Roma desde un vasto número de perspectivas, su forma de expresión cómica, hiperbólica hace, como mínimo, problemático el uso de las afirmaciones encontradas en ellos. A primera vista, las Sátiras pueden leerse como una crítica brutal de la Roma pagana, quizá por este motivo pervivió en los scriptoria monásticos cristianos, un cuello de botella en la conservación donde gran parte de los textos antiguos perecieron.
+Índice
+1 Biografía
+2 Las Sátiras y su género
+3 Significado de las Sátiras
+4 Legado
+5 Referencias
+6 Bibliografía
+7 Enlaces externos
+Biografía[editar]
+Los detalles precisos de la vida del autor no pueden ser reconstruidos con seguridad basándose en la evidencia disponible actualmente. La Vita Iuvenalis (Vida de Juvenal), una biografía del autor que se ha asociado con sus manuscritos no más tarde del siglo X, es poco o nada más que una extrapolación de sus propias Sátiras.
+Las biografías tradicionales, incluyendo la Vita Iuvenalis, proporcionan el nombre completo del escritor, y también dicen que era el hijo, por naturaleza o por adopción de un rico liberto (a veces se concreta que era un liberto hispano). Se supone que fue alumno de Quintiliano y que practicó retórica hasta que alcanzó la mediana edad, tanto como diversión como con propósitos legales (las Sátiras hacen referencias frecuentes y exactas a la forma de operar el sistema jurídico romano). Su carrera como satírico se supone que comenzó en una etapa de su vida bastante temprana. Al parecer, esta profesión le permitió ganarse la vida dignamente; es posible que le diera hasta para comprar una granja en Tíbur (actual Tívoli). Era muy amigo de Marcial (autor de los Epigramas).
+Las biografías están conformes en atribuir a su vida un periodo de exilio debido a que insultó a un actor con altos niveles de influencia en la corte: el emperador que lo exilió sería Trajano o Domiciano, y todas las biografías sitúan su exilio en Egipto, con la excepción de la que opta por Escocia.[1] Otras tradiciones consideran que sobrevivió durante algún tiempo después del año de la muerte de Adriano (138).[2]
+Es imposible decir cuánto del contenido de estas biografías tradicionales es ficción y cuánto es un hecho. Amplias partes son claramente meras deducciones de los escritos de Juvenal, pero algunos aspectos parecen tener más sustancia. Juvenal nunca menciona un periodo de exilio de su vida, pero aparece en cada biografía tradicional existente. Muchos estudiosos creen que la idea es una invención posterior; las Sátiras muestran cierto conocimiento de Egipto y Britania, y se cree que esto dio lugar a la tradición de que Juvenal fue exiliado. Otros, sin embargo, en particular Gilbert Highet, consideran que el exilio es un hecho, y estos eruditos proporcionan una fecha concreta: desde el año 93 hasta el 96, cuando Nerva se convirtió en emperador. Arguyen que una referencia a Juvenal en uno de los poemas de Marcial, que data de 92, es imposible si en esa época Juvenal estuviera ya en el exilio o hubiera pasado su tiempo desterrado, pues Marcial no habría deseado enfrentarse a Domiciano mencionando a una persona non grata como Juvenal. Si Juvenal fue desterrado, habría perdido su patrimonio, y esto explicaría las consistentes descripciones de la vida de cliente de la que se lamenta en las Sátiras.
+La única otra pieza disponible de evidencia biográfica es la siguiente inscripción dedicatoria, que se dice encontrada en Aquino con el texto:[3]
+...]RI·SACRVM
+...]NIVS·IVVENALIS
+...] COH·[.]·DELMATARVM
+II·VIR·QVINQ·FLAMEN
+DIVI·VESPASIANI
+VOVIT·DEDICAV[...]UE
+SVA PEC
+CERE]RI·SACRVM
+D(ECIMVS) IV]NIVS·IVVENALIS
+TRIB(VNVS)] COH(ORTIS)·[I]·DELMATARVM
+II·VIR·QVINQ(VENNALIS)·FLAMEN
+DIVI·VESPASIANI
+VOVIT·DEDICAV[ITQ]UE
+SVA PEC(VNIA)
+A Ceres (esta cosa) sagrada
+(Décimo Junio?) Juvenal
+tribuno militar de la primera cohorte de las (legiones) Dalmáticas
+Duoviro, Quinquennalis, Flamen
+del Divino Vespasiano
+hizo el voto y dedicó
+con sus propios fondos
+(Corpus Inscriptionum Latinarum X.5382)
+Los eruditos son normalmente de la opinión de que esta inscripción no se refiere al propio poeta: una carrera militar no encajaría bien con el pronunciado anti-militarismo de las Sátiras, y más aún las legiones de Dalmacia no parecen haber existido antes del año 166. Es posible, sin embargo, que este Juvenal fuera un pariente posterior del poeta, pues ambos provenían de Aquino y estuvieron relacionados con la diosa Ceres (la única deidad a la que se muestra respeto en las Sátiras). Pero si la teoría que relaciona a los dos Juvenal es correcta, entonces la inscripción muestra que la familia de Juvenal era razonablemente adinerada, y que si realmente el poeta era el hijo de un liberto extranjero, entonces sus descendientes se asimilaron a la estructura de clases italiana con rapidez. Green piensa que es más probable que la tradición del padre liberto sea falsa, y que los antepasados de Juvenal pertenecían a la nobleza italiana menor de ascendencia relativamente antigua.[4]
+Las Sátiras y su género[editar]
+Contrario a lo que había llegado a ser Roma, Juvenal traza un retrato ácido y despiadado de sus contemporáneos. En sus propias palabras, es un mundo sobre el cual «difficile est saturam non scribere» (Sátira I–30). A Juvenal se atribuyen 16 poemas conocidos, divididos en cinco libros; todos pertenecen al género romano de la sátira, que, en su forma más básica en tiempos del autor, comprendía una discusión amplia de la sociedad y sus costumbres en hexámetro dactílico.[5] En la Sátira I, referente a la amplitud y contenido de su obra, Juvenal afirma que:
+Desde que Deucalión, cuando las lluvias torrenciales elevaron las aguas,
+escaló con su nave la cima para consultar el oráculo,
+desde que los peñascos se ablandaron y recibieron poco a poco el calor de la vida
+y Pirra exhibió a los hombres las muchachas desnudas,
+lo que desde entonces ocupa a los hombres, el deseo, el temor, la ira, el placer,
+los goces, los discursos, todo ello se revuelve en este libro.[6]
+ex quo Deucalion nimbis tollentibus aequor
+nauigio montem ascendit sortesque poposcit
+paulatimque anima caluerunt mollia saxa
+et maribus nudas ostendit Pyrrha puellas,
+quidquid agunt homines, uotum, timor, ira, uoluptas,
+gaudia, discursus, nostri farrago libelli est.
+(1.81-86)
+En suma, Juvenal señala que su propósito es toda la variedad de la experiencia humana desde los albores de la historia. Quintiliano, en el contexto de una discusión de géneros literarios apropiados para una educación oratoria, señaló que, a diferencia de tantas otras formas artísticas y literarias tomadas de los modelos griegos, «la sátira al menos es toda nuestra» (satura quidem tota nostra est).[7] Al menos desde la perspectiva de Quintiliano, el verso satírico griego precedente (por ejemplo, el de Hiponacte) o incluso la prosa satírica latina (como la de Petronio) no constituía satura por sí. La Satura romana era un género literario formal más que ser una simple crítica humorística e ingeniosa sin formato particular.
+Libro I: Sátiras 1-5
+Libro II: Sátira 6
+Libro III: Sátiras 7-9
+Libro IV: Sátiras 10-12
+Libro V: Sátiras 13-16 (La sátira 16 está conservada de manera incompleta)
+Las Sátiras individuales (salvo la 16) van desde 130 versos de la sátira 12 hasta los cerca de 695 de la sátira 6. Los poemas no están titulados individualmente, pero los traductores a menudo le han añadido títulos para comodidad del lector.
+Significado de las Sátiras[editar]
+Aunque Juvenal ha sido ampliamente estudiado a lo largo de los siglos, el contenido y el tono de sus Sátiras se han hecho progresivamente problemáticos y difíciles de digerir con el auge del movimiento feminista y mayor conciencia (y rechazo) de todo tipo de intolerancia. Mientras el tono de la sátira de Juvenal ha sido considerada desde la Antigüedad como un airado desprecio hacia todos los representantes de un desvío social, estudiosos como W.S. Anderson y más tarde S.M. Braund han sugerido que este aparente enfado es una mera persona (máscara) retórica asumida por el autor para criticar el desequilibrado enfado suscitado por el tipo de elitismo, sexismo y xenofobia con los que las Sátiras parecen repletas a primera vista.[8] El carácter aforístico, absolutista, del texto lleva demasiado fácilmente a la aplicación indiscriminada de críticas originariamente dirigidas a ejemplos literarios de vicios en particular. En el interés de mantener el texto libre de tales preocupaciones, es vital que el texto y su autor se distingan de la manera o estilo en el que normalmente han sido leídos. Como ha señalado el teórico literario Stanley Fish, la lectura de un texto es tanto el producto de las creencias y prejuicios del lector como el de aquellos contenidos dentro del texto. La misoginia y otras formas de odio percibidas en el texto son tan atribuibles a lo que los lectores a lo largo de los siglos han llevado a la lectura como a lo que pretendía Juvenal.
+Sería un error igualmente grave leer las Sátiras como un relato literal de la vida cotidiana y el pensamiento romanos a finales del siglo I y principios del II, lo mismo que sería un error dar crédito a cada calumnia recogida por Tácito o Suetonio contra los miembros de la anterior dinastía imperial.[9] Temas parecidos a los de las Sátiras se encuentran presentes en autores que abarcan el periodo de la República Romana y principios del Imperio que van desde Cicerón y Catulo hasta Marcial y Tácito; de manera similar, los recursos estilísticos del texto de Juvenal entran dentro de la categoría de la literatura post-augusta representada por Persio, Estacio y Petronio.[10] Finalmente, es preciso darse cuenta de que el sistema conceptual presente dentro del texto es muy representativo de sólo una porción de la población romana; las Sátiras no hablan claramente de las preocupaciones de las mujeres, los inmigrantes, los esclavos, los niños o incluso hombres que se aparten de la educada audiencia de élite hacia la que se dirigía el autor. Con estas advertencias presentes en la mente, es posible acercarse a las Sátiras como una fuente que ayuda mucho para el estudio de la cultura de principios de la Roma Imperial. Además de una gran riqueza de información incidental sobre todo tipo de asuntos, desde la dieta hasta la decoración, las Sátiras de Juvenal revelan lo que es esencial en una civilización: los temas en el corazón de la identidad romana. Más que revelar una miríada de potenciales respuestas que abarcan toda la diversa población romana, Juvenal revela las cuestiones esenciales de la sociedad romana.
+Legado[editar]
+Pero si por algo es conocido Juvenal es por algunas de sus expresiones: «panem et circenses» («Pan y circo»), refiriéndose a las costumbres de los romanos en tiempos del Imperio, «Sed quis custodiet ipsos custodes?» («¿Quién vigilará a los propios vigilantes?») (VI 347–348), «rara avis» (lit., «ave muy poco común»), refiriéndose a las esposas perfectas y comparándolas con la rareza de un cisne negro, «Mens sana in corpore sano» («Una mente sana en un cuerpo sano») (X 356)...
+Fue un autor muy popular ya en tiempos del Bajo Imperio y durante la Edad Media. Se han hallado unos 500 manuscritos medievales de las Sátiras.
+Referencias[editar]
+↑ Peter Green: Introducción a la edición de Penguin Classics de las Sátiras, edición de 1998: p.15 ff
+↑ Peter Green: Introducción a la edición de Penguin Classics de las Sátiras, ed. de 1998: p.15 ff
+↑ (Desde L a R: la inscripción tal como se conserva, la inscripción restaurada, y la traducción de la inscripción restaurada.)
+↑ Peter Green: Introducción a la edición de Penguin Classics de las Sátiras, ed. de 1998: pp.23-24
+↑ Lucilio experimentó con otros metros antes de optar por el hexámetro dactílico.
+↑ traducción de Manuel Balasch en www.isftic.mepsyd.es
+↑ Institutiones Oratoriae 10.1.95
+↑ Según Braund (1988 p. 25), la Sátira 7 – el poema con el que comienza el Libro III - representa una «ruptura» con las sátiras 1 a 6 - Libros I y II – donde Juvenal renuncia a la indignatio de la «persona enfadada» en favor de la ironía de una persona «mucho más racional e inteligente».
+↑ Los textos literarios, especialmente aquellos de naturaleza altamente retórica como las Sátiras no pueden leerse con provecho como si fueran artículos de una enciclopedia.
+↑ Amy Richlin identifica la invectiva oratoria como una fuente tanto de la sátira como del epigrama. 1992 p. 127.
+Bibliografía[editar]
+Persio Flaco, Aulo / Juvenal, Decio Junio (1991). Sátiras. Madrid: Editorial Gredos. ISBN 978-84-249-1467-7. 
+En inglés
+Anderson, William S. (1982) Essays on Roman Satire, Princeton: Princeton University Press.
+Braund, Susanna M. (1988) Beyond Anger: A Study of Juvenal’s Third Book of Satires, Cambridge: Press Syndicate of the University of Cambridge.
+Braund, Susanna (1996) Juvenal Satires Book I, Cambridge: Press Syndicate of the University of Cambridge.
+Braund, Susanna (1996) The Roman Satirists and their Masks, Londres: Bristol Classical Press.
+Courtney, E. (1980) A Commentary of the Satires of Juvenal, Londres: Athlone Press.
+Edwards, Catherine (1993) The Politics of Immorality in Ancient Rome, Cambridge: Cambridge University Press.
+Gleason, Maud W. (1995) Making Men: Sophists and Self-Presentation in Ancient Rome, Princeton: Princeton University Press.
+Gowers, Emily (1993) The Loaded Table: Representations of Food in Roman Literature, Oxford: Oxford University Press.
+Highet, Gilbert (1961) Juvenal the Satirist, Nueva York: Oxford University Press.
+Juvenal (1982) The Sixteen Satires, Trad. Peter Green, Londres: Penguin Books.
+Juvenal (1992) The Satires, Trad. Niall Rudd, Oxford: Oxford University Press.
+Juvenal (1992) Persi et Juvenalis Saturae, ed. W. V. Clausen. Londres: Oxford University Press.
+The Oxford Classical Dictionary 3rd ed., 1996, Nueva York: Oxford University Press.
+Richlin, Amy (1992) The Garden of Priapus, Nueva York : Oxford University Press.
+Rudd, Niall (1982) Themes in Roman Satire, Los Ángeles: University of California Press.
+Syme, Ronald (1939) The Roman Revolution, Oxford: Oxford University Press.
+Enlaces externos[editar]
+Esta obra contiene una traducción derivada de Juvenal de Wikipedia en inglés, publicada por sus editores bajo la Licencia de documentación libre de GNU y la Licencia Creative Commons Atribución-CompartirIgual 3.0 Unported.
+Wikimedia Commons alberga contenido multimedia sobre Juvenal. Commons
+Wikiquote alberga frases célebres de o sobre Juvenal. Wikiquote
+Biografías y vidas.
+El banquete en la sátira romana por Jesús Muñoz Morcillo en Convivia Literaria.
+Juvenal: Sátiras.
+Textos en inglés, con noticia en el mismo idioma sobre la transmisión manuscrita, en el sitio Tertullian Project.
+Texto latín-español: primera sátira.
+Textos en francés y en latín, con índice electrónico.
+Textos bilingües latín - francés, con índice electrónico, introducción y anotaciones en este idioma, en el sitio de Philippe Remacle (1944 - 2011).
+Texto latino en el Proyecto Perseus. Empleando el rótulo activo "load", que se halla en la parte superior derecha, se obtiene ayuda en inglés con el vocabulario latino del texto.
+Texto latino en el sitio The Latin Library.
+Obtenido de «https://es.wikipedia.org/w/index.php?title=Juvenal&oldid=94344312»
+Categorías: HombresPoetas de la Antigua RomaEscritores en latínNacidos en el siglo IFallecidos en el siglo IIPoetas del siglo IIAntiguos romanos del siglo IIPoetas del siglo IAntiguos romanos del siglo IGens JuniaCategoría oculta: Wikipedia:Páginas con enlaces mágicos de ISBN
+Menú de navegación
+Herramientas personales
+No has iniciado sesiónDiscusiónContribucionesCrear una cuentaAcceder
+Espacios de nombres
+Artículo
+Discusión
+Variantes
+Vistas
+Leer
+Editar
+Ver historial
+Más
+Buscar
+Navegación
+PortadaPortal de la comunidadActualidadCambios recientesPáginas nuevasPágina aleatoriaAyudaDonacionesNotificar un error
+Imprimir/exportar
+Crear un libroDescargar como PDFVersión para imprimir
+En otros proyectos
+Wikimedia CommonsWikiquote
+Herramientas
+Lo que enlaza aquíCambios en enlazadasSubir archivoPáginas especialesEnlace permanenteInformación de la páginaElemento de WikidataCitar esta página
+En otros idiomas
+AragonésالعربيةAsturianuБеларускаяБългарскиBrezhonegCatalàČeštinaDanskDeutschΕλληνικάEnglishEsperantoEestiEuskaraEstremeñuفارسیSuomiFrançaisעבריתMagyarՀայերենIdoÍslenskaItaliano日本語ქართული한국어LatinaNederlandsNorsk bokmålPolskiPortuguêsRomânăРусскийSicilianuScotsSrpskohrvatski / српскохрватскиSlovenčinaSvenskaУкраїнська中文Bân-lâm-gú
+Editar enlaces
+Esta página fue modificada por última vez el 16 oct 2016 a las 14:22.
+El texto está disponible bajo la Licencia Creative Commons Atribución Compartir Igual 3.0;
+pueden aplicarse cláusulas adicionales. Al usar este sitio, usted acepta nuestros términos de uso y nuestra política de privacidad. Wikipedia® es una marca registrada de la Fundación Wikimedia, Inc., una organización sin ánimo de lucro.
+Política de privacidad
+Acerca de Wikipedia
+Limitación de responsabilidad
+Desarrolladores
+Declaración de cookies
+Versión para móviles

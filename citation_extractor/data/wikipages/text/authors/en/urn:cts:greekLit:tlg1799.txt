@@ -1,0 +1,584 @@
+Euclid - Wikipedia
+Euclid
+From Wikipedia, the free encyclopedia
+Jump to:					navigation, 					search
+Not to be confused with Euclid of Megara.
+For other uses, see Euclid (disambiguation).
+Euclid
+Euclid by Justus van Gent, 15th century
+Born
+Mid-4th century BCE
+Died
+Mid-3rd century BCE
+Residence
+Alexandria, Hellenistic Egypt
+Fields
+Mathematics
+Known for
+Euclidean geometry
+Euclid's Elements
+Euclidean algorithm
+Euclid (/ˈjuːklᵻd/; Greek: Εὐκλείδης, Eukleidēs Ancient Greek: [eu̯.klěː.dɛːs]; fl. 300 BCE), sometimes called Euclid of Alexandria to distinguish him from Euclides of Megara, was a Greek mathematician, often referred to as the "father of geometry". He was active in Alexandria during the reign of Ptolemy I (323–283 BCE). His Elements is one of the most influential works in the history of mathematics, serving as the main textbook for teaching mathematics (especially geometry) from the time of its publication until the late 19th or early 20th century.[1][2][3] In the Elements, Euclid deduced the principles of what is now called Euclidean geometry from a small set of axioms. Euclid also wrote works on perspective, conic sections, spherical geometry, number theory and rigor.
+Euclid is the anglicized version of the Greek name Εὐκλείδης, which means "renowned, glorious".[4]
+Contents
+1 Life
+2 Elements
+3 Other works
+3.1 Lost works
+4 See also
+5 Notes
+6 References
+7 Further reading
+8 External links
+Life
+Very few original references to Euclid survive, so little is known about his life. The date, place and circumstances of both his birth and death are unknown and may only be estimated roughly relative to other people mentioned with him. He is rarely mentioned by name by other Greek mathematicians from Archimedes (c. 287 BC – c. 212 BC) onward, and is usually referred to as "ὁ στοιχειώτης" ("the author of Elements").[5] The few historical references to Euclid were written centuries after he lived by Proclus c. 450 AD and Pappus of Alexandria c. 320 AD.[6]
+Proclus introduces Euclid only briefly in his Commentary on the Elements. According to Proclus, Euclid belonged to Plato's "persuasion" and brought together the Elements, drawing on prior work by several pupils of Plato (particularly Eudoxus of Cnidus, Theaetetus and Philip of Opus.) Proclus believes that Euclid is not much younger than these, and that he must have lived during the time of Ptolemy I because he was mentioned by Archimedes (287–212 BC). Although the apparent citation of Euclid by Archimedes has been judged to be an interpolation by later editors of his works, it is still believed that Euclid wrote his works before those of Archimedes.[7][8][9]
+Euclidis quae supersunt omnia (1704)
+Proclus later retells a story that, when Ptolemy I asked if there was a shorter path to learning geometry than Euclid's Elements, "Euclid replied there is no royal road to geometry."[10] This anecdote is questionable since it is similar to a story told about Menaechmus and Alexander the Great.[11]
+In the only other key reference to Euclid, Pappus briefly mentioned in the fourth century that Apollonius "spent a very long time with the pupils of Euclid at Alexandria, and it was thus that he acquired such a scientific habit of thought" c. 247–222 BC.[12][13]
+A detailed biography of Euclid is given by Arabian authors, mentioning, for example, a birth town of Tyre. This biography is generally believed to be completely fictitious.[8]
+Because the lack of biographical information is unusual for the period (extensive biographies are available for most significant Greek mathematicians for several centuries before and after Euclid), some researchers have proposed that Euclid was not, in fact, a historical character and that his works were written by a team of mathematicians who took the name Euclid from the historical character Euclid of Megara (compare Bourbaki). However, this hypothesis is not well accepted by scholars and there is little evidence in its favor.[8][14]
+Elements
+One of the oldest surviving fragments of Euclid's Elements, found at Oxyrhynchus and dated to circa AD 100 (P. Oxy. 29). The diagram accompanies Book II, Proposition 5.[15]
+Main article: Euclid's Elements
+Although many of the results in Elements originated with earlier mathematicians, one of Euclid's accomplishments was to present them in a single, logically coherent framework, making it easy to use and easy to reference, including a system of rigorous mathematical proofs that remains the basis of mathematics 23 centuries later.[16]
+There is no mention of Euclid in the earliest remaining copies of the Elements, and most of the copies say they are "from the edition of Theon" or the "lectures of Theon",[17] while the text considered to be primary, held by the Vatican, mentions no author. The only reference that historians rely on of Euclid having written the Elements was from Proclus, who briefly in his Commentary on the Elements ascribes Euclid as its author.
+Although best known for its geometric results, the Elements also includes number theory. It considers the connection between perfect numbers and Mersenne primes (known as the Euclid–Euler theorem), the infinitude of prime numbers, Euclid's lemma on factorization (which leads to the fundamental theorem of arithmetic on uniqueness of prime factorizations), and the Euclidean algorithm for finding the greatest common divisor of two numbers.
+The geometrical system described in the Elements was long known simply as geometry, and was considered to be the only geometry possible. Today, however, that system is often referred to as Euclidean geometry to distinguish it from other so-called non-Euclidean geometries that mathematicians discovered in the 19th century.
+Other works
+Euclid's construction of a regular dodecahedron.
+Construction of a dodecahedron by placing faces on the edges of a cube.
+In addition to the Elements, at least five works of Euclid have survived to the present day. They follow the same logical structure as Elements, with definitions and proved propositions.
+Data deals with the nature and implications of "given" information in geometrical problems; the subject matter is closely related to the first four books of the Elements.
+On Divisions of Figures, which survives only partially in Arabic translation, concerns the division of geometrical figures into two or more equal parts or into parts in given ratios. It is similar to a first-century AD work by Heron of Alexandria.
+Catoptrics, which concerns the mathematical theory of mirrors, particularly the images formed in plane and spherical concave mirrors. The attribution is held to be anachronistic however by J J O'Connor and E F Robertson who name Theon of Alexandria as a more likely author.[18]
+Phaenomena, a treatise on spherical astronomy, survives in Greek; it is quite similar to On the Moving Sphere by Autolycus of Pitane, who flourished around 310 BC.
+Statue in honor of Euclid in the Oxford University Museum of Natural History
+Optics is the earliest surviving Greek treatise on perspective. In its definitions Euclid follows the Platonic tradition that vision is caused by discrete rays which emanate from the eye. One important definition is the fourth: "Things seen under a greater angle appear greater, and those under a lesser angle less, while those under equal angles appear equal." In the 36 propositions that follow, Euclid relates the apparent size of an object to its distance from the eye and investigates the apparent shapes of cylinders and cones when viewed from different angles. Proposition 45 is interesting, proving that for any two unequal magnitudes, there is a point from which the two appear equal. Pappus believed these results to be important in astronomy and included Euclid's Optics, along with his Phaenomena, in the Little Astronomy, a compendium of smaller works to be studied before the Syntaxis (Almagest) of Claudius Ptolemy.
+Lost works
+Other works are credibly attributed to Euclid, but have been lost.
+Conics was a work on conic sections that was later extended by Apollonius of Perga into his famous work on the subject. It is likely that the first four books of Apollonius's work come directly from Euclid. According to Pappus, "Apollonius, having completed Euclid's four books of conics and added four others, handed down eight volumes of conics." The Conics of Apollonius quickly supplanted the former work, and by the time of Pappus, Euclid's work was already lost.
+Porisms might have been an outgrowth of Euclid's work with conic sections, but the exact meaning of the title is controversial.
+Pseudaria, or Book of Fallacies, was an elementary text about errors in reasoning.
+Surface Loci concerned either loci (sets of points) on surfaces or loci which were themselves surfaces; under the latter interpretation, it has been hypothesized that the work might have dealt with quadric surfaces.
+Several works on mechanics are attributed to Euclid by Arabic sources. On the Heavy and the Light contains, in nine definitions and five propositions, Aristotelian notions of moving bodies and the concept of specific gravity. On the Balance treats the theory of the lever in a similarly Euclidean manner, containing one definition, two axioms, and four propositions. A third fragment, on the circles described by the ends of a moving lever, contains four propositions. These three works complement each other in such a way that it has been suggested that they are remnants of a single treatise on mechanics written by Euclid.
+See also
+Axiomatic method
+Euclid's orchard
+Euclidean algorithm
+Euclidean geometry
+Euclidean relation
+Extended Euclidean algorithm
+List of topics named after Euclid
+Papyrus Oxyrhynchus 29
+Notes
+^ Ball, pp. 50–62.
+^ Boyer, pp. 100–19.
+^ Macardle, et al. (2008). Scientists: Extraordinary People Who Altered the Course of History. New York: Metro Books. g. 12.
+^ Harper, Douglas. "Euclidean (adj.)". Online Etymology Dictionary. Retrieved March 18, 2015. 
+^ Heath (1981), p. 357
+^ Joyce, David. Euclid. Clark University Department of Mathematics and Computer Science. [1]
+^ Proclus, p. XXX
+^ a b c Euclid of Alexandria
+^ The MacTutor History of Mathematics archive.
+^ Proclus, p. 57
+^ Boyer, p. 96.
+^ Heath (1956), p. 2.
+^ "Conic Sections in Ancient Greece". 
+^ Jean Itard (1962). Les livres arithmétiques d'Euclide. 
+^ Bill Casselman. "One of the Oldest Extant Diagrams from Euclid". University of British Columbia. Retrieved 2008-09-26. 
+^ Struik p. 51 ("their logical structure has influenced scientific thinking perhaps more than any other text in the world").
+^ Heath (1981), p. 360.
+^ "Theon article at their institution". History.mcs.st-andrews.ac.uk. Retrieved 2014-07-26. 
+References
+Artmann, Benno (1999). Euclid: The Creation of Mathematics. New York: Springer. ISBN 0-387-98423-2.
+Ball, W.W. Rouse (1960) [1908]. A Short Account of the History of Mathematics (4th ed.). Dover Publications. pp. 50–62. ISBN 0-486-20630-0. 
+Boyer, Carl B. (1991). A History of Mathematics (2nd ed.). John Wiley & Sons, Inc. ISBN 0-471-54397-7. 
+Douglass, Charlene (2007). Page, John D., ed. "Euclid". Math Open Reference.  With extensive bibliography.
+Heath, Thomas (ed.) (1956) [1908]. The Thirteen Books of Euclid's Elements. 1. Dover Publications. ISBN 0-486-60088-2. 
+Heath, Thomas L. (1908). "Euclid and the Traditions About Him". In Heath, Thomas L. Euclid, Elements. 1. pp. 1–6.  As reproduced in the Perseus Digital Library.
+Heath, Thomas L. (1981). A History of Greek Mathematics, 2 Vols. New York: Dover Publications. ISBN 0-486-24073-8 / ISBN 0-486-24074-6.
+Kline, Morris (1980). Mathematics: The Loss of Certainty. Oxford: Oxford University Press. ISBN 0-19-502754-X.
+O'Connor, John J.; Robertson, Edmund F., "Euclid of Alexandria", MacTutor History of Mathematics archive, University of St Andrews .
+Proclus, A commentary on the First Book of Euclid's Elements, translated by Glenn Raymond Morrow, Princeton University Press, 1992. ISBN 978-0-691-02090-7.
+Struik, Dirk J. (1967). A Concise History of Mathematics. Dover Publications. ISBN 0-486-60255-9. 
+Van der Waerden, Bartel Leendert; Taisbak, Christian Marinus (October 30, 2014). "Euclid". Encyclopædia Britannica. Retrieved November 21, 2014. 
+Further reading
+DeLacy, Estelle Allen (1963). Euclid and Geometry. New York: Franklin Watts. 
+Knorr, Wilbur Richard (1975). The Evolution of the Euclidean Elements: A Study of the Theory of Incommensurable Magnitudes and Its Significance for Early Greek Geometry. Dordrecht, Holland: D. Reidel. ISBN 90-277-0509-7. 
+Mueller, Ian (1981). Philosophy of Mathematics and Deductive Structure in Euclid's Elements. Cambridge, MA: MIT Press. ISBN 0-262-13163-3. 
+Reid, Constance (1963). A Long Way from Euclid. New York: Crowell. 
+Szabó, Árpád (1978). The Beginnings of Greek Mathematics. A.M. Ungar, trans. Dordrecht, Holland: D. Reidel. ISBN 90-277-0819-3. 
+External links
+Wikiquote has quotations related to: Euclid
+Wikisource has original works written by or about:
+Euclid
+Wikimedia Commons has media related to Euclid.
+Wikisource has the text of the 1911 Encyclopædia Britannica article Euclid.
+Works by Euclid at Project Gutenberg
+Works by or about Euclid at Internet Archive
+Works by Euclid at LibriVox (public domain audiobooks)
+Euclid's Elements, All thirteen books, with interactive diagrams using Java. Clark University
+Euclid's Elements, with the original Greek and an English translation on facing pages (includes PDF version for printing). University of Texas.
+Euclid's Elements, books I–VI, in English pdf, in a Project Gutenberg Victorian textbook edition with diagrams.
+Euclid's Elements, All thirteen books, in several languages as Spanish, Catalan, English, German, Portuguese, Arabic, Italian, Russian and Chinese.
+Elementa Geometriae 1482, Venice. From Rare Book Room.
+Elementa 888 AD, Byzantine. From Rare Book Room.
+Texts on Ancient Mathematics and Mathematical Astronomy PDF scans (Note: many are very large files). Includes editions and translations of Euclid's Elements, Data, and Optica, Proclus's Commentary on Euclid, and other historical sources.
+The Elements of Geometrie of the Most Auncient Philosopher Euclide of Megara(1570) From the English Printing Collection in the Rare Book and Special Collection Division at the Library of Congress
+v
+t
+e
+Ancient Greek mathematics
+Mathematicians
+Anaxagoras
+Anthemius
+Archytas
+Aristaeus the Elder
+Aristarchus
+Apollonius
+Archimedes
+Autolycus
+Bion
+Bryson
+Callippus
+Carpus
+Chrysippus
+Cleomedes
+Conon
+Ctesibius
+Democritus
+Dicaearchus
+Diocles
+Diophantus
+Dinostratus
+Dionysodorus
+Domninus
+Eratosthenes
+Eudemus
+Euclid
+Eudoxus
+Eutocius
+Geminus
+Heron
+Hipparchus
+Hippasus
+Hippias
+Hippocrates
+Hypatia
+Hypsicles
+Isidore of Miletus
+Leon
+Marinus
+Menaechmus
+Menelaus
+Metrodorus
+Nicomachus
+Nicomedes
+Nicoteles
+Oenopides
+Pappus
+Perseus
+Philolaus
+Philon
+Porphyry
+Posidonius
+Proclus
+Ptolemy
+Pythagoras
+Serenus
+Simplicius
+Sosigenes
+Sporus
+Thales
+Theaetetus
+Theano
+Theodorus
+Theodosius
+Theon of Alexandria
+Theon of Smyrna
+Thymaridas
+Xenocrates
+Zeno of Elea
+Zeno of Sidon
+Zenodorus
+Treatises
+Almagest
+Archimedes Palimpsest
+Arithmetica
+Conics (Apollonius)
+Elements (Euclid)
+On the Sizes and Distances (Aristarchus)
+On Sizes and Distances (Hipparchus)
+On the Moving Sphere (Autolycus)
+The Sand Reckoner
+Problems
+Problem of Apollonius
+Squaring the circle
+Doubling the cube
+Angle trisection
+Centers
+Cyrene
+Library of Alexandria
+Platonic Academy
+Timeline of Ancient Greek mathematicians
+v
+t
+e
+Ancient Greece
+Outline
+Timeline
+ 
+History
+Geography
+Periods
+Cycladic civilization
+Minoan civilization
+Mycenaean civilization
+Greek Dark Ages
+Archaic period
+Classical Greece
+Hellenistic Greece
+Roman Greece
+Geography
+Aegean Sea
+Aeolis
+Alexandria
+Antioch
+Cappadocia
+Crete
+Cyprus
+Doris
+Ephesus
+Epirus
+Hellespont
+Ionia
+Ionian Sea
+Macedonia
+Magna Graecia
+Miletus
+Peloponnesus
+Pergamon
+Pontus
+Taurica
+Ancient Greek colonies
+ 
+City states
+Politics
+Military
+City states
+Argos
+Athens
+Byzantion
+Chalcis
+Corinth
+Eretria
+Kerkyra
+Larissa
+Megalopolis
+Megara
+Rhodes
+Samos
+Sparta
+Syracuse
+Thebes
+Politics
+Boeotarch
+Boule
+Koinon
+Proxeny
+Strategos
+Tagus
+Tyrant
+Amphictyonic League
+Athenian
+Agora
+Areopagus
+Ecclesia
+Graphē paranómōn
+Heliaia
+Ostracism
+Spartan
+Apella
+Ephor
+Gerousia
+Harmost
+Macedon
+Synedrion
+Koinon
+Military
+Wars
+Athenian military
+Antigonid Macedonian army
+Army of Macedon
+Ballista
+Cretan archers
+Hellenistic armies
+Hippeis
+Hoplite
+Hetairoi
+Macedonian phalanx
+Phalanx
+Peltast
+Pezhetairos
+Sarissa
+Sacred Band of Thebes
+Sciritae
+Seleucid army
+Spartan army
+Toxotai
+Xiphos
+Xyston
+ 
+People
+List of ancient Greeks
+Rulers
+Kings of Argos
+Archons of Athens
+Kings of Athens
+Kings of Commagene
+Diadochi
+Kings of Lydia
+Kings of Macedonia
+Kings of Paionia
+Attalid kings of Pergamon
+Kings of Pontus
+Kings of Sparta
+Tyrants of Syracuse
+Philosophers
+Anaxagoras
+Anaximander
+Anaximenes
+Antisthenes
+Aristotle
+Democritus
+Diogenes of Sinope
+Empedocles
+Epicurus
+Gorgias
+Heraclitus
+Hypatia
+Leucippus
+Parmenides
+Plato
+Protagoras
+Pythagoras
+Socrates
+Thales
+Zeno
+Authors
+Aeschylus
+Aesop
+Alcaeus
+Archilochus
+Aristophanes
+Bacchylides
+Euripides
+Herodotus
+Hesiod
+Hipponax
+Homer
+Ibycus
+Lucian
+Menander
+Mimnermus
+Panyassis
+Philocles
+Pindar
+Plutarch
+Polybius
+Sappho
+Simonides
+Sophocles
+Stesichorus
+Theognis
+Thucydides
+Timocreon
+Tyrtaeus
+Xenophon
+Others
+Agesilaus II
+Agis II
+Alcibiades
+Alexander the Great
+Aratus
+Archimedes
+Aspasia
+Demosthenes
+Epaminondas
+Euclid
+Hipparchus
+Hippocrates
+Leonidas
+Lycurgus
+Lysander
+Milo of Croton
+Miltiades
+Pausanias
+Pericles
+Philip of Macedon
+Philopoemen
+Praxiteles
+Ptolemy
+Pyrrhus
+Solon
+Themistocles
+Groups
+Philosophers
+Playwrights
+Poets
+Tyrants
+By culture
+Ancient Greek tribes
+Thracian Greeks
+Ancient Macedonians
+ 
+Society
+Culture
+Society
+Agriculture
+Calendar
+Clothing
+Coinage
+Cuisine
+Economy
+Education
+Festivals
+Funeral and burial practices
+Homosexuality
+Law
+Olympic Games
+Pederasty
+Philosophy
+Prostitution
+Religion
+Slavery
+Warfare
+Wedding customs
+Wine
+Arts
+Sciences
+Architecture (Greek Revival architecture)
+Astronomy
+Literature
+Mathematics
+Medicine
+Music (Musical system)
+Pottery
+Sculpture
+Technology
+Theatre
+Religion
+Funeral and burial practices
+Mythology
+mythological figures
+Temple
+Twelve Olympians
+Underworld
+Sacred places
+Eleusis
+Delphi
+Delos
+Dodona
+Mount Olympus
+Olympia
+Structures
+Athenian Treasury
+Lion Gate
+Long Walls
+Philippeion
+Theatre of Dionysus
+Tunnel of Eupalinos
+Temples
+Aphaea
+Artemis
+Athena Nike
+Erechtheion
+Hephaestus
+Hera (Olympia)
+Parthenon
+Samothrace
+Zeus (Olympia)
+Language
+Proto-Greek
+Mycenaean
+Homeric
+Dialects
+Aeolic
+Arcadocypriot
+Attic
+Doric
+Ionic
+Locrian
+Macedonian
+Pamphylian
+Koine
+Writing
+Linear A
+Linear B
+Cypriot syllabary
+Greek alphabet
+Greek numerals
+Attic numerals
+ 
+Lists
+Cities
+in Epirus
+People
+Place names
+Stoae
+Temples
+Theatres
+Category
+Portal
+Authority control
+WorldCat Identities
+VIAF: 176184097
+LCCN: n50043341
+ISNI: 0000 0001 2321 3955
+GND: 118638955
+SELIBR: 185706
+SUDOC: 026854651
+BNF: cb11901997s (data)
+NKC: jn20011024099
+RLS: 000002326
+BNE: XX1000405
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Euclid&oldid=759519920"
+Categories: EuclidAncient Greek mathematiciansAncient AlexandriansHellenistic EgyptiansGeometersNumber theorists4th-century BC Greek people3rd-century BC Greek people4th-century BC writers3rd-century BC writers4th-century BC births3rd-century BC deathsHidden categories: Wikipedia indefinitely semi-protected pagesArticles containing Ancient Greek-language textCommons category with local link same as on WikidataArticles with Project Gutenberg linksArticles with Internet Archive linksArticles with LibriVox linksWikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with SELIBR identifiersWikipedia articles with BNF identifiersPages using ISBN magic links
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+Article
+Talk
+Variants
+Views
+Read
+View source
+View history
+More
+Search
+Navigation
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+Interaction
+HelpAbout WikipediaCommunity portalRecent changesContact page
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page
+Print/export
+Create a bookDownload as PDFPrintable version
+In other projects
+Wikimedia CommonsWikiquoteWikisource
+Languages
+AfrikaansAlemannischአማርኛالعربيةAragonésঅসমীয়াAsturianuAzərbaycancaবাংলাБашҡортсаБеларускаяБеларуская (тарашкевіца)‎भोजपुरीBislamaБългарскиབོད་ཡིགBosanskiBrezhonegБуряадCatalàЧӑвашлаČeštinaCymraegDanskDeutschEestiΕλληνικάEspañolEsperantoEstremeñuEuskaraفارسیFiji HindiFrançaisFryskGaeilgeGalego贛語ગુજરાતી客家語/Hak-kâ-ngîХальмг한국어Հայերենहिन्दीHrvatskiIdoIlokanoBahasa IndonesiaInterlinguaIsiXhosaÍslenskaItalianoעבריתBasa JawaქართულიҚазақшаKiswahiliKurdîКыргызчаLatinaLatviešuLietuviųLigureLa .lojban.LumbaartMagyarМакедонскиMalagasyമലയാളംMaltiमराठीმარგალურიمصرىBahasa MelayuMirandésМонголမြန်မာဘာသာNederlands日本語НохчийнNordfriiskNorsk bokmålNorsk nynorskOccitanଓଡ଼ିଆOromooOʻzbekcha/ўзбекчаਪੰਜਾਬੀپنجابیپښتوPatoisPiemontèisPolskiPortuguêsQaraqalpaqshaRipoarischRomânăРусиньскыйРусскийСаха тылаScotsShqipSicilianuSimple EnglishسنڌيSlovenčinaSlovenščinaکوردیی ناوەندیСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaTagalogதமிழ்Татарча/tatarçaతెలుగుไทยТоҷикӣTürkçeУкраїнськаاردوVahcuenghVènetoVepsän kel’Tiếng ViệtVolapükVõro文言Winaray吴语ייִדישYorùbá粵語Žemaitėška中文
+Edit links
+This page was last modified on 11 January 2017, at 17:37.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view

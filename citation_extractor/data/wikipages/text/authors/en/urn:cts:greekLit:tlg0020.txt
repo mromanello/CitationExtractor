@@ -1,0 +1,602 @@
+Hesiod - Wikipedia
+Hesiod
+From Wikipedia, the free encyclopedia
+Jump to:					navigation, 					search
+This article is about the ancient Greek poet. For the computer application, see Hesiod (name service). For the crater, see Hesiod (crater).
+"Hesiodos" redirects here. For the asteroid, see 8550 Hesiodos.
+The Dance of the Muses at Mount Helicon by Bertel Thorvaldsen (1807). Hesiod cites inspiration from the Muses while on Mount Helicon.
+Hesiod (/ˈhiːsiəd/ or /ˈhɛsiəd/;[1] Greek: Ἡσίοδος Hēsíodos) was a Greek poet generally thought by scholars to have been active between 750 and 650 BC, around the same time as Homer.[2][3] He is generally regarded as the first written poet in the Western tradition to regard himself as an individual persona with an active role to play in his subject.[4] Ancient authors credited Hesiod and Homer with establishing Greek religious customs.[5] Modern scholars refer to him as a major source on Greek mythology, farming techniques, early economic thought (he is sometimes considered history's first economist),[6] archaic Greek astronomy and ancient time-keeping.
+Contents
+1 Life
+1.1 Dating
+2 Works
+2.1 Theogony
+2.2 Works and Days
+2.3 Other writings
+3 Reception
+3.1 Portrait bust
+4 Hesiod's Greek
+5 Notes
+6 Citations
+7 References
+8 Further reading
+8.1 Selected translations
+9 External links
+Life[edit]
+The dating of his life is a contested issue in scholarly circles and it is covered below in Dating. Epic narrative allowed poets like Homer no opportunity for personal revelations. However, Hesiod's extant work comprises didactic poems in which he went out of his way to let his audience in on a few details of his life. There are three explicit references in Works and Days, as well as some passages in his Theogony that support inferences made by scholars. The former poem says that his father came from Cyme in Aeolis (on the coast of Asia Minor, a little south of the island Lesbos) and crossed the sea to settle at a hamlet, near Thespiae in Boeotia, named Ascra, "a cursed place, cruel in winter, hard in summer, never pleasant" (Works, l. 640). Hesiod's patrimony there, a small piece of ground at the foot of Mount Helicon, occasioned lawsuits with his brother Perses, who seems, at first, to have cheated him of his rightful share thanks to corrupt authorities or "kings" but later became impoverished and ended up scrounging from the thrifty poet (Works l. 35, 396).
+Unlike their father, Hesiod was averse to sea travel, but he once crossed the narrow strait between the Greek mainland and Euboea to participate in funeral celebrations for one Athamas of Chalcis, and there won a tripod in a singing competition.[7] He also describes a meeting between himself and the Muses on Mount Helicon, where he had been pasturing sheep when the goddesses presented him with a laurel staff, a symbol of poetic authority (Theogony, ll. 22–35) Fanciful though the story might seem, the account has led ancient and modern scholars to infer that he did not play the lyre or that he was not professionally trained, or he would have been presented with a lyre instead.[nb 1]
+Some scholars have seen Perses as a literary creation, a foil for the moralizing that Hesiod develops in Works and Days, but there are also arguments against that theory.[8] For example, it is quite common for works of moral instruction to have an imaginative setting, as a means of getting the audience's attention,[nb 2] but it is difficult to see how Hesiod could have travelled around the countryside entertaining people with a narrative about himself if the account was known to be fictitious.[9] Gregory Nagy, on the other hand, sees both Persēs ("the destroyer": πέρθω perthō) and Hēsiodos ("he who emits the voice:" ἵημι hiēmi and αὐδή audē) as fictitious names for poetical personae.[10]
+Hesiod and the Muse, by Gustave Moreau. Here, he is presented with a lyre, which contradicts the account given by Hesiod himself in which the gift was a laurel staff.
+It might seem unusual that Hesiod's father migrated from Asia Minor westwards to mainland Greece, the opposite direction to most colonial movements at the time, and Hesiod himself gives no explanation for it. However around 750 BC or a little later, there was a migration of seagoing merchants from his original home in Cyme in Asia Minor to Cumae in Campania (a colony they shared with Euboeans), and possibly his move west had something to do with that, since Euboea is not far from Boeotia, where he eventually established himself and his family.[11] The family association with Cyme might explain his familiarity with eastern myths, evident in his poems, though the Greek world might have already developed its own versions of them.[12]
+In spite of Hesiod's complaints about poverty, life on his father's farm could not have been too uncomfortable if Works and Days is anything to judge by, since he describes the routines of prosperous yeomanry rather than peasants. His farmer employs a friend (l. 370) as well as servants (ll. 502, 573, 597, 608, 766), an energetic and responsible ploughman of mature years (ll. 469–71), a slave boy to cover the seed (ll. 441–6), a female servant to keep house (ll. 405, 602) and working teams of oxen and mules (ll. 405, 607f.).[13] One modern scholar surmises that Hesiod may have learned about world geography, especially the catalogue of rivers in Theogony (ll. 337–45), listening to his father's accounts of his own sea voyages as a merchant[14] The father probably spoke in the Aeolian dialect of Cyme but Hesiod probably grew up speaking the local Boeotian dialect. However, while his poetry features some Aeolisms there are no words that are certainly Boeotian—he composed in the main literary dialect of the time (Homer's dialect): Ionian.[15]
+It is probable that Hesiod wrote his poems down, or dictated them, rather than passed them on orally, as rhapsodes did—otherwise the pronounced personality that now emerges from the poems would surely have been diluted through oral transmission from one rhapsode to another. Pausanias asserted that Boeotians showed him an old tablet made of lead on which the Works were engraved.[16] If he did write or dictate, it was perhaps as an aid to memory or because he lacked confidence in his ability to produce poems extempore, as trained rhapsodes could do. It certainly wasn't in a quest for immortal fame since poets in his era had no such notions. However, some scholars suspect the presence of large-scale changes in the text and attribute this to oral transmission.[17] Possibly he composed his verses during idle times on the farm, in the spring before the May harvest or the dead of winter.[18]
+The personality behind the poems is unsuited to the kind of "aristocratic withdrawal" typical of a rhapsode but is instead "argumentative, suspicious, ironically humorous, frugal, fond of proverbs, wary of women."[19] He was in fact a misogynist of the same calibre as the later poet, Semonides.[20] He resembles Solon in his preoccupation with issues of good versus evil and "how a just and all-powerful god can allow the unjust to flourish in this life". He resembles Aristophanes in his rejection of the idealised hero of epic literature in favour of an idealised view of the farmer.[21] Yet the fact that he could eulogise kings in Theogony (ll. 80ff, 430, 434) and denounce them as corrupt in Works and Days suggests that he could resemble whichever audience he composed for.[22]
+Various legends accumulated about Hesiod and they are recorded in several sources:
+the story "The poetic contest (Ἀγών / Agōn) of Homer and Hesiod;"[23]
+a vita of Hesiod by the Byzantine grammarian John Tzetzes;
+the entry for Hesiod in the Suda;
+two passages and some scattered remarks in Pausanias (IX, 31.3–6 and 38.3–4);
+a passage in Plutarch Moralia (162b).
+Two different—yet early—traditions record the site of Hesiod's grave. One, as early as Thucydides, reported in Plutarch, the Suda and John Tzetzes, states that the Delphic oracle warned Hesiod that he would die in Nemea, and so he fled to Locris, where he was killed at the local temple to Nemean Zeus, and buried there. This tradition follows a familiar ironic convention: the oracle that predicts accurately after all. The other tradition, first mentioned in an epigram by Chersias of Orchomenus written in the 7th century BC (within a century or so of Hesiod's death) claims that Hesiod lies buried at Orchomenus, a town in Boeotia. According to Aristotle's Constitution of Orchomenus, when the Thespians ravaged Ascra, the villagers sought refuge at Orchomenus, where, following the advice of an oracle, they collected the ashes of Hesiod and set them in a place of honour in their agora, next to the tomb of Minyas, their eponymous founder. Eventually they came to regard Hesiod too as their "hearth-founder" (οἰκιστής / oikistēs). Later writers attempted to harmonize these two accounts.
+Dating[edit]
+Modern Mount Helicon—Hesiod once described his nearby hometown, Ascra, as "cruel in winter, hard in summer, never pleasant."
+Greeks in the late fifth and early 4th centuries BC considered their oldest poets to be Orpheus, Musaeus, Hesiod and Homer—in that order. Thereafter, Greek writers began to consider Homer earlier than Hesiod. Devotees of Orpheus and Musaeus were probably responsible for precedence being given to their two cult heroes and maybe the Homeridae were responsible in later antiquity for promoting Homer at Hesiod's expense.
+The first known writers to locate Homer earlier than Hesiod were Xenophanes and Heraclides Ponticus, though Aristarchus of Samothrace was the first actually to argue the case. Ephorus made Homer a younger cousin of Hesiod, the 5th century BC historian Herodotus (Histories, 2.53) evidently considered them near-contemporaries, and the 4th century BC sophist Alcidamas in his work Mouseion even brought them together for an imagined poetic agon, which survives today as the Contest of Homer and Hesiod. Most scholars today agree with Homer's priority but there are good arguments on either side.[24]
+Hesiod certainly predates the lyric and elegiac poets whose work has come down to the modern era.[citation needed] Imitations of his work have been observed in Alcaeus, Epimenides, Mimnermus, Semonides, Tyrtaeus and Archilochus, from which it has been inferred that the latest possible date for him is about 650 BC.
+An upper limit of 750 BC is indicated by a number of considerations, such as the probability that his work was written down, the fact that he mentions a sanctuary at Delphi that was of little national significance before c. 750 BC (Theogony l. 499), and he lists rivers that flow into the Euxine, a region explored and developed by Greek colonists beginning in the 8th century BC. (Theogony 337–45).[25]
+Hesiod mentions a poetry contest at Chalcis in Euboea where the sons of one Amphidamas awarded him a tripod (Works and Days ll.654–662). Plutarch identified this Amphidamas with the hero of the Lelantine War between Chalcis and Eretria and he concluded that the passage must be an interpolation into Hesiod's original work, assuming that the Lelantine War was too late for Hesiod. Modern scholars have accepted his identification of Amphidamas but disagreed with his conclusion. The date of the war is not known precisely but estimates placing it around 730–705 BC, fit the estimated chronology for Hesiod. In that case, the tripod that Hesiod won might have been awarded for his rendition of Theogony, a poem that seems to presuppose the kind of aristocratic audience he would have met at Chalcis.[26]
+Works[edit]
+Hesiodi Ascraei quaecumque exstant (1701)
+Three works have survived which are attributed to Hesiod by ancient commentators: Works and Days, Theogony, and Shield of Heracles. Other works attributed to him are only found now in fragments. The surviving works and fragments were all written in the conventional metre and language of epic. However, the Shield of Heracles is now known to be spurious and probably was written in the sixth century BC. Many ancient critics also rejected Theogony (e.g., Pausanias 9.31.3), even though Hesiod mentions himself by name in that poem. Theogony and Works and Days might be very different in subject matter, but they share a distinctive language, metre, and prosody that subtly distinguish them from Homer's work and from the Shield of Heracles[27] (see Hesiod's Greek below). Moreover, they both refer to the same version of the Prometheus myth.[28] Yet even these authentic poems may include interpolations. For example, the first ten verses of the Works and Days may have been borrowed from an Orphic hymn to Zeus (they were recognised as not the work of Hesiod by critics as ancient as Pausanias).[29]
+Some scholars have detected a proto-historical perspective in Hesiod, a view rejected by Paul Cartledge, for example, on the grounds that Hesiod advocates a not-forgetting without any attempt at verification.[30] Hesiod has also been considered the father of gnomic verse.[31] He had "a passion for systematizing and explaining things".[32] Ancient Greek poetry in general had strong philosophical tendencies and Hesiod, like Homer, demonstrates a deep interest in a wide range of 'philosophical' issues, from the nature of divine justice to the beginnings of human society. Aristotle (Metaphysics 983b–987a) believed that the question of first causes may even have started with Hesiod (Theogony 116–53) and Homer (Iliad 14.201, 246).[33]
+He viewed the world from outside the charmed circle of aristocratic rulers, protesting against their injustices in a tone of voice that has been described as having a "grumpy quality redeemed by a gaunt dignity"[34] but, as stated in the biography section, he could also change to suit the audience. This ambivalence appears to underlie his presentation of human history in Works and Days, where he depicts a golden period when life was easy and good, followed by a steady decline in behaviour and happiness through the silver, bronze, and Iron Ages – except that he inserts a heroic age between the last two, representing its warlike men as better than their bronze predecessors. He seems in this case to be catering to two different world-views, one epic and aristocratic, the other unsympathetic to the heroic traditions of the aristocracy.[35]
+Theogony[edit]
+16th-century manuscript of Theogony
+Main article: Theogony
+The Theogony is commonly considered Hesiod's earliest work. Despite the different subject matter between this poem and the Works and Days, most scholars, with some notable exceptions, believe that the two works were written by the same man. As M.L. West writes, "Both bear the marks of a distinct personality: a surly, conservative countryman, given to reflection, no lover of women or life, who felt the gods' presence heavy about him."[36]
+The Theogony concerns the origins of the world (cosmogony) and of the gods (theogony), beginning with Chaos, Gaia, Tartarus and Eros, and shows a special interest in genealogy. Embedded in Greek myth, there remain fragments of quite variant tales, hinting at the rich variety of myth that once existed, city by city; but Hesiod's retelling of the old stories became, according to Herodotus, the accepted version that linked all Hellenes.
+The creation myth in Hesiod has long been held to have Eastern influences, such as the Hittite Song of Kumarbi and the Babylonian Enuma Elis. This cultural crossover would have occurred in the eighth and ninth century Greek trading colonies such as Al Mina in North Syria. (For more discussion, read Robin Lane Fox's Travelling Heroes and Walcot's Hesiod and the Near East.)
+Works and Days[edit]
+Main article: Works and Days
+The Works and Days is a poem of over 800 lines which revolves around two general truths: labour is the universal lot of Man, but he who is willing to work will get by. Scholars have interpreted this work against a background of agrarian crisis in mainland Greece, which inspired a wave of documented colonisations in search of new land. This poem is one of the earliest known musings on economic thought.
+This work lays out the five Ages of Man, as well as containing advice and wisdom, prescribing a life of honest labour and attacking idleness and unjust judges (like those who decided in favour of Perses) as well as the practice of usury. It describes immortals who roam the earth watching over justice and injustice.[37] The poem regards labor as the source of all good, in that both gods and men hate the idle, who resemble drones in a hive.[38] In the horror of the triumph of violence over hard work and honor, verses describing the "Golden Age" present the social character and practice of nonviolent diet through agriculture and fruit-culture as a higher path of living sufficiently.[39]
+Other writings[edit]
+In addition to the Theogony and Works and Days, numerous other poems were ascribed to Hesiod during antiquity. Modern scholarship has doubted their authenticity, and these works are generally referred to as forming part of the "Hesiodic Corpus" whether or not their authorship is accepted.[40] The situation is summed up in this formulation by Glenn Most:
+"Hesiod" is the name of a person; "Hesiodic" is a designation for a kind of poetry, including but not limited to the poems of which the authorship may reasonably be assigned to Hesiod himself.[41]
+Of these works forming the extended Hesiodic corpus, only the Shield of Heracles (Ἀσπὶς Ἡρακλέους, Aspis Hērakleous) is transmitted intact via a medieval manuscript tradition.
+Classical authors also attributed to Hesiod a lengthy genealogical poem known as Catalogue of Women or Ehoiai (because sections began with the Greek words ē hoiē, "Or like the one who ..."). It was a mythological catalogue of the mortal women who had mated with gods, and of the offspring and descendants of these unions.
+Several additional hexameter poems were ascribed to Hesiod:
+Megalai Ehoiai, a poem similar to the Catalogue of Women, but presumably longer.
+Wedding of Ceyx, a poem concerning Heracles' attendance at the wedding of a certain Ceyx—noted for its riddles.
+Melampodia, a genealogical poem that treats of the families of, and myths associated with, the great seers of mythology.
+Idaean Dactyls, a work concerning mythological smelters, the Idaean Dactyls.
+Descent of Perithous, about Theseus and Perithous' trip to Hades.
+Precepts of Chiron, a didactic work that presented the teaching of Chiron as delivered to the young Achilles.
+Megala Erga or Great Works, a poem similar to the Works and Days, but presumably longer
+Astronomia, an astronomical poem to which Callimachus (Ep. 27) apparently compared Aratus' Phaenomena.
+Aegimius, a heroic epic concerning the Dorian Aegimius (variously attributed to Hesiod or Cercops of Miletus).
+Kiln or Potters, a brief poem asking Athena to aid potters if they pay the poet. Also attributed to Homer.
+Ornithomantia, a work on bird omens that followed the Works and Days.
+In addition to these works, the Suda lists an otherwise unknown "dirge for Batrachus, [Hesiod's] beloved".[42]
+Reception[edit]
+Sappho's countryman and contemporary, the lyric poet Alcaeus, paraphrased a section of Works and Days (582–88), recasting it in lyric meter and Lesbian dialect. The paraphrase survives only as a fragment.[43]
+The lyric poet Bacchylides quoted/paraphrased Hesiod in a victory ode addressed to Hieron of Syracuse, commemorating the tyrant's win in the chariot race at the Pythian Games 470 BC, the attribution made with these words: "A man of Boeotia, Hesiod, minister of the [sweet] Muses, spoke thus: 'He whom the immortals honour is attended also by the good report of men.'" However, the quoted words are not found in Hesiod's extant work.[nb 3]
+Hesiod's Catalogue of Women created a vogue for catalogue poems in the Hellenistic period. Thus for example Theocritus presents catalogues of heroines in two of his bucolic poems (3.40–51 and 20.34–41), where both passages are recited in character by lovelorn rustics.[44]
+Portrait bust[edit]
+Ancient bronze bust, the so-called Pseudo-Seneca, now conjectured to be an imaginative portrait of Hesiod.[45]
+The Roman bronze bust, the so-called Pseudo-Seneca, of the late first century BC found at Herculaneum is now thought not to be of Seneca the Younger. It has been identified by Gisela Richter as an imagined portrait of Hesiod. In fact, it has been recognized since 1813 that the bust was not of Seneca, when an inscribed herma portrait of Seneca with quite different features was discovered. Most scholars now follow Richter's identification.[nb 4]
+Hesiod's Greek[edit]
+Hesiod employed the conventional dialect of epic verse, which was Ionian. Comparisons with Homer, a native Ionian, can be unflattering. Hesiod's handling of the dactylic hexameter was not as masterful or fluent as Homer's and one modern scholar refers to his "hobnailed hexameters".[46] His use of language and meter in Works and Days and Theogony distinguishes him also from the author of the Shield of Heracles. All three poets, for example, employed digamma inconsistently, sometimes allowing it to affect syllable length and meter, sometimes not. The ratio of observance/neglect of digamma varies between them. The extent of variation depends on how the evidence is collected and interpreted but there is a clear trend, revealed for example in the following set of statistics.
+Theogony 2.5/1
+Works and Days 1.5/1
+Shield 5.9/1
+Homer 5.4/1[nb 5]
+Hesiod does not observe digamma as often as the others do. That result is a bit counter-intuitive since digamma was still a feature of the Boeotian dialect that Hesiod probably spoke, whereas it had already vanished from the Ionic vernacular of Homer. This anomaly can be explained by the fact that Hesiod made a conscious effort to compose like an Ionian epic poet at a time when digamma was not heard in Ionian speech, while Homer tried to compose like an older generation of Ionian bards, when it was heard in Ionian speech. There is also a significant difference in the results for Theogony and Works and Days, but that is merely due to the fact that the former includes a catalog of divinities and therefore it makes frequent use of the definite article associated with digamma, oἱ.[47]
+Carmina
+Though typical of epic, his vocabulary features some significant differences from Homer's. One scholar has counted 278 un-Homeric words in Works and Days, 151 in Theogony and 95 in Shield of Heracles. The disproportionate number of un-Homeric words in W & D is due to its un-Homeric subject matter.[nb 6] Hesiod's vocabulary also includes quite a lot of formulaic phrases that are not found in Homer, which indicates that he may have been writing within a different tradition.[48]
+Notes[edit]
+^ See discussion by M. L. West, Hesiod: Theogony, Oxford University Press (1966), pages 163–4 note 30, citing for example Pausanias 9.30.3. Rhapsodes in post-Homeric times are often shown carrying either a laurel staff or a lyre but in Hesiod's earlier time, the staff seems to indicate that he was not a rhapsode, a professional minstrel. Meetings between poets and the Muses became part of poetic folklore: compare, for example, Archilochus's account of his meeting the Muses while leading home a cow and the legend of Cædmon.
+^ Jasper Griffin, in The Oxford History of the Classical World, O.U.P (1986), cites for example the Book Of Ecclesiastes, a Sumerian text in the form of a father's remonstrance with a prodigal son, and Egyptian wisdom texts spoken by viziers, etc. Hesiod was certainly open to Oriental influences, as is clear in the myths presented by him in Theogony,
+^ The Bacchylidean victory ode is fr. 5 Loeb. Theognis of Megara, (169) is the source of a similar sentiment ("Even the fault-finder praises one whom the gods honour") but without attribution. See also fr 344 M.-W (D. Campbell, Greek Lyric IV, Loeb 1992, page 153)
+^ Gisela Richter (1965). The Portraits of the Greeks. London: Phaidon, I, 58ff; commentators agreeing with Richter include Wolfram Prinz, 1973. "The Four Philosophers by Rubens and the Pseudo-Seneca in Seventeenth-Century Painting" The Art Bulletin 55.3 (September 1973), pp. 410–428. "...one feels that it may just as well have been the Greek writer Hesiod..." and Martin Robertson, in his review of G. Richter, The Portraits of the Greeks for The Burlington Magazine 108.756 (March 1966), pp 148–150. "...with Miss Richter, I accept the identification as Hesiod"
+^ Statistics for the 3 'Hesiodic' poems taken from A.V.Paues, De Digammo Hesiodeo Quaestiones (Stockholm 1897), and stats for Homer from Hartel, Sitz.-Ber. Wien. Ak. 78 (1874), both cited by M.L. West, Hesiod: Theogony, 99
+^ The count of un-Homeric words is by H.K. Fietkau, De carminum hesiodeorum atque hymnorum quattuor magnorum vocabulis non homericis (Königsberg, 1866), cited by M.L. West, Hesiod: Theogony, 77
+Citations[edit]
+^ "Hesiod." Dictionary.com Unabridged. Random House, Inc. 5 April 2011. dictionary.com
+^ West, M. L. Theogony. Oxford University Press (1966), page 40
+^ Jasper Griffin, "Greek Myth and Hesiod", J.Boardman, J.Griffin and O. Murray (eds), The Oxford History of the Classical World, Oxford University Press (1986), page 88
+^ J.P. Barron and P.E. Easterling, "Hesiod" in The Cambridge History of Classical Literature: Greek Literature, P. Easterling and B. Knox (eds), Cambridge University Press (1985), page 92
+^ Antony Andrewes, Greek Society, Pelican Books (1971), pages 254–5
+^ Rothbard, Murray N., Economic Thought Before Adam Smith: Austrian Perspective on the History of Economic Thought, Vol. 1, Cheltenham, UK, Edward Elgar Publishing, 1995, pg. 8; Gordan, Barry J., Economic analysis before Adam Smith: Hesiod to Lessius (1975), pg. 3; Brockway, George P., The End of Economic Man: An Introduction to Humanistic Economics, fourth edition (2001), pg 128.
+^ Jasper Griffin, 'Greek Myth and Hesiod' in The Oxford History of the Classical World, J. Boardman, J. Griffin and O. Murray (eds), Oxford University Press (1986), page 88, 95
+^ Hugh G. Evelyn-White, Hesiod, The Homeric Hymns and Homerica (Cambridge: Harvard University Press, 1964) Volume 57 of the Loeb Classical Library, pp. xivf.
+^ Jasper Griffin, 'Greek Myth and Hesiod' in The Oxford History of the Classical World, J. Boardman, J. Griffin and O. Murray (eds), Oxford University Press (1986), page 95
+^ Gregory Nagy, Greek Mythology and Poetics (Cornell 1990), pp. 36–82.
+^ J. P. Barron and P. E.Easterling, 'Hesiod' in The Cambridge History of Classical Literature: Greek Literature, P. Easterling and B. Knox (eds), Cambridge University Press (1985), page 93
+^ A. R. Burn, The Pelican History of Greece, 77
+^ J. P. Barron and P. E. Easterling, 'Hesiod' in The Cambridge History of Classical Literature: Greek Literature, P. Easterling and B. Knox (eds), Cambridge University Press (1985), pages 93–4
+^ M. L. West, Hesiod: Theogony, Oxford University Press (1966), pages 41–2
+^ M. L. West, Hesiod: Theogony, Oxford University Press (1966), pages 90–1
+^ Pausanias, Description of Greece, 9.31.4
+^ M. L. West, Hesiod: Theogony, Oxford University Press (1966), pages 40–1, 47–8
+^ A. R. Burns, The Pelican History of Greece, 77
+^ Jasper Griffin, 'Greek Myth and Hesiod' in The Oxford History of the Classical World, O.U.P (1986), page 88
+^ J. P. Barron and P. E. Easterling, 'Hesiod' in The Cambridge History of Classical Literature: Greek Literature, P. Easterling and B. Knox (eds), Cambridge University Press (1985), page 99
+^ Antony Andrewes, Greek Society, Pelican Books (1971), pages 218–19, 262
+^ M. L. West, Hesiod: Theogony, Oxford University Press (1966), page 44
+^ Translated in Evelyn-White, Hesiod, pp. 565–597.
+^ M.L. West, Hesiod: Theogony, Oxford University Press (1966), pages 40, 47
+^ M.L. West, Hesiod: Theogony, Oxford University Press (1966), pages 40–2
+^ M.L. West, Hesiod: Theogony, Oxford University Press (1966), pages 43–5
+^ J.P. Barron and P.E. Easterling, Hesiod, page 94
+^ J. Vernant, Myth and Society in Ancient Greece, tr. J. Lloyd (1980), pages 184–85
+^ J. A. Symonds, p. 167
+^ Sparta and Lakonia – A regional history 1300 to 362 BC. 2nd Edition, Paul Cartledge
+^ J. A. Symonds, Studies of the Greek Poets, p. 166
+^ A. R. Burn, The Pelican History of Greece, 77
+^ W. Allen, Tragedy and the Early Greek Philosophical Tradition, 72
+^ A. Andrewes, Greek Society, 218
+^ A. Burn, The Pelican History of Greece, 78
+^ West, "Hesiod", in: S. Hornblower & A. Spawforth (eds.) Oxford Classical Dictionary, 3rd rev. ed. (Oxford, 1996) p. 521.
+^ Hesiod, Works and Days, line 250: "Verily upon the earth are thrice ten thousand immortals of the host of Zeus, guardians of mortal man. They watch both justice and injustice, robed in mist, roaming abroad upon the earth." (Compare J. A. Symonds, p. 179)
+^ Works and Days, line 300: "Both gods and men are angry with a man who lives idle, for in nature he is like the stingless drones who waste the labor of the bees, eating without working."
+^ Howard Williams, 1883, The Ethics of Diet – A Catena
+^ E.g. Cingano (2009).
+^ Most (2006, p. xi).
+^ Suda s.v. Ἡσίοδος (η 583).
+^ Alcaeus fr. 347 Loeb, cited by D. Cambell, Greek Lyric Poetry, Bristol Classical Press (1982), page 301
+^ Richard Hunter, Theocritus: A Selection, Cambridge University Press (1999), pages 122–23
+^ Erika Simon (1975). Pergamon und Hesiod (in German). Mainz am Rhein: Philipp von Zabern. OCLC 2326703. 
+^ J. Griffin, Greek Myth and Hesiod, 88, quoting M. L. West
+^ M. West, Hesiod: Theogony, 91, 99
+^ M.L. West, Hesiod: Theogony, 78
+References[edit]
+Allen, T. W. and Arthur A. Rambaut, "The Date of Hesiod", The Journal of Hellenic Studies, 35 (1915), 85–99
+Allen, William (2006), "Tragedy and the Early Greek Philosophical Tradition", A Companion to Greek Tragedy, Blackwell Publishing 
+Andrewes, Antony (1971), Greek Society, Pelican Books 
+Barron J.P. and Easterling P.E. (1985), "Hesiod", The Cambridge History of Classical Literature: Greek Literature, Cambridge University Press
+Buckham, Philip Wentworth, Theatre of the Greeks, 1827.
+Burn, A.R. (1978), The Pelican History of Greece, Penguin Books 
+Cingano, E. (2009), "The Hesiodic Corpus", in Montanari, Rengakos & Tsagalis (2009), pp. 91–130  Missing or empty |title= (help) CS1 maint: Uses editors parameter (link).
+Hugh G. Evelyn-White, Hesiod, the Homeric Hymns and Homerica, p. xliii–xlvii.
+Lamberton, Robert, Hesiod, New Haven: Yale University Press, 1988. ISBN 0-300-04068-7
+Marckscheffel, G. (1840), Hesiodi, Eumeli, Cinaethonis, Asii et Carminis Naupactii fragmenta, Leipzig  External link in |title= (help).
+Montanari, F.; Rengakos, A.; Tsagalis, C. (2009), Brill's Companion to Hesiod, Leiden, ISBN 978-90-04-17840-3 .
+Murray, Gilbert, A History of Ancient Greek Literature, New York: D. Appleton and Company, 1897. Cf. pp. 53 and onward for Hesiod.
+Griffin, Jasper (1986), "Greek Myth and Hesiod", The Oxford History of the Classical World, Oxford University Press 
+Peabody, Berkley, The Winged Word: A Study in the Technique of Ancient Greek Oral Composition as Seen Principally Through Hesiod's Works and Days, State University of New York Press, 1975. ISBN 0-87395-059-3
+Pucci, Pietro, Hesiod and the Language of Poetry, Baltimore and London: Johns Hopkins University Press, 1977. ISBN 0-8018-1787-0
+Reinsch-Werner, H. (1976), Callimachus Hesiodicus: Die Rezeption der hesiodischen Dichtung durch Kallimachos von Kyrene, Berlin .
+Rohde, Erwin, Psyche, 1925.
+Symonds, John Addington, Studies of the Greek Poets, 1873.
+Taylor, Thomas, A Dissertation on the Eleusinian and Bacchic Mysteries, 1791.
+West, Martin L. (1966), Hesiod: Theogony, Oxford University Press 
+Further reading[edit]
+Athanassakis, A.N. (1992). "Cattle and Honour in Homer and Hesiod". Ramus. 21 (2): 156–186. 
+Athanassakis, A.N. (1992). "Introduction to 'Essays on Hesiod I'". Ramus. 21 (1): 1–10. 
+Athanassakis, A.N. (1992). "Introduction to 'Essays on Hesiod II'". Ramus. 21 (2): 117–118. 
+Burn, Andrew Robert (1937). The World of Hesiod: A Study of the Greek Middle Ages, c. 900–700 BC. New York: Dutton. 
+Clay, Diskin (1992). "The World of Hesiod". Ramus. 21 (2): 131–155. 
+Debiasi, Andrea (2008). Esiodo e l'occidente (in Italian). Roma: L'Erma di Bretschneider. ISBN 88-8265-487-7. 
+DuBois, Page (1992). "Eros and the Woman". Ramus. 21 (1): 97–116. 
+Gagarin, Michael (1992). "The Poetry of Justice: Hesiod and the Origins of Greek Law". Ramus. 21 (1): 61–78. 
+Janko, Richard (2007). Homer, Hesiod and the Hymns : diachronic development in epic diction. Cambridge: Cambridge University Press. ISBN 978-0-521-03565-1. 
+Kirby, John T. (1992). "Rhetoric and Poetics in Hesiod". Ramus. 21 (1): 34–60. 
+Kõiv, Mait (2011). "A Note on the Dating of Hesiod". The Classical Quarterly. 61 (2): 355–377. doi:10.1017/s0009838811000127. 
+Lucas, Frank Laurence (1934). "Two Poets of the Peasantry". Studies French and English. London: Cassell & Co. pp. 23–75. 
+Luchte, James (2011). Early Greek Thought: Before the Dawn. London: Bloomsbury Publishing. ISBN 978-0567353313. 
+Martin, Richard P. (1992). "Hesiod's metanastic poetics". Ramus. 21 (1): 11–33. 
+Nagler, Michael N. (1992). "Discourse and Conflict in Hesiod: Eris and the Erides". Ramus. 21 (1): 79–96. 
+Nagy, Gregory (1992). "Authorisation and Authorship in the Hesiodic Theogony". Ramus. 21 (2): 119–130. 
+Thalmann, William G. (1984). Conventions of form and thought in early Greek epic poetry. Baltimore: Johns Hopkins University Press. ISBN 0-8018-3195-4. 
+Walcot, P. (1966). Hesiod and the Near East. Cardiff: Wales University Press. 
+West, M.L. (1985). The Hesiodic Catalogue of Women: its nature, structure, and origins. Oxford: Clarendon. ISBN 0-19-814034-7. 
+Selected translations[edit]
+George Chapman, The Works of Hesiod, London, 1618, dedicated to Sir Francis Bacon.
+Cooke, Hesiod, Works and Days, Translated from the Greek, London, 1728
+Sinclair, Thomas Alan (translator), Hesiodou Erga kai hemerai, London, Macmillan and co., 1932.
+West, Martin Litchfield (translator), Hesiod Works & Days, Oxford University Press, 1978, ISBN 0-19-814005-3. Edited with Prolegomena and Commentary.
+Athanassakis, Apostolos N., Theogony; Works and days; Shield / Hesiod; introduction, translation, and notes, Baltimore: Johns Hopkins University Press, 1983. ISBN 0-8018-2998-4
+Frazer, R.M. (Richard McIlwaine), The Poems of Hesiod, Norman: University of Oklahoma Press, 1983. ISBN 0-8061-1837-7
+Tandy, David W., and Neale, Walter C. [translators], Works and Days: a translation and commentary for the social sciences, Berkeley: University of California Press, 1996. ISBN 0-520-20383-6
+Schlegel, Catherine M., and Henry Weinfield, translators, Theogony and Works and Days, Ann Arbor, Michigan, 2006
+Most, G.W. (2006), Hesiod: Theogony, Works and Days, Testimonia, Loeb Classical Library, no. 57, Cambridge, MA, ISBN 978-0-674-99622-9 .
+Most, G.W. (2007), Hesiod: The Shield, Catalogue, Other Fragments, Loeb Classical Library, no. 503, Cambridge, MA, ISBN 978-0-674-99623-6 .
+External links[edit]
+Wikiquote has quotations related to: Hesiod
+Wikisource has original text related to this article:
+Hesiod
+Wikimedia Commons has media related to Hesiod.
+Works by Hesiod at Project Gutenberg
+Works by or about Hesiod at Internet Archive
+Hesiod, Works and Days Book 1 Works and Days Book 2 Works and Days Book 3 Translated from the Greek by Mr. Cooke (London, 1728). A youthful exercise in Augustan heroic couplets by Thomas Cooke (1703–1756), employing the Roman names for all the gods.
+Web texts taken from Hesiod, the Homeric Hymns and Homerica, edited and translated by Hugh G. Evelyn-White, published as Loeb Classical Library #57, 1914, ISBN 0-674-99063-3:
+Scanned text at the Internet Archive, in PDF and DjVu format
+Perseus Classics Collection: Greek and Roman Materials: Text: Hesiod (Greek texts and English translations for Works and Days, Theogony, and Shield of Heracles with additional notes and cross links.)
+Versions of the electronic edition of Evelyn-White's English translation edited by Douglas B. Killings, June 1995:
+Project Gutenberg plain text.
+Berkeley Digital Library SunSITE: The Online Medieval and Classical Library: Hesiod
+Sacred Texts: Classics: The Works of Hesiod (Theogony and Works and Days only)
+Hesiod Poems and Fragments including Ps-Hesiod works Astronomy and Catalogue of Women at demonax.info
+v
+t
+e
+Hesiod
+Extant poems
+Theogony
+Works and Days
+Shield of Heracles
+Fragmentary poems
+Catalogue of Women
+Megalai Ehoiai
+Wedding of Ceyx
+Melampodia
+Descent of Perithous
+Idaean Dactyls
+Precepts of Chiron
+Megala Erga
+Astronomia
+Aegimius
+Kiln
+v
+t
+e
+Ancient Greece
+Outline
+Timeline
+ 
+History
+Geography
+Periods
+Cycladic civilization
+Minoan civilization
+Mycenaean civilization
+Greek Dark Ages
+Archaic period
+Classical Greece
+Hellenistic Greece
+Roman Greece
+Geography
+Aegean Sea
+Aeolis
+Alexandria
+Antioch
+Cappadocia
+Crete
+Cyprus
+Doris
+Ephesus
+Epirus
+Hellespont
+Ionia
+Ionian Sea
+Macedonia
+Magna Graecia
+Miletus
+Peloponnesus
+Pergamon
+Pontus
+Taurica
+Ancient Greek colonies
+ 
+City states
+Politics
+Military
+City states
+Argos
+Athens
+Byzantion
+Chalcis
+Corinth
+Eretria
+Kerkyra
+Larissa
+Megalopolis
+Megara
+Rhodes
+Samos
+Sparta
+Syracuse
+Thebes
+Politics
+Boeotarch
+Boule
+Koinon
+Proxeny
+Strategos
+Tagus
+Tyrant
+Amphictyonic League
+Athenian
+Agora
+Areopagus
+Ecclesia
+Graphē paranómōn
+Heliaia
+Ostracism
+Spartan
+Apella
+Ephor
+Gerousia
+Harmost
+Macedon
+Synedrion
+Koinon
+Military
+Wars
+Athenian military
+Antigonid Macedonian army
+Army of Macedon
+Ballista
+Cretan archers
+Hellenistic armies
+Hippeis
+Hoplite
+Hetairoi
+Macedonian phalanx
+Phalanx
+Peltast
+Pezhetairos
+Sarissa
+Sacred Band of Thebes
+Sciritae
+Seleucid army
+Spartan army
+Toxotai
+Xiphos
+Xyston
+ 
+People
+List of ancient Greeks
+Rulers
+Kings of Argos
+Archons of Athens
+Kings of Athens
+Kings of Commagene
+Diadochi
+Kings of Lydia
+Kings of Macedonia
+Kings of Paionia
+Attalid kings of Pergamon
+Kings of Pontus
+Kings of Sparta
+Tyrants of Syracuse
+Philosophers
+Anaxagoras
+Anaximander
+Anaximenes
+Antisthenes
+Aristotle
+Democritus
+Diogenes of Sinope
+Empedocles
+Epicurus
+Gorgias
+Heraclitus
+Hypatia
+Leucippus
+Parmenides
+Plato
+Protagoras
+Pythagoras
+Socrates
+Thales
+Zeno
+Authors
+Aeschylus
+Aesop
+Alcaeus
+Archilochus
+Aristophanes
+Bacchylides
+Euripides
+Herodotus
+Hesiod
+Hipponax
+Homer
+Ibycus
+Lucian
+Menander
+Mimnermus
+Panyassis
+Philocles
+Pindar
+Plutarch
+Polybius
+Sappho
+Simonides
+Sophocles
+Stesichorus
+Theognis
+Thucydides
+Timocreon
+Tyrtaeus
+Xenophon
+Others
+Agesilaus II
+Agis II
+Alcibiades
+Alexander the Great
+Aratus
+Archimedes
+Aspasia
+Demosthenes
+Epaminondas
+Euclid
+Hipparchus
+Hippocrates
+Leonidas
+Lycurgus
+Lysander
+Milo of Croton
+Miltiades
+Pausanias
+Pericles
+Philip of Macedon
+Philopoemen
+Praxiteles
+Ptolemy
+Pyrrhus
+Solon
+Themistocles
+Groups
+Philosophers
+Playwrights
+Poets
+Tyrants
+By culture
+Ancient Greek tribes
+Thracian Greeks
+Ancient Macedonians
+ 
+Society
+Culture
+Society
+Agriculture
+Calendar
+Clothing
+Coinage
+Cuisine
+Economy
+Education
+Festivals
+Funeral and burial practices
+Homosexuality
+Law
+Olympic Games
+Pederasty
+Philosophy
+Prostitution
+Religion
+Slavery
+Warfare
+Wedding customs
+Wine
+Arts
+Sciences
+Architecture (Greek Revival architecture)
+Astronomy
+Literature
+Mathematics
+Medicine
+Music (Musical system)
+Pottery
+Sculpture
+Technology
+Theatre
+Religion
+Funeral and burial practices
+Mythology
+mythological figures
+Temple
+Twelve Olympians
+Underworld
+Sacred places
+Eleusis
+Delphi
+Delos
+Dodona
+Mount Olympus
+Olympia
+Structures
+Athenian Treasury
+Lion Gate
+Long Walls
+Philippeion
+Theatre of Dionysus
+Tunnel of Eupalinos
+Temples
+Aphaea
+Artemis
+Athena Nike
+Erechtheion
+Hephaestus
+Hera (Olympia)
+Parthenon
+Samothrace
+Zeus (Olympia)
+Language
+Proto-Greek
+Mycenaean
+Homeric
+Dialects
+Aeolic
+Arcadocypriot
+Attic
+Doric
+Ionic
+Locrian
+Macedonian
+Pamphylian
+Koine
+Writing
+Linear A
+Linear B
+Cypriot syllabary
+Greek alphabet
+Greek numerals
+Attic numerals
+ 
+Lists
+Cities
+in Epirus
+People
+Place names
+Stoae
+Temples
+Theatres
+Category
+Portal
+Authority control
+WorldCat Identities
+VIAF: 122220717
+LCCN: n50062731
+ISNI: 0000 0001 2079 3528
+GND: 118550292
+SELIBR: 190641
+SUDOC: 026921286
+BNF: cb119074448 (data)
+NLA: 41276157
+NDL: 00443197
+NKC: jn19990210278
+ICCU: IT\ICCU\CFIV\035630
+BNE: XX1719548
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Hesiod&oldid=762695922"
+Categories: 8th-century BC births8th-century BC Greek people8th-century BC poetsAncient Boeotian poetsAncient Greek didactic poetsAncient Greek poetsHesiodHidden categories: Articles containing Ancient Greek-language textCS1 German-language sources (de)Use dmy dates from July 2012All articles with unsourced statementsArticles with unsourced statements from June 2013Pages with citations lacking titlesCS1 maint: Uses editors parameterCS1 errors: external linksCS1 Italian-language sources (it)Commons category with local link same as on WikidataArticles with Project Gutenberg linksArticles with Internet Archive linksWikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with SELIBR identifiersWikipedia articles with BNF identifiersWikipedia articles with NLA identifiersWikipedia articles with SBN identifiersYear of death unknownPages using ISBN magic links
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+Article
+Talk
+Variants
+Views
+Read
+Edit
+View history
+More
+Search
+Navigation
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+Interaction
+HelpAbout WikipediaCommunity portalRecent changesContact page
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page
+Print/export
+Create a bookDownload as PDFPrintable version
+In other projects
+Wikimedia CommonsWikiquoteWikisource
+Languages
+AlemannischالعربيةAragonésAzərbaycancaБеларускаяБългарскиBoarischBrezhonegCatalàČeštinaCorsuDanskDeutschEestiΕλληνικάEspañolEsperantoEstremeñuEuskaraفارسیFrançaisFryskGalego한국어HawaiʻiՀայերենहिन्दीHrvatskiIdoBahasa IndonesiaInterlinguaÍslenskaItalianoעבריתҚазақшаLatinaLatviešuLëtzebuergeschLietuviųMagyarМакедонскиNederlands日本語Norsk bokmålNorsk nynorskOccitanPlattdüütschPolskiPortuguêsRomânăРусскийScotsShqipSicilianuSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaதமிழ்TürkçeУкраїнськаTiếng Việt中文
+Edit links
+This page was last modified on 30 January 2017, at 06:19.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
