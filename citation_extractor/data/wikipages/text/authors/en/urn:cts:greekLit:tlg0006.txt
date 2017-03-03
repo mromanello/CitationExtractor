@@ -1,0 +1,956 @@
+Euripides - Wikipedia
+Euripides
+From Wikipedia, the free encyclopedia
+Jump to:					navigation, 					search
+This article is about the classical Greek tragedian. For the asteroid, see 2930 Euripides.
+Euripides
+Bust of Euripides:
+Roman marble copy of a 4th-century BC Greek original (Museo Pio-Clementino, Rome)
+Born
+c. 480 BC
+Salamís
+Died
+c. 406 BC (aged c. 74)
+Macedonia
+Occupation
+Playwright
+Notable work
+Medea, 431 BC
+Hippolytus, 428 BC
+Electra, c. 420 BC
+The Trojan Women, c. 415 BC
+Bacchae, 405 BC
+Spouse(s)
+Melite
+Choerine
+Parent(s)
+Mnesarchus
+Cleito
+Euripides (/juːˈrɪpᵻdiːz/ or /jɔːˈrɪpᵻdiːz/;[1] Greek: Εὐριπίδης; Ancient Greek: [eu̯.riː.pí.dɛːs]) (c. 480 – c. 406 BC) was a tragedian of classical Athens. He is one of the few whose plays have survived, with the others being Aeschylus, Sophocles, and potentially Euphorion. Some ancient scholars attributed 95 plays to him but according to the Suda it was 92 at most. Of these, 18 or 19 have survived more or less complete (there has been debate about his authorship of Rhesus, largely on stylistic grounds)[2] and there are also fragments, some substantial, of most of the other plays. More of his plays have survived intact than those of Aeschylus and Sophocles together, partly due to mere chance and partly because his popularity grew as theirs declined[3][4]—he became, in the Hellenistic Age, a cornerstone of ancient literary education, along with Homer, Demosthenes and Menander.[5]
+Euripides is identified with theatrical innovations that have profoundly influenced drama down to modern times, especially in the representation of traditional, mythical heroes as ordinary people in extraordinary circumstances. This new approach led him to pioneer developments that later writers adapted to comedy, some of which are characteristic of romance. Yet he also became "the most tragic of poets",[nb 1] focusing on the inner lives and motives of his characters in a way previously unknown.[6][7] He was "the creator of...that cage which is the theatre of Shakespeare's Othello, Racine's Phèdre, of Ibsen and Strindberg," in which "...imprisoned men and women destroy each other by the intensity of their loves and hates",[8] and yet he was also the literary ancestor of comic dramatists as diverse as Menander and George Bernard Shaw.[9]
+He was also unique among the writers of ancient Athens for the sympathy he demonstrated towards all victims of society, including women.[6][10] His conservative male audiences were frequently shocked by the 'heresies' he put into the mouths of characters, such as these words of his heroine Medea:
+Sooner would I stand
+Three times to face their battles, shield in hand,
+Than bear one child![11]
+His contemporaries associated him with Socrates as a leader of a decadent intellectualism, both of them being frequently lampooned by comic poets such as Aristophanes. Whereas Socrates was eventually put on trial and executed as a corrupting influence, Euripides chose a voluntary exile in old age, dying in Macedonia.[12] Recent scholarship casts doubt on ancient biographies of Euripides. For example, it is possible that he never visited Macedonia at all,[13] or, if he did, he might have been drawn there by King Archelaus with incentives that were also offered to other artists.[14]
+Contents
+1 Life
+1.1 A fabled life
+1.2 A comic life
+1.3 A tragedian's life
+2 Work
+2.1 In Greek
+3 Reception
+4 Texts
+4.1 Transmission
+4.2 Chronology
+4.3 Extant plays
+4.4 Lost and fragmentary plays
+5 Notes
+6 References
+7 Further reading
+8 External links
+Life[edit]
+Traditional accounts of the author's life are found in many commentaries and include details such as these: He was born on Salamis Island around 480 BC, with parents Cleito (mother) and Mnesarchus (father), a retailer who lived in a village near Athens. Upon the receipt of an oracle saying that his son was fated to win "crowns of victory", Mnesarchus insisted that the boy should train for a career in athletics. In fact the boy was destined for a career on the stage, where however he was to win only five victories, one of which was after his death. He served for a short time as both dancer and torch-bearer at the rites of Apollo Zosterius. His education was not confined to athletics: he also studied painting and philosophy under the masters Prodicus and Anaxagoras. He had two disastrous marriages and both his wives—Melite and Choerine (the latter bearing him three sons)—were unfaithful. He became a recluse, making a home for himself in a cave on Salamis (The Cave of Euripides, where a cult of the playwright developed after his death). "There he built an impressive library and pursued daily communion with the sea and sky". Eventually he retired to the "rustic court" of King Archelaus in Macedonia, where he died in 406 BC.[15] However, as mentioned in the introduction, biographical details such as these should be regarded with scepticism. They are derived almost entirely from three unreliable sources:[16]
+folklore, employed by the ancients to lend colour to the lives of celebrated authors;
+parody, employed by contemporary comic poets to ridicule tragic poets;
+'autobiographical' clues gleaned from his extant plays (a mere fraction of his total output).
+This biography is divided into three sections corresponding to the three kinds of sources.
+A statue of Euripides, Louvre, Paris.
+A fabled life[edit]
+Euripides was the youngest in a set of three great tragedians who were almost contemporaries: his first play was staged thirteen years after Sophocles' debut and only three years after Aeschylus's masterpiece, the Oresteia. The identity of the threesome is neatly underscored by a patriotic account of their roles during Greece's great victory over Persia at the Battle of Salamis—Aeschylus fought there, Sophocles was just old enough to celebrate the victory in a boys' chorus and Euripides was born on the very day of the battle.[16] The apocryphal account that he composed his works in a cave on Salamis island was a late tradition and it probably symbolizes the isolation of an intellectual who was rather ahead of his time.[17] Much of his life and his whole career coincided with the struggle between Athens and Sparta for hegemony in Greece but he didn't live to see the final defeat of his city. It is said that he died in Macedonia after being attacked by the Molossian hounds of King Archelaus and that his cenotaph near Piraeus was struck by lightning—signs of his unique powers, whether for good or ill (according to one modern scholar, his death might have been caused instead by the harsh Macedonian winter).[18] In an account by Plutarch, the catastrophic failure of the Sicilian expedition led Athenians to trade renditions of Euripides' lyrics to their enemies in return for food and drink (Life of Nicias 29). Plutarch is the source also for the story that the victorious Spartan generals, having planned the demolition of Athens and the enslavement of its people, grew merciful after being entertained at a banquet by lyrics from Euripides' play Electra: "they felt that it would be a barbarous act to annihilate a city which produced such men" (Life of Lysander).[19]
+A comic life[edit]
+Tragic poets were often mocked by comic poets during the dramatic festivals Dionysia and Lenaia, and Euripides was travestied more than most. Aristophanes scripted him as a character in at least three plays: The Acharnians, Thesmophoriazusae and The Frogs. Yet Aristophanes borrowed rather than just satirized some of the tragedian's methods; he was once ridiculed by a colleague, Cratinus, as "a hair-splitting master of niceties, a Euripidaristophanist".[20] According to another comic poet, Teleclides, the plays of Euripides were co-authored by the philosopher Socrates.[21] According to Aristophanes, the alleged co-author was a celebrated actor, Cephisophon, who also shared the tragedian's house and his wife,[22] while Socrates taught an entire school of quibblers like Euripides:
+They sit at the feet of Socrates
+Till they can't distinguish the wood from the trees,
+And tragedy goes to POT;
+They don't care whether their plays are art
+But only whether the words are smart;
+They waste our time with quibbles and quarrels,
+Destroying our patience as well as our morals,
+And making us all talk ROT.[23]
+In The Frogs, composed after Euripides and Aeschylus were both dead, Aristophanes imagines the god Dionysus venturing down to Hades in search of a good poet to bring back to Athens. After a debate between the two deceased bards, the god brings Aeschylus back to life as more useful to Athens on account of his wisdom, rejecting Euripides as merely clever. Such comic 'evidence' suggests that Athenians admired Euripides even while they mistrusted his intellectualism, at least during the long war with Sparta. Aeschylus had written his own epitaph commemorating his life as a warrior fighting for Athens against Persia, without any mention of his success as a playwright, and Sophocles was celebrated by his contemporaries for his social gifts and contributions to public life as a state official, but there are no records of Euripides' public life except as a dramatist—he could well have been "a brooding and bookish recluse".[24] He is presented as such in The Acharnians, where Aristophanes shows him to be living morosely in a precarious house, surrounded by the tattered costumes of his disreputable characters (and yet Agathon, another tragic poet, is discovered in a later play, Thesmophoriazusae, to be living in circumstances almost as bizarre). Euripides' mother was a humble vendor of vegetables, according to the comic tradition, yet his plays indicate that he had a liberal education and hence a privileged background.[16]
+A tragedian's life[edit]
+Euripides first competed in the City Dionysia, the famous Athenian dramatic festival, in 455 BC, one year after the death of Aeschylus, and it was not until 441 BC that he won a first prize. His final competition in Athens was in 408 BC. The Bacchae and Iphigenia in Aulis were performed after his death in 405 BC and first prize was awarded posthumously. Altogether his plays won first prize only five times.
+His plays and those of Aeschylus and Sophocles indicate a difference in outlook between the three men—a generation gap probably due to the Sophistical enlightenment in the middle decades of the 5th century: Aeschylus still looked back to the archaic period, Sophocles was in transition between periods, and Euripides was fully imbued with the new spirit of the classical age.[25] When Euripides' plays are sequenced in time, they also reveal that his outlook might have changed, providing a "spiritual biography" along these lines:
+an early period of high tragedy (Medea, Hippolytus)
+a patriotic period at the outset of the Peloponnesian War (Children of Hercules, Suppliants)
+a middle period of disillusionment at the senselessness of war (Hecuba, Women of Troy)
+an escapist period with a focus on romantic intrigue (Ion, Iphigenia in Tauris, Helen)
+a final period of tragic despair (Orestes, Phoenician Women, Bacchae)
+However, about 80% of his plays have been lost and even the extant plays do not present a fully consistent picture of his 'spiritual' development (for example, Iphigenia at Aulis is dated with the 'despairing' Bacchae, yet it contains elements that became typical of New Comedy).[26] In the Bacchae, he restores the chorus and messenger speech to their traditional role in the tragic plot, and the play appears to be the culmination of a regressive or archaizing tendency in his later works (for which see Chronology below). Believed to have been composed in the wilds of Macedonia, Bacchae also happens to dramatize a primitive side to Greek religion and some modern scholars have therefore interpreted this particular play biographically as:
+a kind of death-bed conversion or renunciation of atheism;
+the poet's attempt to ward off the charge of impiety that was later to overtake his friend Socrates;
+evidence of a new belief that religion cannot be analysed rationally.[27]
+One of his earliest extant plays, Medea, includes a speech that he seems to have written in defence of himself as an intellectual ahead of his time, though he has put it in the mouth of the play's heroine:[12]
+If you introduce new, intelligent ideas to fools, you will be thought frivolous, not intelligent. On the other hand, if you do get a reputation for surpassing those who are supposed to be intellectually sophisticated, you will seem to be a thorn in the city's flesh. This is what has happened to me. — Medea, lines 298-302[28]
+Work[edit]
+Athenian tragedy in performance during Euripides' lifetime was a public contest between playwrights. The state funded it and awarded prizes to the winners. The language was spoken and sung verse, the performance area included a circular floor or orchestra where the chorus could dance, a space for actors (three speaking actors in Euripides' time), a backdrop or skene and some special effects: an ekkyklema (used to bring the skene's "indoors" outdoors) and a mechane (used to lift actors in the air, as in deus ex machina). With the introduction of the third actor (an innovation attributed to Sophocles), acting also began to be regarded as a skill to be rewarded with prizes, requiring a long apprenticeship in the chorus. Euripides and other playwrights accordingly composed more and more arias for accomplished actors to sing and this tendency becomes more marked in his later plays:[29] tragedy was a "living and ever-changing genre"[30] (other changes in his work are touched on in the previous section and in Chronology; a list of his plays is given in Extant plays below).
+The comic poet, Aristophanes, is the earliest known critic to characterize Euripides as a spokesman for destructive, new ideas, associated with declining standards in both society and tragedy (see Reception for more). However, 5th century tragedy was a social gathering for "carrying out quite publicly the maintenance and development of mental infrastructure" and it offered spectators a "platform for an utterly unique form of institutionalized discussion".[31] A dramatist's role was not just to entertain but also to educate his fellow citizens—he was expected to have a message.[32] Traditional myth provided the subject matter but the dramatist was meant to be innovative so as to sustain interest, which led to novel characterization of heroic figures[33] and to use of the mythical past to talk about present issues.[34] The difference between Euripides and his older colleagues was one of degree: his characters talked about the present more controversially and more pointedly than did those of Aeschylus and Sophocles, sometimes even challenging the democratic order. Thus, for example, Odysseus is represented in Hecuba (lines 131–32) as "agile-minded, sweet-talking, demos-pleasing" i.e., a type of the war-time demagogues that were active in Athens during the Peloponnesian War.[35] Speakers in the plays of Aeschylus and Sophocles sometimes distinguished between slaves who are servile by nature and those who are slaves by mere circumstance but Euripides' speakers go further, positing an individual's mental rather than social or physical condition as the true index of worth.[36] Thus in Hippolytus, a love-sick queen rationalizes her position and arrives at this comment on intrinsic merit while reflecting on adultery:
+"It was from noble families that this evil first started, and when shameful things seem to be approved by the fashionable, then the common people will surely think them correct...This only, they say, stands the stress of life: a good and just spirit in a man."[37]
+Euripides' characters resembled contemporary Athenians rather than heroic figures of myth.
+"For achieving his end Euripides' regular strategy is a very simple one: retaining the old stories and the great names, as his theatre required, he imagines his people as contemporaries subjected to contemporary kinds of pressures, and examines their motivations, conduct and fate in the light of contemporary problems, usages and ideals."—Moses Hadas[38]
+As mouthpieces for contemporary issues, they "all seem to have had at least an elementary course in public speaking".[39] The dialogue often contrasts so strongly with the mythical and heroic setting, it looks as if Euripides aimed at parody, as for example in The Trojan Women, where the heroine's rationalized prayer provokes comment from Menelaus:
+Hecuba:...O Zeus, whether you are the Law of Necessity in nature, or the Law of Reason in man, hear my prayers. You are everywhere, pursuing your noiseless path, ordering the affairs of mortals according to justice.
+Menelaus: What's this? You are starting a new fashion in prayer.[40]
+Athenian citizens were familiar with rhetoric in the assembly and law courts, and some scholars believe that Euripides was more interested in his characters as speakers with cases to argue than as characters with lifelike personalities.[41] They are self-conscious about speaking formally and their rhetoric is shown to be flawed, as if Euripides was exploring the problematical nature of language and communication: "For speech points in three different directions at once, to the speaker, to the person addressed, to the features in the world it describes, and each of these directions can be felt as skewed".[42] Thus in the example above, Hecuba presents herself as a sophisticated intellectual describing a rationalized cosmos yet the speech is ill-matched to her audience, Menelaus (a type of the unsophisticated listener), and soon it is found not to suit the cosmos either (her infant grandson is brutally murdered by the victorious Greeks). In Hippolytus, speeches appear verbose and ungainly as if to underscore the limitations of language.[43]
+Like Euripides, both Aeschylus and Sophocles created comic effects contrasting the heroic with the mundane, but they employed minor supporting characters for that purpose, whereas the younger poet was more insistent, using major characters as well. His comic touches can be thought to intensify the overall tragic effect, and his realism, which often threatens to make his heroes look ridiculous, marks a world of debased heroism: "The loss of intellectual and moral substance becomes a central tragic statement".[44] Psychological reversals are common and sometimes happen so suddenly that inconsistency in characterization is an issue for many critics,[45] such as Aristotle, who cited Iphigenia in Aulis as an example (Poetics 1454a32). For others, psychological inconsistency is not a stumbling block to good drama: "Euripides is in pursuit of a larger insight: he aims to set forth the two modes, emotional and rational, with which human beings confront their own mortality."[46] Some however consider unpredictable behaviour to be realistic in tragedy: "everywhere in Euripides a preoccupation with individual psychology and its irrational aspects is evident....In his hands tragedy for the first time probed the inner recesses of the human soul and let passions spin the plot."[41] The tension between reason and passion is symbolized by his character's relationship with the gods,[47] as in Hecuba's prayer, answered not by Zeus, nor by the Law of Reason, but by brutal Menelaus as if speaking on behalf of the old gods, and most famously in Bacchae, where the god Dionysus savages his own converts. And yet when the gods appear deus ex machina, as they do in eight of the extant plays, they appear "lifeless and mechanical".[48] Sometimes condemned by critics as an unimaginative way to end a story, the spectacle of a "god" making a judgement or announcement from a theatrical crane might actually have been intended to provoke scepticism about the religious and heroic dimension of his plays.[49][50] Similarly his plays often begin in a banal manner that undermines theatrical illusion. Unlike Sophocles, who established the setting and background of his plays in the introductory dialogue, Euripides used a monologue in which a divinity or human character directly and simply tells the audience all it needs to know in order to understand the subsequent action.[51]
+Aeschylus and Sophocles were innovative, but Euripides had arrived at a position in the "ever-changing genre" where he could move easily between tragic, comic, romantic and political effects, a versatility that appears in individual plays and also over the course of his career. Potential for comedy lay in his use of 'contemporary' characters, in his sophisticated tone, his relatively informal Greek (see In Greek below), and in his ingenious use of plots centred on motifs that later became standard in Menander's New Comedy, such as the 'recognition scene'. Other tragedians also used recognition scenes but they were heroic in emphasis, as in Aeschylus's The Libation Bearers, which Euripides parodied with his mundane treatment of it in Electra (Euripides was unique among the tragedians in incorporating theatrical criticism in his plays).[52] Traditional myth, with its exotic settings, heroic adventures and epic battles, offered potential for romantic melodrama as well as for political comments on a war theme,[53] so that his plays are an extraordinary mix of elements. The Trojan Women for example is a powerfully disturbing play on the theme of war's horrors, apparently critical of Athenian imperialism (it was composed in the aftermath of the Melian massacre and during the preparations for the Sicilian Expedition)[54] yet it features the comic exchange between Menelaus and Hecuba quoted above and the chorus considers Athens, the "blessed land of Theus", to be a desirable refuge—such complexity and ambiguity are typical both of his "patriotic" and "anti-war" plays.[55]
+Tragic poets in the 5th century competed against one another at the City Dionysia, each with a tetralogy consisting of three tragedies and a satyr-play. The few extant fragments of satyr-plays attributed to Aeschylus and Sophocles indicate that these were a loosely structured, simple and jovial form of entertainment. However, in Cyclops (the only complete satyr-play that survives) Euripides structured the entertainment more like a tragedy and introduced a note of critical irony typical of his other work. His genre-bending inventiveness is shown above all in Alcestis, a blend of tragic and satyric elements. This fourth play in his tetralogy for 438 BC (i.e., it occupied the position conventionally reserved for satyr-plays) is a "tragedy" that features Heracles as a satyric hero in conventional satyr-play scenes, involving an arrival, a banquet, a victory over an ogre (in this case, Death), a happy ending, a feast and a departure to new adventures.[56] Most of the big innovations in tragedy were made by Aeschylus and Sophocles and yet "Euripides made innovations on a smaller scale that have impressed some critics as cumulatively leading to a radical change of direction".[57]
+In Greek[edit]
+The spoken language of the plays is not fundamentally different in style from that of Aeschylus or Sophocles—it employs poetic meters, a rarefied vocabulary, fullness of expression, complex syntax, and ornamental figures, all aimed at representing an elevated style.[58] However, its rhythms are somewhat freer and more natural than that of his predecessors, and the vocabulary has been expanded to allow for intellectual and psychological subtleties. Euripides was also a great lyric poet. In Medea, for example, he composed for his city, Athens, "the noblest of her songs of praise".[59] His lyric skills however are not just confined to individual poems: "A play of Euripides is a musical whole...one song echoes motifs from the preceding song, while introducing new ones."[60] For some critics, the lyrics often seem dislocated from the action but the extent and significance of this is "a matter of scholarly debate".[61] See Chronology for details about his style in the original Greek.
+Reception[edit]
+Euripides has aroused and continues to arouse strongly contrasting opinions of his work, for and against:
+He was a problem to his contemporaries and he is one still; over the course of centuries since his plays were first produced he has been hailed or indicted under a bewildering variety of labels. He has been described as 'the poet of the Greek enlightenment' and also as 'Euripides the irrationalist';[nb 2] as a religious sceptic if not an atheist, but on the other hand, as a believer in divine providence and the ultimate justice of divine dispensation. He has been seen as a profound explorer of human psychology and also a rhetorical poet who subordinated consistency of character to verbal effect; as a misogynist and a feminist; as a realist who brought tragic action down to the level of everyday life and as a romantic poet who chose unusual myths and exotic settings. He wrote plays which have been widely understood as patriotic pieces supporting Athens' war against Sparta and others which many have taken as the work of the anti-war dramatist par excellence, even as attacks on Athenian imperialism. He has been recognized as the precursor of New Comedy and also what Aristotle called him: 'the most tragic of poets' (Poetics 1453a30). And not one of these descriptions is entirely false. — Bernard Knox[62]
+Aeschylus gained thirteen victories as a dramatist, Sophocles at least twenty, Euripides only four in his lifetime, and this has often been taken as an indication of the latter's unpopularity with his contemporaries, and yet a first place might not have been the main criterion for success in those times (the system of selecting judges appears to have been flawed) and merely being chosen to compete was in itself a mark of distinction.[63] Moreover, to have been singled out by Aristophanes for so much comic attention is proof of popular interest in his work.[64] Sophocles was appreciative enough of the younger poet to be influenced by him, as is evident in his later plays Philoctetes and Oedipus at Colonus.[65] Less than a hundred years later, Aristotle developed an almost "biological' theory of the development of tragedy in Athens: according to this view, the art form grew under the influence of Aeschylus, matured in the hands of Sophocles then began its precipitous decline with Euripides.[66] However, "his plays continued to be applauded even after those of Aeschylus and Sophocles had come to seem remote and irrelevant",[4] they became school classics in the Hellenistic period (as mentioned in the introduction) and, due to Seneca's adaptation of his work for Roman audiences, "it was Euripides, not Aeschylus or Sophocles, whose tragic muse presided over the rebirth of tragedy in Renaissance Europe."[67]
+In the 17th century, Racine expressed admiration for Sophocles but was more influenced by Euripides (e.g. Iphigenia at Aulis and Hippolytus were the models for his plays Iphigénie and Phèdre).[68] Euripides' reputation was to take a beating early in the 19th century when Friedrich Schlegel and his brother August Wilhelm Schlegel championed Aristotle's 'biological' model of theatre history, identifying Euripides with the moral, political and artistic degeneration of Athens.[69] August Wilhelm's Vienna lectures on dramatic art and literature went through four editions between 1809 and 1846 and, in them, he opined that Euripides "not only destroyed the external order of tragedy but missed its entire meaning," a view that came to influence Friedrich Nietzsche, who however seems not to have known the Euripidean plays at all well.[70] However literary figures such as the poet Robert Browning and his wife Elizabeth Barrett Browning could study and admire the Schlegels while still appreciating Euripides as "our Euripides the human" (Wine of Cyprus stanza 12).[69] Classicists such as Arthur Verrall and Ulrich von Wilamowitz-Moellendorff reacted against the views of the Schlegels and Nietzsche, constructing arguments sympathetic to Euripides,[71] which involved Wilamowitz in this restatement of Greek tragedy as a genre: "A [Greek] tragedy does not have to end 'tragically' or be 'tragic'. The only requirement is a serious treatment."[72] In the English-speaking world, the pacifist Gilbert Murray played an important role in popularizing Euripides, influenced perhaps by his anti-war plays.[73] Today, as in the time of Euripides, traditional assumptions are constantly under challenge and audiences therefore have a natural affinity with the Euripidean outlook[32] which seems nearer to ours for example than the Elizabethan.[4] As stated above, however, opinions continue to diverge, so that one recent critic might dismiss the debates in Euripides' plays as "self-indulgent digression for the sake of rhetorical display"[74] and another springs to the poet's defence in terms such as: "His plays are remarkable for their range of tones and the gleeful inventiveness, which morose critics call cynical artificiality, of their construction."[75]
+Texts[edit]
+Transmission[edit]
+The textual transmission of the plays from the 5th century BC, when they were first written, up until the era of the printing press, was largely a haphazard process in which much of Euripides' work was lost and corrupted, but it also included triumphs by scholars and copyists, thanks to whom much was also recovered and preserved. Summaries of the transmission are often found in modern editions of the plays, three of which are used as sources for this summary[nb 3]
+The plays of Euripides, like those of Aeschylus and Sophocles, were circulated in written form in the 5th century among literary members of the audience and performers at minor festivals, as aide-memoirs. However, literary conventions that we take for granted today had not yet been invented—there was no spacing between words, no consistency in punctuation nor in vowel elisions, no marks for breathings and accent (guides to pronunciation and hence word recognition), no convention to denote change of speaker and no stage directions, and verse was written straight across the page like prose. Possibly those who bought texts supplied their own interpretative markings. Papyri discoveries have indicated, for example, that a change in speakers was loosely denoted with a variety of signs, such as the equivalent of the modern dash, colon and full-stop. The absence of modern literary conventions, which are an aid to comprehension, was an early and persistent source of errors affecting transmission of the text. Errors crept in also when Athens replaced its old Attic alphabet with the Ionian alphabet, a change sanctioned by law in 403-2 BC, adding a new complication to the task of copying. Many more errors came from the tendency of actors to interpolate words and sentences, producing so many corruptions and variations that a law was proposed by Lycurgus of Athens in 330 BC "...that the plays of Aeschylus, Sophocles and Euripides should be written down and preserved in a public office; and that the town clerk should read the text over with the actors; and that all performances which did not comply with this regulation should be illegal."[76] The law was soon disregarded and some actors continued to make their own changes up until about 200 BC, after which the habit dies out. It was about then that Aristophanes of Byzantium compiled an edition of all the extant plays of Euripides, collated from pre-Alexandrian texts, furnished with introductions and accompanied by a commentary that was "published" separately. This became the "standard edition" for the future and it featured some of the literary conventions that modern readers expect—there was still no spacing between words, little or no punctuation and no stage directions, but abbreviated names now denoted changes of speaker, lyrics are broken into "cola' and "strophai" or lines and stanzas, and a system of accentuation was introduced.
+Fragment of a vellum codex from the 4th-5th centuries AD, showing choral anapaests from Medea, lines 1087-91. Tiny though it is, the fragment influences modern editions of the play.[nb 4]
+After this creation of a standard edition, the text was fairly safe from errors, apart from the slight and gradual corruption produced by the tedium of frequent copying. Many of these trivial errors occurred in the Byzantine period, following a change in script from uncial to minuscule, and many were "homophonic" errors, when scribes accidentally substituted homophones for words in the text—equivalent in English to substituting "right" for "write", except that there were more opportunities for Byzantine scribes to make these errors because the Greek letters η, ι, οι and ει were pronounced similarly in the Byzantine period.
+Around 200 AD, ten of the plays of Euripides began to be circulated in a select edition, possibly for use in schools, with some commentaries or scholia recorded in the margins. Similar editions had appeared for Aeschylus and Sophocles—the only plays of theirs that survive today: "The rise of Goths and Tartars throughout the Roman world from the gutter to the throne, the destruction of libraries by choleric and fanatical popes and emperors, were unfavourable to the progress but not entirely fatal to the preservation of literary studies."[77] Euripides however was more fortunate than the other tragedians in the survival of a second edition of his work, compiled in alphabetical order as if from a set of his collect works, but without scholia attached. This "Alphabetical" edition was combined with the "Select" edition by some unknown Byzantine scholar, bringing together all the nineteen plays that survive today. The "Select" plays are found in many medieval manuscripts but only two manuscripts preserve the "Alphabetical" plays—often denoted L and P, after the Laurentian Library at Florence, and the Bibliotheca Palatina in the Vatican, where they are stored. It is believed that P derived its Alphabet plays and some Select plays from copies of an ancestor of L, but the remainder is derived from elsewhere. P contains all the extant plays of Euripides, L is missing The Trojan Women and latter part of The Bacchae.
+In addition to L, P and many other medieval manuscripts, there are also fragments of plays recorded on papyrus. The papyrus fragments are often recovered only through modern technology. In June 2005, for example, classicists at Oxford University worked on a joint project with Brigham Young University, using multi-spectral imaging technology to retrieve previously illegible writing (see References). Some of this work employed infrared technology—previously used for satellite imaging—to detect previously unknown material by Euripides in fragments of the Oxyrhynchus papyri, a collection of ancient manuscripts held by the university.[78][79]
+It is from such materials that modern scholars try to piece together copies of the original plays. Sometimes the picture is almost lost. Thus for example two extant plays, The Phoenician Women and Iphigenia at Aulis, are significantly corrupted by interpolations[80] (the latter possibly being completed post mortem by the poet's son) and the very authorship of Rhesus is a matter of dispute.[81] In fact, the very existence of the Alphabet plays, or rather the absence of an equivalent edition for Sophocles and Aeschylus, could distort our notions of distinctive Euripidean qualities—most of his least "tragic" plays are in the Alphabet edition and possibly the other two tragedians would appear just as genre-bending as this "restless experimenter" if we possessed more than their "select" editions.[82]
+See Extant plays below for listing of "Select" and "Alphabetical" plays.
+Chronology[edit]
+The original production dates of some of Euripides' plays are known from ancient records, such as lists of prize-winners at the Dionysia, and approximations are obtained for the remainder by various means. Both the playwright and his work were travestied by comic poets such as Aristophanes, the known dates of whose own plays thus serve as a terminus ad quem for those of Euripides, though sometimes the gap can be considerable (e.g. twenty-seven years separate Telephus, known to have been produced in 438 BC, from its parody in Thesmophoriazusae in 411 BC.) References in Euripides' plays to contemporary events provide a terminus a quo, though sometimes the references might even precede a datable event (e.g. lines 1074-89 in Ion describe a procession to Eleusis, which was probably written before the Spartans occupied it during the Peloponnesian War).[83] Other indications of dating are obtained by stylometry and this section therefore is an appropriate place to consider some aspects of his style as a Greek poet.
+Greek tragedy comprised lyric and dialogue, the latter mostly in iambic trimeter (three pairs of iambic feet per line). Euripides sometimes 'resolved' the two syllables of the iamb (˘¯) into three syllables (˘˘˘) and this tendency increased so steadily over time that the number of resolved feet in a play can be understood to indicate the approximate date of composition (see Extant plays below for one scholar's list of resolutions per hundred trimeters). Associated with this increase in resolutions was an increasing vocabulary for tragic dialogue, often involving prefixes to refine meanings, allowing the language to assume a more natural rhythm while also becoming ever more capable of psychological and philosophical subtlety.[84]
+The trochaic tetrameter catalectic—four pairs of trochees per line, with the final syllable omitted—was identified by Aristotle as the original meter of tragic dialogue (Poetics 1449a21). Euripides however employs it here and there in his later plays.[85] He seems not to have used it in his early plays at all, The Trojan Women being the earliest appearance of it in an extant play - it is symptomatic of a curious archaizing tendency evident in his later works.[86][87]
+The later plays also feature extensive use of stichomythia (i.e. a series of one-liners).[88] The longest such scene comprises one hundred and five lines in Ion (lines 264-369). In contrast, Aeschylus never exceeded twenty lines of stichomythia; Sophocles' longest such scene was fifty lines and it is interrupted several times by αντιλαβή (Electra, lines 1176-1226).[89]
+Euripides' use of lyrics in the sung portion of his work shows the influence of Timotheus of Miletus in the later plays— the individual singer gained prominence and was given additional scope to demonstrate his virtuosity in lyrical duets between actors, as well as replacing some of the chorus's functions with monodies. At the same time, choral odes begin to take on something of the form of dithyrambs reminiscent of the poetry of Bacchylides, featuring elaborate treatment of myths.[90] Sometimes these later choral odes seem to have only a tenuous connection with the plot, linked to the action only in their mood. The Bacchae however shows a reversion to old forms,[91] possibly as a deliberate archaic effect or maybe because there were no virtuoso choristers in Macedonia, where it is said to have been written.[92]
+Extant plays[edit]
+Estimated chronological order
+Play
+Date BC
+Prize
+Lineage
+Resolutions
+Genre (and notes)
+Alcestis
+438
+2nd
+S
+6.2
+tragedy with elements of a satyr play
+Medea
+431
+3rd
+S
+6.6
+tragedy
+Heracleidae
+c. 430
+A
+5.7
+political/patriotic drama
+Hippolytus
+428
+1st
+S
+4.3
+tragedy
+Andromache
+c. 425
+S
+11.3
+tragedy
+Hecuba
+c. 424
+S
+12.7
+tragedy
+The Suppliants
+c. 423
+A
+13.6
+political/patriotic drama
+Electra
+c. 420
+A
+16.9
+engages "untragically" with the traditional myth and with other dramatizations of it[82]
+Heracles
+c. 416
+A
+21.5
+tragedy
+The Trojan Women
+415
+2nd
+S
+21.2
+tragedy
+Iphigenia in Tauris
+c. 414
+A
+23.4
+romantic drama
+Ion
+c. 414
+A
+25.8
+romantic drama
+Helen
+412
+A
+27.5
+romantic drama
+Phoenician Women
+c. 410
+S
+25.8
+tragedy (extensive interpolations)
+Orestes
+408
+S
+39.4
+tragedy
+Bacchae
+405
+1st
+S
+37.6
+tragedy (posthumously produced)
+Iphigenia at Aulis
+405
+1st
+A
+34.7
+tragedy (posthumously produced with extensive interpolations)
+Rhesus
+ ?
+S
+8.1
+tragedy (authorship disputed)
+Cyclops
+ ?
+A
+satyr play (the only fully extant example of this genre)
+Key:
+Date indicates date of first production.
+Prize indicates a place known to have been awarded in festival competition
+Lineage: S denotes plays surviving from a 'Select' or 'School' edition, A plays surviving from an 'Alphabetical' edition[5]—see Transmission above for details.
+Resolutions: Number of resolved feet per 100 trimeters, Ceadel's list[93][94]—see Chronology above for details.
+Genre: Generic orientation[95] (see 'Transmission' section) with additional notes in brackets.
+Lost and fragmentary plays[edit]
+The following plays have come down to us today only in fragmentary form, if at all. They are known through quotations in other works, sometimes as little as a single line, or through pieces of papyrus or partial copies in manuscript form; some are known thanks to the survival of part of a collection of hypotheses (or summaries) in papyrus, and others through being parodied in the works of Aristophanes. Some of the fragments are extensive enough to allow tentative reconstructions to be proposed.
+A two-volume selection from the fragments, with facing-page translation, introductions, and notes, was published by Collard, Cropp, Lee, and Gibert,[96][97] as were two Loeb Classical Library volumes derived from them,[98][99] and there are critical studies in T. B. L. Webster's older The Tragedies of Euripides[100] based upon what were then believed to be the most likely reconstructions of the plays.
+The following lost and fragmentary plays can be dated, and are arranged in rough chronological order:
+Peliades (455 BC)
+Telephus (438 BC with Alcestis)
+Alcmaeon in Psophis (438 BC with Alcestis)
+Cretan Women (438 with Alcestis)
+Cretans (c. 435 BC)
+Philoctetes (431 BC with Medea)
+Dictys (431 BC with Medea)
+Theristai (satyr play, 431 BC with Medea)
+Stheneboea (before 429 BC)
+Bellerophon (c. 430 BC)
+Cresphontes (ca. 425 BC)
+Erechtheus (422 BC)
+Phaethon (c. 420 BC)
+Wise Melanippe (c. 420 BC)
+Alexandros (415 BC with Trojan Women)
+Palamedes (415 BC with Trojan Women)
+Sisyphus (satyr play, 415 BC with Trojan Women)
+Captive Melanippe (c. 412 BC)
+Andromeda (412 BC with Helen)
+Antiope (c. 410 BC)
+Archelaus (c. 410 BC)
+Hypsipyle (c. 410 BC)
+Alcmaeon in Corinth (c. 405 BC) Won first prize as part of a trilogy with The Bacchae and Iphigenia in Aulis.
+The following lost and fragmentary plays are of uncertain date, and are arranged in English alphabetical order.
+Aegeus
+Aeolus
+Alcmene
+Alope, or Cercyon
+Antigone
+Auge
+Autolycus
+Busiris
+Cadmus
+Chrysippus
+Danae
+Epeius
+Eurystheus
+Hippolytus Veiled
+Ino
+Ixion
+Lamia
+Licymnius
+Meleager
+Mysians
+Oedipus
+Oeneus
+Oenomaus
+Peirithous
+Peleus
+Phoenix
+Phrixus
+Pleisthenes
+Polyidus
+Protesilaus
+Reapers
+Rhadamanthys
+Sciron
+Scyrians
+Syleus
+Temenidae
+Temenos
+Tennes
+Theseus
+Thyestes
+Notes[edit]
+^ The epithet "the most tragic of poets" was coined by Aristotle, probably in reference to a perceived preference for unhappy endings, yet it has wider relevance: "For in his representation of human suffering Euripides pushes to the limits of what an audience can stand; some of his scenes are almost unbearable."—B. Knox,'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), page 339
+^ 'The poet of the Greek enlightenment' is taken from W. Nestle, Euripides, Stuttgart (1901); 'Euripides the irrationalist' is from E. Dodds, C.R 43 (1929), pages 97-104
+^ This summary of the transmission is adapted from a) Denys L. Page, Euripides: Medea, Oxford University Press (1976), Introduction page xxxvii-xliv; b) L.P.E.Parker, Euripides: Alcestis, Oxford University Press (2007), Introduction page lvii-lxv; c) E.R.Dodds, Euripides: Bacchae, Oxford University Press (1960), Introduction pages li-lvi
+^ παῦρον ⌊δὲ δὴγένος ἐν πολλαῖς
+εὕροις ⌊ἂν ἴσως
+οὐκ ἀπό⌊μουσον τὸ γυναικῶν.
+καί φημι ⌊βροτῶν οἵτινές εἰσιν
+πάμπαν ⌊ἄπειροι μηδ΄ ἐφύτευσαν
+παῖ⌋δας͵ ⌊προφέρειν εἰς εὐτυχίαν
+⌊τῶν γειναμένων.⌋
+"Among many women, you might find a small class who are not uneducated. And I tell you that those who have no experience of children and parenthood are better off than those who do."—Medea lines 1087-91. (Half brackets enclose words not transmitted by the fragment but supplied by the greater tradition (see Leiden Conventions). The word οὐκ supports a reading preferred by modern scholars (it is represented as κοὐκ in other sources)—Denys L.Page, Euripides: Medea, O.U.P. (reprint 1978), note 1087-89, page 151)
+References[edit]
+^ Jones, Daniel; Roach, Peter, James Hartman and Jane Setter, eds. Cambridge English Pronouncing Dictionary. 17th edition. Cambridge UP, 2006.
+^ Walton (1997, viii, xix)
+^ B. Knox,'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), page 316
+^ a b c Moses Hadas, Ten Plays by Euripides, Bantam Classic (2006), Introduction, page ix
+^ a b L.P.E.Parker, Euripides: Alcestis, Oxford University Press (2007), Introduction page lx
+^ a b Moses Hadas, Ten Plays by Euripides, Bantam Classic (2006), Introduction, pages xviii-xix
+^ A.S. Owen, Euripides: Ion, Bristol Classical Press (1990), Introduction page vii
+^ B.M.Knox, 'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), page 329
+^ Moses Hadas, Ten Plays by Euripides, Bantam Classic (2006), Introduction, pages viii-ix
+^ Nussbaum, Martha. The Fragility of Goodness, pp. 411-13.
+^ Denys L. Page, Euripides: Medea, Oxford University Press (1976), Introduction page xi, (quoting translation by Murray)
+^ a b Denys L. Page, Euripides: Medea, Oxford University Press (1976), Introduction pages ix-xii
+^ Robin Mitchell-Boyask, Euripides: Medea, Diane Svarlien (trans.), Hackett Publishing Company (2008), Introduction, page xii
+^ Justina Gregory, 'Euripidean Tragedy', in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), page 253
+^ Mary Ellen Snodgrass, Cliff Notes on Greek Classics, Wiley Publishing Inc. (1998), pages 147-48
+^ a b c Justina Gregory, 'Euripidean Tragedy', in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), page 252
+^ B.M.Knox, 'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), page 317
+^ Richard Rutherford, Medea and Other Plays. By Euripides, Introduction. Rev ed. London: Penguin, 2003. ISBN 0-14-044929-9.
+^ Plutarch, Life of Lysander, cited and translated by B.M.Knox, 'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), page 337
+^ David Barrett and Alan Sommerstein (eds), The Birds and Other Plays by Aristophanes, Penguin Classics 2003, page 9
+^ Duane Reed Stuart, Epochs and Greek and Roman Biography, Biblo and Tannen Booksellers and Publishers' Inc. (1928), page 174
+^ Alan H. Sommerstein, Aristophanes: Lysistrata, The Acharnians, The Clouds, Penguin Books (1973), note 35, page 241
+^ David Barret (trans.), Aristophanes: The Frogs and Other Plays (1964), page 211
+^ Moses Hadas, Ten Plays by Euripides, Bantam Classic (2006), Introduction, page viii
+^ B.M.Knox, 'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), page 316-17
+^ B.M.Knox, 'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), pages 318
+^ E.R.Dodds, Euripides: Bacchae, Oxford University Press (1960), Introduction page xl
+^ translated by B.M.Knox, 'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), pages 317
+^ John Gould, 'Tragedy in performance', in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (eds), Cambridge University Press (1985), pages 265-67
+^ D.J. Mastronade, 'European Tragedy and Genre', in Euripides and Tragic Theatre in the Late Fifth Century, M.Cropp, K.Lee and D. Sansone (eds), Champaign, Ill. (1999-200), page 27
+^ C. Meier, The Political Art of Greek Tragedy, Trans. A. Webber, Baltimore (1993), pages 4, 42
+^ a b Philip Vellacott, Euripides: The Bacchae and Other Plays, Penguin Classics (1954), Introduction page 10
+^ Justina Gregory, 'Euripidean Tragedy', in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), page 260
+^ Neil Croally, 'Tragedy's Teaching', in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), page 66
+^ Justina Gregory, "Euripidean Tragedy", in A Companion to Greek Tragedy, Justina Gregory (ed.) Blackwell Publishing Ltd (2005), page 264
+^ Justina Gregory, 'Euripidean Tragedy', in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), page 264
+^ Hippolytus, lines 409-27, Moses Hadas (trans.), Ten Plays by Euripides, Bantam Classic (2006), Introduction, page 85
+^ Moses Hadas, Ten Plays by Euripides, Bantam Classic (2006), Introduction, page x
+^ B.M.Knox, 'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), pages 328
+^ The Trojan Women lines 886-89, Moses Hadas, Ten Plays by Euripides, Bantam Classic (2006); supporting comment from Introduction, page x
+^ a b B. M. Knox, 'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), p. 327
+^ Christopher Pelling, "Tragedy, Rhetoric and Performance Culture", in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), page 85
+^ A Further Note on the Modernity of "Hippolytus" Robert Skloot. The Classical Journal, Vol. 64, No. 5. (Feb., 1969), pp. 226-227. JSTOR.org
+^ Bernd Seidensticker, "Dithyramb, Comedy and Satyr-Play', in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), pages 52-3
+^ B.M.Knox, 'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), pages 326
+^ Justina Gregory, 'Euripidean Tragedy', in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), page 261
+^ B.M.Knox, 'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), pages 325
+^ B. M. Knox, 'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), page 324
+^ Moses Hadas, Ten Plays by Euripides, Bantam Classic (2006), page xvi-xviii
+^ B. M. Knox, 'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), pages 332
+^ Moses Hadas, Ten Plays by Euripides, Bantam Classic (2006), page xvi
+^ Justina Gregory, A Companion to Greek Tragedy, Blackwell Publishing Ltd (2005), page 267
+^ B. M. Knox, 'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), pp. 332-366
+^ Moses Hadas, Ten Plays by Euripides, Bantam Classic (2006), page 195
+^ B. M. Knox, 'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), pages 334-35
+^ Bernd Seidensticker, "Dithyramb, Comedy and Satyr-Play', in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), p. 50
+^ Justina Gregory, 'Euripidean Tragedy', in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), page 269
+^ Justina Gregory, "Euripidean Tragedy", in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), page 256
+^ Medea 824 sqq.; Denys L. Page, Euripides: Medea, Oxford University Press (1976), Introduction page vii
+^ L. P. E. Parker, Euripides: Alcestis, Oxford University Press (2007), Introduction page lxxii
+^ B. M. Knox, "Euripides" in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), pages 338
+^ B.M.Knox, 'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), pages 317-18
+^ Justina Gregory, 'Euripidean Tragedy', in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), page 252-3
+^ David Barrett, Aristophanes: The Frogs and Other Plays, Penguin Books (1964), page 98
+^ Robin Mitchel-Boyask, Euripides: Medea, Hackett Publishing Co. (2008), Introduction page xii
+^ L.P.E.Parker, Euripides: Alcestis, Oxford University Press (2007), Introduction page xl
+^ B.M.Knox, 'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), page 339
+^ S. Philippo, Silent Witness: Racine's Non-Verbal Annotations of Euripides, Oxford University Press (2003), page 22
+^ a b L.P.E.Parker, Euripides: Alcestis, Oxford University Press (2007), Introduction page xlii
+^ Albert Heinrichs, 'Nietzsche in Greek Tragedy and the Tragic', in A companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), page 447
+^ L.P.E.Parker, Euripides: Alcestis, Oxford University Press (2007), Introduction page xl-xliv
+^ U.V. Wilamowitz-Moellendorff, Euripides: Herakles Vol. 1, Darmstadt, page 113, quoted by J. Gregory in A companion to Greek Tragedy, Blackwell Publishing Ltd (2005), page 255
+^ Justina Gregory, 'Euripidean Tragedy' in A companion to Greek Tragedy, Blackwell Publishing Ltd (2005), page 255
+^ Collard 1975, quoted by Justina Gregory, 'Euripidean Tragedy' in A companion to Greek Tragedy, Blackwell Publishing Ltd (2005), page 259
+^ Peter Levi, 'Greek Drama' in The Oxford History of the Classical World, J.Boardman, J. Griffin and O. Murray (ed.s), Oxford University Press (1986), page 167
+^ Plutarch Vit.Dec.Orat. 851e, cited by Denys L. Page, Euripides: Medea, Oxford University Press (1976), Introduction page xxxix-xl
+^ Denys L. Page, Euripides: Medea, Oxford University Press (1976), Introduction page xlii
+^ "POxy Oxyrhynchus Online". Papyrology.ox.ac.uk. 17 April 2005. Retrieved 30 August 2013. 
+^ "Papyrology Websites". Papyrology.ox.ac.uk. Retrieved 30 August 2013. 
+^ Justina Gregory, 'Euripidean Tragedy', in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), page 259
+^ William Ritchie, The Authenticity of the Rhesus of Euripides, Cambridge University Press (1964)
+^ a b Justina Gregory, 'Euripidean Tragedy', in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), page 254
+^ A.S.Owen, Euripides: Ion, Bristol Classical Press, Introduction pages xl-xli
+^ B. Knox,'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), page 337
+^ Justina Gregory, 'Euripidean Tragedy', in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), page 257
+^ M. Platnauer, Iphigenia in Tauris, Oxford University Press (1938), Introduction page 14
+^ E.R.Dodds, Euripides: Bacchae, Oxford University Press (1960), Introduction pages xxxvi
+^ John Gould, 'Tragedy in performance' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), page 281
+^ A.S. Owen, Euripides: Ion, Bristol Classical Press (1990), Introduction page 91
+^ Justina Gregory, 'Euripidean Tragedy', in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), page 258
+^ B. Knox,'Euripides' in The Cambridge History of Classical Literature I: Greek Literature, P. Easterling and B. Knox (ed.s), Cambridge University Press (1985), page 338
+^ Moses Hadas, Ten Plays by Euripides, Bantam Classic (2006), Introduction, page xvi
+^ E.B.Ceadel, 'Resolved Feet in the Trimeters of Euripides', Classical Quarterly xxxv (1941), pages 66-89
+^ William Ritchie, The Authenticity of the Rhesus of Euripides, Cambridge University Press (1964), page 261
+^ Justina Gregory, 'Euripidean Tragedy', in A Companion to Greek Tragedy, Justina Gregory (ed.), Blackwell Publishing Ltd (2005), page 254-58
+^ Euripides (1995). Collard, C.; Cropp, M.J.; Lee, K.H., eds. Selected Fragmentary Plays: Volume I. Aris & Phillips. ISBN 0-85668-619-0. 
+^ Euripides (2005). Collard, C.; Cropp, M.J.; Gibert, J., eds. Selected Fragmentary Plays: Volume II. Aris & Phillips. ISBN 0-85668-621-2. 
+^ Euripides (2008). Fragments: Aegeus-Meleager (Loeb Classical Library No. 504). Cambridge, MA: Harvard University Press. ISBN 0-674-99625-9. 
+^ Euripides (2009). Oedipus-Chrysippus & Other Fragments. Cambridge, MA: Harvard University Press. ISBN 0-674-99631-3. 
+^ Webster, T. B. L. (1967). The Tragedies of Euripides. London: Methuen. p. 316. 
+Further reading[edit]
+Barrett, William Spencer (2007). West, M. L., ed. Greek lyric, tragedy, and textual criticism collected papers. Oxford: Oxford University Press. ISBN 0-19-920357-1. 
+Conacher, D. J. (1967). Euripidean Drama: Myth, Theme, and Structure. London: Oxford University Press. 
+Croally, N.T. (2007). Euripidean polemic: the Trojan women and the function of tragedy. Cambridge: Cambridge University Press. ISBN 0-521-04112-0. 
+Euripides (1968). Segal, Erich, ed. Euripides: A Collection of Critical Essays. Englewood Cliffs, NJ: Prentice-Hall. 
+Euripides (1983). Barrett, William Spencer, ed. Hippolytos. Oxford: Clarendon Press. ISBN 0-19-814167-X. 
+Euripides (1997). "Introduction". Plays VI. Methuen Classical Greek Dramatists. J. Michael Walton, introduction. London: Methuen. pp. vii–xxii. ISBN 0-413-71650-3. 
+Gregory, Justina (1991). Euripides and the instruction of the Athenians. Ann Arbor: University of Michigan Press. ISBN 0-472-10230-3. 
+Ippolito, P. (1999). La vita di Euripide (in Italian). Naples: Dipartimento di Filologia Classica dell'Università degli Studi di Napoli Federico II. 
+Kitto, H. D. F. (1959). Greek tragedy: a literary study. New York: Barnes and Noble. 
+Kovacs, David (1994). Euripidea. Leiden: E.J. Brill. ISBN 90-04-09926-3. 
+Lefkowitz, Mary R. (1981). The lives of the Greek poets. London: Duckworth. ISBN 0-7156-1721-4. 
+Lucas, Frank Laurence (2012). Euripides and his Influence. New York: Barnes and Noble. ISBN 9781258337124. 
+Murray, Gilbert (1946). Euripides and His Age (2nd ed.). London: Oxford University Press. 
+Powell, Anton, ed. (1990). Euripides, women, and sexuality. London: Routledge. ISBN 0-415-01025-X. 
+Scullion, S. (2003). "Euripides and Macedon, or the silence of the Frogs". The Classical Quarterly. 53 (2): 389–400. doi:10.1093/cq/53.2.389. 
+Segal, Charles, ed. (1993). Euripides and the poetics of sorrow: art, gender, and commemoration in Alcestis, Hippolytus, and Hecuba. Durham, N.C.: Duke University Press. ISBN 0-8223-1360-X. 
+Sommerstein, Alan H. (2002). Greek drama and dramatists. London: Routledge. ISBN 0-415-26028-0. 
+Webster, T. B. L. (1967). The Tragedies of Euripides. London: Methuen. 
+External links[edit]
+Wikiquote has quotations related to: Euripides
+Wikimedia Commons has media related to Euripides.
+Wikisource has original works written by or about:
+Euripides
+Works by Euripides at Project Gutenberg
+Works by or about Euripides at Internet Archive
+Works by Euripides at LibriVox (public domain audiobooks)
+Euripides with an english translation by Arthur S. Way. D. Lit. in four volumes, London, William Heinemann; New York, G. P. Putnam's Sons, vol. 1, vol. 2, vol. 3, vol. 4.
+Encarta's entry for Euripides (Archived 2009-10-31)
+Euripides-related materials at the Perseus Digital Library
+Useful summaries of Euripides' life, works, and other relevant topics of interest at TheatreHistory.com.
+Fordham.edu
+(French) AC-Strasbourg.fr
+Imagi-nation.com
+IMDBs List of movies based on Euripides plays
+Staging of Euripides' fragmentary Hypsipyle
+Virginia Polytechnic Institute and State University, Euripides, Trojan Women, 740-779; read by Stephen Daitz
+Euripidis opera omnia ex editionibus praestantissimis fideliter recusa, latina interpretatione, scholiis antiquis et eruditorum observationibus illustrata, 9 voll., Glasguae cura et typis Andreae et Joannis M. Duncan, 1821: vol. 1, vol. 2, vol. 3, vol. 4, vol. 5, vol. 6, vol. 7, vol. 8, vol. 9.
+Scholia of Euripides:
+Scholia in Euripidem, Eduardus Schwartz (ed.), 2 voll., Berolini tyois et impensis Georgii Reimer, 1887-91.
+[1] A Commentary on Euripides' Bacchae.
+v
+t
+e
+Plays by Euripides
+Extant plays
+Cyclops
+Alcestis
+Medea
+Children of Heracles
+Hippolytus
+Andromache
+Hecuba
+The Suppliants
+Electra
+Herakles
+The Trojan Women
+Iphigenia in Tauris
+Ion
+Helen
+The Phoenician Women
+Orestes
+Bacchae
+Iphigenia in Aulis
+Rhesus
+Lost and
+fragmentary plays
+Alcmaeon in Corinth
+Alcmaeon in Psophis
+Andromeda
+Antigone
+Archelaus
+Bellerophon
+Cresphontes
+Oedipus
+Peliades
+Phaethon
+Philoctetes
+Theristai
+ 
+Associated subjects
+v
+t
+e
+Iphigenia in Aulis and Iphigenia in Tauris by Euripides
+Iphigenia's family
+Agamemnon (father)
+Clytemnestra (mother)
+Aegisthus (stepfather)
+Orestes (brother)
+Electra (sister)
+Chrysothemis (sister)
+Iphigenia in Aulis
+Operas
+Iphigénie en Aulide (1774, Gluck)
+Plays
+Iphigénie (1674)
+Film
+Iphigenia (1977)
+Novel
+The Songs of the Kings
+Trilogy
+The Bacchae
+Alcmaeon in Corinth
+Related
+Bash: Latter-Day Plays
+Iphigenia in Tauris
+Operas
+Iphigénie en Tauride (1699, Desmarets and Campra)
+Ifigenia in Tauride (1771, Jommelli)
+Iphigénie en Tauride (1779, Gluck)
+discography
+Iphigénie en Tauride (1781, Piccinni)
+Plays
+Iphigenia in Tauris (1779)
+v
+t
+e
+The Bacchae by Euripides (405 BC)
+Characters
+Dionysus
+Tiresias
+Cadmus
+Agave
+Pentheus
+Autonoe
+Ino
+Films
+The Bacchantes (1961)
+Dionysus in '69 (1970)
+The Bacchae (2002)
+Plays
+Dionysus in '69 (1968)
+A Mouthful of Birds (1986)
+The Lightning Child (2013)
+Operas
+The Bassarids (1966)
+Trilogy
+Iphigenia in Aulis
+Alcmaeon in Corinth
+Related
+Daphne (opera)
+Ink (novel)
+Talk (play)
+v
+t
+e
+Alcestis by Euripides
+Characters
+Apollo
+Thanatos / Death
+Maidservant
+Alcestis
+Admetus
+Eumelus
+Heracles
+Pheres
+Plays
+The Cocktail Party
+Operas
+Alceste (1674)
+Admeto (1727)
+Alceste (1767)
+Related
+Alcmaeon in Psophis
+v
+t
+e
+The Trojan Women by Euripides
+Film
+The Trojan Women (1971)
+Operas
+Troades (1986)
+Literature
+The Gate to Women's Country (1988)
+Women of Owu (2006)
+Related
+A Dream, What Else?
+v
+t
+e
+Ancient Greece
+Outline
+Timeline
+ 
+History
+Geography
+Periods
+Cycladic civilization
+Minoan civilization
+Mycenaean civilization
+Greek Dark Ages
+Archaic period
+Classical Greece
+Hellenistic Greece
+Roman Greece
+Geography
+Aegean Sea
+Aeolis
+Alexandria
+Antioch
+Cappadocia
+Crete
+Cyprus
+Doris
+Ephesus
+Epirus
+Hellespont
+Ionia
+Ionian Sea
+Macedonia
+Magna Graecia
+Miletus
+Peloponnesus
+Pergamon
+Pontus
+Taurica
+Ancient Greek colonies
+ 
+City states
+Politics
+Military
+City states
+Argos
+Athens
+Byzantion
+Chalcis
+Corinth
+Eretria
+Kerkyra
+Larissa
+Megalopolis
+Megara
+Rhodes
+Samos
+Sparta
+Syracuse
+Thebes
+Politics
+Boeotarch
+Boule
+Koinon
+Proxeny
+Strategos
+Tagus
+Tyrant
+Amphictyonic League
+Athenian
+Agora
+Areopagus
+Ecclesia
+Graphē paranómōn
+Heliaia
+Ostracism
+Spartan
+Apella
+Ephor
+Gerousia
+Harmost
+Macedon
+Synedrion
+Koinon
+Military
+Wars
+Athenian military
+Antigonid Macedonian army
+Army of Macedon
+Ballista
+Cretan archers
+Hellenistic armies
+Hippeis
+Hoplite
+Hetairoi
+Macedonian phalanx
+Phalanx
+Peltast
+Pezhetairos
+Sarissa
+Sacred Band of Thebes
+Sciritae
+Seleucid army
+Spartan army
+Toxotai
+Xiphos
+Xyston
+ 
+People
+List of ancient Greeks
+Rulers
+Kings of Argos
+Archons of Athens
+Kings of Athens
+Kings of Commagene
+Diadochi
+Kings of Lydia
+Kings of Macedonia
+Kings of Paionia
+Attalid kings of Pergamon
+Kings of Pontus
+Kings of Sparta
+Tyrants of Syracuse
+Philosophers
+Anaxagoras
+Anaximander
+Anaximenes
+Antisthenes
+Aristotle
+Democritus
+Diogenes of Sinope
+Empedocles
+Epicurus
+Gorgias
+Heraclitus
+Hypatia
+Leucippus
+Parmenides
+Plato
+Protagoras
+Pythagoras
+Socrates
+Thales
+Zeno
+Authors
+Aeschylus
+Aesop
+Alcaeus
+Archilochus
+Aristophanes
+Bacchylides
+Euripides
+Herodotus
+Hesiod
+Hipponax
+Homer
+Ibycus
+Lucian
+Menander
+Mimnermus
+Panyassis
+Philocles
+Pindar
+Plutarch
+Polybius
+Sappho
+Simonides
+Sophocles
+Stesichorus
+Theognis
+Thucydides
+Timocreon
+Tyrtaeus
+Xenophon
+Others
+Agesilaus II
+Agis II
+Alcibiades
+Alexander the Great
+Aratus
+Archimedes
+Aspasia
+Demosthenes
+Epaminondas
+Euclid
+Hipparchus
+Hippocrates
+Leonidas
+Lycurgus
+Lysander
+Milo of Croton
+Miltiades
+Pausanias
+Pericles
+Philip of Macedon
+Philopoemen
+Praxiteles
+Ptolemy
+Pyrrhus
+Solon
+Themistocles
+Groups
+Philosophers
+Playwrights
+Poets
+Tyrants
+By culture
+Ancient Greek tribes
+Thracian Greeks
+Ancient Macedonians
+ 
+Society
+Culture
+Society
+Agriculture
+Calendar
+Clothing
+Coinage
+Cuisine
+Economy
+Education
+Festivals
+Funeral and burial practices
+Homosexuality
+Law
+Olympic Games
+Pederasty
+Philosophy
+Prostitution
+Religion
+Slavery
+Warfare
+Wedding customs
+Wine
+Arts
+Sciences
+Architecture (Greek Revival architecture)
+Astronomy
+Literature
+Mathematics
+Medicine
+Music (Musical system)
+Pottery
+Sculpture
+Technology
+Theatre
+Religion
+Funeral and burial practices
+Mythology
+mythological figures
+Temple
+Twelve Olympians
+Underworld
+Sacred places
+Eleusis
+Delphi
+Delos
+Dodona
+Mount Olympus
+Olympia
+Structures
+Athenian Treasury
+Lion Gate
+Long Walls
+Philippeion
+Theatre of Dionysus
+Tunnel of Eupalinos
+Temples
+Aphaea
+Artemis
+Athena Nike
+Erechtheion
+Hephaestus
+Hera (Olympia)
+Parthenon
+Samothrace
+Zeus (Olympia)
+Language
+Proto-Greek
+Mycenaean
+Homeric
+Dialects
+Aeolic
+Arcadocypriot
+Attic
+Doric
+Ionic
+Locrian
+Macedonian
+Pamphylian
+Koine
+Writing
+Linear A
+Linear B
+Cypriot syllabary
+Greek alphabet
+Greek numerals
+Attic numerals
+ 
+Lists
+Cities
+in Epirus
+People
+Place names
+Stoae
+Temples
+Theatres
+Category
+Portal
+Authority control
+WorldCat Identities
+VIAF: 265326651
+LCCN: n79063679
+ISNI: 0000 0001 2138 2034
+GND: 118531395
+SELIBR: 185719
+SUDOC: 026854775
+BNF: cb130914401 (data)
+MusicBrainz: 9fa39df2-393f-4b64-91e0-2d20524ec30f
+NDL: 00439046
+NKC: jn19981001000
+BNE: XX850782
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Euripides&oldid=768123369"
+Categories: EuripidesAncient Greek dramatists and playwrightsAncient Greek poetsAncient AtheniansCourtiers of Archelaus I of Macedon5th-century BC Greek people5th-century BC writersTragic poetsPeople from Salamis Island480s BC births400s BC deathsHidden categories: Articles containing Ancient Greek-language textPages using ISBN magic linksUse dmy dates from July 2013Articles with hCardsCS1 Italian-language sources (it)Commons category with local link same as on WikidataArticles with Project Gutenberg linksArticles with Internet Archive linksArticles with LibriVox linksArticles with French-language external linksWikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with SELIBR identifiersWikipedia articles with BNF identifiersWikipedia articles with MusicBrainz identifiers
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+Article
+Talk
+Variants
+Views
+Read
+Edit
+View history
+More
+Search
+Navigation
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+Interaction
+HelpAbout WikipediaCommunity portalRecent changesContact page
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page
+Print/export
+Create a bookDownload as PDFPrintable version
+In other projects
+Wikimedia CommonsWikiquoteWikisource
+Languages
+AlemannischالعربيةAragonésAsturianuAzərbaycancaБашҡортсаБеларускаяБеларуская (тарашкевіца)‎БългарскиBosanskiBrezhonegCatalàČeštinaCymraegDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisFryskGalego한국어ՀայերենHrvatskiIdoBahasa IndonesiaInterlinguaÍslenskaItalianoעבריתქართულიҚазақшаКыргызчаLatinaLatviešuLietuviųMagyarМакедонскиMalagasyമലയാളംमराठीNederlands日本語NapulitanoNorsk bokmålNorsk nynorskਪੰਜਾਬੀPolskiPortuguêsRomânăРусскийScotsSeelterskShqipSicilianuSimple EnglishسنڌيSlovenčinaSlovenščinaکوردیی ناوەندیСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaTagalogTürkçeУкраїнськаTiếng ViệtWinaray中文
+Edit links
+This page was last modified on 1 March 2017, at 22:48.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view

@@ -1,0 +1,217 @@
+Tacitus – Wikipedia
+Tacitus
+aus Wikipedia, der freien Enzyklopädie
+Wechseln zu:					Navigation, 					Suche
+Der Titel dieses Artikels ist mehrdeutig. Weitere Bedeutungen sind unter Tacitus (Begriffsklärung) aufgeführt.
+Publius Cornelius Tacitus (* um 58 n. Chr.; † um 120) war ein bedeutender römischer Historiker und Senator.
+Inhaltsverzeichnis
+1 Name und Familie
+2 Leben
+3 Werke
+3.1 Allgemeines
+3.2 Charakter der taciteischen Historiographie
+3.3 Tacitus und der Aufstand des Arminius
+3.4 Tacitus über das frühe Christentum
+3.5 Judenexkurs
+4 Nachleben
+5 Moderne Bewertung
+6 Ausgaben
+6.1 Kritische Ausgaben
+6.2 Zweisprachige Ausgaben und Übersetzungen
+7 Literatur
+8 Weblinks
+9 Anmerkungen
+Name und Familie[Bearbeiten | Quelltext bearbeiten]
+Tacitus’ praenomen (Vorname) dürfte (wie aus einer Handschrift ersichtlich) Publius gewesen sein,[1] wenngleich ihn Sidonius Apollinaris (5. Jahrhundert) als Gaius bezeichnete. Das Cognomen Tacitus (wörtlich „der Schweigsame“) findet sich auch beim möglichen Vater des Historikers, dem Prokurator von Gallia Belgica.[2] Wenn diese Verbindung korrekt ist, gehörte Tacitus’ Familie dem Ritterstand an, und er stieg als ihr erster Angehöriger (homo novus) in den Senatorenstand auf. Die Familie stammte wahrscheinlich aus einer der römischen Provinzen, vielleicht Gallia Cisalpina oder Gallia Narbonensis.[3] Tacitus’ mögliche Grabinschrift[4] überliefert mit CA den Beginn eines weiteren Namensbestandteils; möglicherweise lautete er vollständig Caecina (Paetus?), was auf eine familiäre Verbindung mit der senatorischen Familie der Caecinae hindeuten könnte. Eventuell war Tacitus’ Vater mit einer Caecinia verheiratet.[5]
+Leben[Bearbeiten | Quelltext bearbeiten]
+Mutmaßliche Grabinschrift für Tacitus (Fragment), Museo delle Terme di Diocleziano, Rom
+Über Tacitus’ Leben existieren nur verstreute Zeugnisse von ihm selbst oder von seinen Zeitgenossen, vor allem vom jüngeren Plinius, in dessen Briefesammlung Tacitus der häufigste Adressat ist. Er dürfte etwa 58 n. Chr. geboren sein[6] und wurde offenbar zielstrebig auf den Eintritt in den Staatsdienst vorbereitet. Als seine Lehrer nennt er selbst[7] Marcus Aper und Iulius Secundus. Er schlug die übliche Laufbahn als Gerichtsredner, d. h. Rechtsanwalt, ein. Schon als junger Mann brachte er es zu Ansehen, wie der etwas jüngere Plinius angibt, der ihm nachzueifern strebte.[8] Etwa im Jahr 76 oder 77 verlobte sich Tacitus mit der Tochter des Konsuls Gnaeus Iulius Agricola und heiratete sie bald darauf. Unter Vespasian begann er die politische Karriere eines römischen Senators (cursus honorum), die er unter den beiden folgenden flavischen Kaisern fortsetzte.[9] In welchen Jahren er dabei die üblichen Ämter bekleidete, ist nicht genau bekannt, lässt sich aber aus dem Vergleich mit besser dokumentierten Karrieren teilweise erschließen. Nach einer neueren Vermutung, die eine fragmentarisch überlieferte Grabinschrift auf Tacitus bezieht,[4] war er Decemvir stlitibus iudicandis, etwa im Jahr 76, und anschließend vermutlich Militärtribun.[10] Die Inschrift nennt als nächstes Amt eine Vertrauensstellung beim Kaiser als quaestor Augusti, die Tacitus vielleicht gegen Ende der Herrschaft des Titus im Jahr 81 bekleidete. Letztes erhaltenes Amt auf der Inschrift ist das Volkstribunat, das in die ersten Jahre der Herrschaft Domitians fallen dürfte. Möglicherweise war Tacitus vorher oder nachher als Legat eines Prokonsuls in einer Provinz.[11]
+Von Tacitus selbst ist bezeugt, dass er 88 n. Chr., im Jahr der von Domitian gefeierten Säkularspiele, Prätor war und zu diesem Zeitpunkt schon die religiöse Funktion eines Quindecimvir sacris faciundis innehatte.[12] Anschließend war er (als Statthalter oder Legat einer Legion?) mehrere Jahre lang nicht in Rom und deswegen nicht zugegen, als sein Schwiegervater im Jahr 93 starb.[13] Tacitus kann also, übrigens ebenso wie Agricola, kaum als Gegner Domitians gelten, sondern er machte unter diesem Kaiser, den er später als Tyrannen darstellte, Karriere. Während der Herrschaft Nervas (96–98 n. Chr.) im Jahre 97 wurde Tacitus Suffektkonsul – umstritten ist, ob ihn hierzu bereits Domitian designiert hatte – und hielt in diesem Amt eine Leichenrede auf Lucius Verginius Rufus.[14] Etwa in dieser Zeit, spätestens mit Beginn der Herrschaft Trajans (98–117 n. Chr.), nahm er seine schriftstellerische Tätigkeit auf.
+Im Jahr 100 klagte Tacitus zusammen mit Plinius den früheren Statthalter der Provinz Africa, Marius Priscus, in einem Repetundenverfahren an.[15] In den folgenden Jahren bis 104/105 scheint er zeitweilig von Rom abwesend gewesen zu sein,[16] möglicherweise als Statthalter einer konsularischen Provinz.[17] Nach seiner Rückkehr arbeitete er an seinem ersten großen Geschichtswerk, den Historien, die in mehreren Briefen des Plinius erwähnt werden.[18] Tacitus bekleidete, wohl im Amtsjahr 112/113, das Prokonsulat der Provinz Asia (auf dem Gebiet der heutigen Türkei), wie eine in Mylasa gefundene Inschrift zeigt.[19] Er hat vermutlich Trajan überlebt; das genaue Todesjahr ist nicht bekannt.[20]
+Werke[Bearbeiten | Quelltext bearbeiten]
+Allgemeines[Bearbeiten | Quelltext bearbeiten]
+Tacitus galt als einer der bedeutendsten Redner seiner Zeit; der Redekunst widmete er unter stilistischer Anlehnung an Marcus Tullius Cicero, den bedeutendsten Redner der goldenen Latinität, den Dialogus de oratoribus. Nach dem Konsulat (97) unter Nerva begann er mit der Arbeit an seinen großen Geschichtswerken, die sich eventuell bis in die Herrschaft des Kaisers Hadrian hinzog. Tacitus schrieb seine Geschichtswerke aus der Perspektive des Senators, der die Zeit der römischen Kaiser von Tiberius bis Domitian danach beurteilt, wie weit sie noch den Idealvorstellungen der römischen Republik entsprach. Im Grunde lehnte er die Monarchie ab und beklagte immer wieder den Verlust der senatorischen Freiheit. Seine scharfen und sprachlich brillanten Analysen haben das moderne Bild vom Römischen Reich im 1. Jahrhundert n. Chr. wesentlich geprägt. Er kritisierte zeitgenössische Zustände als Verfallserscheinungen und versuchte, dies anhand bewusst ausgewählter Episoden der Geschichte zu belegen. Der subtilen Koloration der Charaktere kam so die Aufgabe zu, dem Leser ein ganz bestimmtes Bild zu vermitteln. Dabei ist zu beachten, dass Tacitus sich zwar ausdrücklich der Maxime sine ira et studio (lateinisch „ohne Zorn und Eifer“) verschrieben hatte; dies meint aber keineswegs eine neutrale oder objektive Berichterstattung. Ähnlich wie sein Vorbild Sallust wollte Tacitus durch diese Formel lediglich seine Unabhängigkeit von der Tagespolitik betonen. Zwar hielt er sich in der Regel bei der Wiedergabe tatsächlicher Ereignisse an die Fakten. Doch die Auswahl des Materials und vor allem die Interpretation der Vorgänge, die er seinem Leser darbrachte, ist selten objektiv; dies zeigt sich beispielsweise bei der Charakterisierung des Tiberius, dem Tacitus grundsätzlich üble Absichten und Hintergedanken unterstellte. Dabei macht sich Tacitus' Denken in stereotypen Kategorien bemerkbar. Ein genaues Hinsehen lohnt sich immer dann, wenn Tacitus die Verantwortung für das Berichtete nicht selbst übernimmt, sondern ausdrücklich Gerüchte oder Erzählungen anderer wiedergibt – dies gilt etwa für seine wenig plausible Darstellung der angeblichen Ermordung des Claudius.
+Tacitus, Annalen (Ende des 11. und Anfang des 12. Buches) in der Handschrift Florenz, Biblioteca Medicea Laurenziana, Plut. 68,2, fol. 6v (2. Hälfte des 11. Jahrhunderts)
+Als Quellen dienten Tacitus neben mündlichen Berichten und Senatsakten auch mehrere Geschichtswerke, die nicht erhalten sind. Er benutzte unter anderem die Germanenkriege und die Historien des älteren Plinius. Des Weiteren wurden wohl die Werke des Aufidius Bassus, des Servilius Nonianus, des Fabius Rusticus und des Cluvius Rufus in Anspruch genommen.[21] Die Tatsache, dass diese Werke verloren sind, erschwert es erheblich, die Originalität und Bedeutung des Tacitus im Vergleich zu seinen Vorgängern zu beurteilen. In der neueren Forschung wird davon ausgegangen, dass Tacitus jeweils mehrere Quellen benutzt hat.
+Die Werke in vermuteter Entstehungsfolge:
+Agricola (De vita et moribus Iulii Agricolae) – Biographie des Feldherrn Gnaeus Iulius Agricola, seines Schwiegervaters, mit einer geographischen Beschreibung Britanniens.
+Germania (De origine et situ Germanorum liber) – Geographie und Kultur der Germanen, teilweise seinen Landsleuten als Gegenbild einer nicht korrupten und dekadenten Gesellschaft vor Augen gehalten.
+Dialogus de oratoribus – über den Verfall der Beredsamkeit.
+Historien (Historiae) – Geschichte des römischen Reiches von Galba (69) bis Domitian (96) (nur teilweise erhalten).
+Annales (Annalen bzw. ab excessu divi Augusti) – Geschichte des römischen Reiches vom Tod des Augustus (14) bis Nero (68) (etwa zur Hälfte erhalten)
+Charakter der taciteischen Historiographie[Bearbeiten | Quelltext bearbeiten]
+Tacitus war ein scharfer Kritiker der von Augustus begründeten staatlichen Ordnung des Prinzipats. Als Anhänger der alten Republik (und der damit assoziierten Freiheit aus der Perspektive der senatorisch-republikanischen Oberschicht) kritisierte er die Alleinherrschaft, die er als ursächlich für den Verfall von Gerechtigkeit und virtus ansah. Zugleich war er Realist genug, um die faktische Unvermeidbarkeit der Monarchie anzuerkennen. Geprägt vom Erlebnis der (in dieser Weise wohl zu Unrecht) als Tyrannei dargestellten Herrschaft Domitians (81–96) schildert er die Ereignisse um die julisch-claudischen Kaiser von Tiberius bis Nero (Annales) sowie der Flavier Vespasian, Titus und eben jenes Domitian (Historiae), wobei sich sein Geschichtsbild allmählich verdunkelt: Die vorgebliche Absicht, Zeugnis vom gegenwärtigen Glück (testimonium praesentium bonorum) abzulegen, tritt in den Hintergrund und weicht dem Bestreben, die Erinnerung an frühere Knechtschaft (memoria prioris servitutis) wachzuhalten. In dem Bewusstsein, dass die Zeiten knapp bemessen seien, in welchen man frei seine Meinung äußern könne, geriet ebendies zu seinem Hauptaugenmerk: den Taten der historischen Personen Würdigung oder Schmach zuteilwerden zu lassen, wobei Tacitus in stereotype Denkmuster verfiel. Tiberius etwa ist bei ihm ein durch und durch böser Mensch, wobei Tacitus die Person des Germanicus als Antipode zu Tiberius glorifizierend darstellt. Zur angeblich geplanten Schilderung der ihm positiver erscheinenden Zeit unter Augustus, Nerva und Trajan kam es nicht mehr (nach Ansicht mancher Althistoriker schrieb Tacitus hingegen deshalb nicht über seine eigene Zeit, weil ihm dies zu riskant erschien). Wohl sah Tacitus auch ein, dass es unmöglich war, zu den idealisierten Zuständen der res publica libera zurückzukehren bzw. dass er beim Verfassen einer „Zeitgeschichte“ auf Trajan hätte Rücksicht nehmen müssen.
+Tacitus’ Geschichtsschreibung ist demnach nicht wie beispielsweise die eines Titus Livius didaktisch-moralisch, sondern deskriptiv-moralisch und zutiefst pessimistisch. Er glaubt nicht an eine Besserung der Situation, da die Heilmittel gegen die Laster der Zeit zu langsam gewirkt hätten, zumal die meisten Träger der Tugend (virtus) Tyrannen zum Opfer gefallen seien und der Rest der Bürgerschaft (civitas) in Lethargie versunken sei.
+Tacitus und der Aufstand des Arminius[Bearbeiten | Quelltext bearbeiten]
+Tacitus beschrieb in seinen Annalen eingehend den Krieg gegen die Germanen. Von den zeitgenössischen Autoren unterschied er sich gerade durch seine bittere Kritik am Ausgang des Krieges.
+Hinsichtlich der verwendeten Quellen in Bezug auf die Germanicusfeldzüge sind keine sicheren Angaben möglich. In Frage kommen diverse heute verlorene Werke, wie die des Aufidius Bassus oder des älteren Plinius; wenigstens letzteren erwähnt Tacitus auch.[22] Für die Germanicusfeldzüge erlaubt die Darstellung des Tacitus nur bedingt eine sachliche Rekonstruktion der Ereignisse; vor allem die hinter den einzelnen Feldzügen stehenden Ziele und Absichten bleiben unklar.
+Der zentrale kompositorische Aspekt der ersten beiden Annalenbücher des Tacitus ist der scharfe Gegensatz zwischen dem Helden Germanicus und dem Tyrannen Tiberius (Parallele zu Tacitus’ Schwiegervater Agricola und Domitian). Der Marserfeldzug nach der Niederschlagung der Meuterei der Rheinlegionen (Herbst 14 n. Chr.) wird zum eigentlichen Neubeginn sieg- und ruhmreicher römischer Offensiven gegen das rechtsrheinische Germanien. Auch erzeugt Tacitus die Vorstellung, dass Rom bereits unter Augustus das einzig ehrenvolle Ziel definitiv aufgegeben hatte, expansiv die römische Herrschaft über Germanien (bis an die Elbe) wiederherzustellen. Für Tacitus – und nur für ihn – begann „der“ germanische Krieg im Herbst 14 und endete im Herbst 16. Aus der Natur der Sache ergab sich seine Auffassung dort keineswegs. Die moderne Geschichtsschreibung ist ihm dennoch darin z. T. gefolgt.
+Tacitus, Annales 15,44 (Ausführungen über die Christenverfolgung Neros) in der Handschrift Florenz, Biblioteca Medicea Laurenziana, Plut. 68,2, fol. 38r (2. Hälfte des 11. Jahrhunderts)
+Tacitus über das frühe Christentum[Bearbeiten | Quelltext bearbeiten]
+Tacitus überlieferte auch ein außerbiblisches Zeugnis über das frühe Christentum. Im 15. Buch seiner Annalen schreibt Tacitus über den Brand Roms im Jahre 64 n. Chr. und über den Versuch Neros, die Schuld dafür den Christen zu geben. Über ihren Namen berichtet Tacitus: „Dieser Name stammt von Christus, der unter Tiberius vom Prokurator Pontius Pilatus hingerichtet worden war“.[23]
+Judenexkurs[Bearbeiten | Quelltext bearbeiten]
+Tacitus gibt im 5. Buch der Historien als Exkurs zur Darstellung des jüdischen Kriegs einen Abriss über das antike Judentum.[24] Darin charakterisiert er die jüdische Kultpraxis sehr negativ:
+„Damit er sich des Volkes für die Zukunft versichere, gab Moyses ihnen neue Kultbräuche, die im Gegensatz stehen zu denen aller übrigen Menschen. Unheilig ist dort alles, was bei uns heilig, andererseits ist erlaubt bei ihnen, was für uns als Schande gilt.“[25]
+Nachleben[Bearbeiten | Quelltext bearbeiten]
+Die Titelseite von Justus Lipsius’ Edition von Tacitus’ kompletten Werken (1598), mit Stempeln der Bibliotheca Comunale in Empoli, Italien
+In der Antike fand Tacitus relativ wenig Beachtung, obwohl er, wie Plinius belegt, bei seinen Zeitgenossen als Schriftsteller großen Ruhm genoss. Durch den großen Erfolg Suetons erlosch die traditionelle Form der Geschichtsschreibung im lateinischen Westen (besonders in ihrer spezifischen senatorischen Form, für die Tacitus stand) bis in die Spätantike; zumindest kennen wir keine entsprechenden Werke. Dort dominierte, anders als im griechischen Osten, fortan das Genre der Kaiserbiographien (siehe auch Marius Maximus). Zudem galten Tacitus’ Sprache und Stil vielen vermutlich als zu anspruchsvoll. Ammianus Marcellinus schloss mit seinem umfassenden Geschichtswerk im späten 4. Jahrhundert bewusst an Tacitus an; nicht wenige Historiker, darunter Syme, sehen Ammianus sogar als (literarischen) „Erben des Tacitus“ an.[26] Sidonius Apollinaris (5. Jahrhundert) hat Tacitus offenbar gelesen, und der Kirchenvater Hieronymus fasste die Annalen und die Historien als eine 30 Bücher umfassende Kaisergeschichte auf.
+Tacitus, moderne Skulptur vor dem Parlamentsgebäude in Wien
+Im Mittelalter gerieten die Schriften des Tacitus fast völlig in Vergessenheit. Immerhin gibt es jedoch eine umfangreiche Benutzung der Germania in der Einleitung zur Translatio s. Alexandri des Rudolf von Fulda, der für eine Beschreibung der Sachsen des 9. Jahrhunderts die Germanencharakteristik des Tacitus nahezu wörtlich verwendet. In der Zeit des Humanismus (15./16. Jahrhundert) wurden die Schriften des Tacitus (v. a. die Germania, aber auch die Kapitel über Arminius in den Annalen) nach ihrer Wiederauffindung und Publizierung in Erstdrucken dann zu einer wichtigen Grundlage eines entstehenden Nationalbewusstseins. Deutsche Humanisten nahmen die positive Charakteristik der Germanen durch Tacitus begeistert auf und zogen sie recht unkritisch und in wörtlicher Übernahme zur Darstellung "„des“ deutschen Nationalcharakters" heran. Auch die Gestalt des Arminius entwickelte sich zum deutschen Nationalhelden und zum Vorkämpfer deutscher Freiheit gegen Rom (vgl. v. a. den Arminius des Ulrich von Hutten). In der Zeit der Französischen Revolution wurde er als Vorkämpfer gegen die Unterdrückung gefeiert, später wurde er jedoch teils sehr kritisch betrachtet (Theodor Mommsen).
+Der Mondkrater Tacitus wurde 1935 nach dem Historiker benannt.
+Moderne Bewertung[Bearbeiten | Quelltext bearbeiten]
+Man muss bei der Betrachtung der Geschichtswerke des Tacitus – die zweifellos stilistisch beeindruckend sind und die annalistisch-historiographische Tradition Roms auf ihren Höhepunkt führten – kritisch verfahren. So baute Tacitus oft Gerüchte und Hofklatsch ein,[27] was wohl auf das Quellenmaterial zurückzuführen ist, das er zur Fertigstellung seiner Werke gesichtet hatte. Geschickt bringt er dem Leser eine bestimmte Interpretation der geschilderten Vorgänge nahe, ohne selbst Farbe zu bekennen. Auch sein Denken in Schwarz-Weiß-Kategorien sollte zur Vorsicht mahnen. Manche Ereignisse lässt er wegfallen, andere interpretiert er so, dass sie seine Thesen zu untermauern scheinen. Gerne werden den Akteuren heimliche Motive unterstellt, von denen Tacitus, objektiv betrachtet, gar keine Kenntnis besessen haben kann. Von seinem verlockend klingenden Grundsatz, sine ira et studio („ohne Zorn und Eifer“) zu schreiben, kann daher bei seinem eigenen Werk nur bedingt die Rede sein. Gemeint ist an der fraglichen Stelle nicht Objektivität, sondern Tacitus behauptet lediglich, in seinem Urteil unabhängig zu sein. Gerade in solchen Fällen, in denen eine Parallelüberlieferung existiert, die eine Überprüfung seiner Angaben ermöglicht, zeigt sich, dass der Historiker das ihm vorliegende Material mitunter manipuliert hat.[28] Dies alles mindert jedoch kaum den Quellenwert seiner Darstellung, sofern sie mit entsprechender Vorsicht genutzt wird, und ganz und gar nicht die literarische Qualität seiner Werke. Es bleibt auch unbestritten, dass Tacitus einer der bedeutendsten römischen Historiker der frühen Kaiserzeit war und noch immer ist.
+Ausgaben[Bearbeiten | Quelltext bearbeiten]
+Kritische Ausgaben[Bearbeiten | Quelltext bearbeiten]
+Cornelii Taciti libri qui supersunt. Tom. I Pars Prima: Ab Excessu Divi Augusti Libri I-VI. Ed. Stephanus Borzsák. Stuttgart und Leipzig 1992.
+P. Cornelii Taciti libri qui supersunt. Tom. II Fasc. 3: Agricola. Ed. Iosephus Delz. Stuttgart 1983.
+Cornelii Taciti Annalium ab Excessu Divi Augusti Libri. Rec. brev. adnot. crit. instr. C. D. Fisher. Oxford 1906. ND 1951.
+P. Corneli Taciti libri qui supersunt. Tom. I: Ab Excessu Divi Augusti. Ed. Henricus Heubner. Stuttgart 1992.
+P. Cornelii Taciti libri qui supersunt. Tom. II Fasc. 4: Dialogus de oratoribus. Ed. Henricus Heubner. Stuttgart 1983.
+P. Cornelii Taciti libri qui supersunt. Tom. I: Ab Excessu Divi Augusti. Ed. Erich Koestermann. Leipzig 1960.
+P. Cornelii Taciti libri qui supersunt. Tom. II Fasc. 2: De origine et situ Germanorum liber. Rec. Alf Önnerfors. Stuttgart 1983.
+Cornelii Taciti libri qui supersunt. Tom. I, Pars Secunda: Ab Excessu Divi Augusti libri XI-XVI. Ed. Kenneth Wellesley. Leipzig 1986.
+Cornelii Taciti libri qui supersunt. Tom. II Pars Prima: Historiarum libri. Ed. Kenneth Wellesley. Leipzig 1989.
+Zweisprachige Ausgaben und Übersetzungen[Bearbeiten | Quelltext bearbeiten]
+Annalen
+P. Cornelius Tacitus. Annalen. Lateinisch-Deutsch. Hg. von Erich Heller. Mit einer Einführung von Manfred Fuhrmann (Sammlung Tusculum). 3. Aufl. Düsseldorf/Zürich 1997.
+Tacitus. Annalen. Deutsch von August Horneffer. Mit einer Einleitung von Joseph Vogt und Anmerkungen von Werner Schur. Stuttgart 1957.
+Tacitus. The Annals, Books I-III. With an English Translation by John Jackson. In: Tacitus in Five Volumes III: The Histories, Book IV-V. The Annals, Books I-III. Cambridge, Mass. und London 1969 (Erstausgabe 1931).
+Tacitus in Five Volumes IV: The Annals. Books IV-VI, XI-XII. With an English Translation by John Jackson. (Loeb Classical Library 312). Cambridge, Mass. und London 1970 (Erstausgabe 1937).
+Tacitus in Five Volumes V: The Annals. Books XIII-XVI. With an English Translation by John Jackson. Cambridge, Mass. und London 1969 (Erstausgabe 1937).
+Cornelius Tacitus. Tiberius. Annales ab excessu Divi Augusti/Roms Geschichte seit Augustus Tod. Erster Teil: I.-III. Buch. Lateinisch und Deutsch. Übertragen von Ludwig Maenner. München 1923.
+Tacitus. Annalen I-VI. Übersetzung, Einleitung und Anmerkungen von Walther Sontheimer. (RUB 2457). Stuttgart 1964.
+Tacitus. Annalen XI-XVI. Übersetzung und Anmerkungen von Walther Sontheimer. (RUB 2458). Stuttgart 1967.
+Historien
+P. Cornelius Tacitus. Historiae / Historien. Lateinisch-Deutsch. Herausgegeben von Joseph Borst unter Mitarbeit von Helmut Hross und Helmut Borst. 4. Aufl. München 1979.
+Tacitus in Five Volumes II: The Histories. Books I-III. With an English Translation by Clifford H. Moore. (The Loeb Classical Library). London und Cambridge, Mass. 1925. ND 1968.
+Tacitus, The Histories, Books IV-V. With an English Translation by Clifford H. Moore. In: Tacitus in Five Volumes III: The Histories, Book IV-V. The Annals, Books I-III. Cambridge, Mass. und London 1969 (Erstausgabe 1931).
+P. Cornelius Tacitus. Historien. Lateinisch / Deutsch. Übersetzt und Herausgegeben von Helmuth Vretska. (RUB 2721). Stuttgart 1984.
+Agricola, Germania, Dialogus
+Publius Cornelius Tacitus. Die historischen Versuche. Agricola. Germania. Dialogus. Übers. u. hg. von Karl Büchner (Kröner Taschenbuchausgabe Bd. 255). Stuttgart 1955.
+Tacitus. Agricola. Lateinisch / Deutsch. Übersetzt, erläutert und mit einem Nachwort hg. von Robert Feger. (RUB 836) Stuttgart 1973.
+Tacitus. Germania. Lateinisch / Deutsch. Übersetzt, erläutert und mit einem Nachwort hg. von Manfred Fuhrmann. (RUB 9391). Stuttgart 1972.
+Tacitus. Dialogus de oratoribus / Dialog über den Redner. Lateinisch / Deutsch. Nach der Ausgabe von Helmut Gugel hg. von Dietrich Klose (RUB 7700). Stuttgart 1981.
+Tacitus. Agricola. Translated by M. Hutton. Revised by R.M. Ogilvie. In: Tacitus in Five Volumes I: Agricola. Germania. Dialogus (The Loeb Classical Library). Cambridge, Mass. und London 1970 (Erstausgabe 1914).
+Tacitus. Germania. Translated by M. Hutton. Revised by E.H. Warmington. In: Tacitus in Five Volumes I: Agricola. Germania. Dialogus (The Loeb Classical Library). Cambridge, Mass. und London 1970 (Erstausgabe 1914).
+Tacitus. Germania. Lateinisch und Deutsch. Übertragen und erläutert von Arno Mauersberger (Sammlung Dietrich Bd. 100). Leipzig 1942.
+Tacitus, Dialogus. Translated by Sir W. Peterson. Revised by Michael Winterbottom. In: Tacitus in Five Volumes I: Agricola. Germania. Dialogus (The Loeb Classical Library). Cambridge, Mass. und London 1970. (Erstausgabe 1914)
+Cornelius Tacitus. Agricola. Germania.- Lateinisch und Deutsch. Herausgegeben, übersetzt und erläutert von Alfons Städele. (Sammlung Tusculum). München 1991.
+Tacitus. Das Leben des Iulius Agricola. Lateinisch und Deutsch von Rudolf Till. Darmstadt 1961.
+P. Cornelius Tacitus. Das Gespräch über die Redner / Dialogus de oratoribus. Lateinisch – Deutsch. Herausgegeben und übersetzt von Hans Volkmer. Sammlung Tusculum. 4. durchgesehene Aufl. Düsseldorf/Zürich 1998.
+Literatur[Bearbeiten | Quelltext bearbeiten]
+Übersichtsdarstellung
+Michael von Albrecht: Geschichte der römischen Literatur von Andronicus bis Boethius und ihr Fortwirken. Band 2. 3., verbesserte und erweiterte Auflage. De Gruyter, Berlin 2012, ISBN 978-3-11-026525-5, S. 926–969
+Kommentare
+Heinz Heubner: Studien zur Darstellungskunst des Tacitus. Triltsch, Würzburg 1935.
+Heinz Heubner, Wolfgang Fauth: P. Cornelius Tacitus. Die Historien, Buch 1–5. Kommentar. Fünf Bände. Winter, Heidelberg 1963–1982: Band 1, 1963 DNB 456981160, Band 2, DNB 456981179, Band 3, 1972, ISBN 3-533-0221-2 / ISBN 3-533-02213-4, Band 4, 1976, ISBN 3-533-02492-X, Band 5, 1982, ISBN 3-533-03028-8.
+Heinz Heubner: Kommentar zum Agricola des Tacitus. Vandenhoeck und Ruprecht, Göttingen 1984, ISBN 3-525-25744-9.
+Erich Koestermann: Tacitus. Annalen. Vier Bände. Winter, Heidelberg 1963–1968, DNB 457252634.
+Rudolf Much: Die Germania des Tacitus. Winter, Heidelberg 1937 (3. Auflage unter Bearbeitung durch Wolfgang Lange und Herbert Jankuhn, 1967, DNB 457642858).
+Roland Schuhmann: Geographischer Raum und Lebensform der Germanen: Kommentar zu Tacitus' „Germania“, c. 1–20. Dissertation Uni Jena 2006, DNB 995223548 (Volltext PDF; 4,3 MB).
+Einführungen, Gesamtdarstellungen und Untersuchungen
+Aufstieg und Niedergang der römischen Welt. Band II 33, 2/3/4. de Gruyter, Berlin/ New York 1990f. Mehrere fachwissenschaftliche Aufsätze bzw. Bibliographien zu Tacitus und seinen Werken, darunter:
+Michael M. Sage: Tacitus’ Historical Works: A Survey and Appraisal. Band II 33, 2. de Gruyter, Berlin/New York 1990, S. 851–1030.
+Herbert W. Benario: An introduction to Tacitus. The University of Georgia Press, Athens, GA 1975, ISBN 0-8203-0361-5.
+Harald Fuchs: Tacitus über die Christen. In: Vigiliae Christianae Band 4, 1950, S. 65–93.
+Konrad Heldmann: Sine ira et studio. Das Subjektivitätsprinzip der römischen Geschichtsschreibung und das Selbstverständnis antiker Historiker (= Zetemata. Band 139). Beck, München 2011, ISBN 978-3-406-61494-1.
+Ronald Mellor: Tacitus. Routledge, London/New York 1993, ISBN 0-415-90665-2.
+Victoria Emma Pagán (Hrsg.): A Companion to Tacitus. Wiley-Blackwell, Malden, MA u.a. 2012 (aktuelle wissenschaftliche Einführung).
+Dylan Sailor: Writing and Empire in Tacitus. Cambridge University Press, Cambridge 2008, ISBN 978-0-521-89747-1.
+Stephan Schmal: Tacitus (= Studienbücher Antike. Band 14). Olms, Hildesheim 2005, ISBN 3-487-12884-5.
+Ronald Syme: Tacitus. Zwei Bände. Clarendon Press, Oxford 1958 (immer noch ein wichtiges Standardwerk).
+A. J. Woodman (Hrsg.): The Cambridge Companion to Tacitus. Cambridge University Press, Cambridge 2009, ISBN 978-0-521-87460-1 (eine wissenschaftliche Einführung).
+Weblinks[Bearbeiten | Quelltext bearbeiten]
+  Wikiquote: Tacitus – Zitate
+ Wikisource: Tacitus – Quellen und Volltexte
+ Wikisource: Tacitus – Quellen und Volltexte (Latein)
+ Commons: Tacitus – Album mit Bildern, Videos und Audiodateien
+Literatur von und über Tacitus im Katalog der Deutschen Nationalbibliothek
+Werke von und über Tacitus in der Deutschen Digitalen Bibliothek
+Werke auf Latein
+Werke in englischer Übersetzung
+Germania, lateinisch und deutsch mit weiterführenden Angaben
+Germania, lateinisch und deutsch mit Kommentar
+Lektüreauswahl für den altsprachlichen Unterricht (mit deutscher Übersetzung)
+Agricola, lateinisch und deutsch mit Kommentar
+Englische Übersetzung der Annalen und der Historien bei LacusCurtius
+Druckschriften von und über Tacitus im VD 17
+Anmerkungen[Bearbeiten | Quelltext bearbeiten]
+↑ Vgl. Anthony R. Birley: The life and death of Cornelius Tacitus. In: Historia 49 (2000), S. 231 mit Anm. 4.
+↑ Plinius der Ältere, naturalis historia 7, 76: Corneli Taciti, equitis Romani Belgicae Galliae rationes procurantis („des Cornelius Tacitus, eines römischen Ritters, der die Finanzen der Gallia Belgica verwaltete“).
+↑ Ronald Syme, Tacitus, Bd. 2, S. 611 ff., hat als möglichen Herkunftsort Vasio (Vaison-la-Romaine) vorgeschlagen.
+↑ a b CIL 6, 41106 (Epigraphische Datenbank Heidelberg mit Abbildung und Rekonstruktionszeichnung): [---]cito Ca[--- X]viro stlitib[us iudicandis --- quaesto]ri Aug(usti) tribun[o] plebis („dem -cito Ca---, Decemvir stlitibus iudicandis, … Quästor des Kaisers, Volkstribun“); dazu Géza Alföldy: Bricht der Schweigsame sein Schweigen? Eine Grabinschrift aus Rom. In: Mitteilungen des Deutschen Archäologischen Instituts, Römische Abteilung 102 (1995), S. 251–268.
+↑ Birley: The life and death of Cornelius Tacitus, S. 231–233.
+↑ Vgl. Birley: The life and death of Cornelius Tacitus, S. 236.
+↑ Tacitus, dialogus 2, 1.
+↑ Plinius der Jüngere, epistulae 7, 20, 4.
+↑ Tacitus, Historiae 1, 1, 3: dignitatem nostram a Vespasiano inchoatam, a Tito auctam, a Domitiano longius provectam non abnuerim („ich will nicht ableugnen, dass mein Rang von Vespasian begonnen, von Titus vermehrt, von Domitian noch weiter vorangebracht wurde“).
+↑ Birley: The life and death of Cornelius Tacitus, S. 237–238, hält es für möglich, dass Tacitus im Heer seines Schwiegervaters diente, der zu dieser Zeit Statthalter von Britannien war.
+↑ So die Vermutung von Birley: The life and death of Cornelius Tacitus, S. 237–238.
+↑ Tacitus, Annales 11, 11, 1.
+↑ Tacitus, Agricola 45, 4–5.
+↑ Plinius, epistulae 2, 1, 6.
+↑ Plinius, epistulae 2, 11.
+↑ Plinius, epistulae 4, 13, 1.
+↑ Birley: The life and death of Cornelius Tacitus, S. 247, Anm. 70, weist auf eine ohne Namensnennung erhaltene Inschrift vom Anfang des 2. Jahrhunderts hin (CIL 3, 10804); der in ihr Geehrte, Quindecimvir wie Tacitus, war Statthalter von Germania Inferior und Hispania Tarraconensis.
+↑ Plinius, epistulae 6, 16 und 20; 7, 33.
+↑ Inschriften von Mylasa 365, Z. 2: [ἀνθυπά]τω Κορνηλίω Τακίτω („unter dem Prokonsul Cornelius Tacitus“).
+↑ Zur Frage vgl. Birley: The life and death of Cornelius Tacitus, S. 241–247, der es wie schon Ronald Syme für möglich hält, dass große Teile der Annalen erst unter Hadrian entstanden sind, während andere Wissenschaftler keine Anzeichen dafür sehen, dass Tacitus Trajan überlebt hat.
+↑ Ausführliche Diskussion bei Syme, Tacitus, passim. Allgemein siehe auch John Wilkes: Julio-Claudian Historians. In: Classical World 65 (1972), S. 177ff.
+↑ Tacitus, Annales 1, 69; zu den von Tacitus für diese Zeit benutzten Quellen vgl. u.a. F. A. Marx: Die Quellen der Germanenkriege bei Tacitus und Dio. In: Klio 26 (1933), S. 323–329; Friedrich Münzer: Die Quelle des Tacitus für die Germanenkriege. In: Bonner Jahrbücher 104 (1899), S. 67ff.; Sage, Historical Works, S. 1004ff.; Schmal, Tacitus, S. 113; Syme, Tacitus, Bd. 1, S. 274ff.
+↑ Tacitus: Annalen 15, 44, 3–4. In den ältesten Handschriften steht statt Christus und Christiani Chrestus und Chrestiani, was in der älteren Forschung teils für Verwirrung gesorgt hat; vgl. E. Koestermann: "Ein folgenschwerer Irrtum des Tacitus (Ann. 15, 44, 2ff.)?" In: Historia 16, 1967, S. 456ff. Ebenfalls irrig ist die Bezeichnung Procurator, da Pilatus eigentlich praefectus iudaeae war.
+↑ Vgl. René S. Bloch: Antike Vorstellungen vom Judentum. Der Judenexkurs des Tacitus im Rahmen der griechisch-römischen Ethnographie. Steiner, Stuttgart 2002, ISBN 3-515-07971-8.
+↑ Tacitus: Historien 5, 4–5: Moyses quo sibi in posterum gentem firmaret, novos ritus contrariosque ceteris mortalibus indidit. profana illic omnia quae apud nos sacra, rursum concessa apud illos quae nobis incesta.
+↑ Syme, Tacitus, Bd. 2, S. 503, Anmerkung 8: „The heir of Tacitus, in every sense, is Ammianus“.
+↑ Tacitus, Annales, 4, 53.
+↑ Ein eindrucksvolles Beispiel ist die Affäre rund um Gnaeus Calpurnius Piso; da der Senatsbeschluss in Sachen Piso heute als Inschrift vorliegt, kann man einen Vergleich mit der taciteischen Version durchführen; vgl. Cynthia Damon: The Trial of Cn. Piso in Tacitus' Annales and the Senatus consultum de Cn. Pisone Patre. New light on Narrative Technique. In: American Journal of Philology 120 (1999), S. 143–162.
+Normdaten (Person): GND: 118620452 (PICA, AKS) | LCCN: n80145600 | VIAF: 100226923 | Wikipedia-Personensuche
+Personendaten
+NAME
+Tacitus
+ALTERNATIVNAMEN
+Tacitus, Publius Cornelius; Tacitus, Gaius Cornelius
+KURZBESCHREIBUNG
+römischer Historiker und Politiker
+GEBURTSDATUM
+um 58
+STERBEDATUM
+um 120
+Abgerufen von „https://de.wikipedia.org/w/index.php?title=Tacitus&oldid=161929815“
+Kategorien: Konsul (Römische Kaiserzeit)QuindecimvirAutorLiteratur (Latein)SachliteraturHistoriker der AntikeCornelierGeboren im 1. JahrhundertGestorben im 2. JahrhundertMannNamensgeber für einen Asteroiden
+Navigationsmenü
+Meine Werkzeuge
+Nicht angemeldetDiskussionsseiteBeiträgeBenutzerkonto erstellenAnmelden
+Namensräume
+Artikel
+Diskussion
+Varianten
+Ansichten
+Lesen
+Bearbeiten
+Quelltext bearbeiten
+Versionsgeschichte
+Mehr
+Suche
+Navigation
+HauptseiteThemenportaleVon A bis ZZufälliger Artikel
+Mitmachen
+Artikel verbessernNeuen Artikel anlegenAutorenportalHilfeLetzte ÄnderungenKontaktSpenden
+Werkzeuge
+Links auf diese SeiteÄnderungen an verlinkten SeitenSpezialseitenPermanenter LinkSeiten­informationenWikidata-DatenobjektArtikel zitieren
+Drucken/­exportieren
+Buch erstellenAls PDF herunterladenDruckversion
+In anderen Projekten
+CommonsWikiquoteWikisource
+In anderen Sprachen
+AfrikaansAlemannischAragonésالعربيةAsturianuAzərbaycancaБеларускаяБългарскиবাংলাBrezhonegBosanskiCatalàČeštinaCymraegDanskZazakiΕλληνικάEnglishEsperantoEspañolEestiEuskaraEstremeñuفارسیSuomiFrançaisNordfriiskFryskGaeilgeGalegoעבריתHrvatskiMagyarՀայերենInterlinguaBahasa IndonesiaIdoÍslenskaItaliano日本語ქართულიҚазақша한국어LatinaLietuviųLatviešuMalagasyമലയാളംNedersaksiesNederlandsNorsk nynorskNorsk bokmålOccitanPolskiPortuguêsRomânăРусскийSicilianuScotsSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaSlovenščinaShqipСрпски / srpskiSvenskaKiswahiliไทยTürkçeУкраїнськаOʻzbekcha/ўзбекчаTiếng ViệtWinaray中文
+Links bearbeiten
+Diese Seite wurde zuletzt am 23. Januar 2017 um 20:31 Uhr geändert.
+Abrufstatistik
+Der Text ist unter der Lizenz „Creative Commons Attribution/Share Alike“ verfügbar; Informationen zu den Urhebern und zum Lizenzstatus eingebundener Mediendateien (etwa Bilder oder Videos) können im Regelfall durch Anklicken dieser abgerufen werden. Möglicherweise unterliegen die Inhalte jeweils zusätzlichen Bedingungen. Durch die Nutzung dieser Website erklären Sie sich mit den Nutzungsbedingungen und der Datenschutzrichtlinie einverstanden.
+Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.
+Datenschutz
+Über Wikipedia
+Impressum
+Entwickler
+Stellungnahme zu Cookies
+Mobile Ansicht

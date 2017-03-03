@@ -1,0 +1,141 @@
+Claudio Tolomeo - Wikipedia
+Claudio Tolomeo
+Da Wikipedia, l'enciclopedia libera.
+Vai a:					navigazione, 					ricerca
+Claudio Tolomeo
+Claudio Tolomeo o Tolemeo (in greco antico: Κλαύδιος Πτολεμαῖος, Kláudios Ptolemâios in latino: Claudius Ptolemaeus; Pelusio, 100 circa – Alessandria d'Egitto, 175 circa) è stato un astrologo, astronomo e geografo greco antico di epoca imperiale, di lingua e cultura ellenistica, che visse e lavorò ad Alessandria d'Egitto, allora nella Prefettura d'Egitto dell'Impero Romano. Considerato uno dei padri della geografia, fu autore di importanti opere scientifiche, la principale delle quali è il trattato astronomico noto come Almagesto.
+Indice
+1 L'Almagesto
+2 Altre opere astronomiche
+3 La Geografia
+4 L'Ottica
+5 Astrologia
+6 Altre opere
+7 Edizioni e traduzioni delle opere
+8 Note
+9 Bibliografia
+10 Voci correlate
+11 Altri progetti
+12 Collegamenti esterni
+L'Almagesto[modifica | modifica wikitesto]
+Lo stesso argomento in dettaglio: Almagesto.
+Il titolo greco originale di quest'opera era Mathematikè sýntaxis ("Trattato matematico"). Il nome "almagesto" (il grandissimo) è la versione in arabo del nome greco con cui era nota l'opera ed è dovuto alla circostanza che, come per larga parte della scienza e della filosofia greca classica, la sua diffusione iniziale in Europa è avvenuta soprattutto attraverso manoscritti arabi, che furono tradotti in latino da Gerardo da Cremona nel XII secolo.
+In questo lavoro, una delle opere scientifiche più influenti dell'antichità, Tolomeo raccolse la conoscenza astronomica del mondo greco basandosi soprattutto sul lavoro svolto tre secoli prima da Ipparco. Tolomeo formulò un modello geocentrico, in cui solo il Sole e la Luna, considerati pianeti, avevano il proprio epiciclo, ossia la circonferenza sulla quale si muovevano, centrata direttamente sulla Terra. Questo modello del sistema solare, che da lui prenderà il nome di sistema tolemaico, rimase di riferimento per tutto il mondo occidentale (ma anche arabo) fino a che non fu sostituito dal modello di sistema solare eliocentrico dell'astronomo polacco Niccolò Copernico, già noto, comunque, nell'antica Grecia al tempo del filosofo Aristarco di Samo.
+I metodi di calcolo illustrati nell'Almagesto (integrati nel XII secolo dalle cosiddette Tavole di Toledo, di origine sasanide e riprese dagli Arabi musulmani) si dimostrarono di accuratezza sufficiente per i bisogni di astronomi, astrologi e navigatori almeno fino all'epoca delle grandi scoperte geografiche.
+L'Almagesto contiene anche un catalogo di stelle, probabilmente un aggiornamento di un analogo catalogo compilato da Ipparco. L'elenco di quarantotto costellazioni che vi è contenuto è l'"antenato" del sistema di costellazioni moderne, ma non poteva coprire l'intera volta celeste poiché questa non è completamente accessibile dalle latitudini del Mediterraneo, nelle cui vicinanze vissero Ipparco e Tolomeo.
+Altre opere astronomiche[modifica | modifica wikitesto]
+Tolomeo, oltre all'Almagesto, fu autore di diverse altre opere di astronomia. La Iscrizione Canobica e le Tavole manuali sono strettamente collegate alla sua opera principale, mentre le Ipotesi Planetarie descrivono un modello meccanico del sistema planetario, costituito da sfere materiali incastonate l'una nell'altra, che è totalmente assente nell’Almagesto. Ci restano anche l'Analemma, il Planisphaerium e il secondo libro delle Fasi.
+La Geografia[modifica | modifica wikitesto]
+Lo stesso argomento in dettaglio: Geografia (Tolomeo).
+Un'altra opera importante di Tolomeo è la Geografia, che contiene un'esposizione delle basi teoriche della geografia matematica e le coordinate di 8000 diverse località. Le fonti principali dell'opera furono l'opera del geografo Marino di Tiro e resoconti di viaggi attraverso l'impero romano, la Persia ed altrove, ma gran parte delle informazioni relative a paesi al di fuori dell'impero erano inaccurate.
+La mappa dell'oikoumenè (mondo abitato) di Tolomeo.
+La prima parte della Geografia contiene una discussione dei dati e dei metodi impiegati. Tolomeo vi espone i metodi cartografici che gli avevano permesso di disegnare carte sia dell'intero mondo abitato (oikoumene) che delle singole province romane. La seconda parte della Geografia è invece una lista di 8000 luoghi con le loro latitudini e longitudini. Una delle innovazioni di tale opera fu proprio l'utilizzo, per la prima volta, della latitudine e della longitudine per l'identificazione dei luoghi sulla superficie terrestre. Il suo oikoumenè copriva 180 gradi di longitudine, dalle Canarie (nell'Oceano Atlantico) alla Cina, e circa 80 gradi di latitudine, dal Mare artico all'Estremo Oriente (India Transgangetica) ed all'Africa centrale.
+La latitudine era misurata a partire dall'equatore, come si fa anche oggi. Quanto alle longitudini, Tolomeo fissò il meridiano di longitudine 0 in corrispondenza al territorio più occidentale di cui fosse a conoscenza, le Isole Fortunate, che sono state identificate con le attuali isole Canarie.
+Andreas Cellarius: Scenographia Systematis Mundani Ptolemaici
+I valori riportati da Tolomeo, oltre a molti errori singoli, riguardanti soprattutto le località lontane dal mondo greco, presentano due errori sistematici. Innanzitutto egli sottovalutò le dimensioni della Terra. Eratostene aveva stimato che un grado di meridiano corrispondesse a 700 stadi, ma Tolomeo usò il valore di 500 stadi per grado. Assumendo che entrambi si riferissero allo stadio di circa 157 metri, Tolomeo abbandonò l'ottima approssimazione di Eratostene introducendo un errore di circa il 30%, la cui origine non è stata attribuita ad una cattiva interpretazione dei dati di Eratostene.[1] Inoltre vi è un notevole errore sistematico sulle longitudini.
+L'Ottica[modifica | modifica wikitesto]
+Un'altra opera scientifica importante di Tolomeo è l'Ottica, che ci è giunta incompleta oltre che in una pessima traduzione latina effettuata in Sicilia da Eugenius Amiratus da una versione araba.
+Il trattato comprende, oltre a una sezione sulla riflessione, una trattazione dei fenomeni di rifrazione e include, in particolare, una tabella che fornisce gli angoli di rifrazione corrispondenti a vari angoli di incidenza per le coppie acqua-aria, aria-vetro e acqua-vetro: si tratta di un'importante testimonianza dell'antico metodo sperimentale. Riveste interesse anche la sezione dedicata al colore, che include esperimenti con un disco ruotante colorato a spicchi di vari colori, usualmente attribuito a Newton[senza fonte][2].
+Astrologia[modifica | modifica wikitesto]
+Lo stesso argomento in dettaglio: Tetrabiblos.
+Il trattato "Τῶν ἀποτελεσματικῶν" ("Tôn apotelesmatikôn" ossia "Delle previsioni astrologiche"), conosciuto anche come "Tetrabiblos" o "Opus quadripartitum" (ossia "Opera in quattro libri"), è l'opera astrologica di Tolomeo; quest'opera è considerata il testo fondamentale dell'astrologia classica che sta alla base dell'astrologia occidentale. Tolomeo è il primo autore classico ad affrontare l'argomento astrologico con rigore: a differenza di coloro che lo avevano preceduto, organizza l'analisi delle influenze dei movimenti degli astri in pochi presupposti ben definiti, istruendo il lettore a dedurre le predizioni utilizzando leggi geometriche precise.
+Nelle prime righe del Tetrabiblos Tolomeo si scaglia contro i ciarlatani che, rivestendo in modo improprio l'astrologia con pratiche magiche ed occulte, hanno gettato fango con predizioni arbitrarie su quella che lui considera una scienza esatta; il limite delle predizioni astrologiche, secondo l'autore, non è nell'oggetto dello studio bensì nell'incapacità umana di comprendere completamente il funzionamento delle influenze degli astri le quali, sempre secondo l'autore, danno a ogni essere umano (e anche a ogni evento meteorologico e movimento tellurico) un destino ineluttabile.[3]
+Altre opere[modifica | modifica wikitesto]
+Tolomeo fu anche autore di un'importante opera di teoria musicale, gli Armonici.
+Edizioni e traduzioni delle opere[modifica | modifica wikitesto]
+Claudii Ptolemaei opera quae exstant omnia, ed. J. L. Heiberg,1898-1954, Lipsia, Teubner
+Nobbe C. F. A., ed., 1843-1845. Claudii Ptolemaei Geographia. 3 volumi, Leipzig (ristampato da Hildesheim nel 1966). (Contiene l'intero testo greco).
+Alfred Stückelberger, Gerd Graßhoff (eds.), Ptolemaios Handbuch der Geographie, Schwabe, 2006, ISBN 3-7965-2148-7.
+L'Optique de Claude Ptolemee dans la version latine d'apres l'arabe de l'emir Eugene de Sicile, di Albert Lejeune, Leiden, Brill, 1989 (latino e francese)
+Ptolemy Harmonics. Translation and Commentary by Jon Solomon, Leiden, Brill, 2000 (solo traduzione inglese)
+(EL, IT) Claudio Tolomeo, Le previsioni astrologiche (Tetrabiblos), a cura di Simonetta Feraboli, Milano, Fondazione Valla/Mondadori, 1985.
+Quadripartitum, 1622
+M. Raffa, La Scienza Armonica di Claudio Tolemeo. Saggio critico, traduzione e commento, Messina, EDAS, 2002
+Giuseppe Bezza, Commento al Primo Libro della Tetrabiblos di Claudio Tolomeo, Milano, Nuovi Orizzonti 1992.
+Note[modifica | modifica wikitesto]
+^ Lucio Russo, La rivoluzione dimenticata, VII edizione, Milano, Feltrinelli, 2013, ISBN 9788807883231.
+^ IL DISCO DI NEWTON (PDF), web.lngs.infn.it.
+^ Feraboli, introduzione.
+Bibliografia[modifica | modifica wikitesto]
+(LA) Claudius Ptolemaeus, Opere (in latino), Basileae, Heinrich Petri, 1541. URL consultato il 13 aprile 2015.
+(GRC) Claudius Ptolemaeus, De iudicandi facultate et animi principatu, Parisiis, Sebastian Cramoisy, Sebastian Mabre-Cramoisy, 1663. URL consultato il 13 aprile 2015.
+(GRC) Claudius Ptolemaeus, Harmonicorum libri, Oxonii, Theatrum Sheldonianum Oxford, 1682. URL consultato il 13 aprile 2015.
+(LA) Claudius Ptolemaeus, Quadripartitum (in latino), Francofurti, Johann Bringer, Jakob Fischer, 1622. URL consultato il 13 aprile 2015.
+Lucio Russo, La rivoluzione dimenticata, VII edizione, Milano, Feltrinelli, 2013, ISBN 9788807883231.
+Questo testo proviene in parte dalla relativa voce del progetto Mille anni di scienza in Italia, opera del Museo Galileo. Istituto Museo di Storia della Scienza di Firenze (home page), pubblicata sotto licenza Creative Commons CC-BY-3.0
+Voci correlate[modifica | modifica wikitesto]
+Letteratura greca alto imperiale
+Disuguaglianza di Tolomeo
+Cosmografia
+Altri progetti[modifica | modifica wikitesto]
+Altri progetti
+Wikisource
+Wikiquote
+Wikimedia Commons
+Wikisource contiene una pagina dedicata a Claudio Tolomeo
+Wikiquote contiene citazioni di o su Claudio Tolomeo
+Wikimedia Commons contiene immagini o altri file su Claudio Tolomeo
+Questa voce è inclusa nel libro di Wikipedia Geographikà.
+Collegamenti esterni[modifica | modifica wikitesto]
+Tolomèo, Claudio (gr. Κλαυδίος Πτολεμαῖος; lat. Claudius Ptdemaeus), in Treccani.it – Enciclopedie on line, Istituto dell'Enciclopedia Italiana, 15 marzo 2011.
+Volumi di Claudio Tolomeo nel "Fondo Antiguo" dell'Università di Siviglia, fondosdigitales.us.es.
+Le tavole digitalizzate da un codice della Cosmographia di Tolomeo del XV secolo (Biblioteca Nazionale di Napoli, ms. V. F. 32), digitale.bnnonline.it.
+V · D · M
+Astronomia greca
+Astronomi
+Acoreo · Agrippa · Anassimandro · Apollonio di Perga · Arato di Soli · Aristarco di Samo · Aristillo · Aristotele · Autolico di Pitane · Callippo di Cizico · Cleomede · Cleostrato di Tenedo · Conone di Samo · Ecfanto · Enopide di Chio · Eratostene · Eudosso di Cnido · Gemino · Eraclide Pontico · Filippo di Medma · Filolao · Iceta · Ipazia · Ipparco di Nicea · Ippocrate di Chio · Menelao di Alessandria · Metone di Atene · Posidonio · Pitea · Seleuco di Seleucia · Sosigene di Alessandria · Sosigene il Peripatetico · Strabone · Talete · Teodosio di Bitinia · Teone di Alessandria · Teone di Smirne · Tolomeo
+Strumenti
+Anello equatoriale · Astrolabio · Diottra · Gnomone · Macchina di Anticitera · Quadrante · Planetario · Sfera armillare · Triquetrum
+Opere
+De caelo · Almagesto
+Concetti
+Antiterra · Octaeteride · Ciclo metonico · Ciclo callippico · Parallelo · Meridiano · Epicicli e deferenti · Equante · Firmamento · Primo mobile · Sfera celeste · Sistema geocentrico · Sistema eliocentrico · Solstizio · Zodiaco
+Influenze precedenti
+Cosmografia mesopotamica · Astronomia babilonese · Astronomia egiziana
+Influenze successive
+Astronomia medievale europea · Astronomia indiana · Astronomia islamica
+Controllo di autorità
+VIAF: (EN) 54152998 · LCCN: (EN) n50032768 · ISNI: (EN) 0000 0001 2280 0429 · GND: (DE) 118641786 · BNF: (FR) cb11920750r (data) · ULAN: (EN) 500330559 · BAV: ADV11660110 · CERL: cnp01318225
+Portale Astrologia
+Portale Astronomia
+Portale Biografie
+Portale Ellenismo
+Portale Geografia
+Estratto da "https://it.wikipedia.org/w/index.php?title=Claudio_Tolomeo&oldid=86172221"
+Categorie: Astrologi greci antichiAstronomi greci antichiGeografi greci antichiMorti ad Alessandria d'EgittoNati in EgittoClaudio TolomeoScienza ellenisticaStoria della scienzaTeorici della musica greci antichiCategorie nascoste: BioBotInformazioni senza fonteVoci con codice VIAFVoci con codice LCCNVoci con codice ISNIVoci con codice GNDVoci con codice BNFVoci con codice ULANVoci con codice BAVVoci con codice CERLVoci biografiche con codici di controllo di autoritàPagine che utilizzano collegamenti magici ISBN
+Menu di navigazione
+Strumenti personali
+Accesso non effettuatodiscussionicontributiRegistratiEntra
+Namespace
+Voce
+Discussione
+Varianti
+Visite
+Leggi
+Modifica
+Modifica wikitesto
+Cronologia
+Altro
+Ricerca
+Navigazione
+Pagina principaleUltime modificheUna voce a casoVetrinaAiutoSportello informazioni
+Comunità
+Portale ComunitàBarIl WikipedianoFai una donazioneContatti
+Strumenti
+Puntano quiModifiche correlatePagine specialiLink permanenteInformazioni sulla paginaElemento WikidataCita questa voce
+Stampa/esporta
+Crea un libroScarica come PDFVersione stampabile
+In altri progetti
+Wikimedia CommonsWikiquoteWikisource
+In altre lingue
+AfrikaansAlemannischAragonésالعربيةمصرىAsturianuAzərbaycancaБеларускаяБеларуская (тарашкевіца)‎БългарскиবাংলাBrezhonegBosanskiCatalàChavacano de Zamboangaکوردیی ناوەندیČeštinaCymraegDanskDeutschΕλληνικάEnglishEsperantoEspañolEestiEuskaraفارسیSuomiVõroFrançaisFryskGaeilgeGàidhligGalegoעבריתहिन्दीHrvatskiMagyarՀայերենInterlinguaBahasa IndonesiaIdoÍslenska日本語Basa JawaქართულიҚазақша한국어KurdîLatinaLëtzebuergeschLietuviųLatviešuМокшеньMalagasyМакедонскиമലയാളംBahasa Melayuမြန်မာဘာသာNedersaksiesNederlandsNorsk nynorskNorsk bokmålOccitanଓଡ଼ିଆਪੰਜਾਬੀPolskiPiemontèisپنجابیپښتوPortuguêsRomânăArmãneashtiРусскийСаха тылаSicilianuScotsSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaSlovenščinaShqipСрпски / srpskiSvenskaதமிழ்ТоҷикӣไทยTagalogTürkçeТатарча/tatarçaУкраїнськаاردوOʻzbekcha/ўзбекчаTiếng ViệtWinaray中文粵語
+Modifica collegamenti
+Questa pagina è stata modificata per l'ultima volta il 26 feb 2017 alle 19:26.
+Il testo è disponibile secondo la licenza Creative Commons Attribuzione-Condividi allo stesso modo; possono applicarsi condizioni ulteriori. Vedi le
+Condizioni d'uso per i dettagli. Wikipedia® è un marchio registrato della Wikimedia Foundation, Inc.
+Politica sulla privacy
+Informazioni su Wikipedia
+Avvertenze
+Sviluppatori
+Dichiarazione sui cookie
+Versione mobile

@@ -1,0 +1,863 @@
+Aristoteles – Wikipedia
+Aristoteles
+aus Wikipedia, der freien Enzyklopädie
+Wechseln zu:					Navigation, 					Suche
+Der Titel dieses Artikels ist mehrdeutig. Weitere Bedeutungen sind unter Aristoteles (Begriffsklärung) aufgeführt.
+Aristoteles (altgriechisch: Ἀριστοτέλης Aristotélēs, Betonung lateinisch und deutsch: Aristóteles; * 384 v. Chr. in Stageira; † 322 v. Chr. in Chalkis) gehört zu den bekanntesten und einflussreichsten Philosophen der Geschichte. Sein Lehrer war Platon, doch hat Aristoteles zahlreiche Disziplinen entweder selbst begründet oder maßgeblich beeinflusst, darunter Wissenschaftstheorie, Logik, Biologie, Physik, Ethik, Staatstheorie und Dichtungstheorie. Aus seinem Gedankengut entwickelte sich der Aristotelismus.
+Aristoteles-Büste, römische Kopie, nach einer Skulptur des Bildhauers Lysippos, Rom, Palazzo Altemps 8575
+Porträt des Aristoteles, römische Kopie, geschaffen nach dem Original von Lysippos, Paris, Louvre Ma 80bis
+Inhaltsverzeichnis
+1 Überblick
+1.1 Leben
+1.2 Werk
+1.3 Nachwirkung
+2 Leben
+3 Werk
+3.1 Überlieferung und Charakter der Schriften
+3.2 Einteilung der Wissenschaften und Grundlegendes
+3.3 Sprache, Logik und Wissen
+3.3.1 Bedeutungstheorie
+3.3.2 Prädikate und Eigenschaften
+3.3.3 Deduktion und Induktion: Argumenttypen und Erkenntnismittel
+3.3.3.1 Deduktion
+3.3.3.2 Induktion
+3.3.4 Dialektik: Theorie der Argumentation
+3.3.5 Rhetorik: Theorie der Überzeugung
+3.3.6 Syllogistische Logik
+3.3.7 Kanonische Sätze
+3.3.8 Wissen und Wissenschaft
+3.4 Naturphilosophie
+3.5 Metaphysik
+3.5.1 Ontologie
+3.5.2 Theologie
+3.6 Biologie
+3.6.1 Methodologie der Biologie: Trennung von Fakten und Ursachen
+3.6.2 Inhalte der Zoologie
+3.7 Seelenlehre: Theorie des Lebendigseins
+3.8 Ethik
+3.8.1 Glück als das Ziel des guten Lebens
+3.8.2 Tugenden
+3.8.3 Lebensformen und Lust
+3.9 Politische Philosophie
+3.9.1 Entstehung, Bestandteile und Zweck des Staates
+3.9.2 Bürger und Verfassung eines Staates
+3.10 Poetik
+3.10.1 Theorie der Dichtung
+3.10.2 Hymnos
+4 Rezeption
+4.1 Antike
+4.2 Mittelalter
+4.3 Neuzeit
+5 Siehe auch
+6 Textausgaben und Übersetzungen
+7 Literatur
+7.1 Der historische Aristoteles
+7.2 Rezeption
+8 Weblinks
+9 Anmerkungen
+Überblick
+Leben
+Mit siebzehn Jahren trat Aristoteles 367 v. Chr. in Platons Akademie in Athen ein. Dort beteiligte er sich an Forschung und Lehre. Nach Platons Tod verließ er 347 Athen. 343/342 wurde er Lehrer des makedonischen Thronfolgers, Alexander des Großen. 335/334 kehrte er nach Athen zurück. Er gehörte nun nicht mehr der Akademie an, sondern lehrte und forschte selbständig mit seinen Schülern im Lykeion. 323/322 musste er wegen politischer Spannungen Athen erneut verlassen und begab sich nach Chalkis, wo er bald darauf verstarb.
+Werk
+Die an eine breite Öffentlichkeit gerichteten Schriften des Aristoteles in Dialogform sind verloren. Die erhalten gebliebenen Lehrschriften waren größtenteils nur für den internen Gebrauch im Unterricht bestimmt und wurden fortlaufend redigiert. Themenbereiche sind:
+Logik, Wissenschaftstheorie, Rhetorik
+In den logischen Schriften arbeitet Aristoteles auf der Grundlage von Diskussionspraktiken in der Akademie eine Argumentationstheorie (Dialektik) aus und begründet mit der Syllogistik die formale Logik. Auf der Basis seiner Syllogistik erarbeitet er eine Wissenschaftstheorie und liefert unter anderem bedeutende Beiträge zur Definitionstheorie und Bedeutungstheorie. Die Rhetorik beschreibt er als die Kunst, Aussagen als plausibel zu erweisen, und rückt sie damit in die Nähe der Logik.
+Vermögen der Seele nach der Nikomachischen Ethik
+Naturlehre
+Aristoteles’ Naturphilosophie thematisiert die Grundlagen jeder Naturbetrachtung: die Arten und Prinzipien der Veränderung. Der damals aktuellen Frage, wie Entstehen und Vergehen möglich ist, begegnet er mit Hilfe seiner bekannten Unterscheidung von Form und Materie: Dieselbe Materie kann unterschiedliche Formen annehmen. In seinen naturwissenschaftlichen Werken untersucht er auch die Teile und die Verhaltensweisen der Tiere sowie des Menschen und ihre Funktionen. In seiner Seelenlehre – in der „beseelt sein“ „lebendig sein“ bedeutet – argumentiert er, dass die Seele, die die verschiedenen vitalen Funktionen von Lebewesen ausmache, dem Körper als seine Form zukomme. Er forscht aber auch empirisch und liefert bedeutende Beiträge zur zoologischen Biologie.
+Metaphysik
+In seiner Metaphysik argumentiert Aristoteles (gegen Platons Annahme von abstrakten Entitäten) zunächst dafür, dass die konkreten Einzeldinge (wie Sokrates) die Substanzen, d. h. das Grundlegende aller Wirklichkeit sind. Dies ergänzt er um seine spätere Lehre, wonach die Substanz konkreter Einzeldinge ihre Form ist.
+Ethik und Staatslehre
+Das Ziel des menschlichen Lebens, so Aristoteles in seiner Ethik, ist das gute Leben, das Glück. Für ein glückliches Leben muss man Verstandestugenden und (durch Erziehung und Gewöhnung) Charaktertugenden ausbilden, wozu ein entsprechender Umgang mit Begierden und Emotionen gehört. Seine politische Philosophie schließt an die Ethik an. Demnach ist der Staat als Gemeinschaftsform eine Voraussetzung für das menschliche Glück. Aristoteles fragt nach den Bedingungen des Glücks und vergleicht zu diesem Zweck unterschiedliche Verfassungen. Die Staatsformenlehre, die er entwickelt hat, genoss über viele Jahrhunderte unangefochtene Autorität.
+Dichtungstheorie
+In seiner Theorie der Dichtung behandelt Aristoteles insbesondere die Tragödie, deren Funktion aus seiner Sicht darin besteht, Furcht und Mitleid zu erregen, um beim Zuschauer eine Reinigung von diesen Emotionen zu bewirken (katharsis).
+Nachwirkung
+Das naturwissenschaftliche Forschungsprogramm des Aristoteles wurde nach seinem Tod von seinem Mitarbeiter Theophrastos fortgesetzt, der auch die aristotelische Schule, den Peripatos, im juristischen Sinne gründete. Die Aristoteles-Kommentierung setzte erst im 1. Jahrhundert v. Chr. ein und wurde insbesondere von Platonikern betrieben. Durch die Vermittlung von Porphyrios und Boethius wurde die aristotelische Logik für das lateinischsprachige Mittelalter wegweisend. Seit dem 12./13. Jahrhundert lagen alle grundlegenden Werke des Aristoteles in lateinischer Übersetzung vor. Sie waren für den Wissenschaftsbetrieb der Scholastik bis in die Frühe Neuzeit maßgeblich. Die Auseinandersetzung mit der aristotelischen Naturlehre prägte die Naturwissenschaft des Spätmittelalters und der Renaissance. Im arabischsprachigen Raum war Aristoteles im Mittelalter der am intensivsten rezipierte antike Autor. Sein Werk hat auf vielfältige Weise die Geistesgeschichte geprägt; wichtige Unterscheidungen und Begriffe wie „Substanz“, „Akzidenz“, „Materie“, „Form“, „Energie“, „Potenz“, „Kategorie“, „Theorie“ und „Praxis“ gehen auf Aristoteles zurück.
+Leben
+Aristoteles wurde 384 v. Chr. in Stageira, einer damals selbständigen ionischen Kleinstadt an der Ostküste der Chalkidike, geboren. Daher wird er mitunter „der Stagirit“ genannt. Sein Vater Nikomachos war Leibarzt des Königs Amyntas III. von Makedonien, seine Mutter Phaestis stammte aus einer Arztfamilie von Chalkis auf Euboia. Nikomachos starb, bevor Aristoteles volljährig wurde. Proxenos aus Atarneus wurde zum Vormund bestimmt.
+Erster Athenaufenthalt
+367 v. Chr. kam Aristoteles als Siebzehnjähriger nach Athen und trat in Platons Akademie ein. Dort beschäftigte er sich zunächst mit den mathematischen und dialektischen Themen, die den Anfang der Studien in der Akademie bildeten. Schon früh begann er Werke zu verfassen, darunter Dialoge nach dem Vorbild derjenigen Platons. Er setzte sich auch mit der zeitgenössischen Rhetorik auseinander, insbesondere mit dem Unterricht des Redners Isokrates. Gegen das auf unmittelbaren Nutzen abzielende pädagogische Konzept des Isokrates verteidigte er das platonische Erziehungsideal der philosophischen Schulung des Denkens. Er nahm eine Lehrtätigkeit an der Akademie auf. In diesem Zusammenhang entstanden als Vorlesungsmanuskripte die ältesten seiner überlieferten Lehrschriften, darunter die logischen Schriften, die später unter der Bezeichnung Organon („Werkzeug“) zusammengefasst wurden. Einige Textstellen lassen erkennen, dass der Hörsaal mit Gemälden geschmückt war, die Szenen aus dem Leben von Platons Lehrer Sokrates zeigten.[1]
+Reisejahre
+Nach Platons Tod verließ Aristoteles 347 v. Chr. Athen. Möglicherweise war er nicht damit einverstanden, dass Platons Neffe Speusippos die Leitung der Akademie übernahm; außerdem war er in politische Schwierigkeiten geraten. Im Jahr 348 v. Chr. hatte König Philipp II. von Makedonien die Chalkidike erobert, Olynthos zerstört und auch Aristoteles’ Heimatstadt Stageira eingenommen. Dieser Feldzug wurde von der antimakedonischen Partei in Athen als schwere Bedrohung der Unabhängigkeit Athens erkannt. Wegen der traditionellen Verbundenheit der Familie des Aristoteles mit dem makedonischen Hof richtete sich die antimakedonische Stimmung auch gegen ihn. Da er kein Athener Bürger, sondern nur ein Metöke von zweifelhafter Loyalität war, war seine Stellung in der Stadt relativ schwach.
+Er folgte einer Einladung des Hermias, der die Städte Assos und Atarneus an der kleinasiatischen Küste gegenüber der Insel Lesbos beherrschte. Zur Sicherung seines Machtbereichs gegen die Perser war Hermias mit Makedonien verbündet. In Assos fanden auch andere Philosophen Zuflucht. Der sehr umstrittene Hermias wird von der ihm freundlichen Überlieferung als weiser und heldenhafter Philosoph, von der gegnerischen als Tyrann beschrieben.[2] Aristoteles, der mit Hermias befreundet war, blieb zunächst in Assos, aber 345/344 v. Chr. übersiedelte er nach Mytilene auf Lesbos. Dort arbeitete er mit seinem aus Lesbos stammenden Schüler Theophrastos zusammen, der sein Interesse für Biologie teilte. Später begaben sich die beiden nach Stageira.
+343/342 v. Chr. ging Aristoteles auf Einladung von Philipp II. nach Mieza, um dessen damals dreizehnjährigen Sohn Alexander (später „der Große“ genannt) zu unterrichten. Der Unterricht endete spätestens 340/339 v. Chr., als Alexander für seinen abwesenden Vater die Regentschaft übernahm. Aristoteles ließ für Alexander eine Abschrift der Ilias anfertigen, die der König als Verehrer des Achilleus später auf seinen Eroberungszügen mit sich führte. Das Verhältnis zwischen Lehrer und Schüler ist nicht näher bekannt; es hat zu Legendenbildung und vielen Spekulationen Anlass gegeben. Sicher ist, dass ihre politischen Überzeugungen grundverschieden waren; ein Einfluss des Aristoteles auf Alexander ist nicht erkennbar.[3] Aristoteles soll am makedonischen Hof den Wiederaufbau seiner zerstörten Heimatstadt Stageira erreicht haben; die Glaubwürdigkeit dieser Nachricht ist aber zweifelhaft.[4]
+Die Hinrichtung des Hermias durch die Perser 341/340 berührte Aristoteles tief, wie ein dem Andenken des Freundes gewidmetes Gedicht zeigt.
+Als nach dem Tode des Speusippos 339/338 v. Chr. in der Akademie das Amt des Scholarchen (Schulleiters) frei wurde, konnte Aristoteles nur wegen seiner Abwesenheit an der Wahl des Nachfolgers nicht teilnehmen; er galt somit weiterhin als Akademiemitglied. Später ging er mit seinem Großneffen, dem Geschichtsschreiber Kallisthenes, nach Delphi, um im Auftrag der dortigen Amphiktyonen eine Siegerliste der Pythischen Spiele anzufertigen.
+Zweiter Athenaufenthalt
+Mit der Zerstörung der rebellischen Stadt Theben 335 v. Chr. brach der offene Widerstand gegen die Makedonen in Griechenland zusammen, und auch in Athen arrangierte man sich mit den Machtverhältnissen. Daher konnte Aristoteles 335/334 v. Chr. nach Athen zurückkehren. Er begann dort wieder zu forschen und zu lehren, war aber nun nicht mehr an der Akademie tätig, sondern in einem öffentlichen Gymnasium, dem Lykeion. Dort schuf er eine eigene Schule, deren Leitung nach seinem Tod Theophrastos übernahm. Neue Grabungen haben möglicherweise die Identifizierung des Gebäudekomplexes ermöglicht.[5] Im juristischen Sinne hat aber erst Theophrastos die Schule gegründet und das Grundstück erworben, und die später üblichen Bezeichnungen Peripatos und Peripatetiker speziell für diese Schule sind für die Zeit des Theophrastos noch nicht bezeugt. Die Fülle des Materials, das Aristoteles sammelte (etwa zu den 158 Verfassungen der griechischen Stadtstaaten), lässt darauf schließen, dass er über zahlreiche Mitarbeiter verfügte, die auch außerhalb von Athen recherchierten. Er war wohlhabend und besaß eine große Bibliothek. Sein Verhältnis zu dem makedonischen Statthalter Antipatros war freundschaftlich.
+Rückzug aus Athen, Tod und Nachkommen
+Nach dem Tod Alexanders des Großen 323 v. Chr. setzten sich in Athen und anderen griechischen Städten zunächst antimakedonische Kräfte durch. Delphi widerrief ein Aristoteles verliehenes Ehrendekret. In Athen kam es zu Anfeindungen, die ihm ein ruhiges Weiterarbeiten unmöglich machten. Daher verließ er 323/322 v. Chr. Athen. Angeblich äußerte er bei diesem Anlass, dass er nicht wollte, dass die Athener sich ein zweites Mal gegen die Philosophie vergingen (nachdem sie bereits Sokrates zum Tode verurteilt hatten).[6] Er zog sich nach Chalkis auf Euboia in das Haus seiner Mutter zurück. Dort starb er im Oktober 322 v. Chr.
+Aristoteles war mit Pythias, einer Verwandten seines Freundes Hermias, verheiratet. Von ihr hatte er eine Tochter, die ebenfalls Pythias hieß. Nach dem Tod seiner Gattin wurde Herpyllis, die niedriger Herkunft war, seine Lebensgefährtin; sie war möglicherweise die Mutter seines Sohnes Nikomachos. In seinem Testament, dessen Vollstreckung er Antipatros anvertraute, regelte Aristoteles unter anderem die künftige Verheiratung seiner noch minderjährigen Tochter und traf Vorkehrungen zur materiellen Absicherung von Herpyllis.[7]
+Werk
+Hinweis: Belege aus Werken des Aristoteles sind folgendermaßen angegeben: Titelangabe (Abkürzungen werden an der ersten Stelle im Kapitel per Link aufgelöst) und gegebenenfalls Buch- und Kapitelangabe sowie Bekker-Zahl. Die Bekker-Zahl gibt eine genaue Stelle im Corpus an. Sie ist in guten modernen Ausgaben vermerkt.
+Aufgrund von Brüchen und Inkonsequenzen im Werk des Aristoteles ist die Forschung von der früher verbreiteten Vorstellung abgekommen, das überlieferte Werk bildet ein abgeschlossenes, durchkomponiertes System. Diese Brüche gehen vermutlich auf Entwicklungen, Perspektivwechsel und unterschiedliche Akzentuierungen in verschiedenen Kontexten zurück. Da eine sichere chronologische Reihenfolge seiner Schriften nicht bestimmt werden kann, bleiben Aussagen über Aristoteles’ tatsächliche Entwicklung Vermutungen. Zwar bildet sein Werk de facto kein fertiges System, doch besitzt seine Philosophie Eigenschaften eines potentiellen Systems.
+Überlieferung und Charakter der Schriften
+Verschiedene antike Verzeichnisse schreiben Aristoteles fast 200 Titel zu. Sofern die Angabe des Diogenes Laertios stimmt, hat Aristoteles ein Lebenswerk von über 445.270 Zeilen hinterlassen (wobei in dieser Zahl zwei der umfangreichsten Schriften – die Metaphysik und die Nikomachische Ethik – vermutlich noch nicht berücksichtigt sind). Nur etwa ein Viertel davon ist überliefert.
+In der Forschung werden zwei Gruppen unterschieden: exoterische Schriften (die für ein breiteres Publikum veröffentlicht worden sind) und esoterische (die zum internen Gebrauch der Schule dienten). Alle exoterischen Schriften sind nicht oder nur in Fragmenten vorhanden, die meisten esoterischen überliefert. Die Schrift Die Verfassung der Athener galt als verloren und wurde erst Ende des 19. Jahrhunderts in Papyrusform gefunden.
+Exoterische und esoterische Schriften
+Die exoterischen Schriften bestanden vor allem aus Dialogen in der Tradition Platons, z. B. der Protreptikos – eine Werbeschrift für die Philosophie –, Untersuchungen wie Über die Ideen, aber auch propädeutische Sammlungen. Cicero lobt ihren „goldenen Fluss der Rede“.[8] Die auch Pragmatien genannten esoterischen Schriften sind vielfach als Vorlesungsmanuskripte bezeichnet worden; gesichert ist dies nicht und für einige Schriften oder Abschnitte auch unwahrscheinlich. Weitgehend herrscht die Auffassung, dass sie aus der Lehrtätigkeit erwachsen sind. Weite Teile der Pragmatien weisen einen eigentümlichen Stil voller Auslassungen, Andeutungen, Gedankensprünge und Dubletten auf. Daneben finden sich jedoch auch stilistisch ausgefeilte Passagen, die (neben den Dubletten) deutlich machen, dass Aristoteles wiederholt an seinen Texten gearbeitet hat, und die Möglichkeit nahelegen, dass er an die Veröffentlichung mindestens einiger der Pragmatien gedacht hat. Aristoteles setzt bei seinen Adressaten große Vorkenntnisse fremder Texte und Theorien voraus. Verweise auf die exoterischen Schriften zeigen, dass deren Kenntnis ebenfalls vorausgesetzt wird.
+Die Manuskripte des Aristoteles
+Nach dem Tod des Aristoteles blieben seine Manuskripte zunächst im Besitz seiner Schüler. Als sein Schüler und Nachfolger Theophrast starb, soll dessen Schüler Neleus die Bibliothek des Aristoteles erhalten und mit dieser – aus Ärger darüber, nicht zum Nachfolger gewählt worden zu sein – mit einigen Anhängern Athen Richtung Skepsis in der Nähe Trojas in Kleinasien verlassen haben. Die antiken Berichte erwähnen eine abenteuerliche und zweifelhafte Geschichte, nach der die Erben des Neleus die Manuskripte zur Sicherung vor fremdem Zugriff im Keller vergruben, wo sie dann aber verschollen blieben. Weitgehend gesichert ist, dass im ersten Jahrhundert v. Chr. Apellikon von Teos die beschädigten Manuskripte erworben und nach Athen gebracht hat und dass sie nach der Eroberung von Athen durch Sulla im Jahr 86 v. Chr. nach Rom gelangt sind. Dessen Sohn beauftragte Mitte des Jahrhunderts Tyrannion, die Manuskripte zu sichten und durch weiteres Material zu ergänzen.
+Weitere Überlieferungswege
+Auch wenn mit der Bibliothek des Aristoteles seine Manuskripte jahrhundertelang verschollen waren, ist es unbestritten, dass seine Lehre im Hellenismus mindestens teilweise bekannt war, vor allem durch die exoterischen Schriften und indirekt wohl auch durch Theophrasts Wirken. Daneben müssen einige Pragmatien bekannt gewesen sein, von denen es möglicherweise Abschriften in der Bibliothek des Peripatos gab.
+Andronikos von Rhodos. Die erste Ausgabe
+Auf der Grundlage der Arbeit Tyrannions besorgte dessen Schüler Andronikos von Rhodos in der zweiten Hälfte des ersten Jahrhunderts v. Chr. die erste Ausgabe der aristotelischen Pragmatien, die wohl nur zum Teil auf den Manuskripten des Aristoteles beruhte. Die Schriften dieser Edition bilden das Corpus Aristotelicum. Vermutlich gehen einige Zusammenstellungen von zuvor ungeordneten Büchern sowie einige Titel auf diese Ausgabe zurück. Möglicherweise hat Andronikos auch darüber hinaus Eingriffe in den Text – wie etwa Querverweise – vorgenommen. Im Fall der zahlreichen Dubletten hat er möglicherweise verschiedene Texte zum selben Thema hintereinander angeordnet. Die heutige Anordnung der Schriften entspricht weitgehend dieser Ausgabe. Die zu seiner Zeit noch vorliegenden exoterischen Schriften berücksichtigte Andronikos nicht. Sie gingen in der Folgezeit verloren.
+Handschriften und Druckausgaben
+Heutige Ausgaben beruhen auf Abschriften, die auf die Andronikos-Ausgabe zurückgehen. Mit über 1000 Handschriften ist Aristoteles unter den nichtchristlichen griechischsprachigen Autoren derjenige mit der weitesten Verbreitung. Die ältesten Handschriften stammen aus dem 9. Jahrhundert. Das Corpus Aristotelicum ist wegen seines Umfangs nie vollständig in einem einzigen Codex enthalten. Nach der Erfindung des Buchdrucks erschien 1495–1498 die erste Druckausgabe von Aldus Manutius. Die von Immanuel Bekker 1831 besorgte Gesamtausgabe der Berliner Akademie ist die Grundlage der modernen Aristotelesforschung. Sie beruht auf Kollationen der besten damals zugänglichen Handschriften. Nach ihrer Seiten-, Spalten- und Zeilenzählung (Bekker-Zählung) wird Aristoteles heute noch überall zitiert. Für einige wenige Werke bietet sie noch immer den maßgeblichen Text; die meisten liegen jedoch heute in neuen Einzelausgaben vor.
+Einteilung der Wissenschaften und Grundlegendes
+Einteilung der Wissenschaft bei Aristoteles nach Otfried Höffe
+Aristoteles’ Werk deckt weite Teile des zu seiner Zeit vorhandenen Wissens ab. Er teilt es in drei Bereiche:
+theoretische Wissenschaft
+praktische Wissenschaft
+poietische Wissenschaft
+Das theoretische Wissen wird um seiner selbst willen gesucht. Praktisches und poietisches Wissen hat einen weiteren Zweck, die (gute) Handlung oder ein (schönes oder nützliches) Werk. Nach der Art der Gegenstände untergliedert er das theoretische Wissen weiter: (i) Die Erste Philosophie („Metaphysik“) behandelt (mit der Substanztheorie, der Prinzipientheorie und der Theologie) Selbstständiges und Unveränderliches, (ii) die Naturwissenschaft Selbstständiges und Veränderliches und (iii) die Mathematik behandelt Unselbständiges und Unveränderliches (Met. VI 1). Eine Sonderstellung scheinen die in dieser Einteilung nicht vorkommenden Schriften zu haben, die erst nach dem Tod des Aristoteles im sogenannten Organon zusammengestellt worden sind.
+Die wichtigsten Schriften lassen sich grob folgendermaßen gliedern:
+Wichtige Schriften
+‚Organon‘
+Theoretische Wissenschaft
+Praktische Wissenschaft
+Poietische Wissenschaft
+Kategorien (Cat.)
+Metaphysik (Met.)
+Nikomachische Ethik (EN)
+Rhetorik (Rhet.)[9]
+De interpretatione (Int.)
+Physik (Phys.)
+Eudemische Ethik (EE)
+Poetik (Poet.)
+Analytica priora (An. pr.)
+De anima (An.)
+Politik (Pol.)
+Analytica posteriora (An. post.)
+Historia animalium (HA)
+Topik (Top.)
+De generatione et corruptione (Gen. corr.)
+Sophistische Widerlegungen (Soph. el.)
+De generatione animalium (GA)
+De partibus animalium (PA)
+→ Hauptartikel: Corpus Aristotelicum
+Mit dieser Einteilung der Wissenschaften geht für Aristoteles die Einsicht einher, dass jede Wissenschaft aufgrund ihrer eigentümlichen Objekte auch eigene Prinzipien besitzt. So kann es in der praktischen Wissenschaft – dem Bereich der Handlungen – nicht dieselbe Genauigkeit geben wie im Bereich der theoretischen Wissenschaften. Es ist zwar eine Wissenschaft der Ethik möglich, aber ihre Sätze gelten nur in der Regel. Auch kann diese Wissenschaft nicht für alle möglichen Situationen die richtige Handlungsweise vorgeben. Vielmehr vermag die Ethik nur ein nicht-exaktes Wissen im Grundriss zu liefern, das zudem allein noch nicht zu einer erfolgreichen Lebensführung befähigt, sondern hierfür an Erfahrungen und bestehende Haltungen anschließen muss. (EN I 1 1094b12–23)
+Aristoteles war davon überzeugt, dass die „Menschen für das Wahre von Natur aus hinlänglich begabt sind“ (Rhet. I 1, 1355a15–17). Daher geht er typischerweise zunächst (allgemein oder bei Vorgängern) anerkannte Meinungen (endoxa) durch und diskutiert deren wichtigsten Probleme (aporiai), um einen möglichen wahren Kern dieser Meinungen zu analysieren (EN VII 2). Auffällig ist seine Vorliebe, in einer Allaussage zu Beginn einer Schrift die Grundlage für die Argumentation zu legen und den spezifischen Gegenstand abzustecken.[10]
+Sprache, Logik und Wissen
+Siehe auch: Liste logischer Ausdrücke der Antike
+Das Organon
+Der Themenbereich Sprache, Logik und Wissen ist vor allem in den Schriften behandelt, die traditionell unter dem Titel Organon (griech. Werkzeug, Methode) zusammengestellt sind. Diese Zusammenstellung und ihr Titel stammen nicht von Aristoteles, und die Reihenfolge ist nicht chronologisch. Die Schrift Rhetorik gehört dem Organon nicht an, steht ihm aber inhaltlich wegen ihrer Art der Behandlung des Gegenstands sehr nahe. Eine Berechtigung für die Zusammenstellung besteht in dem gemeinsamen methodologisch-propädeutischen Charakter.
+Bedeutungstheorie
+In folgendem Abschnitt – der als der einflussreichste Text in der Geschichte der Semantik gilt[11] – unterscheidet Aristoteles vier Elemente, die in zwei verschiedenen Beziehungen zueinander stehen, einer Abbildungsbeziehung und einer Symbolbeziehung:
+„Nun sind [i] die (sprachlichen) Äußerungen unserer Stimme Symbole für [ii] das, was (beim Sprechen) unserer Seele widerfährt, und [iii] unsere schriftlichen Äußerungen sind wiederum Symbole für die (sprachlichen) Äußerungen unserer Stimme. Und wie nicht alle Menschen mit denselben Buchstaben schreiben, so sprechen sie auch nicht dieselbe Sprache. Die seelischen Widerfahrnisse aber, für welche dieses (Gesprochene und Geschriebene) an erster Stelle ein Zeichen ist, sind bei allen Menschen dieselben; und überdies sind auch schon [iv] die Dinge, von denen diese (seelischen Widerfahrnisse) Abbildungen sind, für alle dieselben.“
+– Int. 1, 16a3–8
+Gesprochene und geschriebene Worte sind demnach bei den Menschen verschieden; geschriebene Worte symbolisieren gesprochene Worte. Seelische Widerfahrnisse und die Dinge sind bei allen Menschen gleich; seelische Widerfahrnisse bilden die Dinge ab. Demnach ist die Beziehung von Rede und Schrift zu den Dingen durch Übereinkunft festgelegt, die Beziehung der mentalen Eindrücke zu den Dingen hingegen naturgegeben.
+Wahrheit und Falschheit kommt erst der Verbindung und Trennung von mehreren Vorstellungen zu. Auch die einzelnen Wörter stellen noch keine Verbindung her und können daher je allein nicht wahr oder falsch sein. Wahr oder falsch kann somit erst der ganze Aussagesatz (logos apophantikos) sein.
+Prädikate und Eigenschaften
+Einige sprachlich-logische Feststellungen sind für Aristoteles’ Philosophie fundamental und spielen auch außerhalb der (im weiteren Sinne) logischen Schriften eine bedeutende Rolle. Hierbei geht es insbesondere um das Verhältnis von Prädikaten und (wesentlichen) Eigenschaften.
+Definitionen
+Unter einer Definition versteht Aristoteles primär keine Nominaldefinition (die er auch kennt; siehe An. Post. II, 8–10), sondern eine Realdefinition. Eine Nominaldefinition gibt nur Meinungen an, welche sich mit einem Namen verbinden. Was diesen Meinungen in der Welt zugrunde liegt, gibt die Realdefinition an: eine Definition von X gibt notwendige Eigenschaften von X an und was es heißt, ein X zu sein: das Wesen. Möglicher Gegenstand einer Definition ist damit (nur) das, was ein (universales) Wesen aufweist, insbesondere Arten wie Mensch. Eine Art wird definiert durch die Angabe einer (logischen) Gattung und der artbildenden Differenz. So lässt sich Mensch definieren als vernunftbegabtes (Differenz) Lebewesen (Gattung). Individuen lassen sich mithin nicht durch Definition erfassen, sondern nur ihrer jeweiligen Art zuweisen.[12]
+Kategorien als Aussageklassen
+Aristoteles lehrt, dass es zehn nicht aufeinander zurückführbare Aussageweisen gibt, die auf die Fragen Was ist X?, Wie beschaffen ist X?, Wo ist X? etc. antworten (→ die vollständige Liste). Die Kategorien haben sowohl eine sprachlich-logische als auch eine ontologische Funktion, denn von einem zugrunde liegenden Subjekt (hypokeimenon) (z. B. Sokrates) werden einerseits Prädikate ausgesagt, und ihm kommen andererseits Eigenschaften zu (z. B.: weiß, Mensch). Entsprechend stellen die Kategorien die allgemeinsten Klassen sowohl von Prädikaten als auch des Seienden dar. Dabei hebt Aristoteles die Kategorie der Substanz, die notwendig zukommende, wesentliche Prädikate enthält, von den anderen ab, die akzidentelle Prädikate enthalten.
+Wenn man von Sokrates Mensch prädiziert (aussagt), so handelt es sich um eine wesentliche Aussage, die vom Subjekt (Sokrates) angibt, was er ist, also die Substanz benennt. Dies unterscheidet sich offensichtlich von einer Aussage wie Sokrates ist auf dem Marktplatz, mit der man etwas Akzidentelles angibt, nämlich wo Sokrates ist (also den Ort benennt).
+Deduktion und Induktion: Argumenttypen und Erkenntnismittel
+Aristoteles unterscheidet zwei Typen von Argumenten oder Erkenntnismitteln: Deduktion (syllogismos) und Induktion (epagôgê). Die Übereinstimmung mit den modernen Begriffen Deduktion und Induktion ist dabei weitgehend, aber nicht vollständig. Deduktionen und Induktionen spielen in den verschiedenen Bereichen der aristotelischen Argumentationstheorie und Logik zentrale Rollen. Beide stammen ursprünglich aus der Dialektik.
+Deduktion
+Nach Aristoteles besteht eine Deduktion aus Prämissen und einer von diesen verschiedenen Konklusion. Die Konklusion folgt mit Notwendigkeit aus den Prämissen. Sie kann nicht falsch sein, wenn die Prämissen wahr sind.
+„Eine Deduktion (syllogismos) ist ein Argument (logos), in welchem sich, wenn bestimmte Dinge vorausgesetzt werden, etwas von dem Vorausgesetzten Verschiedenes mit Notwendigkeit dadurch ergibt, dass dieses der Fall ist.“
+– An. Pr. I 1, 24b18–20; Ähnlich Top. I 1, 100a25–27; Soph. el. 1, 165a1 f.
+Die Definition der Deduktion (syllogismos) ist also weiter als die der (unten behandelten) – traditionell Syllogismus genannten – Deduktion, die aus zwei Prämissen und drei Termen besteht. Aristoteles unterscheidet dialektische, eristische, rhetorische und demonstrative Deduktionen. Diese Formen unterscheiden sich vor allem nach der Art ihrer Prämissen.
+Induktion
+Der Deduktion stellt Aristoteles explizit die Induktion gegenüber; deren Bestimmung und Funktion ist allerdings nicht so klar wie die der Deduktion. Er nennt sie
+„den Aufstieg vom Einzelnen zum Allgemeinen. Zum Beispiel, wenn derjenige Steuermann, der sich auskennt, der beste (Steuermann) ist und so auch beim Wagenlenker, dann ist überhaupt in jedem Bereich derjenige, der sich auskennt, der beste.“
+– Top. I 12, 105a13 f.
+Aristoteles ist klar, dass ein derartiges Übergehen von singulären zu allgemeinen Sätzen ohne weitere Bedingungen[13] nicht logisch gültig ist (An. Post. II 5, 91b34 f.). Entsprechende Bedingungen werden beispielsweise in dem ursprünglichen, argumentationslogischen Kontext der Dialektik erfüllt, da der Kontrahent einen durch Induktion eingeführten Allgemeinsatz akzeptieren muss, wenn er kein Gegenbeispiel nennen kann.
+Vor allem aber hat die Induktion die Funktion, in anderen, nicht folgernden Kontexten durch das Anführen von Einzelfällen das Allgemeine deutlich zu machen – sei es als didaktisches, sei es als heuristisches Verfahren. Eine derartige Induktion stellt plausible Gründe dafür bereit, einen allgemeinen Satz für wahr zu halten. Aristoteles rechtfertigt aber nirgends ohne weitere Bedingungen induktiv die Wahrheit eines solchen Satzes.
+Dialektik: Theorie der Argumentation
+Die in der Topik behandelte Dialektik ist eine Form der Argumentation, die (ihrer genuinen Grundform nach) in einer dialogischen Disputation stattfindet. Sie geht vermutlich auf Praktiken in Platons Akademie zurück. Die Zielsetzung der Dialektik lautet:
+„Die Abhandlung beabsichtigt ein Verfahren zu finden, aufgrund dessen wir in der Lage sein werden, über jedes vorgelegte Problem aus anerkannten Meinungen (endoxa) zu deduzieren, und wenn wir selbst ein Argument vertreten, nichts Widersprüchliches zu sagen.“
+– Top. I 1, 100a18–21
+Die Dialektik hat demnach keinen bestimmten Gegenstandsbereich, sondern kann universal angewendet werden. Aristoteles bestimmt die Dialektik durch die Art der Prämissen dieser Deduktion. Ihre Prämissen sind anerkannte Meinungen (endoxa), das heißt
+„diejenigen, die entweder (a) von allen oder (b) den meisten oder (c) den Fachleuten und dabei entweder (ci) von allen oder (cii) den meisten oder (ciii) den bekanntesten und anerkanntesten für richtig gehalten werden.“
+– Top. I 1, 100b21–23;[14]
+Für dialektische Prämissen ist es unerheblich, ob sie wahr sind oder nicht. Weshalb aber anerkannte Meinungen? In ihrer Grundform findet Dialektik in einem argumentativen Wettstreit zwischen zwei Gegnern statt mit genau zugewiesenen Rollen. Auf ein vorgelegtes Problem der Form ‚Ist S P oder nicht?‘ muss der Antwortende sich auf eine der beiden Möglichkeiten als These festlegen.[15] Das dialektische Gespräch besteht nun darin, dass ein Fragender dem Antwortenden Aussagen vorlegt, die dieser entweder bejahen oder verneinen muss.[16] Die beantworteten Fragen gelten als Prämissen. Das Ziel des Fragenden besteht nun darin, mithilfe der bejahten oder verneinten Aussagen eine Deduktion zu bilden, so dass die Konklusion die Ausgangsthese widerlegt oder aus den Prämissen etwas Absurdes oder ein Widerspruch folgt. Die Methode der Dialektik weist zwei Bestandteile auf:
+herausfinden, welche Prämissen ein Argument für die gesuchte Konklusion ergeben.
+herausfinden, welche Prämissen der Antwortende akzeptiert.
+Für 2. bieten die verschiedenen Typen (a)–(ciii) anerkannter Meinungen dem Fragenden Anhaltspunkte dafür, welche Fragen der jeweilige Antwortende bejahen wird, das heißt, welche Prämissen er verwenden kann. Aristoteles fordert dazu auf, Listen solcher anerkannter Meinungen anzulegen (Top. I 14). Vermutlich meint er nach den Gruppen (a)–(ciii) getrennte Listen; diese werden wiederum nach Gesichtspunkten geordnet.
+Für 1. hilft dem Dialektiker in seinem Argumentationsaufbau das Instrument der Topen. Ein Topos ist eine Konstruktionsanleitung für dialektische Argumente, das heißt zur Auffindung geeigneter Prämissen für eine gegebene Konklusion. Aristoteles listet in der Topik etwa 300 dieser Topen auf. Der Dialektiker kennt diese Topen auswendig, die sich aufgrund ihrer Eigenschaften ordnen lassen. Die Basis dieser Ordnung stellt das System der Prädikabilien dar.
+Nach Aristoteles ist die Dialektik für dreierlei nützlich: (1) als Übung, (2) für die Begegnung mit der Menge und (3) für die Philosophie. Neben (1) der Grundform des argumentativen Wettstreits (bei der es eine Jury und Regeln gibt und die wahrscheinlich auf Praktiken in der Akademie zurückgeht) gibt es mit (2) auch Anwendungsweisen, die zwar dialogisch, aber nicht als regelbasierter Wettstreit angelegt sind, sowie mit (3) solche, die nicht dialogisch sind, sondern in denen der Dialektiker im Gedankenexperiment (a) Schwierigkeiten nach beiden Seiten hin durchgeht (diaporêsai) oder auch (b) Prinzipien untersucht (Top. I 4). Für ihn ist die Dialektik aber nicht wie bei Platon die Methode der Philosophie oder eine Fundamentalwissenschaft.
+Rhetorik: Theorie der Überzeugung
+Aristoteles definiert Rhetorik als „Fähigkeit, bei jeder Sache das möglicherweise Überzeugende (pithanon) zu betrachten“ (Rhetorik I 2, 1355b26 f.). Er nennt sie ein Gegenstück (antistrophos) zur Dialektik. Denn ebenso wie die Dialektik ist die Rhetorik ohne abgegrenzten Gegenstandsbereich, und sie verwendet dieselben Elemente (wie Topen, anerkannte Meinungen und insbesondere Deduktionen), und dem dialektischen Schließen entspricht das auf rhetorischen Deduktionen basierende Überzeugen.
+Der Rhetorik kam im demokratischen Athen des vierten Jahrhunderts eine herausragende Bedeutung zu, insbesondere in der Volksversammlung und den Gerichten, die mit durch Los bestimmten Laienrichtern besetzt waren. Es gab zahlreiche Rhetoriklehrer, und Rhetorikhandbücher kamen auf.
+Aristoteles’ dialektische Rhetorik ist eine Reaktion auf die Rhetoriktheorie seiner Zeit, die – wie er kritisiert – bloße Versatzstücke für Redesituationen bereitstellt und Anweisungen, wie man durch Verleumdung und die Erregung von Emotionen das Urteil der Richter trüben kann. Im Gegensatz dazu beruht seine dialektische Rhetorik auf der Auffassung, dass wir dann am meisten überzeugt sind, wenn wir meinen, dass etwas bewiesen worden ist (Rhet. I 1, 1355a5 f.). Dass die Rhetorik sachorientiert sei und das jeweils in der Sache liegende Überzeugungspotential entdecken und ausschöpfen müsse, drückt er ebenfalls in der Gewichtung der drei Überzeugungsmittel aus. Diese sind:
+der Charakter des Redners (Ethos)
+der emotionale Zustand des Hörers (Pathos)
+das Argument (Logos)
+Das Argument hält er für das wichtigste Mittel.
+Unter den Argumenten unterscheidet Aristoteles das Beispiel – eine Form der Induktion – und das Enthymem – eine rhetorische Deduktion (wobei wiederum das Enthymem wichtiger als das Beispiel ist).[17] Das Entyhmem ist eine Art der dialektischen Deduktion. Sein besonderes Merkmal aufgrund der rhetorischen Situation ist, dass seine Prämissen nur die anerkannten Meinungen sind, die von allen oder den meisten für wahr gehalten werden. (Die verbreitete, kuriose Ansicht, das Enthymem sei ein Syllogismus, in dem eine der zwei Prämissen fehle, vertritt Aristoteles nicht; sie basiert auf einem schon in der antiken Kommentierung belegten Missverständnis von 1357a7 ff.) Der Redner überzeugt demnach die Zuhörer, indem er eine Behauptung (als Konklusion) aus den Überzeugungen (als Prämissen) der Zuhörer herleitet. Die Konstruktionsanleitungen dieser Enthymeme liefern rhetorische Topen, z. B.:
+„Ein weiterer (Topos ergibt sich) aus dem Eher und Weniger, wie zum Beispiel: 'Wenn schon die Götter nicht alles wissen, dann wohl kaum die Menschen.' Denn das bedeutet: Wenn etwas dem, dem es eher zukommen könnte, nicht zukommt, dann ist offensichtlich, dass es auch nicht dem zukommt, dem es weniger zukommen könnte.“
+– Rhet. II 23, 1397b12–15.
+An den zeitgenössischen Rhetoriklehrern kritisiert Aristoteles, dass sie die Argumentation vernachlässigten und ausschließlich auf Emotionserregung abzielten, etwa durch Verhaltensweisen wie Jammern oder Mitbringen der Familie zur Gerichtsverhandlung, wodurch ein sachbezogenes Urteil der Richter verhindert werde. Aristoteles’ Theorie zufolge können alle Emotionen definiert werden, indem drei Faktoren berücksichtigt werden. Man fragt: (1) Worüber, (2) wem gegenüber und (3) in welchem Zustand empfindet jemand die jeweilige Emotion? So lautet die Definition von Zorn:
+„Es soll also Zorn [3] ein mit Schmerz verbundenes Streben nach einer vermeintlichen Vergeltung sein [1] für eine vermeintliche Herabsetzung einem selbst oder einem der Seinigen gegenüber [2] von solchen, denen eine Herabsetzung nicht zusteht.“
+– Rhet. II 2, 1378a31–34.
+Wenn der Redner mit diesem Definitionswissen den Zuhörern deutlich machen kann, dass der entsprechende Sachverhalt vorliegt und sie sich im entsprechenden Zustand befinden,[18] empfinden sie die entsprechende Emotion. Sofern der Redner mit dieser Methode bestehende Sachverhalte eines Falles hervorhebt, lenkt er damit nicht – wie bei den kritisierten Vorgängern – von der Sache ab, sondern fördert nur dem Fall angemessene Emotionen und verhindert somit unangemessene. Schließlich soll der Charakter des Redners aufgrund seiner Rede für die Zuhörer glaubwürdig, das heißt tugendhaft, klug und wohlwollend erscheinen (Rhet. I 2, 1356a5–11; II 1, 1378a6–16)
+Die sprachliche Form dient ebenfalls einer argumentativ-sachorientierten Rhetorik. Aristoteles definiert nämlich die optimale Form (aretê) dadurch, dass sie primär klar, dabei aber weder banal noch zu erhaben ist (Rhet. III 2, 1404b1–4). Durch solche Ausgewogenheit fördert sie das Interesse, die Aufmerksamkeit und das Verständnis und wirkt angenehm. Unter den Stilmitteln erfüllt insbesondere die Metapher diese Bedingungen.
+Syllogistische Logik
+Besteht Aristoteles’ dialektische Logik in einer Methode des konsistenten Argumentierens, so besteht seine syllogistische in einer Theorie des Beweisens selbst. In der von ihm begründeten Syllogistik zeigt Aristoteles, welche Schlüsse gültig sind. Hierfür verwendet er eine Form, die in der Tradition wegen der Bedeutung dieser Logik schlicht Syllogismus (die lateinische Übersetzung von syllogismos) genannt wird. Jeder Syllogismus ist eine (besondere Form der) Deduktion (syllogismos), aber nicht jede Deduktion ist ein Syllogismus (und zwar weil Aristoteles’ sehr allgemeine Definition der Deduktion viele mögliche Argumenttypen beschreibt). Aristoteles verwendet selbst auch keinen eigenen Begriff, um den Syllogismus von anderen Deduktionen abzugrenzen.[19]
+Ein Syllogismus ist eine spezielle Deduktion, die aus genau zwei Prämissen und einer Konklusion besteht. Prämissen und Konklusion weisen zusammen genau drei verschiedene Begriffe, Terme (in der Tabelle dargestellt durch A, B, C) auf. Die Prämissen haben genau einen Term gemeinsam (in der Tabelle B), der in der Konklusion nicht vorkommt. Durch die Stellung des gemeinsamen Terms, des Mittelterms (hier immer B) unterscheidet Aristoteles folgende syllogistische Figuren:
+Syllogistische Figuren bei Aristoteles[20]
+Nr.
+1. Figur: Mittelterm ist in (1) Subjekt, in (2) Prädikat
+2. Figur: Mittelterm ist in (1) und in (2) Prädikat.
+3. Figur: Mittelterm ist in (1) und in (2) Subjekt.
+(1)
+AxB
+BxA
+AxB
+(2)
+BxC
+BxC
+CxB
+Konklusion
+AxC
+AxC
+AxC
+Ein Prädikat (P) (z. B. 'sterblich') kann einem Subjekt (S) (z. B. 'Grieche') entweder zu- oder abgesprochen werden. Dies kann in partikulärer oder in allgemeiner Form geschehen. Somit gibt es vier Formen, in denen S und P miteinander verbunden werden können, wie die folgende Tabelle zeigt (nach De interpretatione 7; die Vokale werden seit dem Mittelalter für den jeweiligen Aussagetypus und auch in der Syllogistik verwendet).
+Art
+zusprechen
+absprechen
+allgemein
+Jedes S ist P: a
+Jedes S ist nicht P = Kein S ist P: e
+partikular
+Irgendein S ist P: i
+Irgendein S ist nicht P =Nicht jedes S ist P: o
+Der Syllogismus verwendet genau diese vier Aussagetypen in folgender Form:
+Inverse Stellung![21] übliche Notation
+Normale Wortstellung
+A kommt allen B zu.
+AaB
+Alle B sind A
+A kommt keinem B zu.
+AeB
+Kein B ist A
+A kommt einigen B zu.
+AiB
+Einige B sind A.
+A kommt nicht B zu.
+AoB
+Einige B sind nicht A.
+Aristoteles untersucht folgende Frage: Welche der 192 möglichen Kombinationen sind logisch gültige Deduktionen? Bei welchen Syllogismen ist es nicht möglich, dass, wenn die Prämissen wahr sind, die Konklusion falsch ist? Er unterscheidet vollkommene Syllogismen, die unmittelbar einsichtig sind, von unvollkommenen. Die unvollkommenen Syllogismen führt er mittels Konversionsregeln auf die vollkommenen zurück (dieses Verfahren nennt er analysis) oder beweist sie indirekt.[22] Ein vollkommener Syllogismus ist der – seit dem Mittelalter so genannte – Barbara:[23]
+Barbara
+Nr.
+aristotelische, inverse Stellung
+übliche Notation
+Normale Stellung
+(1)
+A kommt allen B zu.
+AaB
+Alle Menschen sind sterblich.
+(2)
+B kommt allen C zu.
+BaC
+Alle Griechen sind Menschen.
+Konklusion
+Also: A kommt allen C zu.
+AaC
+Also: Alle Griechen sind sterblich.
+Weitere gültige Syllogismen und deren Beweise finden sich im Artikel Syllogismus.
+Die in den Analytica Priora ausgearbeitete Syllogistik wendet Aristoteles in seiner Wissenschaftstheorie, den Analytica Posteriora an.
+Aristoteles entwickelt zudem eine modale Syllogistik, die die Begriffe möglich und notwendig einschließt. Diese Modalsyllogistik ist sehr viel schwieriger zu interpretieren als die einfache Syllogistik. Ob eine konsistente Interpretation dieser modalen Syllogistik überhaupt möglich ist, ist noch heute umstritten. Interpretatorisch problematisch, aber auch bedeutend ist Aristoteles’ Definition von möglich. Er unterscheidet hierbei die sogenannte einseitige und die zweiseitige Möglichkeit:
+Einseitig: p ist möglich, insofern nicht-p nicht notwendig ist.
+Zweiseitig: p ist möglich, wenn p nicht notwendig und nicht-p nicht notwendig ist, das heißt p ist kontingent.
+Damit lässt sich der Indeterminismus, den Aristoteles vertritt, als der Zustand charakterisieren, der kontingent ist.
+Kanonische Sätze
+In der aristotelischen Logik wird zwischen folgenden konträren und kontradiktorischen Satzarten unterschieden:
+A-Sätze: „Alle F sind G“
+E-Sätze: „Alle F sind nicht G“ (= Kein F ist G)
+I-Sätze: „Es gibt (mindestens) ein F, das ein G ist“
+O-Sätze: „Es gibt (mindestens) ein F, das nicht ein G ist“ 
+(F und G = Subjekt und Prädikat)
+Diese „kanonischen Sätze“ gehören zum Fundament der traditionellen Logik und werden unter anderem bei einfacher bzw. eingeschränkter Konversion angewandt.
+Wissen und Wissenschaft
+Stufen des Wissens
+Aristoteles unterscheidet verschiedene Stufen des Wissens, die sich folgendermaßen darstellen lassen (Met. I 1; An. post. II 19):
+Epistemische Stufe
+Welche Lebewesen
+Wissen
+Mensch
+Erfahrung
+einige Tiere im eingeschränkten Sinn; Mensch
+Erinnerung
+die meisten Lebewesen
+Wahrnehmung
+alle Lebewesen
+Mit dieser Stufung beschreibt Aristoteles auch, wie Wissen entsteht: Aus Wahrnehmung entsteht Erinnerung und aus Erinnerung durch Bündelung von Erinnerungsinhalten Erfahrung. Erfahrung besteht in einer Kenntnis einer Mehrzahl konkreter Einzelfälle und gibt nur das Dass an, ist bloße Faktenkenntnis. Wissen hingegen (oder Wissenschaft; epistêmê umfasst beides) unterscheidet sich von Erfahrung dadurch, dass es[24]
+allgemein ist;
+nicht nur das Dass eines Sachverhalts, sondern auch das Warum, den Grund oder die erklärende Ursache angibt.
+In diesem Erkenntnisprozess schreiten wir nach Aristoteles von dem, was für uns bekannter und näher an der sinnlichen Wahrnehmung ist, zu dem vor, was an sich oder von Natur aus bekannter ist, zu den Prinzipien und Ursachen der Dinge. Dass Wissen an oberster Stelle steht und überlegen ist, bedeutet aber nicht, dass es im konkreten Fall die anderen Stufen in dem Sinne enthält, dass es sie ersetzte. Im Handeln ist zudem die Erfahrung als Wissen vom Einzelnen den Wissensformen, die aufs Allgemeine gehen, mitunter überlegen (Met. 981a12–25).
+Ursachen und Demonstrationen
+Unter einer Ursache (aitia) versteht Aristoteles in der Regel nicht ein von einem verursachten Ereignis B verschiedenes Ereignis A. Die Untersuchung von Ursachen dient nicht dazu, Wirkungen vorherzusagen, sondern Sachverhalte zu erklären. Eine aristotelische Ursache gibt einen Grund als Antwort auf bestimmte Warum-Fragen an. (Aristoteles unterscheidet vier Ursachentypen, die genauer hier im Abschnitt Naturphilosophie behandelt werden.)
+Nach Aristoteles hat Ursachenwissen die Form einer bestimmten Deduktion: der Demonstration (apodeixis) eines Syllogismus mit wahren Prämissen, die Ursachen für den in der Konklusion ausgedrückten Sachverhalt angeben. Ein Beispiel:
+Nr.
+Inverse Stellung
+Formal
+Normale Wortstellung
+1. Prämisse
+Aus Bronze zu sein kommt allen Statuen zu.
+BaC
+Alle Statuen sind aus Bronze.
+2. Prämisse
+Schwer zu sein kommt Bronze zu.
+AaC
+Bronze ist schwer.
+Konklusion
+Schwer zu sein kommt allen Statuen zu.
+AaB
+Alle Statuen sind schwer.
+Aristoteles spricht davon, dass die Prämissen einiger Demonstrationen Prinzipien (archē; wörtl. Anfang, Ursprung) sind, erste wahre Sätze, die selbst nicht demonstrativ bewiesen werden können.
+Nicht-Beweisbare Sätze
+Neben den Prinzipien können auch die Existenz und die Eigenschaften der behandelten Gegenstände einer Wissenschaft sowie bestimmte, allen Wissenschaften gemeinsame Axiome nach Aristoteles nicht durch Demonstrationen bewiesen werden, wie beispielsweise der Satz vom Widerspruch.[25] Vom Satz des Widerspruchs zeigt Aristoteles, dass er nicht geleugnet werden kann. Er lautet: X kann Y nicht zugleich in derselben Hinsicht zukommen und nicht zukommen (Met. IV 3, 1005b19 f.). Aristoteles argumentiert, dass, wer dies leugnet, etwas und somit etwas Bestimmtes sagen muss. Wenn er z. B. ‚Mensch‘ sagt, bezeichnet er damit Menschen und nicht Nicht-Menschen. Mit dieser Festlegung auf etwas Bestimmtes setze er aber den Satz vom Widerspruch voraus. Dies gelte sogar für Handlungen, insofern eine Person etwa um einen Brunnen herumgeht und nicht in ihn hinein fällt.
+Dass diese Sätze und auch Prinzipien nicht demonstriert werden können, liegt an Aristoteles’ Lösung eines Begründungsproblems: Wenn Wissen Rechtfertigung enthält, dann führt dies in einem konkreten Fall von Wissen entweder (a) zu einem Regress, (b) einem Zirkel oder (c) zu fundamentalen Sätzen, die nicht begründet werden können. Prinzipien in einer aristotelischen demonstrativen Wissenschaft sind solche Sätze, die nicht demonstriert, sondern auf andere Weise gewusst werden (An. Post. I 3).
+Das Verhältnis von Definition, Ursache und Demonstration
+Aristoteles spricht zudem davon, dass, sofern die Prämissen Prinzipien sind, sie auch Definitionen darstellen können. Wie sich Demonstration, Ursache und Definition zueinander verhalten, illustriert folgendes Beispiel: Der Mond weist zum Zeitpunkt t eine Finsternis auf, weil (i) immer, wenn etwas im Sonnenschatten der Erde ist, es eine Finsternis aufweist und (ii) der Mond zum Zeitpunkt t im Sonnenschatten der Erde liegt.
+Demonstration:
+Nr.
+Inverse Stellung
+Formal
+1. Prämisse
+Finsternis kommt allen Fällen zu, in denen die Erde die Sonne verdeckt.
+AaB
+2. Prämisse
+Verdecken der Sonne durch die Erde kommt dem Mond zum Zeitpunkt t zu.
+BiC
+Konklusion
+Finsternis kommt dem Mond zum Zeitpunkt t zu.
+AiC
+Mittelterm: Verdecken der Sonne durch die Erde.
+Ursache: Verdecken der Sonne durch die Erde kommt dem Mond zum Zeitpunkt t zu.
+Die Definition wäre hier etwa: Mondfinsternis ist der Fall, in dem die Erde die Sonne verdeckt. Sie erklärt nicht das Wort ‚Mondfinsternis‘. Vielmehr gibt sie an, was eine Mondfinsternis ist. Indem man die Ursache angibt, schreitet man von einem Faktum zu seinem Grund fort. Das Verfahren der Analyse besteht darin, bottom-up zu einem bekannten Sachverhalt die nächste Ursache zu suchen, bis eine letzte Ursache erreicht ist.
+Status der Prinzipien und Funktion der Demonstration
+Das aristotelische Wissenschaftsmodell wurde in der Neuzeit und bis ins 20. Jahrhundert als ein Top-down-Beweisverfahren verstanden. Die unbeweisbaren Prinzipien seien notwendig wahr und würden durch Induktion und Intuition (nous) erlangt. Alle Sätze einer Wissenschaft würden – in einer axiomatischen Struktur – aus ihren Prinzipien folgen. Wissenschaft beruht demnach auf zwei Schritten: Zunächst würden die Prinzipien intuitiv erfasst, dann würde top-down aus ihnen Wissen demonstriert.[26]
+Gegner dieser Top-down-Interpretation stellen vor allem infrage, dass für Aristoteles
+die Prinzipien immer wahr sind;
+die Prinzipien durch Intuition gewonnen werden;
+die Funktion der Demonstration darin besteht, dass aus obersten Prinzipien Wissen erschlossen wird.
+Eine Interpretationsrichtung behauptet, die Demonstration habe didaktische Funktion. Da Aristoteles in den naturwissenschaftlichen Schriften seine Wissenschaftstheorie nicht befolge, lege diese nicht dar, wie Forschung durchgeführt, sondern wie sie didaktisch präsentiert werden soll.
+Eine andere Auslegung weist auch die didaktische Interpretation zurück, da sich sehr wohl Anwendungen des wissenschaftstheoretischen Modells in den naturwissenschaftlichen Schriften finden ließen. Vor allem aber kritisiert sie die erste Lesart dahingehend, dass sie nicht zwischen Wissensideal und Wissenskultur unterscheide; denn Aristoteles halte Prinzipien für fallibel und die Funktion der Demonstration für heuristisch. Sie liest die Demonstration bottom-up: Zu bekannten Sachverhalten würden mithilfe der Demonstration deren Ursachen gesucht. Die wissenschaftliche Forschung gehe von den für uns bekannteren empirischen (meist universalen) Sätzen aus. Zu einer solchen Konklusion werden Prämissen gesucht, die für den entsprechenden Sachverhalt Ursachen angeben.
+Der wissenschaftliche Forschungsprozess besteht nun darin, beispielsweise die Verknüpfung von Schwere und Statue oder Mond und Finsternis in der Weise genauer zu analysieren, dass man Mittelterme sucht, die sie als Ursachen miteinander verknüpfen. Im einfachsten Fall gibt es dabei nur einen Mittelterm, in anderen mehrere. Top-down wird dann das Wissen von den erklärenden Prämissen zu den erklärten universalen empirischen Sätzen präsentiert. Dabei geben die Prämissen den Grund für den in der Konklusion beschriebenen Sachverhalt an. Das Ziel jeder Disziplin besteht in einer derartigen demonstrativen Darstellung des Wissens, in der die nicht demonstrierbaren Prinzipien dieser Wissenschaft Prämissen sind.
+Erfassen der Prinzipien
+Wie die Prinzipien nach Aristoteles erfasst werden, bleibt undeutlich und ist umstritten. Vermutlich werden sie durch Allgemeinbegriffe gebildet, die durch einen induktiven Vorgang entstehen, einen Aufstieg innerhalb der oben beschriebenen Wissensstufen: Wahrnehmung wird Erinnerung, wiederholte Wahrnehmung verdichtet sich zu Erfahrung, und aus Erfahrung bilden wir Allgemeinbegriffe. Mit dieser auf der Wahrnehmung basierenden Konzeption der Bildung von Allgemeinbegriffen weist Aristoteles sowohl Konzeptionen zurück, die die Allgemeinbegriffe aus einem höheren Wissen ableiten, als auch diejenigen, die behaupten, Allgemeinbegriffe seien angeboren. Vermutlich auf Grundlage dieser Allgemeinbegriffe werden die Prinzipien, Definitionen gebildet. Die Dialektik, die Fragen in der Form ‚Trifft P auf S zu oder nicht?‘ behandelt, ist vermutlich ein Mittel, Prinzipien zu prüfen. Das Vermögen, das diese grundlegenden Allgemeinbegriffe und Definitionen erfasst, ist der Geist, die Einsicht (nous).
+Naturphilosophie
+Schematische Darstellung der aristotelischen Vier-Elemente-Lehre
+Natur
+In Aristoteles’ Naturphilosophie bedeutet Natur (physis) zweierlei: Zum einen besteht der primäre Gegenstandsbereich aus den von Natur aus bestehenden Dingen (Menschen, Tiere, Pflanzen, die Elemente), die sich von Artefakten unterscheiden. Zum anderen bilden die Bewegung (kínēsis) und Ruhe (stasis) den Ursprung, beziehungsweise das Grundprinzip (archē) aller Natur (Phys. II 1, 192b14). Bewegung bedeutet wiederum Veränderung (metabolē) (Phys. II 1,193a30). So ist beispielsweise die Ortsbewegung eine Form der Veränderung. Ebenso stellen die „Eigenbewegungen“ des Körpers, wenn dieser (zum Beispiel durch Nahrungsaufnahme) wächst oder abnimmt, eine Veränderung dar. Beide Begriffe, kínēsis und metabolē, sind für Aristoteles folglich nicht trennbar. Gemeinsam bilden sie das Grundprinzip und den Anfang aller Naturdinge. Bei Artefakten kommt das Prinzip jeder Veränderung von außen (Phys. II 1, 192b8–22). Die Wissenschaft der Natur hängt in der Folge von den Arten der Veränderung ab.
+Definition, Prinzipien und Arten der Veränderung
+Ein Veränderungsprozess von X ist gegeben, wenn X, das (i) der Wirklichkeit nach die Eigenschaft F und (ii) der Möglichkeit nach G aufweist, die Eigenschaft G verwirklicht. Bei Bronze (X), die der Wirklichkeit nach ein Klumpen ist (F) und der Möglichkeit nach eine Statue (G), liegt Veränderung dann vor, wenn die Bronze der Wirklichkeit nach die Form einer Statue (G) wird; der Prozess ist abgeschlossen, wenn die Bronze diese Form besitzt. Oder wenn der ungebildete Sokrates gebildet wird, so verwirklicht sich ein Zustand, welcher der Möglichkeit nach schon vorlag. Der Veränderungsprozess ist also durch seinen Übergangsstatus gekennzeichnet und setzt voraus, dass etwas, das der Möglichkeit nach vorliegt, verwirklicht werden kann (Phys. III 1, 201a10–201b5).
+Für alle Veränderungsprozesse hält Aristoteles (in Übereinstimmung mit seinen naturphilosophischen Vorgängern) Gegensätze für grundlegend. Er vertritt darüber hinaus die These, dass in einem Veränderungsprozess diese Gegensätze (wie gebildet-ungebildet) immer an einem Substrat oder Zugrundeliegenden (hypokeimenon) auftreten, so dass sein Modell folgende drei Prinzipien aufweist:
+Substrat der Veränderung (X);
+Ausgangszustand der Veränderung (F);
+Zielzustand der Veränderung (G).
+Wird der ungebildete Sokrates gebildet, so ist er dabei an jedem Punkt der Veränderung Sokrates. Entsprechend bleibt die Bronze Bronze. Das Substrat der Veränderung, an dem diese sich vollzieht, bleibt dabei mit sich selbst identisch. Den Ausgangszustand der Veränderung fasst Aristoteles dabei als einen Zustand, dem die entsprechende Eigenschaft des Zielzustands ermangelt (Privation) (Phys. I 7).
+Aristoteles unterscheidet vier Arten der Veränderung:
+Qualitative Veränderung
+Quantitative Veränderung
+Ortsbewegung
+Entstehen/Vergehen.
+Bei jeder Veränderung – so Aristoteles – gibt es ein zugrunde liegendes, numerisch identisches Substrat (Physik I 7, 191a13–15). Im Falle qualitativer, quantitativer und örtlicher Veränderung ist dies ein konkretes Einzelding, das seine Eigenschaften, seine Größe oder seine Position verändert. Wie verhält sich dies aber beim Entstehen/Vergehen konkreter Einzeldinge? Die Eleaten hatten die einflussreiche These vertreten, Entstehen sei nicht möglich, da sie es für widersprüchlich hielten, wenn Seiendes aus Nicht-Seiendem hervorginge (bei Entstehen aus Seiendem sahen sie ein ähnliches Problem). Die Lösung der Atomisten, Entstehen sei ein Prozess, in dem durch Mischung und Trennung unvergänglicher und unveränderlicher Atome aus alten neue Einzeldinge hervorgehen, führt nach Aristoteles’ Ansicht Entstehen illegitimerweise auf qualitative Veränderung zurück (Gen. Corr. 317a20 ff.).
+Form und Materie bei Entstehen/Vergehen
+Aristoteles’ Analyse von Entstehen/Vergehen basiert auf der innovativen Unterscheidung von Form und Materie (Hylemorphismus). Er akzeptiert, dass kein konkretes Einzelding aus Nichtseiendem entstehe, analysiert den Fall Entstehen jedoch folgendermaßen. Ein konkretes Einzelding des Typs F entsteht nicht aus einem nicht-seienden F, sondern aus einem zugrunde liegenden Substrat, das nicht die Form F aufweist: der Materie.
+Ein Ding entsteht, indem Materie eine neu hinzukommende Form annimmt. So entsteht eine Bronzestatue, indem eine Bronzemasse eine entsprechende Form annimmt. Die fertige Statue besteht aus Bronze, die Bronze liegt der Statue als Materie zugrunde. Die Antwort auf die Eleaten lautet, dass einer nicht-seienden Statue die Bronze als Materie entspricht, die durch Hinzukommen einer Form zur Statue wird. Der Entstehungsprozess ist dabei von verschiedenen Seinsgraden gekennzeichnet. Die tatsächliche, aktuale, geformte Statue entsteht aus etwas, das potentiell eine Statue ist, nämlich Bronze als Materie (Phys. I 8, 191b10–34).
+Materie und Form sind Aspekte eines konkreten Einzeldings und treten nicht selbständig auf.[27] Materie ist immer Stoff eines bestimmten Dings, das schon eine Form aufweist. Sie ist ein relativer Abstraktionsbegriff zu Form. Indem eine derartige Materie in einer neuen Weise strukturiert wird, entsteht ein neues Einzelding. Ein Haus setzt sich aus Form (dem Bauplan) und Materie (Holz und Ziegel) zusammen. Die Ziegel als Materie des Hauses sind durch einen bestimmten Prozess auf eine bestimmte Weise geformter, konfigurierter Lehm.[28] Unter Form versteht Aristoteles seltener die äußere Gestalt (dies nur bei Artefakten), in der Regel die innere Struktur oder Natur, dasjenige, was durch eine Definition erfasst wird. Die Form eines Gegenstandes eines bestimmten Typs beschreibt dabei Voraussetzungen, welche Materie für diesen geeignet ist und welche nicht.
+Ortsbewegung
+Bewegungen erfolgen nach Aristoteles entweder naturgemäß oder naturwidrig (gewaltsam). Nur Lebewesen bewegen sich aus eigenem Antrieb, alles andere wird entweder von etwas bewegt oder es strebt möglichst geradlinig seinem natürlichen Ort entgegen und kommt dort zum Stillstand.
+Der natürliche Ort eines Körpers hängt von der in ihm vorherrschenden Materieart ab. Wenn Wasser oder Erde vorherrscht, bewegt sich der Körper zum Mittelpunkt der Erde, dem Zentrum der Welt, wenn Feuer oder Luft dominiert, strebt er nach oben. Erde ist ausschließlich schwer, Feuer absolut leicht, Wasser relativ schwer, Luft relativ leicht. Der natürliche Ort des Feuers ist oberhalb der Luft und unterhalb der Mondsphäre. Leichtigkeit und Schwere sind Eigenschaften von Körpern, die mit deren Dichte nichts zu tun haben. Mit der Einführung der Vorstellung einer absoluten Schwere und absoluten Leichtigkeit (Schwerelosigkeit des Feuers) verwirft Aristoteles die Auffassung Platons und der Atomisten, die alle Objekte für schwer hielten und das Gewicht als relative Größe auffassten.
+Das fünfte Element, der Äther des Himmels, ist masselos und bewegt sich kreisförmig und ewig. Der Äther füllt den Raum oberhalb der Mondsphäre; er ist keinerlei Veränderung außer der Ortsbewegung unterworfen. Die Annahme, auf der Erde und am Himmel gälten verschiedene Gesetze, ist für Aristoteles nötig, weil die Bewegung der Planeten und Fixsterne nicht zur Ruhe kommt.
+Aristoteles nimmt an, dass für jede Ortsbewegung ein Medium, das entweder als bewegende Kraft wirkt oder der Bewegung Widerstand leistet, erforderlich ist; eine kontinuierliche Bewegung im Vakuum ist prinzipiell unmöglich. Aristoteles schließt sogar die Existenz eines Vakuums aus.
+Die Bewegungslehre des Aristoteles war bis zur Entwicklung eines neuen Trägheitsbegriffs durch Galilei und Newton einflussreich.
+Ursachen
+Um Wissen von Veränderungsprozessen und somit von der Natur zu besitzen, muss man – so Aristoteles – die entsprechenden Ursachen (aitiai) kennen (Phys. I 1, 184a10–14). Aristoteles behauptet, es gebe genau vier Ursachentypen, die jeweils auf verschiedene Weise auf die Frage Warum antworten und die in der Regel bei einer vollständigen Erklärung alle angegeben werden müssen (Phys. II 3, 194b23–35):
+Bezeichnung
+traditionelle Bezeichnung
+Erläuterung
+Beispiel: Ursachen eines Hauses
+Materialursache
+causa materialis
+das, aus dem eine Sache entsteht und dabei in ihr enthalten ist
+Holz und Ziegel
+Formursache
+causa formalis
+die Struktur; das, was angibt, worin das Sein einer Sache besteht
+Bauplan
+Wirk- oder Bewegungsursache
+causa efficiens
+das, woher der erste Anlass von Bewegung und Ruhe oder einer Wirkung kommt
+Architekt
+Ziel- oder Zweckursache
+causa finalis
+das Ziel oder der Zweck, um dessentwillen etwas geschieht
+Schutz vor Unwetter
+Der aristotelische Ursachenbegriff unterscheidet sich weitgehend vom modernen. In der Regel treffen zur Erklärung desselben Sachverhaltes oder Gegenstandes verschiedene Ursachen zugleich zu. Die Formursache fällt oft mit der Bewegungsursache und der Finalursache zusammen. Die Ursache eines Hauses sind so Ziegel und Holz, der Bauplan, der Architekt und der Schutz vor Unwetter. Letztere drei fallen oft zusammen, insofern beispielsweise der Zweck Schutz vor Unwetter den Bauplan (im Geist) des Architekten bestimmt.
+Die Finalursache ist vom Standpunkt der neuzeitlichen mechanistischen Physik aus kritisiert worden. Von einer insgesamt teleologisch ausgerichteten Natur wie bei Platon setzt sich Aristoteles jedoch weitgehend ab. Finale Ursachen treten für ihn in der Natur vor allem in der Biologie auf, und zwar beim funktionellen Aufbau von Lebewesen und der Artenreproduktion.
+Metaphysik
+Metaphysik als Erste Philosophie
+Aristoteles gebraucht den Ausdruck „Metaphysik“ nicht. Gleichwohl trägt eines seiner wichtigsten Werke traditionell diesen Titel. Die Metaphysik ist eine von einem späteren Herausgeber zusammengestellte Sammlung von Einzeluntersuchungen, die ein mehr oder weniger zusammenhängendes Themenspektrum abdecken, indem sie nach den Prinzipien und Ursachen des Seienden und nach der dafür zuständigen Wissenschaft fragen. Ob der Titel (ta meta ta physika: die <Schriften, Dinge> nach der Physik) einen bloß bibliografischen oder einen sachbezogenen Hintergrund hat, ist unklar.
+Aristoteles spricht in der Metaphysik von einer allen anderen Wissenschaften vorgeordneten Wissenschaft, die er Erste Philosophie, Weisheit (sophia) oder auch Theologie nennt. Diese Erste Philosophie wird in dieser Sammlung aus Einzeluntersuchungen auf drei Weisen charakterisiert:
+als Wissenschaft der allgemeinsten Prinzipien, die für Aristoteles’ Wissenschaftstheorie zentral sind (→ Satz vom Widerspruch)
+als Wissenschaft vom Seienden als Seienden, die aristotelische Ontologie
+als Wissenschaft vom Göttlichen, die aristotelische Theologie (→ Theologie)
+Ob oder inwieweit diese drei Projekte zusammenhängende Aspekte derselben Wissenschaft oder voneinander unabhängige Einzelprojekte sind, ist kontrovers. Aristoteles behandelt später metaphysisch genannte Themen auch in anderen Schriften.
+Ontologie
+Im Corpus Aristotelicum finden sich in zwei Werken, den frühen Kategorien und der späten Metaphysik, unterschiedliche Theorien des Seienden.
+Substanzen in den Kategorien
+Die Kategorien, die die erste Schrift im Organon bilden, sind vermutlich das einflussreichste Werk des Aristoteles und der Philosophiegeschichte überhaupt.
+Die frühe Ontologie der Kategorien befasst sich mit den Fragen ‚Was ist das eigentlich Seiende?‘ und ‚Wie ist das Seiende geordnet?‘ und ist als Kritik an der Position Platons zu verstehen. Der mutmaßliche Gedankengang lässt sich folgendermaßen skizzieren. Unterschieden werden Eigenschaften, die Einzeldingen zukommen (P kommt S zu). Dafür liegen zwei Deutungsmöglichkeiten nahe: Das eigentlich Seiende, die Substanz (ousia)[29] sind
+abstrakte, unabhängig existierende Urbilder als Ursache und Erkenntnisgegenstand von Eigenschaften.
+konkrete Einzeldinge als Träger von Eigenschaften.
+Aristoteles selbst berichtet (Met. I 6), Platon habe gelehrt, man müsse von den wahrnehmbaren Einzeldingen getrennte, nicht sinnlich wahrnehmbare, unveränderliche, ewige Urbilder unterscheiden. Platon nahm an, dass es Definitionen (und damit aus seiner Sicht auch Wissen) von den Einzeldingen, die sich beständig ändern, nicht geben kann. Gegenstand der Definition und des Wissens sind für ihn die Urbilder (Ideen)[30] als das für die Ordnungsstruktur des Seienden Ursächliche. Verdeutlichen lässt sich dies an einer von allen Menschen getrennten, einzelnen und numerisch identischen Idee des Menschen, die für das jeweilige Menschsein ursächlich ist und die Erkenntnisgegenstand ist für die Frage ‚Was ist ein Mensch?‘.
+Aristoteles’ Einteilung des Seienden in den Kategorien scheint sich von der skizzierten Position Platons abzugrenzen. Er orientiert sich dabei an der sprachlichen Struktur einfacher Sätze der Form ‚S ist P‘ und der sprachlichen Praxis, wobei er die sprachliche und die ontologische Ebene nicht explizit voneinander scheidet.
+Einige Ausdrücke – wie ‚Sokrates‘ – können nur die Subjektposition S in dieser sprachlichen Struktur einnehmen, alles andere wird von ihnen prädiziert. Die Dinge, die in diese Kategorie der Substanz fallen und die er Erste Substanz nennt, sind ontologisch selbständig; sie bedürfen keines anderen Dinges, um zu existieren. Daher sind sie ontologisch primär, denn alles andere ist von ihnen abhängig und nichts würde ohne sie existieren.
+Diese abhängigen Eigenschaften bedürfen eines Einzeldings, einer ersten Substanz als eines Trägers, an der sie vorkommen. Derartige Eigenschaften (z. B. weiß, sitzend) können einem Einzelding (etwa Sokrates) jeweils zukommen oder auch nicht zukommen und sind daher akzidentelle Eigenschaften. Dies betrifft alles außerhalb der Kategorie der Substanz.
+Für einige Eigenschaften (z. B. ‚Mensch‘) gilt nun, dass sie in der Weise von einem Einzelding (z. B. Sokrates) ausgesagt werden können, dass ihre Definition (vernünftiges Lebewesen) auch von diesem Einzelding gilt. Sie kommen ihm daher notwendig zu. Dies sind die Art und die Gattung. Aufgrund dieses engen Bezugs, in dem die Art und die Gattung angeben, was eine erste Substanz jeweils ist (etwa in der Antwort auf die Frage ‚Was ist Sokrates?‘: ‚ein Mensch‘), nennt Aristoteles sie zweite Substanz. Dabei hängt auch eine zweite Substanz von einer ersten Substanz ontologisch ab.
+A) Kategorie der Substanz:
+1. Substanz: Merkmal der Selbständigkeit.
+2. Substanz: Merkmal der Erkennbarkeit.
+B) Nichtsubstanziale Kategorien: Akzidenzien.
+Aristoteles vertritt also folgende Thesen:
+Nur Einzeldinge (erste Substanzen) sind selbständig und daher ontologisch primär.
+Alle Eigenschaften hängen von den Einzeldingen ab. Es existieren keine unabhängigen, nicht-exemplifizierten Urbilder.
+Neben kontingenten, akzidentellen Eigenschaften (wie ‚weiß‘) gibt es notwendige, essentielle Eigenschaften (wie ‚Mensch‘), die angeben, was ein Einzelding jeweils ist.
+Die Substanztheorie der Metaphysik
+Für Platon ergibt sich als Konsequenz aus seiner Auffassung von den Ideen die Annahme, dass im eigentlichen, unabhängigen Sinne allein die unveränderlichen Ideen existieren; die Einzeldinge existieren nur in Abhängigkeit von den Ideen. Diese ontologische Konsequenz kritisiert Aristoteles eingehend in der Metaphysik. Er hält es für widersprüchlich, dass die Anhänger der Ideenlehre einerseits die Ideen dadurch von den Sinnesobjekten abgrenzen, dass sie ihnen das Merkmal der Allgemeinheit und damit Undifferenziertheit zuweisen, und andererseits zugleich für jede einzelne Idee eine separate Existenz annehmen; dadurch würden die Ideen selbst Einzeldinge, was mit ihrem Definitionsmerkmal Allgemeinheit unvereinbar sei (Met. XIII 9, 1086a32–34).
+In der Metaphysik vertritt Aristoteles im Rahmen seines Vorhabens, das Seiende als Seiendes zu untersuchen, die Auffassung, dass alles Seiende entweder eine Substanz ist oder auf eine bezogen ist (Metaphysik IV 2). In den Kategorien hatte er ein Kriterium für Substanzen formuliert und Beispiele (Sokrates) für diese gegeben. In der Metaphysik thematisiert er nun abermals die Substanz, um nach den Prinzipien und Ursachen einer Substanz, eines konkreten Einzeldings zu suchen. Hier fragt er nun: Was macht etwa Sokrates zu einer Substanz? Substanz ist hier also ein zweistelliges Prädikat (Substanz von X), so dass man die Frage so formulieren kann: Was ist die Substanz-X einer Substanz?[31][32] Dabei spielt die Form-Materie-Unterscheidung, die in den Kategorien nicht präsent ist, eine entscheidende Rolle.
+Aristoteles scheint die Substanz-X vor allem mit Hilfe zweier Kriterien zu suchen, die in der Theorie der Kategorien auf die erste und die zweite Substanz verteilt sind:
+(i) selbständige Existenz oder Subjekt für alles andere, aber nicht selbst Prädikat zu sein (individuelles Wesen = erste Substanz);
+(ii) Definitionsgegenstand zu sein, Erkennbarkeit zu garantieren, das heißt auf die Frage ‚Was ist X?‘ zu antworten (allgemeines Wesen = zweite Substanz).
+Das Kriterium (ii) wird genauer erfüllt, indem Aristoteles das Wesen als Substanz-X bestimmt. Mit Wesen meint er dabei, was ontologisch einer Definition entspricht (Met. VII 4; 5, 1031a12; VIII 1, 1042a17). Das Wesen beschreibt die notwendigen Eigenschaften, ohne die ein Einzelding aufhören würde, ein und dieselbe Sache zu sein. Fragt man: Was ist die Ursache dafür, dass diese Materieportion Sokrates ist?, so ist Aristoteles’ Antwort: Das Wesen von Sokrates, welches weder ein weiterer Bestandteil neben den materiellen Bestandteilen ist (dann bedürfte es eines weiteren Strukturprinzips, um zu erklären, wie es mit den materiellen Bestandteilen vereint ist) noch etwas aus materiellen Bestandteilen (dann müsste man erklären, wie das Wesen selbst zusammengesetzt ist).
+Aristoteles ermittelt die Form (eidos)[33] eines Einzeldings als sein Wesen und somit als Substanz-X. Mit Form meint er weniger die äußere Gestalt als vielmehr die Struktur: Die Form
+wohnt dem Einzelding inne,
+bewirkt
+bei Lebewesen die Entstehung eines Exemplars derselben Art (Met. VII 8, 1033b30–2)
+bei Artefakten (z. B. Haus) als formale Ursache (Bauplan) (Met. VII 9, 1034a24) im Geist des Produzenten (Met. VII 7, 1032b23) (Architekt) die Entstehung des Einzeldings.
+geht der Entstehung eines aus Form und Materie zusammengesetzten Einzeldings voraus und entsteht und verändert sich nicht und bewirkt so (bei natürlichen Arten) eine Kontinuität der Formen, die für Aristoteles ewig ist (Met. VII 8, 1033b18)
+ist Ursache, Erklärung der wesentlichen Eigenschaften und Fähigkeiten eines Einzeldings (Beispielsweise ist die Form eines Menschen die Seele (Met. VII 10, 1035b15), welche sich aus Fähigkeiten wie Nährvermögen, Wahrnehmungsvermögen, Denkvermögen unter anderem konstituiert (An. II 2, 413b11–13)).
+Dass die Form als Substanz-X auch das genannte Kriterium (ii), selbständig zu sein, erfüllen muss, und dies teilweise als Kriterium für etwas Individuelles aufgefasst wird, ist einer von vielen Aspekten in folgender zentralen interpretatorischen Kontroverse: Fasst Aristoteles die Form (A) als etwas Allgemeines oder (B) als etwas (dem jeweiligen Einzelding) Individuelles auf? Als Problem formuliert: Wie kann die Form, das eidos, zugleich Form eines Einzeldings und Gegenstand des Wissens sein?[34] Für (A) spricht insbesondere, dass Aristoteles an mehreren Stellen davon ausgeht, dass die Substanz-X und somit die Form definierbar ist (Met. VII 13) und dies für ihn (wie für Platon) nur auf Allgemeines zutrifft (VII 11, 1036a; VII 15, 1039b31–1040a2). Für (B) hingegen spricht vor allem, dass Aristoteles kategorisch die unplatonische Position zu vertreten scheint: Kein Allgemeines kann Substanz-X sein (Met. VII 13). Nach (B) besitzen Sokrates und Kallias zwei auch qualitativ verschiedene Formen. Definierbar müssten dann zu separierende, überindividuelle Aspekte dieser beiden Formen sein. Die Interpretation (A) hingegen löst das Dilemma etwa, indem sie die Aussage Kein Allgemeines ist Substanz-X als Nichts allgemein Prädizierbares ist Substanz-X interpretiert und so entschärft. Die Form werde nicht auf herkömmliche Weise (wie die Art ‚Mensch‘ von ‚Sokrates‘ in den Kategorien) prädiziert und sei daher nicht im problematischen Sinne allgemein. Vielmehr werde die Form von der unbestimmten Materie in einer Weise ‚prädiziert‘, die einen Einzelgegenstand erst konstituiere.[35]
+Akt und Potenz
+Die für die Ontologie wichtige Beziehung zwischen Form und Materie wird durch ein weiteres Begriffspaar genauer erläutert: Akt (energeia, entelecheia) und Potenz (dynamis).
+Für die Form-Materie-Unterscheidung ist die später ontologisch genannte Bedeutung von Potenz oder Vermögen wichtig.[36] Potentialität ist hier ein Zustand, dem ein anderer Zustand – Aktualität – gegenübersteht, indem ein Gegenstand der Wirklichkeit nach F oder dem Vermögen, der Möglichkeit nach F ist. So ist ein Junge der Möglichkeit nach ein Mann, ein ungebildeter Mensch der Möglichkeit nach ein gebildeter (Met. IX 6).
+Dieses (hier diachron beschriebene) Verhältnis von Aktualität und Potentialität bildet die Grundlage für das (auch synchron zu verstehende) Verhältnis von Form und Materie, denn Form und Materie sind Aspekte eines Einzeldings, nicht dessen Teile. Sie sind im Verhältnis von Aktualität und Potentialität miteinander verbunden und konstituieren so (erst) das Einzelding. Die Materie eines Einzeldings ist demnach genau das potentiell, was die Form des Einzeldings und das Einzelding selbst aktual sind (Met. VIII 1, 1042a27 f.; VIII 6, 1045a23–33; b17–19). Zum einen ist zwar (diachron betrachtet) eine bestimmte Portion Bronze potentiell eine Kugel wie auch eine Statue. Zum anderen aber ist (synchron als konstituierender Aspekt) die Bronze an einer Statue potentiell genau das, was die Statue und deren Form aktual sind. Die Bronze der Statue ist ein Konstituens der Statue, ist aber nicht mit ihr identisch. Und so sind auch Fleisch und Knochen potentiell das, was Sokrates oder seine Form (die für einen Menschen typische Konfiguration und Fähigkeiten seiner materiellen Bestandteile,→ Psychologie) aktual sind.
+So wie die Form gegenüber der Materie ist für Aristoteles auch die Aktualität gegenüber der Potentialität primär (Met. IX 8, 1049b4–5). Unter anderem ist sie der Erkenntnis nach primär. Man kann nur dann ein Vermögen angeben, wenn man Bezug auf die Wirklichkeit nimmt, zu der es ein Vermögen ist. Das Sehvermögen etwa lässt sich nur bestimmen, indem man auf die Tätigkeit ‚Sehen‘ Bezug nimmt (Met. IX 8, 1049b12–17). Des Weiteren ist die Aktualität im entscheidenden Sinne auch zeitlich früher als die Potentialität, denn ein Mensch entsteht durch einen Menschen, der aktual Mensch ist (Met. IX 8, 1049b17–27).
+Theologie
+Aristoteles unterscheidet im Vorfeld seiner Theologie drei mögliche Substanzen: (i) sinnlich wahrnehmbare vergängliche, (ii) sinnlich wahrnehmbare ewige und (iii) nicht sinnlich wahrnehmbare ewige und unveränderliche (Met. XII 1, 1069a30-1069b2). (i) sind die konkreten Einzeldinge (der sublunaren Sphäre), (ii) die ewigen, bewegten Himmelskörper, (iii) erweist sich als der selbst unbewegte Ursprung aller Bewegung.
+Aristoteles argumentiert für einen göttlichen Beweger, indem er feststellt, dass, wenn alle Substanzen vergänglich wären, alles vergänglich sein müsste, die Zeit und die Veränderung selbst jedoch notwendig unvergänglich sind (Phys. VIII 1, 251a8–252b6; Met. XII 6, 1071b6–10). Aristoteles zufolge ist die einzige Veränderung, die ewig existieren kann, die Kreisbewegung (Phys. VIII 8–10; Met. XII 6,1071b11). Die entsprechende beobachtbare kreisförmige Bewegung der Fixsterne muss daher als Ursache eine ewige und immaterielle Substanz haben (Met. XII 8, 1073b17–32). Enthielte das Wesen dieser Substanz Potentialität, könnte die Bewegung unterbrochen werden. Daher muss sie reine Aktualität, Tätigkeit sein (Met. XII, 1071b12–22). Als letztes Prinzip muss dieser Beweger selbst unbewegt sein.
+Nach Aristoteles bewegt der unbewegte Beweger „wie ein Geliebtes“, nämlich als Ziel (Met. XII 7, 1072b3), denn das Begehrte, das Gedachte und insbesondere das Geliebte kann bewegen, ohne bewegt zu sein (Met. XII 7, 1072a26). Seine Tätigkeit ist die lustvollste und schönste. Da er immaterielle Vernunft (nous) ist und seine Tätigkeit im Denken des besten Gegenstandes besteht, denkt er sich selbst: das „Denken des Denkens“ (noêsis noêseôs) (Met. XII 9, 1074b34 f.). Da nur Lebendiges denken kann, muss er zudem lebendig sein. Den unbewegten Beweger identifiziert Aristoteles mit Gott (Met. XII 7, 1072b23 ff.).
+Der unbewegte Beweger bewegt die gesamte Natur. Die Fixsternsphäre bewegt sich, da sie mit der Kreisbewegung die Vollkommenheit nachahmt. Die anderen Himmelskörper werden vermittelt über die Fixsternsphäre bewegt. Die Lebewesen haben Anteil an der Ewigkeit, indem sie mittels der Fortpflanzung ewig bestehen (GA II 1, 731b31–732a1).
+Biologie
+Stellung der Biologie
+Nicht nur in der Philosophiegeschichte, sondern auch in der Geschichte der Naturwissenschaften nimmt Aristoteles einen bedeutenden Platz ein. Ein großer Teil seiner überlieferten Schriften ist naturwissenschaftlich, von denen die bei weitem bedeutendsten und umfangreichsten die biologischen Schriften sind, die fast ein Drittel des überlieferten Gesamtwerks umfassen. Vermutlich in Arbeitsteilung wurde die Botanik von seinem engsten Mitarbeiter Theophrast, die Medizin von seinem Schüler Menon bearbeitet.
+Aristoteles vergleicht das Studium unvergänglicher Substanzen (Gott und Himmelskörper) und vergänglicher Substanzen (der Lebewesen). Beide Forschungsgebiete haben ihren Reiz. Die unvergänglichen Substanzen, die höchsten Erkenntnisgegenstände zu untersuchen, bereiten zwar die größte Freude, aber das Wissen über Lebewesen ist leichter zu erlangen, da sie uns näher stehen. Er betont den Wert der Erforschung auch niederer Tiere und weist darauf hin, dass auch diese etwas Natürliches und Schönes zeigen, das sich nicht in ihren zerlegten Bestandteilen erschöpft, sondern erst durch die Tätigkeiten und das Zusammenwirken der Teile hervortritt (PA I 5, 645a21–645b1).
+Aristoteles als empirischer Forscher
+Aristoteles hat selbst empirische Forschung betrieben, jedoch vermutlich nicht Experimente im – erst in der neuzeitlichen Naturwissenschaft eingeführten – Sinne einer methodischen Versuchsanordnung angestellt.
+Sicher ist, dass er selbst Sezierungen vornahm. Einem Experiment am nächsten kommt die in festgelegten zeitlichen Abständen wiederholte Untersuchung von befruchteten Hühnereiern, mit dem Ziel zu beobachten, in welcher Reihenfolge die Organe entstehen (GA VI 3, 561a6–562a20). Experimente sind jedoch in seiner eigentlichen Domäne – der deskriptiven Zoologie – auch nicht das wesentliche Instrument der Forschung. Neben eigenen Beobachtungen und einigen wenigen Textquellen stützte er sich hier auch auf Informationen von einschlägig Berufstätigen wie Fischern, Bienenzüchtern, Jägern und Hirten. Er ließ die Inhalte seiner Textquellen teilweise empirisch überprüfen, übernahm aber auch unkritisch fremde Irrtümer. Ein verlorenes Werk bestand vermutlich großenteils aus Zeichnungen und Diagrammen von Tieren.
+Methodologie der Biologie: Trennung von Fakten und Ursachen
+Aufgrund des lange vorherrschenden Interpretationsmodells der Wissenschaftstheorie des Aristoteles und der Vernachlässigung der biologischen Schriften, ging man früher davon aus, dass er diese Theorie nicht auf die Biologie angewendet hat. Demgegenüber wird heute durchaus angenommen, dass seine Vorgehensweise in der Biologie von seiner Wissenschaftstheorie beeinflusst war, wenngleich Umfang und Grad umstritten sind.
+Faktensammlungen
+Von Aristoteles ist keine Beschreibung seines naturwissenschaftlichen Vorgehens überliefert. Erhalten sind neben der allgemeinen Wissenschaftstheorie nur Texte, die ein Endprodukt der wissenschaftlichen Forschung darstellen. Die biologischen Schriften sind in einer bestimmten Reihenfolge angeordnet, die der Vorgehensweise entspricht.
+Die erste Schrift (Historia animalium) beschreibt die verschiedenen Tierarten und ihre spezifischen Differenzen. Sie bietet die Sammlung des Faktenmaterials wie z. B., dass alle Lebewesen mit Lungen Luftröhren aufweisen. Dabei wird nicht erörtert, ob etwas notwendig oder unmöglich so sei. In der Faktensammlung ordnet Aristoteles die Lebewesen nach verschiedenen Einteilungsmerkmalen wie blutführend, lebendgebärend usw. Nach Merkmalen geordnet stellt er allgemeine Relationen zwischen verschiedenen Aspekten der Beschaffenheit fest. So bemerkt er beispielsweise: Alle Vierfüßler, die lebendgebärend sind, weisen Lungen und Luftröhren auf (HA II 15, 505b32 f.). Erst die an dieses Werk anschließenden und darauf aufbauenden Schriften De generatione animalium (Über die Entstehung der Tiere) und De partibus animalium (Über die Teile der Tiere) befassen sich mit den Ursachen, welche die Fakten erklären.
+Ursachenwissen
+Die Faktensammlung ist die Voraussetzung dafür, Wissen auf der Grundlage von Ursachenkenntnis zu erreichen. Zentral für die Biologie sind dabei finale Ursachen, die den Zweck der Bestandteile des Körpers angeben. Die Ursache für die Existenz einer Luftröhre bei allen Lebewesen, die eine Lunge besitzen, besteht für Aristoteles in der Funktionsweise der Lunge. Die Lunge kann – anders als der Magen – nicht unmittelbar an den Mund anschließen, da sie eines zweigeteilten Kanals bedarf, so dass Einatmen und Ausatmen auf optimale Weise möglich ist. Da dieser Kanal eine gewisse Länge aufweisen muss, haben alle Lebewesen mit Lunge einen Hals. Fische haben daher keinen Hals, weil sie keine Luftröhre benötigen, da sie mit Kiemen atmen (PA III 3, 664a14–34).
+Finale Ursachen in der Biologie
+Die Verwendung finaler Erklärungen in der Biologie (und auch anderen Forschungsgebieten des Aristoteles) ist insbesondere in der Frühen Neuzeit und bis ins 20. Jahrhundert vielfach kritisiert worden. Unter finalen Erklärungen oder Ursachen versteht Aristoteles hier allerdings in der Regel keine übergreifenden Zwecke, die etwa eine bestimmte Spezies hätte. Ihm geht es vielmehr um eine interne Funktionsbestimmung der Organismen und ihrer Teile.
+Inhalte der Zoologie
+Aristoteles hat über 500 Spezies untersucht. Seine Schriften behandeln systematisch die inneren und äußeren Teile der einzelnen Tiere, Bestandteile wie Blut und Knochen, Arten der Fortpflanzung, die Nahrung, den Lebensraum und das Verhalten. Er beschreibt das Verhalten von Haustieren, exotischen Raubtieren wie dem Krokodil, Vögeln, Insekten und Meerestieren. Zu diesem Zweck ordnet er die Lebewesen.
+Einteilung der Arten
+Aristoteles unterscheidet zwei Hauptgruppen von Lebewesen: blutführende und blutlose Tiere. Dies entspricht der Einteilung in Vertebraten und Invertebraten. Diese ordnet er nach größten Gattungen:
+Blutführende Tiere:
+lebendgebärende Vierfüßler
+eierlegende Vierfüßler
+Vögel
+Fische
+Cetaceen (Meeressäugetiere)
+eierlegende Fußlose (Schlangen)
+lebendgebärende Fußlose (Vipern)
+Mensch (bildet eine isolierte Gattung)
+Blutlose Tiere:
+Weichtiere
+Krustentiere
+Schaltiere
+Kerbtiere
+Vermutlich war es nicht Aristoteles’ Absicht, eine vollständige Taxonomie zu schaffen. Das System einer Taxonomie ist für ihn auch kein Hauptgegenstand. Ziel seiner Untersuchungen war eher eine Morphologie, eine Klassifikation der Lebewesen anhand charakteristischer Merkmale. So hat er die Gattungen zwischen den genannten sowie Untergattungen nicht terminologisch fixiert.
+Beispiel einer Beschreibung. Der Krake
+„Der Krake benutzt seine Fangarme sowohl als Füße wie auch als Hände. Er nimmt die Nahrung mit den beiden auf, welche über seinem Mund liegen, und der letzte seiner Fangarme, der spitz zuläuft als einziger weißlich und an der Spitze gegabelt ist (er rollt sich zur rhachis hin ab – die rhachis ist die glatte Oberfläche, die der mit Saugnäpfen besetzen gegenüberliegt), dient zur Fortpflanzung. Vor dem Mantel und über den Fangarmen verfügt er über eine hohle Röhre, wodurch er das Meereswasser entläßt, das in den Mantel fließt, wann immer er etwas mit dem Mund aufnimmt. Er bewegt diese Röhre nach rechts und links und stößt Tinte durch sie aus. Er schwimmt in schiefer Lage in Richtung des sogenannten Kopfes, und streckt dabei seine Füße aus. Und wenn er auf diese Weise schwimmt, kann er nach vorne sehen und hat seinen Mund hinten. Solange das Tier lebt, ist der Kopf hart und gleichsam als wäre er aufgeblasen. Es ergreift und hält die Dinge mit der Unterseite seiner Fangarme fest, und die Haut zwischen seinen Füßen ist ganz gespannt. Wenn es auf Sand gerät, kann es sich nicht länger festhalten.“
+– HA IV 1, 524a3–20[37]
+Aristoteles und die Erkenntnisse der modernen Biologie
+In vielen Fällen hat sich Aristoteles als Biologe geirrt. Einige seiner Irrtümer erscheinen reichlich kurios, wie die Beschreibung des Bisons, das sich „durch Ausschlagen und Ausstoßen seines Kots, welchen es bis siebeneinhalb Meter weit von sich schleudern kann, verteidigt“ (HA IX 45, 630b8 f.).[38] Offenbar war seine Informationsquelle über dieses exotische Tier nicht sehr verlässlich. Weitere bekannte Irrtümer sind unter anderem die Behauptung, der Mann habe mehr Zähne als die Frau (HA II 3, 501b19), das Gehirn sei ein Kühlorgan und das Denken geschehe in der Herzgegend (PA II 7, 652b21–25; III 3, 514a16–22) sowie das Konzept der Telegonie, wonach eine vorangegangene Trächtigkeit den Phänotyp von Nachkommen aus späteren Trächtigkeiten beeinflussen könne.
+Aristoteles hat aber auch auf der Grundlage seiner Beobachtungen Einsichten gewonnen, die nicht nur zutreffen, sondern die erst in der Moderne wiederentdeckt oder bestätigt worden sind. Beispielsweise erwähnt er bei der Beschreibung des angeführten Kraken, dass die Paarung durch einen Fangarm des Männchens geschieht, der gegabelt ist – die sogenannte Hektokotylisation –, und beschreibt diesen Fortpflanzungsvorgang (HA V 5, 541b9–15; V 12, 544a12; GA V 15, 720b33). Dieses Phänomen war bis ins 19. Jahrhundert nur durch Aristoteles bekannt; die genaue Art der Fortpflanzung wurde erst 1959 vollständig verifiziert.
+Bedeutender noch ist seine Hypothese, nach der die Teile eines Organismus in einer hierarchischen Ordnung ausgebildet werden und nicht – wie die (bereits von Anaxagoras vertretene) Präformationslehre annimmt – vorgebildet sind (GA 734a28–35). Diese Auffassung von der embryonalen Entwicklung ist in der Neuzeit unter der von Aristoteles noch nicht verwendeten Bezeichnung Epigenesis bekannt geworden. Ihre empirische Grundlage waren für Aristoteles seine Sezierungen. In der Neuzeit war aber die Präformationslehre vom 17. bis in das 19. Jahrhundert hinein die allgemein akzeptierte Theorie, und Vertreter der Epigenesis wie William Harvey (1651) und Caspar Friedrich Wolff (1759) fanden mit ihren embryologischen Untersuchungen, die klar zeigten, dass die Embryonen sich aus ganz undifferenzierter Materie entwickeln, wenig Beachtung. Diese Einsicht setzte sich erst im frühen 19. Jahrhundert durch und verdrängte schließlich die präformistischen Spekulationen. Endgültig wurde erst im 20. Jahrhundert in der Experimentalbiologie durch Hans Driesch und Hans Spemann bestätigt, dass die embryonale Entwicklung eine Kette von Neubildungen, ein epigenetischer Prozess ist.[39] Ferner gibt es eine Analogie zwischen der aristotelischen zielhaften Epigenesis und der Genetik.[40]
+Seelenlehre: Theorie des Lebendigseins
+Ausgangssituation
+Lebewesen unterscheiden sich von anderen natürlichen und künstlichen Objekten dadurch, dass sie lebendig sind. Bei Homer ist die Seele (psychê) das, was einen Leichnam verlässt. Im Laufe des 6. und 5. Jahrhundert v. Chr. findet der Begriff zunehmend eine deutliche Ausweitung: beseelt (empsychos) zu sein bedeutet lebendig zu sein und das Konzept Seele weist nun auch kognitive und emotionale Aspekte auf. Aristoteles nimmt diesen Sprachgebrauch auf. In seiner Seelentheorie ist er mit zwei Positionen konfrontiert: zum einen mit dem Materialismus vorsokratischer Naturphilosophen, die behaupten, die Seele bestehe aus einer besonderen Art Materie, zum anderen mit der dualistischen Position Platons, für den die Seele unsterblich, immateriell und ihrer Natur nach eher etwas Intelligibles ist.
+Hinsichtlich der Streitfrage zwischen Materialismus und Dualismus, ob Körper und Seele miteinander identisch sind oder nicht, ist Aristoteles der Auffassung, dass die Frage falsch gestellt ist. Dies erläutert er mit einem Vergleich: Die Frage Sind Körper und Seele identisch? ist ebenso unsinnig wie die Frage Sind Wachs und seine Form identisch? (An. II 1, 412b6–9). Zustände der Seele sind zwar immer auch Zustände des Körpers, aber eine Identität von Körper und Seele verneint Aristoteles ebenso wie die Unsterblichkeit der Seele.[41]
+Bestimmung der Seele
+Was die Seele ist, bestimmt Aristoteles mittels seiner Unterscheidung von Form und Materie. Die Seele verhält sich zum Körper wie die Form zur Materie, das heißt wie eine Statuenform zur Bronze. Form und Materie eines Einzeldings sind aber nicht zwei verschiedene Objekte, nicht dessen Teile, sondern Aspekte ebendieses Einzeldings.
+Die Seele definiert Aristoteles als „erste Wirklichkeit (entelecheia) eines natürlichen organischen Körpers“ (An. II 1, 412b5 f.). Eine Wirklichkeit oder Aktualität ist die Seele, weil sie als Form den Aspekt des Lebendigen an der potentiell belebten Materie (nämlich der organischen) darstellt. Eine erste Wirklichkeit ist sie, insofern das Lebewesen auch dann lebendig ist, wenn es nur schläft und keine weiteren Tätigkeiten ausübt (die ebenfalls Aspekte des Seelischen sind). (An. II 1, 412a19–27).[42]
+Fähigkeiten
+Die weiteren seelischen Aspekte sind die Funktionen, die für ein Lebewesen charakteristisch sind, seine spezifischen Fähigkeiten oder Vermögen (dynamis). Aristoteles unterscheidet vor allem folgende Fähigkeiten:
+Ernährungs- und Fortpflanzungsvermögen (threptikon)
+Wahrnehmungsvermögen (aisthêtikon)
+Denkvermögen (dianoêtikon)
+Ernährungs- und Fortpflanzungsvermögen kommen – als grundlegendes Vermögen alles Lebendigen – auch den Pflanzen zu, Wahrnehmungsvermögen (und Fortbewegungsfähigkeit) weisen nur die Tiere (einschließlich des Menschen) auf. Das Denken besitzt allein der Mensch.
+Wahrnehmungsvermögen
+Aristoteles unterscheidet folgende fünf Sinne und behauptet, dass es nicht mehr geben kann:
+Tastsinn
+Geschmackssinn
+Riechen
+Hören
+Sehen
+Wahrnehmung (aisthesis) fasst Aristoteles allgemein als ein Erleiden oder eine qualitative Veränderung (An. II 5, 416b33 f.). Das, was die Sinne wahrnehmen, ist dabei jeweils durch ein kontinuierliches Gegensatzpaar bestimmt: Sehen durch hell und dunkel, Hören durch hoch und tief, Riechen und Schmecken durch bitter und süß; Tasten weist verschiedene Gegensatzpaare auf: hart und weich, heiß und kalt, feucht und trocken.
+Aristoteles behauptet, dass beim Wahrnehmungsvorgang das jeweilige Organ wie das Wahrgenommene wird (An. 418a3–6). Des Weiteren sagt er, dass das Organ die Form „ohne die Materie“ aufnimmt, so „wie das Wachs das Siegel des Ringes ohne Eisen und ohne Gold aufnimmt“ (An. II 12, 424a18 f.). Dies ist von manchen Kommentatoren, darunter Thomas von Aquin, so interpretiert worden, dass das Organ keine natürliche Veränderung (mutatio naturalis), sondern eine geistige (mutatio spiritualis) erfahre. Andere Interpreten meinen, dass „ohne Materie“ schlicht bedeutet, dass zwar keine Partikel in das Organ gelangen, dieses sich aber tatsächlich dem Wahrnehmungsobjekt entsprechend verändert.
+Den Tastsinn besitzen alle Lebewesen, welche Wahrnehmung besitzen. Der Tastsinn ist ein Kontaktsinn, das heißt zwischen Wahrnehmungsorgan und Wahrgenommenem befindet sich kein Medium (An. II 11, 423a13 f.). Der Geschmacksinn ist eine Art Tastsinn (An. II 10, 422a8 f.). Die drei Distanzsinne Riechen, Hören und Sehen hingegen benötigen ein Medium, das den Eindruck vom Wahrgenommenen zum Organ transportiert.
+Vernunft
+Die Vernunft oder das Denkvermögen (nous) ist spezifisch für den Menschen. Aristoteles definiert sie als „das, womit die Seele denkt und Annahmen macht“ (An. III 4, 429a22 f.). Die Vernunft ist unkörperlich, da sie anderenfalls in ihren möglichen Denkgegenständen eingeschränkt wäre, was aber nicht der Fall sein darf (An. III 4, 429a17–22). Allerdings ist sie körpergebunden, da sie auf Vorstellungen (phantasmata) angewiesen ist. Vorstellungen bilden das Material der Denkakte, sie sind konservierte Sinneswahrnehmungen. Das entsprechende Vorstellungsvermögen (phantasia; weder interpretierend noch produktiv im Sinne von Phantasie) ist auf Sinneseindrücke angewiesen, wenngleich Sinneseindruck und Vorstellung qualitativ mitunter stark voneinander abweichen können, etwa bei Halluzinationen. Das Vorstellungsvermögen ist den Wahrnehmungsvermögen zugeordnet (An. III 8, 428b10–18). Insofern die Vernunft also in ihrer Tätigkeit an Vorstellungen gebunden ist, ist sie auch an einen Körper gebunden.[41]
+Ethik
+Glück (eudaimonia) und Tugend oder Bestzustand (aretê) sind die in Aristoteles’ Ethik zentralen Begriffe. Aristoteles vertritt die These, dass das Ziel aller absichtlichen Handlungen das im „guten Leben“ verwirklichte Glück ist. Die Ausbildung von Tugenden ist nach seiner Ansicht wesentlich dafür, dieses Ziel zu erreichen (→ Tugendethik).
+Glück als das Ziel des guten Lebens
+Strebenshierarchie der Güter
+In ihren (absichtlichen) Handlungen streben alle Menschen nach etwas, das ihnen gut erscheint. Einige dieser erstrebten Güter werden nur als Mittel erstrebt, um andere Güter zu erreichen, andere sind sowohl Mittel als auch selbst ein Gut. Da das Streben nicht unendlich sein kann, muss es ein oberstes Gut und letztes Strebensziel geben. Dieses wird nur um seiner selbst willen erstrebt. Es wird offenbar allgemein „Glück“ (eudaimonia) genannt (EN I 1).
+Definition des Glücks als des obersten Guts
+Um umrisshaft zu bestimmen, worin das Glück als oberstes Gut für den Menschen besteht, fragt Aristoteles: Worin besteht die spezifische Funktion (telos) oder Aufgabe (ergon) des Menschen? Sie besteht im Vermögen der Vernunft (logos), das ihn von anderen Lebewesen unterscheidet. Der für den Menschen spezifische Seelenteil verfügt über dieses Vermögen der Vernunft; der andere Seelenteil, der sich aus Emotionen und Begierden zusammensetzt, ist zwar selbst nicht vernünftig, kann sich aber durch die Vernunft leiten lassen. Um das Glück zu erlangen, muss das Individuum das Vermögen Vernunft gebrauchen, nicht bloß besitzen, und zwar auf Dauer und in einem Bestzustand (aretê). Demgemäß ist „das Gut für den Menschen“, das Glück, eine
+„Tätigkeit der Seele gemäß der Gutheit (kat' aretên), und wenn es mehrere Arten der Gutheit gibt, im Sinn derjenigen, welche die beste und am meisten ein abschließendes Ziel (teleios) ist. Hinzufügen müssen wir noch: ‚in einem ganzen Leben‘. Denn eine Schwalbe macht noch keinen Frühling, auch nicht ein Tag. So macht auch ein Tag oder eine kurze Zeit keinen selig (makarios) und glücklich (eudaimôn).“
+– EN I 7, 1098a17–19.
+Tugenden
+Um den Zustand der Vortrefflichkeit zu erreichen, muss man den beiden Seelenteilen entsprechend (a) Verstandestugenden und (b) Charaktertugenden ausbilden. Tugenden sind für Aristoteles Haltungen, zu denen jeder Mensch die Anlage besitzt, die sich jedoch durch Erziehung und Gewöhnung erst ausbilden müssen.
+Verstandestugenden
+Unter den Verstandestugenden beziehen sich einige auf das Wissen von Unveränderlichem oder die Herstellung von Gegenständen. Allein die Klugheit (phronêsis) ist mit dem Handeln verknüpft, und zwar als Tugend mit dem Ziel eines guten Lebens. Sie ist – neben den Charaktertugenden – notwendig, um in konkreten Entscheidungssituationen im Hinblick auf das gute Leben handeln zu können. Im Bereich menschlicher Handlungen gibt es – anders als in den Wissenschaften – keine Beweise, und um klug zu sein, bedarf es dabei auch der Erfahrung. Die Funktion der Klugheit besteht darin, die Mitte (mesotês) zu wählen.
+Charaktertugenden
+Charaktertugenden sind Haltungen (hexeis), für die kennzeichnend ist, dass man sie loben und tadeln kann. Sie werden durch Erziehung und Gewöhnung ausgeprägt, wobei dies nicht als eine Konditionierung zu verstehen ist. Zwar hängt von Kindheit an sehr viel von der Gewöhnung ab (EN II 1, 1103b24), Charaktertugenden liegen jedoch erst vor, wenn jemand sich wissentlich für die entsprechenden Handlungen entscheidet, und zwar nicht wegen möglicher Sanktionen, sondern um der tugendhaften Handlungen selbst willen, und wenn er dabei auch nicht ins Wanken gerät (EN II 3, 1105a26–33). Auch unterscheidet sich der Tugendhafte vom Selbstbeherrschten (der dieselben Handlungen ausführen mag, sich aber dazu zwingen muss) dadurch, dass er an der Tugend Freude empfindet (EN II 2, 1104b3 ff.).
+Durch Gewöhnung ausgeprägt werden die Charaktertugenden, indem Übermaß und Mangel vermieden werden.
+„Wer alles flieht und fürchtet und nirgends standhält, wird feige, wer aber nichts fürchtet und auf alles losgeht, wird tollkühn. Ebenso wird, wer jede Lust genießt und sich keiner Lust enthält, unmäßig, wer aber jede Lust meidet wie ein ungehobelter Bauer, wird unempfindlich.“
+– EN II 2, 1104a20–24
+Das Instrument der Mitte bestimmt die Charaktertugenden genauer. So ist beispielsweise die Tugend der Tapferkeit eine Mitte zwischen den Lastern Tollkühnheit und Feigheit. Grundlage für die Tugenden sind dabei sowohl die Handlungen als auch die Emotionen und Begierden. Nicht tapfer sondern tollkühn ist jemand, der entweder in einer bestimmten Situation völlig furchtlos ist, obwohl die Situation bedrohlich ist, oder der in einer ernsten Bedrohungssituation seine Furcht ignoriert. Die Mitte besteht also – hier wie bei den anderen Charaktertugenden – darin, angemessene Emotionen zu haben und demgemäß angemessen zu handeln. Dabei ist diese Lehre von der Mitte vermutlich nicht in konkreten Situationen als normativ handlungsleitend, sondern nur als Beschreibungsinstrument der Charaktertugenden aufzufassen.[43] Sie ist auch keine arithmetische Mitte, sondern eine Mitte für uns (pros hêmas), die die jeweilige Emotion, die Person sowie die Situation berücksichtigt. Diese Tabelle zeigt einige wichtige Charaktertugenden (EN II 7):[44]
+Gegenstandsbereich
+Mangel
+Charaktertugend
+Übermaß
+Furcht/Mut
+Feigheit
+Tapferkeit
+Tollkühnheit
+Lust/Unlust
+Zügellosigkeit
+Besonnenheit
+Gefühllosigkeit
+Zorn
+Schwächlichkeit
+Sanftmut
+Jähzorn
+Scham
+Schamlosigkeit
+Feinfühligkeit
+Schüchternheit
+Ehre
+Kleinmütigkeit
+Großgesinntheit
+Eitelkeit
+Aristoteles definiert die Charaktertugend dementsprechend als
+„eine auf Entscheidungen begründete Haltung, die in einer Mitte in Bezug auf uns besteht, und die bestimmt wird durch Überlegung, das heißt so, wie der Kluge (phronimos) sie bestimmen würde.“
+– EN II 6, 1106b36–1107a2
+Lebensformen und Lust
+Im Kontext der Analyse des guten Lebens unterscheidet Aristoteles drei Lebensformen, die verschiedene Ziele verfolgen:
+das Genussleben – mit dem Ziel Lust;
+das politische Leben – mit dem Ziel Ehre;
+das theoretische Leben – mit dem Ziel Erkenntnis (EN I 3).
+Das Genussleben im Sinne einer bloßen Befriedigung der Begierden hält Aristoteles für sklavisch und verwirft es. Gelderwerb und Reichtum als Ziel hält er nicht für eine Lebensform, da Geld immer nur Mittel zu einem Zweck, aber nie selbst Ziel ist. Er plädiert für das theoretische Leben als beste Lebensform. Die beste Tätigkeit, die in der Glücksdefinition gesucht wird, ist diejenige des Theoretikers, der Erste Philosophie, Mathematik usw. betrachtet, denn sie bedeutet Muße, dient keinem anderen Zweck, betätigt mit den Verstandestugenden das Beste im Menschen und weist die besten Erkenntnisgegenstände auf (EN X 7, 1177a18–35).
+Obwohl er das theoretische Leben für das bestmögliche hält, weist er darauf hin, dass die Betrachtung als Lebensform den Menschen als Menschen übersteigt und eher etwas Göttliches ist (EN X 7, 1177b26–31). Das zweitbeste Leben ist das politische. Es besteht in der Betätigung der Charaktertugenden, die den Umgang mit anderen Menschen sowie mit unseren Emotionen bestimmen. Da Charaktertugenden und Verstandestugenden einander nicht ausschließen, meint Aristoteles möglicherweise, dass selbst der Theoretiker, insofern er ein soziales und mit Emotionen ausgestattetes Wesen ist, sich im Sinne des zweitbesten Lebens betätigen muss.
+Aristoteles fasst die Betätigung der Verstandestugenden (zumindest der Klugheit) und der Charaktertugenden als wesentliche Elemente des Glücks auf. Aber auch äußere oder körperliche Güter und auch die Lust hält er für Bedingungen, die hilfreich oder sogar notwendig sind, um glücklich zu werden. Güter wie Reichtum, Freunde und Macht verwenden wir als Mittel. Fehlen einige Güter, wird das Glück getrübt, wie bei körperlicher Verunstaltung, Einsamkeit oder missratenen Kindern (EN I 9, 1099a31–1099b6).
+Aristoteles meint, das Genussleben führe nicht zum Glück. Er hält die Lust nicht für das oberste Gut. Gegenüber lustfeindlichen Positionen macht er jedoch geltend, dass das gute Leben Lust einschließen müsse und bezeichnet die Lust als ein Gut (EN VII 14). Auch meint er, man könne einen Tugendhaften, der „auf das Rad geflochten“ sei, nicht als glücklich bezeichnen (EN VII 14, 1153b18–20).
+Gegen Platons Auffassung, Lüste seien Prozesse (kinêsis), die einen Mangel beseitigen (wie Lust beim Durstlöschen), und somit sei das Vollenden des Prozesses besser als dieser selbst, argumentiert Aristoteles dafür, dass Lüste Tätigkeiten (energeia) sind, die kein Ziel außer sich aufweisen. Paradigmatische Fälle sind Wahrnehmen und Denken.
+Mit diesem Lustkonzept, das Lust als „unbehinderte Tätigkeit“ oder „Vervollkommnung der Tätigkeit“ definiert (EN VII 13, 1153a14 f.; X 4, 1174b33),[45] macht er geltend, dass die Betätigung der Verstandestugenden und der Charaktertugenden lustvoll sein kann. Ob Lüste gut oder schlecht sind, hängt davon ab, ob die entsprechenden Tätigkeiten gut oder schlecht sind. Bei körperlichen Lüsten ist Letzteres etwa der Fall, wenn sie im Übermaß auftreten oder wenn sie gute Handlungen verhindern und so dem Glück abträglich sind.
+Politische Philosophie
+Die politische Philosophie des Aristoteles schließt an seine Ethik an. Als umfassende Form aller Gemeinschaften besteht der Staat (polis) um des höchsten Gutes willen, des Glücks (EN I 1, 1094a26–b11; Pol. I 1, 1252a1–7). Die politische Philosophie fragt also nach den Bedingungen des Glücks hinsichtlich des Lebens im Staat. Hierfür analysiert er die Bestandteile jeder menschlichen Gemeinschaft und jedes Staates und untersucht, welche Verfassung (politeia) die beste ist und für welche besonderen Bedingungen welche Verfassung die richtige ist.
+Entstehung, Bestandteile und Zweck des Staates
+Aus der Sicht von Aristoteles besteht der Staat von Natur aus (Pol. I 2, 1253a1). Betrachtet man die Teile des Staates, so liegen zunächst zwei grundlegende Beziehungen vor: die zwischen Mann und Frau, deren Zweck die Fortpflanzung ist, und die von Herr und Sklave mit dem Zweck, den Lebensunterhalt zu sichern. Beide gemeinsam ergeben die kleinste Gemeinschaft: den Haushalt.
+Aristoteles rechtfertigt die Sklaverei.[46] Er vertritt die These, dass es Sklaven gibt, die von Natur aus zu nichts anderem bestimmt sind als zur Sklaverei. Das begründet er damit, dass solche „Sklaven von Natur“ nur in geringem Maße Anteil an der Vernunft hätten; daher sei es nicht nur gerechtfertigt, sondern sogar für sie selbst vorteilhaft, dass sie ihr Leben als Sklaven verbringen müssen (Pol. I 5, 1254b20–23; 1255a1 f.). Allerdings ist sein Konzept unklar und widersprüchlich, da er die Freilassung von Sklaven grundsätzlich billigt und für die Unterscheidung zwischen akzidentellen Sklaven (etwa durch Kriegsgefangenschaft) und Sklaven von Natur keine klaren Kriterien nennt. Sein Rat, Sklaven als Lohn die Freiheit zu versprechen (Pol. VII 10, 1330a20 f.), widerspricht der Vorstellung eines „Sklaven von Natur“.
+Entsprechend argumentiert er auch für eine Unterordnung der Frau (Pol. VII 10, 1330a20 f.). Es sei für sie besser, vom Mann beherrscht zu werden, da ihre Urteilskraft schwächer sei als die männliche (Pol. I 5, 1254b10–15; I 13, 1259a12).
+Mehrere Haushalte ergeben ein Dorf, in dem Arbeitsteilung bessere Versorgung ermöglicht, und mehrere Dörfer einen Staat. Dieser ist autark in dem Sinne, dass er die Bedingungen für ein gutes Leben bereitstellen kann. Aristoteles unterscheidet den Grund der Entstehung des Staates von seinem Zweck. Der Staat entsteht zum Zweck des Überlebens, des Lebens an sich, sein Zweck aber ist das gute Leben: εὖ ζῆν = eu zēn = gut leben (Pol. I 2, 1252a25–1253a1).
+Nach Aristoteles gehört es zur Natur des Menschen, in Gemeinschaft zu leben, denn er ist ein „zôon politikon“, ein Lebewesen in der Polisgemeinschaft (Pol. I 2, 1253a3). Nur im Staat kann der Mensch das gute Leben verwirklichen. Wer des Staates nicht bedürfe, sei „entweder ein Tier oder ein Gott“ (Pol. I 2, 1253a29).
+Bürger und Verfassung eines Staates
+Eine Polis (ein Staat) besteht aus den freien Bürgern. Der Zweck des Staates ist immer das gute Leben. Militär- oder Handelsbündnisse, also Verträge, machen noch keinen Staat aus. Kennzeichnendes Merkmal eines bestimmten Staates ist seine Verfassung.
+Der Bürger
+Bürger sind die mit dem Bürgerrecht ausgestatteten Einwohner, die sich aktiv am politischen Geschehen (am Richten und Regieren) beteiligen (Pol. III 1, 1275a22). Den Bürger bestimmt Aristoteles also primär nicht über die Herkunft oder den Wohnort, sondern über die Partizipation an den politischen Institutionen des Staates. Entsprechend den damaligen Verhältnissen in Athen betrachtet Aristoteles Frauen, Kinder, Sklaven und Fremde nicht als Bürger. Ein Bürger darf auch nicht für seinen Lebensunterhalt arbeiten müssen. Lohnarbeiter und Handwerker können somit keine Bürger sein (Pol. III 5, 1278a11). Die jeweilige Verfassung eines Staates bestimmt genauer, wer Bürger ist und wer nicht.
+Theorie der Verfassungen
+In seiner Unterscheidung der verschiedenen Verfassungen stellt Aristoteles zwei Fragen:
+Wer herrscht?
+Zu wessen Nutzen wird geherrscht?
+Bei der ersten Frage unterscheidet er drei mögliche Antworten: einer, wenige, viele. Bei der zweiten Frage unterscheidet er zwei mögliche Zustände und Nutznießer: die Verfassung ist gerecht, wenn zum Nutzen aller regiert wird; sie ist ungerecht oder verfehlt, wenn allein zum Nutzen der Herrschenden regiert wird (Pol. III 6, 1279a17–21). Auf dieser Grundlage entwirft er eine erste Staatsformenlehre mit sechs Verfassungen (Pol, III 6–8):
+Herrschender/-e
+zum Nutzen aller
+zum Nutzen der/des Herrschenden
+Einer
+Monarchie
+Tyrannis
+Wenige
+Aristokratie
+Oligarchie
+Viele
+Politie
+Demokratie (Ochlokratie)
+Die verschiedenen Verfassungen wenden auf unterschiedliche Weise die distributive Gerechtigkeit an (Pol. III 9, 1280a7–22). Distributive Gerechtigkeit bestimmt er als die Verteilung proportional zur Leistung oder Würde (EN V 6).
+Schema zur Verfassungslehre des Aristoteles
+Kritik an schlechten Verfassungen
+Unter den schlechten, nicht am Gemeinwohl orientierten Verfassungen hält er die Tyrannis für die schlechteste, denn in ihr herrscht der Tyrann über den Staat im Sinne einer despotischen Alleinherrschaft wie der Herr über den Sklaven (Pol. III 8, 1279b16).
+Für etwas weniger schlecht erachtet er die durch die Herrschaft der Reichen gekennzeichnete Oligarchie, die ebenso wie die Tyrannis sehr instabil ist (Pol. V 12). Für den Grundirrtum der Oligarchie hält Aristoteles die Auffassung, dass die, die in einer Hinsicht (Besitz) ungleich sind, in allen Hinsichten ungleich seien. Entsprechend besteht der Grundirrtum der Demokratie in der Ansicht, dass die, die in einigen Hinsichten gleich sind, dies in allen seien (Pol. V 1, 1301a25–36).
+Die Demokratie hält Aristoteles für weniger schlecht als die Tyrannis und Oligarchie. Sie ist neben Gleichheit durch Freiheit gekennzeichnet. Freiheit bedeutet dabei, so zu leben wie man will, Gleichheit, dass das Regieren und Regiertwerden reihum geht (1317b2–12). Die absolute Freiheit, so zu leben wie man will, hält Aristoteles insofern für problematisch, als sie mit der Herrschaft der Verfassung in Konflikt steht (Pol. V 9, 1310a30–35). Gleichheit kritisiert er, wenn sie als totale arithmetische interpretiert wird, die dazu führe, dass die Herrschaft der Unvermögenden die Besitzenden enteignet. Dafür, dass Aristoteles die Beteiligung des „einfachen Volkes“ an der Herrschaft durchaus nicht rundweg abgelehnt hat, spricht ferner seine so genannte „Summierungsthese“ (Pol. III 11, 1281 a38–b9) und eine differenzierte Untersuchung der Formen der Volksherrschaft im Rahmen seiner zweiten Staatsformenlehre.
+Gute Verfassungen
+Unter den guten Verfassungen ist die Monarchie (unter der Aristoteles nicht zwingend ein Königtum, sondern nur eine dem Gemeinwohl dienende Alleinherrschaft versteht) am wenigsten gut. Insofern sie nicht gesetzgebunden ist, ist sie eine bloße Herrschaftsform, teilweise kaum eine Verfassung, und insofern problematisch, als nur das Gesetz unbeeinflusst von Emotionen herrschen kann.
+Unter einer Aristokratie versteht er eine Herrschaft der Guten, das heißt derjenigen, die am meisten Anteil an der Tugend (aretê) haben, was nicht unbedingt Herrschaft eines Geburtsadels bedeuten muss. Da das Ziel des Staates, das gute Leben, in einer Aristokratie im höchsten Maße verwirklicht wird, hält Aristoteles sie (neben einer bestimmten Form der Monarchie, nämlich der Königsherrschaft) für die beste Verfassung (Pol. IV 2, 1289a30–32).
+Aristoteles diskutiert Verfassungstheorie allerdings nicht ohne Realitätsbezug. Oft ist aus seiner Sicht eine absolut beste Verfassung in einem bestimmten Staat nicht möglich. Was am besten für einen konkreten Staat ist, muss immer relativ zu den Umständen bestimmt werden (Pol. IV 1, 1288b21–33). Solche Überlegungen durchziehen die ganze Verfassungstheorie. Sie zeigen sich insbesondere im Modell der Politie, die Aristoteles als die bestmögliche für die meisten zeitgenössischen Staaten ansieht (Pol. IV 11, 1295a25). Sie ist eine Mischverfassung, die Elemente der Demokratie und der Oligarchie enthält. Dabei wird für die Bestrebungen nach Gleichheit auf der einen und nach Reichtum auf der anderen Seite ein Ausgleich geschaffen. Dieser Ausgleich wird unter anderem durch Ämterzuteilung nach Klassenzugehörigkeit erreicht (Pol. V 8, 1308b26). Auf diese Weise wird nach seiner Auffassung die Stabilität erhöht und sozialen Unruhen vorgebeugt (die in griechischen Staaten häufig waren). Besondere Stabilität verleiht dem Staat ein breiter Mittelstand (Pol. IV 11, 1295b25–38).
+Poetik
+Theorie der Dichtung
+Mimêsis
+Der zentrale Begriff der aristotelischen Theorie der Dichtung, die er in seiner zu Lebzeiten nicht veröffentlichten Poetik (poiêtikê) ausarbeitet, ist die mimêsis, das heißt die „Nachahmung“ oder „Darstellung“. Neben der Dichtung im engeren Sinne (Epik, Tragödie, Komödie und Dithyrambendichtung) zählen auch Teile der Musik und der Tanz für Aristoteles zu den mimetischen Künsten (Poet. 1, 1447a). Abbildende Künste wie Malerei und Plastik behandelt Aristoteles nicht weiter, sondern erwähnt nur, dass sie ebenfalls nach dem Prinzip der Nachahmung arbeiten (Poet. 1, 1447a19 f.). Gemeinsam ist allen mimetischen Künsten die zeitliche Sukzession. Insofern lässt sich mimêsis als ästhetisches Handeln auffassen.
+In der Lust an der mimêsis sieht Aristoteles eine anthropologische, allen Menschen gemeinsame Grundgegebenheit. Denn die Freude an ihr sowie an ihren Produkten ist den Menschen angeboren, da sie gerne lernen (Poet. 4, 1448b5-15). Im Gegensatz zu den anderen mimetischen Künsten ist für die Dichtung die Verwendung von Sprache spezifisch. Alle Dichtung ist zudem Darstellung von Handlungen; allerdings nicht von tatsächlich Geschehenem, sondern von dem, „was geschehen könnte, das heißt das nach den Regeln der Wahrscheinlichkeit oder Notwendigkeit Mögliche“ (Poet. 9, 1451a37 f.). Dargestellt werden Handlungen, die etwas über den Menschen im Allgemeinen aussagen, nicht über zufällige und beliebige Verhältnisse. Ziel ist nicht die Nachahmung von Menschen; nicht auf Figuren oder Charaktere, sondern auf Handlungen kommt es an; Erstere sind nur Mittel (Poet. 6, 1450a26–23).
+Arten der Dichtung
+Aristoteles klassifiziert vier Formen der existierenden Dichtung nach zwei Kriterien: (i) der Art der Darstellung von Handlung und (ii) der Art der dargestellten Figuren.
+Darstellung
+dramatische Darstellung
+berichtende Darstellung
+Darstellung von Besseren
+Tragödie
+Epos
+Darstellung von Schlechteren
+Komödie
+Spottlied
+Dramatische Darstellung ist dadurch gekennzeichnet, dass die jeweilige Figur selbst die Handlung darstellt, berichtende dadurch, dass über die Handlung berichtet wird. Mit „besser“ und „schlechter“ sind die Figuren und ihre Handlungen gemeint. Bessere Figuren oder Charaktere sind etwas besser als wir selbst, schlechtere schlechter; beides aber nie so weit, dass wir uns nicht mehr mit ihnen identifizieren können (Poet. 5, 1449a31–1449b13). Aristoteles vertritt dabei die Hypothese, dass die Tragödie aus dem Epos und die Komödie aus dem Spottlied entstanden ist (Poet. 4, 1449a2–7).
+Eine Untersuchung der Komödie kündigt Aristoteles an. Sie ist aber – wie auch eine des Spottliedes – nicht überliefert. Das Epos behandelt er recht kurz. Seine überlieferte Dichtungstheorie ist daher primär eine Tragödientheorie.
+Tragödie
+Aristoteles definiert die Tragödie als eine
+„Darstellung (mimêsis) [1] einer guten und in sich geschlossenen Handlung von bestimmter Größe, [2] in anziehend geformter Sprache […], (Nachahmung) [3] von Handelnden und nicht durch Bericht, [4a] die Mitleid (eleos) und Furcht (phobos) hervorruft, und [4b] hierdurch eine Reinigung (katharsis) von derartigen Emotionen bewirkt.“
+– Poet. 6, 1449b24–28
+Dieser kurze Satz ist eine der meistdiskutierten Passagen im gesamten Werk des Aristoteles. (3) nennt das dramatisch-darstellende Element. (1) nennt (neben oben schon genannten Aspekten) die (später sogenannte) Einheit der Handlung. Die Einheit des Ortes und der Zeit wurde in der Renaissance der aristotelischen Tragödientheorie zugeschrieben, er vertrat sie aber selbst so nicht. (2) bezieht sich darauf, dass die Sprache der Tragödie Melodie und Rhythmus aufweist. Die weitaus meiste Aufmerksamkeit hat (4) erhalten, insbesondere (4b).
+Emotionserregung und Katharsis
+In (4) beschreibt Aristoteles die Funktion der Tragödie, das was sie leisten soll. Weitgehend unumstritten ist nur (4a): Beim Zuschauer sollen durch die dargestellte Handlung die Emotionen Mitleid und Furcht erregt werden. Unklar ist allerdings, ob eleos und phobos tatsächlich mit „Mitleid“ und „Furcht“ oder mit „Elementareffekten“ „Jammer“ und „Schauder“ wiederzugeben sind.[47] Dass die Handlung selbst und nicht die Aufführung die entscheidende Rolle bei der Emotionserregung spielt, ist daraus ersichtlich, dass Aristoteles auch die gelesene Tragödie durch seine Theorie berücksichtigt sieht. Mitleid wird erregt, wenn die Protagonisten unverdient Unglück erleiden, Furcht, wenn sie dabei dem Zuschauer (oder Leser) ähnlich sind.
+(4b) ist höchst kontrovers, da die Funktionsweise nicht weiter erläutert ist. Das Wort Katharsis, das als Metapher (wie „Reinigung“ im Deutschen) einen Sinnüberschuss aufweist, hat zu den verschiedensten Deutungen Anlass gegeben, insbesondere weil es schon vor Aristoteles verwendet wurde, nämlich unter anderem in der Medizin (Reinigung durch Brech- und Abführmittel) und in religiösen Kulten (Reinigung von unreinen Personen durch religiöse Praktiken). Die grammatikalische Konstruktion Reinigung der Emotionen lässt dabei verschiedene Deutungen zu, worin die Reinigung besteht. Vermutlich sollen die Emotionen selbst (durch eine Emotionserregung) gereinigt werden; die Aussage ist aber auch als Reinigung von den Emotionen verstanden worden.
+Der normativ-deskriptive Charakter der Tragödientheorie
+Aristoteles’ Tragödientheorie weist zwei Typen von Aussagen auf. Zum einen untersucht er die Grundlagen der Dichtung, unterscheidet verschiedene Arten von ihr und nennt Teile einer Tragödie und deren Funktionsweise. Zum anderen spricht er aber auch davon, was eine gute Tragödie ist und was der Dichter entsprechend machen soll. So äußert er etwa, dass in einer guten Tragödie ein Protagonist weder aufgrund seines guten noch seines schlechten Charakters vom Glück ins Unglück gerät, sondern aufgrund eines Fehlers (hamartia), beispielsweise wie Ödipus aufgrund von Unwissenheit. Nur eine schlechte Tragödie würde zeigen, wie ein guter Charakter vom Glück ins Unglück oder ein schlechter vom Unglück ins Glück gerät. Der Grund hierfür ist die Funktion der Tragödie, das Bewirken von Mitleid und Furcht. In schlechten Tragödien würden Mitleid und Furcht nicht erregt werden, in guten ist dies aufgrund der Beschaffenheit des Protagonisten und des Fehlers als Ursache des Unglücks der Fall (Poet. 13, 1452b28–1453a12).
+Hymnos
+Von Aristoteles ist zudem ein Hymnos an Aretê überliefert, den er in Erinnerung an seinen Freund Hermias verfasst hat.[48]
+Rezeption
+Antike
+Gustav Adolph Spangenberg, Die Schule des Aristoteles, Fresko 1883–1888
+Die Lehre des Aristoteles hat auf seine Schule, den Peripatos, nach seinem Tode weit weniger Einfluss ausgeübt als Platons Lehre auf dessen Akademie. Aristoteles wurde keine Verehrung zuteil, die mit derjenigen Platons bei den Platonikern vergleichbar wäre. Dies bedeutete einerseits Offenheit und Flexibilität, andererseits Mangel an inhaltlich begründetem Zusammenhalt. Die Peripatetiker widmeten sich vor allem empirischer Naturforschung und befassten sich unter anderem auch mit Ethik, Seelenlehre und Staatstheorie. Dabei kamen Aristoteles’ Schüler Theophrastos, sein Nachfolger als Leiter der Schule, und dessen Nachfolger Straton zu teilweise anderen Ergebnissen als der Schulgründer. Nach Stratons Tod (270/268 v. Chr.) begann eine Periode des Niedergangs.
+Alexander von Aphrodisias mit Aristoteles in einer Relief-Darstellung Andrea Brioscos aus dem 16. Jahrhundert, heute im Berliner Bode-Museum
+Das Studium und die Kommentierung der Schriften des Aristoteles wurde damals im Peripatos anscheinend vernachlässigt, jedenfalls weit weniger eifrig betrieben als das Platonstudium in der konkurrierenden Akademie. Erst im ersten Jahrhundert v. Chr. sorgte Andronikos von Rhodos für eine Zusammenstellung der Lehrschriften (Pragmatien) des Aristoteles, und auch bei deren Auslegung durch die Peripatetiker kam es zu einem Aufschwung. Die für die Öffentlichkeit bestimmten „exoterischen“ Schriften, insbesondere die Dialoge, waren lange populär, gingen aber in der römischen Kaiserzeit verloren. Cicero hat sie noch gekannt. Die Peripatetiker betrachteten die Lehrschriften als speziell für ihren internen Unterrichtsgebrauch bestimmt. In der römischen Kaiserzeit war der einflussreichste Repräsentant des Aristotelismus Alexander von Aphrodisias, der gegen die Platoniker die Sterblichkeit der Seele vertrat.
+Obwohl Aristoteles großen Wert auf die Widerlegung von Kernbestandteilen des Platonismus gelegt hatte, waren es gerade die Neuplatoniker, die in der Spätantike einen maßgeblichen Beitrag zur Erhaltung und Verbreitung seiner Hinterlassenschaft leisteten, indem sie seine Logik übernahmen, kommentierten und in ihr System integrierten. Eine besonders wichtige Rolle spielten dabei im 3. Jahrhundert n. Chr. Porphyrios, im 5. Jahrhundert Proklos, Ammonios Hermeiou (der in Alexandria die Tradition der Aristoteles-Kommentierung begründete) und im 6. Jahrhundert Simplikios, der bedeutende Aristoteleskommentare verfasste. Im 4. Jahrhundert schrieb Themistios Paraphrasen zu Werken des Aristoteles, die eine starke Nachwirkung erzielten. Er war unter den spätantiken Kommentatoren der einzige (wenn auch neuplatonisch beeinflusste) Aristoteliker; die anderen befassten sich mit dem Aristotelismus aus neuplatonischer Perspektive und strebten eine Synthese platonischer und aristotelischer Auffassungen an, wobei oft ein Übergewicht der platonischen erkennbar ist. Noch zu Beginn des 7. Jahrhunderts kommentierte der angesehene, in Konstantinopel lehrende christliche Philosoph Stephanos von Alexandria Werke des Aristoteles.
+Bei den prominenten antiken Kirchenvätern war Aristoteles wenig bekannt und unbeliebt, manche verachteten und verspotteten seine Dialektik. Sie verübelten ihm, dass er das Weltall für ungeschaffen und unvergänglich hielt und die Unsterblichkeit der Seele bezweifelte (oder nach ihrem Verständnis bestritt). Ein positiveres Verhältnis zu Aristoteles hatten hingegen manche christliche Gnostiker und andere häretische Christen: Arianer (Aëtios, Eunomius), Monophysiten, Pelagianer und Nestorianer – ein Umstand, der den Philosophen für die kirchlichen Autoren erst recht suspekt machte. Syrer – monophysitische wie nestorianische – übersetzten das Organon in ihre Sprache und setzten sich intensiv damit auseinander. Im 6. Jahrhundert schrieb Johannes Philoponos Aristoteles-Kommentare, übte aber auch scharfe Kritik an der aristotelischen Kosmologie und Physik. Er war mit seiner Impetustheorie ein Vorläufer spätmittelalterlicher und frühneuzeitlicher Kritik an der aristotelischen Bewegungslehre.
+Mittelalter
+Mittelalterliche Darstellung des Aristoteles
+Im Byzantinischen Reich des Frühmittelalters wurde Aristoteles wenig beachtet. Sein Einfluss machte sich vorwiegend indirekt geltend, nämlich über die meist neuplatonisch gesinnten spätantiken Autoren, die Teile seiner Lehre übernommen hatten. Daher war Vermischung mit neuplatonischem Gedankengut von vornherein gegeben. Bei Johannes von Damaskus tritt die aristotelische Komponente deutlich hervor. Im 11. und 12. Jahrhundert kam es zu einer Wiederbelebung des Interesses an aristotelischer Philosophie: Michael Psellos, Johannes Italos und dessen Schüler Eustratios von Nikaia (beide wegen Häresie verurteilt) sowie der primär philologisch orientierte Michael von Ephesos schrieben Kommentare. Die Kaisertochter Anna Komnena förderte diese Bestrebungen.
+Im islamischen Raum setzte die Wirkung der Werke des Aristoteles früh ein und war breiter und tiefer als in der Spätantike und im europäischen Früh- und Hochmittelalter. Der Aristotelismus dominierte qualitativ und quantitativ gegenüber der übrigen antiken Tradition. Schon im 9. Jahrhundert waren die meisten Werke des Aristoteles, häufig durch vorangehende Übersetzung ins Syrische vermittelt, in arabischer Sprache verfügbar, ebenso antike Kommentare. Hinzu kam ein reichhaltiges unechtes (pseudo-aristotelisches) Schrifttum teilweise neuplatonischen Inhalts, darunter Schriften wie die Theologie des Aristoteles und der Kalam fi mahd al-khair (Liber de causis). Die aristotelischen Ideen waren von Anfang an mit neuplatonischen vermischt, und man glaubte an eine Übereinstimmung der Lehren Platons und des Aristoteles. In diesem Sinne deuteten al-Kindi (9. Jahrhundert) und al-Farabi (10. Jahrhundert) und die ihnen folgende spätere Tradition den Aristotelismus; bei ibn Sina (Avicenna) trat das neuplatonische Element stärker in den Vordergrund. Einen relativ reinen Aristotelismus vertrat hingegen im 12. Jahrhundert ibn Rušd (Averroes), der zahlreiche Kommentare schrieb und die aristotelische Philosophie gegen al-Ghazali verteidigte.
+Aristoteles, seine Ethik haltend. Detail aus dem Fresko Die Schule von Athen von Raffael (1510–1511)
+Im lateinischen Mittelalter war zunächst bis ins 12. Jahrhundert nur ein kleiner Teil des Gesamtwerks des Aristoteles verbreitet, nämlich zwei der logischen Schriften (Kategorien und De interpretatione), die Boethius im frühen 6. Jahrhundert übersetzt und kommentiert hatte, zusammen mit der Einleitung des Porphyrios zur Kategorienlehre. Dieses Schrifttum, später als Logica vetus bezeichnet, bildete die Grundlage des Logikunterrichts. Mit der großen Übersetzungsbewegung des 12. und 13. Jahrhunderts änderte sich diese enge Begrenzung. Im 12. Jahrhundert wurden die bisher fehlenden logischen Schriften (Analytica priora und posteriora, Topik, Sophistische Widerlegungen) in lateinischer Sprache verfügbar; sie machten die Logica nova aus. Dann wurden eines nach dem anderen fast alle restlichen Werke zugänglich (teils erst im 13. Jahrhundert).[49] Die meisten Schriften wurden mehrmals ins Lateinische übertragen (entweder aus dem Arabischen oder aus dem Griechischen). Michael Scotus übersetzte Aristoteleskommentare des Averroes aus dem Arabischen. Sie wurden eifrig benutzt, was in der zweiten Hälfte des 13. Jahrhunderts zur Entstehung des lateinischen Averroismus führte, der ein für damalige Verhältnisse relativ konsequenter Aristotelismus war.
+Im Lauf des 13. Jahrhunderts wurden die Schriften des Aristoteles als Standardlehrbücher zur Grundlage der an den Universitäten (in der Fakultät der Freien Künste) betriebenen scholastischen Wissenschaft; 1255 wurden seine Logik, Naturphilosophie und Ethik an dieser Fakultät der Pariser Universität als Lehrstoff vorgeschrieben. Die Führungsrolle kam der Pariser und der Oxforder Universität zu. Wegweisend waren die Aristoteleskommentare des Albertus Magnus. Das Verfassen von Aristoteleskommentaren wurde eine Hauptbeschäftigung der Magister, und viele von ihnen hielten die kommentierten Lehrbücher für irrtumsfrei. Besonders intensiv studierte man neben der aristotelischen Methodik die Wissenschaftstheorie, um sie als Basis für ein hierarchisch geordnetes System der Wissenschaften zu verwenden.
+Widerstand erhob sich allerdings von theologischer Seite gegen einzelne Lehren, vor allem gegen die Thesen von der Ewigkeit der Welt und der absoluten Gültigkeit der Naturgesetze (Ausschluss von Wundern), sowie gegen den Averroismus. Daher kam es 1210, 1215, 1231, 1245, 1270 und 1277 zu kirchlichen Verurteilungen von Lehrsätzen und zu Aristotelesverboten. Sie richteten sich aber nur gegen die naturphilosophischen Schriften oder gegen einzelne Thesen und konnten den Siegeszug des Aristotelismus nur vorübergehend hemmen. Diese Verbote betrafen nur Frankreich (vor allem Paris), in Oxford galten sie nicht. Aristoteles wurde „der Philosoph“ schlechthin: mit Philosophus (ohne Zusatz) war immer nur er gemeint, mit Commentator Averroes. Gegenpositionen (vor allem in der Erkenntnistheorie und Anthropologie) vertraten Anhänger der platonisch beeinflussten Lehren des Augustinus, besonders Franziskaner („Franziskanerschule“). Ein prominenter Kritiker des Aristotelismus war der Franziskaner Bonaventura. Ein anderer Franziskaner, Petrus Johannis Olivi, stellte um 1280 missbilligend fest: „Man glaubt ihm (Aristoteles) ohne Grund – wie einem Gott dieser Zeit.“[50] Schließlich setzte sich das von dem Dominikaner Thomas von Aquin abgewandelte und weiterentwickelte aristotelische Lehrsystem (Thomismus) durch, zunächst in seinem Orden und später in der gesamten Kirche.
+Allerdings schrieb man weiterhin neuplatonische Schriften zu Unrecht dem Aristoteles zu, wodurch das Gesamtbild seiner Philosophie verfälscht wurde. Dante würdigte in seiner Göttlichen Komödie Bedeutung und Ansehen des Aristoteles, indem er ihn als „Meister“ darstellte, der von den anderen antiken Philosophen bewundert und geehrt wird;[51] jedoch verwarf Dante manche aristotelische Lehren.[52]
+Die Politik des Aristoteles wurde erst um 1260 von Wilhelm von Moerbeke ins Lateinische übersetzt und dann von Thomas von Aquin und anderen Scholastikern kommentiert und zitiert. Besonders die Rechtfertigung der Sklaverei bzw. Knechtschaft stieß bei den Gelehrten auf Interesse und grundsätzliche Zustimmung. Die Politik regte Kommentatoren und Verfasser politischer Traktate zu Erörterungen über Vor- und Nachteile von Erb- bzw. Wahlmonarchie sowie von absoluter bzw. ans Gesetz gebundener Herrschaft an.
+In der Epoche des Übergangs vom Spätmittelalter zur Frühen Neuzeit setzte sich Nikolaus von Kues kritisch mit Aristoteles auseinander. Er stellte sich Aristoteles als fiktiven Gesprächspartner vor, dem man die Berechtigung der cusanischen Lehre von der Coincidentia oppositorum einsichtig machen könnte, obwohl Aristoteles sie nach seinem Satz vom Widerspruch hätte verwerfen müssen.[53]
+Neuzeit
+Aristoteles vor der Büste des Homer, Gemälde von Rembrandt van Rijn
+Aristoteles, gemalt von Francesco Hayez
+Statue des Aristoteles im Aristoteles Park von Stagira Chalkidiki, Griechenland
+In der Renaissance fertigten Humanisten neue, viel leichter lesbare Aristotelesübersetzungen ins Lateinische an, weshalb man weniger auf die Kommentare angewiesen war. Bedeutend sind u. a. die Übersetzungen der Nikomachischen Ethik und der Politik durch Leonardo Bruni. Man begann aber auch, die griechischen Originaltexte zu lesen. Es kam zu heftigem Streit zwischen Platonikern und Aristotelikern, wobei die beteiligten Humanisten mehrheitlich zu Platon neigten. Es gab in der Renaissance aber auch bedeutende Aristoteliker wie Pietro Pomponazzi (1462–1525) und Jacopo Zabarella (1533–1589), und es entstanden damals im Abendland mehr Aristoteleskommentare als während des gesamten Mittelalters. Wie im Mittelalter herrschte auch noch bei vielen Renaissance-Gelehrten das Bestreben vor, platonische und aristotelische Standpunkte untereinander und mit der katholischen Theologie und Anthropologie zu versöhnen. Seit dem 15. Jahrhundert war es aber möglich, dank des besseren Zugangs zu den Quellen das Ausmaß der fundamentalen Gegensätze zwischen Platonismus, Aristotelismus und Katholizismus besser zu verstehen. Bei der Vermittlung dieser Erkenntnisse spielte der byzantinische Philosoph Georgios Gemistos Plethon eine wichtige Rolle. Unabhängig davon herrschte der (neu)scholastische Aristotelismus, der die mittelalterliche Tradition fortsetzte, mit seiner Methode und Terminologie an Schulen und Universitäten noch bis tief in die Neuzeit, auch in den lutherischen Gebieten, obwohl Luther den Aristotelismus ablehnte.
+Im sechzehnten Jahrhundert unternahmen Bernardino Telesio und Giordano Bruno Frontalangriffe auf den Aristotelismus, und Petrus Ramus trat für eine nichtaristotelische Logik ein (Ramismus). Bereits Giovanni Battista Benedetti (1530–1590) widerlegte 1554 in seinem Werk Demonstratio proportionum motuum localium contra Aristotilem et omnes philosophos in einem simplen Gedankenexperiment die aristotelische Annahme, dass Körper im freien Fall umso schneller fallen, je schwerer sie sind: Zwei gleiche Kugeln, die durch eine (masselose) Stange fest verbunden werden, fallen mit derselben Geschwindigkeit wie jede der beiden Kugeln allein.
+Aber erst seit dem 17. Jahrhundert verdrängte ein neues Wissenschaftsverständnis die aristotelisch-scholastische Tradition. Den Umschwung in der Physik leitete Galileo Galilei ein. 1647 konnte die von Aristoteles aufgestellte Hypothese eines Horror Vacui von Blaise Pascal mit dem Versuch Leere in der Leere widerlegt werden. Erst in der 1687 veröffentlichten Schrift Philosophiae Naturalis Principia Mathematica von Isaac Newton wurde mit dem Trägheitsprinzip ein Fundament der neuen klassischen Mechanik errichtet, das die aristotelischen Annahmen ersetzte.
+In der Biologie konnten sich aristotelische Auffassungen bis ins 18. Jahrhundert halten. Sie erwiesen sich teilweise als fruchtbar. So ging William Harvey bei der Entdeckung des Blutkreislaufs von dem Prinzip des Aristoteles aus, dass die Natur nichts Unnötiges hervorbringt, und wendete es auf die Beschaffenheit der Blutgefäße und Herzkammern an.[54] Charles Darwin bezeichnete 1879 Aristoteles als „einen der größten Beobachter (wenn nicht den größten), die jemals gelebt haben“.[55]
+Sehr stark und anhaltend war die Nachwirkung von Aristoteles’ Poetik, insbesondere seiner Tragödientheorie (→ Regeldrama). Sie prägte Theorie und Praxis des Theaters während der gesamten Frühen Neuzeit, abgesehen von manchen gewichtigen Ausnahmen besonders in Spanien und England (Shakespeare). Die Poetik lag seit 1278 in lateinischer Übersetzung vor, 1498 und 1536 erschienen humanistische Übersetzungen. Auf ihr fußte die Poetik des Julius Caesar Scaliger (1561), die Dichtungslehre von Martin Opitz (1624), die französische Theaterlehre des 17. Jahrhunderts (doctrine classique) und schließlich die von Johann Christoph Gottsched geforderte Regelkunst (Critische Dichtkunst, 1730).
+Im 19. Jahrhundert setzte insbesondere in Deutschland die intensive philologische Auseinandersetzung mit dem Werk des Aristoteles ein. 1831 erschien die von der Preußischen Akademie der Wissenschaften in Auftrag gegebene und durch Immanuel Bekker besorgte Gesamtausgabe. Hermann Bonitz verfasste zahlreiche Übersetzungen und den noch heute maßgeblichen Index Aristotelicus. Ende des 19. Jahrhunderts wurde unter der Leitung von Hermann Diels ebenfalls in der in Berlin ansässigen Akademie die 15.000 Seiten umfassende Ausgabe der antiken griechischen Aristoteles-Kommentare (Commentaria in Aristotelem Graeca) veröffentlicht.
+Infolge der intensiven philologischen Auseinandersetzung wurde Anfang des 20. Jahrhunderts das lange vorherrschende Bild, das Corpus Aristotelicum sei ein als Ganzes komponiertes philosophisches System, vor allem von Werner Jaeger revidiert. Die moderne Aristotelesforschung wurde in der ersten Hälfte des 20. Jahrhunderts neben Jaeger vor allem von W. D. Ross in Oxford bestimmt; zahlreiche Schüler sorgten für eine zunehmende Beschäftigung mit Aristoteles nicht nur in den philologischen, sondern auch den philosophischen Abteilungen angelsächsischer Universitäten, die bis heute anhält.[56]
+Heideggers Seinsanalyse der Fundamentalontologie geschah in intensiver Auseinandersetzung mit Aristoteles, was auch für Schüler wie Hans Georg Gadamer gilt. Den größten Einfluss hatte Aristoteles im 20. Jahrhundert in der Ethik (Tugendethik) und der politischen Philosophie (in Deutschland insbesondere in der Schule um Joachim Ritter, im angelsächsischen Raum im Kommunitarismus). In der zweiten Hälfte des 20. Jahrhunderts griff die zuvor metaphysikkritische analytische Philosophie Aristoteles’ Substanztheorie explizit (etwa David Wiggins: Sameness and Substance, die Vier-Kategorien-Ontologie von Jonathan Lowe[57] oder die Ontologie von Barry Smith[58]) oder seinen Essentialismus implizit auf (z. B. Kripke).
+Nach ihm ist der Mondkrater Aristoteles benannt.
+Siehe auch
+Symposium Aristotelicum
+Philosophie der Antike
+Liste der Erkenntnisse des Aristoteles – Aktualität von Aussagen des Aristoteles (tabellarisch)
+Textausgaben und Übersetzungen
+Sammlungen
+Diverse Herausgeber in der Reihe Oxford Classical Texts (OCT) bei Oxford University Press
+Diverse Herausgeber und Übersetzer in der Reihe Loeb Classical Library (LCL) bei Harvard University Press (griechischer Text mit englischer Übersetzung)
+Ernst Grumach, Hellmut Flashar (Hrsg.): Aristoteles. Werke in deutscher Übersetzung. 19 Bände, Akademie Verlag, Berlin 1956 ff. (mit extensivem und in der Regel sehr gutem Kommentar)
+Jonathan Barnes (Hrsg.): The Complete Works of Aristotle. The revised Oxford translation. 2 Bände. Princeton (New Jersey) 1984, 6. Auflage 1995, ISBN 0-691-09950-2 (Sammlung der maßgeblichen englischen Übersetzungen)
+Einzelausgaben
+ Wikisource: Aristoteles – Quellen und Volltexte
+Siehe die jeweiligen Artikel zu den Werken Aristoteles'
+Literatur
+Der historische Aristoteles
+Einführungen
+John L. Ackrill: Aristoteles. Eine Einführung in sein Philosophieren. De Gruyter, Berlin 1985, ISBN 3-11-008915-7 (knappe Einführung vor allem in die theoretische Philosophie)
+Jonathan Barnes: Aristoteles. Eine Einführung. Reclam, Stuttgart 1999 [1982], ISBN 3-15-008773-2 (knappe Einführung; Biographisches und Naturwissenschaftliches relativ ausführlich, wenig zur praktischen Philosophie)
+Thomas Buchheim: Aristoteles. Herder, Freiburg i. Br. 1999, ISBN 3-451-04764-0 (Einführung mit Schwerpunkt auf dem Organon, der Naturphilosophie und Metaphysik; wenig praktische Philosophie, keine Rezeption; kommentierte Bibliografie)
+Wolfgang Detel: Aristoteles. Reclam, Leipzig 2005, ISBN 3-379-20301-7 (Einführung mit hohem systematischem Anspruch, insbesondere zu Wissenschaftstheorie und Metaphysik; Kapitel zum Neoaristotelismus des 20. Jahrhunderts)
+Otfried Höffe: Aristoteles. 3. Auflage. Beck, München 2006, ISBN 3-406-54125-9 (Biographisches, praktische Philosophie und Rezeption ausführlich; Bezüge zu anderen Epochen, insbesondere der Neuzeit)
+Christof Rapp: Aristoteles zur Einführung. 4. Auflage. Junius, Hamburg 2012, ISBN 978-3-88506-690-3 (singuläre Darstellung der Handlungstheorie, der Semantik, Dialektik und Rhetorik sowie Ontologie; nichts zur Person; hilfreiche, thematisch gegliederte Bibliografie)
+Christopher Shields: Aristotle. Routledge, New York 2007, ISBN 978-0-415-28332-8 (umfangreiche thematisch gegliederte Einführung; Review)
+Wolfgang Welsch: Der Philosoph: Die Gedankenwelt des Aristoteles. Fink (Wilhelm), München 2012, ISBN 978-3-7705-5382-2
+Gesamtdarstellungen
+Ingemar Düring: Aristoteles. Darstellung und Interpretation seines Denkens. Winter, Heidelberg 1966
+Hellmut Flashar: Aristoteles. In: Hellmut Flashar (Hrsg.): Grundriss der Geschichte der Philosophie. Die Philosophie der Antike, Band 3: Ältere Akademie, Aristoteles, Peripatos. 2. Auflage. Schwabe, Basel 2004, ISBN 3-7965-1998-9, S. 167–492
+Hellmut Flashar: Aristoteles: Lehrer des Abendlandes, München : Beck, 2013, ISBN 978-3-406-64506-8
+William K. C. Guthrie: A History of Greek Philosophy. Bd. 6: Aristotle. An Encounter. Cambridge University Press, Cambridge 1981, ISBN 0-521-23573-1 (sehr gut lesbar, aber nichts zur Logik)
+John M. Rist: The Mind of Aristotle: A Study in Philosophical Growth. University of Toronto Press, Toronto 1989, ISBN 0-8020-2692-3 (behandelt die Entwicklung von Aristoteles’ Denken)
+David Ross: Aristotle. 6. Auflage. Routledge, London 1995, ISBN 0-415-32857-8 (solide und ausführliche Darstellung, besonders für Naturphilosophie und Biologie wertvoll)
+Kompendien
+Georgios Anagnostopoulos (Hrsg.): A Companion to Aristotle. Wiley-Blackwell, Malden 2009, ISBN 978-1-4051-2223-8.
+Jonathan Barnes (Hrsg.): The Cambridge Companion to Aristotle. Cambridge University Press, Cambridge 1995, ISBN 0-521-41133-5 (gute Einführung mit einer umfangreichen, thematisch gegliederten Bibliografie)
+Hilfsmittel
+Otfried Höffe (Hrsg.): Aristoteles-Lexikon. Kröner, Stuttgart 2005, ISBN 3-520-45901-9 (Rezension)
+Rezeption
+Übersichts- und Gesamtdarstellungen
+Vincent Fröhlich: Aristoteles. In: Peter von Möllendorff, Annette Simonis, Linda Simonis (Hrsg.): Historische Gestalten der Antike. Rezeption in Literatur, Kunst und Musik (= Der Neue Pauly. Supplemente. Band 8). Metzler, Stuttgart/Weimar 2013, ISBN 978-3-476-02468-8, Sp. 95–106.
+Olof Gigon u. a.: Aristoteles/Aristotelismus. In: Theologische Realenzyklopädie. Band 3, de Gruyter, Berlin 1978, ISBN 3-11-007462-1, S. 726–796, hier: 760–796.
+Charles H. Lohr, Friedo Ricken: Aristotelismus. In: Der Neue Pauly (DNP). Band 13, Metzler, Stuttgart 1999, ISBN 3-476-01483-5, Sp. 251–265.
+François Queyrel u. a.: Aristote de Stagire. In: Richard Goulet (Hrsg.): Dictionnaire des philosophes antiques. Band Supplément, CNRS Éditions, Paris 2003, ISBN 2-271-06175-X, S. 109–654.
+Epochenübergreifende Untersuchungen zu einzelnen Themen
+Christoph Horn, Ada Neschke-Hentschke (Hrsg.): Politischer Aristotelismus. Die Rezeption der aristotelischen Politik von der Antike bis zum 19. Jahrhundert. Metzler, Stuttgart 2008, ISBN 978-3-476-02078-9.
+Joachim Knape, Thomas Schirren (Hrsg.): Aristotelische Rhetorik-Tradition. Franz Steiner, Stuttgart 2005, ISBN 3-515-08595-5.
+Cees Leijenhorst u. a. (Hrsg.): The Dynamics of Aristotelian Natural Philosophy from Antiquity to the Seventeenth Century (= Medieval and Early Modern Science Band 5). Brill, Leiden 2002, ISBN 90-04-12240-0
+Jürgen Wiesner (Hrsg.): Aristoteles. Werk und Wirkung. Band 2: Kommentierung, Überlieferung, Nachleben. De Gruyter, Berlin 1987, ISBN 3-11-010976-X.
+Antike
+Paul Moraux: Der Aristotelismus bei den Griechen. 3 Bände, de Gruyter, Berlin 1973–2001.
+Richard Sorabji (Hrsg.): Aristotle Transformed. The ancient commentators and their influence. Duckworth, London 1990, ISBN 0-7156-2254-4.
+Mittelalter
+Edward Grant: Das physikalische Weltbild des Mittelalters. Artemis, Zürich 1980, ISBN 3-7608-0538-8.
+Ludger Honnefelder u. a. (Hrsg.): Albertus Magnus und die Anfänge der Aristoteles-Rezeption im lateinischen Mittelalter. Aschendorff, Münster 2005, ISBN 3-402-03993-1.
+Fernand Van Steenberghen u. a.: Aristoteles. In: Lexikon des Mittelalters (LexMA). Band 1, Artemis & Winkler, München/Zürich 1980, ISBN 3-7608-8901-8, Sp. 934–948.
+Neuzeit
+Thomas Buchheim u. a. (Hrsg.): Kann man heute noch etwas anfangen mit Aristoteles? Meiner, Hamburg 2003, ISBN 3-7873-1630-2.
+Weblinks
+ Wiktionary: Aristoteles – Bedeutungserklärungen, Wortherkunft, Synonyme, Übersetzungen
+Über Aristoteles
+  Wikiquote: Aristoteles – Zitate
+ Commons: Aristoteles – Album mit Bildern, Videos und Audiodateien
+Literatur von und über Aristoteles im Katalog der Deutschen Nationalbibliothek
+Werke von und über Aristoteles in der Deutschen Digitalen Bibliothek
+Christopher Shields: Aristotle. In: Edward N. Zalta (Hrsg.): Stanford Encyclopedia of Philosophy.
+Aristotle (384–322 BCE): Overview. In: Internet Encyclopedia of Philosophy. – Verzeichnis spezifischerer Einträge
+Auswahlbibliographie (Memento vom 29. Januar 2012 im Internet Archive) nach Themenfeldern (PDF-Datei; 38 kB)
+Aristoteles-Park in Stageira (Memento vom 17. September 2012 im Webarchiv archive.is). Abgerufen am 27. Januar 2012.
+Texte von Aristoteles
+ Wikisource: Aristoteles – Quellen und Volltexte
+ Wikisource: Αριστοτέλης – Quellen und Volltexte (griechisch)
+ Wikisource: Aristotle – Quellen und Volltexte (englisch)
+Druckschriften von und über Aristoteles im VD 17
+Leben und Werk von Aristoteles. In: Projekt Gutenberg-DE.
+Texte (griechisch/englisch) im Perseus Project
+Texte von Aristoteles (englisch) (MIT Classics)
+Anmerkungen
+↑ Düring S. 9.
+↑ Trampedach S. 66–79.
+↑ Düring S. 12; Flashar S. 217; Trampedach S. 52. 54–55.
+↑ Trampedach S. 53–54.
+↑ Wolfram Hoepfner: Platons Akademie. In: Wolfram Hoepfner (Hrsg.): Antike Bibliotheken. Zabern, Mainz 2002, S. 56–62, hier: S. 62.
+↑ Aelian: Varia Historia 3, 36.
+↑ Diogenes Laertios 5, 1, 11–16.
+↑ Cicero: Academica 2, 119.
+↑ Wobei die Rhetorik ebenfalls Nähen zum Organon aufweist.
+↑ „Alle Menschen streben von Natur nach Wissen.“ (Met. I 1, 980a1 f.) „Jede Unterweisung und jedes verständige Erwerben von Wissen entsteht aus bereits vorhandener Kenntnis.“ (An. post. I 1, 71a1 f.) „Jedes Herstellungswissen und jedes wissenschaftliche Vorgehen, ebenso jedes Handeln und Vorhaben strebt, so die verbreitete Meinung, nach einem Gut.“ (EN I 1, 1094a1 f.) „Jeder staatliche Verband ist, wie wir sehen, eine Gemeinschaft von besonderer Art, und jede Gemeinschaft bildet sich, um ein Gut von besonderer Art zu verwirklichen – denn alle Menschen vollziehen alle Handlungen um eines Zweckes willen, nämlich um das zu erreichen, was ihnen als gut erscheint.“ (Pol. I 1, 1252a1–3).
+↑ Hermann Weidemann: Aristoteles. Peri Hermeneias. Berlin 2002, S. 134.
+↑ Für materielle Gegenstände verwendet Aristoteles noch einen weiteren wichtigen Definitionstyp, der die (später behandelte) Form-Materie-Unterscheidung zugrunde legt und ontologisch ist. Demgemäß ist beispielsweise ein Haus definiert als eine auf bestimmte Weise strukturierte Anordnung von Holz und Ziegeln (Met. VIII 3, 1043a31 f.).
+↑ So sagt er, dass man „eine Induktion durchführt dadurch, dass die einzelnen Dinge klar sind – dass alles so ist dadurch, dass nichts anders ist“ (An. Post. II 5, 92a37 f.). Detel erläutert: „Nach dieser Bemerkung weist die Induktion einen Allsatz dadurch nach, daß sie sämtliche Einzelinstanzen durchgeht und zeigt, daß es unter ihnen keine Gegeninstanzen gibt.“ Detel 1993 I, S. 251.
+↑ Als zusätzliche Bedingung gilt eine Meinung des Typs (ciii) nur dann als anerkannte, wenn sie der Meinung der Menge nicht widerspricht.
+↑ Z. B. „Ist ‚zweibeiniges, sich zu Lande bewegendes Lebewesen‘ die Definition des Menschen oder nicht?“ Top. I 4, 101b28–31
+↑ Es gibt Ausnahmen (z. B. wenn die Frage mehrdeutig ist), für die es Regeln gibt, Top. VIII.
+↑ Aristoteles definiert das Enthymem als Deduktion; allerdings sagt er von einem Sonderfall des Enthymems, er sei keine Deduktion.
+↑ Hier sind charakterliche Dispositionen (z. B. kann nur der zürnen, der über entsprechende Selbstachtung verfügt; siehe 1387b13 f.) und physiologische Voraussetzungen relevant. (Rapp (2002) II, 559–570, 582 f.)
+↑ „Der Begriff des Syllogismus geht also auf Aristoteles zurück; dennoch ist 'Syllogismus' keine gute Übersetzung für das griechische Wort syllogismós, denn Aristoteles definiert den syllogismós in einem Sinn, der viel weiter ist der uns bekannte Begriff des Syllogismus. […] Da Aristoteles in der Topik den syllogismós mit fast denselben Worten definiert wie in dem gerade angeführten Zitat <A. pr. 24b 18 ff.>, kann man davon ausgehen, dass er mit syllogismós ein zwingendes, also deduktives Argument meint, aber nicht einen Syllogismus in dem formal stärker restringierten Sinn der Syllogistik.“ Christof Rapp/Tim Wagner, in: Aristoteles, Topik. Übersetzung und kommentiert von Tim Wagner und Christof Rapp, Stuttgart 2004, S. 24.
+↑ Eine vierte Figur ist möglich, wird von Aristoteles aber als Syllogismus der ersten Figur betrachtet.
+↑ Aristoteles selber verwendet die inverse Satzstellung: B kommt allen A zu usw.
+↑ Ein drittes Verfahren, die sogenannte êkthesis, wendet er selten an, und dann ausschließlich in der dritten Figur.
+↑ Die Namen geben Aufschluss über die Form sowie gegebenenfalls darüber, wie sie bewiesen werden können. Barbara weist beispielsweise nur zusprechende, allgemeine Verbindungen auf.
+↑ Kunst (téchnē) (=produktives Wissen): Kunst als herstellende Erkenntnis unterscheidet sich vom Wissen insofern, als sich ihre Gegenstände auch anders verhalten können.
+↑ Andere für Aristoteles unbeweisbare Sätze sind spezifische Grundlagen einzelner Wissenschaften. Diese hält er für nicht problematisch (beispielsweise, dass die Geometrie die Existenz von Punkten oder die Biologie die von Lebewesen mit bestimmten Eigenschaften voraussetzt).
+↑ Wobei die neuzeitlichen Kritiker einen ähnlichen Typ favorisierten wie den, den sie bei Aristoteles annahmen und verwarfen.
+↑ Für eine Ausnahme einer materielosen Form siehe Theologie
+↑ Es ist umstritten, ob Aristoteles eine völlig unbestimmte Materie annimmt, die sogenannte prima materia. Siehe hierzu William Charlton: Aristotle. Physics Books I and II. Oxford 1970, S. 129–145.
+↑ Das Wort Ousia, Partizip zu ‚sein‘, wörtlich: „Seiendheit“ wird meist mit ‚Substanz‘ übersetzt. Mag ‚Substanz‘ noch für die Theorie der Kategorien adäquat sein, so ist dieser Ausdruck für die Metaphysik irreführend und problematisch. „Der entscheidende Nachteil der geläufigen Übersetzung ‚Substanz‘ ist, dass damit eine bestimmte Konzeption der ousia assoziiert wird, nämlich die der Kategorien, wonach das konkrete Einzelding als Träger wechselnder Eigenschaften die eigentliche Substanz ist.“ (Christof Rapp, in: Rapp (1996) S. 8). Siehe auch Vasilis Politis: Aristotle and the Metaphysics. New York 2004, S. 12; 192. Der Ausdruck taucht in dieser Bedeutung auch schon bei Platon auf (Christoph Horn, Christof Rapp: ousia. In: dies.: Wörterbuch der antiken Philosophie. München 2002, S. 320–321). Aristoteles geht davon aus, dass der Sache nach schon die Vorsokratiker die Frage: „Was ist die ‚ousia‘?“ gestellt haben.
+↑ „Was in der Philosophiegeschichtsschreibung als Platonische ‚Idee‘ bezeichnet wird, nennt Platon […] unter anderem idea, morphê, eidos[!] oder zusammenhangsabhängig auch genos und sogar usia[!] sowie physis.“ Christian Schäfer: Idee/Form/Gestalt/Wesen. In: ders.: Platon-Lexikon. Darmstadt 2007, S. 157.
+↑ Der Übersicht halber diese etwas technische Schreibweise: Substanz-X = Substanz-von etwas. Ähnlich Rapp 2001, S. 160. Die entsprechende Unterscheidung wird auch in Metaphysik V 8 gemacht, wo Aristoteles den Begriff Substanz in seinem ‚Begriffslexikon‘ erläutert.
+↑ Es wird allerdings kontrovers diskutiert, ob die Substanz-Theorie der Metaphysik und diejenige der Kategorien kompatibel sind, und auch ob die Theorie der Metaphysik die der Kategorien eher ergänzen oder ersetzen soll.
+↑ Dass mit eidos Aristoteles sowohl die Art wie auch die Form bezeichnet, hat zu zahlreichen interpretatorischen Schwierigkeiten geführt, insbesondere zum Verhältnis der Theorie der Kategorien (in der eidos (als Art) zweite Substanz ist) zu der der Metaphysik (in der eidos (als Form) Substanz-X ist und erste Substanz genannt wird).
+↑ Eine gute Darstellung dieser Kontroverse bei Steinfath, 43.
+↑ Einen guten Überblick über die Problemlage bietet Marc Cohen: Aristotle’s Metaphysics. In: Edward N. Zalta (Hrsg.): The Stanford Encyclopedia of Philosophy. (Winter 2003 Edition), § 10: Substance and Universals. Die drei wesentlichen Positionen, die von einer konsistenten Theorie ausgehen, stellt Christof Rapp in der Einleitung des von ihm herausgegebenen Bands Aristoteles. Metaphysik, Die Substanzbücher (Ζ, Η, Θ), Berlin 1996, S. 22 ff., dar.
+↑ Vermögen hat für Aristoteles verschiedene Bedeutungen. Die Grundbedeutung von Vermögen betrifft Veränderung. Hierbei gibt es (i) ein aktives Vermögen, etwas zu tun, und (ii) ein passives, etwas zu erleiden (Met. V 12, 1019b35 ff.; IX 1, 1046a4 f.). Beispielsweise besitzt der Baumeister das Vermögen, bestimmte Bauteile so anzuordnen, dass daraus ein Haus entsteht, und zugleich besitzen bestimmte Bauteile das Vermögen, zu einem Haus angeordnet zu werden. (iii) Die ontologische Potentialität ist demgegenüber das Vermögen, etwas zu sein.
+↑ Zitiert nach Jonathan Barnes: Aristoteles. Stuttgart 1992, S. 19–20.
+↑ Zitiert nach Jonathan Barnes: Aristoteles. Stuttgart 1992, S. 21.
+↑ Wolfgang Kullmann: Aristoteles und die moderne Wissenschaft. Stuttgart 1998, S. 284.
+↑ „Aristoteles’ Anschauungen stimmen auch mit der entscheidenden These der modernen Molekularbiologie zusammen, dass – in der Sprache Monods formuliert – die invariante Reproduktion der Arten aufgrund teleonomischer Information nach streng kausalen, „technischen“, genauer nach chemischen Gesetzmässigkeiten abläuft. Durch die Entdeckung der unterschiedlichen Funktion der Nukleinsäuren einerseits, die die genetische Invarianz verbürgen, und der Proteine, die für die teleonomischen Strukturen und Leistungen verantwortlich sind, andererseits, erweist sich, dass die aristotelische Vorstellung einer programmierten zielgerichteten Epigenesis in ihrem wesentlichen Kern der Realität näher kommt als manche andere Theorie neueren Datums“, Wolfgang Kullmann: Die Teleologie in der aristotelischen Biologie: Aristoteles als Zoologe, Embryologe und Genetiker. Heidelberg 1979, S. 61.
+↑ a b In einer in ihrer Bedeutung stark umstrittenen Passage spricht er allerdings von einer unsterblichen Vernunft, „die alles bewirkt“ (An. III 5, 430a15).
+↑ Ob damit Aristoteles etwa in die Nähe des Funktionalismus der heutigen Philosophie des Geistes gerückt werden kann, ist strittig. Myles Burnyeat etwa bezweifelt dies, da Aristoteles’ und unser Materiebegriff nicht kompatibel sei; Hilary Putnam und Martha C. Nussbaum argumentieren dafür. Siehe Myles F. Burnyeat: Is an Aristotelean Philosophy of Mind Still Credible? A Draft und Martha C. Nussbaum, Hilary Putnam: Changing Aristotle’s Mind, beide in: Martha C. Nussbaum, Amélie Oksenberg Rorty: Essays on Aristotle’s „De anima“, Oxford 1992. Putnam allerdings hat seine Position zur aristotelischen Seelenlehre mehrmals geändert.
+↑ Philipp Brüllmann, Katharina Fischer: mêson. In: Otfried Höffe (Hrsg.): Aristoteles-Lexikon. Stuttgart 2005, S. 346.
+↑ Dies ist eine Auswahl der von Aristoteles behandelten Charaktertugenden. Eine vollständige Übersicht bei Wolf, S. 79–80.
+↑ Die Nikomachische Ethik weist in Buch VII und X zwei Lustabhandlungen mit zwei Definitionen auf.
+↑ Siehe dazu Ottmann, S. 179–183; C. C. W. Taylor in: Barnes (1995), S. 254–257.
+↑ Wolfgang Schadewaldt: Furcht und Mitleid? Zur Deutung des aristotelischen Tragödiensatzes. In: Hermes. 83 (1955), S. 129–171.
+↑ W. D. Furley, J. M. Bremer: Greek Hymns II. Greek Texts and Commentary. Tübingen 2001, S. 221–228.
+↑ Siehe Eckhard Keßler: Etappen der Entstehung des lateinischen Aristoteles.
+↑ Zur franziskanischen Aristoteleskritik siehe Kurt Flasch: Aristoteleskritik im Mittelalter. In: Arbogast Schmitt, Gyburg Radke-Uhlmann (Hrsg.): Philosophie im Umbruch. Stuttgart 2009, S. 65–77, hier: 65–69.
+↑ Dante Alighieri: Die Göttliche Komödie. Inferno 4, 131–133.
+↑ Elisabeth von Roon-Bassermann: Dante und Aristoteles. Freiburg 1956, S. 1–21, 27 ff.
+↑ Zur Aristoteles-Rezeption des Cusanus siehe Flasch (2009) S. 71–77.
+↑ James G. Lennox: Aristotle’s Philosophy of Biology. Cambridge 2001, S. 218 f.
+↑ Allan Gotthelf: From Aristotle to Darwin. In: Carlos Steel u. a. (Hrsg.): Aristotle’s Animals in the Middle Ages and Renaissance. Leuven 1999, S. 398.
+↑ „Im Übrigen ist wohl noch nie so vielfältig und weltweit über Aristoteles gearbeitet worden wie gegenwärtig“, Flashar (2004) S. 177.
+↑ E. J. Lowe: The Four-Category Ontology: A Metaphysical Foundation for Natural Science, Oxford University Press 2007, sowie die Rezension von Ryan Wasserman hierzu.
+↑ Barry Smith: Aristoteles 2000. (PDF; 108 kB), In: Th. Buchheim, H. Flashar, R.A.H. King (Hrsg.): Kann man heute noch etwas anfangen mit Aristoteles? Meiner, Hamburg 2003, S. 3–38.
+Dieser Artikel wurde am 12. Dezember 2007 in dieser Version in die Liste der exzellenten Artikel aufgenommen.
+Normdaten (Person): GND: 118650130 (PICA, AKS) | LCCN: n79004182 | NDL: 00431694 | VIAF: 7524651 | Wikipedia-Personensuche
+Personendaten
+NAME
+Aristoteles
+ALTERNATIVNAMEN
+Der Stagirit; Der Philosoph
+KURZBESCHREIBUNG
+griechischer Philosoph und Naturforscher
+GEBURTSDATUM
+384 v. Chr.
+GEBURTSORT
+Stageira
+STERBEDATUM
+322 v. Chr.
+STERBEORT
+Chalkis
+Abgerufen von „https://de.wikipedia.org/w/index.php?title=Aristoteles&oldid=162287105“
+Kategorien: Wikipedia:ExzellentAristotelesPhilosoph (Antike)MoralphilosophErkenntnistheoretikerLogikerNaturphilosophSachbuchautor (Physik)SprachphilosophÄsthetikerUniversalgelehrterPolitischer PhilosophMetaphysikZoologeGrieche (Antike)Geboren 384 v. Chr.Gestorben 322 v. Chr.MannPhysiker (vor dem 16. Jahrhundert)Person als Namensgeber
+Navigationsmenü
+Meine Werkzeuge
+Nicht angemeldetDiskussionsseiteBeiträgeBenutzerkonto erstellenAnmelden
+Namensräume
+Artikel
+Diskussion
+Varianten
+Ansichten
+Lesen
+Quelltext anzeigen
+Versionsgeschichte
+Mehr
+Suche
+Navigation
+HauptseiteThemenportaleVon A bis ZZufälliger Artikel
+Mitmachen
+Artikel verbessernNeuen Artikel anlegenAutorenportalHilfeLetzte ÄnderungenKontaktSpenden
+Werkzeuge
+Links auf diese SeiteÄnderungen an verlinkten SeitenSpezialseitenPermanenter LinkSeiten­informationenWikidata-DatenobjektArtikel zitieren
+Drucken/­exportieren
+Buch erstellenAls PDF herunterladenDruckversion
+In anderen Projekten
+CommonsWikiquoteWikisource
+In anderen Sprachen
+AfrikaansAlemannischአማርኛAragonésÆngliscالعربيةمصرىঅসমীয়াAsturianuAzərbaycancaБашҡортсаŽemaitėškaБеларускаяБеларуская (тарашкевіца)‎БългарскиभोजपुरीবাংলাBrezhonegBosanskiБуряадCatalàMìng-dĕ̤ng-ngṳ̄НохчийнCebuanoᏣᎳᎩکوردیی ناوەندیCorsuČeštinaСловѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟЧӑвашлаCymraegDanskZazakiDolnoserbskiΕλληνικάEmiliàn e rumagnòlEnglishEsperantoEspañolEestiEuskaraEstremeñuفارسیSuomiVõroFøroysktFrançaisFryskGaeilge贛語GàidhligGalegoगोंयची कोंकणी / Gõychi Konknni𐌲𐌿𐍄𐌹𐍃𐌺ગુજરાતી客家語/Hak-kâ-ngîעבריתहिन्दीFiji HindiHrvatskiKreyòl ayisyenMagyarՀայերենInterlinguaBahasa IndonesiaInterlingueIlokanoIdoÍslenskaItaliano日本語PatoisLa .lojban.Basa JawaქართულიQaraqalpaqshaTaqbaylitҚазақшаភាសាខ្មែរಕನ್ನಡ한국어KurdîКыргызчаLatinaLadinoLëtzebuergeschЛезгиLimburgsLigureLumbaartLietuviųLatviešuमैथिलीBasa BanyumasanMalagasyBaso MinangkabauМакедонскиമലയാളംМонголमराठीКырык марыBahasa MelayuMaltiMirandésမြန်မာဘာသာمازِرونیNāhuatlPlattdüütschNedersaksiesनेपालीनेपाल भाषाNederlandsNorsk nynorskNorsk bokmålNovialOccitanLivvinkarjalaOromooଓଡ଼ିଆИронਪੰਜਾਬੀPangasinanPolskiPiemontèisپنجابیپښتوPortuguêsRuna SimiRomânăArmãneashtiРусскийРусиньскыйसंस्कृतम्Саха тылаSarduSicilianuScotsسنڌيSámegiellaSrpskohrvatski / српскохрватскиසිංහලSimple EnglishSlovenčinaSlovenščinaShqipСрпски / srpskiBasa SundaSvenskaKiswahiliŚlůnskiதமிழ்ತುಳುతెలుగుТоҷикӣไทยTagalogTok PisinTürkçeТатарча/tatarçaУкраїнськаاردوOʻzbekcha/ўзбекчаVènetoVepsän kel’Tiếng ViệtVolapükWalonWinaray吴语IsiXhosaმარგალურიייִדישYorùbáZeêuws中文文言Bân-lâm-gú粵語
+Links bearbeiten
+Diese Seite wurde zuletzt am 3. Februar 2017 um 16:39 Uhr geändert.
+Abrufstatistik
+Der Text ist unter der Lizenz „Creative Commons Attribution/Share Alike“ verfügbar; Informationen zu den Urhebern und zum Lizenzstatus eingebundener Mediendateien (etwa Bilder oder Videos) können im Regelfall durch Anklicken dieser abgerufen werden. Möglicherweise unterliegen die Inhalte jeweils zusätzlichen Bedingungen. Durch die Nutzung dieser Website erklären Sie sich mit den Nutzungsbedingungen und der Datenschutzrichtlinie einverstanden.
+Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.
+Datenschutz
+Über Wikipedia
+Impressum
+Entwickler
+Stellungnahme zu Cookies
+Mobile Ansicht

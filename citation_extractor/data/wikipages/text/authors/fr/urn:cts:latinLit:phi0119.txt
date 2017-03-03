@@ -1,0 +1,615 @@
+Plaute — Wikipédia
+Plaute
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Plaute
+Données clés
+Nom de naissance
+Titus Maccius Plautus en latin
+Naissance
+c. -254
+Sarsina
+Décès
+184 av. J.-C.
+Rome
+Activité principale
+Écrivain, dramaturge
+Auteur
+Langue d’écriture
+latin
+Œuvres principales
+Amphitryon
+Asinaria
+Aulularia
+Menaechmi
+Miles gloriosus
+modifier
+Plaute, en latin Titus Maccius Plautus, né vers 254 av. J.-C. à Sarsina dans l'ancienne Ombrie, maintenant située en Émilie-Romagne et mort en 184 av. J.-C. à Rome, est un auteur comique latin, le premier des grands écrivains de la littérature latine, d'autres comme Naevius ou Ennius n'ayant guère laissé qu'un nom et quelques fragments. Il s'est surtout inspiré d'auteurs grecs de la comédie nouvelle tel Ménandre, auxquels il a donné une saveur typiquement romaine. Il a connu un grand succès de son vivant, et nombreux sont les écrivains romains qui l'ont loué.
+Acteur dans un rôle d'esclave, avec un masque comique. Statuette en bronze, début du IIIe siècle av. J.-C..
+Il a influencé certains des grands de la littérature, entre autres : Shakespeare et Molière (l'Avare est ainsi en partie imité de l'Aulularia de Plaute).
+Sommaire
+1 Biographie
+2 Tradition manuscrite
+2.1 Le palimpseste ambrosien
+2.2 Codices Palatini
+3 Contexte historique
+3.1 Divinités de la société romaine
+3.2 Deuxième guerre punique et Deuxième Guerre macédonienne
+4 Filiation avec le passé
+4.1 Âges de la comédie
+4.1.1 Comédie ancienne
+4.1.2 Comédie moyenne
+4.1.3 Comédie nouvelle
+4.2 Thèmes et genres
+4.2.1 La farce et les prologues
+4.2.2 La relation père–fils
+5 Personnages
+5.1 Figures-types
+5.1.1 L'esclave intelligent
+5.1.2 Le vieillard amoureux
+5.2 Autres personnages
+5.2.1 Personnages féminins
+5.2.2 Personnages anonymes
+5.3 L'apport grec
+5.3.1 Compréhension du grec par le public
+5.3.2 Plaute : plagiaire ou créateur ?
+5.3.3 Contaminatio
+6 Mise en scène
+6.1 Manque de structures pérennes
+6.2 Importance des ludi
+6.3 « Géographie » de la scène
+6.4 Interaction avec le public
+7 La manière d'écrire
+7.1 Une langue simple
+7.2 Archaïsmes
+7.3 Proverbes et langues étrangères
+7.4 Autres procédés stylistiques
+7.5 Versification
+8 Postérité
+8.1 Antiquité
+8.2 Moyen Âge et Haute Renaissance
+8.3 Plaute, Shakespeare et al
+8.3.1 Shakespeare et la comédie élisabéthaine
+8.3.2 Les processions de Stonyhurst
+8.3.3 Molière
+9 Œuvres
+9.1 Pièces intégralement conservées
+9.2 Pièces fragmentaires
+10 Notes et références
+10.1 Notes
+10.2 Références
+11 Bibliographie
+11.1 Textes
+11.2 Sources antiques
+11.3 Dictionnaires et encyclopédies
+11.4 Ouvrages généraux sur le contexte historique et le théâtre latin
+11.5 Monographies
+11.6 Études spécifiquement consacrées au théâtre de Plaute
+12 Annexes
+12.1 Articles connexes
+12.2 Liens externes
+Biographie[modifier | modifier le code]
+Sarsina, village de naissance de Plaute.
+La vie de Plaute est mal connue, surtout ses débuts, et il semble qu'une partie des informations disponibles ait été calquée sur les intrigues de ses comédies[1]. Il naît à Sarsina, petite ville d'Ombrie, région d'Italie centrale, vers le milieu du IIIe siècle av. J.-C.[2]. Il se rend à Rome pour faire carrière « dans les métiers du théâtre » (« in operis artificum scaenicorum »[3].). Selon Morris Marples, Plaute travaille comme charpentier ou machiniste de théâtre[4], activité ayant sans doute éveillé son amour pour la scène où se révèlent bientôt ses talents d'acteur. Il adopte alors les noms Maccius ou Maccus (« la mâchoire », autrement dit « le goinfre », stéréotype comique de farces populaires[1]), et Plautus (« pied-plat »), surnom pouvant désigner un acteur de comédie à sandales, par opposition aux acteurs de tragédie chaussés de cothurnes à haut talon ; ou encore « oreille-plate », telles les oreilles d'un chien courant[5]).
+D'après la tradition, il s'est alors suffisamment enrichi pour s'engager dans le commerce maritime où, cependant, il réussit plutôt mal, si bien qu'il doit s'embaucher comme manœuvre, activité lui laissant toutefois le loisir d'étudier le théâtre grec, particulièrement la nouvelle comédie et son principal représentant, Ménandre. Aussi peut-il à terme produire ses propres pièces qui connaissent une telle popularité que son nom suffit à remplir les théâtres. Elles s'appuient le plus souvent sur les modèles grecs, mais adaptés au goût du public romain. Telles quelles, elles représentent le corpus le plus ancien de textes latins ayant survécu dans son intégralité.
+Plaute meurt sous le consulat de Publius Claudius Pulcher, durant la censure de Caton l'Ancien[6], et a pour épitaphe :
+« postquam est mortem aptus Plautus, Comoedia luget,
+scaena est deserta, dein Risus, Ludus Iocusque
+et Numeri innumeri simul omnes conlacrimarunt [7]. »
+« Après la mort de Plaute, la Comédie est en larmes, La Scène est déserte, le Rire, la Facétie et le Divertissement, Les Rythmes innombrables tous ensemble se sont mis à pleurer. »
+Tradition manuscrite[modifier | modifier le code]
+Les comédies de Plaute constituent le premier grand ensemble de la littérature latine qui soit disponible[8]. Plus de cent-trente pièces circulent sous son nom à la fin du IIe siècle av. J.-C., mais l'érudit Varron n'en a conservé que vingt-et-une[9],[10], les seules, donc, qui soient parvenues à la postérité. Cependant, il subsiste des fragments d'une trentaine d'autres pièces[11].
+La tradition manuscrite se divise en deux familles indépendantes[12].
+Le palimpseste ambrosien[modifier | modifier le code]
+La première comprend le palimpseste ambrosien « A », redécouvert au XIXe siècle par Angelo Mai, datant du IVe siècle ou du Ve siècle et contenant une dizaine de pièces, dont le texte en a été gratté pour faire place à un commentaire de Saint Augustin sur les Psaumes. Le moine chargé de cette besogne y a plus ou moins réussi : en certains endroits, il s'y est employé avec ardeur, supprimant en particulier le classement alphabétique des pièces ; en d'autres, il s'est montré moins zélé, mais à la fin du manuscrit il s'avère si consciencieux que plus un seul des mots de Plaute ne reste lisible. Certes, les techniques d'investigation modernes ont permis de restituer une bonne part du matériau détruit, à cela près que si les pièces médianes sont presque intactes, celles dont le titre se situe en tête de l'alphabet demeurent mutilées (par exemple la fin de l'Aulularia et le début de Bacchides), et que seules subsistent des traces de Vidularia.
+Codices Palatini[modifier | modifier le code]
+La seconde famille est constituée par les codices Palatini, ainsi appelés car les principaux d'entre eux, B, C et D, ont été pendant une certaine période réunis à Heidelberg dans la bibliothèque du prince-électeur du Palatinat du Rhin.
+Lorsqu'il y a concordance entre les deux, il est généralement considéré que la leçon fournie a de grandes chances d'être authentique[13].
+Contexte historique[modifier | modifier le code]
+Le contexte historique dans lequel Plaute a écrit peut dans une certaine mesure être induit de ses commentaires sur les événements et les personnalités dont il a été le contemporain. À cette époque, si la République romaine accroit son pouvoir et son influence, son théâtre en est toujours aux balbutiements.
+Divinités de la société romaine[modifier | modifier le code]
+Rhéa, devenue Ops chez les Romains, mère de Jupiter (1888).
+Dans la mesure où ses pièces ne les choisissent pas comme héros, Plaute a parfois été accusé d'inculquer au public le mépris ou la dérision des dieux. Qu'un seul de ses personnages soit honoré ou moqué représente en soi une atteinte à leur prestige, d'autant qu'ils sont souvent mentionnés en des commentaires ou par des comparaisons jugées désobligeants : ainsi, il n'est pas rare qu'un personnage compare une mortelle à une divinité, ou affirme préférer l'amour d'une femme à celui d'une déesse. Dans le Miles Gloriosus, Pyrgopolynices se vante de sa longue vie et proclame : « Ma fille, je naquis le lendemain du jour où Ops mit au monde Jupiter », « Postriduo gnatus sum ego, mulier, quam Iupiter ex Ope gnatu'st »[14]. Dans le Curculio, lorsqu'il rencontre Planésie pour la première fois, Phédrome lui affirme être un dieu, « sum Deus »[15]. Dans Pseudolus, Ballio le proxénète est comparé à Jupiter, « car il est dès à présent pour moi bien plus Jupiter que Jupiter lui-même », « nam hic mihi nunc est multo potior Iuppiter quam Iuppiter »[16], et il n'est pas rare qu'un personnage aille jusqu'à exprimer son mépris des dieux comme dans le Poenulus ou le Rudens.
+Pour autant, les personnages bafouant les divinités sont habituellement des individus de bas étage que Plaute a peut-être justement choisis pour leur irrévérence. Ainsi, parasites, proxénètes et courtisanes ne les honorent qu'avec parcimonie, et les soldats, quant à eux, les ridiculisent ouvertement. D'ailleurs, les jeunes gens censés représenter la classe supérieure, ne sont pas en reste, qui les rabaissent souvent par leur propos. Tolliver soutient que le théâtre reflétant et annonçant tout à la fois le changement social, il est probable que ce scepticisme était déjà largement répandu à l'époque de Plaute, et que son théâtre n'a ni provoqué ni encouragé le phénomène, mais simplement réfléchi les idées du temps. Comme, de toute façon, la production scénique est sous le contrôle de l'État, si les œuvres de Plaute avaient réellement été trop osées, elles auraient été censurées[17].
+Deuxième guerre punique et Deuxième Guerre macédonienne[modifier | modifier le code]
+Parcours d'Hannibal Barca, de l'Espagne carthaginoise vers l'Italie romaine, puis son retour à Carthage.
+La deuxième guerre punique, qui s'est déroulée à la fin du IIIe siècle av. J.-C., a été l'un des conflits les plus graves de l'histoire de Rome ; l'invasion de l'Italie par Hannibal aurait pu avoir des conséquences désastreuses pour la cité. M. Leigh a consacré un long chapitre sur Plaute et Hannibal dans son livre Comedy and the Rise of Rome. Il y explique que « les pièces contiennent des références occasionnelles au fait que l'état est en armes […] »[18]. Un bon exemple en est fourni par A. F. West dans son article « On a Patriotic Passage in the Miles Gloriosus of Plautus » (« À propos d'un passage patriotique dans le Miles Gloriosus de Plaute »). Après avoir déclaré que cette guerre « a absorbé les Romains plus que toutes les autres affaires publiques réunies »[19], il y mentionne un passage du Miles gloriosus, pièce dont la date de composition, si elle n'est pas certaine, est souvent située dans la dernière décennie du IIIe siècle av. J.-C.[20]. Ce passage, qu'il pense être une allusion à la deuxième guerre punique[19] et qui semble destiné à attiser la foule, commence ainsi : « Ne vois-tu pas les ennemis qui s'approchent ? »[21], « Viden' hostis tibi adesse ? »[22].
+Le général Scipion l'Africain veut livrer bataille à Hannibal, intention « soutenue avec vigueur par la plèbe »[23]. Plaute cherche apparemment à ce que ce plan soit approuvé par le Sénat, échauffant son public avec l'idée d'un ennemi proche, et l'appelant à le vaincre. Il est donc raisonnable de dire, selon P. B. Harvey, qu'il « désirait intégrer [dans ses pièces] des allusions très aisément compréhensibles par le public »[24]. M. Leigh écrit, dans son chapitre consacré à Plaute et Hannibal que « le Plaute qui émerge de cette investigation est quelqu'un dont les comédies touchent en permanence les cordes les plus sensibles du public pour lequel il écrit »[25].
+Plus tard, alors qu'elle se remet à peine de son affrontement avec Carthage, Rome se prépare déjà à entreprendre une autre expédition militaire vers la Grèce. Il existe alors un vaste débat sur le parti qu'elle doit prendre dans la deuxième Guerre macédonienne ; elle finit par se positionner contre Philippe V de Macédoine. Dans l'article “Bellum Philippicum: Some Roman and Greek Views Concerning the Causes of the Second Macedonian War” (« Bellum Philippicum : points de vue grecs et romain sur les causes de la seconde guerre macédonienne »), E. J. Bickerman écrit que « les causes de la guerre fatidique [...] étaient vivement débattues chez les Grecs comme chez les Romains »[26]. Arguant de la protection de ses alliés, explique Bickerman, Rome cherche en fait à étendre son pouvoir vers l'est, alors que la deuxième guerre punique est désormais terminée[27]. Mais repartir en guerre n'est pas tâche aisée après les récents affrontements avec Carthage, de nombreux Romains se trouvant trop fatigués pour penser à de nouvelles campagnes. Comme l'écrit W. M. Owens dans son article “Plautus’ Stichus and the Political Crisis of 200 B.C.” (« Plaute, Stichus et la crise politique de 200 B. C. »), « il est prouvé que le sentiment pacifiste était profond et a persisté même après que la guerre fut déclarée »[28]. Owens affirme que Plaute essaye de s'accorder aux méandres de l'opinion générale, à la fois heureuse de la victoire sur Carthage, mais inquiète de l'éventualité d'un nouveau conflit[29]. Par exemple, les personnages de filles dévouées à leur père semblent obsédés par l'idée d’officium, de « devoir », d'« obligation morale ». Leur discours est émaillé de mots comme pietas et aequus, et leur insistance pour que leur père remplisse son rôle y est omniprésente[30]. Le parasite Gelasimus, client de cette famille, se dit prêt à accomplir n'importe quelle tâche pour gagner sa vie, et Owens avance l'idée que Plaute évoque ainsi les difficultés économiques auxquelles doivent faire face de nombreux Romains en raison du lourd tribut payé à la guerre[31].
+En plaidant sans relâche pour la prise en considération de la détresse des petites gens, Plaute se positionne clairement aux côtés du citoyen romain moyen. Sans faire de référence explicite à une possible guerre contre la Grèce ni à celle qui a été menée contre Carthage, ce qui eût été trop dangereux, il laisse entendre que le gouvernement devrait d'abord veiller au bien de son propre peuple avant d'envisager de nouvelles actions militaires.
+Filiation avec le passé[modifier | modifier le code]
+Article détaillé : Comédie grecque antique.
+Âges de la comédie[modifier | modifier le code]
+La comédie nouvelle de Ménandre et ses similitudes avec le théâtre de Plaute ne se comprennent que si on connaît la démarche de la comédie ancienne et son évolution.
+Comédie ancienne[modifier | modifier le code]
+Article détaillé : Comédie ancienne.
+Aristophane.
+L'auteur le plus représentatif de la comédie ancienne est Aristophane : dramaturge du siècle de Périclès (Ve siècle av. J.-C.), il a écrit des pièces telles que Les Guêpes, Les Oiseaux et Les Nuées, autant de satires du pouvoir et de la société si lucides que son théâtre devient le lieu privilégié de la critique politique[32]. Dans Les Guêpes, le commentaire est particulièrement cru et agressif[33], le nom des personnages représentant déjà une prise de position : Philocléon (« pro-Cléon ») et Bdélycléon (« anti-Cléon ») pour les deux principaux, Cléon étant une figure politique majeure ; et leurs agissements ajoutent ouvertement et directement à la critique, ce qui a valu à l'auteur d'être l'objet de persécutions.
+Comédie moyenne[modifier | modifier le code]
+Articles détaillés : Comédie moyenne, Alexis le Comique et Antiphane.
+Un passage d'Aulu-Gelle indique qu'Alexis était lu par les poètes comiques archaïques[34].
+Comédie nouvelle[modifier | modifier le code]
+Article détaillé : Comédie nouvelle.
+La nouvelle comédie diffère beaucoup des pièces d'Aristophane. D'après Dana F. Sutton, elle est « dépourvue de contenu politique, social ou intellectuel » et « peut être jouée dans n'importe quelle conjoncture sociale ou politique sans risque d'infraction »[35]. La prise de risque, caractéristique d'Aristophane, est absente chez Ménandre, l'attention se portant bien davantage sur la maison et la cellule familiale - trait que les Romains, Plaute inclus, allaient aisément comprendre et intégrer.
+Contrairement à Aristophane, Plaute évite donc l'actualité politique immédiate[36].
+Thèmes et genres[modifier | modifier le code]
+La farce et les prologues[modifier | modifier le code]
+Buste de Ménandre.
+D'après William S. Anderson, les pièces de Plaute sont beaucoup moins crédibles et réalistes que celles de Ménandre, tirant plus sur la farce. Sa poésie, affirme-t-il, présente des aspérités telles qu'elles induisent de la part du public « l'incrédulité et le refus de la compassion »[37].
+C'est dans les prologues que les styles respectifs de Ménandre et de Plaute se comparent le mieux. Robert B. Lloyd souligne que « bien que les deux prologues introduisent des pièces dont les intrigues diffèrent profondément, ils sont presque identiques dans leur forme […] »[38]. Il affirme aussi que « la verbosité des prologues de Plaute a généralement été interprétée et le plus souvent excusée en vertu de la nécessité pour le dramaturge romain de conquérir son auditoire »[38]. Cependant, chez Ménandre comme chez Plaute, le jeu de mots est essentiel à la comédie. Plaute peut sembler plus prolixe, mais là où la « comédie physique » fait défaut, il compense avec le verbe, multiplie les allitérations et paronomases[39]. Son attirance pour les jeux de mots est bien connue, en particulier pour le nom des personnages : dans le Miles Gloriosus, par exemple, celui de la concubine, Philocomasium, « qui adore la fête », « la fêtarde », semble tout à fait approprié dès lors que les tours et les façons pendables de cette prostituée apparaissent au grand jour.
+Cet usage des prologues, servis le plus souvent par le servus callidus, apporte à la pièce vigueur et vitalité. En effet, selon C. Stace, « les esclaves chez Plaute comptent pour près de deux fois plus de monologues que n'importe quel autre personnage […] [et] c'est là une statistique significative ; la plupart des monologues se voulant humoristiques, moralisateurs, ou servant d'exposés en tout genre, il est désormais possible d'entrevoir la véritable importance de l'esclave »[40]. Parce que sont privilégiés l'humour, la vulgarité, le « régal issu de l'esprit facile que nous associons à Plaute »[41], de même que l'« incongruité », « l'esclave s'avère être l'outil essentiel de communication avec le public [...] Il n'est, dès lors, pas seulement source d'information et de compréhension, mais aussi le lien privilégié avec l'humour et l'espièglerie de la pièce ». Le servus callidus est un personnage qui, comme le dit McCarthy, « accapare toute l'attention du public » et, selon C. Stace, « malgré ses mensonges et abus, a droit à toute notre sympathie »[42],[43]. Il y parvient, selon certains, grâce au monologue, au mode impératif et à l'allitération - tous outils linguistiques efficaces, à l'écrit comme à l'oral.
+Le prologue est un type particulier de monologue (ou soliloque), pas seulement, selon N. W. Slater, une simple exposition, mais « doté d'une fonction bien plus importante que celle de simplement apporter de l'information »[44]. Autre moyen par lequel le servus callidus asseoit son autorité tout au long de la pièce, en particulier sur les autres personnages : l'usage de l'impératif, qui sert, selon E. Segal, à un « renversement d'autorité qui relègue le maître dans l'abject de la supplication... Le maître-suppliant devenant ainsi une caractéristique extrêmement importante du dénouement comique chez Plaute »[45]. Le mode impératif est donc utilisé dans le renversement des rôles entre esclave et maître ; « ceux qui apprécient l'autorité et le respect comme étant la norme du monde romain se voient détrônés et ridiculisés, tandis que sont hissés sur un piédestal les échelons les plus bas de la société […], les humbles étant exaltés à la face du monde »[46].
+La relation père–fils[modifier | modifier le code]
+La comédie traite beaucoup des relations père-fils ; ainsi, dans le Dis Exapaton de Ménandre, dont l'action principale concerne les trahisons sévissant entre groupes d'âge différent et amis, le fils reste loyal envers son père, avec qui il entretient une relation très forte et toujours centrale, même si elle n'affecte pas directement la démarche de chacun des personnages principaux. En revanche, chez Plaute, tout en restant essentielle, elle s'entache de trahisons inconnues chez Ménandre, et l'un de ses objectifs du dramaturge devient alors, semble-t-il, d'établir des règles de conduite entre père et fils, tant est importante cette relation dans la société romaine de l'époque.
+En cela, Ménandre et Plaute se ressemblent et diffèrent tout à la fois : les deux présentent des « situations concernant le milieu familial »[35] et traitent du caractère patriarcal d'une société où la relation entre père et fils est essentielle au bon fonctionnement de la maisonnée[47] ; cependant, reflet de l'ampleur des divergences séparant leur monde respectif, leur façon d'appréhender cette relation est radicalement opposée.
+Personnages[modifier | modifier le code]
+Les personnages se retrouvent souvent d'une pièce à l'autre : issus eux aussi de la comédie grecque, ils n'en subissent pas moins quelques modifications. De fait, comme Plaute se livre à des adaptations, il est normal de retrouver chez lui les mêmes types : esclaves, courtisanes, soldats, vieillards. Cependant, s'il travaille avec des personnages déjà consacrés, il leur insuffle son propre génie, « [il] modifi[e] leur personnalité de façon substantielle, et du coup tout le propos d'une pièce »[48].
+Figures-types[modifier | modifier le code]
+L'éventail des personnages relève de techniques variées, dont la plus significative est le recours à des personnages-types et des situations conventionnelles, surtout lorsque l'auditoire s'en amuse. Comme l'écrit Walter Juniper, « tout est sacrifié à l'humour, la caractérisation artistique et la cohérence de cette caractérisation, l'approfondissement des personnages ne prévalant que lorsqu'il est indispensable à la réussite de l'intrigue, l'humour se réfugiant alors dans un persona »[49].
+Dans le Miles gloriosus par exemple, le « soldat fanfaron » Pyrgopolynice ne montre sa vanité et son immodestie que dans le premier acte, mais le parasite Artotrogus grossit ses exploits, formulant des allégations de plus en plus ridicules, auxquelles leur bénéficiaire acquiesce sans contester. Au lieu de dépeindre des individus au caractère complexe, Plaute apporte donc au public ce qu'il désire, car « l'auditoire au goût duquel Plaute s'adapt[e] ne s'intéress[e] pas au jeu du personnage[50], mais attend […] plutôt l'humour gras et accessible qu'offr[en]t les personnages stéréotypés ». « Les calembours, les jeux de mots, les glissements sémantiques ou autres formes d'humour verbal, Plaute les confie aux personnages d'un rang social inférieur auxquels ils correspondent le mieux »[51].
+L'esclave intelligent[modifier | modifier le code]
+Acteur dans le rôle d'un esclave rusé perché sur un autel et prêt à voler une bourse.
+Le type de « l'esclave astucieux », qui se retrouve dans nombre de pièces, illustre bien sa méthode : personnage d'envergure, tout à la fois présentateur, élément de comédie et moteur de l'action, il dérive, selon C. Stace, de la « nouvelle comédie » grecque, mais est modifié selon les besoins. Alors que dans la nouvelle comédie, commente le critique, « l'esclave n'est guère plus qu'un accessoire auquel s'ajoute peut-être un rôle de présentateur »[52], Plaute lui conserve ses attributs, celui du monologue introductif par exemple, mais y ajoute un aspect comique en le faisant, par exemple, se jouer de son maître ou se comparer à de célèbres héros ; ainsi, il crée un personnage original et plus évolué[53].
+Dans son article « The Intriguing Slave in Greek Comedy » ('L'Esclave intriguant dans la comédie grecque'), Philip Harsh montre que l'esclave intelligent, le servus callidus, n'est pas une invention de Plaute, comme l'ont longtemps cru les critiques. Ainsi, selon A. W. Gomme, l'esclave, « le vrai personnage comique, le concepteur de plans ingénieux, le régisseur des événements, le commandant de son jeune maître et de ses amis » est « une création de la comédie latine », les dramaturges grecs tel que Ménandre n'en faisant jamais intervenir selon ce schéma.
+Papyrus provenant du site d'Oxyrhynque, en Égypte.
+Réfutant ces thèses, Harsh donne des exemples concrets d'esclaves intelligents dans la comédie grecque[54]. Par exemple, les Deipnosophistes d'Athénée, recueil de citations d'auteurs souvent perdus aujourd'hui[55], contiennent des intrigues requérant l'aide d'un esclave, et le Dis Exapaton de Ménandre présente une machination exécutée par un esclave intelligent, dont Plaute s'inspire pour ses Bacchides. Des servi callidi apparaissent également dans les pièces Thalis, Hypobolimaios de Ménandre, de même que dans le fragment papyrologique de sa Perinthia. Harsh reconnaît que la thèse de Gomme a probablement été formulée avant les grandes découvertes papyrologiques du XXe siècle.
+Le servus callidus n'est donc pas nécessairement une invention romaine ; mais Plaute a eu une façon bien à lui de le dépeindre. Avec des rôles plus importants, plus actifs, exubérants, et aux exagérations verbales plus nombreuses, l'esclave est devenu un élément prépondérant de l'action[54]. Grâce à l'inversion de la hiérarchie sociale créée par son caractère sournois et spirituel, ce personnage se prête à merveille à l'utilisation d'un ton comique et ses caractéristiques aident à la progression de l'intrigue.
+Le vieillard amoureux[modifier | modifier le code]
+Le veil homme amoureux d'une jeunesse (festival de Lugo).
+Parmi les personnages-types caractéristiques, se trouve aussi une sorte de double-opposé de l'esclave précité, le senex amator, qu'a analysé K. C. Ryder. Un senex amator est un vieil homme pris de passion pour une jeune fille et qui, par des moyens divers, cherche à satisfaire cette passion. Chez Plaute, se trouvent ainsi Demaenetus (Asinaria), Philoxenus et Nicobulus (Bacchides), Demipho (Cistellaria), Lysidamus (Casina), Demipho (Mercator) et Antipho (Stichus).
+Un bel exemple est donné par la Casina où « un vieillard, amoureux d’une servante de sa femme, veut la faire épouser à son fermier, et promet à ce dernier de l’affranchir s’il lui cède la première nuit ; le fils, amoureux de cette même servante, veut la donner aux mêmes conditions à son écuyer. Les deux esclaves se disputent Casina avec acharnement, et ni l’un ni l’autre ne paraît éprouver le moindre scrupule du marché honteux qu’il a conclu. Le fermier l’emporte ; l’autre s’entend, pour se venger, avec la femme du vieillard, et à la nouvelle épousée on substitue pour la nuit un garçon vigoureux, qui bat à outrance le nouveau marié et le vieux libertin. Le fermier s’élance éperdu et presque nu sur la scène, roué de coups, bafoué, honteux, et raconte sa mésaventure dans des termes tels que le manuscrit a été mutilé et lacéré en cet endroit d’une façon quasi complète ; le peu qui reste suffit cependant pour nous faire juger du ton du récit. Le vieillard, qu’on s’est bien gardé d’avertir, se présente à son tour au lit de la mariée et revient dans un état aussi piteux, recevoir les reproches et les railleries de sa femme et d’une commère »[56].
+En revanche, Periplectomenos (Miles Gloriosus) et Daemones (Rudens) sont considérés comme des senes lepidi, d'« agréables vieillards », qui savent modérer leurs pulsions pour respecter les limites de la bienséance. Tous, cependant, aspirent à se retrouver avec une femme plus jeune ; mais Plaute, afin d'éviter des redondances malgré leur évidente ressemblance, les fait procéder selon des méthodes variées. Reste le ridicule auquel personne n'échappe, tant leurs tentatives de séduction sont décrites avec une imagerie suggérant qu'ils sont mus comme par une passion animale, un comportement immature et un retour décalé au langage amoureux de leur jeunesse[57].
+Autres personnages[modifier | modifier le code]
+Personnages féminins[modifier | modifier le code]
+Z. M. Packman s'est aperçu qu'ils ne sont pas aussi stables que leurs homologues masculins : par exemple, si un senex reste senex tout au long de la pièce, matrona, mulier ou uxor semblent interchangeables. La plupart des femmes adultes libres, mariées ou veuves, apparaissent dans le titre des scènes sous le nom de mulier, simplement traduit par femme. Mais dans le Stichus, les deux jeunes femmes sont appelées sorores, puis mulieres, et enfin matronae, termes dotés de significations et des connotations spécifiques. En dépit de ces divergences, Packman essaye de dégager certaines constantes : Mulier est attribué à une citoyenne nubile ou déjà mariée ; les citoyennes non-mariées, sans préjuger de leur expérience sexuelle, sont appelées virgines ; Ancilla est le terme utilisé pour les esclaves domestiques, anus étant réservé aux esclaves âgées ; une jeune femme restée célibataire en raison de son statut social est habituellement une meretrix, « courtisane » ; enfin, une lena, ou mère adoptive, peut être une femme qui possède ces filles[58].
+Personnages anonymes[modifier | modifier le code]
+À la manière de Packman, George Duckworth se sert du titre des scènes apparaissant dans les manuscrits pour élaborer sa théorie sur les personnages de Plaute, soit près de 220 répartis dans 20 pièces. Trente restent sans nom dans les titres et dans le texte, et neuf sont nommés dans le texte ancien mais ont disparu des versions modernes. Ainsi, près de 30 % des personnages sont dépourvus de dénomination. En général, leur rôle est mineur, alors que les plus importants titulaires sont presque tous nommés. N'en demeurent pas moins des anomalies : ainsi, le protagoniste de Casina reste anonyme et, en d'autres occasions, Plaute n'attribue un nom que si le personnage prend la parole, ne serait-ce que brièvement. Une explication possible est que certains noms se sont perdus au cours des années[59].
+L'apport grec[modifier | modifier le code]
+Sur les quelque 270 noms propres que l'on trouve dans les pièces de Plaute, environ 250 sont grecs[60].
+Compréhension du grec par le public[modifier | modifier le code]
+Masques théâtraux. Mosaïque romaine du Ier s. av. J.-C., musées du Capitole à Rome.
+William M. Seaman avance que ces noms auraient apporté une touche comique à laquelle la compréhension basique du grec par le public permettait d'accéder[61]. Cette connaissance, selon Seaman, vient de l'« expérience des soldats lors des première et deuxième guerres puniques. Les hommes stationnés dans les régions hellénophones ont eu l'occasion d'apprendre assez de grec pour leur usage quotidien, mais aussi d'assister à des pièces jouées en langue étrangère »[60]. Avoir un public connaissant peu ou prou la langue laisse ainsi à Plaute la liberté d'utiliser des références et des vocables dont le choix, soulignant l'origine grecque de ses pièces, fait de lui, poursuit Seaman, « d'une certaine manière un enseignant de la littérature, de la mythologie, de l'art et de la philosophie grecs ; de même éclaire-t-il la nature d'un vocabulaire, avec toutes ses richesses, que certaines gens, comme lui, [ont] récemment rencontré »[62].
+Rome est en expansion et remporte de nombreuses victoires en Grèce. W. S. Anderson souligne que Plaute « use et abuse de la comédie grecque pour sous-entendre la supériorité de Rome et de sa rude vitalité sur le monde grec désormais politiquement dépendant, dont l'affadissement des intrigues comiques témoigne de son incapacité à affronter la réalité du monde des IIIe et IIe siècles av. J.-C. qu'elle domine »[63].
+Plaute : plagiaire ou créateur ?[modifier | modifier le code]
+Théâtre romain d'Aspendos (Asie Mineure).
+Plaute est en général connu pour son usage du style dit « grec », issu de la tradition de la variation sur un thème[réf. nécessaire], opinion cependant controversée. Pour les uns, c'est un authentique créateur, tandis que pour d'autres, il ne fait que plagier la comédie nouvelle sans apporter la moindre originalité[réf. nécessaire].
+La simple lecture du Miles gloriosus laisserait à penser que les noms, les lieux et le jeu en sont grecs, mais c'est là une impression superficielle, selon W. S. Anderson, qui n'a de cesse de prouver que les pièces de Plaute sont vraiment de son cru, à tout le moins un rendu original de leur modèle. Il affirme en effet que « Plaute les uniformise toutes pour en faire des vecteurs de sa propre expression. À l'encontre de l'esprit même des originaux, il ne manipule les événements qu'au dénouement […] ou modifie la situation pour qu'elle se plie à ses attentes »[64]. Cependant, si la véhémence de cette argumentation implique que ce théâtre n'est en aucune façon conforme à ses modèles, il paraît plus vraisemblable que Plaute expérimente un genre hybride, avec des idées venues de Rome et mises en œuvre selon des schémas grecs.
+La Grèce et Rome, trop souvent placées dans la même catégorie, ont des sociétés dissemblables et des modes de vie différents, ne répondant pas aux mêmes paradigmes. Aussi, W. Geoffrey Arnott écrit : « nous constatons qu'un assortiment de formules [utilisées dans les pièces] relatives à la caractérisation, au thème général et à la situation possède en soi autant de ressemblances que de différences »[réf. nécessaire]. À ce titre, si Ménandre et Plaute ont de nombreux points en commun, si Plaute écrit sur les Grecs en un style grec, il n'en demeure pas moins que le comique latin et les auteurs de la nouvelle comédie grecque se situent dans des contextes complètement différents.
+Contaminatio[modifier | modifier le code]
+La contaminatio est le mélange d'éléments de deux pièces-sources ou plus. Plaute paraît friand de cette méthode d'adaptation, et un assez grand nombre de ses comédies semblent être le résultat de plusieurs histoires ayant été « cousues » ensemble. Un bon exemple est celui des Bacchides et de sa source grecque supposée, le Dis Exapaton de Ménandre. Le titre grec signifie « L'homme trompant deux fois », alors que la version de Plaute contient trois tromperies[65]. V. Castellani explique que :
+« Plaute corrompt le matériau qu'il pirate […] de quatre façons : il déconstruit nombre d'intriques grecques finement agencées, en réduit d'autres, grossit le trait des personnages issus de Ménandre, de ses contemporains et émules en caricatures, remplace ou matine l'élégant humour de ses modèles par la vigoureuse drôlerie et le simple ridicule de l'action, des jugements et de la langue[66]. »
+En explorant les idées de la loyauté romaine, de la perfidie grecque, et les différences ethniques séparant ces deux peuples, « Plaute a, dans un sens, surpassé ses modèles »[67]. Il ne se serait pas satisfait d'une adaptation fidèle qui, bien qu'amusante, n'eut été ni novatrice, ni romaine. Il a pris ce qu'il a trouvé, puis collé, coupé, modifié. Il semble ainsi avoir suivi le même chemin qu'Horace - auteur bien plus tardif -, en cela qu'il a injecté des idées romaines dans des formes grecques. Il n'a pas seulement imité les Grecs ; il les a distordus, coupés, et a par là rendu ses pièces profondément romaines. Le théâtre grec a donc été colonisé par Rome et ses auteurs.
+Mise en scène[modifier | modifier le code]
+Maquette du Champ de Mars : le théâtre de Pompée est à droite, prolongé par le portique de Pompée qui entoure la Curie de Pompée.
+Manque de structures pérennes[modifier | modifier le code]
+À l'époque de Ménandre, La Grèce antique est dotée de théâtres permanents répondant aux attentes du public et des acteurs. Aussi, les grands dramaturges disposent-ils d'une infrastructure de qualité. Tel n'est pas le cas dans la Rome républicaine où, si le public est bien présent, aussi bien pour les spectacles comiques que tragiques, les autorités s'en désintéressent, le premier théâtre permanent érigé sur le Champ de Mars ne datant, à l'instigation de Pompée, que de 55 ACN[68].
+Cette absence de structure pérenne, qui a joué un rôle décisif dans l'évolution du théâtre romain, a dérouté les chercheurs contemporains. Dans leur introduction au Miles gloriosus, Hammond, Mack et Moskalew déclarent que « les Romains étaient familiers du théâtre en pierre grec, mais, considérant aussi que le théâtre corrompait les mœurs, éprouvaient une forte aversion envers la construction de théâtres permanents »[69]. Ce manque génère une inquiétude chronique qui devient l'objet mêmes des pièces de Plaute, la fiction se faisant alors réalité sur la scène. T. J. Moore note que « toute distinction entre le jeu, la production et la « vie réelle » a été effacée, comme dans Curculio »[70]. Un tel lieu, où les normes sociales sont bouleversées, est en lui-même suspect ; aussi l'aristocratie s'effaie-t-elle du pouvoir que prend le théâtre. Pourtant, c'est par ses seules bonnes grâces et ses ressources illimitées qu'une scène temporaire peut être construite durant des fêtes spécifiques.
+Importance des ludi[modifier | modifier le code]
+Article détaillé : Ludi.
+Le théâtre romain, et la comédie plautinienne en particulier, sont interprétés sur scène lors des ludi. À ce propos, John Arthur Hanson explique que, dans le théâtre romain archaïque, la fête des ludi Megalenses « consacrait plus de jours aux représentations théâtrales que n'importe quelle autre fête ordinaire, et c'est par l'intermédiaire de ces ludi que nous est parvenu le témoignage littéraire le plus fiable et le plus direct concernant le site retenu »[71] : les ludi étant de nature religieuse, les Romains installent la scène à proximité du temple de la divinité à l'honneur, et même, comme le note S. M. Goldberg, le plus souvent « en deçà de l'enceinte du dieu honoré »[72].
+T. J. Moore souligne que « les places assises dans ces théâtres où se jouaient pour la première fois les pièces de Plaute étaient souvent en quantité insuffisante pour tous les spectateurs ; dès lors, le critère principal pour déterminer qui devait rester debout et qui pouvait s'asseoir était le statut social ». Pour autant, les basses classes ne sont point privées du spectacle, mais sans doute condamnées à la station debout. Les pièces sont jouées au milieu du public, les personnalités les plus prestigieuses occupant les meilleures places[73].
+Les scènes en bois sur lesquelles les pièces sont jouées sont peu profondes mais longues, avec trois ouvertures, donc significativement plus petites que toutes les structures grecques connues. Le théâtre n'étant pas une priorité à cette époque, ces structures peuvent être montées et démontées en moins d'une journée. D'un point de vue strictement pratique, il convient de les démonter dans l'instant en raison des risques potentiels d'incendie[74].
+« Géographie » de la scène[modifier | modifier le code]
+Mosaïque romaine de Sousse (Tunisie) : acteurs et masques du théâtre latin (musée de Sousse).
+Il n'est pas rare que la scène et la pièce soient configurées selon la géographie de la cité, ce qui permet au public de se trouver d'emblée en terrain familier. À ce propos, Moore écrit que « les références à des lieux connus des Romains ont sûrement été particulièrement soignées, car elles concernent non seulement la vie romaine, mais renvoient aussi ouvertement que possible à celle de Rome »[75]. Plaute ne déroge pas à cette règle, ses pièces intégrant les lieux connus de tous et les personnages faisant leurs entrées et leurs sorties selon le protocole réservé à leur rang.
+V. J. Rosivach et N. E. Andrews se sont penchés sur l'art de la scène chez Plaute. Rosivach montre que les ailes en sont conçues selon la géographie physique et sociale de la cité. Il donne pour exemple la maison du médecin, citée comme étant au loin sur la droite, ce qui la situe vers le forum où se trouvent effectivement les membres de cette profession[76], et il ajoute que les personnages en conflit sont toujours orientés vers des sorties opposées. De son côté, avec quelques nuances, Andrews analyse ce qu'il appelle « la sémantique spatiale » de Plaute, remarquant entre autres que les différents espaces scéniques sont lestés de sens :
+« La Casina de Plaute utilise les corrélations tragiques traditionnelles entre mâle/extérieur et femelle/intérieur, mais les inverse afin de créer une relation encore plus complexe entre genre, sexe et espace dramatique, la lutte pour le pouvoir entre hommes et femmes [...] s'articulant autour des tentatives des personnages pour contrôler les entrées et sorties de scène[77]. »
+Andrews note aussi que cette lutte pour le pouvoir apparaît pleinement dans les entrées et sorties verbales, les mots de l'action et la façon de les dire constituant une importante part de la mise en scène. Certains vocables, dénotant une direction ou une action, comme abeo (« je m'en vais »), transeo (« je traverse »), fores crepuerunt (« les portes grincent ») ou intus (« à l'intérieur »), signalent chaque entrée ou sortie d'un personnage et s'avèrent en cela dans la norme du théâtre plautinien. En l'absence de toute indication scénique, ces verbes de mouvement ou ces phrases jouent le rôle de didascalies. Souvent, cependant, dans ces échanges entre personnages, survient la nécessité de passer à l'acte suivant. Plaute utilise alors un « monologue de couverture » qui, souligne S. M. Goldberg, « marque le passage du temps, moins par sa longueur que par son interpellation directe et immédiate du public, et aussi par son passage des senarii du dialogue au septenarii, le changement d'atmosphère qui en découle déformant notre perception du temps et de la durée »[78].
+Interaction avec le public[modifier | modifier le code]
+La petitesse des lieux a une influence significative sur les mises en scène de l'ancien théâtre romain ; cette restriction limitant les mouvements, alors que le théâtre grec autorise l'amplitude de la gestuelle et l'enflure de l'action pour toucher le public relégué au fond du théâtre, les Romains comptent plus sur leur voix que sur l'impact de leur présence physique ; et puisque aucun orchestre n'est disponible comme chez les Grecs, les chœur est notamment absent du drame, en général remplacé par un personnage souvent appelé le « prologue »[79].
+Aussi, Goldberg explique-t-il que « ces changements ont engendré une relation différente entre les acteurs et l'espace dans lequel ils évoluent, ainsi qu'entre eux et leur auditoire »[80]. Les acteurs sont tenus à une interaction beaucoup plus intime avec le public, ce qui requiert un nouveau style de jeu, plus familier des contemporains. Les spectateurs, désormais très proches, désirent attirer leur attention et susciter le dialogue[81].
+Enfin, l'absence d'orchestre libère l'espace séparant la scène du public qui, tout près du podium en bois surélevé, a la possibilité d'observer les acteurs en gros plan, d'en percevoir les détails et d'en capter distinctement chaque mot[79].
+La manière d'écrire[modifier | modifier le code]
+Une langue simple[modifier | modifier le code]
+Ni la langue ni le style de Plaute ne sont simples. Il écrit dans un style familier, bien éloigné de la forme codifiée de latin trouvée par exemple chez Ovide ou Virgile. Cette langue de tous les jours serait celle à laquelle Plaute était accoutumé, ce qui signifie que la plupart des étudiants latinistes d'aujourd'hui ne peuvent qu'y rester étrangers. S'ajoute à cela l'incohérence des irrégularités rencontrées dans les textes. Dans une de ses nombreuses études du vocabulaire, A. W. Hodgman note que :
+« les allégations selon lesquelles telle ou telle forme est « courante » ou « régulière » sont souvent trompeuses, voire incorrectes, et habituellement peu satisfaisantes chez Plaute [...]. J'ai appris à respecter de plus en plus la tradition manuscrite, et s'est raffermie en moi la conviction qu'après tout, ses irrégularités sont en quelque sorte régulières. Le système de flexion tout entier - et, ce que je suspecte, de syntaxe et de versification également - était moins établi et stable au temps de Plaute qu'il ne l'est ensuite devenu[82]. »
+Archaïsmes[modifier | modifier le code]
+Article détaillé : latin archaïque.
+Le style plautinien se distingue par l'emploi d'archaïsmes ; Plaute, cependant, ne s'est pas astreint à en émailler ses œuvres, comme le fera par exemple Salluste[83], car il n'est pas « archaïsant » au sens propre, le terme « archaïque » exigeant un recul que, forcément, il ne possède pas. Ce que souligne la plupart des critiques est la familiarité de son style : ainsi, M. Hammond, A H. Mack et W. Moskalew concluent dans leur introduction au texte du Miles gloriosus que Plaute était « libre de conventions […] il cherchait le ton simple de la conversation de tous les jours plutôt que la régularité formelle du discours oratoire ou de la poésie. Partant de là, nombre d'irrégularités qui ont troublé les copistes et les chercheurs reflètent peut-être simplement l'usage quotidien des petites gens négligentes et non instruites que Plaute entendait autour de lui »[84]. Les archaïsmes se rencontrent fréquemment dans les promesses, les arrangements, les menaces, les prologues ou les discours. Plaute utilise ces formes, parfois par simple nécessité métrique, mais le plus souvent pour obtenir un effet stylistique.
+Les manifestations de ces archaïsmes sont trop nombreuses pour toutes figurer dans l'article et il convient de se reporter aux études d'A. W. Hodgman pour en saisir pleinement l'usage. En voici quelques-unes, que Hodgman compte parmi « les plus régulières des irrégularités » : certains verbes, comme malo ne sont pas contractés ; l'impératif singulier élude le -e final ; dans les thèmes de certains verbes, apparaît -o là où l'on attendrait normalement -e ; les infinitifs présents passif et déponent se terminent en -ier ; les formes de sum sont soudées au mot précédent ; les -s et -e finaux sont supprimés quand la particule -ne est ajoutée à un verbe à la seconde personne du singulier ; -o remplace -u dans les terminaisons nominales et qu prend la place de c (quom à la place de cum, par exemple) ; -ai devient la terminaison du génitif singulier ; l'accusatif et l'ablatif des pronoms personnels se terminent en -d ; les particules enclitiques -pte, -te ou -met s'ajoutent aux pronoms ; le nominatif pluriel a -is comme terminaison[85] [réf. incomplète].
+Ces formes archaïques reflètent la façon dont parlaient les contemporains : par exemple, comment se saluaient les Romains, certaines formules de politesse telles que « Bonjour » ou « Comment vas-tu ? » exigeant en retour des réponses toutes faites comme « Salut » ou une allusion à la santé, tel Quid agis ? qui signifie « Comment va ! ».
+Proverbes et langues étrangères[modifier | modifier le code]
+Plaute s'exprime en un style caractéristique, quoique non spécifique, qui donne à ses textes une indéniable saveur. Parmi ses moyens d'expression favoris se retrouvent l'usage des proverbes et celui de la langue grecque[réf. nécessaire].
+Les proverbes, plusieurs centaines en tout, abondent dans son œuvre ; ils concernent le droit, la religion, la médecine, le commerce, l'artisanat, la navigation. Parfois isolés, ils se trouvent le plus souvent incorporés au texte rédactionnel et, en particulier, à la fin des soliloques, manière d'en souligner le propos. Quant à la langue grecque, elle sert en général de recours pour suppléer, selon J. N. Hough, un mètre manquant en latin ou servir des fins artistiques[réf. nécessaire]. Ainsi sont décrits les nourritures, les huiles, les parfums, etc.. Hough compare cet usage à celui de l'anglais qui emprunte au français des termes tels que garçon ou rendez-vous. Les esclaves surtout, de même que les personnages de bas rang, font grand usage du grec, ce qui laisse à penser que bien des esclaves romains et beaucoup d'étrangers sont originaires de Grèce[réf. nécessaire].
+Il n'est pas rare que Plaute ait aussi recours à d'autres langues convenant à un personnage. Ainsi, deux prières puniques apparaissent dans Poenulus, récitées par Hanno, vieux Carthaginois, qui reproduit la prononciation des voyelles de sa ville d'origine. Certes, il est vraisemblable que Plaute lui-même ne connait pas cette langue, pas plus, d'ailleurs, que son public. Le texte des prières, sans doute transmis par un autochtone, a été incorporé pour rehausser l'authenticité exotique du vieil homme[86].
+Autres procédés stylistiques[modifier | modifier le code]
+Plaute fait également usage d'autres procédés stylistiques, plus particulièrement l'allitération et l'assonance, répétition de sons consonantiques ou vocaliques surtout placées, chez lui, au début des mots. Ses personnages-types en sont souvent abondamment pourvus, tel le servus callidus du Miles Gloriosus, Palaestrio, qui, lors d'une conversation avec Periplectomenus, s'emploie, afin de montrer son habileté langagière et, par là, affirmer son autorité, à les multiplier. Ainsi se rencontrent des expressions comme falsiloquom, falsicum, falsiiurium[87], témoignant – et c'est le but qu'il recherche –, de sa virtuosité à manier le latin. Parfois, ce procédé affecte aussi les terminaisons, comme dans cette autre séquence de Palaestrio, où l'accusatif se déploie en variations : inguam, perfidiam, malitiam atque audaciam, confidentiam, confirmitatem, fraudulentiam[88].
+Les comédies de Plaute abondent également en calembours et jeux de mots. Un célèbre exemple se situe dans le Miles Gloriosus : « Quod ego, Sceledre, scelus ex te audio [89]? », « Quelles paroles scélérates oses-tu dire, Sceledrus ? ». C'est souvent là une façon d'accentuer le propos ou tout simplement de rehausser la virtuosité artistique de la langue. La plupart du temps, cependant, il s'agit de plaisanteries présentées sous la forme d'énigmes avec, pour schéma obligé, l'ouverture traditionnelle : « Toc, toc, qui est là ? ». En ce sens, Plaute n'est pas sans annoncer Shakespeare qui, lui aussi, se plait à créer de nouveaux vocables et à changer le sens de ceux qui existent[90].
+Versification[modifier | modifier le code]
+L'art du vers, essentiellement le choix de la métrique, contribue puissamment à la qualité d'une œuvre poétique, fût-elle écrite pour la scène, car elle imprime son rythme à l'ensemble. Il n'existe pas encore de consensus sur la question de savoir si Plaute se contente de suivre ses modèles grecs quitte à les adapter au goût de la société au sein de laquelle il vit. À vrai dire, il utilise une grande variété de mètres, quoique favorisant le septanarius trochaïque[N 1]. Plaute privilégie-t-il un système fondé sur l'accent tonique, lictus ? Certes, il fait usage de mots iambiques qui, bien que courants en latin, s'insèrent difficilement dans ce schéma, les rejetant le plus souvent, il est vrai, en fin de phrase. G. B. Conte, lui, va à l'encontre de cette hypothèse et note qu'il donne plutôt la priorité au cantica[N 2], au détriment, donc, de la métrique grecque[42],[43].
+Postérité[modifier | modifier le code]
+Bien qu'on l'ait souvent considéré comme un écrivain grossier, Plaute est resté tout au long de l'histoire du théâtre une source d'inspiration pour les dramaturges qui ont emprunté, parfois jusqu'à la traduction littérale, à ses personnages, ses intrigues, son humour ou autres éléments comiques. Son apparente familiarité avec l'absurdité de l'humanité, le comique et le tragique qui en découlent, ont inspiré de célèbres auteurs dont Shakespeare, surtout dans ses comédies de jeunesse, et Molière qui lui a aussi été très largement tributaire.
+Antiquité[modifier | modifier le code]
+Le poète Horace, dans son Art Poétique, dénigre Plaute[91] : « Mais, direz-vous, vos pères goûtaient le rythme de Plaute et ses plaisanteries. -- Sans doute, mais leur admiration était excessive et un peu sotte ; vous et moi, nous savons faire la distinction entre une locution grossière et une expression gracieuse, et reconnaître au doigt et à l'oreille un son régulier. »
+Quintilien, dans son Institution oratoire, englobe dans une réprobation générale la comédie romaine[92] : « La comédie est notre endroit le plus faible, quoique Varron dise que, au jugement d'Élius Stilon, « les Muses auraient parlé le langage de Plaute, si elles eussent voulu parler latin » ; malgré l'admiration des anciens pour Cécilius; enfin, malgré la réputation de Térence, dont les pièces furent attribuées à Scipion l'Africain[93]. »
+Un écrivain anonyme de l'Antiquité tardive semble lui s'être inspiré de l'Aulularia pour sa pièce, Querolus, que certains voient même comme une sorte de suite à celle de Plaute[94].
+Moyen Âge et Haute Renaissance[modifier | modifier le code]
+Plaute était apparemment lu au IXe siècle. Sa forme était cependant trop complexe pour être parfaitement comprise et, comme cela a été indiqué par le Terentius et delusor (en), il était impossible de déterminer à l'époque s'il écrivait en prose ou en vers, « An sit prosaicum nescio an metricum »[95].
+W. B. Sedgwick a publié une version de l’Amphitruo[96], pièce restée célèbre notamment au Moyen Âge et également jouée à la Renaissance, première, aussi, des pièces de Plaute à avoir été traduite en anglais. De plus, d'après quelques sources éparses, le Miles Goliosus a bénéficié de sa première édition universitaire à Oxford. Le magnum jornale du Queen's College contient en effet une référence à une comoedia Plauti vers 1522 ou 1523, date d'édition également mentionnée dans les poèmes de Leland[97]. L'édition suivante connue a été celle de la Westminster School en 1564[98]. D'autres documents évoquent plusieurs interprétations des Menaechmi, données dès 1527 dans la demeure du cardinal Wolsey par les élèves de la St. Paul's School[99].
+Plaute, Shakespeare et al[modifier | modifier le code]
+Portrait de Shakespeare.
+Shakespeare et la comédie élisabéthaine[modifier | modifier le code]
+Shakespeare s'est inspiré de Plaute tout comme Plaute de ses modèles grecs. C. L. Barber explique que « Shakespeare nourrit la vie élisabéthaine du blé de la farce romaine, vie encore dopée par une créativité débordante, bien différente de la manière rude, étroite et parfois pesante de Plaute »[100].
+Les ressemblances les plus marquées se trouvent entre les Menaechmi et la Comédie des erreurs. Selon Marples, Shakespeare, en permanence influencé par l'œuvre de son prédécesseur classique, a puisé dans « l'intrigue, les incidents et les personnages »[101]. Cependant, H. A. Watt, lui, relève non sans insistance que « les deux pièces ont été écrites dans des conditions entièrement différentes et pour des publics aux antipodes l'un de l'autre »[102]
+En effet, les différences qui les séparent sont elles aussi manifestes. Dans les Ménechmes, Plaute n'implique qu'une seule paire de frères jumeaux, alors que Shakespeare en utilise deux, ce qui, selon William Connolly, « dilue l'impact des situations »[102]. Il se peut que Shakespeare se soit inspiré de l'Amphitruo, où apparaissent de concert deux paires de jumeaux, les maîtres et les esclaves, ce qui expliquerait cette disparité.
+Cet emprunt direct est caractéristique de la comédie élisabéthaine. Sur la fusion des techniques élisabéthaines et plautiniennes, T. W. Bladwin écrit : « [...] Errors (« La Comédie des erreurs ») n'a pas l'unité miniature des Ménechmes, caractéristique de la structure classique de la comédie »[103]. Il ajoute que la structure de la pièce de Shakespeare couvre un champ bien plus vaste que ne le fait celle de Plaute, destiné à un public dont l'esprit ne reste pas confiné à son petit domaine domestique, mais se tourne vers le vaste monde pour sonder le rôle qu'il s'apprête à y jouer.
+De plus, le public de Shakespeare est chrétien. À la fin de la Comédie des erreurs, le monde de la pièce retrouve la normalité quand un abbé fait irruption pour calmer les querelles ; les Ménechmes, elles, « manquent presque entièrement de dimension surnaturelle »[104]. Il est à noter que chez Plaute, un personnage n'attribue jamais une situation déplaisante à un acte de sorcellerie, tandis que chez Shakespeare, c'est là une démarche plutôt habituelle.
+La relation existant entre un maître et son rusé eclave est également un lieu commun de la comédie élisabéthaine. Shakespeare se sert souvent de personnages servant de repoussoirs à d'autres et il joue sur cette opposition. Cependant, à l'encontre des habitudes de Plaute, bien des pièces de la comédie élisabéthaine se terminent pas des mariages heureux. Ainsi, Dans la Comédie des erreurs, Aegeon et Aemilia sont séparés, Antipholus et Adriana sont en désaccord, Antipholus et Luciana ne se sont pas encore rencontrés, mais au dénouement, tous les couples se retrouvent et filent le parfait amour. En fait, s'il s'est servi de Plaute, Shakespeare a créé sa propre forme de comédie[102].
+Shakespeare utilise aussi un monologue introductif inspiré de Plaute, faisant intervenir un « scélérat » dans la Comédie des erreurs très comparable à celui des Ménechmes. Enseignant au lieu d'être docteur, il est doué de la même éducation et de la même rouerie[102]. Watt relève semblables procédés dans d'autres œuvres, La nuit des rois ou Le songe d'une nuit d'été par exemple, ce qui souligne l'impact exercé par le comique latin auprès du barde élisabéthain[102].
+Apparaît aussi le parasite dont le prototype est Falstaff, chevalier lâche et corpulent, création de Shakespeare mais réutilisé par la suite. J. W. Draper souligne que ce glouton partage nombre de ses traits avec l'Artotrogus du Miles gloriosus. Tous les deux sont obnubilés par la nourriture et ne se soucient que de leur prochain repas, comptant sur la flagornerie pour l'obtenir et prêts à couvrir leur protecteur d'un concert de louanges aussi creuses que fausses[105] Bien sûr, Draper note que Falstaff ressortit également au « soldat fanfaron », mais que c'est « un personnage si complexe qu'il pourrait très bien être, en effet, la résultante de types emboîtés »[105].
+Le parasite est également présent dans l'une des premières comédies anglaises, Ralph Roister Doister (en) de Nicholas Udall, généralement datée de 1567, où le personnage de Matthew Merrygreeke perpétue les deux traditions du parasite et de l'esclave plautiniens, en quête permanente de nourriture, prêt à se vautrer pour l'obtenir et s'efforçant de satisfaire aux désirs de son maître[105]. En réalité, la pièce emprunte si ouvertement au Miles gloriosus qu'elle ressemble fort à un calque[99].
+Les processions de Stonyhurst[modifier | modifier le code]
+H. W. Cole analyse l'influence de Plaute sur les Stonyhurst Pageants (« Les processions de Stonyhurst »)[N 3], pièces manuscrites composées après 1609 dans le Lancashire d'après l'Ancien Testament. Ce critique se concentre surtout sur l'une d'entre elles, le Pageant of Naaman (La procession de Naaman »). Ici, l'auteur s'écarte du style, traditionnel au Moyen Âge, du drame religieux et s'appuie beaucoup sur les pièces de Plaute, se référant indirectement à dix-huit d'entre elles, auxquelles s'ajoutent des échos de cinq des six pièces connues de Térence[99].
+Damon and Pythias d'Edwardes, de même que Silver Age de Thomas Heywood puisent elles aussi dans l'œuvre de Plaute, jusqu'à en reproduire, traduits en anglais, des passages entiers.
+Cole conclut de tout cela que ces emprunts et ces traductions témoignent de l'importance de l'auteur latin dans la comédie élisabéthaine.
+Molière[modifier | modifier le code]
+Molière n'est pas en reste qui s'inspire ouvertement, par exemple, de la faconde d'un Palaestrio dans le Miles Gloriosus pour les langues bien pendues de certains serviteurs ou servantes de L'Avare ou L'Étourdi[106] : mêmes manigances, mêmes ruses qui relancent l'élan et propulsent les pièces vers leur solution.
+Œuvres[modifier | modifier le code]
+Pièces intégralement conservées[modifier | modifier le code]
+Amphitryon (Amphitruo)
+La Comédie des ânes ou L'Asinaire (Asinaria)
+La Marmite ou L'Aululaire (Aulularia)
+Les Bacchis ou Les Bacchides (Bacchides)
+Les Captifs (Captivi)
+Casina ou les tireurs de sort (Casina uel sortientes)
+La Cassette ou La comédie de la corbeille (Cistellaria)
+Le Charançon ou Le Parasite (Curculio)
+Epidicus
+Les Ménechmes (Menaechmi)
+Le Marchand (Mercator)
+Le Soldat fanfaron (Miles gloriosus)
+Le Revenant ou La Comédie du fantôme (Mostellaria)
+Le Persan ou Le Perse (Persa)
+Le Petit Carthaginois (Poenulus)
+L'Imposteur (Pseudolus)
+Le Cordage (Rudens)
+Stichus
+Les trois écus (Trinummus)
+Le Brutal (Truculentus)
+Pièces fragmentaires[modifier | modifier le code]
+Addictus
+Ambroicus ou Agroicus (« L'homme rustique »)
+Artamon
+Baccharia
+Bis Compressa (« La femme deux fois séduite »)
+Caecus (« L'aveugle »), ou Praedones
+Calceolus (« La petite chaussure »)
+Carbonaria
+Clitellaria ou Astraba
+Colax (« Le flatteur »)
+Commorientes (« Ceux qui meurent ensemble »)
+Condalium
+Cornicularia
+Dyscolus
+Foeneratrix
+Fretum
+Frivolaria (« Les Trèfles »)
+Fugitivi (« Les Fugitifs » -- peut-être de Turpilius)
+Gastrion ou Gastron
+Hortulus (« Le Petit Jardin »)
+Kakistus (peut-être d'Accius)
+Lenones Gemini (« Les deux proxénètes »)
+Medicus (« Le médecin »)
+Nervolaria
+Parasitus Piger (« Le Parasite paresseux ») ou Lipargus
+Phagon (« Le Glouton »)
+Plociona
+Saturio
+Scytha Liturgus
+Trigemini (« Les Triplés »)
+Vidularia
+Notes et références[modifier | modifier le code]
+Notes[modifier | modifier le code]
+↑ Le septénaire trochaïque est un vers récitatif des comédies avec accompagnement de flûte. Il comporte sept trochées suivis d'une syllabe indifférente, l'avant-dernier pied étant obligatoirement pur, soit ' - v / ' - v / ' - v / ' - x / - v / ' - v / ' - v / ' x.
+↑ Les mutatis modis cantica (« chants avec rythmes différents ») sont des « cantica » polymétriques probablement chantés avec un accompagnement de flûte. Ils présentent soit des vers longs, comme les septénaires et octonaires de rythme iambique ou trochaïque, soit des vers brefs utilisant le iambe, le trochée, le crétique, le bacchée ou l'anapeste.
+↑ Un pageant est en général une procession ou un défilé en costume d'apparat ; Stonyhurst est une ville du Lancashire située dans le nord de l'Angleterre, pas très loin de Manchester.
+Références[modifier | modifier le code]
+(en) Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « Plautus » (voir la liste des auteurs).
+↑ a et b Zehnacker et Fredouille 2005, p. 30.
+↑ Howatson et Chilvers 1996, p. ?
+↑ (fr) (la) « Aulu-Gelle, Nuits Attiques, livre III, chapitre III, 14 » (consulté le 22 janvier 2012).
+↑ M. Marples 1938, p. 1.
+↑ S. O'Bryhim 2001, p. 149.
+↑ (fr) (la) « Cicéron, Brutus, chapitre XV, 60 » (consulté le 10 février 2012)
+↑ (fr) (la) « Aulu-Gelle, Nuits Attiques, livre I, chapitre XXIV, 3 » (consulté le 23 janvier 2012).
+↑ Zehnacker et Fredouille 2005, p. 29.
+↑ Zehnacker et Fredouille 2005, p. 30-31
+↑ (fr) (la) « Aulu-Gelle, Nuits Attiques, livre III, chapitre III, 3 » (consulté le 10 février 2012).
+↑ « Plautus: Fragmenta » (consulté le 24 juin 2012).
+↑ Plaute 1989, p. XXIV
+↑ Plaute 1989, p. XXXII.
+↑ (la) « Plaute, Miles gloriosus, vers 1082 » (consulté le 11 février 2012).
+↑ (la) « Plaute, Curculio, vers 167 » (consulté le 11 février 2012).
+↑ (la) « Plautus, Pseudolus, vers 328 » (consulté le 11 février 2012).
+↑ H. M. Tolliver 1952, p. 49-57.
+↑ M. Leigh 2004, p. 24.
+↑ a et b A. F. West 1887, p. 18.
+↑ Zehnacker et Fredouille 2005, p. 31.
+↑ A. F. West 1887, p. 26.
+↑ « Plaute, Miles gloriosus, v. 219 » (consulté le 11 février 2012).
+↑ A. F. West 1887, p. 28.
+↑ P. B. Harvey 1986, p. 297-304.
+↑ M. Leigh 2004, p. 26.
+↑ E. J. Bickerman 1945, p. 138.
+↑ E. J. Bickerman 1945, p. 146.
+↑ W. M. Owens 2000, p. 388.
+↑ W. M. Owens 2000, p. 386.
+↑ W. M. Owens 2000, p. 392.
+↑ W. M. Owens 2000, p. 395-396.
+↑ D. F. Sutton 1993, p. 56.
+↑ Saïd, Trédé et Le Boulluec 2010, p. 172.
+↑ (fr) (la) « Aulu-Gelle, Nuits Attiques, livre II, chapitre XXIII » (consulté le 22 janvier 2012).
+↑ a et b D. F. Sutton 1993, p. 57.
+↑ A. Bates 1906, p. 159-165.
+↑ R. F. Lloyd 1963, p. 141.
+↑ a et b R. F. Lloyd 1963, p. 149.
+↑ R. F. Lloyd 1963, p. 150.
+↑ C. Stace 1968, p. ?.
+↑ Easterling et al. 1976, p. 12.
+↑ a et b C. Stace 1968, p. ?
+↑ a et b K. McCarthy 2000, p. ?
+↑ N. W. Slater 1985, p. 152.
+↑ E. Segal 1968, p. 122.
+↑ E. Segal 1968, p. 136.
+↑ D. F. Sutton 1993, p. 59.
+↑ J. C. B. Lowe 1992, p. 155.
+↑ W. H. Juniper 1936, p. 279.
+↑ W. H. Juniper 1936, p. 278.
+↑ J. N. Hough 1942, p. 108.
+↑ C. Stace 1968, p. 75.
+↑ C. Stace 1968, p. 73-74.
+↑ a et b P. W. Harsh 1955, p. 135-142.
+↑ Saïd, Trédé et Le Boulluec 2010, p. 481.
+↑ Traduction française de E. Sommer : (fr) « Les comédies de Plaute » (consulté le 21 juin 2012).
+↑ K. C. Ryder 1984, p. 181-189.
+↑ Z. M. Packman 1999, p. 245-258.
+↑ G. E. Duckworth 1938, p. 167-282.
+↑ a et b W. M. Seaman 1954, p. 115.
+↑ W. M. Seaman 1954, p. 116.
+↑ W. M. Seaman 1954, p. 119.
+↑ W. S. Anderson 1995, p. 171-180.
+↑ W. S. Anderson 1995, p. 178.
+↑ W. M. Owens 1994, p. 381-382.
+↑ V. Castellani 1988, p. 53-82.
+↑ W. M. Owens 1994, p. 404.
+↑ S. M. Goldberg 1998, p. 2.
+↑ Hammond, Mack et Moskalew 1997, p. 15-29.
+↑ T. J. Moore 1991, p. 343-362.
+↑ J. A. Hanson 1959, p. 13.
+↑ S. M. Goldberg 1998, p. 1-20.
+↑ T. J. Moore 1995, p. 113-123.
+↑ M. Bieber 1961, p. 168.
+↑ T. J. Moore 1991, p. 347.
+↑ V. J. Rosivach 1970, p. 445-461.
+↑ N. E. Andrews 2004, p. 445-464.
+↑ S. M. Goldberg 1990, p. 191-201.
+↑ a et b S. M. Goldberg 1998, p. 19.
+↑ S. M. Goldberg 1998, p. 16.
+↑ P. G. Brown 2002, p. 228.
+↑ A. W. Hodgman 1907, p. 42-52.
+↑ Salluste, éd. trad. Alfred Ernout, Paris, Les Belles Lettres, p. 24-27.
+↑ Hammond, Mack et Moskalew 1997, p. 39-57.
+↑ A. W. Hodgman (à compléter).
+↑ M. Sznycer 1967.
+↑ (la) « Plaute, Miles Goriosus, v. 191 » (consulté le 24 juin 2012).
+↑ (la) « Plaute, Miles Goriosus, v. 188-189 » (consulté le 24 juin 2012).
+↑ (la) « Plaute, Miles Goriosus, v. 289 » (consulté le 24 juin 2012).
+↑ M. Fontaine 2010, p. à compléter.
+↑ « Horace, Art Poétique, vers 270-274 » (consulté le 24 juin 2012).
+↑ Zehnacker et Fredouille 2005, p. 35.
+↑ « Quintilien, Institution oratoire, livre X, 99 » (consulté le 24 juin 2012).
+↑ (de) J. Küppers, « Die spätantike Prosakomödie “Querolus sive Aulularia” und das Problem ihrer Vorlagen », Philologus, vol. 133,‎ 1989, pp. 99-101.
+↑ (es) Marcelino Menéndez y Pelayo, La Celestina: Razones para tratar de esta obra dramática en la historia de la novela española, Buenos Aires, Espasa-Calpe, 1947 (lire en ligne)
+↑ (en) « L'Amphitruo publié par Sedgwick » (consulté le 22 juin 2012).
+↑ (en) Adages%20d'Érasme « Les poèmes de Leland et Plaute » (consulté le 2 juin 2012), p. 329, note 24.
+↑ L. Bradner 1955, p. 400-403.
+↑ a, b et c H. W. Cole 1923, p. 393-399.
+↑ C. L. Barber 1964, p. 493.
+↑ M. Marples 1938, p. 2.
+↑ a, b, c, d et e H. A. Watt 1925, p. 401-407.
+↑ T. W. Baldwin 1965, p. 200-209.
+↑ N. Rudd 1994, p. ?.
+↑ a, b et c J. W. Draper 1938, p. ??.
+↑ S. V. Cole 1921, p. 399-409.
+Bibliographie[modifier | modifier le code]
+ : document utilisé comme source pour la rédaction de cet article.
+Textes[modifier | modifier le code]
+Consulter la liste des éditions des œuvres de cet auteur
+Plaute, Théâtre complet, 2 vol., présenté, traduit et annoté par Pierre Grimal, Paris, Gallimard, coll. Folio, 1971. (Traduction uniquement)
+Plaute (trad. Alfred Ernout), Comédies : Amphitruo - Asinaria - Aulularia, t. I, Paris, Les Belles Lettres, 1989 (ISBN 978-2-251-01141-7)
+Plaute (trad. Alfred Ernout), Comédies, t. II, Paris, Les Belles Lettres
+Plaute (trad. Alfred Ernout), Comédies, t. III, Paris, Les Belles Lettres
+Plaute (trad. Alfred Ernout), Comédies : Menaechmi - Mercator - Miles Gloriosus, t. IV, Paris, Les Belles Lettres, 1992 (ISBN 978-2-251-01144-8)
+Plaute (trad. Alfred Ernout), Comédies, t. V, Paris, Les Belles Lettres
+Plaute (trad. Alfred Ernout), Comédies, t. VI, Paris, Les Belles Lettres
+Sources antiques[modifier | modifier le code]
+Aulu-Gelle, Nuits Attiques ;
+Cicéron, Brutus ;
+Horace, L'Art Poétique ;
+Quintilien, Institution oratoire ;
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Dictionnaires et encyclopédies[modifier | modifier le code]
+Biographie universelle ancienne et moderne, Michaud
+Ouvrages généraux sur le contexte historique et le théâtre latin[modifier | modifier le code]
+(en) E. J. Bickerman, « Bellum Philippicum: Some Roman and Greek Views Concerning the Causes of the Second Macedonian War », Classical Philology, vol. 40, no 3,‎ 1945 ;
+(en) M. Bieber, The History of the Greek and Roman Theater, Princeton, 1961 ;
+(en) P. G. Brown, « Actors and Actor – Managers at Rome in the Time of Plautus and Terence », dans Greek and Roman Actors: Aspects of an Ancient Profession, Cambridge, Cambridge University Press, 2002 ;
+(en) T. A. Dorey et D. R. Dudley, Roman Drama, New York, 1965 ;
+Jean-Claude Dumont et Marie-Hélène François-Garelli, Le Théâtre à Rome, Paris, Le Livre de poche, 1998, 250 p. (ISBN 9782253905493) ;
+Florence Dupont, L'Acteur-roi : Le théâtre à Rome, Paris, Les Belles Lettres, coll. « Realia », 1985, 462 p. (ISBN 9782251338118) ;
+Pierre Grimal, Le Siècle des Scipions, Rome et l'hellénisme au temps des guerres puniques, Paris, Aubier, 2005, 2e éd. ;
+(en) J. Halporn, « Roman Comedy and Greek Models », dans Theater and Society in the Classical World, Ann Arbor, University of Michigan Press, 1993, p. 191-213 ;
+(en) J. A. Hanson, Roman Theater – Temples, Princeton, 1959 ;
+(en) M. Leigh, Comedy and the Rise of Rome, New York, Oxford University Press, 2004, 256 p. (ISBN 9780199266760) ;
+(en) S. O'Bryhim, Greek and Roman Comedy : Translations and Interpretations of Four Representative Plays, University of Texas Press, 2001, 332 p. (ISBN 978-0292760554) ;
+(en) David Wiles, The masks of Menander. Signs and meaning in greek and roman performance, Cambridge University Press, 1991, 287 p. (ISBN 9780521401357)
+Monographies[modifier | modifier le code]
+(en) [[Gian Biagio Conte (en)|G. B. Conte]], Latin Literature: A History, Baltimore, Johns Hopkins University Press, 1994, 2e éd., 896 p. (ISBN 9780801846380, lire en ligne), p. 49-64 ;
+(en) M. C. Howatson et I. Chilvers, The Concise Oxford Companion to Classical Literature, Oxford, Oxford University Press, 1996 ;
+Suzanne Saïd, Monique Trédé et Alain Le Boulluec, Histoire de la littérature grecque, Paris, Presses universitaires de France, coll. « Quadrige », 2010 (ISBN 9782130582540) ;
+Hubert Zehnacker et Jean-Claude Fredouille, Littérature latine, Presses Universitaires de France, coll. « Quadrige », 2005 (ISBN 9782130552116).
+Études spécifiquement consacrées au théâtre de Plaute[modifier | modifier le code]
+(en) W. S. Anderson, Barbarian Play: Plautus’ Roman Comedy, Toronto, University of Toronto Press, 1993, 194 p. (ISBN 9780802028150) ;
+(en) W. S. Anderson, « The Roman Transformation of Greek Domestic Comedy », The Classical World, vol. 88, no 3,‎ 1995, p. 171-180 ;
+(en) N. E. Andrews, « Tragic Re-Presentation and the Semantics of Space in Plautus », Mnemosyne (en), vol. 57, no 4,‎ 2004, p. 445–464 ;
+(en) W. G. Arnott, « A Note on the Parallels between Menander’s ‘Dyskolos’ and Plautus’ ‘Aulularia’ », Phoenix, vol. 18, no 3,‎ 1964, p. 232–237 ;
+(en) T. W. Baldwin, The Compositional Genetics of The Comedy of Errors, Urbana, University of Illinois Press, 1965, 200–209 p. ;
+(en) C. L. Barber, « Shakespearian Comedy in the Comedy of Errors », College English, vol. 25, no 7,‎ 1964, p. 493–497
+(en) A. Bates, « Writings and career of Plautus », dans The Drama: Its History, Literature and Influence on Civilization, vol. 2, London, Historical Publishing Company, 1906 (lire en ligne), p. 159-165 ;
+(en) G. L. Beede, « Proverbial Expressions in Plautus », The Classical Journal, vol. 44, no 6,‎ 1949, p. 357–362 ;
+(en) L. Bradner, « The First Cambridge Production of Miles Gloriosus », Modern Language Notes, vol. 70, no 6,‎ 1955, p. 400–403 ;
+(en) V. Castellani, « Plautus Versus Komoidia: Popular Farce at Rome », dans Farce, Cambridge & New York, 1988, p. 53-82 ;
+(en) D. Christenson, Plautus' Amphitruo, Cambridge, Cambridge University Press, 2000 (ISBN 9780521459976) ;
+(en) D. Christenson, « Grotesque Realism in Plautus' Amphitruo », Classical Journal, vol. 96, no 3,‎ 2001, p. 243–60 ;
+(en) H. W. Cole, « The Influence of Plautus and Terence Upon the Stonyhurst Pageants », Modern Language Notes, vol. 38,‎ 1923, p. 393–399 ;
+(en) S. V. Cole, « Plautus Up-to-Date », The Classical Journal, vol. 16, no 7,‎ 1921, p. 399–409 (lire en ligne) (à vérifier) ;
+(en) R. G. G. Coleman, « Poetic Diction, Poetic Discourse and the Poetic Register », dans Aspects of the Language of Latin Poetry, Oxford & New York, 1999, p. 21-96 ;
+(en) C. Connors, « Monkey Business: Imitation, Authenticity, and Identity from Pithekoussai to Plautus », Classical Antiquity, vol. 23, no 2,‎ 2004, p. 179–207 ;
+(en) Eric Csapo, « Plautine Elements in the Running-Slave Entrance Monologues? », The Classical Quarterly, vol. 39, no 1,‎ 1989, p. 148-163 (lire en ligne) ;
+(en) J. W. Draper, « Falstaff and the Plautine Parasite », The Classical Journal, vol. 33,‎ 1938, p. 390–401 ;
+(en) G. E. Duckworth, « The Unnamed Characters in the Plays of Plautus », Classical Philology, vol. 33, no 2,‎ 1938, p. 167–282 ;
+(en) E. C. Echols, « The Quid-Greeting in Plautus and Terence », The Classical Journal, vol. 45, no 4,‎ 1950, p. 188–190
+(en) P. E. Easterling, Philip Hardie, Richard Hunter et E. J. Kenney, Plautus' Casina, Cambridge University Press, 1976 (ISBN 0521290228, lire en ligne)
+(en) E. Fantham, « The Curculio of Plautus: An Illustration of Plautine Methods in Adaptation », The Classical Quarterly, vol. 15, no 1,‎ 1965, p. 84–100 (lire en ligne) ;
+Marie Faure-Ribeau, Pour la beauté du jeu : La construction des personnages dans la comédie romaine (Plaute, Térence), Les Belles Lettres, coll. « Études anciennes », 2012, 447 p. (ISBN 978-2251328898) ;
+(en) M. Fontaine, Funny Words in Plautine Comedy, Oxford, Oxford University Press, 2010 (ISBN 9780195341447, lire en ligne) ;
+(en) Benjamin W. Fortson, Language and rhythm in Plautus: synchronic and diachronic studies, Walter de Gruyter, 2008 (ISBN 9783110205930, lire en ligne) ;
+(de) E. Fränkel, Plautinisches im Plautus, Berlin, Weidmannsche Buchhandlung, 1922 ;
+(en) S. M. Goldberg, « Plautus on the Palatine », The Journal of Roman Studies, vol. 88,‎ 1998, p. 1–20 (à vérifier) ;
+(en) S. M. Goldberg, « Act to Action in Plautus’ Bacchides », Classical Philology, vol. 85, no 3,‎ 1990, p. 191–201 (à vérifier) ;
+(en) M. Hammond, A.M. Mack et W. Moskalew, « Introduction: The Stage and Production », dans Miles Gloriosus, Londres & Cambridge, 1997, p. 15-29 ;
+(en) P. W. Harsh, « Position of Archaic Forms in the Verse of Plautus », Classical Philology, vol. 35, no 2,‎ 1940, p. 126–142 ;
+(en) P. W. Harsh, « The Intriguing Slave in Greek Comedy », Transactions and Proceedings of the American Philological Association, vol. 86,‎ 1955, p. 135 –142 ;
+(en) P. B. Harvey, « Historical Topicality in Plautus », Classical World, vol. 79,‎ 1986, p. 297-304 ;
+(en) A. W. Hodgman, « Noun Declension in Plautus », The Classical Review, vol. 16, no 6,‎ 1902, p. 294–305 (lire en ligne) ;
+(en) A. W. Hodgman, « Adjectival Forms in Plautus », The Classical Review, vol. 16, no 9,‎ 1902, p. 446–452 (lire en ligne) ;
+(en) A. W. Hodgman, « Adverbial Forms in Plautus », The Classical Review, vol. 17, no 6,‎ 1903, p. 296–303 (lire en ligne) ;
+(en) A. W. Hodgman, « Verb Forms in Plautus », The Classical Quarterly, vol. 1, no 1,‎ 1907, p. 42–52 (lire en ligne) ;
+(en) A. W. Hodgman, « Verb Forms in Plautus (continued) », The Classical Quarterly, vol. 1, no 2,‎ 1907, p. 97–134 (lire en ligne) ;
+(en) M. E. Hoffmann, « Conversation Openings in the Comedies of Plautus », dans Latin Linguistics and Linguistic Theory: Proceedings of the First International Colloquium on Latin Linguistics, Amsterdam, 1981, p. 217-226
+(en) J. N. Hough, « The Development of Plautus’ Art », Classical Philology, vol. 30, no 1,‎ 1935, p. 43–57 ;
+(en) J. N. Hough, « The Reverse Comic Foil in Plautus », The American Philological Association, vol. 73,‎ 1942, p. 108–118 ;
+(en) H. D. Jocelyn, « Gods, Cult, and Cultic Language in Plautus’ Epidicus », dans Studien zu Plautus’ Epidicus, Tübingen, 2001, p. 261-296 ;
+(en) W. H. Juniper, « Character Portrayals in Plautus », The Classical Journal, vol. 31,‎ 1936, p. 276–288 ;
+(en) A. N. Krauss, Untaming the Shrew: Marriage, Morality and Plautine Comedy, 2004 (lire en ligne)
+(en) S. Lilja, Terms of abuse in Roman comedy, Helsinki, Suomalainen Tiedeakatemia, 1965 ;
+(en) W. M. Lindsay, The Syntax of Plautus, London, 2002 ;
+(en) R. F. Lloyd, « Two Prologues: Menander and Plautus », The American Journal of Philology, vol. 84, no 2,‎ 1963, p. 146–161 ;
+(en) J. C. B. Lowe, « The Virgo Callida of Plautus, Persa », The Classical Quarterly, vol. 39, no 2,‎ 1989, p. 390–399 ;
+(en) J. C. B. Lowe, « Aspects of Plautus’ Originality in the Asinaria », The Classical Quarterly, vol. 42,‎ 1992, p. 152–175 ;
+(en) M. Marples, « Plautus », Greece & Rome, vol. 8, no 22,‎ 1938, p. 1-7 ;
+(en) K. McCarthy, Slaves, Masters, and the Art of Authority in Plautine Comedy, Princeton, 2000 ;
+(en) T. J. Moore, Theater of Plautus: Playing to the Audience, Austin, 1998 ;
+(en) T. J. Moore, « Palliata Togata: Plautus, Curculio 462-86 », The American Journal of Philology, vol. 112, no 3,‎ 1991, p. 343–362 ;
+(en) T. J. Moore, « Seats and Social Status in the Plautine Theater », The Classical Journal, vol. 90, no 2,‎ 1995, p. 113–123 ;
+(en) M. A. Nyman, « Where Does Latin Sum Come From? », Language, vol. 53, no 1,‎ 1977, p. 39–60 ;
+(en) W. M. Owens, « The Third Deception in Bacchides: Fides and Plautus' Originality », The American Journal of Philology, vol. 115,‎ 1994, p. 381–407 ;
+(en) W. M. Owens, « Plautus’ ‘Stichus’ and the Political Crisis of 200 B.C. », The American Journal of Philology, vol. 121, no 3,‎ 2000 ;
+(en) Z. M. Packman, « Feminine Role Designations in the Comedies of Plautus », The American Journal of Philology, vol. 120, no 2,‎ 1999, p. 245-258 ;
+(en) H. W. Prescott, « Criteria of Originality in Plautus », Transactions and Proceedings of the American Philological Association, vol. 63,‎ 1932, p. 103–125 ;
+(en) V. J. Rosivach, « Plautine Stage Settings », Transactions and Proceedings of the American Philological Association, vol. 101,‎ 1970, p. 445–461 ;
+(en) N. Rudd, The Classical Tradition in Operation, Toronto, 1994, 32–60 p. ;
+(en) K. C. Ryder, « The ‘Senex Amator’ in Plautus », Greece & Rome, vol. 31, no 2,‎ 1984, p. 181–189 ;
+(en) W. M. Seaman, « The Understanding of Greek by Plautus’ Audience », Classical Journal, vol. 50,‎ 1954, p. 115–119 ;
+(en) W. B. Sedgwick, « The History of a Latin Comedy », The Review of English Studies, vol. 3, no 11,‎ 1927, p. 346-349 ;
+(en) E. Segal, Oxford Readings on Menander, Plautus, and Terence, Oxford University Press, 2002, 127-137 p. ;
+(en) E. Segal, Roman Laughter : The Comedy of Plautus, Cambridge, Harvard University Press, 1968 ;
+(en) N. W. Slater, Plautus In Performance : The Theatre of the Mind, Princeton, Princeton University Press, 1985, 190 p. (ISBN 9780691066240) ;
+(de) P. P. Spranger, Historische Untersuchungen zu den Sklavenfiguren des Plautus und Terenz, Stuttgart, Franz Steiner Verlag Wiesbaden GmbH, 1983 ;
+(en) C. Stace, « The Slaves of Plautus », Greece & Rome, vol. 15,‎ 1968, p. 64–77 (lire en ligne) ;
+(en) D. F. Sutton, Ancient Comedy: The War of the Generations, New York, 1993 ;
+M. Sznycer, Les passages puniques en transcription latine dans le Poenulus de Plaute, Paris, Klincksieck, 1967 ;
+(en) H. M. Tolliver, « Plautus and the State Gods of Rome », The Classical Journal, vol. 48, no 2,‎ 1952 (lire en ligne).
+(en) A. F. West, « On a Patriotic Passage in the Miles Gloriosus of Plautus », The American Journal of Philology, vol. 8, no 1,‎ 1887, p. 15-33 (lire en ligne) ;
+(en) S. Waite, « Word Position in Plautus: Interplay of Verse Ictus and Word Stress », dans The Computer in Literary and Linguistic Studies, Cardiff, 1976 (ISBN 9780708305904), p. 92-105
+(en) H. A. Watt, « Plautus and Shakespeare: Further Comments on Menaechmi and The Comedy of Errors », The Classical Journal, vol. 20,‎ 1925, p. 401–407 (lire en ligne) ;
+(en) D. Wiles, « Recent Critical Approaches to Plautus », dans Farce, Cambridge, 1988, p. 261-272 ;
+(en) R. Wymer, « Shakespeare and the Mystery Cycles », English Literary Renaissance, vol. 34, no 3,‎ 2004, p. 265–285.
+Annexes[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Le Forum en folie
+histoire du théâtre
+Ménandre
+Molière
+Deuxième guerre punique
+Shakespeare
+Térence
+Théâtre latin
+Latin archaïque
+Homo homini lupus est
+Liens externes[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Plaute, sur Wikisource
+Plaute, sur Wikiquote
+Voir sur Wikisource en latin :
+Scriptor:Titus Maccius Plautus
+Notices d'autorité : Fichier d'autorité international virtuel • International Standard Name Identifier • Bibliothèque nationale de France (données) • Système universitaire de documentation • Bibliothèque du Congrès • Gemeinsame Normdatei • Service bibliothécaire national • WorldCat
+Œuvres de Plautus sur le projet Gutenberg
+« Matériel biographique sur Plaute. »
+« Œuvres de Plaute. »
+« Comment déjouer la tragédie ? Marques tragiques et travestissements comiques dans l’Amphitryon de Plaute et les Acharniens »
+v · m
+Comédie latine
+Influences
+Auteurs
+Aristophane · Alexis · Antiphane · Ménandre · Philémon · Diphile · Rhinthon
+théâtre grec antique · comédie grecque antique · jeu de Phlyax · contaminatio (it) · aemulatio (de) · imitatio (en) · atellane · fescennins
+Comédies complètes
+Plaute
+Amphitruo · Asinaria · Aulularia · Bacchides · Captivi · Casina · Cistellaria · Curculio · Epidicus · Menaechmi · Mercator · Miles Gloriosus · Mostellaria · Persa · Poenulus · Pseudolus · Rudens · Stichus · Trinummus · Truculentus · Vidularia
+Térence
+Andria · L'Eunuque · Hecyra · Heautontimoroumenos · Phormion · Les Adelphes
+Anonyme
+Querolus
+Fragments
+Livius Andronicus · Naevius · Ennius · Caecilius Statius · Pacuvius · Lucius Accius · Attilius · Luscius Lanuvinus · Quintus Trabea · Sextus Turpilius · Lucius Afranius · Titus Quinctius Atta · Quintus Novius (en)
+Représentation
+théâtre romain antique · ludi · ludi scaenici · ludi Megalenses
+Métrique
+sénaire iambique · cantica · septénaire trochaïque
+Voir aussi
+fabula palliata · fabula cothurnata · fabula prætexta · fabula togata · théâtre romain antique · Les Deipnosophistes · Volcatius Sedigitus
+v · m
+Pièces de Plaute
+Amphitruo • Asinaria • Aulularia • Bacchides • Captivi • Casina • Cistellaria • Curculio • Epidicus • Menaechmi • Mercator • Miles Gloriosus • Mostellaria • Persa • Poenulus • Pseudolus • Rudens • Stichus • Trinummus • Truculentus • Vidularia
+Portail de la littérature
+Portail du théâtre
+Portail de la Rome antique
+Ce document provient de « https://fr.wikipedia.org/w/index.php?title=Plaute&oldid=133872208 ».
+Catégories : Naissance en OmbrieÉcrivain romain du IIIe siècle av. J.-C.Écrivain romain du IIe siècle av. J.-C.Écrivain latin archaïqueDramaturge de la Rome antiqueActeur romainDate de naissance incertaine (IIIe siècle av. J.-C.)Décès en 184 av. J.-C.Personnage cité dans la Divine Comédie (Purgatoire)MononymeCatégories cachées : Article à référence nécessaireArticle contenant un appel à traduction en anglaisArticle avec une section vide ou incomplèteArticle de Wikipédia avec notice d'autoritéArticle contenant un appel à traduction en italienArticle contenant un appel à traduction en allemandPortail:Littérature/Articles liésPortail:Théâtre/Articles liésPortail:Rome antique/Articles liésPortail:Italie/Articles liésPortail:Monde antique/Articles liésPortail:Histoire/Articles liésWikipédia:Article biographiquePortail:Biographie/Articles liés/Culture et arts
+Menu de navigation
+Outils personnels
+Non connectéDiscussionContributionsCréer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+AccueilPortails thématiquesArticle au hasardContact
+Contribuer
+Débuter sur WikipédiaAideCommunautéModifications récentesFaire un don
+Outils
+Pages liéesSuivi des pages liéesImporter un fichierPages spécialesAdresse permanenteInformation sur la pageÉlément WikidataCiter cette page
+Imprimer / exporter
+Créer un livreTélécharger comme PDFVersion imprimable
+Dans d’autres projets
+Wikimédia CommonsWikiquoteWikisource
+Dans d’autres langues
+AragonésالعربيةAsturianuБеларускаяБългарскиBrezhonegBosanskiCatalàČeštinaCymraegDanskDeutschΕλληνικάEnglishEsperantoEspañolEestiEuskaraفارسیSuomiGalegoעבריתHrvatskiMagyarՀայերենIdoÍslenskaItaliano日本語ქართულიҚазақшаភាសាខ្មែរ한국어КыргызчаLatinaLatviešuМакедонскиNederlandsNorsk bokmålPolskiPortuguêsRomânăРусскийSarduSicilianuScotsSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSvenskaTürkçeУкраїнська中文
+Modifier les liens
+Dernière modification de cette page le 21 janvier 2017, à 23:58.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Déclaration sur les témoins (cookies)
+Version mobile

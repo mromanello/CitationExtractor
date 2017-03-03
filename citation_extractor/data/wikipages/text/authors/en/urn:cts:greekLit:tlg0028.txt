@@ -1,0 +1,136 @@
+Antiphon (orator) - Wikipedia
+Antiphon (orator)
+From Wikipedia, the free encyclopedia
+Jump to:					navigation, 					search
+This article is about the Greek orator. For the musical term, see antiphon. For the 2013 album by Midlake, see Antiphon (album).
+Antiphon the Sophist (/ˈæntəˌfɒn, -ən/; Greek: Ἀντιφῶν) lived in Athens probably in the last two decades of the 5th century BC. There is an ongoing controversy over whether he is one and the same with Antiphon of the Athenian deme Rhamnus in Attica (480–411 BC), the earliest of the ten Attic orators. For the purposes of this article, they will be treated as distinct persons.
+Scholars noted that Iamblichus used many citations from an important early author on education and political philosophy, originally identified in 1889 as Antiphon, but officially referred to as Anonymous Iamblichi.[1]
+Contents
+1 Antiphon of Rhamnus
+2 Antiphon the Sophist
+2.1 "Nature" requires liberty
+3 Mathematics
+4 List of extant speeches
+5 Notes
+6 References
+7 Further reading
+8 External links
+Antiphon of Rhamnus[edit]
+Antiphon of Rhamnus was a statesman who took up rhetoric as a profession. He was active in political affairs in Athens, and, as a zealous supporter of the oligarchical party, was largely responsible for the establishment of the Four Hundred in 411 (see Theramenes); upon restoration of the democracy shortly afterwards, he was accused of treason and condemned to death. Thucydides famously characterized Antiphon's skills, influence, and reputation:
+...He who concerted the whole affair [of the 411 coup], and prepared the way for the catastrophe, and who had given the greatest thought to the matter, was Antiphon, one of the best men of his day in Athens; who, with a head to contrive measures and a tongue to recommend them, did not willingly come forward in the assembly or upon any public scene, being ill-looked upon by the multitude owing to his reputation for cleverness; and who yet was the one man best able to aid in the courts, or before the assembly, the suitors who required his opinion. Indeed, when he was afterwards himself tried for his life on the charge of having been concerned in setting up this very government, when the Four Hundred were overthrown and hardly dealt with by the commons, he made what would seem to be the best defence of any known up to my time.
+— Thucydides, Histories 8.68[2]
+Antiphon may be regarded as the founder of political oratory, but he never addressed the people himself except on the occasion of his trial. Fragments of his speech then, delivered in defense of his policy (called Περὶ μεταστάσεως) have been edited by J. Nicole (1907) from an Egyptian papyrus.
+His chief business was that of a logographer (λογογράφος), that is a professional speech-writer. He wrote for those who felt incompetent to conduct their own cases—all disputants were obliged to do so—without expert assistance. Fifteen of Antiphon's speeches are extant: twelve are mere school exercises on fictitious cases, divided into tetralogies, each comprising two speeches for prosecution and defence—accusation, defence, reply, counter-reply; three refer to actual legal processes. All deal with cases of homicide (φονικαὶ δίκαι). Antiphon is also said to have composed a Τέχνη or art of Rhetoric.
+Antiphon the Sophist[edit]
+A third century AD papyrus attributed to the first book of On Truth (P.Oxy. XI 1364 fr. 1, cols. v-vii)
+A treatise known as On Truth, of which only fragments survive, is attributed to Antiphon the Sophist. It is of great value to political theory, as it appears to be a precursor to natural rights theory. The views expressed in it suggest its author could not be the same person as Antiphon of Rhamnus, since it was interpreted as affirming strong egalitarian and libertarian principles appropriate to a democracy — but antithetical to the oligarchical views of one who was instrumental in the anti-democratic coup of 411 like Antiphon of Rhamnus.[3] It's been argued that that interpretation has become obsolete in light of a new fragment of text from On Truth discovered in 1984. New evidence supposedly rules out an egalitarian interpretation of the text.[4]
+The following passages may confirm the strongly libertarian commitments of Antiphon the Sophist.
+"Nature" requires liberty[edit]
+On Truth juxtaposes the repressive nature of convention and law (νόμος) with "nature" (φύσις), especially human nature. Nature is envisaged as requiring spontaneity and freedom, in contrast to the often gratuitous restrictions imposed by institutions:
+Most of the things which are legally just are [none the less] ... inimical to nature. By law it has been laid down for the eyes what they should see and what they should not see; for the ears what they should hear and they should not hear; for the tongue what it should speak, and what it should not speak; for the hands what they should do and what they should not do ... and for the mind what it should desire, and what it should not desire.[5]
+Repression means pain, whereas it is nature (human nature) to shun pain.
+Elsewhere, Antiphon wrote: "Life is like a brief vigil, and the duration of life like a single day, as it were, in which having lifted our eyes to the light we give place to other who succeed us."[6] Mario Untersteiner comments: "If death follows according to nature, why torment its opposite, life, which is equally according to nature? By appealing to this tragic law of existence, Antiphon, speaking with the voice of humanity, wishes to shake off everything that can do violence to the individuality of the person."[7] It is reported that Antiphon set up a booth in a public agora where he offered consolation to the bereaved.[8]
+In his championship of the natural liberty and equality of all men, Antiphon anticipates the natural rights doctrine of Locke, and the Declaration of Independence.
+Mathematics[edit]
+Further information: Bryson of Heraclea, Pi, and squaring the circle
+Antiphon was also a capable mathematician. Antiphon, alongside his companion Bryson of Heraclea, was the first to give an upper and lower bound for the value of pi by inscribing and then circumscribing a polygon around a circle and finally proceeding to calculate the polygons' areas. This method was applied to the problem of squaring the circle.
+List of extant speeches[edit]
+This is a list of extant speeches by Antiphon:
+Against the Stepmother for Poisoning (Φαρμακείας κατὰ τῆς μητρυιᾶς)
+The First Tetralogy: Anonymous Prosecution For Murder (Κατηγορία φόνου ἀπαράσημος)
+The Second Tetralogy: Prosecution for Accidental Homicide (Κατηγορία φόνου ἀκουσίου)
+The Third Tetralogy: Prosecution for Murder Of One Who Pleads Self-Defense (Κατηγορία φόνου κατὰ τοῦ λέγοντος ἀμύνασθαι)
+On the Murder of Herodes (Περὶ τοῦ Ἡρῷδου φόνου)
+On the Choreutes (Περὶ τοῦ χορευτοῦ)
+Notes[edit]
+^ Johnson and Hutchinson (10 April 2015). "Introduction to Iamblichus' Exhortation to Philosophy (upcoming talk)". 
+^ trans. by Richard Crawley, revised by Robert Strassler, 1996
+^ W. K C. Guthrie, The Sophists, Cambridge: Cambridge University Press, 1971; see also Mario Untersteiner who cites Oxyrhynchus Papyrus #1364 fragment 2 in his The Sophists, tr. Kathleen Freeman (Oxford: Basil Blackwell, 1954), p. 252
+^ pp. 351, 356, Gerard Pendrick, 2002, Antiphon the Sophist: The Fragments, Cambridge U. Press; also p. 98 n. 41 of Richard Winton's "Herodotus, Thucydides, and the sophists" in C.Rowe & M.Schofield, The Cambridge Companion to Greek and Roman Political Thought, Cambridge 2005.
+^ Antiphon, On Truth, Oxyrhynchus Papyri, xi, no. 1364, fragment 1, quoted in Donald Kagan (ed.) Sources in Greek Political Thought from Homer to Polybius "Sources in Western Political Thought, A. Hacker, gen. ed.; New York: Free Press, 2965
+^ Fr. 50 DK, quoted at Stobaeus 4.34.63.
+^ Mario Untersteiner, The Sophists, tr. Kathleen Freeman (Oxford: Basil Blackwell, 1954) Cambridge: Cambridge University Press, 1971, p. 247
+^ Michael Gagarin, The Oxford Encyclopedia of Ancient Greece and Rome, Volume 1 (2010), p. 281.
+References[edit]
+Edition, with commentary, by Eduard Maetzner (1838)
+Text by Friedrich Blass (1881)
+R. C. Jebb, Attic Orators
+Ps.-Plutarch, Vitae X. Oratorum or Lives of the Ten Orators
+Philostratus, Vit. Sophistarum, i. 15
+Frank Lovis Van Cleef, Index Antiphonteus, Ithaca, N.Y. (1895)
+"Antiphon" at Swansea University's website.
+Michael Gagarin, Antiphon the Athenian, 2002, U. of Texas Press. Argues for the identification of Antiphon the Sophist and Antiphon of Rhamnus.
+Gerard Pendrick, Antiphon the Sophist: The Fragments, 2002, Cambridge U. Press. Argues that Antiphon the Sophist and Antiphon of Rhamnus are two, and provides a new edition of and commentary on the fragments attributed to the Sophist.
+David Hoffman, "Antiphon the Athenian: Oratory, Law and Justice in the Age of the Sophists/Antiphon the Sophist: The Fragments", Rhetoric Society Quarterly, summer 2006. A review of Gagarin 2002 and Pendrick 2002.
+Jordi Redondo, 'Antifont. Discursos I-II', Barcelona, Fundació Bernat Metge, 2003-2004 (ISBN 84-7225-822-X et 84-7225-840-8). Argues for the identification of both authors.
+Further reading[edit]
+Kerferd, G.B. (1970). "Antiphon". Dictionary of Scientific Biography. 1. New York: Charles Scribner's Sons. pp. 170–172. ISBN 0-684-10114-9. 
+External links[edit]
+Antiphon's Apology, the Papyrus Fragments, French 1907 edition from the Internet Archive
+Xenophon's Memorabilia 1.6.1-.15 presents a dialogue between Antiphon the Sophist and Socrates.
+Speeches by Antiphon of Rhamnus on Perseus
+A bio on Antiphon of Rhamnus by Richard C. Jebb, The Attic Orators from Antiphon to Isaeos, 1876 on Perseus
+O'Connor, John J.; Robertson, Edmund F., "Antiphon (orator)", MacTutor History of Mathematics archive, University of St Andrews .
+Antiphon Orations
+The Stanford Encyclopedia of Philosophy article on "Callicles and Thrasymachus"[1] discusses the views of Antiphon the Sophist.
+ This article incorporates text from a publication now in the public domain: Chisholm, Hugh, ed. (1911). "Antiphon". Encyclopædia Britannica (11th ed.). Cambridge University Press. 
+v
+t
+e
+Attic orators
+Antiphon
+Andocides
+Lysias
+Isocrates
+Isaeus
+Aeschines
+Lycurgus
+Demosthenes
+Hypereides
+Dinarchus
+Authority control
+WorldCat Identities
+VIAF: 87640863
+LCCN: n82101412
+ISNI: 0000 0001 0922 3671
+GND: 118503448
+SUDOC: 028941497
+BNF: cb120672974 (data)
+NDL: 00511738
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Antiphon_(orator)&oldid=731539753"
+Categories: Ancient Greek rhetoriciansAncient AtheniansAncient Greek mathematicians5th-century BC Greek people5th-century BC writers411 BC deathsSophistsAttic orators480 BC birthsHidden categories: Articles containing Ancient Greek-language textWikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource referenceWikipedia articles incorporating text from the 1911 Encyclopædia BritannicaWikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with BNF identifiersPages using ISBN magic links
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+Article
+Talk
+Variants
+Views
+Read
+Edit
+View history
+More
+Search
+Navigation
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+Interaction
+HelpAbout WikipediaCommunity portalRecent changesContact page
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page
+Print/export
+Create a bookDownload as PDFPrintable version
+Languages
+БългарскиCatalàČeštinaDeutschEestiΕλληνικάEspañolFrançaisGalegoHrvatskiÍslenskaItalianoКыргызчаLatinaLietuviųMagyarNederlands日本語PolskiPortuguêsRomânăРусскийSlovenčinaSrpskohrvatski / српскохрватскиSuomiSvenskaУкраїнська中文
+Edit links
+This page was last modified on 26 July 2016, at 00:33.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
