@@ -1,0 +1,17 @@
+Analisi	NOM
+delle	PRE:det
+coordinate	NOM
+di	PRE
+genere	NOM
+:	PON
+edizione	NOM
+critica	ADJ
+,	PON
+commento	NOM
+e	CON
+traduzione	NOM
+dei	PRE:det
+37	NUM
+frammenti	NOM
+melici	ADJ
+

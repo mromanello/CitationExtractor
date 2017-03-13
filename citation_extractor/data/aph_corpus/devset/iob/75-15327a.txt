@@ -1,0 +1,17 @@
+Ricordo	NOM
+dello	PRE:det
+studioso	NOM
+(	PON
+1907-2002	NUM
+)	PON
+e	CON
+riepilogo	NOM
+dei	PRE:det
+suoi	PRO:poss
+contributi	NOM
+alla	PRE:det
+storia	NOM
+del	PRE:det
+diritto	NOM
+romano	ADJ
+

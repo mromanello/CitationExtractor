@@ -1,0 +1,19 @@
+Appendice	NP
+:	:
+«	)
+Dressed	JJ
+stones	NNS
+from	IN
+the	DT
+Adzijska	NP
+Vodenica	NP
+site	NN
+at	IN
+Lissae	NP
+and	CC
+the	DT
+identification	NN
+of	IN
+Pistiros	NP
+»	(
+

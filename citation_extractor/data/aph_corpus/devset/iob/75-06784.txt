@@ -1,0 +1,37 @@
+À	PRP
+travers	NOM
+une	DET:ART
+série	NOM
+d'	PRP
+exemples	NOM
+littéraires	ADJ
+et	KON
+artistiques	ADJ
+de	PRP
+diverses	ADJ
+provenances	NOM
+,	PUN
+étude	NOM
+de	PRP
+la	DET:ART
+fonction	NOM
+symbolique	ADJ
+des	PRP:det
+acteurs	NOM
+,	PUN
+qui	PRO:REL
+s'	PRO:PER
+affirme	VER:pres
+au	PRP:det
+4e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+avec	PRP
+leur	DET:POS
+professionnalisation	NOM
+

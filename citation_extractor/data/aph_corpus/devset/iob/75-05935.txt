@@ -1,0 +1,23 @@
+La	DET:def
+tradizione	NOM
+apocalittica	ADJ
+«	PON
+danielico-storica	ADJ
+»	PON
+,	PON
+ideologicamente	ADJ
+contrapposta	VER:pper
+a	PRE
+quella	PRO:demo
+«	PON
+enochica	ADJ
+»	PON
+,	PON
+affonda	VER:pres
+le	DET:def
+sue	PRO:poss
+radici	NOM
+nel	PRE:det
+profetismo	NOM
+classico	ADJ
+

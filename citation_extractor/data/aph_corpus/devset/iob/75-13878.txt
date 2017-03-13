@@ -1,0 +1,19 @@
+A	PRE
+proposito	NOM
+delle	PRE:det
+origini	NOM
+storiche	ADJ
+dell'	PRE:det
+etica	NOM
+medica	ADJ
+,	PON
+tra	PRE
+deontologia	NOM
+e	CON
+etica	NOM
+clinica	ADJ
+,	PON
+fino	CON
+all'	PRE:det
+Illuminismo	NOM
+

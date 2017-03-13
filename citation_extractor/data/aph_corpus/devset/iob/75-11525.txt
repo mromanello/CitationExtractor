@@ -1,0 +1,9 @@
+Sobre	PREP
+el	ART
+uso	NC
+gastronómico	ADJ
+y	CC
+simbólico	ADJ
+del	PDEL
+salmonete	NC
+

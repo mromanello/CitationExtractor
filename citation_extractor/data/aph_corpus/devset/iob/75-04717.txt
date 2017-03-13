@@ -1,0 +1,13 @@
+Sur	PRP
+les	DET:ART
+découvertes	NOM
+scientifiques	ADJ
+et	KON
+techniques	ADJ
+et	KON
+les	DET:ART
+explorations	NOM
+géographiques	ADJ
+de	PRP
+Pythéas	NOM
+

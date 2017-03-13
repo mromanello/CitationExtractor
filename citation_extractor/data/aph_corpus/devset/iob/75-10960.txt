@@ -1,0 +1,19 @@
+Conclusion	NOM
+(	PUN
+centrée	VER:pper
+sur	PRP
+la	DET:ART
+relation	NOM
+entre	PRP
+production	NOM
+et	KON
+commercialisation	NOM
+)	PUN
+à	PRP
+la	DET:ART
+journée	NOM
+d'	PRP
+études	NOM
+notée	VER:pper
+75-10977	NUM
+

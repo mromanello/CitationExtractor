@@ -1,0 +1,14 @@
+Atteggiamento	NOM
+di	PRE
+Seneca	NPR
+e	CON
+del	PRE:det
+filosofo	NOM
+stoico	ADJ
+in	PRE
+generale	ADJ
+nei	PRE:det
+confronti	NOM
+delle	PRE:det
+passioni	NOM
+

@@ -1,0 +1,492 @@
+Tacitus - Wikipedia
+Tacitus
+From Wikipedia, the free encyclopedia
+Jump to:					navigation, 					search
+For other uses, see Tacitus (disambiguation).
+Tacitus
+Modern statue representing Tacitus
+outside the Austrian Parliament Building
+Born
+c. 56 AD
+Died
+c. 120 AD (aged c. 64)
+Occupation
+Senator, consul, governor, historian
+Genre
+History, Silver Age of Latin
+Subject
+History, biography, oratory
+Publius (or Gaius) Cornelius Tacitus (/ˈtæsᵻtəs/; Classical Latin: [ˈtakɪtʊs]; c. AD 56 – c. AD 120) was a senator and an historian of the Roman Empire. The surviving portions of his two major works—the Annals and the Histories—examine the reigns of the Roman emperors Tiberius, Claudius, Nero, and those who reigned in the Year of the Four Emperors (AD 69). These two works span the history of the Roman Empire from the death of Augustus, in AD 14, to the years of the First Jewish–Roman War, in AD 70. There are substantial lacunae in the surviving texts, including a gap in the Annals that is four books long.
+Tacitus' other writings discuss oratory (in dialogue format, see Dialogus de oratoribus), Germania (in De origine et situ Germanorum), and the life of his father-in-law, Agricola, the Roman general responsible for much of the Roman conquest of Britain, mainly focusing on his campaign in Britannia (De vita et moribus Iulii Agricolae).
+Tacitus is considered to be one of the greatest Roman historians.[1][2] He lived in what has been called the Silver Age of Latin literature, and is known for the brevity and compactness of his Latin prose, as well as for his penetrating insights into the psychology of power politics.
+Contents
+1 Life
+1.1 Family and early life
+1.2 Public life, marriage, and literary career
+2 Works
+2.1 History of the Roman Empire from the death of Augustus
+2.1.1 The Histories
+2.1.2 The Annals
+2.2 Monographs
+2.2.1 Germania
+2.2.2 Agricola (De vita et moribus Iulii Agricolae)
+2.2.3 Dialogus
+3 Sources
+4 Literary style
+4.1 Approach to history
+4.2 Prose style
+5 Studies and reception history
+6 Recognition and Influence
+7 See also
+8 Notes
+9 References
+10 External links
+Life[edit]
+Details about his personal life are scarce. What little is known comes from scattered hints throughout his work, the letters of his friend and admirer Pliny the Younger, and an inscription found at Mylasa in Caria.[3]
+Tacitus was born in 56 or 57 to an equestrian family;[4] like many Latin authors of both the Golden and Silver Ages, he was from the provinces, probably northern Italy or Gallia Narbonensis. The exact place and date of his birth are not known, and his praenomen (first name) is also unknown; in the letters of Sidonius Apollinaris his name is Gaius, but in the major surviving manuscript of his work his name is given as Publius.[5] One scholar's suggestion of Sextus has gained no approval.[6]
+Family and early life[edit]
+Tacitus was probably born in Gallia Narbonensis.
+Most of the older aristocratic families failed to survive the proscriptions which took place at the end of the Republic, and Tacitus makes it clear that he owed his rank to the Flavian emperors (Hist. 1.1). The claim that he was descended from a freedman is derived from a speech in his writings which asserts that many senators and knights were descended from freedmen (Ann. 13.27), but this is generally disputed.[7]
+His father may have been the Cornelius Tacitus who served as procurator of Belgica and Germania; Pliny the Elder mentions that Cornelius had a son who aged rapidly (N.H. 7.76), which implies an early death. There is no mention of Tacitus suffering such a condition, but it is possible that this refers to a brother—if Cornelius was indeed his father.[8] The friendship between the younger Pliny and Tacitus leads some scholars to conclude that they were both the offspring of wealthy provincial families.[9]
+The province of his birth remains unknown, though various conjectures suggest Gallia Belgica, Gallia Narbonensis, or northern Italy.[10] His marriage to the daughter of Narbonensian senator Gnaeus Julius Agricola implies that he came from Gallia Narbonensis. Tacitus' dedication to Fabius Iustus in the Dialogus may indicate a connection with Spain, and his friendship with Pliny suggests origins in northern Italy.[11] No evidence exists, however, that Pliny's friends from northern Italy knew Tacitus, nor do Pliny's letters hint that the two men had a common background.[12] Pliny Book 9, Letter 23 reports that, when he was asked if he was Italian or provincial, he gave an unclear answer, and so was asked if he was Tacitus or Pliny. Since Pliny was from Italy, some infer that Tacitus was from the provinces, probably Gallia Narbonensis.[13]
+His ancestry, his skill in oratory, and his sympathetic depiction of barbarians who resisted Roman rule (e.g., Ann. 2.9) have led some to suggest that he was a Celt. This belief stems from the fact that the Celts who had occupied Gaul prior to the Roman invasion were famous for their skill in oratory, and had been subjugated by Rome.[14]
+Public life, marriage, and literary career[edit]
+As a young man, Tacitus studied rhetoric in Rome to prepare for a career in law and politics; like Pliny, he may have studied under Quintilian[15] (c. AD 35 – c. 100). In 77 or 78, he married Julia Agricola, daughter of the famous general Agricola.[16] Little is known of their domestic life, save that Tacitus loved hunting and the outdoors.[17] He started his career (probably the latus clavus, mark of the senator)[18] under Vespasian[19] (reigned 69-79), but entered political life as a quaestor in 81 or 82 under Titus.[20] He advanced steadily through the cursus honorum, becoming praetor in 88 and a quindecimvir, a member of the priestly college in charge of the Sibylline Books and the Secular games.[21] He gained acclaim as a lawyer and as an orator; his skill in public speaking ironically counterpoints his cognomen Tacitus ("silent").
+He served in the provinces from ca. 89 to ca. 93, either in command of a legion or in a civilian post.[22] He and his property survived Domitian's reign of terror (81–96), but the experience left him jaded and perhaps ashamed at his own complicity, giving him the hatred of tyranny evident in his works.[23] The Agricola, chs. 44–45, is illustrative:
+Agricola was spared those later years during which Domitian, leaving now no interval or breathing space of time, but, as it were, with one continuous blow, drained the life-blood of the Commonwealth... It was not long before our hands dragged Helvidius to prison, before we gazed on the dying looks of Manricus and Rusticus, before we were steeped in Senecio's innocent blood. Even Nero turned his eyes away, and did not gaze upon the atrocities which he ordered; with Domitian it was the chief part of our miseries to see and to be seen, to know that our sighs were being recorded...
+From his seat in the Senate, he became suffect consul in 97 during the reign of Nerva, being the first of his family to do so. During his tenure, he reached the height of his fame as an orator when he delivered the funeral oration for the famous veteran soldier Lucius Verginius Rufus.[24]
+In the following year, he wrote and published the Agricola and Germania, foreshadowing the literary endeavors that would occupy him until his death.[25] Afterwards, he absented himself from public life, but returned during Trajan's reign (98-117). In 100, he and his friend Pliny the Younger prosecuted Marius Priscus (proconsul of Africa) for corruption. Priscus was found guilty and sent into exile; Pliny wrote a few days later that Tacitus had spoken "with all the majesty which characterizes his usual style of oratory".[26]
+A lengthy absence from politics and law followed while he wrote the Histories and the Annals. In 112 or 113, he held the highest civilian governorship, that of the Roman province of Asia in Western Anatolia, recorded in the inscription found at Mylasa mentioned above. A passage in the Annals fixes 116 as the terminus post quem of his death, which may have been as late as 125 or even 130. It seems that he survived both Pliny (died ca. 113) and Trajan (died 117).[27] It remains unknown whether Tacitus had any children. The Augustan History reports that Emperor Marcus Claudius Tacitus (reigned 275-276) claimed him for an ancestor and provided for the preservation of his works, but this story may be fraudulent, like much of the Augustan History.[28]
+Works[edit]
+See also: List of persons mentioned in the works of Tacitus
+The title page of Justus Lipsius's 1598 edition of the complete works of Tacitus, bearing the stamps of the Bibliotheca Comunale in Empoli, Italy.
+Five works ascribed to Tacitus have survived (albeit with lacunae), the most substantial of which are the Annals and the Histories. This canon (with approximate dates) consists of:
+(98) De vita Iulii Agricolae (The Life of Agricola)
+(98) De origine et situ Germanorum (Germania)
+(102) Dialogus de oratoribus (Dialogue on Oratory)
+(105) Historiae (Histories)
+(117) Ab excessu divi Augusti (Annals)
+History of the Roman Empire from the death of Augustus[edit]
+The Annals and the Histories, published separately, were meant to form a single edition of thirty books.[29] Although Tacitus wrote the Histories before the Annals, the events in the Annals precede the Histories; together they form a continuous narrative from the death of Augustus (14) to the death of Domitian (96). Though most has been lost, what remains is an invaluable record of the era. The first half of the Annals survived in a single copy of a manuscript from Corvey Abbey, and the second half from a single copy of a manuscript from Monte Cassino, and so it is remarkable that they survived at all.
+The Histories[edit]
+Main article: Histories (Tacitus)
+In an early chapter of the Agricola, Tacitus asserts that he wishes to speak about the years of Domitian, Nerva, and Trajan. In the Histories the scope has changed; Tacitus says that he will deal with the age of Nerva and Trajan at a later time. Instead, he will cover the period from the civil wars of the Year of Four Emperors and end with the despotism of the Flavians. Only the first four books and twenty-six chapters of the fifth book survive, covering the year 69 and the first part of 70. The work is believed to have continued up to the death of Domitian on September 18, 96. The fifth book contains—as a prelude to the account of Titus's suppression of the Great Jewish Revolt—a short ethnographic survey of the ancient Jews, and it is an invaluable record of Roman attitudes towards them.
+The Annals[edit]
+Main article: Annals (Tacitus)
+The Annals, Tacitus' final work, covers the period from the death of Augustus Caesar in 14 AD. He wrote at least sixteen books, but books 7–10 and parts of books 5, 6, 11 and 16 are missing. Book 6 ends with the death of Tiberius and books 7 to 12 presumably covered the reigns of Caligula and Claudius. The remaining books cover the reign of Nero, perhaps until his death in June 68 or until the end of that year to connect with the Histories. The second half of book 16 is missing, ending with the events of 66. We do not know whether Tacitus completed the work; he died before he could complete his planned histories of Nerva and Trajan, and no record survives of the work on Augustus Caesar and the beginnings of the Roman Empire, with which he had planned to finish his work. The Annals is one of the earliest secular historical records to mention Christ, which Tacitus does in connection with Nero's persecution of the Christians.
+Annals 15.44, in the second Medicean manuscript
+Monographs[edit]
+Tacitus wrote three works with a more limited scope. Agricola, a biography of his father-in-law Gnaeus Julius Agricola; the Germania, a monograph on the lands and tribes of barbarian Germania; and the Dialogus, a dialogue on the art of rhetoric.
+Germania[edit]
+Main article: Germania (book)
+The Germania (Latin title: De Origine et situ Germanorum) is an ethnographic work on the Germanic tribes outside the Roman Empire. The Germania fits within a classical ethnographic tradition which includes authors such as Herodotus and Julius Caesar. The book begins (chapters 1–27) with a description of the lands, laws, and customs of the various tribes. Later chapters focus on descriptions of particular tribes, beginning with those who lived closest to the Roman empire, and ending with a description of those who lived on the shores of the Baltic Sea, such as the Fenni. Tacitus had written a similar, albeit shorter, piece in his Agricola (chapters 10–13).
+Agricola (De vita et moribus Iulii Agricolae)[edit]
+Main article: Agricola (book)
+The Agricola (written ca. 98) recounts the life of Gnaeus Julius Agricola, an eminent Roman general and Tacitus' father-in-law; it also covers, briefly, the geography and ethnography of ancient Britain. As in the Germania, Tacitus favorably contrasts the liberty of the native Britons with the tyranny and corruption of the Empire; the book also contains eloquent polemics against the greed of Rome, one of which, that Tacitus claims is from a speech by Calgacus, ends by asserting that Auferre trucidare rapere falsis nominibus imperium, atque ubi solitudinem faciunt, pacem appellant. (To ravage, to slaughter, to usurp under false titles, they call empire; and where they make a desert, they call it peace. —Oxford Revised Translation).
+Dialogus[edit]
+The style of the Dialogus follows Cicero's models for Latin rhetoric.
+Main article: Dialogus de oratoribus
+There is uncertainty about when Tacitus wrote Dialogus de oratoribus. Many characteristics set it apart from the other works of Tacitus, so that its authenticity has at various times been questioned. It is likely to be early work, indebted to the author's rhetorical training, since its style imitates that of the foremost Roman orator Cicero. It lacks (for example) the incongruities that are typical of his mature historical works. The Dialogus is dedicated to Fabius Iustus, a consul in AD 102.
+Sources[edit]
+Tacitus makes use of the official sources of the Roman state: the acta senatus (the minutes of the session of the Senate) and the acta diurna populi Romani (a collection of the acts of the government and news of the court and capital). He also read collections of emperors' speeches, such as Tiberius and Claudius. He is generally seen as a scrupulous historian who paid careful attention to his sources. The minor inaccuracies in the Annals may be due to Tacitus dying before he had finished (and therefore proof-read) his work.
+Tacitus cites some of his sources directly, among them Cluvius Rufus, Fabius Rusticus and Pliny the Elder, who had written Bella Germaniae and a historical work which was the continuation of that of Aufidius Bassus. Tacitus also uses collections of letters (epistolarium). He also took information from exitus illustrium virorum. These were a collection of books by those who were antithetical to the emperors. They tell of sacrifices by martyrs to freedom, especially the men who committed suicide. While he places no value on the Stoic theory of suicide and views suicides as ostentatious and politically useless, Tacitus often gives prominence to speeches made by those about to commit suicide, for example Cremutius Cordus' speech in Ann. IV, 34-35.
+Literary style[edit]
+Tacitus's writings are known for their dense prose that seldom glosses the facts, in contrast to the style of some of his contemporaries, such as Plutarch. When he writes about a near-defeat of the Roman army in Ann. I, 63 he does so with brevity of description rather than embellishment.
+In most of his writings he keeps to a chronological narrative order, only seldom outlining the bigger picture, leaving the reader to construct that picture for himself. Nonetheless, where he does use broad strokes, for example, in the opening paragraphs of the Annals, he uses a few condensed phrases which take the reader to the heart of the story.
+Approach to history[edit]
+Tacitus's historical style owes some debt to Sallust. His historiography offers penetrating—often pessimistic—insights into the psychology of power politics, blending straightforward descriptions of events, moral lessons, and tightly focused dramatic accounts. Tacitus's own declaration regarding his approach to history (Ann. I,1) is well known:
+"inde consilium mihi ... tradere ... sine ira et studio, quorum causas procul habeo."
+ 
+my purpose is to relate ... without either anger or zeal, motives from which I am far removed.
+There has been much scholarly discussion about Tacitus' "neutrality". Throughout his writing, he is preoccupied with the balance of power between the Senate and the Emperors, and the increasing corruption of the governing classes of Rome as they adjusted to the ever-growing wealth and power of the empire. In Tacitus's view, Senators squandered their cultural inheritance—that of free speech—to placate their (rarely benign) emperor.
+Tacitus noted the increasing dependence of the emperor on the goodwill of his armies. The Julio-Claudians eventually gave way to generals, who followed Julius Caesar (and Sulla and Pompey) in recognizing that military might could secure them the political power in Rome.(Hist.1.4)
+Welcome as the death of Nero had been in the first burst of joy, yet it had not only roused various emotions in Rome, among the Senators, the people, or the soldiery of the capital, it had also excited all the legions and their generals; for now had been divulged that secret of the empire, that emperors could be made elsewhere than at Rome.
+Tacitus's political career was largely lived out under the emperor Domitian. His experience of the tyranny, corruption, and decadence of that era (81–96) may explain the bitterness and irony of his political analysis. He draws our attention to the dangers of power without accountability, love of power untempered by principle, and the apathy and corruption engendered by the concentration of wealth generated through trade and conquest by the empire.
+Nonetheless, the image he builds of Tiberius throughout the first six books of the Annals is neither exclusively bleak nor approving: most scholars view the image of Tiberius as predominantly positive in the first books, and predominantly negative after the intrigues of Sejanus. The entrance of Tiberius in the first chapters of the first book is dominated by the hypocrisy of the new emperor and his courtiers. In the later books, some respect is evident for the cleverness of the old emperor in securing his position.
+In general, Tacitus does not fear to praise and to criticize the same person, often noting what he takes to be their more-admirable and less-admirable properties. One of Tacitus's hallmarks is refraining from conclusively taking sides for or against persons he describes, which has led some to interpret his works as both supporting and rejecting the imperial system (see Tacitean studies, Black vs. Red Tacitists).
+Prose style[edit]
+His Latin style is highly praised.[30] His style, although it has a grandeur and eloquence (thanks to Tacitus's education in rhetoric), is extremely concise, even epigrammatic—the sentences are rarely flowing or beautiful, but their point is always clear. The style has been both derided as "harsh, unpleasant, and thorny" and praised as "grave, concise, and pithily eloquent".
+A passage of Annals 1.1, where Tacitus laments the state of the historiography regarding the four last emperors of the Julio-Claudian dynasty, illustrates his style: "The histories of Tiberius, Gaius, Claudius, and Nero, while they were in power, were falsified through terror, and after their death were written under the irritation of a recent hatred,"[31] or in a word-by-word translation:
+Tiberii Gaique et Claudii ac Neronis res
+florentibus ipsis—ob metum—falsae,
+postquam occiderant—recentibus odiis—compositae
+sunt.
+ 
+Tiberius', Gaius' and Claudius' as well as Nero's acts
+while flourishing themselves—out of fear—counterfeited,
+after they came to fall—resulting from new-found hate— related
+are.
+(interpunction and linebreaks added for clarity)
+Compared to the Ciceronian period, where sentences were usually the length of a paragraph and artfully constructed with nested pairs of carefully matched sonorous phrases, this is short and to the point. But it is also very individual. Note the three different ways of saying and in the first line (-que, et, ac), and especially the matched second and third lines. They are parallel in sense but not in sound; the pairs of words ending "…-entibus …-is" are crossed over in a way that deliberately breaks the Ciceronian conventions—which one would however need to be acquainted with to see the novelty of Tacitus' style. Some readers, then and now, find this teasing of their expectations merely irritating. Others find the deliberate discord, playing against the evident parallelism of the two lines, stimulating and intriguing.[32]
+His historical works focus on the inner motivations of the characters, often with penetrating insight—though it is questionable how much of his insight is correct, and how much is convincing only because of his rhetorical skill.[33] He is at his best when exposing hypocrisy and dissimulation; for example, he follows a narrative recounting Tiberius' refusal of the title pater patriae by recalling the institution of a law forbidding any "treasonous" speech or writings—and the frivolous prosecutions which resulted (Annals, 1.72). Elsewhere (Annals 4.64–66) he compares Tiberius's public distribution of fire relief to his failure to stop the perversions and abuses of justice which he had begun. Although this kind of insight has earned him praise, he has also been criticised for ignoring the larger context.
+Tacitus owes most, both in language and in method, to Sallust, and Ammianus Marcellinus is the later historian whose work most closely approaches him in style.
+Studies and reception history[edit]
+Main article: Tacitean studies
+From Pliny the Younger's 7th Letter (to Tacitus), §33:
+Auguror nec me fallit augurium, historias tuas immortales futuras.
+ 
+I predict, and my predictions do not fail me, that your histories will be immortal.
+The historian was not much read in late antiquity, and even less in the Middle Ages. Only a third of his known work has survived; we depend on a single manuscript for books I-VI of the Annales and on another one for the other surviving half (books XI-XVI) and for the five books extant of the Historiae.[34] His antipathy towards the Jews and Christians of his time—he records with unemotional contempt the sufferings of the Christians at Rome during Nero's persecution—made him unpopular in the Middle Ages. He was rediscovered, however, by the Renaissance, whose writers were impressed with his dramatic presentation of the Imperial age.
+Tacitus has been described as "the greatest historian that the Roman world produced."[35] Encyclopædia Britannica opines that he "ranks beyond dispute in the highest place among men of letters of all ages." His work has been read for its moral instruction, for its dramatic narrative, and for its prose style.[36] Outside the field of history, Tacitus' influence is most prominent in the area of political theory.[36] The political lessons taken from his work fall roughly into two camps, as identified by Giuseppe Toffanin: the "red Tacitists" use him to support republican ideals, and the "black Tacitists" read him as a lesson in Machiavellian realpolitik.[37]
+Although his work is our most reliable source for the history of his era, its factual accuracy is occasionally questioned. The Annals are based in part on secondary sources, and there are some obvious mistakes, for instance the confusion of the two daughters of Mark Antony and Octavia Minor, who are both called Antonia.[38] The Histories, however, are written from primary documents and intimate knowledge of the Flavian period, and are therefore thought to be more accurate.
+Recognition and Influence[edit]
+One of Tacitus's most recognisable lines, "solitudinem faciunt, pacem appellant" from Agricola (98) was used by one of the world's greatest debaters, Shengwu Li, in the introduction of his closing opposition case during the final of the World University Debating Championships in 2010. He translated the line as "they make it a wasteland, and call it peace", which has since become a meme within the debating community.
+See also[edit]
+National Law Enforcement Officers Memorial: inscribed on the national memorial for US law enforcement officers is the Tacitus quote: "In valor there is hope"
+The Republic (Plato): Tacitus' critique of "model state" philosophies
+Tacitus on Christ: a well-known passage from the Annals mentions the death of Christ (Ann., xv 44)
+Notes[edit]
+^ Van Voorst, Robert E (2000). Jesus Outside the New Testament: An Introduction to the Ancient Evidence. Eerdmans Publishing. pp. 39–42. ISBN 0-8028-4368-9. 
+^ Ferguson, Everett (2003). Backgrounds of Early Christianity. p. 116. ISBN 0-8028-2221-5. 
+^ OGIS 487, first brought to light in Bulletin de correspondance hellénique, 1890, pp. 621–623
+^ Since he was appointed to the quaestorship during Titus's short rule (see note below) and twenty-five was the minimum age for the position, the date of his birth can be fixed with some accuracy
+^ See Oliver, 1951, for an analysis of the manuscript from which the name Publius is taken; see also Oliver, 1977, which examines the evidence for each suggested praenomen (the well-known Gaius and Publius, the lesser-known suggestions of Sextus and Quintus) before settling on Publius as the most likely.
+^ Oliver, 1977, cites an article by Harold Mattingly in Rivista storica dell'Antichità, 2 (1972) 169–185
+^ Syme, 1958, pp. 612–613; Gordon, 1936, pp. 145–146
+^ Syme, 1958, p. 60, 613; Gordon, 1936, p. 149; Martin, 1981, p. 26
+^ Syme, 1958, p. 63
+^ Michael Grant in Introduction to Tacitus, The Annals of Imperial Rome, p. xvii; Herbert W. Benario in Introduction to Tacitus, Germany, p. 1.
+^ Syme, 1958, pp. 614–616
+^ Syme, 1958, pp. 616–619
+^ Syme, 1958, p. 619; Gordon, 1936, p. 145
+^ Gordon, 1936, pp. 150–151; Syme, 1958, pp. 621–624
+^ The fact that he studied rhetoric and law is known from the Dialogus, ch. 2; see also Martin, 1981, p. 26; Syme, 1958, pp. 114–115
+^ Agricola, 9
+^ Pliny, Letters 1.6, 9.10; Benario, 1975, pp. 15, 17; Syme, 1958, pp. 541–542
+^ Syme, 1958, p. 63; Martin, 1981, pp. 26–27
+^ (1.1)
+^ He states his debt to Titus in his Histories (1.1); since Titus ruled only briefly, these are the only years possible.
+^ In the Annals (11.11), he mentions that, as praetor, he assisted in the Secular Games held by Domitian, which can be precisely dated to 88. See Syme, 1958, p. 65; Martin, 1981, p. 27; Benario in his Introduction to Tacitus, Germany, p. 1.
+^ The Agricola (45.5) indicates that Tacitus and his wife were absent at the time of Julius Agricola's death in 93. For his occupation during this time see Syme, 1958, p. 68; Benario, 1975, p. 13; Dudley, 1968, pp. 15–16; Martin, 1981, p. 28; Mellor, 1993, p. 8
+^ For the effects on Tacitus of this experience see Dudley, 1968, p. 14; Mellor, 1993, pp. 8–9
+^ Pliny, Letters, 2.1 (English); Benario in his Introduction to Tacitus, Germany, pp. 1-2.
+^ In the Agricola (3), he announces what was probably his first major project: the Histories. See Dudley, 1968, p. 16
+^ Pliny, Letters 2.11
+^ Grant in his Introduction to Tacitus, Annals, p. xvii; Benario in his Introduction to Tacitus, Germania, p. 2. Annals, 2.61, says that the Roman Empire "now extends to the Red Sea". If by mare rubrum he means the Persian Gulf, the passage must have been written after Trajan's eastern conquests in 116, but before Hadrian abandoned the new territories in 117. But this may only indicate the date of publication for the first books of the Annals; Tacitus could have lived well into Hadrian's reign, and there is no reason to suppose that he did not. See Dudley, 1968, p. 17; Mellor, 1993, p. 9; Mendell, 1957, p. 7; Syme, 1958, p. 473; against this traditional interpretation, e.g., Goodyear, 1981, pp. 387-393.
+^ Augustan History, Tacitus X. Scholarly opinion on this story is that it is either "a confused and worthless rumor" (Mendell, 1957, p. 4) or "pure fiction" (Syme, 1958, p. 796). Sidonius Apollinaris reports (Letters, 4.14; cited in Syme, 1958, p. 796) that Polemius, a 5th-century Gallo-Roman aristocrat, is descended from Tacitus—but this claim, says Syme (ibid.), is of little value.
+^ Jerome's commentary on the Book of Zechariah (14.1, 2; quoted in Mendell, 1957, p. 228) says that Tacitus's history was extant triginta voluminibus, "in thirty volumes".
+^ Donald R. Dudley. Introduction to: The Annals of Tacitus. NY: Mentor Book, 1966. p. xiv: "No other writer of Latin prose—not even Cicero—deploys so effectively the full resources of the language."
+^ The Annals (Tacitus)/Book 1#1 Translation based on Alfred John Church and William Jackson Brodribb (1876). Wikisource, 15 April 2012.
+^ Ostler 2007, pp. 98–9 where the quoted example is used; Further quotes from the book: "…some writers—notably the perverse genius Tacitus—delighted in disappointing the expectations raised by periodic theory." – "this monkeying with hard-won stylistic norms…only makes sense if readers knew the rules that Tacitus was breaking."
+^ John Taylor. Tacitus and the Boudican Revolt. Dublin: Camvlos, 1998. p. 1 ff
+^ Grant, Michael, Latin Literature: an anthology, Penguin Classics, London, 1978 p.378f
+^ Mellor 2010, p. 3
+^ a b Mellor, 1995, p. xvii
+^ Burke, 1969, pp. 162–163
+^ Suetonius makes an occasional slip as well.
+References[edit]
+Benario, Herbert W. An Introduction to Tacitus. (Athens, GA: University of Georgia Press, 1975) ISBN 0-8203-0361-5
+Burke, P. "Tacitism" in Dorey, T.A., 1969, pp. 149–171
+Dudley, Donald R. The World of Tacitus (London: Secker and Warburg, 1968) ISBN 0-436-13900-6
+Goodyear, F.R.D. The Annals of Tacitus, vol. 2 (Cambridge: Cambridge University Press, 1981). Commentary on Annals 1.55-81 and Annals 2.
+Gordon, Mary L. "The Patria of Tacitus". The Journal of Roman Studies, Vol. 26, Part 2 (1936), pp. 145–151.
+Martin, Ronald. Tacitus (London: Batsford, 1981)
+Mellor, Ronald. Tacitus (New York / London: Routledge, 1993) ISBN 0-415-90665-2 ISBN 0415910021 ISBN 9780415910026
+Mellor, Ronald. Tacitus’ Annals (Oxford/New York: Oxford University Press, 2010) (Oxford Approaches to Classical Literature) ISBN 0198034679 ISBN 9780198034674
+Mellor, Ronald (ed.). Tacitus: The Classical Heritage (New York: Garland Publishing, 1995) ISBN 0-8153-0933-3 ISBN 9780815309338
+Mendell, Clarence. Tacitus: The Man and His Work. (New Haven: Yale University Press, 1957) ISBN 0-208-00818-7
+Oliver, Revilo P. "The First Medicean MS of Tacitus and the Titulature of Ancient Books". Transactions and Proceedings of the American Philological Association, Vol. 82 (1951), pp. 232–261.
+Oliver, Revilo P. "The Praenomen of Tacitus". The American Journal of Philology, Vol. 98, No. 1 (Spring, 1977), pp. 64–70.
+Ostler, Nicholas. Ad Infinitum: A Biography of Latin. HarperCollins in the UK, and Walker & Co. in the USA: London and New York, 2007. ISBN 978-0-00-734306-5; 2009 edition: ISBN 080271840X ISBN 9780802718402 – 2010 e-book: ISBN 0007364881 ISBN 9780007364886
+Syme, Ronald. Tacitus, Volumes 1 and 2. (Oxford: Oxford University Press, 1958) (reprinted in 1985 by the same publisher, with the ISBN 0-19-814327-3) is the definitive study of his life and works.
+Tacitus, The Annals of Imperial Rome. Translated by Michael Grant and first published in this form in 1956. (London: The Folio Society, 2006)
+Tacitus, Germany. Translated by Herbert W. Benario. (Warminster, UK: Aris & Phillips Ltd., 1999. ISBN 0-85668-716-2)
+Taylor, John W. Tacitus and the Boudican Revolt. (Dublin, Ireland: Camuvlos, 1998)
+External links[edit]
+Quotations related to Tacitus at Wikiquote
+Works written by or about Tacitus at Wikisource
+Media related to Gaius Cornelius Tacitus at Wikimedia Commons
+Works by Tacitus
+Works by Tacitus at Project Gutenberg
+Works by or about Tacitus at Internet Archive
+Works by Tacitus at LibriVox (public domain audiobooks)
+Comprehensive links to Latin text and translations in various languages at ForumRomanum
+Complete works, Latin and English translation at "The Internet Sacred Text Archive" (not listed above)
+Agricola and Annals 15.20-23, 33-45 at Dickinson College Commentaries
+v
+t
+e
+Ancient Rome topics
+Outline
+Timeline
+Epochs
+Foundation
+Kingdom (overthrow)
+Republic
+Empire
+(Pax Romana
+Principate
+Dominate)
+Western Empire (fall
+historiography of the fall)
+Eastern (Byzantine) Empire (decline
+fall)
+Constitution
+History
+Kingdom
+Republic
+Empire
+Late Empire
+Senate
+Legislative assemblies (Curiate
+Centuriate
+Tribal
+Plebeian)
+Executive magistrates
+SPQR
+Government
+Curia
+Forum
+Cursus honorum
+Collegiality
+Emperor
+Legatus
+Dux
+Officium
+Praefectus
+Vicarius
+Vigintisexviri
+Lictor
+Magister militum
+Imperator
+Princeps senatus
+Pontifex Maximus
+Augustus
+Caesar
+Tetrarch
+Optimates
+Populares
+Province
+Magistrates
+Ordinary
+Tribune
+Quaestor
+Aedile
+Praetor
+Consul
+Censor
+Promagistrate
+Governor
+Extraordinary
+Dictator
+Magister Equitum
+Decemviri
+Consular Tribune
+Triumvir
+Rex
+Interrex
+Law
+Twelve Tables
+Mos maiorum
+Citizenship
+Auctoritas
+Imperium
+Status
+Litigation
+Military
+Borders
+Establishment
+Structure
+Campaigns
+Political control
+Strategy
+Engineering
+Frontiers and fortifications (castra)
+Technology
+Army (Legion
+Infantry tactics
+Personal equipment
+Siege engines)
+Navy (fleets)
+Auxiliaries
+Decorations and punishments
+Hippika gymnasia
+Economy
+Agriculture
+Deforestation
+Commerce
+Finance
+Currency
+Republican currency
+Imperial currency
+Technology
+Abacus
+Numerals
+Civil engineering
+Military engineering
+Military technology
+Aqueducts
+Bridges
+Circus
+Concrete
+Domes
+Forum
+Metallurgy
+Roads
+Sanitation
+Thermae
+Culture
+Architecture
+Art
+Bathing
+Calendar
+Clothing
+Cosmetics
+Cuisine
+Hairstyles
+Education
+Literature
+Music
+Mythology
+Religion
+Romanization
+Sexuality
+Theatre
+Wine
+Society
+Patricians
+Plebs
+Conflict of the Orders
+Secessio plebis
+Equites
+Gens
+Tribes
+Naming conventions
+Demography
+Women
+Marriage
+Adoption
+Slavery
+Bagaudae
+Language (Latin)
+History
+Alphabet
+Versions (Old
+Classical
+Vulgar
+Late
+Medieval
+Renaissance
+New
+Contemporary
+Ecclesiastical)
+Romance languages
+Writers
+Apuleius
+Caesar
+Catullus
+Cicero
+Ennius
+Horace
+Juvenal
+Livy
+Lucan
+Lucretius
+Martial
+Ovid
+Petronius
+Phaedrus
+Plautus
+Pliny the Elder
+Pliny the Younger
+Propertius
+Quintilian
+Quintus Curtius Rufus
+Sallust
+Seneca
+Statius
+Suetonius
+Tacitus
+Terence
+Tibullus
+Marcus Terentius Varro
+Virgil
+Vitruvius
+Major cities
+Alexandria
+Antioch
+Aquileia
+Berytus
+Bononia
+Carthage
+Constantinopolis
+Eboracum
+Leptis Magna
+Londinium
+Lutetia
+Mediolanum
+Pompeii
+Ravenna
+Roma
+Smyrna
+Vindobona
+Volubilis
+Lists and other
+topics
+Wars and battles
+Generals
+Legions
+Emperors
+Geographers
+Cities and towns
+Institutions
+Laws
+Consuls
+Tribunes
+Distinguished women
+Nomina
+Gentes
+Climate
+Legacy
+Fiction / Films
+Ancient Rome Portal
+Authority control
+WorldCat Identities
+VIAF: 100226923
+LCCN: n80145600
+ISNI: 0000 0001 2103 3889
+GND: 118620452
+SUDOC: 026672316
+BNF: cb11887667z (data)
+NDL: 00458252
+NKC: jn19990008405
+ICCU: IT\ICCU\CFIV\000651
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Tacitus&oldid=767462499"
+Categories: Tacitus50s births2nd-century deaths1st-century Romans2nd-century Romans1st-century writers2nd-century writers2nd-century historiansAncient Roman rhetoriciansLatin historiansRoman-era biographersAncient Roman juristsSilver Age Latin writersSenators of the Roman EmpireSuffect consuls of Imperial RomeRoman governors of AsiaCorneliiHidden categories: Wikipedia indefinitely move-protected pagesCommons category with local link same as on WikidataArticles with Project Gutenberg linksArticles with Internet Archive linksArticles with LibriVox linksWikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with BNF identifiersWikipedia articles with SBN identifiersPages using ISBN magic links
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+Article
+Talk
+Variants
+Views
+Read
+Edit
+View history
+More
+Search
+Navigation
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+Interaction
+HelpAbout WikipediaCommunity portalRecent changesContact page
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page
+Print/export
+Create a bookDownload as PDFPrintable version
+In other projects
+Wikimedia CommonsWikiquoteWikisource
+Languages
+AfrikaansAlemannischالعربيةAragonésAsturianuAzərbaycancaবাংলাБеларускаяБългарскиBosanskiBrezhonegCatalàČeštinaCymraegDanskDeutschEestiΕλληνικάEspañolEsperantoEstremeñuEuskaraفارسیFrançaisFryskGaeilgeGalego한국어ՀայերենHrvatskiIdoBahasa IndonesiaInterlinguaÍslenskaItalianoעבריתქართულიҚазақшаKiswahiliLatinaLatviešuLietuviųMagyarMalagasyമലയാളംNederlandsNedersaksies日本語NordfriiskNorsk bokmålNorsk nynorskOccitanOʻzbekcha/ўзбекчаPolskiPortuguêsRomânăРусскийScotsShqipSicilianuSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaไทยTürkçeУкраїнськаTiếng ViệtWinarayZazaki中文
+Edit links
+This page was last modified on 26 February 2017, at 02:13.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view

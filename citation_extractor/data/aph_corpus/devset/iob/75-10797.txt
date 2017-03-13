@@ -1,0 +1,19 @@
+Confronto	NOM
+tra	PRE
+la	DET:def
+testimonianza	NOM
+di	PRE
+Prisciano	NOM
+e	CON
+quella	PRO:demo
+di	PRE
+Costantino	NOM
+Porfiriogenito	NOM
+(	PON
+De	NPR
+cerimoniis	NOM
+1	NUM
+,	PON
+92	NUM
+)	PON
+

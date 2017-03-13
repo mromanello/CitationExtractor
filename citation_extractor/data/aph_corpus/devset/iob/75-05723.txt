@@ -1,0 +1,14 @@
+La	DET:ART
+notion	NOM
+d'	PRP
+accomplissement	NOM
+dans	PRP
+les	DET:ART
+Écritures	NOM
+,	PUN
+sa	DET:POS
+fonction	NOM
+et	KON
+sa	DET:POS
+terminologie	NOM
+

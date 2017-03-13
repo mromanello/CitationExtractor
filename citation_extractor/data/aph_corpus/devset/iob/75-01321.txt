@@ -1,0 +1,36 @@
+Cicéron	NAM
+défend	VER:pres
+son	DET:POS
+client	NOM
+en	PRP
+présentant	VER:ppre
+son	DET:POS
+mode	NOM
+de	PRP
+vie	NOM
+à	PRP
+la	DET:ART
+campagne	NOM
+comme	KON
+un	DET:ART
+idéal	NOM
+économique	ADJ
+,	PUN
+politique	ADJ
+et	KON
+moral	ADJ
+.	SENT
+
+Seuls	ADJ
+les	DET:ART
+revenus	NOM
+de	PRP
+l'	DET:ART
+agriculture	NOM
+sont	VER:pres
+une	DET:ART
+source	NOM
+honorable	ADJ
+de	PRP
+richesses	NOM
+

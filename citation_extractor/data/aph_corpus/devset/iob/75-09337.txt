@@ -1,0 +1,6 @@
+Concerne	VER:pres
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+71-09913	NUM
+

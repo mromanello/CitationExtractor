@@ -1,0 +1,4 @@
+Resoconto	NOM
+dei	PRE:det
+lavori	NOM
+

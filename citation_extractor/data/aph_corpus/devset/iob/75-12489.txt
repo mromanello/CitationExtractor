@@ -1,0 +1,21 @@
+Des	PRP:det
+femmes	NOM
+ont	VER:pres
+rédigé	VER:pper
+les	DET:ART
+25	NUM
+lettres	NOM
+de	PRP
+ce	PRO:DEM
+dossier	NOM
+datant	VER:ppre
+du	PRP:det
+début	NOM
+du	PRP:det
+2e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+

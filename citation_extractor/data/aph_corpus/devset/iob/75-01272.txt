@@ -1,0 +1,21 @@
+Analisi	NOM
+metrico-stilistica	ADJ
+del	PRE:det
+poemetto	NOM
+:	PON
+l'	DET:def
+autore	NOM
+dimostra	VER:pres
+notevole	ADJ
+abilità	NOM
+tecnica	ADJ
+nel	PRE:det
+rivestire	VER:infi
+contenuti	VER:pper
+biblici	ADJ
+con	PRE
+lingua	NOM
+e	CON
+stile	NOM
+virgiliani	ADJ
+

@@ -1,0 +1,4 @@
+T1	REFAUWORK 43 48	Socr.
+T2	REFSCOPE 49 61	1 p. 116-117
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:377.764:1

@@ -1,0 +1,14 @@
+Sprachliche	ADJA
+und	KON
+inhaltliche	ADJA
+Klärung	NN
+der	ART
+umstrittenen	ADJA
+Passage	NN
+und	KON
+Vorschlag	NN
+einer	ART
+neuen	ADJA
+Übersetzung	NN
+.	$.
+

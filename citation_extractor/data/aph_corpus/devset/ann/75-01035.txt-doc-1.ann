@@ -1,0 +1,10 @@
+T1	REFAUWORK 34 44	Asclep. AP
+T2	REFSCOPE 45 52	7, 11 =
+T3	REFAUWORK 53 55	HE
+T4	REFSCOPE 56 66	28, 942ss.
+T5	AAUTHOR 202 208	Erinna
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:523.1087:7.11
+#1	AnnotatorNotes R2	urn:cts:cwkb:1103.3945:28.942
+#2	AnnotatorNotes T5	urn:cts:cwkb:859

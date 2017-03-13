@@ -1,0 +1,8 @@
+T1	REFAUWORK 57 65	Catullus
+T2	REFSCOPE 66 68	63
+T3	REFAUWORK 504 512	Catullus
+T4	REFSCOPE 513 515	63
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0472:63
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0472:63

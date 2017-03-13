@@ -1,0 +1,171 @@
+Vitruv – Wikipedia
+Vitruv
+aus Wikipedia, der freien Enzyklopädie
+Wechseln zu:					Navigation, 					Suche
+Vitruv, De architectura in der Handschrift Florenz, Biblioteca Medicea Laurenziana, Plut. 30.10, fol. 1r (15. Jahrhundert)
+Vitruv (Marcus Vitruvius Pollio) war ein römischer Architekt, Ingenieur und Architekturtheoretiker. Er lebte im 1. Jahrhundert v. Chr.
+Inhaltsverzeichnis
+1 Leben
+2 Werk
+2.1 Entstehungszeit
+2.2 Aufbau
+2.3 Inhalt
+2.3.1 Ausbildung des Architekten
+2.3.2 Prinzipien der Architektur
+2.3.3 Säulenordnungen
+2.4 Quellen
+2.5 Stil
+3 Rezeption
+4 Ausgaben
+5 Literatur
+6 Weblinks
+7 Anmerkungen
+Leben[Bearbeiten | Quelltext bearbeiten]
+Über das Leben Vitruvs gibt es nur spärliche Angaben. Weder die genauen Lebensdaten noch sein vollständiger Name sind gesichert. Einig ist man sich über das nomen Vitruvius (auch nur „Vitruv“), dagegen ist das praenomen Marcus ebenso fraglich wie das cognomen Pollio, das ausschließlich von Cetius Faventinus erwähnt wird. Die meisten biografischen Daten sind Vitruvs eigenem Werk entnommen und somit recht verlässlich.
+Er wurde wahrscheinlich um 80–70 v. Chr. als freier römischer Bürger in Kampanien geboren. Als junger Mann genoss er nach eigenen Angaben eine Architektenausbildung, die zur damaligen Zeit auch das Ingenieurwesen umfasste. Im Bürgerkrieg war er unter Gaius Iulius Caesar für den Bau von Kriegsmaschinen verantwortlich und zog mit diesem auch nach Spanien, Gallien und Britannien. Nach Caesars Ermordung im Jahr 44 v. Chr. übernahm er die gleiche Funktion auch im Heer von Kaiser Augustus und wurde um 33 v. Chr. aus dem Heeresdienst entlassen. Danach arbeitete er als Architekt und als Ingenieur am Bau des Wassernetzes in Rom, wo er ein neues System der Wasserverteilung einführte. Zu seinen Errungenschaften als Architekt gehörten der Bau der Basilika von Fanum Fortunae, dem heutigen Fano. Er beschrieb auch als Erster Töne als eine Bewegung der Luft, erkannte bereits die Wellennatur des Schalls und verglich dessen Ausbreitung mit der von Wasserwellen.
+Im Alter verlegte er sich auf das Schreiben und profitierte dabei von einer Pension, die ihm Augustus zugestanden hatte, um seine finanzielle Unabhängigkeit zu garantieren. Zwischen 33 und 22 v. Chr. entstand dann sein Werk, Zehn Bücher über Architektur (Originaltitel: De architectura libri decem). Über das Todesdatum Vitruvs gibt es keinerlei Angaben, was darauf schließen lässt, dass er zu Lebzeiten nur geringe Popularität genoss. Wahrscheinlich starb er etwa um das Jahr 15 v. Chr.
+Werk[Bearbeiten | Quelltext bearbeiten]
+Die Zehn Bücher über Architektur sind das einzige erhaltene antike Werk über Architektur und nach Vitruvs eigenen Angaben auch das erste lateinische Werk überhaupt, das eine umfassende Darstellung der Architektur sowie des damaligen Kenntnisstandes des Bauingenieurwesens zum Ziel hatte. Die Bücher sind dem Kaiser Augustus als Dank für dessen Förderung gewidmet. Sie weisen den Charakter eines Lehrbuchs mit literarischen Anklängen auf und gehören somit eher dem Sach- als dem Fachbuchgenre an. Die älteste bekannte Abschrift stammt aus dem 9. Jahrhundert. Insgesamt sind über 80 Handschriften der Zehn Bücher über Architektur erhalten. Weitere Schriften Vitruvs sind nicht bekannt.
+Entstehungszeit[Bearbeiten | Quelltext bearbeiten]
+Die einzigen Anhaltspunkte für eine Datierung liefert ebenfalls das Werk selbst. Anhand der Angaben zu einzelnen römischen Bauwerken lässt sich der Beginn der Abfassung in die Zeit ab 33 v. Chr. datieren, während die Schlussredaktion frühestens in die zwanziger Jahre fällt.
+Aufbau[Bearbeiten | Quelltext bearbeiten]
+Das Werk umfasst zehn Bücher, die jeweils ein Vorwort mit einer direkten Ansprache an den Kaiser oder einer anekdotenhaften Einführung in das Thema enthalten.
+Der Aufbau gliedert sich wie folgt:
+Buch 1: Ausbildung des Architekten und architektonische Grundbegriffe; Das Anlegen von Städten
+Buch 2: Baumaterialien
+Bücher 3 und 4: Tempelbau
+Buch 5: Öffentliche Gebäude
+Buch 6: Privatgebäude
+Buch 7: Der Innenausbau der Privatgebäude; Farbenkunde[1]
+Buch 8: Wasserversorgung
+Buch 9: Astronomie und Uhrenbau
+Buch 10: Maschinenbau
+Inhalt[Bearbeiten | Quelltext bearbeiten]
+Die Bücher 1 bis 7 widmen sich der Tätigkeit des Architekten, während die Bücher 8 bis 10 mehr dem heutigen Ingenieurwesen zuzurechnen sind. Diese Felder bildeten in der Antike eine Einheit. Im englischen Sprachraum ist noch heute der an die römischen Ursprünge angelehnte Begriff Civil Engineer für den Bauingenieur, im Gegensatz zum nicht-zivilen, d. h. militärischen Ingenieurwesen, in Verwendung. Ähnlich besteht auch in Österreich der Beruf des Ziviltechnikers. Im Deutschen haben die Begriffe Architekt und Ingenieur oft überlappende Bedeutungsfelder.
+Ausbildung des Architekten[Bearbeiten | Quelltext bearbeiten]
+Im ersten Kapitel des ersten Buches legt Vitruv offen, dass das Wissen des Architekten sich aus „fabrica“ (Handwerk) und „ratiocinatio“ (geistiger Arbeit) speise, die es ihm ermögliche, über alle anderen Handwerkskünste zu urteilen. In der Renaissance ermutigte diese Zweiteilung die Architekten dazu, sich aus den mittelalterlichen Zunft- und Bauhüttentraditionen zu lösen und die personelle Trennung von praktischer Ausführung und theoretischer Planerstellung einzuführen. Besonders deutlich trat das bei Leon Battista Alberti zutage, der nur noch Pläne und Modelle verfertigte und die Realisierung der Gebäude erfahrenen Bauleitern überließ.
+Für die theoretische Ausbildung des Architekten orientiert Vitruv sich an der Schulung in den artes liberales. Damit überträgt er Ciceros Forderung nach umfassender Bildung des Redners (Rhetorik) auf sein eigenes Fachgebiet, die ihrerseits auf die von den Griechen vertretene Notwendigkeit einer umfassenden Bildung (ενκυκλιος παιδεια, „enkyklios paideia“) zurückgeht. Der entsprechende Terminus findet sich in seinem Werk in der Übersetzung encyclios disciplina wieder.
+Vitruv rechnet zehn Wissensgebiete zu den Fachgebieten, in denen ein Architekt zum Nutzen seiner architektonischen Tätigkeit bewandert sein sollte: 1. Schriftkunde, 2. Zeichnen, 3. Geometrie, 4. Arithmetik, 5. Geschichte, 6. Philosophie, 7. Musik, 8. Medizin, 9. Jura und 10. Astronomie. Unter anderem erklärt er in seinem Werk Lehrsätze von Platon und Pythagoras und beschreibt, wie Archimedes das nach ihm benannte Prinzip fand und zu welchen Ergebnissen Eratosthenes und Archytas bei Erdvermessungen kamen.
+Nur wer in allen diesen Fächern bewandert ist, erreicht nach seiner Meinung die höchste Stufe der Architektur, den „summum templum architecturae“. Aus einer falschen Übersetzung und Interpretation dieser Aussage wurde u.a. das Primat der Architektur über die Gattungen der bildenden Kunst abgeleitet, das vom Mittelalter bis ins 20. Jahrhundert kanonische Wirkung haben sollte.
+Prinzipien der Architektur[Bearbeiten | Quelltext bearbeiten]
+Im zweiten und dritten Kapitel des ersten Buches legt Vitruv verschiedene Kategorien der Architekturtheorie fest, die als Grundbegriffe einerseits das architektonische Entwerfen bestimmen sollten, andererseits als Kriterien zur Beurteilung der fertigen Gebäude dienen sollten.
+Die drei Hauptanforderungen an die Architektur sind nach Vitruv: Firmitas (Festigkeit), Utilitas (Nützlichkeit) und Venustas (Schönheit). Dabei muss allen drei Kategorien gleichermaßen und gleichwertig Rechnung getragen werden. Darüber hinaus definiert Vitruv sechs Grundbegriffe des Faches Architektur: „ordinatio“, „dispositio“, „eurythmia“, „symmetria“, „decor“ und „distributio“.
+„Ordinatio“, „eurythmia“ und „symmetria“ beziehen sich dabei auf die Proportionierung des Gebäudes. „Ordinatio“ steht für die „Maßordnung“, also die passende maßliche Einteilung der Glieder eines Bauwerks, „eurythmia“ für das anmutige Aussehen und das maßgerechte Erscheinungsbild in der Zusammenfügung der Bauglieder und „symmetria“ für den Einklang der einzelnen, auf einen Modul bezogenen Elemente untereinander. Im ersten Kapitel des 3. Buches, in dem Vitruv die idealisierten Maßverhältnisse des menschlichen Körpers, die Zurückführung seiner Abmessungen auf geometrische Grundformen wie Quadrat und Kreis sowie die modularen Grundlagen der Zahlensysteme erläutert, werden diese Aussagen zur Proportionierung noch weiter vertieft.
+„Dispositio“ bezieht sich auf die Konzeption oder Disposition des Gebäudes und die dazu notwendigen Baupläne, die er mit Grundriss, Schnitt und perspektivischer Ansicht („ichnographia“, „orthographia“ und „scaenographia“) festlegt.
+„Decor“ bezieht sich auf das fehlerfreie Erscheinungsbild eines Gebäudes entsprechend den Regeln der anerkannten Konventionen. Als Beispiele nennt Vitruv u.a.die korrekte Zuordnung von Säulenarten (dorisch, ionisch, korinthisch) zu bestimmten Gottheiten beim Tempelbau, die Koordination von Außen und Innen, von stilistischen Teilelementen zum Gesamtstil, von Räumen zu Himmelsrichtungen etc.
+„Distributio“ meint einerseits die angemessene Verteilung der Baumaterialien und der Ausgaben für den Bau, zum anderen die dem jeweiligen Status der Bewohner angemessene Bauweise.
+Säulenordnungen[Bearbeiten | Quelltext bearbeiten]
+Auf der ausführlichen Beschreibung der dorischen, ionischen und korinthischen Säule und ihrer Proportionen und Schmuckelemente Säulenordnungen entwickelt sich in der Renaissance das System der Säulenordnungen, ein kanonisches System von Formen und Proportionen bei Säulen, für die er Proportionen aus dem Grundmaß des Moduls (der Radius an der Basis einer Säule) ableitet, nach dem die Maße aller anderen Bauteile bestimmt werden.
+Vitruv verbindet die verschiedenen Ordnungen auch mit bestimmten Bauaufgaben. So verbindet er mit der dorischen Ordnung einen wehrhaften und ernsten, mit der ionischen einen weiblichen und kultivierten und mit der korinthischen einen zarten und schlanken Ausdruck. Er verwendet allerdings den Begriff des „genus, genera“ (Art) der Säulen und nicht etwa „ordo, ordinis“ (Ordnungen), wie sie erst die Architekturtheoretiker der Renaissance formuliert haben. Wiederaufgegriffen wurde diese Methode des Moduls in der Renaissance und im 20. Jahrhundert.
+Quellen[Bearbeiten | Quelltext bearbeiten]
+Die Zehn Bücher über Architektur bieten die erste umfassende Behandlung der antiken Technik (Zeitmessung, Baumaschinen, Wasserräder, Kriegsmaschinen), Architektur und Raumgestaltung. Zuvor dürfte es lediglich knappe Kompendien sowie Abhandlungen zu Einzelfragen gegeben haben. Vitruv konnte dank seiner langjährigen Tätigkeit aus einem reichen Erfahrungsschatz schöpfen. Daneben benutzte er zahllose griechische Quellen, die uns durch einen im Vorwort des 7. Buches aufgeführten Katalog bekannt sind. In seinen Ausführungen über Tempelbau stützte er sich vor allem auf die Schriften des Architekten Hermogenes, das Kapitel über Astronomie geht wohl auf den Lehrdichter Aratos von Soloi zurück. Unter den römischen Autoren ist als Quelle vor allem Varro mit seinen Abhandlungen zur Baugeschichte zu nennen.
+Stil[Bearbeiten | Quelltext bearbeiten]
+Die Sprache gilt gemeinhin als umständlich und wenig flüssig. Kennzeichen sind altertümliche Formen, Überfülle des Ausdrucks, grammatische Eigenheiten und gelegentliche Rückgriffe auf die Umgangssprache.
+Rezeption[Bearbeiten | Quelltext bearbeiten]
+Proportionsschema der menschlichen Gestalt nach Vitruv – Skizze von Leonardo da Vinci, 1485/90, Venedig, Galleria dell’ Accademia
+Abgesehen von vereinzelten Erwähnungen, so bei Frontinus, Faventinus[2] und Plinius dem Älteren, hat Vitruvs Schaffen in der antiken Literatur nur ein geringes Echo hervorgerufen. Dies könnte an der Orientierung Vitruvs an der griechischen Architektur liegen, durch die Aussagen zu den neuen römischen Entwicklungen in Bauwesen (Amphitheater, Gewölbetechnik, Pfeiler- und Bogen-Konstruktionen) fehlten, vielleicht auch an der Sprödheit der Sprache, so dass eine größere Popularität des Autors in der Antike ausblieb. Möglicherweise wird das Werk von den Architekten der Kaiserzeit als Handbuch genutzt worden sein, doch sind die Beschreibungen des Vitruv, insbesondere in den Details, selten archäologisch nachzuweisen.
+Der Text war während der Spätantike und des Mittelalters bekannt. Es existieren ca. 80 mittelalterliche Manuskripte, darunter ein angelsächsischer Text und ein karolingischer Text um 800, den Einhard kannte. Kopien gab es unter anderem in St. Gallen, Cluny, Canterbury und Oxford.
+Größere Bekanntheit erlangte Vitruv erst in späterer Zeit, besonders in der Renaissance. Eine neue Stilrichtung der Architektur, die sich die Antike zum Vorbild nahm, griff auf Vitruv zurück, um die Grundlagen der römischen Architektur zu lernen. Nun suchte man in den Klosterbibliotheken nach den seltenen Vitruv-Handschriften, wie unter anderem der Humanist Poggio Bracciolini, der im Jahr 1416 eine Vitruv-Handschrift in der St. Galler Klosterbibliothek fand.[3] Gedruckt wurde das Buch zum ersten Mal von Giovanni Sulpicio ca. 1486 in Rom herausgegeben.
+Da Vitruvs Werk nicht illustriert war, wurde es für die Rezeption in der Renaissance nötig, neben seinen (teils schwer verständlichen) theoretischen Erläuterungen auch die antiken Werke der Architektur zu betrachten um die Anweisungen aus den 10 Büchern umsetzen zu können.
+Gleichzeitig wichen die erhaltenen antiken Gebäude vielfach von den Angaben Vitruvs ab, da sie erst nach seinem Tod entstanden waren. Dies schuf dem Architekten einen Spielraum in der Umsetzung, der es ermöglichte, über eine reine Antikenkopie hinauszugehen.
+Im Jahre 1511 erschien eine weitere Ausgabe von Fra Giovanni Giocondi da Verona in Venedig,[4] 1521 der erste (illustrierte) Druck einer italienischen Ausgabe von Cesare Cesariano.[5] Und obwohl Italienisch lange Zeit die führende Sprache der europäischen Architekturtheorie blieb, folgten rasch Übersetzungen in andere Sprachen.
+Seit dem 15. Jahrhundert beeinflusste Vitruv eine Vielzahl, wenn nicht im Grunde alle europäischen Architekturtraktate und die europäische Architekturtheorie. 1452 veröffentlichte Alberti sein „de re aedificatoria“, das in Aufbau und theoretischer Setzung an Vitruv anschloss.
+William Newton: Commentaires sur Vitruve ... London, 1780. Exemplar der Wissenschaftlichen Stadtbibliothek Mainz. Signatur: III i : 2° / 163 h
+Noch im 18. Jahrhundert griff François de Cuvilliés den Titel für sein Lehrbuch Vitruve Bavarois auf. Der englische Architekt William Newton (1735–1790), ein Nachfahre von Isaac Newton, verfasste einen französischsprachigen Kommentar zu Vitruv der im Jahr 1780 erschien; dies war die erste wissenschaftliche Auseinandersetzung mit „De architectura“. Dieser Druck ist mit zahlreichen ganzseitigen Stichen versehen, eines von nur zwei bekannten Exemplaren in deutschen Bibliotheken befindet sich in der Stadtbibliothek Mainz und ist Teil der Rarasammlung.
+Eine zentrale Passage in Vitruvs Abhandlung stellt die Theorie des wohlgeformten Menschen (homo bene figuratus) vor. Anhand geometrischer Formen werden die Proportionen des Menschen zueinander beschrieben. Dies inspirierte mehrere Künstler der Renaissance zu Skizzen, unter anderem auch Albrecht Dürer. Die berühmteste Illustration stammt von Leonardo da Vinci und erlangte unter dem Namen „Der vitruvianische Mensch“ Berühmtheit. Mit dieser Zeichnung belegte Leonardo die These Vitruvs, der aufrecht stehende Mensch füge sich sowohl in die geometrische Form des Quadrates wie des Kreises ein.
+Die Methode des Moduls, die von Vitruv grundgelegt wurde, wurde im 20. Jahrhundert als Modulor wieder aufgenommen, einem Maßsystem des Architekten Le Corbusier, das auf dem Goldenen Schnitt basiert.
+Zur eigenständigen Rezeption des Wortes „Modul“ siehe auch Modell.
+Der Mondkrater Vitruvius und der Mons Vitruvius sind nach Vitruv benannt.
+Ausgaben[Bearbeiten | Quelltext bearbeiten]
+Vitruvii De architectura libri decem. Lateinisch und deutsch. Übersetzt und mit Anmerkungen versehen von Curt Fensterbusch. WBG, Darmstadt 1964, 6. Aufl. 2008, ISBN 978-3-534-21964-3
+Fritz Krohn (Hrsg.): Vitruvii De architectura libri decem. Teubner, Leipzig 1912
+Valentin Rose, Herman Müller-Strübing (Hrsg.): Vitruvii de architectura libri decem / ad antiquissimos codices nunc primum ediderunt. Teubner, Leipzig 1867 Digitalisathttp://vorlage_digitalisat.test/1%3D~GB%3D~IA%3Dvitruviidearchi03strgoog~MDZ%3D%0A~SZ%3D~doppelseitig%3D~LT%3D~PUR%3D
+Frank Granger (Übers. u. Hrsg.): On architecture. Edited from the Harleian ms. 2767. Loeb classical library. 2 Bde. Heinemann, London 1931 Bd. 1http://vorlage_digitalisat.test/1%3D~GB%3D~IA%3Dvitruviusonarchi00vitruoft~MDZ%3D%0A~SZ%3D~doppelseitig%3D~LT%3DBd.%201~PUR%3D
+Ingrid D. Rowland (Übers.), Thomas Noble Howe: Vitruvius. Ten Books on Architecture. Cambridge University Press, Cambridge 1999, ISBN 0-521-00292-3 (englische Übersetzung)
+Franz Reber (Übers.): Vitruv. Zehn Bücher über Architektur. De Architectura libri decem. Übersetzt und durch Anmerkungen und Zeichnungen erläutert von Dr. Franz Reber. Krais & Hoffmann, Stuttgart 1865 Digitalisat (Nachdruck marixverlag, Wiesbaden 2009, ISBN 978-3-86539-212-1)
+Für Digitalisate zahlreicher anderer Ausgaben s. unten Weblinks
+Hermann Nohl: Index Vitruvianus (Leipzig 1876) archive.org (vollständiger Index der Wörter im Text Vitruvs)
+Literatur[Bearbeiten | Quelltext bearbeiten]
+Michael von Albrecht: Geschichte der römischen Literatur von Andronicus bis Boethius und ihr Fortwirken. Band 1. 3., verbesserte und erweiterte Auflage. De Gruyter, Berlin 2012, ISBN 978-3-11-026525-5, S. 740–746
+Barry Baldwin: The Date, Identity, and Career of Vitruvius. In: Latomus 49, 1990, ISSN 0023-8856, S. 425–434
+Hans-Joachim Fritz: Vitruv. Architekturtheorie und Machtpolitik in der römischen Antike. (= Oktogon 15). Lit, Münster 1995, ISBN 3-8258-2541-8
+Günther Fischer: Vitruv Neu oder Was ist Architektur? Bauwelt-Fundamente 141, Birkhäuser, Basel 2009, ISBN 978-3-7643-8805-8
+Julian Jachmann: Die Architekturbücher des Walter Hermann Ryff. Vitruvrezeption im Kontext mathematischer Wissenschaften. Reihe CISA – Cultural and Interdisciplinary Studies in Art, 1. Ibidem-Verlag, Stuttgart 2006, ISBN 3-89821-584-9
+Heiner Knell: Vitruvs Architekturtheorie. Eine Einführung. 3. aktual. Aufl. Wissenschaftliche Buchgesellschaft, Darmstadt 2008, ISBN 3-534-21959-7
+Thomas Gordon Smith: Vitruvius on Architecture, The Monacelli Press, New York 2003.
+Stefan Schuler: Vitruv im Mittelalter. Die Rezeption von „De architectura“ von der Antike bis in die frühe Neuzeit (= Pictura et poesis, Band 12). Böhlau, Köln 1999, ISBN 3-412-09998-8 (zugleich: Münster, Univ., Diss., 1996)
+Hartmut Wulfram: Literarische Vitruvrezeption in Leon Battista Albertis „De re aedificatoria“ (= Beiträge zur Altertumskunde. Band 155). Saur, München 2001, ISBN 3-598-77704-3 (zugleich: Georg-August-Universität Göttingen, Diss. 2000/2001)
+Alste Horn-Oncken: Über das Schickliche. Studien zur Geschichte der Architekturtheorie. Vandenhoeck & Ruprecht, Göttingen 1967
+Herbert Koch: Vom Nachleben des Vitruv. Verlag für Kunst und Wissenschaft, Baden-Baden 1951
+Henner von Hesberg: Vitruvius. In: Wolfram Ax (Hrsg.): Lateinische Lehrer Europas. Fünfzehn Portraits von Varro bis Erasmus von Rotterdam. Böhlau, Köln 2005, ISBN 3-412-14505-X, S. 23–43
+Erwin Emmerling, Stefanie Correll, Andreas Grüner et al. (Hrsg.): Firmitas et Splendor. Vitruv und die Techniken des Wanddekors, München 2014 (Studien aus dem Lehrstuhl für Restaurierung, Technische Universität München, Fakultät für Architektur) ISBN 978-3-935643-62-7 (bietet u. a. eine kommentierte Neuübersetzung von Buch 7)
+Hans-Ullrich Wöhler: Vitruv. In: Gerhard Banse, Siegfried Wollgast (Hrsg.): Biographien bedeutender Techniker. Volk und Wissen, Berlin 1983, S. 25–29.
+Weblinks[Bearbeiten | Quelltext bearbeiten]
+ Commons: Vitruv: De Architectura – Sammlung von Bildern, Videos und Audiodateien
+ Wikisource: Vitruv – Quellen und Volltexte
+ Wikisource: Marcus Vitruvius Pollio – Quellen und Volltexte (Latein)
+Literatur von und über Vitruv im Katalog der Deutschen Nationalbibliothek
+Werke von und über Vitruv in der Deutschen Digitalen Bibliothek
+Lateinischer Text mit englischer Übersetzung auf LacusCurtius
+Vitruv Biografie (englisch)
+Vitruvs Hodometer (Memento vom 7. September 2011 im Internet Archive) (Shockwave-Applet)
+Digitalisate von 15 Ausgaben Vitruvs (1511 - 1800) der Universitätsbibliothek Heidelberg
+Digitalisate von 73 Ausgaben Vitruvs (1497 - 1909) der Bibliothek Werner Oechslin, Einsiedeln, Schweiz
+Website Architectura (Centre d’études supérieures de la Renaissance, Tours)
+Anmerkungen[Bearbeiten | Quelltext bearbeiten]
+↑ Die in der Regel stiefmütterlich behandelten Kapitel zu Putz und Stuck in Neuübersetzung mit ausführlichem Kommentar von Felix Henke/Laura Thiemann, Vitruv über Stuck und Putz - die relevanten Passagen der ‘decem libri de architectura’, in: Firmitas et Splendor (2014), S. 13–125.
+↑ Marcus Cetius Faventinus De architectura compendiosissime tractans ...
+↑ Die angebliche „Wiederentdeckung“ Vitruvs durch Bracciolini 1414 in der Bibliothek von Montecassino ist eine Legende. Tatsächlich fand Bracciolini seine Vitruvhandschrift in der Klosterbibliothek St. Gallen 1416, aber auch dies war keine Wiederentdeckung, da Vitruv-Handschriften bereits bekannt waren. Die italienischen Frühhumanisten Petrarca und Boccaccio hatten sich bereits im 14. Jahrhundert mit Vitruv beschäftigt. Entscheidend für die verstärkte Vitruvrezeption in der Renaissance war nicht ein zufälliger Handschriftenfund, sondern das neuerwachte Interesse der Renaissance an der Nachahmung antiker Werke. Hanno-Walter Kruft, Geschichte der Architekturtheorie, München 1985, S. 42, 73.
+↑ Über diese Ausgabe
+↑ Über die Ausgabe von Cesare Cesarino
+Normdaten (Person): GND: 118627252 (PICA, AKS) | LCCN: n79043913 | VIAF: 46768430 | Wikipedia-Personensuche
+Personendaten
+NAME
+Vitruv
+ALTERNATIVNAMEN
+Vitruvius Pollio
+KURZBESCHREIBUNG
+römischer Architekt, Ingenieur und Schriftsteller
+GEBURTSDATUM
+um 65 v. Chr.
+STERBEDATUM
+um 10 v. Chr.
+Abgerufen von „https://de.wikipedia.org/w/index.php?title=Vitruv&oldid=161261564“
+Kategorien: ArchitekturtheoretikerÄsthetikerAntike (Literatur)AutorGeboren im 1. Jahrhundert v. Chr.Gestorben im 1. Jahrhundert v. Chr.Ingenieur, Erfinder, KonstrukteurKunsttheorieMannPoliorketikerArchitekt der römischen ArchitekturRömerUniversalgelehrter
+Navigationsmenü
+Meine Werkzeuge
+Nicht angemeldetDiskussionsseiteBeiträgeBenutzerkonto erstellenAnmelden
+Namensräume
+Artikel
+Diskussion
+Varianten
+Ansichten
+Lesen
+Bearbeiten
+Quelltext bearbeiten
+Versionsgeschichte
+Mehr
+Suche
+Navigation
+HauptseiteThemenportaleVon A bis ZZufälliger Artikel
+Mitmachen
+Artikel verbessernNeuen Artikel anlegenAutorenportalHilfeLetzte ÄnderungenKontaktSpenden
+Werkzeuge
+Links auf diese SeiteÄnderungen an verlinkten SeitenSpezialseitenPermanenter LinkSeiten­informationenWikidata-DatenobjektArtikel zitieren
+Drucken/­exportieren
+Buch erstellenAls PDF herunterladenDruckversion
+In anderen Projekten
+CommonsWikisource
+In anderen Sprachen
+العربيةAsturianuAzərbaycancaБеларускаяБеларуская (тарашкевіца)‎БългарскиBosanskiCatalàČeštinaDanskΕλληνικάEnglishEsperantoEspañolEestiEuskaraفارسیSuomiFrançaisGaeilgeGalegoעבריתहिन्दीHrvatskiMagyarՀայերենInterlinguaBahasa IndonesiaIdoÍslenskaItaliano日本語한국어LatinaLietuviųLatviešuMalagasyМакедонскиമലയാളംमराठीनेपाल भाषाNederlandsNorsk bokmålOccitanPolskiPortuguêsRomânăРусскийSicilianuScotsSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaСрпски / srpskiSvenskaதமிழ்ไทยTürkçeУкраїнськаTiếng ViệtWinaray中文粵語
+Links bearbeiten
+Diese Seite wurde zuletzt am 4. Januar 2017 um 10:00 Uhr geändert.
+Abrufstatistik
+Der Text ist unter der Lizenz „Creative Commons Attribution/Share Alike“ verfügbar; Informationen zu den Urhebern und zum Lizenzstatus eingebundener Mediendateien (etwa Bilder oder Videos) können im Regelfall durch Anklicken dieser abgerufen werden. Möglicherweise unterliegen die Inhalte jeweils zusätzlichen Bedingungen. Durch die Nutzung dieser Website erklären Sie sich mit den Nutzungsbedingungen und der Datenschutzrichtlinie einverstanden.
+Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.
+Datenschutz
+Über Wikipedia
+Impressum
+Entwickler
+Stellungnahme zu Cookies
+Mobile Ansicht

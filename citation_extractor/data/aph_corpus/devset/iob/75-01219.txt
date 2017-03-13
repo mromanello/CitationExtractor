@@ -1,0 +1,16 @@
+À	PRP
+propos	NOM
+de	PRP
+Catulle	NAM
+98	NUM
+,	PUN
+3-4	NUM
+;	PUN
+66	NUM
+,	PUN
+94	NUM
+;	PUN
+17	NUM
+,	PUN
+18-19	NUM
+

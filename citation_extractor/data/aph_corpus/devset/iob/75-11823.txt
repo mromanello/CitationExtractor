@@ -1,0 +1,27 @@
+Dokumentation	NN
+der	ART
+für	APPR
+Lykaonien	NN
+inschriftlich	ADJD
+belegten	ADJA
+Meter-Epiklesen	NN
+nach	APPR
+Fundorten	NN
+,	$,
+dann	ADV
+nach	APPR
+der	ART
+ersten	ADJA
+bzw	NN
+.	$.
+massgebenden	ADJA
+Publikation	NN
+,	$,
+mit	APPR
+Zitat	NN
+des	ART
+die	ART
+Muttergottheit	NN
+betreffenden	ADJA
+Passus	NN
+

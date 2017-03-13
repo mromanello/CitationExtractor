@@ -1,0 +1,17 @@
+À	PRP
+propos	NOM
+de	PRP
+l'	DET:ART
+hypothèse	NOM
+formulée	VER:pper
+par	PRP
+T.	ABR
+C.	ABR
+Skeat	NAM
+dans	PRP
+l'	DET:ART
+article	NOM
+noté	VER:pper
+50-04496	NUM
+.	SENT
+

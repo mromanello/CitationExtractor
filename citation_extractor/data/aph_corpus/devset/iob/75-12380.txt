@@ -1,0 +1,6 @@
+Concerne	VER:pres
+soprattutto	ADV
+il	DET:def
+5°	NOM
+secolo	NOM
+

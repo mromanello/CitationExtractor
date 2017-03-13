@@ -1,0 +1,21 @@
+Contient	VER:pres
+notamment	ADV
+des	PRP:det
+notices	NOM
+bibliographiques	ADJ
+concernant	VER:ppre
+les	DET:ART
+domaines	NOM
+de	PRP
+la	DET:ART
+Gnose	NOM
+,	PUN
+de	PRP
+la	DET:ART
+magie	NOM
+antique	ADJ
+et	KON
+de	PRP
+l'	DET:ART
+alchimie	NOM
+

@@ -1,9 +1,0 @@
-T1	AAUTHOR 221 226	Homer
-T2	REFAUWORK 228 231	Od.
-T3	REFSCOPE 232 243	24, 507-508
-T4	REFSCOPE 248 251	512
-R1	authorOf Arg1:T1 Arg2:T2	
-R2	Scope Arg1:T2 Arg2:T3	
-R3	Scope Arg1:T2 Arg2:T4	
-#1	AnnotatorNotes R2	http://cwkb.webfactional.com/cwkb/works/2816/24.507-24.508
-#2	AnnotatorNotes R3	http://cwkb.webfactional.com/cwkb/works/2816/24.512

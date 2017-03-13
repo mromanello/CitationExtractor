@@ -1,0 +1,22 @@
+Rassegna	NOM
+delle	PRE:det
+posizioni	NOM
+più	ADV
+significative	ADJ
+della	PRE:det
+critica	NOM
+moderna	ADJ
+sullo	PRE:det
+scritto	NOM
+,	PON
+inteso	VER:pper
+come	PRE
+esercizio	NOM
+retorico	ADJ
+o	CON
+trattato	NOM
+filosofico	ADJ
+dall'	PRE:det
+intento	NOM
+polemico	ADJ
+

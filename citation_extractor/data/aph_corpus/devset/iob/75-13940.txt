@@ -1,0 +1,7 @@
+Concerne	VER:pres
+notamment	ADV
+le	DET:ART
+site	NOM
+de	PRP
+Doura-Europos	NAM
+

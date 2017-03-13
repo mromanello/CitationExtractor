@@ -1,0 +1,7 @@
+Conférence	NOM
+prononcée	VER:pper
+le	DET:ART
+22	NUM
+février	NOM
+1992	NUM
+

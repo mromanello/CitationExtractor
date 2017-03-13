@@ -1,0 +1,22 @@
+Présentation	NOM
+de	PRP
+cinq	NUM
+nouvelles	ADJ
+épitaphes	NOM
+(	PUN
+Dépôt	NOM
+archéologique	ADJ
+de	PRP
+Narbonne	NAM
+)	PUN
+qui	PRO:REL
+confirment	VER:pres
+la	DET:ART
+fréquentation	NOM
+de	PRP
+la	DET:ART
+nécropole	NOM
+au	PRP:det
+6e	NUM
+s	NOM
+

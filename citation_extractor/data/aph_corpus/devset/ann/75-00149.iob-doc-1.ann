@@ -1,3 +1,0 @@
-T1	AWORK 277 290	« De uiduis »
-T2	AAUTHOR 137 145	Ambroise
-R1	authorOf Arg1:T2 Arg2:T1	

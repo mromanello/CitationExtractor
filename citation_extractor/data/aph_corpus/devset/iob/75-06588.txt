@@ -1,0 +1,10 @@
+Dans	PRP
+la	DET:ART
+littérature	NOM
+latine	ADJ
+,	PUN
+de	PRP
+Cicéron	NAM
+à	PRP
+Symmaque	NAM
+

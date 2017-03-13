@@ -1,0 +1,8 @@
+T1	AAUTHOR 214 222	Augustin
+T2	REFAUWORK 223 228	(Ciu.
+T3	REFSCOPE 229 239	15, 23, 1)
+T4	AAUTHOR 268 276	Euripide
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:434:15.23.1
+#1	AnnotatorNotes T4	urn:cts:greekLit:tlg0006
+#2	AnnotatorNotes T1	urn:cts:cwkb:2386

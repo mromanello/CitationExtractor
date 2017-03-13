@@ -1,0 +1,61 @@
+Die	ART
+Überprüfung	NN
+der	ART
+Nachrichten	NN
+bei	APPR
+Appian	NE
+und	KON
+anderen	PIS
+macht	VVFIN
+wahrscheinlich	ADJD
+,	$,
+dass	KOUS
+die	ART
+Piraterie	NN
+nicht	PTKNEG
+erst	ADV
+ein	ART
+Phänomen	NN
+des	ART
+3.	ADJA
+
+Jh	NE
+.	$.
+
+v.	APPR
+Chr.	NE
+,	$,
+sondern	KON
+spätestens	ADV
+am	APPRART
+Ende	NN
+des	ART
+4.	ADJA
+
+Jh	NE
+.	$.
+in	APPR
+der	ART
+Gegend	NN
+üblich	ADJD
+war	VAFIN
+.	$.
+
+Ins	APPRART
+Blickfeld	NN
+der	ART
+Römer	NE
+geriet	VVFIN
+es	PPER
+,	$,
+als	KOUS
+es	PPER
+ihre	PPOSAT
+eigenen	ADJA
+Interessen	NN
+in	APPR
+der	ART
+Adria	NE
+behinderte	VVFIN
+.	$.
+

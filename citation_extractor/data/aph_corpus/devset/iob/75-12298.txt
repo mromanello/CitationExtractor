@@ -1,0 +1,54 @@
+Zwischen	APPR
+den	ART
+Evangelien	NN
+und	KON
+der	ART
+Theologie	NN
+des	ART
+frühen	ADJA
+4.	ADJA
+
+Jh	NE
+.	$.
+
+lässt	VVFIN
+sich	PRF
+eine	ART
+Entwicklung	NN
+von	APPR
+einer	ART
+völligen	ADJA
+Ablehnung	NN
+bis	KON
+zu	APPR
+einer	ART
+reservierten	ADJA
+Akzeptanz	NN
+der	ART
+Naturwissenschaften	NN
+beobachten	VVINF
+.	$.
+
+Infolgedessen	ADV
+standen	VVFIN
+christliche	ADJA
+Theologen	NN
+als	KOKOM
+Vermittlungsträger	NN
+naturwissenschaftlichen	ADJA
+Wissens	NN
+nicht	PTKNEG
+zur	APPRART
+Verfügung	NN
+,	$,
+nur	ADV
+wenige	PIS
+haben	VAFIN
+eigene	ADJA
+Forschungen	NN
+auf	APPR
+diesem	PDAT
+Gebiet	NN
+betrieben	VVPP
+.	$.
+

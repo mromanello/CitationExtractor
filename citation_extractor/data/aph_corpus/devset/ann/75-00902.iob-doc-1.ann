@@ -1,6 +1,0 @@
-T1	REFSCOPE 9 22	11, 24, 14-17
-T2	REFAUWORK 3 8	conf.
-T3	AAUTHOR 23 31	Agostino
-R1	Scope Arg1:T2 Arg2:T1	
-#1	AnnotatorNotes R1	http://cwkb.webfactional.com/cwkb/works/8404/11.24.14-11.24.17
-R2	authorOf Arg1:T3 Arg2:T2	

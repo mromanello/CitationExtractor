@@ -1,0 +1,22 @@
+La	DET:def
+prospettiva	NOM
+del	PRE:det
+«	PON
+De	NPR
+musicis	NOM
+»	PON
+,	PON
+bibliografia	NOM
+sulla	PRE:det
+musica	NOM
+antica	ADJ
+,	PON
+consultabile	ADJ
+sul	PRE:det
+sito	ADJ
+web	NOM
+dell'	PRE:det
+Università	NOM
+di	PRE
+Bologna	NPR
+

@@ -1,0 +1,20 @@
+Zum	APPRART
+punisch-lateinischen	ADJA
+Auftrittsmonolog	NN
+Hannos	NE
+(	$(
+940-960	CARD
+)	$(
+und	KON
+zu	APPR
+dem	ART
+in	APPR
+zwei	CARD
+Fassungen	NN
+vorliegenden	ADJA
+Schluss	NN
+(	$(
+1338-1422	CARD
+)	$(
+.	$.
+

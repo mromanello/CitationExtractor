@@ -1,0 +1,29 @@
+Sobre	PREP
+el	ART
+tratamiento	NC
+de	PREP
+la	ART
+figura	NC
+del	PDEL
+adivino	VLfin
+mítico	ADJ
+Melampo	NC
+en	PREP
+la	ART
+literatura	NC
+griega	ADJ
+.	FS
+
+En	PREP
+apéndice	NC
+,	CM
+se	SE
+ofrece	VLfin
+una	ART
+selección	NC
+de	PREP
+textos	NC
+con	PREP
+testimonios	NC
+al respecto	ADV
+

@@ -1,0 +1,45 @@
+Aus	APPR
+zahlreichen	ADJA
+antiken	ADJA
+Berichten	NN
+geht	VVFIN
+hervor	PTKVZ
+,	$,
+dass	KOUS
+Germanen	NN
+nicht	PTKNEG
+ungeordnet	ADJD
+vorrückten	VVFIN
+.	$.
+
+Insbesondere	ADV
+werden	VAFIN
+Schildburgen	NN
+beschrieben	VVPP
+,	$,
+für	APPR
+deren	PRELAT
+Bildung	NN
+der	ART
+Stangenschildbuckel	NN
+von	APPR
+Bedeutung	NN
+war	VAFIN
+.	$.
+
+Dessen	PDAT
+weite	ADJA
+Verbreitung	NN
+lässt	VVFIN
+vermuten	VVINF
+,	$,
+dass	KOUS
+das	ART
+Kriegswesen	NN
+bei	APPR
+den	ART
+Germanen	NN
+einheitlich	ADJD
+war	VAFIN
+.	$.
+

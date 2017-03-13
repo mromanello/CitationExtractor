@@ -1,0 +1,14 @@
+Figurine	NOM
+trouvée	VER:pper
+lors	ADV
+des	PRP:det
+fouilles	NOM
+de	PRP
+1993	NUM
+,	PUN
+datant	VER:ppre
+du	PRP:det
+Chypriote	NAM
+récent	ADJ
+IIIA2	NOM
+

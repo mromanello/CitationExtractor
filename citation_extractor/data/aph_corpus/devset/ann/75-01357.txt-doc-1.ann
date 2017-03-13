@@ -1,0 +1,13 @@
+T1	AWORK 157 180	« Adagiorum Chiliades »
+T2	REFAUWORK 181 187	(Adag.
+T3	REFSCOPE 188 198	1, 2, 42).
+T4	AAUTHOR 224 233	Cicero 's
+T5	AWORK 234 256	« Letters to Atticus »
+T6	REFAUWORK 257 262	(Att.
+T7	REFSCOPE 263 273	14, 24, 2)
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T6 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:cwkb:711:1.2.42
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0474.phi057:14.24.2
+#2	AnnotatorNotes T4	urn:cts:cwkb:431
+#3	AnnotatorNotes T5	urn:cts:latinLit:phi0474.phi057

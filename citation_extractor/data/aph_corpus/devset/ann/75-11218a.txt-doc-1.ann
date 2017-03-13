@@ -1,0 +1,4 @@
+T1	REFAUWORK 15 20	(Lig.
+T2	REFSCOPE 21 24	22)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0474.phi033:22

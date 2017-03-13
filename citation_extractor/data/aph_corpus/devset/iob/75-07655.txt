@@ -1,0 +1,12 @@
+Reprend	VER:pres
+notamment	ADV
+les	DET:ART
+analyses	NOM
+de	PRP
+S.	ABR
+Jones	NAM
+(	PUN
+=>	ABR
+70-07844	NUM
+)	PUN
+

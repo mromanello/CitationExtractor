@@ -1,0 +1,24 @@
+Ricostruzione	NOM
+del	PRE:det
+territorio	NOM
+di	PRE
+Béziers	NOM
+fra	PRE
+1°	ADJ
+s.	NOM
+a.	NOM
+C.	NPR
+e	CON
+3°	NOM
+s.	NOM
+d.	NOM
+C.	NPR
+sulla	PRE:det
+base	NOM
+di	PRE
+numerose	ADJ
+testimonianze	NOM
+storiografiche	ADJ
+e	CON
+archeologiche	ADJ
+

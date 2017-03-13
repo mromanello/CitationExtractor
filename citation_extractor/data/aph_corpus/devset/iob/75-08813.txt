@@ -1,0 +1,27 @@
+Dans	PRP
+le	DET:ART
+prolongement	NOM
+du	PRP:det
+catalogue	NOM
+d'	PRP
+exposition	NOM
+noté	VER:pper
+72-08686	NUM
+,	PUN
+rappel	NOM
+de	PRP
+l'	DET:ART
+histoire	NOM
+du	PRP:det
+site	NOM
+et	KON
+des	PRP:det
+principaux	ADJ
+résultats	NOM
+scientifiques	ADJ
+acquis	VER:pper
+au	PRP:det
+fil	NOM
+des	PRP:det
+ans	NOM
+

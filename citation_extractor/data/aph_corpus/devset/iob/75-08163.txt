@@ -1,0 +1,25 @@
+Gli	DET:def
+scavi	NOM
+condotti	VER:pper
+negli	PRE:det
+anni	NOM
+1983-1996	NUM
+e	CON
+2002-2003	NUM
+hanno	VER:pres
+portato	VER:pper
+in	PRE
+luce	ADJ
+resti	NOM
+prevalentemente	ADV
+di	PRE
+età	NOM
+bizantina	ADJ
+,	PON
+in	PRE
+parte	NOM
+di	PRE
+età	NOM
+imperiale	ADJ
+romana	ADJ
+

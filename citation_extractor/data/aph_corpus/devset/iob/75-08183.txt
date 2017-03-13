@@ -1,0 +1,7 @@
+Concerne	VER:pres
+soprattutto	ADV
+i	DET:def
+dati	NOM
+propriamente	ADV
+archeologici	ADJ
+

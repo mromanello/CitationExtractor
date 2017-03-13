@@ -1,0 +1,56 @@
+Art	NOM
+important	ADJ
+à	PRP
+Rome	NAM
+,	PUN
+la	DET:ART
+pantomime	NOM
+est	VER:pres
+paradoxalement	ADV
+peu	ADV
+représentée	VER:pper
+dans	PRP
+l'	DET:ART
+iconographie	NOM
+.	SENT
+
+Examen	NOM
+de	PRP
+différentes	ADJ
+œuvres	NOM
+du	PRP:det
+1er	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+au	PRP:det
+3e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+figurant	VER:ppre
+des	PRP:det
+danseurs	NOM
+.	SENT
+
+Ces	PRO:DEM
+scènes	NOM
+étaient	VER:impf
+associées	VER:pper
+aux	PRP:det
+banquets	NOM
+,	PUN
+ainsi	KON
+qu'	KON
+à	PRP
+des	PRP:det
+contextes	NOM
+funéraires	ADJ
+

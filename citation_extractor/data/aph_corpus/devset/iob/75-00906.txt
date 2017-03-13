@@ -1,0 +1,22 @@
+Réimpr	NOM
+.	SENT
+
+d'	PRP
+un	DET:ART
+article	NOM
+paru	VER:pper
+dans	PRP
+RecAug	NAM
+1958	NUM
+1	NUM
+:	PUN
+43-66	NUM
+(	PUN
+=>	NOM
+APh	NAM
+29	NUM
+,	PUN
+p.	ABR
+33	NUM
+)	PUN
+

@@ -1,0 +1,13 @@
+Étude	NOM
+lexicologique	ADJ
+et	KON
+sémantique	ADJ
+.	SENT
+
+La	DET:ART
+relation	NOM
+entre	PRP
+allégorie	NOM
+et	KON
+métaphore	NOM
+

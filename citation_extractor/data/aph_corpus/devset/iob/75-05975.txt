@@ -1,0 +1,25 @@
+Der	ART
+Text	NN
+ignoriert	VVFIN
+die	ART
+Gewalt	NN
+,	$,
+von	APPR
+der	PRELS
+er	PPER
+berichtet	VVFIN
+,	$,
+und	KON
+schreibt	VVFIN
+somit	ADV
+die	ART
+patriarchale	ADJA
+Herrschaft	NN
+auch	ADV
+für	APPR
+das	ART
+frühe	ADJA
+Christentum	NN
+fest	PTKVZ
+.	$.
+

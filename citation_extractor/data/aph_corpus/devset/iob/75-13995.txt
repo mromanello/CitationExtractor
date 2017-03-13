@@ -1,0 +1,20 @@
+Concerne	VER:pres
+notamment	ADV
+la	DET:ART
+tradition	NOM
+syriaque	ADJ
+des	PRP:det
+auteurs	NOM
+grecs	ADJ
+païens	ADJ
+et	KON
+chrétiens	ADJ
+.	SENT
+
+Pour	PRP
+la	DET:ART
+précédente	ADJ
+livraison	NOM
+=>	ADJ
+70-14047	NUM
+

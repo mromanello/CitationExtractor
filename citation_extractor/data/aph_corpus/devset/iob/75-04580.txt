@@ -1,0 +1,24 @@
+In	PRE
+margine	NOM
+agli	PRE:det
+Atti	NOM
+del	PRE:det
+convegno	NOM
+fiorentino	ADJ
+del	PRE:det
+2002	NUM
+sul	PRE:det
+PMilVogl	NOM
+.	SENT
+
+8	NUM
+,	PON
+309	NUM
+attribuito	VER:pper
+a	PRE
+Posidippo	NOM
+(	PON
+=>	NOM
+73-05396	NUM
+)	PON
+

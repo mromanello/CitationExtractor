@@ -1,0 +1,22 @@
+Zur	APPRART
+Abhängigkeit	NN
+des	ART
+«	$(
+Poenulus	NE
+»	$(
+von	APPR
+Alexis	NE
+'	$(
+«	$(
+Karchedonios	NE
+»	$(
+und	KON
+zu	APPR
+Gemeinsamkeiten	NN
+mit	APPR
+der	ART
+Neuen	ADJA
+Komödie	NN
+allgemein	ADJD
+.	$.
+

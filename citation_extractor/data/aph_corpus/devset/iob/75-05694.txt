@@ -1,0 +1,24 @@
+Théologien	NOM
+pragmatique	ADJ
+,	PUN
+Paul	NAM
+développe	VER:pres
+non	ADV
+pas	ADV
+une	DET:ART
+théorie	NOM
+de	PRP
+la	DET:ART
+Loi	NAM
+,	PUN
+mais	KON
+lui	PRO:PER
+confère	VER:pres
+divers	ADJ
+rôles	NOM
+au	PRP:det
+gré	NOM
+de	PRP
+son	DET:POS
+argumentation	NOM
+

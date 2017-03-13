@@ -1,0 +1,14 @@
+Questi	PRO:demo
+capitelli	NOM
+devono	VER:pres
+essere	VER:infi
+anteriori	ADJ
+al	PRE:det
+restauro	NOM
+della	PRE:det
+chiesa	NOM
+avvenuto	VER:pper
+in	PRE
+età	NOM
+giustinianea	ADJ
+

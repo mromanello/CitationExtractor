@@ -1,0 +1,12 @@
+T1	AAUTHOR 173 179	Cesare
+T2	REFAUWORK 180 185	(ciu.
+T3	REFSCOPE 186 195	1, 30, 2)
+T4	AAUTHOR 236 244	Cicerone
+T5	REFAUWORK 245 250	(Lig.
+T6	REFSCOPE 251 253	4)
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:434:1.30.2
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0474.phi033:4
+#2	AnnotatorNotes T4	urn:cts:cwkb:431
+#3	AnnotatorNotes T1	urn:cts:cwkb:429

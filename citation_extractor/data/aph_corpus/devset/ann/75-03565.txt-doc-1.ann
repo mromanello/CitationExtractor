@@ -1,0 +1,8 @@
+T1	AWORK 147 158	« Tristia »
+T2	REFSCOPE 159 173	(1, 2, 13-50 ;
+T3	REFSCOPE 174 186	1, 4, 5-22 ;
+T4	REFSCOPE 187 203	y 1, 11, 13-22),
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+#0	AnnotatorNotes T1	urn:cts:cwkb:568.1163

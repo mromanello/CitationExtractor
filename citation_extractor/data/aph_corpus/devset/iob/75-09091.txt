@@ -1,0 +1,37 @@
+Reedition	NN
+der	ART
+griechischen	ADJA
+Inschrift	NN
+nach	APPR
+einem	ART
+Abklatsch	NN
+im	APPRART
+Archiv	NN
+des	ART
+Österreichischen	NN
+Archäologischen	ADJA
+Instituts	NN
+.	$.
+
+Auf	APPR
+ihm	PPER
+sind	VAFIN
+weitere	ADJA
+Zeilen	NN
+sichtbar	ADJD
+,	$,
+die	ART
+zusätzliche	ADJA
+Bauprojekte	NN
+eines	ART
+wohlhabenden	ADJA
+Bürgers	NN
+Stertinius	NE
+Orpex	NE
+und	KON
+seiner	PPOSAT
+Tochter	NN
+Marina	NE
+nennen	VVFIN
+.	$.
+

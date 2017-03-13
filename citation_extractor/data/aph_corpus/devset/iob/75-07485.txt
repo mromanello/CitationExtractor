@@ -1,0 +1,26 @@
+Analisi	NOM
+del	PRE:det
+ms.	NOM
+Atene	NPR
+,	PON
+BN	NOM
+2651	NUM
+,	PON
+contenente	VER:ppre
+le	DET:def
+omelie	NOM
+«	PON
+In	NOM
+epistulam	NOM
+I	DET:def
+ad	PRE
+Corinthios	NOM
+»	PON
+di	PRE
+Giovanni	NPR
+Crisostomo	NOM
+(	PON
+CPG	NOM
+4428	NUM
+)	PON
+

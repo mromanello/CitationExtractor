@@ -1,0 +1,10 @@
+T1	AAUTHOR 25 32	Martial
+T2	AAUTHOR 176 183	Martial
+T3	AAUTHOR 307 314	Ovid 's
+T4	REFAUWORK 315 328	Metamorphoses
+T5	REFSCOPE 329 340	1, 313-415,
+R1	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:741.1536:1.313-1.415
+#1	AnnotatorNotes T2	urn:cts:cwkb:539
+#2	AnnotatorNotes T3	urn:cts:cwkb:568
+#3	AnnotatorNotes T1	urn:cts:cwkb:539

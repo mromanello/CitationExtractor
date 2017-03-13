@@ -1,0 +1,11 @@
+T1	AAUTHOR 54 63	Tite-Live
+T2	REFSCOPE 64 73	(21, 14 ;
+T3	REFSCOPE 74 85	28, 22-23 ;
+T4	REFSCOPE 86 96	31, 17-18)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:524:21.14
+#1	AnnotatorNotes R2	urn:cts:cwkb:524:28.22-28.23
+#2	AnnotatorNotes R3	urn:cts:cwkb:524:31.17-31.18
+#3	AnnotatorNotes T1	urn:cts:cwkb:524

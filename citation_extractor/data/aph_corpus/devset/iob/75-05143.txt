@@ -1,0 +1,30 @@
+L'	DET:def
+interrogativa	ADJ
+«	PON
+quid	PRO:inter
+furtim	NOM
+illacrimas	ADJ
+?	SENT
+
+»	PON
+va	VER:pres
+ascritta	VER:pper
+a	PRE
+Melampo	NOM
+e	CON
+non	ADV
+ad	PRE
+Anfiarao	NOM
+,	PON
+come	CON
+dimostra	VER:pres
+il	DET:def
+confronto	NOM
+con	PRE
+Ov.	NOM
+met.	ABR
+2	NUM
+,	PON
+655s	NOM
+.	SENT
+

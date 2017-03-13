@@ -1,0 +1,20 @@
+Raccolta	NOM
+e	CON
+discussione	NOM
+di	PRE
+15	NUM
+frammenti	NOM
+di	PRE
+Duride	NOM
+che	PRO:rela
+contengono	VER:pres
+descrizioni	NOM
+di	PRE
+eventi	NOM
+musicali	ADJ
+o	CON
+testi	NOM
+di	PRE
+canti	NOM
+tradizionali	ADJ
+

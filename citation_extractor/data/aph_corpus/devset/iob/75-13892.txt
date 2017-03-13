@@ -1,0 +1,26 @@
+Bref	ADV
+historique	ADJ
+de	PRP
+la	DET:ART
+papyrologie	NOM
+médicale	ADJ
+.	SENT
+
+Un	DET:ART
+travail	NOM
+important	ADJ
+d'	PRP
+édition	NOM
+,	PUN
+de	PRP
+réédition	NOM
+,	PUN
+d'	PRP
+exégèse	NOM
+et	KON
+de	PRP
+synthèse	NOM
+reste	VER:pres
+à	PRP
+faire	VER:infi
+

@@ -1,0 +1,11 @@
+T1	REFSCOPE 38 46	v. 11-14
+T2	AAUTHOR 64 71	Pindaro
+T3	AWORK 117 126	« Aitia »
+T4	AAUTHOR 130 139	Callimaco
+T5	REFAUWORK 140 144	(fr.
+T6	REFSCOPE 145 154	1, 25-28)
+R1	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:583.1206:1.25-1.28
+#1	AnnotatorNotes T4	urn:cts:greekLit:tlg0533
+#2	AnnotatorNotes T2	urn:cts:greekLit:tlg0033
+#3	AnnotatorNotes T3	urn:cts:cwkb:789.1882

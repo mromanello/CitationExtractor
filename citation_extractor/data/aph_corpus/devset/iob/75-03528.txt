@@ -1,0 +1,10 @@
+Zu	APPR
+etymologischen	ADJA
+Wortspielen	NN
+bei	APPR
+Ovid	NE
+und	KON
+ihren	PPOSAT
+hellenistischen	ADJA
+Vorbildern	NN
+

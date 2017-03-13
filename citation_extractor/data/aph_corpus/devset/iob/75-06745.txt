@@ -1,0 +1,14 @@
+Riflessioni	NOM
+sui	PRE:det
+modi	NOM
+e	CON
+i	DET:def
+limiti	NOM
+dell'	PRE:det
+usuale	ADJ
+ambientazione	NOM
+domestica	ADJ
+delle	PRE:det
+vicende	NOM
+elegiache	ADJ
+

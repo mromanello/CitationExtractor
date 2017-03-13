@@ -1,0 +1,6 @@
+T1	AAUTHOR 94 100	Platon
+T2	AWORK 118 131	« Politique »
+T3	REFSCOPE 132 143	(269a-274e)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes T2	urn:cts:greekLit:tlg0086.tlg035
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0059

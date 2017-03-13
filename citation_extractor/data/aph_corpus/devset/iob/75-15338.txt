@@ -1,0 +1,11 @@
+Il	DET:def
+contributo	NOM
+di	PRE
+A.	NPR
+Ferrua	VER:impe
+agli	PRE:det
+studi	NOM
+epigrafico-cristiani	ADJ
+della	PRE:det
+Sicilia	NPR
+

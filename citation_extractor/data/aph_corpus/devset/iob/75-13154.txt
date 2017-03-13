@@ -1,0 +1,25 @@
+Die	ART
+Interpretation	NN
+der	ART
+Statuen	NN
+sollte	VMFIN
+nicht	PTKNEG
+vom	APPRART
+Einfluss	NN
+mediterraner	ADJA
+Kultur	NN
+ausgehen	VVINF
+,	$,
+da	KOUS
+die	PDS
+dafür	PAV
+herangezogenen	ADJA
+Eigenheiten	NN
+transkulturell	ADJD
+sind	VAFIN
+.	$.
+
+Diskussion	NN
+S.	NE
+287-289	CARD
+

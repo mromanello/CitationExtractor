@@ -1,3 +1,0 @@
-T1	AWORK 74 87	« Categorie »
-T2	AAUTHOR 91 101	Aristotele
-R1	authorOf Arg1:T2 Arg2:T1	

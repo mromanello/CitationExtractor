@@ -1,0 +1,11 @@
+Presentazione	NOM
+del	PRE:det
+volume	NOM
+di	PRE
+M.	NOM
+Gigante	VER:ppre
+(	PON
+=>	NOM
+75-14061	NUM
+)	PON
+

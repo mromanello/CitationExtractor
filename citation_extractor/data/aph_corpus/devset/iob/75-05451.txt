@@ -1,0 +1,19 @@
+La	DET:def
+simbologia	NOM
+del	PRE:det
+numero	NOM
+7	NUM
+nel	PRE:det
+contesto	NOM
+letterario	ADJ
+biblico	ADJ
+e	CON
+in	PRE
+particolare	NOM
+nel	PRE:det
+libro	NOM
+dell'	PRE:det
+«	PON
+Apocalisse	NOM
+»	PON
+

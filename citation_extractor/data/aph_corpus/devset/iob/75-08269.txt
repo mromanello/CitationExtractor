@@ -1,0 +1,18 @@
+Note	NOM
+sur	PRP
+les	DET:ART
+fouilles	NOM
+américaines	ADJ
+,	PUN
+qui	PRO:REL
+ont	VER:pres
+concerné	VER:pper
+notamment	ADV
+les	DET:ART
+époques	NOM
+hellénistique	ADJ
+,	PUN
+romaine	ADJ
+et	KON
+byzantine	ADJ
+

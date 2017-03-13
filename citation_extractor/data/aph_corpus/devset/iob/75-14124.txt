@@ -1,0 +1,25 @@
+C.	ABR
+Jullian	NAM
+faisait	VER:impf
+très	ADV
+peu	ADV
+de	PRP
+cas	NOM
+des	PRP:det
+vestiges	NOM
+archéologiques	ADJ
+et	KON
+a	VER:pres
+toujours	ADV
+affirmé	VER:pper
+la	DET:ART
+primauté	NOM
+des	PRP:det
+textes	NOM
+dans	PRP
+l'	DET:ART
+écriture	NOM
+de	PRP
+l'	DET:ART
+histoire	NOM
+

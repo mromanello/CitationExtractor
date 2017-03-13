@@ -1,0 +1,9 @@
+Sull'	PRE:det
+attività	NOM
+di	PRE
+Montaigne	NOM
+come	PRE
+commentatore	NOM
+di	PRE
+Cesare	NOM
+

@@ -1,0 +1,28 @@
+The	DT
+place	NN
+of	IN
+Koptos	NP
+in	IN
+Rome	NP
+'s	POS
+eastern	JJ
+trade	NN
+.	SENT
+
+Locals	NNS
+and	CC
+outsiders	NNS
+in	IN
+the	DT
+eastern	JJ
+trade	NN
+.	SENT
+
+Economic	JJ
+and	CC
+social	JJ
+effects	NNS
+of	IN
+the	DT
+trade	NN
+

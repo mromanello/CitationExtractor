@@ -1,0 +1,4 @@
+T1	REFAUWORK 259 268	Pausanias
+T2	REFSCOPE 269 279	8, 20, 2),
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0525:8.20.2

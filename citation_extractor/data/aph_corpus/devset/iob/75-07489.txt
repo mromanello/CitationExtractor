@@ -1,0 +1,30 @@
+Questo	PRO:demo
+codice	NOM
+della	PRE:det
+Bibl	NOM
+.	SENT
+
+Medicea	ADJ
+Laurenziana	NOM
+(	PON
+Firenze	NPR
+)	PON
+,	PON
+che	PRO:rela
+reca	VER:pres
+il	DET:def
+testo	NOM
+sofocleo	ADJ
+nella	PRE:det
+scrittura	NOM
+superiore	ADJ
+,	PON
+nella	PRE:det
+scrittura	NOM
+inferiore	ADJ
+presenta	VER:pres
+tracce	NOM
+di	PRE
+testi	NOM
+veterotestamentari	ADJ
+

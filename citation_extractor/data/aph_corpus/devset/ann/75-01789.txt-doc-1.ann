@@ -1,0 +1,4 @@
+T1	REFAUWORK 177 181	Adu.
+T2	REFSCOPE 182 190	18.7.15,
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:750.1553:18.7.15

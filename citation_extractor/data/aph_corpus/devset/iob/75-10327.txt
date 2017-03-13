@@ -1,0 +1,13 @@
+Zur	APPRART
+Entwicklung	NN
+am	APPRART
+Beispiel	NN
+der	ART
+auch	ADV
+durch	APPR
+antike	ADJA
+Quellen	NN
+bekannten	ADJA
+Vettonen	NN
+.	$.
+

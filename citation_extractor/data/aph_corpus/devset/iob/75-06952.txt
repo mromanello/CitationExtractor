@@ -1,0 +1,18 @@
+Concerne	VER:pres
+Eusèbe	NOM
+de	PRP
+Césarée	NAM
+,	PUN
+Lactance	NAM
+,	PUN
+Praxagoras	NOM
+d'	PRP
+Athènes	NAM
+et	KON
+l'	DET:ART
+«	PUN:cit
+Origo	NAM
+Constantini	NAM
+imperatoris	NOM
+»	PUN:cit
+

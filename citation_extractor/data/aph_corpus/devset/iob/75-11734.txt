@@ -1,0 +1,37 @@
+Sur	PRP
+les	DET:ART
+liens	NOM
+symboliques	ADJ
+entre	PRP
+la	DET:ART
+céramique	NOM
+et	KON
+les	DET:ART
+textiles	NOM
+,	PUN
+qui	PRO:REL
+relèvent	VER:pres
+du	PRP:det
+domaine	NOM
+féminin	ADJ
+.	SENT
+
+Les	DET:ART
+exemples	NOM
+sont	VER:pres
+pris	VER:pper
+parmi	PRP
+des	PRP:det
+objets	NOM
+européens	ADJ
+et	KON
+mis	VER:pper
+en	PRP
+relation	NOM
+avec	PRP
+la	DET:ART
+mythologie	NOM
+grecque	ADJ
+et	KON
+romaine	ADJ
+

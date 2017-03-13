@@ -1,0 +1,376 @@
+Strabo - Wikipedia
+Strabo
+From Wikipedia, the free encyclopedia
+Jump to:					navigation, 					search
+This article is about the Greek geographer. For other people called "Strabo", see Strabo (disambiguation).
+Strabo
+Strabo as depicted in a 16th-century engraving
+Born
+64 or 63 BC
+Amaseia, Pontus
+(modern-day Amasya, Turkey)
+Died
+c. 24 AD (aged about 87)
+Occupation
+Geographer
+Philosopher
+Historian
+Strabo[1] (/ˈstreɪboʊ/; Greek: Στράβων Strabōn; 64 or 63 BC – c. 24 AD) was a Greek geographer, philosopher, and historian who lived in Asia Minor during the transitional period of the Roman Republic into the Roman Empire.
+Contents
+1 Life
+2 Education
+3 Geographica
+4 Geology
+5 Editions
+6 Notes
+7 References
+8 Sources
+9 External links
+Life[edit]
+Title page from Isaac Casaubon's 1620 edition of Geographica
+Strabo was born to an affluent family from Amaseia in Pontus (modern Amasya, Turkey),[2] a city that he said was situated the approximate equivalent of 75 km from the Black Sea. Pontus had recently fallen to the Roman Republic, and although politically he was a proponent of Roman imperialism, Strabo belonged on his mother's side to a prominent family whose members had held important positions under the resisting regime of King Mithridates VI of Pontus.[n 1]
+Strabo as depicted in the Nuremberg Chronicle
+Strabo's life was characterized by extensive travels. He journeyed to Egypt and Kush, as far west as coastal Tuscany and as far south as Ethiopia in addition to his travels in Asia Minor and the time he spent in Rome. Travel throughout the Mediterranean and Near East, especially for scholarly purposes, was popular during this era and was facilitated by the relative peace enjoyed throughout the reign of Augustus (27 BC – AD 14). He moved to Rome in 44 BC, and stayed there, studying and writing, until at least 31 BC. In 29 BC, on his way to Corinth (where Augustus was at the time), he visited the island of Gyaros in the Aegean Sea. Around 25 BC, he sailed up the Nile until reaching Philae,[n 2] after which point there is little record of his proceedings until AD 17.
+Statue of Strabo in his hometown (modern-day Amasya, Turkey), beside the Iris (Yeşilırmak) River
+It is not known precisely when Strabo's Geography was written, though comments within the work itself place the finished version within the reign of Emperor Tiberius. Some place its first drafts around 7 BC,[3] others around 17[4] or 18 AD.[3] The latest passage to which a date can be assigned is his reference to the death in AD 23 of Juba II, king of Maurousia (Mauretania), who is said to have died "just recently".[5] He probably worked on the Geography for many years and revised it steadily, not always consistently.
+On the presumption that "recently" means within a year, Strabo stopped writing that year or the next (24 AD), when he died.
+The first of Strabo's major works, Historical Sketches (Historica hypomnemata), written while he was in Rome (c. 20 BC), is nearly completely lost. Meant to cover the history of the known world from the conquest of Greece by the Romans, Strabo quotes it himself and other classical authors mention that it existed, although the only surviving document is a fragment of papyrus now in possession of the University of Milan (renumbered [Papyrus] 46).
+Education[edit]
+Strabo studied under several prominent teachers of various specialties throughout his early life[n 3] at different stops along his Mediterranean travels. His first chapter of education took place in Nysa (modern Sultanhisar, Turkey) under the master of rhetoric Aristodemus, who had formerly taught the sons of the very same Roman general who had taken over Pontus.[6][n 4] Aristodemus was the head of two schools of rhetoric and grammar, one in Nysa and one in Rhodes, the former of the two cities possessing a distinct intellectual curiosity of Homeric literature and the interpretation of epics. Strabo was an admirer of Homer's poetry, perhaps a consequence of his time spent in Nysa with Aristodemus.[n 5]
+At around the age of 21, Strabo moved to Rome, where he studied philosophy with the Peripatetic Xenarchus, a highly respected tutor in Augustus's court. Despite Xenarchus's Aristotelian leanings, Strabo later gives evidence to have formed his own Stoic inclinations.[n 6] In Rome, he also learned grammar under the rich and famous scholar Tyrannion of Amisus.[n 7] Although Tyrannion was also a Peripatetic, he was more relevantly a respected authority on geography, a fact obviously significant, considering Strabo's future contributions to the field.
+The final noteworthy mentor to Strabo was Athenodorus Cananites, a philosopher who had spent his life since 44 BC in Rome forging relationships with the Roman elite. Athenodorus endowed to Strabo three important items: his philosophy, his knowledge, and his contacts. Unlike the Aristotelian Xenarchus and Tyrannion who preceded him in teaching Strabo, Athenodorus was Stoic in mindset, almost certainly the source of Strabo's diversion from the philosophy of his former mentors. Moreover, from his own first-hand experience, Athenodorus provided Strabo with information about regions of the empire which he would not otherwise have known.
+Geographica[edit]
+Main article: Geographica
+Map of the world according to Strabo.
+Strabo is most notable for his work Geographica ("Geography"), which presented a descriptive history of people and places from different regions of the world known to his era.[5]
+Map of Europe according to Strabo.
+Although the Geographica was rarely utilized in its contemporary antiquity, a multitude of copies survived throughout the Byzantine Empire. It first appeared in Western Europe in Rome as a Latin translation issued around 1469. The first Greek edition was published in 1516 in Venice.[7] Isaac Casaubon, classical scholar and editor of Greek texts, provided the first critical edition in 1587.
+Although Strabo cited the antique Greek astronomers Eratosthenes and Hipparchus, acknowledging their astronomical and mathematical efforts towards geography, he claimed that a descriptive approach was more practical, such that his works were designed for statesmen who were more anthropologically than numerically concerned with the character of countries and regions.
+As such, Geographica provides a valuable source of information on the ancient world, especially when this information is corroborated by other sources.
+Strabo is pro-Roman politically, but culturally he reserves primacy to Greece:[8] "... pro-Roman throughout the Geography. But while he acknowledges and even praises Roman ascendancy in the political and military sphere, he also makes a significant effort to establish Greek primacy over Rome in other contexts."
+In India, Strabo described small flying reptiles that were 90 centimeters (3 ft) long with a snake-like body and bat-like wings. Other historians, such as Herodotus, Aristotle, and Flavius Josephus, mentioned similar creatures.
+Geology[edit]
+As quoted from Charles Lyell's Principles of Geology:
+Strabo... enters largely, in the Second Book of his Geography, into the opinions of Eratosthenes and other Greeks on one of the most difficult problems in geology, viz., by what causes marine shells came to be plentifully buried in the earth at such great elevations and distances from the sea.
+He notices, amongst others, the explanation of Xanthus the Lydian, who said that the seas had once been more extensive, and that they had afterwards been partially dried up, as in his own time many lakes, rivers, and wells in Asia had failed during a season of drought. Treating this conjecture with merited disregard, Strabo passes on to the hypothesis of Strato, the natural philosopher, who had observed that the quantity of mud brought down by rivers into the Euxine was so great, that its bed must be gradually raised, while the rivers still continued to pour in an undiminished quantity of water. He therefore conceived that, originally, when the Euxine was an inland sea, its level had by this means become so much elevated that it burst its barrier near Byzantium, and formed a communication with the Propontis, and this partial drainage had already, he supposed, converted the left side into marshy ground, and that, at last, the whole would be choked up with soil. So, it was argued, the Mediterranean had once opened a passage for itself by the Columns of Hercules into the Atlantic, and perhaps the abundance of sea-shells in Africa, near the Temple of Jupiter Ammon, might also be the deposit of some former inland sea, which had at length forced a passage and escaped.
+But Strabo rejects this theory as insufficient to account for all the phenomena, and he proposes one of his own, the profoundness of which modern geologists are only beginning to appreciate. 'It is not,' he says, 'because the lands covered by seas were originally at different altitudes, that the waters have risen, or subsided, or receded from some parts and inundated others. But the reason is, that the same land is sometimes raised up and sometimes depressed, and the sea also is simultaneously raised and depressed, so that it either overflows or returns into its own place again. We must therefore ascribe the cause to the ground, either to that ground which is under the sea, or to that which becomes flooded by it, but rather to that which lies beneath the sea, for this is more moveable, and, on account of its humidity, can be altered with great celerity. It is proper,' he observes in continuation, 'to derive our explanations from things which are obvious, and in some measure of daily occurrence, such as deluges, earthquakes, volcanic eruptions, and sudden swellings of the land beneath the sea; for the last raise up the sea also, and when the same lands subside again, they occasion the sea to be let down. And it is not merely the small, but the large islands also, and not merely the islands, but the continents, which can be lifted up together with the sea; and both large and small tracts may subside, for habitations and cities, like Bure, Bizona, and many others, have been engulfed by earthquakes.'
+In another place, this learned geographer [Strabo], in alluding to the tradition that Sicily had been separated by a convulsion from Italy, remarks, that at present the land near the sea in those parts was rarely shaken by earthquakes, since there were now open orifices whereby fire and ignited matters and waters escaped; but formerly, when the volcanoes of Etna, the Lipari Islands, Ischia, and others, were closed up, the imprisoned fire and wind might have produced far more vehement movements. The doctrine, therefore, that volcanoes are safety valves, and that the subterranean convulsions are probably most violent when first the volcanic energy shifts itself to a new quarter, is not modern.[9]
+The very first written definition/discussion on the fossil formation (mentioning Nummulite quoted from A.M. Celâl Şengör).
+One extraordinary thing which I saw at the pyramids must not be omitted. Heaps of stones from the quarries lie in front of the pyramids. Among these are found pieces which in shape and size resemble lentils. Some contain substances like grains half peeled. These, it is said, are the remnants of the workmen's food converted into stone; which is not probable. For at home in our country (Amasia), there is a long hill in a plain, which abounds with pebbles of a porus stone, resembling lentils. The pebbles of the sea-shore and of rivers suggest somewhat of the same difficulty [respecting their origin]; some explanation may indeed be found in the motion [to which these are subject] in flowing waters, but the investigation of the above fact presents more difficulty. I have said elsewhere, that in sight of the pyramids, on the other side in Arabia, and near the stone quarries from which they are built, is a very rocky mountain, called the Trojan mountain; beneath it there are caves, and near the caves and the river a village called Troy, an ancient settlement of the captive Trojans who had accompanied Menelaus and settled there.[10]
+The very first written definition/discussion of volcanism (Effusive eruption) observed at Katakekaumenē (modern Kula, Western Turkey) until Pliny the Younger witnessed to the eruption of Vesuvius on 24 August 79 AD in Pompeii:
+Karadivlit Scoria Cone and AA type basaltic fissure lava flow in Katakekaumenē (modern-day Kula, Turkey).
+…There are no trees here, but only the vineyards where they produce the Katakekaumene wines which are by no means inferior from any of the wines famous for their quality. The soil is covered with ashes, and black in color as if the mountainous and rocky country was made up of fires. Some assume that these ashes were the result of thunderbolts and sub- terranean explosions, and do not doubt that the legendary story of Typhon takes place in this region. Ksanthos adds that the king of this region was a man called Arimus. However, it is not reasonable to accept that the whole country was burned down at a time as a result of such an event rather than as a result of a fire bursting from underground whose source has now died out. Three pits are called “Physas” and separated by forty stadia from each other. Above these pits, there are hills formed by the hot masses burst out from the ground as estimated by a logical reasoning. Such type of soil is very convenient for viniculture, just like the Katanasoil which is covered with ashes and where the best wines are still produced abundantly. Some writers concluded by looking at these places that there is a good reason for calling Dionysus by the name (“Phrygenes”)”[11]
+Editions[edit]
+Meineke, Augustus, ed. (1877). Strabonis Geographica. Lipsiae: B.G. Teubneri. 
+Strabo (1852). Gustav Kramer, ed. Strabonis Geographica. Recens. G. Kramer. Ed. minor. 
+Strabo's Geography in three volumes as translated by H.C. Hamilton, ed. H.G. Bohn, 1854–1857: vol. 1
+vol. 2
+vol. 3 (Internet Archive)
+Stefan Radt, ed. (2002–2011). Strabons Geographika : mit Übersetzung und Kommentar. Göttingen: Vandenhoeck & Ruprecht. 
+Jones, H. L., transl. (1917). The Geography of Strabo. Vol. 1 (Books 1 & 2) of 8 vols. London: Heinemann. 
+Notes[edit]
+^ Pontus fell to the Roman general Pompey in 63 BC and, after the murder or suicide of Mithridates VI of Pontus (otherwise known as Mithridates the Great), was broken up into smaller provinces in 64 BC. Strabo in Book 12 Chapter 3 Section 41 states that the Romans took possession of Bithynia "a little before my time", setting the date of his birth to after 63 BC.
+^ Accompanied by prefect of Egypt Aelius Gallus, who had been sent on a military mission to Arabia.
+^ He mentions all or most of his teachers as prominent citizens of their own respective cities.
+^ This also highlights the international trend of the era that Greek intellectuals would often instruct the Roman elite.
+^ Aristodemus was also the grandson of the famous Posidonius, whose influence is manifest in Strabo's Geography.
+^ Largely due to his future teacher Athenodorus, tutor of Augustus.
+^ Thus completing his traditional Greek aristocratic education in rhetoric, grammar and philosophy. Tyrannion was known to have befriended Cicero and taught his nephew, Quintus.
+References[edit]
+^ Strabo (meaning "squinty", as in strabismus) was a term employed by the Romans for anyone whose eyes were distorted or deformed. The father of Pompey was called "Pompeius Strabo". A native of Sicily so clear-sighted that he could see things at great distance as if they were nearby was also called "Strabo."
+^ Geography Book XII Chapter 3 Section 15, "Amaseia, my fatherland".
+^ a b Horace Leonard Jones, translator, The Geography of Strabo, Heinemann, London, 1917, p. xxv-xxvi
+^ Sarah Pothecary, When was the Geography written?
+^ a b Strabonis Geographica, Book 17, Chapter 7.
+^ (see note 3.)
+^ Geographie, Band 1, Strabo, S.17, Strabo, Karl Kärcher, Gottlieb Lukas Friedrich Tafel, Christian Nathanael Osiander, Gustav Schwab, Verlag Metzler, 1831.
+^ Lawrence Kim, Homer Between History and Fiction in Imperial Greek Literature, 2010, p83
+^ Charles Lyell, Principles of Geology, 1832, p.20-21
+^ Strabo's Geography, XVII, 34
+^ Strabo's Geography, XIII, 628; XIV, 650.
+Sources[edit]
+"Biography of Strabo". Tufts. 
+"Strabo". Encyclopædia Britannica (15th ed.). 1998. pp. 296–297. 
+Diller, A. (1975). The Textual Tradition of Strabo’s Geography. Amsterdam. 
+Dueck, Daniela (2000). Strabo of Amasia: Greek Man of Letters in Augustan Rome. New York: Routledge. 
+Dueck, D.; H. Lindsay; S. Pothecary, eds. (2005). Strabo's Cultural Geography: The Making of a Kolossourgia. Cambridge: Cambridge University Press. 
+Lindberg, David C. (2008). The Beginnings of Western Science The European Scientific Tradition in Philosophical, Religious, and Institutional Context, Prehistory A.D. 1450 (2nd ed.). Chicago: University of Chicago Press. 
+Roller, Duane (2014). The Geography of Strabo: An English Translation, with Introduction and Notes. Cambridge. 
+External links[edit]
+Greek Wikisource has original text related to this article:
+Στράβων
+Media related to Strabo at Wikimedia Commons
+Quotations related to Strabo at Wikiquote
+Geography (Loeb Classical Library, H. L. Jones translation)
+Biography of Strabo
+Works by Strabo at Project Gutenberg
+Works by or about Strabo at Internet Archive
+v
+t
+e
+Ancient Greek astronomy
+Astronomers
+Acoreus
+Aglaonice
+Agrippa
+Anaximander
+Andronicus
+Apollonius
+Aratus
+Aristarchus
+Aristyllus
+Attalus
+Autolycus
+Bion
+Callippus
+Cleomedes
+Cleostratus
+Conon
+Eratosthenes
+Euctemon
+Eudoxus
+Geminus
+Heraclides
+Hicetas
+Hipparchus
+Hippocrates of Chios
+Hypsicles
+Menelaus
+Meton
+Oenopides
+Philip of Opus
+Philolaus
+Posidonius
+Ptolemy
+Pytheas
+Seleucus
+Sosigenes of Alexandria
+Sosigenes the Peripatetic
+Strabo
+Thales
+Theodosius
+Theon of Alexandria
+Theon of Smyrna
+Timocharis
+Works
+Almagest (Ptolemy)
+On Sizes and Distances (Hipparchus)
+On the Sizes and Distances (Aristarchus)
+On the Heavens (Aristotle)
+Instruments
+Antikythera mechanism
+Armillary sphere
+Astrolabe
+Dioptra
+Equatorial ring
+Gnomon
+Mural instrument
+Triquetrum
+Concepts
+Callippic cycle
+Celestial spheres
+Circle of latitude
+Counter-Earth
+Deferent and epicycle
+Equant
+Geocentrism
+Heliocentrism
+Hipparchic cycle
+Metonic cycle
+Octaeteris
+Solstice
+Spherical Earth
+Sublunary sphere
+Zodiac
+Influences
+Babylonian astronomy
+Egyptian astronomy
+Influenced
+Medieval European science
+Indian astronomy
+Medieval Islamic astronomy
+Authority control
+WorldCat Identities
+VIAF: 100219883
+LCCN: n80035710
+ISNI: 0000 0001 1838 7379
+GND: 118618806
+SELIBR: 269797
+SUDOC: 027150062
+BNF: cb11925629v (data)
+NLA: 36017850
+NKC: jn19990210586
+BNE: XX1110117
+v
+t
+e
+Amasya District
+Capital: Amasya
+Townships
+Aydınca
+Doğantepe
+Ezinepazar
+Uygur
+Yassıçal
+Yeşilyenice
+Ziyaret
+Settlements
+Abacı
+Ağılönü
+Aksalur
+Aktaş
+Akyazı
+Alakadı
+Albayrak
+Ardıçlar
+Avşar
+Aydınlık
+Aydoğdu
+Bağlarüstü
+Bağlıca
+Bayat
+Beke
+Beldağı
+Boğaköy
+Boğazköy
+Böke
+Bulduklu
+Çatalçam
+Çavuşköy
+Çengelkayı
+Çiğdemlik
+Çivi
+Dadıköy
+Damudere
+Değirmendere
+Direkli
+Doğantepe
+Duruca
+Eliktekke
+Eskikızılca
+Fındıklı
+Gökdere
+Gözlek
+Halifeli
+Hasabdal
+İbecik
+İlgazi
+İlyas
+İpekköy
+Kaleboğazı
+Kaleköy
+Kapıkaya
+Karaali
+Karaçavuş
+Karaibrahim
+Karakese
+Karaköprü
+Karsan
+Kayabaşı
+Kayacık
+Keçili
+Keşlik
+Kızılca
+Kızılkışlacık
+Kızseki
+Köyceğiz
+Küçükkızılca
+Kutlu
+Kuzgeçe
+Mahmatlar
+Meşeliçiftliğiköyü
+Musaköy
+Ormanözü
+Ortaköy
+Ovasaray
+Özfındıklı
+Saraycık
+Sarayözü
+Sarıalan
+Sarıkız
+Sarılar
+Sarımeşe
+Sarıyar
+Sazköy
+Selimiye
+Sevincer
+Şeyhsadi
+Sıracevizler
+Tatar
+Toklucak
+Tuzluçal
+Tuzsuz
+Ümük
+Uygur
+Vermiş
+Yağcıabdal
+Yağmur
+Yavru
+Yaylacık
+Yeşildere
+Yeşilöz
+Yeşiltepe
+Yıkılgan
+Yıldızköy
+Yolyanı
+Yuvacık
+Yuvaköy
+Ziyaret
+Landmarks
+Amasya University
+Archaeological Museum of Amasya
+Bayezid II Mosque
+Burmali Minare Mosque
+Büyük Aga Medrese
+Farhad and Shirin Monument
+Harsene Kalesi
+Seljuk Burmali Mosque
+Tombs of the kings of Pontus
+History
+Amasya Circular
+Amasya Protocol
+Amasya trials
+Central Army
+Peace of Amasya
+Notable people
+Strabo
+Amirdovlat Amasiatsi
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Strabo&oldid=765588549"
+Categories: 60s BC births24 deaths1st-century BC historiansAncient Greek geographersRoman-era geographersRoman-era Greek historiansAncient Pontic GreeksPeople from AmasyaRoman PontusHistorians from Roman AnatoliaHidden categories: Pages using infobox person with unknown parametersInfobox person using ethnicityArticles with hCardsArticles containing Greek-language textCommons category with local link same as on WikidataArticles with Project Gutenberg linksArticles with Internet Archive linksWikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with SELIBR identifiersWikipedia articles with BNF identifiersWikipedia articles with NLA identifiers
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+Article
+Talk
+Variants
+Views
+Read
+Edit
+View history
+More
+Search
+Navigation
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+Interaction
+HelpAbout WikipediaCommunity portalRecent changesContact page
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page
+Print/export
+Create a bookDownload as PDFPrintable version
+In other projects
+Wikimedia CommonsWikiquoteWikisource
+Languages
+AfrikaansAlemannischالعربيةAragonésAsturianuAzərbaycancaБеларускаяБеларуская (тарашкевіца)‎БългарскиBosanskiBrezhonegCatalàČeštinaCymraegDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisFryskGaeilgeGàidhligGalego한국어Հայերենहिन्दीHrvatskiIdoBahasa IndonesiaInterlinguaÍslenskaItalianoעבריתქართულიҚазақшаLatinaLatviešuLietuviųLumbaartMagyarМакедонскиBahasa MelayuNederlands日本語Norsk bokmålNorsk nynorskOccitanPolskiΠοντιακάPortuguêsRomânăРусскийScotsShqipSicilianuSimple EnglishسنڌيSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaதமிழ்TarandíneไทยTürkçeУкраїнськаاردوTiếng Việt中文
+Edit links
+This page was last modified on 15 February 2017, at 07:53.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view

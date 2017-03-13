@@ -1,0 +1,20 @@
+À	PRP
+propos	NOM
+de	PRP
+quelques	PRO:IND
+inscriptions	NOM
+grecques	ADJ
+du	PRP:det
+recueil	NOM
+épigraphique	ADJ
+noté	VER:pper
+75-08978	NUM
+et	KON
+du	PRP:det
+catalogue	NOM
+d'	PRP
+exposition	NOM
+noté	VER:pper
+75-07691	NUM
+a	VER:pres
+

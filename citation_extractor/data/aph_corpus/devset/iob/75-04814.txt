@@ -1,0 +1,7 @@
+Con	PRE
+riferimento	NOM
+puntuale	ADJ
+ai	PRE:det
+passi	ADJ
+senecani	NOM
+

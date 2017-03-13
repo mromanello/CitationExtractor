@@ -1,0 +1,23 @@
+Avec	PRP
+examen	NOM
+de	PRP
+documents	NOM
+iconographiques	ADJ
+crétois	ADJ
+,	PUN
+mycéniens	ADJ
+et	KON
+chypriotes	ADJ
+attestant	VER:ppre
+du	PRP:det
+motif	NOM
+du	PRP:det
+dieu	NOM
+dans	PRP
+l'	DET:ART
+arbre	NOM
+et	KON
+de	PRP
+son	DET:POS
+culte	NOM
+

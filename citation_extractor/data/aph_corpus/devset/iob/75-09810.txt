@@ -1,0 +1,19 @@
+PVindob	NP
+.	SENT
+
+G	NP
+13293	CD
+a	NN
++	SYM
+b	NN
+,	,
+Hermupolis	NP
+,	,
+Mitte	NP
+7.	CD
+
+Jh	NP
+.	SENT
+
+n.	NP
+Chr.	NP

@@ -1,0 +1,27 @@
+Sur	PRP
+des	PRP:det
+notions	NOM
+,	PUN
+mots	NOM
+ou	KON
+cas	NOM
+pathologiques	ADJ
+,	PUN
+connotés	VER:pper
+tantôt	ADV
+positivement	ADV
+,	PUN
+tantôt	ADV
+négativement	ADV
+,	PUN
+dans	PRP
+le	DET:ART
+«	PUN:cit
+Corpus	NOM
+»	PUN:cit
+et	KON
+chez	PRP
+d'	PRP
+autres	ADJ
+auteurs	NOM
+

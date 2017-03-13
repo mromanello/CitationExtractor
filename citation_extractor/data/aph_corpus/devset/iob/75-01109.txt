@@ -1,0 +1,57 @@
+Rapprochement	NOM
+de	PRP
+deux	NUM
+stèles	NOM
+éditées	VER:pper
+en	PRP
+dernier	ADJ
+lieu	NOM
+par	PRP
+É	NOM
+.	SENT
+
+Bernand	NAM
+,	PUN
+Inscriptions	NOM
+métriques	ADJ
+de	PRP
+l'	DET:ART
+Égypte	NAM
+gréco-romaine	ADJ
+(	PUN
+=>	NOM
+APh	NAM
+40	NUM
+,	PUN
+p.	ABR
+57	NUM
+)	PUN
+,	PUN
+n°	ABR
+57	NUM
+et	KON
+13.	NUM
+
+Toutes	PRO:IND
+deux	NUM
+sont	VER:pres
+représentatives	ADJ
+d'	PRP
+un	DET:ART
+état	NOM
+intermédiaire	ADJ
+de	PRP
+textes	NOM
+ni	KON
+entièrement	ADV
+métriques	ADJ
+ni	KON
+entièrement	ADV
+en	PRP
+prose	NOM
+.	SENT
+
+Voir	VER:infi
+aussi	ADV
+75-01126	NUM
+

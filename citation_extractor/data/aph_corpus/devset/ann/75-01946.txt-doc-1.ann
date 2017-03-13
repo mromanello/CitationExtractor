@@ -1,0 +1,10 @@
+T1	AWORK 55 67	« Coniques »
+T2	AAUTHOR 68 82	d' Apollonius,
+T3	REFSCOPE 106 113	livre 1
+T4	REFSCOPE 135 144	livre 2).
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:1165:1
+#1	AnnotatorNotes R2	urn:cts:cwkb:1165:2
+#2	AnnotatorNotes T2	urn:cts:cwkb:1165
+#3	AnnotatorNotes T1	urn:cts:cwkb:1165.1547

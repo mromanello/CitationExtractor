@@ -1,0 +1,16 @@
+Problèmes	NOM
+de	PRP
+critique	NOM
+textuelle	ADJ
+concernant	VER:ppre
+les	DET:ART
+livres	NOM
+1	NUM
+et	KON
+2	NUM
+du	PRP:det
+«	PUN:cit
+Contre	NAM
+Julien	NAM
+»	PUN:cit
+

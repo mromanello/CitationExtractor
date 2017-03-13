@@ -1,0 +1,6 @@
+T1	AAUTHOR 61 70	Archiloco
+T2	REFAUWORK 191 194	Od.
+T3	REFSCOPE 195 202	9, 433,
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:763.1600:9.433
+#1	AnnotatorNotes T1	urn:cts:cwkb:756

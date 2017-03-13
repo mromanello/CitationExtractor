@@ -1,0 +1,17 @@
+3	NUM
+monnaies	NOM
+grecques	ADJ
+des	PRP:det
+rois	NOM
+de	PRP
+Kition	NAM
+et	KON
+25	NUM
+monnaies	NOM
+romaines	ADJ
+d'	PRP
+Auguste	NAM
+à	PRP
+Septime	NAM
+Sévère	NAM
+

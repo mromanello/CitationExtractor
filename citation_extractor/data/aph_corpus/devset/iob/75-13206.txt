@@ -1,0 +1,22 @@
+Évolution	NOM
+de	PRP
+l'	DET:ART
+instrument	NOM
+de	PRP
+la	DET:ART
+période	NOM
+archaïque	ADJ
+à	PRP
+l'	DET:ART
+époque	NOM
+hellénistique	ADJ
+,	PUN
+sur	PRP
+la	DET:ART
+base	NOM
+des	PRP:det
+sources	NOM
+littéraires	ADJ
+et	KON
+iconographiques	ADJ
+

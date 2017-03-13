@@ -1,0 +1,20 @@
+Étude	NOM
+des	PRP:det
+livres	NOM
+récents	ADJ
+de	PRP
+H.	ABR
+Mouritsen	NAM
+(	PUN
+=>	ABR
+72-11946	NUM
+)	PUN
+et	KON
+de	PRP
+R.	NAM
+Morstein-Marx	NAM
+(	PUN
+=>	ABR
+75-10715	NUM
+)	PUN
+

@@ -1,0 +1,10 @@
+T1	AAUTHOR 14 21	Pétrone
+T2	REFAUWORK 22 25	(c.
+T3	REFSCOPE 26 32	19-26)
+T4	AAUTHOR 97 105	Properce
+T5	REFSCOPE 106 113	(4, 8),
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0024.tlg001:19-26
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0620:4.8
+#2	AnnotatorNotes T4	urn:cts:latinLit:phi0620

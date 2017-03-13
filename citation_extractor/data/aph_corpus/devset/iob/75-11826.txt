@@ -1,0 +1,14 @@
+Concerne	VER:pres
+notamment	ADV
+le	DET:ART
+judaïsme	NOM
+et	KON
+le	DET:ART
+christianisme	NOM
+anciens	ADJ
+,	PUN
+ainsi	KON
+que	KON
+le	DET:ART
+manichéisme	NOM
+

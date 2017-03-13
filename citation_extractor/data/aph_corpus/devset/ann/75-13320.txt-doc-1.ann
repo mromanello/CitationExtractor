@@ -1,0 +1,4 @@
+T1	REFAUWORK 139 148	Cic. dom.
+T2	REFSCOPE 149 156	41, 109
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:1346.4372:41.109

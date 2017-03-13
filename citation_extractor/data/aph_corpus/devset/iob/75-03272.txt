@@ -1,0 +1,37 @@
+Presentazione	NOM
+di	PRE
+un	DET:indef
+PSI	NOM
+inedito	ADJ
+,	PON
+proveniente	ADJ
+da	PRE
+Hermupolis	NOM
+e	CON
+databile	ADJ
+alla	PRE:det
+fine	NOM
+del	PRE:det
+4°	NOM
+o	CON
+al	PRE:det
+5°	NOM
+sec.	NOM
+d.	NOM
+C.	NPR
+,	PON
+che	PRO:rela
+potrebbe	VER:cond
+contenere	VER:infi
+un	DET:indef
+richiamo	NOM
+al	PRE:det
+fr.	ABR
+200	NUM
+K.	LS
+-T	NOM
+.	SENT
+
+di	PRE
+Menandro	NOM
+

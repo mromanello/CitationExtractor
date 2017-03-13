@@ -1,0 +1,33 @@
+Inventaire	NOM
+des	PRP:det
+masques	NOM
+de	PRP
+pierre	NOM
+(	PUN
+1er-2e	VER:pres
+s.	VER:pper
+)	PUN
+conservés	VER:pper
+au	PRP:det
+musée	NOM
+de	PRP
+la	DET:ART
+Civilisation	NOM
+gallo-romaine	ADJ
+de	PRP
+Lyon	NAM
+.	SENT
+
+Bilan	NOM
+sur	PRP
+leur	DET:POS
+nombre	NOM
+(	PUN
+certains	PRO:IND
+semblent	VER:pres
+perdus	VER:pper
+)	PUN
+et	KON
+leur	DET:POS
+provenance	NOM
+

@@ -1,0 +1,10 @@
+Se	SE
+analiza	VLfin
+la	ART
+composición	NC
+dramática	ADJ
+de	PREP
+«	SYM
+Truculentus	NC
+»	SYM
+

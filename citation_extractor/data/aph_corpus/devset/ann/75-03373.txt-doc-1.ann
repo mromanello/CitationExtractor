@@ -1,0 +1,14 @@
+T1	REFAUWORK 77 90	Tacitus, ann.
+T2	REFSCOPE 91 93	14
+T3	AAUTHOR 221 227	Seneca
+T4	AAUTHOR 257 264	Tacitus
+T5	AWORK 274 285	« Octavia »
+T6	REFAUWORK 366 370	ann.
+T7	REFSCOPE 371 379	14, 63 (
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T6 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:cwkb:670.1373:14
+#1	AnnotatorNotes R2	urn:cts:cwkb:467.985:14.63
+#2	AnnotatorNotes T4	urn:cts:latinLit:phi1351
+#3	AnnotatorNotes T5	urn:cts:cwkb:1358.4386
+#4	AnnotatorNotes T3	urn:cts:cwkb:620

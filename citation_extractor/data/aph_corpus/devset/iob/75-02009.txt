@@ -1,0 +1,26 @@
+L'	DET:def
+uso	NOM
+delle	PRE:det
+funzioni	NOM
+logiche	ADJ
+«	PON
+n	ABR
+»-adic	NOM
+(	PON
+n≥3	NOM
+)	PON
+mostra	NOM
+come	CON
+gli	DET:def
+schemi	NOM
+di	PRE
+inferenza	NOM
+così	ADV
+ottenuti	VER:pper
+siano	VER:cpre
+strumenti	NOM
+per	PRE
+le	DET:def
+diagnosi	NOM
+mediche	ADJ
+

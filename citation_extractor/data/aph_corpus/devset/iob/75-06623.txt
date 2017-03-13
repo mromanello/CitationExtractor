@@ -1,0 +1,7 @@
+Suite	NOM
+de	PRP
+l'	DET:ART
+étude	NOM
+notée	VER:pper
+75-06622	NUM
+

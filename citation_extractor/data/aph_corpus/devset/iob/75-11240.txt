@@ -1,0 +1,43 @@
+Conteste	VLfin
+la	ART
+suggestion	VLfin
+d'Alicia	ADJ
+Canto	NC
+d'une	VLfin
+fondation	VLfin
+d'Emerita	NC
+par	ADJ
+César	NP
+en	PREP
+45-44	CARD
+av	NC
+.	FS
+
+J.	NP
+-C	NP
+.	FS
+
+et	PE
+d'une	VLfin
+seconde	VLfin
+«	SYM
+deductio	NC
+»	SYM
+par	ADJ
+Agrippa	NC
+en	PREP
+16-15	CARD
+av	NC
+.	FS
+
+J.	NP
+-C	NP
+.	FS
+
+(	LP
+=>	NC
+60-11319	CARD
+et	PE
+62-12010	CARD
+)	RP
+

@@ -1,0 +1,9 @@
+Archéologue	NOM
+et	KON
+historien	NOM
+roumain	ADJ
+.	SENT
+
+Avec	PRP
+bibliographie	NOM
+

@@ -1,0 +1,25 @@
+Réimpr	NOM
+.	SENT
+
+d'	PRP
+un	DET:ART
+article	NOM
+paru	VER:pper
+dans	PRP
+RecAug	NAM
+1965	NUM
+3	NUM
+:	PUN
+179-206	NUM
+(	PUN
+=>	NOM
+APh	NAM
+37	NUM
+,	PUN
+p.	ABR
+42	NUM
+,	PUN
+1er	NUM
+titre	NOM
+)	PUN
+

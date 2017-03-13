@@ -1,0 +1,18 @@
+Note	NOM
+sur	PRP
+les	DET:ART
+fouilles	NOM
+des	PRP:det
+Universités	NOM
+du	PRP:det
+Michigan	NOM
+et	KON
+du	PRP:det
+Minnesota	NAM
+.	SENT
+
+Vestiges	NOM
+hellénitiques	ADJ
+et	KON
+romains	ADJ
+

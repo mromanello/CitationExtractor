@@ -1,5 +1,0 @@
-T1	AWORK 9 33	« Expositio Psalmorum »,
-T2	AAUTHOR 307 315	Augustin
-T3	AAUTHOR 56 66	Cassiodore
-R1	authorOf Arg1:T3 Arg2:T1	
-T4	AAUTHOR 560 570	Cassiodore

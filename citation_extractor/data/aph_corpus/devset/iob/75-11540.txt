@@ -1,0 +1,22 @@
+Approches	NOM
+quantitatives	ADJ
+des	PRP:det
+données	NOM
+du	PRP:det
+cimetière	NOM
+,	PUN
+en	PRP
+vue	NOM
+d'	PRP
+étudier	VER:infi
+les	DET:ART
+croyances	NOM
+de	PRP
+la	DET:ART
+population	NOM
+et	KON
+les	DET:ART
+processus	NOM
+sociaux	ADJ
+associés	VER:pper
+

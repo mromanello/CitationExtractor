@@ -1,0 +1,15 @@
+Mit	APPR
+Resümees	NN
+der	ART
+Beiträge	NN
+des	ART
+Bandes	NN
+.	$.
+
+Zu	APPR
+Apokalypse	NN
+als	KOKOM
+Thema	NN
+und	KON
+Gattung	NN
+

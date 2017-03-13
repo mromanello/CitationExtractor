@@ -1,0 +1,10 @@
+T1	AWORK 93 103	« Eneide »
+T2	REFAUWORK 112 120	Bucolica
+T3	REFSCOPE 121 122	8
+T4	AAUTHOR 126 135	Virgilio,
+T5	AAUTHOR 223 230	Apuleio
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi001:8
+#1	AnnotatorNotes T4	urn:cts:cwkb:3103
+#2	AnnotatorNotes T5	urn:cts:cwkb:377
+#3	AnnotatorNotes T1	urn:cts:latinLit:phi0690.phi003

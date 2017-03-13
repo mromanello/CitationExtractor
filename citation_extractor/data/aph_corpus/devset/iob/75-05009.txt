@@ -1,0 +1,22 @@
+A	PRE
+proposito	NOM
+del	PRE:det
+volume	NOM
+sui	PRE:det
+frammenti	NOM
+poetici	ADJ
+di	PRE
+Solone	NOM
+,	PON
+a	PRE
+cura	NOM
+di	PRE
+M.	NOM
+Fantuzzi	NPR
+et	NOM
+al.	NOM
+(	PON
+=>	NOM
+72-05391	NUM
+)	PON
+

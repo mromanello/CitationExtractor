@@ -1,0 +1,22 @@
+Sulla	PRE:det
+base	NOM
+delle	PRE:det
+testimonianze	NOM
+letterarie	ADJ
+,	PON
+note	NOM
+sulla	PRE:det
+definizione	NOM
+di	PRE
+numero	NOM
+,	PON
+la	DET:def
+scrittura	NOM
+matematica	ADJ
+e	CON
+il	DET:def
+calcolo	NOM
+presso	PRE
+tali	PRO:demo
+popoli	NOM
+

@@ -1,0 +1,23 @@
+L'	DET:def
+analisi	NOM
+della	PRE:det
+terminologia	NOM
+funeraria	ADJ
+in	PRE
+questo	PRO:demo
+passo	NOM
+giovanneo	ADJ
+induce	VER:pres
+a	PRE
+ritenere	VER:infi
+che	PRO:rela
+la	DET:def
+sepoltura	NOM
+di	PRE
+Gesù	NOM
+fosse	VER:cimp
+caratterizzata	VER:pper
+da	PRE
+onori	NOM
+regali	ADJ
+

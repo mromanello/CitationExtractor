@@ -1,0 +1,13 @@
+T1	AAUTHOR 5 11	Sueton
+T2	REFAUWORK 12 17	(Cal.
+T3	REFSCOPE 18 24	35, 1)
+T4	REFAUWORK 425 428	Dio
+T5	REFSCOPE 429 438	59, 25, 1
+T6	REFAUWORK 605 617	(Sueton Cal.
+T7	REFSCOPE 618 625	49, 2),
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T6 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:cwkb:2861:35.1
+#1	AnnotatorNotes R3	urn:cts:cwkb:2394.7948:49.2
+#2	AnnotatorNotes T1	urn:cts:cwkb:638

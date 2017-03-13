@@ -1,0 +1,20 @@
+Description	NOM
+du	PRP:det
+tumulus	NOM
+de	PRP
+l'	DET:ART
+Helladique	ADJ
+moyen	NOM
+,	PUN
+fouillé	VER:pper
+en	PRP
+1894	NUM
+par	PRP
+S.	ABR
+Wide	NAM
+,	PUN
+et	KON
+publication	NOM
+du	PRP:det
+matériel	ADJ
+

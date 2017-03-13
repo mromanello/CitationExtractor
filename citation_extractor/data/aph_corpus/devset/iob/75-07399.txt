@@ -1,0 +1,45 @@
+Du	PRP:det
+8e	NUM
+s.	NOM
+au	PRP:det
+1er	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+d'	PRP
+après	PRP
+un	DET:ART
+corpus	NOM
+d'	PRP
+une	DET:ART
+vingtaine	NOM
+de	PRP
+documents	NOM
+,	PUN
+dont	PRO:REL
+des	PRP:det
+bilingues	ADJ
+gréco-phéniciennes	NOM
+.	SENT
+
+Le	DET:ART
+tableau	NOM
+est	VER:pres
+composite	ADJ
+:	PUN
+Grecs	NAM
+,	PUN
+Anatoliens	NAM
+,	PUN
+Juifs	NAM
+,	PUN
+Perses	NAM
+(	PUN
+?	SENT
+)	PUN
+

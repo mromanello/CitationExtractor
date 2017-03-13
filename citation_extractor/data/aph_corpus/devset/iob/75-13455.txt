@@ -1,0 +1,6 @@
+Philosophie	NN
+,	$,
+auch	ADV
+zur	APPRART
+Antike	NN
+

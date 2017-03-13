@@ -1,0 +1,6 @@
+Concerne	VER:pres
+les	DET:ART
+archives	NOM
+de	PRP
+Babatha	NAM
+

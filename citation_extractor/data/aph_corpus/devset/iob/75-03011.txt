@@ -1,0 +1,8 @@
+Con	PREP
+el	ART
+texto	NC
+griego	ADJ
+en	PREP
+páginas	NC
+enfrentadas	VLadj
+

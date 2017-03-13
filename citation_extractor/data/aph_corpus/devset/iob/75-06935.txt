@@ -1,0 +1,14 @@
+Analyse	VER:pres
+de	PRP
+différents	ADJ
+aspects	NOM
+du	PRP:det
+roman	NOM
+ancien	ADJ
+par	PRP
+rapprochement	NOM
+avec	PRP
+le	DET:ART
+roman	NOM
+américain	ADJ
+

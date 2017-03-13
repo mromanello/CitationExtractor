@@ -1,0 +1,14 @@
+Panoramica	NOM
+sui	PRE:det
+ritrovamenti	NOM
+di	PRE
+papiri	NOM
+e	CON
+pergamene	NOM
+di	PRE
+Menandro	NOM
+dal	PRE:det
+1844	NUM
+ad	PRE
+oggi	ADV
+

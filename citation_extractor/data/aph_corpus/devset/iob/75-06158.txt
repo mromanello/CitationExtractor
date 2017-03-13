@@ -1,0 +1,26 @@
+Nonostante	PRE
+le	DET:def
+sue	PRO:poss
+contraddizioni	NOM
+e	CON
+la	DET:def
+sua	PRO:poss
+sottomissione	NOM
+al	PRE:det
+potere	NOM
+,	PON
+Velleio	NOM
+in	PRE
+alcune	PRO:indef
+parti	NOM
+della	PRE:det
+sua	PRO:poss
+opera	NOM
+mostra	VER:pres
+comprensione	NOM
+per	PRE
+le	DET:def
+ragioni	NOM
+degli	PRE:det
+Italici	NOM
+

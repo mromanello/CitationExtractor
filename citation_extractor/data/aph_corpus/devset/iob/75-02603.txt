@@ -1,0 +1,10 @@
+Résumé	VER:pper
+d'	PRP
+une	DET:ART
+thèse	NOM
+de	PRP
+doctorat	NOM
+soutenue	VER:pper
+en	PRP
+1998	NUM
+

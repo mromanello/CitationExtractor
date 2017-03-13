@@ -1,0 +1,10 @@
+Concerne	VER:pres
+il	DET:def
+lavoro	NOM
+di	PRE
+Vittorio	NPR
+S.	NOM
+Tomelleri	NOM
+schedato	ADJ
+74-01939	NUM
+

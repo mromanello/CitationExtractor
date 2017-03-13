@@ -1,0 +1,35 @@
+Anche	ADV
+nell'	PRE:det
+iconografia	NOM
+monetale	ADJ
+si	PRO:refl
+registra	VER:pres
+un	DET:indef
+progressivo	ADJ
+sviluppo	NOM
+,	PON
+soprattutto	ADV
+dalla	PRE:det
+fine	NOM
+del	PRE:det
+3°	NOM
+sec.	NOM
+d.	NOM
+C.	NPR
+,	PON
+dell'	PRE:det
+immagine	NOM
+dell'	PRE:det
+esercito	NOM
+come	PRE
+attributo	NOM
+costitutivo	ADJ
+della	PRE:det
+regalità	NOM
+.	SENT
+
+Cf	NOM
+.	SENT
+
+75-09644	NUM
+

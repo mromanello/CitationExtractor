@@ -1,0 +1,10 @@
+T1	REFAUWORK 57 82	Giovanni Crisostomo, Hom.
+T2	REFSCOPE 83 85	67
+T3	AWORK 254 293	« In quadraginta martyres Sebastenses »
+T4	AAUTHOR 480 500	Giovanni Crisostomo,
+T5	REFAUWORK 501 516	In Iohann. hom.
+T6	REFSCOPE 517 523	74-75)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes T4	urn:cts:cwkb:941
+#1	AnnotatorNotes T3	urn:cts:cwkb:784.1844

@@ -1,0 +1,27 @@
+Emendamenti	NOM
+al	PRE:det
+testo	NOM
+callimacheo	ADJ
+risalenti	VER:ppre
+a	PRE
+P.	NOM
+Maas	NOM
+,	PON
+quali	PRO:rela
+si	PRO:pers
+possono	VER:pres
+ricostruire	VER:infi
+dalle	PRE:det
+postille	NOM
+sui	PRE:det
+suoi	PRO:poss
+libri	NOM
+o	CON
+nella	PRE:det
+sua	PRO:poss
+corrispondenza	NOM
+personale	ADJ
+,	PON
+spesso	ADV
+inedita	ADJ
+

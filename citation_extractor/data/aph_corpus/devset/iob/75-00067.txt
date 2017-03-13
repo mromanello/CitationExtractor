@@ -1,0 +1,19 @@
+Resoconto	NOM
+del	PRE:det
+colloquio	NOM
+internazionale	ADJ
+sul	PRE:det
+tema	NOM
+,	PON
+tenutosi	VER:pper
+a	PRE
+Trento	NPR
+il	DET:def
+10-12	NUM
+ottobre	NOM
+2002	NUM
+(	PON
+=>	NOM
+75-00066	NUM
+)	PON
+

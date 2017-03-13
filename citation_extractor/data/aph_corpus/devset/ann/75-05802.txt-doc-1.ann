@@ -1,0 +1,4 @@
+T1	REFAUWORK 517 521	Gal.
+T2	REFSCOPE 522 529	1,11-16
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg2003.tlg017:1.11-1.16

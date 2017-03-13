@@ -1,0 +1,27 @@
+Conception	NOM
+manichéenne	ADJ
+de	PRP
+la	DET:ART
+croix	NOM
+,	PUN
+symbole	NOM
+central	ADJ
+de	PRP
+salut	NOM
+.	SENT
+
+Résumé	VER:pper
+de	PRP
+cette	PRO:DEM
+doctrine	NOM
+chez	PRP
+Augustin	NAM
+(	PUN
+c.	ABR
+Faust	NAM
+.	SENT
+20	NUM
+,	PUN
+2	NUM
+)	PUN
+

@@ -1,0 +1,22 @@
+Voir	VER:infi
+aussi	ADV
+la	DET:ART
+page	NOM
+http	NOM
+:	PUN
+//callimac	NOM
+.	SENT
+vjf	NOM
+.	SENT
+cnrs	NOM
+.	SENT
+fr/Lexis	NOM
+.	SENT
+html	NOM
+par	PRP
+R.	ABR
+Goulet	NAM
+,	PUN
+son	DET:POS
+concepteur	NOM
+

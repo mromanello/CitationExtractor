@@ -1,7 +1,0 @@
-T1	AWORK 31 47	« Confessiones »
-T2	AAUTHOR 0 10	Augustinus
-T3	REFSCOPE 18 26	11. Buch
-R1	Scope Arg1:T1 Arg2:T3	
-R2	authorOf Arg1:T2 Arg2:T1	
-#1	AnnotatorNotes R1	http://cwkb.webfactional.com/cwkb/works/8404/11
-T4	AAUTHOR 285 295	Augustinus

@@ -1,0 +1,27 @@
+L'	DET:def
+insieme	ADV
+dell'	PRE:det
+opera	NOM
+eusebiana	ADJ
+mostra	NOM
+,	PON
+accanto	ADV
+a	PRE
+scarso	ADJ
+interesse	NOM
+per	PRE
+temi	NOM
+prettamente	ADV
+speculativi	ADJ
+,	PON
+una	DET:indef
+coerente	ADJ
+prospettiva	NOM
+teologica	ADJ
+fondata	VER:pper
+sull'	PRE:det
+«	PON
+economia	NOM
+»	PON
+storica	ADJ
+

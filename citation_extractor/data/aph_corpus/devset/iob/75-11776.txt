@@ -1,0 +1,18 @@
+Fortsetzung	NN
+zu	APPR
+75-11775	CARD
+.	$.
+
+Zu	APPR
+Münzen	NN
+und	KON
+Kulten	NN
+des	ART
+8.	ADJA
+bis	KON
+16.	ADJA
+
+oberägyptischen	ADJA
+Gaus	NN
+.	$.
+

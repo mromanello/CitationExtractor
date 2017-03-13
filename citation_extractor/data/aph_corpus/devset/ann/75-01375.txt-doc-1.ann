@@ -1,0 +1,8 @@
+T1	REFAUWORK 26 43	Sallustio, Catil.
+T2	REFSCOPE 44 46	5,
+T3	AWORK 91 106	« Pro Caelio »,
+T4	AAUTHOR 161 169	Cicerone
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0631.phi001:5
+#1	AnnotatorNotes T4	urn:cts:cwkb:431
+#2	AnnotatorNotes T3	urn:cts:greekLit:tlg0540.tlg005

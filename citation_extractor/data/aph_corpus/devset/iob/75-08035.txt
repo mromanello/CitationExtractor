@@ -1,0 +1,20 @@
+L'	DET:ART
+étude	NOM
+met	VER:pres
+en	PRP
+évidence	NOM
+la	DET:ART
+précocité	NOM
+de	PRP
+l'	DET:ART
+usage	NOM
+domestique	ADJ
+de	PRP
+la	DET:ART
+vaisselle	NOM
+de	PRP
+verre	NOM
+sur	PRP
+le	DET:ART
+littoral	NOM
+

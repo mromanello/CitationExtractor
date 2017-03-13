@@ -1,0 +1,43 @@
+El	ART
+cargo	NC
+de	PREP
+«	SYM
+praefectus	NC
+uehiculorum	NC
+»	SYM
+surgió	VLfin
+para	CSUBI
+satisfacer	VLinf
+las	ART
+necesidades	NC
+logísticas	NC
+del	PDEL
+ejército	NC
+romano	VLfin
+en	PREP
+campaña	NC
+.	FS
+
+A partir de	PREP
+fuentes	NC
+primordialmente	ADV
+literarias	ADJ
+y	CC
+epigráficas	ADJ
+,	CM
+se	SE
+consideran	VLfin
+las	ART
+dificultades	NC
+de	PREP
+abastecimiento	NC
+de	PREP
+los	ART
+ejércitos	NC
+romanos	ADJ
+durante	PREP
+el	ART
+período	NC
+del	PDEL
+Principado	NC
+

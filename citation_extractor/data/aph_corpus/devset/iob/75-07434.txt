@@ -1,0 +1,15 @@
+Auch	ADV
+zu	APPR
+einigen	PIAT
+lateinischen	ADJA
+Toponymen	NN
+aus	APPR
+dem	ART
+Tal	NN
+von	APPR
+Benasque	NE
+in	APPR
+den	ART
+ostaragonesischen	ADJA
+Pyrenäen	NN
+

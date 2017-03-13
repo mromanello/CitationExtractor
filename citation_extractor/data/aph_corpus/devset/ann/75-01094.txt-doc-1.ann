@@ -1,0 +1,7 @@
+T1	REFSCOPE 70 78	v. 87-92
+T2	AAUTHOR 84 91	Cirillo
+T3	REFAUWORK 92 97	(Cat.
+T4	REFSCOPE 98 104	4, 23)
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:766.1621:4.23
+#1	AnnotatorNotes T2	urn:cts:cwkb:820

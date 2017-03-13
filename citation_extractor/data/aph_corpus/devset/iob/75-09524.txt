@@ -1,0 +1,30 @@
+Description	NOM
+de	PRP
+vingt-six	NUM
+monnaies	NOM
+,	PUN
+datées	VER:pper
+du	PRP:det
+2e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+au	PRP:det
+6e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+découvertes	VER:pper
+entre	PRP
+1982	NUM
+et	KON
+1990	NUM
+

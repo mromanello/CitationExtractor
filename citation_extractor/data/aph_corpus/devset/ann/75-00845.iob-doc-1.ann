@@ -1,3 +1,0 @@
-T1	AWORK 44 59	« Confessions »
-T2	AAUTHOR 63 71	Augustin
-R1	authorOf Arg1:T2 Arg2:T1	

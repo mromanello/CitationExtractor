@@ -1,0 +1,36 @@
+Dettagliata	VER:pper
+rassegna	NOM
+degli	PRE:det
+interventi	NOM
+presentati	VER:pper
+all'	PRE:det
+incontro	NOM
+di	PRE
+studio	NOM
+sulle	PRE:det
+problematiche	NOM
+fondazionali	ADJ
+delle	PRE:det
+scienze	NOM
+formali	ADJ
+(	PON
+Foundations	NOM
+of	NPR
+the	NOM
+formal	ADJ
+sciences	NOM
+)	PON
+,	PON
+tenuto	VER:pper
+a	PRE
+Bonn	NPR
+nel	PRE:det
+febbraio	NOM
+2003.	ORD
+
+Riguarda	VER:pres
+anche	ADV
+il	DET:def
+pensiero	NOM
+antico	ADJ
+

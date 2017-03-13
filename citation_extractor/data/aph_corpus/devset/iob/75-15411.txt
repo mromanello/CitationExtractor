@@ -1,0 +1,17 @@
+Hommage	NOM
+à	PRP
+cette	PRO:DEM
+archéologue	NOM
+libanaise	ADJ
+,	PUN
+associée	VER:pper
+notamment	ADV
+à	PRP
+la	DET:ART
+fouille	NOM
+franco-libano-polonaise	ADJ
+du	PRP:det
+site	NOM
+de	PRP
+Chhîm	NAM
+

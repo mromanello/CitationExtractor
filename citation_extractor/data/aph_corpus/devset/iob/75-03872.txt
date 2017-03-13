@@ -1,0 +1,40 @@
+Discussione	NOM
+di	PRE
+POxy	NOM
+.	SENT
+
+2442	NUM
+fr.	ABR
+7	NUM
+=	NOM
+Pind	NOM
+.	SENT
+
+Pae.	ABR
+fr.	ABR
+dub.	ABR
+S7	NOM
+Rutherford	NOM
+e	CON
+di	PRE
+altri	PRO:indef
+frammenti	NOM
+riconducibili	ADJ
+ai	PRE:det
+«	PON
+Prosodia	NOM
+»	PON
+di	PRE
+Pindaro	NOM
+e	CON
+ad	PRE
+altre	ADJ
+opere	NOM
+pindariche	ADJ
+legate	VER:pper
+a	PRE
+realtà	NOM
+cultuali	ADJ
+dell'	PRE:det
+Argolide	NOM
+

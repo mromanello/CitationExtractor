@@ -1,0 +1,35 @@
+Se	SE
+aborda	VLfin
+la	ART
+figura	NC
+de	PREP
+Cleopatra	NC
+VII	CARD
+a través de	PREP
+las	ART
+fuentes	NC
+antiguas	ADJ
+,	CM
+poniéndose	VLadj
+de	PREP
+relieve	NC
+los	ART
+aspectos	NC
+,	CM
+en	PREP
+ocasiones	NC
+ya	ADV
+«	SYM
+románticos	ADJ
+»	SYM
+,	CM
+que	CQUE
+acabarían	VLfin
+plasmándose	VLadj
+en	PREP
+el	ART
+personaje	NC
+de	PREP
+Shakespeare	NP
+.	FS
+

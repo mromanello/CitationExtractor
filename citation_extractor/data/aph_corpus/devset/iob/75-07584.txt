@@ -1,0 +1,11 @@
+Concerne	VER:pres
+notamment	ADV
+l'	DET:ART
+édition	NOM
+d'	PRP
+Hippocrate	NAM
+procurée	VER:pper
+par	PRP
+cet	PRO:DEM
+érudit	NOM
+

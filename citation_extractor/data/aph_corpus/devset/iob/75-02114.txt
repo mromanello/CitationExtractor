@@ -1,0 +1,25 @@
+Critique	NOM
+de	PRP
+la	DET:ART
+thèse	NOM
+de	PRP
+F.	ABR
+Clark	NAM
+(	PUN
+=>	ABR
+74-02438	NUM
+)	PUN
+,	PUN
+selon	PRP
+laquelle	PRO:REL
+les	DET:ART
+«	PUN:cit
+Dialogues	NOM
+»	PUN:cit
+ne	ADV
+seraient	VER:cond
+grégoriens	ADJ
+qu'	KON
+en	PRP
+apparence	NOM
+

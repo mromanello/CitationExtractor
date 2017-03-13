@@ -1,0 +1,13 @@
+Korrekturen	NN
+und	KON
+Anmerkungen	NN
+zur	APPRART
+Edition	NN
+von	APPR
+I.	NE
+Andorlini	NE
+(	$(
+=>	NN
+75-09685	CARD
+)	$(
+

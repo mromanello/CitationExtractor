@@ -1,0 +1,8 @@
+T1	AAUTHOR 191 214	Dionigi di Alicarnasso,
+T2	AAUTHOR 215 226	Quintiliano
+T3	REFAUWORK 331 336	(sat.
+T4	REFSCOPE 337 343	1, 4).
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:1368.4417:1.4
+#1	AnnotatorNotes T2	urn:cts:cwkb:602
+#2	AnnotatorNotes T1	urn:cts:greekLit:tlg0081

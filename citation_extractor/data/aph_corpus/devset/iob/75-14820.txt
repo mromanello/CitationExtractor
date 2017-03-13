@@ -1,0 +1,12 @@
+Séance	NOM
+du	PRP:det
+7	NUM
+février	NOM
+2003.	SENT
+
+Dépouillé	VER:pper
+dans	PRP
+le	DET:ART
+vol.	ABR
+75	NUM
+

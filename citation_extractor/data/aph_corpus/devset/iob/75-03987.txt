@@ -1,0 +1,12 @@
+Note	ADJ
+critiche	NOM
+ad	PRE
+Alc.	NOM
+I	DET:def
+118b-119a	NOM
+alla	PRE:det
+luce	NOM
+della	PRE:det
+testimonianza	NOM
+aristidea	ADJ
+

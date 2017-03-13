@@ -1,0 +1,9 @@
+Fin	NOM
+du	PRP:det
+4e	NUM
+s.	NOM
+-début	ADJ
+du	PRP:det
+5e	NUM
+s	NOM
+

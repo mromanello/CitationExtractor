@@ -1,0 +1,37 @@
+Groupe	NOM
+de	PRP
+6	NUM
+tombes	NOM
+parallèles	ADJ
+en	PRP
+«	PUN:cit
+L	NUM
+»	PUN:cit
+(	PUN
+T	VER:pper
+521-526	NUM
+)	PUN
+du	PRP:det
+cimetière	NOM
+ouest	ADJ
+d'	PRP
+Amathonte	NAM
+,	PUN
+fouillées	VER:pper
+en	PRP
+1986.	DET:POS
+
+Catalogue	NOM
+de	PRP
+la	DET:ART
+centaine	NOM
+d'	PRP
+objets	NOM
+de	PRP
+T	NAM
+521	NUM
+(	PUN
+majoritairement	ADV
+céramiques	ADJ
+)	PUN
+

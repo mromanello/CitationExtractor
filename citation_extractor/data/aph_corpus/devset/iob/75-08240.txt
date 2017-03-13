@@ -1,0 +1,11 @@
+Erster	ADJA
+Zwischenbericht	NN
+:	$.
+Transeuphratène	ADJA
+2	CARD
+(	$(
+1990	CARD
+)	$(
+:	$.
+157-167	CARD
+

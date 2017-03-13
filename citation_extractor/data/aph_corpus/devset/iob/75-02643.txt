@@ -1,0 +1,20 @@
+Osservazioni	NOM
+sulla	PRE:det
+poetica	ADJ
+oraziana	NOM
+a	PRE
+partire	VER:infi
+dall'	PRE:det
+esame	NOM
+dell'	PRE:det
+ode	NOM
+;	PON
+il	DET:def
+rapporto	NOM
+con	PRE
+Pindaro	NOM
+e	CON
+la	DET:def
+componente	NOM
+alessandrino-callimachea	ADJ
+

@@ -1,0 +1,11 @@
+T1	AAUTHOR 22 31	Tite-Live
+T2	REFSCOPE 32 42	(41, 8, 9)
+T3	AAUTHOR 436 443	Cicéron
+T4	REFAUWORK 444 450	(Balb.
+T5	REFSCOPE 451 457	19-37)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:524:41.8.9
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0474.phi026:19-37
+#2	AnnotatorNotes T3	urn:cts:cwkb:431
+#3	AnnotatorNotes T1	urn:cts:cwkb:524

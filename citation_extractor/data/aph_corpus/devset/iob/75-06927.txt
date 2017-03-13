@@ -1,0 +1,11 @@
+Sobre	PREP
+las	ART
+relaciones	NC
+entre	PREP
+la	ART
+historiografía	NC
+griega	ADJ
+y	CC
+la	ART
+oriental	NC
+

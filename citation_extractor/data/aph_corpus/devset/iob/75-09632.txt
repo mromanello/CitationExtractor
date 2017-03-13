@@ -1,0 +1,12 @@
+Concerne	VER:pres
+sia	CON
+la	DET:def
+produzione	NOM
+italica	ADJ
+,	PON
+sia	CON
+quella	PRO:demo
+magnogreca	NOM
+e	CON
+siceliota	NOM
+

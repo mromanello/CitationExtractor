@@ -1,0 +1,12 @@
+Tombes	NOM
+9	NUM
+et	KON
+10	NUM
+fouillées	VER:pper
+en	PRP
+1986.	DET:POS
+
+Catalogue	NOM
+des	PRP:det
+trouvailles	NOM
+

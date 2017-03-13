@@ -1,0 +1,3 @@
+T1	REFAUWORK 238 259	Aelius Aristides, Or.
+T2	REFSCOPE 260 270	3, 241-243
+R1	Scope Arg1:T1 Arg2:T2

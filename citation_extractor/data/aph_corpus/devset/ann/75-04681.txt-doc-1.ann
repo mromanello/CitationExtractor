@@ -1,0 +1,16 @@
+T1	AAUTHOR 15 27	Propertius '
+T2	AWORK 48 62	« Monobiblos »
+T3	AWORK 239 249	« Gallus »
+T4	REFSCOPE 250 257	(1, 1 ;
+T5	REFSCOPE 258 264	1, 5 ;
+T6	REFSCOPE 265 272	1, 13 ;
+T7	REFSCOPE 273 280	1, 20 ;
+T8	REFSCOPE 281 287	1, 21)
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T3 Arg2:T5
+R3	Scope Arg1:T3 Arg2:T6
+R4	Scope Arg1:T3 Arg2:T7
+R5	Scope Arg1:T3 Arg2:T8
+#0	AnnotatorNotes T2	urn:cts:greekLit:tlg0032.tlg002
+#1	AnnotatorNotes T3	urn:cts:greekLit:tlg0062.tlg019
+#2	AnnotatorNotes T1	urn:cts:latinLit:phi0620

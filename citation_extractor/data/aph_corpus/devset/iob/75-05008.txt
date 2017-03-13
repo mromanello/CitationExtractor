@@ -1,0 +1,12 @@
+Neuinterpretation	NN
+der	ART
+bei	APPR
+Demosthenes	NN
+46	CARD
+,	$,
+16	CARD
+überlieferten	ADJA
+Bestimmungen	NN
+Solons	NN
+.	$.
+

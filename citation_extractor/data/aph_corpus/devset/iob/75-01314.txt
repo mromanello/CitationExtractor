@@ -1,0 +1,25 @@
+La	DET:def
+storiografia	NOM
+di	PRE
+Ferrero	NPR
+,	PON
+l'	DET:def
+influenza	NOM
+e	CON
+la	DET:def
+fortuna	NOM
+della	PRE:det
+sua	PRO:poss
+opera	NOM
+maggiore	ADJ
+«	PON
+Grandezza	NOM
+e	CON
+decadenza	NOM
+di	PRE
+Roma	NPR
+»	PON
+(	PON
+1902	NUM
+)	PON
+

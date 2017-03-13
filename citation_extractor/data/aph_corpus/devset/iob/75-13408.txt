@@ -1,0 +1,25 @@
+Raccolta	NOM
+di	PRE
+dati	NOM
+per	PRE
+un	DET:indef
+confronto	NOM
+tra	PRE
+il	DET:def
+formulario	NOM
+latino	ADJ
+e	CON
+quello	PRO:demo
+greco	NOM
+in	PRE
+procedure	NOM
+legali	ADJ
+e	CON
+atti	NOM
+amministrativi	ADJ
+relativi	ADJ
+ai	PRE:det
+benefici	NOM
+dell'	PRE:det
+imperatore	NOM
+

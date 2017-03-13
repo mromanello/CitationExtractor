@@ -1,0 +1,10 @@
+Zu	APPR
+antiken	ADJA
+Äusserungen	NN
+,	$,
+insbesondere	ADV
+bei	APPR
+Aristoteles	NN
+und	KON
+Cicero	NN
+

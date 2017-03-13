@@ -1,0 +1,20 @@
+Efficacia	NOM
+dell'	PRE:det
+«	PON
+emptio	ADJ
+uenditio	NOM
+»	PON
+conclusa	VER:pper
+per	PRE
+iscritto	NOM
+quale	PRO:rela
+emerge	VER:pres
+dal	PRE:det
+quadro	NOM
+sistematico	ADJ
+delle	PRE:det
+«	PON
+Istituzioni	NOM
+»	PON
+giustinianee	ADJ
+

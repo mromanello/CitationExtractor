@@ -1,0 +1,6 @@
+T1	AAUTHOR 855 862	Luciano
+T2	REFAUWORK 863 868	(Ind.
+T3	REFSCOPE 869 873	13),
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0074.tlg002:13
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0062

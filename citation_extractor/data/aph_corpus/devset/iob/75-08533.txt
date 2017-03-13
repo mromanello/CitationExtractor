@@ -1,0 +1,27 @@
+Relazione	NOM
+dei	PRE:det
+lavori	NOM
+di	PRE
+scavo	NOM
+preliminare	ADJ
+condotti	VER:pper
+tra	PRE
+il	DET:def
+1996	NUM
+e	CON
+il	DET:def
+1997	NUM
+nell'	PRE:det
+area	NOM
+NNE	NOM
+del	PRE:det
+sito	NOM
+di	PRE
+Segesta	NOM
+.	SENT
+
+Bibliografia	NOM
+alle	PRE:det
+p.	NOM
+543-555	NUM
+

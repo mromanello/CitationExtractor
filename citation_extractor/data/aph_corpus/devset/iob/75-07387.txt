@@ -1,0 +1,17 @@
+Per	PRE
+le	DET:def
+precedenti	ADJ
+rassegne	NOM
+=>	NOM
+58-05650	NUM
+,	PON
+65-08911	NUM
+,	PON
+65-08912	NUM
+,	PON
+65-08913	NUM
+,	PON
+71-07881	NUM
+e	CON
+71-07882	NUM
+

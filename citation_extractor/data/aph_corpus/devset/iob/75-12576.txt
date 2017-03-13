@@ -1,0 +1,4 @@
+Typologie	NOM
+et	KON
+chronologie	NOM
+

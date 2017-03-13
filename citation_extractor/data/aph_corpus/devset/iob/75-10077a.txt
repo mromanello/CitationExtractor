@@ -1,0 +1,22 @@
+Histoire	NOM
+de	PRP
+la	DET:ART
+notion	NOM
+de	PRP
+crise	NOM
+.	SENT
+
+L'	DET:ART
+utilisation	NOM
+de	PRP
+ce	PRO:DEM
+concept	NOM
+dans	PRP
+l'	DET:ART
+historiographie	NOM
+actuelle	ADJ
+de	PRP
+la	DET:ART
+République	NOM
+tardive	ADJ
+

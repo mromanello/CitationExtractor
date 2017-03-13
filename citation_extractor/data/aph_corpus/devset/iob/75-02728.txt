@@ -1,0 +1,8 @@
+Concerne	VER:pres
+notamment	ADV
+les	DET:ART
+spectacles	NOM
+publics	ADJ
+d'	PRP
+Antioche	NAM
+

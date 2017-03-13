@@ -1,0 +1,8 @@
+T1	REFAUWORK 577 582	(inv.
+T2	REFSCOPE 583 590	00-87).
+T3	REFAUWORK 648 653	(inv.
+T4	REFSCOPE 654 661	65-199)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:431.900:00-87
+#1	AnnotatorNotes R2	urn:cts:cwkb:431.900:65-199

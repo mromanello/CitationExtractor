@@ -1,0 +1,28 @@
+In	PRE
+margine	NOM
+al	PRE:det
+volume	NOM
+curato	VER:pper
+da	PRE
+Y.	NOM
+Le	NOM
+Bohec	NOM
+e	CON
+J.	NOM
+-F	NOM
+.	SENT
+
+Berthet	NOM
+sui	PRE:det
+discorsi	NOM
+di	PRE
+Adriano	NPR
+all'	PRE:det
+armata	NOM
+d'	PRE
+Africa	NPR
+(	PON
+=>	NOM
+75-02174	NUM
+)	PON
+

@@ -1,0 +1,9 @@
+Analyse	VER:pres
+littéraire	ADJ
+et	KON
+sociale	ADJ
+du	PRP:det
+théâtre	NOM
+des	PRP:det
+4e-6e	NOM
+s.	ADJ

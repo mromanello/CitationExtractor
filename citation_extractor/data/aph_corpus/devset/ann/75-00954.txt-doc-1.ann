@@ -1,0 +1,10 @@
+T1	REFAUWORK 62 76	Bellum Africum
+T2	REFSCOPE 77 82	22-23
+T3	AAUTHOR 148 163	Pompeius Magnus
+T4	REFAUWORK 523 525	BC
+T5	REFSCOPE 526 541	2, 28, 107-109.
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:2403.7962:22-23
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0551.tlg017:2.28.107-2.28.109
+#2	AnnotatorNotes T3	urn:cts:cwkb:2470

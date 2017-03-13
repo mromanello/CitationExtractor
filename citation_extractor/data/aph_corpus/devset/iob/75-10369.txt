@@ -1,0 +1,15 @@
+Les	DET:ART
+Antes	NAM
+et	KON
+les	DET:ART
+Sclavènes	NAM
+,	PUN
+essentiellement	ADV
+dans	PRP
+le	DET:ART
+«	PUN:cit
+Strategikon	NAM
+»	PUN:cit
+de	PRP
+Procope	NAM
+

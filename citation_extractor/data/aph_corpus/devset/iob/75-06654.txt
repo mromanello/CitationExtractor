@@ -1,0 +1,24 @@
+Breve	ADJ
+repaso	VLfin
+de	PREP
+los	ART
+distintos	ADJ
+valores	NC
+con	PREP
+que	CQUE
+se	SE
+presenta	VLfin
+el	ART
+concepto	NC
+de	PREP
+«	SYM
+amigo	NC
+»	SYM
+en	PREP
+los	ART
+«	SYM
+Carmina	NP
+Latina	NC
+epigraphica	ADJ
+»	SYM
+

@@ -1,0 +1,17 @@
+Analisi	NOM
+dei	PRE:det
+19	NUM
+passi	ADJ
+che	PRO:rela
+utilizzano	VER:pres
+il	DET:def
+traducente	VER:ppre
+greco	NOM
+e	CON
+confronto	NOM
+degli	PRE:det
+stessi	ADJ
+con	PRE
+il	DET:def
+TM	NOM
+

@@ -1,0 +1,12 @@
+Liste	NOM
+des	PRP:det
+communications	NOM
+,	PUN
+conférences	NOM
+,	PUN
+congrès	NOM
+et	KON
+soutenances	NOM
+de	PRP
+thèses	NOM
+

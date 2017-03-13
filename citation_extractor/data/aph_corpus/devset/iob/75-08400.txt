@@ -1,0 +1,21 @@
+Considerazioni	NOM
+critiche	ADJ
+sulla	PRE:det
+geomorfologia	NOM
+originaria	ADJ
+,	PON
+sugli	PRE:det
+scavi	NOM
+condotti	VER:pper
+,	PON
+sulle	PRE:det
+ipotesi	NOM
+interpretative	ADJ
+del	PRE:det
+complesso	NOM
+dei	PRE:det
+due	ADJ
+edifici	NOM
+di	PRE
+Moregine	NOM
+

@@ -1,0 +1,28 @@
+En	PRP
+appendice	NOM
+(	PUN
+p.	ABR
+299-300	NUM
+)	PUN
+:	PUN
+étude	NOM
+typologique	ADJ
+des	PRP:det
+inscriptions	NOM
+dans	PRP
+les	DET:ART
+romans	NOM
+gréco-romains	ADJ
+.	SENT
+
+Elles	PRO:PER
+jouent	VER:pres
+principalement	ADV
+un	DET:ART
+rôle	NOM
+dans	PRP
+les	DET:ART
+scènes	NOM
+de	PRP
+reconnaissance	NOM
+

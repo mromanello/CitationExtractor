@@ -1,0 +1,20 @@
+Les	DET:ART
+interprétations	NOM
+des	PRP:det
+mythes	NOM
+oniriques	ADJ
+par	PRP
+Artémidore	NAM
+permettent	VER:pres
+d'	PRP
+éclairer	VER:infi
+le	DET:ART
+sens	NOM
+des	PRP:det
+images	NOM
+mythologiques	ADJ
+dans	PRP
+l'	DET:ART
+art	NOM
+funéraire	ADJ
+

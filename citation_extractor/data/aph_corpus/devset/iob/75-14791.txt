@@ -1,0 +1,21 @@
+Journée	NOM
+organisée	VER:pper
+à	PRP
+Toulouse	NAM
+le	DET:ART
+29	NUM
+mars	NOM
+2003.	SENT
+
+Pour	PRP
+1	NUM
+=>	ABR
+74-17441	NUM
+.	SENT
+
+Dépouillé	VER:pper
+dans	PRP
+le	DET:ART
+vol.	ABR
+75	NUM
+

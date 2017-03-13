@@ -1,0 +1,18 @@
+La	DET:def
+lettera	NOM
+,	PON
+in	PRE
+parte	NOM
+inedita	ADJ
+,	PON
+riguarda	VER:pres
+una	DET:indef
+silloge	NOM
+di	PRE
+iscrizioni	NOM
+aquileesi	ADJ
+parzialmente	ADV
+confluita	VER:pper
+nel	PRE:det
+CIL	NOM
+

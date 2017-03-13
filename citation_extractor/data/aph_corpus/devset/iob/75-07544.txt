@@ -1,0 +1,24 @@
+Riproduzione	NOM
+fotografica	ADJ
+di	PRE
+alcune	PRO:indef
+note	NOM
+manoscritte	ADJ
+in	PRE
+greco	NOM
+nel	PRE:det
+volume	NOM
+Roma	NPR
+,	PON
+Bibl	NOM
+.	SENT
+
+Casanatense	ABR
+,	PON
+vol.	ABR
+misc	NOM
+.	SENT
+
+288	NUM
+n°	ABR
+3	NUM

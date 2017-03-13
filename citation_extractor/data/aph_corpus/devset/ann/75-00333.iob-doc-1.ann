@@ -1,7 +1,0 @@
-T1	AWORK 309 326	« Métamorphoses »
-T3	REFSCOPE 194 201	livre 2
-T5	REFSCOPE 295 303	livre 11
-R1	Scope Arg1:T1 Arg2:T5	
-R2	Scope Arg1:T1 Arg2:T3	
-#1	AnnotatorNotes R1	http://cwkb.webfactional.com/cwkb/works/762/11
-#2	AnnotatorNotes R2	http://cwkb.webfactional.com/cwkb/works/762/2

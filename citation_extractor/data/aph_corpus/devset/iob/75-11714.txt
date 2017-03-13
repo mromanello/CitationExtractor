@@ -1,0 +1,18 @@
+Zur	APPRART
+Frage	NN
+,	$,
+ob	KOUS
+sich	PRF
+je	ADV
+nach	APPR
+Verwendungszweck	NN
+Unterschiede	NN
+in	APPR
+der	ART
+Auswahl	NN
+der	ART
+Keramik	NN
+beobachten	VVINF
+lassen	VVFIN
+.	$.
+

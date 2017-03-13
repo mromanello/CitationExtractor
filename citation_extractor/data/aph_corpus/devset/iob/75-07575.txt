@@ -1,0 +1,17 @@
+Sulle	PRE:det
+traduzioni	NOM
+armene	ADJ
+di	PRE
+testi	NOM
+greci	ADJ
+,	PON
+a	PRE
+partire	VER:infi
+dalla	PRE:det
+prima	ADJ
+metà	NOM
+del	PRE:det
+5°	NOM
+s.	NOM
+a.	NOM
+C.	NPR

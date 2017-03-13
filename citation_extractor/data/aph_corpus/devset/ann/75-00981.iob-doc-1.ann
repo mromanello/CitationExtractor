@@ -1,8 +1,0 @@
-T1	REFAUWORK 390 395	Barn.
-T2	REFSCOPE 396 401	4.6 b
-R1	Scope Arg1:T1 Arg2:T2	
-#1	AnnotatorNotes R1	http://cwkb.webfactional.com/cwkb/works/1796/4.6b
-T3	AAUTHOR 46 54	Barnabas
-T4	AAUTHOR 203 211	Barnabas
-R2	authorOf Arg1:T4 Arg2:T1	
-T5	AAUTHOR 580 588	Barnabas

@@ -1,0 +1,31 @@
+Fouilles	NOM
+ponctuelles	ADJ
+de	PRP
+sauvetage	NOM
+conduites	VER:pper
+en	PRP
+2002	NUM
+par	PRP
+l'	DET:ART
+École	NOM
+française	ADJ
+de	PRP
+Rome	NAM
+.	SENT
+
+Vestiges	NOM
+domestiques	ADJ
+,	PUN
+canalisations	NOM
+et	KON
+citernes	NOM
+,	PUN
+de	PRP
+l'	DET:ART
+époque	NOM
+archaïque	ADJ
+à	PRP
+l'	DET:ART
+époque	NOM
+moderne	ADJ
+

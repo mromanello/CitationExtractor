@@ -1,0 +1,9 @@
+Profilo	NOM
+di	PRE
+questo	PRO:demo
+archeologo	NOM
+piemontese	ADJ
+(	PON
+1856-1928	NUM
+)	PON
+

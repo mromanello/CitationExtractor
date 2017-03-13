@@ -1,0 +1,11 @@
+Panoramica	NOM
+storica	ADJ
+,	PON
+dalla	PRE:det
+prima	ADJ
+età	NOM
+imperiale	ADJ
+al	PRE:det
+periodo	NOM
+tardoantico	NOM
+

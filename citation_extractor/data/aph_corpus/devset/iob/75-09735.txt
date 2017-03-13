@@ -1,0 +1,100 @@
+In	APPR
+einem	ART
+Notizbuch	NN
+,	$,
+das	PRELS
+heute	ADV
+in	APPR
+der	ART
+Sackler	NN
+Library	NE
+in	APPR
+Oxford	NE
+aufbewahrt	VVPP
+wird	VAFIN
+,	$,
+hat	VAFIN
+J.	APPR
+G.	NE
+Tait	NE
+eine	ART
+erste	ADJA
+Umschrift	NN
+von	APPR
+Ostraka	NN
+vorgenommen	VVPP
+,	$,
+die	PRELS
+später	ADJD
+als	KOKOM
+OAshm	NN
+.	$.
+
+Shelton	NN
+veröffentlicht	VVPP
+wurden	VAFIN
+.	$.
+
+Sie	PPER
+ist	VAFIN
+insbesondere	ADV
+dadurch	PAV
+von	APPR
+Interesse	NN
+,	$,
+dass	KOUS
+einige	PIS
+der	ART
+Texte	NN
+damals	ADV
+in	APPR
+einem	ART
+besseren	ADJA
+Zustand	NN
+waren	VAFIN
+.	$.
+
+Seine	PPOSAT
+Beobachtungen	NN
+sind	VAFIN
+für	APPR
+folgende	ADJA
+Stücke	NN
+interessant	ADJD
+:	$.
+OAshm	NN
+.	$.
+
+Shelton	NN
+2.	ADV
+
+12.	ADJA
+
+17.	ADJA
+
+19.	ADJA
+
+26.	ADJA
+
+30.	ADJA
+
+42.	ADJA
+
+58.	ADJA
+
+59.	ADJA
+
+202.	ADJA
+
+204.	ADJA
+
+205.	ADJA
+
+207.	ADJA
+
+209.	ADJA
+
+211.	ADJA
+
+218.	ADJA
+

@@ -1,0 +1,18 @@
+«	PUN:cit
+Status	NAM
+quaestionis	VER:simp
+»	PUN:cit
+de	PRP
+la	DET:ART
+recherche	NOM
+archéologique	ADJ
+en	PRP
+langue	NOM
+italienne	ADJ
+parue	VER:pper
+au	PRP:det
+cours	NOM
+des	PRP:det
+dernières	ADJ
+années	NOM
+

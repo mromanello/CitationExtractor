@@ -1,7 +1,0 @@
-T1	REFSCOPE 40 51	(2, 24, 6 ;
-T2	REFSCOPE 52 64	2, 25, 7-8 ;
-T3	REFSCOPE 65 74	4, 24, 1)
-T4	AAUTHOR 33 39	Agazia
-R2	Scope Arg1:T4 Arg2:T2	
-R1	Scope Arg1:T4 Arg2:T1	
-R3	Scope Arg1:T4 Arg2:T3	

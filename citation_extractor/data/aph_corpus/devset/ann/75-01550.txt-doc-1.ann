@@ -1,0 +1,8 @@
+T1	REFAUWORK 43 61	Alexandria, Strom.
+T2	REFSCOPE 62 71	5.18.168,
+T3	AWORK 162 174	« On Homer »
+T4	REFAUWORK 178 199	Dio Chrysostomus, Or.
+T5	REFSCOPE 200 205	53.1.
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes T3	urn:cts:cwkb:890.2476

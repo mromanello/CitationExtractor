@@ -1,0 +1,9 @@
+Ricordo	VLfin
+dello	NC
+studioso	ADJ
+recentemente	ADV
+scomparso	NC
+(	LP
+1930-2003	CARD
+)	RP
+

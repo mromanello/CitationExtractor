@@ -1,0 +1,3 @@
+T1	REFAUWORK 0 6	Examen
+T2	REFSCOPE 7 11	de 5
+R1	Scope Arg1:T1 Arg2:T2

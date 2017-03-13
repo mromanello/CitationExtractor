@@ -1,0 +1,19 @@
+Dans	PRP
+sa	DET:POS
+formulation	NOM
+paradoxale	ADJ
+,	PUN
+l'	DET:ART
+énoncé	NOM
+augustinien	ADJ
+manifeste	VER:pres
+la	DET:ART
+liaison	NOM
+des	PRP:det
+accomplissements	NOM
+rhétorique	ADJ
+,	PUN
+philosophique	ADJ
+et	KON
+spirituel	ADJ
+

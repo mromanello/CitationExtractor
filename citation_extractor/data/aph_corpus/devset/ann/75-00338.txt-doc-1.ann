@@ -1,0 +1,8 @@
+T1	REFAUWORK 11 17	Phaen.
+T2	REFSCOPE 18 26	284-299,
+T3	AAUTHOR 75 83	Cicéron,
+T4	AAUTHOR 84 94	Germanicus
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:861.9092:284-299
+#1	AnnotatorNotes T4	urn:cts:cwkb:486
+#2	AnnotatorNotes T3	urn:cts:cwkb:431

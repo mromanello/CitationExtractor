@@ -1,0 +1,19 @@
+A	PRE
+proposito	NOM
+dei	PRE:det
+volumi	NOM
+di	PRE
+Andrea	NPR
+Pellizzari	NOM
+(	PON
+=>	NOM
+74-05784	NUM
+)	PON
+e	CON
+Giuseppe	NPR
+Ramires	NOM
+(	PON
+=>	NOM
+74-05780	NUM
+)	PON
+

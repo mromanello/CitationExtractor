@@ -1,0 +1,18 @@
+Auguste	NAM
+n'	ADV
+a	VER:pres
+fait	VER:pper
+que	KON
+porter	VER:infi
+à	PRP
+son	DET:POS
+achèvement	NOM
+une	DET:ART
+construction	NOM
+idéologique	ADJ
+commencée	VER:pper
+du	PRP:det
+temps	NOM
+de	PRP
+César	NAM
+

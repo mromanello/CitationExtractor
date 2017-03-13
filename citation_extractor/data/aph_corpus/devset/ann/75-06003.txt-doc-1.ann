@@ -1,0 +1,7 @@
+T1	REFAUWORK 79 86	Idilios
+T2	REFSCOPE 87 113	13, 14, 15, 16, 18, 22, 26
+T3	REFSCOPE 114 119	y 28,
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:387:13.14.15.16.18.22.26
+#1	AnnotatorNotes R2	urn:cts:cwkb:387:28

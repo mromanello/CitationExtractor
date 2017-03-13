@@ -1,0 +1,26 @@
+Zu	APPR
+Bilddarstellungen	NN
+der	ART
+Armeeangehörigen	NN
+;	$.
+mit	APPR
+Listen	NN
+der	ART
+inschriftlich	ADJD
+nachweisbaren	ADJA
+Legionssoldaten	NN
+,	$,
+Legionsveteranen	NN
+,	$,
+Hilfstruppensoldaten	NN
+,	$,
+Offiziere	NN
+sowie	KON
+von	APPR
+militärischen	ADJA
+Reliefs	NN
+mit	APPR
+verschiedenen	ADJA
+Soldatendarstellungen	NN
+.	$.
+

@@ -1,5 +1,0 @@
-T1	AAUTHOR 4 14	Aristotle,
-T2	REFSCOPE 148 166	6, 3 1027 A 29-32.
-T3	REFAUWORK 140 147	Metaph.
-R1	Scope Arg1:T3 Arg2:T2	
-R2	authorOf Arg1:T1 Arg2:T3	

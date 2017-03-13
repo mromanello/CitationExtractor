@@ -1,0 +1,37 @@
+De	PRP
+200	NUM
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+à	PRP
+250	NUM
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+le	DET:ART
+recours	NOM
+croissant	VER:ppre
+à	PRP
+l'	DET:ART
+écriture	NOM
+a	VER:pres
+été	VER:pper
+le	DET:ART
+moyen	NOM
+d'	PRP
+une	DET:ART
+rationalisation	NOM
+des	PRP:det
+formes	NOM
+de	PRP
+gestion	NOM
+des	PRP:det
+entreprises	NOM
+romaines	ADJ
+

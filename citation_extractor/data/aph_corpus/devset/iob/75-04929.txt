@@ -1,0 +1,23 @@
+Deux	NUM
+textes	NOM
+cunéiformes	ADJ
+servent	VER:pres
+à	PRP
+confirmer	VER:infi
+des	PRP:det
+aspects	NOM
+importants	ADJ
+de	PRP
+l'	DET:ART
+exposé	NOM
+de	PRP
+Sextus	NAM
+Empiricus	NAM
+sur	PRP
+l'	DET:ART
+astrologie	NOM
+dite	VER:pper
+«	PUN:cit
+chaldéenne	ADJ
+»	PUN:cit
+

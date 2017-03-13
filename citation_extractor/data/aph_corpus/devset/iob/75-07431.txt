@@ -1,0 +1,22 @@
+Concerne	VER:pres
+il	DET:def
+toponimo	NOM
+e	CON
+le	DET:def
+iscrizioni	NOM
+osche	ADJ
+.	SENT
+
+Osservazioni	NOM
+basate	VER:pper
+anche	ADV
+sui	PRE:det
+contributi	NOM
+e	CON
+le	DET:def
+acquisizioni	NOM
+degli	PRE:det
+ultimi	ADJ
+vent'anni	NOM
+.	SENT
+

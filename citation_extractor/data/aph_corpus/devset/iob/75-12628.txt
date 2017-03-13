@@ -1,0 +1,25 @@
+Réexamen	NOM
+de	PRP
+l'	DET:ART
+hypothèse	NOM
+traditionnelle	ADJ
+.	SENT
+
+Étudie	VER:pres
+plus	ADV
+particulièrement	ADV
+le	DET:ART
+gigantisme	NOM
+des	PRP:det
+statues	NOM
+de	PRP
+Phidias	NAM
+et	KON
+l'	DET:ART
+originalité	NOM
+de	PRP
+la	DET:ART
+mise	NOM
+en	PRP
+scène	NOM
+

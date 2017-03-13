@@ -1,0 +1,17 @@
+Nécrologie	NOM
+de	PRP
+ce	PRO:DEM
+savant	NOM
+russe	ADJ
+,	PUN
+décédé	VER:pper
+en	PRP
+2000	NUM
+,	PUN
+notamment	ADV
+spécialiste	NOM
+de	PRP
+la	DET:ART
+Mer	NAM
+Noire	NAM
+

@@ -1,0 +1,15 @@
+La	DET:ART
+mortalité	NOM
+infantile	ADJ
+dans	PRP
+l'	DET:ART
+Antiquité	NOM
+et	KON
+les	DET:ART
+manifestations	NOM
+de	PRP
+deuil	NOM
+chez	PRP
+les	DET:ART
+mères	NOM
+

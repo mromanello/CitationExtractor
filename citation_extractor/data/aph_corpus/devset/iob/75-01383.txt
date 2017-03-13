@@ -1,0 +1,9 @@
+Analysis	NN
+of	IN
+the	DT
+meaning	NN
+of	IN
+this	DT
+unusual	JJ
+phrase	NN
+

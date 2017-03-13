@@ -1,0 +1,11 @@
+Du	PRP:det
+5e	NUM
+au	PRP:det
+7e	NUM
+s.	NOM
+,	PUN
+en	PRP
+particulier	NOM
+à	PRP
+Lérins	NAM
+

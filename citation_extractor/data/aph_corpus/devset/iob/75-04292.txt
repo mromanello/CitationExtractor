@@ -1,0 +1,12 @@
+Der	ART
+Vergleich	NN
+wirft	VVFIN
+auch	ADV
+Licht	NN
+auf	APPR
+die	ART
+Komödie	NN
+des	ART
+Plautus	NN
+.	$.
+

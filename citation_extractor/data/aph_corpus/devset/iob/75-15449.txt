@@ -1,0 +1,8 @@
+Profilo	NOM
+dello	PRE:det
+studioso	NOM
+scomparso	ADJ
+(	PON
+1928-2002	NUM
+)	PON
+

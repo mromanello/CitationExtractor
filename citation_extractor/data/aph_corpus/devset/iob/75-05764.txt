@@ -1,0 +1,14 @@
+Analisi	NOM
+testuale	ADJ
+del	PRE:det
+passo	NOM
+e	CON
+argomenti	NOM
+in	PRE
+favore	NOM
+della	PRE:det
+sua	PRO:poss
+originaria	ADJ
+destinazione	NOM
+romana	ADJ
+

@@ -1,0 +1,7 @@
+Dans	PRP
+l'	DET:ART
+Antiquité	NOM
+classique	ADJ
+et	KON
+tardive	ADJ
+

@@ -1,0 +1,13 @@
+La	DET:ART
+spiritualité	NOM
+d'	PRP
+Athanase	NAM
+est	VER:pres
+orientée	VER:pper
+vers	PRP
+la	DET:ART
+pastorale	NOM
+et	KON
+la	DET:ART
+pratique	NOM
+

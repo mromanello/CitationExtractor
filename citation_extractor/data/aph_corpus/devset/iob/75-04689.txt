@@ -1,0 +1,19 @@
+La	DET:ART
+complexité	NOM
+de	PRP
+la	DET:ART
+situation	NOM
+documentaire	ADJ
+ne	ADV
+permet	VER:pres
+pas	ADV
+de	PRP
+trancher	VER:infi
+la	DET:ART
+question	NOM
+de	PRP
+l'	DET:ART
+historicité	NOM
+du	PRP:det
+procès	NOM
+

@@ -1,0 +1,27 @@
+Étude	NOM
+syntaxique	ADJ
+et	KON
+sémantique	ADJ
+des	PRP:det
+termes	NOM
+et	KON
+des	PRP:det
+contextes	NOM
+de	PRP
+l'	DET:ART
+embaumement	NOM
+de	PRP
+Sarpédon	NAM
+,	PUN
+Patrocle	NAM
+et	KON
+Hector	NAM
+,	PUN
+ainsi	KON
+que	KON
+des	PRP:det
+procédures	NOM
+et	KON
+symbolismes	NOM
+afférents	ADJ
+

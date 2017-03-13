@@ -1,6 +1,0 @@
-T1	REFSCOPE 63 69	12, 27
-T2	REFSCOPE 70 79	e 13, 6-9
-T3	REFAUWORK 59 62	Lc.
-T4	AAUTHOR 13 31	Ilario di Poitiers
-R1	Scope Arg1:T3 Arg2:T1	
-R2	Scope Arg1:T3 Arg2:T2	

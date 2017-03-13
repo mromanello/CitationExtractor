@@ -1,0 +1,24 @@
+Resoconto	NOM
+su	PRE
+quindici	ADJ
+lettere	NOM
+inedite	ADJ
+di	PRE
+Bartolommeo	NOM
+Borghesi	NOM
+a	PRE
+Michele	NPR
+Lopez	NPR
+,	PON
+di	PRE
+argomento	NOM
+antiquario	ADJ
+,	PON
+conservate	VER:pper
+a	PRE
+Parma	NOM
+,	PON
+Museo	NOM
+Archeologico	ADJ
+Nazionale	NOM
+

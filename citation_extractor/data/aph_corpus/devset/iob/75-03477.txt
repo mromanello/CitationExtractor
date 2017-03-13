@@ -1,0 +1,7 @@
+Analisi	NOM
+della	PRE:det
+topica	NOM
+e	CON
+dello	PRE:det
+stile	NOM
+

@@ -1,0 +1,25 @@
+L'	DET:ART
+étude	NOM
+de	PRP
+l'	DET:ART
+influence	NOM
+possible	ADJ
+de	PRP
+l'	DET:ART
+«	PUN:cit
+Apologeticos	NOM
+»	PUN:cit
+de	PRP
+Grégoire	NAM
+de	PRP
+Nazianze	NAM
+sur	PRP
+le	DET:ART
+«	PUN:cit
+De	ABR
+sacerdotio	NOM
+»	PUN:cit
+de	PRP
+Jean	NAM
+Chrysostome	NAM
+

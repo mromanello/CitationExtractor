@@ -1,0 +1,5 @@
+T1	AAUTHOR 57 63	Livius
+T2	REFSCOPE 64 71	(2, 28)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:652:2.28
+#1	AnnotatorNotes T1	urn:cts:cwkb:652

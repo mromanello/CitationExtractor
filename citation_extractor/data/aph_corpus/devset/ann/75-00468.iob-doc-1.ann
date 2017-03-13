@@ -1,5 +1,0 @@
-T1	AWORK 268 281	« De Sensu »)
-T2	AWORK 313 328	« De Memoria »)
-T3	AAUTHOR 235 259	Alexandre d' Aphrodisias
-T4	AAUTHOR 288 304	Michel d' Éphèse
-R1	authorOf Arg1:T3 Arg2:T1	

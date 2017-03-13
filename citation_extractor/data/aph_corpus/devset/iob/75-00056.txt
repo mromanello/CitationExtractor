@@ -1,0 +1,21 @@
+Corrispondenze	NOM
+aritmetiche	ADJ
+nel	PRE:det
+numero	NOM
+dei	PRE:det
+versi	NOM
+delle	PRE:det
+singole	ADJ
+parti	NOM
+parlate	ADJ
+mostrano	VER:pres
+l'	DET:def
+opportunità	NOM
+di	PRE
+conservare	VER:infi
+il	DET:def
+numero	NOM
+di	PRE
+versi	ADJ
+tràdito	NOM
+

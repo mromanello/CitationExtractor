@@ -1,0 +1,5 @@
+Note	NOM
+testuali	ADJ
+ed	CON
+esegetiche	NOM
+

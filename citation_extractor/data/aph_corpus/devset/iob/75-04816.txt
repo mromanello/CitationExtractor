@@ -1,0 +1,20 @@
+Description	NOM
+analytique	ADJ
+des	PRP:det
+principaux	ADJ
+types	NOM
+d'	PRP
+approches	NOM
+critiques	ADJ
+appliquées	VER:pper
+aux	PRP:det
+tragédies	NOM
+de	PRP
+Sénèque	NAM
+depuis	PRP
+1930.	NAM
+
+Discussion	NOM
+p.	ABR
+49-61	NUM
+

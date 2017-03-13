@@ -1,0 +1,26 @@
+Resoconto	NOM
+dei	PRE:det
+lavori	NOM
+del	PRE:det
+Convegno	NOM
+sul	PRE:det
+tema	NOM
+«	PON
+Vertragspraxis	NOM
+und	ADJ
+römisches	NOM
+Recht	NOM
+»	PON
+,	PON
+tenutosi	VER:pper
+a	PRE
+Nagycenk	NOM
+(	PON
+Ungheria	NPR
+)	PON
+nei	PRE:det
+giorni	NOM
+19-21	NUM
+settembre	NOM
+2003	NUM
+

@@ -1,0 +1,25 @@
+Sur	PRP
+les	DET:ART
+difficultés	NOM
+à	PRP
+établir	VER:infi
+un	DET:ART
+système	NOM
+de	PRP
+codification	NOM
+unique	ADJ
+pour	PRP
+une	DET:ART
+base	NOM
+de	PRP
+données	NOM
+de	PRP
+l'	DET:ART
+onomastique	NOM
+romaine	ADJ
+adaptable	ADJ
+à	PRP
+tout	PRO:IND
+l'	DET:ART
+Empire	NOM
+

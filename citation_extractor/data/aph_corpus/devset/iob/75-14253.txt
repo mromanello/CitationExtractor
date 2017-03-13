@@ -1,0 +1,12 @@
+Notamment	ADV
+au	PRP:det
+haut	ADJ
+Moyen-Âge	NAM
+.	SENT
+
+Dépouillé	VER:pper
+dans	PRP
+le	DET:ART
+vol.	ABR
+75	NUM
+

@@ -1,0 +1,4 @@
+T1	REFAUWORK 33 45	Plinio, Nat.
+T2	REFSCOPE 46 53	10, 185
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:586.1213:10.185

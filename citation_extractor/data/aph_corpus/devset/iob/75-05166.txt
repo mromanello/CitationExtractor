@@ -1,0 +1,21 @@
+In	PRE
+Strabone	NOM
+,	PON
+diversamente	ADV
+che	PRO:rela
+in	PRE
+Diodoro	NOM
+,	PON
+la	DET:def
+polemica	NOM
+è	VER:pres
+un	DET:indef
+possibile	ADJ
+indizio	NOM
+di	PRE
+trascrizione	NOM
+non	ADV
+meccanica	ADJ
+delle	PRE:det
+fonti	NOM
+

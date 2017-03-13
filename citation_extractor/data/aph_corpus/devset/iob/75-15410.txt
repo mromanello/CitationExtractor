@@ -1,0 +1,23 @@
+Texte	NOM
+du	PRP:det
+discours	NOM
+en	PRP
+arabe	NOM
+prononcé	VER:pper
+par	PRP
+le	DET:ART
+ministre	NOM
+libanais	ADJ
+de	PRP
+la	DET:ART
+Culture	NAM
+,	PUN
+N.	NAM
+Boustani	NAM
+,	PUN
+en	PRP
+hommage	NOM
+à	PRP
+cette	PRO:DEM
+archéologue	NOM
+

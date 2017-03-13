@@ -1,0 +1,19 @@
+Analisi	NOM
+degli	PRE:det
+strumenti	NOM
+visivi	ADJ
+e	CON
+degli	PRE:det
+espedienti	NOM
+di	PRE
+tipo	NOM
+teatrale	ADJ
+impiegati	VER:pper
+nell'	PRE:det
+oratoria	NOM
+romana	ADJ
+per	PRE
+suscitare	VER:infi
+le	DET:def
+emozioni	NOM
+

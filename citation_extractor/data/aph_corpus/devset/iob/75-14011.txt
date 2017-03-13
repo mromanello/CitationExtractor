@@ -1,0 +1,24 @@
+Presentazione	NOM
+di	PRE
+un	DET:indef
+carteggio	NOM
+inedito	ADJ
+di	PRE
+questo	PRO:demo
+archeologo	NOM
+italiano	ADJ
+del	PRE:det
+18°-19°	NOM
+sec.	NOM
+,	PON
+conservato	VER:pper
+a	PRE
+Parma	NOM
+,	PON
+Archivio	NOM
+di	PRE
+Stato	NOM
+,	PON
+ms.	ABR
+20	NUM
+

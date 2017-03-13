@@ -1,0 +1,25 @@
+Jesu	NN
+Heilungspraxis	NN
+ist	VAFIN
+im	APPRART
+Kontext	NN
+des	ART
+antiken	ADJA
+Medizinsystems	NN
+weder	KON
+die	ART
+eines	ART
+Arztes	NN
+noch	ADV
+die	ART
+eines	ART
+Magiers	NN
+,	$,
+sondern	KON
+am	APPRART
+ehesten	ADJD
+die	ART
+eines	ART
+Volksheilers	NN
+.	$.
+

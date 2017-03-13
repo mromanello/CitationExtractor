@@ -1,0 +1,8 @@
+Osservazioni	NOM
+su	PRE
+alcune	PRO:indef
+categorie	NOM
+lessicali	ADJ
+e	CON
+morfosintattiche	ADJ
+

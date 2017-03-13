@@ -1,0 +1,17 @@
+Report	NN
+on	IN
+recent	JJ
+work	NN
+at	IN
+a	DT
+variety	NN
+of	IN
+sites	NNS
+.	SENT
+
+For	IN
+previous	JJ
+=>	NP
+74-10357	CD
+.	SENT
+

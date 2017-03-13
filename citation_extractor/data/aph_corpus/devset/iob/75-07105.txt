@@ -1,0 +1,34 @@
+Application	NOM
+à	PRP
+ces	PRO:DEM
+deux	NUM
+verbes	NOM
+de	PRP
+la	DET:ART
+notion	NOM
+d'	PRP
+«	PUN:cit
+imparfait	NOM
+de	PRP
+palmarès	NOM
+»	PUN:cit
+proposée	VER:pper
+par	PRP
+J.	NAM
+Lallot	NAM
+(	PUN
+=>	ABR
+75-06067	NUM
+)	PUN
+.	SENT
+
+Ils	PRO:PER
+se	PRO:PER
+rencontrent	VER:pres
+le	DET:ART
+plus	ADV
+souvent	ADV
+en	PRP
+emploi	NOM
+dynamique	ADJ
+

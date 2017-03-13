@@ -1,8 +1,0 @@
-T1	AWORK 93 103	« Eneide »
-T2	REFAUWORK 112 120	Bucolica
-T3	REFSCOPE 121 122	8
-T4	AAUTHOR 126 135	Virgilio,
-T5	AAUTHOR 223 230	Apuleio
-R1	Scope Arg1:T2 Arg2:T3	
-R2	authorOf Arg1:T4 Arg2:T2	
-R3	authorOf Arg1:T4 Arg2:T1	

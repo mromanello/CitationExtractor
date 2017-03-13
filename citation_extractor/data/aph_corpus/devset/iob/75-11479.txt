@@ -1,0 +1,16 @@
+Panoramica	NOM
+e	CON
+osservazioni	NOM
+metodologiche	ADJ
+sul	PRE:det
+problema	NOM
+,	PON
+in	PRE
+base	NOM
+soprattutto	ADV
+ai	PRE:det
+dati	NOM
+ricavabili	ADJ
+dalle	PRE:det
+necropoli	NOM
+

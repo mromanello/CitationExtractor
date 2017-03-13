@@ -1,0 +1,16 @@
+À	PRP
+propos	NOM
+du	PRP:det
+procynème	NOM
+SEG	NAM
+41	NUM
+,	PUN
+1614	NUM
+,	PUN
+qui	PRO:REL
+doit	VER:pres
+être	VER:infi
+daté	VER:pper
+de	PRP
+327-328	NUM
+

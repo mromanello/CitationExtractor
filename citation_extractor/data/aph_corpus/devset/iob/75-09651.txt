@@ -1,0 +1,27 @@
+La	DET:ART
+fouille	NOM
+de	PRP
+ce	PRO:DEM
+site	NOM
+(	PUN
+=>	ABR
+75-08246	NUM
+)	PUN
+a	VER:pres
+livré	VER:pper
+notamment	ADV
+une	DET:ART
+monnaie	NOM
+autonome	ADJ
+de	PRP
+Tyr	NAM
+et	KON
+19	NUM
+pièces	NOM
+impériales	ADJ
+ou	KON
+coloniales	ADJ
+romaines	ADJ
+et	KON
+tardo-antiques	NOM
+

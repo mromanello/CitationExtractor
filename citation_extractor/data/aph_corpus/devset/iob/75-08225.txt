@@ -1,0 +1,15 @@
+Preliminary	JJ
+report	NN
+on	IN
+the	DT
+findings	NNS
+of	IN
+the	DT
+Monash	NP
+University	NP
+Santorini	NP
+Project	NP
+conducted	VBD
+in	IN
+1997.	CD
+

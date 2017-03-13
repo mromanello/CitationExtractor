@@ -1,0 +1,24 @@
+Sur	PRP
+la	DET:ART
+transmission	NOM
+des	PRP:det
+lettres	NOM
+de	PRP
+la	DET:ART
+littérature	NOM
+grecque	ADJ
+,	PUN
+la	DET:ART
+constitution	NOM
+des	PRP:det
+recueils	NOM
+et	KON
+des	PRP:det
+florilèges	NOM
+,	PUN
+leur	DET:POS
+divulgation	NOM
+et	KON
+leur	DET:POS
+interprétation	NOM
+

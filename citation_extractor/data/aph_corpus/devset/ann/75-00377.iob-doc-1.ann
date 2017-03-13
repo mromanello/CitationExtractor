@@ -1,7 +1,0 @@
-T1	AWORK 61 94	« Altercatio Iasonis et Papisci »
-T2	AWORK 500 511	« Disputa »
-T4	AWORK 331 354	« De mystica thelogia »
-T5	AAUTHOR 363 377	Pseudo-Dionigi
-T6	AAUTHOR 420 441	Massimo il Confessore
-T3	AAUTHOR 515 532	Aristone di Pella
-R1	authorOf Arg1:T5 Arg2:T4	

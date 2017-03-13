@@ -1,0 +1,10 @@
+T1	AAUTHOR 0 8	Corpus :
+T2	AWORK 9 23	« Euthydème »,
+T3	AWORK 24 43	« Hippias Majeur »,
+T4	AWORK 44 62	« Hippias Mineur »
+T5	AWORK 66 78	« Gorgias ».
+#0	AnnotatorNotes T4	urn:cts:greekLit:tlg0059.tlg026
+#1	AnnotatorNotes T5	urn:cts:greekLit:tlg0059.tlg023
+#2	AnnotatorNotes T2	urn:cts:greekLit:tlg0059.tlg021
+#3	AnnotatorNotes T3	urn:cts:greekLit:tlg0059.tlg025
+#4	AnnotatorNotes T1	urn:cts:cwkb:449

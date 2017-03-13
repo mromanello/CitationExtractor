@@ -1,0 +1,8 @@
+Concerne	VER:pres
+notamment	ADV
+les	DET:ART
+périodes	NOM
+séleucide	ADJ
+et	KON
+romaine	ADJ
+

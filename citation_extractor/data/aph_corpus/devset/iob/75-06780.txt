@@ -1,0 +1,13 @@
+Sobre	PREP
+el	ART
+concepto	NC
+de	PREP
+lo	ART
+trágico	ADJ
+desde	PREP
+la	ART
+Antigüedad	NC
+hasta	PREP
+nuestros	PPO
+días	NC
+

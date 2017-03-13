@@ -1,0 +1,22 @@
+Introducción	NC
+a	PREP
+un	ART
+seminario	NC
+realizado	VLadj
+en	PREP
+el	ART
+Instituto	NC
+de	PREP
+Filosofia	NP
+e	CC
+Ciências	NC
+Sociais	NC
+de	PREP
+la	ART
+Universidade	NP
+Federal	ADJ
+do	NC
+Rio	VLadj
+de	PREP
+Janeiro	NP
+

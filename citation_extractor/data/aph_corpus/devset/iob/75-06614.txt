@@ -1,0 +1,19 @@
+Rassegna	NOM
+delle	PRE:det
+fonti	NOM
+letterarie	ADJ
+greche	ADJ
+su	PRE
+Fineo	NOM
+e	CON
+analisi	NOM
+antropologica	ADJ
+dei	PRE:det
+vari	ADJ
+aspetti	NOM
+del	PRE:det
+mito	NOM
+che	PRO:rela
+lo	PRO:pers
+riguarda	VER:pres
+

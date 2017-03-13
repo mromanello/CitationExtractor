@@ -1,0 +1,7 @@
+Concerne	VER:pres
+en	PRP
+partie	NOM
+la	DET:ART
+documentation	NOM
+papyrologique	ADJ
+

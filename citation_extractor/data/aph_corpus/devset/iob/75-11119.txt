@@ -1,0 +1,17 @@
+À	PRP
+propos	NOM
+de	PRP
+H.	ABR
+C.	ABR
+Noeske	NAM
+,	PUN
+«	PUN:cit
+Münzfunde	VER:pres
+aus	NOM
+Ägypten	ADJ
+»	PUN:cit
+(	PUN
+=>	ABR
+72-10950	NUM
+)	PUN
+

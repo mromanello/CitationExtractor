@@ -1,0 +1,26 @@
+Le	DET:ART
+saturnien	ADJ
+est	VER:pres
+généralement	ADV
+traité	VER:pper
+comme	KON
+un	DET:ART
+vers	NOM
+unitaire	ADJ
+,	PUN
+dans	PRP
+lequel	PRO:REL
+la	DET:ART
+coupe	NOM
+ne	ADV
+correspond	VER:pres
+pas	ADV
+nécessairement	ADV
+à	PRP
+la	DET:ART
+disposition	NOM
+grammaticale	ADJ
+de	PRP
+l'	DET:ART
+énoncé	NOM
+

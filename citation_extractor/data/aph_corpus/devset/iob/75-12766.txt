@@ -1,0 +1,27 @@
+La	DET:def
+discussione	NOM
+sul	PRE:det
+canone	NOM
+scultoreo	ADJ
+greco	ADJ
+dalle	PRE:det
+origini	NOM
+,	PON
+forse	ADV
+già	ADV
+nel	PRE:det
+6°	NOM
+sec.	NOM
+a.	NOM
+C.	NPR
+,	PON
+alle	PRE:det
+correnti	NOM
+moderne	ADJ
+e	CON
+la	DET:def
+questione	NOM
+dell'	PRE:det
+influsso	NOM
+egizio	ADJ
+

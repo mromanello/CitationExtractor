@@ -1,0 +1,21 @@
+Ostracon	NP
+publié	VLfin
+en	PREP
+dernier	NC
+lieu	NC
+par	ADJ
+G.	NP
+Zalateo	NP
+(	LP
+n°	NC
+329	CODE
+du	PE
+catalogue	NC
+noté	VLfin
+APh	NC
+33	CODE
+,	CM
+p.	ALFS
+300	CARD
+)	RP
+

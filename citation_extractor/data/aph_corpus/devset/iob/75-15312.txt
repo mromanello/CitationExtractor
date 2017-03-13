@@ -1,0 +1,4 @@
+Studioso	NP
+appena	VLfin
+scomparso	NC
+

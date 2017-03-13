@@ -1,0 +1,15 @@
+Tête	NOM
+de	NPR
+statue	NOM
+du	NOM
+6e	NOM
+s.	NOM
+(	PON
+musée	NOM
+de	NPR
+Chypre	NOM
+,	PON
+inv.	VER:geru
+1940/XI-4/1	NOM
+)	PON
+

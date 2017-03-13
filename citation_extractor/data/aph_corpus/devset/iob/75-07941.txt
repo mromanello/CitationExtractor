@@ -1,0 +1,41 @@
+A	PRE
+proposito	NOM
+delle	PRE:det
+missioni	NOM
+del	PRE:det
+2003	NUM
+e	CON
+del	PRE:det
+2004.	ORD
+
+Sono	VER:pres
+stati	VER:pper
+rintracciati	VER:pper
+molti	ADJ
+papiri	NOM
+e	CON
+ostraka	VER:impe
+greci	ADJ
+databili	ADJ
+tra	PRE
+1°	ADJ
+e	CON
+2°	NOM
+sec.	NOM
+d.	NOM
+C.	NPR
+,	PON
+oltre	ADV
+che	PRO:rela
+materiale	NOM
+vitreo	ADJ
+di	PRE
+fattura	NOM
+romana	ADJ
+.	SENT
+
+Per	PRE
+2002	NUM
+=>	NOM
+75-07942	NUM
+

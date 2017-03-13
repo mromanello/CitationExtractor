@@ -1,0 +1,10 @@
+T1	REFAUWORK 132 138	Longus
+T2	REFSCOPE 139 143	3, 3
+T3	REFSCOPE 144 155	and 3, 10 ;
+T4	REFAUWORK 160 162	AP
+T5	REFSCOPE 163 168	9, 95
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0561:3.3
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0561:3.10

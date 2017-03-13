@@ -1,0 +1,21 @@
+Von	APPR
+Ägypten	NE
+bis	APPR
+zur	APPRART
+Moderne	NN
+;	$.
+für	APPR
+die	ART
+Antike	NN
+zu	APPR
+Helios	NE
+,	$,
+Phaeton	NN
+,	$,
+Ikarus	NE
+,	$,
+Diogenes	NE
+,	$,
+Sisyphus	NN
+.	$.
+

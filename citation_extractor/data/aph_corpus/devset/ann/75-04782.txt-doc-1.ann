@@ -1,0 +1,13 @@
+T1	AAUTHOR 114 121	Sappho.
+T2	AAUTHOR 142 149	Catulle
+T3	AAUTHOR 187 194	Virgile
+T4	REFAUWORK 202 206	Aen.
+T5	REFSCOPE 207 217	9, 433-437
+T6	REFSCOPE 221 232	11, 68-71).
+R1	Scope Arg1:T4 Arg2:T5
+R2	Scope Arg1:T4 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:9.433-9.437
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0690.phi003:11.68-11.71
+#2	AnnotatorNotes T2	urn:cts:latinLit:phi0472
+#3	AnnotatorNotes T3	urn:cts:latinLit:phi0690
+#4	AnnotatorNotes T1	urn:cts:cwkb:1074

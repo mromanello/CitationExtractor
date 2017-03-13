@@ -1,0 +1,20 @@
+Discussione	NOM
+dell'	PRE:det
+epigramma	NOM
+e	CON
+del	PRE:det
+suo	PRO:poss
+contesto	NOM
+iconografico	ADJ
+,	PON
+con	PRE
+proposta	NOM
+di	PRE
+integrare	VER:infi
+«	PON
+deiecto]que	NOM
+»	PON
+al	PRE:det
+v.	ABR
+5	NUM
+

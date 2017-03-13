@@ -1,3 +1,0 @@
-T1	AAUTHOR 154 162	Eschilo,
-T3	AWORK 168 180	Psychostasia
-R1	authorOf Arg1:T1 Arg2:T3	

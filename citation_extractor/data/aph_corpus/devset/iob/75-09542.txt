@@ -1,0 +1,14 @@
+Cet	PRO:DEM
+exemplaire	NOM
+,	PUN
+unique	ADJ
+,	PUN
+est	VER:pres
+authentique	ADJ
+.	SENT
+
+Pour	PRP
+5	NUM
+=>	ABR
+59-10553	NUM
+

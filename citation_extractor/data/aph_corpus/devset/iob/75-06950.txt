@@ -1,0 +1,21 @@
+Concerne	VER:pres
+en	PRP
+particulier	ADJ
+Évagre	NOM
+le	DET:ART
+Scholastique	NAM
+,	PUN
+Théodore	NAM
+le	DET:ART
+Lecteur	NAM
+,	PUN
+Zacharie	NAM
+de	PRP
+Mitylène	NAM
+,	PUN
+Liberatus	NAM
+et	KON
+Jean	NAM
+d'	PRP
+Éphèse	NOM
+

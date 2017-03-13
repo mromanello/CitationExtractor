@@ -1,6 +1,0 @@
-T1	REFAUWORK 3 5	EN
-T2	REFSCOPE 6 10	9, 8
-T3	AAUTHOR 11 20	Aristotle
-R1	Scope Arg1:T1 Arg2:T2	
-R2	authorOf Arg1:T3 Arg2:T1	
-#1	AnnotatorNotes R1	http://cwkb.webfactional.com/cwkb/works/1649/9.8

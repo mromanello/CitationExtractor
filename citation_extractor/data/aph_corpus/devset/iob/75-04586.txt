@@ -1,0 +1,29 @@
+Con	PRE
+particolare	ADJ
+riferimento	NOM
+alla	PRE:det
+1a	NOM
+sezione	NOM
+della	PRE:det
+raccolta	NOM
+di	PRE
+PMil	NOM
+.	SENT
+
+Vogl	NOM
+.	SENT
+
+VIII	NUM
+309	PON
+,	PON
+sulle	PRE:det
+pietre	NOM
+preziose	ADJ
+;	PON
+elenco	NOM
+completo	ADJ
+degli	PRE:det
+hapax	NOM
+del	PRE:det
+papiro	NOM
+

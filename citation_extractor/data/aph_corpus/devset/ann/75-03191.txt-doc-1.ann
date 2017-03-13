@@ -1,0 +1,10 @@
+T1	REFAUWORK 146 150	Book
+T2	REFSCOPE 151 153	4,
+T3	AAUTHOR 284 294	Martial 's
+T4	REFAUWORK 514 518	Book
+T5	REFSCOPE 519 521	4,
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:3050:4
+#1	AnnotatorNotes R2	urn:cts:cwkb:3050:4
+#2	AnnotatorNotes T3	urn:cts:cwkb:539

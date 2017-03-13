@@ -1,0 +1,36 @@
+Il	DET:def
+concetto	NOM
+di	PRE
+periodizzazione	NOM
+e	CON
+i	DET:def
+problemi	NOM
+generati	VER:pper
+dalla	PRE:det
+sua	PRO:poss
+applicazione	NOM
+al	PRE:det
+tardoantico	NOM
+.	SENT
+
+Riflessioni	NOM
+sulle	PRE:det
+posizioni	NOM
+degli	PRE:det
+storici	NOM
+moderni	ADJ
+a	PRE
+riguardo	NOM
+e	CON
+sul	PRE:det
+confronto	NOM
+della	PRE:det
+cultura	NOM
+europea	ADJ
+con	PRE
+la	DET:def
+decadenza	NOM
+del	PRE:det
+mondo	NOM
+romano	ADJ
+

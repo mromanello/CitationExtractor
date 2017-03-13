@@ -1,0 +1,16 @@
+Rapporti	NOM
+fra	PRE
+i	DET:def
+due	ADJ
+studiosi	NOM
+italiani	ADJ
+(	PON
+rispettivamente	ADV
+1898-1957	NUM
+e	CON
+1883-1959	NUM
+)	PON
+e	CON
+influenze	NOM
+reciproche	ADJ
+

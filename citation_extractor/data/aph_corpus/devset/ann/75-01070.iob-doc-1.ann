@@ -1,3 +1,0 @@
-T1	AWORK 99 109	« Hekale »
-T2	AAUTHOR 65 76	Kallimachos
-R1	authorOf Arg1:T2 Arg2:T1	

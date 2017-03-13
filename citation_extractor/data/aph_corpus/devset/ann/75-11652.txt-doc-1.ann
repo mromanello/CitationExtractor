@@ -1,0 +1,18 @@
+T1	AAUTHOR 656 671	Horatius Cocles
+T2	REFAUWORK 672 681	(Polybius
+T3	REFSCOPE 682 695	54, 4-55, 4 ;
+T4	REFAUWORK 696 700	Livy
+T5	REFSCOPE 701 719	2, 9, 1-2, 10, 11)
+T6	AAUTHOR 724 731	Cloelia
+T7	REFAUWORK 732 737	(Livy
+T8	REFSCOPE 738 751	2, 13, 4-11 ;
+T9	REFAUWORK 752 768	Valerius Maximus
+T10	REFSCOPE 769 777	3, 2, 2)
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T7 Arg2:T8
+R4	Scope Arg1:T9 Arg2:T10
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0543:54.4-55.4
+#1	AnnotatorNotes R2	urn:cts:cwkb:524:2.9.1-2.10.11
+#2	AnnotatorNotes R3	urn:cts:cwkb:524:2.13.4-2.13.11
+#3	AnnotatorNotes T6	urn:cts:cwkb:444

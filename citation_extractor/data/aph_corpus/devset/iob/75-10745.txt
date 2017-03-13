@@ -1,0 +1,15 @@
+La	DET:ART
+sacralisation	NOM
+du	PRP:det
+pouvoir	NOM
+et	KON
+le	DET:ART
+culte	NOM
+impérial	ADJ
+,	PUN
+auxquels	PRO:REL
+le	DET:ART
+christianisme	NOM
+est	VER:pres
+réfractaire	ADJ
+

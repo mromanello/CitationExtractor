@@ -1,0 +1,100 @@
+Euclides - Wikipedia, la enciclopedia libre
+Euclides
+De Wikipedia, la enciclopedia libre
+Saltar a:					navegación, 					búsqueda
+Para el filósofo de Megara, véase Euclides de Megara.
+Pintura idealizada de Euclides.
+Euclides (en griego Ευκλείδης, Eukleidēs, latín Euclīdēs) fue un matemático y geómetra griego (ca. 325 a. C.-ca. 265 a. C.). Se le conoce como "El Padre de la Geometría".
+Índice
+1 Biografía
+2 Obra
+3 Reconocimientos
+4 Véase también
+5 Bibliografía
+6 Enlaces externos
+Biografía[editar]
+Su vida es poco conocida, salvo que vivió en Alejandría (ciudad situada al norte de Egipto) durante el reinado de Ptolomeo I. Ciertos autores árabes afirman que Euclides era hijo de Naucrates y se barajan tres hipótesis:
+Euclides fue un matemático histórico que escribió los Elementos y otras obras atribuidas a él.
+Euclides fue el líder de un equipo de matemáticos que trabajaba en Alejandría. Todos ellos contribuyeron a escribir las obras completas de Euclides, incluso firmando los libros con el nombre de Euclides después de su muerte.
+Las obras completas de Euclides fueron escritas por un equipo de matemáticos de Alejandría quienes tomaron el nombre Euclides del personaje histórico Euclides de Mégara, que había vivido unos cien años antes.
+Proclo, el último de los grandes filósofos griegos, quien vivió alrededor del 450, escribió importantes comentarios sobre el libro I de los Elementos, dichos comentarios constituyen una valiosa fuente de información sobre la historia de la matemática griega. Así sabemos, por ejemplo, que Euclides reunió aportes de Eudoxo de Cnido en relación a la teoría de la proporción y de Teeteto sobre los poliedros regulares.
+Obra[editar]
+Fragmento de los Elementos de Euclides, escrito en papiro, hallado en el yacimiento de Oxirrinco (Oxyrhynchus), Egipto.
+Su obra Elementos, es una de las producciones científicas más conocidas del mundo y era una recopilación del conocimiento impartido en el ámbito académico de entonces. En ella se presenta de manera formal, partiendo únicamente de cinco postulados, el estudio de las propiedades de líneas y planos, círculos y esferas, triángulos y conos, etc.; es decir, de las formas regulares. Probablemente ninguno de los resultados de Los elementos haya sido demostrado por primera vez por Euclides pero la organización del material y su exposición, sin duda alguna se deben a él. De hecho hay mucha evidencia de que Euclides usó libros de texto anteriores cuando escribía Los elementos ya que presenta un gran número de definiciones que no son usadas, tales como la de un oblongo, un rombo y un romboide. Los teoremas de Euclides son los que generalmente se aprenden en la escuela moderna. Por citar algunos de los más conocidos:
+La suma de los ángulos interiores de cualquier triángulo es 180°.
+En un triángulo rectángulo el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos, que es el famoso teorema de Pitágoras.
+En los libros VII, VIII y IX de Los Elementos se estudia la teoría de la divisibilidad.
+La geometría de Euclides, además de ser un poderoso instrumento de razonamiento deductivo, ha sido extremadamente útil en muchos campos del conocimiento; por ejemplo, en la física, la astronomía, la química y diversas ingenierías. Desde luego, es muy útil en las matemáticas. Inspirados por la armonía de la presentación de Euclides, en el siglo II se formuló la teoría ptolemaica del Universo, según la cual la Tierra es el centro del Universo, y los planetas, la Luna y el Sol dan vueltas a su alrededor en líneas perfectas, o sea circunferencias y combinaciones de circunferencias. Sin embargo, las ideas de Euclides constituyen una considerable abstracción de la realidad. Por ejemplo, supone que un punto no tiene tamaño; que una línea es un conjunto de puntos que no tiene ni ancho ni grueso, solamente longitud; que una superficie no tiene grosor, etcétera. En vista de que el punto, de acuerdo con Euclides, no tiene tamaño, se le asigna una dimensión nula o de cero. Una línea tiene solamente longitud, por lo que adquiere una dimensión igual a uno. Una superficie no tiene espesor, no tiene altura, por lo que tiene dimensión dos: ancho y largo. Finalmente, un cuerpo sólido, como un cubo, tiene dimensión tres: largo, ancho y alto. Euclides intentó resumir todo el saber matemático en su libro Los elementos. La geometría de Euclides fue una obra que perduró sin variaciones hasta el siglo XIX.
+De los axiomas de partida, solamente el de las paralelas parecía menos evidente. Diversos matemáticos intentaron sin éxito prescindir de dicho axioma intentándolo deducir del resto de axiomas. Pretendieron presentarlo como un teorema, sin lograrlo.
+Finalmente, algunos autores crearon geometrías nuevas basándose en invalidar o sustituir el axioma de las paralelas, dando origen a las "geometrías no euclidianas". Dichas geometrías tienen como característica principal que al cambiar el axioma de las paralelas los ángulos de un triángulo ya no suman 180 grados.
+Euclides.
+Reconocimientos[editar]
+El cráter lunar Euclides lleva este nombre en su memoria.
+Véase también[editar]
+Geometría euclidiana
+Algoritmo de Euclides
+Bibliografía[editar]
+Euclides. Elementaria. Obra completa. Madrid: Editorial Gredos. ISBN 978-84-249-1463-9. 
+Volumen I: Libros I-IV. 1991. ISBN 978-84-249-1464-6. 
+Volumen II: Libros V-IX. 1994. ISBN 978-84-249-1640-4. 
+Volumen III: Libros X-XIII. 1996. ISBN 978-84-249-1830-9. 
+Aristóteles / Euclides (2000). Sobre las líneas indivisibles; Mecánica / Óptica; Catóptrica; Fenómenos. Madrid: Editorial Gredos. ISBN 978-84-249-2265-8. 
+Sobre Euclides
+Copi, Irving M. Lógica simbólica; traductor del inglés: Sestier, Boulier, Andrés; CECSA; Ciudad de México, 2000, décima novena reimpresión, ISBN 968-26-0134-7. En el artículo Geometría euclidiana pp. 187-191.
+Enlaces externos[editar]
+Wikimedia Commons alberga contenido multimedia sobre Euclides. Commons
+Euclides de Alejandría: vida y obra en español.
+Biografía de Euclides en español en el sitio DivulgaMAT.
+Wikisource contiene obras originales de o sobre Euclides.Wikisource
+Textos de Euclides en griego; en Wikisource.
+Euclides: Elementos.
+Wikisource contiene obras originales de o sobre Los Elementos.Wikisource
+Texto español en el sitio Euclides.
+Texto catalán en el mismo sitio.
+Texto francés, con anotaciones en este idioma, en el sitio de Philippe Remacle (1944 - 2011); trad. de François Peyrard (1759 ó 1760 - 1822). Ed. de 1804, en París.
+Libros: 1; 2; 3; 4; 6; 11; 12.
+Texto inglés.
+Traducción inglesa de Isaac Todhunter y otras en el mismo idioma; en Wikisource.
+Texto inglés, con índice electrónico, en el Proyecto Perseus. En la parte superior derecha se encuentran los rótulos activos "focus" (para cambiar al texto griego) y "load" (para el texto bilingüe).
+Texto griego en Wikisource.
+Texto griego con índice electrónico: facsímil digitalizado del MS D'Orville 301, de la Biblioteca Bodleiana.
+Euclides: División del canon.
+Texto francés, con anotaciones en este idioma, en el sitio de Philippe Remacle.
+Euclides: Tres cánones armónicos.
+Texto francés, con anotaciones en este idioma, en el sitio de Ph. Remacle.
+Portal:Matemática. Contenido relacionado con Matemática.
+Obtenido de «https://es.wikipedia.org/w/index.php?title=Euclides&oldid=97257281»
+Categorías: Matemáticos de la Antigua GreciaGeómetrasEgipcios del siglo III a. C.Egipcios del siglo IV a. C.Matemáticos de la Antigua Grecia del siglo III a. C.Matemáticos de la Antigua Grecia del siglo IV a. C.Categoría oculta: Wikipedia:Páginas con enlaces mágicos de ISBN
+Menú de navegación
+Herramientas personales
+No has iniciado sesiónDiscusiónContribucionesCrear una cuentaAcceder
+Espacios de nombres
+Artículo
+Discusión
+Variantes
+Vistas
+Leer
+Editar
+Ver historial
+Más
+Buscar
+Navegación
+PortadaPortal de la comunidadActualidadCambios recientesPáginas nuevasPágina aleatoriaAyudaDonacionesNotificar un error
+Imprimir/exportar
+Crear un libroDescargar como PDFVersión para imprimir
+En otros proyectos
+Wikimedia CommonsWikisource
+Herramientas
+Lo que enlaza aquíCambios en enlazadasSubir archivoPáginas especialesEnlace permanenteInformación de la páginaElemento de WikidataCitar esta página
+En otros idiomas
+AfrikaansAlemannischአማርኛAragonésالعربيةمصرىঅসমীয়াAsturianuAzərbaycancaБашҡортсаŽemaitėškaБеларускаяБеларуская (тарашкевіца)‎БългарскиभोजपुरीBislamaবাংলাབོད་ཡིགBrezhonegBosanskiБуряадCatalàНохчийнکوردیی ناوەندیČeštinaЧӑвашлаCymraegDanskDeutschΕλληνικάEnglishEsperantoEestiEuskaraEstremeñuفارسیSuomiVõroFrançaisNordfriiskFryskGaeilge贛語Galegoગુજરાતી客家語/Hak-kâ-ngîעבריתहिन्दीFiji HindiHrvatskiMagyarՀայերենInterlinguaBahasa IndonesiaIlokanoIdoÍslenskaItaliano日本語PatoisLa .lojban.Basa JawaქართულიQaraqalpaqshaҚазақша한국어RipoarischKurdîКыргызчаLatinaLigureLumbaartLietuviųLatviešuMalagasyМакедонскиമലയാളംМонголमराठीBahasa MelayuMaltiMirandésမြန်မာဘာသာNederlandsNorsk nynorskNorsk bokmålOccitanOromooଓଡ଼ିଆਪੰਜਾਬੀPolskiPiemontèisپنجابیپښتوPortuguêsRomânăРусскийРусиньскыйСаха тылаSicilianuScotsسنڌيSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaSlovenščinaShqipСрпски / srpskiSvenskaKiswahiliதமிழ்తెలుగుТоҷикӣไทยTagalogTürkçeТатарча/tatarçaУкраїнськаاردوOʻzbekcha/ўзбекчаVènetoVepsän kel’Tiếng ViệtVolapükWinaray吴语ХальмгIsiXhosaმარგალურიייִדישYorùbáVahcuengh中文文言粵語
+Editar enlaces
+Esta página fue modificada por última vez el 2 mar 2017 a las 01:29.
+El texto está disponible bajo la Licencia Creative Commons Atribución Compartir Igual 3.0;
+pueden aplicarse cláusulas adicionales. Al usar este sitio, usted acepta nuestros términos de uso y nuestra política de privacidad. Wikipedia® es una marca registrada de la Fundación Wikimedia, Inc., una organización sin ánimo de lucro.
+Política de privacidad
+Acerca de Wikipedia
+Limitación de responsabilidad
+Desarrolladores
+Declaración de cookies
+Versión para móviles

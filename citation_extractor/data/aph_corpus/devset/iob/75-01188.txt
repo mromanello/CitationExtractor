@@ -1,0 +1,19 @@
+Sur	PRP
+le	DET:ART
+chemin	NOM
+spirituel	ADJ
+qui	PRO:REL
+mène	VER:pres
+à	PRP
+l'	DET:ART
+humilité	NOM
+chez	PRP
+Jean	NAM
+Cassien	NAM
+(	PUN
+Inst.	ABR
+4	NUM
+,	PUN
+39	NUM
+)	PUN
+

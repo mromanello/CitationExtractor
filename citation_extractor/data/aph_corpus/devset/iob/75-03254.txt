@@ -1,0 +1,20 @@
+Von	APPR
+den	ART
+Stücken	NN
+Menanders	NN
+wurden	VAFIN
+möglicherweise	ADV
+solche	PIS
+,	$,
+die	PRELS
+in	APPR
+einer	ART
+lateinischen	ADJA
+Fassung	NN
+vorlagen	VVFIN
+,	$,
+nicht	PTKNEG
+weiter	ADV
+überliefert	VVPP
+.	$.
+

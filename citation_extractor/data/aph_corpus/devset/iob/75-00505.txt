@@ -1,0 +1,21 @@
+Chez	PRP
+des	PRP:det
+commentateurs	NOM
+du	PRP:det
+6e	NUM
+s.	NOM
+(	PUN
+Philopon	NAM
+,	PUN
+Simplicius	NAM
+,	PUN
+Olympiodore	NAM
+,	PUN
+Elias	NAM
+et	KON
+Boèce	NAM
+)	PUN
+et	KON
+chez	PRP
+Anselme	NAM
+

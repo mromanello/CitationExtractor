@@ -1,0 +1,15 @@
+Resoconto	NOM
+dei	PRE:det
+lavori	NOM
+del	PRE:det
+Congresso	NOM
+,	PON
+tenutosi	VER:pper
+a	PRE
+Bonn	NPR
+nei	PRE:det
+giorni	NOM
+12-17	NUM
+settembre	NOM
+2004	NUM
+

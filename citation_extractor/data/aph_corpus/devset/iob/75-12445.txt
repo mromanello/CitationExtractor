@@ -1,0 +1,39 @@
+P.	NP
+190-191	CD
+:	:
+Supplement	NN
+:	:
+The	DT
+«	)
+Book	NN
+of	IN
+Elchasai	NP
+»	(
+reconstructed	VBN
+and	CC
+translated	VBN
+.	SENT
+
+According	VBG
+to	TO
+quotations	NNS
+from	IN
+Epiphanius	NP
+,	,
+Origen	NP
+,	,
+Hippolytus	NP
+,	,
+Ps-Clementina	NP
+and	CC
+Codex	NP
+Manichaicus	NP
+Coloniensis	NP
+.	SENT
+
+P.	NP
+197-215	CD
+:	:
+Explanatory	JJ
+appendix	NN
+

@@ -1,0 +1,6 @@
+T1	AWORK 27 38	« Pastore »
+T2	REFAUWORK 39 45	(Mand.
+T3	REFSCOPE 46 56	11, 9-10),
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:963:11.9-11.10
+#1	AnnotatorNotes T1	urn:cts:cwkb:908.2683

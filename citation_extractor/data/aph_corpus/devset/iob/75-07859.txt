@@ -1,0 +1,6 @@
+Céramique	NOM
+du	PRP:det
+12e	NUM
+s.	NOM
+sub-mycénienne	ADJ
+

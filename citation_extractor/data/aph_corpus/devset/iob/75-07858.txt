@@ -1,0 +1,41 @@
+Première	NUM
+partie	NOM
+des	PRP:det
+compléments	NOM
+à	PRP
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+55-06659	NUM
+.	SENT
+
+Présente	VER:pres
+les	DET:ART
+objets	NOM
+issus	ADJ
+des	PRP:det
+tombes	NOM
+du	PRP:det
+Bronze	NAM
+récent	ADJ
+,	PUN
+en	PRP
+matières	NOM
+dures	ADJ
+animales	ADJ
+,	PUN
+en	PRP
+métal	NOM
+et	KON
+en	PRP
+matières	NOM
+diverses	ADJ
+.	SENT
+
+Pour	PRP
+la	DET:ART
+suite	NOM
+=>	ABR
+75-07860	NUM
+.	SENT
+

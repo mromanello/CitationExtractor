@@ -1,0 +1,4 @@
+T1	REFAUWORK 13 23	Tac., Agr.
+T2	REFSCOPE 24 30	35-36,
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:1346.4372:35-36

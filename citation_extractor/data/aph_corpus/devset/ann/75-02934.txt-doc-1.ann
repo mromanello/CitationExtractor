@@ -1,0 +1,8 @@
+T1	AAUTHOR 0 8	Libanius
+T2	AAUTHOR 532 539	Plinius
+T3	REFAUWORK 540 545	(Nat.
+T4	REFSCOPE 546 559	28, 112-118).
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:620.1289:28.112-28.118
+#1	AnnotatorNotes T2	urn:cts:cwkb:584
+#2	AnnotatorNotes T1	urn:cts:cwkb:951

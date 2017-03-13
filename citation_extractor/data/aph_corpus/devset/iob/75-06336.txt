@@ -1,0 +1,26 @@
+Analisi	NOM
+di	PRE
+11	NUM
+nuovi	ADJ
+manoscritti	ADJ
+rispetto	NOM
+alla	PRE:det
+pubblicazione	NOM
+di	PRE
+P.	NOM
+Chiesa	NOM
+(	PON
+=>	NOM
+64-06640	NUM
+)	PON
+e	CON
+osservazioni	NOM
+sulla	PRE:det
+tradizione	NOM
+del	PRE:det
+corpus	NOM
+agiografico	ADJ
+relativo	ADJ
+alla	PRE:det
+martire	NOM
+

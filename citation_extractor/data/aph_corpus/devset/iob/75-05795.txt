@@ -1,0 +1,12 @@
+Les	DET:ART
+caractéristiques	NOM
+proprement	ADV
+sémitiques	ADJ
+de	PRP
+la	DET:ART
+poétique	NOM
+du	PRP:det
+Livre	NOM
+de	PRP
+Salomon	NAM
+

@@ -1,0 +1,18 @@
+Zum	APPRART
+gegenwärtigen	ADJA
+Stand	NN
+der	ART
+Kenntnisse	NN
+über	APPR
+die	ART
+verschiedenen	ADJA
+illyrischen	ADJA
+Völkergruppen	NN
+,	$,
+die	PRELS
+in	APPR
+Alburnus	NN
+Maior	NN
+erwähnt	VVPP
+werden	VAINF
+

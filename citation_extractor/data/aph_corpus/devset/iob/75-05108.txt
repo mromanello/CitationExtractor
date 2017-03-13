@@ -1,0 +1,27 @@
+Se	SE
+apoya	VLfin
+la	ART
+idea	NC
+de	PREP
+que	CQUE
+en	PREP
+la	ART
+tragedia	NC
+perdida	VLadj
+de	PREP
+Sófocles	NP
+se	SE
+hacía	VLfin
+referencia	NC
+al	PAL
+castigo	NC
+de	PREP
+Tántalo	NC
+de	PREP
+ser	VSinf
+cubierto	VLadj
+por	PREP
+el	ART
+monte	NC
+Sípilo	NC
+

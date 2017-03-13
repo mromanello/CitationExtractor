@@ -1,0 +1,11 @@
+Resoconto	NOM
+dei	PRE:det
+lavori	NOM
+,	PON
+i	DET:def
+cui	PRO:rela
+Atti	NOM
+sono	VER:pres
+schedati	VER:pper
+75-14419	NUM
+

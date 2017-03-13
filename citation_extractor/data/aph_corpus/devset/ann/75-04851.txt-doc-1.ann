@@ -1,0 +1,8 @@
+T1	AWORK 6 16	« Fedra »,
+T2	AAUTHOR 17 23	Seneca
+T3	REFAUWORK 100 110	(Ov., Her.
+T4	REFSCOPE 111 122	6, 121-128)
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:502.1061:6.121-6.128
+#1	AnnotatorNotes T2	urn:cts:cwkb:620
+#2	AnnotatorNotes T1	urn:cts:cwkb:620.1279

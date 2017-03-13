@@ -1,0 +1,7 @@
+Zu	APPR
+Charakter	NN
+und	KON
+Bedeutung	NN
+seiner	PPOSAT
+Regel	NN
+

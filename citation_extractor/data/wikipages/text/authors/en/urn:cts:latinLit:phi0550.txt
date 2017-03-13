@@ -1,0 +1,544 @@
+Lucretius - Wikipedia
+Lucretius
+From Wikipedia, the free encyclopedia
+Jump to:					navigation, 					search
+This article is about the Roman poet and philosopher. For other people named Lucretius, see Lucretia (gens).
+Titus Lucretius Carus
+Modern bust of Lucretius
+Born
+c. 15 October 99 BC
+Died
+c. 55 BC (aged around 44)
+Era
+Hellenistic philosophy
+Region
+Western philosophy
+School
+Epicureanism
+Main interests
+Ethics, metaphysics
+Influences
+Gaius Memmius, Epicurus, Socrates, Plato, Aristotle
+Influenced
+Cicero, Virgil, Pierre Gassendi, Stephen Greenblatt, Karl Marx, Sigmund Freud, Charles Darwin, Friedrich Nietzsche, Gilles Deleuze
+Titus Lucretius Carus (/ˈtaɪtəs lʊˈkriːʃəs/; c. 15 October 99 BC – c. 55 BC) was a Roman poet and philosopher. His only known work is the didactic philosophical poem De rerum natura about the tenets and philosophy of Epicureanism, and which is usually translated into English as On the Nature of Things. Lucretius has been credited with originating the concept of the three-age system which was formalised from 1834 by C. J. Thomsen.
+Very little is known about Lucretius's life; the only certain fact is that he was either a friend or client of Gaius Memmius, to whom the poem was addressed and dedicated.[1]
+De rerum natura was a considerable influence on the Augustan poets, particularly Virgil (in his Aeneid and Georgics, and to a lesser extent on the Eclogues) and Horace.[2] The work virtually disappeared during the Middle Ages but was rediscovered in 1417 in a monastery in Germany[3] by Poggio Bracciolini, and it played an important role both in the development of atomism (Lucretius was an important influence on Pierre Gassendi[4]) and the efforts of various figures of the Enlightenment era to construct a new Christian humanism.
+Contents
+1 Life
+2 De rerum natura
+3 See also
+4 Notes
+5 References
+6 Bibliography
+7 External links
+Life[edit]
+And now, good Memmius, receptive ears
+And keen intelligence detached from cares
+I pray you bring to true philosophy
+De rerum natura (tr. Melville) 1.50
+If I must speak, my noble Memmius,
+As nature's majesty now known demands
+De rerum natura (tr. Melville) 5.6
+Virtually nothing is known about the life of Lucretius. He was probably a member of the aristocratic gens Lucretia, and his work shows an intimate knowledge of the luxurious lifestyle in Rome.[5] Lucretius' love of the countryside invites speculation that he inhabited family-owned rural estates, as did many wealthy Roman families, and he certainly was expensively educated with a mastery of Latin, Greek, literature, and philosophy.[5] Jerome tells how he was driven mad by a love potion and wrote his poetry between fits of insanity, eventually committing suicide in middle age;[6] but modern scholarship suggests this account was probably an invention.[7]
+In a letter by Cicero to his brother Quintus in February 54 BC, Cicero said : "The poems of Lucretius are as you write: they exhibit many flashes of genius, and yet show great mastership."[8] By this time, both Cicero and his brother had read De rerum natura, and so might have many other Romans. A literary evaluation of Lucretius's work, however, reveals some repetition and a sudden end to Book 6 during a description of the plague at Athens. The poem appears to have been published without a final revision, possibly due to its author's death. If this is true, Lucretius must have been dead by 54 BC.
+In the work of another author in late Republican Rome, Virgil writes in the second book of his Georgics, apparently referring to Lucretius,[9] "Happy is he who has discovered the causes of things and has cast beneath his feet[a] all fears, unavoidable fate, and the din of the devouring Underworld."[10]
+A brief biographical note is found in Aelius Donatus's Life of Virgil, which seems to be derived from an earlier work by Suetonius.[11] The note reads: "The first years of his life Virgil spent in Cremona until the assumption of his toga virilis on his 17th birthday (when the same two men held the consulate as when he was born), and it so happened that on the very same day Lucretius the poet passed away." However, although Lucretius certainly lived and died around the time that Virgil and Cicero flourished, the information in this particular testimony is internally inconsistent: If Virgil was born in 70 BC, his 17th birthday would be in 53. The two consuls of 70 BC, Pompey and Crassus, stood together as consuls again in 55, not 53.
+There is insufficient basis for a confident assertion of the date of Lucretius's birth or death in other sources. Another yet briefer note is found in the Chronicon of Donatus's pupil, Jerome. Writing four centuries after Lucretius's death, he enters under the 171st Olympiad the following line: "Titus Lucretius the poet is born. Later he was driven mad by a love potion, and when, during the intervals of his insanity, he had written a number of books, which were later emended by Cicero, he killed himself by his own hand in the 44th year of his life."[6] The claim that he was driven mad by a love potion, although defended by such scholars as Reale and Catan,[12] often is dismissed as the result of historical confusion,[1] or anti-Epicurean slander. [13] In some accounts the administration of the toxic aphrodisiac is attributed to his wife Lucilia.
+Jerome's image of Lucretius as a lovesick, mad poet continued to have significant influence on modern scholarship until quite recently, although it now is accepted that such a report is inaccurate.[14] Similarly, the statement that Cicero emended (Latin: emendavit) the work prior to publication is doubtful.[15] The exact date of his birth varies by manuscript; in most it is recorded under 94 BC, but in others under 93 or 96. Lucretius (a materialist writer) and Jerome (a Christian priest) wrote for opposing purposes, and whether or not Jerome attempted to disparage Lucretius's work as the work of a madman is an open question.
+It is impossible to estimate the credibility of the accounts of Donatus and Jerome since they wrote long after the poet's death, moreover the latter author belonged to a theological tradition explicitly hostile to Epicureanism,[7] and the sources of their comments are unknown. If 55 BC is Lucretius's most likely year of death, however, and if Jerome is accurate about Lucretius's age (43) when he died, it can then be concluded he was born in 99 or 98 BC.[16][17] Less specific estimates place the birth of Lucretius in the 90s BC and death in the 50s BC,[18][19] in agreement with the poem's many allusions to the tumultuous state of political affairs in Rome and its civil strife.
+De rerum natura[edit]
+Main article: De rerum natura
+A manuscript of De Rerum Natura in the Cambridge University Library collection.
+De rerum natura (1570)
+His poem De rerum natura (usually translated as "On the Nature of Things" or "On the Nature of the Universe") transmits the ideas of Epicureanism, which includes Atomism, and psychology. Lucretius was the first writer to introduce Roman readers to Epicurean philosophy.[20] The poem, written in some 7,400 dactylic hexameters, is divided into six untitled books, and explores Epicurean physics through richly poetic language and metaphors. Lucretius presents the principles of atomism; the nature of the mind and soul; explanations of sensation and thought; the development of the world and its phenomena; and explains a variety of celestial and terrestrial phenomena. The universe described in the poem operates according to these physical principles, guided by fortuna, "chance", and not the divine intervention of the traditional Roman deities.[21]
+Within this work, Lucretius makes reference to the cultural and technological development of man in his use of available materials, tools and weapons through prehistory to Lucretius' own time. He specifies the earliest weapons as hands, nails and teeth. These were followed by stones, branches and, once man could kindle and control it, fire. He then refers to "tough iron" and copper in that order but goes on to say that copper (sic) was the primary means of tilling the soil and the basis of weaponry until, "by slow degrees", the iron sword became predominant (it still was in his day) and "the bronze sickle fell into disrepute" as iron ploughs were introduced.[22] He had earlier envisaged a pre-technological, pre-literary kind of man whose life was lived "in the fashion of wild beasts roaming at large".[23] From this beginning, he theorised, there followed the development in turn of crude huts, use and kindling of fire, clothing, language, family and city-states. He believed that smelting of metal, and perhaps too the firing of pottery, was discovered by accident: for example, the result of a forest fire. He does specify, however, that the use of copper (sic) followed the use of stones and branches and preceded the use of iron.[23]
+Lucretius seems to equate copper with bronze, an alloy of copper and tin that has much greater resilience than copper; both copper and bronze were superseded by iron during his millennium (1000BC to 1BC). He may have considered bronze to be a stronger variety of copper and not necessarily a wholly individual material. Lucretius is believed to be the first to put forward a theory of the successive usages of first wood and stone, then copper and bronze, and finally iron. Although his theory lay dormant for many centuries, it was revived in the nineteenth century and he has been credited with originating the concept of the three-age system which was formalised from 1834 by C. J. Thomsen.[24]
+See also[edit]
+The Swerve: How the World Became Modern, a modern historiography by Stephen Greenblatt
+List of English translations of De rerum natura
+Notes[edit]
+^ subiecit pedibus; cf. Lucretius 1.78: religio pedibus subiecta, "religion lies cast beneath our feet"
+References[edit]
+^ a b Melville (2008), p. xii.
+^ Reckford, K. J. Some studies in Horace's odes on love
+^ Greenblatt (2009), p. 44.
+^ Fisher, Saul (2009). "Pierre Gassendi". Stanford Encyclopedia of Philosophy. 
+^ a b Melville (2008), Foreword.
+^ a b Jerome & 380 AD, 1920.
+^ a b Greenblatt (2009), pp. 53–54.
+^ Cicero & 54 BC, 2.9.
+^ Smith (1975), intro.
+^ Virgil & c. 31 BC, 2.490.
+^ Horsfall (2000), p. 3.
+^ Reale & Catan (1980), p. 414.
+^ Smith (2011), p. vii.
+^ Gale (2007), p. 2.
+^ Dalzell (1982), p. 39.
+^ Bailey (1947), pp. 1–3.
+^ Smith (1992), pp. x–xi.
+^ Kenney (1971), p. 6.
+^ Costa (1984), p. ix.
+^ Gale (2007), p. 35.
+^ In particular, De rerum natura 5.107 (fortuna gubernans, "guiding chance" or "fortune at the helm"): see Monica R. Gale, Myth and Poetry in Lucretius (Cambridge University Press, 1994, 1996 reprint), pp. 213, 223–224 online and Lucretius (Oxford University Press, 2007), p. 238 online.
+^ Lucretius. De rerum natura, Book V, around Line 1200 ff. 
+^ a b Lucretius. De rerum natura, Book V, around Line 940 ff. 
+^ Barnes, pp. 27–28.
+Bibliography[edit]
+Bailey, C. (1947). "Prolegomena". Lucretius's De rerum natura. 
+Barnes, Harry Elmer (1937). An Intellectual and Cultural History of the Western World, Volume One. Dover Publications. OCLC 390382. 
+Cicero. "Letters to his brother Quintus". tr. Evelyn Shuckburgh. Retrieved 16 May 2012. 
+Costa, C. D. N. (1984). "Introduction". Lucretius: De Rerum Natura V. Oxford University Press. ISBN 978-0-19-814457-1. 
+Dalzell, A. (1982). "Lucretius". The Cambridge History of Classical Literature. Cambridge: Cambridge University Press. 
+Gale, M.R. (2007). Oxford Readings in Classical Studies: Lucretius. Oxford: Oxford University Press. ISBN 978-0-19-926034-8. 
+Greenblatt, Stephen (2009). The Swerve. New York: WW. Norton and Company. 
+Horsfall, N. (2000). "A Companion to the Study of Virgil". ISBN 978-90-04-11951-2. Retrieved 16 May 2012. 
+Jerome, Saint. "Chronicle". Retrieved 16 May 2012. 
+Kenney, E. J. (1971). "Introduction". Lucretius: De rerum natura. Cambridge University Press. ISBN 978-0-521-29177-4. 
+Melville, Ronald; Fowler, Don and Peta, eds. (2008) [1999]. Lucretius: On the Nature of the Universe. Oxford World's Classics. Oxford University Press. ISBN 978-0-19-162327-1. 
+Reale, G.; Catan, J. (1980). A History of Ancient Philosophy: The Systems of the Hellenistic Age. SUNY Press. 
+Santayana, George (1910). "Three philosophical poets: Lucretius, Dante, and Goethe". Retrieved 16 May 2012. 
+Smith, M. (1992). "Introduction". De rerum natura. Loeb Classical Library. 
+Smith, M. F. (1975). De rerum natura. Loeb Classical Library. 
+Smith, M. F. (2011) [2001]. "Lucretius, On the Nature of Things". Hackett. ISBN 978-0-87220-587-1. Retrieved 16 May 2012. 
+Stearns, J. B. (December 1931). Lucretius and Memmius. The Classical Weekly. 25. pp. 67–68. doi:10.2307/4389660. JSTOR 4389660. 
+Virgil. "Georgics". Retrieved 16 May 2012. 
+Editions
+Lucretius. De rerum natura. (3 vols. Latin text Books I-VI. Comprehensive commentary by Cyril Bailey), Oxford University Press 1947.
+On the Nature of Things, (1951 prose translation by R. E. Latham), introduction and notes by John Godwin, Penguin revised edition 1994, ISBN 0-14-044610-9
+Lucretius (1971). De rerum natura Book III. (Latin version of Book III only– 37 pp., with extensive commentary by E. J. Kenney– 171 pp.), Cambridge University Press corrected reprint 1984. ISBN 0-521-29177-1
+Lucretius (2008 [1997, 1999]), On the Nature of the Universe (tr. Melville, Robert) (introduction and notes by Fowler, Don; Fowler, Peta). Oxford University Press [Oxford World Classics], ISBN 978-0-19-955514-7
+Munro H. A. J. Lucretius: On the Nature of Things Translated, with an analysis of the six books. 4th Edn, Routledge (1886). Online version at the Internet Archive (2011).
+Commentary
+Strauss, Leo. "Notes on Lucretius," in Liberalism: Ancient and Modern (Chicago, 1968), pp. 76–139.
+Erler M. "Lukrez," in H. Flashar (ed.), Die Philosophie der Antike. Bd. 4. Die hellenistische Philosophie (Basel, 1994), 381–490.
+Esolen, Anthony M. Lucretius On the Nature of Things (Baltimore, 1995).
+Deufert, Marcus. Pseudo-Lukrezisches im Lukrez (Berlin-New York, 1996).
+Melville, Ronald. Lucretius: On the Nature of the Universe (Oxford, 1997).
+Sedley D. Lucretius and the Transformation of Greek Wisdom (Cambridge, 1998).
+Fowler, Don. Lucretius on Atomic Motion: A Commentary on De rerum natura 2. 1–332 (Oxford, Oxford UP, 2002).
+Campbell, Gordon. Lucretius on Creation and Evolution: A Commentary on De rerum natura Book Five, Lines 772–1104 (Oxford: Oxford University Press, 2003).
+Rumpf L. Naturerkenntnis und Naturerfahrung. Zur Reflexion epikureischer Theorie bei Lukrez (Munich: C.H. Beck, 2003) (Zetemata, 116).
+Sedley, David N. Lucretius and the Transformation of Greek Wisdom (Cambridge, CUP, 2003).
+Godwin, John. Lucretius (London: Bristol Classical Press, 2004) ("Ancient in Action" Series).
+Gale Monica R. (ed.), Oxford Readings in Classical Studies: Lucretius (Oxford: Oxford University Press, 2007).
+Garani, Myrto. Empedocles Redivivus: poetry and analogy in Lucretius. Studies in classics (London; New York: Routledge, 2007).
+Marković, Daniel. The Rhetoric of Explanation in Lucretius’ De rerum natura (Leiden, Brill, 2008) (Mnemosyne, Supplements, 294).
+Beretta, Marco. Francesco Citti (edd), Lucrezio, la natura e la scienza (Firenze: Leo S. Olschki, 2008) (Biblioteca di Nuncius / Istituto e Museo distoria della scienza, Firenze; 66).
+DeMay, Philip. Lucretius: Poet and Epicurean (Cambridge; New York: Cambridge University Press, 2009) (Greece & Rome: texts and contexts.
+External links[edit]
+Wikimedia Commons has media related to Lucretius.
+Wikiquote has quotations related to: Lucretius
+ "Lucretius". Encyclopædia Britannica. 17 (11th ed.). 1911. 
+Works by Lucretius at Project Gutenberg
+On The Nature Of Things
+Works by or about Lucretius at Internet Archive
+Works by Lucretius at LibriVox (public domain audiobooks)
+Works by Lucretius at Perseus Project
+Internet Encyclopedia of Philosophy entry by David Simpson
+Stanford Encyclopedia of Philosophy entry
+Lucretius's works: text, concordances and frequency list
+Bibliography De rerum natura Book III
+Online Galleries, History of Science Collections, University of Oklahoma Libraries High-resolution images of works by Lucretius in .jpg and .tiff format.
+Lucretius: De rerum natura (1475-1494), digitised codex at Somni
+Titi Lucretii Cari De rerum natura libri sex, published in Paris 1563, later owned and annotated by Montaigne, fully digitised in Cambridge Digital Library
+v
+t
+e
+Epicureanism
+Philosophers
+Greek era
+Epicurus
+Polyaenus
+Metrodorus
+Batis
+Leontion
+Carneiscus
+Idomeneus
+Hermarchus
+Colotes
+Themista
+Leonteus
+Polystratus
+Dionysius of Lamptrai
+Basilides
+Philonides
+Diogenes of Tarsus
+Alcaeus and Philiscus
+Apollodorus
+Demetrius Lacon
+Zeno of Sidon
+Roman era
+Amafinius
+Rabirius
+Titus Albucius
+Phaedrus
+Philodemus
+Lucretius
+Patro
+Catius
+Siro
+Diogenes of Oenoanda
+Philosophy
+Epicureanism (cf. Hedonism)
+Tetrapharmakos
+Concepts
+Aponia
+Ataraxia
+Clinamen
+Eudaimonia
+Hedone
+Metakosmia
+Works
+On the Nature of Things
+List of English translations of De rerum natura
+v
+t
+e
+Ancient Greek schools of philosophy
+Pre-Socratic
+Schools
+Atomism
+Eleatics
+Ionian
+Ephesian
+Milesian
+Pluralism
+Pythagoreanism
+Sophism
+Philosophers
+Anaxagoras
+Anaximander
+Anaximenes
+Democritus
+Empedocles
+Heraclitus
+Leucippus
+Melissus
+Parmenides
+Protagoras
+Pythagoras
+Thales
+Zeno of Elea
+Socratic
+Schools
+Cynicism
+Cyrenaics
+Eretrian school
+Megarian school
+Peripateticism
+Platonism
+Philosophers
+Antisthenes
+Aristippus
+Aristotle
+Diogenes of Sinope
+Euclid of Megara
+Phaedo of Elis
+Plato
+Socrates
+Hellenistic
+Schools
+Epicureanism
+Neoplatonism
+Neopythagoreanism
+Pyrrhonism
+Stoicism
+Philosophers
+Apollonius of Tyana
+Epictetus
+Epicurus
+Lucretius
+Plotinus
+Pyrrho
+Sextus Empiricus
+Zeno of Citium
+v
+t
+e
+Ancient Rome topics
+Outline
+Timeline
+Epochs
+Foundation
+Kingdom (overthrow)
+Republic
+Empire
+(Pax Romana
+Principate
+Dominate)
+Western Empire (fall
+historiography of the fall)
+Eastern (Byzantine) Empire (decline
+fall)
+Constitution
+History
+Kingdom
+Republic
+Empire
+Late Empire
+Senate
+Legislative assemblies (Curiate
+Centuriate
+Tribal
+Plebeian)
+Executive magistrates
+SPQR
+Government
+Curia
+Forum
+Cursus honorum
+Collegiality
+Emperor
+Legatus
+Dux
+Officium
+Praefectus
+Vicarius
+Vigintisexviri
+Lictor
+Magister militum
+Imperator
+Princeps senatus
+Pontifex Maximus
+Augustus
+Caesar
+Tetrarch
+Optimates
+Populares
+Province
+Magistrates
+Ordinary
+Tribune
+Quaestor
+Aedile
+Praetor
+Consul
+Censor
+Promagistrate
+Governor
+Extraordinary
+Dictator
+Magister Equitum
+Decemviri
+Consular Tribune
+Triumvir
+Rex
+Interrex
+Law
+Twelve Tables
+Mos maiorum
+Citizenship
+Auctoritas
+Imperium
+Status
+Litigation
+Military
+Borders
+Establishment
+Structure
+Campaigns
+Political control
+Strategy
+Engineering
+Frontiers and fortifications (castra)
+Technology
+Army (Legion
+Infantry tactics
+Personal equipment
+Siege engines)
+Navy (fleets)
+Auxiliaries
+Decorations and punishments
+Hippika gymnasia
+Economy
+Agriculture
+Deforestation
+Commerce
+Finance
+Currency
+Republican currency
+Imperial currency
+Technology
+Abacus
+Numerals
+Civil engineering
+Military engineering
+Military technology
+Aqueducts
+Bridges
+Circus
+Concrete
+Domes
+Forum
+Metallurgy
+Roads
+Sanitation
+Thermae
+Culture
+Architecture
+Art
+Bathing
+Calendar
+Clothing
+Cosmetics
+Cuisine
+Hairstyles
+Education
+Literature
+Music
+Mythology
+Religion
+Romanization
+Sexuality
+Theatre
+Wine
+Society
+Patricians
+Plebs
+Conflict of the Orders
+Secessio plebis
+Equites
+Gens
+Tribes
+Naming conventions
+Demography
+Women
+Marriage
+Adoption
+Slavery
+Bagaudae
+Language (Latin)
+History
+Alphabet
+Versions (Old
+Classical
+Vulgar
+Late
+Medieval
+Renaissance
+New
+Contemporary
+Ecclesiastical)
+Romance languages
+Writers
+Apuleius
+Caesar
+Catullus
+Cicero
+Ennius
+Horace
+Juvenal
+Livy
+Lucan
+Lucretius
+Martial
+Ovid
+Petronius
+Phaedrus
+Plautus
+Pliny the Elder
+Pliny the Younger
+Propertius
+Quintilian
+Quintus Curtius Rufus
+Sallust
+Seneca
+Statius
+Suetonius
+Tacitus
+Terence
+Tibullus
+Marcus Terentius Varro
+Virgil
+Vitruvius
+Major cities
+Alexandria
+Antioch
+Aquileia
+Berytus
+Bononia
+Carthage
+Constantinopolis
+Eboracum
+Leptis Magna
+Londinium
+Lutetia
+Mediolanum
+Pompeii
+Ravenna
+Roma
+Smyrna
+Vindobona
+Volubilis
+Lists and other
+topics
+Wars and battles
+Generals
+Legions
+Emperors
+Geographers
+Cities and towns
+Institutions
+Laws
+Consuls
+Tribunes
+Distinguished women
+Nomina
+Gentes
+Climate
+Legacy
+Fiction / Films
+Ancient Rome Portal
+Authority control
+WorldCat Identities
+VIAF: 106388020
+LCCN: n79033010
+ISNI: 0000 0001 2146 3483
+GND: 118575236
+SELIBR: 208669
+SUDOC: 026997576
+BNF: cb11913603g (data)
+NLA: 35315470
+NDL: 00470725
+NKC: jn19981001772
+BNE: XX985629
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Lucretius&oldid=764917017"
+Categories: 90s BC births50s BC deaths1st-century BC philosophers1st-century BC Roman poets1st-century BC RomansClassical humanistsDidactic poetsEpic poetsGolden Age Latin writersRoman-era philosophersRoman-era Epicurean philosophersRoman-era poetsAtheist philosophersCritics of religionsLucretiiHidden categories: Articles with hCardsArticles containing Latin-language textCommons category with local link same as on WikidataWikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource referenceArticles with Project Gutenberg linksArticles with Internet Archive linksArticles with LibriVox linksWikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with SELIBR identifiersWikipedia articles with BNF identifiersWikipedia articles with NLA identifiersPages using ISBN magic links
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+Article
+Talk
+Variants
+Views
+Read
+Edit
+View history
+More
+Search
+Navigation
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+Interaction
+HelpAbout WikipediaCommunity portalRecent changesContact page
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page
+Print/export
+Create a bookDownload as PDFPrintable version
+In other projects
+Wikimedia CommonsWikiquoteWikisource
+Languages
+العربيةAragonésAzərbaycancaবাংলাБеларускаяБългарскиBrezhonegCatalàČeštinaDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisFryskGalego한국어Հայերենहिन्दीHrvatskiIdoBahasa IndonesiaÍslenskaItalianoעבריתҚазақшаKreyòl ayisyenКыргызчаLatinaLatviešuLietuviųLumbaartMagyarNederlands日本語Norsk bokmålOccitanPolskiPortuguêsRomânăРусскийSarduScotsShqipSicilianuSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaTagalogТатарча/tatarçaTürkçeУкраїнськаTiếng ViệtZazaki中文
+Edit links
+This page was last modified on 11 February 2017, at 17:50.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view

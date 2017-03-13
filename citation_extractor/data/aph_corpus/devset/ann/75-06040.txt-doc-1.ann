@@ -1,0 +1,14 @@
+T1	AWORK 40 57	« Progymnasmata »
+T2	AAUTHOR 61 71	Elio Teone
+T3	AAUTHOR 150 155	Teone
+T4	AAUTHOR 301 310	Demostene
+T5	AWORK 351 369	« Contro Leptine »
+T6	REFSCOPE 370 378	(355-354
+T7	AAUTHOR 439 448	Demostene
+R1	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes T7	urn:cts:greekLit:tlg0014
+#1	AnnotatorNotes T4	urn:cts:greekLit:tlg0014
+#2	AnnotatorNotes T5	urn:cts:greekLit:tlg0014.tlg020
+#3	AnnotatorNotes T2	urn:cts:cwkb:1363
+#4	AnnotatorNotes T3	urn:cts:cwkb:1185
+#5	AnnotatorNotes T1	urn:cts:cwkb:2864.2688

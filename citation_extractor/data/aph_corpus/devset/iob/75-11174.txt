@@ -1,0 +1,32 @@
+C'	PRO:DEM
+est	VER:pres
+en	PRP
+raison	NOM
+des	PRP:det
+affinités	NOM
+qu'	PRO:REL
+ils	PRO:PER
+trouvèrent	VER:simp
+avec	PRP
+l'	DET:ART
+Ibérie	NOM
+du	PRP:det
+Caucase	NOM
+que	KON
+les	DET:ART
+Grecs	NAM
+donnèrent	VER:simp
+son	DET:POS
+nom	NOM
+à	PRP
+la	DET:ART
+Péninsule	NAM
+occidentale	ADJ
+.	SENT
+
+Recension	NOM
+des	PRP:det
+similitudes	NOM
+et	KON
+différences	NOM
+

@@ -1,0 +1,10 @@
+Breve	ADJ
+profilo	NOM
+bio-bibliografico	ADJ
+dello	PRE:det
+studioso	NOM
+scomparso	ADJ
+(	PON
+1909-1991	NUM
+)	PON
+

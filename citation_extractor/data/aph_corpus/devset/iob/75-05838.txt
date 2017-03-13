@@ -1,0 +1,21 @@
+Ristampa	NOM
+postuma	ADJ
+di	PRE
+un	DET:indef
+articolo	NOM
+già	ADV
+pubblicato	VER:pper
+(	PON
+=>	NOM
+75-05839	NUM
+)	PON
+nella	PRE:det
+miscellanea	NOM
+per	PRE
+A.	NPR
+Biondi	NOM
+(	PON
+=>	NOM
+75-15101	NUM
+)	PON
+

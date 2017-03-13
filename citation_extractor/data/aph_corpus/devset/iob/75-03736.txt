@@ -1,0 +1,11 @@
+Analisi	NOM
+metrica	ADJ
+e	CON
+stilistica	ADJ
+,	PON
+e	CON
+interpretazione	NOM
+dei	PRE:det
+due	ADJ
+componimenti	NOM
+

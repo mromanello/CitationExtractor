@@ -1,0 +1,30 @@
+Se	SE
+define	VLfin
+la	ART
+obra	NC
+como	ADV
+«	SYM
+novela	VLfin
+»	SYM
+y	CC
+se	SE
+analiza	VLfin
+en	PREP
+qué	INT
+medida	NC
+puede	VMfin
+tratarse	VCLIinf
+de	PREP
+una	ART
+novela	VLfin
+«	SYM
+picaresca	ADJ
+»	SYM
+o	CC
+,	CM
+al menos	ADV
+,	CM
+«	SYM
+proto-picaresca	NC
+»	SYM
+

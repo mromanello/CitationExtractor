@@ -1,0 +1,23 @@
+Proposta	NOM
+di	PRE
+collocazione	NOM
+geografica	ADJ
+di	PRE
+sette	ADJ
+«	PON
+pagi	NOM
+»	PON
+menzionati	VER:pper
+nella	PRE:det
+«	PON
+Tabula	NOM
+alimentaria	ADJ
+»	PON
+veleiate	VER:cpre
+(	PON
+CIL	NOM
+11	NUM
+,	PON
+1147	NUM
+)	PON
+

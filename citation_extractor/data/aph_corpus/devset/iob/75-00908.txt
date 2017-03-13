@@ -1,0 +1,13 @@
+A	PRE
+proposito	NOM
+dei	PRE:det
+volumi	NOM
+di	PRE
+G.	NPR
+Catapano	VER:pres
+schedati	VER:pper
+rispettivamente	ADV
+71-00714	NUM
+e	CON
+73-00948	NUM
+

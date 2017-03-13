@@ -1,0 +1,27 @@
+Elementi	NOM
+a	PRE
+suffragio	NOM
+della	PRE:det
+tesi	NOM
+di	PRE
+R.	NOM
+Syme	NOM
+(	PON
+=>	NOM
+50-03069	NUM
+)	PON
+secondo	PRE
+cui	PRO:rela
+la	DET:def
+composizione	NOM
+di	PRE
+Fast	NOM
+.	SENT
+
+1-6	NUM
+risale	VER:pres
+agli	PRE:det
+anni	NOM
+1-4	NUM
+d.	NOM
+C.	NPR

@@ -1,0 +1,15 @@
+Centro	NOM
+collocato	VER:pper
+a	PRE
+Nord	NOM
+di	PRE
+Fermo	NOM
+,	PON
+che	PRO:rela
+non	ADV
+sembra	VER:pres
+presentare	VER:infi
+resti	NOM
+archeologici	ADJ
+antichi	ADJ
+

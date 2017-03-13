@@ -1,0 +1,10 @@
+T1	REFAUWORK 267 272	Amph.
+T2	REFSCOPE 273 282	176-179 ;
+T3	REFSCOPE 283 292	423-426 ;
+T4	REFSCOPE 293 302	463-465).
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0119.phi001:176-179
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0119.phi001:423-426
+#2	AnnotatorNotes R3	urn:cts:latinLit:phi0119.phi001:463-465

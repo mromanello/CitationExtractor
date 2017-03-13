@@ -1,0 +1,17 @@
+Inquadramento	NOM
+storico	ADJ
+e	CON
+nuova	ADJ
+edizione	NOM
+critica	ADJ
+di	PRE
+21	NUM
+oracoli	NOM
+greci	ADJ
+concernenti	VER:ppre
+mito	NOM
+e	CON
+storia	NOM
+di	PRE
+Argo	NOM
+

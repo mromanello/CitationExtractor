@@ -1,0 +1,20 @@
+Panoramica	ADJ
+critica	NOM
+sugli	PRE:det
+studi	NOM
+di	PRE
+dialettologia	NOM
+a	PRE
+partire	VER:infi
+dal	PRE:det
+«	PON
+De	NPR
+Hellenistica	NOM
+commentarius	NOM
+»	PON
+del	PRE:det
+Salmasius	NOM
+(	PON
+1643	NUM
+)	PON
+

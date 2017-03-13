@@ -1,0 +1,16 @@
+Zu	APPR
+den	ART
+Eigenheiten	NN
+der	ART
+plautinischen	ADJA
+Gestaltung	NN
+des	ART
+Stoffes	NN
+,	$,
+möglicherweise	ADV
+unter	APPR
+Einfluss	NN
+des	ART
+italischen	ADJA
+Stegreifspiels	NN
+

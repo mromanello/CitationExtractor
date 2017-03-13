@@ -1,0 +1,8 @@
+Le	DET:ART
+symbolisme	NOM
+de	PRP
+l'	DET:ART
+Église-Mère	NOM
+chez	PRP
+Pacien	NOM
+

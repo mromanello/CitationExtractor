@@ -1,0 +1,9 @@
+Zu	APPR
+Ziel	NN
+und	KON
+Methode	NN
+der	ART
+Habilitationsschrift	NN
+zum	APPRART
+Thema	NN
+

@@ -1,0 +1,23 @@
+Étude	NOM
+stylistique	ADJ
+avec	PRP
+catalogue	NOM
+des	PRP:det
+39	NUM
+vases	NOM
+et	KON
+fragments	NOM
+de	PRP
+vases	NOM
+siciliotes	ADJ
+à	PRP
+figures	NOM
+rouges	ADJ
+du	PRP:det
+musée	NOM
+d'	PRP
+Adrano	NAM
+(	PUN
+Catania	NAM
+)	PUN
+

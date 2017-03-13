@@ -1,0 +1,16 @@
+Profilo	NOM
+di	PRE
+vita	NOM
+e	CON
+studi	NOM
+e	CON
+bibliografia	NOM
+completa	ADJ
+della	PRE:det
+studiosa	NOM
+e	CON
+scrittrice	NOM
+(	PON
+1897-1959	NUM
+)	PON
+

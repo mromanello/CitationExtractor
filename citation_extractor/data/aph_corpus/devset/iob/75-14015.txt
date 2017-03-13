@@ -1,0 +1,14 @@
+A	PRE
+proposito	NOM
+del	PRE:det
+volume	NOM
+schedato	ADJ
+APh	NOM
+19	NUM
+,	PON
+p.	NOM
+225	NUM
+,	PON
+sotto	PRE
+Marrou	NOM
+

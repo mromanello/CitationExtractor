@@ -1,0 +1,32 @@
+Le	DET:ART
+mythe	NOM
+de	PRP
+Pandore	NAM
+marque	VER:pres
+le	DET:ART
+passage	NOM
+de	PRP
+l'	DET:ART
+âge	NOM
+mythique	ADJ
+à	PRP
+l'	DET:ART
+âge	NOM
+historique	ADJ
+.	SENT
+
+La	DET:ART
+femme	NOM
+et	KON
+le	DET:ART
+feu	NOM
+comme	KON
+thèmes	NOM
+ambivalents	ADJ
+.	SENT
+
+Pour	PRP
+2	NUM
+=>	ABR
+75-11883	NUM
+

@@ -1,0 +1,25 @@
+A	PRE
+proposito	NOM
+della	PRE:det
+storia	NOM
+della	PRE:det
+città	NOM
+di	PRE
+Elide	NOM
+e	CON
+della	PRE:det
+regione	NOM
+omonima	ADJ
+.	SENT
+
+Olimpia	ADJ
+e	CON
+la	DET:def
+comunità	NOM
+elea	ADJ
+prima	ADJ
+e	CON
+dopo	ADV
+il	DET:def
+sinecismo	NOM
+

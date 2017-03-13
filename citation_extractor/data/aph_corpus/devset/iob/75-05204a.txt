@@ -1,0 +1,24 @@
+Analisi	NOM
+dei	PRE:det
+motivi	NOM
+letterari	ADJ
+e	CON
+della	PRE:det
+tradizione	NOM
+culturale	ADJ
+che	PRO:rela
+si	PRO:refl
+rispecchiano	VER:pres
+in	PRE
+questi	PRO:demo
+due	ADJ
+epigrammi	NOM
+,	PON
+dedicati	VER:pper
+rispettivamente	ADV
+alla	PRE:det
+rosa	NOM
+e	CON
+al	PRE:det
+riccio	NOM
+

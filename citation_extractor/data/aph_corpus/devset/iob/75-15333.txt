@@ -1,0 +1,6 @@
+Hommage	NOM
+à	PRP
+cette	PRO:DEM
+byzantiniste	NOM
+tchèque	ADJ
+

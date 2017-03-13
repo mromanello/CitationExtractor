@@ -1,0 +1,13 @@
+T1	AAUTHOR 46 62	Plato 's Academy
+T2	AAUTHOR 117 127	Aristotle,
+T3	AWORK 128 148	« Prior analytics »,
+T4	AAUTHOR 149 158	Apuleius,
+T5	AWORK 159 182	« De interpretatione »,
+T6	AAUTHOR 183 189	Galen,
+T7	AWORK 190 212	« Institutio logica »,
+#0	AnnotatorNotes T6	urn:cts:greekLit:tlg0057
+#1	AnnotatorNotes T7	urn:cts:cwkb:890.2511
+#2	AnnotatorNotes T4	urn:cts:cwkb:377
+#3	AnnotatorNotes T5	urn:cts:cwkb:3097.9544
+#4	AnnotatorNotes T2	urn:cts:greekLit:tlg0086
+#5	AnnotatorNotes T3	urn:cts:cwkb:766.1620

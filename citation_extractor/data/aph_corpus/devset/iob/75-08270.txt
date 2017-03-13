@@ -1,0 +1,13 @@
+Les	DET:ART
+fouilles	NOM
+ont	VER:pres
+concerné	VER:pper
+notamment	ADV
+la	DET:ART
+forteresse	NOM
+hasmonéenne	ADJ
+et	KON
+le	DET:ART
+complexe	NOM
+monastique	ADJ
+

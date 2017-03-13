@@ -1,0 +1,14 @@
+Diskussion	NN
+und	KON
+Weiterentwicklung	NN
+der	ART
+Thesen	NN
+von	APPR
+G.	NE
+Santas	NE
+(	$(
+=>	NN
+54-04041	CARD
+)	$(
+.	$.
+

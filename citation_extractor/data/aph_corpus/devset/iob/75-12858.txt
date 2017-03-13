@@ -1,0 +1,29 @@
+Zur	APPRART
+Verwendung	NN
+provinzieller	ADJA
+Elemente	NN
+auf	APPR
+den	ART
+Grabdenkmälern	NN
+der	ART
+equites	ADJA
+singulares	ADJA
+Augusti	NE
+im	APPRART
+2.	ADJA
+und	KON
+3.	ADJA
+
+Jh	NE
+.	$.
+,	$,
+u.	APPR
+
+a.	APPR
+mit	APPR
+dem	ART
+Thema	NN
+der	ART
+Pferdevorführung	NN
+.	$.
+

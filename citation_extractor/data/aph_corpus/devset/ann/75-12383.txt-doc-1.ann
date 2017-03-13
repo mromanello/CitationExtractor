@@ -1,0 +1,18 @@
+T1	REFAUWORK 135 140	Apol.
+T2	REFSCOPE 141 146	65, 5
+T3	REFSCOPE 151 158	67, 5 ;
+T4	REFAUWORK 159 180	Hippolytus, Trad. Ap.
+T5	REFSCOPE 181 186	23, 5
+T6	REFSCOPE 187 200	and 24, 1-2 ;
+T7	REFAUWORK 321 333	Eusebius, HE
+T8	REFSCOPE 334 348	5, 24, 14-15 ;
+T9	AWORK 353 377	« Liber pontificalis » ;
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T4 Arg2:T5
+R4	Scope Arg1:T4 Arg2:T6
+R5	Scope Arg1:T7 Arg2:T8
+#0	AnnotatorNotes R5	urn:cts:cwkb:2468.8534:5.24.14-5.24.15
+#1	AnnotatorNotes R1	urn:cts:cwkb:2744.8739:65.5
+#2	AnnotatorNotes R2	urn:cts:cwkb:2744.8739:67.5
+#3	AnnotatorNotes T9	urn:cts:cwkb:1321.4344

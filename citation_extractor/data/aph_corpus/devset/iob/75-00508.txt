@@ -1,0 +1,13 @@
+On	PE
+Thomas	NP
+de	PREP
+Vio	NC
+Cajetan's	NP
+commentary	NP
+on	PE
+Aristotle's	NP
+«	SYM
+Categories	NP
+»	SYM
+.	FS
+

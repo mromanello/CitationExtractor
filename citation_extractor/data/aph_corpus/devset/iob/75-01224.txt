@@ -1,0 +1,26 @@
+Tentative	NOM
+d'	PRP
+appréhension	NOM
+de	PRP
+quelques	PRO:IND
+moyens	NOM
+linguistiques	ADJ
+mis	VER:pper
+en	PRP
+œuvre	NOM
+par	PRP
+le	DET:ART
+poète	NOM
+dans	PRP
+sa	DET:POS
+composition	NOM
+des	PRP:det
+premiers	NUM
+épisodes	NOM
+du	PRP:det
+«	PUN:cit
+Roman	NOM
+de	PRP
+Lesbie	NAM
+»	PUN:cit
+

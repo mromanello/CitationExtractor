@@ -1,0 +1,13 @@
+Trascrizione	NOM
+,	PON
+traduzione	NOM
+,	PON
+commento	NOM
+dell'	PRE:det
+iscrizione	NOM
+etrusca	ADJ
+e	CON
+considerazioni	NOM
+sul	PRE:det
+reperto	NOM
+

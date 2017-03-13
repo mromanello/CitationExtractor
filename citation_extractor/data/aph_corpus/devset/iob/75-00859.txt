@@ -1,0 +1,22 @@
+Réimpr	NOM
+.	SENT
+
+d'	PRP
+un	DET:ART
+article	NOM
+paru	VER:pper
+dans	PRP
+la	DET:ART
+même	ADJ
+revue	NOM
+en	PRP
+1973	NUM
+(	PUN
+=>	NOM
+APh	NAM
+44	NUM
+,	PUN
+p.	ABR
+52	NUM
+)	PUN
+

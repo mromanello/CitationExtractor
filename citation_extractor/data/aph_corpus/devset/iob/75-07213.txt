@@ -1,0 +1,11 @@
+Compléments	NOM
+pour	PRP
+la	DET:ART
+période	NOM
+1992-2003	NUM
+à	PRP
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+64-07707	NUM
+

@@ -1,0 +1,25 @@
+Lettura	NOM
+politica	ADJ
+della	PRE:det
+tragedia	NOM
+:	PON
+contrapposizione	NOM
+di	PRE
+aristocratici	NOM
+e	CON
+democratici	NOM
+,	PON
+entrambi	ADJ
+estremizzati	NOM
+fino	CON
+all'	PRE:det
+integralismo	NOM
+e	CON
+condannati	NOM
+,	PON
+per	PRE
+questo	PRO:demo
+,	PON
+all'	PRE:det
+autodistruzione	NOM
+

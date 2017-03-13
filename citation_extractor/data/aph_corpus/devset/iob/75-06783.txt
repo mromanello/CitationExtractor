@@ -1,0 +1,35 @@
+Roscius	NAM
+est	VER:pres
+un	DET:ART
+acteur	NOM
+devenu	VER:pper
+chevalier	NOM
+et	KON
+Labérius	NAM
+un	DET:ART
+chevalier	NOM
+perdant	VER:ppre
+son	DET:POS
+statut	NOM
+équestre	ADJ
+pour	PRP
+avoir	VER:infi
+été	VER:pper
+acteur	NOM
+.	SENT
+
+Examen	NOM
+de	PRP
+ces	PRO:DEM
+deux	NUM
+situations	NOM
+apparemment	ADV
+contradictoires	ADJ
+et	KON
+séparées	VER:pper
+seulement	ADV
+par	PRP
+quelque	PRO:IND
+trente-cinq	NUM
+ans	NOM
+

@@ -1,0 +1,8 @@
+T1	REFAUWORK 28 34	Colono
+T2	REFSCOPE 35 42	668-678
+T3	REFAUWORK 46 60	Euripide, Reso
+T4	REFSCOPE 61 68	546-555
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:2857:668-678
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0006.tlg019:546-555

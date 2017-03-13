@@ -1,0 +1,37 @@
+Examen	NOM
+de	PRP
+la	DET:ART
+différence	NOM
+entre	PRP
+les	DET:ART
+façons	NOM
+dont	PRO:REL
+Platon	NAM
+et	KON
+Héraclite	NAM
+ont	VER:pres
+compris	VER:pper
+la	DET:ART
+relation	NOM
+entre	PRP
+nom	NOM
+et	KON
+chose	NOM
+,	PUN
+entre	PRP
+ontologie	NOM
+et	KON
+langage	NOM
+.	SENT
+
+Modes	NOM
+et	KON
+signification	NOM
+de	PRP
+la	DET:ART
+référence	NOM
+à	PRP
+Héraclite	NAM
+chez	PRP
+Platon	NAM
+

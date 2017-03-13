@@ -1,0 +1,10 @@
+A	PRE
+proposito	NOM
+dello	PRE:det
+studio	NOM
+di	PRE
+A.	NPR
+Ercolani	NOM
+schedato	ADJ
+71-07169	NUM
+

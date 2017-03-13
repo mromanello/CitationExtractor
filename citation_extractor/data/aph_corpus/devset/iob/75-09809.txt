@@ -1,0 +1,29 @@
+PVindob	NP
+.	SENT
+
+G	NP
+21206	CD
+,	,
+Arsinoites	NP
+oder	NP
+Herakleopolites	NP
+,	,
+7.	CD
+
+Jh	NP
+.	SENT
+
+n.	NP
+Chr.	NP
+Anrufung	NP
+Christi	NP
+nach	FW
+der	NP
+Formel	NP
+4	CD
+Bagnall-Worp	NP
+(	(
+=>	NP
+75-13732	CD
+)	)
+

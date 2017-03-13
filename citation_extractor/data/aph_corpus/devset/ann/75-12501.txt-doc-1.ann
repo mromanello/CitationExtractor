@@ -1,0 +1,9 @@
+T1	AAUTHOR 23 30	Suétone
+T2	REFAUWORK 31 37	(Gram.
+T3	REFSCOPE 38 39	1
+T4	REFSCOPE 40 45	et 2)
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:493:1
+#1	AnnotatorNotes R2	urn:cts:cwkb:493:2
+#2	AnnotatorNotes T1	urn:cts:cwkb:638

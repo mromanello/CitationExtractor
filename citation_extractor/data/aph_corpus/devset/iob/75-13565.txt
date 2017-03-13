@@ -1,0 +1,11 @@
+Zu	APPR
+den	ART
+die	ART
+antike	ADJA
+Philosophie	NN
+betreffenden	ADJA
+Vorträgen	NN
+,	$,
+mit	APPR
+Resümees	NN
+

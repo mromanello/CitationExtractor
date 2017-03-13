@@ -1,0 +1,25 @@
+Nota	NC
+necrológica	ADJ
+del	PDEL
+gran	ADJ
+romanista	NC
+español	ADJ
+(	LP
+1915-2004	CODE
+)	RP
+,	CM
+que	CQUE
+fuera	VSfin
+Catedrático	ADJ
+de	PREP
+Derecho	NC
+romano	VLfin
+y	CC
+Profesor	NC
+honorario	NC
+de	PREP
+la	ART
+Universidad	NC
+de	PREP
+Navarra	NP
+

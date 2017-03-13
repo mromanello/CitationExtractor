@@ -1,0 +1,9 @@
+T1	REFSCOPE 9 20	(10, 4, 15)
+T2	REFAUWORK 122 126	(Il.
+T3	REFSCOPE 127 139	2, 645-652 ;
+T4	REFAUWORK 140 143	Od.
+T5	REFSCOPE 144 155	19, 173ss.)
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:763.1599:2.645-2.652
+#1	AnnotatorNotes R2	urn:cts:cwkb:763.1600:19.173

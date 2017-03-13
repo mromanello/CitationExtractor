@@ -1,0 +1,22 @@
+Résumé	VER:pper
+des	PRP:det
+activités	NOM
+de	PRP
+l'	DET:ART
+association	NOM
+,	PUN
+avec	PRP
+mention	NOM
+des	PRP:det
+inscriptions	NOM
+présentées	VER:pper
+ou	KON
+réexaminées	VER:pper
+lors	ADV
+des	PRP:det
+séances	NOM
+de	PRP
+l'	DET:ART
+année	NOM
+1999	NUM
+

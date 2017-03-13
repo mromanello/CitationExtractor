@@ -1,0 +1,37 @@
+Le	DET:ART
+cheval	NOM
+à	PRP
+cornes	NOM
+est	VER:pres
+un	DET:ART
+emblème	NOM
+figurant	VER:ppre
+sur	PRP
+le	DET:ART
+monnayage	NOM
+des	PRP:det
+Séleucides	NAM
+.	SENT
+
+À	PRP
+partir	VER:infi
+de	PRP
+ces	PRO:DEM
+représentations	NOM
+s'	PRO:PER
+est	VER:pres
+formée	VER:pper
+la	DET:ART
+légende	NOM
+qu'	PRO:REL
+il	PRO:PER
+s'	PRO:PER
+agissait	VER:impf
+de	PRP
+Bucéphale	NAM
+,	PUN
+le	DET:ART
+cheval	NOM
+d'	PRP
+Alexandre	NAM
+

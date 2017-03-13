@@ -1,0 +1,13 @@
+T1	AAUTHOR 137 160	Servius Sulpicius Rufus
+T2	AWORK 178 193	« Consolation »
+T3	AAUTHOR 204 211	Cicéron
+T4	REFAUWORK 226 230	fam.
+T5	REFSCOPE 231 236	4, 5)
+T6	REFAUWORK 269 276	(epist.
+T7	REFSCOPE 277 283	60, 5)
+R1	Scope Arg1:T4 Arg2:T5
+R2	Scope Arg1:T6 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0474.phi056:4.5
+#1	AnnotatorNotes R2	urn:cts:cwkb:897.2630:60.5
+#2	AnnotatorNotes T2	urn:cts:cwkb:750.1554
+#3	AnnotatorNotes T3	urn:cts:cwkb:431

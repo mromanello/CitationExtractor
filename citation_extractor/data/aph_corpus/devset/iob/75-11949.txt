@@ -1,0 +1,18 @@
+Zu	APPR
+den	ART
+Olympischen	ADJA
+Spielen	NN
+als	KOKOM
+Feier	NN
+der	ART
+Begründung	NN
+der	ART
+Weltordnung	NN
+durch	APPR
+Zeus	NE
+'	$(
+Sieg	NN
+über	APPR
+Kronos	NE
+.	$.
+

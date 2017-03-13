@@ -1,0 +1,24 @@
+Prend	VER:pres
+notamment	ADV
+en	PRO:PER
+compte	VER:pres
+les	DET:ART
+informations	NOM
+que	KON
+le	DET:ART
+«	PUN:cit
+Protagoras	NOM
+»	PUN:cit
+de	PRP
+Platon	NAM
+fournit	VER:pres
+sur	PRP
+la	DET:ART
+philosophie	NOM
+du	PRP:det
+langage	NOM
+du	PRP:det
+sophiste	NOM
+d'	PRP
+Abdère	NAM
+

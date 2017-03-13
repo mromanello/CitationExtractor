@@ -1,0 +1,26 @@
+Il	PRO:PER
+y	PRO:PER
+a	VER:pres
+une	DET:ART
+grande	ADJ
+profusion	NOM
+de	PRP
+figures	NOM
+allégoriques	ADJ
+dans	PRP
+l'	DET:ART
+œuvre	NOM
+d'	PRP
+Eschyle	NAM
+:	PUN
+1	NUM
+165	NUM
+occurrences	NOM
+peuvent	VER:pres
+y	PRO:PER
+être	VER:infi
+étudiées	VER:pper
+classées	VER:pper
+par	PRP
+types	NOM
+

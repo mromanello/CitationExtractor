@@ -1,0 +1,10 @@
+Textes	NOM
+bibliques	ADJ
+,	PUN
+patristiques	ADJ
+et	KON
+papyrus	NOM
+documentaires	ADJ
+en	PRP
+grec	ADJ
+

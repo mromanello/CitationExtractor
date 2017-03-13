@@ -1,0 +1,22 @@
+Avec	PRP
+une	DET:ART
+liste	NOM
+d'	PRP
+errata	NOM
+concernant	VER:ppre
+l'	DET:ART
+éd	NOM
+.	SENT
+
+de	PRP
+ce	PRO:DEM
+texte	NOM
+publiée	VER:pper
+par	PRP
+l'	DET:ART
+auteur	NOM
+(	PUN
+=>	ABR
+69-06146	NUM
+)	PUN
+

@@ -1,0 +1,10 @@
+Riflessioni	NOM
+su	PRE
+importanza	NOM
+,	PON
+obiettivi	NOM
+e	CON
+finalità	NOM
+della	PRE:det
+disciplina	NOM
+

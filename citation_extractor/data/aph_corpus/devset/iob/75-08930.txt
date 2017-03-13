@@ -1,0 +1,8 @@
+Conclusion	NOM
+au	PRP:det
+recueil	NOM
+d'	PRP
+études	NOM
+noté	VER:pper
+75-14468	NUM
+

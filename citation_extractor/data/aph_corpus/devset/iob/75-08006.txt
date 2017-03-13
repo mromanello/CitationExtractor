@@ -1,0 +1,57 @@
+Fouilles	NOM
+de	PRP
+2000-2001	NUM
+dans	PRP
+un	DET:ART
+îlot	NOM
+d'	PRP
+habitation	NOM
+luxueux	ADJ
+.	SENT
+
+Le	DET:ART
+bassin	NOM
+(	PUN
+2e	NUM
+s.	ABR
+?	SENT
+)	PUN
+bordait	VER:impf
+un	DET:ART
+jardin	NOM
+et	KON
+s'	PRO:PER
+adossait	VER:impf
+à	PRP
+une	DET:ART
+«	PUN:cit
+domus	NOM
+»	PUN:cit
+.	SENT
+
+Il	PRO:PER
+est	VER:pres
+en	PRP
+oméga	NOM
+,	PUN
+type	NOM
+répandu	VER:pper
+en	PRP
+Gaule	NAM
+romaine	ADJ
+,	PUN
+mais	KON
+présente	ADJ
+des	PRP:det
+proportions	NOM
+qui	PRO:REL
+le	PRO:PER
+rapprochent	VER:pres
+des	PRP:det
+nymphées	NOM
+.	SENT
+
+Proposition	NOM
+de	PRP
+restitution	NOM
+

@@ -1,0 +1,11 @@
+Avec	PRP
+étude	NOM
+du	PRP:det
+vocabulaire	NOM
+désignant	VER:ppre
+les	DET:ART
+volcans	NOM
+et	KON
+les	DET:ART
+séismes	NOM
+

@@ -1,0 +1,14 @@
+T1	AAUTHOR 29 34	Jeune
+T2	REFAUWORK 35 42	(epist.
+T3	REFSCOPE 43 48	6, 16
+T4	REFSCOPE 49 55	et 20)
+T5	AAUTHOR 123 129	Tacite
+T6	AAUTHOR 263 269	Tacite
+T7	AAUTHOR 285 300	Pline l' Ancien
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:897.2630:6.16
+#1	AnnotatorNotes R2	urn:cts:cwkb:897.2630:20
+#2	AnnotatorNotes T6	urn:cts:latinLit:phi1351
+#3	AnnotatorNotes T7	urn:cts:cwkb:585
+#4	AnnotatorNotes T5	urn:cts:latinLit:phi1351

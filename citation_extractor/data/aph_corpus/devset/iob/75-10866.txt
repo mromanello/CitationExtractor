@@ -1,0 +1,22 @@
+Zur	APPRART
+Situation	NN
+von	APPR
+Sklavinnen	NN
+in	APPR
+heidnischer	ADJA
+und	KON
+christlicher	ADJA
+Antike	NN
+ausgehend	ADJD
+von	APPR
+den	ART
+Acta	NN
+Andreae	NE
+und	KON
+Kol	NE
+3	CARD
+,	$,
+18-4	ADJA
+,	$,
+1.	ADJA
+

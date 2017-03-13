@@ -1,0 +1,26 @@
+Rassegna	NOM
+critica	ADJ
+relativa	ADJ
+al	PRE:det
+dibattito	NOM
+sullo	PRE:det
+status	NOM
+della	PRE:det
+categoria	NOM
+delle	PRE:det
+«	PON
+città	NOM
+libere	ADJ
+»	PON
+nella	PRE:det
+Grecia	NPR
+dominata	VER:pper
+dai	PRE:det
+Romani	NOM
+,	PON
+a	PRE
+partire	VER:infi
+da	PRE
+testimonianze	NOM
+epigrafiche	ADJ
+

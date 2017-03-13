@@ -1,0 +1,20 @@
+Zur	APPRART
+Vielfalt	NN
+der	ART
+Zeitrechnungen	NN
+,	$,
+zu	APPR
+Datierungen	NN
+nach	APPR
+Ären	NN
+und	KON
+Eponymen	ADJA
+,	$,
+zu	APPR
+Indiktionen	NN
+und	KON
+zur	APPRART
+byzantinischen	ADJA
+Weltära	NN
+.	$.
+

@@ -1,0 +1,9 @@
+Notas	NC
+críticas	NC
+sobre	PREP
+el	ART
+texto	NC
+de	PREP
+diversos	QU
+pasajes	NC
+

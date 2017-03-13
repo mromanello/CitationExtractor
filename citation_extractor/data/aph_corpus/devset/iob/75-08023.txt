@@ -1,0 +1,31 @@
+Modélisation	NOM
+des	PRP:det
+réseaux	NOM
+d'	PRP
+habitats	NOM
+dans	PRP
+la	DET:ART
+région	NOM
+de	PRP
+Fréjus	NAM
+au	PRP:det
+1er	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+
+à	PRP
+partir	VER:infi
+de	PRP
+93	NUM
+sites	NOM
+du	PRP:det
+Var	NAM
+repérés	VER:pper
+en	PRP
+prospection	NOM
+de	PRP
+surface	NOM
+

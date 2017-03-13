@@ -1,0 +1,31 @@
+À	PRP
+propos	NOM
+de	PRP
+l'	DET:ART
+étude	NOM
+notée	VER:pper
+75-11067	NUM
+.	SENT
+
+Au	PRP:det
+regard	NOM
+de	PRP
+la	DET:ART
+documentation	NOM
+archéologique	ADJ
+récente	ADJ
+,	PUN
+la	DET:ART
+diffusion	NOM
+maritime	ADJ
+des	PRP:det
+briques	NOM
+romaines	ADJ
+semble	VER:pres
+avoir	VER:infi
+eu	VER:pper
+un	DET:ART
+caractère	NOM
+plutôt	ADV
+occasionnel	ADJ
+

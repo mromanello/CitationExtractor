@@ -1,0 +1,182 @@
+1.	ADV
+
+Erstveröffentlichung	NN
+einer	ART
+griechischen	ADJA
+metrischen	ADJA
+Inschrift	NN
+zu	APPR
+Ehren	NN
+eines	ART
+olympischen	ADJA
+Siegers	NN
+(	$(
+UM	PTKVZ
+.	$.
+G.	NE
+77.3.573	ADJA
+,	$,
+3.	ADJA
+Jh	NN
+.	$.
+n.	APPR
+Chr.	NE
+,	$,
+unbekannte	ADJA
+Herkunft	NN
+)	$(
+.	$.
+
+2.	ADV
+
+Fragment	NN
+eines	ART
+athenischen	ADJA
+Gesetzestextes	NN
+(	$(
+UM	PTKVZ
+.	$.
+G.	NE
+77.3.668	ADJA
+=	$(
+IG	NN
+13	CARD
+,	$,
+236b	ADJA
+,	$,
+410-404	ADJA
+v.	APPR
+Chr.	NE
+)	$(
+.	$.
+
+Es	PPER
+gehörte	VVFIN
+wohl	ADV
+eher	ADV
+nicht	PTKNEG
+zum	APPRART
+selben	PDAT
+Gesetz	NN
+wie	KOKOM
+IG	NN
+13	CARD
+,	$,
+236a	NN
+.	$.
+
+3.	ADJA
+
+Zum	APPRART
+Text	NN
+des	ART
+attischen	ADJA
+Inventars	NN
+UM	PTKVZ
+.	$.
+
+G.	NE
+77.3.579	ADJA
+(	$(
+4.	ADJA
+Jh	NN
+.	$.
+v.	APPR
+Chr.	NE
+)	$(
+,	$,
+ediert	VVFIN
+von	APPR
+D.	NE
+M.	NE
+Robinson	NE
+,	$,
+A	NN
+new	NE
+fragment	ADJA
+of	FM
+an	APPR
+Attic	NE
+treasure-record	NE
+(	$(
+=>	ADJA
+APh	NN
+12	CARD
+,	$,
+S.	NE
+278	CARD
+,	$,
+1.	ADJA
+Titel	NN
+)	$(
+.	$.
+
+4.	ADJA
+
+Kommentierte	ADJA
+Reedition	NN
+des	ART
+athenischen	ADJA
+Dekrets	NN
+UM	PTKVZ
+.	$.
+
+G.	NE
+77.3.665	ADJA
+(	$(
+ca	NE
+.	$.
+330	CARD
+v.	APPR
+Chr.	NE
+)	$(
+=	$(
+SEG	NN
+36	CARD
+,	$,
+149.	ADJA
+
+5.	ADJA
+
+Zu	APPR
+UM	PTKVZ
+.	$.
+
+G.	NE
+77.3.681	ADJA
+(	$(
+spätes	ADJA
+4.	ADJA
+Jh	NN
+.	$.
+v.	APPR
+Chr.	NE
+?	$.
+)	$(
+=	$(
+SEG	NN
+35	CARD
+,	$,
+1731.	ADJA
+
+6.	ADJA
+
+Zum	APPRART
+späthellenistischen	ADJA
+bis	KON
+frühkaiserzeitlichen	ADJA
+attischen	ADJA
+Grabepigramm	NN
+UM	PTKVZ
+.	$.
+
+G.	NE
+77.3.670	CARD
+(	$(
+=	$(
+SEG	NN
+37	CARD
+,	$,
+98	CARD
+)	$(
+

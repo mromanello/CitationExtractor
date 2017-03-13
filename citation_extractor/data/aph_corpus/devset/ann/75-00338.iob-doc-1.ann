@@ -1,7 +1,0 @@
-T1	AAUTHOR 75 83	Cicéron,
-T3	REFAUWORK 11 17	Phaen.
-T4	REFSCOPE 18 25	284-299
-T2	AAUTHOR 98 105	Aviénus
-R1	Scope Arg1:T3 Arg2:T4	
-R2	authorOf Arg1:T1 Arg2:T3	
-#1	AnnotatorNotes R1	http://cwkb.webfactional.com/cwkb/works/924/284-299

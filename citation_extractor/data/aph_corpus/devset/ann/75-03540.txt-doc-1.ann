@@ -1,0 +1,8 @@
+T1	REFAUWORK 115 119	Met.
+T2	REFSCOPE 120 128	6, 1-145
+T3	AAUTHOR 354 361	Ovid 's
+T4	AWORK 408 419	« Tristia »
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0959.phi006:6.1-6.145
+#1	AnnotatorNotes T4	urn:cts:cwkb:568.1163
+#2	AnnotatorNotes T3	urn:cts:cwkb:568

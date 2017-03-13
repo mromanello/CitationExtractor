@@ -1,0 +1,32 @@
+Catalogue	NOM
+de	PRP
+60	NUM
+tessons	NOM
+,	PUN
+dont	PRO:REL
+beaucoup	ADV
+sont	VER:pres
+estampillés	VER:pper
+en	PRP
+latin	NOM
+de	PRP
+la	DET:ART
+marque	NOM
+du	PRP:det
+fabricant	NOM
+.	SENT
+
+Trouvés	VER:pper
+en	PRP
+1996	NUM
+,	PUN
+lors	ADV
+de	PRP
+la	DET:ART
+construction	NOM
+d'	PRP
+un	DET:ART
+mur	NOM
+de	PRP
+soutènement	NOM
+

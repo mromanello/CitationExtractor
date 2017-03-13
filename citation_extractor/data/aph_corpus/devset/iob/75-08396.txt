@@ -1,0 +1,33 @@
+Travaux	NOM
+de	PRP
+2003	NUM
+sur	PRP
+la	DET:ART
+nécropole	NOM
+du	PRP:det
+flanc	NOM
+sud-ouest	ADJ
+(	PUN
+fin	ADJ
+4e-début	NOM
+3e	NUM
+s.	ABR
+av	NOM
+.	SENT
+J.	ABR
+-C	ADJ
+.	SENT
+)	PUN
+.	SENT
+
+Du	PRP:det
+matériel	NOM
+datant	VER:ppre
+du	PRP:det
+Bronze	NAM
+récent	ADJ
+a	VER:pres
+aussi	ADV
+été	VER:pper
+repéré	VER:pper
+

@@ -1,0 +1,25 @@
+Discussion	NOM
+critique	ADJ
+des	PRP:det
+contributions	NOM
+du	PRP:det
+recueil	NOM
+.	SENT
+
+Problèmes	NOM
+méthodologiques	ADJ
+.	SENT
+
+De	PRP
+la	DET:ART
+difficulté	NOM
+d'	PRP
+appliquer	VER:infi
+des	PRP:det
+thèses	NOM
+économiques	ADJ
+modernes	ADJ
+à	PRP
+l'	DET:ART
+antiquité	NOM
+

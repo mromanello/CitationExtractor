@@ -1,0 +1,26 @@
+Edizione	NOM
+di	PRE
+PCtYBR	NOM
+inv.	ABR
+1649	NUM
+,	PON
+frammento	NOM
+papiraceo	ADJ
+di	PRE
+provenienza	NOM
+egizia	ADJ
+datato	VER:pper
+al	PRE:det
+97	NUM
+o	CON
+98	NUM
+d.	NOM
+C.	NPR
+,	PON
+contenente	VER:ppre
+un	DET:indef
+resoconto	NOM
+processuale	ADJ
+in	PRE
+greco	ADJ
+

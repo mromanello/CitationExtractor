@@ -1,0 +1,22 @@
+In	PRE
+margine	NOM
+al	PRE:det
+volume	NOM
+di	PRE
+B.	NPR
+Tisé	NOM
+dedicato	VER:pper
+all'	PRE:det
+imperialismo	NOM
+romano	ADJ
+e	CON
+alla	PRE:det
+«	PON
+imitatio	ADJ
+Alexandri	NOM
+»	PON
+(	PON
+=>	NOM
+75-10781	NUM
+)	PON
+

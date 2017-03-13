@@ -1,0 +1,26 @@
+Esame	NOM
+ed	CON
+esegesi	NOM
+del	PRE:det
+testo	NOM
+dell'	PRE:det
+epigrafe	NOM
+,	PON
+contenente	VER:ppre
+la	DET:def
+riabilitazione	NOM
+postuma	ADJ
+di	PRE
+Virio	NOM
+Nicomaco	NOM
+Flaviano	NOM
+senior	ADJ
+,	PON
+con	PRE
+riflessioni	NOM
+sul	PRE:det
+contesto	NOM
+politico	ADJ
+dell'	PRE:det
+epoca	NOM
+

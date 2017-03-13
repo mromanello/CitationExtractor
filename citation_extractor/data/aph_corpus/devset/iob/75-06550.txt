@@ -1,0 +1,29 @@
+Évolution	NOM
+du	PRP:det
+motif	NOM
+littéraire	ADJ
+de	PRP
+Médée	NAM
+fuyant	VER:ppre
+sur	PRP
+le	DET:ART
+char	NOM
+du	PRP:det
+Soleil	NAM
+tiré	NOM
+par	PRP
+des	PRP:det
+dragons	NOM
+ailés	ADJ
+.	SENT
+
+Des	PRP:det
+modèles	NOM
+grecs	ADJ
+au	PRP:det
+1er	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+

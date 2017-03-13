@@ -1,0 +1,882 @@
+Aristophanes - Wikipedia
+Aristophanes
+From Wikipedia, the free encyclopedia
+Jump to:					navigation, 					search
+For other uses, see Aristophanes (disambiguation).
+For the Guadelopean comics artist, see Aristophane.
+Aristophanes
+Bust of Aristophanes
+Born
+c. 446 BC
+Athens
+Died
+c. 386 BC
+Delphi
+Occupation
+Playwright (comedy)
+Years active
+427 BC – 386 BC
+Known for
+Playwright and director of Old Comedy
+Notable work
+The Clouds (423 BC)
+The Wasps (422 BC)
+The Birds (414 BC)
+Lysistrata (411 BC)
+The Women at the Thesmophoria Festival (411 BC)
+The Frogs (405 BC)
+Notes
+† Although many artists' renderings of Aristophanes portray him with flowing curly hair, several jests in his plays indicate that he may have been prematurely bald.[1]
+Aristophanes (/ˌærᵻˈstɒfəniːz/ or /ˌɛrᵻˈstɒfəniːz/;[2] Greek: Ἀριστοφάνης, pronounced [aristopʰánɛːs]; c. 446 – c. 386 BC), son of Philippus, of the deme Kydathenaion (Latin: Cydathenaeum),[3] was a comic playwright of ancient Athens. Eleven of his forty plays survive virtually complete. These, together with fragments of some of his other plays, provide the only real examples of a genre of comic drama known as Old Comedy, and are used to define it.[4]
+Also known as the Father of Comedy[5] and the Prince of Ancient Comedy,[6] Aristophanes has been said to recreate the life of ancient Athens more convincingly than any other author.[7] His powers of ridicule were feared and acknowledged by influential contemporaries; Plato[8][9] singled out Aristophanes' play The Clouds as slander that contributed to the trial and subsequent condemning to death of Socrates although other satirical playwrights[10] had also caricatured the philosopher.
+His second play, The Babylonians (now lost), was denounced by the demagogue Cleon as a slander against the Athenian polis. It is possible that the case was argued in court but details of the trial are not recorded and Aristophanes caricatured Cleon mercilessly in his subsequent plays, especially The Knights, the first of many plays that he directed himself. "In my opinion," he says through the Chorus in that play, "the author-director of comedies has the hardest job of all." (κωμῳδοδιδασκαλίαν εἶναι χαλεπώτατον ἔργον ἁπάντων)[11]
+Contents
+1 Biography
+1.1 Poetry
+1.2 Rhetoric
+2 Old Comedy
+2.1 Topicality
+2.2 Festivity
+2.3 Complexity
+2.4 Dramatic structure
+2.4.1 Parabasis
+3 Influence and legacy
+3.1 Drama
+3.2 Literature
+3.3 Electronic media
+3.4 Music
+4 Works
+4.1 Surviving plays
+4.2 Datable non-surviving (lost) plays
+4.3 Undated non-surviving (lost) plays
+4.4 Attributed (doubtful, possibly by Archippus)
+5 See also
+6 Notes
+7 References
+8 External links
+Biography[edit]
+Theatre of Dionysus, Athens — in Aristophanes' time, the audience probably sat on wooden benches with earth foundations.[12]
+Less is known about Aristophanes than about his plays. In fact, his plays are the main source of information about him and his life. It was conventional in Old Comedy for the Chorus to speak on behalf of the author during an address called the 'parabasis' and thus some biographical facts can be found there. However, these facts relate almost entirely to his career as a dramatist and the plays contain few clear and unambiguous clues about his personal beliefs or his private life.[13] He was a comic poet in an age when it was conventional for a poet to assume the role of 'teacher' (didaskalos), and though this specifically referred to his training of the Chorus in rehearsal, it also covered his relationship with the audience as a commentator on significant issues.[14]
+Aristophanes claimed to be writing for a clever and discerning audience,[15] yet he also declared that 'other times' would judge the audience according to its reception of his plays.[16] He sometimes boasts of his originality as a dramatist[17] yet his plays consistently espouse opposition to radical new influences in Athenian society. He caricatured leading figures in the arts (notably Euripides, whose influence on his own work however he once begrudgingly acknowledged),[18] in politics (especially the populist Cleon), and in philosophy/religion (where Socrates was the most obvious target). Such caricatures seem to imply that Aristophanes was an old-fashioned conservative, yet that view of him leads to contradictions.[19]
+It has been argued that Aristophanes produced plays mainly to entertain the audience and to win prestigious competitions.[20] His plays were written for production at the great dramatic festivals of Athens, the Lenaia and City Dionysia, where they were judged and awarded prizes in competition with the works of other comic dramatists. An elaborate series of lotteries, designed to prevent prejudice and corruption, reduced the voting judges at the City Dionysia to just five in number. These judges probably reflected the mood of the audiences[21] yet there is much uncertainty about the composition of those audiences.[22] The theatres were certainly huge, with seating for at least 10 000 at the Theatre of Dionysus. The day's program at the City Dionysia for example was crowded, with three tragedies and a 'satyr' play ahead of a comedy, but it is possible that many of the poorer citizens (typically the main supporters of demagogues like Cleon) occupied the festival holiday with other pursuits. The conservative views expressed in the plays might therefore reflect the attitudes of the dominant group in an unrepresentative audience.
+The production process might also have influenced the views expressed in the plays. Throughout most of Aristophanes' career, the Chorus was essential to a play's success and it was recruited and funded by a choregus, a wealthy citizen appointed to the task by one of the archons. A choregus could regard his personal expenditure on the Chorus as a civic duty and a public honour, but Aristophanes showed in The Knights that wealthy citizens might regard civic responsibilities as punishment imposed on them by demagogues and populists like Cleon.[23] Thus the political conservatism of the plays may reflect the views of the wealthiest section of Athenian society, on whose generosity all dramatists depended for putting on their plays.[24]
+When Aristophanes' first play The Banqueters was produced, Athens was an ambitious, imperial power and the Peloponnesian War was only in its fourth year. His plays often express pride in the achievement of the older generation (the victors at Marathon)[25][26] yet they are not jingoistic, and they are staunchly opposed to the war with Sparta. The plays are particularly scathing in criticism of war profiteers, among whom populists such as Cleon figure prominently. By the time his last play was produced (around 386 BC) Athens had been defeated in war, its empire had been dismantled and it had undergone a transformation from being the political to the intellectual centre of Greece.[27] Aristophanes was part of this transformation and he shared in the intellectual fashions of the period — the structure of his plays evolves from Old Comedy until, in his last surviving play, Wealth II, it more closely resembles New Comedy. However it is uncertain whether he led or merely responded to changes in audience expectations.[28]
+Aristophanes won second prize at the City Dionysia in 427 BC with his first play The Banqueters (now lost). He won first prize there with his next play, The Babylonians (also now lost). It was usual for foreign dignitaries to attend the City Dionysia, and The Babylonians caused some embarrassment for the Athenian authorities since it depicted the cities of the Delian League as slaves grinding at a mill.[29] Some influential citizens, notably Cleon, reviled the play as slander against the polis and possibly took legal action against the author. The details of the trial are unrecorded but, speaking through the hero of his third play The Acharnians (staged at the Lenaia, where there were few or no foreign dignitaries), the poet carefully distinguishes between the polis and the real targets of his acerbic wit:
+ἡμῶν γὰρ ἄνδρες, κοὐχὶ τὴν πόλιν λέγω,
+μέμνησθε τοῦθ᾽ ὅτι οὐχὶ τὴν πόλιν λέγω,
+ἀλλ᾽ ἀνδράρια μοχθηρά, παρακεκομμένα...[30]
+ 
+People among us, and I don't mean the polis,
+Remember this — I don't mean the polis -
+But wicked little men of a counterfeit kind....
+Aristophanes repeatedly savages Cleon in his later plays. But these satirical diatribes appear to have had no effect on Cleon's political career — a few weeks after the performance of The Knights - a play full of anti-Cleon jokes - Cleon was elected to the prestigious board of ten generals.[31] Cleon also seems to have had no real power to limit or control Aristophanes: the caricatures of him continued up to and even beyond his death.
+In the absence of clear biographical facts about Aristophanes, scholars make educated guesses based on interpretation of the language in the plays. Inscriptions and summaries or comments by Hellenistic and Byzantine scholars can also provide useful clues. We know however from a combination of these sources,[32] and especially from comments in The Knights[33] and The Clouds,[34] that Aristophanes' first three plays were not directed by him — they were instead directed by Callistratus and Philoneides,[35] an arrangement that seemed to suit Aristophanes since he appears to have used these same directors in many later plays as well (Philoneides for example later directed The Frogs and he was also credited, perhaps wrongly, with directing The Wasps.)[36] Aristophanes's use of directors complicates our reliance on the plays as sources of biographical information because apparent self-references might have been made with reference to his directors instead. Thus for example a statement by the chorus in The Acharnians[37] seems to indicate that the 'poet' had a close, personal association with the island of Aegina, yet the terms 'poet' (poietes) and 'director' (didaskalos) are often interchangeable as dramatic poets usually directed their own plays and therefore the reference in the play could be either to Aristophanes or Callistratus. Similarly, the hero in The Acharnians complains about Cleon "dragging me into court" over "last year's play"[38] but here again it is not clear if this was said in reference to Aristophanes or Callistratus, either of whom might have been prosecuted by Cleon.[39]
+Comments made by the Chorus referring to Aristophanes in The Clouds[40] have been interpreted as evidence that he can hardly have been more than 18 years old when his first play The Banqueters was produced.[41] The second parabasis in Wasps[42] appears to indicate that he reached some kind of temporary accommodation with Cleon following either the controversy over The Babylonians or a subsequent controversy over The Knights.[43] It has been inferred[1] from statements in The Clouds and Peace that Aristophanes was prematurely bald.[44]
+We know that Aristophanes was probably victorious at least once at the City Dionysia (with Babylonians in 427)[45] and at least three times at the Lenaia, with Acharnians in 425, Knights in 424, and Frogs in 405. Frogs in fact won the unique distinction of a repeat performance at a subsequent festival. We know that a son of Aristophanes, Araros, was also a comic poet and he could have been heavily involved in the production of his father's play Wealth II in 388.[46] Araros is also thought to have been responsible for the posthumous performances of the now lost plays Aeolosicon II and Cocalus,[47] and it is possible that the last of these won the prize at the City Dionysia in 387.[48] It appears that a second son, Philippus, was twice victorious at the Lenaia[49] and he could have directed some of Eubulus’ comedies.[50] A third son was called either Nicostratus or Philetaerus,[51] and a man by the latter name appears in the catalogue of Lenaia victors with two victories, the first probably in the late 370s.[52]
+Plato's The Symposium appears to be a useful source of biographical information about Aristophanes, but its reliability is open to doubt.[53] It purports to be a record of conversations at a dinner party at which both Aristophanes and Socrates are guests, held some seven years after the performance of The Clouds, the play in which Socrates was cruelly caricatured. One of the guests, Alcibiades, even quotes from the play when teasing Socrates over his appearance[54] and yet there is no indication of any ill-feeling between Socrates and Aristophanes. Plato's Aristophanes is in fact a genial character and this has been interpreted as evidence of Plato's own friendship with him[55] (their friendship appears to be corroborated by an epitaph for Aristophanes, reputedly written by Plato, in which the playwright's soul is compared to an eternal shrine for the Graces).[56] Plato was only a boy when the events in The Symposium are supposed to have occurred and it is possible that his Aristophanes is in fact based on a reading of the plays. For example, conversation among the guests turns to the subject of Love and Aristophanes explains his notion of it in terms of an amusing allegory, a device he often uses in his plays. He is represented as suffering an attack of hiccoughs and this might be a humorous reference to the crude physical jokes in his plays. He tells the other guests that he is quite happy to be thought amusing but he is wary of appearing ridiculous.[57][58] This fear of being ridiculed is consistent with his declaration in The Knights that he embarked on the career of comic playwright warily after witnessing the public contempt and ridicule that other dramatists had incurred.[59]
+Aristophanes survived The Peloponnesian War, two oligarchic revolutions and two democratic restorations; this has been interpreted as evidence that he was not actively involved in politics despite his highly political plays.[60] He was probably appointed to the Council of Five Hundred for a year at the beginning of the fourth century but such appointments were very common in democratic Athens.[61] Socrates, in the trial leading up to his own death, put the issue of a personal conscience in those troubled times quite succinctly:
+ἀναγκαῖόν ἐστι τὸν τῷ ὄντι μαχούμενον ὑπὲρ τοῦ δικαίου, καὶ εἰ μέλλει ὀλίγον χρόνον σωθήσεσθαι, ἰδιωτεύειν ἀλλὰ μὴ δημοσιεύειν.[62]
+"...he who will really fight for the right, if he would live even for a little while, must have a private station and not a public one.[63]
+Poetry[edit]
+Muse reading, Louvre
+The language of Aristophanes' plays, and in Old Comedy generally, was valued by ancient commentators as a model of the Attic dialect. The orator Quintilian believed that the charm and grandeur of the Attic dialect made Old Comedy an example for orators to study and follow, and he considered it inferior in these respects only to the works of Homer.[64][65] A revival of interest in the Attic dialect may have been responsible for the recovery and circulation of Aristophanes' plays during the 4th and 5th centuries AD, resulting in their survival today.[64] In Aristophanes' plays, the Attic dialect is couched in verse and his plays can be appreciated for their poetic qualities.
+For Aristophanes' contemporaries the works of Homer and Hesiod formed the cornerstones of Hellenic history and culture. Thus poetry had a moral and social significance that made it an inevitable topic of comic satire.[66] Aristophanes was very conscious of literary fashions and traditions and his plays feature numerous references to other poets. These include not only rival comic dramatists such as Eupolis and Hermippus[67] and predecessors such as Magnes, Crates and Cratinus,[68] but also tragedians, notably Aeschylus, Sophocles and Euripides, all three of whom are mentioned in e.g. The Frogs. Aristophanes was the equal of these great tragedians in his subtle use of lyrics.[69] He appears to have modelled his approach to language on that of Euripides in particular, so much so that the comic dramatist Cratinus labelled him a 'Euripidaristophanist' addicted to hair-splitting niceties.[18]
+A full appreciation of Aristophanes' plays requires an understanding of the poetic forms he employed with virtuoso skill, and of their different rhythms and associations.[70] There were three broad poetic forms: iambic dialogue, tetrameter verses and lyrics:[71]
+Iambic dialogue: Aristophanes achieves an effect resembling natural speech through the use of the iambic trimeter (corresponding to the effects achieved by English poets such as Shakespeare using iambic pentameters). His realistic use of the metre[72][73] makes it ideal for both dialogue and soliloquy, as for instance in the prologue, before the arrival of the Chorus, when the audience is introduced to the main issues in the plot. The Acharnians opens with these three lines by the hero, Dikaiopolis (rendered here in English as iambic pentameters):
+How many are the things that vex my heart!
+Pleasures are few, so very few — just four -
+But stressful things are manysandthousandsandheaps![74]
+Here Aristophanes employs a frequent device, arranging the syntax so that the final word in a line comes as a comic climax.[75] The hero's pleasures are so few he can number them (τέτταρα, four) but his causes for complaint are so many they beggar numerical description and he must invent his own word for them (ψαμμακοσιογάργαρα, literally 'sandhundredheaps', here paraphrased 'manysandthousandsandheaps'). The use of invented compound words is another comic device frequently found in the plays.[76][77]
+Tetrameter catalectic verses: These are long lines of anapests, trochees or iambs (where each line is ideally measured in four dipodes or pairs of feet), used in various situations within each play such as:
+formal debates or agons between characters (typically in anapestic rhythm);
+excited dialogue or heated argument (typically trochaic rhythm, the same as in early tragedy);
+long speeches declaimed by the Chorus in parabases (in either anapestic or trochaic rhythms);
+informal debates barely above the level of ordinary dialogue (typically iambic).
+Anapestic rhythms are naturally jaunty (as in many limericks) and trochaic metre is suited to rapid delivery (the word 'trochee' is in fact derived from trechein, 'to run', as demonstrated for example by choruses who enter at speed, often in aggressive mood)[78] However, even though both these rhythms can seem to 'bowl along'[72] Aristophanes often varies them through use of complex syntax and substituted metres, adapting the rhythms to the requirements of serious argument. In an anapestic passage in The Frogs, for instance, the character Aeschylus presents a view of poetry that is supposed to be serious but which leads to a comic interruption by the god, Dionysus:
+AES.:It was Orpheus singing who taught us religion and how wrong people are when they kill,
+And we learned from Musaeus medicinal cures and the science of divination.
+If it's farming you want, Hesiod knows it all, when to plant, when to harvest. How godlike
+Homer got to be famous, I'll tell if you ask: he taught us what all good men should know,
+Discipline, fortitude, battle-readiness. DIO.: But no-one taught Pantocles — yesterday
+He was marching his men up and down on parade when the crest of his helmet fell off![79]
+The rhythm begins at a typical anapestic gallop, slows down to consider the revered poets Hesiod and Homer, then gallops off again to its comic conclusion at the expense of the unfortunate Pantocles. Such subtle variations in rhythm are common in the plays, allowing for serious points to be made while still whetting the audience's appetite for the next joke.
+Lyrics: Almost nothing is known about the music that accompanied Greek lyrics, and the metre is often so varied and complex that it is difficult for modern readers or audiences to get a feel for the intended effects, yet Aristophanes still impresses with the charm and simplicity of his lyrics.[72] Some of the most memorable and haunting lyrics are dignified hymns set free of the comic action[80] In the example below, taken from The Wasps, the lyric is merely a comic interlude and the rhythm is steadily trochaic. The syntax in the original Greek is natural and unforced and it was probably accompanied by brisk and cheerful music, gliding to a concluding pun at the expense of Amynias, who is thought to have lost his fortune gambling.[81]
+Though to myself I often seem
+A bright chap and not awkward,
+None comes close to Amynias,
+Son of Sellos of the Bigwig
+Clan, a man I once saw
+Dine with rich Leogorus.
+Now as poor as Antiphon,
+He lives on apples and pomegranates
+Yet he got himself appointed
+Ambassador to Pharsalus,
+Way up there in Thessaly,
+Home of the poor Penestes:
+Happy to be where everyone
+Is as penniless as he is![82]
+The pun here in English translation (Penestes-penniless) is a weak version of the Greek pun Πενέσταισι-πενέστης, Penéstaisi-penéstĕs, "destitute". Many of the puns in the plays are based on words that are similar rather than identical, and it has been observed that there could be more of them than scholars have yet been able to identify.[83] Others are based on double meanings. Sometimes entire scenes are constructed on puns, as in The Acharnians with the Megarian farmer and his pigs:[84] the Megarian farmer defies the Athenian embargo against Megarian trade, and tries to trade his daughters disguised as pigs, except "pig" was ancient slang for "vagina". Since the embargo against Megara was the pretext for the Peloponnesian War, Aristophanes naturally concludes that this whole mess happened because of "three cunts".
+It can be argued that the most important feature of the language of the plays is imagery, particularly the use of similes, metaphors and pictorial expressions.[75] In 'The Knights', for example, the ears of a character with selective hearing are represented as parasols that open and close.[85] In The Frogs, Aeschylus is said to compose verses in the manner of a horse rolling in a sandpit.[86] Some plays feature revelations of human perfectibility that are poetic rather than religious in character, such as the marriage of the hero Pisthetairos to Zeus's paramour in The Birds and the 'recreation' of old Athens, crowned with roses, at the end of The Knights.
+Rhetoric[edit]
+It is widely believed that Aristophanes condemned rhetoric on both moral and political grounds. He states, “a speaker trained in the new rhetoric may use his talents to deceive the jury and bewilder his opponents so thoroughly that the trial loses all semblance of fairness”[87] . He is speaking to the “art” of flattery, and evidence points towards the fact that many of Aristophanes’ plays were actually created with the intent to attack the view of rhetoric. The most noticeable attack can be seen in his play Banqueters, in which two brothers from different educational backgrounds argue over which education is better. One brother comes from a background of “old-fashioned” education while the other brother appears to be a product of the sophistic education [87] .
+The chorus was mainly used by Aristophanes as a defense against rhetoric and would often talk about topics such as the civic duty of those who were educated in classical teachings. In Aristophanes’ opinion it was the job of those educated adults to protect the public from the deception and to stand as a beacon of light for those who were more gullible than others. One of the main reasons why Aristophanes was so against the sophists came into existence from the requirements listed by the leaders of the organization. Money was essential, which meant that roughly all of the pupils studying with the sophists came from upper-class backgrounds and excluded the rest of the polis. Aristophanes believed that education and knowledge was a public service and that anything that excluded willing minds was nothing but an abomination.[88] He concludes that all politicians that study rhetoric must have "doubtful citizenships, unspeakable morals, and too much arrogance”[87] .
+Old Comedy[edit]
+Thalia, muse of comedy, gazing upon a comic mask (detail from Muses' Sarcophagus)
+The Greek word for comedy (kōmōidía) derives from the words for 'revel' and 'song' (kōmos and ōdē) and according to Aristotle[89] comic drama actually developed from song. The first official comedy at the City Dionysia was not staged until 487/6 BC,[90] by which time tragedy had already been long established there. The first comedy at the Lenaia was staged later still,[91] only about 20 years before the performance there of The Acharnians, the first of Aristophanes' surviving plays. According to Aristotle, comedy was slow to gain official acceptance because nobody took it seriously,[92] yet only sixty years after comedy first appeared at the City Dionysia, Aristophanes observed that producing comedies was the most difficult work of all.[93] Competition at the Dionysian festivals needed dramatic conventions for plays to be judged, but it also fuelled innovations.[94] Developments were quite rapid and Aristotle could distinguish between 'old' and 'new' comedy by 330 BC.[95]
+The trend from Old Comedy to New Comedy saw a move away from highly topical concerns with real individuals and local issues towards generalized situations and stock characters. This was partly due to the internationalization of cultural perspectives during and after the Peloponnesian War.[96][97] For ancient commentators such as Plutarch,[98] New Comedy was a more sophisticated form of drama than Old Comedy. However, Old Comedy was in fact a complex and sophisticated dramatic form incorporating many approaches to humour and entertainment.[99] In Aristophanes' early plays, the genre appears to have developed around a complex set of dramatic conventions, and these were only gradually simplified and abandoned.
+The City Dionysia and the Lenaia were celebrated in honour of Dionysus, the god of wine and ecstasy. (Euripides' play The Bacchae offers the best insight into 5th century ideas about this god.)[100] Old Comedy can be understood as a celebration of the exuberant sense of release inherent in his worship[101] It was more interested in finding targets for satire than in any kind of advocacy.[102] During the City Dionysia, a statue of the god was brought to the theatre from a temple outside the city, and it remained in the theatre throughout the festival, overseeing the plays like a privileged member of the audience.[103] In The Frogs, the god appears also as a dramatic character, and he enters the theatre ludicrously disguised as Hercules. He observes to the audience that every time he is on hand to hear a joke from a comic dramatist like Phrynichus (one of Aristophanes' rivals) he ages by more than a year.[104] This scene opens the play, and it is a reminder to the audience that nobody is above mockery in Old Comedy — not even its patron god and its practitioners. Gods, artists, politicians and ordinary citizens were legitimate targets, comedy was a kind of licensed buffoonery,[105] and there was no legal redress for anyone who was slandered in a play.[106] There were certain limits to the scope of the satire, but they are not easily defined. Impiety could be punished in 5th century Athens, but the absurdities implicit in the traditional religion were open to ridicule.[107] The polis was not allowed to be slandered, but as stated in the biography section of this article, that could depend on who was in the audience and which festival was involved.
+For convenience, Old Comedy, as represented by Aristophanes' early plays, is analysed below in terms of three broad characteristics — topicality, festivity and complexity. Dramatic structure contributes to the complexity of Aristophanes' plays. However, it is associated with poetic rhythms and meters that have little relevance to English translations and it is therefore treated in a separate section.
+Topicality[edit]
+Old Comedy's emphasis on real personalities and local issues makes the plays difficult to appreciate today without the aid of scholarly commentaries — see for example articles on The Knights, The Wasps and Peace for lists of topical references. The topicality of the plays had unique consequences for both the writing and the production of the plays in ancient Athens.
+Individual masks: All actors in classical Athens wore masks, but whereas in tragedy and New Comedy these identified stereotypical characters, in Old Comedy the masks were often caricatures of real people. Perhaps Socrates attracted a lot of attention in Old Comedy because his face lent itself easily to caricature by mask-makers.[108] In The Knights we are told that the mask makers were too afraid to make a caricature of Cleon (there represented as a Paphlagonian slave) but we are assured that the audience is clever enough to identify him anyway.[109]
+The real scene of action: Since Old Comedy makes numerous references to people in the audience, the theatre itself was the real scene of action and theatrical illusion was treated as something of a joke. In The Acharnians, for example, The Pnyx is just a few steps from the hero's front door, and in Peace Olympus is separated from Athens by a few moments' supposed flight on a dung beetle. The audience is sometimes drawn or even dragged into the action. When the hero in Peace returns to Athens from his flight to Olympus, he tells the audience that they looked like rascals when seen from the heavens, and seen up close they look even worse.[110] In The Acharnians the hero confronts the archon basileus,[111] sitting in the front row, and demands to be awarded first prize for a drinking competition, which is a none too subtle way for Aristophanes to request first prize for the drama competition.
+Self-mocking theatre: Frequent parodying of tragedy is an aspect of Old Comedy that modern audiences find difficult to understand. But the Lenaia and City Dionysia included performances of both comedies and tragedies, and thus references to tragedy were highly topical and immediately relevant to the original audience.[112] The comic dramatist also poked fun at comic poets and he even ridiculed himself. It is possible, as indicated earlier, that Aristophanes mocked his own baldness. In The Clouds, the Chorus compares him to an unwed, young mother[113] and in The Acharnians the Chorus mockingly depicts him as Athens' greatest weapon in the war against Sparta.[114]
+Political theatre: The Lenaia and City Dionysus were state-sponsored, religious festivals, and though the latter was the more prestigious of the two, both were occasions for official pomp and circumstance. The ceremonies for the Lenaia were overseen by the archon basileus and by officials of the Eleusinian mysteries. The City Dionysia was overseen by the archon eponymous and the priest of Dionysus. Opening ceremonies for the City Dionysia featured, in addition to the ceremonial arrival of the god, a parade in full armour of the sons of warriors who died fighting for the polis and, until the end of the Peloponnesian War, a presentation of annual tribute from subject states.[115] Religious and political issues were topics that could hardly be ignored in such a setting and the plays often treat them quite seriously. Even jokes can be serious when the topic is politics — especially in wartime. The butts of the most savage jokes are opportunists who prey on the gullibility of their fellow citizens, including oracle-mongers,[116] the exponents of new religious practices,[117] war-profiteers and political fanatics. In The Acharnians, for example, Lamachus is represented as a crazed militarist whose preparations for war are hilariously compared to the hero's preparations for a dinner party.[118] Cleon emerges from numerous similes and metaphors in The Knights as a protean form of comic evil, clinging to political power by every possible means for as long as he can, yet the play also includes simple hymns invoking Poseidon and Athena,[119] and it ends with visions of a miraculously transformed Demos (i.e. the morally reformed citizenry of Athens).[120] Imaginative visions of a return to peaceful activities resulting from peace with Sparta,[121] and a plea for leniency for citizens suspected of complicity in an oligarchic revolt[122] are other examples of a serious purpose behind the plays.
+Teasing and taunting: A festival audience presented the comic dramatist with a wide range of targets, not just political or religious ones — anyone known to the audience could be mocked for any reason, such as diseases, physical deformities, ugliness, family misfortunes, bad manners, perversions, dishonesty, cowardice in battle, and clumsiness.[123] Foreigners, a conspicuous presence in imperial Athens, particularly at the City Dionysia, often appear in the plays comically mispronouncing Attic words — these include Spartans (Lysistrata), Scythians (Thesmophoriazusae), Persians, Boeotians and Megarians (The Acharnians).
+Festivity[edit]
+The Lenaia and City Dionysia were religious festivals, but they resembled a gala rather than a church service.[124]
+Dirty jokes: A relaxation in standards of behaviour was permitted and the holiday spirit included bawdy irreverence towards both men and gods.[125] Old Comedy is rich in obscenities and the crude jokes are often very detailed and difficult to understand without expert commentary, as when the Chorus in The Acharnians places a curse on Antimachus,[126] a choregus accused of niggardly conduct, wishing upon him a night-time mugging as he returns home from some drunken party and envisioning him, as he stoops down to pick up a rock in the darkness, accidentally picking up a fresh turd instead. He is then envisioned hurling the turd at his attacker, missing and accidentally hitting Cratinus, a lyric poet not admired by Aristophanes.[127] This was particularly funny because the curse was sung (or chanted) in choreographed style by a Chorus of 24 grown men who were otherwise known to the audience as respectable citizens.
+The musical extravaganza: The Chorus was vital to the success of a play in Old Comedy long after it had lost its relevance for tragedy.[128] Technically, the competition in the dramatic festivals was not between poets but between choruses.[129] In fact eight of Aristophanes' eleven surviving plays are named after the Chorus. In Aristophanes' time, the Chorus in tragedy was relatively small (twelve members) and its role had been reduced to that of an awkwardly placed commentator, but in Old Comedy the Chorus was large (numbering 24), it was actively involved in the plot, its entry into the action was frequently spectacular, its movements were practised with military precision and sometimes it was involved in choreographed skirmishes with the actors.[130] The expenditure on costumes, training and maintenance of a Chorus was considerable,[131] and perhaps many people in the original audience enjoyed comedy mainly for the spectacle and music.[132] The chorus gradually lost its significance as New Comedy began to develop.
+Obvious costumes: Consistent with the holiday spirit, much of the humour in Old Comedy is slapstick buffoonery and dirty jokes that do not require the audience's careful attention, often relying on visual cues. Actors playing male roles appear to have worn tights over grotesque padding, with a prodigious, leather phallus barely concealed by a short tunic. Female characters were played by men but were easily recognized in long, saffron tunics.[133] Sometimes the visual cues are deliberately confused for comic effect, as in The Frogs, where Dionysus arrives on stage in a saffron tunic, the buskin boots of a tragic actor and a lion skin cloak that usually characterized Heracles - an absurd outfit that provokes the character Heracles (as no doubt it provoked the audience) to guffaws of helpless mirth.[134]
+The farcical anti-climax: The holiday spirit might also have been responsible for an aspect of the comic plot that can seem bewildering to modern audiences. The major confrontation (agon) between the 'good' and 'bad' characters in a play is often resolved decisively in favour of the former long before the end of the play. The rest of the play deals with farcical consequences in a succession of loosely connected scenes. The farcical anti-climax has been explained in a variety of ways, depending on the particular play. In The Wasps, for instance, it has been thought to indicate a gradual change in the main character's perspective as the lessons of the agon are slowly absorbed.[135] In The Acharnians, it has been explained in terms of a unifying theme that underlies the episodes, demonstrating the practical benefits that come with wisdom.[136] But the early release of dramatic tension is consistent with the holiday meanings in Old Comedy[137] and it allows the audience to relax in uncomplicated enjoyment of the spectacle, the music, jokes and celebrations that characterize the remainder of the play. The celebration of the hero's victory often concludes in a sexual conquest and sometimes it takes the form of a wedding, thus providing the action with a joyous sense of closure.[138]
+Complexity[edit]
+The development of New Comedy involved a trend towards more realistic plots, a simpler dramatic structure and a softer tone.[139] Old Comedy was the comedy of a vigorously democratic polis at the height of its power and it gave Aristophanes the freedom to explore the limits of humour, even to the point of undermining the humour itself.[140]
+Inclusive comedy: Old Comedy provided a variety of entertainments for a diverse audience. It accommodated a serious purpose, light entertainment, hauntingly beautiful lyrics, the buffoonery of puns and invented words, obscenities, disciplined verse, wildly absurd plots and a formal, dramatic structure.
+Fantasy and absurdity: Fantasy in Old Comedy is unrestricted and impossibilities are ignored.[141] Situations are developed logically to absurd conclusions, an approach to humour that is echoed for instance in the works of Lewis Carroll and Eugène Ionesco (the Theatre of the Absurd).[142] The crazy costume worn by Dionysus in The Frogs is typical of an absurd result obtained on logical grounds — he wears a woman's saffron-coloured tunic because effeminacy is an aspect of his divinity, buskin boots because he is interested in reviving the art of tragedy, and a lion skin cape because, like Heracles, his mission leads him into Hades. Absurdities develop logically from initial premises in a plot. In The Knights for instance, Cleon's corrupt service to the people of Athens is originally depicted as a household relationship in which the slave dupes his master. The introduction of a rival, who is not a member of the household, leads to an absurd shift in the metaphor, so that Cleon and his rival become erastai competing for the affections of an eromenos, hawkers of oracles competing for the attention of a credulous public, athletes in a race for approval and orators competing for the popular vote.
+The resourceful hero: In Aristophanic comedy, the hero is an independent-minded and self-reliant individual. He has something of the ingenuity of Homer's Odysseus and much of the shrewdness of the farmer idealized in Hesiod's Works and Days, subjected to corrupt leaders and unreliable neighbours. Typically he devises a complicated and highly fanciful escape from an intolerable situation.[143] Thus Dikaiopolis in The Acharnians contrives a private peace treaty with the Spartans; Bdelucleon in The Wasps turns his own house into a private law court in order to keep his jury-addicted father safely at home; Trygaeus in Peace flies to Olympus on a giant dung beetle to obtain an end to the Peloponnesian War; Pisthetairus in Birds sets off to establish his own colony and becomes instead the ruler of the bird kingdom and a rival to the gods.
+The resourceful cast: The numerous surprising developments in an Aristophanic plot, the changes in scene, and the farcical comings and goings of minor characters towards the end of a play, were managed according to theatrical convention with only three principal actors (a fourth actor, often the leader of the chorus, was permitted to deliver short speeches).[144] Songs and addresses to the audience by the Chorus gave the actors hardly enough time off-stage to draw breath and to prepare for changes in scene.
+Complex structure: The action of an Aristophanic play obeyed a crazy logic of its own and yet it always unfolded within a formal, dramatic structure that was repeated with minor variations from one play to another. The different, structural elements are associated with different poetic meters and rhythms and these are generally lost in English translations.
+Dramatic structure[edit]
+The structural elements of a typical Aristophanic plot can be summarized as follows:
+prologue - an introductory scene with a dialogue and/or soliloquy addressed to the audience, expressed in iambic trimeter and explaining the situation that is to be resolved in the play;
+parodos - the arrival of the chorus, dancing and singing, sometimes followed by a choreographed skirmish with one or more actors, often expressed in long lines of tetrameters;
+symmetrical scenes - passages featuring songs and declaimed verses in long lines of tetrameters, arranged symmetrically in two sections such that each half resembles the other in meter and line length; the agon and parabasis can be considered specific instances of symmetrical scenes:
+parabasis - verses through which the Chorus addresses the audience directly, firstly in the middle of the play and again near the end (see the section below Parabasis);
+agon - a formal debate that decides the outcome of the play, typically in anapestic tetrameter, though iambs are sometimes used to delineate inferior arguments;[145]
+episodes - sections of dialogue in iambic trimeter, often in a succession of scenes featuring minor characters towards the end of a play;
+songs ('strophes'/'antistrophes' or 'odes'/'antodes') - often in symmetrical pairs where each half has the same meter and number of lines as the other, used as transitions between other structural elements, or between scenes while actors change costume, and often commenting on the action;
+exodus - the departure of the Chorus and the actors, in song and dance celebrating the hero's victory and sometimes celebrating a symbolic marriage.
+The rules of competition did not prevent a playwright arranging and adjusting these elements to suit his particular needs.[146] In The Acharnians and Peace, for example, there is no formal agon whereas in The Clouds there are two agons.
+Parabasis[edit]
+The parabasis is an address to the audience by the chorus or chorus leader while the actors leave or have left the stage. In this role, the chorus is sometimes out of character, as the author's voice, and sometimes in character, although these capacities are often difficult to distinguish. Generally the parabasis occurs somewhere in the middle of a play and often there is a second parabasis towards the end. The elements of a parabasis have been defined and named by scholars but it is probable that Aristophanes' own understanding was less formal.[147] The selection of elements can vary from play to play and it varies considerably within plays between first and second parabasis. The early plays (The Acharnians to The Birds) are fairly uniform in their approach however and the following elements of a parabasis can be found within them.
+kommation: This is a brief prelude, comprising short lines and often including a valediction to the departing actors, such as ἴτε χαίροντες (Go rejoicing!).
+parabasis proper: This is usually a defense of the author's work and it includes criticism of the audience's attitude. It is declaimed in long lines of 'anapestic tetrameters'. Aristophanes himself refers to the parabasis proper only as 'anapests'.
+pnigos: Sometimes known as 'a choker', it comprises a few short lines appended to the parabasis proper as a kind of rapid patter (it has been suggested that some of the effects achieved in a pnigos can be heard in "The Lord Chancellor's Nightmare Song", in act 2 of Gilbert and Sullivan's Iolanthe).[148]
+epirrhematic syzygies: These are symmetrical scenes that mirror each other in meter and number of lines. They form part of the first parabasis and they often comprise the entire second parabasis. They are characterized by the following elements:
+strophe or ode: These are lyrics in a variety of meters, sung by the Chorus in the first parabasis as an invocation to the gods and as a comic interlude in the second parabasis.
+epirrhema: These are usually long lines of trochaic tetrameters. Broadly political in their significance, they were probably spoken by the leader of the Chorus in character.[149]
+antistrophe or antode: These are songs that mirror the strophe/ode in meter, length and function.
+antepirrhema. This is another declaimed passage and it mirrors the epirrhema in meter, length and function.
+The Wasps is thought to offer the best example of a conventional approach[150] and the elements of a parabasis can be identified and located in that play as follows.
+Elements in The Wasps
+1st parabasis
+2nd parabasis
+kommation
+lines 1009-14[151]
+---
+parabasis proper
+lines 1015-50
+---
+pnigos
+lines 1051-59
+---
+strophe
+lines 1060-70
+lines 1265-74[152]
+epirrhema
+lines 1071-90
+lines 1275-83
+antistrophe
+lines 1091-1101
+missing
+antepirrhema
+lines 1102-1121
+lines 1284-91
+Textual corruption is probably the reason for the absence of the antistrophe in the second parabasis.[153] However, there are several variations from the ideal even within the early plays. For example, the parabasis proper in The Clouds (lines 518-62) is composed in eupolidean meter rather than in anapests[154] and the second parabasis includes a kommation but it lacks strophe, antistrophe and antepirrhema (The Clouds lines 1113-30). The second parabasis in The Acharnians lines 971-99[155] can be considered a hybrid parabasis/song (i.e. the declaimed sections are merely continuations of the strophe and antistrophe)[156] and, unlike the typical parabasis, it seems to comment on actions that occur on stage during the address. An understanding of Old Comedy conventions such as the parabasis is necessary for a proper understanding of Aristophanes' plays; on the other hand, a sensitive appreciation of the plays is necessary for a proper understanding of the conventions.
+Influence and legacy[edit]
+Aristophanes, the master of Old Comedy, and Menander, the master of New Comedy.
+The tragic dramatists, Sophocles and Euripides, died near the end of the Peloponnesian War and the art of tragedy thereafter ceased to develop, yet comedy did continue to evolve after the defeat of Athens and it is possible that it did so because, in Aristophanes, it had a master craftsman who lived long enough to help usher it into a new age.[157] Indeed, according to one ancient source (Platonius, c.9th Century AD), one of Aristophanes's last plays, Aioliskon, had neither a parabasis nor any choral lyrics (making it a type of Middle Comedy), while Kolakos anticipated all the elements of New Comedy, including a rape and a recognition scene.[158] Aristophanes seems to have had some appreciation of his formative role in the development of comedy, as indicated by his comment in Clouds that his audience would be judged by other times according to its reception of his plays.[159] Clouds was awarded third (i.e. last) place after its original performance and the text that has come down to the modern age was a subsequent draft that Aristophanes intended to be read rather than acted.[160] The circulation of his plays in manuscript extended their influence beyond the original audience, over whom in fact they seem to have had little or no practical influence: they did not affect the career of Cleon, they failed to persuade the Athenians to pursue an honourable peace with Sparta and it is not clear that they were instrumental in the trial and execution of Socrates, whose death probably resulted from public animosity towards the philosopher's disgraced associates (such as Alcibiades),[161] exacerbated of course by his own intransigence during the trial.[162] The plays, in manuscript form, have been put to some surprising uses — as indicated earlier, they were used in the study of rhetoric on the recommendation of Quintilian and by students of the Attic dialect in the Fourth and Fifth Centuries AD. It is possible that Plato sent copies of the plays to Dionysius of Syracuse so that he might learn about Athenian life and government.[163]
+Latin translations of the plays by Andreas Divus (Venice 1528) were circulated widely throughout Europe in the Renaissance and these were soon followed by translations and adaptations in modern languages. Racine, for example, drew Les Plaideurs (1668) from The Wasps. Goethe (who turned to Aristophanes for a warmer and more vivid form of comedy than he could derive from readings of Terence and Plautus) adapted a short play Die Vögel from The Birds for performance in Weimar. Aristophanes has appealed to both conservatives and radicals in the nineteenth and twentieth centuries — Anatoly Lunacharsky, first Commissar of Enlightenment for the USSR in 1917, declared that the ancient dramatist would have a permanent place in proletarian theatre and yet conservative, Prussian intellectuals interpreted Aristophanes as a satirical opponent of social reform.[164] The avant-gardist stage-director Karolos Koun directed a version of The Birds under the Acropolis in 1959 that established a trend in modern Greek history of breaking taboos through the voice of Aristophanes.[165]
+The plays have a significance that goes beyond their artistic function, as historical documents that open the window on life and politics in classical Athens, in which respect they are perhaps as important as the writings of Thucydides. The artistic influence of the plays is immeasurable. They have contributed to the history of European theatre and that history in turn shapes our understanding of the plays. Thus for example the operettas of Gilbert and Sullivan can give us insights into Aristophanes' plays[166] and similarly the plays can give us insights into the operettas.[167] The plays are a source of famous sayings, such as "By words the mind is winged."[168]
+Listed below is a random and very tiny sample of works influenced (more or less) by Aristophanes.
+Drama[edit]
+1909: Wasps, original Greek, Cambridge University undergraduate production, music by Vaughan Williams;
+2004, July–October: The Frogs (musical), adapted by Nathan Lane, music and lyrics by Stephen Sondheim, performed at The Vivian Beaumont Theater Broadway;
+1962-2006: various plays by students and staff, Kings College London, in the original Greek:[169] Frogs 1962,1971,1988; Thesmophoriazusae 1965, 1974, 1985; Acharnians 1968, 1992, 2004; Clouds 1977, 1990; Birds 1982, 2000; Ecclesiazusae 2006; Peace 1970; Wasps 1981
+2002: Lysistrata, adapted by Robert Brustein, music by Galt McDermot, performed by American Repertory Theatre, Boston U.S.A.;
+2008, May–June: Frogs, adapted by David Greenspan, music by Thomas Cabaniss, performed by Classic Stage Company, New York, U.S.A.
+Literature[edit]
+The romantic poet, Percy Shelley, wrote a comic, lyrical drama (Swellfoot the Tyrrant) in imitation of Aristophanes' play The Frogs after he was reminded of the Chorus in that play by a herd of pigs passing to market under the window of his lodgings in San Giuliano, Italy.[170]
+Aristophanes (particularly in reference to The Clouds) is mentioned frequently by the character Menedemos in the Hellenic Traders series of novels by H N Turteltaub.
+A liberal version of the comedies have been published in comic book format, initially by "Agrotikes Ekdoseis" during the 1990s and republished over the years by other companies. The plot was written by Tasos Apostolidis and the sketches were of George Akokalidis. The stories feature either Aristophanes narrating them, directing the play, or even as a character inside one of his stories.
+Electronic media[edit]
+The Wasps, radio play adapted by David Pountney, music by Vaughan Williams, recorded 26–28 July 2005, Albert Halls, Bolten, in association with BBC, under Halle label;
+Acropolis Now is a comedy radio show for the BBC set in Ancient Greece. It features Aristophanes, Socrates and many other famous Greeks. (Not to be confused with the Australian sitcom of the same name.) Aristophanes is characterised as a celebrity playwright, and most of his plays have the title formula: One of Our [e.g] Slaves has an Enormous Knob (a reference to the exaggerated appendages worn by Greek comic actors)
+Aristophanes Against the World was a radio play by Martyn Wade and broadcast on BBC Radio 4. Loosely based on several of his plays, it featured Clive Merrison as Aristophanes.
+Music[edit]
+Satiric Dances for a Comedy by Aristophanes is a three-movement piece for concert band composed by Norman Dello Joio. It was commissioned in commemoration of the Bicentennial of 19 April 1775 (the start of the American Revolutionary War) by the Concord (Massachusetts) Band. The commission was funded by the Town of Concord and assistance was given by the Eastern National Park and Monument Association in cooperation with the National Park Service.
+Ralph Vaughan Williams wrote The Wasps for a 1909 Cambridge University production of the play.[171]
+Works[edit]
+Surviving plays[edit]
+Most of these are traditionally referred to by abbreviations of their Latin titles; Latin remains a customary language of scholarship in classical studies.
+The Acharnians (Ἀχαρνεῖς Akharneis; Attic Ἀχαρνῆς; Acharnenses) 425 BC
+The Knights (Ἱππεῖς Hippeis; Attic Ἱππῆς; Latin: Equites) 424 BC
+The Clouds (Νεφέλαι Nephelai; Latin: Nubes); original 423 BC, uncompleted revised version from 419 BC – 416 BC survives
+The Wasps (Σφῆκες Sphekes; Latin: Vespae) 422 BC
+Peace (Εἰρήνη Eirene; Latin: Pax) first version, 421 BC
+The Birds (Ὄρνιθες Ornithes; Latin: Aves) 414 BC
+Lysistrata (Λυσιστράτη Lysistrate) 411 BC
+Thesmophoriazusae or The Women Celebrating the Thesmophoria (Θεσμοφοριάζουσαι Thesmophoriazousai) first version c.411 BC
+The Frogs (Βάτραχοι Batrakhoi; Latin: Ranae) 405 BC
+Ecclesiazusae or The Assemblywomen; (Ἐκκλησιάζουσαι Ekklesiazousai) c. 392 BC
+Wealth (Πλοῦτος Ploutos; Latin Plutus) second version, 388 BC
+Datable non-surviving (lost) plays[edit]
+The standard modern edition of the fragments is Kassel-Austin, Poetae Comici Graeci III.2.
+Banqueters (Δαιταλείς Daitaleis, 427 BC)
+Babylonians (Βαβυλώνιοι Babylonioi, 426 BC)
+Farmers (Γεωργοί Georgoi, 424 BC)
+Merchant Ships (Όλκάδες Holkades, 423 BC)
+Clouds (first version) (423 BC)
+Proagon (Προάγων, 422 BC)
+Amphiaraus (Αμφιάραος, 414 BC)
+Plutus (Wealth, first version, 408 BC)
+Gerytades (Γηρυτάδης, uncertain, probably 407 BC)
+Cocalus (Κώκαλος, 387 BC)
+Aiolosicon (Αιολοσίκων, second version, 386 BC)
+Undated non-surviving (lost) plays[edit]
+Aiolosicon (first version)
+Anagyrus (Ανάγυρος)
+Frying-Pan Men (Ταγηνισταί Tagenistai)
+Daedalus (Δαίδαλος)
+Danaids (Δαναίδες Danaides)
+Centaur (Κένταυρος Kentauros)
+Heroes (Ήρωες)
+Lemnian Women (Λήμνιαι Lemniai)
+Old Age (Γήρας Geras)
+Peace (second version)
+Phoenician Women (Φοίνισσαι Phoinissai)
+Polyidus (Πολύιδος)
+Seasons (Ώραι Horai)
+Storks (Πελαργοί Pelargoi)
+Telemessians (Ίελμησσείς Telmesseis)
+Triphales (Τριφάλης)
+Thesmophoriazusae (Women at the Thesmophoria Festival, second version)
+Women in Tents (Σκηνάς Καταλαμβάνουσαι Skenas Katalambanousai)
+Attributed (doubtful, possibly by Archippus)[edit]
+See also: Archippus (poet)
+Dionysus Shipwrecked (Διόνυσος Ναυαγός Dionysos Nauagos)
+Islands (Νήσοι Nesoi)
+Niobos (Νίοβος)
+Poetry (Ποίησις Poiesis)
+See also[edit]
+Agathon
+Ancient Greek comedy
+Asteroid 2934 Aristophanes, named after the dramatist
+Greek literature
+Onomasti komodein, the witty personal attack made with total freedom against the most notable individuals
+Hubert Parry wrote music for The Birds
+Theatre of ancient Greece
+Notes[edit]
+^ a b Barrett (1964) p.9
+^ Jones, Daniel; Roach, Peter, James Hartman and Jane Setter, eds. Cambridge English Pronouncing Dictionary. 17th edition. Cambridge UP, 2006.
+^ Alan Sommerstein, Aristophanes: Lysistrata, The Acharnians, The Clouds, Penguin Books, 1973, page 9
+^ Aristophanes: Clouds K.J.Dover (ed), Oxford University Press 1970, Intro. page X.
+^ Aristophanes in Performance 421 BC-AD 2007:Peace, Birds and Frogs Edith Hall and Amanda Wrigley, Legenda (Oxford) 2007, page 1
+^ Character Sketches of Romance, Fiction and the Drama, Vol. 1
+^ Barrett (2003) page 26
+^ The Apology translated by Benjamin Jowett, section 4
+^ Apology, Greek text, edited J. Burnet, section 19c
+^ Lysistrata, The Acharnians, The Clouds Alan Sommerstein, Penguin Books 1973, p16
+^ Aristophanis Comoediae Tomus 1, F.W.Hall and W.M.Geldart (eds), Oxford Classical Texts, Knights ln 516
+^ Barrett (1964) p.21
+^ Greek Comedy and Ideology David Konstan, Oxford University Press US 1995, page 6
+^ Aristophanes: The Clouds K.J.Dover, Oxford University Press 1970, Intro. page XIV
+^ Aristophanis Comoediae Tomus 1, F.W.Hall and W.M.Geldart (eds), Oxford Classical Texts,Clouds 520-25
+^ Aristophanis Comoediae Tomus 1, F.W.Hall and W.M.Geldart (eds), Oxford Classical Texts,Clouds 560-62
+^ Wasps 1536-7 Wikisource original Greek, Clouds 545-48, Peace 739-58
+^ a b Barrett (2003) p.9
+^ Greek Society Antony Andrewes, Pelican Books, 1981, pages 247-48
+^ Aristophanes: Lysistrata, The Acharnians, The Clouds A.H. Sommerstein (ed), Penguin Books 1975, page9, footnote
+^ Barrett (1964) p.26
+^ Barrett (1964) p.25
+^ Aristophanis Comoediae Tomus 1, F.W.Hall and W.M.Geldart (eds), Oxford Classical Texts, The Knights lines 911-25
+^ W.Rennie, The Acharnians of Aristophanes, Edward Arnold (London, 1909), page 7, reproduced by Bibliolife
+^ Wasps 1075-1101 Wikisource original Greek, Knights 565-576
+^ Acharnians Wikisource Greek text 692-700
+^ Aristophanes: Lysistrata, The Acharnians, The Clouds A.H.Sommerstein (ed), Penguin Books 1975, pp. 13-14
+^ Barrett (1964) p.12
+^ 'Greek Drama' P. Levi in The Oxford History of the Classical World J.Boardman, J.Griffin, O. Murray (eds), Oxford University Press 1986, page 177
+^ The Acharnians, Wikisource lines 515-17
+^ Barrett (2003) p.34
+^ D.Welsh, IG ii2 2343, Philonides and Aristophanes' Banqueters, Classical Quarterly 33 (1983)
+^ Knights 512-14
+^ Clouds 530-33
+^ Ian Storey, General Introduction, in Clouds, Wasps, Birds By Aristophanes, Peter Meineck (translator), Hackett Publishing 1998, page xiii
+^ MacDowell (1971) p.124
+^ The Acharnians Wikisource original Greek lines 652-54
+^ Acharnians Wikisource original Greek 377-82
+^ W.Rennie, The Acharnians of Aristophanes, Edward Arnold (London, 1909), page 12-15, reproduced by Bibliolife
+^ Aristophanis Comoediae Tomus 1, F.W.Hall and W.M.Geldart (eds), Oxford Classical Texts, The Clouds lines 528-32
+^ Aristophanes: Lysistrata, The Acharnians, The Clouds Alan Sommerstein (ed), Penguin Classics 1975, page 9
+^ Wasps Wikisource original Greek lines 1265-91
+^ MacDowell (1978) p.299
+^ Aristophanis Comoediae Tomus 1, F.W. Hall and W.M. Geldart (eds), Oxford Classical Texts, Clouds 540-45, Peace 767-74
+^ IG II2 2325. 58
+^ Aristophanes, testimonium 1, lines 54-56, in Kassel-Austin, Poetae Comici Graeci vol. III.2 (Berlin 1984), p. 4.
+^ Aristophanes, Κώκαλος, testimonium iii, in Kassel-Austin, Poetae Comici Graeci vol. III.2 (Berlin 1984), p. 201.
+^ IG II2 2318. 196
+^ IG II2 2325. 140
+^ Eubulus, testimonium 4, in Kassel-Austin, Poetae Comici Graeci vol. V (Berlin 1986), p. 188.
+^ Clouds Peter Meineck (translator) and Ian Storey (Introduction), Hackett Publishing 2000, page XVIII
+^ IG II2 2325. 143 (just after Anaxandrides and just before Eubulus)
+^ Aristophanes:Clouds K.J.Dover (ed), Oxford University Press 1970, Intro. page IX note 1.
+^ Symposium 221B; Plato Vol.3, Loeb Classical Library (1975), page 236
+^ Aristophanes: Lysistrata, The Acharnians, The Clouds Alan Sommerstein (ed), Penguin Books 1973, page10
+^ Barrett (2003) p.10
+^ The Symposium original Greek text:section 189b
+^ The Symposium (English translation) Benjamin Jowett (scroll half way down).
+^ Aristophanis Comoediae Tomus 1, F.W.Hall and W.M.Geldart (eds), Knights ln 507-550
+^ Aristophanes: Clouds K.J. Dover (ed), Oxford University Press 1970, Introduction page IX
+^ Barrett (2003) p.7
+^ Wikisource, Plato's Apology, John Burnet (ed) section 32a
+^ Plato's Apology, Benjamin Jowett (trans) section 23.
+^ a b The Orator's Training Quintilian 10.1.65-6, cited in Barrett (2003) p.15
+^ Quintilian 10.1.65-6 10.1.61
+^ Barrett (1964) pp. 151-52
+^ Aristophanis Comoediae Tomus 1, F.W.Hall and W.M.Geldart (eds), Oxford Classical Texts, Clouds lines 553-54
+^ Aristophanis Comoediae Tomus 1, F.W. Hall and W.M. Geldart (eds), Oxford Classical Texts, Knights lines 519-40
+^ Barrett (1964) p.30
+^ MacDowell (1978) p.21
+^ Barrett (2003) pp.7-8
+^ a b c Barrett (2003) p.27
+^ MacDowell (1978) p.16
+^ Original Greek, Wikisource The Acharnians lines 1-3
+^ a b MacDowell (1978) p.17
+^ MacDowell (1978) p.13
+^ Aristophanes:Lysistrata, The Acharnians, The Clouds Alan Sommerstein, Penguin Classics 1973, page 37
+^ L.P.E. Parker, The Songs of Aristophanes, Oxford, 1997, p. 36
+^ Aristophanis Comoediae Tomus 2, F.W.Hall and W.M.Geldart (eds), Oxford Classical Texts, Frogs lines 1032-38
+^ Greek Drama, Peter Levi, in The Oxford History of the Classical World edited by J. Boardman, J. Griffin and O. Murray, Oxford University Press 1986, page 175
+^ MacDowell (1978) p.27
+^ MacDowell (1978), Wikisource: lines 1265-74
+^ Barrett (2003) p.21
+^ The Acharnians Wikisource original Greek lines 729-835
+^ Aristophanis Comoediae Tomus 1, F.W. Hall and W.M. Geldart (eds), Oxford Classical Texts, Knights lines 1347-48;
+^ The Frogs lines 902-4
+^ a b c Murphy, Charles T. "Aristophanes and the Art of Rhetoric." Harvard Studies in Classic Philology 49 (1938): 69-113. Web. 28 Sept. 2014.
+^ Major, Wilfred E. Aristophanes: Enemy of Rhetoric. N.p.: n.p., 1996. Print.
+^ The Poetics 1449a11, Wikisource English translation s:The Poetics#IV section IV
+^ Clouds translated by Peter Meineck with introduction by Ian Storey, Hackett Publishing 2000, page IX
+^ ibid page XIX
+^ The Poetics 1448b38 - 1449b, Wikisource English translation s:The Poetics#V section V
+^ Aristophanis Comoediae vol. 1, F.W. Hall and W.M. Geldart (eds), Oxford Classical Texts, Knights line 516
+^ Aristophanes:The Frogs and Other Plays David Barrett, Penguin Classics 1964, page 12
+^ Nichomachean Ethics 1128a 21-24
+^ Ralph Rosen, Aristophanes 3, D. Slavitt and P. Bovie (eds), University of Pennsylvania Press 1999, page XIV
+^ Clouds translated by P. Meineck with introduction by I. Storey, Hackett Publishing 2000, page VIII
+^ Comparison of Aristophanes and Menander
+^ Clouds translated by P. Meineck with introduction by I.Storey, Hackett Publishing 2000, page VII
+^ Clouds P. Meineck (translator) and I. Storey (Introduction), Hackett Publishing 2000, page VIII
+^ Clouds P. Meineck (translator) and I. Storey (Introduction), Hackett Publishing 2000, page XIX
+^ Greek Society Antony Andrewes, Pelican Books 1981, page 247
+^ Aristophanes: Lysistrata, The Acharnians, The Clouds A.Sommerstein, Penguin Classics 1975, page 18
+^ Frogs Wikisource English translation s:The Frogs; original Greek text lines 12-18
+^ Greek Society Antony Andrewes, Pelican Books 1981, page 248
+^ Aristophanes: The Frogs and Other Plays David Barrett, Penguin Classics 1964, page 27
+^ Aristophanes: Lysistrata, The Acharnians, Clouds A. Sommerstein, Penguin Classics 1975, page 17
+^ Aristophanes: Lysistrata, The Acharnians, Clouds A. Sommerstein, Penguin Classics 1975, page 31
+^ Knights lines 230-33
+^ Peace 821-23
+^ The Acharnians Wikisource original Greek lines 1224-25
+^ "Greek Drama" Peter Levi in The Oxford History of the Classical World J.Boardman, J. Griffin and O. Murray (eds), Oxford University Press 1986, page 176
+^ Clouds lines 528-33
+^ Acharnians lines 646-51
+^ Aristophanes:Lysistrata, The Acharnians, The Clouds A.Sommerstein, Penguin Classics 1973, pages 18-19
+^ e.g. Knights lines 997-1095; Birds lines 959-91
+^ e.g. Clouds lines 263-66, Frogs lines 891-94
+^ Acharnians lines 1097-1142 lines
+^ Knights lines 551-64 and 581-594
+^ Knights lines 1321-38
+^ e.g. Peace lines 551-97
+^ Frogs lines 686-705
+^ Aristophanes: Clouds K.J. Dover (ed), Oxford University Press 1970, pages XIII-XIV
+^ Aristophanes: Clouds K.J. Dover, Oxford University Press 1970, page XV
+^ "Greek Drama" Peter Levi in The Oxford History of the Classical World, Oxford University Press 1986, page 175
+^ The Acharnians Wikisource original Greek lines 1164-73
+^ Aristophanes: Lysistrata, The Acharnians, The Clouds A. Sommerstein, Penguin Classics, pages 243-4, notes 69,80,81
+^ Aristophanes: The Frogs and Other Plays David Barrett, Penguin Classics 1964, pages 14-15
+^ Aristophanes: Lysistrata, The Acharnians, The Clouds A. Sommerstein, Penguin Classics, page 23
+^ The Acharnians lines 280-301 Wikisource original Greek; Knights lines 247-72; Wasps lines 452-460 Wikisource original Greek
+^ Aristophanes: The Frogs and Other Plays David Barrett, Penguin Classics 1964, page 9
+^ Aristophanes: Wasps Douglas MacDowell (ed), Oxford University Press 1978, page 14-15
+^ Aristophanes: Lysistrata, The Acharnians, The Clouds A. Sommerstein, Penguin Classics, page 29
+^ Frogs lines 45-47
+^ Aristophanes: Wasps Douglas MacDowell, Oxford University Press 1978, page 7
+^ Aristophanes: Lysistrata, The Acharnians, The Clouds A. Sommerstein, Penguin Classics, pages 33-34
+^ Aristophanes' Old-and-new Comedy Kenneth J.Reckford, UNC Press 1987, page 15
+^ Aristophanes: The Frogs and Other Plays David Barrett, Penguin Classics 1964, pages 13-14
+^ Aristophanes D. Slavitt and P. Bovie (eds), University of Pennsylvania Press 1999, page XIII
+^ Aristophanes and the Definition of Comedy M.S.Silk, Oxford University Press 2002, page 418
+^ Aristophanes: Clouds K.J.Dover, Oxford University Press 1970, page XIII
+^ Aristophanes: Wasps Douglas MacDowell, Oxford University Press 1978, page 12
+^ Clouds Peter Meineck (translator) and Ian Storey (Introduction), Hackett Publishing 2000, page VIII
+^ Aristophanes: The Frogs and other Plays David Barrett (ed), Penguin Classics 1964, page 17
+^ Aristophanes:Wasps D. MacDowell (ed.), Oxford University Press 1971, page 207 note 546-630
+^ Aristophanes: Lysistrata, The Acharnians, The Clouds A. Sommerstein, Penguin Classics 1975, page 27
+^ Aristophanes: Wasps Dougles MacDowell, Oxford University Press 1978, page 261
+^ Aristophanes Wasps Douglas MacDowell (ed), Oxford University Press 1978, page 27
+^ Aristophanes: Clouds K.J. Dover (ed), Oxford University Press 1970, page 126
+^ Aristophanes:Wasps Douglas M.MacDowell, Oxford University Press 1978, note 1283 page 298
+^ Wikisource
+^ Wikisource
+^ Aristophanes Wasps Douglas MacDowell (ed), Oxford University Press 1978, pages 298-99
+^ Aristophanes:Clouds K.J.Dover, Oxford University Press 1970, page 119 note 518-62
+^ Wikisource
+^ Comedy E. Handley in 'The Cambridge History of Classical Literature I' P.Easterling, R. MacGregor Walker Knox, E. Kenney (eds), page 360
+^ "Greek Drama" Peter Levi, in The Oxford History of the Classical World J. Boardman, J. Griffin and O. Murray (eds), Oxford University Press 1986, page 176
+^ E.W.Handley, 'Comedy' in The Cambridge History of Classical Literature: Greek Literature, P. Easterling and B. Knox (eds), Cambridge University Press (1985), page 400
+^ Clouds lines 560-62
+^ Aristophanes: Clouds K.J.Dover, Oxford University Press 1970, pages XXIX-XXX
+^ Aristophanes: Clouds K.J. Dover, Oxford University Press 1970, pages XIV-XV
+^ Plato's Apology, Benjamin Jowett (trans), Wikisource copy: s:Apology (Plato)#33 (section 33)
+^ Clouds Peter Meineck (translator) and Ian Storey (Introduction), Hackett Publishing 2000, page X
+^ Aristophanes in Performance 421 BC-AD 2007:Peace, Birds and Frogs Edith Hall and Amanda Wrigley, Legenda (Oxford) 2007, pages 9-12
+^ Politics and Aristophanes: watchword Caution! by Gonda Van Steen in 'The Cambridge Companion to Greek and Roman Theatre' Marianne McDonald and J. Michael Walton (eds), Cambridge University Press 2007, page 109
+^ e.g. Aristophanes: Lysistrata, The Acharnians, The Clouds A. Sommerstein, Penguin Classics 1975, page 37
+^ "W.S. Gilbert: A Mid-Victorian Aristophanes" in W.S. Gilbert: A Century of Scholarship and Commentary, John Bush Jones (ed), New York University Press 1970
+^ Birds, l.1447-8; quotation as translated in Macmillan Dictionary of Political Quotations
+^ KCL.ac.uk
+^ Note on Oedipus Tyrannus by Mrs Shelley, quoted in Shelley: Poetical Works Thomas Hutchinson (ed), Oxford University Press 1970, page 410
+^ "Plays, Radio and Film; Ralph Vaughan Williams List of Works". RVWSociety.com. The Ralph Vaughan Williams Society. Retrieved 7 September 2014. 
+References[edit]
+Andrewes, Antony (1981), Greek Society, Pelican Books 
+Aristophanes (1970), K. J. Dover, ed., The Clouds, Oxford University Press 
+Aristophanes (1906), Hall, F.W. and Geldart, W.M., eds., Aristophanis Comoediae Tomus 1, Oxford university Press  CS1 maint: Uses editors parameter (link)
+Barrett, David (1964) The Frogs and Other Plays Penguin Books
+Barrett, David and Sommerstein, Alan (eds)(2003) The Birds and Other plays Penguin Classics
+Hall, Edith & Wrigley, Amanda (2007), Aristophanes in Performance 421 BC-AD 2007:Peace, Birds and Frogs, Legenda (Oxford) 
+Handley, E. (1985), "Comedy", in P.Easterling and B.Knox, The Cambridge History of Classical Literature: Greek Literature, Cambridge University Press  CS1 maint: Uses editors parameter (link)
+Irvine, Andrew David (2008). Socrates on Trial: A play based on Aristophanes' Clouds and Plato's Apology, Crito, and Phaedo, adapted for modern performance. Toronto: University of Toronto Press. 
+Kassel, Rudolf & Austin, Colin (1984), Poetae Comici Graeci, III.2, De Gruyter (Berlin) 
+Konstan, David (1995), Greek Comedy and Ideology, Oxford university Press US 
+Lamb, W.R.M. (1975), Plato, 3, Loeb Classical Library 
+Levi, P. (1986), "Greek Drama", in J.Boardman, J.Griffin, O.Murray, The Oxford History of the Classical World, Oxford University Press  CS1 maint: Uses editors parameter (link)
+MacDowell, Douglas (1971)(1978) Aristophanes Wasps, Oxford University Press, n.32
+Parker, L.P.E. (1997), The Songs of Aristophanes, Oxford University Press 
+Reckford, Kenneth J. (1987), Aristophanes' Old-and-new Comedy, UNC Press 
+Rennie, W. (1909), The Acharnians of Aristophanes, Edward Arnold (reproduced by Bibliolife) 
+Rosen, Ralph (1999), "Introduction", Aristophanes, 3, University of Pennsylvania Press (Penn Greek Drama Series) 
+Silk, M.S. (2002), Aristophanes and the Definition of Comedy, Oxford University Press 
+Somerstein, Alan (1973), Aristophanes: Lysistrata, The Acharnians, The Clouds, Penguin Books 
+Storey, Ian (1998), "Introduction", Clouds, Wasps, Birds By Aristophanes, translation by Peter Meineck, Hackett Publishing 
+Van Steen, Gonda (2007), "Politics and Aristophanes: watchword Caution!", in M. McDonald and J.M. Walton, The Cambridge Companion to Greek and Roman Theatre, Cambridge University Press  CS1 maint: Uses editors parameter (link)
+Welsh, D. (1983), "IG ii2 2343, Philonides and Aristophanes' Banqueters", Classical Quarterly, 33 
+David, Ephraim (1984). Aristophanes and Athenian Society of the Early Fourth Century B.C. Leiden, Netherlands: Brill. 
+Anthony T. Edwards (1991) Aristophanes' comic poetics Transaction of the American Philological Association 121 (1991) 157-179
+Jeffrey Henderson Professor of Classics University of Southern California (1991). The Maculate Muse: Obscene Language in Attic Comedy. Oxford University Press. ISBN 978-0-19-536199-5. 
+reviewed by W.J. Slater, Phoenix, Vol. 30, No. 3 (Autumn, 1976), pp. 291–293 doi:10.2307/1087300
+Lee, Jae Num. "Scatology in Continental Satirical Writings from Aristophanes to Rabelais" and "English Scatological Writings from Skelton to Pope." Swift and Scatological Satire. Albuquerque: U of New Mexico P, 1971. 7-22; 23-53.
+Loscalzo, Donato (2010). Aristofane e la coscienza felice. ISBN 978-88-6274-245-0. 
+Aristophanes and the Comic Hero by Cedric H. Whitman Author(s) of Review: H. Lloyd Stow The American Journal of Philology, Vol. 87, No. 1 (Jan., 1966), pp. 111–113
+MacDowell, Douglas M. (1995). Aristophanes and Athens: An Introduction to the Plays. Oxford and New York: Oxford University Press. ISBN 9780198721598. 
+Murray, Gilbert (1933). Aristophanes: A Study. Oxford and New York: Oxford University Press. 
+Platter, Charles (2006). Aristophanes and the Carnival of Genres. JHUP. ISBN 978-0-8018-8527-3. 
+G. M. Sifakis The Structure of Aristophanic Comedy The Journal of Hellenic Studies, Vol. 112, 1992 (1992), pp. 123–142 doi:10.2307/632156
+Taaffe, L. K. (1993). Aristophanes and Women. London and New York: Routledge. 
+Ussher, Robert Glenn (1979). Aristophanes. Oxford: Clarendon Press. 
+Van Steen, Gonda. 2000 Venom in Verse: Aristophanes in Modern Greece. Princeton University Press.
+Jstor.org, The American Journal of Philology, 1996.
+Life, death and Aristophanes' concept of Eros in Saul Bellow's "Ravelstein".
+External links[edit]
+Wikisource has original works written by or about:
+Aristophanes
+Wikiquote has quotations related to: Aristophanes
+Wikimedia Commons has media related to Aristofane.
+Works by Aristophanes at Project Gutenberg
+Works by or about Aristophanes at Internet Archive
+Works by Aristophanes at LibriVox (public domain audiobooks)
+The Eleven Comedies (in translation) at eBook at Adelaide
+Aristophanes Texts Biography and texts of Aristophanes
+List of films based on Aristophanes plays
+Life of Aristophanes
+SORGLL: Aristophanes, Birds 227-62; read by Stephen Daitz
+Comoediae quae supersunt cum perditarum fragmentis, Hubertus Holden LL.D., Cantabrigiae, apud Deighton Bell socios vendunt Londini Bell et Daldy, 1868.
+Scholia graeca in Aristophanem, F. Dübner (ed.), Parisiis, editore Ambrosio Firmin Didot, Instituti imperialis Franciae typographo, 1855 (another edition in 1883).
+v
+t
+e
+Surviving plays by Aristophanes
+The Acharnians
+The Knights
+The Clouds
+The Wasps
+Peace
+The Birds
+Lysistrata
+Thesmophoriazusae
+The Frogs
+Assemblywomen
+Plutus
+v
+t
+e
+Ancient Greece
+Outline
+Timeline
+ 
+History
+Geography
+Periods
+Cycladic civilization
+Minoan civilization
+Mycenaean civilization
+Greek Dark Ages
+Archaic period
+Classical Greece
+Hellenistic Greece
+Roman Greece
+Geography
+Aegean Sea
+Aeolis
+Alexandria
+Antioch
+Cappadocia
+Crete
+Cyprus
+Doris
+Ephesus
+Epirus
+Hellespont
+Ionia
+Ionian Sea
+Macedonia
+Magna Graecia
+Miletus
+Peloponnesus
+Pergamon
+Pontus
+Taurica
+Ancient Greek colonies
+ 
+City states
+Politics
+Military
+City states
+Argos
+Athens
+Byzantion
+Chalcis
+Corinth
+Eretria
+Kerkyra
+Larissa
+Megalopolis
+Megara
+Rhodes
+Samos
+Sparta
+Syracuse
+Thebes
+Politics
+Boeotarch
+Boule
+Koinon
+Proxeny
+Strategos
+Tagus
+Tyrant
+Amphictyonic League
+Athenian
+Agora
+Areopagus
+Ecclesia
+Graphē paranómōn
+Heliaia
+Ostracism
+Spartan
+Apella
+Ephor
+Gerousia
+Harmost
+Macedon
+Synedrion
+Koinon
+Military
+Wars
+Athenian military
+Antigonid Macedonian army
+Army of Macedon
+Ballista
+Cretan archers
+Hellenistic armies
+Hippeis
+Hoplite
+Hetairoi
+Macedonian phalanx
+Phalanx
+Peltast
+Pezhetairos
+Sarissa
+Sacred Band of Thebes
+Sciritae
+Seleucid army
+Spartan army
+Toxotai
+Xiphos
+Xyston
+ 
+People
+List of ancient Greeks
+Rulers
+Kings of Argos
+Archons of Athens
+Kings of Athens
+Kings of Commagene
+Diadochi
+Kings of Lydia
+Kings of Macedonia
+Kings of Paionia
+Attalid kings of Pergamon
+Kings of Pontus
+Kings of Sparta
+Tyrants of Syracuse
+Philosophers
+Anaxagoras
+Anaximander
+Anaximenes
+Antisthenes
+Aristotle
+Democritus
+Diogenes of Sinope
+Empedocles
+Epicurus
+Gorgias
+Heraclitus
+Hypatia
+Leucippus
+Parmenides
+Plato
+Protagoras
+Pythagoras
+Socrates
+Thales
+Zeno
+Authors
+Aeschylus
+Aesop
+Alcaeus
+Archilochus
+Aristophanes
+Bacchylides
+Euripides
+Herodotus
+Hesiod
+Hipponax
+Homer
+Ibycus
+Lucian
+Menander
+Mimnermus
+Panyassis
+Philocles
+Pindar
+Plutarch
+Polybius
+Sappho
+Simonides
+Sophocles
+Stesichorus
+Theognis
+Thucydides
+Timocreon
+Tyrtaeus
+Xenophon
+Others
+Agesilaus II
+Agis II
+Alcibiades
+Alexander the Great
+Aratus
+Archimedes
+Aspasia
+Demosthenes
+Epaminondas
+Euclid
+Hipparchus
+Hippocrates
+Leonidas
+Lycurgus
+Lysander
+Milo of Croton
+Miltiades
+Pausanias
+Pericles
+Philip of Macedon
+Philopoemen
+Praxiteles
+Ptolemy
+Pyrrhus
+Solon
+Themistocles
+Groups
+Philosophers
+Playwrights
+Poets
+Tyrants
+By culture
+Ancient Greek tribes
+Thracian Greeks
+Ancient Macedonians
+ 
+Society
+Culture
+Society
+Agriculture
+Calendar
+Clothing
+Coinage
+Cuisine
+Economy
+Education
+Festivals
+Funeral and burial practices
+Homosexuality
+Law
+Olympic Games
+Pederasty
+Philosophy
+Prostitution
+Religion
+Slavery
+Warfare
+Wedding customs
+Wine
+Arts
+Sciences
+Architecture (Greek Revival architecture)
+Astronomy
+Literature
+Mathematics
+Medicine
+Music (Musical system)
+Pottery
+Sculpture
+Technology
+Theatre
+Religion
+Funeral and burial practices
+Mythology
+mythological figures
+Temple
+Twelve Olympians
+Underworld
+Sacred places
+Eleusis
+Delphi
+Delos
+Dodona
+Mount Olympus
+Olympia
+Structures
+Athenian Treasury
+Lion Gate
+Long Walls
+Philippeion
+Theatre of Dionysus
+Tunnel of Eupalinos
+Temples
+Aphaea
+Artemis
+Athena Nike
+Erechtheion
+Hephaestus
+Hera (Olympia)
+Parthenon
+Samothrace
+Zeus (Olympia)
+Language
+Proto-Greek
+Mycenaean
+Homeric
+Dialects
+Aeolic
+Arcadocypriot
+Attic
+Doric
+Ionic
+Locrian
+Macedonian
+Pamphylian
+Koine
+Writing
+Linear A
+Linear B
+Cypriot syllabary
+Greek alphabet
+Greek numerals
+Attic numerals
+ 
+Lists
+Cities
+in Epirus
+People
+Place names
+Stoae
+Temples
+Theatres
+Category
+Portal
+Authority control
+WorldCat Identities
+VIAF: 20962036
+LCCN: n79072756
+ISNI: 0000 0001 2123 391X
+GND: 118503987
+SELIBR: 174752
+SUDOC: 026690268
+BNF: cb118890862 (data)
+MusicBrainz: 35d7ff1f-0e89-44f5-9301-0060ce0aab46
+NLA: 35007989
+NDL: 00431693
+NKC: jn19981000139
+ICCU: IT\ICCU\CFIV\018870
+BNE: XX910946
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Aristophanes&oldid=768115993"
+Categories: AristophanesAncient Greek dramatists and playwrightsAncient Greek satiristsAncient AtheniansOld Comic poets5th-century BC Greek people4th-century BC Greek people5th-century BC writers4th-century BC writersGreek anti-war activistsWriters of lost works440s BC births380s BC deathsHidden categories: Articles containing Ancient Greek-language textUse dmy dates from June 2013Articles with hCardsArticles containing Latin-language textCS1 maint: Uses editors parameterArticles with Project Gutenberg linksArticles with Internet Archive linksArticles with LibriVox linksWikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with SELIBR identifiersWikipedia articles with BNF identifiersWikipedia articles with MusicBrainz identifiersWikipedia articles with NLA identifiersWikipedia articles with SBN identifiers
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+Article
+Talk
+Variants
+Views
+Read
+Edit
+View history
+More
+Search
+Navigation
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+Interaction
+HelpAbout WikipediaCommunity portalRecent changesContact page
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page
+Print/export
+Create a bookDownload as PDFPrintable version
+In other projects
+Wikimedia CommonsWikiquoteWikisource
+Languages
+AfrikaansAlemannischالعربيةAragonésAsturianuAzərbaycancaBân-lâm-gúБашҡортсаБеларускаяБеларуская (тарашкевіца)‎БългарскиBosanskiBrezhonegCatalàČeštinaCymraegDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisFryskGalego한국어Հայերենहिन्दीHrvatskiIdoBahasa IndonesiaInterlinguaÍslenskaItalianoעבריתಕನ್ನಡქართულიҚазақшаKurdîКыргызчаLatinaLatviešuLietuviųLimburgsMagyarМакедонскиMalagasyമലയാളംNederlandsनेपाल भाषा日本語Norsk bokmålNorsk nynorskOʻzbekcha/ўзбекчаਪੰਜਾਬੀپنجابیPolskiPortuguêsRomânăРусскийScotsShqipSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaTagalogதமிழ்ไทยTürkçeУкраїнськаاردوTiếng ViệtVõroWinaray粵語Zazaki中文
+Edit links
+This page was last modified on 1 March 2017, at 22:00.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view

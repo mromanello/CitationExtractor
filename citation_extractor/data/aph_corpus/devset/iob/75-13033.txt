@@ -1,0 +1,15 @@
+Zur	APPRART
+Gestaltung	NN
+der	ART
+korinthischen	ADJA
+Kapitelle	NN
+des	ART
+im	APPRART
+Jahr	NN
+2000	CARD
+entdeckten	ADJA
+Apsidengebäudes	NN
+am	APPRART
+Forum	NN
+.	$.
+

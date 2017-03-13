@@ -1,0 +1,16 @@
+Panorama	NOM
+sull'	PRE:det
+evoluzione	NOM
+territoriale	ADJ
+,	PON
+politica	ADJ
+e	CON
+sociale	ADJ
+della	PRE:det
+città	NOM
+fino	CON
+al	PRE:det
+2°	NOM
+sec.	NOM
+d.	NOM
+C.	NPR

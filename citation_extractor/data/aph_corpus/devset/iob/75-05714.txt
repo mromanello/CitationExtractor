@@ -1,0 +1,27 @@
+Le	DET:def
+spiegazioni	NOM
+date	VER:pper
+finora	ADV
+del	PRE:det
+numero	NOM
+presente	ADJ
+nella	PRE:det
+pericope	NOM
+evangelica	ADJ
+non	ADV
+sono	VER:pres
+soddisfacenti	ADJ
+,	PON
+anche	ADV
+se	CON
+è	VER:pres
+chiaro	ADJ
+che	PRO:rela
+in	PRE
+esso	PRO:pers
+è	VER:pres
+racchiuso	VER:pper
+un	DET:indef
+significato	NOM
+simbolico	ADJ
+

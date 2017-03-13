@@ -1,0 +1,34 @@
+Défauts	NOM
+de	PRP
+la	DET:ART
+solution	NOM
+«	PUN:cit
+officialisée	VER:pper
+»	PUN:cit
+des	PRP:det
+quatre	NUM
+colonnes	NOM
+ioniques	ADJ
+.	SENT
+
+Interprétations	NOM
+proposées	VER:pper
+pour	PRP
+les	DET:ART
+éléments	NOM
+du	PRP:det
+dallage	NOM
+qui	PRO:REL
+ont	VER:pres
+conduit	VER:pper
+à	PRP
+cette	PRO:DEM
+restitution	NOM
+erronée	ADJ
+.	SENT
+
+Pour	PRP
+4	NUM
+=>	ABR
+75-12639	NUM
+

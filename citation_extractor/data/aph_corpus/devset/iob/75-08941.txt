@@ -1,0 +1,10 @@
+Analisi	NOM
+di	PRE
+questa	PRO:demo
+tipologia	NOM
+,	PON
+ricorrente	NOM
+in	PRE
+numerosi	ADJ
+ipogei	NOM
+

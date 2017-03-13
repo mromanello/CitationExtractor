@@ -1,0 +1,21 @@
+Il	DET:def
+concetto	NOM
+di	PRE
+«	PON
+eunomia	NOM
+»	PON
+dalle	PRE:det
+origini	NOM
+omeriche	ADJ
+ed	CON
+esiodee	ADJ
+fino	CON
+ad	PRE
+Aristotele	NPR
+attraverso	PRE
+Alcmane	NOM
+,	PON
+Tirteo	NOM
+e	CON
+Solone	NOM
+

@@ -1,0 +1,22 @@
+In	PRE
+questo	PRO:demo
+carme	NOM
+Paolino	NOM
+combina	VER:pres
+l'	DET:def
+omiletica	NOM
+con	PRE
+l'	DET:def
+epillio	NOM
+e	CON
+con	PRE
+spunti	NOM
+tratti	VER:cpre
+da	PRE
+altri	PRO:indef
+generi	NOM
+sia	CON
+pagani	NOM
+sia	CON
+cristiani	NOM
+

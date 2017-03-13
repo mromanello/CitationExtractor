@@ -1,0 +1,11 @@
+Complément	NOM
+à	PRP
+la	DET:ART
+nécrologie	NOM
+notée	VER:pper
+75-00000	NUM
+,	PUN
+avec	PRP
+bibliographie	NOM
+complète	ADJ
+

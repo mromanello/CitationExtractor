@@ -1,0 +1,11 @@
+Auch	ADV
+anhand	APPR
+von	APPR
+Beispielen	NN
+aus	APPR
+dem	ART
+Lateinischen	NN
+und	KON
+Griechischen	NN
+.	$.
+

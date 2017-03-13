@@ -1,0 +1,20 @@
+Étude	NOM
+prenant	VER:ppre
+comme	ADV
+point	ADV
+de	PRP
+départ	NOM
+le	DET:ART
+livre	NOM
+récent	ADJ
+de	PRP
+M.	NOM
+Khanoussi	NAM
+et	KON
+L.	NAM
+Maurin	NAM
+(	PUN
+=>	ABR
+74-11144	NUM
+)	PUN
+

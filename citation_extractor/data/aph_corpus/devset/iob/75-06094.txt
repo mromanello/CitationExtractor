@@ -1,0 +1,26 @@
+In	PRE
+entrambi	ADJ
+i	DET:def
+due	ADJ
+libri	NOM
+di	PRE
+Tibullo	NOM
+,	PON
+le	DET:def
+elegie	NOM
+centrali	ADJ
+sono	VER:pres
+caratterizzate	VER:pper
+dal	PRE:det
+tema	NOM
+della	PRE:det
+nemesi	NOM
+,	PON
+fondamentale	ADJ
+nella	PRE:det
+concezione	NOM
+tibulliana	ADJ
+dell'	PRE:det
+eros	NOM
+elegiaco	ADJ
+

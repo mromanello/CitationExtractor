@@ -1,0 +1,30 @@
+Es	PPER
+gibt	VVFIN
+in	APPR
+Umm	ADJA
+Qês	NN
+(	$(
+Gadara	NE
+)	$(
+eine	ART
+weitere	ADJA
+Ausfertigung	NN
+der	ART
+vermutlich	ADV
+aus	APPR
+Beirut	NE
+stammenden	ADJA
+,	$,
+in	APPR
+=>	ADJA
+74-10805	CARD
+besprochenen	ADJA
+Inschrift	NN
+.	$.
+
+S.	ADV
+auch	ADV
+=>	NN
+75-09001	CARD
+.	$.
+

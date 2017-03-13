@@ -1,0 +1,21 @@
+In	APPR
+Ergänzung	NN
+zu	APPR
+den	ART
+Studien	NN
+von	APPR
+G.	NE
+Highet	NE
+(	$(
+=>	ADJA
+APh	NN
+45	CARD
+,	$,
+S.	NE
+99	CARD
+und	KON
+=>	ADJD
+47-01297	CARD
+)	$(
+.	$.
+

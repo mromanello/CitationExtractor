@@ -1,0 +1,5 @@
+T1	AWORK 41 61	« Gospel of Thomas »
+T2	REFAUWORK 230 235	(POxy
+T3	REFSCOPE 236 248	1, 654, 655)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes T1	urn:cts:cwkb:883.2382

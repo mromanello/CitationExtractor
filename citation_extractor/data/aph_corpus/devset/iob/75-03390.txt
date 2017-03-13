@@ -1,0 +1,22 @@
+Nell'	PRE:det
+esegesi	NOM
+del	PRE:det
+cap.	ABR
+52	NUM
+del	PRE:det
+commentario	NOM
+si	PRO:refl
+individuano	VER:pres
+i	DET:def
+rapporti	NOM
+con	PRE
+le	DET:def
+probabili	ADJ
+fonti	NOM
+patristiche	ADJ
+dell'	PRE:det
+interpretazione	NOM
+del	PRE:det
+passo	ADJ
+matteano	NOM
+

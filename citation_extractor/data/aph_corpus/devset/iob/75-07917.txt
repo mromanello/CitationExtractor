@@ -1,0 +1,24 @@
+Die	ART
+Grabsteine	NN
+haben	VAFIN
+über	APPR
+längere	ADJA
+Zeit	NN
+denselben	PDAT
+Grundtypus	NN
+,	$,
+nämlich	ADV
+die	ART
+architektonische	ADJA
+Rahmung	NN
+der	ART
+Stelen	NN
+als	KOKOM
+Aedicula	NN
+,	$,
+verwenden	VVFIN
+aber	ADV
+vielfältige	ADJA
+dekorative	ADJA
+Elemente	NN
+

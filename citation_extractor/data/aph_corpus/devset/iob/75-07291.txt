@@ -1,0 +1,25 @@
+Esame	NOM
+contrastivo	ADJ
+della	PRE:det
+lessicografia	NOM
+scolastica	ADJ
+latina	ADJ
+in	PRE
+Italia	NPR
+nel	PRE:det
+19°	NOM
+s.	NOM
+alla	PRE:det
+luce	NOM
+del	PRE:det
+dizionario	NOM
+di	PRE
+Della	NOM
+Noce	NOM
+,	PON
+edito	ADJ
+a	PRE
+Torino	NPR
+nel	PRE:det
+1856	NUM
+

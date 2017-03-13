@@ -1,0 +1,21 @@
+Zu	APPR
+Text	NN
+,	$,
+Verständnis	NN
+und	KON
+sprachlichen	ADJA
+Besonderheiten	NN
+von	APPR
+CLE	NE
+62	CARD
+,	$,
+152	CARD
+und	KON
+362	CARD
+(	$(
+zu	APPR
+2	CARD
+=>	NN
+73-01284	CARD
+)	$(
+

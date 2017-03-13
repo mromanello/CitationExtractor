@@ -1,0 +1,185 @@
+Lukrez – Wikipedia
+Lukrez
+aus Wikipedia, der freien Enzyklopädie
+Wechseln zu:					Navigation, 					Suche
+Lucretius ist eine Weiterleitung auf diesen Artikel. Weitere Bedeutungen sind unter Lucretius (Begriffsklärung) aufgeführt.
+Titus Lucretius Carus (deutsch Lukrez; * vermutlich zwischen 99 und 94 v. Chr.; † vermutlich um 55 oder 53 v. Chr.) war ein römischer Dichter und Philosoph in der Tradition des Epikureismus. Sein wahrscheinlich unvollendetes Werk De rerum natura (Über die Natur der Dinge) ist eine der Hauptquellen zur Philosophie Epikurs, die ansonsten nur in Fragmenten überliefert ist.
+Inhaltsverzeichnis
+1 Leben
+2 Werk
+3 Philosophie
+4 Literaturgeschichtliche Bedeutung
+5 Rezeption
+6 Ausgaben und Übersetzungen
+7 Literatur
+8 Weblinks
+9 Anmerkungen
+Leben[Bearbeiten | Quelltext bearbeiten]
+Über das Leben des Lukrez ist so gut wie nichts bekannt. Die spärlichen Angaben stammen großteils aus späten Quellen und sind widersprüchlich und zum Teil wenig glaubwürdig. Lukrez’ Herkunft und soziale Stellung sind nicht gesichert; Vermutungen, die von seinem Cognomen Carus auf eine niedrige Herkunft schließen, sind ebenso wenig zu belegen wie die Annahme, Lukrez habe der Nobilität angehört. Zumindest deutet sein Werk darauf hin, dass er über eine hohe Bildung verfügte.[1]
+Lukrez’ Lebensdaten müssen erschlossen werden: Hieronymus erwähnt in seiner Chronik dessen Geburt; jedoch überliefern die erhaltenen mittelalterlichen Handschriften dieses Ereignis teils für das Jahr 96, teils für 94 oder 93. Auch sein Todesjahr ist ungewiss. Nach Hieronymus starb Lukrez mit vierundvierzig Jahren, womit die Jahre 53/52, 51/50 und 50/49 in Betracht kommen. Allerdings überliefert der spätantike Grammatiker Aelius Donatus, dass Lukrez am selben Tag verstorben sei, an dem Vergil mit siebzehn Jahren die Männertoga (toga virilis) angelegt habe, nämlich am 15. Oktober 53.[2] Diese vermutlich auf Suetons nur fragmentarisch erhaltenes Werk De viris illustribus zurückgehende Angabe ist fragwürdig; zudem datiert Donatus Vergils siebzehnten Geburtstag falsch, indem er die beiden Konsuln des Jahres 55 nennt. Die einzige sichere und zugleich früheste Angabe bietet ein Brief Ciceros an seinen Bruder Quintus vom 10. oder 11. Februar 54. Darin meint er, Lukrez’ Werk enthalte zahlreiche geniale Glanzstücke und sei mit großer Kunstfertigkeit verfasst.[3] Wahrscheinlich handelt es sich dabei um eine Äußerung nach dem Tod des Lukrez. Man nimmt daher an, dass Lukrez zwischen 99 und 94 geboren wurde und Mitte der fünfziger Jahre, vielleicht 55 oder 53, verstarb.[4]
+Hieronymus überliefert zudem die legendenhafte Geschichte, dass Lukrez nach der Einnahme eines Liebestranks wahnsinnig geworden sei und schließlich Selbstmord begangen habe. In lichten Momenten (per intervalla insaniae) habe er sein Lehrgedicht verfasst. Dieser Bericht, der vermutlich auf einer im 4. Jahrhundert entstandenen Legende fußt, wurde in der Forschung sehr unterschiedlich beurteilt.[5] Manche Gelehrte hielten die Nachricht von Lukrez’ Geisteskrankheit für glaubhaft und meinten, diese Hypothese durch Passagen seines Werkes stützen und daraus auf die Persönlichkeit des Dichters schließen oder umgekehrt Ungereimtheiten und Brüche im Werk vor dem Hintergrund seiner angeblichen geistigen Verwirrung erklären zu können.
+Die neuere Forschung steht diesem ausschließlich bei Hieronymus überlieferten Zeugnis kritisch gegenüber.[6] Teils wird vermutet, dass sich die Stelle ursprünglich auf Lucullus bezogen habe, der am Ende seines Lebens geistig verwirrt gewesen sein soll;[7] in der Textüberlieferung seien die beiden Namen verwechselt worden. Teils sieht man in der Stelle einen Widerhall eines Gedichts von Statius, der Lukrez Leidenschaftlichkeit (furor arduus) zuschreibt.[8] Andere Forscher beziehen die Passage auf eine polemische Äußerung des Kirchenschriftstellers Lactantius; darin wendet er sich gegen die Lehre Epikurs, auf der all das beruhe, was Lukrez „zusammenspinnt“ (delirat).[9] Außerdem nimmt man an, dass sich die Erzählung vom Liebestrank aus dem Schlussteil des vierten Buchs von De rerum natura herleitet; darin spottet Lukrez über die Liebe und die Verrücktheiten des Verliebten.[10] Die Mehrheit der modernen Forschung hält Lukrez’ angeblichen Wahnsinn daher für eine christliche Legende, die bewusst in Umlauf gebracht wurde und ihn in Verruf bringen sollte.[11]
+Außerdem behauptet Hieronymus, Cicero habe später Lukrez’ Schrift herausgegeben (emendavit). In der Forschung ist diese Nachricht äußerst umstritten. Ciceros Herausgebertätigkeit wird prinzipiell für möglich, jedoch nicht nachweisbar gehalten; auch bleibt unklar, in welcher Form Cicero den Text herausgegeben haben soll und ob er in den Text verbessernd eingriff.[12] Jedenfalls wird Lukrez in Ciceros philosophischen Schriften nie erwähnt oder benutzt, zumal Cicero dem Epikureismus negativ gegenüberstand. Jedoch lässt sich diese Frage aufgrund der Quellensituation nicht abschließend beantworten.
+Werk[Bearbeiten | Quelltext bearbeiten]
+Lukrez hat sein Werk möglicherweise nicht vollendet. Dies lässt vor allem De rerum natura 5,155 vermuten: Lukrez kündigt hier eine lange Abhandlung (largus sermo) über das Wesen der Götter an, die aber nicht zur Ausführung gelangt. Entweder ist Lukrez nicht mehr dazu gekommen, diese Abhandlung zu verfassen, oder er hat diese Absicht fallen gelassen und ist verstorben, bevor er den Vers tilgen konnte (die Mehrheit der Forscher neigt der zweiten Möglichkeit zu).
+De rerum natura besteht aus sechs Büchern mit insgesamt ca. 7800 Versen. Deutlich abgegrenzt sind jeweils die Einleitungen („Prooemien“) und die Schlusspartien („Finalia“) der einzelnen Bücher. Festzustellen ist auch, dass sich die Bücher 1 und 2, 3 und 4 sowie 5 und 6 jeweils paarweise zu thematischen Einheiten zusammenfassen lassen. Die Bücher 1 und 2 behandeln die Grundlagen der epikureischen Naturphilosophie (Aufbau der Welt aus Atomen, Bewegung der Atome, Unendliche Vielzahl von Welten, Vergänglichkeit der Welt), die ihrerseits teilweise auf der Naturphilosophie Demokrits beruht. Die Bücher 3 und 4 wenden sich der Physiologie und Psychologie des Menschen zu. Buch 3 behandelt ausführlich die Sterblichkeit der Seele, für die Lukrez 28 Beweise präsentiert. Buch 4 befasst sich mit der Sinneswahrnehmung und im Finale auch mit Sexualität und Liebe. Um nicht dem Liebeskummer zu verfallen, empfiehlt Lukrez seinen Lesern dort den Bordellbesuch. Die Bücher 5 und 6 sind naturwissenschaftlichen Phänomenen gewidmet, wozu für Lukrez (im Finale des fünften Buches) auch die Kulturgeschichte gehört. Das Werk endet mit einer Beschreibung der Pest von Athen in den Jahren 430 bis 428. Die Ethik, die nach Epikur wichtigste philosophische Disziplin, wird zwar nicht eigens behandelt. Freilich finden sich immer wieder einzelne Bemerkungen über den Text verstreut (besonders in Prooemium zu Buch 2), die den Leser einladen, über seine Lebensführung nachzudenken und diese gegebenenfalls zu ändern.
+Philosophie[Bearbeiten | Quelltext bearbeiten]
+Lukrez war ein Vertreter der Atomistik. Er berief sich vor allem auf die Lehre von Epikur. Sein Lehrer war wahrscheinlich Philodemos.
+Lukrez war überzeugt, dass die Seele sterblich sei (wofür er 28 „Beweise“ vorbrachte[13]) und dass es den Göttern nicht möglich sei, sich in das Leben der Menschen einzumischen. Seine Philosophie sollte dem Menschen Gemütsruhe und Gelassenheit geben und ihm die Furcht vor dem Tode und den Göttern nehmen. Lukrez nimmt, im Gegensatz zu Epikur, Anteil an den gesellschaftlichen Ereignissen seiner Zeit, verurteilt den sittlichen Verfall des Adels, klagt den Krieg und seine Schrecken an.
+Literaturgeschichtliche Bedeutung[Bearbeiten | Quelltext bearbeiten]
+Lukrez und Cicero waren Pioniere der „philosophischen Schriftstellerei“ in lateinischer Sprache. Sie mussten daher oft erst ein geeignetes Vokabular prägen (Lukrez spricht von der Dürftigkeit der Muttersprache patrii sermonis egestas) und um Unabhängigkeit von der griechischen Sprache und Literatur ringen.
+Die Wahl der Form des „Lehrgedichts“ (in Hexametern) unterscheidet Lukrez von Cicero. Für diese Gattung der lateinischen Literatur kommt Lukrez Pionierrang zu: Zwar scheint es vor Lukrez Versuche gegeben zu haben, lateinische Lehrgedichte zu verfassen, doch waren diese nach Ciceros Urteil ungenießbar. Unter diesen Voraussetzungen ist verständlich, dass Lukrez' Verse nicht die Eleganz der späteren lateinischen Hexameter-Dichtung (insbesondere Vergil, Ovid) erreichen.
+Als Epikureer hielt Lukrez sich von der Politik seiner Zeit fern. Es wird gern als „Wagnis seiner Dichtung“ bezeichnet, dass er Epikurs Lehre, zumal dessen Physik, in einem Gedicht zu verkünden suchte (s. o.) – obwohl Epikur selbst sagte, dass ein Epikureer nicht dichte bzw. nicht dichten solle, doch diese Aussage bezog sich möglicherweise eher auf den „Stoff“ des Mythos (fabulae) und nicht so sehr auf die „Form“ eines Gedichtes an sich. Da Lukrez nun eine Wahrheit, eine Lehre, eigentlich gar eine (epikureische) Heilslehre verkündet, durfte er dies trotz der Aussage seines Lehrers Epikur dichterisch tun. Frühere Versuche philosophischer Dichtung anderer Autoren scheiterten v. a. an ästhetisch-stilistischen Problemen (vgl. Cic. Ac. II,5,6 und Tusc. I,6; II,7 u. IV,6f.).
+Die lukrezische Sprache wird von ihm selbst als eine daedala lingua bezeichnet, als eine erfinderische und künstlerische Sprache. Er stellt die kreative Fähigkeit seiner Sprache neben den mythischen Erfinder (Labyrinth des Minotaurus) und Künstler Dädalus.[14]
+Lukrez will Lehrer sein, und zwar als erklärter Jünger Epikurs (vgl. die Außenproömien [Einleitungen der Bücherpaare] mit ihren Hymnen auf Epikur). Ziel ist, den Menschen durch Erkenntnis vom Aberglauben zu befreien. Er will sich in einer chaotischen Zeit fernhalten von der Sinn- und Wertlosigkeit, nicht zuletzt durch den Hinweis auf die Natürlichkeit und Vergänglichkeit aller Dinge – auch der vermeintlich göttlichen.
+Rezeption[Bearbeiten | Quelltext bearbeiten]
+Grabrelief (1571) mit Lukrez-Zitat: „VITAQUE MANCIPIO NULLI DATUR OMNIBUS USU“,[15] Burg Reichenstein/Oberösterreich
+Lukrez gilt als der Archeget des lateinischen Lehrgedichts. Sein Einfluss ist nicht auf die weitere römische Lehrdichtung (z. B. Vergils Georgica, Ovids Ars Amatoria, Manilius’ Astronomica, das anonyme Aetna-Gedicht) beschränkt, sondern wirkt über Vergils Aeneis auf das gesamte lateinische Epos ab der augusteischen Zeit.
+Da die von Lukrez propagierten Lehren der epikureischen Philosophie (Verneinung göttlicher Vorsehung und göttlichen Eingreifens ins Weltgeschehen, Endlichkeit der Welt, Sterblichkeit der Seele) mit der christlichen Religion unvereinbar sind, setzt in der Spätantike ab Arnobius eine scharfe Distanzierung von Lukrez ein. Gleichzeitig wird (z. B. von Laktanz) Lukrez als rationalistischer Zeuge für die Albernheit des heidnischen Götterkults herangezogen. Die Häufigkeit der Lukrez-Zitate bei den christlichen Schriftstellern zeigt außerdem, dass diese die literarische Qualität von De rerum natura sehr wohl anerkannten.
+Die erste Seite der Lukrez-Ausgabe von Tanaquil Faber (1675)
+Im Mittelalter war Lukrez in nahezu völlige Vergessenheit geraten, bis der Humanist Poggio Bracciolini 1417 in einem nicht näher benannten deutschen Kloster die womöglich letzte erhaltene Abschrift von De rerum natura entdeckte.[16] Nach dem Erscheinen der ersten gedruckten Lukrez-Ausgabe im Jahre 1473 setzte in der Renaissance eine rege Rezeption ein, in der Dichter lukrezische Themen in lateinischen Lehrgedichten behandeln (z. B. Aonio Paleario (hingerichtet 1570) De Animorum Immortalitate (1536), Scipione Capece (1480–1551) De Principiis Rerum (1546), Daniel Heinsius De Contemptu Mortis (1621)). Hochkonjunktur hatte die Produktion von lateinischen Lehrgedichten mit lukrezischen Themen auch im 18. Jahrhundert. Kardinal Melchior de Polignac dichtete einen Anti-Lucretius sive De Deo et Natura („Anti-Lukrez oder Über Gott und die Natur“), den Goethe sehr schätzte, und Bernardo Zamagna schrieb ein Lehrgedicht mit dem Titel De Nave Aeria („Das Luftschiff“) über die Montgolfière.
+Auf Lukrez beriefen sich insbesondere die materialistischen Philosophen späterer Zeiten, so etwa de la Mettrie in der Mitte des 18. Jahrhunderts. Denis Diderot setzte in seiner Zur Interpretation der Natur (1754) einen einführenden Satz aus De rerum natura von Titus Lucretius Carus an den Anfang. Karl Marx, Mitbegründer des marxistischen Sozialismus, verfasste 1841 seine Dissertation zum Thema „Differenz der demokritischen und epikureischen Naturphilosophie“, worin er auf Lukrez Bezug nimmt. Auch Michel de Montaigne las ausgiebig in De rerum natura und markierte in der in seinem Besitz befindlichen Ausgabe viele Passagen und fügte Randbemerkungen an. In seinen Essays finden sich viele Zitate aus dem Werk Lukrez' oder er nahm auf dieses Bezug.
+In seiner Wahrnehmungstheorie prägte Lukrez den für die postmoderne Philosophie einflussreichen Begriff des Simulakrums.
+Erst im 19. Jahrhundert erschien, angeregt von Goethe, die erste deutsche Lukrez-Übersetzung durch den Freiherrn von Knebel. Fasziniert von Lukrez war auch Albert Einstein, der zu der Lukrez-Übersetzung von Hermann Diels ein Vorwort beisteuerte.
+Unter den einzelnen Passagen von De rerum natura dürfte das Ende des Werks am intensivsten rezipiert worden sein. Die dort gegebene Beschreibung der Pest in Athen zu Beginn des Peloponnesischen Krieges, die ihrerseits eng an die des Thukydides (2,47–53) angelehnt ist, wird ebenso von Vergil, Ovid, Manilius, Seneca und anderen antiken Autoren imitiert wie von Autoren der Neuzeit (z. B. im Lehrgedicht Syphilis des Girolamo Fracastoro oder in Albert Camus’ La peste) rezipiert.
+Ausgaben und Übersetzungen[Bearbeiten | Quelltext bearbeiten]
+Gesamtausgaben
+Titi Lucreti Cari De rerum natura libri sex. Hrsg. und übers. von Cyril Bailey. 3 Bände, Clarendon Press, Oxford 1947 (kritische Ausgabe mit englischer Übersetzung und Kommentar; zahlreiche Nachdrucke)
+Band 1: Vorwort, Text, kritischer Apparat und Übersetzung.
+Band 2: Kommentar Bücher 1–3.
+Band 3: Kommentar Bücher 4–6, Addenda, Indices und Bibliographie.
+T. Lucreti Cari De rerum natura libri sex. Hrsg. Conrad Müller. Rohr, Zürich 1975.
+T. Lucreti Cari De rerum natura libri sex. Hrsg. Josef Martin. Teubner, Leipzig 1953 (zahlreiche Nachdrucke).
+Titus Lucretius Carus: Welt aus Atomen. Lateinisch und deutsch. Textgestaltung, Einl. und Übers. von Karl Büchner. Zürich: Artemis 1956. (Die Bibliothek der Alten Welt. Römische Reihe). - Überarb. Neuausg.: Stuttgart: Reclam 1973 (Universal-Bibliothek; 4257) ISBN 3-15-004257-7 (zahlreiche Nachdrucke).
+Titus Lucretius Carus: Von der Natur. Hrsg. und übers. von Hermann Diels, mit einer Einführung und Erläuterungen von Ernst Günther Schmidt. Artemis & Winkler, München 1993, ISBN 3-7608-1564-2.
+Titus Lucretius Carus: Über die Natur der Dinge. Lateinisch und deutsch (= Schriften und Quellen der Alten Welt 32). Hrsg. und übers. von Josef Martin. Akademie-Verlag, Berlin 1972.
+Titus Lucretius Carus: Vom Wesen des Weltalls. Übers. von Dietrich Ebener. Leipzig: Reclam 1989. (Reclams Universal-Bibliothek. 1292) ISBN 3-379-00434-0. - Neuausg.: Berlin: Aufbau 1994 (Bibliothek der Antike. Römische Reihe) ISBN 3-351-02279-4
+Lukrez: Über die Natur der Dinge. Neu übersetzt und reich kommentiert von Klaus Binder. Mit einem Vorwort von Stephen Greenblatt. Berlin: Galiani 2014. ISBN 978-3-86971-095-2
+Lucretius, On the nature of things. Translated, with introduction and notes, by Martin Ferguson Smith. Hackett Publishing Company, Indianapolis / Cambridge 1969, revised edition 2001, (Auszüge online). – Rez. von: Robert Todd, Bryn Mawr Classical Review 2002.02.08
+Lucretius, De rerum natura. With an English Translation by W. H. D. Rouse (zuerst 1924). Revised by Martin Ferguson Smith. Harvard University Press, Cambridge, Ma., London 1975, second edition 1982, reprinted with revisions 1992 (Loeb Classical Library 181).
+Teilausgaben und Kommentare
+Titus Lucretius Carus: De rerum natura I. Hrsg. P. Michael Brown, Bristol Classical Press, Bristol 1984, ISBN 0-86292-076-0 (mit englischer Einleitung und Kommentar).
+Titus Lucretius Carus: Lucretius on atomic motion. A commentary on De rerum natura book two, lines 1–332. Hrsg. Don Paul Fowler, postum hg. v. Peta Fowler, Oxford: Oxford University Press 2002, ISBN 0-19-924358-1 (Kommentar)
+Titus Lucretius Carus: De rerum natura III. Hrsg. und übers. von P. Michael Brown, Aris & Phillips, Warminster/Wiltshire 1997, ISBN 0-85668-695-6 (mit englischer Übersetzung und Kommentar).
+Titus Lucretius Carus: De rerum natura. Book III. Hrsg. Edward J. Kenney, Cambridge University Press, Cambridge 1971, ISBN 0-521-08142-4 (mit englischem Kommentar).
+Titus Lucretius Carus: De rerum natura IV. Hrsg. und übers. von John Godwin, Aris & Phillips, Warminster/Wiltshire 1986, ISBN 0-85668-308-6 (mit englischer Übersetzung und Kommentar).
+Titus Lucretius Carus: Lucretius on love and sex. A commentary on De rerum natura IV, 1030–1287. Hrsg. und übers. von Robert D. Brown, Brill, Leiden 1987, ISBN 90-04-08512-2 (kritische Ausgabe mit englischer Übersetzung und Kommentar).
+Titus Lucretius Carus: De rerum natura V. Hrsg. C. D. N. Costa, Oxford University Press, Oxford 1984, ISBN 0-19-814457-1 (mit englischem Kommentar).
+Titus Lucretius Carus: De rerum natura VI. Hrsg. und übers. von John Godwin, Aris & Phillips, Warminster/Wiltshire 1991, ISBN 0-85668-500-3 (mit englischer Übersetzung und Kommentar).
+Literatur[Bearbeiten | Quelltext bearbeiten]
+Übersichtsdarstellungen
+Michael von Albrecht: Geschichte der römischen Literatur von Andronicus bis Boethius und ihr Fortwirken. Band 1. 3., verbesserte und erweiterte Auflage. De Gruyter, Berlin 2012, ISBN 978-3-11-026525-5, S. 240–272
+Marcus Deufert: Lucretius. In: Reallexikon für Antike und Christentum. Band 23, Hiersemann, Stuttgart 2010, ISBN 978-3-7772-1013-1, Sp. 603–620
+Michael Erler: Die hellenistische Philosophie (= Grundriss der Geschichte der Philosophie. Die Philosophie der Antike, Bd. 4/1). Schwabe, Basel 1994, ISBN 3-7965-0930-4, S. 381–490
+José Kany-Turpin: Lucretius Carus (T.). In: Richard Goulet (Hrsg.): Dictionnaire des philosophes antiques. Band 4, CNRS Éditions, Paris 2005, ISBN 2-271-06386-8, S. 174–191
+Untersuchungen
+Carl Joachim Classen (Hrsg.): Probleme der Lukrezforschung. Olms, Hildesheim/ Zürich/ New York 1986, ISBN 3-487-07660-8.
+Diskin Clay: Lucretius and Epicurus. Cornell University Press, Ithaca (New York) 1983, ISBN 0-8014-1559-4.
+Donald Reynolds Dudley (Hrsg.): Lucretius. 2. Auflage. Routledge & Kegan Paul, London 1967.
+Baldur Gabriel: Bild und Lehre. Studien zum Lehrgedicht des Lukrez. Frankfurt 1970.
+Monica R. Gale (Hrsg.): Lucretius. Oxford University Press, Oxford 2007, ISBN 0-19-926034-6.
+James H. Nichols: Epicurean Political Philosophy. The De rerum natura of Lucretius. Cornell University Press, Ithaca (New York) 1976, ISBN 0-8014-0993-4.
+Petrus H. Schrijvers: Horror ac divina voluptas. Études sur la poétique et la poésie de Lucrèce. Hakkert, Amsterdam 1970, ISBN 90-256-0991-0.
+Charles Segal: Lucretius on Death and Anxiety. Poetry and Philosophy in De Rerum Natura. Princeton University Press, Princeton (New Jersey) 1990, ISBN 0-691-06826-7.
+David West: The Imagery and Poetry of Lucretius. University Press, Edinburgh 1969.
+Rezeption
+Alison Brown: The Return of Lucretius to Renaissance Florence. In: I Tatti Studies in Italian Renaissance History. Harvard University Press, Harvard (Massachusetts) 2010, ISBN 978-0-674-05032-7.
+Stephen Greenblatt: The Swerve: How the World Became Modern. Norton, 2011, ISBN 978-0-393-06447-6; deutsch: Die Wende. Wie die Renaissance begann. Siedler, München 2012, ISBN 978-3-88680-848-9.
+Luciano Landolfi: Lukrez (Titus Lucretius Carus). De rerum natura. In: Christine Walde (Hrsg.): Die Rezeption der antiken Literatur. Kulturhistorisches Werklexikon (= Der Neue Pauly. Supplemente. Band 7). Metzler, Stuttgart/Weimar 2010, ISBN 978-3-476-02034-5, Sp. 475–508.
+David Norbrook u. a. (Hrsg.): Lucretius and the Early Modern. Oxford University Press, Oxford 2016, ISBN 978-0-19-871384-5
+Konkordanz
+Manfred Wacht: Concordantia in Lucretium (= Alpha – Omega. Reihe A 122). Olms-Weidmann, Hildesheim u. a. 1991, ISBN 3-487-09404-5.
+Bibliographien
+Alexander Dalzell: A Bibliography of Work on Lucretius, 1945–1972. In: The Classical World. Bd. 66, 1972/1973, S. 389–427 und The Classical World. Bd. 67, 1973/1974, S. 65–112.
+Cosmo Alexander Gordon: A Bibliography of Lucretius (= The Soho Bibliographies 12). Hart-Davis, London 1962 (nur Ausgaben und Übersetzungen)
+Petrus H. Schrijvers: Lucretius (Bibliographie). In: Lampadion. Bd. 7, 1966–1968, S. 5–32.
+Weblinks[Bearbeiten | Quelltext bearbeiten]
+  Wikiquote: Lukrez – Zitate
+ Commons: Lucretius – Sammlung von Bildern, Videos und Audiodateien
+ Wikisource: Lukrez – Quellen und Volltexte (Latein)
+ Wikisource: Lukrez – Quellen und Volltexte
+Literatur von und über Lukrez im Katalog der Deutschen Nationalbibliothek
+Werke von und über Lukrez in der Deutschen Digitalen Bibliothek
+Textausgaben
+Werk bei Bibliotheca Augustana (Originaltext)
+Werk bei Perseus Project (lateinisch und englisch)
+Werk bei Textlog.de (deutsche Übersetzung von Hermann Diels)
+Werk bei Zeno.org (deutsche Übersetzung)
+Werk bei Project Gutenberg (englische Übersetzung von William Ellery Leonard)
+Literatur
+David Sedley: Eintrag in Edward N. Zalta (Hrsg.): Stanford Encyclopedia of Philosophy.Vorlage:SEP/Wartung/Parameter 1 und Parameter 3 und nicht Parameter 2
+David Simpson: Eintrag in der Internet Encyclopedia of Philosophy.
+Annick Monet: Lucretius. Une bibliographie introductive au livre 3 du De rerum natura
+Reinhold F. Glei: Über Gott und die Welt. Kardinal Melchior de Polignacs lateinisches Lehrgedicht Anti-Lucretius
+Lukrez: De rerum natura. Das dritte Buch über die Sterblichkeit der Seele
+Reinhold F. Glei: Über Gott und die Welt. Kardinal Melchior de Polignacs lateinisches Lehrgedicht Anti-Lucretius auf www.ruhr-uni-bochum.de; abgerufen am 15. September 2015
+Essay
+Georg Diez: Die Methode Lukrez. in: Der Spiegel 19/2012, S. 108ff, mit Bezug zu: Stephen Greenblatt: Die Wende. Wie die Renaissance begann. München 2012
+Anmerkungen[Bearbeiten | Quelltext bearbeiten]
+↑ Erler (1994), S. 399f.
+↑ Donatus: Vita Vergilii 6.
+↑ Cicero: Ad Quintum fratrem 2,9,3.
+↑ Zur Diskussion der Lebensdaten siehe Erler (1994), S. 397f.
+↑ Zur Forschungsgeschichte siehe Erler (1994), S. 383–385.
+↑ Erler (1994), S. 398 mit einer knappen Übersicht über die Forschungsmeinungen.
+↑ Plutarch, Lucullus 43.
+↑ Statius: Silvae 2,7,76.
+↑ Lactantius: De opificio Dei 6,1.
+↑ Lukrez 4,1141–1191.
+↑ Siehe dazu Konrat Ziegler, Der Tod des Lucretius. In: Hermes 71, 1936, S. 421–440.
+↑ Erler (1994), S. 398f.
+↑ Nach Otto Danwerth in: Wulf Köpke; Bernd Schmelz (Hrsg.): Das Gemeinsame Haus Europa. Handbuch zur europäischen Kulturgeschichte. Frankfurt am Main 1999, S. 895–905. Der Wortlaut ist mit freundlicher Genehmigung des Autors veröffentlicht unter Tod und Jenseits in Europa, Ein kulturhistorischer Abriß von der Antike bis in die Gegenwart - parapluie.de
+↑ Bibel der Aufklärer. In: Jakob Moser. Abgerufen am 17. November 2016.
+↑ VITAQUE MANCIPIO NULLI DATUR OMNIBUS USU „Das Leben ist niemandem als Besitz, sondern allen nur zum Gebrauch gegeben.“ (De rerum natura III, 971)
+↑ Stephen Greenblatt: Die Wende. Wie die Renaissance begann. Siedler, München 2012, ISBN 978-3-88680-848-9.
+Normdaten (Person): GND: 118575236 (PICA, AKS) | LCCN: n79033010 | VIAF: 100197598 | Wikipedia-Personensuche
+Personendaten
+NAME
+Lukrez
+ALTERNATIVNAMEN
+Lucretius Carus, Titus
+KURZBESCHREIBUNG
+römischer Dichter und Philosoph
+GEBURTSDATUM
+um 99 v. Chr.
+STERBEDATUM
+um 55 v. Chr.
+Abgerufen von „https://de.wikipedia.org/w/index.php?title=Lukrez&oldid=159788114“
+Kategorien: Philosoph (Antike)Literatur (Latein)AutorAntike (Literatur)LucretierRömische PhilosophieRömerGeboren im 1. Jahrhundert v. Chr.Gestorben im 1. Jahrhundert v. Chr.Mann
+Navigationsmenü
+Meine Werkzeuge
+Nicht angemeldetDiskussionsseiteBeiträgeBenutzerkonto erstellenAnmelden
+Namensräume
+Artikel
+Diskussion
+Varianten
+Ansichten
+Lesen
+Bearbeiten
+Quelltext bearbeiten
+Versionsgeschichte
+Mehr
+Suche
+Navigation
+HauptseiteThemenportaleVon A bis ZZufälliger Artikel
+Mitmachen
+Artikel verbessernNeuen Artikel anlegenAutorenportalHilfeLetzte ÄnderungenKontaktSpenden
+Werkzeuge
+Links auf diese SeiteÄnderungen an verlinkten SeitenSpezialseitenPermanenter LinkSeiten­informationenWikidata-DatenobjektArtikel zitieren
+Drucken/­exportieren
+Buch erstellenAls PDF herunterladenDruckversion
+In anderen Projekten
+CommonsWikiquoteWikisource
+In anderen Sprachen
+AragonésالعربيةAzərbaycancaБеларускаяБългарскиবাংলাBrezhonegCatalàČeštinaDanskZazakiΕλληνικάEnglishEsperantoEspañolEestiEuskaraفارسیSuomiFrançaisFryskGalegoעבריתहिन्दीHrvatskiKreyòl ayisyenMagyarՀայերենBahasa IndonesiaIdoÍslenskaItaliano日本語Қазақша한국어КыргызчаLatinaLumbaartLietuviųLatviešuNederlandsNorsk bokmålOccitanPolskiPortuguêsRomânăРусскийSarduSicilianuScotsSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaSlovenščinaShqipСрпски / srpskiSvenskaTagalogTürkçeТатарча/tatarçaУкраїнськаTiếng Việt中文
+Links bearbeiten
+Diese Seite wurde zuletzt am 17. November 2016 um 22:05 Uhr geändert.
+Abrufstatistik
+Der Text ist unter der Lizenz „Creative Commons Attribution/Share Alike“ verfügbar; Informationen zu den Urhebern und zum Lizenzstatus eingebundener Mediendateien (etwa Bilder oder Videos) können im Regelfall durch Anklicken dieser abgerufen werden. Möglicherweise unterliegen die Inhalte jeweils zusätzlichen Bedingungen. Durch die Nutzung dieser Website erklären Sie sich mit den Nutzungsbedingungen und der Datenschutzrichtlinie einverstanden.
+Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.
+Datenschutz
+Über Wikipedia
+Impressum
+Entwickler
+Stellungnahme zu Cookies
+Mobile Ansicht

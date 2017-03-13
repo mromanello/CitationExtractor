@@ -1,0 +1,20 @@
+Notes	NOM
+sur	PRP
+le	DET:ART
+site	NOM
+au	PRP:det
+Bronze	NAM
+récent	ADJ
+et	KON
+aux	PRP:det
+époques	NOM
+archaïque	ADJ
+et	KON
+hellénistico-romaine	ADJ
+.	SENT
+
+Pour	PRP
+3	NUM
+=>	ABR
+75-07895	NUM
+

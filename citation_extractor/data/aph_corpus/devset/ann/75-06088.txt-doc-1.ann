@@ -1,0 +1,8 @@
+T1	REFAUWORK 76 82	(Eleg.
+T2	REFSCOPE 83 92	3, 13-18)
+T3	REFAUWORK 213 221	Heroides
+T4	REFSCOPE 222 224	4.
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:1096:3.13-3.18
+#1	AnnotatorNotes R2	urn:cts:cwkb:913:4

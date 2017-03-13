@@ -1,0 +1,25 @@
+Analisi	NOM
+della	PRE:det
+narrazione	NOM
+tucididea	NOM
+sugli	PRE:det
+eventi	NOM
+politici	ADJ
+a	PRE
+Samo	NOM
+nel	PRE:det
+412-411	NUM
+a.	NOM
+C.	NPR
+,	PON
+in	PRE
+cui	PRO:rela
+si	PRO:refl
+riflettono	VER:pres
+le	DET:def
+coeve	ADJ
+tensioni	NOM
+della	PRE:det
+società	NOM
+ateniese	ADJ
+

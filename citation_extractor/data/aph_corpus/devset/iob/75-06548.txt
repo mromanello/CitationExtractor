@@ -1,0 +1,26 @@
+Im	APPRART
+ersten	ADJA
+Buch	NN
+der	ART
+«	$(
+Argonautika	NN
+»	$(
+des	ART
+Apollonios	NE
+,	$,
+im	APPRART
+Artemis-Hymnos	NN
+des	ART
+Kallimachos	NN
+sowie	KON
+in	APPR
+Id	NE
+.	$.
+
+17	CARD
+und	KON
+24	CARD
+bei	APPR
+Theokrit	NN
+.	$.
+

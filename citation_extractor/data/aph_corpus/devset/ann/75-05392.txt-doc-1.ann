@@ -1,0 +1,7 @@
+T1	REFAUWORK 47 53	Daniel
+T2	REFSCOPE 54 55	7
+T3	REFSCOPE 56 62	und 11
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:482:7
+#1	AnnotatorNotes R2	urn:cts:cwkb:482:11

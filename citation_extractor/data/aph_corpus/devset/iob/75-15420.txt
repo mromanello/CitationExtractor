@@ -1,0 +1,13 @@
+La	DET:ART
+carrière	NOM
+de	PRP
+J.	ABR
+Poucet	NAM
+,	PUN
+spécialiste	NOM
+belge	ADJ
+de	PRP
+la	DET:ART
+Rome	NAM
+archaïque	ADJ
+

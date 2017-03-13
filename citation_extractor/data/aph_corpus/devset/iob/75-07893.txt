@@ -1,0 +1,31 @@
+Catalogue	NOM
+du	PRP:det
+matériel	NOM
+ramassé	VER:pper
+lors	ADV
+de	PRP
+la	DET:ART
+prospection	NOM
+notée	VER:pper
+75-07892	NUM
+.	SENT
+
+Aucun	PRO:IND
+fragment	NOM
+n'	ADV
+est	VER:pres
+antérieur	ADJ
+à	PRP
+l'	DET:ART
+époque	NOM
+hellénistique	ADJ
+et	KON
+les	DET:ART
+datations	NOM
+vont	VER:pres
+jusqu'	PRP
+à	PRP
+la	DET:ART
+période	NOM
+ottomane	ADJ
+

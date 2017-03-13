@@ -1,0 +1,13 @@
+In	PRE
+margine	NOM
+alla	PRE:det
+raccolta	NOM
+curata	VER:pper
+da	PRE
+I.	NPR
+Dionigi	NOM
+(	PON
+=>	NOM
+75-06414	NUM
+)	PON
+

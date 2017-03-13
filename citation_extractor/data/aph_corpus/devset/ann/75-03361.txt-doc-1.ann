@@ -1,0 +1,6 @@
+T1	AWORK 63 79	« Argonautiche »
+T2	REFAUWORK 95 104	Nonno, D.
+T3	REFSCOPE 105 121	33, 21-34, 102 :
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:462.977:33.21-34.102
+#1	AnnotatorNotes T1	urn:cts:cwkb:664.1367

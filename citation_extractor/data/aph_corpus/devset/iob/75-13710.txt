@@ -1,0 +1,6 @@
+Logische	ADJA
+Analyse	NN
+des	ART
+Skeptizismus	NN
+.	$.
+

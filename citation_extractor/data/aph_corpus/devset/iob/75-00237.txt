@@ -1,0 +1,18 @@
+Notes	NOM
+critiques	NOM
+à	PRP
+Apic.	ABR
+3	NUM
+,	PUN
+8	NUM
+,	PUN
+1	NUM
+et	KON
+.	SENT
+
+4	NUM
+,	PUN
+2	NUM
+,	PUN
+15	NUM
+

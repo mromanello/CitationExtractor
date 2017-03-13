@@ -1,0 +1,20 @@
+Concerne	VER:pres
+non	ADV
+solo	ADJ
+testi	NOM
+bizantini	ADJ
+,	PON
+ma	CON
+anche	ADV
+le	DET:def
+«	PON
+Cyranides	NOM
+»	PON
+e	CON
+il	DET:def
+«	PON
+Testamento	NOM
+di	PRE
+Salomone	NOM
+»	PON
+

@@ -1,0 +1,17 @@
+T1	REFAUWORK 0 10	Quintilian
+T2	REFSCOPE 11 24	11, 3, 65-184
+T3	AAUTHOR 153 159	Cicero
+T4	REFAUWORK 263 268	orat.
+T5	REFSCOPE 269 277	3, 220 ;
+T6	REFSCOPE 278 287	orat. 59)
+T7	AAUTHOR 299 305	Cicero
+T8	AAUTHOR 410 416	Cicero
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T4 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:602:11.3.65-11.3.184
+#1	AnnotatorNotes R2	urn:cts:cwkb:443.950:3.220
+#2	AnnotatorNotes R3	urn:cts:cwkb:443.950:59
+#3	AnnotatorNotes T8	urn:cts:cwkb:431
+#4	AnnotatorNotes T7	urn:cts:cwkb:431
+#5	AnnotatorNotes T3	urn:cts:cwkb:431

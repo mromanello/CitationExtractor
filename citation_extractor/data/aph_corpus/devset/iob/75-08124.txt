@@ -1,0 +1,25 @@
+Zusammenstellung	NN
+in	APPR
+einer	ART
+Karte	NN
+und	KON
+Überlegungen	NN
+zur	APPRART
+Interpretation	NN
+der	ART
+in	APPR
+Surveys	NE
+seit	APPR
+1950	CARD
+beobachteten	ADJA
+Kultstätten	NN
+der	ART
+südlichen	ADJA
+Argolis	NN
+.	$.
+
+Liste	NN
+der	ART
+Fundorte	NN
+.	$.
+

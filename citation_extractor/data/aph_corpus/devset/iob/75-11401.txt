@@ -1,0 +1,5 @@
+Persistance	NOM
+du	PRP:det
+plan	NOM
+antique	ADJ
+

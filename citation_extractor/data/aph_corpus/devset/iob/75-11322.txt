@@ -1,0 +1,27 @@
+Ricostruzione	NOM
+di	PRE
+vicende	NOM
+storiche	ADJ
+,	PON
+topografia	NOM
+e	CON
+struttura	NOM
+urbanistica	ADJ
+di	PRE
+Veleia	NOM
+in	PRE
+epoca	NOM
+romana	ADJ
+,	PON
+con	PRE
+particolare	ADJ
+attenzione	NOM
+al	PRE:det
+progetto	NOM
+di	PRE
+innovazione	NOM
+urbana	ADJ
+di	PRE
+epoca	NOM
+alto-imperiale	ADJ
+

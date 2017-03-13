@@ -1,0 +1,23 @@
+Eine	ART
+Analyse	NN
+des	ART
+Textzusammenhangs	NN
+macht	VVFIN
+wahrscheinlich	ADJD
+,	$,
+dass	KOUS
+der	ART
+Vers	NN
+nicht	PTKNEG
+als	KOKOM
+Aussage	NN
+,	$,
+sondern	KON
+als	KOKOM
+rhetorische	ADJA
+Frage	NN
+zu	PTKZU
+lesen	VVINF
+ist	VAFIN
+.	$.
+

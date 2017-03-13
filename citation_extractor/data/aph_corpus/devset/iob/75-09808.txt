@@ -1,0 +1,17 @@
+PVindob	NP
+.	SENT
+
+G	NP
+25619	CD
+a	DT
+,	,
+Herakleopolis	NP
+,	,
+Mitte	NP
+7.	CD
+
+Jh	NP
+.	SENT
+
+n.	NP
+Chr.	NP

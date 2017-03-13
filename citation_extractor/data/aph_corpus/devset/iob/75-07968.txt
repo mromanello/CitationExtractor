@@ -1,0 +1,17 @@
+El	ART
+asentamiento	NC
+abarca	VLfin
+desde	PREP
+la	ART
+Edad	NC
+del	PDEL
+Hierro	NP
+hasta	PREP
+,	CM
+probablemente	ADV
+,	CM
+el	ART
+siglo	NC
+4°	NC
+d.	NC
+C.	ACRNM

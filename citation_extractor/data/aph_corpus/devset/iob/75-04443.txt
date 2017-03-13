@@ -1,0 +1,27 @@
+Studio	NOM
+delle	PRE:det
+immagini	NOM
+tratte	VER:pper
+dalla	PRE:det
+rappresentazione	NOM
+scenica	ADJ
+che	PRO:rela
+in	PRE
+Plotino	NOM
+contribuiscono	VER:pres
+a	PRE
+fornire	VER:infi
+una	DET:indef
+giustificazione	NOM
+della	PRE:det
+presenza	NOM
+del	PRE:det
+male	NOM
+e	CON
+delle	PRE:det
+azioni	NOM
+dei	PRE:det
+malvagi	NOM
+nell'	PRE:det
+universo	NOM
+

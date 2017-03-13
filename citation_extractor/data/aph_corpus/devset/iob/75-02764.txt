@@ -1,0 +1,20 @@
+Suite	NOM
+à	PRP
+l'	DET:ART
+édition	NOM
+donnée	VER:pper
+par	PRP
+l'	DET:ART
+auteur	NOM
+et	KON
+notée	VER:pper
+62-02810	NUM
+.	SENT
+
+Compléments	NOM
+à	PRP
+l'	DET:ART
+article	NOM
+noté	VER:pper
+73-03319	NUM
+

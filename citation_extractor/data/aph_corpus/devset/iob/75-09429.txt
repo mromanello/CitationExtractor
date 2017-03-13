@@ -1,0 +1,26 @@
+Corpus	NOM
+épigraphique	ADJ
+unique	ADJ
+permettant	VER:ppre
+d'	PRP
+attribuer	VER:infi
+quelques	PRO:IND
+noms	NOM
+aux	PRP:det
+habitants	NOM
+de	PRP
+la	DET:ART
+«	PUN:cit
+uilla	NOM
+»	PUN:cit
+entre	PRP
+le	DET:ART
+2e	NUM
+et	KON
+le	DET:ART
+3e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+

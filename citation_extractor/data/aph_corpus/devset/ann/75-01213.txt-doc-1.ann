@@ -1,0 +1,10 @@
+T1	AWORK 25 37	« Origines »
+T2	REFAUWORK 145 158	Cicero, Tusc.
+T3	REFSCOPE 159 165	4, 3),
+T4	REFAUWORK 267 273	(orig.
+T5	REFSCOPE 274 280	4, 81)
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:658.1360:4.3
+#1	AnnotatorNotes R2	urn:cts:cwkb:424.854:4.81
+#2	AnnotatorNotes T1	urn:cts:cwkb:424.854

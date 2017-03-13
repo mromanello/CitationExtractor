@@ -1,0 +1,15 @@
+Analisi	NOM
+di	PRE
+questo	PRO:demo
+tema	NOM
+tradizionale	ADJ
+nella	PRE:det
+poesia	NOM
+greca	ADJ
+,	PON
+latina	ADJ
+,	PON
+bizantina	ADJ
+e	CON
+italiana	ADJ
+

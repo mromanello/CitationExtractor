@@ -1,0 +1,15 @@
+Storia	NOM
+della	PRE:det
+formazione	NOM
+e	CON
+della	PRE:det
+trasmissione	NOM
+del	PRE:det
+testo	NOM
+ebraico	ADJ
+e	CON
+greco	ADJ
+dell'	PRE:det
+Antico	NOM
+Testamento	NOM
+

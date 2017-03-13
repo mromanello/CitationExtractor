@@ -1,0 +1,57 @@
+Ce	PRO:DEM
+vase	NOM
+de	PRP
+l'	DET:ART
+Helladique	NAM
+récent	ADJ
+IIIB	NAM
+est	VER:pres
+unique	ADJ
+par	PRP
+sa	DET:POS
+forme	NOM
+et	KON
+ses	DET:POS
+motifs	NOM
+.	SENT
+
+Il	PRO:PER
+a	VER:pres
+pu	VER:pper
+être	VER:infi
+fabriqué	VER:pper
+sur	PRP
+place	NOM
+bien	ADJ
+qu'	PRO:REL
+on	PRO:PER
+note	VER:pres
+des	PRP:det
+liens	NOM
+avec	PRP
+la	DET:ART
+Crète	NAM
+et	KON
+la	DET:ART
+Méditerranée	NAM
+orientale	ADJ
+.	SENT
+
+L'	DET:ART
+agencement	NOM
+des	PRP:det
+motifs	NOM
+suggère	VER:pres
+une	DET:ART
+fonction	NOM
+rituelle	ADJ
+.	SENT
+
+Pour	PRP
+le	DET:ART
+contexte	NOM
+de	PRP
+découverte	ADJ
+=>	NOM
+75-08147	NUM
+

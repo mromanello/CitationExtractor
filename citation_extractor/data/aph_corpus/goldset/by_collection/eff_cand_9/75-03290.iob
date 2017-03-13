@@ -1,0 +1,11 @@
+Riflessioni	NOM	O
+critiche	ADJ	O
+sull'	PRE:det	O
+opera	NOM	O
+di	PRE	O
+Merobaude	NOM	B-AAUTHOR
+alla	PRE:det	O
+luce	NOM	O
+degli	PRE:det	O
+studi	NOM	O
+recenti	ADJ	O

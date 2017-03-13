@@ -1,0 +1,15 @@
+Analyse	NN
+von	APPR
+Lukas	NE
+10	CARD
+,	$,
+38-42	CARD
+insbesondere	ADV
+unter	APPR
+dem	ART
+Aspekt	NN
+des	ART
+christlichen	ADJA
+Frauenbildes	NN
+.	$.
+

@@ -1,0 +1,18 @@
+Die	ART
+Situation	NN
+unter	APPR
+Diokletian	NE
+lässt	VVFIN
+es	PPER
+durchaus	ADV
+möglich	ADJD
+erscheinen	VVINF
+,	$,
+dass	KOUS
+das	ART
+Martyrium	NN
+tatsächlich	ADJD
+stattgefunden	VVPP
+hat	VAFIN
+.	$.
+

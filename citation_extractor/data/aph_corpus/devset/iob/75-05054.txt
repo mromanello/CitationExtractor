@@ -1,0 +1,22 @@
+On	IN
+64	CD
+passages	NNS
+throughout	IN
+the	DT
+works	NNS
+of	IN
+Sophocles	NP
+discussed	VBN
+by	IN
+H.	NP
+Lloyd-Jones	NP
+and	CC
+N.	NP
+G.	NP
+Wilson	NP
+(	(
+=>	NP
+61-03980	CD
+)	)
+.	SENT
+

@@ -1,0 +1,34 @@
+Le	DET:ART
+procédé	NOM
+de	PRP
+la	DET:ART
+«	PUN:cit
+fausse	ADJ
+mort	NOM
+»	PUN:cit
+constitue	VER:pres
+un	DET:ART
+ressort	NOM
+essentiel	ADJ
+du	PRP:det
+roman	NOM
+grec	ADJ
+d'	PRP
+époque	NOM
+impériale	ADJ
+.	SENT
+
+Il	PRO:PER
+est	VER:pres
+utilisé	VER:pper
+aussi	ADV
+bien	ADV
+chez	PRP
+Chariton	NAM
+que	KON
+chez	PRP
+Héliodore	NAM
+et	KON
+Achille	NAM
+Tatius	NAM
+

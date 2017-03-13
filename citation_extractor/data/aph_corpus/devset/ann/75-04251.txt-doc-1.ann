@@ -1,0 +1,24 @@
+T1	AWORK 21 32	« Phaedo »,
+T2	AWORK 33 46	« Philibus »,
+T3	AWORK 47 60	« Phaedrus »,
+T4	AWORK 61 73	« Timaeus »,
+T5	AWORK 74 83	« Laws »,
+T6	AWORK 84 97	« Republic »,
+T7	AWORK 102 117	« Theaetetus »,
+T8	AAUTHOR 118 123	Plato
+T9	AAUTHOR 345 354	Cicero 's
+T10	AWORK 355 369	« De finibus »
+T11	AAUTHOR 374 383	Seneca 's
+T12	AWORK 384 408	« Letters to Lucilius ».
+#0	AnnotatorNotes T8	urn:cts:cwkb:1389
+#1	AnnotatorNotes T9	urn:cts:cwkb:431
+#2	AnnotatorNotes T6	urn:cts:greekLit:tlg0059.tlg030
+#3	AnnotatorNotes T7	urn:cts:greekLit:tlg0059.tlg006
+#4	AnnotatorNotes T4	urn:cts:cwkb:431.936
+#5	AnnotatorNotes T5	urn:cts:greekLit:tlg0059.tlg034
+#6	AnnotatorNotes T2	urn:cts:greekLit:tlg0059.tlg010
+#7	AnnotatorNotes T3	urn:cts:greekLit:tlg0059.tlg012
+#8	AnnotatorNotes T1	urn:cts:greekLit:tlg0059.tlg004
+#9	AnnotatorNotes T10	urn:cts:cwkb:431.912
+#10	AnnotatorNotes T11	urn:cts:cwkb:620
+#11	AnnotatorNotes T12	urn:cts:cwkb:620.1288

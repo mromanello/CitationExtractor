@@ -1,0 +1,8 @@
+Étude	NOM
+géographique	ADJ
+.	SENT
+
+Voir	VER:infi
+aussi	ADV
+65-13505	NUM
+

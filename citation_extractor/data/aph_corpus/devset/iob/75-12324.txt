@@ -1,0 +1,13 @@
+Zu	APPR
+weiblichen	ADJA
+Bildern	NN
+für	APPR
+Gott	NN
+,	$,
+die	ART
+Seele	NN
+und	KON
+die	ART
+Kirche	NN
+.	$.
+

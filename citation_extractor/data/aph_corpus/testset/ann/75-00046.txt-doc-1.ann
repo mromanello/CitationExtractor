@@ -1,0 +1,8 @@
+T1	AWORK 90 113	« Prometeo encadenado »
+T2	AAUTHOR 117 125	Esquilo,
+T4	REFSCOPE 150 167	399-402 = 408-411
+T5	REFSCOPE 170 177	425-435
+#2	AnnotatorNotes T2	urn:cts:greekLit:tlg0085
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0085.tlg003
+R1	Scope Arg1:T1 Arg2:T4	
+R2	Scope Arg1:T1 Arg2:T5	

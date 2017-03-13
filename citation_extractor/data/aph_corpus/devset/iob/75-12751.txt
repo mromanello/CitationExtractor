@@ -1,0 +1,14 @@
+Inv	NOM
+.	SENT
+
+du	PRP:det
+musée	NOM
+de	PRP
+Limassol	NAM
+77.1008.1-AM	NOM
+527.	SENT
+
+Scène	NOM
+de	PRP
+gynécée	NOM
+

@@ -1,0 +1,7 @@
+T1	REFAUWORK 34 40	Silven
+T2	REFSCOPE 41 45	5, 5
+T3	REFSCOPE 46 54	und 2, 6
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:2568:5.5
+#1	AnnotatorNotes R2	urn:cts:cwkb:2568:2.6

@@ -1,0 +1,36 @@
+Étude	NOM
+d'	PRP
+inscriptions	NOM
+grecques	ADJ
+et	KON
+coptes	ADJ
+de	PRP
+l'	DET:ART
+époque	NOM
+nobade	ADJ
+,	PUN
+notamment	ADV
+l'	DET:ART
+épitaphe	NOM
+grecque	ADJ
+SB	NAM
+3	NUM
+,	PUN
+6089.	INT
+
+Ces	PRO:DEM
+textes	NOM
+documentent	VER:pres
+la	DET:ART
+survie	NOM
+de	PRP
+la	DET:ART
+chrétienté	NOM
+locale	ADJ
+après	PRP
+le	DET:ART
+retrait	NOM
+romain	ADJ
+de	PRP
+Dodécaschène	NAM
+

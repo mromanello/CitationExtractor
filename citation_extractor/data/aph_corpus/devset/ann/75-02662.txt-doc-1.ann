@@ -1,0 +1,4 @@
+T1	REFAUWORK 37 50	Horace, Carm.
+T2	REFSCOPE 51 57	3, 30,
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0893.phi001:3.30

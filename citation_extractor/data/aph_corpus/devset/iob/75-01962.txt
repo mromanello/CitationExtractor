@@ -1,0 +1,47 @@
+Pour	PRP
+les	DET:ART
+Francs	NAM
+,	PUN
+la	DET:ART
+croyance	NOM
+à	PRP
+une	DET:ART
+origine	NOM
+troyenne	ADJ
+apparaît	VER:pres
+à	PRP
+l'	DET:ART
+époque	NOM
+mérovingienne	ADJ
+:	PUN
+Frédégaire	NAM
+,	PUN
+«	PUN:cit
+Historia	NAM
+Francorum	NAM
+»	PUN:cit
+.	SENT
+
+Pour	PRP
+les	DET:ART
+autres	ADJ
+peuples	NOM
+,	PUN
+elle	PRO:PER
+est	VER:pres
+encore	ADV
+plus	ADV
+tardive	ADJ
+.	SENT
+
+Le	DET:ART
+but	NOM
+était	VER:impf
+d'	PRP
+ennoblir	VER:infi
+les	DET:ART
+origines	NOM
+de	PRP
+ces	PRO:DEM
+peuples	NOM
+

@@ -1,0 +1,27 @@
+Resoconto	NOM
+dei	PRE:det
+lavori	NOM
+del	PRE:det
+sesto	ADJ
+convegno	NOM
+internazionale	ADJ
+dell'	PRE:det
+ARISTEC	NOM
+svoltosi	VER:pper
+a	PRE
+Padova	NPR
+nei	PRE:det
+giorni	NOM
+25-27	NUM
+settembre	NOM
+2003	NUM
+sul	PRE:det
+tema	NOM
+dell'	PRE:det
+arricchimento	NOM
+a	PRE
+partire	VER:infi
+dal	PRE:det
+mondo	NOM
+romano	ADJ
+

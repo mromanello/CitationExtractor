@@ -1,0 +1,38 @@
+Nota	NOM
+critico-esegetica	ADJ
+a	PRE
+Merobaude	NOM
+,	PON
+Pros.	NOM
+fr.	ABR
+1A	NOM
+,	PON
+l.	ABR
+
+15-20	NUM
+.	SENT
+
+Nonostante	PRE
+i	DET:def
+dubbi	NOM
+sollevati	VER:pper
+dai	PRE:det
+critici	NOM
+,	PON
+l'	DET:def
+espressione	NOM
+«	PON
+iniuria	VER:impe
+iam	NOM
+pro	PRE
+volunta	NOM
+<te>
+»	PON
+alla	PRE:det
+l.	ABR
+
+17	NUM
+può	VER:pres
+essere	VER:infi
+mantenuta	VER:pper
+

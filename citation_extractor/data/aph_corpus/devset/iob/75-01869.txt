@@ -1,0 +1,25 @@
+En	PREP
+el	ART
+trasfondo	NC
+de	PREP
+la	ART
+representación	NC
+euripidea	ADJ
+subyace	VLfin
+una	ART
+interpretación	NC
+racionalizada	VLadj
+y	CC
+moderna	ADJ
+de	PREP
+la	ART
+figura	NC
+mítica	ADJ
+,	CM
+como	CSUBX
+era	VEfin
+usual	ADJ
+entre	PREP
+los	ART
+sofistas	VLadj
+

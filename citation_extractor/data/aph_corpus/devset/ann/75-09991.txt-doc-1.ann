@@ -1,0 +1,5 @@
+T1	AAUTHOR 19 26	Herodot
+T2	REFSCOPE 27 37	(5, 66-74)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0016:5.66-5.74
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0016

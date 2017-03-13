@@ -1,0 +1,22 @@
+Introduzione	NOM
+al	PRE:det
+volume	NOM
+,	PON
+che	PRO:rela
+raccoglie	VER:pres
+i	DET:def
+frutti	NOM
+del	PRE:det
+lavoro	NOM
+condotto	VER:pper
+dal	PRE:det
+«	PON
+Seminarium	NOM
+Historiographiae	NOM
+Linguisticae	NOM
+»	PON
+dell'	PRE:det
+Università	NOM
+di	PRE
+Leuven	NOM
+

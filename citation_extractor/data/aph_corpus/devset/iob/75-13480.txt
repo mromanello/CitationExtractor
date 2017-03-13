@@ -1,0 +1,21 @@
+Zum	APPRART
+Erstbeleg	NN
+für	APPR
+«	$(
+identitas	NE
+»	$(
+und	KON
+zur	APPRART
+philosophischen	ADJA
+Diskussion	NN
+zwischen	APPR
+Marius	NE
+Victorinus	NE
+und	KON
+Candidus	NE
+bezüglich	APPR
+der	ART
+beiden	PIAT
+Konzepte	NN
+.	$.
+

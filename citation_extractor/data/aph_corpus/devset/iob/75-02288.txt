@@ -1,0 +1,5 @@
+Zu	APPR
+Text	NN
+und	KON
+Verständnis	NN
+

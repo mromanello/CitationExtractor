@@ -1,0 +1,8 @@
+Étude	NOM
+du	PRP:det
+lexique	NOM
+et	KON
+des	PRP:det
+métaphores	NOM
+militaires	ADJ
+

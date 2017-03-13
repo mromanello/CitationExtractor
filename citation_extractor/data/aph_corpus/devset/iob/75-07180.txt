@@ -1,0 +1,16 @@
+Sur	PRP
+«	PUN:cit
+pouvoir	VER:infi
+dire	VER:infi
+»	PUN:cit
+dans	PRP
+les	DET:ART
+dialogues	NOM
+de	PRP
+Platon	NAM
+(	PUN
+voir	VER:infi
+aussi	ADV
+71-07473	NUM
+)	PUN
+

@@ -1,0 +1,6 @@
+T1	AAUTHOR 244 251	Plinius
+T2	REFAUWORK 252 257	(Nat.
+T3	REFSCOPE 258 261	23)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:620.1289:23
+#1	AnnotatorNotes T1	urn:cts:cwkb:584

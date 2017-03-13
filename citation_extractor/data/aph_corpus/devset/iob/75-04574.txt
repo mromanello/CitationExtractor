@@ -1,0 +1,11 @@
+Bibliografia	NOM
+ragionata	ADJ
+,	PON
+con	PRE
+riferimento	NOM
+alle	PRE:det
+numerose	ADJ
+banche	NOM
+dati	ADJ
+on-line	NOM
+

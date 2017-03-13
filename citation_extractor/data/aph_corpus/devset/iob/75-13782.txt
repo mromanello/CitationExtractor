@@ -1,0 +1,14 @@
+Beginnend	ADJD
+mit	APPR
+der	ART
+Antike	NN
+;	$.
+auch	ADV
+zum	APPRART
+Weiterleben	NN
+in	APPR
+der	ART
+späteren	ADJA
+Kartographie	NN
+.	$.
+

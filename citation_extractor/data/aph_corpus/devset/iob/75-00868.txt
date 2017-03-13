@@ -1,0 +1,19 @@
+Correspondance	NOM
+,	PUN
+dont	PRO:REL
+une	DET:ART
+grande	ADJ
+partie	NOM
+est	VER:pres
+perdue	VER:pper
+,	PUN
+s'	PRO:PER
+étendant	VER:ppre
+de	PRP
+395	NUM
+à	PRP
+420-421	NUM
+,	PUN
+voire	ADV
+au-delà	ADV
+

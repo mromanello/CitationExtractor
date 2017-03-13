@@ -1,0 +1,26 @@
+Sur	PRP
+les	DET:ART
+«	PUN:cit
+Vies	NAM
+»	PUN:cit
+de	PRP
+Marie	NAM
+l'	DET:ART
+Égyptienne	NAM
+(	PUN
+BHG	NAM
+1042	NUM
+)	PUN
+et	KON
+de	PRP
+Jean	NAM
+le	DET:ART
+Miséricordieux	NAM
+ou	KON
+l'	DET:ART
+Aumônier	NAM
+(	PUN
+BHG	NAM
+876	NUM
+)	PUN
+

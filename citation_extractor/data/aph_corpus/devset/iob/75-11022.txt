@@ -1,0 +1,11 @@
+Notamment	ADV
+à	PRP
+partir	VER:infi
+des	PRP:det
+témoignages	NOM
+archéologiques	ADJ
+et	KON
+épigraphiques	ADJ
+de	PRP
+Pompéi	NAM
+

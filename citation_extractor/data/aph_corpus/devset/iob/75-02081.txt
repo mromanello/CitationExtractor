@@ -1,0 +1,22 @@
+Nascita	NOM
+,	PON
+definizione	NOM
+teorica	ADJ
+,	PON
+ricezione	NOM
+e	CON
+trasmissione	NOM
+alla	PRE:det
+grammatica	NOM
+latina	ADJ
+del	PRE:det
+sistema	NOM
+relativo	ADJ
+alle	PRE:det
+parti	NOM
+declinabili	ADJ
+e	CON
+indeclinabili	ADJ
+del	PRE:det
+discorso	NOM
+

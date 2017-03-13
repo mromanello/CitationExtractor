@@ -1,0 +1,27 @@
+5	NUM
+poids	NOM
+marqués	VER:pper
+en	PRP
+grec	NOM
+:	PUN
+2	NUM
+palestiniens	NOM
+(	PUN
+Scythopolis	NAM
+et	KON
+Marisa	NAM
+)	PUN
+,	PUN
+2	NUM
+phéniciens	NOM
+(	PUN
+Berytos	NAM
+et	KON
+Byblos	NAM
+)	PUN
+,	PUN
+1	NUM
+de	PRP
+provenance	NOM
+inconnue	ADJ
+

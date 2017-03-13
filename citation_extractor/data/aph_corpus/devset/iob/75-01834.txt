@@ -1,0 +1,13 @@
+Riguarda	VER:pres
+l'	DET:def
+edizione	NOM
+critica	ADJ
+di	PRE
+L.	ABR
+De	NPR
+Faveri	NOM
+(	PON
+=>	NOM
+73-02084	NUM
+)	PON
+

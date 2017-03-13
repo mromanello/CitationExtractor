@@ -1,0 +1,12 @@
+Implantation	NOM
+des	PRP:det
+fortins	NOM
+,	PUN
+système	NOM
+viaire	ADJ
+et	KON
+fonctions	NOM
+des	PRP:det
+postes	NOM
+militaires	ADJ
+

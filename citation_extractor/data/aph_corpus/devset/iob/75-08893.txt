@@ -1,0 +1,15 @@
+Dossier	NOM
+archéologique	ADJ
+concernant	VER:ppre
+pour	PRP
+l'	DET:ART
+essentiel	NOM
+les	DET:ART
+aires	NOM
+artisanales	ADJ
+des	PRP:det
+périodes	NOM
+archaïque	ADJ
+et	KON
+classique	ADJ
+

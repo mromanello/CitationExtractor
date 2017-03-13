@@ -1,0 +1,11 @@
+Archéologue	NOM
+grec	ADJ
+.	SENT
+
+Bibliographie	NOM
+limitée	VER:pper
+à	PRP
+l'	DET:ART
+époque	NOM
+proto-byzantine	ADJ
+

@@ -1,0 +1,19 @@
+La	DET:def
+scoperta	NOM
+dell'	PRE:det
+autocoscienza	NOM
+ha	VER:pres
+permesso	VER:pper
+di	PRE
+conseguire	VER:infi
+il	DET:def
+vero	NOM
+anche	ADV
+a	PRE
+livello	NOM
+di	PRE
+enunciati	NOM
+«	PON
+atomici	ADJ
+»	PON
+

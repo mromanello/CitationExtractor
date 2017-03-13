@@ -1,0 +1,23 @@
+Note	NOM
+critico-esegetiche	ADJ
+generali	ADJ
+e	CON
+a	PRE
+numerosi	ADJ
+passi	NOM
+del	PRE:det
+testo	NOM
+,	PON
+in	PRE
+margine	NOM
+all'	PRE:det
+edizione	NOM
+curata	VER:pper
+da	PRE
+C.	NPR
+Weidmann	NOM
+(	PON
+=>	NOM
+75-00798	NUM
+)	PON
+

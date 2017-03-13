@@ -1,6 +1,0 @@
-T1	REFAUWORK 11 23	Aphthon. GLK
-T2	REFSCOPE 24 38	6, 64, 30 ss.,
-T3	REFAUWORK 89 110	Terenziano Mauro, GLK
-T4	REFSCOPE 111 124	6, 375 s., v.
-R1	Scope Arg1:T1 Arg2:T2	
-R2	Scope Arg1:T3 Arg2:T4	

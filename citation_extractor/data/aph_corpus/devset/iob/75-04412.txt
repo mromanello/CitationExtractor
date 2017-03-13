@@ -1,0 +1,16 @@
+Sobre	PREP
+la	ART
+construcción	NC
+denominada	VLadj
+«	SYM
+pasiva	ADJ
+personal	ADJ
+»	SYM
+o	CC
+de	PREP
+«	SYM
+nominativo	NC
+con	PREP
+infinitivo	NC
+»	SYM
+

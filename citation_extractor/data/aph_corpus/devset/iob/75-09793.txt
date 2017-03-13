@@ -1,0 +1,8 @@
+Nouvelle	ADJ
+édition	NOM
+,	PUN
+avec	PRP
+traduction	NOM
+et	KON
+commentaire	NOM
+

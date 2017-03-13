@@ -1,0 +1,15 @@
+On	IN
+D.	NP
+Charles	NP
+,	,
+Aristotle	NN
+on	IN
+meaning	NN
+and	CC
+essence	NN
+(	(
+=>	NN
+71-00526	CD
+)	)
+.	SENT
+

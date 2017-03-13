@@ -1,0 +1,13 @@
+Compte	VER:pres
+rendu	VER:pper
+du	PRP:det
+colloque	NOM
+de	PRP
+Pavie	NAM
+de	PRP
+1993	NUM
+(	PUN
+=>	ABR
+69-14119	NUM
+)	PUN
+

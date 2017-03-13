@@ -1,0 +1,22 @@
+Discute	VER:pres
+dans	PRP
+quelle	PRO:REL
+mesure	NOM
+et	KON
+avec	PRP
+quelles	PRO:REL
+réserves	VER:pres
+le	DET:ART
+commentaire	NOM
+d'	PRP
+Alexandre	NAM
+peut	VER:pres
+être	VER:infi
+utilisé	VER:pper
+pour	PRP
+éditer	VER:infi
+le	DET:ART
+texte	NOM
+d'	PRP
+Aristote	NAM
+

@@ -1,0 +1,14 @@
+La	DET:ART
+conversation	NOM
+et	KON
+le	DET:ART
+dialogue	NOM
+sont	VER:pres
+pour	PRP
+Augustin	NAM
+un	DET:ART
+mode	NOM
+de	PRP
+réflexion	NOM
+théologique	ADJ
+

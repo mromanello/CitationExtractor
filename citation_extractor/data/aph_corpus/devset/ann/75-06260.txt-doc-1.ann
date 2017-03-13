@@ -1,0 +1,6 @@
+T1	REFAUWORK 58 62	Aen.
+T2	REFSCOPE 63 64	8
+T3	AAUTHOR 78 85	Vergil.
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:8
+#1	AnnotatorNotes T3	urn:cts:latinLit:phi0690

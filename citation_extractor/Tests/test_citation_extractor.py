@@ -12,16 +12,8 @@ from citation_extractor.Utils.IO import read_iob_files
 
 logging.basicConfig(level=logging.INFO)
 
-@fixture
-def crf_citation_extractor(tmpdir):
-	"""
-	Initialise a citation extractor with CRF model trained on the
-	goldset of the APh corpus.
-	"""
-	crf.TEMP_DIR = str(tmpdir.mkdir('tmp'))+"/"
-	crf.OUTPUT_DIR = str(tmpdir.mkdir('out'))+"/"
-	crf.LOG_FILE = "%s/extractor.log"%crf.TEMP_DIR
-	return pipeline.get_extractor(crf)
+def test_extract_citations_from_title(crf_citation_extractor):
+	pass
 def test_pickle_crf_citation_extractor(crf_citation_extractor):
 	"""
 	Make sure that instances of `citation_extractor` can be pickled (important 

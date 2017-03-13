@@ -1,0 +1,27 @@
+Discussione	NOM
+delle	PRE:det
+possibili	ADJ
+fonti	NOM
+e	CON
+del	PRE:det
+significato	NOM
+storico	ADJ
+di	PRE
+questo	PRO:demo
+passo	NOM
+,	PON
+che	PRO:rela
+esemplifica	VER:pres
+l'	DET:def
+attenzione	NOM
+di	PRE
+Servio	NOM
+per	PRE
+gli	DET:def
+usi	NOM
+linguistici	ADJ
+meno	ADV
+canonici	ADJ
+o	CON
+irregolari	ADJ
+

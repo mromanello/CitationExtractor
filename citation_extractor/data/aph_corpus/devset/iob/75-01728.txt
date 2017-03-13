@@ -1,0 +1,25 @@
+Nel	PRE:det
+proemio	NOM
+enniano	NOM
+l'	DET:def
+incontro	NOM
+con	PRE
+le	DET:def
+Muse	NOM
+è	VER:pres
+ambientato	VER:pper
+sull'	PRE:det
+Elicone	NOM
+e	CON
+la	DET:def
+presenza	NOM
+della	PRE:det
+divinità	NOM
+si	PRO:refl
+estende	VER:pres
+a	PRE
+tutto	PRO:indef
+il	DET:def
+1°	ADJ
+libro	NOM
+

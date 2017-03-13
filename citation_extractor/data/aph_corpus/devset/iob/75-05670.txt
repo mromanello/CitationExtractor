@@ -1,0 +1,24 @@
+Réponse	NOM
+à	PRP
+C.	ABR
+Evans	NAM
+(	PUN
+=>	ABR
+74-06626	NUM
+)	PUN
+.	SENT
+
+L'	DET:ART
+allusion	NOM
+à	PRP
+Is	NAM
+5	NUM
+en	PRP
+Mc	NAM
+12,1	NUM
+provient	VER:pres
+de	PRP
+la	DET:ART
+seule	NOM
+LXX	NUM
+

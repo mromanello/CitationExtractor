@@ -1,0 +1,16 @@
+Studio	NOM
+su	PRE
+Hatra	NOM
+,	PON
+città	NOM
+di	PRE
+importanza	NOM
+strategica	ADJ
+durante	PRE
+le	DET:def
+campagne	NOM
+militari	ADJ
+della	PRE:det
+Roma	NPR
+imperiale	ADJ
+

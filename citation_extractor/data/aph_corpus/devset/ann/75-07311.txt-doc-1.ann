@@ -1,0 +1,4 @@
+T1	REFAUWORK 58 68	Mart. Cap.
+T2	REFSCOPE 69 76	6, 578,
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0085.tlg006:6.578

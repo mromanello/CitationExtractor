@@ -1,0 +1,215 @@
+Euclide — Wikipédia
+Euclide
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Euclide (homonymie).
+Euclide
+Euclide (d'après une gravure du XVIe siècle)[1].
+Données clés
+Naissance
+environ 300 avant J.-C.
+Domaines
+Mathématiques
+Renommé pour
+ses Éléments
+modifier
+Euclide (en grec ancien Εὐκλείδης / Eukleídês) est un mathématicien de la Grèce antique, auteur d’éléments de mathématiques, qui constituent l'un des textes fondateurs de cette discipline en Occident. Aucune information fiable n'est parvenue sur la vie ou la mort d'Euclide ; il est possible qu'il ait vécu vers 300 avant notre ère.
+Son ouvrage le plus célèbre, les Éléments, est un des plus anciens traités connus présentant de manière systématique, à partir d'axiomes et de postulats, un large ensemble de théorèmes accompagnés de leurs démonstrations. Il porte sur la géométrie, tant plane que solide, et l’arithmétique théorique. L'ouvrage a connu des centaines d’éditions en toutes langues et ses thèmes restent à la base de l’enseignement des mathématiques au niveau secondaire dans de nombreux pays.
+Du nom d’Euclide, dérivent en particulier l’algorithme d'Euclide, la géométrie euclidienne (et non euclidienne), la division euclidienne.
+Sommaire
+1 Biographie
+2 Œuvres d'Euclide
+2.1 Les Éléments
+2.2 Les Données
+2.3 De la division des figures
+2.4 Les Pseudaria
+2.5 Les Coniques
+2.6 Les Porismes
+2.7 Les Lieux rapportés à la surface
+2.8 Les Phénomènes
+2.9 Optique
+2.10 Musique
+2.11 Ouvrages faussement attribués à Euclide
+2.12 Éditions
+3 Notes
+4 Références
+5 Voir aussi
+5.1 Articles connexes
+5.2 Liens externes
+Biographie
+Il n’existe aucune source directe sur la vie d’Euclide : nous ne disposons d’aucune lettre, d’aucune indication autobiographique (même sous la forme d’une préface à un ouvrage), d’aucun document officiel, et même d’aucune allusion par un de ses contemporains. Comme le résume l’historien des mathématiques Peter Schreiber, « sur la vie d’Euclide, pas un seul fait sûr n’est connu »[2].
+L’écrit le plus ancien connu concernant la vie d’Euclide apparaît dans un résumé sur l’histoire de la géométrie écrit au ve siècle de notre ère par le philosophe néo-platonicien Proclus, commentateur du premier livre des Éléments. Proclus ne donne lui-même aucune source pour ses indications. Il dit seulement qu'« en rassemblant ses Éléments, [Euclide] en a coordonné beaucoup […] et a évoqué dans d’irréfutables démonstrations ceux que ses prédécesseurs avaient montrés d’une manière relâchée. Cet homme a d’ailleurs vécu sous le premier Ptolémée, car Archimède […] mentionne Euclide. Euclide est donc plus récent que les disciples de Platon, mais plus ancien qu’Archimède et Ératosthène[3]».
+Si on admet la chronologie donnée par Proclus, Euclide, vivant entre Platon et Archimède et contemporain de Ptolémée Ier, a donc vécu vers 300 avant notre ère.
+Aucun document ne vient contredire ces quelques phrases, ni les confirmer vraiment. La mention directe d’Euclide dans les œuvres d’Archimède vient d’un passage considéré comme douteux[4]. Archimède fait bien appel à certains résultats des Éléments et un ostrakon, trouvé sur l’île d’Éléphantine et daté du iiie siècle avant notre ère, traite de figures étudiées dans le livre XIII des Éléments, comme le décagone et l’icosaèdre, mais sans reproduire exactement les énoncés euclidiens ; ils pourraient donc provenir de sources antérieures à Euclide[5]. La date approximative de 300 avant notre ère est toutefois jugée compatible avec l’analyse du contenu de l’œuvre euclidienne et est celle adoptée par les historiens des mathématiques[6],[7],[8],[4].
+Par ailleurs, une allusion du mathématicien du IVe siècle de notre ère, Pappus d'Alexandrie, suggère que des élèves d’Euclide auraient enseigné à Alexandrie[8]. Certains auteurs ont sur cette base associé Euclide au Mouseîon d'Alexandrie, mais, là encore, il ne figure sur aucun document officiel correspondant[7]. Le qualificatif souvent associé à Euclide dans l’Antiquité est simplement Stoichéiôtês, l’auteur d’Éléments[4].
+Portrait d'Euclide par Juste de Gand peint vers 1474 ; le géomètre est erronément identifié à Euclide de Mégare, selon une confusion courante à l'époque entre ce dernier et l’auteur des Éléments.
+Plusieurs anecdotes circulent à propos d’Euclide, mais comme elles apparaissent aussi pour d’autres mathématiciens, elles ne sont pas considérées comme réalistes : il en est ainsi de celle, célèbre, rapportée par Proclus, selon laquelle Euclide aurait répondu à Ptolémée – qui souhaitait une voie plus facile que celles des Éléments – qu’il n’y avait pas de voie royale en géométrie ; une variante de la même anecdote est en effet attribuée à Ménechme et Alexandre le Grand[9]. De même, depuis l’Antiquité tardive, divers détails sont ajoutés aux récits de la vie d’Euclide, sans sources nouvelles, et souvent de manière contradictoire. Certains auteurs font ainsi naître Euclide à Tyr, d’autres à Gela, on lui attribue diverses généalogies, des maîtres particuliers, différentes dates de naissance et de mort, que ce soit pour respecter les règles du genre, ou pour favoriser certaines interprétations[10]. Au Moyen Âge et au début de la Renaissance, le mathématicien Euclide est ainsi souvent confondu avec un philosophe contemporain de Platon, Euclide de Mégare[11],[4].
+Confronté à ces contradictions et au manque de sources fiables, l’historien des mathématiques Jean Itard a même suggéré en 1961 qu’Euclide en tant qu’individu n’existait peut-être pas et que le nom pouvait désigner « le titre collectif d’une école mathématique », soit celle d’un maître réel entouré d’élèves, soit même un nom purement fictif[12]. Mais cette hypothèse ne semble pas retenue[13].
+Un des plus anciens fragment des Éléments d'Euclide qui nous soit parvenu, découvert à Oxyrhynque et qui daterait d'entre 75 et 125 AC. Nous ne disposons pas de plus d'un pour cent du texte d'Euclide, dans des sources antérieures à la fin du IXe siècle[14].
+Œuvres d'Euclide
+Statue d'Euclide à Oxford.
+Des mentions d’ouvrages attribués à Euclide figurent chez plusieurs auteurs, en particulier dans la Collection mathématique de Pappus (datée usuellement du iiie siècle ou ive siècle) et dans le Commentaire aux Éléments d’Euclide dû à Proclus. Seule une partie de ces ouvrages euclidiens nous est parvenue.
+Les Éléments
+Article détaillé : Éléments d’Euclide.
+Les Éléments de mathématiques, en treize livres, constituent l’ouvrage le plus célèbre d’Euclide et un best-seller de l’édition scientifique. De nombreuses versions du texte existent sous forme manuscrite, complètes ou non, dans les bibliothèques du monde entier. Jusqu’au début du xixe siècle, toutes les versions connues se référaient à celle de Théon d’Alexandrie, un auteur du ive siècle (le plus ancien manuscrit complet, dit Codex Bodleianus, datant du ixe siècle). En 1808, François Peyrard identifia un manuscrit en grec du xe siècle (découvert à la Bibliothèque vaticane lors des campagnes de Napoléon en Italie) comme se référant à une version antérieure à celle de Théon. Le premier texte imprimé des Éléments, en latin, est issu de Campanus de Novare, à partir de versions du texte en arabe, et a été publié à Venise en 1482 par l’imprimeur Ehrard Ratdolt. L’édition critique moderne, qui fait encore référence de nos jours et intègre les connaissances tirées de plusieurs manuscrits grecs (y inclus celui identifié par Peyrard) est due à Johan Ludvig Heiberg. Que ce soit en version partielle (les six premiers livres seulement par exemple) ou complète, les adaptations, les éditions commentées, les traductions des Éléments ont été très nombreuses jusqu’à nos jours[15].
+Un des aspects les plus célèbres de l’ouvrage est sa forme déductive et son organisation systématique et progressive[16]. L’auteur énonce d’abord des définitions, comme celle d’une ligne (« une longueur sans largeur ») au livre I, ou d’un nombre premier (« un nombre mesuré par une seule unité ») au livre VII ; des notions communes (par exemple, « si des choses égales sont retranchées de choses égales, les restes sont égaux ») ; des postulats, comme la possibilité de construire une ligne droite passant par deux points donnés. Il démontre ensuite de nouvelles propriétés ou effectue de nouvelles constructions, à partir de ce qui est déjà connu (les définitions, ou des propositions déjà établies). Toutes les constructions reposent ainsi sur celles de droites ou de cercles, une contrainte connue plus tard sous le nom de constructions à la règle et au compas[17].
+Les six premiers livres sont consacrés à la géométrie plane[16]. Le premier traite en particulier des triangles et des droites parallèles, et inclut une preuve du théorème de Pythagore ; le deuxième de la construction de figures planes de forme donnée, des carrés par exemple, et de surface égale à celle d’une figure rectiligne donnée ; le troisième des propriétés du cercle ; le quatrième de l’inscription de figures dans un cercle, ou de cercles dans des figures rectilignes, par exemple la construction de pentagones réguliers inscrits dans ou circonscrits à un cercle donné ; le cinquième de la théorie des rapports et des proportions entre grandeurs, théorie qui est appliquée à la géométrie dans le sixième livre.
+Les trois livres suivants, aussi appelés « Livres arithmétiques », traitent des nombres premiers, de la construction du plus grand diviseur entier commun à deux ou plusieurs entiers, des nombres en progression géométrique, et donnent un critère pour construire des nombres parfaits (c’est-à-dire des nombres entiers égaux à la somme de leurs diviseurs propres). On y trouve un procédé par soustractions successives répétées, qui est maintenant à la base de la division euclidienne et de l’algorithme d'Euclide.
+Le livre X définit et classifie les quantités irrationnelles ; les trois derniers livres, enfin, traitent de la géométrie dans l’espace, culminant avec la construction, dans une sphère, des cinq solides réguliers, pyramide, cube, octaèdre, dodécaèdre, icosaèdre.
+Les deux livres supplémentaires, sur les polyèdres réguliers, souvent baptisés « livres XIV et XV » des Éléments dans les éditions anciennes, ont été écrits par d’autres auteurs, de plusieurs siècles postérieurs[18].
+La géométrie telle qu'elle est définie par Euclide dans ce texte fut considérée pendant des siècles comme la géométrie, et comme une représentation adéquate du monde physique. Or, parmi les postulats du livre I, figure celui connu sous le nom de « postulat d'Euclide » ou « postulat des parallèles », que l'on exprime de nos jours sous la forme : « par un point pris hors d'une droite il passe une et une seule parallèle à cette droite ». L’étude de ce postulat a conduit au xixe siècle au développement de géométries non euclidiennes, c’est-à-dire alternatives à celle d’Euclide et n’admettant pas ce postulat, et plus généralement au renouvellement de la notion même de géométrie et de ses liens avec la représentation du monde réel.
+Les Données
+Article détaillé : Données (Euclide).
+Les Données est le seul autre ouvrage d’Euclide traitant de géométrie dont on possède une version en grec (il est contenu par exemple dans le manuscrit du xe siècle découvert par Peyrard[19]). Il est aussi décrit en détail dans le livre VII de la Collection mathématique de Pappus, le « Trésor de l’analyse ».
+Les Données se situent dans le cadre de la géométrie plane et sont considérées par les historiens comme un complément des Éléments, mis sous une forme plus adéquate à l’analyse de problèmes[20]. L’ouvrage contient douze définitions, expliquant ce que signifie qu’un objet géométrique est donné, en position, en forme, en grandeur, et 94 théorèmes. Ceux-ci expliquent comment si certains éléments d’une figure sont donnés, d’autres relations ou éléments peuvent à leur tour être déterminés[21]. Par exemple (data 29), « si une ligne droite est donnée en position, et si, à partir d’un point donné dessus est tracée une droite faisant un angle donné à la première, cette droite tracée est donnée »[22], ou encore (data 39) « si tous les côtés d’un triangle sont donnés en grandeur, le triangle est donné en forme »[23].
+De la division des figures
+Cet ouvrage est décrit dans le Commentaire de Proclus, mais il est perdu en grec ; il est connu par des morceaux en latin (De divisionibus), mais surtout par un manuscrit en arabe découvert au xixe siècle, qui contient 36 propositions, dont quatre sont démontrées[24].
+Il s’agit dans cet ouvrage de construire des droites qui divisent des figures données dans des proportions et des formes données. Par exemple[25], on demande, un triangle et un point intérieur au triangle étant donnés, de construire une droite passant par le point et découpant le triangle en deux figures de même surface ; ou encore, un cercle étant donné, de construire deux droites parallèles, telles que la portion du cercle qu’elles limitent fasse un tiers de la surface du cercle.
+Les Pseudaria
+Les arguments fallacieux (Pseudaria) est un ouvrage perdu, connu seulement par la description qu’en donne Proclus. Selon ce dernier, l’ouvrage avait pour objectif d’exercer les débutants à détecter les raisonnements faux, en particulier ceux mimant les raisonnements déductifs et ayant donc l’apparence du vrai. Il donnait des exemples de paralogismes[26].
+Les Coniques
+Les [Éléments sur les sections] coniques, Conikai Stoicheia, est un ouvrage, perdu, décrit par Pappus et évoqué par d’autres auteurs. Selon Pappus, il se composait de quatre livres et constitua un ouvrage de référence sur le sujet jusqu’à ce qu’Apollonius le complète et l’étende[27].
+Les Porismes
+Les Porismes, en trois livres, sont perdus. L’ouvrage est évoqué dans deux passages de Proclus et surtout fait l’objet d’une longue présentation dans le livre VII de la Collection de Pappus, le « Trésor de l’analyse », comme un exemple significatif et d’une grande portée de l’approche analytique. Le mot « porisme » a plusieurs usages : selon Pappus, il désignerait ici un énoncé de type intermédiaire entre les théorèmes et les problèmes. L’ouvrage d’Euclide aurait contenu 171 énoncés de ce type et trente-huit lemmes. Pappus en donne des exemples, comme « si, à partir de deux points donnés, on trace des droites s’intersectant sur une droite donnée, et si l’une d’elles découpe sur une droite donnée un segment, l’autre fera de même sur une autre droite, avec un rapport fixé entre les deux segments découpés[28]. »
+Interpréter le sens exact de ce qu’est un porisme, et éventuellement restituer tout ou partie des énoncés de l’ouvrage d’Euclide, à partir des informations laissées par Pappus, a occupé de nombreux mathématiciens : les tentatives les plus connues sont celles de Pierre Fermat au xviie siècle, de Robert Simson au xviiie siècle, et surtout de Michel Chasles au xixe siècle. Si la reconstition de Chasles n’est pas prise au sérieux comme telle par les historiens actuels, elle a donné l’occasion au mathématicien de développer la notion de rapport anharmonique[29].
+Les Lieux rapportés à la surface
+Il s’agit aussi d’un ouvrage perdu, en deux livres, mentionné dans le Trésor de l’analyse de Pappus. Les indications données dans Proclus ou Pappus sur ces lieux d’Euclide sont ambiguës et ce dont il est exactement question dans l’ouvrage n’est pas connu. Dans la tradition des mathématiques grecques antiques, les lieux sont des ensembles de points vérifiant une propriété donnée. Ces ensembles sont le plus souvent des lignes droites, ou des sections coniques, mais peuvent aussi être des surfaces réglées par exemple. La plupart des historiens estiment que les lieux d’Euclide pourraient traiter de surfaces de révolution, sphères, cônes ou cylindres[30].
+Les Phénomènes
+Cet ouvrage portant sur l’application de la géométrie de la sphère à l’astronomie a survécu en grec, dans plusieurs versions manuscrites dont la plus ancienne date du xe siècle. Ce texte relève de ce qu’on appelle la « petite astronomie », par contraste avec les thèmes traités dans la Grande Composition (l’Almageste) de Ptolémée[31]. Il contient 18 propositions et est proche des ouvrages conservés sur le même thème d’Autolycos de Pitane[32].
+Optique
+Cet ouvrage est conservé en grec, en plusieurs versions. Consacré à des problèmes que nous appellerions maintenant de perspective et apparemment destiné à être utilisé en astronomie, il adopte la forme des Éléments : c’est une suite de cinquante-huit propositions dont la preuve repose sur des définitions et postulats énoncés au début du texte. Ces définitions suivent le point de vue de Platon, selon lequel la vision vient de rayons (en ligne droite) allant de notre œil à l’objet vu. Euclide montre que les tailles apparentes d’objets égaux ne sont pas proportionnelles à leur distance de notre œil (proposition 8)[33]. Il explique aussi par exemple notre vision d’une sphère (et d’autres surfaces simples) : l’œil voit une surface inférieure à la moitié de la sphère, une proportion d’autant plus petite que la sphère est proche, même si la surface vue semble plus grande, et le contour de ce qui est vu est un cercle. Il détaille également, selon les positions de l’œil et de l’objet, de quelle forme nous apparaît un cercle[34]. Le traité, en particulier, contredit une opinion défendue dans certaines écoles de pensée selon laquelle la grandeur réelle des objets (en particulier des corps célestes) est leur grandeur apparente, celle qui est vue[35].
+Musique
+Proclus attribue à Euclide des Éléments de musique (tout comme l’astronomie, la musique théorique, par exemple sous forme de théorie appliquée des proportions, figure parmi les sciences mathématiques). Deux petits écrits ont été conservés en grec, et inclus dans des éditions anciennes d’Euclide, mais leur attribution est incertaine, ainsi que leurs liens possibles avec ses Éléments. Les deux écrits (une Section du canon sur les intervalles musicaux et une Introductio harmonica) sont d’ailleurs considérés comme contradictoires et le deuxième, au moins, est maintenant considéré par les spécialistes comme venant d’un autre auteur[36].
+Ouvrages faussement attribués à Euclide
+Une Catoptrique, c’est-à-dire un ouvrage portant sur les miroirs, est évoqué dans le texte d’Euclide sur l’optique et dans le commentaire de Proclus. Il est maintenant considéré comme perdu, et en particulier, la Catoptrique longtemps publiée à la suite de l’Optique dans des éditions anciennes, n’est plus attribuée à Euclide, elle est considérée comme une compilation plus tardive[35].
+Euclide est mentionné comme auteur de fragments concernant la mécanique, plus précisément de textes sur le levier et la balance, dans certains manuscrits en latin ou en arabe. L’attribution est maintenant considérée comme douteuse[37].
+Éditions
+Diogène Laërce, Vies, doctrines et sentences des philosophes illustres [détail des éditions] [lire en ligne] Euclide (Livre II)
+La première édition des Œuvres d’Euclide en grec moderne est celle de David Gregory, à Oxford en 1703, avec une traduction en latin. François Peyrard donna une édition en trois volumes et trois langues (grec, latin et français) des Éléments et des Data (c’est-à-dire de tous les textes d’Euclide de mathématiques pures connus en grec) à Paris en 1814-1818.
+L’édition de référence d’Euclide en grec reste celle de Heiberg et Menge (de) datant de la fin du xixe siècle :
+J. L. Heiberg et H. Menge, Euclidis Opera omnia, Leipzig, Teubner, 1883–1916, huit volumes.
+Elle inclut une traduction en latin à côté du texte grec et contient tous les écrits connus (y compris ceux d’attribution douteuse), ainsi que plusieurs commentaires par des auteurs anciens.
+La traduction française de référence pour les Éléments (à partir de l’édition de Heiberg) est :
+Euclide, Les Éléments, Bibliothèque d'histoire des sciences, Paris, Presses universitaires de France, 1990-2001 :
+vol. I, Livres I-IV, Géométrie plane ; trad. du texte de Heiberg et commentaires par Bernard Vitrac ; introduction générale par Maurice Caveing, 1990, 531 p. (ISBN 2-13-043240-9).
+vol. II, Livres V à IX [Livres V-VI, Proportions et similitude ; Livres VII-IX, Arithmétique; trad. du texte de Heiberg et commentaires par Bernard Vitrac, 1994, 572 p. (ISBN 2-13-045568-9).
+vol. III, Livre X, Grandeurs commensurables et incommensurables, classification des lignes irrationnelles ; trad. du texte de Heiberg et commentaires par Bernard Vitrac, 1998, 432 p. (ISBN 2-13-049586-9).
+vol. IV, Livre XI-XIII, Géométrie des solides ; trad. du texte de Heiberg et commentaires par Bernard Vitrac, 2001, 482 p. (ISBN 2-13-051927-X).
+Notes
+↑ Gravure (coloriée) inspirée de l'ouvrage d'André Thevet, Les vrais pourtraits et vies des hommes illustres grecz, latins et payens, 1584, Livre II, Chap. 24
+↑ Schreiber 1987, p. 25.
+↑ Proclus de Lycie (trad. Paul Ver Eecke), Les Commentaires sur les premiers livres des Éléments d’Euclide, Bruges, Desclée de Brouwer, 1948, p. 61.
+↑ a, b, c et d Vitrac 2004.
+↑ Fowler 1987, p. 208.
+↑ Heath 1921, p. 354.
+↑ a et b Schreiber 1987, p. 26.
+↑ a et b Caveing 1990, p. 15.
+↑ Caveing 1990, p. 15-16.
+↑ Plusieurs exemples sont donnés, et réfutés, dans Heath 1921, p. 355, Schreiber 1987, p. 25-31, Caveing 1990, p. 15, Vitrac 2004.
+↑ Caveing 1990, p. 15, note 8.
+↑ Itard 1961, p. 11.
+↑ Caveing 1990, p. 20 y voit une pratique étrangère à l’époque concernée.
+↑ One of the oldest extant diagrams from Euclid, Bill Casselman, Department of Mathematics, University of British Columbia
+↑ Kayas 1977, p. 9 recense par exemple environ cent-soixante éditions entre 1650 et 1700 et quatre-cents entre 1850 et 1900.
+↑ a et b Caveing 1990, p. 18-19,Heath 1921, p. 373-419.
+↑ D’autres types de constructions apparaissent dans l’Antiquité, mais ne figurent pas dans les Éléments d’Euclide, comme la construction par « neusis » ou par inclinaison, un procédé de construction utilisant une règle graduée et consistant à construire un segment de longueur donnée dont les extrémités se trouvent sur deux courbes données.
+↑ Caveing 1990, p. 20-21.
+↑ Caveing 1990, p. 46.
+↑ Knorr 1986, p. 109,Taisbak 2003, p. 15.
+↑ Heath 1921, p. 421-425.
+↑ Taisbak 2003, p. 102.
+↑ Schreiber 1987, p. 58.
+↑ Heath 1921, p. 425-430.
+↑ Schreiber 1987, p. 63-65.
+↑ Caveing 1990, p. 22-23.
+↑ Heath 1921, p. 438-439.
+↑ Heath 1921, p. 433.
+↑ Heath 1921, p. 435-437.
+↑ Caveing 1990, p. 26.
+↑ Heath 1921, p. 348.
+↑ Schreiber 1987, p. 56.
+↑ Il donne un énoncé proche de celui disant que le rapport des tangentes de deux angles aigus est inférieur au rapport des angles, voir Heath 1921, p. 442.
+↑ Heath 1921, p. 441-444.
+↑ a et b Caveing 1990, p. 27.
+↑ Schreiber 1987, p. 57.
+↑ Caveing 1990, p. 27-28.
+Références
+(en) Ivor Bulmer-Thomas (en), « Euclid : Life and Works », dans Charles Gillispie, Dictionary of Scientific Biography, vol. IV, New York, 1970-1980 (lire en ligne), p. 414-437
+Maurice Caveing, Introduction générale à : Euclide, Les Éléments, Paris, PUF, 1990, 13-148 p. (ISBN 2130432409)
+(en) David Fowler (de), The Mathematics of Plato’s Academy : A New Reconstruction, Oxford, Clarendon Press (Oxford Science Publications), 1987 (ISBN 0198539126)
+(en) Thomas Heath, A History of Greek Mathematics, vol. 1 et 2, Oxford, Clarendon Press, 1921
+(en) Thomas Heath, The Thirteen Books of Euclid’s Elements, Cambridge, Cambridge University Press, 1908
+Jean Itard, Les livres arithmétiques d’Euclide, Paris, Hermann, 1961
+Georges Kayas, Vingt-trois siècles de tradition euclidienne (essai bibliographique), Palaiseau, École polytechnique (LPNHE, rapport interne), 1977, 211 p.
+(en) Wilbur Richard Knorr (en), The Ancient Tradition of Geometric Problems, Boston, Birkhäuser, 1986, 410 p. (ISBN 9783764331481)
+(de) Peter Schreiber, Euklid, Leipzig, Teubner, coll. « Biographien hervorragender Naturwissenschaftler, Techniker und Mediziner » (no 87), 1987, 159 p. (ISBN 3322003779)
+(en) Christian Marinus Taisbak, Euclid’s Data (Dedomena) : The Importance of Being Given, Copenhagen, Museum Tusculanum Press, 2003
+Bernard Vitrac, « Euclide », dans Richard Goulet, Dictionnaire des philosophes antiques, vol. 3, Paris, Éditions du CNRS, 2000, p. 252–272
+Bernard Vitrac, Les géomètres de la Grèce antique, Paris, Pour la Science, coll. « Les Génies de la science » (no 21), 2004 (ISSN 1298-6879, lire en ligne)
+Voir aussi
+Sur les autres projets Wikimedia :
+Euclide, sur Wikimedia Commons
+Euclide, sur Wikisource
+Articles connexes
+Axiome d'Euclide
+Lemme d'Euclide
+Théorème d'Euclide sur les nombres premiers
+Histoire de la géométrie
+Cratère lunaire Euclide
+Liens externes
+Les Éléments d'Euclide sur le site philoctetes.free.fr
+Les quinze livres des éléments géométriques d'Euclide (traduction de Denis Henrion, 1632) sur Gallica
+Bibliographie des IREM (France)
+« Euclide d'Alexandrie », sur bibmath.net
+Notices d'autorité : Fichier d'autorité international virtuel • International Standard Name Identifier • Bibliothèque nationale de France (données) • Système universitaire de documentation • Bibliothèque du Congrès • Gemeinsame Normdatei • Bibliothèque nationale d'Espagne • WorldCat
+v · m
+Mathématiques de la Grèce antique
+Mathématiciens
+Adraste · Anaxagore · Anthémius de Tralles · Antiphon · Apollonios · Archimède · Archytas · Aristarque · Aristée l'Ancien · Aristote · Autolycos · Bion · Boèce · Bryson · Callippe · Carpos · Chrysippe · Cléomède · Conon · Ctésibios · Démocrite · Dicéarque · Dioclès · Diophante · Dinostrate · Dionysodoros · Domninos · Ératosthène · Eudème · Euclide · Eudoxe · Eutocios · Eurytos · Geminos · Hélicon · Héron · Hipparque · Hippase · Hippias · Hippocrate · Hypatie · Hypsiclès · Isidore de Milet · Léodamas · Léon · Marinos · Ménechme · Ménélaos · Métrodore · Nicomaque · Nicomède · Nicotèle · Œnopide · Pappus · Persée · Philolaos · Philon · Porphyre · Posidonios · Ptolémée · Pythagore · Sérénos · Soudinès · Sporos · Thalès · Théano · Théétète · Théodore · Théodose · Théon d'Alexandrie · Théon de Smyrne · Thymaridas · Xénocrate · Zénon d'Élée · Zénodore
+Frise chronologique des mathématiciens
+Traités
+Almageste · Palimpseste · Arithmétiques · Les Coniques · Éléments · sur les grandeurs et les distances du Soleil et de la Lune (Aristarque) · Des grandeurs et des distances du Soleil et de la Lune (Hipparque) · La Sphère en mouvement · L'Arénaire
+Problèmes
+Problème d'Apollonius · Quadrature du cercle · Duplication du cube · Trisection de l'angle
+Centres
+Académie de Platon · Bibliothèque d'Alexandrie · Cyrène
+Portail des mathématiques
+Portail de la philosophie antique
+Portail de la Grèce antique
+Ce document provient de « https://fr.wikipedia.org/w/index.php?title=Euclide&oldid=133235371 ».
+Catégories : Mathématicien de la Grèce antiquePhilosophe de la Grèce antiquePersonnage cité dans la Divine Comédie (Enfer)Catégories cachées : Page en semi-protection longueArticle contenant un appel à traduction en allemandPage utilisant le modèle Références avec un paramètre obsolèteArticle contenant un appel à traduction en anglaisCatégorie Commons avec lien local identique sur WikidataArticle de Wikipédia avec notice d'autoritéPortail:Mathématiques/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/ArticlesPortail:Philosophie antique/Articles liésPortail:Philosophie/Articles liésPortail:Grèce antique/Articles liésPortail:Monde antique/Articles liésPortail:Histoire/Articles liésPortail:Europe/Articles liésWikipédia:Article biographiquePortail:Biographie/Articles liés/SciencesPortail:Biographie/Articles liés/Culture et arts
+Menu de navigation
+Outils personnels
+Non connectéDiscussionContributionsCréer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Voir le texte source
+Historique
+Plus
+Rechercher
+Navigation
+AccueilPortails thématiquesArticle au hasardContact
+Contribuer
+Débuter sur WikipédiaAideCommunautéModifications récentesFaire un don
+Outils
+Pages liéesSuivi des pages liéesImporter un fichierPages spécialesAdresse permanenteInformation sur la pageÉlément WikidataCiter cette page
+Imprimer / exporter
+Créer un livreTélécharger comme PDFVersion imprimable
+Dans d’autres projets
+Wikimédia CommonsWikisource
+Dans d’autres langues
+AfrikaansAlemannischአማርኛAragonésالعربيةمصرىঅসমীয়াAsturianuAzərbaycancaБашҡортсаŽemaitėškaБеларускаяБеларуская (тарашкевіца)‎БългарскиभोजपुरीBislamaবাংলাབོད་ཡིགBrezhonegBosanskiБуряадCatalàНохчийнکوردیی ناوەندیČeštinaЧӑвашлаCymraegDanskDeutschΕλληνικάEnglishEsperantoEspañolEestiEuskaraEstremeñuفارسیSuomiVõroNordfriiskFryskGaeilge贛語Galegoગુજરાતી客家語/Hak-kâ-ngîעבריתहिन्दीFiji HindiHrvatskiMagyarՀայերենInterlinguaBahasa IndonesiaIlokanoIdoÍslenskaItaliano日本語PatoisLa .lojban.Basa JawaქართულიQaraqalpaqshaҚазақша한국어RipoarischKurdîКыргызчаLatinaLigureLumbaartLietuviųLatviešuMalagasyМакедонскиമലയാളംМонголमराठीBahasa MelayuMaltiMirandésမြန်မာဘာသာNederlandsNorsk nynorskNorsk bokmålOccitanOromooଓଡ଼ିଆਪੰਜਾਬੀPolskiPiemontèisپنجابیپښتوPortuguêsRomânăРусскийРусиньскыйСаха тылаSicilianuScotsسنڌيSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaSlovenščinaShqipСрпски / srpskiSvenskaKiswahiliதமிழ்తెలుగుТоҷикӣไทยTagalogTürkçeТатарча/tatarçaУкраїнськаاردوOʻzbekcha/ўзбекчаVènetoVepsän kel’Tiếng ViệtVolapükWinaray吴语ХальмгIsiXhosaმარგალურიייִדישYorùbáVahcuengh中文文言粵語
+Modifier les liens
+Dernière modification de cette page le 2 janvier 2017, à 14:07.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Déclaration sur les témoins (cookies)
+Version mobile

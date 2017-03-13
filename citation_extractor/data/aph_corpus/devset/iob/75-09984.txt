@@ -1,0 +1,36 @@
+Auseinandersetzung	NN
+mit	APPR
+der	ART
+Annahme	NN
+von	APPR
+D.	NE
+Gygax	NE
+(	$(
+zuletzt	ADV
+=>	NN
+73-11348	CARD
+)	$(
+und	KON
+J.	NE
+A.	APPRART
+Tunny	NN
+(	$(
+=>	NN
+71-10833	CARD
+)	$(
+,	$,
+auf	APPR
+der	ART
+Mendes-Stele	NN
+sei	VAFIN
+ein	ART
+unehelicher	ADJA
+Sohn	NN
+von	APPR
+Ptolemaios	NE
+II	NE
+.	$.
+
+erwähnt	VVPP
+.	$.
+

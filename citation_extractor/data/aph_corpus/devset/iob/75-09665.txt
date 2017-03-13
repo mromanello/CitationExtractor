@@ -1,0 +1,15 @@
+Rassegna	NOM
+di	PRE
+testi	NOM
+papirologici	ADJ
+in	PRE
+greco	NOM
+.	SENT
+
+Per	PRE
+la	DET:def
+precedente	ADJ
+rassegna	NOM
+=>	NOM
+72-11339	NUM
+

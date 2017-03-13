@@ -1,0 +1,20 @@
+L'	DET:def
+attività	NOM
+mineraria	ADJ
+e	CON
+metallurgica	ADJ
+nella	PRE:det
+regione	NOM
+illirica	NOM
+ebbe	VER:remo
+notevole	ADJ
+rilievo	NOM
+in	PRE
+età	NOM
+imperiale	ADJ
+e	CON
+condizionò	VER:remo
+varie	ADJ
+scelte	NOM
+politiche	ADJ
+

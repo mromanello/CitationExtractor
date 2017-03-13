@@ -1,0 +1,23 @@
+Analisi	NOM
+e	CON
+nuova	ADJ
+interpretazione	NOM
+dell'	PRE:det
+iscrizione	NOM
+aramaica	ADJ
+che	PRO:rela
+conferma	VER:impe
+gli	DET:def
+enormi	ADJ
+introiti	NOM
+fiscali	ADJ
+derivanti	VER:ppre
+all'	PRE:det
+impero	NOM
+romano	ADJ
+dall'	PRE:det
+importazione	NOM
+di	PRE
+merci	NOM
+orientali	ADJ
+

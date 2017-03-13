@@ -1,0 +1,34 @@
+Présentation	NOM
+des	PRP:det
+données	NOM
+archéologiques	ADJ
+.	SENT
+
+Si	KON
+les	DET:ART
+propriétés	NOM
+pontificales	ADJ
+s'	PRO:PER
+accroissent	VER:pres
+rapidement	ADV
+,	PUN
+de	PRP
+riches	NOM
+«	PUN:cit
+domus	NOM
+»	PUN:cit
+se	PRO:PER
+maintiennent	VER:pres
+dans	PRP
+le	DET:ART
+quartier	NOM
+pendant	PRP
+une	DET:ART
+longue	ADJ
+période	NOM
+.	SENT
+
+Discussions	NOM
+p.	ABR
+109-116	NUM
+

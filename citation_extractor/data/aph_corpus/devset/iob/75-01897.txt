@@ -1,0 +1,13 @@
+A	PRE
+proposito	NOM
+dell'	PRE:det
+edizione	NOM
+commentata	VER:pper
+di	PRE
+M.	NOM
+Curnis	NOM
+(	PON
+=>	NOM
+74-02098	NUM
+)	PON
+

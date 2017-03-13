@@ -1,0 +1,10 @@
+Bain	NOM
+légionnaire	NOM
+d'	PRP
+époque	NOM
+flavienne	NOM
+.	SENT
+
+Constructions	NOM
+civiles	ADJ
+

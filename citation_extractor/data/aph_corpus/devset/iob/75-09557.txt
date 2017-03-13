@@ -1,0 +1,36 @@
+Catalogo	NOM
+dei	PRE:det
+214	NUM
+antoniniani	NOM
+,	PON
+datati	VER:pper
+tra	PRE
+il	DET:def
+260	NUM
+e	CON
+il	DET:def
+294	NUM
+d.	NOM
+C.	NPR
+,	PON
+rinvenuti	VER:pper
+nel	PRE:det
+relitto	NOM
+«	PON
+A	NOM
+»	PON
+di	PRE
+Fontanamare	NOM
+(	PON
+3°-4°	NOM
+sec.	ABR
+d.	ABR
+C.	LS
+)	PON
+.	SENT
+
+Bibliografia	NOM
+alle	PRE:det
+p.	NOM
+145-151	NUM
+

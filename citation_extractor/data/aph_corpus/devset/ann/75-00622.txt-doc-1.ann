@@ -1,0 +1,6 @@
+T1	REFAUWORK 186 190	(Rh.
+T2	REFSCOPE 191 211	2, 2, 1378 A 31-33).
+T3	AAUTHOR 531 540	Aristotle
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:2514.1519:2.2.1378
+#1	AnnotatorNotes T3	urn:cts:greekLit:tlg0086

@@ -1,5 +1,0 @@
-T1	AWORK 9 24	Histoire variée
-T2	REFSCOPE 25 30	13, 1
-T3	AAUTHOR 32 37	Élien
-R1	Scope Arg1:T1 Arg2:T2	
-R2	authorOf Arg1:T3 Arg2:T1	

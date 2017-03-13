@@ -1,0 +1,36 @@
+Il	DET:def
+ms.	NOM
+Firenze	NPR
+,	PON
+Bibl	NOM
+.	SENT
+
+Medicea	ADJ
+Laurenziana	NOM
+,	PON
+28	NUM
+,	PON
+4	NUM
+,	PON
+di	PRE
+età	NOM
+rinascimentale	ADJ
+,	PON
+riproduce	VER:pres
+fedelmente	ADV
+la	DET:def
+scrittura	NOM
+dell'	PRE:det
+antigrafo	NOM
+scomparso	ADJ
+,	PON
+un	DET:indef
+manoscritto	NOM
+del	PRE:det
+9°	NOM
+s.	NOM
+posseduto	VER:pper
+da	PRE
+Giorgio	NPR
+Valla	NOM
+

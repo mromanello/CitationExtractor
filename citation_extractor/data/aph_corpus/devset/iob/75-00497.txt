@@ -1,0 +1,5 @@
+Édition	NOM
+des	PRP:det
+deux	NUM
+textes	NOM
+

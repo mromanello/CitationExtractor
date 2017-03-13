@@ -1,0 +1,19 @@
+In	PRE
+questo	PRO:demo
+settore	NOM
+è	VER:pres
+ben	ADV
+visibile	ADJ
+l'	DET:def
+influsso	NOM
+della	PRE:det
+cultura	NOM
+greca	ADJ
+,	PON
+forse	ADV
+anche	ADV
+a	PRE
+livello	NOM
+di	PRE
+committenza	NOM
+

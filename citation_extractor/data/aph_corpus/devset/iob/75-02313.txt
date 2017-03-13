@@ -1,0 +1,12 @@
+Presentazione	NOM
+dei	PRE:det
+risultati	NOM
+filologici	ADJ
+e	CON
+storico-esegetici	ADJ
+dell'	PRE:det
+ed	CON
+.	SENT
+schedata	NOM
+74-02637	NUM
+

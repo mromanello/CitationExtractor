@@ -1,0 +1,7 @@
+1969-2003	CARD
+einschliesslich	APPR
+in	APPR
+Vorbereitung	NN
+befindlicher	ADJA
+Schriften	NN
+

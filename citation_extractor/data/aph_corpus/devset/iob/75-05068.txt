@@ -1,0 +1,11 @@
+Représentations	NOM
+de	PRP
+l'	DET:ART
+Hadès	NAM
+.	SENT
+
+Pour	PRP
+1	NUM
+=>	ABR
+75-05067	NUM
+

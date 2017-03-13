@@ -1,0 +1,18 @@
+Includes	VBZ
+discussion	NN
+of	IN
+P.	NP
+Heather	NP
+(	(
+=>	NP
+69-10134	CD
+)	)
+and	CC
+M.	NP
+Jones	NP
+(	(
+=>	NP
+67-09503	CD
+)	)
+.	SENT
+

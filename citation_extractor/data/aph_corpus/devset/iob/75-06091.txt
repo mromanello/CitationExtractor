@@ -1,0 +1,36 @@
+Chez	PRP
+Tibulle	NAM
+(	PUN
+2	NUM
+,	PUN
+5	NUM
+)	PUN
+,	PUN
+la	DET:ART
+Sibylle	NAM
+garantit	VER:pres
+l'	DET:ART
+origine	NOM
+troyenne	ADJ
+de	PRP
+Rome	NAM
+.	SENT
+
+Cette	PRO:DEM
+élégie	NOM
+reflète	VER:pres
+également	ADV
+la	DET:ART
+restauration	NOM
+religieuse	ADJ
+engagée	VER:pper
+par	PRP
+Auguste	NAM
+et	KON
+le	DET:ART
+crédit	NOM
+renouvelé	VER:pper
+des	PRP:det
+Livres	NOM
+sibyllins	ADJ
+

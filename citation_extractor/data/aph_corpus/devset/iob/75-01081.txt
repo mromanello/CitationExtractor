@@ -1,0 +1,11 @@
+Zur	NAM
+Lesung	NAM
+von	NAM
+E.	ABR
+Livrea	NAM
+(	PUN
+=>	ABR
+74-01233	NUM
+)	PUN
+.	SENT
+

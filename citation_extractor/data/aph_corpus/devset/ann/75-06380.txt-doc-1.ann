@@ -1,0 +1,6 @@
+T1	AAUTHOR 19 28	Senofonte
+T2	REFAUWORK 198 201	An.
+T3	REFSCOPE 202 213	5, 3, 9-10.
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0032.tlg006:5.3.9-5.3.10
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0032

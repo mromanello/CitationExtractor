@@ -1,0 +1,17 @@
+A	PREP	O
+propósito	NC	O
+de	PREP	O
+Epicteto	NC	B-REFAUWORK
+,	CM	I-REFAUWORK
+Manual	NC	I-REFAUWORK
+29	CARD	B-REFSCOPE
+,	CM	I-REFSCOPE
+2	CARD	B-REFSCOPE
+,	CM	I-REFSCOPE
+se	SE	I-REFSCOPE
+considera	VLfin	O
+la	ART	O
+dieta	NC	O
+del	PDEL	O
+atleta	NC	O
+antiguo	ADJ	O

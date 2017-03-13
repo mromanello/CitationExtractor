@@ -1,0 +1,10 @@
+Le	DET:ART
+témoignage	NOM
+de	PRP
+Justin	NAM
+doit	VER:pres
+être	VER:infi
+considéré	VER:pper
+avec	PRP
+prudence	NOM
+

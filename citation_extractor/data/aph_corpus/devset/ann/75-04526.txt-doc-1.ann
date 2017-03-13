@@ -1,0 +1,8 @@
+T1	AWORK 79 94	« Onomasticon »
+T2	REFSCOPE 95 105	(1, 40-41)
+T3	AWORK 209 224	« De decalogo »
+T4	AAUTHOR 228 235	Filone,
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes T4	urn:cts:cwkb:1041
+#1	AnnotatorNotes T3	urn:cts:cwkb:1042.3537
+#2	AnnotatorNotes T1	urn:cts:cwkb:871.2328

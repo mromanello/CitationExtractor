@@ -1,3 +1,0 @@
-T1	AWORK 41 61	« Analytica priora »
-T2	AAUTHOR 92 103	Aristoteles
-R1	authorOf Arg1:T2 Arg2:T1	

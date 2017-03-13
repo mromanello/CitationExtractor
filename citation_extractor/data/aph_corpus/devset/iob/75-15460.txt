@@ -1,0 +1,9 @@
+Considerazioni	NOM
+sul	PRE:det
+volume	NOM
+di	PRE
+A.	NPR
+Traina	NOM
+schedato	ADJ
+74-18018	NUM
+

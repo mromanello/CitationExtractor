@@ -1,0 +1,7 @@
+T1	REFAUWORK 227 231	(Od.
+T2	REFSCOPE 232 243	24, 507-508
+T3	REFSCOPE 244 252	und 512)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:763.1600:24.507-24.508
+#1	AnnotatorNotes R2	urn:cts:cwkb:763.1600:512

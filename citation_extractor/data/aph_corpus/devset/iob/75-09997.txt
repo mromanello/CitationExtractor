@@ -1,0 +1,27 @@
+I	DET:def
+rilevanti	ADJ
+cambiamenti	NOM
+di	PRE
+questo	PRO:demo
+periodo	NOM
+non	ADV
+mancarono	VER:remo
+di	PRE
+influenzare	VER:infi
+anche	ADV
+i	DET:def
+Traci	NOM
+,	PON
+che	PRO:rela
+nel	PRE:det
+3°	NOM
+sec.	NOM
+a.	NOM
+C.	NPR
+avevano	VER:impf
+assimilato	VER:pper
+molto	ADV
+dal	PRE:det
+mondo	NOM
+greco	ADJ
+

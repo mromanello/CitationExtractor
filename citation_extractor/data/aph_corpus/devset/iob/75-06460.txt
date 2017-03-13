@@ -1,0 +1,12 @@
+Osservazioni	NOM
+sui	PRE:det
+concetti	NOM
+di	PRE
+medietà	NOM
+e	CON
+di	PRE
+centralità	NOM
+nella	PRE:det
+letteratura	NOM
+greca	ADJ
+

@@ -1,0 +1,32 @@
+Vorlage	NN
+von	APPR
+elf	CARD
+Skulpturen	NN
+(	$(
+darunter	ADV
+zwei	CARD
+verlorenen	ADJA
+)	$(
+,	$,
+die	PRELS
+nach	APPR
+ägyptischen	ADJA
+Darstellungsprinzipien	NN
+Herrscher	NN
+von	APPR
+der	ART
+frühen	ADJA
+Ptolemäerzeit	NN
+bis	KON
+in	APPR
+die	ART
+hohe	ADJA
+Kaiserzeit	NN
+zeigen	VVFIN
+.	$.
+
+Zu	APPR
+1	CARD
+=>	NN
+74-12987	CARD
+

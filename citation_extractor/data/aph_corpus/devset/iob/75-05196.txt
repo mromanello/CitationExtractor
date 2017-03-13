@@ -1,0 +1,10 @@
+Trabajo	NC
+ya	ADV
+publicado	VLadj
+anteriormente	ADV
+(	LP
+=>	NC
+72-05565	CODE
+)	RP
+.	FS
+

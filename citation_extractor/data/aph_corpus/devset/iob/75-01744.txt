@@ -1,0 +1,15 @@
+Texte	NOM
+liturgique	ADJ
+,	PUN
+sans	PRP
+doute	NOM
+médiéval	ADJ
+,	PUN
+attribué	VER:pper
+à	PRP
+Éphrem	NAM
+(	PUN
+CPG	NAM
+4086	NUM
+)	PUN
+

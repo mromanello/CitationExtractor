@@ -1,0 +1,23 @@
+A	PRE
+proposito	NOM
+del	PRE:det
+volume	NOM
+di	PRE
+M.	NOM
+Dillon	NOM
+sul	PRE:det
+ruolo	NOM
+svolto	VER:pper
+dalla	PRE:det
+donna	NOM
+in	PRE
+contesti	NOM
+cultuali	ADJ
+nel	PRE:det
+mondo	NOM
+greco	ADJ
+(	PON
+=>	NOM
+73-13129	NUM
+)	PON
+

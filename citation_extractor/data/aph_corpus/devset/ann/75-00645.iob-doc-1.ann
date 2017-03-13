@@ -1,9 +1,0 @@
-T1	REFAUWORK 22 31	(Politika
-T2	REFSCOPE 32 43	8, 4, 1338b
-T3	AAUTHOR 0 11	Aristoteles
-T4	REFSCOPE 48 53	1339a
-R1	authorOf Arg1:T3 Arg2:T1	
-R2	Scope Arg1:T1 Arg2:T2	
-R3	Scope Arg1:T1 Arg2:T4	
-#1	AnnotatorNotes R3	http://cwkb.webfactional.com/cwkb/works/1661/8.4.1139a
-#2	AnnotatorNotes R2	http://cwkb.webfactional.com/cwkb/works/1661/8.4.1338b

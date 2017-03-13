@@ -1,0 +1,35 @@
+Extrait	VER:pper
+,	PUN
+en	PRO:PER
+trad.	VER:cond
+française	ADJ
+,	PUN
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+70-11300	NUM
+.	SENT
+
+La	DET:ART
+profession	NOM
+médicale	ADJ
+chez	PRP
+les	DET:ART
+Romains	NAM
+et	KON
+les	DET:ART
+établissements	NOM
+de	PRP
+santé	NOM
+dans	PRP
+le	DET:ART
+monde	NOM
+antique	ADJ
+.	SENT
+
+Pour	PRP
+1	NUM
+=>	ABR
+75-13894	NUM
+

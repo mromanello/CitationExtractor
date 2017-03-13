@@ -1,0 +1,11 @@
+T1	AAUTHOR 64 71	Virgile
+T2	AWORK 88 98	« Énéide »
+T3	REFSCOPE 99 106	(1, 533
+T4	REFSCOPE 110 117	3, 166)
+T5	AAUTHOR 217 223	Varron
+T6	AAUTHOR 300 307	Virgile
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+#0	AnnotatorNotes T6	urn:cts:latinLit:phi0690
+#1	AnnotatorNotes T5	urn:cts:cwkb:671
+#2	AnnotatorNotes T1	urn:cts:latinLit:phi0690

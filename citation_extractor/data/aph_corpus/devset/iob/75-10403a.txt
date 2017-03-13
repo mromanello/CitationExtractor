@@ -1,0 +1,15 @@
+Structures	NOM
+socio-politiques	ADJ
+et	KON
+religieuses	ADJ
+,	PUN
+de	PRP
+la	DET:ART
+culture	NOM
+de	PRP
+Villanova	NAM
+à	PRP
+la	DET:ART
+conquête	NOM
+romaine	ADJ
+

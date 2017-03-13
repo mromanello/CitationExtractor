@@ -1,0 +1,27 @@
+Mosaïques	NOM
+de	PRP
+murs	NOM
+ou	KON
+de	PRP
+voûtes	NOM
+et	KON
+fragment	NOM
+de	PRP
+fresque	NOM
+,	PUN
+dégagés	VER:pper
+en	PRP
+1966	NUM
+,	PUN
+à	PRP
+dater	VER:infi
+du	PRP:det
+début	NOM
+du	PRP:det
+3e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+

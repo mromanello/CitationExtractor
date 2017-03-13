@@ -1,0 +1,1 @@
+Définition de nouveaux modèles de représentation de la sémantique des documents et de nouvelles méthodes d' indexation sémantique de documents : le modèle des graphes sémantiques et le prototype SyDoM (Système Documentaire Multilingue), le modèle des réseaux de description (Système Porphyre)

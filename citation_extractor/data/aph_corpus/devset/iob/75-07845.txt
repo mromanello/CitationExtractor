@@ -1,0 +1,34 @@
+Catalogue	NOM
+indexé	VER:pper
+et	KON
+présenté	VER:pper
+par	PRP
+site	NOM
+de	PRP
+54	NUM
+mosaïques	NOM
+à	PRP
+représentation	NOM
+humaine	ADJ
+,	PUN
+datées	VER:pper
+entre	PRP
+le	DET:ART
+3e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+et	KON
+le	DET:ART
+7e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+

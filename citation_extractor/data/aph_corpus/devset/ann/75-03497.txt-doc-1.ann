@@ -1,0 +1,14 @@
+T1	AAUTHOR 3 10	Ovid 's
+T2	AWORK 11 29	« Metamorphoses »,
+T3	AAUTHOR 30 40	Achilles '
+T4	REFSCOPE 201 212	(12, 70-145
+T5	REFSCOPE 217 226	580-619 ;
+T6	REFSCOPE 227 238	13, 441-448
+T7	REFSCOPE 239 251	and 576-622)
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T3 Arg2:T5
+R3	Scope Arg1:T3 Arg2:T6
+R4	Scope Arg1:T3 Arg2:T7
+#0	AnnotatorNotes T2	urn:cts:cwkb:741.1536
+#1	AnnotatorNotes T3	urn:cts:cwkb:1137
+#2	AnnotatorNotes T1	urn:cts:cwkb:568

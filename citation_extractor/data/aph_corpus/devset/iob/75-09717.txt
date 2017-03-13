@@ -1,0 +1,33 @@
+Zu	APPR
+Nr	NE
+.	$.
+
+94	CARD
+,	$,
+100	CARD
+,	$,
+101	ADJA
+,	$,
+111-113	ADJA
+,	$,
+115	ADJA
+,	$,
+118	ADJA
+(	$(
+römische	ADJA
+Zeit	NN
+)	$(
+,	$,
+92	CARD
+,	$,
+102	CARD
+,	$,
+105	ADJA
+,	$,
+108	ADJA
+(	$(
+byzantinische	ADJA
+Zeit	NN
+)	$(
+.	$.
+

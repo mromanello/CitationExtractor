@@ -1,0 +1,34 @@
+Commentaire	NOM
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+d'	PRP
+A	PRP
+.	SENT
+
+Mateo	NAM
+(	PUN
+=>	ABR
+75-13384	NUM
+)	PUN
+,	PUN
+sur	PRP
+le	DET:ART
+rôle	NOM
+des	PRP:det
+publicains	NOM
+,	PUN
+les	DET:ART
+mesures	NOM
+de	PRP
+Vespasien	NAM
+et	KON
+le	DET:ART
+régime	NOM
+instauré	VER:pper
+par	PRP
+les	DET:ART
+lois	NOM
+de	PRP
+Vipasca	NAM
+

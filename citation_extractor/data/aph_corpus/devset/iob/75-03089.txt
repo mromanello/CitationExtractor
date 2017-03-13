@@ -1,0 +1,22 @@
+Nuovo	ADJ
+esame	NOM
+delle	PRE:det
+testimonianze	NOM
+relative	ADJ
+alla	PRE:det
+vita	NOM
+e	CON
+all'	PRE:det
+opera	NOM
+di	PRE
+Linceo	NOM
+,	PON
+con	PRE
+particolare	ADJ
+attenzione	NOM
+ad	PRE
+Ateneo	NOM
+e	CON
+alla	PRE:det
+Suda	NOM
+

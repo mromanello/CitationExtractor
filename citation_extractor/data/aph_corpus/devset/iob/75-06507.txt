@@ -1,0 +1,20 @@
+A	PRE
+partire	VER:infi
+dall'	PRE:det
+idea	NOM
+di	PRE
+violenza	NOM
+,	PON
+le	DET:def
+sue	PRO:poss
+sfaccettature	NOM
+e	CON
+i	DET:def
+suoi	PRO:poss
+modi	NOM
+di	PRE
+rappresentazione	NOM
+nella	PRE:det
+letteratura	NOM
+greca	ADJ
+

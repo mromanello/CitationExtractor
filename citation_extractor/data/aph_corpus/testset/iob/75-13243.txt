@@ -1,0 +1,10 @@
+Resoconto	NOM	O
+dei	PRE:det	O
+lavori	NOM	O
+.	SENT	O
+
+Riguarda	VER:pres	O
+anche	ADV	O
+il	DET:def	O
+diritto	NOM	O
+romano	ADJ	O

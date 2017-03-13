@@ -1,0 +1,34 @@
+D'	PRP
+après	PRP
+le	DET:ART
+témoignage	NOM
+des	PRP:det
+tablettes	NOM
+,	PUN
+des	PRP:det
+sceaux	NOM
+,	PUN
+des	PRP:det
+sarcophages	NOM
+,	PUN
+des	PRP:det
+fresques	NOM
+,	PUN
+des	PRP:det
+aménagements	NOM
+cultuels	ADJ
+et	KON
+des	PRP:det
+cornes	NOM
+de	PRP
+consécration	NOM
+.	SENT
+
+Les	DET:ART
+pratiques	NOM
+mycéniennes	ADJ
+sont	VER:pres
+différentes	ADJ
+des	PRP:det
+minoennes	ADJ
+

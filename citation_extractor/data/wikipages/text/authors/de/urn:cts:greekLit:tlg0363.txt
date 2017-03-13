@@ -1,0 +1,347 @@
+Claudius Ptolemäus – Wikipedia
+Claudius Ptolemäus
+aus Wikipedia, der freien Enzyklopädie
+Wechseln zu:					Navigation, 					Suche
+Dieser Artikel behandelt den Mathematiker und Geographen. Andere Personen mit diesem Namen siehe unter Ptolemaios.
+Claudius Ptolemäus, neuzeitliches Idealporträt
+Claudius Ptolemäus (griechisch Κλαύδιος Πτολεμαῖος Klaúdios Ptolemaíos, lateinisch Claudius Ptolomaeus; * um 100, möglicherweise in Ptolemais Hermeiou, Ägypten; † nach 160, vermutlich in Alexandria)[1] war ein griechischer Mathematiker, Geograf, Astronom, Astrologe, Musiktheoretiker und Philosoph. Insbesondere seine drei Werke zur Astronomie, Geografie und Astrologie galten in Europa in der frühen Neuzeit als wichtige Datensammlungen und wissenschaftliche Standardwerke.
+Das geographische Werk hatte 561/62 noch Cassiodor in der Hand, doch erst mit der lateinischen Übersetzung einer Abschrift aus Konstantinopel, die in Florenz ab 1397 erfolgte, wurde die Geographike hyphegesis wieder rezipiert.[2]
+Ptolemäus verfasste die Mathematike Syntaxis („mathematische Zusammenstellung“), später Megiste Syntaxis („größte Zusammenstellung“), heute Almagest (abgeleitet vom Arabischen al-maǧisṭī) genannte Abhandlung zur Mathematik und Astronomie in 13 Büchern. Sie war bis zum Ende des Mittelalters ein Standardwerk der Astronomie und enthielt neben einem ausführlichen Sternenkatalog eine Verfeinerung des von Hipparchos von Nicäa vorgeschlagenen geozentrischen Weltbildes, das später nach ihm ptolemäisches Weltbild genannt wurde.
+Damit verwarf er wie der größte Teil seiner Zeitgenossen das von Aristarchos von Samos und Seleukos von Seleukia vertretene heliozentrische Weltbild, das erst 1300 Jahre später durch Nikolaus Kopernikus, Johannes Kepler und Galileo Galilei in Europa durchgesetzt werden sollte.
+Inhaltsverzeichnis
+1 Astronomie
+1.1 Ptolemäisches Weltbild
+1.2 Kritik
+1.3 Weitere Werke
+2 Mathematik
+3 Geographie
+4 Musiktheorie
+5 Optik und Erkenntnistheorie
+6 Astrologie
+7 Textausgaben
+8 Literatur
+9 Weblinks
+10 Fußnoten
+Astronomie[Bearbeiten | Quelltext bearbeiten]
+Ptolemäisches Weltbild[Bearbeiten | Quelltext bearbeiten]
+Das ptolemäische System mit der Erde im Zentrum
+Nach Ptolemäus befindet sich die Erde fest im Mittelpunkt des Weltalls, dem Centrum Mundi. Alle anderen Himmelskörper (Mond, Sonne, die fünf damals bekannten Planeten und der Sternhimmel) bewegen sich in kristallenen Sphären auf als vollkommen angesehenen Kreisbahnen (Deferent) um ihren Mittelpunkt Centrum Deferentis. Die Bewegung auf dem Deferent ist nicht gleichförmig. Es gibt jedoch einen weiteren Punkt, von dem die Bewegung auf dem Deferent gleichförmig erscheint. Dies ist das Centrum Aequantis. Alle drei Zentren liegen auf einer Linie (Linie der Zentren) und sind jeweils um die Exzentrizität des Planeten gegeneinander versetzt. Um astronomische Beobachtungen, insbesondere die zeitweise rückwärtige Bewegung der Planeten mit diesem System in Einklang zu bringen, war es allerdings notwendig, alle Himmelskörper auf ihren Bahnen weitere Kreise (Epizykel) um diese Deferenten ziehen zu lassen – siehe Epizykeltheorie – und teilweise noch weitere Bewegungen um die primären Epizykel, oder die Linie der Zentren rotieren zu lassen (Mondtheorie und Merkurtheorie). Durch den Einsatz solcher (gegeneinander leicht geneigter) Bahnen konnte Ptolemäus sein Modell mit den damals noch freiäugigen Beobachtungen in Einklang bringen.
+In der Sprache heutiger Mathematik könnte man Ptolemäus’ Berechnungsart als empirischen Vorläufer der Fourieranalyse bezeichnen, mit der die sekundären Perioden der Planetenbahnen (u. a. die Mittelpunktsgleichung) empirisch bestimmt wurden.
+Das ptolemäische Weltbild war in der Genauigkeit seiner Bahnvorhersage dem heliozentrischen Weltbild des Nikolaus Kopernikus (16. Jh.) überlegen. Das ptolemäische System wurde um 1600 durch das ebenfalls noch geozentrische tychonische Weltsystem (benannt nach Tycho Brahe) abgelöst. Erst Keplers Entdeckung, dass die Planeten auf Ellipsen um die Sonne laufen, führte dann zu einem damals ausreichend genauen und unter Astronomen allgemein akzeptierten Modell des kopernikanischen Weltbildes. Ptolemäus’ Berechnungsmethoden waren äußerst präzise (lange Zeit auch präziser als die keplerschen) und in ihrer Grundidee als Berechnungsmethode auch richtig, nicht allerdings in ihrer philosophischen Deutung, dass sich alles um die Erde als Mittelpunkt drehe. Der Durchbruch und Erfolg der keplerschen Berechnungen lag weniger darin begründet, dass die Sonne und nicht mehr die Erde im Mittelpunkt der Bewegungen stand, sondern in der Tatsache, dass Kepler Ellipsenbahnen und keine Kreisbahnen mehr verwendete, was zu einer größeren Übereinstimmung mit den von Tycho Brahe und später Galileo Galilei tatsächlich gemessenen Planetendaten führte.
+Kritik[Bearbeiten | Quelltext bearbeiten]
+Darstellung des ptolemäischen Weltsystems 1661
+In neuerer Zeit wurden die Leistungen des Ptolemäus jedoch sehr viel kritischer bewertet. Schon Tycho Brahe sprach um 1600 von „Betrug“. 1817 warf ihm der französische Astronom und Mathematiker Jean-Baptiste Joseph Delambre gefälschte und fingierte Beobachtungen, vorgefasste Meinungen, Lügen und Plagiat vor. Dies wurde 1977 und nochmals 1985 durch den US-amerikanischen Astronomen Robert Russell Newton in vollem Umfang wiederholt. So sollen laut Newton fast alle von Ptolemäus angeblich selbst gemachten Beobachtungen fiktiv oder von Hipparchos übernommen sein, dessen Längenangaben nur 2° 40', der Wert der aufgelaufenen Präzession, hinzugefügt wurden (korrekt wären 3° 40’ gewesen). Diesem vernichtenden Urteil über Ptolemäus hat sich B. L. van der Waerden in seinem 1988 erschienenen Buch Die Astronomie der Griechen angeschlossen.
+Andererseits präsentierte bereits 1796 Pierre Simon Laplace eine simple Erklärung: Die Differenz von einem Bogengrad lasse sich durch einen gleich großen Fehler in der damaligen Theorie der Sonnenbewegung begründen. Bradley E. Schaefer kam 2002 zu dem Schluss, eine beträchtliche Anzahl der von Ptolemäus genannten Beobachtungsdaten habe dieser (bzw. seine Assistenten) selbst gewonnen. Er habe jedoch dann, wenn fremde, ältere Daten besser zu seinem Modell passten als seine eigenen, diese ohne ausdrückliche Quellenangabe übernommen. Diese Vorgehensweise war zu einer Zeit, in der man an wissenschaftliche Arbeiten noch nicht die heute üblichen Maßstäbe anlegte, durchaus üblich.
+Weitere Werke[Bearbeiten | Quelltext bearbeiten]
+Ein weiteres astronomisches Werk des Ptolemäus sind seine „Planetenhypothesen“, in dem er die Ergebnisse des Almagest dazu benutzte, Aussagen über die Dimensionen des Universums im Großen zu treffen. So schätzte er aufgrund seines Modells die mittlere Distanz zur Sonne als 1.210 (tatsächlich: 23.480) und die Distanz zur Fixsternsphäre als 20.000 Erdradien. Gezeigt wird darin auch, wie ein anschauliches mechanisches Modell des Kosmos gebaut werden kann.
+Eine weitere vor allem für praktische Zwecke gedachte Sammlung sind seine „Handlichen Tabellen“. In der Phaseis (Aufgänge und Niedergänge der Sterne mit Wetterzeichen) stellte er zudem einen Sternkatalog basierend auf dem Lauf der Sterne übers ganze Jahr zusammen und erweiterte jenen von Hipparchos um etwa ein Viertel. Zur Anwendung der Mathematik auf astronomische Fragestellungen stammen von ihm die beiden Schriften Analemma und Planisphaerium. Astronomisch auch erwähnenswert ist die auf einer Stele erhaltene Kanobusinschrift.
+Seinen chronologischen Angaben bezüglich astronomischer Aufzeichnungen ordnet Ptolemäus Daten des ägyptischen Kalenders zu. Um Mehrdeutigkeiten zu vermeiden, nennt er für nächtliche Ereignisse den ausgehenden und beginnenden altägyptischen Tag. Aufgrund jener präzisen Angaben sind die jeweiligen Vorkommnisse im julianischen Kalender exakt datierbar.
+Mathematik[Bearbeiten | Quelltext bearbeiten]
+Satz von Ptolemäus
+Einzig bekanntes eigenständiges mathematisches Werk ist die nur noch bei Proklos überlieferte Abhandlung über das Parallelenpostulat, in dem er einen Beweis für das Parallelenaxiom von Euklid geben wollte, der aber mathematisch nachweisbar falsch ist. Andere mathematische Ausführungen wurden in die genannten primär anwendungsorientierten astronomischen Schriften eingearbeitet.
+So stammt von ihm der Satz von Ptolemäus. Dieser mathematische Lehrsatz gilt für Sehnenvierecke, also Vierecke, zu denen ein Kreis durch alle vier Ecken konstruiert werden kann. Der Satz von Ptolemäus besagt, dass bei einem Sehnenviereck die Summe aus dem Produkt gegenüberliegender Seitenlängen das Produkt der beiden Diagonalen ergibt. Somit gilt ac + bd = ef. Da auch symmetrische Trapeze einen Umkreis haben, erhält man für die symmetrischen Schenkel b = d und den Diagonalen e = f den Sonderfall ac + b2 = e2. Der Satz gilt ferner auch für Rechtecke, die ebenfalls einen Umkreis haben. Hier gilt dann a = c, so dass der Satz von Ptolemäus den Satz des Pythagoras als Spezialfall enthält: a2 + b2 = e2. Wie auch der Satz des Pythagoras ist der Satz von Ptolemäus umkehrbar.
+Konstruktion des regelmäßigen Fünfecks nach Ptolemäus
+Im Almagest (I 10) findet sich folgende Konstruktion der Seitenlängen des regelmäßigen Fünf- bzw. Zehnecks: Zum gegebenen Umkreis (Durchmesser [AB]) des gesuchten Fünf- oder Zehnecks wird der Radius [OB] halbiert (Mittelpunkt M) und der Kreis um M durch C gezeichnet. Der Schnittpunkt dieses Kreises mit dem Durchmesser [AB] ist der Punkt D. Dann ist
+s
+10
+{\displaystyle s_{10}}
+= OD die Seitenlänge des zugehörigen Zehnecks und
+s
+5
+{\displaystyle s_{5}}
+= CD die des zugehörigen Fünfecks. Außerdem ist natürlich
+s
+6
+{\displaystyle s_{6}}
+= r = OC die Seitenlänge des zugehörigen Sechsecks. Die Konstruktion beruht auf zwei Sätzen der Elemente des Euklid, nämlich XIII 10 (
+s
+5
+2
+=
+s
+6
+2
++
+s
+10
+2
+{\displaystyle s_{5}^{2}=s_{6}^{2}+s_{10}^{2}}
+) und XIII 9 (
+(
+s
+6
++
+s
+10
+)
+:
+s
+6
+=
+s
+6
+:
+s
+10
+{\displaystyle (s_{6}+s_{10}):s_{6}=s_{6}:s_{10}}
+) sowie der Konstruktion II 11 (stetige Teilung).
+Zur Sehnentafel des Ptolemäus
+Für seine astronomischen Berechnungen im Almagest verwendet Ptolemäus die heute nicht mehr gebräuchliche Winkelfunktion Chord:
+chord
+⁡
+(
+α
+)
+{\displaystyle \operatorname {chord} (\alpha )}
+ist die Länge der Sehne zum Mittelpunktswinkel
+α
+{\displaystyle \alpha }
+im Einheitskreis. In Kapitel I.11 Ist diese Funktion tabelliert für den Bereich
+α
+=
+1
+2
+∘
+{\displaystyle \alpha ={\tfrac {1}{2}}^{\circ }}
+bis
+180
+∘
+{\displaystyle 180^{\circ }}
+mit Schrittweite
+1
+2
+∘
+{\displaystyle {\tfrac {1}{2}}^{\circ }}
+. Solche Sehnentafeln dienten als Ersatz für eine Sinus-Tabelle, da gilt:
+chord
+⁡
+(
+α
+)
+=
+2
+sin
+⁡
+(
+α
+2
+)
+.
+{\displaystyle \operatorname {chord} (\alpha )=2\sin({\tfrac {\alpha }{2}}).}
+Als Beispiel für die erreichte Genauigkeit soll die Angabe aus dem Almagest dienen:
+chord
+⁡
+(
+1
+∘
+)
+=
+1
+p
+2
+′
+50
+″
+.
+{\displaystyle \operatorname {chord} (1^{\circ })=1^{p}2'50''.}
+Im Sechzigersystem bedeutet dies
+chord
+⁡
+(
+1
+∘
+)
+=
+1
+60
++
+2
+60
+2
++
+50
+60
+3
+=
+0,017
+453702.
+{\displaystyle \operatorname {chord} (1^{\circ })={\frac {1}{60}}+{\frac {2}{60^{2}}}+{\frac {50}{60^{3}}}=0{,}017453702.}
+Damit wird etwa eine 5-stellige Genauigkeit erreicht, wie der Vergleich zeigt:
+2
+sin
+⁡
+(
+0
+,
+5
+∘
+)
+=
+0,017
+453071.
+{\displaystyle 2\sin(0{,}5^{\circ })=0{,}017453071.}
+In der Abbildung gilt:
+chord
+⁡
+(
+α
+)
+=
+B
+C
+¯
+{\displaystyle \operatorname {chord} (\alpha )={\overline {BC}}}
+und
+chord
+⁡
+(
+α
+2
+)
+=
+B
+D
+¯
+.
+{\displaystyle \operatorname {chord} ({\tfrac {\alpha }{2}})={\overline {BD}}.}
+Im Einheitskreis hat der Satz des Pythagoras dann die Form:
+chord
+⁡
+(
+α
+)
+2
++
+chord
+⁡
+(
+180
+∘
+−
+α
+)
+2
+=
+2
+2
+.
+{\displaystyle \operatorname {chord} (\alpha )^{2}+\operatorname {chord} (180^{\circ }-\alpha )^{2}=2^{2}.}
+Geographie[Bearbeiten | Quelltext bearbeiten]
+Ptolemäus’ Sicht der Erde in einer Darstellung aus dem 15. Jahrhundert
+Neben dem zusammenfassenden Kanon bedeutender Städte verfasste Ptolemäus die Geographia (Geographike Hyphegesis, Explicatio geographica, „geografische Anleitung“), in der er die bekannte Welt und ihre Bewohner aufzeichnete.
+Moderne Darstellung zu Beginn des 20. Jahrhunderts
+Als Referenz für die Längengrade (±180°) definierte er den bis in das 19. Jahrhundert verwendeten Meridian durch die von ihm so genannten „makaron nesoi“ (lateinisch: „insulae fortunatae“), die heutigen Kanarischen Inseln (Ferro-Meridian). Seine Definition der Breitengrade ist bis heute gültig (Äquator 0°, Pole ±90°). Außerdem legt er darin seine Hypothese vom unbekannten Südkontinent Terra Australis dar. Ptolemäus war wie früher schon Aristoteles bekannt, dass die Erde eine Kugel ist; er stellte zu deren Darstellung in einer Blattebene mehrere geeignete Projektionen vor. Er nahm auch verschiedene Verbesserungen am früheren Werk des Marinos von Tyros vor. Allerdings nutzte er Informationen aus zweiter Hand oder Legenden, so dass seine Darstellungen, insbesondere der behandelten Völker, oft ungenau oder sogar irreführend sind. Er befasste sich auch mit den Berechnungen des Erdumfangs von Eratosthenes und Poseidonios. Dabei übernahm er die falschen Ergebnisse des Letzteren, die dann in die allgemein bekannte Literatur übergingen und bis zu Christoph Kolumbus auf einen zu geringen Erdumfang von ca. 17.000 Seemeilen (30.000 km) schließen ließen.
+Ptolemäus überlieferte lediglich schriftliche Anleitungen und Tabellen zur Erstellung von Karten, zeichnete selbst aber nur wenige grobe Skizzen. Später wurden in seinem Namen Geographien geschrieben und im Laufe der Jahrhunderte durch zahlreiche Karten ergänzt.[3]
+Musiktheorie[Bearbeiten | Quelltext bearbeiten]
+Ptolemäus schrieb auch die aus drei Büchern bestehende „Harmonik“, das wichtigste erhaltene musiktheoretische Werk der Spätantike nach Aristoxenos und Euklid. Er versuchte – wie wahrscheinlich schon Eratosthenes – einen Kompromiss zwischen Aristoxenos und den Pythagoreern, an dem sich später auch Boethius orientierte. Rechnerisch vertrat er die Position von Euklid, ideell und terminologisch aber die auf der musikalischen Wahrnehmung aufgebaute Lehre des Aristoxenos. Er überlieferte in seiner Harmonik viele Details älterer antiker Musiktheoretiker, etwa die Tetrachorde (Tongeschlechter) von Archytas, Eratosthenes und Didymos, die ansonsten verloren wären.
+Optik und Erkenntnistheorie[Bearbeiten | Quelltext bearbeiten]
+Sein Werk Optik befasst sich mit den Eigenschaften des Lichtes. Er behandelt experimentell und mathematisch unter anderem die Reflexion, Brechung und Farben. Daneben werden optische Täuschungen erwähnt. In der philosophischen Abhandlung peri kriteriou kai hegemonikou (lat. de iudicandi facultate et animi principatu, „Von der Urteilskraft und dem Verstand“) vertritt er eine Mischung aus neuplatonischen und stoischen Anschauungen.
+Daneben verfasste er auch das zweiteilige Werk Kriterion zur Erkenntnistheorie, nach dem für das Erkennen von Wahrheit allein die Vernunft genügt. Dabei geht er auch auf das Denken von Tieren ein und bestimmt das sogenannte Hegemonikon, das Funktionszentrum des Körpers, einerseits zum „Leben“ im Herzen und andererseits zum Fällen ethischer Entscheide d. h. zum „Gut Leben“ im Gehirn.
+Astrologie[Bearbeiten | Quelltext bearbeiten]
+Darüber hinaus verfasste Ptolemäus das bis heute nachwirkende vierbändige astrologische Grundlagenwerk Tetrabiblos („vier Bücher“; griechisch Ἀποτελεσματικά Apotelesmatika), das auf seinen astronomischen Schriften basiert und die Auswirkungen der Himmelskörper auf die Menschen und deren Schicksal beschreibt.
+Der Mondkrater Ptolemaeus ist seit 1935 nach ihm benannt. Gleiches gilt seit 1962 für den Mount Ptolemy in der Antarktis.
+Textausgaben[Bearbeiten | Quelltext bearbeiten]
+Johan Ludvig Heiberg (Hrsg.): Claudii Ptolemaei opera quae exstant omnia. Teubner, Leipzig, Band I (Syntaxis, also Almagest) in zwei Bänden 1898, 1903, Band II (Opera astronomica minora), 1907. Der Teil III, 1 (Tetrabiblos) wurde von Franz Boll, Emilie Boer herausgegeben und erschien 1954 (und 1998 bearbeitet von Wolfgang Hübner), Teil III, 2 (Fragmente, zweifelhafte Werke) wurde 1952, 1961 von Friedrich Lammert herausgegeben.
+Claudius Ptolemäus: Tetrabiblos. Nach der von Melanchthon besorgten seltenen Ausgabe aus dem Jahre 1553. 2. Auflage. Chiron, Tübingen 2000, ISBN 3-925100-17-2. 
+Frank E. Robbins (Hrsg.): Ptolemy Tetrabiblos, Loeb Classical Library, Harvard University Press 1940.
+Ingemar Düring: Die Harmonielehre des Klaudios Ptolemaios. Elander, Göteborg, 1930; Nachdruck Olms, Hildesheim 1982.
+Jon Solomon (Hrsg.): Ptolemy. Harmonics, Mnemosyne, Bibliotheca Classica Batava, Supplementum, Leiden: Brill 2000 (englische Übersetzung)
+A. M. Smith (Hrsg.): Ptolemy's theory of visual perception: An English translation of the Optics with introduction and commentary, Transactions of the American Philosophical Society, Band 86, Teil 2, Philadelphia 1996.
+A. Lejeune (Hrsg.): L´optique de Claude Ptolémée, Löwen 1956 und Leiden: Brill 1989 (Latein/Französisch)
+Für die Ausgaben des Almagest und Geographike Hyphegesis und Literatur dazu siehe dort.
+Literatur[Bearbeiten | Quelltext bearbeiten]
+Jacqueline Feke, George Saliba: Ptolémée d'Alexandrie (Claude). In: Richard Goulet (Hrsg.): Dictionnaire des philosophes antiques, Band 5, Teil 2 (= V b), CNRS Éditions, Paris 2012, ISBN 978-2-271-07399-0, S. 1718–1735.
+Gerald J. Toomer in Dictionary of Scientific Biography
+Bartel Leendert van der Waerden in Pauly-Wissowa, und zur Geographie E. Polaschek in Supplement X, 1965.
+Otto Neugebauer A history of ancient mathematical astronomy, 3 Bände, Springer Verlag 1975.
+Franz Boll Studien über Claudius Ptolemaeus. Ein Beitrag zur Geschichte der griechischen Philosophie und Astrologie. In: Neue Jahrbücher für Philologie und Pädagogik. Supplementband 21,2. Teubner, Leipzig 1894, S. 49–244.
+Alexander Jones (Hrsg.): Ptolemy in perspective: use and criticism of his work from antiquity to the nineteenth century, Springer 2010.
+Klaus Geus: Ptolemaios – Reaktionär, Theoretiker, Plagiator? In: Thomas Beck, Marília dos Santos Lopes, Christian Rödel (Hrsg.): Barrieren und Zugänge. Die Geschichte der europäischen Expansion. Festschrift für Eberhard Schmitt zum 65. Geburtstag. Harrassowitz, Wiesbaden 2004, ISBN 3-447-04848-4, S. 36–50. 
+Gerd Graßhoff: The history of Ptolemy’s star catalogue. Springer, New York NY u. a. 1990, ISBN 0-387-97181-5. 
+Wilfried Neumaier: Was ist ein Tonsystem? Eine historisch-systematische Theorie der abendländischen Tonsysteme, gegründet auf die antiken Theoretiker, Aristoxenos, Eukleides und Ptolemaios, dargestellt mit Mitteln der modernen Algebra. Lang, Frankfurt am Main u. a. 1986, ISBN 3-8204-9492-8. 
+Ingemar Düring: Ptolemaios und Porphyrios über die Musik. Göteborg 1934, Nachdruck Olms, Hildesheim 1987, ISBN 3-487-07932-1.
+Weblinks[Bearbeiten | Quelltext bearbeiten]
+ Commons: Claudius Ptolemäus – Sammlung von Bildern
+Literatur von und über Claudius Ptolemäus im Katalog der Deutschen Nationalbibliothek
+Werke von und über Claudius Ptolemäus in der Deutschen Digitalen Bibliothek
+John J. O’Connor, Edmund F. Robertson: Claudius Ptolemy. In: MacTutor History of Mathematics archive
+Zum Satz des Ptolemäus, Landesbildungsserver Baden-Württemberg
+Klaudios Ptolemaios als Geograph (Memento vom 23. Dezember 2005 im Internet Archive)
+Literatur zur Geographie (Geographike Hyphegesis) des Claudius Ptolemaeus (Memento vom 5. Juni 2008 im Internet Archive)
+Biographie de Ptolémée (französisch)
+Werke von Claudius Ptolemäus im Gesamtkatalog der Wiegendrucke
+Texte Almagest
+Almagest Bücher 1-6 – griechischer Text mit lateinischer Einleitung im Internet Archive
+Almagest Bücher 1-13 – griechischer Text (Ausgabe von Heiberg, PDF)
+Almagest – Digitalisat einer Ausgabe von 1515 (Universität Wien, lateinische Übersetzung, mehrere Auflösungen, PDF)
+Geographike
+Claudii Ptolemaei Geographia, ed. 1843, tom. I (Bücher 1–4); 1845, tom. II (Bücher 5–8); 1845, tom. III (Register) – griechischer Text der Tauchnitz-Ausgabe (Google Books)
+Geographike – analytischer Auszug mehrerer Kapitel, Germania Magna und andere griechisch/lateinisch/englisch, weitere nur englisch
+Geographie – LacusCurtius (englische Übersetzung, Bücher 2-5, nicht alle Abschnitte vorhanden, klickbare Karten entsprechend Ptolemäus’ Koordinatenangaben)
+Claudii Ptholemaei Alexandrini liber geographiae cum tabulis et universali figura et cum additione locorum quae a recentioribus reperta sunt diligenti cura emendatus et impressus – lateinische Übersetzung (Venedig 1511, Digitalisat der University of Alabama)
+Geographike Buch 8 – griechischer Text von Aubrey Diller (PDF)
+Tetrabiblos
+Tetrabiblos auf LacusCurtius (englische Übersetzung von Frank Egleston Robbins, Loeb Classical Library)
+Tetrabiblos vollständige englische Übersetzung von J.M. Ashmand (1822)
+Claudius Ptolemaeus: Ptolemaei libri IV mathematicae translatione Wintomiensis Ebdelmessiae - Mscr.Dresd.Db.87. [S.l.] 1450, Digitalisat der Sächsischen Landesbibliothek
+Digitalisate
+Johannes Regiomontanus, Georg von Peuerbach, Claudius Ptolemaeus: Ioannis De Monte Regio Et Georgii Purbachii Epitome, In Cl. Ptolemaei Magnam compositionem. Basileae 1543, Digitalisat der Sächsischen Landesbibliothek
+Fußnoten[Bearbeiten | Quelltext bearbeiten]
+↑ Gerald J. Toomer: Ptolemy. In: Dictionary of Scientific Biography. Band 11, New York 1976, S. 186–206.
+↑ Thomas Szabó: Florenz und die Vermessung Europas, in: Marina Montesano: „Come l'orco della fiaba“. Studi per Franco Cardini, SISMEL. Edizioni del Galluzzo, Florenz 2010, S. 595–626, hier: S. 595.
+↑ Tristan Thielmann: Quellcode der Orientierung. Ein Entwurf des Leon Battista Alberti. In: Sabiene Autsch, Sara Hornäk (Hrsg.): Räume in der Kunst. Künstlerische, kunst- und medienwissenschaftliche Entwürfe. transcript Verlag, Bielefeld 2010, ISBN 978-3-8376-1595-1, S. 231–250, hier: S. 235.
+Normdaten (Person): GND: 118641786 (PICA, AKS) | LCCN: n50032768 | VIAF: 54152998 | Wikipedia-Personensuche
+Personendaten
+NAME
+Ptolemäus, Claudius
+ALTERNATIVNAMEN
+Πτολεμαῖος, Κλαύδιος (griechisch); Ptolemaíos, Klaúdios; Ptolomaeus, Claudius (lateinisch)
+KURZBESCHREIBUNG
+griechischer Mathematiker, Geograph und Astronom
+GEBURTSDATUM
+um 100
+GEBURTSORT
+Ptolemais Hermeiou, Ägypten
+STERBEDATUM
+vor 180
+STERBEORT
+Alexandria, Ägypten
+Abgerufen von „https://de.wikipedia.org/w/index.php?title=Claudius_Ptolemäus&oldid=163138227“
+Kategorien: Claudius PtolemäusAstronom der AntikeMathematiker der AntikeAstrologeKartograf (Antike)Geograph der AntikeMusiktheoretikerGeboren im 1. oder 2. JahrhundertGestorben im 2. JahrhundertMannNamensgeber für einen Marskrater
+Navigationsmenü
+Meine Werkzeuge
+Nicht angemeldetDiskussionsseiteBeiträgeBenutzerkonto erstellenAnmelden
+Namensräume
+Artikel
+Diskussion
+Varianten
+Ansichten
+Lesen
+Bearbeiten
+Quelltext bearbeiten
+Versionsgeschichte
+Mehr
+Suche
+Navigation
+HauptseiteThemenportaleVon A bis ZZufälliger Artikel
+Mitmachen
+Artikel verbessernNeuen Artikel anlegenAutorenportalHilfeLetzte ÄnderungenKontaktSpenden
+Werkzeuge
+Links auf diese SeiteÄnderungen an verlinkten SeitenSpezialseitenPermanenter LinkSeiten­informationenWikidata-DatenobjektArtikel zitieren
+Drucken/­exportieren
+Buch erstellenAls PDF herunterladenDruckversion
+In anderen Projekten
+Commons
+In anderen Sprachen
+AfrikaansAlemannischAragonésالعربيةمصرىAsturianuAzərbaycancaБеларускаяБеларуская (тарашкевіца)‎БългарскиবাংলাBrezhonegBosanskiCatalàChavacano de Zamboangaکوردیی ناوەندیČeštinaCymraegDanskΕλληνικάEnglishEsperantoEspañolEestiEuskaraفارسیSuomiVõroFrançaisFryskGaeilgeGàidhligGalegoעבריתहिन्दीHrvatskiMagyarՀայերենInterlinguaBahasa IndonesiaIdoÍslenskaItaliano日本語Basa JawaქართულიҚазақша한국어KurdîLatinaLëtzebuergeschLietuviųLatviešuМокшеньMalagasyМакедонскиമലയാളംBahasa Melayuမြန်မာဘာသာNedersaksiesNederlandsNorsk nynorskNorsk bokmålOccitanଓଡ଼ିଆਪੰਜਾਬੀPolskiPiemontèisپنجابیپښتوPortuguêsRomânăArmãneashtiРусскийСаха тылаSicilianuScotsSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaSlovenščinaShqipСрпски / srpskiSvenskaதமிழ்ТоҷикӣไทยTagalogTürkçeТатарча/tatarçaУкраїнськаاردوOʻzbekcha/ўзбекчаTiếng ViệtWinaray中文粵語
+Links bearbeiten
+Diese Seite wurde zuletzt am 1. März 2017 um 17:00 Uhr geändert.
+Abrufstatistik
+Der Text ist unter der Lizenz „Creative Commons Attribution/Share Alike“ verfügbar; Informationen zu den Urhebern und zum Lizenzstatus eingebundener Mediendateien (etwa Bilder oder Videos) können im Regelfall durch Anklicken dieser abgerufen werden. Möglicherweise unterliegen die Inhalte jeweils zusätzlichen Bedingungen. Durch die Nutzung dieser Website erklären Sie sich mit den Nutzungsbedingungen und der Datenschutzrichtlinie einverstanden.
+Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.
+Datenschutz
+Über Wikipedia
+Impressum
+Entwickler
+Stellungnahme zu Cookies
+Mobile Ansicht

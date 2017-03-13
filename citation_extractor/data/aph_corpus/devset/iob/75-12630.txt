@@ -1,0 +1,12 @@
+Le	DET:ART
+bras	NOM
+droit	ADJ
+d'	PRP
+Athéna	NAM
+.	SENT
+
+Pour	PRP
+2	NUM
+=>	ABR
+75-12629	NUM
+

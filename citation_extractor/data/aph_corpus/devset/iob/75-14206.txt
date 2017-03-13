@@ -1,0 +1,21 @@
+Se	SE
+ofrece	VLfin
+una	ART
+guía	NC
+comentada	VLadj
+de	PREP
+direcciones	NC
+en	PREP
+las	ART
+que	CQUE
+se	SE
+pueden	VMfin
+encontrar	VLinf
+textos	NC
+de	PREP
+autores	NC
+latinos	ADJ
+preclásicos	ADJ
+y	CC
+clásicos	ADJ
+

@@ -1,0 +1,34 @@
+Nebrija	NP
+interpreta	VLfin
+el	ART
+«	SYM
+cum	NC
+»	SYM
+que	CQUE
+aparece	VLfin
+en	PREP
+el	ART
+verso	NC
+citado	VLadj
+como	CSUBX
+causal	ADJ
+,	CM
+frente a	PREP
+la	ART
+opinión	NC
+de	PREP
+otros	QU
+humanistas	NC
+y	CC
+estudiosos	ADJ
+modernos	ADJ
+,	CM
+que	CQUE
+parecen	VLfin
+considerarlo	VCLIinf
+un	ART
+«	SYM
+cum	NC
+»	SYM
+temporal	ADJ
+

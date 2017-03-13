@@ -1,0 +1,26 @@
+Si	PRO:pers
+ricostruisce	VER:pres
+l'	DET:def
+epistola	NOM
+perduta	ADJ
+inviata	VER:pper
+nell'	PRE:det
+385	NUM
+dal	PRE:det
+vescovo	NOM
+di	PRE
+Tarragona	NPR
+Imerio	NOM
+al	PRE:det
+papa	NOM
+Damaso	NOM
+e	CON
+si	PRO:pers
+analizza	VER:pres
+l'	DET:def
+epistola	NOM
+di	PRE
+risposta	NOM
+di	PRE
+Siricio	NOM
+

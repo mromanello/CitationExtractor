@@ -1,0 +1,23 @@
+On	IN
+the	DT
+autochthony	NN
+myth	NN
+of	IN
+Thebes	NP
+,	,
+and	CC
+its	PP$
+implications	NNS
+for	IN
+the	DT
+cycle	NN
+of	IN
+murders	NNS
+in	IN
+the	DT
+city	NN
+over	IN
+the	DT
+generations	NNS
+.	SENT
+

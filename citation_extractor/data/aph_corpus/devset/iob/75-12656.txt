@@ -1,0 +1,29 @@
+Sur	PRP
+une	DET:ART
+terre	NOM
+cuite	VER:pper
+de	PRP
+provenance	NOM
+inconnue	ADJ
+représentant	VER:ppre
+un	DET:ART
+cavalier	NOM
+assis	VER:pper
+en	PRP
+amazone	NOM
+et	KON
+un	DET:ART
+sujet	NOM
+debout	ADV
+,	PUN
+datable	ADJ
+du	PRP:det
+7e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+

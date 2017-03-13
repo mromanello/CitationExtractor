@@ -1,0 +1,5 @@
+T1	REFSCOPE 383 396	(10, 7, 1-5),
+T2	REFAUWORK 420 426	(Spir.
+T3	REFSCOPE 427 433	1, 28)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:757.1584:1.28

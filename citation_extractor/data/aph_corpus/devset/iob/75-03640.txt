@@ -1,0 +1,15 @@
+Mit	APPR
+Resümees	NN
+der	ART
+Beiträge	NN
+zum	APPRART
+ekklesialen	ADJA
+Denken	NN
+,	$,
+auch	ADV
+in	APPR
+der	ART
+frühen	ADJA
+Kirche	NN
+.	$.
+

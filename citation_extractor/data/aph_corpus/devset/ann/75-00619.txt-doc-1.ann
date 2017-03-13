@@ -1,0 +1,4 @@
+T1	REFAUWORK 140 147	Metaph.
+T2	REFSCOPE 148 166	6, 3 1027 A 29-32.
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0086.tlg025:6.3

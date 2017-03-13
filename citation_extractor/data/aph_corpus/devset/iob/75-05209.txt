@@ -1,0 +1,18 @@
+A	PRE
+proposito	NOM
+dell'	PRE:det
+edizione	NOM
+commentata	VER:pper
+della	PRE:det
+lettera	NOM
+5	NUM
+Garzya	NOM
+curata	VER:pper
+da	PRE
+P.	NOM
+Janni	NOM
+(	PON
+=>	NOM
+74-06088	NUM
+)	PON
+

@@ -1,0 +1,9 @@
+T1	AWORK 67 78	« Orestie »
+T2	AAUTHOR 79 90	d' Eschyle,
+T3	AWORK 91 105	l' « Électre »
+T4	AAUTHOR 109 117	Sophocle
+T5	AAUTHOR 130 138	Euripide
+#0	AnnotatorNotes T4	urn:cts:greekLit:tlg0011
+#1	AnnotatorNotes T5	urn:cts:greekLit:tlg0006
+#2	AnnotatorNotes T3	urn:cts:greekLit:tlg0006.tlg012
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0006.tlg016

@@ -1,0 +1,7 @@
+T1	AAUTHOR 22 29	Sénèque
+T2	REFAUWORK 71 78	Ad Luc.
+T3	REFSCOPE 79 82	70,
+T4	AAUTHOR 245 253	Sénèque,
+T5	AAUTHOR 579 586	Sénèque
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0545.tlg003:70

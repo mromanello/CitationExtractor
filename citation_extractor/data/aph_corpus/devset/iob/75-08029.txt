@@ -1,0 +1,34 @@
+Présentation	NOM
+dans	PRP
+leur	DET:POS
+milieu	NOM
+micro-régional	ADJ
+d'	PRP
+établissements	NOM
+ruraux	ADJ
+des	PRP:det
+Alpes	NAM
+du	PRP:det
+sud	NOM
+.	SENT
+
+Certains	PRO:IND
+sites	NOM
+sur	PRP
+les	DET:ART
+rives	NOM
+de	PRP
+l'	DET:ART
+étang	NOM
+de	PRP
+Berre	NAM
+peuvent	VER:pres
+s'	PRO:PER
+interpréter	VER:infi
+comme	ADV
+des	PRP:det
+«	PUN:cit
+villae	NOM
+maritimae	ADJ
+»	PUN:cit
+

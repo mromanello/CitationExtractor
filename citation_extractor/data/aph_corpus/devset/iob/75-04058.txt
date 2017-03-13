@@ -1,0 +1,27 @@
+À	PRP
+propos	NOM
+de	PRP
+la	DET:ART
+discussion	NOM
+entre	PRP
+Socrate	NAM
+et	KON
+Hippias	NAM
+sur	PRP
+l'	DET:ART
+Ulysse	NAM
+d'	PRP
+Homère	NAM
+(	PUN
+article	NOM
+paru	VER:pper
+à	PRP
+l'	DET:ART
+origine	NOM
+dans	PRP
+le	DET:ART
+recueil	NOM
+noté	VER:pper
+67-13816	NUM
+)	PUN
+

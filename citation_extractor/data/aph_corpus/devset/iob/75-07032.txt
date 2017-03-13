@@ -1,0 +1,27 @@
+La	ART
+descripción	NC
+contrastiva	ADJ
+de	PREP
+patrones	NC
+relevantes	ADJ
+,	CM
+es decir	ADV
+,	CM
+de	PREP
+construcciones	NC
+muy	ADV
+frecuentes	ADJ
+o	CC
+características	ADJ
+,	CM
+permite	VLfin
+registrar	VLinf
+las	ART
+diferencias	NC
+morfosintácticas	NC
+y	CC
+semánticas	NC
+entre	PREP
+ambas	QU
+lenguas	NC
+

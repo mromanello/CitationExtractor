@@ -1,0 +1,21 @@
+Corpus	NOM
+composé	VER:pper
+de	PRP
+trois	NUM
+séries	NOM
+de	PRP
+bronze	NOM
+frappées	VER:pper
+à	PRP
+Alexandrie	NAM
+à	PRP
+l'	DET:ART
+époque	NOM
+impériale	ADJ
+et	KON
+provenant	VER:ppre
+des	PRP:det
+fouilles	NOM
+de	PRP
+Coptos	NAM
+

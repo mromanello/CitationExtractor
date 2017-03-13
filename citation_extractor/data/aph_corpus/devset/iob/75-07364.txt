@@ -1,0 +1,29 @@
+Sur	PRP
+l'	DET:ART
+indication	NOM
+du	PRP:det
+féminin	ADJ
+aux	PRP:det
+cas	NOM
+directs	ADJ
+et	KON
+indirects	ADJ
+de	PRP
+l'	DET:ART
+onomastique	NOM
+archaïque	ADJ
+.	SENT
+
+Il	PRO:PER
+s'	PRO:PER
+agit	VER:pres
+d'	PRP
+une	DET:ART
+formation	NOM
+dérivative	ADJ
+dont	PRO:REL
+-i	ADJ
+est	VER:pres
+le	DET:ART
+résidu	NOM
+

@@ -1,0 +1,47 @@
+L'	DET:ART
+analyse	NOM
+des	PRP:det
+ossements	NOM
+de	PRP
+plusieurs	PRO:IND
+sites	NOM
+funéraires	ADJ
+des	PRP:det
+périodes	NOM
+pré-romaine	ADJ
+et	KON
+romaine	ADJ
+,	PUN
+soit	KON
+du	PRP:det
+2e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+au	PRP:det
+5e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+permet	VER:pres
+de	PRP
+cerner	VER:infi
+les	DET:ART
+processus	NOM
+d'	PRP
+installation	NOM
+des	PRP:det
+peuples	NOM
+germaniques	ADJ
+en	PRP
+Europe	NAM
+centrale	ADJ
+

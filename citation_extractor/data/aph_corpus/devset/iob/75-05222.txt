@@ -1,0 +1,44 @@
+La	DET:def
+trasmissione	NOM
+del	PRE:det
+testo	NOM
+tacitiano	ADJ
+in	PRE
+età	NOM
+medioevale	ADJ
+,	PON
+le	DET:def
+diverse	ADJ
+linee	NOM
+interpretative	ADJ
+,	PON
+i	DET:def
+divulgatori	NOM
+.	SENT
+
+La	DET:def
+ricezione	NOM
+di	PRE
+matrice	NOM
+tedesca	ADJ
+e	CON
+le	DET:def
+chiavi	NOM
+di	PRE
+lettura	NOM
+delineate	VER:pper
+in	PRE
+epoca	NOM
+umanistica	ADJ
+.	SENT
+
+Traduzione	NOM
+di	PRE
+un	DET:indef
+articolo	NOM
+compreso	VER:pper
+nella	PRE:det
+miscellanea	ADJ
+schedata	NOM
+75-15092	NUM
+

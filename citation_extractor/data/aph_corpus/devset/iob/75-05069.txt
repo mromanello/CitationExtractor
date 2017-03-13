@@ -1,0 +1,19 @@
+Négation	NOM
+de	PRP
+l'	DET:ART
+espace	NOM
+,	PUN
+sentiment	NOM
+d'	PRP
+exclusion	NOM
+et	KON
+quête	NOM
+de	PRP
+refuge	NOM
+.	SENT
+
+Pour	PRP
+2	NUM
+=>	ABR
+75-05068	NUM
+

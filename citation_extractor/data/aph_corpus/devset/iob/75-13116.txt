@@ -1,0 +1,15 @@
+Influenza	NOM
+del	PRE:det
+Vangelo	NOM
+di	PRE
+Giovanni	NPR
+sull'	PRE:det
+iconologia	NOM
+cristiana	ADJ
+protomedievale	VER:pres
+di	PRE
+alcuni	PRO:indef
+luoghi	NOM
+di	PRE
+culto	NOM
+

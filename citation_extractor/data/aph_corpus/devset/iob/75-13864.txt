@@ -1,0 +1,32 @@
+Sur	PRP
+le	DET:ART
+croisement	NOM
+des	PRP:det
+chameaux	NOM
+mâles	ADJ
+de	PRP
+Bactriane	NAM
+avec	PRP
+des	PRP:det
+femelles	NOM
+arabes	ADJ
+ou	KON
+dromadaires	NOM
+.	SENT
+
+Le	DET:ART
+processus	NOM
+s'	PRO:PER
+est	VER:pres
+poursuivi	VER:pper
+aux	PRP:det
+époques	NOM
+hellénistique	ADJ
+et	KON
+romaine	ADJ
+:	PUN
+témoignages	NOM
+archéologiques	ADJ
+et	KON
+littéraires	ADJ
+

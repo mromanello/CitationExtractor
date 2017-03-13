@@ -1,0 +1,7 @@
+T1	REFAUWORK 37 48	(In Rufinum
+T2	REFSCOPE 49 60	5, 466 ff.)
+T3	AAUTHOR 177 184	Statius
+T4	AAUTHOR 200 204	Ovid
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes T4	urn:cts:cwkb:568
+#1	AnnotatorNotes T3	urn:cts:cwkb:634

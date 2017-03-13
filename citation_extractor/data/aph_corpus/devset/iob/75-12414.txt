@@ -1,0 +1,26 @@
+D'	PRP
+après	PRP
+les	DET:ART
+reliefs	NOM
+et	KON
+les	DET:ART
+modèles	NOM
+en	PRP
+terre	NOM
+cuite	ADJ
+où	PRO:REL
+sont	VER:pres
+figurés	VER:pper
+trois	NUM
+poteaux	NOM
+surmontés	VER:pper
+de	PRP
+cornes	NOM
+,	PUN
+datés	VER:pper
+du	PRP:det
+Bronze	NAM
+ancien	ADJ
+et	KON
+moyen	ADJ
+

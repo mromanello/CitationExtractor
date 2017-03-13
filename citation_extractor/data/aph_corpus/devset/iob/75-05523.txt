@@ -1,0 +1,13 @@
+Sul	PRE:det
+saggio	ADJ
+schedato	NOM
+72-06000	NUM
+,	PON
+con	PRE
+particolare	ADJ
+riferimento	NOM
+al	PRE:det
+«	PON
+giovannismo	NOM
+»	PON
+

@@ -1,0 +1,11 @@
+Rielaborazioni	NOM
+poetiche	ADJ
+dei	PRE:det
+«	PON
+Salmi	NOM
+»	PON
+dal	PRE:det
+4°	NOM
+al	PRE:det
+16°	NOM
+s.	NOM

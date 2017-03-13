@@ -1,0 +1,44 @@
+Galeno	NP
+conoce	VLfin
+bien	ADV
+la	ART
+tradición	NC
+mítica	ADJ
+.	FS
+
+Sigue	VLfin
+por lo general	ADV
+las	ART
+tradiciones	NC
+más	ADV
+habituales	ADJ
+,	CM
+pero	CCAD
+a veces	ADV
+también	ADV
+ataca	VLfin
+determinadas	ADJ
+historias	NC
+míticas	ADJ
+.	FS
+
+Escribe	VLfin
+para	PREP
+un	ART
+selecto	ADJ
+grupo	NC
+de	PREP
+cultos	ADJ
+amigos	NC
+romanos	ADJ
+,	CM
+y	CC
+por	PREP
+ello	PPX
+sus	PPO
+referencias	NC
+míticas	ADJ
+son	VSfin
+a menudo	ADV
+breves	ADJ
+

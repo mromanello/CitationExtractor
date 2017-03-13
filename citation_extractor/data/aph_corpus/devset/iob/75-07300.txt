@@ -1,0 +1,21 @@
+Chez	PRP
+Varron	NAM
+,	PUN
+Festus	NAM
+,	PUN
+Pline	NAM
+l'	DET:ART
+Ancien	NAM
+,	PUN
+Aulu-Gelle	NAM
+et	KON
+Macrobe	NAM
+.	SENT
+
+Cf	NOM
+.	SENT
+aussi	ADV
+74-08919	NUM
+et	KON
+74-08920	NUM
+

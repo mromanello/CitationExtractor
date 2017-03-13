@@ -1,0 +1,21 @@
+Veröffentlichung	NN
+einer	ART
+1999	CARD
+gefundenen	ADJA
+Marmorstele	NN
+mit	APPR
+griechischer	ADJA
+Inschrift	NN
+(	$(
+Museum	NN
+von	APPR
+Milas	NE
+,	$,
+Inv	NE
+.	$.
+2713	CARD
+;	$.
+Kaiserzeit	NN
+)	$(
+.	$.
+

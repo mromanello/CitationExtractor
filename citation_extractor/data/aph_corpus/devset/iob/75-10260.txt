@@ -1,0 +1,21 @@
+Eine	ART
+kritische	ADJA
+Analyse	NN
+der	ART
+Quellen	NN
+ermöglicht	VVFIN
+eine	ART
+Korrektur	NN
+einiger	PIAT
+Daten	NN
+im	APPRART
+Lebenslauf	NN
+von	APPR
+Leo	NE
+II	NE
+.	$.
+
+(	$(
+467-474	CARD
+)	$(
+

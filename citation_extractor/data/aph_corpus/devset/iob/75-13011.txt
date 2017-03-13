@@ -1,0 +1,42 @@
+Pilier	NOM
+funéraire	ADJ
+du	PRP:det
+3e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+
+(	PUN
+Trèves	NAM
+,	PUN
+Rheinisches	NOM
+Landesmuseum	NAM
+,	PUN
+inv.	ABR
+31	NUM
+,	PUN
+276	NUM
+)	PUN
+avec	PRP
+un	DET:ART
+bas-relief	NOM
+mettant	VER:ppre
+en	PRP
+scène	NOM
+deux	NUM
+Romains	NAM
+calculant	VER:ppre
+sur	PRP
+un	DET:ART
+abaque	NOM
+.	SENT
+
+Étude	NOM
+de	PRP
+cette	PRO:DEM
+méthode	NOM
+de	PRP
+calcul	NOM
+

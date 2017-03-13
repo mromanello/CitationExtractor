@@ -1,0 +1,6 @@
+Concerne	VER:pres
+il	DET:def
+saggio	ADJ
+schedato	NOM
+73-16341	NUM
+

@@ -1,0 +1,26 @@
+Nuova	ADJ
+ipotesi	NOM
+sul	PRE:det
+potere	NOM
+punitivo	ADJ
+degli	PRE:det
+strateghi	NOM
+(	PON
+cacciare	VER:infi
+dall'	PRE:det
+esercito	NOM
+o	CON
+infliggere	VER:infi
+una	DET:indef
+multa	NOM
+)	PON
+,	PON
+a	PRE
+partire	VER:infi
+da	PRE
+una	DET:indef
+rilettura	NOM
+del	PRE:det
+passo	NOM
+aristotelico	ADJ
+

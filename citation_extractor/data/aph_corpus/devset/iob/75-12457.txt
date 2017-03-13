@@ -1,0 +1,33 @@
+Du	PRP:det
+2e	NUM
+millénaire	NOM
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+au	PRP:det
+7e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+le	DET:ART
+culte	NOM
+des	PRP:det
+pierres	NOM
+a	VER:pres
+constitué	VER:pper
+une	DET:ART
+permanence	NOM
+religieuse	ADJ
+du	PRP:det
+Proche	NAM
+et	KON
+du	PRP:det
+Moyen-Orient	NAM
+

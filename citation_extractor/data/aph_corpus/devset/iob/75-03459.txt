@@ -1,0 +1,15 @@
+Concerne	VER:pres
+essentiellement	ADJ
+Ange	NOM
+Politien	NOM
+,	PON
+Gregorio	NPR
+Correr	NOM
+,	PON
+Enea	NPR
+Silvio	NPR
+Piccolomini	NOM
+et	NOM
+Christophe	NPR
+Colomb	NOM
+

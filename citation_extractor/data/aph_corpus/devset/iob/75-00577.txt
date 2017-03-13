@@ -1,0 +1,27 @@
+L'	DET:def
+incongruenza	NOM
+tra	PRE
+la	DET:def
+«	PON
+Poetica	NOM
+»	PON
+e	CON
+la	DET:def
+«	PON
+Metafisica	NOM
+»	PON
+riguardo	NOM
+al	PRE:det
+problema	NOM
+del	PRE:det
+rapporto	NOM
+tra	PRE
+necessità	NOM
+e	CON
+accidente	NOM
+è	VER:pres
+più	ADV
+apparente	ADJ
+che	CON
+reale	ADJ
+

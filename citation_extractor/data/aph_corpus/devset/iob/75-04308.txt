@@ -1,0 +1,31 @@
+Sobre	PREP
+la	ART
+modalidad	NC
+interrogativa	ADJ
+en	PREP
+Plauto	ADJ
+.	FS
+
+Se	SE
+estudian	VLfin
+en particular	ADV
+aquellos	DM
+casos	NC
+en	PREP
+que	CQUE
+la	ART
+función	NC
+«	SYM
+thema	NC
+»	SYM
+está	VEfin
+desempeñada	VLadj
+por	PREP
+un	ART
+sintagma	NC
+pronominal	ADJ
+,	CM
+nominal	ADJ
+o	CC
+preposicional	NC
+

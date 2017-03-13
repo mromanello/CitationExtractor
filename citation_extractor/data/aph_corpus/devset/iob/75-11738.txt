@@ -1,0 +1,9 @@
+Homologie	NOM
+des	PRP:det
+récits	NOM
+mythologiques	ADJ
+sur	PRP
+Héraclès	NAM
+et	KON
+Yi	NAM
+

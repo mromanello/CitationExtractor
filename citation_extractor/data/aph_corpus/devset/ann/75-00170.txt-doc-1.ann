@@ -1,0 +1,11 @@
+T1	REFSCOPE 19 34	(26, 10, 15-19)
+T2	AAUTHOR 88 96	Ammianus
+T3	AAUTHOR 302 310	Ammianus
+T4	AAUTHOR 415 432	Georgius Monachus
+T5	REFSCOPE 433 453	(560-561 [ 462 M ]).
+T6	AAUTHOR 469 477	Ammianus
+R1	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes T6	urn:cts:latinLit:stoa0023
+#1	AnnotatorNotes T4	urn:cts:cwkb:2711
+#2	AnnotatorNotes T2	urn:cts:latinLit:stoa0023
+#3	AnnotatorNotes T3	urn:cts:latinLit:stoa0023

@@ -1,0 +1,13 @@
+T1	AAUTHOR 62 69	Cicéron
+T2	AWORK 78 88	« Brutus »
+T3	AAUTHOR 92 98	Tacite
+T4	AWORK 107 132	« Dialogue des orateurs »
+T5	AAUTHOR 259 266	Sénèque
+T6	AAUTHOR 406 413	Cicéron
+T7	AAUTHOR 417 423	Tacite
+#0	AnnotatorNotes T6	urn:cts:cwkb:431
+#1	AnnotatorNotes T7	urn:cts:latinLit:phi1351
+#2	AnnotatorNotes T4	urn:cts:latinLit:phi1351.phi003
+#3	AnnotatorNotes T2	urn:cts:greekLit:tlg0007.tlg061
+#4	AnnotatorNotes T3	urn:cts:latinLit:phi1351
+#5	AnnotatorNotes T1	urn:cts:cwkb:431

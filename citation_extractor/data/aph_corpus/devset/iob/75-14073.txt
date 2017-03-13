@@ -1,0 +1,17 @@
+Sobre	PREP
+la	ART
+interrelación	NC
+y	CC
+la	ART
+complementariedad	NC
+entre	PREP
+los	ART
+estudios	NC
+clásicos	ADJ
+y	CC
+los	ART
+estudios	NC
+sobre	PREP
+la	ART
+cultura	NC
+

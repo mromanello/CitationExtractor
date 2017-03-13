@@ -1,0 +1,10 @@
+Resoconto	NOM
+dei	PRE:det
+lavori	NOM
+,	PON
+svoltisi	VER:pper
+il	DET:def
+12	NUM
+settembre	NOM
+2004	NUM
+

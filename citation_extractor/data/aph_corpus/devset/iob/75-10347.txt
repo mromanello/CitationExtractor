@@ -1,0 +1,25 @@
+Eine	ART
+erneute	ADJA
+Überprüfung	NN
+der	ART
+Quellen	NN
+und	KON
+eine	ART
+konsequent	ADJD
+durchgeführte	ADJA
+inklusive	ADJA
+Zählweise	NN
+sprechen	VVFIN
+dafür	PAV
+,	$,
+die	ART
+Geburt	NN
+Hannibals	NN
+ins	APPRART
+Jahr	NN
+246	CARD
+v.	APPR
+Chr.	NE
+zu	PTKZU
+datieren	VVINF
+

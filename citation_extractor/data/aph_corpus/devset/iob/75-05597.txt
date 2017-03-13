@@ -1,0 +1,23 @@
+Note	NOM
+introduttive	ADJ
+al	PRE:det
+convegno	NOM
+(	PON
+=>	NOM
+75-14683	NUM
+)	PON
+,	PON
+con	PRE
+panoramica	NOM
+e	CON
+indicazioni	NOM
+bibliografiche	ADJ
+sulle	PRE:det
+metodologie	NOM
+interpretative	ADJ
+testamentarie	ADJ
+esemplificate	VER:pper
+nei	PRE:det
+singoli	ADJ
+contributi	NOM
+

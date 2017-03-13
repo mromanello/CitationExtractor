@@ -1,0 +1,23 @@
+Censimento	NOM
+dei	PRE:det
+centri	NOM
+romani	ADJ
+della	PRE:det
+penisola	NOM
+italica	ADJ
+e	CON
+delle	PRE:det
+province	NOM
+occidentali	ADJ
+,	PON
+con	PRE
+osservazioni	NOM
+relative	ADJ
+all'	PRE:det
+aspetto	NOM
+e	CON
+alla	PRE:det
+destinazione	NOM
+dei	PRE:det
+vani	NOM
+

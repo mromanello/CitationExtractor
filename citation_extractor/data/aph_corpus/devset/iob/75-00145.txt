@@ -1,0 +1,17 @@
+Sur	PRP
+l'	DET:ART
+importance	NOM
+de	PRP
+la	DET:ART
+christologie	NOM
+paulinienne	ADJ
+dans	PRP
+l'	DET:ART
+exégèse	NOM
+que	PRO:REL
+propose	VER:pres
+Ambroise	NAM
+du	PRP:det
+Ps	NOM
+118	NUM
+

@@ -1,0 +1,14 @@
+T1	AAUTHOR 284 290	Vergil
+T2	AWORK 294 304	« Aeneid »
+T3	AWORK 839 849	« Aeneid »
+T4	REFSCOPE 850 863	(4, 305-308 ;
+T5	REFSCOPE 864 876	8, 536-540 ;
+T6	REFSCOPE 877 890	11, 178-181 ;
+T7	REFSCOPE 891 904	12, 919-952).
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T3 Arg2:T5
+R3	Scope Arg1:T3 Arg2:T6
+R4	Scope Arg1:T3 Arg2:T7
+#0	AnnotatorNotes T2	urn:cts:latinLit:phi0690.phi003
+#1	AnnotatorNotes T3	urn:cts:latinLit:phi0690.phi003
+#2	AnnotatorNotes T1	urn:cts:latinLit:phi0690

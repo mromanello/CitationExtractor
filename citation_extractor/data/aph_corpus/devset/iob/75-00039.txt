@@ -1,0 +1,18 @@
+Le	DET:ART
+Parnasse	NAM
+,	PUN
+Ghiona	NAM
+,	PUN
+les	DET:ART
+monts	NOM
+Vardousia	NAM
+et	KON
+l'	PRO:PER
+Œta	VER:simp
+.	SENT
+
+Pour	PRP
+4	NUM
+=>	ABR
+75-00038	NUM
+

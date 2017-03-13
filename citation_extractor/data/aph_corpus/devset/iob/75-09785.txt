@@ -1,0 +1,18 @@
+Le	DET:ART
+petit	ADJ
+fragment	NOM
+faisant	VER:ppre
+partie	NOM
+du	PRP:det
+PPrag	NOM
+.	SENT
+
+Gr.	ABR
+4	NUM
+,	PUN
+104	NUM
+représente	VER:pres
+peut-être	ADV
+un	DET:ART
+homme	NOM
+

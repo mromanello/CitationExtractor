@@ -1,0 +1,8 @@
+T1	AWORK 7 22	« Praeparatio »
+T2	REFSCOPE 124 144	(1, 9, 19-2, 6, 10),
+T3	AWORK 221 237	« Praeparatio »,
+T4	AAUTHOR 238 246	Eusebius
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes T4	urn:cts:cwkb:2842
+#1	AnnotatorNotes T3	urn:cts:greekLit:tlg0551.tlg001
+#2	AnnotatorNotes T1	urn:cts:greekLit:tlg0551.tlg001

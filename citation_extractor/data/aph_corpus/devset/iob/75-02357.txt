@@ -1,0 +1,20 @@
+Zum	APPRART
+Bild	NN
+von	APPR
+der	ART
+Kirche	NN
+als	KOKOM
+Leib	NN
+Christi	NE
+,	$,
+das	PRELS
+ein	ART
+Zentrum	NN
+der	ART
+ekklesiologischen	ADJA
+Vision	NN
+des	ART
+Hilarius	NE
+ist	VAFIN
+.	$.
+

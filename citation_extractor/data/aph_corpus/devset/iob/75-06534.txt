@@ -1,0 +1,24 @@
+Considerazioni	NOM
+sulla	PRE:det
+concezione	NOM
+del	PRE:det
+ruolo	NOM
+confiniario	ADJ
+dei	PRE:det
+fiumi	NOM
+e	CON
+sul	PRE:det
+topos	NOM
+dell'	PRE:det
+inversione	NOM
+dei	PRE:det
+corsi	NOM
+d'	PRE
+acqua	NOM
+nelle	PRE:det
+culture	NOM
+letterarie	ADJ
+greca	ADJ
+e	CON
+romana	ADJ
+

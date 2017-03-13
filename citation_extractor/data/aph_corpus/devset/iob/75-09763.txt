@@ -1,0 +1,20 @@
+Erstedition	NN
+des	ART
+griechischen	ADJA
+Fragmentes	NN
+PCtYBR	NE
+Inv	NE
+.	$.
+
+1162	CARD
+(	$(
+ca	NE
+.	$.
+207-210	CARD
+n.	APPR
+Chr.	NE
+,	$,
+Tebtunis	NE
+)	$(
+.	$.
+

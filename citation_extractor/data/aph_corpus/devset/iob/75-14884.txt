@@ -1,0 +1,28 @@
+Dans	PRP
+le	DET:ART
+monde	NOM
+romain	ADJ
+et	KON
+tardo-antique	NOM
+.	SENT
+
+Table	NOM
+ronde	ADJ
+des	PRP:det
+29	NUM
+et	KON
+30	NUM
+novembre	NOM
+2002	NUM
+(	PUN
+UMR	NAM
+8585	NUM
+)	PUN
+.	SENT
+
+Dépouillé	VER:pper
+dans	PRP
+le	DET:ART
+vol.	ABR
+75	NUM
+

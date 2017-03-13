@@ -1,0 +1,37 @@
+Publication	NOM
+d'	PRP
+une	DET:ART
+monnaie	NOM
+découverte	VER:pper
+en	PRP
+1997.	DET:POS
+
+Celle	PRO:DEM
+-ci	ADV
+peut	VER:pres
+contribuer	VER:infi
+à	PRP
+l'	DET:ART
+étude	NOM
+de	PRP
+l'	DET:ART
+histoire	NOM
+du	PRP:det
+territoire	NOM
+des	PRP:det
+Sudètes	NOM
+pendant	PRP
+l'	DET:ART
+époque	NOM
+romaine	ADJ
+et	KON
+documenter	VER:infi
+en	PRP
+particulier	ADJ
+la	DET:ART
+route	NOM
+de	PRP
+l'	DET:ART
+ambre	NOM
+baltique	ADJ
+

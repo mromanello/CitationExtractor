@@ -1,0 +1,27 @@
+Grazie	NOM
+ad	PRE
+un	DET:indef
+riesame	NOM
+delle	PRE:det
+fonti	NOM
+,	PON
+è	VER:pres
+possibile	ADJ
+ricostruire	VER:infi
+per	PRE
+Democrito	NOM
+una	DET:indef
+teoria	NOM
+della	PRE:det
+percezione	NOM
+acustica	ADJ
+fondata	VER:pper
+sul	PRE:det
+concetto	NOM
+di	PRE
+«	PON
+figura	NOM
+»	PON
+dell'	PRE:det
+aria	NOM
+

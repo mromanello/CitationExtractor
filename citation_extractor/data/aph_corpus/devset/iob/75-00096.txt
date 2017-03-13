@@ -1,0 +1,14 @@
+Sur	PRP
+les	DET:ART
+sources	NOM
+de	PRP
+cette	PRO:DEM
+œuvre	NOM
+et	KON
+les	DET:ART
+réminiscences	NOM
+bibliques	ADJ
+qu'	PRO:REL
+elle	PRO:PER
+comporte	VER:pres
+

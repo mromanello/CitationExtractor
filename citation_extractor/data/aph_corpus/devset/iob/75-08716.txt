@@ -1,0 +1,23 @@
+Résultats	NOM
+principaux	ADJ
+de	PRP
+la	DET:ART
+mission	NOM
+d'	PRP
+urgence	NOM
+conduite	VER:pper
+de	PRP
+mi-janvier	NOM
+à	PRP
+mi-mars	NOM
+2002.	SENT
+
+Ils	PRO:PER
+concernent	VER:pres
+notamment	ADV
+les	DET:ART
+périodes	NOM
+romaine	ADJ
+et	KON
+byzantine	ADJ
+

@@ -1,0 +1,25 @@
+Il	DET:def
+ruolo	NOM
+del	PRE:det
+13°	NOM
+libro	NOM
+dei	PRE:det
+«	PON
+Deipnosofisti	NOM
+»	PON
+nella	PRE:det
+ricostruzione	NOM
+dell'	PRE:det
+esperienza	NOM
+giuridica	ADJ
+romana	ADJ
+in	PRE
+relazione	NOM
+,	PON
+in	PRE
+particolare	NOM
+,	PON
+alla	PRE:det
+condotta	NOM
+femminile	ADJ
+

@@ -1,0 +1,26 @@
+Nuova	ADJ
+ipotesi	NOM
+sui	PRE:det
+Serdaioi	NOM
+,	PON
+da	PRE
+identificare	VER:infi
+con	PRE
+il	DET:def
+popolo	NOM
+sardo	ADJ
+e	CON
+non	ADV
+con	PRE
+gli	DET:def
+Oinotroi	NOM
+,	PON
+quali	PRO:inter
+discendenti	NOM
+dei	PRE:det
+Thespiadai	NOM
+rifugiatisi	VER:pper
+in	PRE
+area	NOM
+flegrea	ADJ
+

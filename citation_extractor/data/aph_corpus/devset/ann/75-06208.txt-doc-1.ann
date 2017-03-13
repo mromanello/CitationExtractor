@@ -1,0 +1,17 @@
+T1	REFAUWORK 51 57	Aeneid
+T2	REFSCOPE 58 61	11,
+T3	REFAUWORK 107 112	(Aen.
+T4	REFSCOPE 113 124	11, 68-71),
+T5	AAUTHOR 149 157	Catullus
+T6	REFAUWORK 158 161	(c.
+T7	REFSCOPE 162 173	11, 21-24 ;
+T8	REFSCOPE 174 185	62, 39-44).
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T6 Arg2:T7
+R4	Scope Arg1:T6 Arg2:T8
+#0	AnnotatorNotes R4	urn:cts:greekLit:tlg0024.tlg001:62.39-62.44
+#1	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:11
+#2	AnnotatorNotes R2	urn:cts:latinLit:phi0690.phi003:11.68-11.71
+#3	AnnotatorNotes R3	urn:cts:greekLit:tlg0024.tlg001:11.21-11.24
+#4	AnnotatorNotes T5	urn:cts:latinLit:phi0472

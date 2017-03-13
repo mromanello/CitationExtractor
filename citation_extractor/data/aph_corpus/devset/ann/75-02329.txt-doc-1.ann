@@ -1,0 +1,41 @@
+T1	REFAUWORK 91 94	Is.
+T2	REFSCOPE 95 107	4, 10, 12-14
+T3	REFSCOPE 111 121	5, 21, 2 ;
+T4	REFAUWORK 122 133	adu. Rufin.
+T5	REFSCOPE 134 141	3, 41 ;
+T6	REFAUWORK 142 148	epist.
+T7	REFSCOPE 149 158	123, 16 ;
+T8	REFAUWORK 159 168	in Ezech.
+T9	REFSCOPE 169 178	7, 24, 15
+T10	REFAUWORK 188 193	Hier.
+T11	REFSCOPE 194 208	3, 13, 16-17).
+T12	AAUTHOR 343 350	Cicéron
+T13	REFAUWORK 351 357	(Phil.
+T14	REFSCOPE 358 365	2, 64 ;
+T15	REFSCOPE 366 375	2, 85-86)
+T16	AAUTHOR 381 388	Sénèque
+T17	REFAUWORK 389 395	(suas.
+T18	REFSCOPE 396 400	6, 4
+T19	REFAUWORK 404 410	contr.
+T20	REFSCOPE 411 419	7, 2, 5)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T4 Arg2:T5
+R4	Scope Arg1:T6 Arg2:T7
+R5	Scope Arg1:T8 Arg2:T9
+R6	Scope Arg1:T10 Arg2:T11
+R7	Scope Arg1:T13 Arg2:T14
+R8	Scope Arg1:T13 Arg2:T15
+R9	Scope Arg1:T17 Arg2:T18
+R10	Scope Arg1:T19 Arg2:T20
+#0	AnnotatorNotes R4	urn:cts:cwkb:897.2630:123.16
+#1	AnnotatorNotes R5	urn:cts:cwkb:622.1293:7.24.15
+#2	AnnotatorNotes R6	urn:cts:greekLit:tlg0032.tlg008:3.13.16-3.13.17
+#3	AnnotatorNotes R7	urn:cts:latinLit:phi0474.phi035:2.64
+#4	AnnotatorNotes R1	urn:cts:greekLit:tlg0081.tlg005:4.10.12-4.10.14
+#5	AnnotatorNotes R2	urn:cts:greekLit:tlg0081.tlg005:5.21.2
+#6	AnnotatorNotes R3	urn:cts:cwkb:1116.3999:3.41
+#7	AnnotatorNotes R8	urn:cts:latinLit:phi0474.phi035:2.85-2.86
+#8	AnnotatorNotes R9	urn:cts:cwkb:622.1294:6.4
+#9	AnnotatorNotes R10	urn:cts:cwkb:622.1292:7.2.5
+#10	AnnotatorNotes T12	urn:cts:cwkb:431

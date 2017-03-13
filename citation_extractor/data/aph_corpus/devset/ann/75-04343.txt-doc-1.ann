@@ -1,0 +1,8 @@
+T1	REFAUWORK 198 212	Menander, Sic.
+T2	REFSCOPE 213 221	130-149.
+T3	REFAUWORK 468 473	Asin.
+T4	REFSCOPE 474 482	746-748,
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:981.3383:130-149
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0119.phi002:746-748

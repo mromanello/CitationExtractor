@@ -1,0 +1,10 @@
+T1	REFSCOPE 180 185	fr. 4
+T2	AWORK 189 204	« Disexapaton »
+T3	AAUTHOR 217 223	Plaute
+T4	REFSCOPE 228 238	v. 816-817
+T5	AWORK 243 257	« Bacchides »,
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0119:816-817
+#1	AnnotatorNotes T5	urn:cts:latinLit:phi0119.phi004
+#2	AnnotatorNotes T2	urn:cts:cwkb:981.3357
+#3	AnnotatorNotes T3	urn:cts:latinLit:phi0119

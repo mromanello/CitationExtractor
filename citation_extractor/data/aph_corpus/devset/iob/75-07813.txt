@@ -1,0 +1,12 @@
+Katalog	NN
+von	APPR
+15	CARD
+Fibeln	NN
+des	ART
+1.	ADJA
+-4	CARD
+.	$.
+
+Jh	NE
+.	$.
+

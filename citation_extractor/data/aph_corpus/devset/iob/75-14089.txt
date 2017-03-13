@@ -1,0 +1,24 @@
+Pubblicazione	NOM
+della	PRE:det
+documentazione	NOM
+ufficiale	ADJ
+riguardante	VER:ppre
+l'	DET:def
+ottenimento	NOM
+della	PRE:det
+libera	ADJ
+docenza	NOM
+in	PRE
+papirologia	NOM
+classica	ADJ
+da	PRE
+parte	NOM
+di	PRE
+Medea	NOM
+Norsa	NOM
+,	PON
+il	DET:def
+2	NUM
+dicembre	NOM
+1924	NUM
+

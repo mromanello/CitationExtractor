@@ -1,0 +1,23 @@
+Reconstitution	NOM
+d'	PRP
+un	DET:ART
+char	NOM
+romain	ADJ
+à	PRP
+partir	VER:infi
+de	PRP
+fragments	NOM
+provenant	VER:ppre
+notamment	ADV
+de	PRP
+Kozármisleny	NAM
+(	PUN
+Hongrie	NAM
+)	PUN
+et	KON
+de	PRP
+Neupotz-am-Rhein	NAM
+(	PUN
+Allemagne	NAM
+)	PUN
+

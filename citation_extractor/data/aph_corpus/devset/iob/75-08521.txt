@@ -1,0 +1,21 @@
+Discussione	NOM
+dei	PRE:det
+dati	NOM
+archeologici	ADJ
+relativi	ADJ
+a	PRE
+questo	PRO:demo
+sepolcro	NOM
+di	PRE
+età	NOM
+vespasianea	NOM
+,	PON
+probabilmente	ADV
+associato	VER:pper
+a	PRE
+un	DET:indef
+«	PON
+collegium	NOM
+pedisequorum	ADJ
+»	PON
+

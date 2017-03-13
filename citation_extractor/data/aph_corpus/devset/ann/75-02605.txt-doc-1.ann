@@ -1,0 +1,4 @@
+T1	REFAUWORK 416 419	Il.
+T2	REFSCOPE 420 430	2, 225-238
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:763.1599:2.225-2.238

@@ -1,0 +1,22 @@
+Tre	ADJ
+culti	NOM
+attestati	VER:pper
+solo	ADV
+da	PRE
+iscrizioni	NOM
+e	CON
+papiri	NOM
+documentari	ADJ
+in	PRE
+lingua	NOM
+greca	ADJ
+,	PON
+di	PRE
+cui	PRO:rela
+si	PRO:refl
+ignora	VER:pres
+la	DET:def
+corrispondenza	NOM
+in	PRE
+demotico	ADJ
+

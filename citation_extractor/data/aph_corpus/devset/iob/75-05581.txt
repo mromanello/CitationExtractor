@@ -1,0 +1,8 @@
+Anhand	APPR
+der	ART
+Schriften	NN
+des	ART
+Neuen	ADJA
+Testaments	NN
+.	$.
+

@@ -1,0 +1,6 @@
+T1	AWORK 281 292	« Digeste »
+T2	REFAUWORK 293 296	(D.
+T3	REFSCOPE 297 310	22, 1, 41, 2)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg2045.tlg001:22.1.41.2
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0006.tlg002

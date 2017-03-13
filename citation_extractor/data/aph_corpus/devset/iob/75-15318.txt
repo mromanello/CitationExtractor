@@ -1,0 +1,8 @@
+Quadro	NOM
+dell'	PRE:det
+attività	NOM
+scientifica	ADJ
+di	PRE
+Paul	NPR
+Canart	NOM
+

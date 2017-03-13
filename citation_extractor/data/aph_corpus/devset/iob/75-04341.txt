@@ -1,0 +1,23 @@
+Eine	ART
+Änderung	NN
+der	ART
+Sprecherverteilung	NN
+kann	VMFIN
+die	ART
+umstrittene	ADJA
+Echtheit	NN
+der	ART
+Verse	NN
+stützen	VVINF
+und	KON
+ist	VAFIN
+eine	ART
+einfachere	ADJA
+Lösung	NN
+als	KOKOM
+die	ART
+Annahme	NN
+einer	ART
+Interpolation	NN
+.	$.
+

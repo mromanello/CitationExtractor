@@ -1,0 +1,16 @@
+Interprétation	NOM	O
+eschatologique	ADJ	O
+des	PRP:det	O
+désastres	NOM	O
+byzantins	ADJ	O
+du	PRP:det	O
+7e	NUM	O
+s.	NOM	O
+,	PUN	O
+notamment	ADV	O
+chez	PRP	O
+Anastase	NAM	B-AAUTHOR
+le	DET:ART	I-AAUTHOR
+Sinaïte	NAM	I-AAUTHOR
+et	KON	O
+Frédégaire	NAM	B-AAUTHOR

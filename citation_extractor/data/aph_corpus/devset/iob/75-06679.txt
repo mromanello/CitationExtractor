@@ -1,0 +1,15 @@
+Esame	NOM
+del	PRE:det
+mito	NOM
+nella	PRE:det
+letteratura	NOM
+greca	ADJ
+e	CON
+latina	NOM
+e	CON
+sua	PRO:poss
+fortuna	NOM
+fino	CON
+al	PRE:det
+19°	NOM
+s.	NOM

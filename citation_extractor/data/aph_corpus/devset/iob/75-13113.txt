@@ -1,0 +1,27 @@
+Mosaïques	NOM
+d'	PRP
+Orient	NAM
+et	KON
+d'	PRP
+Occident	NAM
+du	PRP:det
+4e	NUM
+au	PRP:det
+6e	NUM
+s.	ABR
+Ce	VER:futu
+type	NOM
+d'	PRP
+imagerie	NOM
+ornait	VER:impf
+généralement	ADV
+les	DET:ART
+pièces	NOM
+de	PRP
+réception	NOM
+et	KON
+les	DET:ART
+salles	NOM
+à	PRP
+manger	VER:infi
+

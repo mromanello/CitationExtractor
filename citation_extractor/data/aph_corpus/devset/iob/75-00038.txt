@@ -1,0 +1,35 @@
+Concerne	VER:pres
+les	DET:ART
+montagnes	NOM
+grâce	NOM
+auxquelles	PRO:REL
+le	DET:ART
+message	NOM
+lumineux	ADJ
+de	PRP
+la	DET:ART
+prise	NOM
+de	PRP
+Troie	NAM
+fut	VER:simp
+transmis	VER:pper
+à	PRP
+Argos	NAM
+,	PUN
+de	PRP
+l'	DET:ART
+Ida	NAM
+de	PRP
+Troade	NAM
+à	PRP
+l'	DET:ART
+Arakhnaion	NOM
+en	PRP
+Argolide	NAM
+.	SENT
+
+Pour	PRP
+3	NUM
+=>	ABR
+75-00037	NUM
+

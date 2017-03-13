@@ -1,0 +1,25 @@
+Historien	NOM
+et	KON
+archéologue	NOM
+roumain	ADJ
+(	PUN
+1899-1983	NUM
+)	PUN
+.	SENT
+
+Bibliographie	NOM
+parue	VER:pper
+dans	PRP
+:	PUN
+Dacia	NOM
+1971	NUM
+15	NUM
+:	PUN
+9-14	NUM
+et	KON
+Dacia	VER:simp
+1983	NUM
+27	NUM
+:	PUN
+201-203	NUM
+

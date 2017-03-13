@@ -1,0 +1,21 @@
+Concerne	VER:pres
+les	DET:ART
+régions	NOM
+Est	NAM
+et	KON
+Centre-Est	NAM
+.	SENT
+
+Bibliographie	NOM
+,	PUN
+état	NOM
+des	PRP:det
+collections	NOM
+,	PUN
+expositions	NOM
+,	PUN
+travaux	NOM
+universitaires	ADJ
+en	PRP
+cours	NOM
+

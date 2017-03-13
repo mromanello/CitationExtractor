@@ -1,0 +1,37 @@
+Sondages	NOM
+dans	PRP
+le	DET:ART
+bâtiment	NOM
+médiéval	ADJ
+(	PUN
+matériel	ADJ
+romain	ADJ
+)	PUN
+et	KON
+travaux	NOM
+sur	PRP
+la	DET:ART
+porte	NOM
+nord-est	ADJ
+de	PRP
+la	DET:ART
+ville	NOM
+,	PUN
+datant	VER:ppre
+du	PRP:det
+Bronze	NAM
+récent	ADJ
+et	KON
+de	PRP
+l'	DET:ART
+époque	NOM
+archaïque	ADJ
+.	SENT
+
+Pour	PRP
+le	DET:ART
+13e	NUM
+rapport	NOM
+=>	ADJ
+57-06705	NUM
+

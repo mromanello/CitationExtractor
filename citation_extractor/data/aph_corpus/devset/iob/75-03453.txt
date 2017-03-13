@@ -1,0 +1,12 @@
+Note	ADJ
+critiche	NOM
+all'	PRE:det
+articolo	NOM
+di	PRE
+K.	NPR
+McKinley	NOM
+(	PON
+=>	NOM
+67-02938	NUM
+)	PON
+

@@ -1,0 +1,10 @@
+Ricordo	NOM
+del	PRE:det
+professore	NOM
+del	PRE:det
+Pontificio	NOM
+Istituto	NOM
+di	PRE
+Archeologia	NOM
+Cristiana	NOM
+

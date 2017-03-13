@@ -1,0 +1,22 @@
+Das	ART
+Hochland	NN
+der	ART
+Akroreia	NN
+ist	VAFIN
+anhand	APPR
+literarischer	ADJA
+und	KON
+epigraphischer	ADJA
+Zeugnisse	NN
+an	APPR
+der	ART
+nord-westlichen	ADJA
+Seite	NN
+des	ART
+Hochplateaus	NN
+der	ART
+Pholoe	NN
+zu	PTKZU
+lokalisieren	VVINF
+.	$.
+

@@ -1,0 +1,16 @@
+Zu	APPR
+Person	NN
+und	KON
+kirchlicher	ADJA
+Bedeutung	NN
+sowie	KON
+zur	APPRART
+Rezeption	NN
+im	APPRART
+5.	ADJA
+und	KON
+6.	ADJA
+
+Jh	NE
+.	$.
+

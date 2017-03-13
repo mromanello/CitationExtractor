@@ -1,0 +1,139 @@
+Diogenes Laertios – Wikipedia
+Diogenes Laertios
+aus Wikipedia, der freien Enzyklopädie
+Wechseln zu:					Navigation, 					Suche
+Vitae et sententiae philosophorum, 1611
+Diogenes Laertios (altgriechisch Διογένης Λαέρτιος Diogénēs Laértios, latinisiert Diogenes Laertius) war ein antiker Philosophiehistoriker und Doxograph. Er lebte wahrscheinlich im 3. Jahrhundert und hat eine Geschichte der antiken Philosophie in zehn Bänden verfasst.
+Inhaltsverzeichnis
+1 Leben
+2 Werk
+2.1 Allgemeine Charakteristik
+2.2 Dargestellte Philosophen
+2.3 Inhaltsübersicht
+2.4 Exkurs: Bedeutung als Quelle zur antiken Logik
+3 Textausgaben
+4 Übersetzungen
+5 Literatur
+6 Weblinks
+Leben[Bearbeiten | Quelltext bearbeiten]
+Über die Lebensumstände des Diogenes ist fast nichts bekannt. Auch eine Datierung (3. Jahrhundert) kann lediglich indirekt aus dem Stil sowie den Lebensdaten der von Diogenes behandelten Philosophen erschlossen werden: Der späteste von ihm genannte (IX 116) Philosoph ist ein Schüler des Sextus Empiricus, Diogenes führt sonst kaum Philosophen der römischen Kaiserzeit auf und übergeht erstaunlicherweise den zu seiner Zeit vorherrschenden Mittelplatonismus ganz.
+Aus dem Beinamen Laertios hat man Rückschlüsse auf die Herkunft ziehen wollen. So wurde er von dem Ort Laerte in Karien bzw. Kilikien oder von dem römischen Familiennamen Laertii abgeleitet. In der heutigen Forschung wird der Name aber meist auf Laertes, den Vater des Odysseus bezogen, den schon Homer diogenes Laertiades (Διογένης bedeutet ‚gezeugt von Gott‘) nennt. Der Beiname Laertiades ist mithin eher als literarisch verspieltes Unterscheidungsmerkmal gegenüber anderen Griechen namens Diogenes zu deuten; biografische Informationen können aus ihm nicht abgeleitet werden.
+Diogenes schreibt über Apollonides aus Nikaia, er sei jemand, „der aus unserer Ecke kommt“ (IX 109). Einige haben aufgrund dieser Stelle vermutet, Diogenes könne aus Bithynien stammen. Für eine Herkunft aus der Provinz spräche immerhin, dass seine Gelehrsamkeit altertümlich wirkt und er in einer gewissen ‚antiquarischen Tendenz‘ besonders gern ältere und entlegene Quellen benutzt. Das Werk selbst bestätigt, dass Diogenes zwar eine gewisse Bildung und Belesenheit besaß, aber selbst kein eigenständiger oder kritischer Denker war, also wohl auch kein ‚Fachphilosoph‘, der in Athen o. ä. studiert oder weite Bildungsreisen ausgeführt hätte.
+Mitunter wurde auch die Vermutung geäußert, Diogenes sei identisch mit dem aus einem größeren Inschriftfund bekannt gewordenen Diogenes von Oinoanda, jedoch bleibt dies Spekulation. Als Argument für die Identifikation wurde angeführt, dass Diogenes von Oinoanda Epikureer war, Diogenes Laertios dem hellenistischen Philosophen aber ein ganzes Buch widmet und daher, wie angenommen wird, Sympathien für den Epikureismus hegte.
+Werk[Bearbeiten | Quelltext bearbeiten]
+Allgemeine Charakteristik[Bearbeiten | Quelltext bearbeiten]
+Dieser Artikel oder nachfolgende Abschnitt ist nicht hinreichend mit Belegen (beispielsweise Einzelnachweisen) ausgestattet. Die fraglichen Angaben werden daher möglicherweise demnächst entfernt. Bitte hilf der Wikipedia, indem du die Angaben recherchierst und gute Belege einfügst.
+Der Anfang der Biographie des Empedokles in Diogenes’ Schrift Über das Leben und die Lehren berühmter Philosophen in einer Handschrift aus dem Besitz von Kardinal Bessarion. Venedig, Biblioteca Nazionale Marciana, Gr. 394, fol. 143v (15. Jahrhundert)
+Der genaue Titel des Werkes variiert in den Handschriften und Ausgaben etwas. Die häufigsten Formulierungen Über Leben und Lehren berühmter Philosophen oder Zusammenstellung über Leben und Lehren der Philosophen (altgriechisch φιλοσόφων βίων καὶ δογμάτων συναγωγή) deutet bereits den kompendienhaften Charakter des Werkes an, das Biografie und Doxografie verbindet. Diese Zusammenstellung ist äußerst untypisch, da diese beiden Literaturgattungen in der römischen Kaiserzeit weit verbreitet waren, aber strikt voneinander getrennt wurden.
+Diogenes lässt sich kaum einer philosophischen Schule zuordnen, obwohl man vielfach annimmt, er sei Skeptiker gewesen. Er scheint eine vereinzelte Gestalt gewesen zu sein und seine Kompilation aus Liebhaberei zusammengestellt zu haben. Sein Werk ist frei von Polemik – soweit sie nicht aus den Quellen übernommen wurde – und hat in der spätantiken Literatur auch keinerlei Spuren in Form von Zitaten bei späteren Autoren hinterlassen.
+Diogenes beabsichtigte also nicht, ein ‚wissenschaftliches‘ Werk zu schreiben. Ihm kam es vielmehr darauf an, seine umfangreich, aber unkritisch gesammelten biografischen Nachrichten, anekdotenhaften Geschichten und sentenzenartigen Meinungsäußerungen unterhaltsam darzustellen. Das Werk besteht hauptsächlich aus Exzerpten und Zitaten aus dritter oder vierter Hand. Die Originaltexte scheint Diogenes selbst kaum gelesen zu haben; vielfach waren sie zu seiner Zeit auch schon nicht mehr erhalten.
+Die Identifikation der Quellen ist seit dem 19. Jahrhundert die Hauptfrage der Forschung. Diogenes stützt sich vermutlich auf Werke von Favorinus und Diokles von Magnesia, doch kann man im Einzelnen nicht sicher nachweisen, wer seine Gewährsmänner waren. Wahrscheinlich hat er auch Sammlungen von Aussprüchen und Apophthegmensammlungen benutzt. Deshalb sind seine biografischen Details zum Leben der antiken Philosophen auch selten authentisch: In erster Linie handelt es sich (von Buch X abgesehen) um Anekdoten, Klatsch oder Spott. Hieraus ergibt sich: Aufgrund seiner unkritischen Machart ist Diogenes’ Werk nur mit größter Vorsicht zu benutzen. Da es jedoch die umfangreichste erhaltene doxographische Quelle zur Philosophie der griechischen Antike darstellt, ist man mangels besserer Quellen dennoch auf Diogenes angewiesen.
+Der Aufbau (siehe Tabelle) ist weder systematisch noch durchgängig nach den Lebenszeiten der behandelten Personen geordnet, sondern nach den philosophischen „Schulen“, denen Diogenes gemäß antiker, aber oft ziemlich willkürlicher Praxis die einzelnen Philosophen zuordnet. Diogenes unterstellte (Buch I), es gebe nur zwei philosophische Richtungen, eine ‚ionische‘ und eine ‚italische‘. Diesen beiden Strömungen ordnet er (z. T. wenig sinnvoll) die einzelnen Philosophen unter. Im letzten Buch finden sich ausnahmsweise Texte aus erster Hand, und zwar Briefe und das Testament Epikurs, für die Diogenes in diesem Fall eine hervorragende Quelle darstellt.
+Friedrich Nietzsche urteilte: „Er ist der Nachtwächter der griechischen Philosophiegeschichte, man kann nicht in sie hinein, ohne dass einem nicht von ihm der Schlüssel gegeben wird.“
+Dargestellte Philosophen[Bearbeiten | Quelltext bearbeiten]
+In der Reihenfolge, in der Diogenes sie behandelt, werden folgende Philosophen bzw. Autoren porträtiert: Thales, Solon, Chilon, Pittakos, Bias, Kleobulos, Periander, Anacharsis, Myson, Epimenides, Pherekydes, Anaximander, Anaximenes, Anaxagoras, Archelaos, Sokrates, Xenophon, Aischines, Aristipp, Phaidon, Eukleides, Stilpon, Kriton, Simon, Glaukon, Simmias, Kebes, Menedemos, Platon, Speusipp, Xenokrates, Polemon, Krates, Krantor, Arkesilaos, Bion, Lakydes, Karneades, Kleitomachos, Aristoteles, Theophrast, Straton, Lykon, Demetrios, Herakleides, Antisthenes, Diogenes, Monimos, Onesikritos, Krates, Metrokles, Hipparchia, Menippos, Menedemos, Zenon, Ariston, Herillos, Dionysios, Kleanthes, Sphairos, Chrysipp, Pythagoras, Empedokles, Epicharm, Archytas, Alkmaion, Hippasos, Philolaos, Eudoxos, Heraklit, Xenophanes, Parmenides, Melissos, Leukipp, Demokrit, Protagoras, Diogenes von Apollonia, Anaxarchos, Pyrrhon, Timon und Epikur.
+Inhaltsübersicht[Bearbeiten | Quelltext bearbeiten]
+1. Buch
+Die Sieben Weisen und die Philosophietheorie des Autors (ionische und italische Schule)
+2. Buch
+Anaximander, Anaxagoras, Sokrates und die sog. kleineren Sokratiker
+3. Buch
+Platon
+4. Buch
+Die Schüler Platons
+5. Buch
+Aristoteles und seine Schüler (der Peripatos)
+6. Buch
+Antisthenes und die Kyniker
+7. Buch
+Zenon, Kleanthes und Chrysippos. Teile dieses Buches sind jedoch verloren
+8. Buch
+Pythagoras, Empedokles und andere Pythagoreer
+9. Buch
+Heraklit, Xenophanes, Parmenides, Zenon von Elea, Leukippos, Demokrit, Protagoras, Pyrrhon von Elis und Timon
+10. Buch
+Epikur
+Exkurs: Bedeutung als Quelle zur antiken Logik[Bearbeiten | Quelltext bearbeiten]
+Diogenes Laertios galt als Quelle für die Kenntnis der stoischen Logik. Seit der Wiederentdeckung der stoischen Aussagenlogik durch Jan Łukasiewicz haben die betreffenden Texte aber noch an Interesse gewonnen.
+Aus dem Werk geht eindeutig hervor, dass die Aussagenlogik nicht erst auf die stoische Schule zurückgeht, sondern von den ‚Dialektikern‘ (die früher mit den ‚Megarikern‘ identifiziert wurden) entwickelt wurde. Die Begründer der Stoa, Zenon und Chrysippos, haben die aussagenlogischen Ansätze der Dialektiker Diodoros Kronos und Philon von Megara übernommen und modifiziert.
+Bei Diogenes findet man bereits eine konsequente Lehre von den „unbeweisbaren“ Argumenten, das sind die Axiome der stoischen Aussagenlogik. Aus einer Stelle von Diogenes’ Berichten geht sogar hervor, dass Philon eine wahrheitsfunktionale Theorie der materialen Implikation vertreten hat, wie sie nach ihm erst wieder Ludwig Wittgenstein in seiner Logisch-philosophischen Abhandlung entwickelte. Auch für die Trugschlüsse, mit denen sich die Stoiker und vor allem die Dialektiker sehr ausführlich beschäftigt haben, ist das Werk von Diogenes eine wichtige Quelle.
+Textausgaben[Bearbeiten | Quelltext bearbeiten]
+Diogenis Laertii vitae philosophorum. Edited by Herbert S. Long, Clarendon Press, Oxford 1964 (die ältere Standardausgabe, gilt als problematisch)
+Diogenis Laertii vitae philosophorum. Drei Bände. Hrsg. von Miroslav Marcovich und Hans Gärtner, Teubner, Stuttgart/Leipzig 1999 (Bände 1 und 2) und Saur, München/Leipzig 2002 (Band 3: Indices) (maßgebliche Edition)
+Diogenes Laertius. Lives of Eminent Philosophers. Edited with Introductions by Tiziano Dorandi. Cambridge University Press, Cambridge 2013 (Cambridge Classical Texts and Commentaries 50), ISBN 978-0-521-88681-9.
+Übersetzungen[Bearbeiten | Quelltext bearbeiten]
+Von den Leben und den Meinungen berühmter Philosophen. Aus dem Griechischen von D[r]. C. Aug. Borheck. Zwei Bände, Wien und Prag: Franz Haas, 1807. (Darin: Band I, 1-5, „Vorrede“ Borhecks und dessen „Nachricht von Diogenes Laertius, dessen Schriften und ihren Ausgaben“; Bd. II, 6-18.) (Digitalisate bei ÖNB: Erster Band, Zweiter Band). Neuausgabe:
+Von dem [!] Leben und den Meinungen berühmter Philosophen. Aus dem Griechischen von Dr. L. [!] Aug. Borheck [Neugesetzte Ausgabe], Wiesbaden: Marix Verlag, 2008, ISBN 978-3-86539-164-3 (Hinweis im Impressum: „Der Text wurde behutsam revidiert.“ Enthält eine Vielzahl von Druckfehlern, so schon bei der Wiedergabe des Übersetzernamens; die Borhecksche Vorrede sowie die „Nachricht“ erscheinen hier als „Einleitung des Übersetzers“.)
+Leben und Meinungen berühmter Philosophen. Buch I–X. Aus dem Griechischen übersetzt von Otto Apelt. Zwei Bände (Philosophische Bibliothek. Bd. 53/54), Leipzig: Felix Meiner-Verlag, 1921 (enthält einen wichtigen Anmerkungsteil mit textkritischen und sachlichen Erläuterungen sowie Register). Digitalisate im Internet Archive: Band1http://vorlage_digitalisat.test/1%3D~GB%3D~IA%3Dapeltdiogeneslaertios1sub~MDZ%3D%0A~SZ%3D~doppelseitig%3D~LT%3DBand1~PUR%3D Band 2http://vorlage_digitalisat.test/1%3D~GB%3D~IA%3Dapeltdiogeneslaertios2sub~MDZ%3D%0A~SZ%3D~doppelseitig%3D~LT%3DBand%202~PUR%3D.
+Lizenzausgabe in der Reihe „Philosophische Studientexte“: Berlin: Akademie-Verlag, 1955 (mit einem Vorwort von Marie Simon, Band I, V-XII, hier, XIf.: „Die Anmerkungen wurden gestrichen, soweit sie nicht für das Verständnis des Textes notwendig sind oder die philologischen Erwägungen Apelts erläutern, durch die er jeweils zu seiner Übersetzung gelangt ist.“)
+Zweite Auflage. Unter Mitarbeit von Hans Günter Zekl neu herausgegeben sowie mit Vorwort, Einleitung und neuen Anmerkungen zu Text und Übersetzung versehen von Klaus Reich (Philosophische Bibliothek. Bd. 53/54), Hamburg 1967 (mit umfangreichen textkritischen Anmerkungen sowie der gekürzten Version von Apelts Sacherläuterungen).
+Nachdrucke bzw. „Sonderausgaben“ der zweiten Auflage von 1967: Hamburg 1987, 1998 und 2008.
+Leben und Lehre der Philosophen. Herausgegeben und übersetzt von Fritz Jürß, Reclam: Stuttgart, 1998. (Neuübersetzung)
+Literatur[Bearbeiten | Quelltext bearbeiten]
+Aufstieg und Niedergang der römischen Welt (ANRW) Reihe II Bd. 36.5 und 36.6. De Gruyter, Berlin 1992 (darin 13 Aufsätze zu Diogenes Laertios)
+Diogene Laerzio storico del pensiero antico (= Elenchos, Bd. 7, Napoli 1986) (neun Aufsätze über Diogenes Laertios)
+Tiziano Dorandi: Laertiana. De Gruyter, Berlin 2009, ISBN 978-3-11-020914-3 (wichtig für die Rezeptionsgeschichte)
+Jørgen Mejer: Diogenes Laertius and his Hellenistic Background. Steiner, Wiesbaden 1978, ISBN 3-515-02686-X
+Jørgen Mejer: Diogène Laërce. In: Richard Goulet (Hrsg.): Dictionnaire des philosophes antiques, Bd. 2, CNRS Éditions, Paris 1994, ISBN 2-271-05195-9, S. 824–833
+Weblinks[Bearbeiten | Quelltext bearbeiten]
+ Commons: Diogenes Laertios – Sammlung von Bildern, Videos und Audiodateien
+ Wikisource: Διογένης Λαέρτιος – Quellen und Volltexte (griechisch)
+ Wikisource: Diogenes Laërtius – Quellen und Volltexte (englisch)
+Literatur von und über Diogenes Laertios im Katalog der Deutschen Nationalbibliothek
+Textausgaben und Übersetzungen
+H. S. Long: Vitae, altgriechischer Text, Oxford 1964.
+R. D. Hicks: Vitae, englische Übersetzung und altgriechischer Text, Cambridge 1925.
+Philippe Remacle: Vitae, altgriechischer Text und französische Übersetzung, Paris 1840.
+Literatur
+Raul Corazzon: Auswahlbibliografie, Mailand 2010.
+Normdaten (Person): GND: 118525859 (PICA, AKS) | LCCN: n80067474 | NDL: 00437967 | VIAF: 41839141 | Wikipedia-Personensuche
+Personendaten
+NAME
+Diogenes Laertios
+ALTERNATIVNAMEN
+Diogenes Laertius
+KURZBESCHREIBUNG
+antiker Philosophiehistoriker
+GEBURTSDATUM
+3. Jahrhundert
+STERBEDATUM
+3. Jahrhundert oder 4. Jahrhundert
+Abgerufen von „https://de.wikipedia.org/w/index.php?title=Diogenes_Laertios&oldid=159252045“
+Kategorien: PhilosophiehistorikerPhilosoph (3. Jahrhundert)Historiker der AntikeAutorLiteratur (Altgriechisch)Geboren im 3. JahrhundertGestorben im 3. oder 4. JahrhundertMannWartungskategorie: Wikipedia:Belege fehlen
+Navigationsmenü
+Meine Werkzeuge
+Nicht angemeldetDiskussionsseiteBeiträgeBenutzerkonto erstellenAnmelden
+Namensräume
+Artikel
+Diskussion
+Varianten
+Ansichten
+Lesen
+Bearbeiten
+Quelltext bearbeiten
+Versionsgeschichte
+Mehr
+Suche
+Navigation
+HauptseiteThemenportaleVon A bis ZZufälliger Artikel
+Mitmachen
+Artikel verbessernNeuen Artikel anlegenAutorenportalHilfeLetzte ÄnderungenKontaktSpenden
+Werkzeuge
+Links auf diese SeiteÄnderungen an verlinkten SeitenSpezialseitenPermanenter LinkSeiten­informationenWikidata-DatenobjektArtikel zitieren
+Drucken/­exportieren
+Buch erstellenAls PDF herunterladenDruckversion
+In anderen Projekten
+Commons
+In anderen Sprachen
+AfrikaansالعربيةAzərbaycancaБеларускаяБългарскиBrezhonegCatalàČeštinaDanskΕλληνικάEnglishEsperantoEspañolEestiEuskaraEstremeñuفارسیSuomiFrançaisGalegoעבריתHrvatskiMagyarՀայերենÍslenskaItaliano日本語한국어LatinaമലയാളംNederlandsNorsk bokmålPolskiPortuguêsRomânăРусскийSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaSvenskaTürkçeУкраїнська中文
+Links bearbeiten
+Diese Seite wurde zuletzt am 1. November 2016 um 00:00 Uhr geändert.
+Abrufstatistik
+Der Text ist unter der Lizenz „Creative Commons Attribution/Share Alike“ verfügbar; Informationen zu den Urhebern und zum Lizenzstatus eingebundener Mediendateien (etwa Bilder oder Videos) können im Regelfall durch Anklicken dieser abgerufen werden. Möglicherweise unterliegen die Inhalte jeweils zusätzlichen Bedingungen. Durch die Nutzung dieser Website erklären Sie sich mit den Nutzungsbedingungen und der Datenschutzrichtlinie einverstanden.
+Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.
+Datenschutz
+Über Wikipedia
+Impressum
+Entwickler
+Stellungnahme zu Cookies
+Mobile Ansicht

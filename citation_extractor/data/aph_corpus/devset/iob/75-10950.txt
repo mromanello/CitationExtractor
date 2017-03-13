@@ -1,0 +1,27 @@
+Les	DET:ART
+sources	NOM
+papyrologiques	ADJ
+attestent	VER:pres
+qu'	KON
+il	PRO:PER
+n'	ADV
+existait	VER:impf
+pas	ADV
+de	PRP
+différences	NOM
+,	PUN
+dans	PRP
+l'	DET:ART
+Égypte	NAM
+ptolémaïque	ADJ
+,	PUN
+entre	PRP
+les	DET:ART
+hommes	NOM
+et	KON
+les	DET:ART
+femmes	NOM
+propriétaires	ADJ
+d'	PRP
+esclaves	NOM
+

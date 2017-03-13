@@ -1,0 +1,9 @@
+Contiene	VLfin
+también	ADV
+la	ART
+bibliografía	NC
+del	PDEL
+prof.	NC
+Sotomayor	NP
+.	FS
+

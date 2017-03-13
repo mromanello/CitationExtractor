@@ -1,0 +1,27 @@
+Version	NOM
+originale	ADJ
+de	PRP
+la	DET:ART
+première	NUM
+partie	NOM
+d'	PRP
+un	DET:ART
+article	NOM
+publié	VER:pper
+en	PRP
+anglais	ADJ
+(	PUN
+=>	ABR
+68-01259	NUM
+,	PUN
+où	PRO:REL
+la	DET:ART
+pagination	NOM
+est	VER:pres
+à	PRP
+rectifier	VER:infi
+:	PUN
+lire	VER:infi
+55-73	NUM
+)	PUN
+

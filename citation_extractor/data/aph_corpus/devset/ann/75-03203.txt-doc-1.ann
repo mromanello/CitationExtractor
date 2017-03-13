@@ -1,0 +1,8 @@
+T1	REFAUWORK 0 7	Epigram
+T2	REFSCOPE 8 13	7, 19
+T3	AWORK 140 155	« Argonautica »
+T4	AAUTHOR 159 175	Valerius Flaccus
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:852:7.19
+#1	AnnotatorNotes T4	urn:cts:cwkb:412
+#2	AnnotatorNotes T3	urn:cts:cwkb:664.1367

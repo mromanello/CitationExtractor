@@ -1,0 +1,22 @@
+Osservazioni	NOM
+sull'	PRE:det
+interesse	NOM
+di	PRE
+Fowler	NOM
+per	PRE
+la	DET:def
+struttura	NOM
+delle	PRE:det
+opere	NOM
+letterarie	ADJ
+antiche	ADJ
+e	CON
+in	PRE
+particolare	NOM
+per	PRE
+la	DET:def
+sezione	NOM
+mediana	ADJ
+di	PRE
+esse	PRO:pers
+

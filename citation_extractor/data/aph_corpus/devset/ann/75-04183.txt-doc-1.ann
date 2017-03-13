@@ -1,0 +1,12 @@
+T1	AWORK 133 145	« Republic »
+T2	AWORK 206 215	« Laws ».
+T3	AAUTHOR 259 267	Plato 's
+T4	AWORK 313 321	« Laws »
+T5	AWORK 339 351	« Republic »
+T6	AWORK 360 374	« Statesman »,
+#0	AnnotatorNotes T6	urn:cts:greekLit:tlg0059.tlg008
+#1	AnnotatorNotes T4	urn:cts:greekLit:tlg0059.tlg034
+#2	AnnotatorNotes T5	urn:cts:greekLit:tlg0059.tlg030
+#3	AnnotatorNotes T2	urn:cts:greekLit:tlg0059.tlg034
+#4	AnnotatorNotes T3	urn:cts:greekLit:tlg0059
+#5	AnnotatorNotes T1	urn:cts:greekLit:tlg0059.tlg030

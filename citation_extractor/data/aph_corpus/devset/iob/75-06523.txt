@@ -1,0 +1,21 @@
+Per	PRE
+la	DET:def
+1a	NOM
+parte	NOM
+=>	NOM
+75-06522	NUM
+:	PON
+esame	NOM
+di	PRE
+testi	NOM
+di	PRE
+età	NOM
+augustea	ADJ
+e	CON
+prima	ADJ
+età	NOM
+imperiale	ADJ
+e	CON
+considerazioni	NOM
+conclusive	ADJ
+

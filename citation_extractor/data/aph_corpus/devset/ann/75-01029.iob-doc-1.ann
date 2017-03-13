@@ -1,4 +1,0 @@
-T1	AWORK 351 369	« Opuscula sacra »
-T2	AAUTHOR 186 191	Boèce
-T3	AAUTHOR 241 246	Boèce
-R1	authorOf Arg1:T3 Arg2:T1	

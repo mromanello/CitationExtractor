@@ -1,0 +1,8 @@
+T1	AAUTHOR 49 54	Varro
+T2	REFAUWORK 55 58	(L.
+T3	REFSCOPE 59 65	7.29).
+T4	AWORK 374 387	« Atellana ».
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:1323:7.29
+#1	AnnotatorNotes T4	urn:cts:cwkb:555.1135
+#2	AnnotatorNotes T1	urn:cts:cwkb:671

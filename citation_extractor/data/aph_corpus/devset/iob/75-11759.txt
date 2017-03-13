@@ -1,0 +1,19 @@
+La	DET:ART
+documentation	NOM
+disponible	ADJ
+motre	ADJ
+que	KON
+les	DET:ART
+femmes	NOM
+pouvaient	VER:impf
+accéder	VER:infi
+aux	PRP:det
+mêmes	ADJ
+rang	NOM
+et	KON
+statut	NOM
+sacerdotaux	ADJ
+que	KON
+les	DET:ART
+hommes	NOM
+

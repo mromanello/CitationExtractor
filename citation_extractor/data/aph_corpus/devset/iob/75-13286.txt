@@ -1,0 +1,10 @@
+In	PRE
+margine	NOM
+al	PRE:det
+volume	NOM
+di	PRE
+T.	NOM
+Rüfner	NOM
+schedato	ADJ
+75-13242	NUM
+

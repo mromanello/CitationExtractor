@@ -1,0 +1,19 @@
+Zum	APPRART
+Herrscherkult	NN
+im	APPRART
+«	$(
+Panegyricus	NE
+»	$(
+und	KON
+zu	APPR
+«	$(
+sacramentum	NN
+»	$(
+in	APPR
+Epist.	NN
+10	CARD
+,	$,
+96	CARD
+,	$,
+7	CARD
+

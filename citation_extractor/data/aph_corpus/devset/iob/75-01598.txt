@@ -1,0 +1,17 @@
+Analisi	NOM
+di	PRE
+varie	ADJ
+tipologie	NOM
+di	PRE
+citazioni	NOM
+omeriche	ADJ
+in	PRE
+Dione	NOM
+,	PON
+e	CON
+soprattutto	ADV
+delle	PRE:det
+loro	PRO:poss
+valenze	NOM
+ideologiche	ADJ
+

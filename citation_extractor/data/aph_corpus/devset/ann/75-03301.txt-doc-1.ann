@@ -1,0 +1,6 @@
+T1	REFAUWORK 77 81	Ath.
+T2	REFSCOPE 82 95	5, 206d-209e,
+T3	AAUTHOR 173 182	Archimede
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0030.tlg005:5.206
+#1	AnnotatorNotes T3	urn:cts:cwkb:757

@@ -1,0 +1,27 @@
+Riflessioni	NOM
+sull'	PRE:det
+evoluzione	NOM
+degli	PRE:det
+studi	NOM
+in	PRE
+questo	PRO:demo
+settore	NOM
+dopo	PRE
+la	DET:def
+morte	NOM
+di	PRE
+Beazley	NOM
+nel	PRE:det
+1970	NUM
+,	PON
+e	CON
+in	PRE
+particolare	ADJ
+sulla	PRE:det
+loro	PRO:poss
+situazione	NOM
+all'	PRE:det
+Università	NOM
+di	PRE
+Catania	NPR
+

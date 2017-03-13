@@ -1,0 +1,24 @@
+Analisi	NOM
+della	PRE:det
+funzione	NOM
+delle	PRE:det
+genealogie	NOM
+nella	PRE:det
+costituzione	NOM
+del	PRE:det
+territorio	NOM
+di	PRE
+Argo	NOM
+e	CON
+delle	PRE:det
+tradizioni	NOM
+locali	ADJ
+,	PON
+con	PRE
+particolare	ADJ
+riferimento	NOM
+al	PRE:det
+mito	NOM
+delle	PRE:det
+Danaidi	NOM
+

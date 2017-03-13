@@ -1,0 +1,9 @@
+Analyse	NOM
+des	PRP:det
+théories	NOM
+qui	PRO:REL
+traitent	VER:pres
+de	PRP
+la	DET:ART
+corrélation	NOM
+

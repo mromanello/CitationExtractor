@@ -1,0 +1,13 @@
+PVindob	NE
+.	$.
+
+G	NN
+21025	CARD
+aus	APPR
+dem	ART
+Herakleopolites	NN
+,	$,
+vor	APPR
+565	CARD
+n.	APPR
+Chr.	NE

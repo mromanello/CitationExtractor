@@ -1,0 +1,11 @@
+À	PRP
+propos	NOM
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+de	PRP
+M.	NOM
+Detienne	NAM
+noté	VER:pper
+74-14193	NUM
+

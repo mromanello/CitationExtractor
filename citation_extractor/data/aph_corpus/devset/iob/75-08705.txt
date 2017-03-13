@@ -1,0 +1,42 @@
+Les	DET:ART
+fouilles	NOM
+menées	VER:pper
+de	PRP
+2002	NUM
+à	PRP
+2003	NUM
+ont	VER:pres
+permis	VER:pper
+de	PRP
+localiser	VER:infi
+à	PRP
+la	DET:ART
+périphérie	NOM
+de	PRP
+l'	DET:ART
+agglomération	NOM
+un	DET:ART
+ensemble	ADV
+cultuel	ADJ
+d'	PRP
+importance	NOM
+dont	PRO:REL
+l'	DET:ART
+occupation	NOM
+s'	PRO:PER
+étend	VER:pres
+de	PRP
+15	NUM
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+à	PRP
+60-70	NUM
+apr.	ABR
+J.	ABR
+-C	ADJ
+

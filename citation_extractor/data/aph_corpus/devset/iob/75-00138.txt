@@ -1,0 +1,20 @@
+Influenza	NOM
+di	PRE
+Ilario	NOM
+di	PRE
+Poitiers	NOM
+sul	PRE:det
+commento	NOM
+ambrosiano	ADJ
+di	PRE
+Lc	NOM
+.	SENT
+
+12	NUM
+,	PON
+27	NUM
+e	CON
+13	NUM
+,	PON
+6-9	NUM
+

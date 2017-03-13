@@ -1,0 +1,22 @@
+Studio	NOM
+delle	PRE:det
+testimonianze	NOM
+archeologiche	ADJ
+anche	ADV
+in	PRE
+rapporto	NOM
+alle	PRE:det
+fonti	NOM
+omeriche	ADJ
+,	PON
+con	PRE
+un	DET:indef
+elenco	NOM
+di	PRE
+tombe	NOM
+e	CON
+pire	NOM
+corredato	VER:pper
+di	PRE
+bibliografia	NOM
+

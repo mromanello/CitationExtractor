@@ -1,0 +1,24 @@
+Concerne	VER:pres
+plus	ADV
+d'	PRP
+une	DET:ART
+centaine	NOM
+de	PRP
+séries	NOM
+,	PUN
+en	PRP
+rapport	NOM
+avec	PRP
+onze	NUM
+impératrices	NOM
+.	SENT
+
+Intérêt	NOM
+pour	PRP
+l'	DET:ART
+étude	NOM
+de	PRP
+la	DET:ART
+propagande	NOM
+impériale	ADJ
+

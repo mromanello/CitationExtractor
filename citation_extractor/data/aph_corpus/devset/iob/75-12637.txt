@@ -1,0 +1,29 @@
+Passe	VER:pres
+en	PRO:PER
+revue	VER:pper
+les	DET:ART
+descriptions	NOM
+du	PRP:det
+Parthénon	NAM
+transformé	VER:pper
+en	PRP
+mosquée	NOM
+,	PUN
+qui	PRO:REL
+confirment	VER:pres
+l'	DET:ART
+existence	NOM
+de	PRP
+six	NUM
+colonnes	NOM
+doriques	ADJ
+dans	PRP
+l'	DET:ART
+opisthodome	NOM
+.	SENT
+
+Pour	PRP
+1	NUM
+=>	ABR
+75-12636	NUM
+

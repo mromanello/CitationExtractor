@@ -1,0 +1,8 @@
+Presentazione	NOM
+degli	PRE:det
+atti	NOM
+(	PON
+=>	NOM
+75-14387	NUM
+)	PON
+

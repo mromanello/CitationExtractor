@@ -1,0 +1,10 @@
+T1	REFAUWORK 125 130	A. D.
+T2	REFSCOPE 131 133	9,
+T3	AWORK 243 255	« Annales »,
+T4	REFAUWORK 377 382	(ann.
+T5	REFSCOPE 383 393	1, 63-72).
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:1346.4372:9
+#1	AnnotatorNotes R2	urn:cts:cwkb:467.985:1.63-1.72
+#2	AnnotatorNotes T3	urn:cts:cwkb:600.1244

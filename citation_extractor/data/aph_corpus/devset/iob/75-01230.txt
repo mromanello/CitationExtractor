@@ -1,0 +1,17 @@
+Die	ART
+Lektüre	NN
+im	APPRART
+Kontext	NN
+der	ART
+Carmina	NE
+30	CARD
+und	KON
+32	CARD
+legt	VVFIN
+einen	ART
+sexuell	ADJD
+dominierten	ADJA
+Subtext	NN
+frei	PTKVZ
+.	$.
+

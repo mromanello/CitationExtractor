@@ -1,0 +1,35 @@
+At	IN
+Aen.	NP
+12	CD
+,	,
+571	CD
+«	)
+uictus	NN
+»	(
+is	VBZ
+used	VBN
+of	IN
+persuasion	NN
+.	SENT
+
+Thus	RB
+:	:
+«	)
+I	PP
+should	MD
+wait	VB
+…	NN
+till	IN
+he	PP
+is	VBZ
+convinced	VBN
+to	TO
+be	VB
+willing	JJ
+to	TO
+fight	VB
+against	IN
+me	PP
+»	(
+.	SENT
+

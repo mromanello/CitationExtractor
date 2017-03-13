@@ -1,0 +1,14 @@
+T1	REFAUWORK 175 180	(fab.
+T2	REFSCOPE 181 188	31, 5),
+T3	REFAUWORK 228 233	(fab.
+T4	REFSCOPE 234 242	121, 3),
+T5	AWORK 277 288	« Tartara »
+T6	REFAUWORK 289 294	(fab.
+T7	REFSCOPE 295 302	152, 1)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T6 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:cwkb:2465.8058:31.5
+#1	AnnotatorNotes R2	urn:cts:cwkb:2465.8058:121.3
+#2	AnnotatorNotes R3	urn:cts:cwkb:2465.8058:152.1
+#3	AnnotatorNotes T5	urn:cts:cwkb:584.1207

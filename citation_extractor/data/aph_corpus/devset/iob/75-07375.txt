@@ -1,0 +1,34 @@
+On	IN
+the	DT
+Greek	JJ
+hexameter	NN
+.	SENT
+
+Gives	VBZ
+a	DT
+new	JJ
+series	NN
+of	IN
+structurally	RB
+similar	JJ
+,	,
+yet	RB
+more	RBR
+specific	JJ
+tables	NNS
+(	(
+for	IN
+the	DT
+paper	NN
+of	IN
+E.	NP
+G.	NP
+O'Neill	NP
+=>	NN
+APh	NP
+17	CD
+,	,
+p.	NN
+225	CD
+)	)
+

@@ -1,0 +1,4 @@
+T1	REFAUWORK 83 91	De Fort.
+T2	REFSCOPE 92 97	1, 16
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:981.4467:1.16

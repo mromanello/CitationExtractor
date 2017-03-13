@@ -1,0 +1,12 @@
+T1	AAUTHOR 59 72	Tertullian 's
+T2	AWORK 73 89	« De monogamia »
+T3	AWORK 94 110	« De baptismo »,
+T4	AAUTHOR 119 129	Cyprian 's
+T5	AWORK 130 154	« De unitate ecclesiae »
+T6	AAUTHOR 321 331	Cyprian 's
+#0	AnnotatorNotes T6	urn:cts:cwkb:2706
+#1	AnnotatorNotes T4	urn:cts:cwkb:2706
+#2	AnnotatorNotes T5	urn:cts:cwkb:2706.8589
+#3	AnnotatorNotes T2	urn:cts:cwkb:2390.7943
+#4	AnnotatorNotes T3	urn:cts:cwkb:2390.8820
+#5	AnnotatorNotes T1	urn:cts:cwkb:2390

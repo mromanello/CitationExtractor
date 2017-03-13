@@ -1,0 +1,45 @@
+Discussione	NOM
+di	PRE
+Bacchilide	NOM
+,	PON
+Epin	NOM
+.	SENT
+
+9	NUM
+;	PON
+11	NUM
+;	PON
+Pae.	ABR
+4	NUM
+;	PON
+Dith	NOM
+.	SENT
+
+5	NUM
+,	PON
+che	PRO:rela
+gettano	VER:pres
+luce	NOM
+sulla	PRE:det
+cultura	NOM
+argolica	ADJ
+nel	PRE:det
+5°	NOM
+sec.	NOM
+a.	NOM
+C.	NPR
+e	CON
+sull'	PRE:det
+interesse	NOM
+del	PRE:det
+poeta	NOM
+per	PRE
+Argo	NOM
+nel	PRE:det
+periodo	NOM
+del	PRE:det
+suo	PRO:poss
+soggiorno	NOM
+nel	PRE:det
+Peloponneso	NPR
+
