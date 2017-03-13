@@ -13,5 +13,5 @@ def test_annotations2references(old_knowledge_base):
 	datadir = ('citation_extractor','data/aph_corpus/goldset/ann/')
 	dir = pkg_resources.resource_filename(*datadir)
 	files = [file.replace('-doc-1.ann','') for file in pkg_resources.resource_listdir(*datadir) if '.ann' in file]
-	references = reduce((lambda x, y: x + y), [annotations2references(file, dir, knowledge_base) for file in files])
+	references = reduce((lambda x, y: x + y), [annotations2references(file, dir, old_knowledge_base) for file in files])
 	print references

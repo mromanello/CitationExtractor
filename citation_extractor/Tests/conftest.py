@@ -6,6 +6,7 @@ import pprint
 import logging
 import pkg_resources
 from pytest import fixture
+from citation_extractor import pipeline
 from citation_extractor.settings import crf
 from citation_extractor.core import citation_extractor
 from citation_extractor.ned import KnowledgeBase
