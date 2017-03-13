@@ -13,6 +13,15 @@
 
 ## Code Refactoring
 
+* change the `LookupDictionary` in `Utils.FastDict` so that it gets the data directly from the Knowledge Base instead of the static file (**needs tests**)
+
+    # put author names into a dictionary, assuring that the keys are unique
+    # this code uses the new KB, not the one in `citation_extractor.ned`
+    flat_author_names = {"%s$$n%i"%(author.get_urn(), i+1):name[1] 
+            for author in kb.get_authors() 
+                        for i,name in enumerate(author.get_names())  
+                                            if author.get_urn() is not None}
+
 * `CRFSuite` instead of `CRF++`: <http://sklearn-crfsuite.readthedocs.org/en/latest/> (and combine with <http://www.nltk.org/api/nltk.classify.html>)
 * move active learning classes from `Utils.aph_corpus` to a separate module
 * move `crfpp_templates` to the `data` directory

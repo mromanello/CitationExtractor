@@ -7,11 +7,15 @@ from operator import itemgetter
 import nltk
 import sys
 from pyCTS import CTS_URN
-from kb import DisambiguationNotFound
 
 global logger
 logger = logging.getLogger(__name__)
 
+class DisambiguationNotFound(Exception):
+    def __init__(self, message):
+        Exception.__init__(self, message)
+    def __str__(self):
+        return repr(self.message)
 class CitationMatcher(object):
 	"""
 	TODO

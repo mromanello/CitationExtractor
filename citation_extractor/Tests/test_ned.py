@@ -26,3 +26,12 @@ def test_pickle_citation_matcher(citation_matcher):
 	"""
 	pickled_citation_matcher = pickle.dumps(cm)
 	unpickled_citation_matcher = pickle.loads(pickled_citation_matcher)
+
+"""
+Tests to write:
+
+- test methods of the CitationMatcher with old KB (matches_author, matches_work, disambiguate)
+- test methods of the CitationMatcher with new KB (matches_author, matches_work, disambiguate)
+
+
+"""
