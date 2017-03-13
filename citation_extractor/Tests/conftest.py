@@ -13,7 +13,17 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 @fixture
-def knowledge_base():
+def crf_citation_extractor(tmpdir):
+	"""
+	Initialise a citation extractor with CRF model trained on the
+	goldset of the APh corpus.
+	"""
+	crf.TEMP_DIR = str(tmpdir.mkdir('tmp'))+"/"
+	crf.OUTPUT_DIR = str(tmpdir.mkdir('out'))+"/"
+	crf.LOG_FILE = "%s/extractor.log"%crf.TEMP_DIR
+	return pipeline.get_extractor(crf)
+@fixture
+def old_knowledge_base():
 	"""
 	Initialises and returns a HuCit KnowledgeBase.
 	"""
@@ -23,7 +33,7 @@ def knowledge_base():
 	logger.info("The KnowledgeBase %s was initialised"%kb)
 	return kb
 @fixture
-def citation_matcher(knowledge_base):
+def citation_matcher_legacy(old_knowledge_base):
 	"""
 	Initialises and returns a CitationMatcher.
 	"""
