@@ -9,7 +9,7 @@ from citation_extractor.Utils.IO import annotations2references
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-def test_annotations2references(knowledge_base):
+def test_annotations2references(old_knowledge_base):
 	datadir = ('citation_extractor','data/aph_corpus/goldset/ann/')
 	dir = pkg_resources.resource_filename(*datadir)
 	files = [file.replace('-doc-1.ann','') for file in pkg_resources.resource_listdir(*datadir) if '.ann' in file]
