@@ -8,6 +8,8 @@ before_install:
   - sudo apt-get remove automake
 install:
   - sudo -H ./install_dependencies.sh
+  - ll $TRAVIS_BUILD_DIR/
+  - ll $TRAVIS_BUILD_DIR/tree-tagger/bin/
   - sudo chmod 777 -R crfpp
   - cd crfpp/
   - export C_INCLUDE_PATH=/usr/local/include/:${C_INCLUDE_PATH}
