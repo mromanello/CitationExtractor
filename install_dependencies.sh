@@ -38,5 +38,7 @@ wget http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/spanish-chunke
 # let's run the installation script
 chmod +x install-tagger.sh 
 ./install-tagger.sh
+chown $USER:$USER -R .
+chmod 777 -R . 
 rm *.gz
 
