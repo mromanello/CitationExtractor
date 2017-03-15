@@ -69,7 +69,7 @@ def get_taggers(treetagger_dir = '/Applications/treetagger/cmd/',abbrev_file=Non
 		assert os.environ["TREETAGGER_HOME"] is not None
 	except Exception, e:
 		os.environ["TREETAGGER_HOME"] = treetagger_dir
-	logger.debug("Env variable $TREETAGGER_HOME == %s"%os.environ["TREETAGGER_HOME"])
+	logger.info("Env variable $TREETAGGER_HOME == %s"%os.environ["TREETAGGER_HOME"])
 	lang_codes = {
 		'en':('english','utf-8'),
 		'it':('italian','utf-8'),
