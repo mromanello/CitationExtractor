@@ -1,5 +1,5 @@
 env:
-  - TREETAGGER_HOME=/root/tree-tagger/cmd/
+  - TREETAGGER_HOME=/home/$USER/tree-tagger/cmd/
 language: python
 python:
   - "2.7"
