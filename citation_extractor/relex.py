@@ -68,10 +68,10 @@ def prepare_for_training(doc_id, basedir,output_class_label=True):
 					instances.append([features,class_label])
 				else:
 					instances.append([features,class_label])
-				logger.info("[%s] Features for %s %s (%s-%s): %s"%(class_label,entities[relation[0]]["surface"],entities[relation[1]]["surface"],relation[0],relation[1],features))
+				logger.debug("[%s] Features for %s %s (%s-%s): %s"%(class_label,entities[relation[0]]["surface"],entities[relation[1]]["surface"],relation[0],relation[1],features))
 			else:
 				instances.append(features)
-				logger.info("Features for %s %s (%s-%s): %s"%(entities[relation[0]]["surface"],entities[relation[1]]["surface"],relation[0],relation[1],features))
+				logger.debug("Features for %s %s (%s-%s): %s"%(entities[relation[0]]["surface"],entities[relation[1]]["surface"],relation[0],relation[1],features))
 			# now reverse the arguments...
 			is_positive_instance = (relation[1],relation[0]) in relation_list
 			if(is_positive_instance):
@@ -84,10 +84,10 @@ def prepare_for_training(doc_id, basedir,output_class_label=True):
 					instances.append([features,class_label])
 				else:
 					instances.append([features,class_label])
-				logger.info("[%s] Features for %s %s (%s-%s): %s"%(class_label,entities[relation[1]]["surface"],entities[relation[0]]["surface"],relation[1],relation[0],features))
+				logger.debug("[%s] Features for %s %s (%s-%s): %s"%(class_label,entities[relation[1]]["surface"],entities[relation[0]]["surface"],relation[1],relation[0],features))
 			else:
 				instances.append(features)
-				logger.info("Features for %s %s (%s-%s): %s"%(entities[relation[0]]["surface"],entities[relation[1]]["surface"],relation[0],relation[1],features))
+				logger.debug("Features for %s %s (%s-%s): %s"%(entities[relation[0]]["surface"],entities[relation[1]]["surface"],relation[0],relation[1],features))
 	return instances
 def extract_relation_features(arg1,arg2,entities,fulltext):
 	"""

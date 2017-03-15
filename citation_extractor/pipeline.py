@@ -84,7 +84,10 @@ def get_taggers(treetagger_dir = '/Applications/treetagger/cmd/',abbrev_file=Non
 	taggers = {}
 	for lang in lang_codes.keys():
 		try:
-			taggers[lang]=TreeTagger(language=lang_codes[lang][0],abbreviation_list=abbrev_file)
+			taggers[lang]=TreeTagger(language=lang_codes[lang][0]
+									, encoding=lang_codes[lang][1]
+									, abbreviation_list=abbrev_file)
+			logger.info("Treetagger for %s successfully initialised"%lang)
 		except Exception, e:
 			logger.error("initialising Treetagger for language %s raised error: \"%s\""%(lang_codes[lang][0],e))
 			raise e
