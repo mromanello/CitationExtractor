@@ -64,7 +64,9 @@ def knowledge_base():
 	"""
 	try:
 		config_file = pkg_resources.resource_filename('knowledge_base','config/virtuoso.ini')
-		return KnowledgeBaseNew(config_file)
+		kb = KnowledgeBaseNew(config_file)
+		kb.get_authors()[0]
+		return kb
 	except Exception, e:
 		config_file = pkg_resources.resource_filename('knowledge_base','config/inmemory.ini')
 		return KnowledgeBaseNew(config_file)
