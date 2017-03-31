@@ -351,11 +351,11 @@ def filter_IOB(instances,tag_name):
 		open = False
 		for i in instance:
 				if(i[2]=='B-%s'%tag_name):
-					temp.append(i[1])
+					temp.append(i[0])
 					open = True
 				elif(i[2]=='I-%s'%tag_name):
 					if(open):
-						temp.append(i[1])
+						temp.append(i[0])
 				elif(i[2]=='O'):
 					if(open):
 						out.append(temp)

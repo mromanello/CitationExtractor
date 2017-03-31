@@ -1,3 +1,5 @@
+env:
+  - TREETAGGER_HOME=/home/$USER/tree-tagger/cmd/
 language: python
 python:
   - "2.7"
@@ -7,6 +9,7 @@ before_install:
   - sudo apt-get install gfortran libopenblas-dev liblapack-dev
   - sudo apt-get remove automake
 install:
+  - ./install_treetagger.sh
   - sudo -H ./install_dependencies.sh
   - sudo chmod 777 -R crfpp
   - cd crfpp/
@@ -23,5 +26,8 @@ install:
   - pip install -e lib/
   - pip install -r requirements.txt
   - pip install .
+  - pip install pytest-cov codecov
 # command to run tests
-script: pytest -vv
+script: pytest -vv --cov=citation_extractor
+after_success:
+  - codecov

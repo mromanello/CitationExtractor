@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
-import pkg_resources
+import pytest
 import logging
-from citation_extractor.pipeline import read_ann_file_new
+import pkg_resources
+from citation_extractor.pipeline import *
 
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
@@ -22,21 +23,30 @@ def test_read_ann_file_new():
 		logger.debug(annotations)
 		for annotation in annotations:
 			assert (relations.has_key(annotation["anchor"]) or entities.has_key(annotation["anchor"])) 
+def test_tokenize_string(aph_title, postaggers):
+	lang = detect_language(aph_title)
+	postagged_string = postaggers[lang].tag(aph_title) 
+	logger.debug(postagged_string)
+	assert postagged_string is not None
+@pytest.mark.skip
 def test_preprocessing():
 	"""
 	TODO
 	"""
 	return
+@pytest.mark.skip
 def test_do_ned():
 	"""
 	TODO
 	"""
 	return
+@pytest.mark.skip
 def test_do_ner():
 	"""
 	TODO
 	"""
 	return
+@pytest.mark.skip
 def test_do_relex():
 	"""
 	TODO

@@ -1,9 +1,15 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
+import os
 import sys
 import logging
 import codecs
+import langid
+if(sys.version_info < (3, 0)):
+	from treetagger_python2 import TreeTagger
+else:
+	from treetagger import TreeTagger 
 from citation_extractor.Utils import IO
 from citation_extractor.Utils.sentencesplit import sentencebreaks_to_newlines # contained in brat tools
 import numpy as np
@@ -59,16 +65,18 @@ def recover_segmentation_errors(text,abbreviation_list,verbose=False):
 	return output_text
 def get_taggers(treetagger_dir = '/Applications/treetagger/cmd/',abbrev_file=None):
 	"""docstring for create_taggers"""
-	from treetagger import TreeTagger
-	import os
-	os.environ["TREETAGGER"]=treetagger_dir
+	try:
+		assert os.environ["TREETAGGER_HOME"] is not None
+	except Exception, e:
+		os.environ["TREETAGGER_HOME"] = treetagger_dir
+	logger.info("Env variable $TREETAGGER_HOME == %s"%os.environ["TREETAGGER_HOME"])
 	lang_codes = {
 		'en':('english','utf-8'),
 		'it':('italian','utf-8'),
 		'es':('spanish','utf-8'),
 		'de':('german','utf-8'),
 		'fr':('french','utf-8'),
-		'la':('latin','latin-1'),
+		#'la':('latin','latin-1'), #TODO: do it via CLTK
 		'nl':('dutch','utf-8'),
 		#'pt':('portuguese','utf-8') # for this to work one needs to add the language 
 									 # to the dict _treetagger_languages in TreeTagger
@@ -76,7 +84,10 @@ def get_taggers(treetagger_dir = '/Applications/treetagger/cmd/',abbrev_file=Non
 	taggers = {}
 	for lang in lang_codes.keys():
 		try:
-			taggers[lang]=TreeTagger(encoding=lang_codes[lang][1],language=lang_codes[lang][0],abbreviation_list=abbrev_file)
+			taggers[lang]=TreeTagger(language=lang_codes[lang][0]
+									, encoding=lang_codes[lang][1]
+									, abbreviation_list=abbrev_file)
+			logger.info("Treetagger for %s successfully initialised"%lang)
 		except Exception, e:
 			logger.error("initialising Treetagger for language %s raised error: \"%s\""%(lang_codes[lang][0],e))
 			raise e
@@ -101,22 +112,22 @@ def get_extractor(settings):
 		print e
 	finally:
 		return ce
-def detect_language(text):
+def detect_language(text, return_probability=False):
 	"""
-	Detect language of a notice by using the module guess_language.
-	The IANA label is returned.
+	Detect language of a notice by using the module `langid`.
 	
-	Args:
-		text:
-			the text whose language is to be detected
-	Returns:
-		lang:
-			the language detected
+	: param text: the text whose language is to be detected
+	:return: if `return_probability` == False, returns the language code (string); 
+				if `return_probability` == False, returns a tuple where tuple[0] is 
+				the language code and tuple[1] its probability.
 	"""
-	import guess_language
 	try:
-		lang = guess_language.guessLanguage(text)
-		return lang
+		language, classification_probability = langid.classify(text)
+		logger.debug("Language detected => %s (%s)"%(language, classification_probability))
+		if(return_probability):
+			return language, classification_probability
+		else:
+			return language
 	except Exception,e:
 		print "lang detection raised error \"%s\""%str(e)
 def compact_abbreviations(abbreviation_dir):
