@@ -25,6 +25,15 @@ def crf_citation_extractor(tmpdir_factory):
 	crf.OUTPUT_DIR = str(tmpdir_factory.mktemp('out'))+"/"
 	crf.LOG_FILE = crf.TEMP_DIR.join("extractor.log")
 	return pipeline.get_extractor(crf)
+@fixture(scope="session")
+def processing_directories(tmpdir_factory):
+	return {
+		'input' : pkg_resources.resource_filename('citation_extractor','data/aph_corpus/devset/orig/')
+		, 'iob' : str(tmpdir_factory.mktemp('iob'))+"/"
+		, 'txt' : str(tmpdir_factory.mktemp('txt'))+"/"
+		, 'iob_ne' : str(tmpdir_factory.mktemp('iob_ne'))+"/"
+		, 'ann' :  str(tmpdir_factory.mktemp('ann'))+"/"
+	}
 @fixture
 def old_knowledge_base():
 	"""

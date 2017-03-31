@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
+import os
+import pdb
 import pytest
 import logging
 import pkg_resources
@@ -28,20 +30,32 @@ def test_tokenize_string(aph_title, postaggers):
 	postagged_string = postaggers[lang].tag(aph_title) 
 	logger.debug(postagged_string)
 	assert postagged_string is not None
-@pytest.mark.skip
-def test_preprocessing():
+def test_preprocessing(processing_directories, postaggers):
 	"""
-	TODO
+	Test the pre-processing step of the pipeline (against some APh documents in the devset).
 	"""
-	return
+	inp_dir = processing_directories["input"]
+	docids = ["75-00557.txt", "75-00351.txt", "75-00087.txt", "75-00060.txt", "75-00046.txt"]
+	abbreviations = pkg_resources.resource_filename('citation_extractor', 'data/aph_corpus/extra/abbreviations.txt')
+	interm_dir = processing_directories["txt"]
+	out_dir = processing_directories["iob"]
+	for docid in docids:
+		logger.info(preproc_document(docid, inp_dir, interm_dir, out_dir, abbreviations, postaggers))
+	assert os.listdir(out_dir) > 0
+def test_do_ner(processing_directories, crf_citation_extractor):
+	"""
+	Test the Named Entity Recognition step of the pipeline.
+	"""
+	brat_script_path = "/home/mromanello/brat-master/tools/conll02tostandoff.py"
+	inp_dir = processing_directories["iob"]
+	interm_dir = processing_directories["iob_ne"]
+	out_dir = processing_directories["ann"]
+	docids = os.listdir(inp_dir)
+	for docid in docids:
+		logger.info(do_ner(docid, inp_dir, interm_dir, out_dir, crf_citation_extractor, brat_script_path))
+	assert os.listdir(out_dir) > 0
 @pytest.mark.skip
 def test_do_ned():
-	"""
-	TODO
-	"""
-	return
-@pytest.mark.skip
-def test_do_ner():
 	"""
 	TODO
 	"""
