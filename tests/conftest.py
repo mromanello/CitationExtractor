@@ -11,6 +11,7 @@ from citation_extractor.settings import crf
 from citation_extractor.core import citation_extractor
 from citation_extractor.ned import KnowledgeBase
 from citation_extractor.ned import CitationMatcher
+from knowledge_base import KnowledgeBase as KnowledgeBaseNew
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -47,16 +48,26 @@ def old_knowledge_base():
 @fixture
 def citation_matcher_legacy(old_knowledge_base):
 	"""
+	Initialises and returns a CitationMatcher (legacy).
+	"""
+	return CitationMatcher(knowledge_base)
+@fixture
+def citation_matcher(knowledge_base):
+	"""
 	Initialises and returns a CitationMatcher.
 	"""
 	return CitationMatcher(knowledge_base)
-@pytest.mark.skip
 @fixture
-def new_knowledge_base():
+def knowledge_base():
 	"""
 	Initialises and returns a HuCit KnowledgeBase (new version, standalone package).
 	"""
-	pass
+	try:
+		config_file = pkg_resources.resource_filename('knowledge_base','config/virtuoso.ini')
+		return KnowledgeBaseNew(config_file)
+	except Exception, e:
+		config_file = pkg_resources.resource_filename('knowledge_base','config/inmemory.ini')
+		return KnowledgeBaseNew(config_file)
 @fixture(scope="session")
 def postaggers():
 	"""

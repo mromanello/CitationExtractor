@@ -188,66 +188,6 @@ def split_sentences(filename,outfilename=None):
 	except Exception, e:
 		raise e
 	return new_sentences
-def output_to_json(fileid, dir, metadata):
-	"""
-	TODO
-	"""
-	import json
-	fname="%s%s"%(dir,fileid.replace(".txt",".json"))
-	f=open(fname,"w")
-	json.dump([metadata],f)
-	f.close()
-	return
-def output_to_oac(fileid, dir, metadata, annotations):
-	"""
-	TODO
-	"""
-	# import libraries
-	from rdflib import Namespace, BNode, Literal, URIRef,RDF,RDFS
-	from rdflib.graph import Graph, ConjunctiveGraph
-	from rdflib.plugins.memory import IOMemory
-	# declare namespaces
-	oac = Namespace("http://www.w3.org/ns/oa#")
-	perseus = Namespace("http://data.perseus.org/citations/")
-	myanno = Namespace("http://hellespont.org/annotations/jstor")
-	store = IOMemory()
-	# initialise the graph
-	g = ConjunctiveGraph(store=store)
-	# bind namespaces
-	g.bind("oac",oac)
-	g.bind("perseus",perseus)
-	g.bind("myanno",myanno)
-	for n,ann in enumerate(metadata["citations"]):
-	    anno1 = URIRef(myanno["#%i"%n])
-	    g.add((anno1, RDF.type,oac["Annotation"]))
-	    g.add((anno1, oac["hasTarget"],URIRef("%s%s"%("http://jstor.org/stable/",metadata["doi"]))))
-	    g.add((anno1, RDFS.label, Literal(ann["label"])))
-	    g.add((anno1,oac["hasBody"],perseus[ann["ctsurn"]]))
-	    g.add((anno1,oac["motivatedBy"],oac["linking"]))
-	fname="%s%s"%(dir, fileid.replace(".txt",".ttl"))
-	f=open(fname,"w")
-	f.write(g.serialize(format="turtle"))
-	f.close()
-	return
-def annotations_to_ctsurns(doc_metadata, annotations):
-	"""
-	TODO
-	"""
-	from pyCTS import CTS_URN
-	doc_metadata["citations"] = []
-	for ann in annotations:
-	    label = ann[1]
-	    cts_urn = CTS_URN(ann[2])
-	    temp = {}
-	    if(cts_urn.is_range()):
-	    	resolv_urn = "%s%s:%s"%("http://data.perseus.org/citations/",cts_urn.get_urn_without_passage(),cts_urn._range_begin)
-	    else:
-	    	resolv_urn = "%s%s"%("http://data.perseus.org/citations/",ann[2])
-	    temp["perseus_uri"]=resolv_urn
-	    temp["label"]=label
-	    temp["ctsurn"]=str(cts_urn)
-	    doc_metadata["citations"].append(temp)
-	return doc_metadata
 def read_ann_file(fileid,ann_dir):
 	"""
 	TODO
@@ -330,37 +270,6 @@ def read_ann_file_new(fileid,ann_dir,suffix="-doc-1.ann"):
 								,"arguments":(arg1.split(":")[1], arg2.split(":")[1])
 								,"relation_type":rel_type}
 	return entities, relations, annotations
-def extract_citations(extractor,outputdir,filename,iob_sentences,outfilename=None):
-	"""docstring for extract_citations"""
-	# this is the important bit which performs the citation extraction
-	import sys
-	import os
-	from citation_extractor.eval import IO
-
-	result,out_fname = None, ""
-	if(outfilename is None):
-		path,name = os.path.split(filename)
-		out_fname = '%s%s'%(outputdir,name)
-	else:
-		out_fname = outfilename
-	try:
-		postags = [[("z_POS",token[1]) for token in instance] for instance in iob_sentences if len(instance)>0]
-		instances = [[token[0] for token in instance] for instance in iob_sentences if len(instance)>0]
-		result = extractor.extract(instances, postags)
-		output = []
-		for i,res in enumerate(result):
-		    temp = []
-		    for n,d_res in enumerate(res):
-		        temp.append((res[n]["token"], postags[i][n][1], res[n]["label"]))
-		    output.append(temp)
-		try:
-		    IO.write_iob_file(output,out_fname)
-		    print >> sys.stderr, "Output successfully written to file \"%s\""%out_fname
-		    return result,out_fname
-		except Exception, e:
-		    raise e
-	except Exception, e:
-		raise e
 def extract_relationships(entities):
 	"""
 	TODO: implement properly the pseudocode!
@@ -384,56 +293,6 @@ def extract_relationships(entities):
 				logger.debug("Detected relation %s"%str(relations[rel_id]))
 
 	return relations
-def extract_relationships_old(doc_tree):
-	"""
-	TODO
-	"""
-	def traverse(t,n):
-	    global token_count,context
-	    try:
-	        t.label()
-	    except AttributeError:
-	        token_count+=1
-	        print "%s / %s"%(t[0],t[1])
-	    else:
-	        if(t.label()!='S'):
-	            print context
-	        	# clear the context
-	            if(t.label()=='AAUTHOR' or t.label()=='REFAUWORK'):
-	                context = {}
-	            start = token_count
-	            end = token_count
-	            for leave in t.leaves():
-	                end +=1
-	            #text=[doc_tree[n][x] for x in range(start,end)]
-	            #print t.label(),':'," ".join(text),"[start %i, end %i]"%(start,end)
-	            entity_num = len(entities.keys())
-	            entities[entity_num]=(t.label(),start,end)
-	            context[t.label()]=entity_num
-	            if(t.label()=='REFSCOPE'):
-	                #print context
-	                relation_num = len(relations.keys())+1
-	                if(context.has_key("REFAUWORK")):
-	                    relations["R%s"%relation_num]=(context["REFAUWORK"],context["REFSCOPE"])
-	                elif(context.has_key("AWORK")):
-	                	relations["R%s"%relation_num]=(context["AWORK"],context["REFSCOPE"])
-	                elif(context.has_key("AAUTHOR")):
-	                	relations["R%s"%relation_num]=(context["AAUTHOR"],context["REFSCOPE"])
-	            for child in t:
-	                traverse(child,n)
-	        else:
-	            for child in t:
-	                traverse(child,n)
-	    return context
-	entities = {}
-	relations = {}
-	annotations = {}
-	for n_sentence,sentence in enumerate(doc_tree):
-		global token_count,context
-		context = {}
-		token_count=0
-		traverse(sentence,n_sentence)
-	return entities,relations
 def save_scope_relationships(fileid, ann_dir, relations, entities):
 	"""
 	appends relationships (type=scope) to an .ann file. 
@@ -460,18 +319,15 @@ def clean_relations_annotation(fileid, ann_dir, entities):
 	"""
 	overwrites relationships (type=scope) to an .ann file. 
 	"""
-	import codecs
-	import sys
 	ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
 	keys = entities.keys()
 	keys.sort(key=lambda k:(k[0], int(k[1:])))
 	result = "\n".join(["%s\t%s %s %s\t%s"%(ent,entities[ent][0],entities[ent][2],entities[ent][3],entities[ent][1]) for ent in keys])
-	#result2 = "\n".join(["%s\tScope Arg1:%s Arg2:%s"%(rel,relations[rel][0],relations[rel][1]) for rel in keys])
 	try:
 		f = codecs.open(ann_file,'w','utf-8')
 		f.write(result)
 		f.close()
-		print >> sys.stderr,"Cleaned relations annotations from %s"%ann_file
+		logger.info("Cleaned relations annotations from %s"%ann_file)
 	except Exception, e:
 		raise e
 	return result
@@ -693,15 +549,15 @@ def do_ned(doc_id,inp_dir,citation_matcher,clean_annotations=False,relation_matc
 		# match relations
 		if relations > 0:
 			if(relation_matching_approx):
-				logger.debug("Fuzzy matching of relations: threshold = %i"%relation_matching_distance_threshold)
+				logger.info("Fuzzy matching of relations: threshold = %i"%relation_matching_distance_threshold)
 				annotations += disambiguate_relations(citation_matcher,relations,entities,doc_id,fuzzy=True,distance_threshold=relation_matching_distance_threshold,fill_nomatch_with_bogus_urn=False,)
 			else:
-				logger.debug("Exact matching of relations")
+				logger.info("Exact matching of relations")
 				annotations += disambiguate_relations(citation_matcher,relations,entities,doc_id,fill_nomatch_with_bogus_urn=False)
 		else:
 			logger.info("No relations found.")
 	    # match entities
-		logger.debug("Fuzzy matching of entities: threshold > %i, < %i"%(entity_matching_distance_minthreshold,entity_matching_distance_maxthreshold))
+		logger.info("Fuzzy matching of entities: threshold > %i, < %i"%(entity_matching_distance_minthreshold,entity_matching_distance_maxthreshold))
 		annotations += disambiguate_entities(citation_matcher,entities,doc_id,min_distance_threshold=entity_matching_distance_minthreshold,max_distance_threshold=entity_matching_distance_maxthreshold)
 		logger.debug(annotations)
 		save_scope_annotations(doc_id,inp_dir,annotations)
@@ -714,7 +570,10 @@ def do_ned(doc_id,inp_dir,citation_matcher,clean_annotations=False,relation_matc
 def do_relex(doc_id,inp_dir,clean_relations=False):
 	try:
 		entities, relations, disambiguations = read_ann_file(doc_id,inp_dir)
-		logger.info("%s: %i entities; %i relations; %i disambiguations"%(doc_id,len(entities),len(relations),len(disambiguations)))
+		logger.info("%s: %i entities; %i relations; %i disambiguations"%(doc_id
+																		, len(entities) 
+																		, len(relations)
+																		, len(disambiguations)))
 		if(clean_relations):
 			clean_relations_annotation(doc_id,inp_dir,entities)
 		relations = extract_relationships(entities)
@@ -728,3 +587,7 @@ def do_relex(doc_id,inp_dir,clean_relations=False):
 		return (doc_id,False,{})
 	finally:
 		logger.info("Finished processing document \"%s\""%doc_id)
+def main():
+	pass
+if __name__ == "__main__":
+	main()

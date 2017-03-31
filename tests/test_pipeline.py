@@ -32,7 +32,7 @@ def test_tokenize_string(aph_title, postaggers):
 	assert postagged_string is not None
 def test_preprocessing(processing_directories, postaggers):
 	"""
-	Test the pre-processing step of the pipeline (against some APh documents in the devset).
+	Test the pre-processing step of the pipeline (against selected APh documents in the devset).
 	"""
 	inp_dir = processing_directories["input"]
 	docids = ["75-00557.txt", "75-00351.txt", "75-00087.txt", "75-00060.txt", "75-00046.txt"]
@@ -54,15 +54,23 @@ def test_do_ner(processing_directories, crf_citation_extractor):
 	for docid in docids:
 		logger.info(do_ner(docid, inp_dir, interm_dir, out_dir, crf_citation_extractor, brat_script_path))
 	assert os.listdir(out_dir) > 0
-@pytest.mark.skip
-def test_do_ned():
+def test_do_relex_rulebased(processing_directories):
 	"""
-	TODO
+	Test the Relation Extraction step of the pipeline.
 	"""
-	return
-@pytest.mark.skip
-def test_do_relex():
+	inp_dir = processing_directories["ann"]
+	docids = [file.replace('-doc-1.ann','') for file in os.listdir(inp_dir) if '.ann' in file]
+	logger.info(docids)
+	for docid in docids:
+		docid, success, data = do_relex(docid, inp_dir)
+		logger.info(data)
+		assert success
+def test_do_ned(processing_directories, citation_matcher):
 	"""
-	TODO
+	Test the Named Entity Disambiguation step of the pipeline (baseline).
 	"""
-	return
+	inp_dir = processing_directories["ann"]
+	docids = [file.replace('-doc-1.ann','') for file in os.listdir(inp_dir) if '.ann' in file]
+	for docid in docids:
+		docid, success, n_disambiguations = do_ned(docid, inp_dir, citation_matcher, True, 0, False)
+		assert success

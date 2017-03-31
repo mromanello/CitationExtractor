@@ -31,6 +31,7 @@ class CitationMatcher(object):
 	def __init__(self, knowledge_base):
 		super(CitationMatcher, self).__init__()
 		try:
+			logger.info("Initialising CitationMatcher...")
 			self._citation_parser = CitationParser()
 			self._kb = knowledge_base
 			self._author_names = knowledge_base.author_names
@@ -38,16 +39,22 @@ class CitationMatcher(object):
 			self._author_abbreviations = knowledge_base.author_abbreviations
 			self._work_abbreviations = knowledge_base.work_abbreviations
 			self._author_idx, self._author_abbr_idx, self._work_idx, self._work_abbr_idx = self._initialise_indexes()
+			logger.info("Finished initialising CitationMatcher")
 		except Exception, e:
 			raise e
 	def _initialise_indexes(self):
 		from pysuffix import suffixIndexers
 		from pysuffix.suffixIndexers import DictValuesIndexer
 		try:
+			logger.info("Start indexing author names...")
 			author_idx = DictValuesIndexer(self._author_names)
+			logger.info("Done. Start indexing author abbreviations...")
 			author_abbr_idx = DictValuesIndexer(self._author_abbreviations)
+			logger.info("Done. Start indexing work titles...")
 			work_idx = DictValuesIndexer(self._work_titles)
+			logger.info("Done. Start indexing title abbreviations...")
 			work_abbr_idx = DictValuesIndexer(self._work_abbreviations)
+			logger.info("Done with indexing.")
 			return author_idx, author_abbr_idx, work_idx, work_abbr_idx
 		except Exception, e:
 			raise e
