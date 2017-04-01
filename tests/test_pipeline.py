@@ -41,7 +41,7 @@ def test_preprocessing(processing_directories, postaggers):
 	out_dir = processing_directories["iob"]
 	for docid in docids:
 		logger.info(preproc_document(docid, inp_dir, interm_dir, out_dir, abbreviations, postaggers))
-	assert os.listdir(out_dir) > 0
+	assert len(os.listdir(out_dir)) > 0
 def test_do_ner(processing_directories, crf_citation_extractor):
 	"""
 	Test the Named Entity Recognition step of the pipeline.
@@ -53,7 +53,7 @@ def test_do_ner(processing_directories, crf_citation_extractor):
 	docids = os.listdir(inp_dir)
 	for docid in docids:
 		logger.info(do_ner(docid, inp_dir, interm_dir, out_dir, crf_citation_extractor, brat_script_path))
-	assert os.listdir(out_dir) > 0
+	assert len(os.listdir(out_dir)) > 0
 def test_do_relex_rulebased(processing_directories):
 	"""
 	Test the Relation Extraction step of the pipeline.
