@@ -46,7 +46,7 @@ def test_do_ner(processing_directories, crf_citation_extractor):
 	"""
 	Test the Named Entity Recognition step of the pipeline.
 	"""
-	brat_script_path = "/home/mromanello/brat-master/tools/conll02tostandoff.py"
+	brat_script_path = pkg_resources.resource_filename('citation_extractor', 'Utils/conll02tostandoff.py')
 	inp_dir = processing_directories["iob"]
 	interm_dir = processing_directories["iob_ne"]
 	out_dir = processing_directories["ann"]
