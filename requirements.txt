@@ -2,6 +2,7 @@ citation-extractor-dependencies==0.0.0
 https://github.com/mromanello/treetagger-python/archive/master.zip
 https://github.com/mromanello/pyCTS/archive/master.zip
 langid
+docopt
 citation_parser>=0.4.1
 rdflib==4.2.1
 nltk>=3.0.4
