@@ -577,9 +577,7 @@ def validate_configuration(configuration_parameters, task="all"): #TODO finish
     except Exception, e:
         raise e # custom exception
     if task == "all":
-        assert is_valid_configuration_ner(configuration_parameters) 
-                and is_valid_configuration_relex(configuration_parameters) 
-                and is_valid_configuration_ned(configuration_parameters)
+        assert is_valid_configuration_ner(configuration_parameters) and is_valid_configuration_relex(configuration_parameters) and is_valid_configuration_ned(configuration_parameters)
     elif task  == "ner":
         pass
     elif task == "relex":
