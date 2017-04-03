@@ -40,7 +40,7 @@ def test_preprocessing(processing_directories, postaggers):
 	interm_dir = processing_directories["txt"]
 	out_dir = processing_directories["iob"]
 	for docid in docids:
-		logger.info(preproc_document(docid, inp_dir, interm_dir, out_dir, abbreviations, postaggers))
+		logger.info(preproc_document(docid, inp_dir, interm_dir, out_dir, abbreviations, postaggers, False))
 	assert len(os.listdir(out_dir)) > 0
 def test_do_ner(processing_directories, crf_citation_extractor):
 	"""

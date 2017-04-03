@@ -77,6 +77,16 @@ class CitationMatcher(object):
         else:
             #is not range
             return ".".join(scope_dictionary["start"])
+    def _disambiguate_entity(self):
+        """
+        TODO: implement
+        """
+        pass
+    def _disambiguate_relation(self):
+        """
+        TODO: implement
+        """
+        pass
     def matches_author(self, string, fuzzy=False, distance_threshold=3):
         """
         This function retrieves from the KnowledgeBase possible authors that match the search string.

@@ -1,7 +1,20 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
+"""
+Basic command line interface to run the reference extraction pipeline.
+
+Usage:
+    pipeline.py do (preproc | ner | relex | ned | all) --config=<file>
+
+Options:
+    -h, --help              Show this message.
+    -V, --version           Show version. 
+    -c, --config=<file>     The configuration file.
+"""
+
 import os
+import re
 import sys
 import logging
 import codecs
@@ -10,14 +23,19 @@ if(sys.version_info < (3, 0)):
     from treetagger_python2 import TreeTagger
 else:
     from treetagger import TreeTagger 
+from operator import itemgetter
+import citation_extractor
 from citation_extractor.Utils import IO
+from citation_extractor.Utils.IO import read_ann_file, read_ann_file_new, init_logger
 from citation_extractor.Utils.sentencesplit import sentencebreaks_to_newlines # contained in brat tools
 import numpy as np
 
 global logger
 logger = logging.getLogger(__name__)
 
-def recover_segmentation_errors(text,abbreviation_list,verbose=False):
+#TODO custom exception: invalid configuration
+
+def recover_segmentation_errors(text, abbreviation_list, verbose=False):
     """
 
     Pretty straightforward heuristic here:
@@ -63,8 +81,18 @@ def recover_segmentation_errors(text,abbreviation_list,verbose=False):
         print >> sys.stderr, "Output text has %i lines"%len(output_text.split('\n'))
         print >> sys.stderr, "%i line were breaks recovered"%(len(text_lines)-len(output_text.split('\n')))
     return output_text
-def get_taggers(treetagger_dir = '/Applications/treetagger/cmd/',abbrev_file=None):
-    """docstring for create_taggers"""
+def get_taggers(treetagger_dir='/Applications/treetagger/cmd/', abbrev_file=None):
+    """
+    Initialises a set of treetaggers, one for each supported language (i.e. en, it, es, de, fr, nl).
+
+    :param treetagger_dir: directory containing TreeTagger's executable. If the environment variable
+                            `TREETAGGER_HOME` is not set, it takes the value of this parameter.
+    :param abbrev_file: an abbreviation file to be passed to TreeTagger.
+    :return: a dictionary where keys are language codes and values are `TreeTagger` instances.
+
+    .. note::This function won't work (as it is) in Python 3, since the TreeTagger for py3 does not want 
+            the `encoding` parameter at initialisation time.
+    """
     try:
         assert os.environ["TREETAGGER_HOME"] is not None
     except Exception, e:
@@ -188,88 +216,6 @@ def split_sentences(filename,outfilename=None):
     except Exception, e:
         raise e
     return new_sentences
-def read_ann_file(fileid,ann_dir):
-    """
-    TODO
-    """
-    import codecs
-    ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
-    f = codecs.open(ann_file,'r','utf-8')
-    data = f.read()
-    f.close()
-    rows = data.split('\n')
-    entities = {}
-    ent_count = 0
-    relations = {}
-    annotations = []
-    for row in rows:
-        cols = row.split("\t")
-        if(u"#" in cols[0]):
-            tmp = cols[1].split()[1:]," ",cols[2]
-            annotations.append(tmp)
-        elif(len(cols)==3 and u"T" in cols[0]):
-            # is an entity
-            ent_count += 1
-            ent_type, start, end = cols[1].split()
-            entities[cols[0]] = (ent_type,cols[2],start,end)
-        elif(len(cols)>=2 and u"R" in cols[0]):
-            rel_type, arg1, arg2 = cols[1].split()
-            relations[cols[0]] = (rel_type,arg1, arg2)
-        else:
-            pass
-    res_annotations = []
-    for annot in annotations:
-        rel_id,label,urn = annot
-        try:
-            rel = relations[rel_id[0]]
-            arg1 = rel[1].split(":")[1]
-            arg2 = rel[2].split(":")[1]
-            label = "%s %s"%(entities[arg1][1],entities[arg2][1])
-            res_annotations.append([rel_id[0],label,urn])
-        except Exception, e:
-            entity = entities[rel_id[0]]
-            res_annotations.append([rel_id[0],entity[1],urn])
-    return entities, relations, res_annotations
-def read_ann_file_new(fileid,ann_dir,suffix="-doc-1.ann"):
-    """
-    TODO
-    """
-    import codecs
-    ann_file = "%s%s%s"%(ann_dir,fileid,suffix)
-    f = codecs.open(ann_file,'r','utf-8')
-    data = f.read()
-    f.close()
-    rows = data.split('\n')
-    entities = {}
-    ent_count = 0
-    relations = {}
-    annotations = []
-    for row in rows:
-        cols = row.split("\t")
-        ann_id = cols[0]
-        if(u"#" in cols[0]):
-            tmp = {
-                "ann_id":"%s%s"%(cols[1].split()[0],cols[0])
-                ,"anchor":cols[1].split()[1:][0]
-                ,"text":cols[2]
-            }
-            annotations.append(tmp)
-        elif(len(cols)==3 and u"T" in cols[0]):
-            # is an entity
-            ent_count += 1
-            ent_type = cols[1].split()[0]
-            ranges = cols[1].replace("%s"%ent_type,"")
-            entities[cols[0]] = {"ann_id":ann_id
-                                ,"entity_type": ent_type
-                                ,"offset_start":ranges.split()[0]
-                                ,"offset_end":ranges.split()[1]
-                                ,"surface":cols[2]}
-        elif(len(cols)>=2 and u"R" in cols[0]):
-            rel_type, arg1, arg2 = cols[1].split()
-            relations[cols[0]] = {"ann_id":ann_id
-                                ,"arguments":(arg1.split(":")[1], arg2.split(":")[1])
-                                ,"relation_type":rel_type}
-    return entities, relations, annotations
 def extract_relationships(entities):
     """
     TODO: implement properly the pseudocode!
@@ -391,12 +337,12 @@ def tostandoff(iobfile,standoffdir,brat_script):
         logger.info("Document %s: .ann output written successfully."%iobfile)
     except Exception, e:
         raise e
+# TODO: refactor -> transform function into method of CitationMatcher
 def disambiguate_relations(citation_matcher,relations,entities,docid,fuzzy=False,distance_threshold=3,fill_nomatch_with_bogus_urn=False):
     """
     Returns:
          [(u'R5', u'[ Verg. ] catal. 47s', u'urn:cts:TODO:47s')]
     """
-    import re
     result = []
     for relation in relations:
         relation_type = relations[relation][0]
@@ -408,8 +354,8 @@ def disambiguate_relations(citation_matcher,relations,entities,docid,fuzzy=False
         regex_clean_scope = r'(\(|\)| ?\;$|\.$|\,$)'
         citation_string_cleaned = re.sub(regex_clean_citstring,"",citation_string)
         scope_cleaned = re.sub(regex_clean_scope,"",scope)
-        print >> sys.stderr, "Citation_string cleaning: from \'%s\' to \'%s\'"%(citation_string,citation_string_cleaned)
-        print >> sys.stderr, "Scope cleaning: from \'%s\' to \'%s\'"%(scope,scope_cleaned)
+        logger.info("Citation_string cleaning: from \'%s\' to \'%s\'"%(citation_string,citation_string_cleaned))
+        logger.info("Scope cleaning: from \'%s\' to \'%s\'"%(scope,scope_cleaned))
         citation_string = citation_string_cleaned
         scope = scope_cleaned
         try:
@@ -428,6 +374,7 @@ def disambiguate_relations(citation_matcher,relations,entities,docid,fuzzy=False
             if(fill_nomatch_with_bogus_urn):
                 result.append((relation,"%s %s"%(citation_string,scope),"urn:cts:TODO:%s"%normalized_scope))
     return result
+# TODO: refactor -> transform function into method of CitationMatcher
 def disambiguate_entities(citation_matcher,entities,docid,min_distance_threshold,max_distance_threshold):
     """
 
@@ -452,7 +399,6 @@ def disambiguate_entities(citation_matcher,entities,docid,min_distance_threshold
                     match = ""
         return answer
     import re
-    from operator import itemgetter
     print >> sys.stderr, "Disambiguating the %i entities contained in %s..."%(len(entities), docid)
     result = []
     matches = []
@@ -493,8 +439,17 @@ def disambiguate_entities(citation_matcher,entities,docid,min_distance_threshold
             else:
                 result.append((entity, string ,filtered_matches[0][0]))
     return result
-def preproc_document(doc_id,inp_dir,interm_dir,out_dir,abbreviations,taggers):
+def preproc_document(doc_id, inp_dir, interm_dir, out_dir, abbreviations, taggers, split_sentences=True):
     """
+    :param doc_id: the input filename
+    :param inp_dir: the input directory
+    :param interm_dir: the directory where to store intermediate outputs
+    :param out_dir: the directory where to store the PoS-tagged and tokenised text
+    :param abbreviations: 
+    :param taggers: the dictionary returned by `get_taggers`
+    :param split_sentences: (boolean) whether to slit text into sentences or not. 
+                            If `False`, text is split on newline characters `\n`. 
+
     Returns:
 
     language, number of sentences, number of tokens
@@ -505,25 +460,28 @@ def preproc_document(doc_id,inp_dir,interm_dir,out_dir,abbreviations,taggers):
         intermediate_out_file = "%s%s"%(interm_dir,doc_id)
         iob_out_file = "%s%s"%(out_dir,doc_id)
         text = codecs.open("%s%s"%(inp_dir,doc_id),'r','utf-8').read()
-        intermediate_text = sentencebreaks_to_newlines(text)
-        recovered_text= recover_segmentation_errors(intermediate_text,abbreviations,verbose=False)
-        codecs.open(intermediate_out_file,'w','utf-8').write(recovered_text)
+        if(split_sentences):
+            intermediate_text = sentencebreaks_to_newlines(text)
+            text = recover_segmentation_errors(intermediate_text, abbreviations, verbose=False)
+        else:
+            logger.info("Document %s: skipping sentence splitting"%doc_id)
+        sentences = text.split('\n')
+        logger.info("Document \"%s\" has %i sentences"%(doc_id,len(sentences)))
+        codecs.open(intermediate_out_file,'w','utf-8').write(text)
         logger.info("Written intermediate output to %s"%intermediate_out_file)
         lang = detect_language(text)
         logger.info("Language detected=\"%s\""%lang)
-        sentences = recovered_text.split('\n')
-        logger.info("Document \"%s\" has %i sentences"%(doc_id,len(sentences)))
         tagged_sentences = taggers[lang].tag_sents(sentences)
         tokenised_text = [[token[:2] for token in line] for line in tagged_sentences]
         IO.write_iob_file(tokenised_text,iob_out_file)
         logger.info("Written IOB output to %s"%iob_out_file)
-        no_sentences = len(recovered_text.split('\n'))
+        no_sentences = len(text.split('\n'))
         no_tokens = IO.count_tokens(tokenised_text)
     except Exception, e:
         logger.error("The pre-processing of document %s (lang=\'%s\') failed with error \"%s\""%(doc_id,lang,e)) 
     finally:
-        return doc_id,lang, no_sentences, no_tokens
-def do_ner(doc_id,inp_dir,interm_dir,out_dir,extractor,so2iob_script):
+        return doc_id, lang, no_sentences, no_tokens
+def do_ner(doc_id, inp_dir, interm_dir, out_dir, extractor, so2iob_script):
     # TODO:
     # wrap with a try/except/finally
     # return doc_id and a boolean
@@ -545,7 +503,10 @@ def do_ner(doc_id,inp_dir,interm_dir,out_dir,extractor,so2iob_script):
     finally:
         logger.info("Finished processing document \"%s\""%doc_id)
     return
-def do_ned(doc_id,inp_dir,citation_matcher,clean_annotations=False,relation_matching_distance_threshold=3,relation_matching_approx=True,entity_matching_distance_minthreshold=1,entity_matching_distance_maxthreshold=4):
+def do_ned(doc_id, inp_dir, citation_matcher, clean_annotations=False, relation_matching_distance_threshold=3, relation_matching_approx=True, entity_matching_distance_minthreshold=1, entity_matching_distance_maxthreshold=4):
+    """
+    TODO: refactor. Read annotations sequentially and disambiguate one by one.
+    """
     try:
         if(clean_annotations):
             remove_all_annotations(doc_id,inp_dir)
@@ -602,7 +563,34 @@ def do_relex(doc_id,inp_dir,clean_relations=False):
         return (doc_id,False,{})
     finally:
         logger.info("Finished processing document \"%s\""%doc_id)
-def main():
+def validate_configuration(configuration_parameters, task="all"): #TODO finish
+    """TODO"""
+    def is_valid_configuration_ner(configuration_parameters):
+        pass
+    def is_valid_configuration_relex(configuration_parameters):
+        pass
+    def is_valid_configuration_ned(configuration_parameters):
+        pass
+    valid_tasks = ["all", "ner", "ned", "relex"]
+    try:
+        task in valid_tasks
+    except Exception, e:
+        raise e # custom exception
+    if task == "all":
+        assert is_valid_configuration_ner(configuration_parameters) 
+                and is_valid_configuration_relex(configuration_parameters) 
+                and is_valid_configuration_ned(configuration_parameters)
+    elif task  == "ner":
+        pass
+    elif task == "relex":
+        pass
+    elif task == "ned":
+        pass
+def run_pipeline(configuration_file): #TODO: implement
     pass
 if __name__ == "__main__":
-    main()
+    from docopt import docopt
+    arguments = docopt(__doc__, version=citation_extractor.__version__)
+    logger = init_logger()
+    logger.info(arguments)
+    # TODO: validate configuration file based on task at hand
