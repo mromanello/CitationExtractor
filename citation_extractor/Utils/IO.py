@@ -2,9 +2,11 @@
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
 
+import os
 import codecs
+import glob
 import sys,pprint,re,string,logging
-import citation_extractor
+#import citation_extractor
 from random import *
 import xml.dom.minidom as mdom
 from pyCTS import CTS_URN
@@ -53,13 +55,12 @@ def read_ann_file(fileid,ann_dir):
         except Exception, e:
             entity = entities[rel_id[0]]
             res_annotations.append([rel_id[0],entity[1],urn])
-    return entities, relations, res_annotations
+    return entities, relations, res_annotations # superseded by `read_ann_file_new` TODO: delete
 
 def read_ann_file_new(fileid, ann_dir, suffix="-doc-1.ann"):
     """
     TODO
     """
-    import codecs
     ann_file = "%s%s%s"%(ann_dir,fileid,suffix)
     f = codecs.open(ann_file,'r','utf-8')
     data = f.read()
@@ -72,15 +73,18 @@ def read_ann_file_new(fileid, ann_dir, suffix="-doc-1.ann"):
     for row in rows:
         cols = row.split("\t")
         ann_id = cols[0]
+        
         if(u"#" in cols[0]):
+            # it's a text annotation
             tmp = {
                 "ann_id":"%s%s"%(cols[1].split()[0],cols[0])
                 ,"anchor":cols[1].split()[1:][0]
                 ,"text":cols[2]
             }
             annotations.append(tmp)
+        
         elif(len(cols)==3 and u"T" in cols[0]):
-            # is an entity
+            # it's an entity
             ent_count += 1
             ent_type = cols[1].split()[0]
             ranges = cols[1].replace("%s"%ent_type,"")
@@ -89,11 +93,14 @@ def read_ann_file_new(fileid, ann_dir, suffix="-doc-1.ann"):
                                 ,"offset_start":ranges.split()[0]
                                 ,"offset_end":ranges.split()[1]
                                 ,"surface":cols[2]}
+        
         elif(len(cols)>=2 and u"R" in cols[0]):
+            # it's a relation
             rel_type, arg1, arg2 = cols[1].split()
             relations[cols[0]] = {"ann_id":ann_id
                                 ,"arguments":(arg1.split(":")[1], arg2.split(":")[1])
                                 ,"relation_type":rel_type}
+                                
     return entities, relations, annotations
 
 def annotations2references(doc_id, directory, kb):
@@ -116,6 +123,7 @@ def annotations2references(doc_id, directory, kb):
                 last_position = text.find(newline,last_position+1)
                 positions.append((last_position,last_position+len(newline)))
             return positions
+    
     def find_linenumber_newlineoffset_for_string(offset_start,offset_end,newline_offsets):
         """
         TODO
@@ -124,6 +132,7 @@ def annotations2references(doc_id, directory, kb):
             #print offset_start,offset_end,nl_offset
             if(offset_start <= nl_offset[0] and offset_end <= nl_offset[0]):
                 return (n,newline_offsets[n-1][1],newline_offsets[n][0])
+    
     entities, relations, disambiguations = read_ann_file_new(doc_id, directory)
     fulltext = codecs.open("%s%s%s"%(directory,doc_id,"-doc-1.txt"),"r","utf-8").read()
     newlines = find_newlines(fulltext)
@@ -244,10 +253,9 @@ def count_tokens(instances):
     """
     return sum([1 for instance in instances for token in instance])
 
-def write_iob_file(instances,dest_file):
+def write_iob_file(instances, dest_file):
     to_write = "\n\n".join(["\n".join(["\t".join(token) for token in instance]) for instance in instances])
     try:
-        import codecs
         f = codecs.open(dest_file,'w','utf-8')
         f.write(to_write)
         f.close()
@@ -259,6 +267,7 @@ def file_to_instances(inp_file):
     """
     Reads a IOB file a converts it into a list of instances.
     Each instance is a list of tuples, where tuple[0] is the token and tuple[1] contains its assigned label
+   
     Example:
     >>> file_to_instances("data/75-02637.iob")
     """
@@ -278,51 +287,6 @@ def file_to_instances(inp_file):
             out.append(inst)
     return out
 
-def read_instances(inp_text):
-    out=[]
-    comment=re.compile(r'#.*?')
-    for i in inp_text.split("\n\n"):
-        inst=[]
-        for j in i.split("\n"):
-            if(not comment.match(j)):
-                inst.append(j.split("\t"))
-        if(inst):
-            out.append(inst)
-    return out
-
-def read_IOB_file(file):
-    # instances is a list of lists
-    instances=[]
-    inp_text = open(file,'r').read()
-    comment=re.compile(r'#.*?')
-    for n,i in enumerate(inp_text.split("\n\n")):
-        # each instance is a list of tuples: [0] id, [1] token, [2] tag
-        instance=[]
-        for j in i.split("\n"):
-            if(not comment.match(j)):
-                t= j.split("\t")
-                temp=(n+1,t[0],t[1]) 
-                instance.append(temp)
-        if(instance):
-            instances.append(instance)
-    return instances
-
-def token_to_string(tok_dict):
-    tmp = []
-    for k in sorted(tok_dict.keys()):
-        tmp.append(tok_dict[k])
-    return tmp
-
-def instance_to_string(inst):
-    out = []
-    for fs in inst:
-        tmp = token_to_string(fs)
-        out.append("\t".join(tmp))
-    return out
-
-def instance_to_IOB(instance):
-    pass
-
 def instance_contains_label(instance,labels=["O"]):
     """
     TODO: 
@@ -333,15 +297,6 @@ def instance_contains_label(instance,labels=["O"]):
         return False
     else:
         return True
-
-def token_tostring(token):
-    string=""
-    for count,t in enumerate(token):
-            if(count<len(token)-1):
-                string+="%s\t"%t
-            else:
-                string+="%s"%t
-    return string
 
 def filter_IOB(instances,tag_name):
     """docstring for filter_IOB"""
@@ -372,69 +327,7 @@ def filter_IOB(instances,tag_name):
         res.append(' '.join(r)) 
     return res
 
-def instance_tostring(instance):
-    string=""
-    for count,t in enumerate(instance):
-            if(count!=len(t)):
-                string+="%s "%t[0]
-            else:
-                string+="%s"%t[0]
-    return string
-
-def result_to_string(result):
-    """
-    Tranform the result to a string.
-    """
-    out=''
-    for i,t in enumerate(result):
-        out+=t['token']+"/"+t['label']
-        if(i<len(result)-1):
-            out+=" "
-    return out
-
-def eval_results_to_HTML(results,labels=[]):
-    """
-    Tranform the result to a string.
-    """
-    out="<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/> <style type=\"text/css\">div.result{padding:5px}span.token_B-CRF,span.tp{font-weight:bold} span.fn{color:red} span.fp{color:orange}</style></head><body>"
-    for n,r in enumerate(results):
-        out+="<div class=\"result\">[%s] "%str(n+1)
-        for i,t in enumerate(r):
-            value=""
-            if(t['gt_label']==t['label']):
-                if(t['gt_label']=="O"):
-                   value='tn'
-                else:
-                   value='tp'
-            else:
-                if(t['gt_label']=="O"):
-                   value='fp'
-                else:
-                   value='fn'
-            error="%s -&gt; %s"%(t['gt_label'],t['label'])
-            out+="<span title=\"%s\" class=\"%s\">%s</span>"%(error,value,t['token'])
-            if(i<len(r)-1):
-                out+=" "
-        out+="</div>"
-    out+="</body></html>"
-    return out
-
-def results_to_HTML(results,labels=[]):
-    """
-    Tranform the result to a string.
-    """
-    #out="<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/> <style type=\"text/css\">div.result{padding:5px}span.token_B-CRF,span.tp{font-weight:bold} span.fn{color:red} span.fp{color:orange}</style></head><body>"
-    out="<div class=\"results\">"
-    for n,r in enumerate(results):
-        out+="<span title=\"%s\">%s</span>"%(str(r['label']),str(r['token']))
-    out+="</div></body>"
-    #out+="</html>"
-    return out
-
-def read_iob_files(inp_dir,extension=".iob"):
-    import glob
-    import os
-    logger = logging.getLogger("CREX.IO")
+def read_iob_files(inp_dir, extension=".iob"):
     instances = []
     for infile in glob.glob( os.path.join(inp_dir, '*%s'%extension) ):
         temp = file_to_instances(infile)
@@ -442,28 +335,13 @@ def read_iob_files(inp_dir,extension=".iob"):
         logger.debug("read %i instances from file %s"%(len(temp),infile))
     return instances
 
-def scan_iob_files(inp_dir):
-    import glob
-    import os
-    import re
-    logger = logging.getLogger()
-    exp=r'(?:aph_corpus)([0-9\-a-z]+)(?:\.iob)'
-    result = {}
-    for infile in glob.glob( os.path.join(inp_dir, '*.iob') ):
-        fname = os.path.split(infile)[1]
-        aph_number = re.match(exp,fname).groups()[0]
-        result[fname] = aph_number
-    return result
+def token_to_string(tok_dict):
+    """
+    """
+    return [tok_dict[k] for k in sorted(tok_dict.keys())]
 
-def main():
-    insts = read_IOB_file(sys.argv[1])
-    tag_name = 'CRF'
-    print "The file contains %i instances"%len(insts)
-    res=filter_IOB(insts,tag_name)
-    print "%i of them have tag %s"%(len(res),tag_name)
-    for i in res:
-        print i
-        print re.sub(r'[^\w]','',i)
-
-if __name__ == "__main__":
-    main()
+def instance_to_string(instance):
+    """
+    TODO
+    """
+    return ["\t".join(token_to_string(feature_set)) for feature_set in instance]

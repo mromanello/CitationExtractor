@@ -26,6 +26,7 @@ def crf_citation_extractor(tmpdir_factory):
 	crf.OUTPUT_DIR = str(tmpdir_factory.mktemp('out'))+"/"
 	crf.LOG_FILE = crf.TEMP_DIR.join("extractor.log")
 	return pipeline.get_extractor(crf)
+
 @fixture(scope="session")
 def processing_directories(tmpdir_factory):
 	return {
@@ -35,6 +36,7 @@ def processing_directories(tmpdir_factory):
 		, 'iob_ne' : str(tmpdir_factory.mktemp('iob_ne'))+"/"
 		, 'ann' :  str(tmpdir_factory.mktemp('ann'))+"/"
 	}
+
 @fixture
 def old_knowledge_base():
 	"""
@@ -45,18 +47,21 @@ def old_knowledge_base():
 	kb = KnowledgeBase(files,"turtle")
 	logger.info("The KnowledgeBase %s was initialised"%kb)
 	return kb
+
 @fixture
 def citation_matcher_legacy(old_knowledge_base):
 	"""
 	Initialises and returns a CitationMatcher (legacy).
 	"""
 	return CitationMatcher(knowledge_base)
+
 @fixture
 def citation_matcher(knowledge_base):
 	"""
 	Initialises and returns a CitationMatcher.
 	"""
 	return CitationMatcher(knowledge_base)
+
 @fixture
 def knowledge_base():
 	"""
@@ -70,6 +75,7 @@ def knowledge_base():
 	except Exception, e:
 		config_file = pkg_resources.resource_filename('knowledge_base','config/inmemory.ini')
 		return KnowledgeBaseNew(config_file)
+
 @fixture(scope="session")
 def postaggers():
 	"""
@@ -78,6 +84,7 @@ def postaggers():
 	abbreviations = pkg_resources.resource_filename('citation_extractor'
 													, 'data/aph_corpus/extra/abbreviations.txt')
 	return pipeline.get_taggers(abbrev_file = abbreviations)
+
 @fixture
 def aph_title():
 	return """Problemi di colometria Eschilo, « Prometeo » 

@@ -36,10 +36,10 @@
 
 ### Refactoring CitationParser
 
-* create a new module `ned.py` and move here:  
-    - `CitationMatcher` (now in `citation_parser`)
-    - `KnowledgeBase` (now in `citation_parser`)
-    - in the longer-term move also the `CitationParser` and the `anltr` grammar files
+* ~create a new module `ned.py` and move here:~  
+    ~- `CitationMatcher` (now in `citation_parser`)~
+    ~- `KnowledgeBase` (now in `citation_parser`)~
+    ~- in the longer-term move also the `CitationParser` and the `anltr` grammar files~
 
 ## Testing
 

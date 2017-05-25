@@ -39,6 +39,7 @@ def test_string2entities(aph_title, crf_citation_extractor, postaggers):
 	logger.info("Extracted AAUTHOR entities: %s"%", ".join(authors))
 	logger.info("Extracted AWORK entities: %s"%", ".join(works))
 	assert output is not None
+
 def test_pickle_crf_citation_extractor(crf_citation_extractor):
 	"""
 	Make sure that instances of `citation_extractor` can be pickled (important 
