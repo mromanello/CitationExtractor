@@ -1,8 +1,0 @@
-Concerne	VER:pres
-soprattutto	ADV
-Arpi	NOM
-,	PON
-Troia	NOM
-e	CON
-Lucera	NOM
-

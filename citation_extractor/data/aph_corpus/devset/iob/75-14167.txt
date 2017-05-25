@@ -1,6 +1,0 @@
-Breve	NN
-guía	NN
-histórica	NP
-y	NP
-crítica	NP
-

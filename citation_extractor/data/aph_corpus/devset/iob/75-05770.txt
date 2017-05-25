@@ -1,7 +1,0 @@
-Zum	APPRART
-ersten	ADJA
-erschienenen	ADJA
-Band	NN
-=>	ADJD
-72-05775	CARD
-

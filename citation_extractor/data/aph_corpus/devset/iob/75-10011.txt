@@ -1,6 +1,0 @@
-Osservazioni	NOM
-sul	PRE:det
-vol.	ABR
-schedato	NOM
-73-11374	NUM
-

@@ -1,7 +1,0 @@
-Influence	NOM
-de	PRP
-l'	DET:ART
-«	PUN:cit
-Énéide	NOM
-»	PUN:cit
-

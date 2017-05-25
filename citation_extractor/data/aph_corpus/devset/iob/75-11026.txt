@@ -1,7 +1,0 @@
-Concerne	VER:pres
-soprattutto	ADV
-le	DET:def
-testimonianze	NOM
-epigrafiche	ADJ
-latine	ADJ
-

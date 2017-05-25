@@ -1,7 +1,0 @@
-Vergleich	NN
-von	APPR
-Wirken	NN
-und	KON
-Selbstdarstellung	NN
-.	$.
-

@@ -1,7 +1,0 @@
-Vor	APPR
-allem	PIS
-in	APPR
-der	ART
-frühen	ADJA
-Kirche	NN
-

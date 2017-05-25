@@ -1,9 +1,0 @@
-Indagine	NOM
-negli	PRE:det
-scritti	NOM
-del	PRE:det
-«	PON
-Corpus	NOM
-Hippocraticum	NOM
-»	PON
-

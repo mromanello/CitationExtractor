@@ -1,6 +1,0 @@
-Auch	ADV
-in	APPR
-der	ART
-Situlenkunst	NN
-Italiens	NE
-

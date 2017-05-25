@@ -1,8 +1,0 @@
-Zur	APPRART
-Verbindung	NN
-römischer	ADJA
-und	KON
-einheimischer	ADJA
-Elemente	NN
-.	$.
-

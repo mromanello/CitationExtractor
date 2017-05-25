@@ -1,9 +1,0 @@
-Analisi	NOM
-stilistica	ADJ
-,	PON
-commento	NOM
-e	CON
-traduzione	NOM
-del	PRE:det
-passo	NOM
-

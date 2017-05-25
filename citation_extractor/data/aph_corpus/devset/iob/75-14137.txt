@@ -1,5 +1,0 @@
-Bibliographie	NOM
-des	PRP:det
-études	NOM
-latines	ADJ
-

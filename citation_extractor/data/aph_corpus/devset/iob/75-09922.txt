@@ -1,7 +1,0 @@
-Parabola	NOM
-politica	ADJ
-e	CON
-ideologica	ADJ
-del	PRE:det
-personaggio	NOM
-

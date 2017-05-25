@@ -1,8 +1,0 @@
-Concerne	VER:pres
-l'	DET:def
-iconografia	NOM
-numismatica	ADJ
-magnogreca	NOM
-e	CON
-campano-sannitica	NOM
-

@@ -1,4 +1,0 @@
-Tipologia	NOM
-ed	CON
-esemplificazione	NOM
-

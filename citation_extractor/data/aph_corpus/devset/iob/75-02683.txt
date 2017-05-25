@@ -1,4 +1,0 @@
-Traduction	NOM
-et	KON
-commentaire	NOM
-

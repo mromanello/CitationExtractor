@@ -1,5 +1,0 @@
-Enquête	NOM
-historique	ADJ
-et	KON
-prosopographique	ADJ
-

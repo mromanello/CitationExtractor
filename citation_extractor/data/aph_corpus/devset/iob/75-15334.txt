@@ -1,6 +1,0 @@
-Archéologue	VLfin
-israélien	NC
-(	LP
-1919-1999	CARD
-)	RP
-

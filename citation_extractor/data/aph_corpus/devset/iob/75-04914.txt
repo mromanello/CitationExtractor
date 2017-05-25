@@ -1,5 +1,0 @@
-D'	PRP
-après	PRP
-la	DET:ART
-correspondance	NOM
-

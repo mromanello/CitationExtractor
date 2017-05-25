@@ -1,9 +1,0 @@
-Concerne	VER:pres
-principalement	ADV
-les	DET:ART
-«	PUN:cit
-Lettres	NOM
-»	PUN:cit
-de	PRP
-Platon	NAM
-

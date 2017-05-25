@@ -1,5 +1,0 @@
-Reconstitution	NOM
-de	PRP
-l'	DET:ART
-élévation	NOM
-

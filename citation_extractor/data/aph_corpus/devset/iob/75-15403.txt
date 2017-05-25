@@ -1,9 +1,0 @@
-Profilo	NOM
-bio-bibliografico	ADJ
-dello	PRE:det
-studioso	NOM
-scomparso	ADJ
-(	PON
-1923-1995	NUM
-)	PON
-

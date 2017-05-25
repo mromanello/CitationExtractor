@@ -1,8 +1,0 @@
-La	DET:def
-dottrina	NOM
-episcopale	ADJ
-di	PRE
-Cipriano	NOM
-sulla	PRE:det
-persecuzione	NOM
-

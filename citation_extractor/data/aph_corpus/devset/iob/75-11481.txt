@@ -1,6 +1,0 @@
-Avec	PRP
-une	DET:ART
-liste	NOM
-de	PRP
-toponymes	NOM
-

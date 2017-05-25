@@ -1,9 +1,0 @@
-Überlegungen	NN
-zu	APPR
-Kunstform	NN
-und	KON
-Versbestand	NN
-der	ART
-Ode	NN
-.	$.
-

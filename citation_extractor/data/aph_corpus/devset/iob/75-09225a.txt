@@ -1,8 +1,0 @@
-Repertorio	NOM
-bibliografico	ADJ
-su	PRE
-CIL	NOM
-11	NUM
-,	PON
-1147	NUM
-

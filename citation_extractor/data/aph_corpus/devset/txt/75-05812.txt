@@ -1,1 +1,0 @@
-Analisi dei 19 passi che utilizzano il traducente greco e confronto degli stessi con il TM 

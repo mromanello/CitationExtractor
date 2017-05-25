@@ -1,5 +1,0 @@
-Traités	NOM
-grecs	ADJ
-et	KON
-latins	ADJ
-

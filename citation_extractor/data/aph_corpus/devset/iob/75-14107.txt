@@ -1,8 +1,0 @@
-Profilo	NOM
-umano	ADJ
-e	CON
-scientifico	ADJ
-di	PRE
-E.	NPR
-Fraenkel	NOM
-

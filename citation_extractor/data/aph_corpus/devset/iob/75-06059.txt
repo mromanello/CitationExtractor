@@ -1,8 +1,0 @@
-Édition	NOM
-de	PRP
-PStrasb	NAM
-.	SENT
-
-gr.	ABR
-66a	NOM
-

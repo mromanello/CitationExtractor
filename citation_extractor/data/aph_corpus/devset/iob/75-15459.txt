@@ -1,5 +1,0 @@
-Archéologue	NOM
-et	KON
-épigraphiste	NOM
-albanais	ADJ
-

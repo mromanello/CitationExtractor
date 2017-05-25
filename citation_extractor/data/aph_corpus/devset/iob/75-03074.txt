@@ -1,8 +1,0 @@
-Analisi	NOM
-semiologico-strutturale	NOM
-di	PRE
-Lucr.	ABR
-4	NUM
-,	PON
-387-468	NUM
-

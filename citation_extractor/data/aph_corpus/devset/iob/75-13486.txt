@@ -1,7 +1,0 @@
-Sobre	PREP
-la	ART
-actualidad	NC
-del	PDEL
-pensamiento	NC
-antiguo	ADJ
-

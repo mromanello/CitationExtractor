@@ -1,8 +1,0 @@
-Philosophe	ADJ
-allemand	NOM
-et	KON
-historien	NOM
-de	PRP
-la	DET:ART
-gnose	NOM
-

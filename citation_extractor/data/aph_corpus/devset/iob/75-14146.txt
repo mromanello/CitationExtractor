@@ -1,5 +1,0 @@
-Avec	PRP
-compléments	NOM
-pour	PRP
-1999-2000	NUM
-

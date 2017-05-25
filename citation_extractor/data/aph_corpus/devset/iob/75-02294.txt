@@ -1,6 +1,0 @@
-41	NUM
-notes	NOM
-critiques	ADJ
-de	PRP
-Coray	NAM
-

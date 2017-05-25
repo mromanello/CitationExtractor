@@ -1,8 +1,0 @@
-Spécialiste	NC
-grec	NC
-d'histoire	VLfin
-de	PREP
-la	ART
-pilosophie	NC
-antique	ADJ
-

@@ -1,6 +1,0 @@
-Mit	APPR	O
-Resümees	NN	O
-der	ART	O
-Beiträge	NN	O
-des	ART	O
-Bandes	NN	O

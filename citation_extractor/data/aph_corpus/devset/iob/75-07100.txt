@@ -1,7 +1,0 @@
-Thèse	NOM
-en	PRP
-russe	NOM
-soutenue	VER:pper
-en	PRP
-2002	NUM
-

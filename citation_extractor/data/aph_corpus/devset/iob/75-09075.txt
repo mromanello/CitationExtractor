@@ -1,8 +1,0 @@
-Comprendono	VLfin
-anche	NC
-qualche	ADJ
-breve	ADJ
-didascalia	NC
-in	PE
-greco	NC
-

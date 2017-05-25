@@ -1,4 +1,0 @@
-Spogliato	VER:pper
-nel	PRE:det
-presente	ADJ
-vol.	ABR

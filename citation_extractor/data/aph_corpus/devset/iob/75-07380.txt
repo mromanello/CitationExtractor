@@ -1,5 +1,0 @@
-Concerne	VER:pres
-la	DET:ART
-poésie	NOM
-grecque	ADJ
-

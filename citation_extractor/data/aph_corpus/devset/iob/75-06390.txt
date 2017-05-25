@@ -1,5 +1,0 @@
-In	PRE
-particolare	NOM
-su	PRE
-Zenone	NOM
-

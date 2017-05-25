@@ -1,5 +1,0 @@
-Précédente	ADJ
-livraison	NOM
-notée	VER:pper
-74-09239	NUM
-

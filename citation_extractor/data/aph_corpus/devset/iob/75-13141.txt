@@ -1,4 +1,0 @@
-Description	NOM
-et	KON
-interprétations	NOM
-

@@ -1,9 +1,0 @@
-Notamment	ADV
-dans	PRP
-les	DET:ART
-«	PUN:cit
-Verrines	NOM
-»	PUN:cit
-de	PRP
-Cicéron	NAM
-

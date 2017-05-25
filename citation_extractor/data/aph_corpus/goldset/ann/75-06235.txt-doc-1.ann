@@ -1,8 +1,0 @@
-T1	REFSCOPE 59 64	l. 1,
-T2	REFSCOPE 223 227	l. 8
-T3	AWORK 234 245	« Odissea »
-#0	AnnotatorNotes T3	urn:cts:greekLit:tlg0012.tlg002
-R1	Scope Arg1:T3 Arg2:T2	
-#1	AnnotatorNotes R1	urn:cts:greekLit:tlg0012.tlg002
-T4	AAUTHOR 140 148	Virgilio
-#2	AnnotatorNotes T4	urn:cts:latinLit:phi0690

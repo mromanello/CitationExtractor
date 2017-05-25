@@ -1,9 +1,0 @@
-On	IN
-irony	NN
-and	CC
-pre-figuring	NN
-in	IN
-Apuleius	NP
-'	POS
-tale	NN
-

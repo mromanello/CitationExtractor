@@ -1,4 +1,0 @@
-Cronaca	NOM
-sul	PRE:det
-convegno	NOM
-

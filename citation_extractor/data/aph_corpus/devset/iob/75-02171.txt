@@ -1,4 +1,0 @@
-Cronaca	NOM
-degli	PRE:det
-interventi	NOM
-

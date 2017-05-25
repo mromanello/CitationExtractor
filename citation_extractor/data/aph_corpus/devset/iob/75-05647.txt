@@ -1,7 +1,0 @@
-Auch	ADV
-zur	APPRART
-Sprache	NN
-und	KON
-Metaphorik	NN
-.	$.
-

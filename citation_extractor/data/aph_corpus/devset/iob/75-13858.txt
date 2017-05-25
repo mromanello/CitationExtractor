@@ -1,8 +1,0 @@
-De	PRP
-la	DET:ART
-conquête	NOM
-romaine	ADJ
-aux	PRP:det
-temps	NOM
-modernes	ADJ
-

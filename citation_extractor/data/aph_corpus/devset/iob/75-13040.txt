@@ -1,4 +1,0 @@
-Anhand	APPR
-der	ART
-Votivaltäre	NN
-

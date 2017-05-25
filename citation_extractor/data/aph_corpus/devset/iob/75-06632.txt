@@ -1,9 +1,0 @@
-Sur	PRP
-les	DET:ART
-tentatives	NOM
-infructueuses	ADJ
-de	PRP
-christianisation	NOM
-du	PRP:det
-mythe	NOM
-

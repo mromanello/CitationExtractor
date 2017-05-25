@@ -1,5 +1,0 @@
-Biographie	NOM
-et	KON
-aspects	NOM
-généraux	ADJ
-

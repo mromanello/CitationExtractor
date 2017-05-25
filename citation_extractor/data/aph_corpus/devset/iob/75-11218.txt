@@ -1,8 +1,0 @@
-Repertorio	NOM
-delle	PRE:det
-epigrafi	NOM
-e	CON
-dei	PRE:det
-testi	NOM
-letterari	ADJ
-

@@ -1,6 +1,0 @@
-Composition	NOM
-et	KON
-histoire	NOM
-du	PRP:det
-texte	NOM
-

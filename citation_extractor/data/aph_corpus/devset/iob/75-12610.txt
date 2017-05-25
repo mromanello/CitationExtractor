@@ -1,6 +1,0 @@
-Sur	PRP
-les	DET:ART
-différents	ADJ
-développements	NOM
-stylistiques	ADJ
-

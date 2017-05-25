@@ -1,8 +1,0 @@
-Bref	ADJ
-apreçu	NOM
-des	PRP:det
-mimes	NOM
-1	NUM
-à	PRP
-8	NUM
-

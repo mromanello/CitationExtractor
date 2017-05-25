@@ -1,8 +1,0 @@
-Matériel	NOM
-romain	ADJ
-et	KON
-byzantin	ADJ
-(	PUN
-céramique	ADJ
-)	PUN
-

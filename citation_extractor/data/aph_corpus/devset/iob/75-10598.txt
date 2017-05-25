@@ -1,9 +1,0 @@
-De	PRP
-la	DET:ART
-fin	NOM
-de	PRP
-la	DET:ART
-République	NOM
-au	PRP:det
-Haut-Empire	NAM
-

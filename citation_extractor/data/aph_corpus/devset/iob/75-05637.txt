@@ -1,6 +1,0 @@
-In	APPR
-Kommentaren	NN
-und	KON
-Monographien	NN
-.	$.
-

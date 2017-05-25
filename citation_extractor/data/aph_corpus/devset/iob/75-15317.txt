@@ -1,5 +1,0 @@
-Bibliografia	NOM
-degli	PRE:det
-anni	NOM
-1956-1996	NUM
-

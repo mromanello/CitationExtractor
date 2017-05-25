@@ -1,8 +1,0 @@
-Version	NOM
-abrégée	VER:pper
-de	PRP
-l'	DET:ART
-étude	NOM
-notée	VER:pper
-69-01461	NUM
-

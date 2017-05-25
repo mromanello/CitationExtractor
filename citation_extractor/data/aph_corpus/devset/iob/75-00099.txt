@@ -1,7 +1,0 @@
-Überblick	NN
-über	APPR
-den	ART
-Stand	NN
-der	ART
-Forschung	NN
-

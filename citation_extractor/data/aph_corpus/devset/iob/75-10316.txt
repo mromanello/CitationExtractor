@@ -1,8 +1,0 @@
-Signification	NOM
-politique	ADJ
-et	KON
-symbolique	ADJ
-de	PRP
-l'	DET:ART
-événement	NOM
-

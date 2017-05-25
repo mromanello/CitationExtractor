@@ -1,8 +1,0 @@
-Sur	PRP
-la	DET:ART
-carrière	NOM
-de	PRP
-cet	PRO:DEM
-archéologue	NOM
-roumain	ADJ
-

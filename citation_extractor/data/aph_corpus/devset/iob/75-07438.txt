@@ -1,5 +1,0 @@
-Onomastique	NOM
-grecque	ADJ
-et	KON
-romaine	ADJ
-

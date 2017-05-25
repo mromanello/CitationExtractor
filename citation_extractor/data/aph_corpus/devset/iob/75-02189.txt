@@ -1,5 +1,0 @@
-Osservazioni	NOM
-critiche	ADJ
-a	PRE
-66-01744	NUM
-

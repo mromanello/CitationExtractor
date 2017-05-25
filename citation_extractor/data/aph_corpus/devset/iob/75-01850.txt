@@ -1,6 +1,0 @@
-Ripubblicazione	NOM
-del	PRE:det
-contributo	NOM
-schedato	ADJ
-74-02130	NUM
-

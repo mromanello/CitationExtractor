@@ -1,8 +1,0 @@
-Zu	APPR
-Theologie	NN
-und	KON
-Wirken	NN
-des	ART
-Athanasius	NE
-.	$.
-

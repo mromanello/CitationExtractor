@@ -1,9 +1,0 @@
-Für	APPR
-Augustinus	NE
-zur	APPRART
-rhetorischen	ADJA
-Konstitution	NN
-von	APPR
-Kirche	NN
-.	$.
-

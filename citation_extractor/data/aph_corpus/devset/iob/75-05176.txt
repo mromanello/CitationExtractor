@@ -1,6 +1,0 @@
-Progetto	NOM
-dell'	PRE:det
-Università	NOM
-di	PRE
-Pavia	NPR
-

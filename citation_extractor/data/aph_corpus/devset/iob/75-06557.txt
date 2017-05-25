@@ -1,8 +1,0 @@
-Étude	NOM
-du	PRP:det
-motif	NOM
-dans	PRP
-la	DET:ART
-poésie	NOM
-impériale	ADJ
-
