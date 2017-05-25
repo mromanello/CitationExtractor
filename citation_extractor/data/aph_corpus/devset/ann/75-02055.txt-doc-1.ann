@@ -1,0 +1,8 @@
+T1	AWORK 27 50	« Apocalisse di Adamo »
+T2	REFAUWORK 51 54	(NH
+T3	REFSCOPE 55 60	5, 5)
+T4	REFAUWORK 320 324	Gen.
+T5	REFSCOPE 325 332	4, 25),
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R2	urn:cts:cwkb:831.2069:4.25

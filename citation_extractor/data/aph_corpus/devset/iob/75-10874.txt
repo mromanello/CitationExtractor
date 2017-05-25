@@ -1,0 +1,11 @@
+Introduction	NOM
+méthodologique	ADJ
+et	KON
+épistémologique	ADJ
+aux	PRP:det
+actes	NOM
+du	PRP:det
+colloque	NOM
+noté	VER:pper
+75-14613	NUM
+

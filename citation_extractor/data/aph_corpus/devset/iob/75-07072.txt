@@ -1,0 +1,26 @@
+A	DT
+revised	VBN
+introduction	NN
+to	TO
+the	DT
+author	NN
+'s	POS
+1973	CD
+book	NN
+(	(
+=>	NN
+APh	NP
+44	CD
+,	,
+p.	NN
+398	CD
+)	)
+,	,
+recently	RB
+re-released	VBN
+(	(
+=>	NN
+75-07073	CD
+)	)
+.	SENT
+

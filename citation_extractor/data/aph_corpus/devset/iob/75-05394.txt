@@ -1,0 +1,24 @@
+Vittorino	NOM
+ricorre	VER:pres
+a	PRE
+Paolo	NOM
+spesso	ADV
+e	CON
+con	PRE
+notevole	ADJ
+consapevolezza	NOM
+interpretativa	ADJ
+,	PON
+dipendendo	VER:geru
+dalla	PRE:det
+tradizione	NOM
+esegetica	ADJ
+asiatica	ADJ
+ma	CON
+in	PRE
+modo	NOM
+tutt'	ADV
+altro	ADJ
+che	CON
+pedissequo	ADJ
+

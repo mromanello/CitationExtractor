@@ -1,0 +1,20 @@
+In	PRE
+margine	NOM
+al	PRE:det
+volume	NOM
+di	PRE
+L.	ABR
+Gagliardi	NOM
+su	PRE
+origini	NOM
+e	CON
+competenze	NOM
+di	PRE
+decemviri	NOM
+e	CON
+centumviri	NOM
+(	PON
+=>	NOM
+75-10644	NUM
+)	PON
+

@@ -1,0 +1,15 @@
+T1	AAUTHOR 33 42	Statius '
+T2	REFAUWORK 86 90	(Th.
+T3	REFSCOPE 91 103	4, 419-442),
+T4	REFAUWORK 121 127	(Books
+T5	REFSCOPE 128 133	4-6),
+T6	REFSCOPE 173 186	(9, 360-373).
+T7	AAUTHOR 265 272	Statius
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T4 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0085.tlg004:4.419-4.442
+#1	AnnotatorNotes R2	urn:cts:cwkb:788:4-6
+#2	AnnotatorNotes R3	urn:cts:cwkb:788:9.360-9.373
+#3	AnnotatorNotes T7	urn:cts:cwkb:634
+#4	AnnotatorNotes T1	urn:cts:cwkb:634

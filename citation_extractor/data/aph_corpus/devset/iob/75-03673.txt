@@ -1,0 +1,3 @@
+Traduction	NN
+française	NN
+

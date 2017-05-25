@@ -1,0 +1,6 @@
+T1	AWORK 72 92	« De architectura ».
+T2	REFAUWORK 252 256	Book
+T3	REFSCOPE 257 259	6,
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:3050:6
+#1	AnnotatorNotes T1	urn:cts:latinLit:phi1056.phi001

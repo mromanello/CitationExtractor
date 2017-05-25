@@ -1,0 +1,21 @@
+Zu	APPR
+Jesu	NN
+Mahlpraxis	NN
+,	$,
+dem	ART
+Abschiedsmahl	NN
+und	KON
+der	ART
+nachösterlichen	ADJA
+Mahlpraxis	NN
+,	$,
+die	PRELS
+trotz	APPR
+aller	PIAT
+Verschiedenheiten	NN
+einige	PIAT
+Konstanten	NN
+erkennen	VVINF
+lassen	VVFIN
+.	$.
+

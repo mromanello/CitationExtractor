@@ -1,0 +1,19 @@
+Zu	APPR
+den	ART
+Epigrammen	NN
+15	CARD
+,	$,
+19	CARD
+,	$,
+45	CARD
+,	$,
+56	CARD
+,	$,
+59	CARD
+sowie	KON
+63	CARD
+und	KON
+64	CARD
+AB	NE
+.	$.
+

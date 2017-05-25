@@ -1,0 +1,23 @@
+Sobre	PREP
+las	ART
+consecutivas	ADJ
+y	CC
+la	ART
+«	SYM
+consecutio	NC
+temporum	NC
+»	SYM
+,	CM
+y	CC
+sobre	PREP
+el	ART
+valor	NC
+de	PREP
+los	ART
+tiempos	NC
+en	PREP
+este	DM
+tipo	NC
+de	PREP
+oraciones	NC
+

@@ -1,0 +1,6 @@
+Mit	APPR
+einer	ART
+Liste	NN
+der	ART
+Papyruszeugnisse	NN
+

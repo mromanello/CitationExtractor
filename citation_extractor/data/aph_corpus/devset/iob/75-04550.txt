@@ -1,0 +1,27 @@
+Continuazione	NOM
+dell'	PRE:det
+articolo	NOM
+schedato	ADJ
+75-04551	NUM
+,	PON
+sugli	PRE:det
+studi	NOM
+relativi	ADJ
+alla	PRE:det
+vita	NOM
+di	PRE
+Polibio	NOM
+,	PON
+nonché	CON
+al	PRE:det
+suo	PRO:poss
+rapporto	NOM
+con	PRE
+Roma	NPR
+e	CON
+al	PRE:det
+suo	PRO:poss
+giudizio	NOM
+sulla	PRE:det
+città	NOM
+

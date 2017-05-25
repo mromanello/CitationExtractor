@@ -1,0 +1,16 @@
+Données	NOM
+des	PRP:det
+fouilles	NOM
+anciennes	ADJ
+et	KON
+résultats	NOM
+du	PRP:det
+chantier	NOM
+ouvert	VER:pper
+en	PRP
+1994	NUM
+place	NOM
+de	PRP
+la	DET:ART
+République	NOM
+

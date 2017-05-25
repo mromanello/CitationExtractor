@@ -1,0 +1,24 @@
+T1	AAUTHOR 491 495	Ovid
+T2	REFAUWORK 503 510	Octavia
+T3	REFSCOPE 511 514	364
+T4	REFAUWORK 517 521	met.
+T5	REFSCOPE 522 529	7, 346)
+T6	AAUTHOR 533 539	Vergil
+T7	REFAUWORK 547 554	Octavia
+T8	REFSCOPE 555 558	203
+T9	REFAUWORK 561 567	georg.
+T10	REFSCOPE 568 575	4, 411)
+T11	AWORK 18 29	« Octavia »
+T12	AWORK 629 640	« Octavia »
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T7 Arg2:T8
+R4	Scope Arg1:T9 Arg2:T10
+#0	AnnotatorNotes R4	urn:cts:latinLit:phi0690.phi002:4.411
+#1	AnnotatorNotes R1	urn:cts:cwkb:1358.4386:364
+#2	AnnotatorNotes R2	urn:cts:latinLit:phi0959.phi006:7.346
+#3	AnnotatorNotes R3	urn:cts:cwkb:1358.4386:203
+#4	AnnotatorNotes T6	urn:cts:latinLit:phi0690
+#5	AnnotatorNotes T11	urn:cts:cwkb:1358.4386
+#6	AnnotatorNotes T12	urn:cts:cwkb:1358.4386
+#7	AnnotatorNotes T1	urn:cts:cwkb:568

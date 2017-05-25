@@ -1,0 +1,10 @@
+Travaux	NOM
+de	PRP
+2001	NUM
+,	PUN
+conduits	VER:pper
+par	PRP
+la	DET:ART
+mission	NOM
+franco-tunisienne	ADJ
+

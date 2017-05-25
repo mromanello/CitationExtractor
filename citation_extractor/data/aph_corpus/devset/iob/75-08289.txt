@@ -1,0 +1,21 @@
+Analyse	NOM
+du	PRP:det
+matériel	NOM
+importé	VER:pper
+et	KON
+considérations	NOM
+sur	PRP
+les	DET:ART
+échanges	NOM
+commerciaux	ADJ
+et	KON
+culturels	ADJ
+aux	PRP:det
+7e-2e	NOM
+s.	VER:cond
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+

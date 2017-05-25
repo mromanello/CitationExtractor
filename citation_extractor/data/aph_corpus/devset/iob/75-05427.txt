@@ -1,0 +1,15 @@
+La	DET:ART
+place	NOM
+faite	VER:pper
+à	PRP
+l'	DET:ART
+«	PUN:cit
+Ecclésiaste	NOM
+»	PUN:cit
+dans	PRP
+l'	DET:ART
+herméneutique	NOM
+biblique	ADJ
+des	PRP:det
+Pères	NOM
+

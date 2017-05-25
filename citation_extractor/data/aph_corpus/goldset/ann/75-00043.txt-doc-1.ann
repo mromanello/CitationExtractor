@@ -1,0 +1,7 @@
+T1	AWORK 28 40	« Agamenón »
+T2	AAUTHOR 44 51	Esquilo
+T3	REFSCOPE 320 328	214-217.
+#1	AnnotatorNotes T2	urn:cts:greekLit:tlg0085
+#2	AnnotatorNotes T1	urn:cts:cwkb:620.1281
+R1	Scope Arg1:T1 Arg2:T3	
+#3	AnnotatorNotes R1	urn:cts:greekLit:tlg0085.tlg005:214-217

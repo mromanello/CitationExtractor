@@ -1,0 +1,20 @@
+Ricostruzione	NOM
+di	PRE
+un	DET:indef
+manoscritto	NOM
+perduto	ADJ
+o	CON
+comunque	ADV
+non	ADV
+identificato	VER:pper
+appartenuto	VER:pper
+a	PRE
+Jean	NPR
+Matal	NOM
+.	SENT
+
+Per	PRE
+1	NUM
+=>	NOM
+68-00087	NUM
+

@@ -1,0 +1,5 @@
+T1	AAUTHOR 39 51	d' Aristote,
+T2	AAUTHOR 64 71	Cicéron
+T3	AWORK 80 99	« De diuinatione »,
+#0	AnnotatorNotes T2	urn:cts:cwkb:431
+#1	AnnotatorNotes T3	urn:cts:latinLit:phi0474.phi053

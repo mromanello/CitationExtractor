@@ -1,0 +1,28 @@
+À	PRP
+partir	VER:infi
+des	PRP:det
+descriptions	NOM
+littéraires	ADJ
+des	PRP:det
+copies	NOM
+antiques	ADJ
+(	PUN
+Pline	NAM
+,	PUN
+Pausanias	NAM
+)	PUN
+,	PUN
+des	PRP:det
+témoignages	NOM
+numismatiques	ADJ
+et	KON
+des	PRP:det
+restitutions	NOM
+modernes	ADJ
+.	SENT
+
+Pour	PRP
+1	NUM
+=>	ABR
+75-12628	NUM
+

@@ -1,0 +1,54 @@
+1.	ADV
+
+Bei	APPR
+den	ART
+an	APPR
+neun	CARD
+Exemplaren	NN
+untersuchten	VVFIN
+mykenischen	ADJA
+Terrakottamodellen	NN
+von	APPR
+Streitwägen	NN
+mit	APPR
+Schirm	NN
+handelt	VVFIN
+es	PPER
+sich	PRF
+vermutlich	ADV
+um	APPR
+Darstellungen	NN
+des	ART
+Sonnengottes	NN
+Helios	NE
+.	$.
+
+2.	ADV
+
+Bei	APPR
+den	ART
+Reitern	NN
+und	KON
+ihren	PPOSAT
+Reittieren	NN
+lässt	VVFIN
+sich	PRF
+aufgrund	APPR
+der	ART
+Wiedergabe	NN
+lokaler	ADJA
+Eigenheiten	NN
+annehmen	VVINF
+,	$,
+dass	KOUS
+sie	PPER
+mit	APPR
+der	ART
+Verehrung	NN
+lokaler	ADJA
+Gottheiten	NN
+zu	PTKZU
+verbinden	VVINF
+sind	VAFIN
+.	$.
+

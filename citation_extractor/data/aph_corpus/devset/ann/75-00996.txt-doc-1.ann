@@ -1,0 +1,6 @@
+T1	AWORK 45 59	« In Lacizis »
+T2	REFAUWORK 445 450	(Hom.
+T3	REFSCOPE 451 457	21, 9)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:821.1987:21.9
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0010.tlg003

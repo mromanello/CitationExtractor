@@ -1,0 +1,21 @@
+Panoramica	NOM
+sulle	PRE:det
+ripartizioni	NOM
+etnico-territoriali	ADJ
+dell'	PRE:det
+Epiro	NPR
+e	CON
+analisi	NOM
+delle	PRE:det
+fonti	NOM
+relative	ADJ
+all'	PRE:det
+avvicendamento	NOM
+dei	PRE:det
+principali	ADJ
+gruppi	NOM
+etnici	ADJ
+nella	PRE:det
+monarchia	NOM
+epirota	ADJ
+

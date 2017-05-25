@@ -1,0 +1,47 @@
+Étude	NOM
+,	PUN
+à	PRP
+partir	VER:infi
+des	PRP:det
+sources	NOM
+archéologiques	ADJ
+et	KON
+textuelles	ADJ
+,	PUN
+des	PRP:det
+évolutions	NOM
+chronologiques	ADJ
+dans	PRP
+la	DET:ART
+zone	NOM
+considérée	VER:pper
+.	SENT
+
+Comparaisons	NOM
+d'	PRP
+un	DET:ART
+site	NOM
+à	PRP
+l'	DET:ART
+autre	ADJ
+,	PUN
+pour	PRP
+le	DET:ART
+filage	NOM
+ou	KON
+le	DET:ART
+tissage	NOM
+.	SENT
+
+Diversification	NOM
+selon	PRP
+les	DET:ART
+groupes	NOM
+de	PRP
+population	NOM
+utilisateurs	ADJ
+,	PUN
+civils	ADJ
+ou	KON
+militaires	ADJ
+

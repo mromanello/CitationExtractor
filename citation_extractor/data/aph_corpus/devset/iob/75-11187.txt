@@ -1,0 +1,46 @@
+Die	ART
+Analyse	NN
+der	ART
+Survey-Befunde	NN
+ergibt	VVFIN
+für	APPR
+die	ART
+Geschichte	NN
+der	ART
+Insel	NN
+von	APPR
+der	ART
+Kolonisation	NN
+bis	KON
+in	APPR
+die	ART
+römische	ADJA
+Kaiserzeit	NN
+eine	ART
+Periodisierung	NN
+,	$,
+die	PRELS
+abweichend	ADJD
+von	APPR
+der	ART
+Ereignisgeschichte	NN
+Einschnitte	NN
+am	APPRART
+Anfang	NN
+des	ART
+4.	ADJA
+und	KON
+in	APPR
+der	ART
+Mitte	NN
+des	ART
+2.	ADJA
+
+Jh	NE
+.	$.
+
+v.	APPR
+Chr.	NE
+aufweist	VVFIN
+.	$.
+

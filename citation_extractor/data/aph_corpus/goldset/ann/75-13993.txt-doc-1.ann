@@ -1,0 +1,4 @@
+T1	REFAUWORK 252 267	(Plinius, N. H.
+T2	REFSCOPE 268 275	34, 75)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0978.phi001:34.75

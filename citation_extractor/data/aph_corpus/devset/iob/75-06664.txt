@@ -1,0 +1,26 @@
+Verifica	NOM
+delle	PRE:det
+principali	ADJ
+testimonianze	NOM
+,	PON
+anche	ADV
+vascolari	ADJ
+,	PON
+per	PRE
+definire	VER:infi
+meglio	ADV
+il	DET:def
+carattere	NOM
+dei	PRE:det
+due	ADJ
+eroi	NOM
+,	PON
+la	DET:def
+loro	PRO:poss
+denominazione	NOM
+e	CON
+la	DET:def
+suddivisione	NOM
+dei	PRE:det
+ruoli	NOM
+

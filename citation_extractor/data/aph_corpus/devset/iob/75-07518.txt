@@ -1,0 +1,27 @@
+Questo	PRO:demo
+simbolo	NOM
+in	PRE
+papiri	NOM
+,	PON
+codici	NOM
+e	CON
+steli	NOM
+protocristiane	ADJ
+greche	ADJ
+e	CON
+copte	ADJ
+era	VER:impf
+utilizzato	VER:pper
+come	PRE
+alpha	NOM
+e	CON
+,	PON
+capovolto	VER:pper
+,	PON
+come	PRE
+legatura	NOM
+di	PRE
+alpha	NOM
+e	CON
+omega	NOM
+

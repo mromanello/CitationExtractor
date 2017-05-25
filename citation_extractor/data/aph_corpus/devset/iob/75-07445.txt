@@ -1,0 +1,61 @@
+Suite	NOM
+de	PRP
+l'	DET:ART
+étude	NOM
+notée	VER:pper
+68-08549	NUM
+.	SENT
+
+Présente	VER:pres
+une	DET:ART
+dizaine	NOM
+d'	PRP
+inscriptions	NOM
+du	PRP:det
+2e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+au	PRP:det
+4e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+
+:	PUN
+des	PRP:det
+bilingues	ADJ
+grec-latin	NOM
+de	PRP
+Grèce	NAM
+et	KON
+d'	PRP
+Occident	NAM
+et	KON
+deux	NUM
+inscriptions	NOM
+grecques	ADJ
+d'	PRP
+Occident	NAM
+.	SENT
+
+Le	DET:ART
+choix	NOM
+de	PRP
+la	DET:ART
+nomenclature	NOM
+par	PRP
+les	DET:ART
+dédicants	NOM
+correspond	VER:pres
+à	PRP
+la	DET:ART
+conscience	NOM
+de	PRP
+leur	DET:POS
+propre	ADJ
+identité	NOM
+

@@ -1,0 +1,29 @@
+Résultats	NOM
+des	PRP:det
+prospections	NOM
+conduites	VER:pper
+depuis	PRP
+1990	NUM
+par	PRP
+les	DET:ART
+Universités	NOM
+du	PRP:det
+Delaware	NOM
+et	KON
+de	PRP
+Leiden	NAM
+.	SENT
+
+Indices	NOM
+sur	PRP
+le	DET:ART
+trafic	NOM
+antique	ADJ
+des	PRP:det
+marchandises	NOM
+le	DET:ART
+long	NOM
+de	PRP
+cet	PRO:DEM
+axe	NOM
+

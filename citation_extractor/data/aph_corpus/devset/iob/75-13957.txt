@@ -1,0 +1,13 @@
+L'	DET:ART
+organisation	NOM
+des	PRP:det
+voies	NOM
+romaines	ADJ
+.	SENT
+
+Les	DET:ART
+milliaires	NOM
+et	KON
+leurs	DET:POS
+inscriptions	NOM
+

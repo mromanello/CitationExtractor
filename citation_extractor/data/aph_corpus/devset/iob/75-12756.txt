@@ -1,0 +1,18 @@
+Analyse	VER:pres
+typologique	ADJ
+,	PUN
+stylistique	ADJ
+et	KON
+iconographique	ADJ
+de	PRP
+quelques	PRO:IND
+cratères	NOM
+du	PRP:det
+4e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+

@@ -1,0 +1,8 @@
+T1	AWORK 328 340	« Euboïque »
+T2	AAUTHOR 344 360	Dion Chrysostome
+T3	REFAUWORK 361 365	(Or.
+T4	REFSCOPE 366 375	7, 33-37)
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:443.950:7.33-7.37
+#1	AnnotatorNotes T2	urn:cts:greekLit:tlg0612
+#2	AnnotatorNotes T1	urn:cts:latinLit:phi0690.phi001

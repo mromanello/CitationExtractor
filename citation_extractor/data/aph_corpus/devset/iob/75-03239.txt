@@ -1,0 +1,16 @@
+Présentation	NOM
+du	PRP:det
+volume	NOM
+des	PRP:det
+Actes	NOM
+du	PRP:det
+quatrième	NUM
+colloque	NOM
+sur	PRP
+l'	DET:ART
+ecdotique	NOM
+médicale	ADJ
+,	PUN
+noté	VER:pper
+74-03845	NUM
+

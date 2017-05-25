@@ -1,0 +1,20 @@
+Analisi	NOM
+della	PRE:det
+rappresentazione	NOM
+stilizzata	VER:pper
+di	PRE
+Argo	NOM
+nelle	PRE:det
+«	PON
+Supplici	NOM
+»	PON
+di	PRE
+Eschilo	NOM
+e	CON
+nell'	PRE:det
+«	PON
+Elettra	NOM
+»	PON
+di	PRE
+Sofocle	NOM
+

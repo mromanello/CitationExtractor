@@ -1,0 +1,17 @@
+Interprétation	NOM
+eschatologique	ADJ
+des	PRP:det
+désastres	NOM
+byzantins	ADJ
+du	PRP:det
+7e	NUM
+s.	NOM
+,	PUN
+notamment	ADV
+chez	PRP
+Anastase	NAM
+le	DET:ART
+Sinaïte	NAM
+et	KON
+Frédégaire	NAM
+

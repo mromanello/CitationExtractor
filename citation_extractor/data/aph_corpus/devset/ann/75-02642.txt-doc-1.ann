@@ -1,0 +1,9 @@
+T1	REFAUWORK 136 149	Orazio, Carmi
+T2	REFSCOPE 150 156	1, 14,
+T3	REFSCOPE 245 252	carme 4
+T4	AAUTHOR 256 263	Catullo
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0893.phi001:1.14
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0893.phi001:4
+#2	AnnotatorNotes T4	urn:cts:latinLit:phi0472

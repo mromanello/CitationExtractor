@@ -1,0 +1,4 @@
+T1	REFAUWORK 168 177	(P. Lond.
+T2	REFSCOPE 178 185	7 1986)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:1346.4372:7

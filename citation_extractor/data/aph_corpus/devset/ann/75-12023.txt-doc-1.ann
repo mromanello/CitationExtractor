@@ -1,0 +1,6 @@
+T1	REFSCOPE 6 14	6, 12-26
+T2	REFSCOPE 41 48	livre 8
+T3	AWORK 53 85	« Antiquitates rerum diuinarum »
+T4	AAUTHOR 89 95	Varron
+#0	AnnotatorNotes T4	urn:cts:cwkb:671
+#1	AnnotatorNotes T3	urn:cts:cwkb:672.1379

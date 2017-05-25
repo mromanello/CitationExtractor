@@ -1,0 +1,17 @@
+Mit	APPR
+Resümees	NN
+der	ART
+Beiträge	NN
+des	ART
+Bandes	NN
+zu	APPR
+Aspekten	NN
+der	ART
+Körperlichkeit	NN
+in	APPR
+der	ART
+christlichen	ADJA
+Literatur	NN
+der	ART
+Spätantike	NN
+

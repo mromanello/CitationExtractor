@@ -1,0 +1,17 @@
+Riguarda	VER:pres
+Aug.	NOM
+tract	NOM
+.	SENT
+
+124	NUM
+e	CON
+la	DET:def
+sua	PRO:poss
+interpretazione	NOM
+escatologica	ADJ
+di	PRE
+Gv	NOM
+21	NUM
+,	PON
+19-23	NUM
+

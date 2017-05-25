@@ -1,0 +1,9 @@
+T1	AWORK 17 34	« Argonautiques »
+T2	AAUTHOR 35 58	d' Apollonios de Rhodes
+T3	REFSCOPE 109 116	livre 6
+T4	AWORK 123 133	« Énéide »
+#1	AnnotatorNotes T4	urn:cts:latinLit:phi0690.phi003
+#2	AnnotatorNotes T2	urn:cts:greekLit:tlg0001
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0001.tlg001
+R1	Scope Arg1:T4 Arg2:T3	
+#4	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:6

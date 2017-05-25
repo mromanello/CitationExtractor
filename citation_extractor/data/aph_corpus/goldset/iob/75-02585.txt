@@ -1,0 +1,15 @@
+Comparaison	NOM	O
+entre	PRP	O
+l'	DET:ART	O
+épisode	NOM	O
+du	PRP:det	O
+Cyclope	NAM	O
+et	KON	O
+celui	PRO:DEM	O
+des	PRP:det	O
+Lestrygons	NOM	O
+dans	PRP	O
+l'	DET:ART	B-AWORK
+«	PUN:cit	I-AWORK
+Odyssée	NAM	I-AWORK
+»	PUN:cit	I-AWORK

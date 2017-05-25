@@ -1,0 +1,17 @@
+Défense	NOM
+de	PRP
+l'	DET:ART
+hypothèse	NOM
+selon	PRP
+laquelle	PRO:REL
+Mc	NAM
+et	KON
+Q	NAM
+sont	VER:pres
+une	DET:ART
+source	NOM
+pour	PRP
+Mt	NAM
+et	KON
+Lc	NAM
+

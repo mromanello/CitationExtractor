@@ -1,0 +1,12 @@
+Spécialiste	NOM
+allemand	ADJ
+des	PRP:det
+champs	NOM
+d'	PRP
+urnes	NOM
+et	KON
+de	PRP
+la	DET:ART
+protohistoire	NOM
+européenne	ADJ
+

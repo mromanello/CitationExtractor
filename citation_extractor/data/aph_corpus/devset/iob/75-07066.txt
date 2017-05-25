@@ -1,0 +1,16 @@
+Bilan	NOM
+des	PRP:det
+approches	NOM
+ethnologiques	ADJ
+,	PUN
+étymologiques	ADJ
+et	KON
+diachroniques	ADJ
+de	PRP
+la	DET:ART
+question	NOM
+pour	PRP
+le	DET:ART
+grec	NOM
+ancien	ADJ
+

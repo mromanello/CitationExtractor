@@ -1,0 +1,15 @@
+Matériel	ADJ
+daté	VER:pper
+entre	PRP
+le	DET:ART
+4e	NUM
+et	KON
+le	DET:ART
+début	NOM
+du	PRP:det
+5e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+

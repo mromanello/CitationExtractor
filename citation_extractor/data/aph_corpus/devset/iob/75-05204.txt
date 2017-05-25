@@ -1,0 +1,14 @@
+Répertoire	NOM
+et	KON
+typologie	NOM
+des	PRP:det
+énigmes	NOM
+jouant	VER:ppre
+sur	PRP
+la	DET:ART
+notion	NOM
+de	PRP
+«	PUN:cit
+mirabilia	NOM
+»	PUN:cit
+

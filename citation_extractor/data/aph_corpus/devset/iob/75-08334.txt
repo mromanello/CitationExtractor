@@ -1,0 +1,18 @@
+Relazione	NOM
+delle	PRE:det
+campagne	NOM
+di	PRE
+scavo	NOM
+effettuate	VER:pper
+tra	PRE
+il	DET:def
+1999	NUM
+e	CON
+il	DET:def
+2001.	ORD
+
+Bibliografia	NOM
+alle	PRE:det
+p.	NOM
+543-555	NUM
+

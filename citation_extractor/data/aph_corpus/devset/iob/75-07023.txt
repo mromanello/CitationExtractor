@@ -1,0 +1,23 @@
+Se	PRO:PER
+réfère	VER:pres
+notamment	ADV
+à	PRP
+l'	DET:ART
+étude	NOM
+de	PRP
+J.	ABR
+-V	NAM
+.	SENT
+
+Vernhes	VER:pres
+notée	VER:pper
+55-05950	NUM
+.	SENT
+
+Concerne	VER:pres
+le	DET:ART
+grec	NOM
+et	KON
+le	DET:ART
+latin	NOM
+

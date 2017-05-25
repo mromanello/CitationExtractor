@@ -1,0 +1,46 @@
+Studies	NNS
+the	DT
+history	NN
+,	,
+provenance	NN
+and	CC
+restorations	NNS
+,	,
+and	CC
+recent	JJ
+cleaning	NN
+and	CC
+reassembly	NN
+of	IN
+the	DT
+statue	NN
+.	SENT
+
+Includes	VBZ
+an	DT
+account	NN
+of	IN
+excavations	NNS
+of	IN
+the	DT
+late	RB
+2nd-cent	JJ
+.	SENT
+
+A.	NP
+D.	NP
+house	NN
+of	IN
+Gaudentius	NP
+on	IN
+the	DT
+Caelian	NP
+hill	NN
+,	,
+where	WRB
+the	DT
+statue	NN
+was	VBD
+originally	RB
+located	VBN
+

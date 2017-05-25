@@ -1,0 +1,14 @@
+Zur	APPRART
+Anrede	NN
+der/des	ADJA
+Geliebten	NN
+mit	APPR
+Verwandtschaftsbezeichnungen	NN
+,	$,
+auch	ADV
+in	APPR
+anderen	PIS
+literarischen	ADJA
+Gattungen	NN
+.	$.
+

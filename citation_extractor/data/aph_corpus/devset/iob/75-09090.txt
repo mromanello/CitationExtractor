@@ -1,0 +1,23 @@
+In	APPR
+den	ART
+Text	NN
+des	ART
+Heroon	NN
+des	ART
+Opramoas	NN
+wurde	VAFIN
+irrtümlich	ADJD
+eine	ART
+Anmerkung	NN
+der	ART
+Buchhaltung	NN
+von	APPR
+Patara	NN
+über	APPR
+eine	ART
+Teilzahlung	NN
+einer	ART
+Summe	NN
+aufgenommen	VVPP
+.	$.
+

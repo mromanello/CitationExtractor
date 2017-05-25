@@ -1,0 +1,46 @@
+Bei	APPR
+Homer	NN
+erscheint	VVFIN
+die	ART
+Mentor-Figur	NN
+als	KOKOM
+Stellvertreter	NN
+des	ART
+Vaters	NN
+.	$.
+
+Seine	PPOSAT
+Hilfe	NN
+erstreckt	VVFIN
+sich	PRF
+auf	APPR
+psychische	ADJA
+Schwierigkeiten	NN
+des	ART
+Schutzbefohlenen	NN
+und	KON
+auf	APPR
+Probleme	NN
+der	ART
+Lebenspraxis	NN
+.	$.
+
+Die	ART
+reine	ADJA
+Belehrung	NN
+und	KON
+die	ART
+Formung	NN
+des	ART
+Charakters	NN
+nach	APPR
+moralischen	ADJA
+Maximen	NN
+fallen	VVFIN
+noch	ADV
+nicht	PTKNEG
+in	APPR
+seine	PPOSAT
+Kompetenz	NN
+.	$.
+

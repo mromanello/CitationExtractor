@@ -1,0 +1,20 @@
+Analisi	NOM
+delle	PRE:det
+fonti	NOM
+letterarie	ADJ
+che	PRO:rela
+possano	VER:cpre
+rivelare	VER:infi
+la	DET:def
+percezione	NOM
+che	PRO:rela
+i	DET:def
+Romani	NOM
+avevano	VER:impf
+di	PRE
+queste	PRO:demo
+due	ADJ
+tipologie	NOM
+di	PRE
+insediamento	NOM
+

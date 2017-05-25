@@ -1,0 +1,26 @@
+Exposé	VER:pper
+d'	PRP
+une	DET:ART
+méthode	NOM
+d'	PRP
+analyse	NOM
+qui	PRO:REL
+allie	VER:pres
+littérature	NOM
+,	PUN
+iconographie	NOM
+et	KON
+épistémologie	NOM
+(	PUN
+=>	ABR
+72-17332	NUM
+)	PUN
+et	KON
+applications	NOM
+possibles	ADJ
+à	PRP
+l'	DET:ART
+étude	NOM
+des	PRP:det
+mosaïques	NOM
+

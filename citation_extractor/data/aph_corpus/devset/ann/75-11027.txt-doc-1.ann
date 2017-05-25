@@ -1,0 +1,10 @@
+T1	REFAUWORK 139 143	Aen.
+T2	REFSCOPE 144 150	8, 183
+T3	AAUTHOR 155 162	Servius
+T4	AAUTHOR 171 185	Servius Auctus
+T5	REFSCOPE 547 558	10, 25-29).
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:8.183
+#1	AnnotatorNotes T4	urn:cts:cwkb:439
+#2	AnnotatorNotes T3	urn:cts:cwkb:1079

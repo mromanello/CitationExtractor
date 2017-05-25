@@ -1,0 +1,11 @@
+Mise	NOM
+au	PRP:det
+point	NOM
+historiographique	ADJ
+et	KON
+acquis	VER:pper
+de	PRP
+la	DET:ART
+recherche	NOM
+récente	ADJ
+

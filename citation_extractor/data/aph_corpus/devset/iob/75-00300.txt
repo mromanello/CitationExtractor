@@ -1,0 +1,25 @@
+L'	DET:ART
+héritage	NOM
+de	PRP
+l'	DET:ART
+épopée	NOM
+.	SENT
+
+La	DET:ART
+distance	NOM
+qu'	PRO:REL
+Apulée	NAM
+prend	VER:pres
+par	PRP
+rapport	NOM
+à	PRP
+ses	DET:POS
+modèles	NOM
+est	VER:pres
+l'	DET:ART
+indice	NOM
+de	PRP
+son	DET:POS
+intention	NOM
+parodique	ADJ
+

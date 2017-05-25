@@ -1,0 +1,24 @@
+Examine	VER:pres
+l'	DET:ART
+accusatif	NOM
+,	PUN
+le	DET:ART
+génitif	NOM
+et	KON
+le	DET:ART
+datif	NOM
+,	PUN
+avec	PRP
+une	DET:ART
+attention	NOM
+particulière	ADJ
+pour	PRP
+l'	DET:ART
+accusatif	NOM
+d'	PRP
+extension	NOM
+et	KON
+le	DET:ART
+génitif	NOM
+partitif	ADJ
+

@@ -1,0 +1,35 @@
+Collazione	NOM
+integrale	ADJ
+del	PRE:det
+ms.	NOM
+Firenze	NPR
+,	PON
+Bibl	NOM
+.	SENT
+
+Medicea	ADJ
+Laurenziana	NOM
+,	PON
+plut	NOM
+.	SENT
+
+69	NUM
+,	PON
+30	NUM
+,	PON
+rivalutato	VER:pper
+quale	PRO:rela
+testimone	NOM
+più	ADV
+antico	ADJ
+del	PRE:det
+testo	NOM
+completo	ADJ
+e	CON
+snodo	NOM
+importante	ADJ
+nella	PRE:det
+tradizione	NOM
+dell'	PRE:det
+opera	NOM
+

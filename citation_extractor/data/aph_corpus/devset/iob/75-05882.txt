@@ -1,0 +1,31 @@
+Identification	NOM
+des	PRP:det
+péricopes	NOM
+de	PRP
+la	DET:ART
+LXX	NUM
+(	PUN
+Is	NOM
+66,1-4	NUM
+;	PUN
+Ps	NOM
+131,2-5	NUM
+;	PUN
+2Sam	NOM
+7,1-7	NUM
+;	PUN
+Ex	ABR
+33,7-11	NUM
+et	KON
+12-17	NUM
+)	PUN
+qui	PRO:REL
+forment	VER:pres
+la	DET:ART
+trame	NOM
+d'	PRP
+Ac	NAM
+.	SENT
+
+7,44-50	NUM
+

@@ -1,0 +1,24 @@
+Textual	JJ
+and	CC
+exegetical	JJ
+notes	NNS
+on	IN
+Lucretius	NP
+2	CD
+,	,
+112	CD
+;	:
+2	CD
+,	,
+172-173	CD
+;	:
+3	CD
+,	,
+431-432	CD
+;	:
+and	CC
+3	CD
+,	,
+563-564	CD
+.	SENT
+

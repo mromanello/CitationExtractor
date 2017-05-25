@@ -1,0 +1,4 @@
+Précédente	ADJ	O
+livraison	NOM	O
+notée	VER:pper	O
+74-09239	NUM	O

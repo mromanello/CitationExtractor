@@ -1,0 +1,31 @@
+Zu	APPR
+den	ART
+kleineren	ADJA
+Orten	NN
+und	KON
+der	ART
+Ausdehnung	NN
+des	ART
+Territoriums	NN
+von	APPR
+hellenistischer	ADJA
+Zeit	NN
+bis	KON
+ins	APPRART
+3.	ADJA
+
+Jh	NE
+.	$.
+
+n.	APPR
+Chr.	NE
+,	$,
+insbesondere	ADV
+anhand	APPR
+(	$(
+griechischer	ADJA
+)	$(
+inschriftlicher	ADJA
+Belege	NN
+.	$.
+

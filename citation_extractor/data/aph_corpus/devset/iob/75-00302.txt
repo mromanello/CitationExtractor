@@ -1,0 +1,7 @@
+Selon	PRP
+les	DET:ART
+théories	NOM
+de	PRP
+la	DET:ART
+narratologie	NOM
+

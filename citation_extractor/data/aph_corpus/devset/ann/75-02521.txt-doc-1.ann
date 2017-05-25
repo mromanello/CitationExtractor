@@ -1,0 +1,4 @@
+T1	REFAUWORK 509 512	Od.
+T2	REFSCOPE 513 522	11, 121s.
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:763.1600:11.121

@@ -1,0 +1,37 @@
+Bilan	NOM
+sur	PRP
+les	DET:ART
+divers	ADJ
+arguments	NOM
+avancés	VER:pper
+pour	PRP
+dater	VER:infi
+cette	PRO:DEM
+épave	NOM
+d'	PRP
+avant	NOM
+ou	KON
+d'	PRP
+après	PRP
+1200	NUM
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+notamment	ADV
+d'	PRP
+après	PRP
+les	DET:ART
+scarabées	NOM
+et	KON
+la	DET:ART
+circulation	NOM
+des	PRP:det
+artefacts	NOM
+en	PRP
+Méditerranée	NAM
+orientale	ADJ
+

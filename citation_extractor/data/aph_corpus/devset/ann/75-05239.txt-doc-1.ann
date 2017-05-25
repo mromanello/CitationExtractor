@@ -1,0 +1,12 @@
+T1	REFAUWORK 0 13	Tacitus, ann.
+T2	REFSCOPE 14 22	1, 39-44
+T3	REFAUWORK 27 30	Dio
+T4	REFSCOPE 31 41	57, 5, 4-7
+T5	AAUTHOR 327 334	Tacitus
+T6	REFSCOPE 514 519	48, 1
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:670.1373:1.39-1.44
+#1	AnnotatorNotes R3	urn:cts:cwkb:2850.9602:48.1
+#2	AnnotatorNotes T5	urn:cts:latinLit:phi1351

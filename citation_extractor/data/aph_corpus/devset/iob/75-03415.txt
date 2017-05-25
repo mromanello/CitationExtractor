@@ -1,0 +1,25 @@
+Nel	PRE:det
+contesto	NOM
+cristiano	ADJ
+precedente	ADJ
+e	CON
+in	PRE
+Origene	NOM
+il	DET:def
+termine	NOM
+indica	ADJ
+l'	DET:def
+azione	NOM
+compiuta	VER:pper
+attraverso	PRE
+un	DET:indef
+uomo	NOM
+da	PRE
+parte	NOM
+di	PRE
+una	DET:indef
+potenza	NOM
+demoniaca	ADJ
+o	CON
+divina	ADJ
+

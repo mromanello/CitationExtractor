@@ -1,0 +1,10 @@
+Complemento	NC
+al	PAL
+trabajo	NC
+de	PREP
+H.	NP
+White	VLfin
+consignado	VLadj
+en	PREP
+75-01922	CARD
+

@@ -1,0 +1,13 @@
+T1	REFSCOPE 10 19	v. 163ss.
+T2	REFAUWORK 33 46	Nicand. Ther.
+T3	REFSCOPE 47 55	469-473,
+T4	REFAUWORK 76 88	Verg. Georg.
+T5	REFSCOPE 89 99	3, 414-439
+T6	REFAUWORK 102 114	Aemil. Macr.
+T7	REFSCOPE 115 120	8 Bl.
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T6 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:cwkb:998.3421:469-473
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0690.phi002:3.414-3.439
+#2	AnnotatorNotes R3	urn:cts:cwkb:530.1101:8

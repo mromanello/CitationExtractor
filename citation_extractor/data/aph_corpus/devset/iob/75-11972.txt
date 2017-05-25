@@ -1,0 +1,22 @@
+Attestations	NOM
+archéologiques	ADJ
+,	PUN
+littéraires	ADJ
+et	KON
+numismatiques	ADJ
+des	PRP:det
+cultes	NOM
+rendus	VER:pper
+à	PRP
+l'	DET:ART
+enfant	NOM
+Zeus	NAM
+,	PUN
+ainsi	KON
+qu'	KON
+à	PRP
+Artémis	NAM
+Limnatis	NAM
+et	KON
+Laphria	NAM
+

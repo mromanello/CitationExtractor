@@ -1,0 +1,9 @@
+Spécialiste	NOM
+suissesse	NOM
+de	PRP
+la	DET:ART
+peinture	NOM
+des	PRP:det
+vases	NOM
+grecs	ADJ
+

@@ -1,0 +1,18 @@
+Note	ADJ
+critiche	NOM
+a	PRE
+passi	NOM
+del	PRE:det
+«	PON
+Monogenes	NOM
+»	PON
+recentemente	ADV
+edito	ADJ
+da	PRE
+R.	NOM
+Goulet	NOM
+(	PON
+=>	NOM
+74-03663	NUM
+)	PON
+

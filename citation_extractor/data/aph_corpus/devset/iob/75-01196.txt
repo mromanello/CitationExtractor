@@ -1,0 +1,14 @@
+Quelques	PRO:IND
+aspects	NOM
+de	PRP
+Cassiodore	NAM
+comme	KON
+homme	NOM
+politique	ADJ
+d'	PRP
+après	PRP
+les	DET:ART
+«	PUN:cit
+Variae	NAM
+»	PUN:cit
+

@@ -1,0 +1,17 @@
+T1	AAUTHOR 234 244	Lucretius.
+T2	AAUTHOR 245 252	Vergil,
+T3	REFAUWORK 352 361	Lucretius
+T4	REFSCOPE 362 372	2, 464-465
+T5	AAUTHOR 581 587	Vergil
+T6	AWORK 591 601	« Aeneid »
+T7	AAUTHOR 610 619	Lucretius
+T8	REFSCOPE 787 799	2, 604-623),
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0550.phi001:2.464-2.465
+#1	AnnotatorNotes T6	urn:cts:latinLit:phi0690.phi003
+#2	AnnotatorNotes T7	urn:cts:cwkb:528
+#3	AnnotatorNotes T5	urn:cts:latinLit:phi0690
+#4	AnnotatorNotes T2	urn:cts:latinLit:phi0690
+#5	AnnotatorNotes T1	urn:cts:cwkb:528
+R2	Scope Arg1:T3 Arg2:T8	
+#6	AnnotatorNotes R2	urn:cts:latinLit:phi0550.phi001:2.604-2.623

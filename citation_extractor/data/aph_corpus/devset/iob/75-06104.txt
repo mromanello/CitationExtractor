@@ -1,0 +1,36 @@
+Difficultés	NOM
+spécifiques	ADJ
+d'	PRP
+un	DET:ART
+texte	NOM
+lacunaire	ADJ
+,	PUN
+hérité	VER:pper
+d'	PRP
+une	DET:ART
+transmission	NOM
+manuscrite	ADJ
+indirecte	ADJ
+.	SENT
+
+L'	DET:ART
+éditeur	NOM
+doit	VER:pres
+avoir	VER:infi
+recours	NOM
+à	PRP
+un	DET:ART
+grand	ADJ
+nombre	NOM
+de	PRP
+disciplines	NOM
+annexes	ADJ
+pour	PRP
+se	PRO:PER
+créer	VER:infi
+un	DET:ART
+large	ADJ
+faisceau	NOM
+de	PRP
+probabilités	NOM
+

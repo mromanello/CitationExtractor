@@ -1,0 +1,27 @@
+Necrology	NN
+of	IN
+Cornelis	NP
+Jord	NP
+Ruijgh	NP
+(	(
+1930-2004	CD
+)	)
+,	,
+emeritus	JJ
+professor	NN
+of	IN
+ancient	JJ
+Greek	JJ
+linguistics	NNS
+,	,
+mycenology	NN
+and	CC
+Greek	JJ
+dialectology	NN
+at	IN
+the	DT
+University	NP
+of	IN
+Amsterdam	NP
+.	SENT
+

@@ -1,0 +1,23 @@
+L'	DET:ART
+importance	NOM
+des	PRP:det
+médecins	NOM
+attachés	VER:pper
+à	PRP
+l'	DET:ART
+école	NOM
+nestorienne	ADJ
+de	PRP
+Jundishapur	NAM
+dans	PRP
+la	DET:ART
+transmission	NOM
+du	PRP:det
+savoir	NOM
+médical	ADJ
+grec	ADJ
+aux	PRP:det
+Arabes	NAM
+de	PRP
+Bagdad	NAM
+

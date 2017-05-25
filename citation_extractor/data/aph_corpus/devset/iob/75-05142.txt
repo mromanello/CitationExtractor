@@ -1,0 +1,10 @@
+Note	VER:pres
+exégétique	ADJ
+à	PRP
+Achill	NAM
+.	SENT
+
+1	NUM
+,	PUN
+259-265	NUM
+

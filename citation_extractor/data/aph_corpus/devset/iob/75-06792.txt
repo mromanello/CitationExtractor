@@ -1,0 +1,24 @@
+Distinzione	NOM
+tra	PRE
+ironia	NOM
+drammatica	ADJ
+e	CON
+tragica	ADJ
+,	PON
+analisi	NOM
+dei	PRE:det
+passi	NOM
+in	PRE
+cui	PRO:rela
+questa	PRO:demo
+ricorre	VER:pres
+e	CON
+definizione	NOM
+della	PRE:det
+sua	PRO:poss
+funzione	NOM
+(	PON
+=>	NOM
+74-08298	NUM
+)	PON
+

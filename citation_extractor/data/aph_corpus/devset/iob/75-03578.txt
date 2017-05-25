@@ -1,0 +1,23 @@
+Pacien	NAM
+apparaît	VER:pres
+comme	ADV
+un	DET:ART
+témoin	NOM
+fondamental	ADJ
+pour	PRP
+la	DET:ART
+connaissance	NOM
+des	PRP:det
+versions	NOM
+latines	ADJ
+de	PRP
+la	DET:ART
+Bible	NAM
+en	PRP
+usage	NOM
+en	PRP
+Hispanie	NAM
+au	PRP:det
+4e	NUM
+s	NOM
+

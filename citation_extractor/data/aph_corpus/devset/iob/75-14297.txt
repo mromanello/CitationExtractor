@@ -1,0 +1,12 @@
+Dépouillé	VER:pper
+dans	PRP
+le	DET:ART
+présent	ADJ
+vol.	VER:futu
+Pour	NOM
+la	DET:ART
+16e	NUM
+conférence	NOM
+=>	ADJ
+74-168897	NUM
+

@@ -1,0 +1,33 @@
+Supplement	NN
+to	TO
+a	DT
+previous	JJ
+publication	NN
+(	(
+=>	NN
+68-00207	CD
+)	)
+.	SENT
+
+Includes	VBZ
+an	DT
+«	)
+Index	NP
+locorum	NP
+Apollodori	NP
+bibliothecae	NNS
+»	(
+intended	VBN
+to	TO
+replace	VB
+the	DT
+previous	JJ
+index	NN
+(	(
+=>	NN
+68-00207	CD
+,	,
+p.	NN
+345-347	CD
+)	)
+

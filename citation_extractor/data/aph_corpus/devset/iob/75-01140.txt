@@ -1,0 +1,27 @@
+Erstpublikation	NN
+der	ART
+griechischen	ADJA
+Grabinschrift	NN
+eines	ART
+Kindes	NN
+(	$(
+Magazin	NN
+3	CARD
+,	$,
+Inv	NE
+.	$.
+10537	ADJA
+,	$,
+2.	ADJA
+-3	CARD
+.	$.
+Jh	NE
+.	$.
+n.	APPR
+Chr.	NE
+,	$,
+unbekannte	ADJA
+Herkunft	NN
+)	$(
+.	$.
+

@@ -1,0 +1,26 @@
+L'	DET:ART
+étendue	NOM
+du	PRP:det
+territoire	NOM
+rural	ADJ
+;	PUN
+la	DET:ART
+population	NOM
+;	PUN
+l'	DET:ART
+agriculture	NOM
+et	KON
+les	DET:ART
+métiers	NOM
+;	PUN
+la	DET:ART
+religion	NOM
+;	PUN
+l'	DET:ART
+architecture	NOM
+(	PUN
+temples	NOM
+et	KON
+maisons	NOM
+)	PUN
+

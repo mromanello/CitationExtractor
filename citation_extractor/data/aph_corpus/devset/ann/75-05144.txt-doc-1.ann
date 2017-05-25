@@ -1,0 +1,8 @@
+T1	REFAUWORK 30 35	Theb.
+T2	REFSCOPE 36 46	9, 570-907
+T3	REFAUWORK 81 85	Aen.
+T4	REFSCOPE 86 97	11, 803-819
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:634.1315:9.570-9.907
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0690.phi003:11.803-11.819

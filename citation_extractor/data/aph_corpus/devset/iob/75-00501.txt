@@ -1,0 +1,22 @@
+Esame	NOM
+della	PRE:det
+fortuna	NOM
+del	PRE:det
+testo	NOM
+greco	ADJ
+e	CON
+di	PRE
+alcune	PRO:indef
+traduzioni	NOM
+,	PON
+come	CON
+quelle	PRO:demo
+di	PRE
+Guglielmo	NPR
+di	PRE
+Moerbeka	NOM
+e	CON
+di	PRE
+Lorenzo	NPR
+Valla	NOM
+

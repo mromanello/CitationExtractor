@@ -1,0 +1,28 @@
+L'	DET:ART
+image	NOM
+de	PRP
+Jérusalem	NAM
+,	PUN
+telle	PRO:DEM
+qu'	PRO:REL
+elle	PRO:PER
+est	VER:pres
+véhiculée	VER:pper
+par	PRP
+la	DET:ART
+littérature	NOM
+chrétienne	ADJ
+et	KON
+sa	DET:POS
+signification	NOM
+.	SENT
+
+La	DET:ART
+tension	NOM
+entre	PRP
+les	DET:ART
+symboles	NOM
+négatifs	ADJ
+et	KON
+positifs	ADJ
+

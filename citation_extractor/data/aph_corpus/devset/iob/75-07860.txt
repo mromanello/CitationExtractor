@@ -1,0 +1,31 @@
+Objets	NOM
+du	PRP:det
+Bronze	NAM
+récent	ADJ
+présentés	VER:pper
+en	PRP
+complément	NOM
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+55-06659	NUM
+(	PUN
+pour	PRP
+le	DET:ART
+1er	NUM
+complément	NOM
+=>	ABR
+75-07858	NUM
+)	PUN
+.	SENT
+
+Contient	VER:pres
+notamment	ADV
+des	PRP:det
+tessons	NOM
+incisés	VER:pper
+de	PRP
+signes	NOM
+chypro-minoens	ADJ
+

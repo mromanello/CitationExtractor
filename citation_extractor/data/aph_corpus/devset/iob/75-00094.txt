@@ -1,0 +1,24 @@
+Se	SE
+refieren	VLfin
+las	ART
+primeras	ORD
+traducciones	NC
+latinas	ADJ
+del	PDEL
+fabulista	ADJ
+,	CM
+motivadas	VLadj
+por	PREP
+un	ART
+afán	NC
+pedagógico	ADJ
+,	CM
+así como	CSUBF
+las	ART
+reelaboraciones	NC
+humanísticas	ADJ
+que	CQUE
+conoció	VLfin
+el	ART
+texto	NC
+

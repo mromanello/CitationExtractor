@@ -1,0 +1,45 @@
+Étude	NOM
+descriptive	ADJ
+menée	VER:pper
+en	PRP
+1994.	DET:POS
+
+La	DET:ART
+technique	NOM
+s'	PRO:PER
+approche	VER:pres
+de	PRP
+la	DET:ART
+«	PUN:cit
+cuisson	NOM
+à	PRP
+la	DET:ART
+meule	NOM
+»	PUN:cit
+,	PUN
+peut-être	ADV
+déjà	ADV
+en	PRP
+usage	NOM
+dans	PRP
+l'	DET:ART
+Antiquité	NOM
+,	PUN
+et	KON
+le	DET:ART
+mode	NOM
+de	PRP
+production	NOM
+est	VER:pres
+de	PRP
+type	NOM
+«	PUN:cit
+household	NOM
+production	NOM
+»	PUN:cit
+.	SENT
+
+Discussions	NOM
+p.	ABR
+171-176	NUM
+

@@ -1,0 +1,16 @@
+T1	REFAUWORK 82 90	(Gellius
+T2	REFSCOPE 91 103	11, 6, 1-2).
+T3	AWORK 130 154	« Origo gentis Romanae »
+T4	AAUTHOR 286 295	Macrobius
+T5	REFSCOPE 296 306	(1, 12, 28
+T6	REFSCOPE 311 323	3, 12, 2-3),
+T7	AAUTHOR 416 425	Victor 's
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T4 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:2406:11.6.1-11.6.2
+#1	AnnotatorNotes R2	urn:cts:cwkb:1368:1.12.28
+#2	AnnotatorNotes R3	urn:cts:cwkb:1368:3.12.2-3.12.3
+#3	AnnotatorNotes T7	urn:cts:cwkb:2772
+#4	AnnotatorNotes T4	urn:cts:cwkb:1368
+#5	AnnotatorNotes T3	urn:cts:cwkb:1359.4393

@@ -1,0 +1,43 @@
+Typique	NOM
+des	PRP:det
+ossuaires	NOM
+hiérosolymitains	ADJ
+communs	ADJ
+entre	PRP
+100	NUM
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+et	KON
+100	NUM
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+cette	PRO:DEM
+pièce	NOM
+d'	PRP
+une	DET:ART
+collection	NOM
+particulière	ADJ
+de	PRP
+Jérusalem	NAM
+comporte	VER:pres
+trois	NUM
+noms	NOM
+hébraïques	ADJ
+inscrits	VER:pper
+en	PRP
+grec	NOM
+:	PUN
+Shelmazion	NAM
+,	PUN
+Hosiah	NAM
+et	KON
+Jacob	NAM
+

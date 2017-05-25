@@ -1,0 +1,32 @@
+Examen	NOM
+critique	ADJ
+de	PRP
+la	DET:ART
+proposition	NOM
+de	PRP
+W.	ABR
+M.	NOM
+Leake	NAM
+.	SENT
+
+Dix	NUM
+nouveaux	ADJ
+schémas	NOM
+de	PRP
+restitution	NOM
+,	PUN
+inspirés	VER:pper
+de	PRP
+l'	DET:ART
+interprétation	NOM
+des	PRP:det
+données	NOM
+de	PRP
+Pausanias	NOM
+.	SENT
+
+Pour	PRP
+1	NUM
+=>	ABR
+75-12631	NUM
+

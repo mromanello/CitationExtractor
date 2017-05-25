@@ -1,0 +1,4 @@
+T1	REFAUWORK 9 14	orig.
+T2	REFSCOPE 15 19	8, 9
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:424.854:8.9

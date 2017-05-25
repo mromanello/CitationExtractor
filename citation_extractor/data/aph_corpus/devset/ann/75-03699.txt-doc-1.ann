@@ -1,0 +1,16 @@
+T1	AAUTHOR 27 36	Pausanias
+T2	REFSCOPE 74 82	livre 7,
+T3	AAUTHOR 303 312	Pausanias
+T4	AAUTHOR 335 341	Polybe
+T5	REFSCOPE 350 358	livre 9,
+T6	AAUTHOR 557 566	Pausanias
+T7	AAUTHOR 581 587	Polybe
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0525:7
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0543:9
+#2	AnnotatorNotes T6	urn:cts:greekLit:tlg0525
+#3	AnnotatorNotes T7	urn:cts:greekLit:tlg0543
+#4	AnnotatorNotes T4	urn:cts:greekLit:tlg0543
+#5	AnnotatorNotes T3	urn:cts:greekLit:tlg0525
+#6	AnnotatorNotes T1	urn:cts:greekLit:tlg0525

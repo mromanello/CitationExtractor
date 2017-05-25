@@ -1,0 +1,34 @@
+Il	DET:def
+ms.	NOM
+Messina	NPR
+,	PON
+Bibl	NOM
+.	SENT
+
+Regionale	ADJ
+Universitaria	NOM
+,	PON
+San	NPR
+Salvatore	NOM
+gr.	ABR
+96	NUM
+,	PON
+contenente	VER:ppre
+un	DET:indef
+evangeliario	NOM
+di	PRE
+epoca	NOM
+sconosciuta	ADJ
+completo	ADJ
+di	PRE
+notazione	NOM
+musicale	ADJ
+,	PON
+mostra	NOM
+caratteristiche	ADJ
+tipiche	ADJ
+della	PRE:det
+prassi	NOM
+scrittoria	ADJ
+palestinese-cipriota	ADJ
+

@@ -1,0 +1,14 @@
+A	PRE
+proposito	NOM
+del	PRE:det
+rapporto	NOM
+tra	PRE
+Girolamo	NOM
+e	CON
+Apollinare	NOM
+nell'	PRE:det
+ambito	NOM
+della	PRE:det
+dottrina	NOM
+cristologica	ADJ
+

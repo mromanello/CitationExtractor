@@ -1,0 +1,16 @@
+Travaux	NOM
+de	PRP
+1988	NUM
+sur	PRP
+le	DET:ART
+bâtiment	NOM
+du	PRP:det
+Bronze	NAM
+récent	ADJ
+.	SENT
+
+Pour	PRP
+4	NUM
+=>	ABR
+75-07896	NUM
+

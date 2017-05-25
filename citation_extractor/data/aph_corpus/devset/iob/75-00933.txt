@@ -1,0 +1,17 @@
+Analisi	NOM
+del	PRE:det
+testo	NOM
+agostiniano	ADJ
+,	PON
+che	PRO:rela
+propone	VER:pres
+il	DET:def
+discorso	NOM
+biblico	ADJ
+e	CON
+patristico	ADJ
+come	PRE
+modello	NOM
+di	PRE
+eloquenza	NOM
+

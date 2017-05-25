@@ -1,0 +1,5 @@
+T1	REFSCOPE 62 78	(11, 11, 8 C520)
+T2	REFAUWORK 180 186	Strab.
+T3	REFSCOPE 187 201	4, 6, 2 C202),
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0099:4.6.2

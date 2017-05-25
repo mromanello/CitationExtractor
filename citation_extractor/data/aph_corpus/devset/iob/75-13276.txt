@@ -1,0 +1,11 @@
+Étude	NOM
+papyrologique	ADJ
+concernant	VER:ppre
+les	DET:ART
+clauses	NOM
+de	PRP
+mariage	NOM
+en	PRP
+Égypte	NAM
+ptolémaïque	ADJ
+

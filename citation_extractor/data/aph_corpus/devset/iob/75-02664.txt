@@ -1,0 +1,22 @@
+Il	DET:def
+problematico	ADJ
+«	PON
+Tithonusque	NOM
+»	PON
+può	VER:pres
+essere	VER:infi
+corretto	VER:pper
+in	PRE
+«	PON
+Tithoniusque	NOM
+»	PON
+,	PON
+con	PRE
+riferimento	NOM
+a	PRE
+Memnone	NOM
+,	PON
+figlio	NOM
+di	PRE
+Titono	NOM
+

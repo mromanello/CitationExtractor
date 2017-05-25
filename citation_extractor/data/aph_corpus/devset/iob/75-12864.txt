@@ -1,0 +1,15 @@
+Motivi	NOM
+pittorici	ADJ
+legati	ADJ
+al	PRE:det
+culto	NOM
+della	PRE:det
+rinascita	NOM
+primaverile	ADJ
+in	PRE
+alcuni	PRO:indef
+mosaici	NOM
+dell'	PRE:det
+Africa	NPR
+mediterranea	ADJ
+

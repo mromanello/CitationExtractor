@@ -1,0 +1,15 @@
+Rassegna	NOM
+delle	PRE:det
+testimonianze	NOM
+epigrafiche	ADJ
+relative	ADJ
+a	PRE
+una	DET:indef
+delle	PRE:det
+principali	ADJ
+attività	NOM
+manuali	ADJ
+della	PRE:det
+donna	NOM
+greca	ADJ
+

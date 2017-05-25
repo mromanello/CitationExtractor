@@ -1,0 +1,4 @@
+T1	REFAUWORK 22 31	(Politika
+T2	REFSCOPE 32 43	8, 4, 1338b
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0543:8.4.1338

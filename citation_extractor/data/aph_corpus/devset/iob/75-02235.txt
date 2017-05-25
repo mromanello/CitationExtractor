@@ -1,0 +1,18 @@
+L'	DET:def
+isola	NOM
+mobile	ADJ
+di	PRE
+Chemmis	NOM
+,	PON
+come	CON
+Delo	VER:impe
+,	PON
+è	VER:pres
+legata	VER:pper
+in	PRE
+particolare	NOM
+ad	PRE
+Apollo	NOM
+e	CON
+Latona	NOM
+

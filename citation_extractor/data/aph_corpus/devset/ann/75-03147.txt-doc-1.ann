@@ -1,0 +1,6 @@
+T1	AAUTHOR 92 100	Augustin
+T2	REFAUWORK 101 111	(c. Faust.
+T3	REFSCOPE 112 118	20, 2)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:502.1061:20.2
+#1	AnnotatorNotes T1	urn:cts:cwkb:2386

@@ -1,0 +1,19 @@
+Comparaison	NOM
+entre	PRP
+le	DET:ART
+grec	NOM
+ancien	ADJ
+et	KON
+le	DET:ART
+grec	NOM
+moderne	ADJ
+d'	PRP
+après	PRP
+des	PRP:det
+traductions	NOM
+en	PRP
+grec	ADJ
+moderne	NOM
+de	PRP
+Platon	NAM
+

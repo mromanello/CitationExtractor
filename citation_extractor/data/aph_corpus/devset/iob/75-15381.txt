@@ -1,0 +1,8 @@
+Avec	PRP
+une	DET:ART
+bibliographie	NOM
+de	PRP
+cet	PRO:DEM
+archéologue	NOM
+roumain	ADJ
+

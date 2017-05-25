@@ -1,0 +1,8 @@
+T1	REFAUWORK 48 53	Silve
+T2	REFSCOPE 54 59	4, 3.
+T3	AAUTHOR 131 136	Stace
+T4	AAUTHOR 222 229	Virgile
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:630:4.3
+#1	AnnotatorNotes T4	urn:cts:latinLit:phi0690
+#2	AnnotatorNotes T3	urn:cts:cwkb:634

@@ -1,0 +1,12 @@
+Relazione	NOM
+delle	PRE:det
+campagne	NOM
+di	PRE
+scavo	NOM
+.	SENT
+
+Bibliografia	NOM
+alle	PRE:det
+p.	NOM
+543-555	NUM
+

@@ -1,0 +1,9 @@
+Réappropriations	NOM
+chrétiennes	ADJ
+de	PRP
+la	DET:ART
+figure	NOM
+de	PRP
+la	DET:ART
+Sibylle	NAM
+

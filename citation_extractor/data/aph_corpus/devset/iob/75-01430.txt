@@ -1,0 +1,21 @@
+Clemente	ADJ
+impiega	VER:pres
+il	DET:def
+testo	NOM
+paolino	ADJ
+in	PRE
+una	DET:indef
+prospettiva	NOM
+di	PRE
+complementarietà	NOM
+,	PON
+cercando	VER:geru
+di	PRE
+spingersi	VER:infi
+oltre	ADV
+sulla	PRE:det
+strada	NOM
+tracciata	VER:pper
+da	PRE
+Paolo	NOM
+

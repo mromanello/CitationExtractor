@@ -1,0 +1,27 @@
+Se	SE
+hace	VLfin
+un	ART
+recorrido	VLadj
+histórico	ADJ
+por	PREP
+las	ART
+ediciones	NC
+y	CC
+traducciones	NC
+latinas	ADJ
+del	PDEL
+poema	NC
+,	CM
+desde	PREP
+el	ART
+Renacimiento	NC
+,	CM
+y	CC
+se	SE
+analizan	VLfin
+por	PREP
+último	ADJ
+las	ART
+traducciones	NC
+españolas	ADJ
+

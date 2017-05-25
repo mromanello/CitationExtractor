@@ -1,0 +1,17 @@
+Review	NN
+of	IN
+D.	NP
+Oldsjö	NP
+,	,
+Tense	NN
+and	CC
+aspect	NN
+in	IN
+Caesar	NP
+'s	POS
+narrative	NN
+(	(
+=>	NN
+72-01072	CD
+)	)
+

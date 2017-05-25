@@ -1,0 +1,11 @@
+T1	AAUTHOR 65 74	Euripides
+T2	AAUTHOR 88 100	Aristophanes
+T3	REFAUWORK 101 105	(Ra.
+T4	REFSCOPE 106 109	944
+T5	REFSCOPE 110 125	and 1407-1410 ;
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T3 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0019.tlg009:944
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0019.tlg009:1407-1410
+#2	AnnotatorNotes T2	urn:cts:greekLit:tlg0019
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0006

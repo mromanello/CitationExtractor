@@ -1,0 +1,20 @@
+On	IN
+Tyconius	NP
+'	POS
+use	NN
+of	IN
+synecdoche	NN
+to	TO
+solve	VB
+problems	NNS
+of	IN
+Biblical	JJ
+chronology	NN
+.	SENT
+
+Includes	VBZ
+comparison	NN
+with	IN
+Rabbinic	JJ
+sources	NNS
+

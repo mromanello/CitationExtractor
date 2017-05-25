@@ -1,0 +1,32 @@
+Plinius	NE
+drückt	VVFIN
+seine	PPOSAT
+Kritik	NN
+an	APPR
+Quintilian	NE
+indirekt	ADJD
+aus	PTKVZ
+.	$.
+
+Dies	PDS
+geschieht	VVFIN
+vor	APPR
+allem	PIS
+literarisch	ADJD
+,	$,
+indem	KOUS
+er	PPER
+beispielsweise	ADV
+statt	APPR
+Quintilian	NE
+andere	PIAT
+Autoritäten	NN
+zitiert	VVPP
+,	$,
+aber	KON
+auch	ADV
+durch	APPR
+seine	PPOSAT
+Lebenswahl	NN
+.	$.
+

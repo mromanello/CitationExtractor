@@ -1,0 +1,22 @@
+Recense	VER:pres
+les	DET:ART
+sites	NOM
+de	PRP
+l'	DET:ART
+âge	NOM
+du	PRP:det
+Bronze	NAM
+et	KON
+d'	PRP
+époque	NOM
+antérieure	ADJ
+.	SENT
+
+Les	DET:ART
+époques	NOM
+ultérieures	ADJ
+ne	ADV
+sont	VER:pres
+qu'	ADV
+évoquées	VER:pper
+

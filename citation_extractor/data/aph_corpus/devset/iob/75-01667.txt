@@ -1,0 +1,6 @@
+Discussione	NOM
+del	PRE:det
+volume	NOM
+schedato	ADJ
+68-01450	NUM
+

@@ -1,0 +1,26 @@
+Analyse	NOM
+de	PRP
+la	DET:ART
+perception	NOM
+chez	PRP
+Augustin	NAM
+(	PUN
+gen.	VER:simp
+ad	ADV
+litt	ADJ
+.	SENT
+12	NUM
+,	PUN
+23	NUM
+,	PUN
+49	NUM
+)	PUN
+et	KON
+du	PRP:det
+vocabulaire	NOM
+utilisé	VER:pper
+pour	PRP
+désigner	VER:infi
+l'	DET:ART
+imagination	NOM
+

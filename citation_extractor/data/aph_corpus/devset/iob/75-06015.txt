@@ -1,0 +1,21 @@
+Il	DET:def
+lessico	NOM
+della	PRE:det
+santità	NOM
+in	PRE
+Teodoreto	NOM
+risente	VER:pres
+fortemente	ADV
+della	PRE:det
+terminologia	NOM
+neotestamentaria	ADJ
+riguardante	VER:ppre
+Pietro	NPR
+e	CON
+Paolo	NOM
+e	CON
+la	DET:def
+loro	PRO:poss
+funzione	NOM
+pastorale	ADJ
+

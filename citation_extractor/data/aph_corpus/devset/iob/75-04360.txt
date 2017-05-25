@@ -1,0 +1,10 @@
+Zu	APPR
+den	ART
+dichtungstheoretischen	ADJA
+Äusserungen	NN
+und	KON
+seinem	PPOSAT
+Selbstverständnis	NN
+als	KOKOM
+Dichter	NN
+

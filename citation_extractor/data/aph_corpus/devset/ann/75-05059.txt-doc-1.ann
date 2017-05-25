@@ -1,0 +1,8 @@
+T1	AAUTHOR 28 36	Sophocle
+T2	AWORK 86 95	« Ajax »,
+T3	AWORK 96 108	« Antigone »
+T4	AWORK 112 127	« Philoctète »,
+#0	AnnotatorNotes T4	urn:cts:greekLit:tlg0011.tlg006
+#1	AnnotatorNotes T2	urn:cts:greekLit:tlg0011.tlg003
+#2	AnnotatorNotes T3	urn:cts:greekLit:tlg0011.tlg002
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0011

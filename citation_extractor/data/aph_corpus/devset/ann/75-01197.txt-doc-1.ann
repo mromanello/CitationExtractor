@@ -1,0 +1,7 @@
+T1	REFSCOPE 8 17	12, 14, 1
+T2	AAUTHOR 119 126	Apuleio
+T3	REFAUWORK 130 135	Flor.
+T4	REFSCOPE 136 138	15
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:377.763:15
+#1	AnnotatorNotes T2	urn:cts:cwkb:377

@@ -1,0 +1,8 @@
+T1	AAUTHOR 15 21	Thales
+T2	REFAUWORK 55 59	(Hdt
+T3	REFSCOPE 60 71	1, 75, 3-5)
+T4	REFAUWORK 317 321	(Hdt
+T5	REFSCOPE 322 333	1, 170, 3).
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes T1	urn:cts:cwkb:1098

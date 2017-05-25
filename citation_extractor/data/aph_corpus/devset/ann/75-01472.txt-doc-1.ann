@@ -1,0 +1,17 @@
+T1	AWORK 49 59	« Corpus »
+T2	AWORK 255 266	« Epitomi »
+T3	AAUTHOR 270 281	Ermogeniano
+T4	REFAUWORK 282 285	(D.
+T5	REFSCOPE 286 296	41, 1, 61,
+T6	REFAUWORK 297 304	Hermog.
+T7	REFSCOPE 305 316	6 iur. ep.)
+T8	REFSCOPE 361 370	4, 34, 9)
+R1	Scope Arg1:T4 Arg2:T5
+R2	Scope Arg1:T6 Arg2:T7
+R3	Scope Arg1:T6 Arg2:T8
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg2045.tlg001:41.1.61
+#1	AnnotatorNotes R2	urn:cts:cwkb:2864:6
+#2	AnnotatorNotes R3	urn:cts:cwkb:2864:4.34.9
+#3	AnnotatorNotes T2	urn:cts:cwkb:784.1813
+#4	AnnotatorNotes T3	urn:cts:cwkb:2864
+#5	AnnotatorNotes T1	urn:cts:cwkb:981.3366

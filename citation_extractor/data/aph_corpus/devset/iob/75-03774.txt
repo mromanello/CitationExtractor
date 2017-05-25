@@ -1,0 +1,13 @@
+Studio	NOM
+dell'	PRE:det
+esegesi	NOM
+biblica	ADJ
+di	PRE
+Filone	NOM
+in	PRE
+rapporto	NOM
+al	PRE:det
+patrimonio	NOM
+filosofico	ADJ
+greco	ADJ
+

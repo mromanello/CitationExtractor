@@ -1,0 +1,8 @@
+Le	DET:ART
+prosélytisme	NOM
+caractérise	VER:pres
+le	DET:ART
+ministère	NOM
+de	PRP
+Paul	NAM
+

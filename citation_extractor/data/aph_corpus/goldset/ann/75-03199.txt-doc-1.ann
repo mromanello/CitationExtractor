@@ -1,0 +1,8 @@
+T1	REFSCOPE 13 24	(10, 56, 6)
+T2	AAUTHOR 67 73	Petron
+T3	AAUTHOR 125 132	Martial
+T4	REFSCOPE 140 152	(1, 60, 3-4)
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:539.1115:1.60.3-1.60.4
+#1	AnnotatorNotes T2	urn:cts:latinLit:phi0972
+#2	AnnotatorNotes T3	urn:cts:cwkb:539

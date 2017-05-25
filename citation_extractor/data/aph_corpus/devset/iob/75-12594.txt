@@ -1,0 +1,26 @@
+Vase	NOM
+conservé	VER:pper
+à	PRP
+Kouklia	NAM
+(	PUN
+KA	NAM
+I	NUM
+:	PUN
+33	NUM
+)	PUN
+,	PUN
+daté	VER:pper
+au	PRP:det
+Chypriote	NAM
+récent	ADJ
+IIC/IIIA	NOM
+et	KON
+traduisant	VER:ppre
+des	PRP:det
+influences	NOM
+mycéniennes	ADJ
+,	PUN
+chypriotes	ADJ
+et	KON
+levantines	ADJ
+

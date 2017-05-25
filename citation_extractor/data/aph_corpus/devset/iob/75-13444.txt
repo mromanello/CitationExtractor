@@ -1,0 +1,11 @@
+Concerne	VER:pres
+il	DET:def
+volume	NOM
+di	PRE
+A.	NPR
+Bottiglieri	NOM
+(	PON
+=>	NOM
+75-13297	NUM
+)	PON
+

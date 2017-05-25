@@ -1,0 +1,9 @@
+Ricordo	NOM
+dello	PRE:det
+studioso	NOM
+appena	ADV
+scomparso	VER:pper
+(	PON
+1921-2004	NUM
+)	PON
+

@@ -1,0 +1,16 @@
+Concerne	VER:pres
+soprattutto	ADV
+gli	DET:def
+studi	NOM
+archeologici	ADJ
+e	CON
+topografici	ADJ
+sul	PRE:det
+Piceno	NOM
+fino	CON
+all'	PRE:det
+età	NOM
+della	PRE:det
+Roma	NPR
+repubblicana	ADJ
+

@@ -1,0 +1,25 @@
+Rassegna	NOM
+di	PRE
+studi	NOM
+sul	PRE:det
+tema	NOM
+:	PON
+opportunità	NOM
+di	PRE
+un	DET:indef
+ritorno	NOM
+all'	PRE:det
+interpretazione	NOM
+ottocentesca	ADJ
+degli	PRE:det
+Omeridi	NOM
+come	PRE
+genos	NOM
+(	PON
+già	ADV
+suggerita	VER:pper
+dalla	PRE:det
+storiografia	NOM
+antica	ADJ
+)	PON
+

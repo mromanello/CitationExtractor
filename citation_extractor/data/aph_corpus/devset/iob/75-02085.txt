@@ -1,0 +1,11 @@
+Definizioni	NOM
+della	PRE:det
+grammatica	NOM
+da	PRE
+Platone	NPR
+e	CON
+Aristotele	NPR
+a	PRE
+Dionisio	NOM
+Trace	NOM
+

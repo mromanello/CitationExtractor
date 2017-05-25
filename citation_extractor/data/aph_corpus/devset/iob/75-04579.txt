@@ -1,0 +1,19 @@
+Proposta	NOM
+di	PRE
+nuova	ADJ
+sistemazione	NOM
+testuale	ADJ
+e	CON
+traduzione	NOM
+dell'	PRE:det
+epigramma	NOM
+,	PON
+con	PRE
+discussione	NOM
+delle	PRE:det
+singole	ADJ
+questioni	NOM
+verso	ADJ
+per	PRE
+verso	ADJ
+

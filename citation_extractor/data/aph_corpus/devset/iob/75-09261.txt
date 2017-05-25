@@ -1,0 +1,6 @@
+Ripubblicazione	NOM
+dell'	PRE:det
+articolo	NOM
+schedato	ADJ
+75-09260	NUM
+

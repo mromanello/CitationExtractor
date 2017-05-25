@@ -1,0 +1,20 @@
+Le	DET:ART
+datif	NOM
+(	PUN
+d'	PRP
+approche	NOM
+,	PUN
+de	PRP
+direction	NOM
+et	KON
+locatif	ADJ
+,	PUN
+instrumental	ADJ
+)	PUN
+.	SENT
+
+Pour	PRP
+1	NUM
+=>	ABR
+75-07114	NUM
+

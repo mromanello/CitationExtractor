@@ -1,0 +1,31 @@
+Diffusion	NOM
+de	PRP
+ces	PRO:DEM
+objets	NOM
+de	PRP
+la	DET:ART
+fin	NOM
+du	PRP:det
+Bronze	NAM
+récent	ADJ
+jusqu'	PRP
+au	PRP:det
+7e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+notamment	ADV
+en	PRP
+Crète	NAM
+,	PUN
+à	PRP
+Chypre	NAM
+et	KON
+en	PRP
+Italie	NAM
+

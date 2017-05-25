@@ -1,0 +1,14 @@
+T1	AWORK 49 74	« De vita contemplativa »
+T2	REFAUWORK 183 190	Genesis
+T3	REFSCOPE 191 192	1
+T4	REFSCOPE 197 200	2 ;
+T5	REFSCOPE 546 555	15, 44-49
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+#3	AnnotatorNotes T1	urn:cts:cwkb:1042.3556
+T6	AAUTHOR 0 6	Philos
+T7	REFAUWORK 540 545	1 Kor
+R3	Scope Arg1:T7 Arg2:T5	
+T8	AAUTHOR 560 566	Philos
+#2	AnnotatorNotes T6	urn:cts:cwkb:1042
+#4	AnnotatorNotes T8	urn:cts:cwkb:1042

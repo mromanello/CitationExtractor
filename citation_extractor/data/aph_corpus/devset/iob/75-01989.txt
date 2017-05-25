@@ -1,0 +1,51 @@
+Étudie	VER:pres
+l'	DET:ART
+activité	NOM
+d'	PRP
+A	PRP
+.	SENT
+
+Gadaldini	VER:pper
+en	PRP
+tant	ADV
+que	KON
+découvreur	NOM
+de	PRP
+mss	NOM
+,	PUN
+traducteur	NOM
+,	PUN
+réviseur	NOM
+et	KON
+philologue	NOM
+,	PUN
+presque	ADV
+exclusivement	ADV
+consacrée	VER:pper
+à	PRP
+l'	DET:ART
+œuvre	NOM
+de	PRP
+Galien	NAM
+.	SENT
+
+Appendice	NOM
+,	PUN
+p.	ABR
+317-321	NUM
+:	PUN
+Épître	NOM
+de	PRP
+Gadaldini	NOM
+dans	PRP
+l'	DET:ART
+édition	NOM
+juntine	ADJ
+de	PRP
+1541	NUM
+t.	ABR
+
+VI	NUM
+f.	ABR
+1-2	NUM
+

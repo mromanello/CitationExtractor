@@ -1,0 +1,4 @@
+T1	REFAUWORK 110 113	Gen
+T2	REFSCOPE 114 120	6, 1-4
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:1323:6.1-6.4

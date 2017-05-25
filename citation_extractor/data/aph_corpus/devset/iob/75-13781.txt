@@ -1,0 +1,29 @@
+Cf	NOM
+.	SENT
+
+69-00632	NUM
+et	KON
+71-07916	NUM
+.	SENT
+
+La	DET:ART
+partie	NOM
+du	PRP:det
+monde	NOM
+représentée	VER:pper
+sur	PRP
+cette	PRO:DEM
+carte	NOM
+,	PUN
+qui	PRO:REL
+semble	VER:pres
+inachevée	VER:pper
+,	PUN
+n'	ADV
+est	VER:pres
+sans	PRP
+doute	NOM
+pas	ADV
+l'	DET:ART
+Espagne	NAM
+

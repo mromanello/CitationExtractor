@@ -1,0 +1,19 @@
+Concerne	VER:pres
+la	DET:def
+documentazione	NOM
+numismatica	ADJ
+greca	ADJ
+e	CON
+magnogreca	NOM
+,	PON
+ove	ADV
+l'	DET:def
+animale	NOM
+ha	VER:pres
+spesso	ADV
+una	DET:indef
+valenza	NOM
+simbolica	ADJ
+sostanzialmente	ADV
+positiva	ADJ
+

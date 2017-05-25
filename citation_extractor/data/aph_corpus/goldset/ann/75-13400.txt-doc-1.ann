@@ -1,0 +1,11 @@
+T1	AAUTHOR 49 56	Isidoro
+T2	REFAUWORK 57 63	(orig.
+T3	REFSCOPE 64 72	5, 1, 5)
+T4	AAUTHOR 125 133	Svetonio
+T5	REFAUWORK 135 139	Iul.
+T6	REFSCOPE 140 146	44, 2)
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:2437.8993:5.1.5
+#1	AnnotatorNotes R2	urn:cts:cwkb:638.1323:44.2
+#2	AnnotatorNotes T1	urn:cts:cwkb:2437

@@ -1,0 +1,16 @@
+Zur	APPRART
+Geschichte	NN
+und	KON
+Methodik	NN
+der	ART
+Arbeiten	NN
+der	ART
+letzten	ADJA
+170	CARD
+Jahre	NN
+zwischen	APPR
+Bewahrung	NN
+und	KON
+Rekonstruktion	NN
+.	$.
+

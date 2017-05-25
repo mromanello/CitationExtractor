@@ -1,0 +1,13 @@
+Continuazione	NOM
+degli	PRE:det
+scavi	NOM
+nelle	PRE:det
+due	ADJ
+località	NOM
+.	SENT
+
+Per	PRE
+2001	NUM
+=>	NOM
+75-07943	NUM
+

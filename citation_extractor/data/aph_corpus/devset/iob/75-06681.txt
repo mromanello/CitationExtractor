@@ -1,0 +1,10 @@
+Cenni	NOM
+sull'	PRE:det
+asino	NOM
+come	PRE
+motivo	NOM
+letterario	ADJ
+nell'	PRE:det
+antichità	NOM
+greco-romana	ADJ
+

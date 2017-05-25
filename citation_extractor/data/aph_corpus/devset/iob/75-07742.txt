@@ -1,0 +1,15 @@
+Catalogue	NN
+of	IN
+Geometric	JJ
+vases	NNS
+in	IN
+the	DT
+Museum	NP
+of	IN
+the	DT
+British	NP
+School	NP
+at	IN
+Athens	NP
+.	SENT
+

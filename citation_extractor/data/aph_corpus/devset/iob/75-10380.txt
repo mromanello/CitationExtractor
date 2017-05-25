@@ -1,0 +1,15 @@
+Die	ART
+griechischen	ADJA
+Funde	NN
+insbesondere	ADV
+der	ART
+Perserzeit	NN
+scheinen	VVFIN
+mit	APPR
+der	ART
+Ausbreitung	NN
+phönizischer	ADJA
+Lebensart	NN
+zusammenzuhängen	VVIZU
+.	$.
+

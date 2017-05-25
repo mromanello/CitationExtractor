@@ -1,0 +1,58 @@
+T1	AWORK 70 84	l' Onomastikon
+T2	AAUTHOR 87 97	Démosthène
+T3	REFAUWORK 98 104	(Poll.
+T4	REFSCOPE 105 115	1, 38-39 ;
+T5	REFSCOPE 116 122	4, 36)
+T6	AAUTHOR 125 142	Pseudo-Démosthène
+T7	REFAUWORK 143 149	(Poll.
+T8	REFSCOPE 150 156	1, 43)
+T9	AAUTHOR 159 168	Thucydide
+T10	REFAUWORK 169 175	(Poll.
+T11	REFSCOPE 176 185	1, 66-67,
+T12	REFSCOPE 197 204	2, 120,
+T13	REFSCOPE 211 216	4, 27
+T14	REFSCOPE 220 225	28) ;
+T15	AAUTHOR 226 234	Ménandre
+T16	REFAUWORK 235 241	(Poll.
+T17	REFSCOPE 242 250	2, 42) ;
+T18	AAUTHOR 251 258	Soranos
+T19	REFAUWORK 259 265	(Poll.
+T20	REFSCOPE 266 274	6, 38) ;
+T21	AAUTHOR 275 283	Dinarque
+T22	REFAUWORK 284 290	(Poll.
+T23	REFSCOPE 291 297	8, 71)
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T3 Arg2:T5
+R3	Scope Arg1:T7 Arg2:T8
+R4	Scope Arg1:T10 Arg2:T11
+R5	Scope Arg1:T10 Arg2:T12
+R6	Scope Arg1:T10 Arg2:T13
+R7	Scope Arg1:T10 Arg2:T14
+R8	Scope Arg1:T16 Arg2:T17
+R9	Scope Arg1:T19 Arg2:T20
+R10	Scope Arg1:T22 Arg2:T23
+#0	AnnotatorNotes R4	urn:cts:cwkb:948.3195:1.66-1.67
+#1	AnnotatorNotes R5	urn:cts:cwkb:948.3195:2.120
+#2	AnnotatorNotes R6	urn:cts:cwkb:948.3195:4.27
+#3	AnnotatorNotes R7	urn:cts:cwkb:948.3195:4.28
+#4	AnnotatorNotes R1	urn:cts:cwkb:948.3195:1.38-1.39
+#5	AnnotatorNotes R2	urn:cts:cwkb:948.3195:4.36
+#6	AnnotatorNotes R3	urn:cts:cwkb:948.3195:1.43
+#7	AnnotatorNotes R8	urn:cts:cwkb:948.3195:2.42
+#8	AnnotatorNotes R9	urn:cts:cwkb:948.3195:6.38
+#9	AnnotatorNotes R10	urn:cts:cwkb:948.3195:8.71
+#10	AnnotatorNotes T15	urn:cts:cwkb:981
+#11	AnnotatorNotes T18	urn:cts:cwkb:3115
+#12	AnnotatorNotes T9	urn:cts:greekLit:tlg0003
+#13	AnnotatorNotes T1	urn:cts:cwkb:948.3195
+#14	AnnotatorNotes T21	urn:cts:greekLit:tlg0029
+#15	AnnotatorNotes T2	urn:cts:greekLit:tlg0014
+T24	REFSCOPE 186 190	113,
+T25	REFSCOPE 191 196	166 ;
+T26	REFSCOPE 205 210	126 ;
+R11	Scope Arg1:T10 Arg2:T24	
+R12	Scope Arg1:T10 Arg2:T25	
+R13	Scope Arg1:T10 Arg2:T26	
+#16	AnnotatorNotes R11	urn:cts:cwkb:948.3195:1.113
+#17	AnnotatorNotes R12	urn:cts:cwkb:948.3195:1.166
+#18	AnnotatorNotes R13	urn:cts:cwkb:948.3195:2.126

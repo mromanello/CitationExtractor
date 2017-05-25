@@ -1,0 +1,25 @@
+La	DET:def
+documentazione	NOM
+antica	ADJ
+induce	VER:pres
+a	PRE
+credere	VER:infi
+che	PRO:rela
+questa	PRO:demo
+famiglia	NOM
+appartenesse	VER:cimp
+alla	PRE:det
+parte	NOM
+di	PRE
+aristocrazia	NOM
+campana	ADJ
+che	PRO:rela
+fu	VER:remo
+assai	ADV
+presto	ADV
+inserita	VER:pper
+nella	PRE:det
+nobiltà	NOM
+di	PRE
+Roma	NPR
+

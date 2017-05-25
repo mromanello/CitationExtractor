@@ -1,0 +1,24 @@
+Gli	DET:def
+elementi	NOM
+di	PRE
+realismo	NOM
+della	PRE:det
+commedia	NOM
+sono	VER:pres
+annientati	VER:pper
+dalla	PRE:det
+fantasia	NOM
+carnevalesca	ADJ
+e	CON
+la	DET:def
+natura	NOM
+è	VER:pres
+funzionale	ADJ
+a	PRE
+sovvertire	VER:infi
+le	DET:def
+costrizioni	NOM
+del	PRE:det
+sistema	NOM
+democratico	ADJ
+

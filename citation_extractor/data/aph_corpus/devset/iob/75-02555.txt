@@ -1,0 +1,12 @@
+Chez	PRP
+Homère	NAM
+.	SENT
+
+Trad.	ABR
+française	ADJ
+de	PRP
+l'	DET:ART
+étude	NOM
+notée	VER:pper
+63-06703	NUM
+

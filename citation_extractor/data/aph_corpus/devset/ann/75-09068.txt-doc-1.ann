@@ -1,0 +1,5 @@
+T1	AAUTHOR 314 320	Rhodes
+T2	REFAUWORK 321 324	(IG
+T3	REFSCOPE 325 335	12, 1, 4),
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes T1	urn:cts:cwkb:1098

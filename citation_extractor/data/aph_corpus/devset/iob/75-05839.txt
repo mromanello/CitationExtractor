@@ -1,0 +1,16 @@
+Confronti	NOM
+con	PRE
+il	DET:def
+TM	NOM
+;	PON
+la	DET:def
+Vulgata	NOM
+appare	VER:pres
+versione	NOM
+meno	ADV
+servile	ADJ
+e	CON
+letterale	ADJ
+dei	PRE:det
+LXX	NUM
+

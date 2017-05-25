@@ -1,0 +1,14 @@
+T1	AWORK 7 29	« Apocalypse of Paul »
+T2	REFAUWORK 30 33	(NH
+T3	REFSCOPE 34 40	5, 2),
+T4	REFAUWORK 97 103	2 Cor.
+T5	REFSCOPE 104 112	12, 2-4.
+T6	AAUTHOR 165 175	Irenaeus '
+T7	REFAUWORK 242 247	Haer.
+T8	REFSCOPE 248 256	2, 30, 7
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T7 Arg2:T8
+#0	AnnotatorNotes R2	urn:cts:greekLit:tlg0627.tlg002:12.2-12.4
+#1	AnnotatorNotes R3	urn:cts:cwkb:853.2263:2.30.7
+#2	AnnotatorNotes T6	urn:cts:cwkb:1401

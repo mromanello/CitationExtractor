@@ -1,0 +1,21 @@
+Note	NOM
+di	PRE
+storia	NOM
+della	PRE:det
+lingua	NOM
+greca	ADJ
+.	SENT
+
+Testo	NOM
+di	PRE
+una	DET:indef
+conferenza	NOM
+tenuta	VER:pper
+alla	PRE:det
+Klassiska	NOM
+Institutionen	NOM
+dell'	PRE:det
+Università	NOM
+di	PRE
+Lund	NOM
+

@@ -1,0 +1,25 @@
+Examen	NOM
+de	PRP
+fragments	NOM
+d'	PRP
+instruments	NOM
+de	PRP
+musique	NOM
+mis	VER:pper
+au	PRP:det
+jour	NOM
+sur	PRP
+les	DET:ART
+sites	NOM
+romains	ADJ
+de	PRP
+Suisse	NAM
+(	PUN
+1er-3e	VER:pres
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+)	PUN
+

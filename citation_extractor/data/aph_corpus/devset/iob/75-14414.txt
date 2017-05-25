@@ -1,0 +1,22 @@
+Organisée	VER:pper
+par	PRP
+le	DET:ART
+groupe	NOM
+«	PUN:cit
+Mythe	NAM
+et	KON
+psychè	NOM
+»	PUN:cit
+(	PUN
+CERLAM	NAM
+,	PUN
+Caen	NAM
+)	PUN
+.	SENT
+
+Dépouillée	VER:pper
+dans	PRP
+le	DET:ART
+tome	NOM
+75	NUM
+

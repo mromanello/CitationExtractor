@@ -1,0 +1,4 @@
+T1	REFAUWORK 142 146	Hdt.
+T2	REFSCOPE 147 153	3, 119
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0016:3.119

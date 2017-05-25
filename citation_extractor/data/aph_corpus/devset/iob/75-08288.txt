@@ -1,0 +1,42 @@
+Pour	PRP
+la	DET:ART
+dernière	ADJ
+publication	NOM
+d'	PRP
+ensemble	NOM
+=>	ABR
+68-07948	NUM
+.	SENT
+
+Reprise	NOM
+des	PRP:det
+fouilles	NOM
+archéologiques	ADJ
+par	PRP
+l'	DET:ART
+Université	NOM
+Ben	NAM
+Gourion	NAM
+.	SENT
+
+Dans	PRP
+les	DET:ART
+secteurs	NOM
+2	NUM
+et	KON
+3	NUM
+,	PUN
+les	DET:ART
+couches	NOM
+hellénistiques	ADJ
+et	KON
+romaines	ADJ
+ont	VER:pres
+livré	VER:pper
+de	PRP
+la	DET:ART
+céramique	NOM
+et	KON
+des	PRP:det
+monnaies	NOM
+

@@ -1,0 +1,13 @@
+Se	SE
+incluye	VLfin
+al	PAL
+final	ADJ
+un	ART
+cuadro	NC
+comparativo	ADJ
+con	PREP
+la	ART
+terminología	NC
+de	PREP
+Platón	NP
+

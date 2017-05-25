@@ -1,0 +1,15 @@
+À	NP
+propos	NC
+de	PREP
+la	ART
+«	SYM
+Lex	NP
+sacra	NC
+»	SYM
+de	PREP
+Sélinonte	NP
+(	LP
+=>	NC
+64-10559	CODE
+)	RP
+

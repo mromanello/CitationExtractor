@@ -1,0 +1,24 @@
+In	APPR
+«	$(
+Panegyricus	NE
+»	$(
+und	KON
+Episteln	NN
+,	$,
+im	APPRART
+Vergleich	NN
+mit	APPR
+Tacitus	ADJA
+und	KON
+unter	APPR
+dem	ART
+Aspekt	NN
+der	ART
+Beurteilung	NN
+und	KON
+Einteilung	NN
+von	APPR
+Sentenzen	NN
+bei	APPR
+Quintilian	NE
+

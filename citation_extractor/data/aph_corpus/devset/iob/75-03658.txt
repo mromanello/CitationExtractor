@@ -1,0 +1,11 @@
+Sguardo	NOM
+patristico	ADJ
+sulla	PRE:det
+creazione	NOM
+:	PON
+mare	NOM
+,	PON
+flora	NOM
+e	CON
+fauna	NOM
+

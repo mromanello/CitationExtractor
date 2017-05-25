@@ -1,0 +1,5 @@
+T1	AAUTHOR 96 102	Jérôme
+T2	REFAUWORK 103 107	(ep.
+T3	REFSCOPE 108 114	65, 1)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:897.2630:65.1

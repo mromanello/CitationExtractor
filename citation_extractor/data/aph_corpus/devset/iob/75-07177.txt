@@ -1,0 +1,13 @@
+Étude	NOM
+lexicale	ADJ
+du	PRP:det
+terme	NOM
+à	PRP
+partir	VER:infi
+du	PRP:det
+dossier	NOM
+de	PRP
+ses	DET:POS
+occurrences	NOM
+papyrologiques	ADJ
+

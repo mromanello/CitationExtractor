@@ -1,0 +1,23 @@
+Zu	APPR
+den	ART
+mit	APPR
+den	ART
+Spielen	NN
+verbundenen	ADJA
+Werten	NN
+und	KON
+psychischen	ADJA
+Effekten	NN
+sowie	KON
+zu	APPR
+den	ART
+sozialen	ADJA
+und	KON
+politischen	ADJA
+Auswirkungen	NN
+,	$,
+insbesondere	ADV
+im	APPRART
+Waffenstillstand	NN
+.	$.
+

@@ -1,0 +1,20 @@
+Confronto	NOM
+tra	PRE
+le	DET:def
+due	ADJ
+saghe	NOM
+mitiche	ADJ
+in	PRE
+base	NOM
+soprattutto	ADV
+alle	PRE:det
+testimonianze	NOM
+letterarie	ADJ
+greche	ADJ
+per	PRE
+l'	DET:def
+età	NOM
+arcaica	ADJ
+e	CON
+tardo-arcaica	NOM
+

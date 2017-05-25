@@ -1,0 +1,12 @@
+Architecture	NOM
+pontificale	ADJ
+à	PRP
+Rome	NAM
+,	PUN
+en	PRP
+particulier	NOM
+sous	PRP
+Grégoire	NAM
+le	DET:ART
+Grand	NAM
+

@@ -1,0 +1,8 @@
+T1	REFAUWORK 0 16	Aristotle, Cael.
+T2	REFSCOPE 17 40	1, 2, 268 B 14-287 A 12
+T3	REFAUWORK 494 499	Cael.
+T4	REFSCOPE 500 505	1, 2,
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:767.1667:1.2.268
+#1	AnnotatorNotes R2	urn:cts:cwkb:766.1623:1.2

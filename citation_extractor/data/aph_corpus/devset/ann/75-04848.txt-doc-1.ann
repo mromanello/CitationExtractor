@@ -1,0 +1,9 @@
+T1	AAUTHOR 58 64	Seneca
+T2	REFAUWORK 64 72	, epist.
+T3	REFSCOPE 73 79	12, 5,
+T4	REFSCOPE 210 216	3, 11,
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0003.tlg001:12.5
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0003.tlg001:3.11
+#2	AnnotatorNotes T1	urn:cts:cwkb:620

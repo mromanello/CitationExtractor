@@ -1,0 +1,33 @@
+Rapprochement	NOM
+entre	PRP
+SB	NAM
+5621	NUM
+et	KON
+PRossGeorg	NAM
+1	NUM
+,	PUN
+14.	INT
+
+En	PRP
+dépit	NOM
+du	PRP:det
+support	NOM
+,	PUN
+il	PRO:PER
+faut	VER:pres
+considérer	VER:infi
+ces	PRO:DEM
+deux	NUM
+textes	NOM
+non	ADV
+comme	ADV
+des	PRP:det
+étiquettes	NOM
+de	PRP
+momies	NOM
+mais	KON
+comme	ADV
+des	PRP:det
+épitaphes	NOM
+métriques	ADJ
+

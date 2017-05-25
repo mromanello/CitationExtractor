@@ -1,0 +1,20 @@
+Presentazione	NOM
+della	PRE:det
+collezione	NOM
+,	PON
+che	PRO:rela
+include	VER:pres
+tra	PRE
+l'	DET:def
+altro	ADJ
+pezzi	NOM
+d'	PRE
+età	NOM
+romano-repubblicana	ADJ
+,	PON
+romano-imperiale	VER:impe
+e	CON
+una	DET:indef
+serie	NOM
+bizantina	ADJ
+

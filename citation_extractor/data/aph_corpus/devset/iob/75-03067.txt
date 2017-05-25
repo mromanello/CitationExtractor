@@ -1,0 +1,19 @@
+El	ART
+término	NC
+resulta	VLfin
+clave	ADJ
+como	CSUBX
+expresión	NC
+de	PREP
+ideas	NC
+fundamentales	ADJ
+para	PREP
+la	ART
+comprensión	NC
+de	PREP
+la	ART
+teoría	NC
+epicúrea	ADJ
+del	PDEL
+conocimiento	NC
+

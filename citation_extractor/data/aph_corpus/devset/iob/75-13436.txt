@@ -1,0 +1,16 @@
+Aspects	NOM
+juridiques	ADJ
+du	PRP:det
+travail	NOM
+des	PRP:det
+esclaves	NOM
+à	PRP
+Rome	NAM
+.	SENT
+
+Le	DET:ART
+travail	NOM
+comme	KON
+valeur	NOM
+marchande	ADJ
+

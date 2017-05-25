@@ -1,0 +1,6 @@
+T1	AWORK 21 36	« Panegyricus »
+T2	REFAUWORK 63 69	Epist.
+T3	REFSCOPE 70 79	10, 96, 7
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:897.2630:10.96.7
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0010.tlg011

@@ -1,0 +1,10 @@
+T1	AAUTHOR 336 341	Plato
+T2	REFAUWORK 342 347	(Phd.
+T3	REFSCOPE 348 352	96 A
+T4	REFAUWORK 376 379	Ap.
+T5	REFSCOPE 380 390	21 B ff.).
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0059.tlg004:96
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0526.tlg003:21
+#2	AnnotatorNotes T1	urn:cts:cwkb:1389

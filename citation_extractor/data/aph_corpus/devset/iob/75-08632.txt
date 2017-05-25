@@ -1,0 +1,19 @@
+Fouilles	NOM
+effectuées	VER:pper
+sur	PRP
+la	DET:ART
+citadelle	NOM
+entre	PRP
+1983	NUM
+et	KON
+1990.	NUM
+
+Publication	NOM
+de	PRP
+49	NUM
+fragments	NOM
+de	PRP
+verres	NOM
+des	PRP:det
+1er-5e	NOM
+s.	ADJ

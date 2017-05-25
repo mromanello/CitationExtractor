@@ -1,0 +1,19 @@
+Edizione	NOM
+critica	ADJ
+della	PRE:det
+parte	NOM
+iniziale	ADJ
+dell'	PRE:det
+opera	NOM
+agiografica	ADJ
+(	PON
+BHG	NOM
+1410	NUM
+)	PON
+,	PON
+preceduta	VER:pper
+da	PRE
+una	DET:indef
+breve	ADJ
+introduzione	NOM
+

@@ -1,0 +1,15 @@
+T1	AAUTHOR 66 75	Aristotle
+T2	AAUTHOR 105 113	Plato 's
+T3	AAUTHOR 272 280	Plato 's
+T4	AAUTHOR 346 358	Aristotle 's
+T5	AAUTHOR 437 449	Aristotle 's
+T6	AAUTHOR 522 534	Aristotle 's
+T7	REFSCOPE 596 609	26-1134 B 8).
+R1	Scope Arg1:T6 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:cwkb:767.7983:26-1134
+#1	AnnotatorNotes T6	urn:cts:greekLit:tlg0086
+#2	AnnotatorNotes T4	urn:cts:greekLit:tlg0086
+#3	AnnotatorNotes T5	urn:cts:greekLit:tlg0086
+#4	AnnotatorNotes T2	urn:cts:greekLit:tlg0059
+#5	AnnotatorNotes T3	urn:cts:greekLit:tlg0059
+#6	AnnotatorNotes T1	urn:cts:greekLit:tlg0086

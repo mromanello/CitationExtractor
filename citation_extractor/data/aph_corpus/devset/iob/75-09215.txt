@@ -1,0 +1,20 @@
+Problemi	NOM
+e	CON
+ipotesi	NOM
+intorno	ADV
+all'	PRE:det
+iscrizione	NOM
+del	PRE:det
+7°	NOM
+sec.	NOM
+a.	VER:geru
+C.	LS
+pubblicata	VER:pper
+da	PRE
+G.	NPR
+Colonna	NOM
+(	PON
+=>	NOM
+74-11095	NUM
+)	PON
+

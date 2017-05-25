@@ -1,0 +1,21 @@
+Breve	ADJ
+regesto	NOM
+delle	PRE:det
+ricerche	NOM
+archeologiche	ADJ
+condotte	VER:pper
+in	PRE
+Italia	NPR
+,	PON
+negli	PRE:det
+ultimi	ADJ
+anni	NOM
+,	PON
+da	PRE
+accademie	NOM
+,	PON
+istituti	NOM
+e	CON
+università	NOM
+straniere	ADJ
+

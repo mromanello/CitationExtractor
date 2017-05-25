@@ -1,0 +1,26 @@
+Esemplificazione	NOM
+«	PON
+in	PRE
+polyadic	ADJ
+form	NOM
+»	PON
+di	PRE
+una	DET:indef
+teoria	NOM
+formale	ADJ
+per	PRE
+una	DET:indef
+«	PON
+standard	NOM
+sentence	NOM
+logic	ADJ
+»	PON
+in	PRE
+riferimento	NOM
+all'	PRE:det
+«	PON
+Institutio	NOM
+»	PON
+di	PRE
+Galeno	NOM
+

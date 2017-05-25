@@ -1,0 +1,10 @@
+T1	REFAUWORK 69 74	(Ann.
+T2	REFSCOPE 75 80	1, 5)
+T3	REFAUWORK 98 103	(Liu.
+T4	REFSCOPE 104 110	1, 41)
+T5	AAUTHOR 185 192	Tacito,
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi1351.phi005:1.5
+#1	AnnotatorNotes R2	urn:cts:cwkb:524.1088:1.41
+#2	AnnotatorNotes T5	urn:cts:latinLit:phi1351

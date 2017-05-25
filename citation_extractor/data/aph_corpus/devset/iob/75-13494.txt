@@ -1,0 +1,10 @@
+Reprend	VER:pres
+les	DET:ART
+grandes	ADJ
+articulations	NOM
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+67-12924	NUM
+

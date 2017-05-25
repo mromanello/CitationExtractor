@@ -1,0 +1,21 @@
+Discussions	NOM
+méthodologiques	ADJ
+,	PUN
+publication	NOM
+de	PRP
+fouilles	NOM
+et	KON
+études	NOM
+sur	PRP
+des	PRP:det
+sites	NOM
+archéologiques	ADJ
+ruraux	ADJ
+.	SENT
+
+Dépouillé	VER:pper
+dans	PRP
+le	DET:ART
+vol.	ABR
+75	NUM
+

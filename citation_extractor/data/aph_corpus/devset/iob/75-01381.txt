@@ -1,0 +1,27 @@
+Zu	APPR
+den	ART
+Lesarten	NN
+und	KON
+Abkürzungen	NN
+des	ART
+Textes	NN
+aus	APPR
+der	ART
+Mitte	NN
+des	ART
+12.	ADJA
+
+Jh	NE
+.	$.
+
+im	APPRART
+Vergleich	NN
+mit	APPR
+ihrer	PPOSAT
+Wiedergabe	NN
+in	APPR
+den	ART
+gängigen	ADJA
+Ausgaben	NN
+.	$.
+

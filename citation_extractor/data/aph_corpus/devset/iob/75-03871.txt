@@ -1,0 +1,27 @@
+Pur	ADV
+rimanendo	VER:geru
+sempre	ADV
+sullo	PRE:det
+sfondo	NOM
+del	PRE:det
+discorso	NOM
+pindarico	ADJ
+,	PON
+il	DET:def
+cittadino	NOM
+costituisce	VER:pres
+il	DET:def
+referente	NOM
+ultimo	ADJ
+di	PRE
+ogni	ADJ
+considerazione	NOM
+di	PRE
+carattere	NOM
+etico	ADJ
+e	CON
+,	PON
+soprattutto	ADV
+,	PON
+estetico	ADJ
+

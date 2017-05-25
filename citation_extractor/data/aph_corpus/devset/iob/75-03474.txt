@@ -1,0 +1,43 @@
+En	PREP
+dicho	QU
+pasaje	NC
+puede	VMfin
+identificarse	VCLIinf
+una	ART
+variante	NC
+de	PREP
+autor	NC
+,	CM
+es decir	ADV
+,	CM
+una	ART
+corrección	NC
+del	PDEL
+propio	ADJ
+autor	NC
+sobre	PREP
+su	PPO
+obra	NC
+,	CM
+antes	ADV
+o	CC
+después de	PREP
+su	PPO
+difusión	NC
+y	CC
+publicación	NC
+.	FS
+
+Se	SE
+analiza	VLfin
+su	PPO
+interés	NC
+en	PREP
+el	ART
+estudio	NC
+de	PREP
+la	ART
+génesis	NC
+del	PDEL
+texto	NC
+

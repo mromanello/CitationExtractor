@@ -1,0 +1,8 @@
+Reprend	VER:pres
+en	PRP
+substance	NOM
+l'	PRO:PER
+article	VER:pres
+noté	VER:pper
+69-03329	NUM
+

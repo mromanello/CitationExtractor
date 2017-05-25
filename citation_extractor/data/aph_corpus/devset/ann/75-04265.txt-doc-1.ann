@@ -1,0 +1,4 @@
+T1	REFAUWORK 3 7	Phd.
+T2	REFSCOPE 8 16	64 A 5-6
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0059.tlg004:64

@@ -1,0 +1,5 @@
+Zum	APPRART
+Charakter	NN
+des	ART
+Herrscherkults	NN
+

@@ -1,0 +1,8 @@
+T1	AAUTHOR 402 409	Plautus
+T2	REFAUWORK 410 419	(Curculio
+T3	REFSCOPE 420 428	229-279)
+T4	AAUTHOR 433 439	Ennius
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0119.phi008:229-279
+#1	AnnotatorNotes T4	urn:cts:cwkb:462
+#2	AnnotatorNotes T1	urn:cts:latinLit:phi0119

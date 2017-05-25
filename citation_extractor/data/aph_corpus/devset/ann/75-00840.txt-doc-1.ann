@@ -1,0 +1,14 @@
+T1	REFSCOPE 8 13	1, 34
+T2	REFSCOPE 14 23	and 5, 17
+T3	AAUTHOR 98 107	Servius '
+T4	AWORK 126 136	« Aeneid »
+T5	REFAUWORK 137 146	(ad. Aen.
+T6	REFSCOPE 147 153	2, 761
+T7	REFAUWORK 161 165	Aen.
+T8	REFSCOPE 166 174	8, 342),
+R1	Scope Arg1:T5 Arg2:T6
+R2	Scope Arg1:T7 Arg2:T8
+#0	AnnotatorNotes R1	urn:cts:cwkb:1346.4372:2.761
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0690.phi003:8.342
+#2	AnnotatorNotes T4	urn:cts:latinLit:phi0690.phi003
+#3	AnnotatorNotes T3	urn:cts:cwkb:637

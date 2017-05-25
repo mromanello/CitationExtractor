@@ -1,0 +1,5 @@
+Ricordo	NOM
+della	PRE:det
+studiosa	ADJ
+scomparsa	NOM
+

@@ -1,0 +1,7 @@
+T1	AWORK 22 32	« Eneida »
+T2	AWORK 201 212	« Ilíada »,
+#0	AnnotatorNotes T2	urn:cts:greekLit:tlg0012.tlg001
+#1	AnnotatorNotes T1	urn:cts:latinLit:phi0690.phi003
+T3	REFSCOPE 6 15	libro 5 °
+R1	Scope Arg1:T1 Arg2:T3	
+#2	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:5

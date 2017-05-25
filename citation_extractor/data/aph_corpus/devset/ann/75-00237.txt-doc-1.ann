@@ -1,0 +1,7 @@
+T1	REFAUWORK 18 23	Apic.
+T2	REFSCOPE 24 31	3, 8, 1
+T3	REFSCOPE 36 44	4, 2, 15
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:375:3.8.1
+#1	AnnotatorNotes R2	urn:cts:cwkb:375:4.2.15

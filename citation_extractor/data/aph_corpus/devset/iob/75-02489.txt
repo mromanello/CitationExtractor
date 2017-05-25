@@ -1,0 +1,10 @@
+Ulteriori	ADJ
+considerazioni	NOM
+sul	PRE:det
+tema	NOM
+trattato	VER:pper
+nello	PRE:det
+studio	NOM
+schedato	ADJ
+75-02490	NUM
+

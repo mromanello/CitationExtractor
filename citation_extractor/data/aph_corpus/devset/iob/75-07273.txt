@@ -1,0 +1,17 @@
+Sobre	PREP
+la	ART
+tipología	NC
+,	CM
+los	ART
+orígenes	NC
+y	CC
+la	ART
+función	NC
+de	PREP
+la	ART
+voz	NC
+pasiva	ADJ
+en	PREP
+latín	NC
+.	FS
+

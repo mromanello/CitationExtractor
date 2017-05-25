@@ -1,0 +1,53 @@
+Mention	NOM
+du	PRP:det
+vêtement	NOM
+dans	PRP
+la	DET:ART
+vie	NOM
+quotidienne	ADJ
+et	KON
+le	DET:ART
+droit	NOM
+privé	ADJ
+.	SENT
+
+Les	DET:ART
+habits	NOM
+dans	PRP
+les	DET:ART
+procédures	NOM
+de	PRP
+confiscation	NOM
+.	SENT
+
+L'	DET:ART
+habit	NOM
+comme	KON
+symbole	NOM
+du	PRP:det
+statut	NOM
+.	SENT
+
+Fournitures	NOM
+fiscales	ADJ
+:	PUN
+«	PUN:cit
+uestis	NOM
+militaris	NOM
+»	PUN:cit
+,	PUN
+«	PUN:cit
+uestes	NOM
+canonicae	ADJ
+»	PUN:cit
+,	PUN
+travailleurs	NOM
+fiscaux	ADJ
+.	SENT
+
+Vêtements	NOM
+obligatoires	ADJ
+,	PUN
+vêtements	NOM
+interdits	VER:pper
+

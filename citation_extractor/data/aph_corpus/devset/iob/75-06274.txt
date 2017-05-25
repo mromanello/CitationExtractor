@@ -1,0 +1,27 @@
+Sul	PRE:det
+«	PON
+cognomen	NOM
+»	PON
+dell'	PRE:det
+autore	NOM
+,	PON
+sul	PRE:det
+nome	NOM
+del	PRE:det
+figlio	NOM
+dedicatario	NOM
+della	PRE:det
+sua	PRO:poss
+opera	NOM
+e	CON
+su	PRE
+fonti	NOM
+,	PON
+struttura	NOM
+e	CON
+scopo	NOM
+di	PRE
+quest'	PRO:demo
+ultima	ADJ
+.	SENT
+

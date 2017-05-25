@@ -1,0 +1,6 @@
+T1	AAUTHOR 348 352	Gaio
+T2	REFAUWORK 353 359	(inst.
+T3	REFSCOPE 360 367	2, 77),
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:602.1246:2.77
+#1	AnnotatorNotes T1	urn:cts:cwkb:478

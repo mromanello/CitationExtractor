@@ -1,0 +1,11 @@
+T1	REFAUWORK 247 266	Dio Chrysostom, Or.
+T2	REFSCOPE 267 275	2, 66-67
+T3	REFAUWORK 446 450	(Il.
+T4	REFSCOPE 451 463	2, 480-483).
+T5	REFAUWORK 526 539	Himerius, fr.
+T6	REFSCOPE 540 544	1, 6
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R2	urn:cts:cwkb:763.1599:2.480-2.483
+#1	AnnotatorNotes R3	urn:cts:cwkb:668.1371:1.6

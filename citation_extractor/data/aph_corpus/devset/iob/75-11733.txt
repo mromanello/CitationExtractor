@@ -1,0 +1,14 @@
+Zur	APPRART
+Entstehung	NN
+von	APPR
+Oster-	TRUNC
+und	KON
+Pfingstfest	NN
+und	KON
+zur	APPRART
+Entwicklung	NN
+vom	APPRART
+Sabbat	NN
+zum	APPRART
+Sonntag	NN
+

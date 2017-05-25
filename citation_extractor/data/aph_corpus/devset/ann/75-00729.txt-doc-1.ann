@@ -1,0 +1,6 @@
+T1	REFAUWORK 3 5	EN
+T2	REFSCOPE 6 10	9, 8
+T3	AAUTHOR 11 20	Aristotle
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0086.tlg010:9.8
+#1	AnnotatorNotes T3	urn:cts:greekLit:tlg0086

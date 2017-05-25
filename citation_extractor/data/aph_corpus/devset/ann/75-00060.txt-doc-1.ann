@@ -1,0 +1,10 @@
+T1	AAUTHOR 53 59	Ateneo
+T2	REFSCOPE 60 72	(1, 39, 1-6)
+T3	REFAUWORK 83 95	(In Hes. Op.
+T4	REFSCOPE 96 100	414)
+T5	AAUTHOR 397 404	Esquilo
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:1173:1.39.1-1.39.6
+#1	AnnotatorNotes T5	urn:cts:greekLit:tlg0085
+#2	AnnotatorNotes T1	urn:cts:cwkb:1173

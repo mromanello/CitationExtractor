@@ -1,0 +1,34 @@
+Il	DET:def
+popolo	NOM
+argivo	ADJ
+,	PON
+il	DET:def
+suo	PRO:poss
+legame	NOM
+con	PRE
+il	DET:def
+regime	NOM
+democratico	ADJ
+e	CON
+le	DET:def
+manipolazioni	NOM
+di	PRE
+passate	ADJ
+sconfitte	NOM
+in	PRE
+vista	NOM
+della	PRE:det
+creazione	NOM
+di	PRE
+miti	ADJ
+fondatori	NOM
+della	PRE:det
+propria	ADJ
+identità	NOM
+.	SENT
+
+Il	DET:def
+rapporto	NOM
+con	PRE
+Sparta	NOM
+

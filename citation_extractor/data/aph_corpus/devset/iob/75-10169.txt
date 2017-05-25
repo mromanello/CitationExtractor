@@ -1,0 +1,17 @@
+Estudio	NC
+de	PREP
+la	ART
+carrera	NC
+militar	ADJ
+de	PREP
+Tito	NP
+Flavio	NP
+Vespasiano	NP
+previa	ADJ
+a	PREP
+su	PPO
+proclamación	NC
+como	CSUBX
+emperador	NC
+.	FS
+

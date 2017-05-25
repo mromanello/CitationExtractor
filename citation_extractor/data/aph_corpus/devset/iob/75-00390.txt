@@ -1,0 +1,22 @@
+Note	NOM
+sulla	PRE:det
+traduzione	NOM
+latina	ADJ
+del	PRE:det
+testo	NOM
+di	PRE
+Aristofane	NOM
+ad	PRE
+opera	NOM
+di	PRE
+Leonardo	NPR
+Bruni	NOM
+(	PON
+primo	ADJ
+atto	NOM
+)	PON
+e	CON
+di	PRE
+Rinuccio	NOM
+Aretino	NOM
+

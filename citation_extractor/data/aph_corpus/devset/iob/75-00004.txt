@@ -1,0 +1,7 @@
+Avec	NP
+analyse	VBP
+du	FW
+roman	JJ
+d'Achille	NP
+Tatius	NP
+

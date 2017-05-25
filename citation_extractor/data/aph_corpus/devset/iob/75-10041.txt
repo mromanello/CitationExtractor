@@ -1,0 +1,21 @@
+Le	DET:def
+milizie	NOM
+tracie	NOM
+,	PON
+precettate	VER:pper
+o	CON
+mercenarie	ADJ
+,	PON
+non	ADV
+sembrano	VER:pres
+aver	VER:infi
+avuto	VER:pper
+un	DET:indef
+ruolo	NOM
+significativio	VER:pres
+nell'	PRE:det
+esercito	NOM
+di	PRE
+Alessandro	NPR
+Magno	NOM
+

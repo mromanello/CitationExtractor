@@ -1,0 +1,35 @@
+Présentation	NOM
+d'	PRP
+objets	NOM
+chypriotes	ADJ
+ou	KON
+trouvés	VER:pper
+à	PRP
+Chypre	NAM
+,	PUN
+du	PRP:det
+Bronze	NAM
+moyen	ADJ
+à	PRP
+l'	DET:ART
+époque	NOM
+classique	ADJ
+,	PUN
+dont	PRO:REL
+un	DET:ART
+chapiteau	NOM
+ionique	ADJ
+et	KON
+un	DET:ART
+fragment	NOM
+de	PRP
+statue	NOM
+de	PRP
+Perséphone	NAM
+.	SENT
+
+Pour	PRP
+6	NUM
+=>	ABR
+55-06781	NUM
+

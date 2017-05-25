@@ -1,0 +1,17 @@
+Évocation	NOM
+de	PRP
+la	DET:ART
+carrière	NOM
+et	KON
+des	PRP:det
+principaux	ADJ
+travaux	NOM
+de	PRP
+cet	PRO:DEM
+historien	NOM
+suisse	ADJ
+de	PRP
+la	DET:ART
+religion	NOM
+grecque	ADJ
+

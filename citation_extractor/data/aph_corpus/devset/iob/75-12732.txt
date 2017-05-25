@@ -1,0 +1,16 @@
+À	PRP
+propos	NOM
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+édité	VER:pper
+par	PRP
+P.	NAM
+Rouillard	NAM
+et	KON
+A.	ABR
+Verbanck-Piérard	NAM
+,	PUN
+noté	VER:pper
+75-07695	NUM
+

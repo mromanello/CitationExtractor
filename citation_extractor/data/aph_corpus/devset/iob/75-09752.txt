@@ -1,0 +1,21 @@
+Publication	NOM
+de	PRP
+ce	PRO:DEM
+document	NOM
+provenant	VER:ppre
+d'	PRP
+Oxyrhynchos	NAM
+(	PUN
+=>	ABR
+70-10114	NUM
+)	PUN
+.	SENT
+
+Enquête	NOM
+sur	PRP
+l'	DET:ART
+identité	NOM
+du	PRP:det
+propriétaire	NOM
+concerné	VER:pper
+

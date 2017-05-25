@@ -1,0 +1,38 @@
+Structure	NOM
+du	PRP:det
+discours	NOM
+(	PUN
+BJ	ABR
+2	NUM
+,	PUN
+345-401	NUM
+)	PUN
+.	SENT
+
+Analyse	NOM
+des	PRP:det
+sources	NOM
+de	PRP
+ce	PRO:DEM
+vaste	ADJ
+tableau	NOM
+des	PRP:det
+conquêtes	NOM
+romaines	ADJ
+.	SENT
+
+Mise	VER:pper
+en	PRP
+lumière	NOM
+de	PRP
+leur	DET:POS
+utilisation	NOM
+rhétorique	ADJ
+et	KON
+du	PRP:det
+caractère	NOM
+artificiel	ADJ
+de	PRP
+cette	PRO:DEM
+harangue	NOM
+

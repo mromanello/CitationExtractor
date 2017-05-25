@@ -1,0 +1,15 @@
+Suite	NOM
+de	PRP
+75-11941	NUM
+.	SENT
+
+Croyance	NOM
+populaire	ADJ
+,	PUN
+iconographie	NOM
+et	KON
+transformation	NOM
+romanesque	ADJ
+du	PRP:det
+mythe	NOM
+

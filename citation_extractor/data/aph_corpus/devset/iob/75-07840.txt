@@ -1,0 +1,23 @@
+Publie	VER:pres
+ou	KON
+republie	VER:pres
+des	PRP:det
+objets	NOM
+trouvés	VER:pper
+à	PRP
+Chypre	NAM
+,	PUN
+datant	VER:ppre
+du	PRP:det
+Néolithique	NAM
+à	PRP
+l'	DET:ART
+époque	NOM
+archaïque	ADJ
+.	SENT
+
+Pour	PRP
+8	NUM
+=>	ABR
+57-06685	NUM
+

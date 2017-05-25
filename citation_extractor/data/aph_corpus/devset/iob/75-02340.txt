@@ -1,0 +1,19 @@
+Analisi	NOM
+dei	PRE:det
+modelli	NOM
+letterari	ADJ
+di	PRE
+questa	PRO:demo
+epistola	NOM
+,	PON
+selezionati	VER:pper
+e	CON
+ripartiti	VER:pper
+da	PRE
+Girolamo	NOM
+secondo	PRE
+un	DET:indef
+preciso	ADJ
+disegno	NOM
+compositivo	ADJ
+

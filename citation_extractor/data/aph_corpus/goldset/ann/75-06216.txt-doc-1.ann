@@ -1,0 +1,52 @@
+T1	REFAUWORK 75 88	(Vergil, ecl.
+T2	REFSCOPE 167 175	5, 12, 1
+T3	REFSCOPE 89 93	1, 1
+T4	REFSCOPE 98 104	2, 3 ;
+T5	REFAUWORK 105 123	Calpurnius Siculus
+T6	REFSCOPE 124 132	1, 11) ;
+T7	REFAUWORK 156 166	(Columella
+T9	REFAUWORK 178 190	Vergil, ecl.
+T10	REFSCOPE 191 196	1, 74
+T11	REFSCOPE 201 209	2, 64) ;
+T12	REFAUWORK 216 221	(ecl.
+T13	REFSCOPE 222 230	1, 14) ;
+T14	REFAUWORK 238 249	(Theocritus
+T15	REFSCOPE 250 257	5, 45 ;
+T16	REFAUWORK 258 270	Vergil, ecl.
+T17	REFSCOPE 271 279	1, 48) ;
+T18	REFAUWORK 293 298	(ecl.
+T19	REFSCOPE 299 307	1, 19) ;
+T20	REFAUWORK 320 331	(Theocritus
+T21	REFSCOPE 332 339	5, 49 ;
+T22	REFAUWORK 340 352	Vergil, ecl.
+T23	REFSCOPE 353 361	7, 65) ;
+T24	AAUTHOR 388 394	Vergil
+T25	AAUTHOR 399 409	Theocritus
+T26	AAUTHOR 447 457	Calpurnius
+T27	AAUTHOR 462 472	Nemesianus
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+R4	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R4	urn:cts:cwkb:415.829:1.11
+#6	AnnotatorNotes R2	urn:cts:latinLit:phi0690.phi001:1.1
+#7	AnnotatorNotes R3	urn:cts:latinLit:phi0690.phi001:2.3
+#13	AnnotatorNotes T25	urn:cts:greekLit:tlg0005
+#14	AnnotatorNotes T24	urn:cts:latinLit:phi0690
+#15	AnnotatorNotes T27	urn:cts:cwkb:2886
+#16	AnnotatorNotes T26	urn:cts:cwkb:415
+R1	Scope Arg1:T7 Arg2:T2	
+R5	Scope Arg1:T9 Arg2:T10	
+R6	Scope Arg1:T9 Arg2:T11	
+R7	Scope Arg1:T12 Arg2:T13	
+R8	Scope Arg1:T14 Arg2:T15	
+R9	Scope Arg1:T16 Arg2:T17	
+R10	Scope Arg1:T18 Arg2:T19	
+R11	Scope Arg1:T20 Arg2:T21	
+R12	Scope Arg1:T22 Arg2:T23	
+#1	AnnotatorNotes R1	urn:cts:cwkb:442.949:5.12.1
+#2	AnnotatorNotes R5	urn:cts:latinLit:phi0690.phi001:1.74
+#3	AnnotatorNotes R6	urn:cts:latinLit:phi0690.phi001:2.64
+#4	AnnotatorNotes R7	urn:cts:latinLit:phi0690.phi001:1.14
+#5	AnnotatorNotes R8	urn:cts:greekLit:tlg0005.tlg001:5.45
+#8	AnnotatorNotes R9	urn:cts:latinLit:phi0690.phi001:1.48
+#9	AnnotatorNotes R10	urn:cts:latinLit:phi0690.phi001:1.19

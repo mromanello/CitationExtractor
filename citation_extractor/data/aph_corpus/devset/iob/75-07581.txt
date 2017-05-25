@@ -1,0 +1,9 @@
+Pagina	NOM
+tratta	VER:pper
+dal	PRE:det
+saggio	NOM
+di	PRE
+J.	NOM
+Irigoinschedato	ABR
+74-09225	NUM
+

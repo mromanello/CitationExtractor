@@ -1,0 +1,4 @@
+T1	AWORK 143 166	« De agone christiano »
+T2	REFSCOPE 516 522	6. -7.
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes T1	urn:cts:cwkb:2386.7939

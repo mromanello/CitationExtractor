@@ -1,0 +1,17 @@
+Il	DET:def
+modo	NOM
+in	PRE
+cui	PRO:rela
+è	VER:pres
+espressa	VER:pper
+la	DET:def
+frase	NOM
+anticipa	VER:pres
+uno	DET:indef
+schema	NOM
+tipico	ADJ
+della	PRE:det
+moderna	ADJ
+logica	NOM
+modale	ADJ
+

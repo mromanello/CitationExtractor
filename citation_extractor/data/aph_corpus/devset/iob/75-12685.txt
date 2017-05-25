@@ -1,0 +1,22 @@
+Commente	VER:pres
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+73-08889	NUM
+et	KON
+plus	ADV
+précisément	ADV
+la	DET:ART
+contribution	NOM
+de	PRP
+N.	NAM
+Kaltsas	VER:simp
+sur	PRP
+la	DET:ART
+statue	NOM
+de	PRP
+Phrasikleia	NAM
+(	PUN
+=>73-13995	NOM
+)	PUN
+

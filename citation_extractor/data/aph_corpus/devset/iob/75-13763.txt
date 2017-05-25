@@ -1,0 +1,46 @@
+Publication	NOM
+de	PRP
+59	NUM
+poids	NOM
+,	PUN
+dont	PRO:REL
+19	NUM
+inscrits	NOM
+d'	PRP
+une	NUM
+ou	KON
+deux	NUM
+lettres	NOM
+grecques	ADJ
+,	PUN
+de	PRP
+provenance	NOM
+locale	ADJ
+.	SENT
+
+Le	DET:ART
+plus	ADV
+ancien	ADJ
+date	NOM
+du	PRP:det
+4e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+Conservés	VER:pper
+au	PRP:det
+Museo	NAM
+Civico	NAM
+di	VER:futu
+Archeologia	NAM
+d'	PRP
+Ugento	NAM
+(	PUN
+Puglia	NAM
+)	PUN
+

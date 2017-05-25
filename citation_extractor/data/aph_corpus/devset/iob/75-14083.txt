@@ -1,0 +1,16 @@
+A	PRE
+proposito	NOM
+dell'	PRE:det
+articolo	NOM
+di	PRE
+C.	NPR
+Villa	NOM
+(	PON
+=>	NOM
+75-14128	NUM
+)	PON
+sull'	PRE:det
+attività	NOM
+di	PRE
+Kristeller	NOM
+

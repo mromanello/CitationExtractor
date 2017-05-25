@@ -1,0 +1,4 @@
+T1	REFAUWORK 77 83	epist.
+T2	REFSCOPE 84 94	147, 6, 2,
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:897.2630:147.6.2

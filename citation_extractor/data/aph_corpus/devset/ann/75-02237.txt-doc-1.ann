@@ -1,0 +1,6 @@
+T1	AAUTHOR 52 60	Hérodote
+T2	REFAUWORK 61 67	(Hist.
+T3	REFSCOPE 68 74	2, 17)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:639.1329:2.17
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0016

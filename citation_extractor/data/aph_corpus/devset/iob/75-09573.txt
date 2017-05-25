@@ -1,0 +1,21 @@
+Hypothèses	NOM
+concernant	PRP
+les	DET:ART
+origines	NOM
+du	PRP:det
+monnayage	NOM
+en	PRP
+Grèce	NAM
+,	PUN
+peut-être	ADV
+comme	ADV
+instrument	NOM
+de	PRP
+contrôle	NOM
+économique	ADJ
+du	PRP:det
+marché	NOM
+par	PRP
+la	DET:ART
+cité	NOM
+

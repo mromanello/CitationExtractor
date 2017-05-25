@@ -1,0 +1,53 @@
+Traduction	NOM
+suivie	VER:pper
+d'	PRP
+un	DET:ART
+commentaire	NOM
+en	PRP
+six	NUM
+parties	NOM
+:	PUN
+1.	VER:ppre
+
+Une	DET:ART
+langue	NOM
+travaillée	VER:pper
+;	PUN
+2.	VER:ppre
+
+La	DET:ART
+suite	NOM
+des	PRP:det
+idées	NOM
+;	PUN
+3.	VER:ppre
+
+Le	DET:ART
+statut	NOM
+des	PRP:det
+choéphores	NOM
+;	PUN
+4.	VER:ppre
+
+Le	DET:ART
+monde	NOM
+chthonien	ADJ
+;	PUN
+5.	VER:ppre
+
+La	DET:ART
+justice	NOM
+et	KON
+le	DET:ART
+thème	NOM
+du	PRP:det
+sang	NOM
+;	PUN
+6.	VER:ppre
+
+Le	DET:ART
+respect	NOM
+et	KON
+la	DET:ART
+crainte	NOM
+

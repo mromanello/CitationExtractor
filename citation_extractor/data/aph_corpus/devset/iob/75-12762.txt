@@ -1,0 +1,47 @@
+Olpé	ADJ
+attique	NOM
+à	PRP
+figures	NOM
+noires	ADJ
+d'	PRP
+environ	ADV
+510	NUM
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+(	PUN
+coll.	VER:simp
+privée	VER:pper
+)	PUN
+,	PUN
+représentant	NOM
+Ajax	NAM
+qui	PRO:REL
+porte	VER:pres
+le	DET:ART
+cadavre	NOM
+d'	PRP
+Achille	NAM
+.	SENT
+
+Les	DET:ART
+ornements	NOM
+végétaux	ADJ
+évoquent	VER:pres
+très	ADV
+normalement	ADV
+Dionysos	NAM
+,	PUN
+puisque	KON
+l'	DET:ART
+olpé	NOM
+est	VER:pres
+une	DET:ART
+cruche	NOM
+à	PRP
+vin	NOM
+

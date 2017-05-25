@@ -1,0 +1,7 @@
+Überlegungen	NN
+zum	APPRART
+Siedlungsgebiet	NN
+in	APPR
+römischer	ADJA
+Zeit	NN
+

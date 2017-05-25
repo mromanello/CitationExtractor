@@ -1,0 +1,14 @@
+Suite	NOM	O
+de	PRP	O
+75-11941	NUM	O
+.	SENT	O
+
+Croyance	NOM	O
+populaire	ADJ	O
+,	PUN	O
+iconographie	NOM	O
+et	KON	O
+transformation	NOM	O
+romanesque	ADJ	O
+du	PRP:det	O
+mythe	NOM	O

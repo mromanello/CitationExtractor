@@ -1,0 +1,22 @@
+Pubblicazione	NOM
+di	PRE
+una	DET:indef
+lettera	NOM
+e	CON
+di	PRE
+due	ADJ
+cartoline	NOM
+postali	ADJ
+del	PRE:det
+1906	NUM
+e	CON
+1908	NUM
+di	PRE
+Drerup	NOM
+a	PRE
+Bell	NPR
+,	PON
+di	PRE
+contenuto	NOM
+papirologico	ADJ
+

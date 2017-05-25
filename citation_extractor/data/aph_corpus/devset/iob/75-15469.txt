@@ -1,0 +1,11 @@
+Spécialiste	NOM
+américaine	ADJ
+du	PRP:det
+verre	NOM
+antique	ADJ
+et	KON
+médiéval	ADJ
+(	PUN
+1909-2002	NUM
+)	PUN
+

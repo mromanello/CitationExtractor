@@ -1,0 +1,22 @@
+Rappelle	VER:pres
+l'	DET:ART
+ancrage	NOM
+trinitaire	ADJ
+et	KON
+christologique	ADJ
+de	PRP
+l'	DET:ART
+ecclésiologie	NOM
+des	PRP:det
+Pères	NOM
+,	PUN
+ainsi	KON
+que	KON
+le	DET:ART
+rôle	NOM
+qu'	PRO:REL
+y	PRO:PER
+joue	VER:pres
+l'	DET:ART
+évêque	NOM
+

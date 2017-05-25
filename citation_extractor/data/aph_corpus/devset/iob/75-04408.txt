@@ -1,0 +1,28 @@
+S'	PRO:PER
+appuie	VER:pres
+sur	PRP
+le	DET:ART
+chapitre	NOM
+7	NUM
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+73-05180	NUM
+.	SENT
+
+Les	DET:ART
+merveilles	NOM
+architecturales	ADJ
+du	PRP:det
+monde	NOM
+et	KON
+de	PRP
+Rome	NAM
+dans	PRP
+l'	DET:ART
+«	PUN:cit
+Histoire	NAM
+naturelle	ADJ
+»	PUN:cit
+

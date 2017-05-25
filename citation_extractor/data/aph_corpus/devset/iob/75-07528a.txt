@@ -1,0 +1,12 @@
+Elenco	NOM
+dei	PRE:det
+manoscritti	NOM
+greci	ADJ
+del	PRE:det
+fondo	NOM
+Barberini	NOM
+donati	VER:pper
+da	PRE
+Carlo	NPR
+Strozzi	NOM
+

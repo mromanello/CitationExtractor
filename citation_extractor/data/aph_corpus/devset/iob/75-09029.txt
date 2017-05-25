@@ -1,0 +1,20 @@
+Sur	PRP
+l'	DET:ART
+histoire	NOM
+du	PRP:det
+déchiffrement	NOM
+du	PRP:det
+Linéaire	NAM
+B	NAM
+,	PUN
+et	KON
+sur	PRP
+ses	DET:POS
+conséquences	NOM
+pour	PRP
+l'	DET:ART
+étude	NOM
+des	PRP:det
+royaumes	NOM
+mycéniens	ADJ
+

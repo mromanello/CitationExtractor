@@ -1,0 +1,17 @@
+Comparaison	NOM
+entre	PRP
+la	DET:ART
+forme	NOM
+longue	ADJ
+(	PUN
+texte	NOM
+massorétique	ADJ
+)	PUN
+et	KON
+la	DET:ART
+forme	NOM
+courte	ADJ
+(	PUN
+LXX	NUM
+)	PUN
+

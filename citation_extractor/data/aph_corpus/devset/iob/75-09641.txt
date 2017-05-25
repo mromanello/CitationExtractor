@@ -1,0 +1,26 @@
+Signale	VER:pres
+la	DET:ART
+reprise	NOM
+de	PRP
+la	DET:ART
+publication	NOM
+de	PRP
+ces	PRO:DEM
+«	PUN:cit
+Notes	NOM
+»	PUN:cit
+=>	ABR
+75-09542	NUM
+,	PUN
+75-09556	NUM
+,	PUN
+75-09572	NUM
+.	SENT
+
+Pour	PRP
+la	DET:ART
+précédente	ADJ
+livraison	NOM
+=>	ADJ
+59-10853	NUM
+

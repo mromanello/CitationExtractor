@@ -1,0 +1,16 @@
+T1	REFAUWORK 24 28	Sat.
+T2	REFSCOPE 29 34	1, 4,
+T3	AAUTHOR 42 48	Orazio
+T4	AWORK 207 219	« Adelphoe »
+T5	AAUTHOR 223 232	Terenzio,
+T6	AAUTHOR 263 271	Plutarco
+T7	AWORK 286 325	« De placitis Hippocratis et Platonis »
+T8	AAUTHOR 329 336	Galeno.
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:1368.4417:1.4
+#1	AnnotatorNotes T8	urn:cts:greekLit:tlg0057
+#2	AnnotatorNotes T6	urn:cts:greekLit:tlg0007
+#3	AnnotatorNotes T7	urn:cts:cwkb:890.2464
+#4	AnnotatorNotes T4	urn:cts:latinLit:phi0134.phi006
+#5	AnnotatorNotes T5	urn:cts:latinLit:phi0134
+#6	AnnotatorNotes T3	urn:cts:latinLit:phi0893

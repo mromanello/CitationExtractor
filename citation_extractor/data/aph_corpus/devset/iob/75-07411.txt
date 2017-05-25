@@ -1,0 +1,21 @@
+Réexamen	NOM
+de	PRP
+documents	NOM
+épigraphiques	ADJ
+déjà	ADV
+publiés	VER:pper
+,	PUN
+en	PRP
+grec	NOM
+,	PUN
+en	PRP
+latin	NOM
+ou	KON
+dans	PRP
+des	PRP:det
+langues	NOM
+de	PRP
+la	DET:ART
+péninsule	NOM
+Ibérique	ADJ
+

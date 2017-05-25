@@ -1,0 +1,15 @@
+Sobre	PREP
+la	ART
+posición	NC
+crítica	ADJ
+de	PREP
+los	ART
+filósofos	NC
+del	PDEL
+período	NC
+romano	VLfin
+frente a	PREP
+los	ART
+viejos	ADJ
+mitos	NC
+

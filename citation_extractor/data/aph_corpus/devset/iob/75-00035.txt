@@ -1,0 +1,20 @@
+Concerne	VER:pres
+notamment	ADV
+l'	DET:ART
+Olympe	NAM
+et	KON
+le	DET:ART
+Pinde	NOM
+,	PUN
+en	PRP
+Grèce	NAM
+,	PUN
+ainsi	KON
+que	KON
+le	DET:ART
+Taurus	NAM
+,	PUN
+en	PRP
+Asie	NAM
+Mineure	NAM
+

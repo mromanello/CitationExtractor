@@ -1,0 +1,10 @@
+À	PRP
+propos	NOM
+du	PRP:det
+lexique	NOM
+platonicien	ADJ
+de	PRP
+Timée	NAM
+le	DET:ART
+Sophiste	NAM
+

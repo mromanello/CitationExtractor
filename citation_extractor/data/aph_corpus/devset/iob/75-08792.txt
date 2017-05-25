@@ -1,0 +1,8 @@
+Trad.	VER:impe
+ital	NOM
+.	SENT
+
+dello	PRE:det
+studio	NOM
+72-10033	NUM
+

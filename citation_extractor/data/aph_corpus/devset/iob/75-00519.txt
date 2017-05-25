@@ -1,0 +1,16 @@
+Édition	NOM
+d'	PRP
+un	DET:ART
+commentaire	NOM
+anonyme	ADJ
+de	PRP
+Cat.	ABR
+5.2b4-7.6b15	NOM
+,	PUN
+daté	VER:pper
+du	PRP:det
+3e	NUM
+quart	NOM
+du	PRP:det
+12e	NUM
+s.	ABR

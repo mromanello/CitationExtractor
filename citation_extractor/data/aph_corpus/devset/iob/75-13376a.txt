@@ -1,0 +1,24 @@
+Untersuchung	NN
+der	ART
+Bedeutung	NN
+der	ART
+Schutzbriefe	NN
+im	APPRART
+Kontext	NN
+der	ART
+justinianischen	ADJA
+Gesetzgebung	NN
+,	$,
+die	PRELS
+dem	ART
+Schutzsuchenden	NN
+auch	ADV
+ausserhalb	APPR
+des	ART
+Heiligtums	NN
+Unantastbarkeit	NN
+auf	APPR
+Zeit	NN
+gewähren	VVINF
+sollten	VMFIN
+

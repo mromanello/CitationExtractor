@@ -1,0 +1,23 @@
+PVindob	NE
+.	$.
+
+Tamerit	ADJA
+H	NN
+405	CARD
+(	$(
+7.	ADJA
+/8	CARD
+.	$.
+Jh	NE
+.	$.
+)	$(
+.	$.
+
+Zusammenstellung	NN
+der	ART
+relativ	ADJD
+seltenen	ADJA
+christlichen	ADJA
+Mumientäfelchen	NN
+.	$.
+

@@ -1,0 +1,19 @@
+In	PRE
+margine	NOM
+al	PRE:det
+volume	NOM
+di	PRE
+P.	NOM
+Ferretti	NOM
+sulle	PRE:det
+donazioni	NOM
+tra	PRE
+fidanzati	NOM
+nel	PRE:det
+diritto	NOM
+romano	ADJ
+(	PON
+=>	NOM
+74-15908	NUM
+)	PON
+

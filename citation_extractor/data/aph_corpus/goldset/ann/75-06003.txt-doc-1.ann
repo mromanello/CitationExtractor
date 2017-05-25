@@ -1,0 +1,25 @@
+T1	REFAUWORK 79 86	Idilios
+T2	REFSCOPE 87 90	13,
+T3	REFSCOPE 116 119	28,
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0005.tlg001:13
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0005.tlg001:28
+T4	REFSCOPE 91 94	14,
+T5	REFSCOPE 95 98	15,
+T6	REFSCOPE 99 102	16,
+T7	REFSCOPE 103 106	18,
+T8	REFSCOPE 107 110	22,
+T9	REFSCOPE 111 113	26
+R3	Scope Arg1:T1 Arg2:T4	
+#2	AnnotatorNotes R3	urn:cts:greekLit:tlg0005.tlg001:14
+R4	Scope Arg1:T1 Arg2:T5	
+#3	AnnotatorNotes R4	urn:cts:greekLit:tlg0005.tlg001:15
+R5	Scope Arg1:T1 Arg2:T6	
+#4	AnnotatorNotes R5	urn:cts:greekLit:tlg0005.tlg001:16
+R6	Scope Arg1:T1 Arg2:T7	
+R7	Scope Arg1:T1 Arg2:T8	
+R8	Scope Arg1:T1 Arg2:T9	
+#5	AnnotatorNotes R6	urn:cts:greekLit:tlg0005.tlg001:18
+#6	AnnotatorNotes R7	urn:cts:greekLit:tlg0005.tlg001:22
+#7	AnnotatorNotes R8	urn:cts:greekLit:tlg0005.tlg001:26

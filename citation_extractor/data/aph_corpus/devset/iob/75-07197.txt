@@ -1,0 +1,23 @@
+Étudie	VER:pres
+le	DET:ART
+contraste	NOM
+aspectuel	ADJ
+en	PRP
+faisant	VER:ppre
+intervenir	VER:infi
+la	DET:ART
+relation	NOM
+intersubjective	ADJ
+.	SENT
+
+Forme	VER:pres
+un	DET:ART
+ensemble	NOM
+avec	PRP
+les	DET:ART
+articles	NOM
+notés	VER:pper
+75-07184	NUM
+et	KON
+75-07186	NUM
+

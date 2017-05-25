@@ -1,0 +1,17 @@
+Die	ART
+wenigen	PIAT
+erhaltenen	ADJA
+Verse	NN
+Menanders	NN
+ermöglichen	VVFIN
+Überlegungen	NN
+zur	APPRART
+Gestalt	NN
+des	ART
+Originals	NN
+und	KON
+den	ART
+Veränderungen	NN
+bei	APPR
+Plautus	NN
+

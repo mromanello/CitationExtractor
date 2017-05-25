@@ -1,0 +1,24 @@
+Étude	NOM
+linguistique	ADJ
+des	PRP:det
+textes	NOM
+étrusques	ADJ
+inscrits	VER:pper
+sur	PRP
+14	NUM
+vases	NOM
+attiques	ADJ
+,	PUN
+avec	PRP
+commentaire	NOM
+de	PRP
+l'	DET:ART
+étude	NOM
+de	PRP
+A.	ABR
+Maggiani	NAM
+(	PUN
+=>	ABR
+69-12133	NUM
+)	PUN
+

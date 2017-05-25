@@ -1,0 +1,11 @@
+T1	AAUTHOR 245 252	Zenobio
+T2	REFSCOPE 253 261	(4, 54 ;
+T3	REFSCOPE 262 269	5, 51 ;
+T4	REFSCOPE 270 276	5, 84)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:1132:4.54
+#1	AnnotatorNotes R2	urn:cts:cwkb:1132:5.51
+#2	AnnotatorNotes R3	urn:cts:cwkb:1132:5.84
+#3	AnnotatorNotes T1	urn:cts:cwkb:1132

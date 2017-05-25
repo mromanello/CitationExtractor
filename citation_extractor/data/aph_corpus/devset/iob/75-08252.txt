@@ -1,0 +1,37 @@
+Une	DET:ART
+fouille	NOM
+de	PRP
+sauvetage	NOM
+conduite	VER:pper
+en	PRP
+1995	NUM
+a	VER:pres
+mis	VER:pper
+au	PRP:det
+jour	NOM
+du	PRP:det
+matériel	NOM
+funéraire	ADJ
+datant	VER:ppre
+du	PRP:det
+3e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+de	PRP
+la	DET:ART
+période	NOM
+du	PRP:det
+Second	NAM
+Temple	NAM
+et	KON
+de	PRP
+l'	DET:ART
+époque	NOM
+mamelouque	ADJ
+

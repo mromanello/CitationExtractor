@@ -1,0 +1,33 @@
+Examen	NOM
+des	PRP:det
+textes	NOM
+du	PRP:det
+«	PUN:cit
+Digeste	NOM
+»	PUN:cit
+relatifs	ADJ
+au	PRP:det
+pécule	NOM
+et	KON
+à	PRP
+la	DET:ART
+préposition	NOM
+des	PRP:det
+esclaves	NOM
+.	SENT
+
+Discussion	NOM
+critique	ADJ
+des	PRP:det
+thèses	NOM
+exposées	VER:pper
+par	PRP
+A.	ABR
+Di	NAM
+Porto	NAM
+dans	PRP
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+56-12483	NUM
+

@@ -1,0 +1,20 @@
+Riflessioni	NOM
+su	PRE
+Ananke	NOM
+,	PON
+Athena	NOM
+,	PON
+Hermes	NOM
+,	PON
+Hestia	NOM
+e	CON
+sullo	PRE:det
+statuto	NOM
+di	PRE
+verità	NOM
+del	PRE:det
+racconto	NOM
+antico	ADJ
+sugli	PRE:det
+dèi	NOM
+

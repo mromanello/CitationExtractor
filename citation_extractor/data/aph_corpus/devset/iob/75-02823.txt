@@ -1,0 +1,18 @@
+No	NEG
+deben	VMfin
+corregirse	VCLIinf
+los	ART
+pasajes	NC
+que	CQUE
+resultan	VLfin
+problemáticos	ADJ
+debido a	PREP
+una	ART
+defectuosa	ADJ
+integración	NC
+de	PREP
+las	ART
+fuentes	NC
+por parte de	PREP
+Isidoro	NP
+

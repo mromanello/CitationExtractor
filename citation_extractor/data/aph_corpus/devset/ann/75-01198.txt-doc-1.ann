@@ -1,0 +1,7 @@
+T1	REFAUWORK 266 272	Bücher
+T2	REFSCOPE 273 274	6
+T3	REFSCOPE 275 280	und 7
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:531:6
+#1	AnnotatorNotes R2	urn:cts:cwkb:531:7

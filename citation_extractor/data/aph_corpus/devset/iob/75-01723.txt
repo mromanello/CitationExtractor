@@ -1,0 +1,45 @@
+L'	DET:def
+analisi	NOM
+delle	PRE:det
+testimonianze	NOM
+antiche	ADJ
+,	PON
+dei	PRE:det
+frr	VER:infi
+.	SENT
+
+17	NUM
+,	PON
+20	NUM
+,	PON
+26	NUM
+e	CON
+35	NUM
+D.	LS
+-K	NOM
+.	SENT
+
+e	CON
+del	PRE:det
+recente	ADJ
+apporto	NOM
+del	PRE:det
+PStrasb	NOM
+.	SENT
+
+gr.	NOM
+inv.	ABR
+1665-1666	NUM
+porta	NOM
+alla	PRE:det
+conclusione	NOM
+che	PRO:rela
+la	DET:def
+cosmogonia	NOM
+empedoclea	ADJ
+fosse	VER:cimp
+unica	ADJ
+e	CON
+non	ADV
+duplice	ADJ
+

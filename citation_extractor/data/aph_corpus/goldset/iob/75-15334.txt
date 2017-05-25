@@ -1,0 +1,5 @@
+Archéologue	VLfin	O
+israélien	NC	O
+(	LP	O
+1919-1999	CARD	O
+)	RP	O

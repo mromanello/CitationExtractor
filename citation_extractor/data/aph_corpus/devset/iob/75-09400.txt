@@ -1,0 +1,18 @@
+Erstpublikation	NN
+des	ART
+Diploms	NN
+von	APPR
+Trajan	NN
+mit	APPR
+Anmerkungen	NN
+zu	APPR
+den	ART
+darauf	PAV
+genannten	ADJA
+Cohortes	NN
+I	NN
+Bracarorum	NN
+und	KON
+I	NN
+Celtiberorum	NN
+

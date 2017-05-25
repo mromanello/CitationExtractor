@@ -1,0 +1,22 @@
+Cas	NOM
+,	PUN
+en	PRP
+grec	NOM
+,	PUN
+de	PRP
+l'	DET:ART
+infinitive	ADJ
+articulée	VER:pper
+et	KON
+de	PRP
+l'	DET:ART
+infinitive	ADJ
+dépendant	ADJ
+d'	PRP
+un	DET:ART
+impersonnel	NOM
+lui-même	PRO:PER
+à	PRP
+l'	DET:ART
+infinitif	NOM
+

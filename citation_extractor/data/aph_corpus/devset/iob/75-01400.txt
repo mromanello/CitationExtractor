@@ -1,0 +1,5 @@
+Doxographie	NOM
+et	KON
+identité	NOM
+épicurienne	ADJ
+

@@ -1,0 +1,21 @@
+L'	DET:ART
+influence	NOM
+de	PRP
+la	DET:ART
+poésie	NOM
+d'	PRP
+invective	NOM
+iambique	ADJ
+est	VER:pres
+clairement	ADV
+perceptible	ADJ
+dans	PRP
+la	DET:ART
+littérature	NOM
+romanesque	ADJ
+,	PUN
+notamment	ADV
+chez	PRP
+Achille	NAM
+Tatius	NAM
+

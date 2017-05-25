@@ -1,0 +1,18 @@
+Compte	VER:pres
+rendu	VER:pper
+de	PRP
+l'	DET:ART
+édition	NOM
+récente	ADJ
+des	PRP:det
+œuvres	NOM
+d'	PRP
+Himérius	NAM
+par	PRP
+H.	NAM
+Völker	NAM
+(	PUN
+=>	ABR
+74-02678	NUM
+)	PUN
+

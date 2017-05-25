@@ -1,0 +1,10 @@
+Rilettura	NOM
+del	PRE:det
+passo	NOM
+paolino	ADJ
+alla	PRE:det
+luce	NOM
+della	PRE:det
+tradizione	NOM
+medio-giudaica	ADJ
+

@@ -1,0 +1,8 @@
+À	PRP
+propos	NOM
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+56-09459	NUM
+

@@ -1,0 +1,10 @@
+Concerne	VER:pres
+les	DET:ART
+études	NOM
+notées	VER:pper
+73-14989	NUM
+,	PUN
+73-13774	NUM
+et	KON
+73-00776	NUM
+

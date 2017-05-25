@@ -1,0 +1,11 @@
+Traduzione	NOM
+e	CON
+commento	NOM
+di	PRE
+GVI	NOM
+749	NUM
+e	CON
+1871	NUM
+Peek	NOM
+.	SENT
+

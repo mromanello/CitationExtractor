@@ -1,0 +1,20 @@
+Sur	PRP
+l'	DET:ART
+apport	NOM
+de	PRP
+Louis	NAM
+Delaporte	NAM
+(	PUN
+1874-1944	NUM
+)	PUN
+et	KON
+d'	PRP
+Eugène	NAM
+Cavaignac	NAM
+(	PUN
+1876-1969	NUM
+)	PUN
+aux	PRP:det
+études	NOM
+asianiques	ADJ
+

@@ -1,0 +1,27 @@
+Analysis	NN
+of	IN
+the	DT
+passage	NN
+,	,
+which	WDT
+previous	JJ
+interpreters	NNS
+have	VBP
+failed	VBN
+to	TO
+explain	VB
+in	IN
+a	DT
+satisfactory	JJ
+way	NN
+,	,
+as	IN
+an	DT
+instance	NN
+of	IN
+the	DT
+rhetorical	JJ
+trope	NN
+of	IN
+metonymy	NN
+

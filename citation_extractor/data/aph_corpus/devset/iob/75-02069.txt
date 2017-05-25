@@ -1,0 +1,17 @@
+A	PRE
+proposito	NOM
+dei	PRE:det
+contributi	NOM
+di	PRE
+Schenkeveld	NOM
+(	PON
+=>	NOM
+61-05192	NUM
+)	PON
+e	CON
+Stroh	NOM
+(	PON
+=>	NOM
+69-01873	NUM
+)	PON
+

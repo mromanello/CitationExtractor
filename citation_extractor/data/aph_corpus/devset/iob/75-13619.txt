@@ -1,0 +1,11 @@
+Presentazione	NOM
+del	PRE:det
+saggio	NOM
+di	PRE
+G.	NPR
+Casertano	NOM
+(	PON
+=>	NOM
+75-13503	NUM
+)	PON
+

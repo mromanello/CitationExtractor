@@ -1,0 +1,14 @@
+T1	AAUTHOR 0 12	Lactantius '
+T2	AAUTHOR 104 115	Lucretius '
+T3	REFAUWORK 154 161	(Phoen.
+T4	REFSCOPE 162 171	161-170),
+T5	AAUTHOR 239 249	Lactantius
+T6	AAUTHOR 259 270	Lucretius '
+T7	REFSCOPE 313 321	(1, 1-3)
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T6 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:cwkb:620.1277:161-170
+#1	AnnotatorNotes T6	urn:cts:cwkb:2964
+#2	AnnotatorNotes T5	urn:cts:cwkb:2733
+#3	AnnotatorNotes T2	urn:cts:cwkb:2964
+#4	AnnotatorNotes T1	urn:cts:cwkb:2733

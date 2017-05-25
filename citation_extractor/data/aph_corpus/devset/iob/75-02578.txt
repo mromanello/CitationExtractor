@@ -1,0 +1,23 @@
+Structure	NOM
+et	KON
+fonctionnement	NOM
+de	PRP
+la	DET:ART
+formule	NOM
+;	PUN
+rôle	NOM
+de	PRP
+l'	DET:ART
+épithète	NOM
+;	PUN
+thèmes	NOM
+et	KON
+motifs	NOM
+traditionnels	ADJ
+.	SENT
+
+Pour	PRP
+1	NUM
+=>	ABR
+75-02577	NUM
+

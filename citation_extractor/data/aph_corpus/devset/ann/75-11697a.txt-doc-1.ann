@@ -1,0 +1,5 @@
+T1	AAUTHOR 11 23	d' Augustin,
+T2	REFAUWORK 99 106	(Doctr.
+T3	REFSCOPE 107 124	christ. 4, 24-53)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:2733:4.24-4.53

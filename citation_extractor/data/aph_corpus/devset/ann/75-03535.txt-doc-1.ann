@@ -1,0 +1,13 @@
+T1	REFAUWORK 45 50	(Met.
+T2	REFSCOPE 51 62	5, 464 ff.)
+T3	AAUTHOR 172 179	Ovid 's
+T4	AWORK 243 270	« Homeric Hymn to Demeter »
+T5	REFSCOPE 271 283	(2, 22 ff.),
+T6	AWORK 330 339	« Fasti »
+T7	REFSCOPE 340 353	(4, 575 ff.).
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T6 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0959.phi006:5.464
+#1	AnnotatorNotes T6	urn:cts:cwkb:568.1162
+#2	AnnotatorNotes T3	urn:cts:cwkb:568

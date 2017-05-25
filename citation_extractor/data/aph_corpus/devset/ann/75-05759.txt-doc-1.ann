@@ -1,0 +1,4 @@
+T1	REFAUWORK 68 71	Est
+T2	REFSCOPE 72 73	8
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0017:8

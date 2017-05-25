@@ -1,0 +1,27 @@
+Regroupe	VER:pres
+six	NUM
+des	PRP:det
+contributions	NOM
+à	PRP
+une	DET:ART
+journée	NOM
+d'	PRP
+études	NOM
+organisée	VER:pper
+le	DET:ART
+7	NUM
+mars	NOM
+2001	NUM
+à	PRP
+l'	DET:ART
+Université	NOM
+de	PRP
+Picardie	NAM
+.	SENT
+
+Dépouillé	VER:pper
+dans	PRP
+le	DET:ART
+tome	NOM
+75	NUM
+

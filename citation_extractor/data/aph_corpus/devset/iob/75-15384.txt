@@ -1,0 +1,14 @@
+Évocation	NOM
+de	PRP
+la	DET:ART
+carrière	NOM
+et	KON
+des	PRP:det
+travaux	NOM
+de	PRP
+cette	PRO:DEM
+historienne	NOM
+et	KON
+latiniste	NOM
+française	ADJ
+

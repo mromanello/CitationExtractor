@@ -1,0 +1,7 @@
+En	PRP
+particulier	NOM
+chez	PRP
+Origène	NAM
+et	KON
+Augustin	NAM
+

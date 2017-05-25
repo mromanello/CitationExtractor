@@ -1,0 +1,14 @@
+Resoconto	NOM
+dei	PRE:det
+lavori	NOM
+del	PRE:det
+convegno	NOM
+tenutosi	VER:pper
+a	PRE
+Pavia	NPR
+nei	PRE:det
+giorni	NOM
+17-18	NUM
+ottobre	NOM
+2002	NUM
+

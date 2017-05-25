@@ -1,0 +1,14 @@
+Abschliessende	ADJA
+Überlegungen	NN
+zur	APPRART
+Methodik	NN
+von	APPR
+Surveys	NN
+und	KON
+zur	APPRART
+Problematik	NN
+der	ART
+historischen	ADJA
+Deutung	NN
+.	$.
+

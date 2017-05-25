@@ -1,0 +1,17 @@
+Nuove	ADJ
+ipotesi	NOM
+sull'	PRE:det
+accostamento	NOM
+di	PRE
+Amicle	NOM
+,	PON
+Narciso	NOM
+e	CON
+Giacinto	NOM
+alla	PRE:det
+figura	NOM
+di	PRE
+Eteoneo	NOM
+nel	PRE:det
+passo	NOM
+

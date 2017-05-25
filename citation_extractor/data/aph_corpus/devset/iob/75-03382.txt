@@ -1,0 +1,22 @@
+Il	DET:def
+commento	NOM
+al	PRE:det
+«	PON
+Gorgia	NOM
+»	PON
+platonico	ADJ
+contiene	VER:pres
+varie	ADJ
+prese	NOM
+di	PRE
+posizione	NOM
+anticristiane	ADJ
+,	PON
+ad	PRE
+esempio	NOM
+sull'	PRE:det
+interpretazione	NOM
+allegorica	ADJ
+dei	PRE:det
+miti	NOM
+

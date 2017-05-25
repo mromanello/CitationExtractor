@@ -1,0 +1,16 @@
+Zu	APPR
+Text	NN
+und	KON
+Verständnis	NN
+der	ART
+Verse	NN
+,	$,
+auch	ADV
+anhand	APPR
+des	ART
+griechischen	ADJA
+und	KON
+lateinischen	ADJA
+Texts	NN
+.	$.
+

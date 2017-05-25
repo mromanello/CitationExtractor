@@ -1,0 +1,26 @@
+Inhaltliche	ADJA
+und	KON
+formale	ADJA
+Unstimmigkeiten	NN
+im	APPRART
+Text	NN
+sprechen	VVFIN
+dafür	PAV
+,	$,
+dass	KOUS
+es	PPER
+sich	PRF
+an	APPR
+beiden	PIAT
+Stellen	NN
+um	APPR
+eine	ART
+Hinzufügung	NN
+,	$,
+möglicherweise	ADV
+desselben	PDAT
+Interpolators	NN
+,	$,
+handelt	VVFIN
+.	$.
+

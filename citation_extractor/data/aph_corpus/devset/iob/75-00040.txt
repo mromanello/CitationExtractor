@@ -1,0 +1,19 @@
+I	DET:def
+due	ADJ
+passi	NOM
+sono	VER:pres
+interpolati	VER:impe
+,	PON
+come	CON
+rivelano	VER:pres
+lo	DET:def
+stile	NOM
+trascurato	VER:pper
+e	CON
+l'	DET:def
+incompatibilità	NOM
+con	PRE
+l'	DET:def
+uso	ADJ
+eschileo	NOM
+

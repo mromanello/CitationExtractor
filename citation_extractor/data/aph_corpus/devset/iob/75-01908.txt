@@ -1,0 +1,96 @@
+Se	SE
+intenta	VLfin
+dar	VLinf
+respuesta	NC
+a	PREP
+la	ART
+cuestión	NC
+de	PREP
+por qué	ADV
+la	ART
+tragedia	NC
+forma	NC
+parte	NC
+,	CM
+inequívocamente	ADV
+,	CM
+del	PDEL
+culto	ADJ
+dionisíaco	NC
+,	CM
+en tanto	ADV
+que	CQUE
+evoca	VLfin
+,	CM
+de	PREP
+modo	NC
+casi	ADV
+exclusivo	ADJ
+,	CM
+mitos	NC
+heroicos	ADJ
+.	FS
+
+La	ART
+tragedia	NC
+implica	VLfin
+la	ART
+ilusión	NC
+y	CC
+la	ART
+transgresión	NC
+.	FS
+
+El	ART
+poder	VMinf
+ilusionista	NC
+de	PREP
+Dioniso	NC
+radica	VLfin
+en	PREP
+su	PPO
+capacidad	NC
+para	CSUBI
+crear	VLinf
+las	ART
+ficciones	NC
+hechizadoras	NC
+de	PREP
+la	ART
+representación	NC
+.	FS
+
+A	PREP
+esto	DM
+se	SE
+suma	NC
+la	ART
+dualidad	NC
+dionisíaca	NC
+que	CQUE
+resulta	VLfin
+más	ADV
+contundente	ADJ
+gracias a	PREP
+la	ART
+utilización	NC
+de	PREP
+la	ART
+máscara	NC
+.	FS
+
+Todo	QU
+ello	PPX
+se	SE
+ilustra	VLfin
+con	PREP
+el	ART
+examen	NC
+de	PREP
+las	ART
+«	SYM
+Bacantes	NP
+»	SYM
+euripideas	ADJ
+.	FS
+

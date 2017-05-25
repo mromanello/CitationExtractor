@@ -1,0 +1,5 @@
+T1	REFSCOPE 364 368	3, 6
+T2	REFAUWORK 573 582	Herodotus
+T3	REFSCOPE 583 589	4, 175
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0062.tlg056:4.175

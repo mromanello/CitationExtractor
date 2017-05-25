@@ -1,0 +1,11 @@
+Travaux	NOM
+de	PRP
+restauration	NOM
+effectués	VER:pper
+en	PRP
+1985	NUM
+par	PRP
+la	DET:ART
+mission	NOM
+polonaise	ADJ
+

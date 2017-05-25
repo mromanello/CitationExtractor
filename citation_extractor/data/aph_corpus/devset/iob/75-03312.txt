@@ -1,0 +1,19 @@
+Response	NN
+to	TO
+the	DT
+arguments	NNS
+of	IN
+G.	NP
+Maurach	NP
+(	(
+=>	NP
+71-03363	CD
+)	)
+on	IN
+the	DT
+attribution	NN
+of	IN
+the	DT
+lines	NNS
+.	SENT
+

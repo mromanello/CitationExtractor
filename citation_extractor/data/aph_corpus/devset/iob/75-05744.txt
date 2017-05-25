@@ -1,0 +1,16 @@
+Ausgehend	ADJD
+von	APPR
+einer	ART
+Analyse	NN
+von	APPR
+Lk	NN
+11	CARD
+,	$,
+14-20	CARD
+und	KON
+Mk	NN
+2	CARD
+,	$,
+1-12	CARD
+.	$.
+

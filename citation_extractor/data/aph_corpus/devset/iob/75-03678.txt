@@ -1,0 +1,27 @@
+Paolino	NOM
+cita	VER:pres
+spesso	ADV
+il	DET:def
+quarto	ADJ
+Vangelo	NOM
+e	CON
+spesso	ADV
+vi	PRO:refl
+allude	VER:pres
+,	PON
+pur	ADV
+non	ADV
+affrontandone	VER:geru
+direttamente	ADV
+l'	DET:def
+esegesi	NOM
+,	PON
+con	PRE
+interesse	NOM
+rivolto	VER:pper
+soprattutto	ADV
+alla	PRE:det
+persona	NOM
+di	PRE
+Cristo	NOM
+

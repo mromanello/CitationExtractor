@@ -1,0 +1,14 @@
+T1	REFAUWORK 3 6	Od.
+T2	REFSCOPE 7 18	12, 170-200
+T3	AWORK 92 102	« Iliade »
+T4	REFAUWORK 341 345	(Od.
+T5	REFSCOPE 346 357	8, 487-534)
+T6	REFAUWORK 427 431	(Od.
+T7	REFSCOPE 432 442	8, 72-95),
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T6 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0012.tlg002:12.170-12.200
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0012.tlg001:8.487-8.534
+#2	AnnotatorNotes R3	urn:cts:greekLit:tlg0012.tlg001:8.72-8.95
+#3	AnnotatorNotes T3	urn:cts:greekLit:tlg0012.tlg001

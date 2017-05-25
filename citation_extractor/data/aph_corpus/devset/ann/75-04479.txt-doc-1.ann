@@ -1,0 +1,7 @@
+T1	REFAUWORK 40 45	Diod.
+T2	REFSCOPE 46 56	15, 7, 3s.
+T3	REFSCOPE 57 69	e 16, 16, 3)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:835:15.7.3
+#1	AnnotatorNotes R2	urn:cts:cwkb:835:16.16.3

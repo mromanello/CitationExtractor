@@ -1,0 +1,10 @@
+T1	AAUTHOR 12 19	Ovid 's
+T2	AWORK 206 224	« Remedia amoris »
+T3	AWORK 325 336	« Tristia »
+T4	AWORK 341 363	« Epistulae ex Ponto »
+T5	AWORK 404 414	Remedia ».
+#0	AnnotatorNotes T4	urn:cts:cwkb:568.1164
+#1	AnnotatorNotes T5	urn:cts:latinLit:phi0959.phi005
+#2	AnnotatorNotes T2	urn:cts:latinLit:phi0959.phi005
+#3	AnnotatorNotes T3	urn:cts:cwkb:568.1163
+#4	AnnotatorNotes T1	urn:cts:cwkb:568

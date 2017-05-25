@@ -1,0 +1,18 @@
+Precetti	NOM
+pratici	ADJ
+sui	PRE:det
+tempi	NOM
+e	CON
+i	DET:def
+modi	NOM
+dell'	PRE:det
+«	PON
+ars	NOM
+rustica	ADJ
+»	PON
+nell'	PRE:det
+opera	NOM
+dell'	PRE:det
+autore	NOM
+gallico	ADJ
+

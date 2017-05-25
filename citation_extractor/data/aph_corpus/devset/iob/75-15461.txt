@@ -1,0 +1,9 @@
+Archéologue	NOM
+polonaise	ADJ
+,	PUN
+spécialiste	NOM
+de	PRP
+l'	DET:ART
+Égypte	NAM
+chrétienne	ADJ
+

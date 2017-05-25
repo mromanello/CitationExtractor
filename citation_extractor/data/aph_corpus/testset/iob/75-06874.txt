@@ -1,0 +1,14 @@
+Concerne	VER:pres	O
+Aurelius	NAM	B-AAUTHOR
+Victor	NAM	I-AAUTHOR
+,	PUN	I-AAUTHOR
+Eutrope	NAM	B-AAUTHOR
+,	PUN	I-AAUTHOR
+Festus	NAM	I-AWORK
+et	KON	O
+l'	DET:ART	B-AWORK
+«	PUN:cit	I-AWORK
+Epitome	NOM	I-AWORK
+de	PRP	I-AWORK
+Caesaribus	NAM	I-AWORK
+»	PUN:cit	I-AWORK

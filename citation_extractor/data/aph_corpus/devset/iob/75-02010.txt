@@ -1,0 +1,16 @@
+La	DET:def
+logica	NOM
+di	PRE
+Galeno	NOM
+è	VER:pres
+un	DET:indef
+«	PON
+organon	NOM
+»	PON
+di	PRE
+ricerca	NOM
+biologica	ADJ
+e	CON
+diagnosi	NOM
+medica	ADJ
+

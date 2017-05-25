@@ -1,0 +1,15 @@
+Ausgehend	ADJD
+von	APPR
+Entwicklung	NN
+und	KON
+Benennung	NN
+insbesondere	ADV
+verschiedener	ADJA
+Feiertage	NN
+seit	APPR
+dem	ART
+2.	ADJA
+
+Jh	NE
+.	$.
+

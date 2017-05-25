@@ -1,0 +1,15 @@
+Testo	NOM
+,	PON
+traduzione	NOM
+e	CON
+commento	NOM
+dei	PRE:det
+v.	NOM
+155-195	NUM
+.	SENT
+
+Per	PRE
+3	NUM
+=>	NOM
+75-01702	NUM
+

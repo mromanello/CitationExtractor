@@ -1,0 +1,12 @@
+Vergleich	NN
+der	ART
+Wiedergabe	NN
+der	ART
+Verba	NN
+dicendi	NE
+bei	APPR
+Wulfila	NE
+und	KON
+Luther	NE
+.	$.
+

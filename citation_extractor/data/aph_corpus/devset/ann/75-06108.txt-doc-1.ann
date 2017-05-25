@@ -1,0 +1,8 @@
+T1	REFAUWORK 99 113	Pomponio, Dig.
+T2	REFSCOPE 114 126	1, 2, 2, 46,
+T3	REFAUWORK 339 350	Celso, Dig.
+T4	REFSCOPE 351 360	33, 10, 7
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0972.phi002:1.2.2.46
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0545.tlg003:33.10.7

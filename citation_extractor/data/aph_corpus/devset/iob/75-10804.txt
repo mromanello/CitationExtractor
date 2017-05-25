@@ -1,0 +1,23 @@
+Cronaca	NOM
+del	PRE:det
+Corso	NOM
+organizzato	VER:pper
+dal	PRE:det
+Centro	NOM
+di	PRE
+Studi	NOM
+Micaelici	NOM
+e	CON
+Garganici	NOM
+del	PRE:det
+Dipartimento	NOM
+di	PRE
+Studi	NOM
+Classici	NOM
+e	CON
+Cristiani	NOM
+dell'	PRE:det
+Università	NOM
+di	PRE
+Bari	NOM
+

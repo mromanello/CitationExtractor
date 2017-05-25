@@ -1,0 +1,25 @@
+Influence	NOM
+réciproque	ADJ
+des	PRP:det
+historiens	NOM
+et	KON
+des	PRP:det
+chroniqueurs	NOM
+:	PUN
+les	DET:ART
+uns	NOM
+et	KON
+les	DET:ART
+autres	ADJ
+ont	VER:pres
+hérité	VER:pper
+de	PRP
+la	DET:ART
+rhétorique	NOM
+antique	ADJ
+le	DET:ART
+souci	NOM
+de	PRP
+la	DET:ART
+variété	NOM
+

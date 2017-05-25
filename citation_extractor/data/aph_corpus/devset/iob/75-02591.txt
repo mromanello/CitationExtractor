@@ -1,0 +1,26 @@
+Considerazioni	NOM
+sull'	PRE:det
+origine	NOM
+e	CON
+la	DET:def
+funzione	NOM
+del	PRE:det
+personaggio	NOM
+di	PRE
+Fenice	NOM
+nell'	PRE:det
+episodio	NOM
+dell'	PRE:det
+ambasceria	NOM
+alla	PRE:det
+tenda	NOM
+di	PRE
+Achille	NPR
+(	PON
+Il.	ABR
+9	NUM
+,	PON
+182	NUM
+s.	NOM
+)	PON
+

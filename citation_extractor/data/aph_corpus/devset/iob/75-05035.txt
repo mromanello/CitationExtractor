@@ -1,0 +1,31 @@
+Se	SE
+aborda	VLfin
+el	ART
+estudio	NC
+del	PDEL
+movimiento	NC
+escénico	ADJ
+que	CQUE
+reflejan	VLfin
+dichos	QU
+fragmentos	NC
+a partir de	PREP
+un	ART
+análisis	NC
+del	PDEL
+lenguaje	NC
+formular	VLinf
+de	PREP
+los	ART
+posibles	ADJ
+anuncios	NC
+de	PREP
+entrada	NC
+de	PREP
+personajes	NC
+que	CQUE
+aparecen	VLfin
+en	PREP
+los	ART
+mismos	ADJ
+

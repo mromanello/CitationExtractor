@@ -1,0 +1,10 @@
+Rôle	NOM
+de	PRP
+la	DET:ART
+Colchide	NOM
+aux	PRP:det
+époques	NOM
+archaïque	ADJ
+et	KON
+classique	ADJ
+

@@ -1,0 +1,11 @@
+Seit	APPR
+der	ART
+Antike	NN
+.	$.
+
+(	$(
+Erstveröffentlichung	NN
+1988	CARD
+)	$(
+.	$.
+

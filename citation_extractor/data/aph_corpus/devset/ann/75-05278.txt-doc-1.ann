@@ -1,0 +1,9 @@
+T1	AAUTHOR 96 103	Térence
+T2	AAUTHOR 259 265	Platon
+T3	REFAUWORK 266 271	(Rsp.
+T4	REFSCOPE 272 273	2
+T5	REFSCOPE 274 280	et 3).
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T3 Arg2:T5
+#0	AnnotatorNotes T2	urn:cts:greekLit:tlg0059
+#1	AnnotatorNotes T1	urn:cts:latinLit:phi0134

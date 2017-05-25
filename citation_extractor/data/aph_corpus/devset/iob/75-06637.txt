@@ -1,0 +1,15 @@
+Le	DET:ART
+thème	NOM
+littéraire	ADJ
+de	PRP
+la	DET:ART
+mer	NOM
+Égée	NAM
+,	PUN
+de	PRP
+l'	DET:ART
+épopée	NOM
+au	PRP:det
+roman	NOM
+grec	ADJ
+

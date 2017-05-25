@@ -1,0 +1,25 @@
+L'	DET:def
+analisi	NOM
+retorico-formale	ADJ
+e	CON
+lo	DET:def
+strumento	NOM
+della	PRE:det
+riscrittura	NOM
+del	PRE:det
+testo	NOM
+del	PRE:det
+modello	NOM
+,	PON
+o	CON
+metafrasi	VER:impe
+,	PON
+in	PRE
+Demetrio	NOM
+,	PON
+Dionigi	NOM
+di	PRE
+Alicarnasso	NOM
+ed	CON
+Ermogene	NOM
+

@@ -1,0 +1,21 @@
+Osservazioni	NOM
+in	PRE
+margine	NOM
+alla	PRE:det
+raccolta	NOM
+di	PRE
+saggi	NOM
+sulla	PRE:det
+storia	NOM
+e	CON
+il	DET:def
+diritto	NOM
+romani	ADJ
+di	PRE
+U.	NOM
+Laffi	NOM
+(	PON
+=>	NOM
+74-17982	NUM
+)	PON
+

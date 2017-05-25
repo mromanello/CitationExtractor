@@ -1,0 +1,32 @@
+Sobre	PREP
+el	ART
+uso	NC
+de	PREP
+la	ART
+traducción	NC
+árabe	ADJ
+de	PREP
+la	ART
+obra	NC
+de	PREP
+Orosio	NC
+(	LP
+traducción	NC
+que	CQUE
+podría	VMfin
+datar	VLinf
+de	PREP
+finales	NC
+del	PDEL
+s.	NC
+9°	NC
+o	CC
+principios	NC
+del	PDEL
+10°	NC
+)	RP
+por parte de	PREP
+la	ART
+historiografía	NC
+árabe	ADJ
+

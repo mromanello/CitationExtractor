@@ -1,0 +1,25 @@
+Die	ART
+Untersuchung	NN
+zeigt	VVFIN
+,	$,
+dass	KOUS
+der	ART
+Zusammenhang	NN
+zwischen	APPR
+den	ART
+palästinisch-jüdischen	ADJA
+,	$,
+hellenistisch-jüdischen	ADJA
+und	KON
+urchristlichen	ADJA
+Milieus	NN
+deutlicher	ADJD
+als	KOKOM
+lange	ADJA
+Zeit	NN
+angenommen	ADJD
+gesehen	VVPP
+werden	VAINF
+muss	VMFIN
+.	$.
+

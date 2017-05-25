@@ -1,0 +1,8 @@
+Lettura	NOM
+critico-esegetica	ADJ
+con	PRE
+note	NOM
+linguistiche	ADJ
+e	CON
+metrico-strutturali	ADJ
+

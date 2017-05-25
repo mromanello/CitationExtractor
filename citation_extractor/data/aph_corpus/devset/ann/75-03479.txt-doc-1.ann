@@ -1,0 +1,13 @@
+T1	AWORK 45 55	« Fastes »
+T2	AAUTHOR 111 116	Ovide
+T3	REFSCOPE 258 270	(1, 121-124)
+T4	REFSCOPE 285 298	(1, 279-282).
+T5	REFSCOPE 368 380	(1, 121-124)
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+R3	Scope Arg1:T2 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:568:1.121-1.124
+#1	AnnotatorNotes R2	urn:cts:cwkb:568:1.279-1.282
+#2	AnnotatorNotes R3	urn:cts:cwkb:568:1.121-1.124
+#3	AnnotatorNotes T2	urn:cts:cwkb:568
+#4	AnnotatorNotes T1	urn:cts:cwkb:568.1162

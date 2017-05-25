@@ -1,0 +1,13 @@
+T1	AAUTHOR 309 317	Plutarch
+T2	REFAUWORK 318 331	(Themistokles
+T3	REFSCOPE 332 338	10, 4)
+T4	AAUTHOR 343 353	Aristeides
+T5	REFAUWORK 354 358	(Or.
+T6	REFSCOPE 359 365	1, 154
+T7	REFSCOPE 366 377	und 3, 247)
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T5 Arg2:T6
+R3	Scope Arg1:T5 Arg2:T7
+#2	AnnotatorNotes T4	urn:cts:greekLit:tlg0284
+#3	AnnotatorNotes R1	urn:cts:greekLit:tlg0007.tlg010
+#4	AnnotatorNotes T1	urn:cts:greekLit:tlg0007

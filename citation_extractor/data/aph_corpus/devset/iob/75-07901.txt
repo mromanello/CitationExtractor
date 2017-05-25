@@ -1,0 +1,53 @@
+Analyses	NOM
+chimiques	ADJ
+portant	VER:ppre
+sur	PRP
+les	DET:ART
+médicaments	NOM
+contenus	VER:pper
+dans	PRP
+les	DET:ART
+récipients	NOM
+de	PRP
+bronze	NOM
+et	KON
+sur	PRP
+les	DET:ART
+instruments	NOM
+chirurgicaux	ADJ
+découverts	VER:pper
+dans	PRP
+cette	PRO:DEM
+tombe	NOM
+.	SENT
+
+Étude	NOM
+des	PRP:det
+sources	NOM
+d'	PRP
+approvisionnement	NOM
+en	PRP
+sulfates	NOM
+pour	PRP
+la	DET:ART
+fabrication	NOM
+des	PRP:det
+médicaments	NOM
+.	SENT
+
+Considérations	NOM
+sur	PRP
+les	DET:ART
+sciences	NOM
+médicales	ADJ
+et	KON
+chimiques	ADJ
+à	PRP
+Chypre	NAM
+.	SENT
+
+Pour	PRP
+1	NUM
+=>	ABR
+75-07904	NUM
+

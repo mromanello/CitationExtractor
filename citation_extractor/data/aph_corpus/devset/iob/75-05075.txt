@@ -1,0 +1,11 @@
+À	PRP
+propos	NOM
+de	PRP
+l'	DET:ART
+étude	NOM
+de	PRP
+D.	ABR
+Bain	VER:futu
+notée	VER:pper
+63-05184	NUM
+

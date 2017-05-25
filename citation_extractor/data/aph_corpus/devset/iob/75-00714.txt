@@ -1,0 +1,14 @@
+Zu	APPR
+den	ART
+Wahrheitsbedingungen	NN
+für	APPR
+die	ART
+apodiktischen	ADJA
+Propositionen	NN
+in	APPR
+Aristoteles	NN
+'	$(
+modaler	ADJA
+Syllogistik	NN
+.	$.
+

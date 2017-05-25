@@ -1,0 +1,5 @@
+T1	AAUTHOR 167 180	Silio Italico
+T2	REFSCOPE 181 194	(11, 388-396)
+T3	AAUTHOR 223 229	Ovidio
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes T3	urn:cts:cwkb:568

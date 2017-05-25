@@ -1,0 +1,26 @@
+Cette	PRO:DEM
+pièce	NOM
+appartient	VER:pres
+au	PRP:det
+programme	NOM
+décoratif	ADJ
+commandé	VER:pper
+par	PRP
+Philippe	NAM
+l'	DET:ART
+Arabe	NAM
+(	PUN
+244-249	NUM
+)	PUN
+pour	PRP
+sa	DET:POS
+cité	NOM
+d'	PRP
+origine	NOM
+.	SENT
+
+Description	NOM
+et	KON
+analyse	VER:pres
+iconographique	ADJ
+

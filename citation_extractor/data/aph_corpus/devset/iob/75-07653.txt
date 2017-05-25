@@ -1,0 +1,21 @@
+Étude	NOM
+de	PRP
+la	DET:ART
+composition	NOM
+de	PRP
+l'	DET:ART
+alliage	NOM
+de	PRP
+cuivre	NOM
+de	PRP
+supports	NOM
+d'	PRP
+Enkomi	NAM
+,	PUN
+d'	PRP
+Episkopi-Kourion	NOM
+et	KON
+de	PRP
+provenance	NOM
+inconnue	ADJ
+

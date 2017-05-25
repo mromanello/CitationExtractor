@@ -1,0 +1,35 @@
+Las	ART
+guerras	NC
+de	PREP
+conquista	VLfin
+constituyen	VLfin
+para	PREP
+los	ART
+autores	NC
+grecorromanos	ADJ
+el	ART
+escenario	NC
+en	PREP
+que	CQUE
+se	SE
+configura	VLfin
+la	ART
+geografía	NC
+étnica	ADJ
+de	PREP
+la	ART
+Península	NC
+Ibérica	NP
+.	FS
+
+El	ART
+mundo	NC
+colonial	ADJ
+ha	VHfin
+favorecido	VLadj
+previamente	ADV
+la	ART
+formación	NC
+de	PREP
+identidades	NC
+

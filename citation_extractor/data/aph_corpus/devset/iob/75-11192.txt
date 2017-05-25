@@ -1,0 +1,26 @@
+L'	DET:def
+ipotesi	NOM
+che	PRO:rela
+i	DET:def
+«	PON
+praefecti	VER:impe
+»	PON
+possano	VER:cpre
+designare	VER:infi
+anche	ADV
+delegati	NOM
+operanti	ADJ
+in	PRE
+determinati	ADJ
+ampi	ADJ
+distretti	NOM
+geografici	ADJ
+consentirebbe	VER:cond
+di	PRE
+ammettere	VER:infi
+la	DET:def
+coesistenza	NOM
+dei	PRE:det
+due	ADJ
+istituti	NOM
+

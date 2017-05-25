@@ -1,0 +1,10 @@
+Données	NOM
+prosopographiques	ADJ
+thébaines	ADJ
+se	PRO:PER
+rapportant	VER:ppre
+à	PRP
+la	DET:ART
+période	NOM
+gréco-romaine	ADJ
+

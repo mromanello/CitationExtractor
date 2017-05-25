@@ -1,0 +1,24 @@
+Communication	NOM
+donnée	VER:pper
+au	PRP:det
+colloque	NOM
+de	PRP
+Valenciennes	NAM
+,	PUN
+3-5	NUM
+mars	NOM
+2000	NUM
+,	PUN
+«	PUN:cit
+La	DET:ART
+maladie	NOM
+de	PRP
+Trézène	NAM
+:	PUN
+Phèdre	NAM
+,	PUN
+Hippolyte	NAM
+,	PUN
+Thésée	NAM
+»	PUN:cit
+

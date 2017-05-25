@@ -1,0 +1,19 @@
+T1	REFSCOPE 3 9	ch. 32
+T2	AAUTHOR 52 58	Alcuin
+T3	REFAUWORK 92 98	l' Ep.
+T4	REFSCOPE 99 105	14, 30
+T5	AAUTHOR 109 127	Fulgence de Ruspe.
+T6	AAUTHOR 205 217	d' Augustin,
+T7	REFAUWORK 218 221	Ep.
+T8	REFSCOPE 222 230	187, 40.
+T9	AAUTHOR 272 280	Fulgence
+T10	AWORK 338 363	« Tractatus in Iohannem »
+T11	AWORK 17 50	« Liber contra haeresim Felicis »
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T7 Arg2:T8
+#0	AnnotatorNotes R1	urn:cts:cwkb:2796.8952:14.30
+#1	AnnotatorNotes R2	urn:cts:cwkb:2386.8415:187.40
+#2	AnnotatorNotes T9	urn:cts:cwkb:2796
+#3	AnnotatorNotes T6	urn:cts:cwkb:2386
+#4	AnnotatorNotes T5	urn:cts:cwkb:2796
+R3	Scope Arg1:T11 Arg2:T1	

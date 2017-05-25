@@ -1,0 +1,25 @@
+La	DET:ART
+restauration	NOM
+de	PRP
+la	DET:ART
+démocratie	NOM
+explique	VER:pres
+l'	DET:ART
+abondance	NOM
+des	PRP:det
+inscriptions	NOM
+,	PUN
+à	PRP
+partir	VER:infi
+de	PRP
+307	NUM
+,	PUN
+indices	NOM
+de	PRP
+diffusion	NOM
+de	PRP
+l'	DET:ART
+information	NOM
+aux	PRP:det
+citoyens	NOM
+

@@ -1,0 +1,11 @@
+T1	REFSCOPE 58 63	1, 33
+T2	AAUTHOR 134 141	Terence
+T3	AAUTHOR 191 201	Terence 's
+T4	AWORK 202 212	« Andria »
+T5	REFSCOPE 279 288	(49-168),
+T6	AAUTHOR 363 373	Terence 's
+R1	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes T6	urn:cts:latinLit:phi0134
+#1	AnnotatorNotes T4	urn:cts:latinLit:phi0134.phi001
+#2	AnnotatorNotes T2	urn:cts:latinLit:phi0134
+#3	AnnotatorNotes T3	urn:cts:latinLit:phi0134

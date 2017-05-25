@@ -1,0 +1,14 @@
+Considerazioni	NOM
+critico-esegetiche	ADJ
+su	PRE
+Herc.	NOM
+f.	ABR
+183-185	NUM
+;	PON
+Herc.	ABR
+O.	ABR
+493	NUM
+;	PON
+Med.	NPR
+345	NUM
+

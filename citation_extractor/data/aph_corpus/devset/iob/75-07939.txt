@@ -1,0 +1,11 @@
+Fin	NOM
+du	PRP:det
+4e	NUM
+s.	NOM
+-7e	ADJ
+s.	VER:pper
+Pour	NAM
+1	NUM
+=>	ABR
+75-07938	NUM
+

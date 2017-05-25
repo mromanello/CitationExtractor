@@ -1,0 +1,8 @@
+T1	AAUTHOR 0 8	Eusebius
+T2	REFAUWORK 9 12	(HE
+T3	REFSCOPE 13 19	5, 21)
+T4	AWORK 69 87	« Acta Apollonii »
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:1103.3945:5.21
+#1	AnnotatorNotes T4	urn:cts:greekLit:tlg0638.tlg001
+#2	AnnotatorNotes T1	urn:cts:cwkb:2842

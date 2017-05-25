@@ -1,0 +1,24 @@
+Also	RB
+discusses	VBZ
+the	DT
+Plotinian	NP
+theories	NNS
+of	IN
+the	DT
+World	NP
+Soul	NP
+,	,
+universal	JJ
+sympathy	NN
+,	,
+and	CC
+the	DT
+soul	NN
+'s	POS
+generation	NN
+and	CC
+conservation	NN
+of	IN
+the	DT
+world	NN
+

@@ -1,0 +1,17 @@
+Ricostruzione	NOM
+dell'	PRE:det
+epigrafe	NOM
+funeraria	ADJ
+di	PRE
+Pacuvio	NOM
+Antistio	NOM
+Labeone	NOM
+,	PON
+documentata	VER:pper
+da	PRE
+De	NPR
+Fort.	ABR
+1	NUM
+,	PON
+16	NUM
+

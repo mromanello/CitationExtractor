@@ -1,0 +1,14 @@
+T1	REFSCOPE 150 159	(4, 8-9),
+T2	REFSCOPE 302 314	(15, 84-87).
+T3	AAUTHOR 315 326	Isocrates '
+T4	REFSCOPE 419 426	(9, 3 ;
+T5	REFSCOPE 427 436	12, 260 ;
+T6	REFAUWORK 437 440	Ep.
+T7	REFSCOPE 441 449	2, 134).
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T3 Arg2:T5
+R3	Scope Arg1:T6 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:cwkb:3053.9484:9.3
+#1	AnnotatorNotes R2	urn:cts:cwkb:3053.9484:12.260
+#2	AnnotatorNotes R3	urn:cts:cwkb:897.2630:2.134
+#3	AnnotatorNotes T3	urn:cts:greekLit:tlg0010

@@ -1,0 +1,23 @@
+Aspects	NOM
+économiques	ADJ
+et	KON
+techniques	ADJ
+.	SENT
+
+À	PRP
+noter	VER:infi
+,	PUN
+l'	DET:ART
+apport	NOM
+de	PRP
+la	DET:ART
+documentation	NOM
+papyrologique	ADJ
+et	KON
+des	PRP:det
+timbres	NOM
+amphoriques	ADJ
+trouvés	VER:pper
+à	PRP
+Pompéi	NAM
+

@@ -1,0 +1,32 @@
+Critique	NOM
+de	PRP
+la	DET:ART
+position	NOM
+de	PRP
+H.	ABR
+T.	ABR
+
+Fleddermann	NAM
+(	PUN
+=>	ABR
+67-04676	NUM
+)	PUN
+,	PUN
+selon	PRP
+laquelle	PRO:REL
+Mc	NAM
+4,22	NUM
+serait	VER:cond
+une	DET:ART
+rédaction	NOM
+de	PRP
+Q	NAM
+12,2	NUM
+.	SENT
+
+Les	DET:ART
+deux	NUM
+textes	NOM
+sont	VER:pres
+indépendants	ADJ
+

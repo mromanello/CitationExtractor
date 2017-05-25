@@ -1,0 +1,12 @@
+Sui	PRE:det
+volumi	NOM
+di	PRE
+E.	NPR
+Fichera	NOM
+(	PON
+=>	NOM
+75-03043	NUM
+e	CON
+75-03053	NUM
+)	PON
+

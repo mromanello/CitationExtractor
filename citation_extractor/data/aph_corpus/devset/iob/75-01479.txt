@@ -1,0 +1,8 @@
+Histoire	NOM
+et	KON
+constitution	NOM
+du	PRP:det
+«	PUN:cit
+Digeste	NOM
+»	PUN:cit
+

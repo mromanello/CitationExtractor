@@ -1,0 +1,15 @@
+Matériel	ADJ
+tardo-romain	NOM
+,	PUN
+byzantin	ADJ
+et	KON
+proto-islamique	ADJ
+,	PUN
+probablement	ADV
+lié	VER:pper
+à	PRP
+un	DET:ART
+site	NOM
+de	PRP
+production	NOM
+

@@ -1,0 +1,30 @@
+Le	DET:ART
+thème	NOM
+de	PRP
+l'	DET:ART
+«	PUN:cit
+échanson	NOM
+de	PRP
+Dieu	NOM
+»	PUN:cit
+chez	PRP
+Philon	NAM
+(	PUN
+De	NAM
+somniis	NOM
+2	NUM
+,	PUN
+183	NUM
+,	PUN
+190	NUM
+,	PUN
+249	NUM
+)	PUN
+.	SENT
+
+Rapport	NOM
+avec	PRP
+les	DET:ART
+traditions	NOM
+gnostiques	NOM
+

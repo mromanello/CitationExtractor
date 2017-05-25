@@ -1,0 +1,10 @@
+Aspects	NOM
+techniques	ADJ
+et	KON
+économiques	ADJ
+.	SENT
+
+Discussions	NOM
+p.	ABR
+71-75	NUM
+

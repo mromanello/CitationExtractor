@@ -1,0 +1,17 @@
+Les	DET:ART
+«	PUN:cit
+Verae	NAM
+Historiae	NAM
+»	PUN:cit
+de	PRP
+Lucien	NAM
+doivent	VER:pres
+beaucoup	ADV
+à	PRP
+la	DET:ART
+«	PUN:cit
+République	NOM
+»	PUN:cit
+de	PRP
+Platon	NAM
+

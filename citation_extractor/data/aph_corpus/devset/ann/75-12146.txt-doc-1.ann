@@ -1,0 +1,4 @@
+T1	REFAUWORK 355 359	Atti
+T2	REFSCOPE 360 362	15
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:388:15

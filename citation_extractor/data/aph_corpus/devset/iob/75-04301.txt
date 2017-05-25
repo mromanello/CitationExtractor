@@ -1,0 +1,14 @@
+Zum	APPRART
+Punierbild	NN
+und	KON
+zum	APPRART
+Sprachmaterial	NN
+,	$,
+das	PRELS
+teilweise	ADV
+erst	ADV
+später	ADJD
+eingefügt	VVPP
+wurde	VAFIN
+.	$.
+

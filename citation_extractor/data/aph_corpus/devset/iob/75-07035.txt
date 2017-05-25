@@ -1,0 +1,12 @@
+Sul	PRE:det
+nativismo	NOM
+e	CON
+il	DET:def
+bilinguismo	NOM
+,	PON
+anche	ADV
+in	PRE
+riferimento	NOM
+al	PRE:det
+latino	NOM
+

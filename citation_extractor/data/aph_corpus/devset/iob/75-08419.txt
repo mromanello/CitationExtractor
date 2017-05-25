@@ -1,0 +1,23 @@
+Analisi	NOM
+dettagliata	VER:pper
+della	PRE:det
+storia	NOM
+moderna	ADJ
+del	PRE:det
+sito	NOM
+,	PON
+anche	ADV
+su	PRE
+base	NOM
+documentaria	ADJ
+,	PON
+finalizzata	VER:pper
+alla	PRE:det
+ricostruzione	NOM
+del	PRE:det
+contesto	NOM
+archeologico	ADJ
+originario	ADJ
+dei	PRE:det
+ritrovamenti	NOM
+

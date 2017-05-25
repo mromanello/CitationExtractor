@@ -1,0 +1,6 @@
+T1	AAUTHOR 389 398	Alexandre
+T2	REFAUWORK 399 402	(AI
+T3	REFSCOPE 403 415	2, 347-349).
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0526.tlg001:2.347-2.349
+#1	AnnotatorNotes T1	urn:cts:cwkb:726

@@ -1,0 +1,27 @@
+Nel	PRE:det
+componimento	NOM
+CPL	NOM
+1430a	NOM
+(	PON
+databile	ADJ
+al	PRE:det
+4°-5°	NOM
+s.	NOM
+)	PON
+,	PON
+un	DET:indef
+parallelo	NOM
+per	PRE
+i	DET:def
+v.	NOM
+87-92	NUM
+è	VER:pres
+in	PRE
+Cirillo	NOM
+(	PON
+Cat.	ABR
+4	NUM
+,	PON
+23	NUM
+)	PON
+

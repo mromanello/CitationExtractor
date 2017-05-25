@@ -1,0 +1,19 @@
+Commentaires	NOM
+préliminaires	ADJ
+sur	PRP
+la	DET:ART
+fréquence	NOM
+des	PRP:det
+noms	NOM
+romains	ADJ
+de	PRP
+Macédoine	NAM
+.	SENT
+
+Voir	VER:infi
+depuis	PRP
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+70-10275	NUM
+

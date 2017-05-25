@@ -1,0 +1,13 @@
+Concerne	VER:pres
+les	DET:ART
+mss	NOM
+Vatican	NAM
+,	PUN
+BAV	NAM
+,	PUN
+Vat.	ABR
+gr.	ABR
+1-329	NUM
+et	KON
+1963-2161	NUM
+

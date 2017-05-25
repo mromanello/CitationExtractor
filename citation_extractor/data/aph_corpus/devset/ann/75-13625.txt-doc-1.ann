@@ -1,0 +1,12 @@
+T1	AAUTHOR 92 98	Platon
+T2	REFAUWORK 99 108	(Euthphr.
+T3	REFSCOPE 109 116	5c-6e ;
+T4	REFAUWORK 117 121	Men.
+T5	REFSCOPE 122 140	71d-73a, 73e-74e).
+T6	AAUTHOR 229 237	Aristote
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0093:5
+#1	AnnotatorNotes R2	urn:cts:cwkb:672.1386:71
+#2	AnnotatorNotes T6	urn:cts:greekLit:tlg0086
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0059

@@ -1,0 +1,24 @@
+L'	DET:def
+analisi	NOM
+testuale	ADJ
+di	PRE
+alcuni	PRO:indef
+passi	ADJ
+mostra	NOM
+come	CON
+gli	DET:def
+interventi	NOM
+congetturali	VER:impe
+siano	VER:cpre
+a	PRE
+volte	NOM
+ingiustificati	ADJ
+e	CON
+basati	VER:pper
+su	PRE
+una	DET:indef
+scarsa	ADJ
+conoscenza	NOM
+della	PRE:det
+koiné	NOM
+

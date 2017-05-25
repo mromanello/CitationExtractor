@@ -1,0 +1,13 @@
+Introduzione	NOM
+agli	PRE:det
+Atti	NOM
+del	PRE:det
+convegno	NOM
+di	PRE
+studi	NOM
+in	PRE
+memoria	NOM
+di	PRE
+Tristano	NOM
+Bolelli	NOM
+

@@ -1,0 +1,17 @@
+Concerne	VER:pres	O
+l'	DET:ART	B-AWORK
+«	PUN:cit	I-AWORK
+Anonymus	NAM	I-AWORK
+Valesianus	NAM	I-AWORK
+II	NUM	O
+»	PUN:cit	I-AWORK
+,	PUN	I-AWORK
+Cassiodore	NAM	B-AAUTHOR
+,	PUN	I-AAUTHOR
+Jordanès	NAM	B-AAUTHOR
+,	PUN	I-AAUTHOR
+Gildas	NAM	B-AAUTHOR
+et	KON	O
+Grégoire	NAM	B-AAUTHOR
+de	PRP	I-AAUTHOR
+Tours	NAM	I-AAUTHOR

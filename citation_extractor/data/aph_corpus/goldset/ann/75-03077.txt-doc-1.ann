@@ -1,0 +1,10 @@
+T1	REFAUWORK 10 19	Lucretius
+T2	REFSCOPE 20 28	5, 1105,
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0550.phi001:5.1105
+T3	REFSCOPE 192 196	1107
+T4	REFSCOPE 282 286	1106
+R2	Scope Arg1:T1 Arg2:T3	
+R3	Scope Arg1:T1 Arg2:T4	
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0550.phi001:5.1107
+#2	AnnotatorNotes R3	urn:cts:latinLit:phi0550.phi001:5.1106

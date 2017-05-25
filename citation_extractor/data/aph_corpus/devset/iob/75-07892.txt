@@ -1,0 +1,30 @@
+Travaux	NOM
+de	PRP
+l'	DET:ART
+institut	NOM
+archéologique	ADJ
+de	PRP
+l'	DET:ART
+université	NOM
+de	PRP
+Londres	NAM
+entre	PRP
+le	DET:ART
+site	NOM
+de	PRP
+Maa	NAM
+et	KON
+la	DET:ART
+péninsule	NOM
+de	PRP
+Lara	NAM
+.	SENT
+
+Voir	VER:infi
+aussi	ADV
+75-07893	NUM
+pour	PRP
+le	DET:ART
+matériel	NOM
+amphorique	ADJ
+

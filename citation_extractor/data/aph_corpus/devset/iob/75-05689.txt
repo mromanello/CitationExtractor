@@ -1,0 +1,23 @@
+Typologie	NOM
+des	PRP:det
+divergences	NOM
+entre	PRP
+le	DET:ART
+texte	NOM
+massorétique	ADJ
+et	KON
+la	DET:ART
+LXX	NUM
+.	SENT
+
+Certaines	PRO:IND
+pourraient	VER:cond
+s'	PRO:PER
+expliquer	VER:infi
+par	PRP
+un	DET:ART
+changement	NOM
+des	PRP:det
+pratiques	NOM
+agricoles	ADJ
+

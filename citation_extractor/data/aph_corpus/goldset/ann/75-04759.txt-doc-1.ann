@@ -1,0 +1,10 @@
+T1	REFAUWORK 3 14	Sall. hist.
+T2	REFSCOPE 15 22	2, 23 ;
+T3	REFSCOPE 23 33	2, 25-26 ;
+T4	REFSCOPE 34 39	3, 48
+R1	Scope Arg1:T1 Arg2:T2	
+R2	Scope Arg1:T1 Arg2:T3	
+R3	Scope Arg1:T1 Arg2:T4	
+#1	AnnotatorNotes R1	urn:cts:cwkb:607.1255:2.23
+#2	AnnotatorNotes R2	urn:cts:cwkb:607.1255:2.25-2.26
+#3	AnnotatorNotes R3	urn:cts:cwkb:607.1255:3.48

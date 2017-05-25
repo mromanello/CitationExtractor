@@ -1,0 +1,19 @@
+Anmerkungen	NN
+zum	APPRART
+Text	NN
+der	ART
+«	$(
+Mimiambi	NE
+»	$(
+in	APPR
+der	ART
+Edition	NN
+von	APPR
+I.	NE
+C.	NE
+Cunningham	NE
+(	$(
+=>	NN
+58-01989	CARD
+)	$(
+

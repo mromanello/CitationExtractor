@@ -1,0 +1,25 @@
+Si	PRO:pers
+richiamano	VER:pres
+principi	NOM
+e	CON
+provvedimenti	NOM
+concreti	ADJ
+con	PRE
+i	DET:def
+quali	PRO:rela
+nel	PRE:det
+diritto	NOM
+romano	ADJ
+veniva	VER:impf
+preso	VER:pper
+in	PRE
+considerazione	NOM
+e	CON
+tutelato	VER:pper
+«	PON
+qui	ADV
+in	PRE
+utero	NOM
+est	NOM
+»	PON
+

@@ -1,0 +1,27 @@
+Esame	NOM
+della	PRE:det
+struttura	NOM
+circolare	ADJ
+della	PRE:det
+prefazione	NOM
+alla	PRE:det
+luce	NOM
+del	PRE:det
+contenuto	NOM
+e	CON
+degli	PRE:det
+intenti	NOM
+complessivi	ADJ
+dell'	PRE:det
+opera	NOM
+,	PON
+e	CON
+interpretazione	NOM
+dei	PRE:det
+numerosi	ADJ
+problemi	NOM
+testuali	ADJ
+che	PRO:rela
+la	PRO:pers
+caratterizzano	VER:pres
+

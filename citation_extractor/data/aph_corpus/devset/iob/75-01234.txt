@@ -1,0 +1,30 @@
+La	ART
+repetición	NC
+del	PDEL
+nombre	NC
+«	SYM
+Lesbia	NP
+»	SYM
+en	PREP
+el	ART
+poema	NC
+se	SE
+explica	VLfin
+a partir de	PREP
+la	ART
+costumbre	NC
+grecorromana	ADJ
+según	PREP
+la	ART
+cual	REL
+el	ART
+difunto	NC
+era	VEfin
+invocado	VLadj
+tres	CARD
+veces	NC
+en	PREP
+las	ART
+ceremonias	NC
+funerales	NC
+

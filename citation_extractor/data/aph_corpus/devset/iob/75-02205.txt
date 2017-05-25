@@ -1,0 +1,13 @@
+Notes	NOM
+critiques	ADJ
+aux	PRP:det
+fr.	ABR
+98	NUM
+,	PUN
+119	NUM
+,	PUN
+78	NUM
+et	KON
+108	NUM
+DK	NAM
+

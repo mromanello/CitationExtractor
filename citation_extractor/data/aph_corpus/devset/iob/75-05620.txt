@@ -1,0 +1,7 @@
+Aus	APPR
+sozialgeschichtlicher	ADJA
+und	KON
+erzähltheoretischer	ADJA
+Sicht	NN
+.	$.
+

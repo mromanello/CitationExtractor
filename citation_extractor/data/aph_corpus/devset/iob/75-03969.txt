@@ -1,0 +1,11 @@
+Concerne	VER:pres
+il	DET:def
+saggio	NOM
+di	PRE
+F.	NPR
+Fronterotta	NOM
+(	PON
+=>	NOM
+72-04387	NUM
+)	PON
+

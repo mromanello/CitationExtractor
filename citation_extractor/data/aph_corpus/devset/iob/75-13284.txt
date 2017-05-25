@@ -1,0 +1,4 @@
+Résumé	VER:pper
+de	PRP
+communication	NOM
+

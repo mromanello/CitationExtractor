@@ -1,0 +1,9 @@
+Archéologue	NOM
+syrien	ADJ
+.	SENT
+
+Cf	NOM
+.	SENT
+aussi	ADV
+75-00000	NUM
+

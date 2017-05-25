@@ -1,0 +1,36 @@
+In	APPR
+Fortsetzung	NN
+zu	APPR
+=>	NN
+74-14036	CARD
+werden	VAFIN
+die	ART
+Kulte	NN
+der	ART
+1.	ADJA
+bis	KON
+7.	ADJA
+
+oberägyptischen	ADJA
+Gaue	NN
+Ombites	NN
+,	$,
+Apollonopolites	NN
+,	$,
+Latopolites	NN
+,	$,
+Diopolites	NN
+,	$,
+Koptites	NN
+und	KON
+Diopolites	NN
+mikros	ADJD
+anhand	APPR
+von	APPR
+Münzen	NN
+aus	APPR
+römischer	ADJA
+Zeit	NN
+untersucht	VVPP
+.	$.
+

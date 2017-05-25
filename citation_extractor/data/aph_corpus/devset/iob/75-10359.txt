@@ -1,0 +1,11 @@
+Témoignage	NOM
+de	PRP
+Julius	NAM
+Honorius	NAM
+,	PUN
+de	PRP
+Corippe	NAM
+et	KON
+de	PRP
+Procope	NAM
+

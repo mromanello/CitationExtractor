@@ -1,0 +1,30 @@
+Aus	APPR
+der	ART
+Liste	NN
+sind	VAFIN
+Q.	NE
+Fabius	NE
+Maximus	NE
+Rullianus	NE
+und	KON
+App.	NN
+Claudius	NE
+Pulcher	NN
+zu	PTKZU
+streichen	VVINF
+.	$.
+
+Damit	PAV
+ergibt	VVFIN
+sich	PRF
+ein	ART
+stimmiges	ADJA
+Bild	NN
+der	ART
+Principes	NN
+Senatus	NN
+bis	KON
+zu	APPR
+Cicero	NE
+.	$.
+

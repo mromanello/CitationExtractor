@@ -1,0 +1,34 @@
+La	DET:ART
+lettre	NOM
+aux	PRP:det
+Romains	NAM
+est	VER:pres
+aussi	ADV
+indirectement	ADV
+adressée	VER:pper
+aux	PRP:det
+habitants	NOM
+de	PRP
+Corinthe	NAM
+.	SENT
+
+Écrite	VER:pper
+depuis	PRP
+cette	PRO:DEM
+ville	NOM
+,	PUN
+elle	PRO:PER
+comporte	VER:pres
+des	PRP:det
+allusions	NOM
+que	KON
+ceux	PRO:DEM
+-ci	ADV
+étaient	VER:impf
+les	PRO:PER
+mieux	ADV
+à	PRP
+même	ADV
+de	PRP
+comprendre	VER:infi
+

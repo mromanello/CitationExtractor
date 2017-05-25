@@ -1,0 +1,20 @@
+À	PRP
+propos	NOM
+de	PRP
+Théocrite	NAM
+.	SENT
+
+Conférence	NOM
+prononcée	VER:pper
+le	DET:ART
+15	NUM
+novembre	NOM
+1997	NUM
+devant	PRP
+la	DET:ART
+Société	NOM
+lyonnaise	ADJ
+d'	PRP
+études	NOM
+anciennes	ADJ
+

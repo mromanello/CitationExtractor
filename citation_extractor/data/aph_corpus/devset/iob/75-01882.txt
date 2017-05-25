@@ -1,0 +1,19 @@
+La	DET:ART
+scène	NOM
+de	PRP
+la	DET:ART
+reconnaissance	NOM
+entre	PRP
+les	DET:ART
+époux	NOM
+Hélène	NAM
+et	KON
+Ménélas	NAM
+s'	PRO:PER
+appuie	VER:pres
+essentiellement	ADV
+sur	PRP
+les	DET:ART
+corps	NOM
+eux-mêmes	PRO:PER
+

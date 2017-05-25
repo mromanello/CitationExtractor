@@ -1,0 +1,8 @@
+T1	AAUTHOR 22 30	Eunomio,
+T2	REFAUWORK 59 62	Gen
+T3	REFSCOPE 63 71	2, 19-20
+T4	REFAUWORK 330 332	Rm
+T5	REFSCOPE 333 338	6, 3,
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+#2	AnnotatorNotes T1	urn:cts:cwkb:866

@@ -1,0 +1,12 @@
+Los	ART
+restos	NC
+estudiados	VLadj
+pertenecen	VLfin
+a	PREP
+los	ART
+siglos	NC
+4°	NC
+y	CC
+5°	NC
+d.	NC
+C.	ACRNM

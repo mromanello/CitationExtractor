@@ -1,0 +1,10 @@
+Concerne	VER:pres
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+APh	NAM
+30	NUM
+,	PUN
+p.	ABR
+406	NUM
+

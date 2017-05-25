@@ -1,0 +1,18 @@
+Réflexions	NOM
+diverses	ADJ
+dans	PRP
+le	DET:ART
+prolongement	NOM
+de	PRP
+l'	DET:ART
+article	NOM
+de	PRP
+l'	DET:ART
+auteur	NOM
+noté	VER:pper
+75-04574	NUM
+.	SENT
+
+Compléments	NOM
+bibliographiques	ADJ
+

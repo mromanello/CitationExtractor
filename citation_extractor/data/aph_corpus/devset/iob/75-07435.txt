@@ -1,0 +1,17 @@
+Zur	APPRART
+Entwicklung	NN
+und	KON
+Verbreitung	NN
+des	ART
+auch	ADV
+in	APPR
+lateinischen	ADJA
+Inschriften	NN
+als	KOKOM
+Essimn(i)us	NN
+und	KON
+Essibnus	NN
+belegten	ADJA
+Namens	NN
+.	$.
+

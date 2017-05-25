@@ -1,0 +1,7 @@
+T1	REFAUWORK 434 446	(Pliny, nat.
+T2	REFSCOPE 447 458	12, 53-54 ;
+T3	REFSCOPE 459 468	111-115).
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:951.3205:12.53-12.54
+#1	AnnotatorNotes R2	urn:cts:cwkb:951.3205:111-115

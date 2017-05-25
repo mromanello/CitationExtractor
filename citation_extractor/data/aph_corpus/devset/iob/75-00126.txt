@@ -1,0 +1,15 @@
+Édition	NOM
+parue	VER:pper
+en	PRP
+1600.	DET:POS
+
+Discussion	NOM
+de	PRP
+la	DET:ART
+date	NOM
+du	PRP:det
+traité	NOM
+:	PUN
+après	PRP
+543	NUM
+

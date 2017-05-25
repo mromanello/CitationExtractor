@@ -1,0 +1,23 @@
+Évocation	NOM
+de	PRP
+la	DET:ART
+carrière	NOM
+de	PRP
+cet	PRO:DEM
+archéologue	NOM
+et	KON
+architecte	NOM
+syrien	ADJ
+,	PUN
+spécialiste	NOM
+de	PRP
+la	DET:ART
+Syrie	NAM
+du	PRP:det
+Nord	NOM
+.	SENT
+
+Avec	PRP
+une	DET:ART
+bibliographie	NOM
+

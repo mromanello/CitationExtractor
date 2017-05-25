@@ -1,0 +1,11 @@
+Riflessioni	NOM
+conclusive	ADJ
+sui	PRE:det
+temi	NOM
+del	PRE:det
+convegno	NOM
+(	PON
+=>	NOM
+75-14848	NUM
+)	PON
+

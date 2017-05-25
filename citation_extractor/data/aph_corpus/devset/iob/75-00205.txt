@@ -1,0 +1,24 @@
+Confutazione	NOM
+su	PRE
+base	NOM
+paleografica	ADJ
+della	PRE:det
+tesi	NOM
+di	PRE
+A.	NPR
+Cameron	NOM
+(	PON
+=>	NOM
+64-00201	NUM
+)	PON
+,	PON
+che	PRO:rela
+propone	VER:pres
+l'	DET:def
+identificazione	NOM
+dello	PRE:det
+scriba	NOM
+con	PRE
+Costantino	NOM
+Rodio	NOM
+

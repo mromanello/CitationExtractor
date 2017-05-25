@@ -1,0 +1,22 @@
+La	DET:ART
+fin	NOM
+des	PRP:det
+épreuves	NOM
+d'	PRP
+Ulysse	NAM
+confirme	VER:pres
+le	DET:ART
+caractère	NOM
+initiatique	ADJ
+de	PRP
+l'	DET:ART
+«	PUN:cit
+Odyssée	NAM
+»	PUN:cit
+.	SENT
+
+Pour	PRP
+4	NUM
+=>	ABR
+75-02531	NUM
+

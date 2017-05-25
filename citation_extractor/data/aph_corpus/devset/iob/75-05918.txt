@@ -1,0 +1,8 @@
+Texte	NOM
+copte	ADJ
+et	KON
+trad.	ABR
+française	ADJ
+en	PRP
+regard	NOM
+

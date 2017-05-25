@@ -1,0 +1,11 @@
+Introduzione	NOM
+storica	ADJ
+e	CON
+ampio	ADJ
+repertorio	NOM
+onomastico	ADJ
+relativo	ADJ
+a	PRE
+questa	PRO:demo
+regione	NOM
+

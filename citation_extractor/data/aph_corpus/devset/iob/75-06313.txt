@@ -1,0 +1,12 @@
+Lecture	NOM
+clinique	ADJ
+des	PRP:det
+Vies	NAM
+de	PRP
+ce	PRO:DEM
+saint	NOM
+,	PUN
+notamment	ADV
+BHG	NAM
+1689	NUM
+

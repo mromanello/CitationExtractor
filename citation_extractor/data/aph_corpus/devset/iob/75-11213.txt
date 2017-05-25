@@ -1,0 +1,15 @@
+Zur	APPRART
+Geschichte	NN
+der	ART
+Beschäftigung	NN
+mit	APPR
+der	ART
+Landschaft	NN
+und	KON
+zu	APPR
+den	ART
+daraus	PAV
+resultierenden	ADJA
+Karten	NN
+.	$.
+

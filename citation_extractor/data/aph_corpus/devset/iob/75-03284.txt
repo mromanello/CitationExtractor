@@ -1,0 +1,7 @@
+Suite	NOM
+de	PRP
+l'	DET:ART
+article	NOM
+noté	VER:pper
+75-03285	NUM
+

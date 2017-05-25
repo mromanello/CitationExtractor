@@ -1,0 +1,25 @@
+Fouille	NOM
+de	PRP
+la	DET:ART
+citerne	NOM
+et	KON
+de	PRP
+la	DET:ART
+cuisine	NOM
+d'	PRP
+une	DET:ART
+maison	NOM
+romaine	ADJ
+détruite	VER:pper
+par	PRP
+le	DET:ART
+tremblement	NOM
+de	PRP
+terre	NOM
+de	PRP
+365	NUM
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+

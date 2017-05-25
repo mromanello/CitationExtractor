@@ -1,0 +1,35 @@
+4	NUM
+tessons	NOM
+de	PRP
+«	PUN:cit
+Grey	NAM
+ware	NOM
+»	PUN:cit
+d'	PRP
+Enkomi	NAM
+et	KON
+un	DET:ART
+tesson	NOM
+en	PRP
+«	PUN:cit
+Knobbed	NAM
+ware	NOM
+»	PUN:cit
+de	PRP
+Kition	NAM
+,	PUN
+dans	PRP
+des	PRP:det
+contextes	NOM
+des	PRP:det
+13e	NUM
+et	KON
+12e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+

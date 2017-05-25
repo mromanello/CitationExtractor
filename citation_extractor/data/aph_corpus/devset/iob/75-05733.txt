@@ -1,0 +1,12 @@
+Étude	NOM
+des	PRP:det
+théonymes	NOM
+et	KON
+des	PRP:det
+principes	NOM
+qu'	PRO:REL
+a	VER:pres
+suivis	VER:pper
+le	DET:ART
+traducteur	NOM
+

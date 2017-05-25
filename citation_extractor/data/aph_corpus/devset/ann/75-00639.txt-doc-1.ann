@@ -1,0 +1,15 @@
+T1	AAUTHOR 18 28	Aristotele
+T2	AAUTHOR 134 142	Plutarco
+T3	REFAUWORK 143 157	(Quaest. conu.
+T4	REFSCOPE 158 175	2, 3, 635e-638a),
+T5	AAUTHOR 240 247	Epicuro
+T6	AAUTHOR 265 273	Lucrezio
+T7	REFSCOPE 274 284	(5, 82ss.)
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T6 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:cwkb:470.990:2.3.635
+#1	AnnotatorNotes R2	urn:cts:cwkb:528:5.82
+#2	AnnotatorNotes T6	urn:cts:cwkb:528
+#3	AnnotatorNotes T5	urn:cts:cwkb:851
+#4	AnnotatorNotes T2	urn:cts:greekLit:tlg0007
+#5	AnnotatorNotes T1	urn:cts:greekLit:tlg0086

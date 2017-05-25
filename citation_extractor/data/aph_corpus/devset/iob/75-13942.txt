@@ -1,0 +1,35 @@
+Étude	NOM
+des	PRP:det
+modules	NOM
+de	PRP
+blocs	NOM
+de	PRP
+pierre	NOM
+taillée	VER:pper
+et	KON
+de	PRP
+l'	DET:ART
+épaisseur	NOM
+des	PRP:det
+murs	NOM
+sur	PRP
+trois	NUM
+sites	NOM
+chypriotes	ADJ
+du	PRP:det
+Bronze	NAM
+récent	ADJ
+.	SENT
+
+Hypothèse	NOM
+d'	PRP
+une	DET:ART
+influence	NOM
+du	PRP:det
+module	NOM
+minoen	ADJ
+(	PUN
+30	NUM
+cm	NOM
+)	PUN
+

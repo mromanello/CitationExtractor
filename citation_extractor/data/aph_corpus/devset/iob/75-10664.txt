@@ -1,0 +1,20 @@
+Zu	APPR
+Ablauf	NN
+und	KON
+administrativem	ADJA
+Prozedere	NN
+mit	APPR
+einer	ART
+Vielzahl	NN
+von	APPR
+Bescheinigungen	NN
+und	KON
+Genehmigungen	NN
+anhand	APPR
+von	APPR
+BGU	NN
+27	CARD
+und	KON
+PBingen	NN
+77	CARD
+

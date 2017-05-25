@@ -1,0 +1,12 @@
+Influenza	NOM
+di	PRE
+Lucrezio	NOM
+sulla	PRE:det
+teoria	NOM
+delle	PRE:det
+malattie	NOM
+contagiose	ADJ
+di	PRE
+Girolamo	NOM
+Fracastoro	NOM
+

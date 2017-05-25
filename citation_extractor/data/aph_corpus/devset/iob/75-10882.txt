@@ -1,0 +1,17 @@
+Abschliessende	ADJA
+Überlegungen	NN
+zur	APPRART
+Problematik	NN
+von	APPR
+Surveys	NE
+und	KON
+ihrer	PPOSAT
+Interpretation	NN
+,	$,
+insbesondere	ADV
+am	APPRART
+Beispiel	NN
+von	APPR
+Kyaneai	NE
+.	$.
+

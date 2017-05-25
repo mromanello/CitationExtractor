@@ -1,0 +1,24 @@
+Merita	VER:pres
+attenzione	NOM
+l'	DET:def
+ipotesi	NOM
+che	PRO:rela
+la	DET:def
+«	PON
+persona	NOM
+loquens	NOM
+»	PON
+sia	CON
+un'	DET:indef
+etèra	VER:impe
+fedele	ADJ
+al	PRE:det
+suo	PRO:poss
+uomo	NOM
+,	PON
+come	CON
+mostrano	VER:pres
+alcuni	PRO:indef
+riscontri	NOM
+linguistici	ADJ
+

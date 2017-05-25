@@ -1,0 +1,23 @@
+Ripristino	NOM
+della	PRE:det
+sequenza	NOM
+delle	PRE:det
+battute	ADJ
+data	NOM
+dalla	PRE:det
+tradizione	NOM
+manoscritta	ADJ
+a	PRE
+fronte	NOM
+delle	PRE:det
+numerose	ADJ
+proposte	NOM
+di	PRE
+ridistribuzione	NOM
+avanzate	VER:pper
+dal	PRE:det
+17°	NOM
+s.	NOM
+in	PRE
+poi	ADV
+

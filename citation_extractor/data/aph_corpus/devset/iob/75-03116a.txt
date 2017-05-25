@@ -1,0 +1,35 @@
+Le	DET:ART
+très	ADV
+petit	ADJ
+fragment	NOM
+d'	PRP
+un	DET:ART
+dessin	NOM
+faisant	VER:ppre
+partie	NOM
+de	PRP
+PPrag	NOM
+.	SENT
+
+Gr.	ABR
+4	NUM
+,	PUN
+118	NUM
+,	PUN
+papyrus	NOM
+probablement	ADV
+magique	ADJ
+,	PUN
+pourrait	VER:cond
+représenter	VER:infi
+la	DET:ART
+queue	NOM
+d'	PRP
+un	DET:ART
+scorpion	NOM
+ou	KON
+d'	PRP
+un	DET:ART
+serpent	NOM
+.	SENT
+

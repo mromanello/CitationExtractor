@@ -1,0 +1,7 @@
+T1	REFAUWORK 121 139	(De Spiritu Sancto
+T2	REFSCOPE 140 147	2, 1-19
+T3	REFAUWORK 151 157	Epist.
+T4	REFSCOPE 158 162	62).
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R2	urn:cts:cwkb:897.2630:62

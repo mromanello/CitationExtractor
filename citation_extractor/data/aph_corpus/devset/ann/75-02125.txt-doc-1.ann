@@ -1,0 +1,6 @@
+T1	AAUTHOR 141 161	Grégoire de Nazianze
+T2	REFAUWORK 193 197	(Or.
+T3	REFSCOPE 198 201	39)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:443.950:39
+#1	AnnotatorNotes T1	urn:cts:cwkb:896

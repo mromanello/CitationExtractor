@@ -1,0 +1,16 @@
+Atomisme	NOM
+antique	ADJ
+et	KON
+science	NOM
+moderne	ADJ
+.	SENT
+
+P.	ABR
+91-98	NUM
+:	PUN
+version	NOM
+abrégée	VER:pper
+en	PRP
+grec	ADJ
+moderne	NOM
+

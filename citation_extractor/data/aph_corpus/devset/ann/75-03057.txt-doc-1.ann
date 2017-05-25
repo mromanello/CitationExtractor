@@ -1,0 +1,8 @@
+T1	AAUTHOR 212 219	Lucrèce
+T2	AWORK 290 305	« Magna Mater »
+T3	REFSCOPE 306 313	(2, 581
+T4	AAUTHOR 464 471	Lucrèce
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes T4	urn:cts:cwkb:528
+#1	AnnotatorNotes T2	urn:cts:cwkb:766.1651
+#2	AnnotatorNotes T1	urn:cts:cwkb:528

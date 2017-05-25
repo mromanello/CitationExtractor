@@ -1,0 +1,8 @@
+T1	REFAUWORK 12 20	De anima
+T2	REFSCOPE 21 27	41, 1,
+T3	AAUTHOR 81 91	Tertullien
+T4	AAUTHOR 354 364	Tertullien
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:981.3377:41.1
+#1	AnnotatorNotes T4	urn:cts:cwkb:2390
+#2	AnnotatorNotes T3	urn:cts:cwkb:2390

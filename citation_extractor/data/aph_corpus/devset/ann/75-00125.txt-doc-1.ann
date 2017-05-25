@@ -1,0 +1,8 @@
+T1	AAUTHOR 23 33	Alessandro
+T2	AAUTHOR 91 104	Elio Aristide
+T3	REFAUWORK 105 109	(Or.
+T4	REFSCOPE 110 113	32)
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:443.950:32
+#1	AnnotatorNotes T2	urn:cts:greekLit:tlg0284
+#2	AnnotatorNotes T1	urn:cts:cwkb:1397

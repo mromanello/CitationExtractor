@@ -1,0 +1,6 @@
+T1	REFAUWORK 95 108	Silio Italico
+T2	REFSCOPE 109 112	14,
+T3	AWORK 171 182	« Verrine »
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:630.1310:14
+#1	AnnotatorNotes T3	urn:cts:latinLit:phi0474.phi005

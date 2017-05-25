@@ -1,0 +1,26 @@
+Nota	NC
+necrológica	ADJ
+de	PREP
+quien	REL
+,	CM
+en	PREP
+calidad	NC
+de	PREP
+miembro	NC
+del	PDEL
+Instituto	NC
+de	PREP
+Agustinología	NC
+OAR	NP
+,	CM
+tradujo	VLfin
+y	CC
+publicó	VLfin
+algunas	QU
+obras	NC
+de	PREP
+Agustín	NP
+en	PREP
+lengua	NC
+portuguesa	ADJ
+

@@ -1,0 +1,23 @@
+21	CD
+notes	VBZ
+on	IN
+«	)
+Hercules	NP
+Oetaeus	NP
+»	(
+;	:
+4	LS
+notes	VBZ
+on	IN
+«	)
+Agamemnon	NP
+»	(
+;	:
+4	LS
+notes	VBZ
+on	IN
+«	)
+Thyestes	NP
+»	(
+.	SENT
+

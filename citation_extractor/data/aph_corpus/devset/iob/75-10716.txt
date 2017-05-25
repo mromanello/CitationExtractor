@@ -1,0 +1,25 @@
+La	DET:ART
+construction	NOM
+de	PRP
+routes	NOM
+jouait	VER:impf
+dans	PRP
+le	DET:ART
+monde	NOM
+romain	ADJ
+un	DET:ART
+important	ADJ
+rôle	NOM
+politique	ADJ
+et	KON
+était	VER:impf
+l'	DET:ART
+expression	NOM
+symbolique	ADJ
+de	PRP
+la	DET:ART
+puissance	NOM
+de	PRP
+l'	DET:ART
+État	NAM
+

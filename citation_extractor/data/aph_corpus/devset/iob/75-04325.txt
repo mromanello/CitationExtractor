@@ -1,0 +1,15 @@
+Considerations	NNS
+on	IN
+the	DT
+identification	NN
+of	IN
+the	DT
+Greek	JJ
+original	NN
+with	IN
+Alexis	NP
+'	POS
+«	)
+Karkhedonios	NP
+»	(
+

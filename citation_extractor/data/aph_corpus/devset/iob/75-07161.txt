@@ -1,0 +1,24 @@
+Analisi	NOM
+della	PRE:det
+sovrapposizione	NOM
+linguistica	ADJ
+,	PON
+sul	PRE:det
+piano	NOM
+sia	VER:cpre
+grammaticale	ADJ
+sia	CON
+semantico	ADJ
+,	PON
+tra	PRE
+il	DET:def
+lessico	NOM
+monetale	ADJ
+e	CON
+quello	PRO:demo
+dei	PRE:det
+vasi	NOM
+nel	PRE:det
+mondo	NOM
+greco	ADJ
+

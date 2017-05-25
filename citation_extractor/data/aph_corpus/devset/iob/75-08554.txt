@@ -1,0 +1,19 @@
+Resoconto	NOM
+dello	PRE:det
+stato	NOM
+delle	PRE:det
+ricerche	NOM
+nell'	PRE:det
+ambito	NOM
+del	PRE:det
+progetto	NOM
+«	PON
+La	VER:geru
+cultura	NOM
+dell'	PRE:det
+acqua	NOM
+a	PRE
+Villa	NOM
+Adriana	NOM
+»	PON
+

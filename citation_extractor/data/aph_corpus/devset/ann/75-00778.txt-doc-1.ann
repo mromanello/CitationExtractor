@@ -1,0 +1,8 @@
+T1	AAUTHOR 31 37	Ateneo
+T2	REFAUWORK 94 98	(Pr.
+T3	REFSCOPE 99 104	293s.
+T4	AAUTHOR 253 259	Ateneo
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:766.1662:293
+#1	AnnotatorNotes T4	urn:cts:cwkb:1173
+#2	AnnotatorNotes T1	urn:cts:cwkb:1173

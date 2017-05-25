@@ -1,0 +1,8 @@
+T1	AAUTHOR 253 262	Cicero 's
+T2	AWORK 263 277	« De finibus »
+T3	AAUTHOR 282 291	Seneca 's
+T4	AWORK 292 316	« Letters to Lucilius ».
+#0	AnnotatorNotes T4	urn:cts:cwkb:620.1288
+#1	AnnotatorNotes T2	urn:cts:cwkb:431.912
+#2	AnnotatorNotes T3	urn:cts:cwkb:620
+#3	AnnotatorNotes T1	urn:cts:cwkb:431

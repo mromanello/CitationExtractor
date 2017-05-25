@@ -1,0 +1,45 @@
+Fragments	NOM
+d'	PRP
+os	NOM
+travaillés	VER:pper
+et	KON
+ornés	VER:pper
+,	PUN
+découverts	VER:pper
+en	PRP
+1991	NUM
+dans	PRP
+la	DET:ART
+nécropole	NOM
+de	PRP
+Mortara	NAM
+.	SENT
+
+Ils	PRO:PER
+appartenaient	VER:impf
+à	PRP
+un	DET:ART
+lit	NOM
+funéraire	ADJ
+brûlé	VER:pper
+sur	PRP
+un	DET:ART
+bûcher	NOM
+,	PUN
+selon	PRP
+un	DET:ART
+usage	NOM
+répandu	VER:pper
+au	PRP:det
+nord	NOM
+du	PRP:det
+Pô	NOM
+au	PRP:det
+1er	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+

@@ -1,0 +1,10 @@
+Concerne	VER:pres
+notamment	ADV
+les	DET:ART
+périodes	NOM
+hellénistique	ADJ
+,	PUN
+romaine	ADJ
+et	KON
+byzantine	ADJ
+

@@ -1,0 +1,21 @@
+Giovenco	NOM
+riprende	VER:pres
+il	DET:def
+topos	NOM
+delle	PRE:det
+due	ADJ
+vie	NOM
+,	PON
+recuperando	VER:geru
+,	PON
+sulla	PRE:det
+scia	NOM
+di	PRE
+Lattanzio	NOM
+,	PON
+il	DET:def
+portato	NOM
+della	PRE:det
+tradizione	NOM
+classica	ADJ
+

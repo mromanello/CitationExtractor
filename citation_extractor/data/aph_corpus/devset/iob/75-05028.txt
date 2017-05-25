@@ -1,0 +1,20 @@
+Ya	ADV
+desde	PREP
+el	ART
+primer	ORD
+retrato	NC
+,	CM
+se	SE
+prefería	VLfin
+representar	VLinf
+a	PREP
+Sófocles	NP
+como	CSUBX
+ciudadano	NC
+heroizado	ADJ
+,	CM
+y	CC
+no	NEG
+como	CSUBX
+poeta	NC
+

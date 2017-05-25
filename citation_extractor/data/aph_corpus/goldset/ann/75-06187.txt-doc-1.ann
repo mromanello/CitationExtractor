@@ -1,0 +1,8 @@
+T1	AWORK 24 34	« Eneida »
+T2	AWORK 342 353	« Eneida ».
+T3	REFAUWORK 558 564	Eneida
+T4	REFSCOPE 565 576	5, 115-285.
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:5.115-5.285
+#1	AnnotatorNotes T2	urn:cts:latinLit:phi0690.phi003
+#2	AnnotatorNotes T1	urn:cts:latinLit:phi0690.phi003

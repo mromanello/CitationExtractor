@@ -1,0 +1,33 @@
+Descripción	NC
+de	PREP
+dos	CARD
+impresos	VLadj
+italianos	ADJ
+del	PDEL
+s.	NC
+16	CARD
+conservados	VLadj
+en	PREP
+la	ART
+Biblioteca	NC
+Pública	NC
+de	PREP
+Córdoba	NP
+.	FS
+
+Se	SE
+acompañan	VLfin
+los	ART
+datos	NC
+relativos	ADJ
+a	PREP
+su	PPO
+contenido	NC
+y	CC
+al	PAL
+medio	NC
+en	PREP
+que	CQUE
+aparecen	VLfin
+.	FS
+

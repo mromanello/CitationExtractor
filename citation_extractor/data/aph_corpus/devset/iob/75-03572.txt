@@ -1,0 +1,18 @@
+Descrizione	NOM
+del	PRE:det
+ms.	NOM
+,	PON
+contenente	VER:ppre
+ai	PRE:det
+f.	NOM
+39r-76r	NOM
+le	DET:def
+opere	NOM
+di	PRE
+Paciano	NOM
+,	PON
+ed	CON
+edizione	NOM
+delle	PRE:det
+varianti	NOM
+

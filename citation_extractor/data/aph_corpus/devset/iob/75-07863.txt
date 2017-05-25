@@ -1,0 +1,45 @@
+Trouvée	VER:pper
+en	PRP
+1983	NUM
+par	PRP
+des	PRP:det
+soldats	NOM
+.	SENT
+
+Tombe	NOM
+en	PRP
+chambre	NOM
+avec	PRP
+trois	NUM
+niches	NOM
+et	KON
+un	DET:ART
+sarcophage	NOM
+,	PUN
+ayant	VER:ppre
+accueilli	VER:pper
+trois	NUM
+ensevelissements	NOM
+entre	PRP
+325	NUM
+av	NOM
+.	SENT
+
+et	KON
+150	NUM
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+
+Les	DET:ART
+monnaies	NOM
+retrouvées	VER:pper
+vont	VER:pres
+d'	PRP
+Antigone	NAM
+Ier	NUM
+à	PRP
+Claude	NAM
+.	SENT
+

@@ -1,0 +1,37 @@
+Der	ART
+in	APPR
+der	ART
+«	$(
+Metaphysik	NN
+»	$(
+entwickelte	VVFIN
+aristotelische	ADJA
+Substanzbegriff	NN
+spielt	VVFIN
+eine	ART
+wesentliche	ADJA
+Rolle	NN
+beim	APPRART
+Aufbau	NN
+der	ART
+Ontologie	NN
+der	ART
+Quantenwelt	NN
+.	$.
+
+Realistische	ADJA
+Interpretationen	NN
+der	ART
+Quantentheorie	NN
+sind	VAFIN
+genau	ADJD
+diejenigen	PDS
+,	$,
+welche	PRELS
+die	ART
+Existenz	NN
+aristotelischer	ADJA
+Substanzen	NN
+implizieren	VVFIN
+.	$.
+

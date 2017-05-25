@@ -1,0 +1,27 @@
+Actes	NOM
+de	PRP
+la	DET:ART
+journée	NOM
+d'	PRP
+étude	NOM
+qui	PRO:REL
+a	VER:pres
+eu	VER:pper
+lieu	NOM
+à	PRP
+l'	DET:ART
+université	NOM
+Paul-Valéry	NAM
+(	PUN
+Montpellier	NAM
+)	PUN
+en	PRP
+octobre	NOM
+2003.	SENT
+
+Dépouillé	VER:pper
+dans	PRP
+le	DET:ART
+tome	NOM
+75	NUM
+

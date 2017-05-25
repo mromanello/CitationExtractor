@@ -1,0 +1,14 @@
+Concerne	VER:pres
+soprattutto	ADV
+le	DET:def
+testimonianze	NOM
+del	PRE:det
+4°	NOM
+e	CON
+5°	NOM
+secolo	NOM
+,	PON
+peraltro	ADV
+non	ADV
+abbondanti	ADJ
+

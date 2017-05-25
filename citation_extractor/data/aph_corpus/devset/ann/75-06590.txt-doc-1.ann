@@ -1,0 +1,9 @@
+T1	AAUTHOR 6 15	Gellius '
+T2	REFAUWORK 115 129	Seneca, epist.
+T3	REFSCOPE 130 134	8, 1
+T4	REFSCOPE 290 305	(10, 3, 26-27).
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:1094.3918:8.1
+#1	AnnotatorNotes R2	urn:cts:cwkb:1094.3918:10.3.26-10.3.27
+#2	AnnotatorNotes T1	urn:cts:cwkb:2406

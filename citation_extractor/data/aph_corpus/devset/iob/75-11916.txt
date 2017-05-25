@@ -1,0 +1,16 @@
+Raccolta	NOM
+ed	CON
+esame	NOM
+delle	PRE:det
+fonti	NOM
+epigrafiche	ADJ
+e	CON
+letterarie	ADJ
+relative	ADJ
+alle	PRE:det
+tre	ADJ
+epiclesi	NOM
+attiche	ADJ
+di	PRE
+Artemide	NOM
+

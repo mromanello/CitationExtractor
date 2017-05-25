@@ -1,0 +1,13 @@
+Sobre	PREP
+el	ART
+origen	NC
+y	CC
+difusión	NC
+del	PDEL
+mito	NC
+del	PDEL
+andrógino	VLfin
+en	PREP
+la	ART
+Antigüedad	NC
+

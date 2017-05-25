@@ -1,0 +1,23 @@
+Una	DET:indef
+lettura	NOM
+non	ADV
+polemica	ADJ
+dell'	PRE:det
+epistola	NOM
+giovannea	ADJ
+è	VER:pres
+favorita	VER:pper
+dal	PRE:det
+confronto	NOM
+tra	PRE
+le	DET:def
+«	PON
+Lettere	NOM
+»	PON
+di	PRE
+Giovanni	NPR
+e	CON
+il	DET:def
+suo	PRO:poss
+Vangelo	NOM
+

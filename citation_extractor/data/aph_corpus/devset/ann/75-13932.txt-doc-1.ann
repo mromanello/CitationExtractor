@@ -1,0 +1,8 @@
+T1	REFAUWORK 149 162	Virgile, Aen.
+T2	REFSCOPE 163 169	7, 636
+T3	REFAUWORK 173 179	Florus
+T4	REFSCOPE 180 184	2, 8
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:3103.9553:7.636
+#1	AnnotatorNotes R2	urn:cts:cwkb:472:2.8

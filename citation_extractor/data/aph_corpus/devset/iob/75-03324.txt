@@ -1,0 +1,36 @@
+Der	ART
+Autor	NN
+bedient	VVFIN
+sich	PRF
+onomastischer	ADJA
+«	$(
+flosculi	NE
+»	$(
+und	KON
+der	ART
+rhetorischen	ADJA
+«	$(
+amplificatio	ADJA
+»	$(
+.	$.
+
+Sein	PPOSAT
+Werk	NN
+ist	VAFIN
+für	APPR
+die	ART
+Kenntnis	NN
+spätantiker	ADJA
+rhetorischer	ADJA
+Techniken	NN
+,	$,
+aber	KON
+auch	ADV
+der	ART
+Ethnographie	NN
+zu	APPR
+den	ART
+Germanen	NN
+bedeutsam	ADJD
+.	$.
+

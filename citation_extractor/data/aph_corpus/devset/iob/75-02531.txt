@@ -1,0 +1,29 @@
+Le	DET:ART
+récit	NOM
+des	PRP:det
+épreuves	NOM
+d'	PRP
+Ulysse	NAM
+s'	PRO:PER
+articule	VER:pres
+logiquement	ADV
+avec	PRP
+la	DET:ART
+«	PUN:cit
+Télémaquie	NAM
+»	PUN:cit
+,	PUN
+partie	NOM
+intégrante	ADJ
+de	PRP
+l'	DET:ART
+«	PUN:cit
+Odyssée	NAM
+»	PUN:cit
+.	SENT
+
+Pour	PRP
+3	NUM
+=>	ABR
+75-02530	NUM
+

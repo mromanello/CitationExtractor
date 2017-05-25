@@ -1,0 +1,14 @@
+In	PRE
+particolare	NOM
+sul	PRE:det
+consumo	NOM
+del	PRE:det
+vino	NOM
+e	CON
+sulle	PRE:det
+tecniche	NOM
+di	PRE
+miscelazione	NOM
+con	PRE
+acqua	NOM
+

@@ -1,0 +1,16 @@
+Archéologue	NOM
+italien	ADJ
+d'	PRP
+origine	NOM
+princière	ADJ
+(	PUN
+Otto	NAM
+von	NAM
+Hessen	NAM
+)	PUN
+,	PUN
+spécialiste	NOM
+du	PRP:det
+haut	ADJ
+Moyen-Âge	NAM
+

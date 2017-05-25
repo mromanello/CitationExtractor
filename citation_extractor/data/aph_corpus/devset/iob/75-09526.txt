@@ -1,0 +1,22 @@
+Riflessioni	NOM
+metodologiche	ADJ
+su	PRE
+questo	PRO:demo
+progetto	NOM
+di	PRE
+ricerca	NOM
+ed	CON
+esempi	NOM
+concernenti	VER:ppre
+la	DET:def
+rappresentazione	NOM
+di	PRE
+cavalieri	NOM
+su	PRE
+monete	NOM
+greche	ADJ
+,	PON
+macedoni	ADJ
+e	CON
+romane	ADJ
+

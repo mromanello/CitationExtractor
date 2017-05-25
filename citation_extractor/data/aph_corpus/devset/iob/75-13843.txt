@@ -1,0 +1,17 @@
+P.	ABR
+100-102	NUM
+:	PUN
+«	PUN:cit
+L'	DET:ART
+ail	NOM
+,	PUN
+l'	DET:ART
+oignon	NOM
+et	KON
+la	DET:ART
+calebasse	NOM
+en	PRP
+Égypte	NAM
+gréco-romaine	ADJ
+»	PUN:cit
+

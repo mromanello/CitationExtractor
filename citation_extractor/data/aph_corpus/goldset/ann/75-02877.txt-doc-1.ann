@@ -1,0 +1,15 @@
+T1	AAUTHOR 136 142	Justin
+T2	REFSCOPE 143 157	(43, 4, 3-12).
+T4	REFAUWORK 801 808	(Justin
+T5	REFSCOPE 809 815	43, 5)
+T6	AAUTHOR 935 942	Procope
+T7	REFAUWORK 943 951	(Guerres
+T8	REFSCOPE 952 965	2, 28, 31-37)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T7 Arg2:T8
+#0	AnnotatorNotes R1	urn:cts:cwkb:1366.4414:43.4.3-43.4.12
+#1	AnnotatorNotes R2	urn:cts:cwkb:1366.4414:43.5
+#2	AnnotatorNotes T6	urn:cts:greekLit:tlg4029
+#4	AnnotatorNotes T1	urn:cts:cwkb:872
+#3	AnnotatorNotes R3	urn:cts:greekLit:tlg4029.tlg001:2.28.31-2.28.37

@@ -1,0 +1,31 @@
+Signalement	NOM
+de	PRP
+manuscrits	NOM
+enluminés	VER:pper
+(	PUN
+11e-13e	VER:pres
+s.	VER:pper
+)	PUN
+,	PUN
+surtout	ADV
+néotestamentaires	ADJ
+ou	KON
+liturgiques	ADJ
+.	SENT
+
+À	PRP
+noter	VER:infi
+aussi	ADV
+les	DET:ART
+«	PUN:cit
+Discours	NAM
+»	PUN:cit
+de	PRP
+Grégoire	NAM
+de	PRP
+Nazianze	NAM
+avec	PRP
+scholies	NOM
+du	PRP:det
+Pseudo-Nonnos	NOM
+

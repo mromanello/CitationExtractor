@@ -1,0 +1,15 @@
+Concerne	VER:pres
+notamment	ADV
+l'	DET:ART
+invasion	NOM
+sassanide	ADJ
+de	PRP
+540	NUM
+et	KON
+la	DET:ART
+peste	NOM
+justinienne	ADJ
+(	PUN
+541-542	NUM
+)	PUN
+

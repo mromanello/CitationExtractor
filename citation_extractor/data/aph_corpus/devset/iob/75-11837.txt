@@ -1,0 +1,16 @@
+Mit	APPR
+dem	ART
+Begriff	NN
+«	$(
+Witwe	NN
+»	$(
+wird	VAFIN
+eine	ART
+theologische	ADJA
+Tradition	NN
+der	ART
+hellenistisch-jüdischen	ADJA
+Weisheitsbewegung	NN
+weitergeführt	VVPP
+.	$.
+

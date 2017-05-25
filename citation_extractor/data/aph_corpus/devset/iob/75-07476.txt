@@ -1,0 +1,28 @@
+Notizie	NOM
+bibliografiche	ADJ
+su	PRE
+paleografia	NOM
+e	CON
+papirologia	NOM
+concernenti	VER:ppre
+numerosi	ADJ
+contributi	NOM
+del	PRE:det
+2004	NUM
+,	PON
+con	PRE
+addenda	VER:impe
+per	PRE
+gli	DET:def
+anni	NOM
+1999-2003	NUM
+.	SENT
+
+P.	ABR
+97	NUM
+:	PON
+indice	NOM
+dei	PRE:det
+manoscritti	NOM
+citati	VER:pper
+

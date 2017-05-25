@@ -1,0 +1,7 @@
+Auch	ADV
+im	APPRART
+Griechischen	NN
+und	KON
+Lateinischen	NN
+.	$.
+

@@ -1,0 +1,25 @@
+Ricostruzione	NOM
+della	PRE:det
+biografia	NOM
+e	CON
+dell'	PRE:det
+attività	NOM
+letteraria	ADJ
+,	PON
+parallela	ADJ
+al	PRE:det
+lavoro	NOM
+di	PRE
+copia	NOM
+(	PON
+1483-1519	NUM
+)	PON
+.	SENT
+
+Elenco	NOM
+dei	PRE:det
+codici	NOM
+copiati	VER:pper
+e	CON
+annotati	VER:pper
+

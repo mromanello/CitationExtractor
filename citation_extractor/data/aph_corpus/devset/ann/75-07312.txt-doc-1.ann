@@ -1,0 +1,6 @@
+T1	AAUTHOR 22 28	Ovide,
+T2	REFAUWORK 29 34	fast.
+T3	REFSCOPE 35 46	3, 285-390,
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:568.1162:3.285-3.390
+#1	AnnotatorNotes T1	urn:cts:cwkb:568

@@ -1,0 +1,32 @@
+Commencés	VER:pper
+en	PRP
+1996	NUM
+,	PUN
+les	DET:ART
+travaux	NOM
+concernent	VER:pres
+le	DET:ART
+territoire	NOM
+d'	PRP
+Uxentum/Ugento	NAM
+et	KON
+se	PRO:PER
+sont	VER:pres
+développés	VER:pper
+au	PRP:det
+sud-ouest	NOM
+d'	PRP
+une	DET:ART
+ligne	NOM
+Presicce-Ugento	NAM
+.	SENT
+
+Ils	PRO:PER
+concernent	VER:pres
+surtout	ADV
+la	DET:ART
+culture	NOM
+italique	ADJ
+des	PRP:det
+Messapiens	NAM
+

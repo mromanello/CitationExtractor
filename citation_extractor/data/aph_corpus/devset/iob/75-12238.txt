@@ -1,0 +1,10 @@
+In	APPR
+der	ART
+Gesetzgebung	NN
+seit	APPR
+dem	ART
+4.	ADJA
+
+Jh	NE
+.	$.
+

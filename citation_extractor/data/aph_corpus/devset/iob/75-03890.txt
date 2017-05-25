@@ -1,0 +1,83 @@
+Anhand	APPR
+von	APPR
+Pindars	NN
+erster	ADJA
+Pythischer	NN
+Ode	NN
+werden	VAFIN
+exemplarisch	ADJD
+folgende	ADJA
+Thesen	NN
+untermauert	VVPP
+:	$.
+1.	ADV
+
+Die	ART
+chorlyrische	ADJA
+Metrik	NN
+stammt	VVFIN
+aus	APPR
+dem	ART
+archaischen	ADJA
+Kultur-	TRUNC
+und	KON
+Literatur-	TRUNC
+bzw	VVFIN
+.	$.
+
+Dichterzentrum	NN
+Lesbos	NN
+.	$.
+
+2.	ADV
+
+Die	ART
+chorlyrische	ADJA
+Kunstsprache	NN
+erklärt	VVFIN
+sich	PRF
+dadurch	PAV
+,	$,
+dass	KOUS
+eine	ART
+lesbisch-äolische	ADJA
+Sprachschicht	NN
+im	APPRART
+Zeichen	NN
+einer	ART
+Internationalisierung	NN
+der	ART
+Gattung	NN
+und	KON
+wohl	ADV
+auch	ADV
+unter	APPR
+dem	ART
+Einfluss	NN
+der	ART
+homerischen	ADJA
+Dichtung	NN
+teilweise	ADV
+und	KON
+in	APPR
+unterschiedlichem	ADJA
+Ausmass	NN
+mit	APPR
+Ionismen	NN
+durchsetzt	VVPP
+wurde	VAFIN
+.	$.
+
+3.	ADJA
+
+Die	ART
+Epinikien	NN
+haben	VAFIN
+sich	PRF
+aus	APPR
+der	ART
+Hymnentradition	NN
+heraus	ADV
+entwickelt	VVPP
+.	$.
+

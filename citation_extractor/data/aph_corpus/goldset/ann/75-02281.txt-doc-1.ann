@@ -1,0 +1,13 @@
+T1	AAUTHOR 77 83	Vergil
+T2	REFAUWORK 84 89	(Ecl.
+T3	REFSCOPE 90 99	6, 69-71)
+T4	AAUTHOR 218 224	Hesiod
+T5	REFSCOPE 241 246	26-28
+T6	AWORK 251 264	« Theogonie »
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T6 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi001:6.69-6.71
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0020.tlg001:26-28
+#2	AnnotatorNotes T6	urn:cts:greekLit:tlg0020.tlg001
+#3	AnnotatorNotes T4	urn:cts:greekLit:tlg0020
+#4	AnnotatorNotes T1	urn:cts:latinLit:phi0690

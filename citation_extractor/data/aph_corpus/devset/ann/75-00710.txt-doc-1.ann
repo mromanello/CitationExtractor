@@ -1,0 +1,4 @@
+T1	REFAUWORK 99 105	Physik
+T2	REFSCOPE 106 122	2, 1, 193b 20-23
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:766.1657:2.1.193

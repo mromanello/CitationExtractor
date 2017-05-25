@@ -1,0 +1,19 @@
+Sviluppo	NOM
+di	PRE
+un	DET:indef
+ambiente	NOM
+di	PRE
+lavoro	NOM
+che	PRO:rela
+permetta	VER:cpre
+di	PRE
+utilizzare	VER:infi
+immagini	NOM
+digitali	ADJ
+per	PRE
+l'	DET:def
+ecdotica	ADJ
+di	PRE
+testi	NOM
+antichi	ADJ
+

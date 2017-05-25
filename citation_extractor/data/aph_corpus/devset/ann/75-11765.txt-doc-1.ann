@@ -1,0 +1,10 @@
+T1	REFAUWORK 7 11	(Or.
+T2	REFSCOPE 12 14	10
+T3	AAUTHOR 43 49	Celsus
+T4	REFAUWORK 61 74	Origen, Cels.
+T5	REFSCOPE 75 82	3, 59),
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:443.950:10
+#1	AnnotatorNotes R2	urn:cts:cwkb:1014.3444:3.59
+#2	AnnotatorNotes T3	urn:cts:cwkb:429

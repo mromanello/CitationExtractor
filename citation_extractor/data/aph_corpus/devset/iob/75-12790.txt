@@ -1,0 +1,23 @@
+Vom	APPRART
+späten	ADJA
+2.	ADJA
+
+Jh	NE
+.	$.
+
+v.	APPRART
+Chr.	NE
+bis	KON
+zur	APPRART
+Schlacht	NN
+von	APPR
+Actium	NN
+und	KON
+der	ART
+daraus	PAV
+resultierenden	ADJA
+Neuordnung	NN
+des	ART
+Ostens	NN
+.	$.
+

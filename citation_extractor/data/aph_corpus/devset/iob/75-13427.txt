@@ -1,0 +1,31 @@
+Obwohl	KOUS
+die	ART
+Juristenschriften	NN
+und	KON
+die	ART
+frühen	ADJA
+Kaisergesetze	NN
+seit	APPR
+dem	ART
+3.	ADJA
+
+Jh	NE
+.	$.
+in	APPR
+Vergessenheit	NN
+zu	PTKZU
+geraten	VVINF
+drohten	VVFIN
+,	$,
+haben	VAFIN
+sie	PPER
+für	APPR
+die	ART
+Gesetzgebung	NN
+und	KON
+Fachliteratur	NN
+der	ART
+Spätantike	ADJA
+Leitbildcharakter	NN
+.	$.
+

@@ -1,0 +1,10 @@
+T1	AWORK 33 60	« Acts of Paul and Thecla »
+T2	AWORK 96 114	« Acts of Thecla »
+T3	AAUTHOR 337 350	Tertullian 's
+T4	REFAUWORK 351 356	Bapt.
+T5	REFSCOPE 357 364	17, 4-5
+T6	AWORK 456 472	« Acts of Paul »
+R1	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:784.1804:17.4-17.5
+#1	AnnotatorNotes T6	urn:cts:cwkb:2388.8675
+#2	AnnotatorNotes T3	urn:cts:cwkb:2390

@@ -1,0 +1,11 @@
+Cronaca	NOM
+del	PRE:det
+convegno	NOM
+.	SENT
+
+Per	PRE
+il	DET:def
+precedente	ADJ
+=>	NOM
+74-16610	NUM
+

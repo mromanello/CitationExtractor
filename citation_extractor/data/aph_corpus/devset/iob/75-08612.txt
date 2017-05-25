@@ -1,0 +1,15 @@
+Finds	NNS
+include	VBP
+a	DT
+broad	JJ
+range	NN
+of	IN
+pottery	NN
+,	,
+some	DT
+from	IN
+the	DT
+Hellenistic	JJ
+period	NN
+.	SENT
+

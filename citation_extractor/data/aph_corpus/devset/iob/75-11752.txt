@@ -1,0 +1,26 @@
+Discute	VER:pres
+la	DET:ART
+nature	NOM
+grecque	ADJ
+ou	KON
+illyrienne	ADJ
+des	PRP:det
+divinités	NOM
+représentées	VER:pper
+sur	PRP
+quelques	PRO:IND
+types	NOM
+de	PRP
+monnaies	NOM
+des	PRP:det
+3e	NUM
+et	KON
+2e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+

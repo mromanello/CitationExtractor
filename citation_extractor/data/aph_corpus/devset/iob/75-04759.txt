@@ -1,0 +1,16 @@
+Su	NP
+Sall.	NP
+hist.	NP
+2	CD
+,	,
+23	CD
+;	:
+2	CD
+,	,
+25-26	CD
+;	:
+3	CD
+,	,
+48	CD
+Maurenbrecher	NP
+

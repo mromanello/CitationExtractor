@@ -1,0 +1,6 @@
+T1	AAUTHOR 0 9	Plutarque
+T2	REFAUWORK 10 15	(Lyc.
+T3	REFSCOPE 16 21	18, 1
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0030.tlg002:18.1
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0007

@@ -1,0 +1,33 @@
+A partir de	PREP
+los	ART
+fragmentos	NC
+conservados	VLadj
+de	PREP
+la	ART
+obra	NC
+de	PREP
+Celso	NC
+,	CM
+se	SE
+reconstruyen	VLfin
+los	ART
+argumentos	NC
+utilizados	VLadj
+por	PREP
+los	ART
+cristianos	ADJ
+del	PDEL
+s.	NC
+2°	NC
+para	CSUBI
+defender	VLinf
+su	PPO
+doctrina	NC
+y	CC
+las	ART
+objeciones	NC
+planteadas	VLadj
+por	PREP
+Celso	NP
+.	FS
+

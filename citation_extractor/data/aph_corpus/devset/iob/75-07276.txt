@@ -1,0 +1,11 @@
+Cf	NOM
+.	SENT
+
+l'	DET:ART
+article	NOM
+de	PRP
+l'	DET:ART
+auteur	NOM
+noté	VER:pper
+73-04039	NUM
+

@@ -1,0 +1,31 @@
+L'	DET:ART
+effort	NOM
+d'	PRP
+apologétique	NOM
+«	PUN:cit
+ad	ADV
+extra	ADJ
+»	PUN:cit
+et	KON
+«	PUN:cit
+ad	ADV
+intra	NOM
+»	PUN:cit
+.	SENT
+
+La	DET:ART
+dimension	NOM
+christologique	ADJ
+.	SENT
+
+La	DET:ART
+dimension	NOM
+sotériologique	ADJ
+.	SENT
+
+La	DET:ART
+dimension	NOM
+mystérique	ADJ
+et	KON
+existentielle	ADJ
+

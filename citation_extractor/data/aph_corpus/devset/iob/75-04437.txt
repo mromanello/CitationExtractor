@@ -1,0 +1,15 @@
+L'	DET:def
+«	PON
+exemplum	NOM
+»	PON
+della	PRE:det
+statuaria	NOM
+come	PRE
+compendio	NOM
+visivo	ADJ
+del	PRE:det
+pensiero	NOM
+di	PRE
+Plotino	NOM
+.	SENT
+

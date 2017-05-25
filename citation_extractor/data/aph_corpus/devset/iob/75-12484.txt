@@ -1,0 +1,11 @@
+Sur	PRP
+les	DET:ART
+cadres	NOM
+de	PRP
+la	DET:ART
+vie	NOM
+culturelle	ADJ
+dans	PRP
+Antioche	NAM
+chrétienne	ADJ
+

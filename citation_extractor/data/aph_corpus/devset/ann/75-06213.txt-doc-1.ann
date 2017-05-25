@@ -1,0 +1,6 @@
+T1	REFAUWORK 39 45	Theoc.
+T2	REFSCOPE 46 47	2
+T3	AWORK 275 285	« Eneide »
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0005:2
+#1	AnnotatorNotes T3	urn:cts:latinLit:phi0690.phi003

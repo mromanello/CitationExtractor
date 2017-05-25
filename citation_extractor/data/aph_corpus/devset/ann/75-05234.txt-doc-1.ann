@@ -1,0 +1,4 @@
+T1	REFAUWORK 303 308	(Ann.
+T2	REFSCOPE 309 315	3, 31)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:467.985:3.31

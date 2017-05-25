@@ -1,0 +1,26 @@
+Bilan	NOM
+des	PRP:det
+recherches	NOM
+en	PRP
+cours	NOM
+sur	PRP
+le	DET:ART
+mobilier	NOM
+du	PRP:det
+2e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+au	PRP:det
+5e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+

@@ -1,0 +1,21 @@
+Semblanza	NC
+y	CC
+bibliografía	NC
+del	PDEL
+historiador	NC
+P.	NP
+Goubert	NP
+(	LP
+†	NC
+1967	CODE
+)	RP
+,	CM
+especialista	NC
+en	PREP
+historia	NC
+bizantina	ADJ
+y	CC
+arqueología	NC
+cristiana	ADJ
+.	FS
+

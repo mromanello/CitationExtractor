@@ -1,0 +1,25 @@
+Examen	NOM
+de	PRP
+5	NUM
+de	PRP
+ces	PRO:DEM
+armes	NOM
+(	PUN
+=>	ABR
+74-16578	NUM
+)	PUN
+,	PUN
+d'	PRP
+assez	ADV
+basse	ADJ
+qualité	NOM
+,	PUN
+produites	VER:pper
+rapidement	ADV
+et	KON
+certaines	PRO:IND
+pour	PRP
+un	DET:ART
+usage	NOM
+unique	ADJ
+

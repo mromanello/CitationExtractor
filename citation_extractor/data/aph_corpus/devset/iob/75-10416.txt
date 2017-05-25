@@ -1,0 +1,27 @@
+Sur	PRP
+le	DET:ART
+fonctionnement	NOM
+de	PRP
+la	DET:ART
+justice	NOM
+démocratique	ADJ
+athénienne	ADJ
+,	PUN
+fondée	VER:pper
+sur	PRP
+le	DET:ART
+tirage	NOM
+au	PRP:det
+sort	NOM
+des	PRP:det
+juges	NOM
+et	KON
+leur	DET:POS
+affectation	NOM
+aléatoire	ADJ
+à	PRP
+telle	PRO:DEM
+ou	KON
+telle	PRO:DEM
+affaire	NOM
+

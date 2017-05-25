@@ -1,0 +1,20 @@
+Sur	PRP
+les	DET:ART
+objets	NOM
+précieux	ADJ
+détenus	VER:pper
+dans	PRP
+les	DET:ART
+églises	NOM
+,	PUN
+parfois	ADV
+objets	NOM
+de	PRP
+pèlerinages	NOM
+,	PUN
+documentés	VER:pper
+par	PRP
+la	DET:ART
+littérature	NOM
+ecclésiastique	ADJ
+

@@ -1,0 +1,6 @@
+Ricordo	NOM	O
+dello	PRE:det	O
+studioso	NOM	O
+(	PON	O
+1920-2004	NUM	O
+)	PON	O

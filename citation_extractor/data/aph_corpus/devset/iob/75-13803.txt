@@ -1,0 +1,27 @@
+Zu	APPR
+Schiffs-	TRUNC
+und	KON
+Bootsformen	NN
+allgemein	ADJD
+,	$,
+zu	APPR
+Einbäumen	NN
+und	KON
+Lastkähnen	NN
+sowie	KON
+zur	APPRART
+Schiffbarkeit	NN
+ostalpiner	ADJA
+Flüsse	NN
+insbesondere	ADV
+am	APPRART
+Beispiel	NN
+der	ART
+Save	ADJA
+,	$,
+auch	ADV
+anhand	APPR
+der	ART
+antiken	ADJA
+Nachrichten	NN
+

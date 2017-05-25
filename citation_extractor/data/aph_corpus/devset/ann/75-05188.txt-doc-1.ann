@@ -1,0 +1,7 @@
+T1	REFAUWORK 42 48	(Hist.
+T2	REFSCOPE 49 56	2, 78),
+T3	REFAUWORK 122 132	Vespasiano
+T4	REFSCOPE 133 137	5, 6
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:639.1329:2.78

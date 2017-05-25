@@ -1,0 +1,53 @@
+M.	NOM
+(	PUN
+?	SENT
+)	PUN
+Ulpius	NAM
+Saturninus	NAM
+,	PUN
+affranchi	VER:pper
+de	PRP
+Trajan	NAM
+et	KON
+procurateur	NOM
+de	PRP
+Dacie	NOM
+inférieure	ADJ
+.	SENT
+
+C.	ABR
+C(	ABR
+...	PUN
+)	PUN
+Hasta	NAM
+,	PUN
+légat	NOM
+et	KON
+gouverneur	NOM
+de	PRP
+Dacie	NAM
+sous	PRP
+Marc-Aurèle	NAM
+.	SENT
+
+Domitius	NAM
+Antigonus	NAM
+,	PUN
+gouverneur	NOM
+de	PRP
+Mésie	NAM
+inférieure	ADJ
+à	PRP
+l'	DET:ART
+époque	NOM
+de	PRP
+Maximin	NAM
+le	DET:ART
+Thrace	NAM
+.	SENT
+
+Pour	PRP
+5	NUM
+=>	ABR
+67-53790	NUM
+

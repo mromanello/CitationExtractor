@@ -1,0 +1,14 @@
+Concerne	VER:pres
+notamment	ADV
+les	DET:ART
+rapports	NOM
+avec	PRP
+les	DET:ART
+anciens	ADJ
+Grecs	NAM
+.	SENT
+
+Témoignage	NOM
+de	PRP
+Strabon	NAM
+

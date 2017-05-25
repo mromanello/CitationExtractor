@@ -1,0 +1,11 @@
+Zur	APPRART
+Beurteilung	NN
+von	APPR
+Versübersetzungen	NN
+allgemein	ADJD
+;	$.
+Übersetzung	NN
+des	ART
+Gedichts	NN
+.	$.
+

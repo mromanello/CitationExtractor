@@ -1,0 +1,10 @@
+T1	AAUTHOR 14 21	Vitruve
+T2	REFAUWORK 22 31	(De arch.
+T3	REFSCOPE 32 41	5, 9, 1),
+T4	AAUTHOR 113 121	Athènes,
+T5	AAUTHOR 126 135	Plutarque
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:981.3373:5.9.1
+#1	AnnotatorNotes T4	urn:cts:cwkb:1173
+#2	AnnotatorNotes T5	urn:cts:greekLit:tlg0007
+#3	AnnotatorNotes T1	urn:cts:latinLit:phi1056

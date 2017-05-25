@@ -1,0 +1,23 @@
+Auch	ADV
+unter	APPR
+dem	ART
+Aspekt	NN
+der	ART
+Vergleichbarkeit	NN
+mit	PTKVZ
+und	KON
+der	ART
+Beeinflussung	NN
+durch	APPR
+griechische	ADJA
+Strukturen	NN
+;	$.
+mit	APPR
+einem	ART
+Anhang	NN
+zur	APPRART
+Darstellung	NN
+bei	APPR
+Josephus	NE
+.	$.
+

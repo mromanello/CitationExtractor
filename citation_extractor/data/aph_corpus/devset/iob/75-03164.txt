@@ -1,0 +1,27 @@
+La	DET:ART
+«	PUN:cit
+Vie	NAM
+de	PRP
+Porphyre	NAM
+»	PUN:cit
+,	PUN
+pour	PRP
+la	DET:ART
+région	NOM
+de	PRP
+Gaza	NAM
+,	PUN
+constitue	VER:pres
+un	DET:ART
+bon	ADJ
+témoignage	NOM
+sur	PRP
+le	DET:ART
+rôle	NOM
+de	PRP
+l'	DET:ART
+évêque	NOM
+dans	PRP
+la	DET:ART
+christianisation	NOM
+

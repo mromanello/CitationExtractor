@@ -1,0 +1,10 @@
+Suite	NOM
+à	PRP
+la	DET:ART
+publication	NOM
+du	PRP:det
+dossier	NOM
+documentaire	ADJ
+notée	VER:pper
+72-11346	NUM
+

@@ -1,0 +1,10 @@
+Discussione	NOM
+del	PRE:det
+volume	NOM
+di	PRE
+Ch.	NOM
+M.	NOM
+Ternes	NOM
+schedato	ADJ
+73-01104	NUM
+

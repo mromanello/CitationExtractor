@@ -1,0 +1,57 @@
+1.	ADV
+
+Veröffentlichung	NN
+von	APPR
+sechs	CARD
+griechischen	ADJA
+Inschriften	NN
+aus	APPR
+Karien	NN
+und	KON
+Lydien	NN
+mit	APPR
+englischer	ADJA
+und	KON
+türkischer	ADJA
+Übersetzung	NN
+.	$.
+
+Es	PPER
+handelt	VVFIN
+sich	PRF
+um	APPR
+Weihungen	NN
+,	$,
+Ehreninschriften	NN
+(	$(
+unter	APPR
+anderem	PIS
+für	APPR
+L.	NE
+Aelius	NE
+Tubero	NN
+und	KON
+Livia	NE
+Drusilla	NE
+)	$(
+und	KON
+eine	ART
+magische	ADJA
+Inschrift	NN
+auf	APPR
+einem	ART
+Bronzeblech	NN
+.	$.
+
+2.	ADV
+
+Zu	APPR
+Text	NN
+und	KON
+Verständnis	NN
+einer	ART
+Inschrift	NN
+aus	APPR
+Trapezopolis	NN
+.	$.
+

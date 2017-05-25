@@ -1,0 +1,23 @@
+Studies	NNS
+the	DT
+accountancy	NN
+carried	VBD
+out	RP
+by	IN
+the	DT
+«	)
+paterfamilias	NN
+»	(
+,	,
+and	CC
+the	DT
+bookkeeping	NN
+of	IN
+bankers	NNS
+,	,
+as	IN
+precursors	NNS
+of	IN
+written	JJ
+contracts	NNS
+

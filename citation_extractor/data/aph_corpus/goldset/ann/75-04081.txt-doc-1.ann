@@ -1,0 +1,22 @@
+T1	AWORK 14 39	« Against Eratosthenes »,
+T2	AAUTHOR 40 46	Lysias
+T3	AAUTHOR 106 114	Plato 's
+T4	AWORK 115 128	« Republic »,
+T5	REFSCOPE 228 242	(331 D-336 A).
+T6	AWORK 449 474	« Against Eratosthenes ».
+T7	AAUTHOR 475 483	Plato 's
+T8	AWORK 521 533	« Republic »
+T9	AWORK 607 619	« Phaedrus »
+T10	REFSCOPE 620 634	(269 D-279 B).
+R1	Scope Arg1:T4 Arg2:T5
+R2	Scope Arg1:T9 Arg2:T10
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0059.tlg030:331d-336a
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0059.tlg012:269d-279b
+#2	AnnotatorNotes T8	urn:cts:greekLit:tlg0059.tlg030
+#3	AnnotatorNotes T9	urn:cts:greekLit:tlg0059.tlg012
+#4	AnnotatorNotes T6	urn:cts:greekLit:tlg0029.tlg004
+#5	AnnotatorNotes T7	urn:cts:greekLit:tlg0059
+#6	AnnotatorNotes T4	urn:cts:greekLit:tlg0059.tlg030
+#7	AnnotatorNotes T2	urn:cts:greekLit:tlg0540
+#8	AnnotatorNotes T3	urn:cts:greekLit:tlg0059
+#9	AnnotatorNotes T1	urn:cts:greekLit:tlg0540.tlg012

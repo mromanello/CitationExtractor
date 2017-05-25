@@ -1,0 +1,15 @@
+Biographie	NOM
+intellectuelle	ADJ
+de	PRP
+cette	PRO:DEM
+papyrologue	NOM
+polonaise	ADJ
+,	PUN
+spécialiste	NOM
+de	PRP
+l'	DET:ART
+Égypte	NAM
+romaine	ADJ
+et	KON
+byzantine	ADJ
+

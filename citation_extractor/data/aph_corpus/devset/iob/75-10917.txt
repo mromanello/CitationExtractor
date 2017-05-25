@@ -1,0 +1,22 @@
+Anhand	APPR
+des	ART
+Surveys	NN
+in	APPR
+Methana	NN
+im	APPRART
+Vergleich	NN
+mit	APPR
+anderen	PIS
+Fundplätzen	NN
+mit	APPR
+besonderem	ADJA
+Augenmerk	NN
+auf	APPR
+den	ART
+Grad	NN
+der	ART
+«	$(
+Urbanität	NN
+»	$(
+.	$.
+

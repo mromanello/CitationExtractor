@@ -1,0 +1,19 @@
+T1	AAUTHOR 42 51	Tite-Live
+T2	REFSCOPE 52 63	(1, 39-48 ;
+T3	REFSCOPE 64 73	1, 49-60)
+T4	AAUTHOR 80 85	Denys
+T5	REFAUWORK 86 89	(AR
+T6	REFSCOPE 90 99	4, 1-40 ;
+T7	REFSCOPE 100 110	4, 41-85).
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T5 Arg2:T6
+R4	Scope Arg1:T5 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:cwkb:524.1088:1.39-1.48
+#1	AnnotatorNotes R2	urn:cts:cwkb:524.1088:1.49-1.60
+#3	AnnotatorNotes T4	urn:cts:greekLit:tlg0081
+#4	AnnotatorNotes T1	urn:cts:cwkb:524
+T9	AAUTHOR 116 125	Tite-Live
+T10	AAUTHOR 286 291	Denys
+#2	AnnotatorNotes T10	urn:cts:greekLit:tlg0081
+#5	AnnotatorNotes T9	urn:cts:cwkb:524

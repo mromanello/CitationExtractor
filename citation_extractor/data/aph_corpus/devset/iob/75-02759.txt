@@ -1,0 +1,10 @@
+Analyse	VER:pres
+théologique	ADJ
+et	KON
+présentation	NOM
+du	PRP:det
+contexte	NOM
+régional	ADJ
+et	KON
+personnel	ADJ
+

@@ -1,0 +1,6 @@
+Notamment	ADV
+chez	PRP
+Maxime	NAM
+le	DET:ART
+Confesseur	NAM
+

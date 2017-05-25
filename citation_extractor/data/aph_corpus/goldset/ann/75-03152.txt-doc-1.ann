@@ -1,0 +1,6 @@
+T1	AAUTHOR 57 64	Manilio
+T2	REFAUWORK 195 200	Astr.
+T3	REFSCOPE 201 213	4, 751-752),
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:535.1110:4.751-4.752
+#1	AnnotatorNotes T1	urn:cts:cwkb:535

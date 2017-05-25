@@ -1,0 +1,14 @@
+Nuove	ADJ
+letture	NOM
+ed	CON
+interpretazioni	NOM
+in	PRE
+CIL	NOM
+9	NUM
+,	PON
+1212	NUM
+e	CON
+10	NUM
+,	PON
+4588	NUM
+

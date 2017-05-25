@@ -1,0 +1,5 @@
+T1	REFAUWORK 93 99	(Dial.
+T2	REFSCOPE 100 109	2, 35, 6)
+T3	AAUTHOR 162 169	Sénèque
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:1326.8812:2.35.6

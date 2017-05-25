@@ -1,0 +1,28 @@
+Análisis	NC
+crítico	ADJ
+de	PREP
+la	ART
+traducción	NC
+y	CC
+el	ART
+comentario	NC
+de	PREP
+G.	NC
+Guidorizzi	NP
+(	LP
+=>	NC
+71-02699	CARD
+)	RP
+así como	CSUBF
+de	PREP
+la	ART
+importancia	NC
+y	CC
+singularidad	NC
+del	PDEL
+propio	ADJ
+texto	NC
+de	PREP
+Higino	NP
+.	FS
+

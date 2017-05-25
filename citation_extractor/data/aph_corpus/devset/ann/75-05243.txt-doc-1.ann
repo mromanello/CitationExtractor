@@ -1,0 +1,17 @@
+T1	REFAUWORK 34 39	(Ann.
+T2	REFSCOPE 40 57	11, 37, 3-38, 1),
+T3	AWORK 303 313	« Hécube »
+T4	AAUTHOR 317 325	Euripide
+T5	AAUTHOR 391 396	Ovide
+T6	REFAUWORK 397 402	(Met.
+T7	REFSCOPE 403 416	13, 429-575),
+T8	AAUTHOR 558 564	Tacite
+T9	AAUTHOR 620 626	Claude
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T6 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:cwkb:467.985:11.37.3-11.1.38
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0959.phi006:13.429-13.575
+#2	AnnotatorNotes T8	urn:cts:latinLit:phi1351
+#3	AnnotatorNotes T9	urn:cts:cwkb:1362
+#4	AnnotatorNotes T4	urn:cts:greekLit:tlg0006
+#5	AnnotatorNotes T5	urn:cts:cwkb:568

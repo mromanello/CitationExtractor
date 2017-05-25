@@ -1,0 +1,29 @@
+À	PRP
+propos	NOM
+de	PRP
+l'	DET:ART
+occupation	NOM
+ininterrompue	ADJ
+du	PRP:det
+site	NOM
+de	PRP
+la	DET:ART
+préhistoire	NOM
+à	PRP
+l'	DET:ART
+époque	NOM
+romaine	ADJ
+.	SENT
+
+État	NOM
+de	PRP
+la	DET:ART
+question	NOM
+,	PUN
+sur	PRP
+la	DET:ART
+base	NOM
+des	PRP:det
+découvertes	NOM
+archéologiques	ADJ
+

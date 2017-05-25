@@ -1,0 +1,24 @@
+De	NPR
+re	NOM
+publ	NOM
+.	SENT
+
+2	NUM
+,	PON
+4-63	NUM
+conferma	NOM
+l'	DET:def
+importanza	NOM
+che	CON
+Cicerone	NOM
+in	PRE
+De	NPR
+orat.	ABR
+2	NUM
+,	PON
+62-64	NUM
+attribuisce	VER:pres
+alla	PRE:det
+verità	NOM
+storica	ADJ
+

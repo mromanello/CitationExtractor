@@ -1,0 +1,14 @@
+El	ART
+estudio	NC
+se	SE
+centra	VLfin
+fundamentalmente	ADV
+en	PREP
+Hecateo	NC
+de	PREP
+Abdera	NC
+y	CC
+Diodoro	NC
+de	PREP
+Sicilia	NP
+

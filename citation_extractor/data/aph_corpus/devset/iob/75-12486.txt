@@ -1,0 +1,27 @@
+Panoramica	NOM
+sui	PRE:det
+materiali	NOM
+d'	PRE
+archivio	NOM
+giunti	VER:pper
+a	PRE
+noi	PRO:pers
+dalle	PRE:det
+antiche	ADJ
+civiltà	NOM
+del	PRE:det
+Vicino	NOM
+Oriente	NOM
+e	CON
+dalla	PRE:det
+civiltà	NOM
+greca	ADJ
+e	CON
+riflessioni	NOM
+sull'	PRE:det
+importanza	NOM
+storico-culturale	ADJ
+di	PRE
+tali	PRO:demo
+documenti	NOM
+

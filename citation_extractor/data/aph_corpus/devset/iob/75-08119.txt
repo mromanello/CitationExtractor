@@ -1,0 +1,26 @@
+Prospection	NOM
+menée	VER:pper
+au	PRP:det
+nord	NOM
+de	PRP
+la	DET:ART
+rivière	NOM
+Peiros	NAM
+en	PRP
+1990-1993	NUM
+.	SENT
+
+La	DET:ART
+méthode	NOM
+par	PRP
+utilisation	NOM
+des	PRP:det
+SIG	NAM
+est	VER:pres
+développée	VER:pper
+dans	PRP
+l'	DET:ART
+étude	NOM
+notée	VER:pper
+75-07662	NUM
+

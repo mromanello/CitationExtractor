@@ -1,0 +1,17 @@
+Considerazioni	NOM
+critiche	ADJ
+conclusive	ADJ
+sulle	PRE:det
+tematiche	NOM
+trattate	VER:pper
+nella	PRE:det
+giornata	NOM
+di	PRE
+studio	NOM
+su	PRE
+Moregine	NOM
+(	PON
+=>	NOM
+75-14752	NUM
+)	PON
+

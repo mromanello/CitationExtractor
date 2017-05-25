@@ -1,0 +1,11 @@
+Aspects	NOM
+généraux	ADJ
+et	KON
+discussion	NOM
+des	PRP:det
+contributions	NOM
+au	PRP:det
+colloque	NOM
+noté	VER:pper
+74-17063	NUM
+

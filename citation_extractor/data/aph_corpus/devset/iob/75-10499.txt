@@ -1,0 +1,14 @@
+Discussion	NOM
+des	PRP:det
+thèses	NOM
+avancées	VER:pper
+par	PRP
+M.	NOM
+H.	ABR
+Hansen	NAM
+dans	PRP
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+63-13279	NUM
+

@@ -1,0 +1,4 @@
+T1	REFAUWORK 125 135	(Pl., Smp.
+T2	REFSCOPE 136 147	185e-188e).
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:1346.4372:185

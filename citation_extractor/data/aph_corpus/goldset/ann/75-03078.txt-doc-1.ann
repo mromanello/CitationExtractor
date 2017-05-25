@@ -1,0 +1,23 @@
+T1	AAUTHOR 61 69	Lucrecio
+T2	REFSCOPE 115 126	1, 433-435,
+T3	REFSCOPE 139 150	2, 277-283,
+T4	REFSCOPE 170 177	4, 632,
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0550.phi001:1.433-1.435
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0550.phi001:2.277-2.283
+#2	AnnotatorNotes R3	urn:cts:latinLit:phi0550.phi001:4.632
+#3	AnnotatorNotes T1	urn:cts:cwkb:528
+T5	REFSCOPE 127 138	1075-1076 ;
+R4	Scope Arg1:T1 Arg2:T5	
+T6	REFSCOPE 151 159	502-503,
+T7	REFSCOPE 160 169	714-715 ;
+R5	Scope Arg1:T1 Arg2:T7	
+#4	AnnotatorNotes R4	urn:cts:latinLit:phi0550.phi001:1.1075-1.1076
+R6	Scope Arg1:T1 Arg2:T6	
+#5	AnnotatorNotes R6	urn:cts:latinLit:phi0550.phi001:2.502-2.503
+T8	REFSCOPE 178 182	1165
+R7	Scope Arg1:T1 Arg2:T8	
+#6	AnnotatorNotes R7	urn:cts:latinLit:phi0550.phi001:4.1165
+#7	AnnotatorNotes R5	urn:cts:latinLit:phi0550.phi001:2.714-2.715

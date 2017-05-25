@@ -1,0 +1,26 @@
+Sulle	PRE:det
+leggi	NOM
+riguardanti	VER:ppre
+le	DET:def
+sepolture	NOM
+entro	PRE
+il	DET:def
+recinto	NOM
+delle	PRE:det
+mura	NOM
+urbane	ADJ
+,	PON
+dalle	PRE:det
+XII	NUM
+Tavole	NOM
+al	PRE:det
+diritto	NOM
+romano	ADJ
+imperiale	ADJ
+,	PON
+all'	PRE:det
+«	PON
+Edictum	NOM
+Theoderici	NOM
+»	PON
+

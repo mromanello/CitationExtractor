@@ -1,0 +1,20 @@
+Relación	NC
+y	CC
+comentario	NC
+de	PREP
+los	ART
+trabajos	NC
+dedicados	VLadj
+a	PREP
+dicha	QU
+materia	NC
+,	CM
+recogidos	VLadj
+en	PREP
+el	ART
+mismo	ADJ
+volumen	NC
+,	CM
+p.	ALFS
+39-262	CARD
+

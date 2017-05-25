@@ -1,0 +1,11 @@
+Studies	VBZ
+the	DT
+relations	NNS
+between	IN
+Plato	NP
+'s	POS
+philosophy	NN
+and	CC
+ancient	JJ
+mystery-religions	NNS
+

@@ -1,0 +1,8 @@
+T1	AAUTHOR 5 15	Themistios
+T2	REFAUWORK 16 20	(Or.
+T3	REFSCOPE 21 32	7, 86c-87a)
+T4	AAUTHOR 222 229	Appian,
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:443.950:7.86
+#1	AnnotatorNotes T4	urn:cts:greekLit:tlg0551
+#2	AnnotatorNotes T1	urn:cts:cwkb:1100

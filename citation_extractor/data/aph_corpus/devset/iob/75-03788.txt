@@ -1,0 +1,12 @@
+Presentazione	NOM
+del	PRE:det
+volume	NOM
+e	CON
+delle	PRE:det
+problematiche	NOM
+religiose	ADJ
+che	PRO:rela
+vi	PRO:refl
+sono	VER:pres
+affrontate	VER:pper
+

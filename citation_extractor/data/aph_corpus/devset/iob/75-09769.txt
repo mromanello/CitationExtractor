@@ -1,0 +1,123 @@
+1.	ADV
+
+Zum	APPRART
+griechischen	ADJA
+PStras	NN
+.	$.
+
+2	CARD
+,	$,
+88	CARD
+gehört	VVFIN
+statt	APPR
+der	ART
+demotischen	ADJA
+Aussenseite	NN
+die	ART
+griechische	ADJA
+Inhaltsangabe	NN
+Inv	NE
+.	$.
+
+P.	APPR
+gr.	NN
+896	CARD
+,	$,
+mit	APPR
+der	PRELS
+sie	PPER
+wohl	ADV
+vertauscht	VVPP
+wurde	VAFIN
+.	$.
+
+Damit	PAV
+befanden	VVFIN
+sich	PRF
+in	APPR
+dem	ART
+Archiv	NN
+neben	APPR
+52	CARD
+griechischen	ADJA
+und	KON
+21	CARD
+demotischen	ADJA
+Dokumenten	NN
+nur	ADV
+drei	CARD
+zweisprachige	ADJA
+,	$,
+wobei	PWAV
+der	ART
+demotische	ADJA
+Teil	NN
+meist	ADV
+nachträglich	ADJD
+zur	APPRART
+genaueren	ADJA
+Klassifizierung	NN
+angebracht	VVPP
+wurde	VAFIN
+.	$.
+
+In	APPR
+diese	PDAT
+Gruppe	NN
+gehört	VVFIN
+möglicherweise	ADV
+auch	ADV
+die	ART
+jetzt	ADV
+als	KOKOM
+P.	APPR
+gr.	NN
+896	CARD
+bezeichnete	VVFIN
+demotische	ADJA
+Aussenseite	NN
+.	$.
+
+Diese	PDAT
+Verwendung	NN
+des	ART
+Demotischen	NN
+ist	VAFIN
+erstaunlich	ADJD
+,	$,
+da	KOUS
+in	APPR
+der	ART
+Familie	NN
+der	ART
+Gebrauch	NN
+des	ART
+Griechischen	NN
+weit	ADJD
+verbreitet	VVPP
+war	VAFIN
+.	$.
+
+2.	ADV
+
+PStras	NE
+.	$.
+
+9	CARD
+,	$,
+883	CARD
+b	NN
+gehört	VVFIN
+wohl	ADV
+als	KOKOM
+Aussenseite	NN
+zu	APPR
+den	ART
+Verträgen	NN
+PStras	NN
+.	$.
+
+2	CARD
+,	$,
+87.	ADJA
+

@@ -1,0 +1,17 @@
+Tipologia	NOM
+e	CON
+caratteristiche	NOM
+della	PRE:det
+lessicografia	NOM
+greca	ADJ
+rinascimentale	ADJ
+,	PON
+intesa	VER:pper
+come	PRE
+erede	NOM
+di	PRE
+quella	PRO:demo
+antica	ADJ
+e	CON
+medievale	ADJ
+

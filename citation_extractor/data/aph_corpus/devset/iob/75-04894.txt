@@ -1,0 +1,23 @@
+Il	DET:def
+tema	NOM
+del	PRE:det
+patronato	NOM
+nelle	PRE:det
+scuole	NOM
+di	PRE
+declamazione	NOM
+,	PON
+con	PRE
+particolare	ADJ
+riferimento	NOM
+a	PRE
+Popillio	NOM
+,	PON
+uccisore	NOM
+del	PRE:det
+proprio	ADJ
+«	PON
+patronus	NOM
+»	PON
+Cicerone	NOM
+

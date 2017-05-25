@@ -1,0 +1,30 @@
+Contenuto	VER:pper
+,	PON
+elementi	NOM
+per	PRE
+la	DET:def
+datazione	NOM
+,	PON
+analisi	NOM
+paleografica	ADJ
+,	PON
+storia	NOM
+del	PRE:det
+ms.	NOM
+e	CON
+suoi	PRO:poss
+rapporti	NOM
+stemmatici	VER:remo
+con	PRE
+la	DET:def
+tradizione	NOM
+senofontea	ADJ
+.	SENT
+
+Analisi	NOM
+delle	PRE:det
+varianti	NOM
+diogeniane	ADJ
+e	CON
+plutarchee	ADJ
+

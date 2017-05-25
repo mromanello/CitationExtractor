@@ -1,0 +1,22 @@
+Pièce	NOM
+découverte	VER:pper
+en	PRP
+1990	NUM
+(	PUN
+inv.	ABR
+90/8140-3	NUM
+)	PUN
+qui	PRO:REL
+pourrait	VER:cond
+être	VER:infi
+un	DET:ART
+couteau	NOM
+de	PRP
+poche	NOM
+du	PRP:det
+1er	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+

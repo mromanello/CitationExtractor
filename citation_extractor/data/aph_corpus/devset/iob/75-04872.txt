@@ -1,0 +1,26 @@
+Se	SE
+estudian	VLfin
+los	ART
+procedimientos	NC
+narrativos	ADJ
+utilizados	VLadj
+por	PREP
+Séneca	NP
+mediante	PREP
+el	ART
+análisis	NC
+de	PREP
+dos	CARD
+pasajes	NC
+del	PDEL
+«	SYM
+Agamenón	NC
+»	SYM
+:	COLON
+los	ART
+versos	NC
+710-719	CODE
+y	CC
+449-455	CODE
+.	FS
+

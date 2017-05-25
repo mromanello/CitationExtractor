@@ -1,0 +1,8 @@
+T1	REFAUWORK 96 100	Aen.
+T2	REFSCOPE 101 112	8, 704-706,
+T3	REFAUWORK 143 148	Prop.
+T4	REFSCOPE 149 161	2, 34, 59-66
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:8.704-8.706
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0620:2.34.59-2.34.66

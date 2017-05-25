@@ -1,0 +1,10 @@
+T1	AAUTHOR 88 96	Cicerone
+T2	REFAUWORK 97 102	(diu.
+T3	REFSCOPE 103 111	1, 100),
+T4	AWORK 138 148	« Annali »
+T5	AAUTHOR 152 159	Pisone,
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:766.1646:1.100
+#1	AnnotatorNotes T4	urn:cts:cwkb:441.947
+#2	AnnotatorNotes T5	urn:cts:cwkb:1041
+#3	AnnotatorNotes T1	urn:cts:cwkb:431

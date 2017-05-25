@@ -1,0 +1,13 @@
+T1	REFSCOPE 19 24	(7 M)
+T2	REFAUWORK 189 195	(Exod.
+T3	REFSCOPE 196 206	30, 12-13)
+T4	AAUTHOR 241 248	Philon,
+T5	REFAUWORK 264 268	Her.
+T6	REFSCOPE 269 277	186-190.
+T7	AAUTHOR 317 323	Philon
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:860:30.12-30.13
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0638.tlg004:186-190
+#2	AnnotatorNotes T7	urn:cts:cwkb:1041
+#3	AnnotatorNotes T4	urn:cts:cwkb:1041

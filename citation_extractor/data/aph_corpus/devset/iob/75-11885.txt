@@ -1,0 +1,25 @@
+Sur	PRP
+le	DET:ART
+rapport	NOM
+entre	PRP
+Prométhée	NAM
+et	KON
+Héphaïstos	NAM
+.	SENT
+
+Associé	VER:pper
+à	PRP
+Athéna	NAM
+,	PUN
+celui	PRO:DEM
+-ci	ADV
+patronne	VER:pres
+l'	DET:ART
+ensemble	NOM
+des	PRP:det
+activités	NOM
+artisanales	ADJ
+transmises	VER:pper
+aux	PRP:det
+mortels	NOM
+

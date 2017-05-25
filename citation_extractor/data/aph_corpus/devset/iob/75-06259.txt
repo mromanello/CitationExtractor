@@ -1,0 +1,14 @@
+Sulla	PRE:det
+similitudine	NOM
+tra	PRE
+le	DET:def
+grida	NOM
+di	PRE
+Laocoonte	NOM
+e	CON
+i	DET:def
+muggiti	NOM
+del	PRE:det
+toro	NOM
+sacrificale	ADJ
+

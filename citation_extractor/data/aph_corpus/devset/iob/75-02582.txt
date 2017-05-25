@@ -1,0 +1,18 @@
+Sui	PRE:det
+riferimenti	NOM
+presenti	ADJ
+nel	PRE:det
+poema	NOM
+a	PRE
+vicende	NOM
+anteriori	ADJ
+,	PON
+posteriori	ADV
+o	CON
+anche	ADV
+indipendenti	ADJ
+rispetto	NOM
+al	PRE:det
+ciclo	NOM
+troiano	NOM
+

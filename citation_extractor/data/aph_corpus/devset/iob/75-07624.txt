@@ -1,0 +1,20 @@
+Travaux	NOM
+en	PRP
+Italie	NAM
+,	PUN
+en	PRP
+Croatie	NAM
+,	PUN
+en	PRP
+Serbie-et-Monténégro	NAM
+et	KON
+en	PRP
+Tunisie	NAM
+.	SENT
+
+Dépouillé	VER:pper
+dans	PRP
+le	DET:ART
+tome	NOM
+75	NUM
+

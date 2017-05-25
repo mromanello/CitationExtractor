@@ -1,0 +1,14 @@
+Sulle	PRE:det
+forme	NOM
+aumentate	VER:pper
+e	CON
+non	ADV
+,	PON
+e	CON
+sulle	PRE:det
+valenze	NOM
+funzionali	ADJ
+del	PRE:det
+modo	NOM
+verbale	ADJ
+

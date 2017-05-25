@@ -1,0 +1,20 @@
+Particularités	NOM
+de	PRP
+l'	DET:ART
+architecture	NOM
+et	KON
+du	PRP:det
+décor	NOM
+de	PRP
+cette	PRO:DEM
+église	NOM
+ancienne	ADJ
+,	PUN
+rénovée	VER:pper
+aux	PRP:det
+5e-6e	NOM
+s.	ADJ
+et	KON
+récemment	ADV
+découverte	VER:pper
+

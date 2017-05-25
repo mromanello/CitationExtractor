@@ -1,0 +1,6 @@
+T1	AAUTHOR 60 66	Plinio
+T2	REFAUWORK 70 76	epist.
+T3	REFSCOPE 77 83	7, 18,
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:584.1207:7.18
+#1	AnnotatorNotes T1	urn:cts:cwkb:584

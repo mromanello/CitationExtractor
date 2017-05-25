@@ -1,0 +1,40 @@
+Histoire	NOM
+de	PRP
+la	DET:ART
+collection	NOM
+.	SENT
+
+Liste	NOM
+des	PRP:det
+papyrus	NOM
+et	KON
+des	PRP:det
+ostraca	NOM
+concernés	VER:pper
+.	SENT
+
+Pour	PRP
+plus	ADV
+de	PRP
+détails	NOM
+,	PUN
+consulter	VER:infi
+sur	PRP
+l'	DET:ART
+Internet	NOM
+l'	DET:ART
+adresse	NOM
+http	NOM
+:	PUN
+//www	NOM
+.	SENT
+papyrology	NOM
+.	SENT
+uw	NOM
+.	SENT
+edu	NOM
+.	SENT
+pl/papyrology/papyri/papyri1	NOM
+.	SENT
+html	NOM
+

@@ -1,0 +1,19 @@
+Panoramica	NOM
+e	CON
+revisione	NOM
+degli	PRE:det
+studi	NOM
+sull'	PRE:det
+approccio	NOM
+ritualistico	ADJ
+al	PRE:det
+fenomeno	NOM
+religioso	ADJ
+,	PON
+con	PRE
+attenzione	NOM
+per	PRE
+il	DET:def
+mondo	NOM
+greco	ADJ
+

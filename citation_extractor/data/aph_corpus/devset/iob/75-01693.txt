@@ -1,0 +1,43 @@
+Note	NOM
+critico-testuali	ADJ
+a	PRE
+5	NUM
+,	PON
+1-15	NUM
+;	PON
+6	NUM
+,	PON
+1-4	NUM
+;	PON
+6	NUM
+,	PON
+7-13	NUM
+;	PON
+7	NUM
+,	PON
+1-6	NUM
+;	PON
+8	NUM
+,	PON
+1-9	NUM
+;	PON
+8	NUM
+,	PON
+11-13	NUM
+;	PON
+9	NUM
+,	PON
+1-6	NUM
+.	SENT
+
+Appendice	NOM
+sulle	PRE:det
+forme	NOM
+doriche	ADJ
+.	SENT
+
+Per	PRE
+1	NUM
+=>	NOM
+72-01712	NUM
+

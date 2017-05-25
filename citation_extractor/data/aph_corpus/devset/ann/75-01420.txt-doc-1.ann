@@ -1,0 +1,9 @@
+T1	AAUTHOR 227 248	Clément d' Alexandrie
+T2	REFAUWORK 249 260	(Ltr. Theo.
+T3	REFSCOPE 261 268	2, 3-10
+T4	REFSCOPE 305 314	livre 7).
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0085.tlg004:2.3-2.10
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0085.tlg004:7
+#2	AnnotatorNotes T1	urn:cts:greekLit:tlg0555

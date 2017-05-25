@@ -1,0 +1,66 @@
+Discussione	NOM
+del	PRE:det
+POxy	NOM
+.	SENT
+
+4094	NUM
+dell'	PRE:det
+«	PON
+Aspis	NOM
+»	PON
+,	PON
+del	PRE:det
+POxy	NOM
+.	SENT
+
+4407	NUM
+del	PRE:det
+«	PON
+Dis	NOM
+exapaton	ADJ
+»	PON
+,	PON
+del	PRE:det
+POxy	NOM
+.	SENT
+
+4024	NUM
+della	PRE:det
+«	PON
+Leucadia	NOM
+»	PON
+,	PON
+del	PRE:det
+POxy	NOM
+.	SENT
+
+4408	NUM
+del	PRE:det
+«	PON
+Misoumenos	NOM
+»	PON
+,	PON
+dei	PRE:det
+vari	ADJ
+nuovi	ADJ
+papiri	NOM
+degli	PRE:det
+«	PON
+Epitrepontes	NOM
+»	PON
+e	CON
+di	PRE
+un	DET:indef
+nuovo	ADJ
+mosaico	NOM
+di	PRE
+Zeugma	NOM
+con	PRE
+la	DET:def
+scena	NOM
+iniziale	ADJ
+delle	PRE:det
+«	PON
+Sunaristosai	NOM
+»	PON
+

@@ -1,0 +1,11 @@
+Différentes	ADJ
+versions	NOM
+des	PRP:det
+mythes	NOM
+.	SENT
+
+Pour	PRP
+3	NUM
+=>	ABR
+75-11886	NUM
+

@@ -1,0 +1,72 @@
+Die	ART
+Gelageszene	NN
+wurde	VAFIN
+aus	APPR
+dem	ART
+phönikischen	ADJA
+Klinensymposion	NN
+übernommen	VVPP
+und	KON
+entwickelte	VVFIN
+sich	PRF
+vom	APPRART
+Anfang	NN
+des	ART
+5.	ADJA
+
+Jh	NE
+.	$.
+
+v.	APPRART
+Chr.	NE
+bis	KON
+ins	APPRART
+1.	ADJA
+
+Jh	NE
+.	$.
+
+n.	APPR
+Chr.	NE
+in	APPR
+einer	ART
+kontinuierlichen	ADJA
+Tradition	NN
+.	$.
+
+Ein	ART
+besonderes	ADJA
+Merkmal	NN
+ist	VAFIN
+der	ART
+deutlich	ADJD
+familiäre	ADJA
+Charakter	NN
+.	$.
+
+Die	ART
+Form	NN
+wechselt	VVFIN
+vom	APPRART
+T-förmigen	ADJA
+Typus	NN
+des	ART
+5.	ADJA
+
+Jh	NE
+.	$.
+
+zu	APPR
+einer	ART
+hohen	ADJA
+Stele	NN
+mit	APPR
+Doppelnische	NN
+und	KON
+in	APPR
+römischer	ADJA
+Zeit	NN
+zum	APPRART
+Naiskos-Typus	NN
+.	$.
+

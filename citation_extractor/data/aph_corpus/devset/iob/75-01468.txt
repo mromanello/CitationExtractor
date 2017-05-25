@@ -1,0 +1,18 @@
+Edizione	NOM
+critica	ADJ
+e	CON
+analisi	NOM
+storico-letteraria	ADJ
+di	PRE
+questi	PRO:demo
+due	ADJ
+epigrammi	NOM
+,	PON
+prodotti	VER:pper
+essenzialmente	ADV
+ludici	ADJ
+dell'	PRE:det
+erudizione	NOM
+grammaticale	ADJ
+tardoantica	NOM
+

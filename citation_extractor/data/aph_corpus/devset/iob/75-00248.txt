@@ -1,0 +1,25 @@
+Il	DET:def
+discorso	NOM
+che	CON
+Ipsipile	NOM
+rivolge	VER:pres
+ad	PRE
+Eracle	NOM
+per	PRE
+convincere	VER:infi
+gli	DET:def
+Argonauti	NOM
+a	PRE
+restare	VER:infi
+a	PRE
+Lemno	NOM
+è	VER:pres
+un	DET:indef
+vero	ADJ
+e	CON
+proprio	ADJ
+esempio	NOM
+di	PRE
+tecnica	NOM
+oratoria	ADJ
+

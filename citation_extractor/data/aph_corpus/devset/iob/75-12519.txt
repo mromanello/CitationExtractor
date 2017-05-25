@@ -1,0 +1,18 @@
+39	NUM
+,	PUN
+Œuvres	NOM
+et	KON
+objets	NOM
+.	SENT
+
+40	NUM
+,	PUN
+Problèmes	NOM
+techniques	ADJ
+.	SENT
+
+Pour	PRP
+37-38	NUM
+=>	ABR
+74-14952	NUM
+

@@ -1,0 +1,7 @@
+T1	REFAUWORK 119 122	Or.
+T2	REFSCOPE 123 132	31, 95-97
+T3	REFSCOPE 133 142	e 64, 2-4
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:443.950:31.95-31.97
+#1	AnnotatorNotes R2	urn:cts:cwkb:443.950:64.2-64.4

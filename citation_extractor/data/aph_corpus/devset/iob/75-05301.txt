@@ -1,0 +1,9 @@
+Addenda	NOM
+et	KON
+corrigenda	VER:simp
+à	PRP
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+74-06280	NUM
+

@@ -1,0 +1,18 @@
+Questa	PRO:demo
+legge	NOM
+è	VER:pres
+databile	ADJ
+al	PRE:det
+107	NUM
+a.	NOM
+C.	NPR
+,	PON
+e	CON
+rogatore	NOM
+ne	ADV
+fu	VER:remo
+probabilmente	ADV
+L.	ABR
+Licinio	NOM
+Crasso	NOM
+

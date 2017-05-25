@@ -1,0 +1,8 @@
+À	PRP
+propos	NOM
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+75-11871	NUM
+

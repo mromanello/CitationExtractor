@@ -1,0 +1,10 @@
+A	PRE
+proposito	NOM
+del	PRE:det
+saggio	NOM
+di	PRE
+M.	NOM
+Gigante	VER:ppre
+schedato	NOM
+70-00531	NUM
+

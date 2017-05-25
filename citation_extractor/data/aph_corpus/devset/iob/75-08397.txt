@@ -1,0 +1,24 @@
+Esame	NOM
+della	PRE:det
+struttura	NOM
+architettonica	ADJ
+del	PRE:det
+santuario	NOM
+e	CON
+ipotesi	NOM
+ricostruttiva	ADJ
+dei	PRE:det
+rituali	NOM
+che	PRO:rela
+vi	ADV
+si	PRO:refl
+svolgevano	VER:impf
+e	CON
+dei	PRE:det
+suoi	PRO:poss
+rapporti	NOM
+con	PRE
+il	DET:def
+vicino	ADJ
+teatro	NOM
+

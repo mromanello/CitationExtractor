@@ -1,0 +1,19 @@
+T1	REFAUWORK 209 223	(Xenophon, An.
+T2	REFSCOPE 224 235	4, 4, 11-12
+T3	REFSCOPE 240 249	4, 5, 7-8
+T4	REFAUWORK 263 276	Pliny, paneg.
+T5	REFSCOPE 277 282	12, 4
+T6	REFAUWORK 379 386	(Paneg.
+T7	REFSCOPE 387 392	11, 9
+T8	REFAUWORK 407 415	Claudian
+T9	REFSCOPE 416 425	7, 93-101
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T4 Arg2:T5
+R4	Scope Arg1:T6 Arg2:T7
+R5	Scope Arg1:T8 Arg2:T9
+#0	AnnotatorNotes R4	urn:cts:cwkb:584.1208:11.9
+#1	AnnotatorNotes R5	urn:cts:cwkb:1362:7.93-7.101
+#2	AnnotatorNotes R1	urn:cts:greekLit:tlg0032.tlg006:4.4.11-4.4.12
+#3	AnnotatorNotes R2	urn:cts:greekLit:tlg0032.tlg006:4.5.7-4.5.8
+#4	AnnotatorNotes R3	urn:cts:greekLit:tlg0007.tlg044:12.4

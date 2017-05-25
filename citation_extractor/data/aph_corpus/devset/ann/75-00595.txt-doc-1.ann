@@ -1,0 +1,6 @@
+T1	AWORK 35 48	« De anima »,
+T2	REFAUWORK 120 124	(An.
+T3	REFSCOPE 125 130	3, 5)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0032.tlg006:3.5
+#1	AnnotatorNotes T1	urn:cts:cwkb:726.1477

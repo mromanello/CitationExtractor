@@ -1,0 +1,25 @@
+Les	DET:ART
+«	PUN:cit
+Homélies	NOM
+cathédrales	ADJ
+»	PUN:cit
+montrent	VER:pres
+combien	ADV
+Sévère	NAM
+attachait	VER:impf
+d'	PRP
+importance	NOM
+à	PRP
+son	DET:POS
+rôle	NOM
+pastoral	ADJ
+,	PUN
+qui	PRO:REL
+est	VER:pres
+au	PRP:det
+centre	NOM
+même	ADJ
+de	PRP
+sa	DET:POS
+spiritualité	NOM
+

@@ -1,0 +1,15 @@
+Nel	PRE:det
+Medioevo	NOM
+i	DET:def
+«	PON
+Fasti	NOM
+»	PON
+non	ADV
+circolarono	VER:remo
+solo	ADV
+nelle	PRE:det
+ristrette	ADJ
+cerchie	NOM
+degli	PRE:det
+eruditi	NOM
+

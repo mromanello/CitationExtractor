@@ -1,0 +1,28 @@
+Comparaison	NOM
+entre	PRP
+l'	DET:ART
+iconographie	NOM
+et	KON
+les	DET:ART
+descriptions	NOM
+antiques	ADJ
+de	PRP
+cette	PRO:DEM
+plante	NOM
+et	KON
+des	PRP:det
+espèces	NOM
+actuelles	ADJ
+d'	PRP
+ombellifères	NOM
+.	SENT
+
+Proposition	NOM
+d'	PRP
+identification	NOM
+avec	PRP
+«	PUN:cit
+Margotia	NAM
+gummifera	VER:futu
+»	PUN:cit
+

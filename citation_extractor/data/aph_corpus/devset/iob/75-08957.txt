@@ -1,0 +1,24 @@
+Panoramica	NOM
+sui	PRE:det
+dati	NOM
+archeologici	ADJ
+,	PON
+in	PRE
+particolare	NOM
+per	PRE
+il	DET:def
+6°	NOM
+e	CON
+5°	NOM
+sec.	NOM
+a.	NOM
+C.	NPR
+,	PON
+anche	ADV
+in	PRE
+relazione	NOM
+alle	PRE:det
+fonti	NOM
+letterarie	ADJ
+greche	ADJ
+

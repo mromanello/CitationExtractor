@@ -1,0 +1,8 @@
+Évocation	NOM
+des	PRP:det
+travaux	NOM
+de	PRP
+ce	PRO:DEM
+philologue	NOM
+hollandais	ADJ
+

@@ -1,0 +1,24 @@
+Addenda	NE
+und	KON
+Corrigenda	NN
+zu	APPR
+den	ART
+13	CARD
+in	APPR
+=>	NN
+74-02933	CARD
+publizierten	ADJA
+Fragmenten	NN
+aus	APPR
+der	ART
+«	$(
+Ilias	NE
+»	$(
+und	KON
+den	ART
+«	$(
+Menandri	NN
+Sententiae	NN
+»	$(
+.	$.
+

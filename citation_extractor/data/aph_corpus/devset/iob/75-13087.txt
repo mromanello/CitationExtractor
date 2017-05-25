@@ -1,0 +1,31 @@
+La	DET:ART
+crucifixion	NOM
+est	VER:pres
+un	DET:ART
+motif	NOM
+qui	PRO:REL
+apparaît	VER:pres
+tardivement	ADV
+dans	PRP
+l'	DET:ART
+art	NOM
+chrétien	ADJ
+.	SENT
+
+En	PRO:PER
+témoignent	VER:pres
+des	PRP:det
+bagues	NOM
+à	PRP
+sceaux	NOM
+et	KON
+des	PRP:det
+amulettes	NOM
+du	PRP:det
+4e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+

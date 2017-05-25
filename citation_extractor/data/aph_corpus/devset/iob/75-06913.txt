@@ -1,0 +1,13 @@
+Pour	PRP
+2	NUM
+,	PUN
+cf	NOM
+.	SENT
+l'	DET:ART
+article	NOM
+de	PRP
+G.	ABR
+Marasco	NAM
+noté	VER:pper
+75-06917	NUM
+

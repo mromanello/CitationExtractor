@@ -1,0 +1,25 @@
+Sur	PRP
+l'	DET:ART
+histoire	NOM
+de	PRP
+l'	DET:ART
+épigraphie	NOM
+grecque	ADJ
+,	PUN
+depuis	PRP
+les	DET:ART
+années	NOM
+1830	NUM
+,	PUN
+et	KON
+sur	PRP
+l'	DET:ART
+importance	NOM
+documentaire	ADJ
+des	PRP:det
+inscriptions	NOM
+pour	PRP
+la	DET:ART
+vie	NOM
+quotidienne	ADJ
+

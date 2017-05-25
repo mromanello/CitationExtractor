@@ -1,0 +1,17 @@
+Publie	VER:pres
+des	PRP:det
+objets	NOM
+du	PRP:det
+Bronze	NAM
+récent	ADJ
+et	KON
+du	PRP:det
+Chypriote	NOM
+archaïque	ADJ
+.	SENT
+
+Pour	PRP
+9	NUM
+=>	ABR
+75-07840	NUM
+

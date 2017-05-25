@@ -1,0 +1,33 @@
+Sulla	PRE:det
+base	NOM
+di	PRE
+fonti	NOM
+e	CON
+testimonianze	NOM
+antiche	ADJ
+,	PON
+si	PRO:pers
+approfondiscono	VER:pres
+e	CON
+ridefiniscono	VER:pres
+le	DET:def
+posizioni	NOM
+assunte	VER:pper
+in	PRE
+àmbito	NOM
+teologico	ADJ
+e	CON
+nei	PRE:det
+confronti	NOM
+della	PRE:det
+religione	NOM
+da	PRE
+Pitagora	NOM
+e	CON
+dai	PRE:det
+pitagorici	NOM
+,	PON
+in	PRE
+particolare	ADJ
+Filolao	NOM
+

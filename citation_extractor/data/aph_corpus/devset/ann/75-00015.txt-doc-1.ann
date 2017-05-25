@@ -1,0 +1,10 @@
+T1	AWORK 26 38	« Dyskolos »
+T2	REFAUWORK 52 66	Eliano, epist.
+T3	REFSCOPE 67 73	13-16,
+T4	AWORK 94 107	« Misopogon »
+T5	AAUTHOR 111 119	Giuliano
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:584.1207:13-16
+#1	AnnotatorNotes T4	urn:cts:greekLit:tlg2003.tlg012
+#2	AnnotatorNotes T5	urn:cts:cwkb:2469
+#3	AnnotatorNotes T1	urn:cts:cwkb:981.3359

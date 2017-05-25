@@ -1,0 +1,17 @@
+In	PRE
+margine	NOM
+allo	PRE:det
+studio	NOM
+di	PRE
+F.	NPR
+Lo	VER:impe
+Piparo	NOM
+sul	PRE:det
+linguaggio	NOM
+in	PRE
+Aristotele	NPR
+(	PON
+=>	NOM
+75-00638	NUM
+)	PON
+

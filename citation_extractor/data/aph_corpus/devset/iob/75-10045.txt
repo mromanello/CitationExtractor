@@ -1,0 +1,21 @@
+Analisi	NOM
+delle	PRE:det
+fonti	NOM
+letterarie	ADJ
+in	PRE
+proposito	NOM
+,	PON
+tra	PRE
+cui	PRO:rela
+l'	DET:def
+epigrafe	NOM
+metrica	ADJ
+IME	ABR
+10	NUM
+ed	CON
+altri	PRO:indef
+epigrammi	NOM
+greco-egizi	ADJ
+su	PRE
+pietra	NOM
+

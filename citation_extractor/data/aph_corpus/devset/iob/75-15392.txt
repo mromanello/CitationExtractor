@@ -1,0 +1,20 @@
+Mit	APPR
+Liste	NN
+der	ART
+von	APPR
+J.	NE
+Linderski	NN
+betreuten	ADJA
+Dissertationen	NN
+und	KON
+Magisterarbeiten	NN
+sowie	KON
+mit	APPR
+Bibliographie	NN
+J.	APPR
+Linderski	NN
+(	$(
+1954-2003	CARD
+)	$(
+.	$.
+

@@ -1,0 +1,7 @@
+T1	REFSCOPE 12 19	2, 4-63
+T2	AAUTHOR 47 55	Cicerone
+T3	REFAUWORK 59 67	De orat.
+T4	REFSCOPE 68 76	2, 62-64
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:981.4467:2.62-2.64
+#1	AnnotatorNotes T2	urn:cts:cwkb:431

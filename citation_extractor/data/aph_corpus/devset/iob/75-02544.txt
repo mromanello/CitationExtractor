@@ -1,0 +1,16 @@
+Editio	VER:impe
+princeps	NOM
+e	CON
+commento	NOM
+del	PRE:det
+papiro	NOM
+di	PRE
+provenienza	NOM
+egizia	ADJ
+,	PON
+datato	VER:pper
+al	PRE:det
+1°-2°	NOM
+sec.	NOM
+d.	NOM
+C.	NPR

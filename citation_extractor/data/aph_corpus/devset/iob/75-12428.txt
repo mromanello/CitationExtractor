@@ -1,0 +1,25 @@
+Avec	PRP
+examen	NOM
+de	PRP
+diverses	ADJ
+inscriptions	NOM
+isiaques	ADJ
+,	PUN
+dont	PRO:REL
+l'	DET:ART
+arétalogie	NOM
+de	PRP
+Kymé	NAM
+(	PUN
+IG	NAM
+12	NUM
+,	PUN
+suppl.	ABR
+p.	ABR
+98-99	NUM
+=	ABR
+I.	ABR
+Kime	NAM
+41	NUM
+)	PUN
+

@@ -1,0 +1,19 @@
+Testo	NOM
+dell'	PRE:det
+elegia	NOM
+tibulliana	ADJ
+e	CON
+osservazioni	NOM
+puntuali	ADJ
+per	PRE
+definirne	VER:infi
+la	DET:def
+struttura	NOM
+.	SENT
+
+Esegesi	NOM
+stilistico-formale	ADJ
+e	CON
+dati	NOM
+aritmologici	ADJ
+

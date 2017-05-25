@@ -1,0 +1,27 @@
+La	DET:def
+manipolazione	NOM
+retorica	ADJ
+della	PRE:det
+realtà	NOM
+da	PRE
+parte	NOM
+di	PRE
+Filocomasio	NOM
+nella	PRE:det
+prima	ADJ
+parte	NOM
+del	PRE:det
+«	PON
+Miles	NOM
+gloriosus	NOM
+»	PON
+ha	VER:pres
+molti	PRO:indef
+punti	NOM
+di	PRE
+contatto	NOM
+con	PRE
+la	DET:def
+commedia	NOM
+aristofanea	ADJ
+

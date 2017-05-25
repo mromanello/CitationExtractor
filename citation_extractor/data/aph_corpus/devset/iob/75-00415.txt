@@ -1,0 +1,21 @@
+Nel	PRE:det
+passo	ADJ
+Aristofane	NOM
+opera	NOM
+il	DET:def
+recupero	VER:pres
+della	PRE:det
+comicità	NOM
+del	PRE:det
+personaggio	NOM
+di	PRE
+Eracle	NOM
+,	PON
+tema	NOM
+mitologico	ADJ
+frequente	ADJ
+nel	PRE:det
+teatro	NOM
+comico	ADJ
+precedente	ADJ
+

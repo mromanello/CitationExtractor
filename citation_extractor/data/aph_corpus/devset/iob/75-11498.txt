@@ -1,0 +1,19 @@
+Sui	PRE:det
+caratteri	NOM
+dell'	PRE:det
+universo	NOM
+maschile	ADJ
+quale	PRO:rela
+percepito	VER:pper
+nell'	PRE:det
+antichità	NOM
+;	PON
+analisi	NOM
+delle	PRE:det
+figure	NOM
+di	PRE
+Egisto	NOM
+e	CON
+di	PRE
+Telemaco	NOM
+

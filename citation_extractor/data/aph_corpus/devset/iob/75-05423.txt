@@ -1,0 +1,10 @@
+Concerne	VER:pres
+soprattutto	ADV
+1	NUM
+,	PON
+1-4	NUM
+e	CON
+4	NUM
+,	PON
+4-12	NUM
+

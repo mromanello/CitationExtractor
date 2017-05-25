@@ -1,0 +1,9 @@
+Con	PRE
+un	DET:indef
+elenco	NOM
+della	PRE:det
+bibliografia	NOM
+essenziale	ADJ
+dello	PRE:det
+studioso	NOM
+

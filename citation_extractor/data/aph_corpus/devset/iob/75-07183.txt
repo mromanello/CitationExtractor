@@ -1,0 +1,11 @@
+Sur	PRP
+les	DET:ART
+impératifs	NOM
+présents	ADJ
+et	KON
+aoristes	ADJ
+des	PRP:det
+verbes	NOM
+de	PRP
+parole	NOM
+

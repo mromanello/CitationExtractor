@@ -1,0 +1,25 @@
+En general	ADV
+,	CM
+este	DM
+tipo	NC
+de	PREP
+expresión	NC
+es	VSfin
+apropiado	ADJ
+para	PREP
+la	ART
+designación	NC
+de	PREP
+una	ART
+muerte	NC
+natural	ADJ
+,	CM
+y	CC
+es	VSfin
+usado	VLadj
+casi	ADV
+exclusivamente	ADV
+por	PREP
+los	ART
+prosistas	NC
+

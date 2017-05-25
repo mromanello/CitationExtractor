@@ -1,0 +1,19 @@
+Dédale	NOM
+contre	PRP
+Minos	NAM
+,	PUN
+Palamède	NOM
+contre	PRP
+Ulysse	NAM
+,	PUN
+Prométhée	NAM
+contre	PRP
+Zeus	NAM
+.	SENT
+
+Pour	PRP
+1	NUM
+=>	ABR
+75-11885	NUM
+.	SENT
+

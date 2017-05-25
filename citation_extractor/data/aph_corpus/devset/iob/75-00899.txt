@@ -1,0 +1,17 @@
+Il	DET:def
+passo	NOM
+costituisce	VER:pres
+la	DET:def
+fondazione	NOM
+della	PRE:det
+filosofia	NOM
+occidentale	ADJ
+:	PON
+la	DET:def
+dialettica	NOM
+agostiniana	ADJ
+è	VER:pres
+scienza	NOM
+dell'	PRE:det
+autocoscienza	NOM
+

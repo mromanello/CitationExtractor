@@ -1,0 +1,32 @@
+Le	DET:ART
+peuplement	NOM
+rural	ADJ
+de	PRP
+l'	DET:ART
+Émilie-Romagne	NAM
+reprend	VER:pres
+à	PRP
+la	DET:ART
+fin	NOM
+de	PRP
+la	DET:ART
+deuxième	NUM
+guerre	NOM
+punique	ADJ
+.	SENT
+
+Il	PRO:PER
+s'	PRO:PER
+agit	VER:pres
+d'	PRP
+installations	NOM
+à	PRP
+but	NOM
+utilitaire	ADJ
+et	KON
+non	ADV
+de	PRP
+séjours	NOM
+de	PRP
+plaisance	NOM
+

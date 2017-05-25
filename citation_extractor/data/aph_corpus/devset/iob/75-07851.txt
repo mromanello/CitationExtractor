@@ -1,0 +1,33 @@
+Prospections	NOM
+de	PRP
+la	DET:ART
+State	NOM
+University	NAM
+of	VER:futu
+NY	NAM
+at	VER:futu
+Albany	NAM
+,	PUN
+depuis	PRP
+1981.	DET:POS
+
+Les	DET:ART
+résultats	NOM
+indiquent	VER:pres
+que	KON
+la	DET:ART
+région	NOM
+ne	ADV
+commence	VER:pres
+à	PRP
+être	VER:infi
+occupée	VER:pper
+qu'	KON
+à	PRP
+partir	VER:infi
+des	PRP:det
+époques	NOM
+romaine	ADJ
+et	KON
+byzantine	ADJ
+

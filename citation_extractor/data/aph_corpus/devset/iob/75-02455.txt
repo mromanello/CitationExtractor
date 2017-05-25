@@ -1,0 +1,24 @@
+Analisi	NOM
+delle	PRE:det
+similtudini	NOM
+presenti	ADJ
+nel	PRE:det
+passo	ADJ
+odissiaco	NOM
+e	CON
+dei	PRE:det
+procedimenti	NOM
+di	PRE
+riuso	NOM
+di	PRE
+tali	PRO:demo
+immagini	NOM
+in	PRE
+autori	NOM
+successivi	ADJ
+,	PON
+sia	VER:cpre
+greci	ADJ
+sia	CON
+latini	ADJ
+

@@ -1,0 +1,23 @@
+Sondage	NOM
+de	PRP
+sauvetage	NOM
+sur	PRP
+le	DET:ART
+site	NOM
+présumé	VER:pper
+de	PRP
+l'	DET:ART
+ancienne	ADJ
+Laccobriga	NOM
+.	SENT
+
+Céramique	NOM
+romaine	ADJ
+,	PUN
+dont	PRO:REL
+une	DET:ART
+sigillée	ADJ
+estampillée	VER:pper
+en	PRP
+latin	ADJ
+

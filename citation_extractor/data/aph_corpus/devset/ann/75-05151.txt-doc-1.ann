@@ -1,0 +1,7 @@
+T1	REFAUWORK 126 131	(Pun.
+T2	REFSCOPE 132 144	14, 492-515)
+T3	REFSCOPE 177 185	v. 496s.
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:1155:14.492-14.515
+#1	AnnotatorNotes R2	urn:cts:cwkb:1155:496

@@ -1,0 +1,24 @@
+Analisi	NOM
+del	PRE:det
+sogno	NOM
+di	PRE
+Mosè	NPR
+come	PRE
+espressione	NOM
+di	PRE
+una	DET:indef
+spiritualità	NOM
+nuova	ADJ
+attraverso	PRE
+forme	NOM
+classiche	ADJ
+(	PON
+modello	NOM
+classico	ADJ
+dell'	PRE:det
+«	PON
+omen	NOM
+imperii	VER:pres
+»	PON
+)	PON
+

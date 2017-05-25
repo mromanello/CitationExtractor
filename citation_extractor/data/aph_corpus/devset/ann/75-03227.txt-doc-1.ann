@@ -1,0 +1,9 @@
+T1	AAUTHOR 64 71	Maxime,
+T2	REFAUWORK 95 102	Ambigua
+T3	REFSCOPE 103 105	10
+T4	REFSCOPE 106 112	et 71,
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:1136:10
+#1	AnnotatorNotes R2	urn:cts:cwkb:1136:71
+#2	AnnotatorNotes T1	urn:cts:cwkb:2736

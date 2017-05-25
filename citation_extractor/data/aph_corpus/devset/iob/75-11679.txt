@@ -1,0 +1,17 @@
+Conclusions	NOM
+au	PRP:det
+colloque	NOM
+«	PUN:cit
+Tissus	NAM
+et	KON
+vêtements	NOM
+dans	PRP
+l'	DET:ART
+Antiquité	NOM
+Tardive	NAM
+»	PUN:cit
+(	PUN
+=>	ABR
+75-15034	NUM
+)	PUN
+

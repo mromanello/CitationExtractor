@@ -1,0 +1,24 @@
+Analisi	NOM
+lessicale	ADJ
+ed	CON
+etimologica	ADJ
+di	PRE
+questo	PRO:demo
+nesso	NOM
+in	PRE
+Od.	NOM
+3	NUM
+,	PON
+433	NUM
+,	PON
+ove	ADV
+esso	PRO:pers
+indica	VER:cpre
+anche	ADV
+«	PON
+il	DET:def
+culmine	NOM
+dell'	PRE:det
+arte	NOM
+»	PON
+

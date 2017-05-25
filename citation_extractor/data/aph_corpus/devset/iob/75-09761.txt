@@ -1,0 +1,16 @@
+PVindob	NP
+.	SENT
+
+G	NP
+14452	CD
+,	,
+Hermopolites	NP
+,	,
+2.	CD
+
+Hälfte	NP
+6.	CD
+
+Jh	NP
+.	SENT
+

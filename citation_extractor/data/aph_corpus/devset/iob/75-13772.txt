@@ -1,0 +1,24 @@
+Influenza	NOM
+delle	PRE:det
+(	PON
+erronee	ADJ
+)	PON
+concezioni	NOM
+geografiche	ADJ
+antiche	ADJ
+sul	PRE:det
+pensiero	NOM
+tardoantico	ADJ
+e	CON
+medioevale	ADJ
+,	PON
+soprattutto	ADV
+attraverso	ADV
+la	DET:def
+trasmissione	NOM
+di	PRE
+Tolemeo	NOM
+nella	PRE:det
+cultura	NOM
+araba	ADJ
+

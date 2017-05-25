@@ -1,0 +1,11 @@
+Anhand	APPR
+der	ART
+Grabsteine	NN
+und	KON
+der	ART
+in	APPR
+den	ART
+Inschriften	NN
+bezeugten	ADJA
+Personennamen	NN
+

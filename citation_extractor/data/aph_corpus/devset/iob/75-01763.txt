@@ -1,0 +1,15 @@
+Sobre	PREP
+el	ART
+concepto	NC
+de	PREP
+«	SYM
+autosuficiencia	NC
+»	SYM
+como	CSUBX
+fundamento	VLfin
+de	PREP
+la	ART
+ética	NC
+de	PREP
+Epicuro	NC
+

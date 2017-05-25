@@ -1,0 +1,17 @@
+Les	DET:ART
+structures	NOM
+socio-politiques	ADJ
+indigènes	ADJ
+ont	VER:pres
+facilité	VER:pper
+la	DET:ART
+mise	NOM
+en	PRP
+place	NOM
+du	PRP:det
+système	NOM
+romain	ADJ
+de	PRP
+clientèle	NOM
+politico-sociale	ADJ
+

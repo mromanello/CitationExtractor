@@ -1,0 +1,23 @@
+Publication	NOM
+du	PRP:det
+texte	NOM
+latin	ADJ
+et	KON
+grec	ADJ
+de	PRP
+PCair	NAM
+.	SENT
+
+10482	NUM
++	SYM
+PVindob	NAM
+.	SENT
+
+L	NUM
+115	NUM
+(	PUN
+14-30	NUM
+août	NOM
+332	NUM
+)	PUN
+

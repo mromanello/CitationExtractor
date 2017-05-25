@@ -1,0 +1,10 @@
+Auch	ADV	O
+anhand	APPR	O
+von	APPR	O
+Beispielen	NN	O
+aus	APPR	O
+dem	ART	O
+Griechischen	NN	O
+und	KON	O
+Lateinischen	NN	O
+.	$.	O

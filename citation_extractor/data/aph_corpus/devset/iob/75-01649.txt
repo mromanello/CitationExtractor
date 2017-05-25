@@ -1,0 +1,22 @@
+L'	DET:ART
+émergence	NOM
+des	PRP:det
+écrits	NOM
+dionysiens	ADJ
+,	PUN
+le	DET:ART
+«	PUN:cit
+textus	NOM
+receptus	ADJ
+»	PUN:cit
+,	PUN
+la	DET:ART
+textualité	NOM
+du	PRP:det
+corps	NOM
+élargi	VER:pper
+,	PUN
+le	DET:ART
+réseau	NOM
+herméneutique	ADJ
+

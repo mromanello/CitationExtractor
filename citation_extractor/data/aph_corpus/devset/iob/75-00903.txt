@@ -1,0 +1,12 @@
+À	PRP
+propos	NOM
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+de	PRP
+L.	ABR
+C.	ABR
+Seelbach	NAM
+noté	VER:pper
+74-01068	NUM
+

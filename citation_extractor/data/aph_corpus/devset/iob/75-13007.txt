@@ -1,0 +1,11 @@
+À	PRP
+propos	NOM
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+de	PRP
+M.	NOM
+Spannagel	ADJ
+noté	VER:pper
+70-13235	NUM
+

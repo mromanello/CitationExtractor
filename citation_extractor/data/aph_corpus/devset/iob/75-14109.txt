@@ -1,0 +1,24 @@
+À	PRP
+partir	VER:infi
+des	PRP:det
+«	PUN:cit
+envois	NOM
+»	PUN:cit
+des	PRP:det
+pensionnaires	NOM
+de	PRP
+la	DET:ART
+villa	NOM
+Médicis	NAM
+de	PRP
+Rome	NAM
+,	PUN
+analyse	NOM
+des	PRP:det
+rapports	NOM
+conflictuels	ADJ
+entre	PRP
+archéologues	NOM
+et	KON
+architectes	NOM
+

@@ -1,0 +1,21 @@
+Ampia	ADJ
+rassegna	NOM
+dei	PRE:det
+dati	NOM
+archeologici	ADJ
+,	PON
+onomastici	ADJ
+ed	CON
+epigrafici	ADJ
+sulla	PRE:det
+presenza	NOM
+di	PRE
+coloni	NOM
+illiri	NOM
+in	PRE
+questo	PRO:demo
+centro	NOM
+minerario	ADJ
+della	PRE:det
+Dacia	NOM
+

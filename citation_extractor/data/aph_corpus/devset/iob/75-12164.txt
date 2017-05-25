@@ -1,0 +1,18 @@
+Überlegungen	NN
+in	APPR
+Auseinandersetzung	NN
+mit	APPR
+der	ART
+Forschung	NN
+sprechen	VVFIN
+für	APPR
+die	ART
+Authentizität	NN
+der	ART
+constantinischen	ADJA
+Bestimmungen	NN
+von	APPR
+318	CARD
+und	KON
+323	CARD
+

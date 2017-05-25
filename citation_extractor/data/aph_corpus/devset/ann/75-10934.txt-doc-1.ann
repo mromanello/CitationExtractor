@@ -1,0 +1,5 @@
+T1	AAUTHOR 284 292	Polybios
+T2	REFSCOPE 293 306	(5, 89, 3, 6)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0543:5.89.3.6
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0543

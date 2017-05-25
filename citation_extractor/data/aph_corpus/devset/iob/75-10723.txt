@@ -1,0 +1,25 @@
+Analisi	NOM
+delle	PRE:det
+premesse	NOM
+ideologiche	ADJ
+e	CON
+della	PRE:det
+diversa	ADJ
+caratterizzazione	NOM
+,	PON
+istituzionale	ADJ
+o	CON
+informale	ADJ
+,	PON
+dei	PRE:det
+collaboratori	NOM
+dell'	PRE:det
+imperatore	NOM
+tra	PRE
+il	DET:def
+1°	ADJ
+e	CON
+il	DET:def
+2°	NOM
+secolo	NOM
+

@@ -1,0 +1,8 @@
+Concerne	VER:pres
+soprattutto	ADV
+Luciano	NPR
+e	CON
+Dione	NOM
+di	PRE
+Prusa	NOM
+

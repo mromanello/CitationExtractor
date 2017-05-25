@@ -1,0 +1,11 @@
+Étude	NOM
+comparative	ADJ
+et	KON
+héritage	NOM
+de	PRP
+Jérôme	NAM
+chez	PRP
+Julien	NAM
+d'	PRP
+Éclane	NOM
+

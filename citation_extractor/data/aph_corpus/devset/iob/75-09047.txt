@@ -1,0 +1,16 @@
+Veröffentlichung	NN
+von	APPR
+drei	CARD
+jeweils	ADV
+vor	APPR
+Ort	NN
+befindlichen	ADJA
+griechischen	ADJA
+Grabinschriften	NN
+aus	APPR
+späthellenistischer	ADJA
+Zeit	NN
+und	KON
+Kaiserzeit	NN
+.	$.
+

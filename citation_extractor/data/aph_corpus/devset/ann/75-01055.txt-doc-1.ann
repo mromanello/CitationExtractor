@@ -1,0 +1,4 @@
+T1	REFAUWORK 8 20	Caesar Gall.
+T2	REFSCOPE 21 28	5, 1, 2
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:418.833:5.1.2

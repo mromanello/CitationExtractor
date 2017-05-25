@@ -1,0 +1,36 @@
+Bilan	NOM
+typologique	ADJ
+de	PRP
+cette	PRO:DEM
+catégorie	NOM
+de	PRP
+vases	NOM
+du	PRP:det
+Bronze	NAM
+ancien/moyen	ADJ
+(	PUN
+Red	NAM
+Polished	NAM
+IV	NUM
+)	PUN
+.	SENT
+
+Hypothèses	NOM
+sur	PRP
+leur	DET:POS
+fonction	NOM
+:	PUN
+offrande	NOM
+funéraire	ADJ
+,	PUN
+symbole	NOM
+de	PRP
+statut	NOM
+social	ADJ
+de	PRP
+certaines	PRO:IND
+familles	NOM
+ou	KON
+usage	NOM
+rituel	ADJ
+

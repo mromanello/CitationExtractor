@@ -1,0 +1,23 @@
+Zu	APPR
+den	ART
+biblischen	ADJA
+Grundlagen	NN
+der	ART
+synodalen	ADJA
+Verfassung	NN
+der	ART
+Kirche	NN
+und	KON
+zum	APPRART
+Ökumenischen	NN
+Konzil	NN
+als	KOKOM
+Ausdruck	NN
+der	ART
+Synodalität	NN
+in	APPR
+der	ART
+alten	ADJA
+Kirche	NN
+.	$.
+

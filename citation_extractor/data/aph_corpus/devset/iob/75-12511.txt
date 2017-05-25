@@ -1,0 +1,23 @@
+Réflexions	NOM
+sur	PRP
+la	DET:ART
+transmission	NOM
+de	PRP
+la	DET:ART
+culture	NOM
+orientale	ADJ
+dans	PRP
+le	DET:ART
+monde	NOM
+occidental	ADJ
+,	PUN
+notamment	ADV
+par	PRP
+l'	DET:ART
+intermédiaire	NOM
+de	PRP
+la	DET:ART
+Bible	NAM
+en	PRP
+grec	ADJ
+

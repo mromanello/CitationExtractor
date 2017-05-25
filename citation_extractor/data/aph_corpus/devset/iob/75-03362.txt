@@ -1,0 +1,11 @@
+Presentazione	NOM
+del	PRE:det
+volume	NOM
+di	PRE
+F.	NPR
+Tissoni	NOM
+(	PON
+=>	NOM
+71-03411	NUM
+)	PON
+

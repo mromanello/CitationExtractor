@@ -1,0 +1,14 @@
+Sulla	PRE:det
+distinzione	NOM
+fra	PRE
+«	PON
+plenissima	ADJ
+possessio	VER:geru
+»	PON
+e	CON
+usufrutto	NOM
+nella	PRE:det
+dottrina	NOM
+giuridica	ADJ
+pregiustinianea	ADJ
+

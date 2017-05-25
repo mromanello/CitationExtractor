@@ -1,0 +1,11 @@
+Survey	NN
+of	IN
+recent	JJ
+work	NN
+at	IN
+a	DT
+variety	NN
+of	IN
+sites	NNS
+.	SENT
+

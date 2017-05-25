@@ -1,0 +1,22 @@
+Le	DET:def
+interpretazioni	NOM
+galeniane	ADJ
+sui	PRE:det
+testi	NOM
+ippocratici	NOM
+da	PRE
+lui	PRO:pers
+ritenuti	VER:pper
+genuini	ADJ
+riguardo	NOM
+alla	PRE:det
+terminologia	NOM
+,	PON
+la	DET:def
+fisiologia	NOM
+e	CON
+la	DET:def
+diagnostica	NOM
+del	PRE:det
+dolore	NOM
+

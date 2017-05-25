@@ -1,0 +1,17 @@
+Porte	VER:pres
+notamment	ADV
+sur	PRP
+le	DET:ART
+rôle	NOM
+du	PRP:det
+sanctuaire	NOM
+de	PRP
+Poseidon	NAM
+à	PRP
+Calaureia	NAM
+,	PUN
+siège	NOM
+de	PRP
+l'	DET:ART
+amphictionie	NOM
+

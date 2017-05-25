@@ -1,0 +1,25 @@
+Die	ART
+Fabel	NN
+ist	VAFIN
+nur	ADV
+vordergründig	ADJD
+eine	ART
+Parodie	NN
+auf	APPR
+das	ART
+Gerichtswesen	NN
+,	$,
+in	APPR
+Wirklichkeit	NN
+fällt	VVFIN
+der	ART
+Affe	NN
+ein	ART
+salomonisches	ADJA
+Urteil	NN
+zwischen	APPR
+Habgier	NN
+und	KON
+Verschlagenheit	NN
+.	$.
+

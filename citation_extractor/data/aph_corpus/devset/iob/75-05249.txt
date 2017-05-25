@@ -1,0 +1,8 @@
+Concerne	VER:pres
+l'	DET:ART
+ambigüité	NOM
+sexuelle	ADJ
+prêtée	VER:pper
+à	PRP
+Séjan	NAM
+

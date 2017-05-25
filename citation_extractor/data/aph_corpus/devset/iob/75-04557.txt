@@ -1,0 +1,20 @@
+A	PREP
+propósito	NC
+de	PREP
+la	ART
+interpretación	NC
+de	PREP
+las	ART
+victorias	NC
+sobre	PREP
+Corinto	NC
+y	CC
+Numancia	NC
+en	PREP
+el	ART
+debate	VLfin
+acerca	ADV
+del	PDEL
+imperialismo	NC
+romano	VLfin
+

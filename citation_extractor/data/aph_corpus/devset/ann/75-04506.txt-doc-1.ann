@@ -1,0 +1,10 @@
+T1	AAUTHOR 8 19	Plutarch 's
+T2	AWORK 36 44	« Life »
+T3	AAUTHOR 48 53	Solon
+T4	AAUTHOR 184 192	Phaenias
+T5	AAUTHOR 228 239	Plutarch 's
+#0	AnnotatorNotes T4	urn:cts:cwkb:2659
+#1	AnnotatorNotes T5	urn:cts:greekLit:tlg0007
+#2	AnnotatorNotes T2	urn:cts:latinLit:phi0474.phi033
+#3	AnnotatorNotes T3	urn:cts:cwkb:1380
+#4	AnnotatorNotes T1	urn:cts:greekLit:tlg0007

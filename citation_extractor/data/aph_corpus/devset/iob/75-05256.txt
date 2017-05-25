@@ -1,0 +1,19 @@
+Sobre	PREP
+el	ART
+empleo	NC
+de	PREP
+los	ART
+términos	NC
+«	SYM
+colonia	NC
+»	SYM
+y	ALFS
+«	SYM
+municipium	NC
+»	SYM
+en	PREP
+la	ART
+obra	NC
+de	PREP
+Tácito	NC
+

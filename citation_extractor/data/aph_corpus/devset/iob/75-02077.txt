@@ -1,0 +1,9 @@
+Fonction	NOM
+sémiotique	ADJ
+du	PRP:det
+pronom	NOM
+pour	PRP
+les	DET:ART
+grammairiens	NOM
+grecs	ADJ
+

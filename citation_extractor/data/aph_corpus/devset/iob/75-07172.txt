@@ -1,0 +1,16 @@
+Racine	NOM
+*al	ADJ
+,	PUN
+associée	VER:pper
+à	PRP
+la	DET:ART
+notion	NOM
+d'	PRP
+altérité	NOM
+et	KON
+à	PRP
+l'	DET:ART
+expression	NOM
+du	PRP:det
+sacré	NOM
+

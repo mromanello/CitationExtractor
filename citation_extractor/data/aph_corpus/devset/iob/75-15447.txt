@@ -1,0 +1,13 @@
+Ricordo	NOM
+di	PRE
+Paolo	NOM
+Serra	NOM
+Zanetti	NOM
+(	PON
+1932-2004	NUM
+)	PON
+all'	PRE:det
+indomani	NOM
+della	PRE:det
+morte	NOM
+

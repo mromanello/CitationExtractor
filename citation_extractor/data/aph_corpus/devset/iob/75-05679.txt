@@ -1,0 +1,28 @@
+Aspects	NOM
+émotionnels	ADJ
+de	PRP
+la	DET:ART
+théologie	NOM
+paulinienne	ADJ
+,	PUN
+étudiés	VER:pper
+à	PRP
+la	DET:ART
+lumière	NOM
+des	PRP:det
+théories	NOM
+de	PRP
+la	DET:ART
+dissonance	NOM
+cognitive	ADJ
+comme	KON
+organisatrices	ADJ
+du	PRP:det
+discours	NOM
+.	SENT
+
+La	DET:ART
+conversion	NOM
+de	PRP
+Damas	NAM
+

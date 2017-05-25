@@ -1,0 +1,23 @@
+Les	DET:ART
+reliques	NOM
+proprement	ADV
+dites	ADJ
+.	SENT
+
+Les	DET:ART
+tissus	NOM
+enveloppant	VER:ppre
+les	DET:ART
+reliques	NOM
+.	SENT
+
+Les	DET:ART
+tissus	NOM
+entrés	VER:pper
+en	PRP
+contact	NOM
+avec	PRP
+les	DET:ART
+reliques	NOM
+.	SENT
+

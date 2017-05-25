@@ -1,0 +1,20 @@
+Hommage	NOM
+à	PRP
+cette	PRO:DEM
+archéologue	NOM
+libanaise	ADJ
+,	PUN
+responsable	ADJ
+du	PRP:det
+secteur	NOM
+du	PRP:det
+Mont-Liban	NOM
+et	KON
+coordinatrice	NOM
+des	PRP:det
+fouilles	NOM
+du	PRP:det
+centre-ville	NOM
+de	PRP
+Beyrouth	NAM
+

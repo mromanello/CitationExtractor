@@ -1,0 +1,30 @@
+La	DET:ART
+question	NOM
+de	PRP
+la	DET:ART
+localisation	NOM
+de	PRP
+la	DET:ART
+maison	NOM
+acquise	VER:pper
+par	PRP
+Cicéron	NAM
+sur	PRP
+le	DET:ART
+Palatin	NAM
+en	PRP
+62	NUM
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+à	PRP
+la	DET:ART
+lumière	NOM
+des	PRP:det
+fouilles	NOM
+archéologiques	ADJ
+

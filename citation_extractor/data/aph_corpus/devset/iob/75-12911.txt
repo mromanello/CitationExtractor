@@ -1,0 +1,25 @@
+Du	PRP:det
+2e	NUM
+au	PRP:det
+3e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+
+Importance	NOM
+de	PRP
+la	DET:ART
+survie	NOM
+du	PRP:det
+défunt	NOM
+dans	PRP
+la	DET:ART
+mémoire	NOM
+de	PRP
+la	DET:ART
+«	PUN:cit
+familia	NOM
+»	PUN:cit
+

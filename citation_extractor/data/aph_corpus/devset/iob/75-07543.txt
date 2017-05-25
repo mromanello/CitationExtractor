@@ -1,0 +1,16 @@
+Sur	PRP
+la	DET:ART
+paléographie	NOM
+des	PRP:det
+inscriptions	NOM
+proto-byzantines	ADJ
+et	KON
+les	DET:ART
+possibilités	NOM
+de	PRP
+datation	NOM
+qu'	PRO:REL
+offre	VER:pres
+son	DET:POS
+étude	NOM
+

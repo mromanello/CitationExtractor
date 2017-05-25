@@ -1,0 +1,10 @@
+Se	SE
+estudia	VLfin
+el	ART
+erotismo	NC
+griego	ADJ
+a través de	PREP
+la	ART
+literatura	NC
+.	FS
+

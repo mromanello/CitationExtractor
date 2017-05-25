@@ -1,0 +1,18 @@
+Zu	APPR
+neueren	ADJA
+Hypothesen	NN
+zu	APPR
+Heimat	NN
+und	KON
+Sprache	NN
+der	ART
+Indoeuropäer	NN
+auch	ADV
+anhand	APPR
+der	ART
+sprachlichen	ADJA
+Befunde	NN
+in	APPR
+Griechenland	NE
+.	$.
+

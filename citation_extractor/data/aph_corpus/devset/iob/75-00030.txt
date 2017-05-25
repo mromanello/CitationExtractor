@@ -1,0 +1,20 @@
+El	ART
+verdadero	ADJ
+protagonista	NC
+de	PREP
+esta	DM
+tragedia	NC
+es	VSfin
+el	ART
+coro	NC
+,	CM
+como	CSUBX
+coro	NC
+unas	ART
+veces	NC
+y	CC
+como	ADV
+héroe	NC
+trágico	ADJ
+otras	QU
+

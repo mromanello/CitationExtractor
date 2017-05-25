@@ -1,0 +1,4 @@
+T1	REFAUWORK 248 252	Lac.
+T2	REFSCOPE 253 258	2, 9,
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0032.tlg010:2.9

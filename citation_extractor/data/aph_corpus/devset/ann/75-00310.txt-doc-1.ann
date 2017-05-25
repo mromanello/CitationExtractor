@@ -1,0 +1,4 @@
+T1	REFAUWORK 42 47	(Met.
+T2	REFSCOPE 48 54	5, 28)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0959.phi006:5.28

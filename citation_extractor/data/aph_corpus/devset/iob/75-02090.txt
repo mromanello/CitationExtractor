@@ -1,0 +1,18 @@
+Analisi	NOM
+e	CON
+classificazione	NOM
+delle	PRE:det
+15	NUM
+definizioni	NOM
+di	PRE
+avverbio	NOM
+fornite	VER:pper
+dai	PRE:det
+manuali	NOM
+grammaticali	ADJ
+latini	ADJ
+che	PRO:rela
+trattano	VER:pres
+l'	DET:def
+argomento	NOM
+

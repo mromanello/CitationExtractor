@@ -1,0 +1,23 @@
+Notamment	ADV
+aux	PRP:det
+époques	NOM
+classique	ADJ
+et	KON
+hellénistique	ADJ
+.	SENT
+
+Parallèle	NOM
+avec	PRP
+la	DET:ART
+situation	NOM
+de	PRP
+Salamine	NAM
+de	PRP
+Chypre	NAM
+et	KON
+des	PRP:det
+Salaminiens	NOM
+à	PRP
+l'	DET:ART
+étranger	ADJ
+

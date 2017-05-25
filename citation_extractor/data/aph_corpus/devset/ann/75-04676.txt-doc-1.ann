@@ -1,0 +1,5 @@
+T1	AAUTHOR 56 65	Properzio
+T2	REFSCOPE 185 192	2, 30 A
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0620:2.30
+#1	AnnotatorNotes T1	urn:cts:latinLit:phi0620

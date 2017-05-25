@@ -1,0 +1,5 @@
+Résumé	VER:pper
+d'	PRP
+une	DET:ART
+communication	NOM
+

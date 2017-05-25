@@ -1,0 +1,20 @@
+In	APPR
+der	ART
+Rezeption	NN
+von	APPR
+Mt	NN
+25	CARD
+,	$,
+31-46	CARD
+von	APPR
+Justin	NE
+bis	KON
+Hieronymus	NE
+bleibt	VVFIN
+die	ART
+ethische	ADJA
+und	KON
+soziale	ADJA
+Ausrichtung	NN
+vorherrschend	ADJD
+
