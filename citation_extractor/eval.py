@@ -2,20 +2,27 @@
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
 """
-TODO
+
+Module containing classes and functions to perform the evaluation of the various steps of the pipeline (NER, RelEx, NED).
+
 """
+from __future__ import division
+import pdb # TODO: remove from production code
 import sys,logging,re
 import os
 import glob
+import math
+from pyCTS import BadCtsUrnSyntax
 from citation_extractor.core import *
 from citation_extractor.crfpp_wrap import CRF_classifier
-from citation_extractor.Utils.IO import read_ann_file, read_ann_file_new, init_logger
-from Utils import IO
+from citation_extractor.Utils import IO
+from citation_extractor.Utils.IO import read_ann_file, read_ann_file_new, init_logger, NIL_ENTITY
 from miguno.partitioner import *
 from miguno.crossvalidationdataconstructor import *
 import pprint
 
 global logger
+logger = logging.getLogger(__name__)
 
 class SimpleEvaluator(object):
     """
@@ -366,7 +373,8 @@ class SimpleEvaluator(object):
             return 0
         else:
             return 2*(float(prec * rec) / float(prec + rec))
-class CrossEvaluator(SimpleEvaluator):
+
+class CrossEvaluator(SimpleEvaluator): # TODO: remove
     """
     >>> import settings #doctest: +SKIP
     >>> import pprint #doctest: +SKIP
@@ -400,10 +408,6 @@ class CrossEvaluator(SimpleEvaluator):
         """
         TODO
         """
-        
-        from miguno.partitioner import *
-        from miguno.crossvalidationdataconstructor import *
-        from citation_extractor.Utils import IO
         positive_labels = ["B-REFSCOPE","I-REFSCOPE","B-AAUTHOR","I-AAUTHOR","B-REFAUWORK","I-REFAUWORK","B-AWORK","I-AWORK"]
         if(self.culling_size is not None):
             positives_negatives = [(n,IO.instance_contains_label(inst,positive_labels)) for n,inst in enumerate(self.culled_instances)]
@@ -483,91 +487,182 @@ class CrossEvaluator(SimpleEvaluator):
                     results_by_entity["iter-%i"%(i+1)][extractor_name] = SimpleEvaluator.calc_stats_by_entity(se.eval()[extractor_name][1])
                     #self.logger.info(results_by_entity["iter-%i"%(i+1)][extractor_name])
         return results,results_by_entity    
-# NB:
-# `evaluate_ned` is a legacy function
-# it needs to be refactored and tested to make sure it works with `read_ann_file_new` 
-# (now it works just with `read_ann_file`)
-# also, it needs to take into account NIL entities (TODO)
-def evaluate_ned(docid, gold_disambiguations, target_disambiguations, exclude_relations=False):
-    """
-    Evaluates the accuracy of the disambiguation of named entities and relations (i.e. references). 
-    """
-    gold_disambiguations =  {id:(label,urn) for id,label,urn in gold_disambiguations if len(gold_disambiguations)>0}
-    target_disambiguations = {id:(label,urn) for id,label,urn in target_disambiguations if len(target_disambiguations)>0}
-    """
-    What it does?
-    - a disambiguation that is in the target_set but not in the gold_set is a FP
-    - a disambiguation that is in the gold_set but not in the target_set is a FN
-    - when the disambiguation is identical is a TP
-    - when the disambiguation differ is a FP
-    """
-    result = {
-    "true_pos":0
-    ,"false_pos":0
-    ,"false_neg":0
-    ,"true_neg":0
-    }
-    errors = {
-    "true_pos":[]
-    ,"false_pos":[]
-    ,"false_neg":[]
-    ,"true_neg":[]
-    }
-    for id in gold_disambiguations:
-        if(exclude_relations and id.startswith("R")):
-            pass
-        else:
-            try:
-                gold_urn = gold_disambiguations[id][1]
-                target_urn = target_disambiguations[id][1]
-                if(gold_urn == target_urn):
-                    errors["true_pos"].append((gold_disambiguations[id][0],gold_urn,target_urn))
-                    result["true_pos"]+=1
-                else:
-                    errors["false_pos"].append((gold_disambiguations[id][0],gold_urn,target_urn))
-                    result["false_pos"]+=1
-            except Exception, e:
-                result["false_neg"]+=1
-                errors["false_neg"].append((gold_disambiguations[id][0],None))
-    for id in target_disambiguations:
-        if(exclude_relations and id.startswith("R")):
-            pass
-        else:
-            try:
-                pass
-            except Exception, e:
-                result["false_pos"]+=1
-                errors["false_pos"].append((gold_disambiguations[id][0],None,target_urn))
-    return result,errors
-def analyse_errors(errors_dict):
-    """
-    The main goal of this function is to check how many of the FP errors are due to the wrong work
-    being identified, and how many instead are due to an error in the parsing of the reference scope.
 
-    :param errors_dict: the dictionary with errors returned by `evaluate_ned`.
+def evaluate_ned(goldset_data, gold_directory, target_data):
     """
-    correct_scope = 0
-    passages = 0
-    authors = 0
-    works = 0
-    for label,gold_urn,target_urn in errors_dict["false_pos"]:
+    Evaluate the Named Entity Disambigutation taking in input the goldset data, the 
+    goldset directory and a target directory contaning files in the brat stand-off annotation format.
+
+    The F1 score is computed over the macro-averaged precision and recall. 
+    The accuracy is computed as TPs+TNs / TPs+TNs+FNs.
+    The disambiguation of consecutive references to the same ancient work is considered only once (i.e. `scope`
+        relations with identical arg1).
+
+    :param goldset_data: a `pandas.DataFrame` with the goldset data read via `citation_extractor.Utils.IO.load_brat_data`
+    
+    :param gold_directory: the path to the gold set
+    
+    :param target: a `pandas.DataFrame` with the target data read via `citation_extractor.Utils.IO.load_brat_data`
+    
+    :return: a tuple where [0] is a dictionary with keys "precision", "recall", "fscore"; 
+            [1] is a list of dictionaries (keys "true_pos", "true_neg", "false_pos" and "false_neg"), one for each document; 
+            [2] is a dictionary containing the actual URNs (gold and predicted) grouped by error types 
+            or None if the evaluation is aborted.
+
+    """
+
+    # variables to store aggregated results and errors
+    disambig_results = []
+    disambig_errors = {"true_pos":[], "true_neg":[], "false_pos":[], "false_neg":[]}
+    aggregated_results = {"true_pos":0, "true_neg":0, "false_pos":0, "false_neg":0}
+    scores = {}
+    
+    # check that number/names of .ann files is the same
+    doc_ids_gold = list(set(goldset_data["doc_id"]))
+    docs_ids_target = list(set(target_data["doc_id"]))
+    
+    try:
+        assert sorted(doc_ids_gold)==sorted(docs_ids_target)
+    except AssertionError as e:
+        logger.error("Evaluation aborted: the script expects identical filenames in gold and target directory.")
+        return (None, None, None)
+
+    logger.info("Evaluating NED: there are %i documents" % len(doc_ids_gold))
+
+    for doc_id in doc_ids_gold:
+
+        # create a dictionary like {"T1":"urn:cts:greekLit:tlg0012", }
+        gold_disambiguations = {id.split('-')[2]: row["urn_clean"] 
+                                    for id, row in goldset_data[goldset_data["doc_id"]==doc_id].iterrows()}
+       
+        # pass on all relations data
+        gold_relations = read_ann_file_new("%s.txt" % doc_id, gold_directory)[1] 
+       
+        # create a dictionary like {"T1":"urn:cts:greekLit:tlg0012", }
+        target_disambiguations = {id.split('-')[2]: row["urn_clean"] 
+                                    for id, row in target_data[target_data["doc_id"]==doc_id].iterrows()}
+        
+        # process each invidual file
+        file_result, file_errors = _evaluate_ned_file(doc_id
+                                                    , gold_disambiguations
+                                                    , gold_relations
+                                                    , target_disambiguations)
+
+        # add error details
+        for error_type in file_errors:
+            disambig_errors[error_type]+=file_errors[error_type]
+
+        # NB: if the file contains only NIL entities we exclude it from the counts
+        # used to computed the macro-averaged precision and recall
+        NIL_entities = [urn for urn in gold_disambiguations.values() if urn == NIL_ENTITY]
+        non_NIL_entities = [urn for urn in gold_disambiguations.values() if urn != NIL_ENTITY]
+        
+        if len(non_NIL_entities)>0:
+            disambig_results.append(file_result)
+        elif len(non_NIL_entities)==0:
+            logger.info("%s contains only NIL entities (or is empty): not considered when computing macro-averaged measures" % doc_id)
+
+        # still, we include it in the counts used to compute the global accuracy
+        for key in file_result:
+            aggregated_results[key]+=file_result[key]
+
+    precisions = [SimpleEvaluator.calc_precision(r) for r in disambig_results]
+    recalls = [SimpleEvaluator.calc_recall(r) for r in disambig_results]
+    assert len(precisions)==len(recalls)
+
+    scores = {
+        "precision" : sum(precisions)/len(precisions)
+        , "recall" : sum(recalls)/len(recalls)
+    }
+    prec, rec = scores["precision"], scores["recall"]
+    scores["fscore"] = 0.0 if prec == 0.0 and rec == 0.0 else 2*(float(prec * rec) / float(prec + rec))
+    scores["accuracy"] = (aggregated_results["true_pos"] + aggregated_results["true_neg"]) \
+                        / (aggregated_results["true_pos"] + aggregated_results["true_neg"] + aggregated_results["false_neg"])
+    logger.info("Computing accuracy: %i + %i / %i + %i + %i" % (
+                                                                aggregated_results["true_pos"]
+                                                                , aggregated_results["true_neg"]
+                                                                , aggregated_results["true_pos"]
+                                                                , aggregated_results["true_neg"]
+                                                                , aggregated_results["false_neg"]
+                                                                ))   
+
+    #pdb.set_trace()
+    logger.info("Precision and recall averaged over %i documents (documents with NIL-entities only are excluded)" % len(precisions))
+    print("Precision %.2f%%" % (scores["precision"]*100))
+    print("Recall %.2f%%" % (scores["recall"]*100))
+    print("Fscore %.2f%%" % (scores["fscore"]*100))
+    print("Accuracy %.2f%%" % (scores["accuracy"]*100))
+    return (scores, disambig_results, disambig_errors)
+
+def _evaluate_ned_file(docid, gold_disambiguations, gold_relations, target_disambiguations):
+    """
+    Evaluates NED of a single file. 
+
+    """
+    # TODO expect data in this format
+    unique_reference_urns = set() # for multiple relations having as arg1 entity X, count X only once
+
+    result = {"true_pos":0, "false_pos":0 ,"false_neg":0 ,"true_neg":0}
+    errors = {"true_pos":[], "false_pos":[], "false_neg":[], "true_neg":[]}
+
+    try:
+        assert len(gold_disambiguations)>0 and len(target_disambiguations)>0
+    except AssertionError as e:
+        logger.info("No disambiguations to evaluate in file %s" % docid)
+        return None, errors
+
+    for disambiguation_id in gold_disambiguations:
+        is_relation_disambiguation = True if disambiguation_id.startswith('R') else False
+        
         try:
-            gold_urn = CTS_URN(gold_urn)
-            target_urn = CTS_URN(target_urn)
-            if(gold_urn.passage_component is not None):
-                passages+=1
-                if(gold_urn.passage_component == target_urn.passage_component):
-                    correct_scope+=1
+            gold_disambiguation = gold_disambiguations[disambiguation_id]
+            gold_urn = CTS_URN(gold_disambiguation.strip()).get_urn_without_passage()
+        except BadCtsUrnSyntax as e:
+            logger.error("Skipping disambiguation %s-%s: gold URN malformed (\"%s\")" % (docid, disambiguation_id, gold_disambiguation))
+            return result, errors
+
+        try:
+            target_disambiguation = target_disambiguations[disambiguation_id]
+            target_urn = CTS_URN(target_disambiguation.strip()).get_urn_without_passage()
+        except BadCtsUrnSyntax as e:
+            logger.error("Skipping disambiguation %s-%s: target URN malformed (\"%s\")" % (docid, disambiguation_id, target_disambiguation))
+            return result, errors
+        except KeyError as e:
+            logger.debug("[%s] %s not contained in target: assuming a NIL entity" % (docid, disambiguation_id))
+            target_urn = NIL_ENTITY
+
+
+        if is_relation_disambiguation:
+            logger.debug("[%s] unique_reference_urns=%s" % (docid, unique_reference_urns))
+            arg1_entity_id = gold_relations[disambiguation_id]['arguments'][0]
+
+            if "%s-R" % arg1_entity_id in unique_reference_urns:
+                logger.debug("%s was already considered; skipping this one" % "%s-R" % arg1_entity_id)
+                continue
+            else:
+                unique_reference_urns.add("%s-R" % arg1_entity_id)
+
+        if gold_urn == NIL_ENTITY:
+            error_type = "true_neg" if gold_urn == target_urn else "false_pos"
+        else:
+            # gold_urn is not a NIL entity
+            if target_urn == NIL_ENTITY:
+                error_type = "false_neg"
+            # neither gold_urn nor target_urn are NIL entities
+            else:
+                if gold_urn == target_urn:
+                    error_type = "true_pos"
                 else:
-                    pass
-            elif(gold_urn.work is not None):
-                works+=1
-            elif(gold_urn.textgroup is not None):
-                authors+=1
-        except Exception, e:
-            pass
-    print >> sys.stdout, "The {3} FPs contain: {0} aauthor entities; {1} awork entities; {2} scope relations".format(authors,works,passages,len(errors_dict["false_pos"]))
-    print >> sys.stdout, "{0}% of the FPs has correct reference scope (n={1})".format((correct_scope*100)/passages,correct_scope)
+                    error_type = "false_pos"
+
+        result[error_type]+=1
+        errors[error_type].append((docid, disambiguation_id, gold_urn, target_urn))
+        logger.debug("[%s-%s] Comparing %s with %s => %s" % (docid, disambiguation_id, gold_urn, target_urn, error_type))
+
+    logger.info("Evaluated file %s: %s" % (docid, result))
+
+    return result, errors
+
 if __name__ == "__main__":
     #Usage example: python eval.py aph_data_100_positive/ out/
     #main()
