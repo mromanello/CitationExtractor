@@ -11,7 +11,7 @@ from nltk.classify.scikitlearn import SklearnClassifier
 global logger
 logger = logging.getLogger(__name__)
 
-def prepare_for_training(doc_id, basedir,output_class_label=True):
+def prepare_for_training(doc_id, basedir, output_class_label=True):
 	"""
 
 	Generate tagged instances for the task of relation extraction from a given document.
@@ -89,7 +89,8 @@ def prepare_for_training(doc_id, basedir,output_class_label=True):
 				instances.append(features)
 				logger.debug("Features for %s %s (%s-%s): %s"%(entities[relation[0]]["surface"],entities[relation[1]]["surface"],relation[0],relation[1],features))
 	return instances
-def extract_relation_features(arg1,arg2,entities,fulltext):
+
+def extract_relation_features(arg1, arg2, entities, fulltext):
 	"""
 	the following features should be extracted:
 		✓ Arg1_entity:AAUTHOR
@@ -168,6 +169,7 @@ def extract_relation_features(arg1,arg2,entities,fulltext):
 	features["word_before_arg1"],features["word_after_arg1"] = get_word_before_after(entities[arg1],fulltext)   
 	features["word_before_arg2"],features["word_after_arg2"] = get_word_before_after(entities[arg2],fulltext)
 	return features
+
 class relation_extractor(object):
 	"""
 	TODO: finish implementation
@@ -185,6 +187,7 @@ class relation_extractor(object):
 	def __repr__(self):
 	        class_name = self.__class__.__name__
 	        return '%s(classifier=%s,n_training_files=%s,n_training_instances=%s)' % (class_name, self._classifier,len(self._training_files),self._n_train_instances)
+	
 	def extract(self,entities,fulltext):
 		"""
 		Returns a dictionary like

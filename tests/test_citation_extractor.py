@@ -14,7 +14,7 @@ from citation_extractor.Utils.IO import read_iob_files, filter_IOB
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-def test_string2entities(aph_title, crf_citation_extractor, postaggers):
+def test_string2entities(aph_title, crf_citation_extractor, postaggers): # TODO: remove
 	"""
 	Demonstrates how to extract entities (aauthor, awork) from a string.
 	"""

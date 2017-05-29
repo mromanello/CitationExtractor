@@ -10,3 +10,6 @@ __pycache__/
 
 # Vim tmp files
 *~
+
+# project specific
+citation_extractor/data/pickles/

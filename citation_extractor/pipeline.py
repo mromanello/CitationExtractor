@@ -26,14 +26,64 @@ else:
 from operator import itemgetter
 import citation_extractor
 from citation_extractor.Utils import IO
-from citation_extractor.Utils.IO import read_ann_file, read_ann_file_new, init_logger
+from citation_extractor.Utils.IO import read_ann_file, read_ann_file_new, init_logger, filter_IOB
 from citation_extractor.Utils.sentencesplit import sentencebreaks_to_newlines # contained in brat tools
+from citation_extractor.Utils.strmatching import StringUtils
 import numpy as np
 
 global logger
 logger = logging.getLogger(__name__)
 
 #TODO custom exception: invalid configuration
+
+
+# Constants (remove?)
+NIL_URN = 'urn:cts:GreekLatinLit:NIL'
+LANGUAGES = ['en', 'es', 'de', 'fr', 'it']
+AUTHOR_TYPE = 'AAUTHOR'
+WORK_TYPE = 'AWORK'
+REFAUWORK_TYPE = 'REFAUWORK'
+
+def extract_entity_mentions(text, citation_extractor, postaggers, norm=False):
+    if not text:
+        return []
+    
+    try:
+        # detect the language of the input string for starters
+        lang = detect_language(text)
+
+        # tokenise and do Part-of-Speech tagging
+        postagged_string = postaggers[lang].tag(text)
+    except Exception, e:
+        logger.debug(u'Exception while tagging {} with lang={}'.format(text, lang))
+        return []
+    
+    # convert to a list of lists; keep just token and PoS tag, discard lemma
+    iob_data = [[token[:2] for token in sentence] for sentence in [postagged_string]]
+    
+    # put the PoS tags into a separate nested list
+    postags = [[("z_POS", token[1]) for token in sentence] for sentence in iob_data if len(sentence) > 0]
+
+    # put the tokens into a separate nested list
+    tokens = [[token[0] for token in sentence] for sentence in iob_data if len(sentence) > 0]
+
+    # invoke the citation extractor
+    tagged_sents = citation_extractor.extract(tokens, postags)
+
+    # convert the (verbose) output into an IOB structure
+    output = [[(res[n]["token"].decode('utf-8'), postags[i][n][1], res[n]["label"])
+               for n, d_res in enumerate(res)]
+              for i, res in enumerate(tagged_sents)]
+
+    authors = map(lambda a: (AUTHOR_TYPE, a), filter_IOB(output, "AAUTHOR"))
+    works = map(lambda w: (WORK_TYPE, w), filter_IOB(output, "AWORK"))
+    mentions = authors + works
+    
+    if norm:
+        mentions_norm = map(lambda (m_type, m_surface): (m_type, StringUtils.normalize(m_surface, lang=lang)), mentions)
+        return mentions_norm
+
+    return mentions
 
 def recover_segmentation_errors(text, abbreviation_list, verbose=False):
     """
@@ -81,6 +131,7 @@ def recover_segmentation_errors(text, abbreviation_list, verbose=False):
         print >> sys.stderr, "Output text has %i lines"%len(output_text.split('\n'))
         print >> sys.stderr, "%i line were breaks recovered"%(len(text_lines)-len(output_text.split('\n')))
     return output_text
+
 def get_taggers(treetagger_dir='/Applications/treetagger/cmd/', abbrev_file=None):
     """
     Initialises a set of treetaggers, one for each supported language (i.e. en, it, es, de, fr, nl).
@@ -120,6 +171,7 @@ def get_taggers(treetagger_dir='/Applications/treetagger/cmd/', abbrev_file=None
             logger.error("initialising Treetagger for language %s raised error: \"%s\""%(lang_codes[lang][0],e))
             raise e
     return taggers  
+
 def get_extractor(settings):
     """
     Instantiate, train and return a Citation_Extractor. 
@@ -127,7 +179,7 @@ def get_extractor(settings):
     import sys
     import citation_extractor as citation_extractor_module
     from citation_extractor.core import citation_extractor
-    from citation_extractor.eval import IO
+    from citation_extractor.Utils import IO
     ce = None
     try:
         logger.info("Using CitationExtractor v. %s"%citation_extractor_module.__version__)
@@ -140,6 +192,7 @@ def get_extractor(settings):
         print e
     finally:
         return ce
+
 def detect_language(text, return_probability=False):
     """
     Detect language of a notice by using the module `langid`.
@@ -158,6 +211,7 @@ def detect_language(text, return_probability=False):
             return language
     except Exception,e:
         print "lang detection raised error \"%s\""%str(e)
+
 def compact_abbreviations(abbreviation_dir):
     """
     process several files with abbreviations
@@ -187,6 +241,7 @@ def compact_abbreviations(abbreviation_dir):
     f.write("".join(abbreviations))
     f.close()
     return fname,abbreviations
+
 def split_sentences(filename,outfilename=None):
     """ 
     sentence tokenization
@@ -216,6 +271,7 @@ def split_sentences(filename,outfilename=None):
     except Exception, e:
         raise e
     return new_sentences
+
 def extract_relationships(entities):
     """
     TODO: implement properly the pseudocode!
@@ -239,6 +295,7 @@ def extract_relationships(entities):
                 logger.debug("Detected relation %s"%str(relations[rel_id]))
 
     return relations
+
 def save_scope_relationships(fileid, ann_dir, relations, entities):
     """
     appends relationships (type=scope) to an .ann file. 
@@ -261,6 +318,7 @@ def save_scope_relationships(fileid, ann_dir, relations, entities):
     except Exception, e:
         raise e
     return result
+
 def clean_relations_annotation(fileid, ann_dir, entities):
     """
     overwrites relationships (type=scope) to an .ann file. 
@@ -277,6 +335,7 @@ def clean_relations_annotation(fileid, ann_dir, entities):
     except Exception, e:
         raise e
     return result
+
 def remove_all_annotations(fileid, ann_dir):
     import codecs
     ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
@@ -300,6 +359,7 @@ def remove_all_annotations(fileid, ann_dir):
     except Exception, e:
         raise e
     return
+
 def save_scope_annotations(fileid, ann_dir, annotations):
     """
     :param fileid: the file name (prefix added by brat is removed)
@@ -325,6 +385,7 @@ def save_scope_annotations(fileid, ann_dir, annotations):
     except Exception as e:
         logger.error("Saving annotations to file %s%s failed with error: %s"%(ann_dir, fileid, e))
         return False
+
 def tostandoff(iobfile,standoffdir,brat_script):
     """
     Converts the .iob file with NE annotation into standoff markup.
@@ -337,6 +398,7 @@ def tostandoff(iobfile,standoffdir,brat_script):
         logger.info("Document %s: .ann output written successfully."%iobfile)
     except Exception, e:
         raise e
+
 # TODO: refactor -> transform function into method of CitationMatcher
 def disambiguate_relations(citation_matcher,relations,entities,docid,fuzzy=False,distance_threshold=3,fill_nomatch_with_bogus_urn=False):
     """
@@ -374,6 +436,7 @@ def disambiguate_relations(citation_matcher,relations,entities,docid,fuzzy=False
             if(fill_nomatch_with_bogus_urn):
                 result.append((relation,"%s %s"%(citation_string,scope),"urn:cts:TODO:%s"%normalized_scope))
     return result
+
 # TODO: refactor -> transform function into method of CitationMatcher
 def disambiguate_entities(citation_matcher,entities,docid,min_distance_threshold,max_distance_threshold):
     """
@@ -439,6 +502,7 @@ def disambiguate_entities(citation_matcher,entities,docid,min_distance_threshold
             else:
                 result.append((entity, string ,filtered_matches[0][0]))
     return result
+
 def preproc_document(doc_id, inp_dir, interm_dir, out_dir, abbreviations, taggers, split_sentences=True):
     """
     :param doc_id: the input filename
@@ -481,6 +545,7 @@ def preproc_document(doc_id, inp_dir, interm_dir, out_dir, abbreviations, tagger
         logger.error("The pre-processing of document %s (lang=\'%s\') failed with error \"%s\""%(doc_id,lang,e)) 
     finally:
         return doc_id, lang, no_sentences, no_tokens
+
 def do_ner(doc_id, inp_dir, interm_dir, out_dir, extractor, so2iob_script):
     # TODO:
     # wrap with a try/except/finally
@@ -503,6 +568,7 @@ def do_ner(doc_id, inp_dir, interm_dir, out_dir, extractor, so2iob_script):
     finally:
         logger.info("Finished processing document \"%s\""%doc_id)
     return
+
 def do_ned(doc_id, inp_dir, citation_matcher, clean_annotations=False, relation_matching_distance_threshold=3, relation_matching_approx=True, entity_matching_distance_minthreshold=1, entity_matching_distance_maxthreshold=4):
     """
     TODO: refactor. Read annotations sequentially and disambiguate one by one.
@@ -543,6 +609,7 @@ def do_ned(doc_id, inp_dir, citation_matcher, clean_annotations=False, relation_
         return (doc_id,False,None)
     finally:
         logger.info("Finished processing document \"%s\""%doc_id)
+
 def do_relex(doc_id,inp_dir,clean_relations=False):
     try:
         entities, relations, disambiguations = read_ann_file(doc_id,inp_dir)
@@ -563,6 +630,7 @@ def do_relex(doc_id,inp_dir,clean_relations=False):
         return (doc_id,False,{})
     finally:
         logger.info("Finished processing document \"%s\""%doc_id)
+
 def validate_configuration(configuration_parameters, task="all"): #TODO finish
     """TODO"""
     def is_valid_configuration_ner(configuration_parameters):
@@ -584,8 +652,10 @@ def validate_configuration(configuration_parameters, task="all"): #TODO finish
         pass
     elif task == "ned":
         pass
+
 def run_pipeline(configuration_file): #TODO: implement
     pass
+
 if __name__ == "__main__":
     from docopt import docopt
     arguments = docopt(__doc__, version=citation_extractor.__version__)

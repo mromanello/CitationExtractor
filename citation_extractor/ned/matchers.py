@@ -16,6 +16,7 @@ class DisambiguationNotFound(Exception):
         Exception.__init__(self, message)
     def __str__(self):
         return repr(self.message)
+
 class CitationMatcher(object):
     """
     TODO
@@ -34,6 +35,7 @@ class CitationMatcher(object):
             logger.info("Initialising CitationMatcher...")
             self._citation_parser = CitationParser()
             self._kb = knowledge_base
+            
             logger.info("Fetching author names from the KB...")
             self._author_names = knowledge_base.author_names
             logger.info("Done. Fetching work titles from the KB...")
@@ -46,7 +48,7 @@ class CitationMatcher(object):
             self._author_idx, self._author_abbr_idx, self._work_idx, self._work_abbr_idx = self._initialise_indexes()
             logger.info("Finished initialising CitationMatcher")
         except Exception, e:
-            raise e
+            raise e 
     def _initialise_indexes(self):
         from pysuffix import suffixIndexers
         from pysuffix.suffixIndexers import DictValuesIndexer

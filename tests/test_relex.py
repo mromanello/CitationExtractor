@@ -22,6 +22,7 @@ def test_prepare_training():
 	prepare_for_training("75-02534.txt",dir)
 	#pprint.pprint(prepare_for_training("75-00992.txt",dir))
 	#pprint.pprint(prepare_for_training(files[random.randint(0,len(files)-1)],dir))
+
 def test_relation_extractor():
 	"""
 	create a `relation_extractor`
@@ -44,6 +45,7 @@ def test_relation_extractor():
 		fulltext = codecs.open("%s%s-doc-1.txt"%(test_dir,test_file),'r','utf-8').read()
 		if(len(entities.keys())>1):
 			logger.info("Relations extracted for %s%s: %s"%(test_dir,test_file,rel_extractor.extract(entities,fulltext)))
+
 def test_pickleability():
 	"""
 	TODO

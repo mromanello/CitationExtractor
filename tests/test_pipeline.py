@@ -79,3 +79,7 @@ def test_do_ned(processing_directories, citation_matcher):
 	for docid in docids[:50]:
 		docid, success, n_disambiguations = do_ned(docid, inp_dir, citation_matcher, True, 0, False)
 		assert success
+
+
+def test_extract_entity_mentions(aph_title, crf_citation_extractor, postaggers): # TODO
+	pass
