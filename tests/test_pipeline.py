@@ -26,7 +26,9 @@ def test_read_ann_file_new():
 		for annotation in annotations:
 			assert (relations.has_key(annotation["anchor"]) or entities.has_key(annotation["anchor"])) 
 
-def test_tokenize_string(aph_title, postaggers):
+def test_tokenize_string(aph_titles, postaggers):
+	# as a string example, take the first title of APh reviews
+	aph_title = aph_titles.iloc[0]["title"]
 	lang = detect_language(aph_title)
 	postagged_string = postaggers[lang].tag(aph_title) 
 	logger.debug(postagged_string)
@@ -80,6 +82,7 @@ def test_do_ned(processing_directories, citation_matcher):
 		docid, success, n_disambiguations = do_ned(docid, inp_dir, citation_matcher, True, 0, False)
 		assert success
 
-
+"""
 def test_extract_entity_mentions(aph_title, crf_citation_extractor, postaggers): # TODO
 	pass
+"""

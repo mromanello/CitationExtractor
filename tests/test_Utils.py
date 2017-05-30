@@ -4,6 +4,7 @@
 import pdb
 import pkg_resources
 import logging
+import pandas as pd
 from pytest import fixture
 from citation_extractor.Utils.IO import * 
 from citation_extractor.Utils.strmatching import StringUtils
@@ -26,10 +27,10 @@ def test_annotations2references(knowledge_base):
 #def test_sort_entities(): #TODO implement
 #    raise NotImplementedError
 
-def test_load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles): #TODO implement
+def test_load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles):
     # load the pandas.DataFrame
     dataframe = load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles)
-    pdb.set_trace()
+    assert dataframe is not None and type(dataframe)==type(pd.DataFrame()) and dataframe.shape[0]>0
 
 #####################
 # Utils.strmatching #

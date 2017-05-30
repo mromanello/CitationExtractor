@@ -8,6 +8,7 @@ import pkg_resources
 from pytest import fixture
 import pandas as pd
 from citation_extractor import pipeline
+from citation_extractor.Utils.IO import load_brat_data
 from citation_extractor.settings import crf
 from citation_extractor.core import citation_extractor
 from citation_extractor.ned import KnowledgeBase
@@ -51,6 +52,16 @@ def aph_test_ann_files():
     ann_files = pkg_resources.resource_listdir('citation_extractor', 'data/aph_corpus/testset/ann')
     return ann_dir, ann_files
 
+@fixture(scope="session")
+def aph_testset_dataframe(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles):
+    """
+    A pandas DataFrame containing the APh test-set data: may be useful to perform evaluation. 
+    """
+    logger.info("Loading test-set data (%i documents) from %s" % (len(aph_test_ann_files[1]), aph_test_ann_files[0]))
+    dataframe = load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles)
+    assert dataframe is not None and type(dataframe)==type(pd.DataFrame()) and dataframe.shape[0]>0
+    return dataframe
+
 @fixture
 def old_knowledge_base():
     """
@@ -69,14 +80,14 @@ def citation_matcher_legacy(old_knowledge_base):
     """
     return CitationMatcher(knowledge_base)
 
-@fixture
+@fixture(scope="session")
 def citation_matcher(knowledge_base):
     """
     Initialises and returns a CitationMatcher.
     """
     return CitationMatcher(knowledge_base)
 
-@fixture
+@fixture(scope="session")
 def knowledge_base():
     """
     Initialises and returns a HuCit KnowledgeBase (new version, standalone package).

@@ -14,22 +14,31 @@ from citation_extractor.Utils.IO import read_iob_files, filter_IOB
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-def test_string2entities(aph_title, crf_citation_extractor, postaggers): # TODO: remove
+def test_string2entities(aph_titles, crf_citation_extractor, postaggers): # TODO: remove
 	"""
 	Demonstrates how to extract entities (aauthor, awork) from a string.
 	"""
+
+	aph_title = aph_titles.iloc[0]["title"]
+
 	# detect the language of the input string for starters
 	lang = pipeline.detect_language(aph_title)
+	
 	# tokenise and do Part-of-Speech tagging
 	postagged_string = postaggers[lang].tag(aph_title)
+	
 	# convert to a list of lists; keep just token and PoS tag, discard lemma 
 	iob_data = [[token[:2] for token in sentence] for sentence in [postagged_string]]
+	
 	# put the PoS tags into a separate nested list
 	postags = [[("z_POS",token[1]) for token in sentence] for sentence in iob_data if len(sentence)>0]
+	
 	# put the tokens into a separate nested list
 	tokens = [[token[0] for token in sentence] for sentence in iob_data if len(sentence)>0] 
+	
 	# invoke the citation extractor 
 	tagged_sents = crf_citation_extractor.extract(tokens, postags)
+	
 	# convert the (verbose) output into an IOB structure
 	output = [[(res[n]["token"].decode('utf-8'), postags[i][n][1], res[n]["label"]) 
 										for n, d_res in enumerate(res)] 
