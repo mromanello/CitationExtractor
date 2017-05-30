@@ -3,6 +3,7 @@
 
 
 import codecs
+import knowledge_base
 import sys,pprint,re,string,logging
 import citation_extractor
 from random import *
