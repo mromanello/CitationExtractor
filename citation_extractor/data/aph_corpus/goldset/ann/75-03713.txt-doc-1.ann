@@ -1,0 +1,14 @@
+T1	REFAUWORK 77 83	Persio
+T2	REFSCOPE 84 92	1, 5-7 ;
+T3	REFSCOPE 93 103	3, 79-83 ;
+T4	REFSCOPE 104 112	4, 10-11
+T5	REFAUWORK 268 275	(Persio
+T6	REFSCOPE 276 283	1, 118)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+R4	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R4	urn:cts:cwkb:578.1178:1.118
+#1	AnnotatorNotes R1	urn:cts:cwkb:578.1178:1.5-1.7
+#2	AnnotatorNotes R2	urn:cts:cwkb:578.1178:3.79-3.83
+#3	AnnotatorNotes R3	urn:cts:cwkb:578.1178:4.10-4.11

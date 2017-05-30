@@ -7,3 +7,6 @@ R1	Scope Arg1:T3 Arg2:T4
 R2	Scope Arg1:T3 Arg2:T5
 R3	Scope Arg1:T3 Arg2:T6
 #3	AnnotatorNotes T1	urn:cts:latinLit:stoa0023
+#1	AnnotatorNotes R1	urn:cts:latinLit:stoa0023.stoa001:28.6.1-28.6.29
+#2	AnnotatorNotes R2	urn:cts:latinLit:stoa0023.stoa001:27.9.1-27.9.4
+#4	AnnotatorNotes R3	urn:cts:latinLit:stoa0023.stoa001:30.2.9-30.2.12

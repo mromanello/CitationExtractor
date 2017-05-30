@@ -1,0 +1,24 @@
+T1	AAUTHOR 16 25	Tacitus '
+T2	AWORK 26 38	« Dialogus »
+T3	REFSCOPE 39 52	(5, 3-10, 8 ;
+T4	REFSCOPE 53 66	11, 1-13, 6 ;
+T5	REFSCOPE 67 80	16, 4-23, 6 ;
+T6	REFSCOPE 81 94	25, 1-26, 8 ;
+T7	REFSCOPE 95 108	28, 1-35, 5 ;
+T8	REFSCOPE 109 122	36, 1-41, 5),
+T9	AWORK 353 365	« Dialogus »
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+R3	Scope Arg1:T2 Arg2:T5
+R4	Scope Arg1:T2 Arg2:T6
+R5	Scope Arg1:T2 Arg2:T7
+R6	Scope Arg1:T2 Arg2:T8
+#0	AnnotatorNotes T9	urn:cts:latinLit:phi1351.phi003
+#1	AnnotatorNotes T2	urn:cts:cwkb:710.1447
+#2	AnnotatorNotes T1	urn:cts:latinLit:phi1351
+#3	AnnotatorNotes R1	urn:cts:latinLit:phi1351.phi003:5.3-10.8
+#4	AnnotatorNotes R2	urn:cts:latinLit:phi1351.phi003:11.1-13.6
+#5	AnnotatorNotes R3	urn:cts:latinLit:phi1351.phi003:16.4-23.6
+#6	AnnotatorNotes R4	urn:cts:latinLit:phi1351.phi003:25.1-26.8
+#7	AnnotatorNotes R5	urn:cts:latinLit:phi1351.phi003:28.1-35.5
+#8	AnnotatorNotes R6	urn:cts:latinLit:phi1351.phi003:36.1-41.5

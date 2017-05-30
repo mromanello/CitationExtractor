@@ -1,0 +1,12 @@
+T1	REFAUWORK 118 125	(Matteo
+T2	REFSCOPE 126 132	6, 9 ;
+T3	REFAUWORK 133 137	Luca
+T4	REFSCOPE 138 145	11, 2),
+T5	AWORK 253 266	« Ezechiele »
+T6	REFSCOPE 267 279	(36, 22-32 ;
+T7	REFSCOPE 280 287	37, 28)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T5 Arg2:T6
+R4	Scope Arg1:T5 Arg2:T7
+#2	AnnotatorNotes T5	urn:cts:latinLit:phi0119.phi010

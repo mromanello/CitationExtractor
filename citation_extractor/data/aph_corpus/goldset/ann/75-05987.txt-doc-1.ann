@@ -7,8 +7,8 @@ R1	Scope Arg1:T1 Arg2:T2
 R2	Scope Arg1:T1 Arg2:T3
 R3	Scope Arg1:T1 Arg2:T4
 #0	AnnotatorNotes R1	urn:cts:greekLit:tlg0005.tlg001:25
-#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0005.tlg001:25:1-83
-#2	AnnotatorNotes R3	urn:cts:greekLit:tlg0005.tlg001:25:84-152
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0005.tlg001:1-83
+#2	AnnotatorNotes R3	urn:cts:greekLit:tlg0005.tlg001:84-152
 T6	REFSCOPE 108 116	153-281)
 R4	Scope Arg1:T1 Arg2:T6	
 #3	AnnotatorNotes R4	urn:cts:greekLit:tlg0005.tlg001:153-281

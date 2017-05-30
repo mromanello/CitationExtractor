@@ -1,117 +1,116 @@
-À	PRP
-propos	NOM
-d'	PRP
-une	DET:ART
-expression	NOM
-hiéronymienne	ADJ
-forgée	VER:pper
-sur	PRP
-le	DET:ART
-couple	NOM
-«	PUN:cit
-gemitus	NOM
-»-«	ADJ
-lacrimae	ADJ
-»	PUN:cit
-(	PUN
-in	ADJ
-Is.	NAM
-4	NUM
-,	PUN
-10	NUM
-,	PUN
-12-14	NUM
-et	KON
-5	NUM
-,	PUN
-21	NUM
-,	PUN
-2	NUM
-;	PUN
-adu	ADJ
-.	SENT
-Rufin.	ABR
-3	NUM
-,	PUN
-41	NUM
-;	PUN
-epist.	ABR
-123	NUM
-,	PUN
-16	NUM
-;	PUN
-in	ADJ
-Ezech	NAM
-.	SENT
-7	NUM
-,	PUN
-24	NUM
-,	PUN
-15	NUM
-sq	NOM
-et	KON
-in	ADJ
-Hier.	NAM
-3	NUM
-,	PUN
-13	NUM
-,	PUN
-16-17	NUM
-)	PUN
-.	SENT
+À	PRP	O
+propos	NOM	O
+d'	PRP	O
+une	DET:ART	O
+expression	NOM	O
+hiéronymienne	ADJ	O
+forgée	VER:pper	O
+sur	PRP	O
+le	DET:ART	O
+couple	NOM	O
+«	PUN:cit	O
+gemitus	NOM	O
+»-«	ADJ	O
+lacrimae	ADJ	O
+»	PUN:cit	O
+(	PUN	O
+in	ADJ	O
+Is.	NAM	B-REFAUWORK
+4	NUM	B-REFSCOPE
+,	PUN	I-REFSCOPE
+10	NUM	I-REFSCOPE
+,	PUN	I-REFSCOPE
+12-14	NUM	I-REFSCOPE
+et	KON	O
+5	NUM	B-REFSCOPE
+,	PUN	I-REFSCOPE
+21	NUM	I-REFSCOPE
+,	PUN	I-REFSCOPE
+2	NUM	I-REFSCOPE
+;	PUN	I-REFSCOPE
+adu	ADJ	B-REFAUWORK
+.	SENT	I-REFAUWORK
+Rufin.	ABR	I-REFAUWORK
+3	NUM	B-REFSCOPE
+,	PUN	I-REFSCOPE
+41	NUM	I-REFSCOPE
+;	PUN	I-REFSCOPE
+epist.	ABR	B-REFAUWORK
+123	NUM	B-REFSCOPE
+,	PUN	I-REFSCOPE
+16	NUM	I-REFSCOPE
+;	PUN	I-REFSCOPE
+in	ADJ	B-REFAUWORK
+Ezech	NAM	I-REFAUWORK
+.	SENT	I-REFAUWORK
+7	NUM	B-REFSCOPE
+,	PUN	I-REFSCOPE
+24	NUM	I-REFSCOPE
+,	PUN	I-REFSCOPE
+15	NUM	I-REFSCOPE
+sq	NOM	O
+et	KON	O
+in	ADJ	O
+Hier.	NAM	B-REFAUWORK
+3	NUM	B-REFSCOPE
+,	PUN	I-REFSCOPE
+13	NUM	I-REFSCOPE
+,	PUN	I-REFSCOPE
+16-17	NUM	I-REFSCOPE
+)	PUN	I-REFSCOPE
+.	SENT	I-REFSCOPE
 
-Elle	PRO:PER
-exprime	VER:pres
-la	DET:ART
-situation	NOM
-du	PRP:det
-vaincu	VER:pper
-ou	KON
-de	PRP
-la	DET:ART
-victime	NOM
-de	PRP
-l'	DET:ART
-oppression	NOM
-qui	PRO:REL
-s'	PRO:PER
-insurge	VER:pres
-contre	PRP
-les	DET:ART
-abus	NOM
-de	PRP
-pouvoir	NOM
-.	SENT
+Elle	PRO:PER	O
+exprime	VER:pres	O
+la	DET:ART	O
+situation	NOM	O
+du	PRP:det	O
+vaincu	VER:pper	O
+ou	KON	O
+de	PRP	O
+la	DET:ART	O
+victime	NOM	O
+de	PRP	O
+l'	DET:ART	O
+oppression	NOM	O
+qui	PRO:REL	O
+s'	PRO:PER	O
+insurge	VER:pres	O
+contre	PRP	O
+les	DET:ART	O
+abus	NOM	O
+de	PRP	O
+pouvoir	NOM	O
+.	SENT	O
 
-Jérôme	NAM
-l'	PRO:PER
-emprunte	VER:pres
-à	PRP
-Cicéron	NAM
-(	PUN
-Phil.	ABR
-2	NUM
-,	PUN
-64	NUM
-;	PUN
-2	NUM
-,	PUN
-85-86	NUM
-)	PUN
-et	KON
-à	PRP
-Sénèque	NAM
-(	PUN
-suas.	ABR
-6	NUM
-,	PUN
-4	NUM
-et	KON
-contr.	ABR
-7	NUM
-,	PUN
-2	NUM
-,	PUN
-5	NUM
-)	PUN
-
+Jérôme	NAM	O
+l'	PRO:PER	O
+emprunte	VER:pres	O
+à	PRP	O
+Cicéron	NAM	B-AAUTHOR
+(	PUN	B-REFAUWORK
+Phil.	ABR	I-REFAUWORK
+2	NUM	B-REFSCOPE
+,	PUN	I-REFSCOPE
+64	NUM	I-REFSCOPE
+;	PUN	I-REFSCOPE
+2	NUM	B-REFSCOPE
+,	PUN	I-REFSCOPE
+85-86	NUM	I-REFSCOPE
+)	PUN	I-REFSCOPE
+et	KON	O
+à	PRP	O
+Sénèque	NAM	B-AAUTHOR
+(	PUN	B-REFAUWORK
+suas.	ABR	I-REFAUWORK
+6	NUM	B-REFSCOPE
+,	PUN	I-REFSCOPE
+4	NUM	I-REFSCOPE
+et	KON	O
+contr.	ABR	B-REFAUWORK
+7	NUM	B-REFSCOPE
+,	PUN	I-REFSCOPE
+2	NUM	I-REFSCOPE
+,	PUN	I-REFSCOPE
+5	NUM	I-REFSCOPE
+)	PUN	I-REFSCOPE

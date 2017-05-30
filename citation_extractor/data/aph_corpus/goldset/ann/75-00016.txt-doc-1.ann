@@ -1,0 +1,4 @@
+T1	REFAUWORK 14 36	Élien, Histoire variée
+T2	REFSCOPE 37 42	12, 1
+R1	Scope Arg1:T1 Arg2:T2	
+#1	AnnotatorNotes R1	urn:cts:greekLit:tlg0545.tlg002:12.1

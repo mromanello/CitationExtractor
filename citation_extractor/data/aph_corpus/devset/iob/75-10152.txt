@@ -1,127 +1,126 @@
-Nach	APPR
-Sueton	NE
-(	$(
-Cal	NE
-.	$.
-35	CARD
-,	$,
-1	CARD
-)	$(
-liess	VVFIN
-Caligula	NE
-den	ART
-Ptolemaios	NE
-hinrichten	VVINF
-,	$,
-weil	KOUS
-dieser	PDS
-die	ART
-Aufmerksamkeit	NN
-der	ART
-Menge	NN
-durch	APPR
-das	ART
-Tragen	NN
-einer	ART
-«	$(
-purpurea	NE
-abolla	NE
-»	$(
-auf	APPR
-sich	PRF
-gezogen	VVPP
-hatte	VAFIN
-.	$.
+Nach	APPR	O
+Sueton	NE	B-AAUTHOR
+(	$(	B-REFAUWORK
+Cal	NE	I-REFAUWORK
+.	$.	I-REFAUWORK
+35	CARD	B-REFSCOPE
+,	$,	I-REFSCOPE
+1	CARD	I-REFSCOPE
+)	$(	I-REFSCOPE
+liess	VVFIN	O
+Caligula	NE	O
+den	ART	O
+Ptolemaios	NE	O
+hinrichten	VVINF	O
+,	$,	O
+weil	KOUS	O
+dieser	PDS	O
+die	ART	O
+Aufmerksamkeit	NN	O
+der	ART	O
+Menge	NN	O
+durch	APPR	O
+das	ART	O
+Tragen	NN	O
+einer	ART	O
+«	$(	O
+purpurea	NE	O
+abolla	NE	O
+»	$(	O
+auf	APPR	O
+sich	PRF	O
+gezogen	VVPP	O
+hatte	VAFIN	O
+.	$.	O
 
-Dieser	PDAT
-«	$(
-purpurne	ADJA
-Umhang	NN
-»	$(
-,	$,
-der	PRELS
-nach	APPR
-den	ART
-Quellen	NN
-einer	ART
-Chlamys	NE
-,	$,
-einem	ART
-Pallium	NN
-oder	KON
-einem	ART
-Paludamentum	NN
-ähnelte	VVFIN
-,	$,
-zeugte	VVFIN
-von	APPR
-(	$(
-militärischen	ADJA
-)	$(
-Erfolgen	NN
-und	KON
-Ehren	NN
-seines	PPOSAT
-Trägers	NN
-.	$.
+Dieser	PDAT	O
+«	$(	O
+purpurne	ADJA	O
+Umhang	NN	O
+»	$(	O
+,	$,	O
+der	PRELS	O
+nach	APPR	O
+den	ART	O
+Quellen	NN	O
+einer	ART	O
+Chlamys	NE	O
+,	$,	O
+einem	ART	O
+Pallium	NN	O
+oder	KON	O
+einem	ART	O
+Paludamentum	NN	O
+ähnelte	VVFIN	O
+,	$,	O
+zeugte	VVFIN	O
+von	APPR	O
+(	$(	O
+militärischen	ADJA	O
+)	$(	O
+Erfolgen	NN	O
+und	KON	O
+Ehren	NN	O
+seines	PPOSAT	O
+Trägers	NN	O
+.	$.	O
 
-Dadurch	PAV
-,	$,
-dass	KOUS
-sein	PPOSAT
-ohnehin	ADV
-ranghöherer	ADJA
-Verwandter	NN
-beim	APPRART
-Zusammentreffen	NN
-(	$(
-nach	APPR
-Dio	NN
-59	CARD
-,	$,
-25	CARD
-,	$,
-1	CARD
-im	APPRART
-Jahre	NN
-40	CARD
-,	$,
-nicht	PTKNEG
-39	CARD
-)	$(
-einen	ART
-solchen	PIAT
-Umhang	NN
-trug	VVFIN
-,	$,
-musste	VMFIN
-sich	PRF
-Caligula	NE
-,	$,
-dessen	PRELAT
-eigener	ADJA
-Versuch	NN
-,	$,
-sich	PRF
-einen	ART
-militärischen	ADJA
-Ruf	NN
-zu	PTKZU
-erarbeiten	VVINF
-,	$,
-jüngst	ADJD
-fehlgeschlagen	VVPP
-war	VAFIN
-(	$(
-Sueton	NE
-Cal	NE
-.	$.
-49	CARD
-,	$,
-2	CARD
-)	$(
-,	$,
-provoziert	VVFIN
-fühlen	VVINF
-.	$.
-
+Dadurch	PAV	O
+,	$,	O
+dass	KOUS	O
+sein	PPOSAT	O
+ohnehin	ADV	O
+ranghöherer	ADJA	O
+Verwandter	NN	O
+beim	APPRART	O
+Zusammentreffen	NN	O
+(	$(	O
+nach	APPR	O
+Dio	NN	B-REFAUWORK
+59	CARD	B-REFSCOPE
+,	$,	I-REFSCOPE
+25	CARD	I-REFSCOPE
+,	$,	I-REFSCOPE
+1	CARD	I-REFSCOPE
+im	APPRART	O
+Jahre	NN	O
+40	CARD	O
+,	$,	O
+nicht	PTKNEG	O
+39	CARD	O
+)	$(	O
+einen	ART	O
+solchen	PIAT	O
+Umhang	NN	O
+trug	VVFIN	O
+,	$,	O
+musste	VMFIN	O
+sich	PRF	O
+Caligula	NE	O
+,	$,	O
+dessen	PRELAT	O
+eigener	ADJA	O
+Versuch	NN	O
+,	$,	O
+sich	PRF	O
+einen	ART	O
+militärischen	ADJA	O
+Ruf	NN	O
+zu	PTKZU	O
+erarbeiten	VVINF	O
+,	$,	O
+jüngst	ADJD	O
+fehlgeschlagen	VVPP	O
+war	VAFIN	O
+(	$(	B-REFAUWORK
+Sueton	NE	I-REFAUWORK
+Cal	NE	I-REFAUWORK
+.	$.	I-REFAUWORK
+49	CARD	B-REFSCOPE
+,	$,	I-REFSCOPE
+2	CARD	I-REFSCOPE
+)	$(	I-REFSCOPE
+,	$,	I-REFSCOPE
+provoziert	VVFIN	O
+fühlen	VVINF	O
+.	$.	O

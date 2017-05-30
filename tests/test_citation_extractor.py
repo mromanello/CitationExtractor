@@ -14,7 +14,7 @@ from citation_extractor.Utils.IO import read_iob_files, filter_IOB
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-def test_string2entities(aph_title, crf_citation_extractor, postaggers):
+def test_string2entities(aph_title, crf_citation_extractor, postaggers): # TODO: remove
 	"""
 	Demonstrates how to extract entities (aauthor, awork) from a string.
 	"""
@@ -39,6 +39,7 @@ def test_string2entities(aph_title, crf_citation_extractor, postaggers):
 	logger.info("Extracted AAUTHOR entities: %s"%", ".join(authors))
 	logger.info("Extracted AWORK entities: %s"%", ".join(works))
 	assert output is not None
+
 def test_pickle_crf_citation_extractor(crf_citation_extractor):
 	"""
 	Make sure that instances of `citation_extractor` can be pickled (important 

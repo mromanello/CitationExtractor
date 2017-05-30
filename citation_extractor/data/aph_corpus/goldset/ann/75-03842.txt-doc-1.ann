@@ -1,0 +1,14 @@
+T1	REFAUWORK 32 46	Philostr. Her.
+T2	REFSCOPE 47 53	53, 10
+T3	REFSCOPE 56 61	55, 3
+T4	REFAUWORK 72 76	Hld.
+T5	REFSCOPE 77 81	3, 2
+T6	REFSCOPE 84 89	8, 11
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T4 Arg2:T5
+R4	Scope Arg1:T4 Arg2:T6
+#0	AnnotatorNotes R4	urn:cts:cwkb:903.2673:8.11
+#1	AnnotatorNotes R1	urn:cts:greekLit:tlg0638.tlg004:53.10
+#2	AnnotatorNotes R2	urn:cts:greekLit:tlg0638.tlg004:55.3
+#3	AnnotatorNotes R3	urn:cts:cwkb:903.2673:3.2

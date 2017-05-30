@@ -1,4 +1,4 @@
-T1	AAUTHOR 25 33	Poitiers
+T1	AAUTHOR 14 33	Hilaire de Poitiers
 T2	REFAUWORK 34 44	(C. Const.
 T3	REFSCOPE 45 53	8, 2-10)
 T4	REFAUWORK 119 122	(HE
@@ -28,3 +28,5 @@ R6	Scope Arg1:T15 Arg2:T16
 #5	AnnotatorNotes R3	urn:cts:cwkb:642.1333:23.61-23.81
 #6	AnnotatorNotes T9	urn:cts:cwkb:2386
 #7	AnnotatorNotes T1	urn:cts:cwkb:2749
+T17	AAUTHOR 221 235	Sulpice Sévère
+T18	AAUTHOR 110 118	Sozomène

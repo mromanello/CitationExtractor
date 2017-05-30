@@ -25,11 +25,13 @@ def test_read_ann_file_new():
 		logger.debug(annotations)
 		for annotation in annotations:
 			assert (relations.has_key(annotation["anchor"]) or entities.has_key(annotation["anchor"])) 
+
 def test_tokenize_string(aph_title, postaggers):
 	lang = detect_language(aph_title)
 	postagged_string = postaggers[lang].tag(aph_title) 
 	logger.debug(postagged_string)
 	assert postagged_string is not None
+
 def test_preprocessing(processing_directories, postaggers):
 	"""
 	Test the pre-processing step of the pipeline (against selected APh documents in the devset).
@@ -42,6 +44,7 @@ def test_preprocessing(processing_directories, postaggers):
 	for docid in docids:
 		logger.info(preproc_document(docid, inp_dir, interm_dir, out_dir, abbreviations, postaggers, False))
 	assert len(os.listdir(out_dir)) > 0
+
 def test_do_ner(processing_directories, crf_citation_extractor):
 	"""
 	Test the Named Entity Recognition step of the pipeline.
@@ -54,6 +57,7 @@ def test_do_ner(processing_directories, crf_citation_extractor):
 	for docid in docids:
 		logger.info(do_ner(docid, inp_dir, interm_dir, out_dir, crf_citation_extractor, brat_script_path))
 	assert len(os.listdir(out_dir)) > 0
+
 def test_do_relex_rulebased(processing_directories):
 	"""
 	Test the Relation Extraction step of the pipeline.
@@ -65,12 +69,17 @@ def test_do_relex_rulebased(processing_directories):
 		docid, success, data = do_relex(docid, inp_dir)
 		logger.info(data)
 		assert success
+
 def test_do_ned(processing_directories, citation_matcher):
 	"""
 	Test the Named Entity Disambiguation step of the pipeline (baseline).
 	"""
 	inp_dir = processing_directories["ann"]
 	docids = [file.replace('-doc-1.ann','') for file in os.listdir(inp_dir) if '.ann' in file]
-	for docid in docids:
+	for docid in docids[:50]:
 		docid, success, n_disambiguations = do_ned(docid, inp_dir, citation_matcher, True, 0, False)
 		assert success
+
+
+def test_extract_entity_mentions(aph_title, crf_citation_extractor, postaggers): # TODO
+	pass

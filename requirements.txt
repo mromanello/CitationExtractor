@@ -1,8 +1,11 @@
-citation-extractor-dependencies==0.0.0
+pyCTS
+http://www.antlr3.org/download/Python/antlr_python_runtime-3.1.3.tar.gz
+https://github.com/mromanello/hucit_kb/archive/master.zip
 https://github.com/mromanello/treetagger-python/archive/master.zip
-https://github.com/mromanello/pyCTS/archive/master.zip
 langid
 docopt
+pandas
+stop_words>=2015.2.23.1
 citation_parser>=0.4.1
 rdflib==4.2.1
 nltk>=3.0.4
@@ -10,3 +13,4 @@ numpy>=1.9.2
 scipy>=0.17.0
 python-dateutil==2.4.2
 scikit-learn>=0.16.1
+citation-extractor-dependencies==0.0.0

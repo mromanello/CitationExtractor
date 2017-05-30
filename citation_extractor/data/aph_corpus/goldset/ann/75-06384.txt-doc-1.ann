@@ -1,0 +1,16 @@
+T1	REFAUWORK 114 119	(Mem.
+T2	REFSCOPE 120 127	3, 11),
+T4	REFAUWORK 459 464	(Mem.
+T5	REFSCOPE 465 475	2, 6, 36 ;
+T6	REFAUWORK 476 480	Oec.
+T7	REFSCOPE 481 488	3, 14),
+T8	AAUTHOR 489 497	Xénophon
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T6 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0032.tlg002:3.11
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0032.tlg002:2.6.36
+#2	AnnotatorNotes R3	urn:cts:greekLit:tlg0032.tlg003:3.14
+#3	AnnotatorNotes T8	urn:cts:greekLit:tlg0032
+T9	AAUTHOR 16 24	Xénophon
+#4	AnnotatorNotes T9	urn:cts:greekLit:tlg0032

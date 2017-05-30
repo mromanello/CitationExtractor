@@ -11,7 +11,7 @@ T10	REFSCOPE 620 634	(269 D-279 B).
 R1	Scope Arg1:T4 Arg2:T5
 R2	Scope Arg1:T9 Arg2:T10
 #0	AnnotatorNotes R1	urn:cts:greekLit:tlg0059.tlg030:331d-336a
-#1	AnnotatorNotes R2	urn:cts:TODO:269d-279b
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0059.tlg012:269d-279b
 #2	AnnotatorNotes T8	urn:cts:greekLit:tlg0059.tlg030
 #3	AnnotatorNotes T9	urn:cts:greekLit:tlg0059.tlg012
 #4	AnnotatorNotes T6	urn:cts:greekLit:tlg0029.tlg004

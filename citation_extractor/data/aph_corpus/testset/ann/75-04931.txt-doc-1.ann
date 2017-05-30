@@ -6,7 +6,8 @@ T5	REFSCOPE 259 263	1, 6
 R1	Scope Arg1:T1 Arg2:T2
 R2	Scope Arg1:T3 Arg2:T4
 R3	Scope Arg1:T3 Arg2:T5
-#0	AnnotatorNotes R1	urn:cts:cwkb:1015:4.7
-#1	AnnotatorNotes R2	urn:cts:cwkb:951.3205:8.8
-#2	AnnotatorNotes R3	urn:cts:cwkb:951.3205:1.6
+#0	AnnotatorNotes R1	urn:cts:cwkb:1331.4357:4.7
+#1	AnnotatorNotes R2	urn:cts:cwkb:1331.4357:8.8
+#2	AnnotatorNotes R3	urn:cts:cwkb:1331.4357:1.6
 T6	AAUTHOR 83 91	Sidonius
+#3	AnnotatorNotes T6	urn:cts:cwkb:1331

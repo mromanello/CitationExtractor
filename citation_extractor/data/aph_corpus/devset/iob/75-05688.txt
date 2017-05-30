@@ -1,144 +1,143 @@
-Der	ART
-Epheserbrief	NN
-hat	VAFIN
-eine	ART
-ausgefeilte	ADJA
-symmetrische	ADJA
-Struktur	NN
-.	$.
+Der	ART	O
+Epheserbrief	NN	O
+hat	VAFIN	O
+eine	ART	O
+ausgefeilte	ADJA	O
+symmetrische	ADJA	O
+Struktur	NN	O
+.	$.	O
 
-Mittlerer	ADJA
-Hauptteil	NN
-ist	VAFIN
-4	CARD
-,	$,
-1-16	CARD
-;	$.
-inhaltlich	ADJD
-überlappen	VVFIN
-sich	PRF
-darin	PAV
-Ekklesiologie	NN
-und	KON
-Ethik	NN
-,	$,
-die	PRELS
-beiden	PIAT
-Themen	NN
-der	ART
-Teile	NN
-davor	PAV
-bzw	VVFIN
-.	$.
-danach	PAV
-.	$.
+Mittlerer	ADJA	O
+Hauptteil	NN	O
+ist	VAFIN	O
+4	CARD	B-REFSCOPE
+,	$,	I-REFSCOPE
+1-16	CARD	I-REFSCOPE
+;	$.	I-REFSCOPE
+inhaltlich	ADJD	O
+überlappen	VVFIN	O
+sich	PRF	O
+darin	PAV	O
+Ekklesiologie	NN	O
+und	KON	O
+Ethik	NN	O
+,	$,	O
+die	PRELS	O
+beiden	PIAT	O
+Themen	NN	O
+der	ART	O
+Teile	NN	O
+davor	PAV	O
+bzw	VVFIN	O
+.	$.	O
+danach	PAV	O
+.	$.	O
 
-Dem	PDS
-entspricht	VVFIN
-die	ART
-formale	ADJA
-Disposition	NN
-,	$,
-die	PRELS
-hier	ADV
-erstmals	ADV
-konsequent	ADJD
-stichometrisch	ADJD
-analysiert	VVPP
-wird	VAFIN
-.	$.
+Dem	PDS	O
+entspricht	VVFIN	O
+die	ART	O
+formale	ADJA	O
+Disposition	NN	O
+,	$,	O
+die	PRELS	O
+hier	ADV	O
+erstmals	ADV	O
+konsequent	ADJD	O
+stichometrisch	ADJD	O
+analysiert	VVPP	O
+wird	VAFIN	O
+.	$.	O
 
-Als	KOKOM
-Masszeile	NN
-dient	VVFIN
-der	ART
-15-Silben-Stichos	NN
-.	$.
+Als	KOKOM	O
+Masszeile	NN	O
+dient	VVFIN	O
+der	ART	O
+15-Silben-Stichos	NN	O
+.	$.	O
 
-Die	ART
-Textabschnitte	NN
-1	CARD
-,	$,
-1-3	CARD
-,	$,
-21	CARD
-und	KON
-4	CARD
-,	$,
-17-6	CARD
-,	$,
-24	CARD
-haben	VAFIN
-genau	ADJD
-denselben	PDAT
-Zeilenumfang	NN
-,	$,
-ebenso	ADV
-die	ART
-Hauptteile	NN
-1	CARD
-,	$,
-3-2,10	CARD
-und	KON
-2	CARD
-,	$,
-11-3	CARD
-,	$,
-21	CARD
-;	$.
-die	ART
-Teile	NN
-4	CARD
-,	$,
-17-5	CARD
-,	$,
-14	CARD
-und	KON
-5	CARD
-,	$,
-15-6	CARD
-,	$,
-24	CARD
-stehen	VVFIN
-exakt	ADJD
-im	APPRART
-Verhältnis	NN
-2:3	CARD
-.	$.
+Die	ART	O
+Textabschnitte	NN	B-REFAUWORK
+1	CARD	B-REFSCOPE
+,	$,	I-REFSCOPE
+1-3	CARD	I-REFSCOPE
+,	$,	I-REFSCOPE
+21	CARD	I-REFSCOPE
+und	KON	B-REFSCOPE
+4	CARD	I-REFSCOPE
+,	$,	I-REFSCOPE
+17-6	CARD	I-REFSCOPE
+,	$,	I-REFSCOPE
+24	CARD	I-REFSCOPE
+haben	VAFIN	O
+genau	ADJD	O
+denselben	PDAT	O
+Zeilenumfang	NN	O
+,	$,	O
+ebenso	ADV	O
+die	ART	O
+Hauptteile	NN	O
+1	CARD	O
+,	$,	O
+3-2,10	CARD	O
+und	KON	O
+2	CARD	B-REFSCOPE
+,	$,	I-REFSCOPE
+11-3	CARD	I-REFSCOPE
+,	$,	I-REFSCOPE
+21	CARD	I-REFSCOPE
+;	$.	I-REFSCOPE
+die	ART	O
+Teile	NN	B-REFAUWORK
+4	CARD	B-REFSCOPE
+,	$,	I-REFSCOPE
+17-5	CARD	I-REFSCOPE
+,	$,	I-REFSCOPE
+14	CARD	I-REFSCOPE
+und	KON	B-REFSCOPE
+5	CARD	I-REFSCOPE
+,	$,	I-REFSCOPE
+15-6	CARD	I-REFSCOPE
+,	$,	I-REFSCOPE
+24	CARD	I-REFSCOPE
+stehen	VVFIN	O
+exakt	ADJD	O
+im	APPRART	O
+Verhältnis	NN	O
+2:3	CARD	O
+.	$.	O
 
-Jeweils	ADV
-sind	VAFIN
-Bausteine	NN
-von	APPR
-21	CARD
-,	$,
-13	CARD
-oder	KON
-8	CARD
-Stichoi	NN
-verwendet	VVPP
-.	$.
+Jeweils	ADV	O
+sind	VAFIN	O
+Bausteine	NN	O
+von	APPR	O
+21	CARD	B-REFSCOPE
+,	$,	I-REFSCOPE
+13	CARD	I-REFSCOPE
+oder	KON	O
+8	CARD	O
+Stichoi	NN	O
+verwendet	VVPP	O
+.	$.	O
 
-Die	ART
-Symmetrie	NN
-im	APPRART
-Briefaufbau	NN
-erinnert	VVFIN
-an	APPR
-Körperbau	NN
-und	KON
-Tempelbau	NN
-,	$,
-kaum	ADV
-zufällig	ADJD
-,	$,
-denn	KON
-im	APPRART
-Epheserbrief	NN
-ist	VAFIN
-beides	PIS
-Bild	NN
-für	APPR
-die	ART
-Kirche	NN
-
+Die	ART	O
+Symmetrie	NN	O
+im	APPRART	O
+Briefaufbau	NN	O
+erinnert	VVFIN	O
+an	APPR	O
+Körperbau	NN	O
+und	KON	O
+Tempelbau	NN	O
+,	$,	O
+kaum	ADV	O
+zufällig	ADJD	O
+,	$,	O
+denn	KON	O
+im	APPRART	O
+Epheserbrief	NN	O
+ist	VAFIN	O
+beides	PIS	O
+Bild	NN	O
+für	APPR	O
+die	ART	O
+Kirche	NN	O

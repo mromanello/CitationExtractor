@@ -1,82 +1,81 @@
-The	DT
-dominant	JJ
-conception	NN
-in	IN
-classical	JJ
-rhetoric	NN
-of	IN
-how	WRB
-innate	JJ
-ability	NN
-relates	VBZ
-to	TO
-education	NN
-(	(
-Quintilian	NP
-2	CD
-,	,
-19	CD
-,	,
-2	CD
-;	:
-Plato	NP
-,	,
-R.	NP
-Books	NPS
-2-3	CD
-and	CC
-6-7	CD
-)	)
-should	MD
-be	VB
-questioned	VBN
-.	SENT
+The	DT	O
+dominant	JJ	O
+conception	NN	O
+in	IN	O
+classical	JJ	O
+rhetoric	NN	O
+of	IN	O
+how	WRB	O
+innate	JJ	O
+ability	NN	O
+relates	VBZ	O
+to	TO	O
+education	NN	O
+(	(	B-REFAUWORK
+Quintilian	NP	I-REFAUWORK
+2	CD	B-REFSCOPE
+,	,	I-REFSCOPE
+19	CD	I-REFSCOPE
+,	,	I-REFSCOPE
+2	CD	I-REFSCOPE
+;	:	I-REFSCOPE
+Plato	NP	B-REFAUWORK
+,	,	I-REFAUWORK
+R.	NP	I-REFAUWORK
+Books	NPS	B-REFSCOPE
+2-3	CD	I-REFSCOPE
+and	CC	O
+6-7	CD	B-REFSCOPE
+)	)	I-REFSCOPE
+should	MD	O
+be	VB	O
+questioned	VBN	O
+.	SENT	O
 
-Isocrates	NP
-'	POS
-ambivalent	JJ
-affirmation	NN
-of	IN
-and	CC
-resistance	NN
-to	TO
-a	DT
-highly	RB
-determinant	JJ
-version	NN
-of	IN
-aptitude	NN
-(	(
-4	CD
-,	,
-150-151	CD
-;	:
-13	CD
-,	,
-5-6	CD
-;	:
-15	CD
-,	,
-291-305	CD
-)	)
-may	MD
-represent	VB
-a	DT
-productive	JJ
-strategy	NN
-in	IN
-order	NN
-to	TO
-reinvigorate	VB
-contemporary	JJ
-inquiries	NNS
-in	IN
-language	NN
-,	,
-human	JJ
-nature	NN
-,	,
-and	CC
-ethics	NNS
-.	SENT
-
+Isocrates	NP	B-AAUTHOR
+'	POS	I-AAUTHOR
+ambivalent	JJ	O
+affirmation	NN	O
+of	IN	O
+and	CC	O
+resistance	NN	O
+to	TO	O
+a	DT	O
+highly	RB	O
+determinant	JJ	O
+version	NN	O
+of	IN	O
+aptitude	NN	O
+(	(	B-REFSCOPE
+4	CD	I-REFSCOPE
+,	,	I-REFSCOPE
+150-151	CD	I-REFSCOPE
+;	:	I-REFSCOPE
+13	CD	B-REFSCOPE
+,	,	I-REFSCOPE
+5-6	CD	I-REFSCOPE
+;	:	I-REFSCOPE
+15	CD	B-REFSCOPE
+,	,	I-REFSCOPE
+291-305	CD	I-REFSCOPE
+)	)	I-REFSCOPE
+may	MD	O
+represent	VB	O
+a	DT	O
+productive	JJ	O
+strategy	NN	O
+in	IN	O
+order	NN	O
+to	TO	O
+reinvigorate	VB	O
+contemporary	JJ	O
+inquiries	NNS	O
+in	IN	O
+language	NN	O
+,	,	O
+human	JJ	O
+nature	NN	O
+,	,	O
+and	CC	O
+ethics	NNS	O
+.	SENT	O

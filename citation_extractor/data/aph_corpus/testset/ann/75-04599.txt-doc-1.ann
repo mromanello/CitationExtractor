@@ -6,9 +6,7 @@ T5	REFAUWORK 101 112	Asklepiades
 T6	REFSCOPE 113 117	6 HE
 T7	REFAUWORK 118 121	(AP
 T8	REFSCOPE 122 130	5, 203).
-R1	Scope Arg1:T1 Arg2:T2
 R2	Scope Arg1:T3 Arg2:T4
-R3	Scope Arg1:T5 Arg2:T6
 R4	Scope Arg1:T7 Arg2:T8
-#0	AnnotatorNotes R1	urn:cts:cwkb:2419:30
-#1	AnnotatorNotes R3	urn:cts:cwkb:770:6
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg7000.tlg001:9.24
+#2	AnnotatorNotes R4	urn:cts:greekLit:tlg7000.tlg001:9.24

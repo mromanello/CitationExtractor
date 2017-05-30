@@ -1,0 +1,11 @@
+T1	AAUTHOR 15 23	Lucrecio
+T2	REFSCOPE 48 55	libro 4
+T3	AWORK 125 140	« De sensibus »
+T4	AAUTHOR 144 154	Teofrasto,
+T5	AAUTHOR 259 268	Teofrasto
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0550.phi001:4
+#1	AnnotatorNotes T4	urn:cts:greekLit:tlg0093
+#2	AnnotatorNotes T5	urn:cts:greekLit:tlg0093
+#3	AnnotatorNotes T3	urn:cts:cwkb:1113.3991
+#4	AnnotatorNotes T1	urn:cts:cwkb:528

@@ -1,0 +1,14 @@
+T1	REFAUWORK 22 26	Met.
+T2	REFSCOPE 27 37	2, 643-648
+T3	REFSCOPE 105 115	6, 759-762
+T4	REFSCOPE 120 130	5, 397-414
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0959.phi006:2.643-2.648
+T5	REFSCOPE 42 49	649-654
+R4	Scope Arg1:T1 Arg2:T5	
+T6	REFAUWORK 99 104	Fast.
+R2	Scope Arg1:T6 Arg2:T3	
+R3	Scope Arg1:T6 Arg2:T4	
+#1	AnnotatorNotes R4	urn:cts:latinLit:phi0959.phi006:2.649-2.654
+#2	AnnotatorNotes R2	urn:cts:cwkb:568.1162:6.759-6.762
+#3	AnnotatorNotes R3	urn:cts:cwkb:568.1162:5.397-5.414

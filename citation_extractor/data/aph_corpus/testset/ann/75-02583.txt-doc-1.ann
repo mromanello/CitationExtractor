@@ -1,11 +1,11 @@
 T1	AWORK 46 55	« Iliad »
 T2	REFSCOPE 182 194	1, 253-258 ;
 T3	REFSCOPE 195 205	9, 283-285
-T4	REFSCOPE 206 221	and 13, 95-96),
+T4	REFSCOPE 210 220	13, 95-96)
 T5	REFSCOPE 236 245	(1, 20-21
 T6	REFSCOPE 250 261	21, 74-80),
 T7	REFSCOPE 268 279	(6, 111-112
-T8	REFSCOPE 280 297	and 13, 236-237),
+T8	REFSCOPE 284 297	13, 236-237),
 T9	REFSCOPE 310 323	(3, 351-354).
 R1	Scope Arg1:T1 Arg2:T2
 R2	Scope Arg1:T1 Arg2:T3
@@ -16,3 +16,11 @@ R6	Scope Arg1:T1 Arg2:T7
 R7	Scope Arg1:T1 Arg2:T8
 R8	Scope Arg1:T1 Arg2:T9
 #0	AnnotatorNotes T1	urn:cts:greekLit:tlg0012.tlg001
+#1	AnnotatorNotes R1	urn:cts:greekLit:tlg0012.tlg001:1.253-1.258
+#2	AnnotatorNotes R2	urn:cts:greekLit:tlg0012.tlg001:9.283-9.285
+#3	AnnotatorNotes R3	urn:cts:greekLit:tlg0012.tlg001:13.95-13.96
+#4	AnnotatorNotes R4	urn:cts:greekLit:tlg0012.tlg001:1.20-1.21
+#5	AnnotatorNotes R5	urn:cts:greekLit:tlg0012.tlg001:21.74-21.80
+#6	AnnotatorNotes R6	urn:cts:greekLit:tlg0012.tlg001:6.111-6.112
+#7	AnnotatorNotes R7	urn:cts:greekLit:tlg0012.tlg001:13.236-13.237
+#8	AnnotatorNotes R8	urn:cts:greekLit:tlg0012.tlg001:3.351-3.354

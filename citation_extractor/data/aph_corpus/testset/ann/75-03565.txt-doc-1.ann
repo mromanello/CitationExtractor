@@ -6,3 +6,6 @@ R1	Scope Arg1:T1 Arg2:T2
 R2	Scope Arg1:T1 Arg2:T3
 R3	Scope Arg1:T1 Arg2:T4
 #0	AnnotatorNotes T1	urn:cts:cwkb:568.1163
+#1	AnnotatorNotes R1	urn:cts:cwkb:568.1163:1.12.13-1.12.50
+#2	AnnotatorNotes R2	urn:cts:cwkb:568.1163:1.4.5-1.4.22
+#3	AnnotatorNotes R3	urn:cts:cwkb:568.1163:1.11.13-1.11.22

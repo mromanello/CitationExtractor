@@ -1,9 +1,0 @@
-T1	AWORK 18 44	l ' « Ascension d'Isaïe »,
-T2	AWORK 188 206	« Legenda Graeca »
-T3	REFSCOPE 207 217	(1, 2, 1-5
-T4	REFSCOPE 218 223	et 3)
-R1	Scope Arg1:T2 Arg2:T3
-R2	Scope Arg1:T2 Arg2:T4
-#0	AnnotatorNotes R1	urn:cts:greekLit:tlg1483.tlg003:1.2.1-1.2.5
-#1	AnnotatorNotes R2	urn:cts:greekLit:tlg1483.tlg003:3
-#2	AnnotatorNotes T2	urn:cts:cwkb:974.3340

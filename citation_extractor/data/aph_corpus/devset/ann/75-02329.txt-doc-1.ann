@@ -7,7 +7,7 @@ T6	REFAUWORK 142 148	epist.
 T7	REFSCOPE 149 158	123, 16 ;
 T8	REFAUWORK 159 168	in Ezech.
 T9	REFSCOPE 169 178	7, 24, 15
-T10	REFAUWORK 188 193	Hier.
+T10	REFAUWORK 185 193	in Hier.
 T11	REFSCOPE 194 208	3, 13, 16-17).
 T12	AAUTHOR 343 350	Cicéron
 T13	REFAUWORK 351 357	(Phil.
@@ -30,7 +30,7 @@ R9	Scope Arg1:T17 Arg2:T18
 R10	Scope Arg1:T19 Arg2:T20
 #0	AnnotatorNotes R4	urn:cts:cwkb:897.2630:123.16
 #1	AnnotatorNotes R5	urn:cts:cwkb:622.1293:7.24.15
-#2	AnnotatorNotes R6	urn:cts:greekLit:tlg0032.tlg008:3.13.16-3.13.17
+#2	AnnotatorNotes R6	urn:cts:cwkb:2388.8645:3.13.16-3.13.17
 #3	AnnotatorNotes R7	urn:cts:latinLit:phi0474.phi035:2.64
 #4	AnnotatorNotes R1	urn:cts:greekLit:tlg0081.tlg005:4.10.12-4.10.14
 #5	AnnotatorNotes R2	urn:cts:greekLit:tlg0081.tlg005:5.21.2

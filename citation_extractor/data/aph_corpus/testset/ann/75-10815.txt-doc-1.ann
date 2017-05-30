@@ -7,7 +7,3 @@ R1	Scope Arg1:T1 Arg2:T2
 R2	Scope Arg1:T1 Arg2:T3
 R3	Scope Arg1:T1 Arg2:T4
 R4	Scope Arg1:T1 Arg2:T5
-#0	AnnotatorNotes R4	urn:cts:cwkb:1346.4372:43
-#1	AnnotatorNotes R1	urn:cts:cwkb:1346.4372:15.1.33
-#2	AnnotatorNotes R2	urn:cts:cwkb:1346.4372:10.3.5
-#3	AnnotatorNotes R3	urn:cts:cwkb:1346.4372:15.1.41

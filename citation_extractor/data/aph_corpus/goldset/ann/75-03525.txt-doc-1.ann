@@ -1,0 +1,30 @@
+T1	AWORK 20 37	« Metamorphoses »
+T3	AAUTHOR 169 178	Vergil 's
+T4	AWORK 179 193	« Eclogues » ;
+T5	REFAUWORK 194 203	Tibullus,
+T6	REFSCOPE 204 212	Book 1 ;
+T7	REFAUWORK 213 228	Horace, Satires
+T8	REFSCOPE 229 231	1,
+T9	REFAUWORK 232 236	Odes
+T10	REFSCOPE 237 241	2-4,
+T11	REFAUWORK 246 254	Epistles
+T12	REFSCOPE 255 258	1).
+T13	AWORK 417 428	« Amores »,
+T15	AWORK 442 454	« Tristia »,
+T17	AWORK 464 477	« Ex Ponto »,
+T19	AWORK 541 558	« Metamorphoses »
+R3	Scope Arg1:T7 Arg2:T8
+R4	Scope Arg1:T9 Arg2:T10
+R5	Scope Arg1:T11 Arg2:T12
+#0	AnnotatorNotes R4	urn:cts:latinLit:phi0893.phi001:2-4
+#1	AnnotatorNotes R5	urn:cts:cwkb:499.1056:1
+#2	AnnotatorNotes R3	urn:cts:latinLit:phi0893.phi004:1
+#3	AnnotatorNotes T4	urn:cts:latinLit:phi0690.phi001
+#4	AnnotatorNotes T3	urn:cts:latinLit:phi0690
+#5	AnnotatorNotes T1	urn:cts:latinLit:phi0959.phi006
+#6	AnnotatorNotes T15	urn:cts:cwkb:568.1163
+#7	AnnotatorNotes T17	urn:cts:cwkb:568.1164
+#8	AnnotatorNotes T13	urn:cts:cwkb:568.1156
+#9	AnnotatorNotes T19	urn:cts:latinLit:phi0959.phi006
+R1	Scope Arg1:T5 Arg2:T6	
+#10	AnnotatorNotes R1	urn:cts:cwkb:647.1348:1

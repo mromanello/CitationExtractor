@@ -11,14 +11,6 @@ T11	REFSCOPE 591 603	(1, 709-722)
 R1	Scope Arg1:T3 Arg2:T4
 R2	Scope Arg1:T3 Arg2:T5
 R3	Scope Arg1:T3 Arg2:T6
-R4	Scope Arg1:T7 Arg2:T8
-R5	Scope Arg1:T7 Arg2:T9
-R6	Scope Arg1:T7 Arg2:T10
-R7	Scope Arg1:T7 Arg2:T11
-#0	AnnotatorNotes R4	urn:cts:cwkb:951.3205:6.637-6.648
-#1	AnnotatorNotes R5	urn:cts:cwkb:951.3205:1.289-1.294
-#2	AnnotatorNotes R6	urn:cts:cwkb:951.3205:2.55-2.66
-#3	AnnotatorNotes R7	urn:cts:cwkb:951.3205:1.709-1.722
 #4	AnnotatorNotes R1	urn:cts:cwkb:568.1162:1.13
 #5	AnnotatorNotes R2	urn:cts:cwkb:568.1162:5.545-5.598
 #6	AnnotatorNotes R3	urn:cts:cwkb:568.1162:1.705-1.708
@@ -27,3 +19,14 @@ R7	Scope Arg1:T7 Arg2:T11
 T2	AAUTHOR 0 4	Ovid
 T12	AAUTHOR 371 375	Ovid
 T13	AAUTHOR 633 637	Ovid
+#8	AnnotatorNotes T2	urn:cts:cwkb:568
+#10	AnnotatorNotes T12	urn:cts:cwkb:568
+R4	Scope Arg1:T3 Arg2:T8	
+#11	AnnotatorNotes R4	urn:cts:cwkb:568.1162:6.637-6.648
+R5	Scope Arg1:T3 Arg2:T9	
+#1	AnnotatorNotes R5	urn:cts:cwkb:568.1162:1.289-1.294
+R6	Scope Arg1:T3 Arg2:T10	
+#2	AnnotatorNotes R6	urn:cts:cwkb:568.1162:2.55-2.66
+R7	Scope Arg1:T3 Arg2:T11	
+#3	AnnotatorNotes R7	urn:cts:cwkb:568.1162:1.709-1.722
+#12	AnnotatorNotes T13	urn:cts:cwkb:568
