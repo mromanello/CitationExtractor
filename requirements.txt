@@ -4,6 +4,7 @@ https://github.com/mromanello/hucit_kb/archive/master.zip
 https://github.com/mromanello/treetagger-python/archive/master.zip
 langid
 docopt
+pandas
 stop_words>=2015.2.23.1
 citation_parser>=0.4.1
 rdflib==4.2.1
