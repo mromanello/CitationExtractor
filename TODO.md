@@ -13,6 +13,9 @@
 
 ## Code Refactoring
 
+* to streamline installation, try to remove local dependencies:
+	* add `pysuffix` to the codebase => `Utils.pysuffix` (or os)
+
 * change the `LookupDictionary` in `Utils.FastDict` so that it gets the data directly from the Knowledge Base instead of the static file (**needs tests**)
 
     - put author names into a dictionary, assuring that the keys are unique
