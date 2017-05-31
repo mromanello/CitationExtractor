@@ -80,7 +80,7 @@ def longestSubstringFinder(string1, string2):
                 match = ""
     return answer
 
-class FuzzyCitationMatcher(object):
+class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
     """
     TODO
     docstring for CitationMatcher 
