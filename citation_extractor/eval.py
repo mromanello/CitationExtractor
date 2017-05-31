@@ -669,7 +669,5 @@ def _evaluate_ned_file(docid, gold_disambiguations, gold_relations, target_disam
     return result, errors
 
 if __name__ == "__main__":
-    #Usage example: python eval.py aph_data_100_positive/ out/
-    #main()
     import doctest
     doctest.testmod(verbose=True)

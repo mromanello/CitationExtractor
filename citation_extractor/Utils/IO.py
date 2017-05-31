@@ -5,7 +5,7 @@ from __future__ import print_function
 import logging
 import os
 import codecs
-import knowledge_base
+#import knowledge_base
 import glob
 import sys,pprint,re,string
 import pandas as pd

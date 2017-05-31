@@ -463,6 +463,7 @@ def disambiguate_entities(citation_matcher,entities,docid,min_distance_threshold
         return answer
     import re
     print >> sys.stderr, "Disambiguating the %i entities contained in %s..."%(len(entities), docid)
+    
     result = []
     matches = []
     distance_threshold = min_distance_threshold
