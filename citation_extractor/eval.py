@@ -488,21 +488,22 @@ class CrossEvaluator(SimpleEvaluator): # TODO: remove
                     #self.logger.info(results_by_entity["iter-%i"%(i+1)][extractor_name])
         return results,results_by_entity    
 
-def evaluate_ned(goldset_data, gold_directory, target_data):
+def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
     """
     Evaluate the Named Entity Disambigutation taking in input the goldset data, the 
     goldset directory and a target directory contaning files in the brat stand-off annotation format.
 
     The F1 score is computed over the macro-averaged precision and recall. 
-    The accuracy is computed as TPs+TNs / TPs+TNs+FNs.
-    The disambiguation of consecutive references to the same ancient work is considered only once (i.e. `scope`
-        relations with identical arg1).
+    self.
 
     :param goldset_data: a `pandas.DataFrame` with the goldset data read via `citation_extractor.Utils.IO.load_brat_data`
     
     :param gold_directory: the path to the gold set
     
     :param target: a `pandas.DataFrame` with the target data read via `citation_extractor.Utils.IO.load_brat_data`
+
+    :param strict: whether to consider consecutive references to the same ancient work only once (i.e. `scope`
+        relations with identical arg1).
     
     :return: a tuple where [0] is a dictionary with keys "precision", "recall", "fscore"; 
             [1] is a list of dictionaries (keys "true_pos", "true_neg", "false_pos" and "false_neg"), one for each document; 
@@ -536,7 +537,7 @@ def evaluate_ned(goldset_data, gold_directory, target_data):
                                     for id, row in goldset_data[goldset_data["doc_id"]==doc_id].iterrows()}
        
         # pass on all relations data
-        gold_relations = read_ann_file_new("%s.txt" % doc_id, gold_directory)[1] 
+        gold_relations = read_ann_file_new("%s.txt" % doc_id, os.path.join(gold_directory, ""))[1] 
        
         # create a dictionary like {"T1":"urn:cts:greekLit:tlg0012", }
         target_disambiguations = {id.split('-')[2]: row["urn_clean"] 
@@ -546,7 +547,8 @@ def evaluate_ned(goldset_data, gold_directory, target_data):
         file_result, file_errors = _evaluate_ned_file(doc_id
                                                     , gold_disambiguations
                                                     , gold_relations
-                                                    , target_disambiguations)
+                                                    , target_disambiguations
+                                                    , strict)
 
         # add error details
         for error_type in file_errors:
@@ -577,13 +579,15 @@ def evaluate_ned(goldset_data, gold_directory, target_data):
     prec, rec = scores["precision"], scores["recall"]
     scores["fscore"] = 0.0 if prec == 0.0 and rec == 0.0 else 2*(float(prec * rec) / float(prec + rec))
     scores["accuracy"] = (aggregated_results["true_pos"] + aggregated_results["true_neg"]) \
-                        / (aggregated_results["true_pos"] + aggregated_results["true_neg"] + aggregated_results["false_neg"])
-    logger.info("Computing accuracy: %i + %i / %i + %i + %i" % (
+                        / (aggregated_results["true_pos"] + aggregated_results["true_neg"] \
+                            + aggregated_results["false_neg"] + aggregated_results["false_neg"])
+    logger.info("Computing accuracy: %i + %i / %i + %i + %i + %i" % (
                                                                 aggregated_results["true_pos"]
                                                                 , aggregated_results["true_neg"]
                                                                 , aggregated_results["true_pos"]
                                                                 , aggregated_results["true_neg"]
                                                                 , aggregated_results["false_neg"]
+                                                                , aggregated_results["false_pos"]
                                                                 ))   
 
     #pdb.set_trace()
@@ -594,7 +598,7 @@ def evaluate_ned(goldset_data, gold_directory, target_data):
     print("Accuracy %.2f%%" % (scores["accuracy"]*100))
     return (scores, disambig_results, disambig_errors)
 
-def _evaluate_ned_file(docid, gold_disambiguations, gold_relations, target_disambiguations):
+def _evaluate_ned_file(docid, gold_disambiguations, gold_relations, target_disambiguations, strict=False):
     """
     Evaluates NED of a single file. 
 
@@ -636,11 +640,12 @@ def _evaluate_ned_file(docid, gold_disambiguations, gold_relations, target_disam
             logger.debug("[%s] unique_reference_urns=%s" % (docid, unique_reference_urns))
             arg1_entity_id = gold_relations[disambiguation_id]['arguments'][0]
 
-            if "%s-R" % arg1_entity_id in unique_reference_urns:
-                logger.debug("%s was already considered; skipping this one" % "%s-R" % arg1_entity_id)
-                continue
-            else:
-                unique_reference_urns.add("%s-R" % arg1_entity_id)
+            if strict:
+                if "%s-R" % arg1_entity_id in unique_reference_urns:
+                    logger.debug("%s was already considered; skipping this one" % "%s-R" % arg1_entity_id)
+                    continue
+                else:
+                    unique_reference_urns.add("%s-R" % arg1_entity_id)
 
         if gold_urn == NIL_ENTITY:
             error_type = "true_neg" if gold_urn == target_urn else "false_pos"
