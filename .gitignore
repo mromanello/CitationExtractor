@@ -8,8 +8,16 @@ __pycache__/
 # pytest
 .cache
 
+# venv
+.env
+env/
+
 # Vim tmp files
 *~
 
 # project specific
 citation_extractor/data/pickles/
+
+# pypi
+build/
+dist/
