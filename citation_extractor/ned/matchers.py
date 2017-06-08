@@ -16,7 +16,7 @@ with codecs.open("citation_extractor/data/pickles/kb_data.pkl","rb") as pickle_f
     kb_data = pickle.load(pickle_file)
 
 from knowledge_base import KnowledgeBase
-kb = KnowledgeBase("/Users/rromanello/Documents/crex/hucit_kb/knowledge_base/config/virtuoso.ini")
+kb = KnowledgeBase("../KnowledgeBase/knowledge_base/config/virtuoso.ini")
 
 from citation_extractor.ned import CitationMatcher
 cm = CitationMatcher(fuzzy_matching_entities=True, fuzzy_matching_relations=True, **kb_data)
@@ -117,12 +117,7 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
             logger.info("Done. Now let's index all this information.")
 
         self._author_idx, self._author_abbr_idx, self._work_idx, self._work_abbr_idx = self._initialise_indexes()
-        logger.info("CitationMatcher initialised with %i author abbreviations, %i author_names, %i work abbreviations, %i work titles" 
-                                                                                    % (len(self._author_abbreviations)
-                                                                                    , len(self._author_names)
-                                                                                    , len(self._work_abbreviations)
-                                                                                    , len(self._work_titles) 
-                                                                                    ))
+        logger.info(self.settings)
     
     def _initialise_indexes(self):
         """
@@ -145,6 +140,34 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
         except Exception, e:
             raise e
     
+    @property
+    def settings(self):
+        """
+        Prints to the stdout the settings of the CitationMatcher.
+        """ 
+        
+        prolog = "%s initialisation settings:" % self.__class__
+
+        if self.fuzzy_match_entities:
+            entity_matching_settings = "\t-Entity matching: fuzzy matching=%s; min distance threshold=%i; max distance threshold=%i" % \
+                                        (self.fuzzy_match_entities, self.min_distance_entities, self.max_distance_entities)
+        else:
+            entity_matching_settings = "\t-Entity matching: fuzzy matching=%s" % self.fuzzy_match_entities
+
+        if self.fuzzy_match_relations:
+            relation_matching_settings = "\t-Relation matching: fuzzy matching=%s; edit distance threshold=%i" % \
+                                        (self.fuzzy_match_relations, self.distance_relations)
+        else:
+            relation_matching_settings = "\t-Relation matching: fuzzy matching=%s" % self.fuzzy_match_relations
+
+        knowledge_base_extent = "\t-Extent of the KnowledgeBase: %i author abbreviations, %i author_names, %i work abbreviations, %i work titles." % \
+                                (len(self._author_abbreviations)
+                                , len(self._author_names)
+                                , len(self._work_abbreviations)
+                                , len(self._work_titles))
+
+        return "\n".join((prolog, entity_matching_settings, relation_matching_settings, knowledge_base_extent))
+
     # TODO: remove and add to the `citation_parser` 
     def _format_scope(self, scope_dictionary):
         """
@@ -360,32 +383,49 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
         This function retrieves from the KnowledgeBase possible authors that match the search string.
         None is returned if no matches are found.
 
-        Args:
-            string: the search string
-
-        Returns:
-            a list of tuples, ordered by distance between the seach and the matching string, where:
+        :param string: the string to be matched
+        
+        :param fuzzy: whether exact or fuzzy string matching should be applied
+        
+        :distance_threshold: the maximum edit distance threshold (ignored if `fuzzy==False`) 
+        
+        :return: a list of tuples, ordered by distance between the seach and the matching string, where:
                 tuple[0] contains the id (i.e. CTS URN) of the matching author
                 tuple[1] contains a label of the matching author
                 tuple[2] is the distance, measured in characters, between the search string and the matching string
-            or None if no match is found.
+                or None if no match is found.
         """
         #string = string.lower()
         author_matches, abbr_matches = [],[]
+        
         if(not fuzzy):
-            author_matches = [(id.split("$$")[0], self._author_names[id], len(self._author_names[id])-len(string)) for id in self._author_idx.searchAllWords(string)]
-            abbr_matches = [(id.split("$$")[0], self._author_abbreviations[id], len(self._author_abbreviations[id])-len(string)) for id in self._author_abbr_idx.searchAllWords(string)]
+
+            author_matches = [(id.split("$$")[0]
+                            , self._author_names[id]
+                            , len(self._author_names[id])-len(string))
+                             for id in self._author_idx.searchAllWords(string)]
+
+            abbr_matches = [(id.split("$$")[0]
+                            , self._author_abbreviations[id]
+                            , len(self._author_abbreviations[id])-len(string)) 
+                            for id in self._author_abbr_idx.searchAllWords(string)]
         else:
-            abbr_matches = [(id.split("$$")[0], self._author_abbreviations[id], edit_distance(string,self._author_abbreviations[id])) for id in self._author_abbreviations if edit_distance(string,self._author_abbreviations[id]) <= distance_threshold]
+            abbr_matches = [(id.split("$$")[0]
+                            , self._author_abbreviations[id]
+                            , edit_distance(string,self._author_abbreviations[id])) 
+                            for id in self._author_abbreviations 
+                            if edit_distance(string,self._author_abbreviations[id]) <= distance_threshold]
+
             abbr_matches = sorted(abbr_matches, key =itemgetter(2))
             author_matches = []
+
             for id in self._author_names:
                 if(string.endswith(".")):
                     if string.replace(".","") in self._author_names[id]:
-                        if(len(string)>(len(self._author_names[id])/2)):
+                        if(len(string) > (len(self._author_names[id]) / 2)):
                             try:
-                                assert abbr_matches[0][2]==0
-                                distance = len(self._author_names[id])-len(string)
+                                assert abbr_matches[0][2] == 0
+                                distance = len(self._author_names[id]) - len(string)
                                 if distance < 0:
                                     distance = 1
                                 author_matches.append((id.split("$$")[0], self._author_names[id],distance))
@@ -408,15 +448,17 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
         This function retrieves from the KnowledgeBase possible works that match the search string.
         None is returned if no matches are found.
 
-        Args:
-            string: the search string
+        :param string: the string to be matched
+        
+        :param fuzzy: whether exact or fuzzy string matching should be applied
+        
+        :distance_threshold: the maximum edit distance threshold (ignored if `fuzzy==False`) 
 
-        Returns:
-            a list of tuples, ordered by distance between the seach and the matching string, where:
+        :return: a list of tuples, ordered by distance between the seach and the matching string, where:
                 tuple[0] contains the id (i.e. CTS URN) of the matching work
                 tuple[1] contains a label of the matching work
                 tuple[2] is the distance, measured in characters, between the search string and the matching string
-            or None if no match is found.
+                or None if no match is found.
         """
         #string = string.lower()
         work_matches, work_abbr_matches = [],[]
@@ -457,16 +499,18 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
                                 for id in self._work_abbreviations 
                                 if edit_distance(string, self._work_abbreviations[id].lower()) <= distance_threshold]
 
-            logger.debug("Matching works: %s (fuzzy matching=%s; edit_distance_threshold=%i)" % (work_matches, fuzzy, distance_threshold))
-            logger.debug("Matching work abbreviations: %s (fuzzy matching=%s; edit_distance_threshold=%i)" % (work_abbr_matches, fuzzy, distance_threshold))
+            logger.debug("Matching works: %s (fuzzy matching=%s; edit_distance_threshold=%i)" % (work_matches
+                                                                                                , fuzzy
+                                                                                                , distance_threshold))
+
+            logger.debug("Matching work abbreviations: %s (fuzzy matching=%s; edit_distance_threshold=%i)" % (work_abbr_matches
+                                                                                                            , fuzzy
+                                                                                                            , distance_threshold))
 
         if(len(work_matches)>0 or len(work_abbr_matches)>0):
             return sorted(work_matches + work_abbr_matches, key=itemgetter(2))
         else:
             return None
-    
-    def print_settings(self): #TODO: implement
-        pass
 
     def disambiguate(self, surface, type, scope=None, n_results=1, **kwargs): #TODO: implement
         """
