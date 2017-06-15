@@ -562,7 +562,7 @@ def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
         if len(non_NIL_entities)>0:
             disambig_results.append(file_result)
         elif len(non_NIL_entities)==0:
-            logger.info("%s contains only NIL entities (or is empty): not considered when computing macro-averaged measures" % doc_id)
+            logger.debug("%s contains only NIL entities (or is empty): not considered when computing macro-averaged measures" % doc_id)
 
         # still, we include it in the counts used to compute the global accuracy
         for key in file_result:
@@ -580,8 +580,8 @@ def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
     scores["fscore"] = 0.0 if prec == 0.0 and rec == 0.0 else 2*(float(prec * rec) / float(prec + rec))
     scores["accuracy"] = (aggregated_results["true_pos"] + aggregated_results["true_neg"]) \
                         / (aggregated_results["true_pos"] + aggregated_results["true_neg"] \
-                            + aggregated_results["false_neg"] + aggregated_results["false_neg"])
-    logger.info("Computing accuracy: %i + %i / %i + %i + %i + %i" % (
+                            + aggregated_results["false_neg"] + aggregated_results["false_pos"])
+    logger.info("Computing accuracy: %i (tp) + %i (tn) / %i (tp) + %i (tn) + %i (fn) + %i (fp" % (
                                                                 aggregated_results["true_pos"]
                                                                 , aggregated_results["true_neg"]
                                                                 , aggregated_results["true_pos"]
@@ -630,10 +630,14 @@ def _evaluate_ned_file(docid, gold_disambiguations, gold_relations, target_disam
             target_urn = CTS_URN(target_disambiguation.strip()).get_urn_without_passage()
         except BadCtsUrnSyntax as e:
             logger.error("Skipping disambiguation %s-%s: target URN malformed (\"%s\")" % (docid, disambiguation_id, target_disambiguation))
-            return result, errors
+            continue
+        except AttributeError as e:
+            logger.error("Disambiguation %s-%s: target URN is None (\"%s\")" % (docid, disambiguation_id, target_disambiguation))
+            target_urn = None
         except KeyError as e:
             logger.debug("[%s] %s not contained in target: assuming a NIL entity" % (docid, disambiguation_id))
             target_urn = NIL_ENTITY
+            continue
 
 
         if is_relation_disambiguation:
@@ -664,7 +668,7 @@ def _evaluate_ned_file(docid, gold_disambiguations, gold_relations, target_disam
         errors[error_type].append((docid, disambiguation_id, gold_urn, target_urn))
         logger.debug("[%s-%s] Comparing %s with %s => %s" % (docid, disambiguation_id, gold_urn, target_urn, error_type))
 
-    logger.info("Evaluated file %s: %s" % (docid, result))
+    logger.debug("Evaluated file %s: %s" % (docid, result))
 
     return result, errors
 

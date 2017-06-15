@@ -72,7 +72,7 @@ def test_do_relex_rulebased(processing_directories):
 		logger.info(data)
 		assert success
 
-def test_do_ned(processing_directories, citation_matcher):
+def test_do_ned_fuzzymatching(processing_directories, citation_matcher):
 	"""
 	Test the Named Entity Disambiguation step of the pipeline (baseline).
 	"""

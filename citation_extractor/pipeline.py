@@ -611,7 +611,7 @@ def do_ned(doc_id, inp_dir, citation_matcher, clean_annotations=False, relation_
     finally:
         logger.info("Finished processing document \"%s\""%doc_id)
 
-def do_relex(doc_id,inp_dir,clean_relations=False):
+def do_relex(doc_id, inp_dir, clean_relations=False):
     try:
         entities, relations, disambiguations = read_ann_file(doc_id,inp_dir)
         logger.info("%s: %i entities; %i relations; %i disambiguations"%(doc_id

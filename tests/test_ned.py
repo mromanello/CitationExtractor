@@ -26,6 +26,7 @@ def test_pickle_citation_matcher(citation_matcher):
 	"""
 	pickled_citation_matcher = pickle.dumps(cm)
 	unpickled_citation_matcher = pickle.loads(pickled_citation_matcher)
+
 # def test_dummy(knowledge_base):
 #     """
 #     Dummy test..

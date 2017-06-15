@@ -8,6 +8,7 @@
 %autoreload 2
 
 import logging
+import tabulate
 from citation_extractor.Utils.IO import init_logger
 init_logger(loglevel=logging.DEBUG)
 
@@ -15,13 +16,25 @@ import codecs, pickle
 with codecs.open("citation_extractor/data/pickles/kb_data.pkl","rb") as pickle_file:
     kb_data = pickle.load(pickle_file)
 
+# replace this with a fresh dataframe
+with codecs.open("citation_extractor/data/pickles/testset_dataframe.pkl","rb") as pickle_file:
+    testset_gold_df = pickle.load(pickle_file)
+
 from knowledge_base import KnowledgeBase
-kb = KnowledgeBase("../KnowledgeBase/knowledge_base/config/virtuoso.ini")
+#kb = KnowledgeBase("../KnowledgeBase/knowledge_base/config/virtuoso.ini")
+kb = KnowledgeBase("/Users/rromanello/Documents/ClassicsCitations/hucit_kb/knowledge_base/config/virtuoso.ini")
 
 from citation_extractor.ned import CitationMatcher
-cm = CitationMatcher(fuzzy_matching_entities=True, fuzzy_matching_relations=True, **kb_data)
+cm = CitationMatcher(kb, fuzzy_matching_entities=True, fuzzy_matching_relations=True, **kb_data)
 cm._disambiguate_entity("Iliad's", "AWORK")
 %time y = cm._disambiguate_entity("Ovid", "AAUTHOR")
+
+for i, instance in testset_gold_df.iterrows():
+    result = cm.disambiguate(instance['surface'], instance["type"], instance["scope"])
+    testset_gold_df.loc[i]["predicted_urn"] = result.urn
+
+print(tabulate.tabulate(testset_gold_df.head(20)[["urn_clean","predicted_urn"]]))
+
 """
 
 from __future__ import print_function   
@@ -36,6 +49,7 @@ from pysuffix import suffixIndexers
 from pysuffix.suffixIndexers import DictValuesIndexer
 from citation_parser import CitationParser
 from citation_extractor.pipeline import NIL_URN
+from citation_extractor.Utils.strmatching import *
     
 global logger
 logger = logging.getLogger(__name__)
@@ -203,8 +217,7 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
                 for m in match:
                     if m[2] == 0:
                         zero_distance_match = True
-            #print(fuzzy)
-            #print(citation_string)
+
             logger.debug("[%s %s] zero distance match is %s, match = %s" % (citation_string, scope, zero_distance_match, match))
 
             if match is None or not zero_distance_match:
@@ -248,14 +261,18 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
         elif(len(citation_string.split(" "))>2):
             
             match = self.matches_author(citation_string, self.fuzzy_match_relations, self.distance_relations)
+
+        else:
+            logger.error("This case is not handled properly: %s" % citation_string)
+            raise
         
         # return only n_guess results
         if match is None or len(match)==0:
-            logger.info("\'%s %s\': no disambiguation candidates were found." % (citation_string, scope))
+            logger.debug("\'%s %s\': no disambiguation candidates were found." % (citation_string, scope))
             return Result(citation_string, entity_type, scope, NIL_URN) 
         
         elif len(match)<= n_guess:
-            logger.info("There are %i matches and `n_guess`==%i. Nothing to cut." % (len(match), n_guess))
+            logger.debug("There are %i matches and `n_guess`==%i. Nothing to cut." % (len(match), n_guess))
         
         elif len(match)> n_guess:
             # iterate and get what's the lowest ed_score
@@ -278,7 +295,7 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
                     if(len(lcs) > len(best_match[0])):
                         best_match = (lcs,match)
                 match = [best_match[1]] # TODO: check this; don't think it's correct
-                print(match)
+                logger.debug("Longest_common_substring selected %s out of %s" % (match, filtered_matches))
             else:
                 # TODO: use context here to disambiguate
                 match = match[:n_guess]
@@ -293,7 +310,7 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
                 opmax = self._kb.get_opus_maximum_of(urn)
                 
                 if(opmax is not None):
-                    logger.info("%s is opus maximum of %s"%(opmax, urn))
+                    logger.debug("%s is opus maximum of %s"%(opmax, urn))
                     urn = CTS_URN("%s:%s"%(opmax,formatted_scope))
 
             return Result(citation_string, entity_type, scope, urn)
@@ -315,11 +332,14 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
 
         distance_threshold = self.min_distance_entities
         max_distance_threshold = self.max_distance_entities
+        """
         string = mention.encode("utf-8") # TODO: add a type check
         
         regex_clean_string = r'(« )|( »)|\(|\)|\,'
         cleaned_string = re.sub(regex_clean_string,"",string)
         string = cleaned_string
+        """
+        string = mention
 
         if entity_type == "AAUTHOR":
             
@@ -347,7 +367,7 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
 
         else:
             # TODO: raise exception
-            print("unknown entity type")
+            logger.warning("unknown entity type: %s" % entity_type)
         
         if(matches is not None and len(matches)>0):
             lowest_score = 1000
@@ -512,7 +532,7 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
         else:
             return None
 
-    def disambiguate(self, surface, type, scope=None, n_results=1, **kwargs): #TODO: implement
+    def disambiguate(self, surface, entity_type, scope=None, n_results=1, **kwargs): 
         """
         :param surface:
         :param type:
@@ -520,10 +540,15 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
         :param n_results:
 
         """
-        #TODO: clean the string!
 
-        if surface is not None and scope is None:
-            return self._disambiguate_entity(surface, entity_type)
+        assert surface is not None
+
+        cleaned_surface = StringUtils.remove_punctuation(surface, keep_dots=True).strip() if scope is not None else StringUtils.remove_punctuation(surface)
+        logger.debug("Citation string before and after cleaning: \"%s\" => \"%s\"" % (surface, cleaned_surface))
+
+        # TODO: log the result 
+        if scope is None:
+            return self._disambiguate_entity(cleaned_surface, entity_type)
         
         elif scope is not None:
-            return self._disambiguate_relation(surface, entity_type, scope, n_results)
+            return self._disambiguate_relation(cleaned_surface, entity_type, scope, n_results)
