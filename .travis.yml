@@ -25,9 +25,9 @@ install:
   - cd $TRAVIS_BUILD_DIR
   - pip install -e lib/
   - pip install -r requirements.txt
+  - pip install -r requirements_dev.txt
   - pip install .
-  - pip install pytest-cov codecov
 # command to run tests
-script: travis_wait 30 pytest -vv --cov=citation_extractor
+script: travis_wait 30 pytest -vv --cov=citation_extractor --ignore=tests/test_eval.py
 after_success:
   - codecov
