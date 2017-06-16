@@ -16,6 +16,9 @@ import codecs, pickle
 with codecs.open("citation_extractor/data/pickles/kb_data.pkl","rb") as pickle_file:
     kb_data = pickle.load(pickle_file)
 
+#with codecs.open("citation_extractor/data/pickles/kb_data.pkl","wb") as pickle_file:
+#    pickle.dump(kb_data, pickle_file)
+
 # replace this with a fresh dataframe
 with codecs.open("citation_extractor/data/pickles/testset_dataframe.pkl","rb") as pickle_file:
     testset_gold_df = pickle.load(pickle_file)
@@ -25,7 +28,13 @@ from knowledge_base import KnowledgeBase
 kb = KnowledgeBase("/Users/rromanello/Documents/ClassicsCitations/hucit_kb/knowledge_base/config/virtuoso.ini")
 
 from citation_extractor.ned import CitationMatcher
-cm = CitationMatcher(kb, fuzzy_matching_entities=True, fuzzy_matching_relations=True, **kb_data)
+cm = CitationMatcher(kb
+                        , fuzzy_matching_entities=True
+                        , fuzzy_matching_relations=True
+                        , min_distance_entities=4
+                        , max_distance_entities=7
+                        , distance_relations=4
+                        , **kb_data)
 cm._disambiguate_entity("Iliad's", "AWORK")
 %time y = cm._disambiguate_entity("Ovid", "AAUTHOR")
 
@@ -117,16 +126,20 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
             self._citation_parser = CitationParser()
             
             logger.info("Fetching author names from the KB...")
-            self._author_names = knowledge_base.author_names
+            author_names = knowledge_base.author_names
+            self._author_names = {key: StringUtils.normalize(author_names[key]) for key in author_names}
             
             logger.info("Done. Fetching work titles from the KB...")
-            self._work_titles = knowledge_base.work_titles
+            work_titles = knowledge_base.work_titles
+            self._work_titles = {key:StringUtils.normalize(work_titles[key]) for key in work_titles}
             
             logger.info("Done. Fetching author abbreviations from the KB...")
-            self._author_abbreviations = knowledge_base.author_abbreviations
+            author_abbreviations = knowledge_base.author_abbreviations
+            self._author_abbreviations = {key:StringUtils.normalize(author_abbreviations[key]) for key in author_abbreviations}
             
             logger.info("Done. Fetching work abbreviations from the KB...")
-            self._work_abbreviations = knowledge_base.work_abbreviations
+            work_abbreviations = knowledge_base.work_abbreviations
+            self._work_abbreviations = {key:StringUtils.normalize(work_abbreviations[key]) for key in work_abbreviations}
             
             logger.info("Done. Now let's index all this information.")
 
@@ -248,7 +261,7 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
                     for id2, label2, score2 in match_tok2:
                         if id1 in id2:
                             match = [(id2, label2, score2)]
-                            break
+                            return Result(citation_string, entity_type, scope, CTS_URN(id2))
             else:
                 # case 2: tok1 and tok2 are author
                 match = self.matches_author(citation_string, self.fuzzy_match_relations, self.distance_relations)
@@ -543,7 +556,8 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
 
         assert surface is not None
 
-        cleaned_surface = StringUtils.remove_punctuation(surface, keep_dots=True).strip() if scope is not None else StringUtils.remove_punctuation(surface)
+        #cleaned_surface = StringUtils.remove_punctuation(surface, keep_dots=True).strip() if scope is not None else StringUtils.remove_punctuation(surface)
+        cleaned_surface = StringUtils.normalize(surface)
         logger.debug("Citation string before and after cleaning: \"%s\" => \"%s\"" % (surface, cleaned_surface))
 
         # TODO: log the result 
@@ -552,3 +566,4 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
         
         elif scope is not None:
             return self._disambiguate_relation(cleaned_surface, entity_type, scope, n_results)
+

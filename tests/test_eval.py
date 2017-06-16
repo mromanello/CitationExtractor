@@ -33,7 +33,7 @@ def _pprocess(datum, citation_matcher):
         return (id, str(disambiguation_result.urn))
     except Exception as e:
         logger.error("Disambiguation of %s raised the following error: %s" % (id, e))
-        traceback.print_stack()
+        #traceback.print_stack()
         disambiguation_result = None
         logger.debug("%i - %s - %s" % (n, id, disambiguation_result))
         return (id, disambiguation_result)
@@ -42,44 +42,28 @@ def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
 
     ann_dir, ann_files = aph_test_ann_files
     testset_gold_df = aph_testset_dataframe
-    #testset_target_df = testset_gold_df.copy()
 
     # TODO remove it once done with testing
     with codecs.open(pkg_resources.resource_filename("citation_extractor", "data/pickles/kb_data.pkl"),"rb") as pickle_file:
         kb_data = pickle.load(pickle_file)
 
-    # TODO remove it once done with testing
-    with codecs.open(pkg_resources.resource_filename("citation_extractor", "data/pickles/testset_target_df.pkl"),"rb") as pickle_file:
-        testset_target_df = pd.read_pickle(pickle_file)        
-    
     logger.info(tabulate(testset_gold_df.head(20)[["type", "surface", "scope", "urn"]]))
-    logger.info(tabulate(testset_target_df.head(20)[["type", "surface", "scope", "urn"]]))
 
     # TODO: replace hard-coded path with pkg_resources
     kb = KnowledgeBase("/Users/rromanello/Documents/ClassicsCitations/hucit_kb/knowledge_base/config/virtuoso.ini")
     
+    cms = {}
+
     ##############################
     # Test 1: default parameters #
     ##############################
 
-    
-    cm = CitationMatcher(kb, fuzzy_matching_entities=True, fuzzy_matching_relations=True, **kb_data)
-
-    results = parmap.map(_pprocess, ((n, row[0], row[1]) for n, row in enumerate(testset_target_df.iterrows())), cm)
-    
-    for instance_id, urn in results:
-        testset_target_df.loc[instance_id]["urn_clean"] = urn
-
-    print cm.settings
-
-    #evaluate_ned(testset_gold_df, ann_dir, testset_target_df, strict=False)
-    evaluate_ned(testset_gold_df, ann_dir, testset_target_df, strict=True)
-    
+    cms["cm1"] = CitationMatcher(kb, fuzzy_matching_entities=False, fuzzy_matching_relations=False, **kb_data)
 
     ##############################
     # Test 2: best parameters    #
     ##############################
-    cm = CitationMatcher(kb
+    cms["cm2"] = CitationMatcher(kb
                         , fuzzy_matching_entities=True
                         , fuzzy_matching_relations=True
                         , min_distance_entities=4
@@ -87,12 +71,48 @@ def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
                         , distance_relations=4
                         , **kb_data)
 
-    results = parmap.map(_pprocess, ((n, row[0], row[1]) for n, row in enumerate(testset_target_df.iterrows())), cm)
+    #####################################
+    # Test 3: alternative parameters    #
+    #####################################
+    cms["cm3"] = CitationMatcher(kb
+                        , fuzzy_matching_entities=True
+                        , fuzzy_matching_relations=False
+                        , min_distance_entities=4
+                        , max_distance_entities=7
+                        , **kb_data)
     
-    for instance_id, urn in results:
-        testset_target_df.loc[instance_id]["urn_clean"] = urn
+    comp_evaluation = []
+    comp_accuracy_by_type = []
+    
+    for key in sorted(cms.keys()):
+        cm = cms[key]
+        testset_target_df = testset_gold_df.copy()
+        results = parmap.map(_pprocess, ((n, row[0], row[1]) for n, row in enumerate(testset_target_df.iterrows())), cm)
+        
+        for instance_id, urn in results:
+            testset_target_df.loc[instance_id]["urn_clean"] = urn
 
-    print cm.settings
+        with codecs.open("citation_extractor/data/pickles/test_target_dataframe_%s.pkl" % key,"wb") as pickle_file:
+            pickle.dump(testset_target_df, pickle_file)
 
-    #evaluate_ned(testset_gold_df, ann_dir, testset_target_df, strict=False)
-    evaluate_ned(testset_gold_df, ann_dir, testset_target_df, strict=True)
+        # aggregate and format the data already with percentages
+        scores, accuracy_by_type, error_types, errors = evaluate_ned(testset_gold_df, ann_dir, testset_target_df, strict=True)
+        
+        scores  = {score_key : "%.2f%%" % (scores[score_key]*100) for score_key in scores}
+        scores["id"] = key
+        comp_evaluation.append(scores)
+
+        accuracy = {type_key : "%.2f%%" % (accuracy_by_type[type_key]*100) for type_key in accuracy_by_type}
+        accuracy["id"] = key
+        comp_accuracy_by_type.append(accuracy)
+
+    comp_evaluation_df = pd.DataFrame(comp_evaluation, index=[score["id"] for score in comp_evaluation])
+    del comp_evaluation_df["id"] # we don't need it twice
+
+    comp_accuracy_by_type_df = pd.DataFrame(comp_accuracy_by_type, index=[accuracy["id"] for accuracy in comp_accuracy_by_type])
+    del comp_accuracy_by_type_df["id"] # we don't need it twice
+
+    logger.info("\n" + tabulate(comp_evaluation_df, headers=comp_evaluation_df.columns))
+    logger.info("\n" + tabulate(comp_accuracy_by_type_df, headers=comp_accuracy_by_type_df.columns))
+    logger.info("\n" + "\n".join(["%s: %s" % (key, cms[key].settings) for key in cms]))
+    pdb.set_trace()

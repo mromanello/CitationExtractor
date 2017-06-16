@@ -5,6 +5,29 @@
 
 Module containing classes and functions to perform the evaluation of the various steps of the pipeline (NER, RelEx, NED).
 
+%load_ext autoreload
+%autoreload 2
+
+import logging
+import tabulate
+from citation_extractor.Utils.IO import init_logger
+init_logger(loglevel=logging.DEBUG)
+import pickle
+import codecs
+import pkg_resources
+import pandas as pd
+from citation_extractor.eval import evaluate_ned
+
+with codecs.open(pkg_resources.resource_filename("citation_extractor", "data/pickles/test_gold_dataframe.pkl"),"rb") as pickle_file:
+    testset_gold_df = pd.read_pickle(pickle_file)
+
+with codecs.open(pkg_resources.resource_filename("citation_extractor", "data/pickles/test_target_dataframe_cm1.pkl"),"rb") as pickle_file:
+    testset_target_df = pd.read_pickle(pickle_file)
+
+ann_dir = "/Users/rromanello/Documents/crex/citation_extractor/citation_extractor/data/aph_corpus/testset/ann/"
+
+scores, error_types, errors = evaluate_ned(testset_gold_df, ann_dir, testset_target_df, strict=True)
+
 """
 from __future__ import division
 import pdb # TODO: remove from production code
@@ -516,6 +539,7 @@ def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
     disambig_results = []
     disambig_errors = {"true_pos":[], "true_neg":[], "false_pos":[], "false_neg":[]}
     aggregated_results = {"true_pos":0, "true_neg":0, "false_pos":0, "false_neg":0}
+    results_by_entity_type = {}
     scores = {}
     
     # check that number/names of .ann files is the same
@@ -537,22 +561,37 @@ def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
                                     for id, row in goldset_data[goldset_data["doc_id"]==doc_id].iterrows()}
        
         # pass on all relations data
-        gold_relations = read_ann_file_new("%s.txt" % doc_id, os.path.join(gold_directory, ""))[1] 
+        gold_entities, gold_relations = read_ann_file_new("%s.txt" % doc_id, os.path.join(gold_directory, ""))[:2] 
        
         # create a dictionary like {"T1":"urn:cts:greekLit:tlg0012", }
         target_disambiguations = {id.split('-')[2]: row["urn_clean"] 
                                     for id, row in target_data[target_data["doc_id"]==doc_id].iterrows()}
         
         # process each invidual file
-        file_result, file_errors = _evaluate_ned_file(doc_id
+        file_result, file_errors, result_by_entity_type = _evaluate_ned_file(doc_id
                                                     , gold_disambiguations
+                                                    , gold_entities
                                                     , gold_relations
                                                     , target_disambiguations
                                                     , strict)
+        
 
         # add error details
         for error_type in file_errors:
             disambig_errors[error_type]+=file_errors[error_type]
+
+        for entity_type in result_by_entity_type:
+
+            if not entity_type in results_by_entity_type:
+                results_by_entity_type[entity_type] = {}
+
+            for error_type in result_by_entity_type[entity_type]:
+                
+                if not error_type in results_by_entity_type[entity_type]:
+                    results_by_entity_type[entity_type] = {"true":0, "false":0}
+
+                results_by_entity_type[entity_type][error_type] += result_by_entity_type[entity_type][error_type]
+
 
         # NB: if the file contains only NIL entities we exclude it from the counts
         # used to computed the macro-averaged precision and recall
@@ -589,16 +628,28 @@ def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
                                                                 , aggregated_results["false_neg"]
                                                                 , aggregated_results["false_pos"]
                                                                 ))   
+    assert sum([results_by_entity_type[ent_type][err_type]
+                for ent_type in results_by_entity_type 
+                for err_type in results_by_entity_type[ent_type]]) == sum(aggregated_results.values())
 
-    #pdb.set_trace()
     logger.info("Precision and recall averaged over %i documents (documents with NIL-entities only are excluded)" % len(precisions))
     print("Precision %.2f%%" % (scores["precision"]*100))
     print("Recall %.2f%%" % (scores["recall"]*100))
     print("Fscore %.2f%%" % (scores["fscore"]*100))
     print("Accuracy %.2f%%" % (scores["accuracy"]*100))
-    return (scores, disambig_results, disambig_errors)
 
-def _evaluate_ned_file(docid, gold_disambiguations, gold_relations, target_disambiguations, strict=False):
+    accuracy_by_type = {}
+    print("\nAccuracy by type:")
+    for entity_type in sorted(results_by_entity_type.keys()):
+        true_matches = results_by_entity_type[entity_type]["true"]
+        false_matches = results_by_entity_type[entity_type]["false"]
+        total_matches = true_matches + false_matches
+        accuracy_by_type[entity_type] = true_matches / total_matches
+        print("%s: %.2f%%" % (entity_type, (accuracy_by_type[entity_type] * 100)))
+
+    return (scores, accuracy_by_type, disambig_results, disambig_errors)
+
+def _evaluate_ned_file(docid, gold_disambiguations, gold_entities, gold_relations, target_disambiguations, strict=False):
     """
     Evaluates NED of a single file. 
 
@@ -607,6 +658,7 @@ def _evaluate_ned_file(docid, gold_disambiguations, gold_relations, target_disam
     unique_reference_urns = set() # for multiple relations having as arg1 entity X, count X only once
 
     result = {"true_pos":0, "false_pos":0 ,"false_neg":0 ,"true_neg":0}
+    result_by_entity_type = {}
     errors = {"true_pos":[], "false_pos":[], "false_neg":[], "true_neg":[]}
 
     try:
@@ -616,6 +668,7 @@ def _evaluate_ned_file(docid, gold_disambiguations, gold_relations, target_disam
         return None, errors
 
     for disambiguation_id in gold_disambiguations:
+
         is_relation_disambiguation = True if disambiguation_id.startswith('R') else False
         
         try:
@@ -639,6 +692,7 @@ def _evaluate_ned_file(docid, gold_disambiguations, gold_relations, target_disam
             target_urn = NIL_ENTITY
             continue
 
+        arg1_entity_id = None
 
         if is_relation_disambiguation:
             logger.debug("[%s] unique_reference_urns=%s" % (docid, unique_reference_urns))
@@ -651,6 +705,7 @@ def _evaluate_ned_file(docid, gold_disambiguations, gold_relations, target_disam
                 else:
                     unique_reference_urns.add("%s-R" % arg1_entity_id)
 
+        # classify the error by type
         if gold_urn == NIL_ENTITY:
             error_type = "true_neg" if gold_urn == target_urn else "false_pos"
         else:
@@ -663,6 +718,18 @@ def _evaluate_ned_file(docid, gold_disambiguations, gold_relations, target_disam
                     error_type = "true_pos"
                 else:
                     error_type = "false_pos"
+        
+        if gold_urn != NIL_ENTITY:
+            entity_type = gold_entities[disambiguation_id]["entity_type"] if not is_relation_disambiguation else "scope-%s" % gold_entities[arg1_entity_id]["entity_type"]
+        else:
+            entity_type = "NIL"
+
+        error_by_entity_type = "true" if error_type == "true_pos" or error_type == "true_neg" else "false"
+
+        if not entity_type in result_by_entity_type:
+            result_by_entity_type[entity_type] = {"true":0, "false":0}
+
+        result_by_entity_type[entity_type][error_by_entity_type]+=1
 
         result[error_type]+=1
         errors[error_type].append((docid, disambiguation_id, gold_urn, target_urn))
@@ -670,7 +737,7 @@ def _evaluate_ned_file(docid, gold_disambiguations, gold_relations, target_disam
 
     logger.debug("Evaluated file %s: %s" % (docid, result))
 
-    return result, errors
+    return result, errors, result_by_entity_type
 
 if __name__ == "__main__":
     import doctest
