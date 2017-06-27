@@ -27,6 +27,16 @@ from knowledge_base import KnowledgeBase
 #kb = KnowledgeBase("../KnowledgeBase/knowledge_base/config/virtuoso.ini")
 kb = KnowledgeBase("/Users/rromanello/Documents/ClassicsCitations/hucit_kb/knowledge_base/config/virtuoso.ini")
 
+kb_data = {
+        "author_names": kb.author_names
+        , "author_abbreviations": kb.author_abbreviations
+        , "work_titles": kb.work_titles
+        , "work_abbreviations": kb.work_abbreviations
+        }
+
+with codecs.open("citation_extractor/data/pickles/kb_data.pkl","rb") as pickle_file:
+    kb_data = pickle.load(pickle_file)
+
 from citation_extractor.ned import CitationMatcher
 cm = CitationMatcher(kb
                         , fuzzy_matching_entities=True

@@ -27,6 +27,7 @@ def test_annotations2references(knowledge_base):
 #def test_sort_entities(): #TODO implement
 #    raise NotImplementedError
 
+@pytest.mark.skip
 def test_load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles):
     # load the pandas.DataFrame
     dataframe = load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles)
