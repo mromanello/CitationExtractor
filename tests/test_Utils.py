@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
+import pytest
 import pdb
 import pkg_resources
 import logging
