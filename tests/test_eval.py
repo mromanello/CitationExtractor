@@ -42,12 +42,13 @@ def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
 
     ann_dir, ann_files = aph_test_ann_files
     testset_gold_df = aph_testset_dataframe
-    testset_gold_df.to_pickle("citation_extractor/data/pickles/test_gold_dataframe.pkl")
+    #testset_gold_df.to_pickle("citation_extractor/data/pickles/test_gold_dataframe.pkl")
 
     logger.info(tabulate(testset_gold_df.head(20)[["type", "surface", "scope", "urn"]]))
 
     # TODO: replace hard-coded path with pkg_resources
-    kb = KnowledgeBase("/Users/rromanello/Documents/ClassicsCitations/hucit_kb/knowledge_base/config/virtuoso.ini")
+    kb_cfg_file = pkg_resources.resource_filename('knowledge_base','config/virtuoso.ini')
+    kb = KnowledgeBase(kb_cfg_file)
     """
     kb_data = {
             "author_names": kb.author_names
@@ -106,7 +107,7 @@ def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
             testset_target_df.loc[instance_id]["urn_clean"] = urn
 
         # save pickle for later 
-        testset_target_df.to_pickle("citation_extractor/data/pickles/test_target_dataframe_%s.pkl" % key)
+        #testset_target_df.to_pickle("citation_extractor/data/pickles/test_target_dataframe_%s.pkl" % key)
 
         scores, accuracy_by_type, error_types, errors = evaluate_ned(testset_gold_df, ann_dir, testset_target_df, strict=True)
 
