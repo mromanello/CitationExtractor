@@ -69,6 +69,7 @@ def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
 
     cms["cm1"] = CitationMatcher(kb, fuzzy_matching_entities=False, fuzzy_matching_relations=False)
 
+    """
     ##############################
     # Test 2: best parameters    #
     ##############################
@@ -88,6 +89,7 @@ def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
                         , fuzzy_matching_relations=False
                         , min_distance_entities=4
                         , max_distance_entities=7)
+    """
     
     comp_evaluation = []
     comp_accuracy_by_type = []
