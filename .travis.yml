@@ -30,6 +30,6 @@ install:
   - pip install .
 # command to run tests
 #script: travis_wait 30 pytest -vv --cov=citation_extractor --ignore=tests/test_eval.py
-script: pytest -s -vv --cov=citation_extractor --ignore=tests/test_eval.py
+script: pytest -s -vv --cov=citation_extractor
 after_success:
   - codecov
