@@ -1,0 +1,25 @@
+Traduction	NOM
+d'	PRP
+Élien	NAM
+,	PUN
+Histoire	NAM
+variée	VER:pper
+12	NUM
+,	PUN
+1	NUM
+:	PUN
+l'	DET:ART
+histoire	NOM
+d'	PRP
+Aspasie	NAM
+,	PUN
+maîtresse	NOM
+de	PRP
+Cyrus	NAM
+le	DET:ART
+Jeune	NAM
+et	KON
+favorite	ADJ
+d'	PRP
+Artaxerxes	NAM
+

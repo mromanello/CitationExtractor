@@ -1,0 +1,13 @@
+T1	REFAUWORK 32 41	Lucretius
+T2	REFSCOPE 42 50	2, 112 ;
+T3	REFSCOPE 51 63	2, 172-173 ;
+T4	REFSCOPE 64 76	3, 431-432 ;
+T5	REFSCOPE 77 92	and 3, 563-564.
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+R4	Scope Arg1:T1 Arg2:T5
+#0	AnnotatorNotes R4	urn:cts:cwkb:527:3.563-3.564
+#1	AnnotatorNotes R1	urn:cts:cwkb:527:2.112
+#2	AnnotatorNotes R2	urn:cts:cwkb:527:2.172-2.173
+#3	AnnotatorNotes R3	urn:cts:cwkb:527:3.431-3.432

@@ -1,0 +1,40 @@
+Entre	PREP
+ambos	QU
+tipos	NC
+de	PREP
+léxico	NC
+se	SE
+observan	VLfin
+coincidencias	NC
+notables	ADJ
+,	CM
+sobre todo	ADV
+en	PREP
+los	ART
+últimos	ADJ
+años	NC
+de	PREP
+la	ART
+República	NC
+,	CM
+ya que	CSUBF
+tanto	ADV
+el	ART
+discurso	NC
+amoroso	ADJ
+como	CSUBX
+el	ART
+político	NC
+responden	VLfin
+a	PREP
+las	ART
+exigencias	NC
+y	CC
+deseos	NC
+más	ADV
+profundos	ADJ
+de	PREP
+los	ART
+seres	NC
+humanos	ADJ
+

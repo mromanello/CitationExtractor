@@ -1,0 +1,46 @@
+Fouilles	NOM
+effectuées	VER:pper
+entre	PRP
+1984	NUM
+et	KON
+1989	NUM
+par	PRP
+la	DET:ART
+6e	NUM
+éphorie	NOM
+de	PRP
+Patras	NOM
+.	SENT
+
+Présentation	NOM
+des	PRP:det
+résultats	NOM
+des	PRP:det
+travaux	NOM
+sur	PRP
+les	DET:ART
+remparts	NOM
+,	PUN
+les	DET:ART
+nécropoles	NOM
+,	PUN
+l'	DET:ART
+habitat	NOM
+,	PUN
+les	DET:ART
+rues	NOM
+et	KON
+les	DET:ART
+aménagements	NOM
+hydrauliques	ADJ
+des	PRP:det
+périodes	NOM
+hellénistique	ADJ
+et	KON
+romaine	ADJ
+.	SENT
+
+Voir	VER:infi
+aussi	ADV
+65-13540	NUM
+

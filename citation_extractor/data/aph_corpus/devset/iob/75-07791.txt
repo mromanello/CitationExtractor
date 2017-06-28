@@ -1,0 +1,29 @@
+Catalogue	NOM
+et	KON
+typologie	NOM
+de	PRP
+34	NUM
+«	PUN:cit
+unguentaria	NOM
+»	PUN:cit
+trouvés	VER:pper
+à	PRP
+Apollonia	NAM
+,	PUN
+essentiellement	ADV
+dans	PRP
+les	DET:ART
+nécropoles	NOM
+,	PUN
+datés	VER:pper
+entre	PRP
+325	NUM
+et	KON
+100	NUM
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+

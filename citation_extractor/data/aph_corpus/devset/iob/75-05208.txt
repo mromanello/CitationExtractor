@@ -1,0 +1,12 @@
+À	PRP
+propos	NOM
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+de	PRP
+T.	ABR
+Schmitt	NAM
+,	PUN
+noté	VER:pper
+72-05575	NUM
+

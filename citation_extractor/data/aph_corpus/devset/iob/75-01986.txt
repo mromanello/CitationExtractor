@@ -1,0 +1,20 @@
+Les	DET:ART
+médecins	NOM
+arabes	ADJ
+du	PRP:det
+Moyen	NAM
+Âge	NOM
+se	PRO:PER
+sont	VER:pres
+essentiellement	ADV
+appuyés	VER:pper
+sur	PRP
+Galien	NAM
+pour	KON
+expliquer	VER:infi
+les	DET:ART
+mécanismes	NOM
+de	PRP
+la	DET:ART
+mémoire	NOM
+

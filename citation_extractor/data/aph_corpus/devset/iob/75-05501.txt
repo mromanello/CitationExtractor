@@ -1,0 +1,26 @@
+Confronto	NOM
+della	PRE:det
+seconda	ADJ
+«	PON
+Lettera	NOM
+»	PON
+di	PRE
+Pietro	NPR
+(	PON
+2	NUM
+,	PON
+1-3	NUM
+,	PON
+3	NUM
+)	PON
+con	PRE
+la	DET:def
+«	PON
+Lettera	NOM
+»	PON
+di	PRE
+Giuda	NOM
+(	PON
+4-18	NUM
+)	PON
+

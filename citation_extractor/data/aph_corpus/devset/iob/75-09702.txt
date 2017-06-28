@@ -1,0 +1,35 @@
+Approfondimento	NOM
+sulle	PRE:det
+l.	NOM
+
+8-12	NUM
+del	PRE:det
+papiro	NOM
+,	PON
+recante	VER:ppre
+un	DET:indef
+contratto	NOM
+di	PRE
+tirocinio	NOM
+redatto	VER:pper
+a	PRE
+Karanis	NOM
+nel	PRE:det
+50	NUM
+d.	NOM
+C.	LS
+Proposte	NOM
+di	PRE
+restituzione	NOM
+testuale	ADJ
+,	PON
+a	PRE
+partire	VER:infi
+da	PRE
+un	DET:indef
+confronto	NOM
+con	PRE
+altri	PRO:indef
+documenti	NOM
+analoghi	ADJ
+

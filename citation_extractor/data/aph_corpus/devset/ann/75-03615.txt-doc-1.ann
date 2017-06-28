@@ -1,0 +1,5 @@
+T1	AAUTHOR 11 21	Parménide,
+T2	REFSCOPE 22 30	v. 15-32
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0059.tlg009:15-32
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0655

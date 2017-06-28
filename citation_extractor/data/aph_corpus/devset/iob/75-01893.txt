@@ -1,0 +1,20 @@
+Se	SE
+ofrece	VLfin
+la	ART
+traducción	NC
+de	PREP
+los	ART
+fragmentos	NC
+y	CC
+se	SE
+adelantan	VLfin
+algunas	QU
+propuestas	NC
+para	PREP
+la	ART
+reconstrucción	NC
+de	PREP
+esta	DM
+tragedia	NC
+.	FS
+

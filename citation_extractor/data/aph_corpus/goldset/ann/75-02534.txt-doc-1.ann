@@ -1,0 +1,11 @@
+T1	AAUTHOR 0 6	Homero
+T2	AAUTHOR 80 87	Hesíodo
+T3	AWORK 89 97	Trabajos
+T4	REFSCOPE 98 107	159-173 ;
+T5	AWORK 108 136	« Catálogo de las mujeres »)
+T6	AWORK 169 197	(Himno homérico a Afrodita ;
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0020.tlg002:159-173
+#1	AnnotatorNotes T2	urn:cts:greekLit:tlg0020
+#2	AnnotatorNotes T3	urn:cts:greekLit:tlg0032.tlg006
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0012

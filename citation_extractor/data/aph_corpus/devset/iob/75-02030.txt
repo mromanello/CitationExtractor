@@ -1,0 +1,15 @@
+Elenco	NOM
+e	CON
+descrizione	NOM
+di	PRE
+sette	ADJ
+codici	NOM
+gelliani	NOM
+(	PON
+per	PRE
+il	DET:def
+precedente	ADJ
+=>	NOM
+70-01979	NUM
+)	PON
+

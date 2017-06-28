@@ -1,0 +1,20 @@
+La	DET:def
+figura	NOM
+rappresentata	VER:pper
+su	PRE
+un	DET:indef
+ottodrammo	NOM
+macedone	ADJ
+del	PRE:det
+6°	NOM
+sec.	NOM
+a.	NOM
+C.	NPR
+è	VER:pres
+probabilmente	ADV
+il	DET:def
+dio	NOM
+del	PRE:det
+fiume	NOM
+Strimone	ABR
+

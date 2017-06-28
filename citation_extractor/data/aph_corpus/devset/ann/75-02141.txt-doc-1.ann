@@ -1,0 +1,6 @@
+T1	AAUTHOR 143 163	Grégoire de Nazianze
+T2	REFAUWORK 164 168	(Or.
+T3	REFSCOPE 169 204	15, 18, 24, 38, 39, 40, 41, 43, 44)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:443.950:15.18.24.38.39.40.41.43.44
+#1	AnnotatorNotes T1	urn:cts:cwkb:896

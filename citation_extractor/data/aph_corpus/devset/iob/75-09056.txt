@@ -1,0 +1,71 @@
+Documents	NOM
+datés	VER:pper
+du	PRP:det
+5e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+au	PRP:det
+4e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+
+(	PUN
+IG	NOM
+12	NUM
+,	PUN
+5	NUM
+et	KON
+IG	NAM
+12	NUM
+,	PUN
+7	NUM
+)	PUN
+.	SENT
+
+On	PRO:PER
+constate	VER:pres
+une	DET:ART
+participation	NOM
+croissante	ADJ
+des	PRP:det
+femmes	NOM
+à	PRP
+la	DET:ART
+vie	NOM
+publique	ADJ
+de	PRP
+leur	DET:POS
+cité	NOM
+,	PUN
+dès	PRP
+le	DET:ART
+3e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+mais	KON
+essentiellement	ADV
+sous	PRP
+le	DET:ART
+contrôle	NOM
+des	PRP:det
+membres	NOM
+masculins	ADJ
+de	PRP
+leur	DET:POS
+famille	NOM
+

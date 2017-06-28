@@ -1,0 +1,27 @@
+A	PREP
+través	NC
+de	PREP
+la	ART
+imagen	NC
+del	PDEL
+padre	NC
+que	CQUE
+Propercio	VLfin
+refleja	VLfin
+en	PREP
+sus	PPO
+poemas	NC
+,	CM
+se	SE
+intenta	VLfin
+reconstruir	VLinf
+la	ART
+imagen	NC
+verdadera	ADJ
+del	PDEL
+propio	ADJ
+padre	NC
+del	PDEL
+poeta	NC
+.	FS
+

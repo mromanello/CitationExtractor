@@ -1,0 +1,24 @@
+Raccolta	NOM
+di	PRE
+testimonianze	NOM
+biografiche	ADJ
+e	CON
+analisi	NOM
+di	PRE
+possibili	ADJ
+echi	NOM
+parteniani	ADJ
+in	PRE
+Virgilio	NPR
+;	PON
+considerazioni	NOM
+conclusive	ADJ
+su	PRE
+Partenio	NOM
+.	SENT
+
+Per	PRE
+1	NUM
+=>	NOM
+75-03620	NUM
+

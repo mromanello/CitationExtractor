@@ -1,0 +1,15 @@
+T1	AAUTHOR 0 10	Ammonius '
+T2	AAUTHOR 46 58	Aristotle 's
+T3	AWORK 59 81	« De interpretatione »
+T4	AWORK 377 399	« De interpretatione »
+T5	REFAUWORK 525 529	Int.
+T6	REFSCOPE 530 540	19 B 19-20
+T7	REFSCOPE 693 709	(19 B 19-20 A 6)
+R1	Scope Arg1:T5 Arg2:T6
+R2	Scope Arg1:T5 Arg2:T7
+#0	AnnotatorNotes R1	urn:cts:cwkb:923.2738:19
+#1	AnnotatorNotes R2	urn:cts:cwkb:923.2738:19
+#2	AnnotatorNotes T4	urn:cts:cwkb:3097.9544
+#3	AnnotatorNotes T2	urn:cts:greekLit:tlg0086
+#4	AnnotatorNotes T3	urn:cts:cwkb:3097.9544
+#5	AnnotatorNotes T1	urn:cts:cwkb:1163

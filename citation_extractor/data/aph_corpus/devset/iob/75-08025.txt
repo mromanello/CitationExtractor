@@ -1,0 +1,22 @@
+Conteste	VER:pres
+l'	DET:ART
+interprétation	NOM
+proposée	VER:pper
+dans	PRP
+l'	DET:ART
+étude	NOM
+notée	VER:pper
+75-08026	NUM
+et	KON
+réaffirme	VER:pres
+celle	PRO:DEM
+qui	PRO:REL
+avait	VER:impf
+été	VER:pper
+exposée	VER:pper
+dans	PRP
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+75-08027	NUM
+

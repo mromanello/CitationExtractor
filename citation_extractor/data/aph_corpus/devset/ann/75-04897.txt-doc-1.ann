@@ -1,0 +1,6 @@
+T1	REFAUWORK 28 44	Seneca, Controv.
+T2	REFSCOPE 45 53	2, 1, 1)
+T3	AAUTHOR 288 297	Pompey 's
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:622.1292:2.1.1
+#1	AnnotatorNotes T3	urn:cts:cwkb:590

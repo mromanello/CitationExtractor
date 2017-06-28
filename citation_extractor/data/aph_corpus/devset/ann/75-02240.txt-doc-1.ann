@@ -1,0 +1,6 @@
+T1	REFAUWORK 0 9	Herodotus
+T2	REFSCOPE 10 20	9, 108-122
+T3	AWORK 315 328	« Histories »
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0062.tlg056:9.108-9.122
+#1	AnnotatorNotes T3	urn:cts:latinLit:stoa0023.stoa001

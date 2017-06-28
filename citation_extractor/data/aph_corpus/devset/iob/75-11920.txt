@@ -1,0 +1,12 @@
+Résumé	VER:pper
+d'	PRP
+une	DET:ART
+conférence	NOM
+donnée	VER:pper
+à	PRP
+l'	DET:ART
+Institut	NOM
+suédois	ADJ
+de	PRP
+Rome	NAM
+

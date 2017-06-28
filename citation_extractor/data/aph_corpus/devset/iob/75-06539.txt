@@ -1,0 +1,26 @@
+Rassegna	NOM
+di	PRE
+alcuni	PRO:indef
+esempi	NOM
+del	PRE:det
+motivo	NOM
+della	PRE:det
+rapidità	NOM
+e	CON
+della	PRE:det
+lentezza	NOM
+nel	PRE:det
+comporre	VER:infi
+,	PON
+in	PRE
+ambito	NOM
+artistico	ADJ
+e	CON
+letterario	ADJ
+,	PON
+nella	PRE:det
+tradizione	NOM
+greca	ADJ
+e	CON
+latina	ADJ
+

@@ -1,0 +1,38 @@
+Résumé	VER:pper
+des	PRP:det
+activités	NOM
+de	PRP
+la	DET:ART
+mission	NOM
+de	PRP
+l'	DET:ART
+IFAO	NAM
+.	SENT
+
+À	PRP
+noter	VER:infi
+à	PRP
+Mouftella	NAM
+:	PUN
+un	DET:ART
+complexe	NOM
+cultuel	ADJ
+d'	PRP
+époque	NOM
+saïte	ADJ
+et	KON
+ses	DET:POS
+réoccupations	NOM
+de	PRP
+l'	DET:ART
+Antiquité	NOM
+tardive	ADJ
+.	SENT
+
+Pour	PRP
+la	DET:ART
+précédente	ADJ
+livraison	NOM
+=>	ADJ
+74-09528	NUM
+

@@ -1,0 +1,22 @@
+Der	ART
+zweite	ADJA
+Prolog	NN
+wurde	VAFIN
+möglicherweise	ADV
+von	APPR
+Plautus	NN
+selbst	ADV
+eingefügt	VVPP
+,	$,
+um	KOUI
+den	ART
+allgemein	ADJD
+als	KOKOM
+Schwachstelle	NN
+am	APPRART
+Beginn	NN
+empfundenen	ADJA
+Prolog	NN
+aufzulockern	VVIZU
+.	$.
+

@@ -1,0 +1,16 @@
+L'	DET:def
+analisi	NOM
+di	PRE
+alcune	PRO:indef
+sequenze	NOM
+metriche	ADJ
+rivela	VER:pres
+un	DET:indef
+ritmo	NOM
+basato	VER:pper
+sulla	PRE:det
+varietà	NOM
+e	CON
+sulla	PRE:det
+frammentarietà	NOM
+

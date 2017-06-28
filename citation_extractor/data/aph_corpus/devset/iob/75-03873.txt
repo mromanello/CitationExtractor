@@ -1,0 +1,19 @@
+Replica	NOM
+all'	PRE:det
+articolo	NOM
+di	PRE
+V.	NOM
+Di	NOM
+Benedetto	NOM
+(	PON
+=>	NOM
+74-04665	NUM
+)	PON
+,	PON
+con	PRE
+puntualizzazioni	NOM
+sulla	PRE:det
+lettura	NOM
+del	PRE:det
+papiro	NOM
+

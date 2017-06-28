@@ -1,0 +1,18 @@
+Resoconto	NOM
+della	PRE:det
+presentazione	NOM
+dei	PRE:det
+volumi	NOM
+della	PRE:det
+raccolta	NOM
+di	PRE
+scritti	ADJ
+schedati	NOM
+73-16923	NUM
+;	PON
+73-16924	NUM
+;	PON
+73-16925	NUM
+;	PON
+73-16926	NUM
+

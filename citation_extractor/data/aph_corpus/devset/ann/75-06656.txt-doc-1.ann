@@ -1,0 +1,4 @@
+T1	REFAUWORK 136 145	Geórgicas
+T2	REFSCOPE 146 152	4, 458
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi002:4.458

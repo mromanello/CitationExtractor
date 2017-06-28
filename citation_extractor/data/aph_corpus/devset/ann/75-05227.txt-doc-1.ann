@@ -1,0 +1,6 @@
+T1	AAUTHOR 236 242	Tacite
+T2	REFAUWORK 243 248	(Ann.
+T3	REFSCOPE 249 257	15.61.4)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:467.985:15.61.4
+#1	AnnotatorNotes T1	urn:cts:latinLit:phi1351

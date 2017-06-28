@@ -1,0 +1,24 @@
+Analyse	VER:pres
+littéraire	ADJ
+et	KON
+mythologique	ADJ
+de	PRP
+l'	DET:ART
+image	NOM
+des	PRP:det
+armes	NOM
+d'	PRP
+Achille	NAM
+,	PUN
+telle	PRO:DEM
+qu'	PRO:REL
+elle	PRO:PER
+se	PRO:PER
+dessine	VER:pres
+à	PRP
+travers	NOM
+les	DET:ART
+paroles	NOM
+du	PRP:det
+chœur	NOM
+

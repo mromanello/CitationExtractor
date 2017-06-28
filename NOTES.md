@@ -2,10 +2,7 @@ where I left: try to provide the module with minimum data and directory structur
 
 ## Tests
 
-* use `py.test` to run the tests
-* combine standlone and doctests, depending from the context
 * [testing good practices](http://pytest.org/latest/goodpractises.html)
-* <https://pytest.org/latest/getting-started.html>
 
 ## Distributing the package
 
@@ -13,7 +10,7 @@ where I left: try to provide the module with minimum data and directory structur
 
 ## Installation problems:
 
-to install SciPy on Ubuntu when needs:
+to install SciPy on Ubuntu one needs:
 
     sudo apt-get install gfortran libopenblas-dev liblapack-dev
 
@@ -27,79 +24,18 @@ then SciPy, then scikit-learn
 
     class= (scope_pos | scope_neg)
 
-def prepare_for_training(doc_id, basedir):
-    """
-    result = [
-        [
-            [
-                "arg1_entity":"AAUTHOR"
-                ,"arg2_entity":"REFSCOPE"
-                ,"concent":"AAUTHORREFSCOPE"
-            ]
-            ,'scope_pos'
-        ]
-        ,[
-            [
-                "arg1_entity":"REFSCOPE"
-                ,"arg2_entity":"AAUTHOR"
-                ,"concent":"REFSCOPEAAUTHOR"
-            ]
-            ,'scope_neg'
-        ]
-    ]
-    """
-    instances = []
-    entities, relations = read_ann_file(doc_id, basedir)
-    for arg1,arg2 in relations:
-        instance.append(extract_relation_features(arg1,arg2,entities,fulltext),'scope_pos')
-        instance.append(extract_relation_features(arg2,arg1,entities,fulltext),'scope_neg')
-    return instances
+## Notes to improve the Named Entity Disambiguation
 
-def extract_relation_features(arg1,arg2,entities,fulltext):
-    """
-    the following features should be extracted:
-        Arg1_entity:AAUTHOR
-        Arg2_entity:REFSCOPE
-        ConcEnt: AAUTHORREFSCOPE
-        WordsBtw:0
-        EntBtw:0 
-        Thuc.=True (bow_arg1)
-        1.8=True (bow_arg2)
-        word_before_arg1
-        word_after_arg1
-        word_before_arg2
-        word_after_arg2
-    """
-    pass
+### Code
 
-class relation_extractor:
-    __init__(self,classifier,train_dirs):
-        """
-        todo
-        """
-        training = [(file.replace(".ann",""),train_dir) for dir in train_dir 
-                        for file in glob.glob("%s*.ann"%dir)]
-        training_instances = [prepare_for_training(doc_id,base_dir) 
-                                        for doc_id,based_dir in doc_ids]
-        self.classifier.train(training_instances)
-    extract(self,entities,fulltext):
-        """
-        todo
-        """
-        relations = []
-        for candidate in itertools.combinations(entites,2):
-            arg1 = candidate[0]
-            arg2 = candidate[1]
-            feature_set = extract_relation_features(arg1,arg2,entities,fulltext)
-            label = self.classifier.classify(feature_set)
-            if(label=="scope_pos"):
-                relations.append((arg1,arg2,label))
-        return relations
+* improve the logging
+* test that the code can be parallelised
 
-* when detecting relations it is necessary to compare all pairs of entities
-* to find all unique pairs (combinations) in a list with python:
+### Logic
 
-    import itertools
-    my_list = [1,2,3,4]
-    for p in itertools.combinations(my_list,2):
-        print p
+* instead of disambiguating relations first and then entities
+* try to do that by following the sequence of the document
+* get all the annotations for a given document, ordered as they appear...
+* ... then proceed to disambiguate each annotation, using the annotation type to call appropriate function/method
+* this way, neighbouring entity mentions can be used to help with the disambiguation of relations
+

@@ -1,0 +1,32 @@
+Erstedition	NN
+von	APPR
+Inv	NE
+.	$.
+
+21376	CARD
+der	ART
+Kölner	ADJA
+Sammlung	NN
+,	$,
+welches	PRELS
+die	ART
+zweite	ADJA
+Kolumne	NN
+des	ART
+in	APPR
+=>	NN
+75-04776	CARD
+publizierten	ADJA
+Fragmentes	NN
+(	$(
+Inv	NE
+.	$.
+21351	CARD
+)	$(
+bis	APPR
+zum	APPRART
+unteren	ADJA
+Kolumnenrand	NN
+fortsetzt	VVFIN
+.	$.
+

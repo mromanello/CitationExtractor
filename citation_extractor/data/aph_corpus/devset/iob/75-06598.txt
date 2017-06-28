@@ -1,0 +1,24 @@
+Les	DET:ART
+auteurs	NOM
+épiques	ADJ
+proposent	VER:pres
+des	PRP:det
+explications	NOM
+légendaires	ADJ
+multiples	ADJ
+au	PRP:det
+phénomène	NOM
+volcanique	ADJ
+,	PUN
+mais	KON
+utilisent	VER:pres
+surtout	ADV
+le	DET:ART
+volcan	NOM
+comme	KON
+une	DET:ART
+allégorie	NOM
+morale	ADJ
+ou	KON
+politique	ADJ
+

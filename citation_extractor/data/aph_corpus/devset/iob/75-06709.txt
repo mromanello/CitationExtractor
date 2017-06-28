@@ -1,0 +1,16 @@
+Die	ART
+Untersuchung	NN
+von	APPR
+Verwendung	NN
+und	KON
+Variation	NN
+epischer	ADJA
+Formeln	NN
+durch	APPR
+Lyriker	NN
+zeigt	VVFIN
+ihre	PPOSAT
+Vertrautheit	NN
+damit	PAV
+.	$.
+

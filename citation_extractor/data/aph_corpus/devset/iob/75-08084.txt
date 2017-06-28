@@ -1,0 +1,9 @@
+Étude	NOM
+céramologique	ADJ
+du	PRP:det
+matériel	NOM
+découvert	VER:pper
+sur	PRP
+le	DET:ART
+site	NOM
+

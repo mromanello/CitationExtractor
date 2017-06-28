@@ -1,0 +1,4 @@
+T1	REFAUWORK 12 25	Libanios, Or.
+T2	REFSCOPE 26 34	11, 220.
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:1014.3444:11.220

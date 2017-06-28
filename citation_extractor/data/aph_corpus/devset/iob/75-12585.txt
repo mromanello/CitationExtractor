@@ -1,0 +1,35 @@
+Le	DET:ART
+hérisson	NOM
+est	VER:pres
+représenté	VER:pper
+sur	PRP
+3	NUM
+vases	NOM
+ou	KON
+tessons	NOM
+du	PRP:det
+début	NOM
+du	PRP:det
+12e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+La	DET:ART
+symbolique	NOM
+de	PRP
+l'	DET:ART
+animal	NOM
+fait	VER:pres
+l'	DET:ART
+'objet	NOM
+de	PRP
+l'	DET:ART
+étude	NOM
+notée	VER:pper
+75-11889	NUM
+

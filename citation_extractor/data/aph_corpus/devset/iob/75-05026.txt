@@ -1,0 +1,21 @@
+Sobre	PREP
+la	ART
+cuestión	NC
+de	PREP
+cómo	ADV
+conjugar	VLinf
+una	ART
+visión	NC
+contemporánea	ADJ
+con	PREP
+el	ART
+rescate	VLfin
+del	PDEL
+sentido	NC
+arcaico	NC
+de	PREP
+la	ART
+«	SYM
+Electra	ADJ
+»	SYM
+

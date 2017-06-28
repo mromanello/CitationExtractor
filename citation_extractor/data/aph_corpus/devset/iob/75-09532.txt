@@ -1,0 +1,26 @@
+Concerne	VER:pres
+il	DET:def
+periodo	NOM
+dal	PRE:det
+6°	NOM
+al	PRE:det
+1°	ADJ
+sec.	NOM
+a.	NOM
+C.	NPR
+,	PON
+in	PRE
+cui	PRO:rela
+questa	PRO:demo
+tipologia	NOM
+iconografica	ADJ
+risulta	VER:pres
+più	ADV
+frequente	ADJ
+negli	PRE:det
+stati	NOM
+monarchici	ADJ
+o	CON
+variamente	ADJ
+autocratici	ADJ
+

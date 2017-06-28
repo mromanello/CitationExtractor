@@ -1,0 +1,11 @@
+T1	REFAUWORK 138 143	Brief
+T2	REFSCOPE 144 148	4, 7
+T3	REFAUWORK 242 249	Briefen
+T4	REFSCOPE 250 254	8, 8
+T5	REFSCOPE 255 263	und 1, 6
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T3 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:1015:4.7
+#1	AnnotatorNotes R2	urn:cts:cwkb:951.3205:8.8
+#2	AnnotatorNotes R3	urn:cts:cwkb:951.3205:1.6

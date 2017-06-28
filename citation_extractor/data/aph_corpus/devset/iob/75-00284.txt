@@ -1,0 +1,39 @@
+Étude	NOM
+chronotopique	ADJ
+du	PRP:det
+livre	NOM
+11.	ADJ
+
+C'	PRO:DEM
+est	VER:pres
+le	DET:ART
+cycle	NOM
+du	PRP:det
+soleil	NOM
+qui	PRO:REL
+régit	VER:pres
+l'	DET:ART
+arrivée	NOM
+de	PRP
+Lucius	NAM
+à	PRP
+Rome	NAM
+,	PUN
+son	DET:POS
+séjour	NOM
+et	KON
+son	DET:POS
+initiation	NOM
+.	SENT
+
+On	PRO:PER
+peut	VER:pres
+y	PRO:PER
+voir	VER:infi
+une	DET:ART
+allusion	NOM
+à	PRP
+l'	DET:ART
+Horologium	NAM
+Augusti	NAM
+

@@ -1,0 +1,21 @@
+Elementi	NOM
+di	PRE
+critica	NOM
+interna	ADJ
+e	CON
+indizi	NOM
+esteriori	ADJ
+consentono	VER:pres
+di	PRE
+sostenere	VER:infi
+che	PRO:rela
+l'	DET:def
+omelia	NOM
+fu	VER:remo
+pronunciata	VER:pper
+il	DET:def
+29	NUM
+dicembre	NOM
+del	PRE:det
+390	NUM
+

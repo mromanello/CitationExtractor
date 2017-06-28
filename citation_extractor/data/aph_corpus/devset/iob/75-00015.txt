@@ -1,0 +1,25 @@
+Analisi	NOM
+della	PRE:det
+fortuna	NOM
+del	PRE:det
+«	PON
+Dyskolos	NOM
+»	PON
+menandreo	VER:geru
+in	PRE
+Eliano	NOM
+,	PON
+epist.	NOM
+13-16	NUM
+,	PON
+e	CON
+in	PRE
+vari	ADJ
+passi	NOM
+del	PRE:det
+«	PON
+Misopogon	NOM
+»	PON
+di	PRE
+Giuliano	NOM
+

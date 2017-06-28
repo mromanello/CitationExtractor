@@ -1,0 +1,27 @@
+T1	AAUTHOR 38 47	Pausanias
+T2	REFSCOPE 48 59	(1, 14, 3 ;
+T3	REFSCOPE 60 70	1, 22, 7 ;
+T4	REFSCOPE 71 81	1, 25, 8 ;
+T5	REFSCOPE 82 91	4, 1, 5 ;
+T6	REFSCOPE 92 104	10, 5, 6-8 ;
+T7	REFSCOPE 105 115	10, 7, 2 ;
+T8	REFSCOPE 116 127	10, 9, 11).
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+R4	Scope Arg1:T1 Arg2:T5
+R5	Scope Arg1:T1 Arg2:T6
+R6	Scope Arg1:T1 Arg2:T7
+R7	Scope Arg1:T1 Arg2:T8
+#0	AnnotatorNotes R4	urn:cts:greekLit:tlg0525.tlg001:4.1.5
+#1	AnnotatorNotes R5	urn:cts:greekLit:tlg0525.tlg001:10.5.6-10.5.8
+#2	AnnotatorNotes R6	urn:cts:greekLit:tlg0525.tlg001:10.7.2
+#3	AnnotatorNotes R7	urn:cts:greekLit:tlg0525.tlg001:10.9.11
+#4	AnnotatorNotes R1	urn:cts:greekLit:tlg0525.tlg001:1.14.3
+#5	AnnotatorNotes R2	urn:cts:greekLit:tlg0525.tlg001:1.22.7
+#6	AnnotatorNotes R3	urn:cts:greekLit:tlg0525.tlg001:1.25.8
+#7	AnnotatorNotes T1	urn:cts:greekLit:tlg0525
+T9	AAUTHOR 128 133	Musée
+T10	AAUTHOR 384 389	Musée
+#8	AnnotatorNotes T9	urn:cts:cwkb:2573
+#9	AnnotatorNotes T10	urn:cts:cwkb:2573

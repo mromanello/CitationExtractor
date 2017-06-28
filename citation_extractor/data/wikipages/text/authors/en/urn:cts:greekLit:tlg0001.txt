@@ -1,0 +1,240 @@
+Apollonius of Rhodes - Wikipedia
+Apollonius of Rhodes
+From Wikipedia, the free encyclopedia
+Jump to:					navigation, 					search
+"Apollonius of Naucratis" redirects here. For the Athenian rhetorician with that name, see Apollonius of Athens.
+Apollonius Rhodius
+Born
+Early 3rd century BCE
+Alexandria or Naucratis
+Died
+Late 3rd century BCE
+Rhodes (or Alexandria)
+Occupation
+Epic poet, librarian, scholar
+Apollonius of Rhodes (Ancient Greek: Ἀπολλώνιος Ῥόδιος Apollṓnios Rhódios; Latin: Apollonius Rhodius; fl. first half of 3rd century BCE), is best known as the author of the Argonautica, an epic poem about Jason and the Argonauts and their quest for the Golden Fleece. The poem is one of the few extant examples of the epic genre and it was both innovative and influential, providing Ptolemaic Egypt with a "cultural mnemonic" or national "archive of images",[1] and offering the Latin poets Virgil and Gaius Valerius Flaccus a model for their own epics. His other poems, which survive only in small fragments, concerned the beginnings or foundations of cities, such as Alexandria and Cnidus – places of interest to the Ptolemies, whom he served as a scholar and librarian at the Library of Alexandria. A literary dispute with Callimachus, another Alexandrian librarian/poet, is a topic much discussed by modern scholars since it is thought to give some insight into their poetry, although there is very little evidence that there ever was such a dispute between the two men. In fact almost nothing at all is known about Apollonius and even his connection with Rhodes is a matter for speculation.[2] Once considered a mere imitator of Homer, and therefore a failure as a poet, his reputation has been enhanced by recent studies, with an emphasis on the special characteristics of Hellenistic poets as scholarly heirs of a long literary tradition writing at a unique time in history.[3]
+Contents
+1 Life
+1.1 Sources
+1.2 Main events
+1.3 Sensational stories
+1.4 Homeric scholar
+2 His poetry
+2.1 Poems
+2.1.1 Argonautica
+2.1.2 Foundation-poems
+2.1.3 Others
+2.2 Poetic style
+3 Notes
+4 Citations
+5 References
+6 Further reading
+7 External links
+Life[edit]
+Sources[edit]
+The most reliable information we have about ancient poets is largely drawn from their own works. Unfortunately, Apollonius of Rhodes reveals nothing about himself.[4] Most of the biographical material comes from four sources: two are texts entitled Life of Apollonius found in the scholia on his work (Vitae A and B); a third is an entry in the 10th-century encyclopaedia the Suda; and fourthly a 2nd-century BCE papyrus, P.Oxy. 1241, which provides names of several heads of the Library of Alexandria. Other scraps can be gleaned from miscellaneous texts. The reports from all the above sources however are scanty and often self-contradictory.
+Main events[edit]
+Birth. The two Lives and the Suda name Apollonius' father as Silleus or Illeus, but both names are very rare (hapax legomenon) and may derive from σίλλος or "lampoon", suggesting a comic source (ancient biographers often accepted or misconstrued the testimony of comic poets).[5] The second Life names his mother as "Rhode", but this is unlikely; Rhodē means "Rhodian woman", and is almost certainly derived from an attempt to explain Apollonius' epithet "Rhodian". The Lives, the Suda, and the geographical writer Strabo say that he came from Alexandria;[6] Athenaeus and Aelian say that he came from Naucratis, some 70 km south of Alexandria along the river Nile.[7] No source gives the date of his birth.
+Association with Callimachus. The Lives and the Suda agree that Apollonius was a student of the poet and scholar Callimachus. Vita B states that Callimachus was his instructor in rhetoric (γραμματικός), but the terminology is anachronistic. Moreover, in ancient biographies "pupil" and "student" are figures of speech designating the influence one poet may have exercised over another.[8] Their poetic works do in fact indicate a close relationship, if only as authors, with similarities in theme and composition, style and phrasing, but it is not easy to work out who was responding to whom, especially since 'publication' was a gradual process in those days, with shared readings of drafts and circulation of private copies: "In these circumstances interrelationships between writers who habitually cross-refer and allude to one another are likely to be complex."[9]
+A coin showing Ptolemy III Euergetes, who may have been a pupil of Apollonius
+Head of the Library of Alexandria. The second Life, the Suda, and P.Oxy. 1241 attest that Apollonius held this post. Moreover P.Oxy. 1241 indicates that Apollonius was succeeded in the position by Eratosthenes; this must have been after 247/246 BCE, the date of the accession of Ptolemy III Euergetes, who was probably tutored by Apollonius[10] and who appointed Eratosthenes. Unfortunately, the chronology of P.Oxy. 1241 bears some signs of confusion since it lists Apollonius under Ptolemy I Soter (died 283 BCE), or Ptolemy V Epiphanes (born 210 BCE). The Suda says that Apollonius succeeded Eratosthenes, but this doesn't fit the evidence either.[11] There was another Alexandrian librarian named Apollonius ("The Eidographer", succeeding Aristophanes of Byzantium as library head) and this may have caused some of the confusion.[12]
+Association with Rhodes. The epithet Rhodios or Rhodian indicates that Apollonius had some kind of association with the island of that name. The Lives and the Suda attest to his move there from Alexandria. They differ about whether he died in Rhodes or came back to Alexandria to take up the position of head of the Library. According to Vita A, he was a famous teacher in Rhodes, but it may have confused him with yet another Apollonius (Apollonius the Effeminate) who taught rhetoric there. In fact the epithet "of Rhodes" need not indicate any physical association with the island. It might simply reflect the fact that he once wrote a poem about Rhodes.[13] According to Athenaeus, he was also called the "Naucratite". Some modern scholars doubt that he was ever given that title but, if he was, it may be because he composed a poem about the foundation of Naucratis.[14]
+Death. Only the two Lives give information about Apollonius' death, and they disagree. The first reports that he died in Rhodes; the second reports that he died after returning to Alexandria and adds that "some say" he was buried with Callimachus.
+Sensational stories[edit]
+Ancient biographies often represent famous poets as going into exile to escape their ungrateful fellow citizens. Thus for example Homer was said to have left Cyme because the government there would not support him at public expense (Vit. Herod. 13-14), Aeschylus left Athens for Sicily because Athenians valued him less than some other poets (Vit. Aesch.), while Euripides fled to Macedonia because of humiliation by comic poets (Vit. Eur.). Similarly Vitae A and B tell us that Apollonius moved to Rhodes because his work was not well received in Alexandria. According to B, he redrafted the Argonautica in such fine style at Rhodes that he was able to return to Alexandria in triumph, where he was rewarded with a post in the library and finally a place in the cemetery next to Callimachus. These stories were probably invented to account for the existence of a second edition of Argonautica, indicated by variant readings in ancient manuscripts.[15]
+Until recently modern scholarship has made much of a feud between Callimachus and Apollonius. The evidence partly rests on an elegiac epigram in the Palatine Anthology, attributed to "Apollonius the grammarian". It blames Callimachus for some unstated offense and mocks both him and his most famous poem, the Aetia ("Causes"):[16]
+Καλλίμαχος, τὸ κάθαρμα, τὸ παίγνιον, ὁ ξυλινὸς νοῦς,
+αἴτιος, ὁ γράψας Αἴτια Καλλίμαχος.[17]
+ 
+Callimachus, that discard, that plaything, that mahogany noggin,
+Himself a cause, who composed The Causes, Callimachus.
+Ancient sources describe Callimachus's poem Ibis — which does not survive — as a polemic and some of them identified Apollonius as the target.[nb 1] These references conjure up images of a sensational literary feud between the two figures. Such a feud is consistent with what we know of Callimachus's taste for scholarly controversy and it might even explain why Apollonius departed for Rhodes. Thus there arises "a romantic vision of scholarly warfare in which Apollonius was finally driven out of Alexandria by a triumphant Callimachus".[18] However, both of the Lives of Apollonius stress the friendship between the poets, the second Life even saying they were buried together; moreover Callimachus's poem Ibis is known to have been deliberately obscure and some modern scholars believe the target was never meant to be identified.[19] There is still not a consensus about the feud, but most scholars of Hellenistic literature now believe it has been enormously sensationalised, if it happened at all.[nb 2]
+Homeric scholar[edit]
+Apollonius was among the foremost Homeric scholars in the Alexandrian period. He wrote the period's first scholarly monograph on Homer, critical of the editions of the Iliad and Odyssey published by Zenodotus, his predecessor as head of the Library of Alexandria. Argonautica seems to have been written partly as an experimental means of communicating his own researches into Homer's poetry. It has even been called "a kind of poetic dictionary of Homer", without at all detracting from its merits as poetry.[20] He has been credited with scholarly prose works on Archilochus and on problems in Hesiod.[21] He is also considered to be one of the period's most important authors on geography, though approaching the subject differently from Eratosthenes, his successor at the library and a radical critic of Homer's geography. It was a time when the accumulation of scientific knowledge was enabling advances in geographical studies, as represented by the activities of Timosthenes, a Ptolemaic admiral and a prolific author. Apollonius set out to integrate new understandings of the physical world with the mythical geography of tradition and his Argonautica was, in that sense, a didactic epic on geography, again without detracting from its merits as poetry.[22]
+His poetry[edit]
+Poems[edit]
+Argonautica[edit]
+Main article: Argonautica
+The Argonautica differs in some respects from traditional or Homeric Greek epic, though Apollonius certainly used Homer as a model. The Argonautica is shorter than Homer’s epics, with four books totaling less than 6000 lines, while the Iliad runs to more than 16,000. Apollonius may have been influenced here by Callimachus’ brevity, or by Aristotle’s demand for "poems on a smaller scale than the old epics, and answering in length to the group of tragedies presented at a single sitting" (the Poetics).
+Apollonius' epic also differs from the more traditional epic in its weaker, more human protagonist Jason and in its many discursions into local custom, aetiology, and other popular subjects of Hellenistic poetry. Apollonius also chooses the less shocking versions of some myths, having Medea, for example, merely watch the murder of Apsyrtus instead of murdering him herself. The gods are relatively distant and inactive throughout much of the epic, following the Hellenistic trend to allegorise and rationalise religion. Heterosexual loves such as Jason's are more emphasized than homosexual loves such as that of Heracles and Hylas, another trend in Hellenistic literature. Many critics regard the love of Medea and Jason in the third book as the best written and most memorable episode.
+Opinions on the poem have changed over time. Some critics in antiquity considered it mediocre.[23] Recent criticism has seen a renaissance of interest in the poem and an awareness of its qualities: numerous scholarly studies are published regularly, its influence on later poets like Virgil is now well recognised, and any account of the history of epic poetry now routinely includes substantial attention to Apollonius.
+Foundation-poems[edit]
+A handful of fragments are all that survive of his other work, mostly ktiseis (κτίσεις) or 'foundation-poems', apparently dealing with the mythical origins of cities, a theme that Apollonius also touches on in Argonautica (as for example in the foundation of Cius, 1.1321-23). The fragments have been given considerable attention recently, with speculation about their authenticity, about the subject matter and treatment of the original poems, their geo-political significance for Ptolemaic Egypt, and how they relate to Argonautika.[24]
+The Founding of Alexandria: all that survives is the title and a scholar's marginal note, written in a manuscript of a different author (Nicander), attributing to this Apollonius poem the statement that all biting creatures originated from the blood of the Gorgon.
+The Founding of Caunus: two comments in Parthenius's Love Stories are the only testament to this poem but they seem to give conflicting accounts. According to one, it deals with the story of Lyrcus; according to the other, it deals with the story of Byblis. This might indicate a loose, episodic structure, rather than a unified narrative. It might then be inferred that this kind of treatment was typical of his other foundation poems as well[25] (the question of unity is one of the main issues even in Argonautica, which is sometimes termed an "episodic epic").[26] Five hexameter verses attributed to Apollonius may be a fragment of this poem but they seem unrelated to the stories of Lyrcus and Byblis and some scholars think they come from the next poem.
+The Founding of Cnidus: Stephanus of Byzantium wrote the following entry for Ψυκτήριος (Cooling) – "a place in Thrace, taking its name from Heracles, who cooled off his sweat when he threw Adramyles in wrestling, as Apollonius says in his Founding of Cnidus."[27] That's all we know of the poem, unless the five hexameter lines belong here, and those describe sea routes also dealt with in Argonautica.
+The Founding of Naucratis: Athenaeus quotes six and bit hexameters and provides a commentary, concerning Apollo's abduction of Ocyrhoe and the punishment of a fisherman, Pompilus, who tried to protect her and was turned into a fish of the same name. According to the commentary, the Pompilus fish was a topic of great interest to poets and scholars, including Callimachus and Theocritus. It may be inferred that Apollonius developed a melodramatic story of passion from the etymology ("pompilus" denotes an "escort fish"). It is not known how this episode might have fitted into a poem on the origins of Naucratis. Possibly a broad-based account of its foundation owed something to Herodotus.[28]
+The Founding of Rhodes: all that we have is one and a bit hexameters, quoted by Stephanus of Byzantium to demonstrate a lexicographical point, and the testimony of a scholium to Pindar's Victory Ode 7.48, citing Apollonius as the source for a myth explaining the Rhodian practice of sacrificing without fire – they hated the fire-god Hephaestus because he once tried to rape Athena.[29]
+The Founding of Lesbos: twentyone hexameters were quoted by Parthenius under the title Lesbou ktisis. The author's name was not given but modern scholars attribute the verses to Apollonius since it has some clear affinities with the Jason/Medea story. It deals with the Lesbian princess, Peisidice, who betrayed her countrymen and her parents by opening the city gates to the man she loved, Achilles. Her reward was not the marriage she had anticipated but rather death by stoning at the hands of the Argives. It can be argued that Peisidice's viewpoint dominates the poem and that, as with Argonautica, epic material has been used unconventionally as a window into the female psyche.[30]
+Others[edit]
+Canobus: three choliambic verses were quoted by Stephanus Byzantius from a poem of this title, and a scholium to Nicander's Theriaca refers to it in a discussion on snake bites. It isn't known if the poem was about Canobus (sometimes called Canopus), the helmsman of Menelaus, buried in Egypt, or about the foundation of the city bearing his name. The choliambic meter distinguishes it from the above foundation poems, which are all in dactylic hexameters.[31]
+Callimachus epigram: The epigram, quoted in the biography section, was preserved in the Palatine Anthology, where it was attributed to 'Apollonius the Grammarian'. This might not have been Apollonius of Rhodes.[32]
+Poetic style[edit]
+Apollonius's poetic skills and technique have only recently come to be appreciated, with critical recognition of his successful fusing of poetry and scholarship.[33]
+Notes[edit]
+^ E.g. the Suda entry on Callimachus, Suda 227 s.v. Καλλίμαχος.
+^ For different views of the feud see for example M. Lefkowitz 2011 Myth and History in the Biography of Apollonius" in A Companion to Apollonius Rhodius (Brill, 51-71); P. Green, 1997, The Argonautika (Berkely, 1-3); D.P. Nelis 1999 review of Green's book, in Journal of Hellenic Studies 119: 187. For a summary of contrasting views, see e.g. A. Cameron 1995, Callimachus and his Critics (Princeton, 214-228);
+Citations[edit]
+^ S. Stephens, Ptolemaic Epic, 96-8
+^ W. Race, Apollonius Rhodius: Argonautica, ix-x
+^ T. Papanghelis and A. Rengakos, Editors' Introduction, xi-xii
+^ M. Lefkowitz, Myth and History in the Biography of Apollonius, 52
+^ M. Lefkowitz, Myth and History in the Biography of Apollonius, 57
+^ Strabo 14.2.13.
+^ Athenaeus Deipnosophistae 7.19; Aelian On the nature of animals 15.23.
+^ M. Lefkowitz, Myth and History in the Biography of Apollonius, 56-7
+^ A.W. Bulloch, Hellenistic Poetry, 587
+^ A. Bulloch, Hellenistic Poetry, 586
+^ M. Lefkowitz, Myth and History in the Biography of Apollonius, 57
+^ A.W. Bulloch, Hellenistic Poetry, 586
+^ M. Lefkowitz, Myth and History in the Biography of Apollonius, 58, 61
+^ E. Sistakou, In Search of Apollonius' 'Ktisis' Poems, 314
+^ M. Lefkowitz, Myth and History in the Biography of Apollonius, 59-61
+^ Pal. Anth. 11.322.
+^ Palatine Anthology 11.275, cited by W. Race, Apollonius Rhodius: Argonautica, 484
+^ R. Hunter, Apollonius of Rhodes, Argonautica, Book III, 6
+^ A. Cameron, Callimachus and his Critics, 228
+^ A. Rengakos, Apollonius Rhodius as a Homeric Scholar, 244, 265
+^ W. Race, Apollonius Rhodius: Argonautica, xi
+^ D. Meyer, Apollonius as a Hellenistic Geographer, 273–74, 277, 283
+^ Pseudo-Longinus On the sublime 33.4; Quintilian Institutio oratoria 10.1.54.
+^ E. Sistakou, In Search of Apollonius' 'Ktisis' Poems, 312-13
+^ E. Sistakou, In Search of Apollonius' 'Ktisis' Poems, 327-28
+^ R. Glei, Outlines of Apollinian Scholarship 1955-1999, 15
+^ Stephanus's entry is quoted from the translation in W. Race, Apollonius Rhodius: Argonautica, 477
+^ E. Sistakou, In Search of Apollonius' 'Ktisis' Poems, 323
+^ W. H. Race, Apollonius Rhodius: Argonautica, 480-81
+^ E. Sistakou, In Search of Apollonius' 'Ktisis' Poems, 336
+^ E. Sistakou, In Search of Apollonius' 'Ktisis' Poems, 313
+^ W. H. Race, Apollonius Rhodius, 473
+^ A. Rengakos, Apollonius Rhodius as a Homeric Scholar, 265
+References[edit]
+Bulloch, A.W. (1985), "Hellenistic Poetry", in P. Easterling and B. Knox, The Cambridge History of Classical Literature: Greek Literature, Cambridge University Press  CS1 maint: Uses editors parameter (link)
+Cameron, A (1995), Callimachus and His Critics, Princeton 
+Green, P. (1997), The Argonautika, Berkeley 
+Hunter, R. L. (1989), Apollonius of Rhodes, Argonautika, Book III, Cambridge University Press 
+Lefkowitz, Mary R. (2011), "Myth and History in the Biography of Apollonius", in T. Papaghelis and A. Rengakos, Brill's Companion to Apollonius Rhodius; Second, Revised Edition, Brill  CS1 maint: Uses editors parameter (link)
+Meyer, Doris (2011), "Apollonius as Hellenistic Geographer", in T. Papaghelis and A. Rengakos, Brill's Companion to Apollonius Rhodius; Second, Revised Edition, Brill  CS1 maint: Uses editors parameter (link)
+Papanghelis T.D. and Rengakos A. (2011), "Editors' Introduction", in T. Papaghelis and A. Rengakos, Brill's Companion to Apollonius Rhodius; Second, Revised Edition, Brill  CS1 maint: Uses authors parameter (link) CS1 maint: Uses editors parameter (link)
+Race, William R. (2008), Apollonius Rhodius: Argonautica, Loeb Classical Library 
+Rengakos, Antonios (2011), "Apollonius Rhodius as a Homeric Scholar", in T. Papaghelis and A. Rengakos, Brill's Companion to Apollonius Rhodius; Second, Revised Edition, Brill  CS1 maint: Uses editors parameter (link)
+Sistakou, Evina (2011), "In Search of Apollonius' Ktisis Poems", in T. Papaghelis and A. Rengakos, Brill's Companion to Apollonius Rhodius; Second, Revised Edition, Brill  CS1 maint: Uses editors parameter (link)
+Stephens, Susan (2011), "Ptolemaic Epic", in T. Papaghelis and A. Rengakos, Brill's Companion to Apollonius Rhodius; Second, Revised Edition, Brill  CS1 maint: Uses editors parameter (link)
+Further reading[edit]
+Beye, C.R., Ancient Epic Poetry: Homer, Apollonius, Virgil, 2nd ed. (Ithaca, 1993) ISBN 0-86516-607-2
+Clare, R.J. The Path of the Argo: Language, Imagery and Narrative in the Argonautica of Apollonius Rhodius (Cambridge, 2002) ISBN 0-521-81036-1
+Harder, M.A., and M. Cuypers (edd.) Beginning from Apollo: Studies in Apollonius Rhodius and the Argonautic Tradition (Leuven, 2005) ISBN 90-429-1629-X
+Hunter, R.L. The Argonautica of Apollonius: Literary Studies (Cambridge, 1993) ISBN 0-521-41372-9
+Knight, Virginia H., The Renewal of Epic: Responses to Homer in the Argonautica of Apollonius (Leiden: Brill, 1995). ISBN 90-04-10386-4
+Mori, Anatole, The Politics of Apollonius Rhodius' Argonautica (Cambridge; New York: Cambridge University Press, 2008).
+Nelis, D.P. 2001, Vergil's Aeneid and the Argonautica of Apollonius Rhodius (Leeds)
+Papanghelis, Theodore D. and Antonios Rengakos (edd.), Brill's companion to Apollonius Rhodius. 2nd rev. ed. (Leiden; Boston: Brill, 2008).
+External links[edit]
+Wikiquote has quotations related to: Apollonius of Rhodes
+Wikisource has original works written by or about:
+Apollonius of Rhodes
+Works by Rhodius Apollonius at Project Gutenberg
+Works by or about Rhodius Apollonius at Internet Archive
+Works by Apollonius of Rhodes at LibriVox (public domain audiobooks)
+A Hellenistic Bibliography, with exhaustive bibliographies on Apollonius: 1496-2005, 1496-2005 excluding reviews, 2001-2005, editions etc.
+Life of Apollonius, from the scholia at attalus.org
+P.Oxy. 1241 at attalus.org
+Authority control
+WorldCat Identities
+VIAF: 262974255
+LCCN: n80008541
+ISNI: 0000 0003 8210 8287
+GND: 118503677
+SELIBR: 174778
+SUDOC: 026688697
+BNF: cb118889807 (data)
+NDL: 00431621
+NKC: jn19981000127
+ICCU: IT\ICCU\CFIV\051236
+BNE: XX987060
+Preceded by
+Zenodotus
+Head of the Library of Alexandria
+Succeeded by
+Eratosthenes
+v
+t
+e
+Jason and the Argonauts
+Characters
+Aeson (father)
+Argonauts
+Medea (spouse)
+Argus
+Aeëtes (father-in-law)
+Pelias (uncle)
+Phineus (oracle)
+Cheiron (trainer)
+Ancient sources
+Medea by Euripides
+Argonautica by Apollonius of Rhodes
+Argonautica (Latin) by Gaius Valerius Flaccus
+Argonautica Orphica
+Film/TV
+Jason and the Argonauts (1963 film)
+Medea
+Jason and the Argonauts (2000 miniseries)
+Atlantis (2013)
+Opera
+Giasone (1649)
+La toison d'or (1789)
+Settings
+Iolcus
+Anaurus (river)
+Thrace
+Clashing Rocks
+Colchis
+Other
+The Golden Fleecing (comic book story)
+Jason et Médée (ballet)
+Jason and Medea (painting)
+Rise of the Argonauts (video game)
+Argo
+Golden Fleece
+Related
+The Golden Fleece and the Heroes Who Lived Before Achilles
+Jason in popular culture
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Apollonius_of_Rhodes&oldid=761420835"
+Categories: Ancient Greek poetsLibrarians of AlexandriaHellenistic Egyptians3rd-century BC birthsAncient Greek epic poets3rd-century BC poetsHellenistic poetsTextual scholarshipHidden categories: Articles containing Ancient Greek-language textArticles with hCardsArticles containing Latin-language textCS1 maint: Uses editors parameterCS1 maint: Uses authors parameterArticles with Project Gutenberg linksArticles with Internet Archive linksArticles with LibriVox linksWikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with SELIBR identifiersWikipedia articles with BNF identifiersWikipedia articles with SBN identifiersYear of death missingPages using ISBN magic links
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+Article
+Talk
+Variants
+Views
+Read
+Edit
+View history
+More
+Search
+Navigation
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+Interaction
+HelpAbout WikipediaCommunity portalRecent changesContact page
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page
+Print/export
+Create a bookDownload as PDFPrintable version
+In other projects
+WikiquoteWikisource
+Languages
+العربيةБеларускаяБългарскиBrezhonegCatalàČeštinaDanskDeutschEestiΕλληνικάEspañolEsperantoEstremeñuEuskaraFrançaisFryskGalego한국어ՀայերենBahasa IndonesiaÍslenskaItalianoעבריתქართულიLatinaLatviešuمصرىNederlands日本語Norsk bokmålPolskiPortuguêsRomânăРусскийSimple EnglishSrpskohrvatski / српскохрватскиSuomiSvenskaТоҷикӣTürkçeУкраїнська中文
+Edit links
+This page was last modified on 22 January 2017, at 22:22.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view

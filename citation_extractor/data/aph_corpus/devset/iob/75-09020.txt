@@ -1,0 +1,50 @@
+216	ADJA
+,	$,
+Weitere	ADJA
+neue	ADJA
+und	KON
+seltene	ADJA
+Cognomina	NN
+.	$.
+
+217	ADJA
+,	$,
+Falsche	ADJA
+Namen	NN
+.	$.
+
+218	ADJA
+,	$,
+Verkannte	ADJA
+Namen	NN
+.	$.
+
+219	CARD
+,	$,
+Egorasmenus	NN
+und	KON
+Verwandtes	NN
+.	$.
+
+220	CARD
+,	$,
+Reatina	NN
+.	$.
+
+221	CARD
+,	$,
+Sinopensia	NN
+.	$.
+
+222	CARD
+,	$,
+Randbemerkungen	NN
+zu	APPR
+IK	NE
+62.	ADJA
+
+Zu	APPR
+207-215	CARD
+=>	NN
+74-10819	CARD
+

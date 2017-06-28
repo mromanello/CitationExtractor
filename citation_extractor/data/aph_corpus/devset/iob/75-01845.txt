@@ -1,0 +1,16 @@
+Se	CON
+il	DET:def
+frammento	NOM
+appartiene	VER:pres
+al	PRE:det
+prologo	NOM
+,	PON
+la	DET:def
+persona	NOM
+loquens	NOM
+potrebbe	VER:cond
+essere	VER:infi
+Eris	NOM
+o	CON
+Nemesis	NOM
+

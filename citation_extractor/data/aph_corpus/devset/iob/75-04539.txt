@@ -1,0 +1,7 @@
+Sur	PRP
+les	DET:ART
+différentes	ADJ
+acceptions	NOM
+du	PRP:det
+terme	NOM
+

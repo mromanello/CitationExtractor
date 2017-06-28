@@ -1,0 +1,12 @@
+T1	AWORK 49 74	« De vita contemplativa »
+T2	REFAUWORK 183 190	Genesis
+T3	REFSCOPE 191 192	1
+T4	REFSCOPE 193 200	und 2 ;
+T5	REFSCOPE 546 555	15, 44-49
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+R3	Scope Arg1:T2 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:470:1
+#1	AnnotatorNotes R2	urn:cts:cwkb:470:2
+#2	AnnotatorNotes R3	urn:cts:cwkb:470:15.44-15.49
+#3	AnnotatorNotes T1	urn:cts:cwkb:1042.3556

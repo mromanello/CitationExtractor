@@ -1,0 +1,37 @@
+État	NOM
+des	PRP:det
+recherches	NOM
+,	PUN
+synthèse	NOM
+des	PRP:det
+résultats	NOM
+fournis	VER:pper
+par	PRP
+les	DET:ART
+fouilles	NOM
+récentes	ADJ
+,	PUN
+grandes	ADJ
+phases	NOM
+de	PRP
+l'	DET:ART
+édification	NOM
+de	PRP
+l'	DET:ART
+enceinte	NOM
+dès	PRP
+le	DET:ART
+6e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+proposition	NOM
+d'	PRP
+approches	NOM
+nouvelles	ADJ
+

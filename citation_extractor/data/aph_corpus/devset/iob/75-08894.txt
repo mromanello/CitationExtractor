@@ -1,0 +1,21 @@
+Esquisse	NOM
+,	PUN
+notamment	ADV
+à	PRP
+partir	VER:infi
+des	PRP:det
+données	NOM
+archéologiques	ADJ
+,	PUN
+de	PRP
+l'	DET:ART
+histoire	NOM
+de	PRP
+la	DET:ART
+colonisation	NOM
+de	PRP
+Chypre	NAM
+par	PRP
+les	DET:ART
+Grecs	NAM
+

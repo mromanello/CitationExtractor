@@ -1,0 +1,10 @@
+T1	REFAUWORK 106 113	(Herod.
+T2	REFSCOPE 114 122	4, 5-7 ;
+T3	REFAUWORK 123 133	Val. Flac.
+T4	REFSCOPE 134 144	6, 48-59).
+T5	AAUTHOR 280 289	d' Alcman
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0016.tlg001:4.5-4.7
+#1	AnnotatorNotes R2	urn:cts:cwkb:664.1367:6.48-6.59
+#2	AnnotatorNotes T5	urn:cts:cwkb:3116

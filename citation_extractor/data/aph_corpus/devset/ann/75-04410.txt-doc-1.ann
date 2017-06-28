@@ -1,0 +1,3 @@
+T1	AWORK 48 74	l' « Histoire naturelle »,
+T2	REFSCOPE 88 96	livre 2,
+R1	Scope Arg1:T1 Arg2:T2

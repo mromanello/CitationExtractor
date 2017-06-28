@@ -1,0 +1,15 @@
+Sulle	PRE:det
+caratteristiche	NOM
+tipologiche	ADJ
+e	CON
+il	DET:def
+contesto	NOM
+storico	ADJ
+e	CON
+ideologico	ADJ
+delle	PRE:det
+gemme	NOM
+di	PRE
+tradizione	NOM
+astrologica	ADJ
+

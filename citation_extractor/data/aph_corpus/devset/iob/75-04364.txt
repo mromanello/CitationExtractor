@@ -1,0 +1,21 @@
+Dans	PRP
+les	DET:ART
+«	PUN:cit
+Lettres	NOM
+»	PUN:cit
+de	PRP
+Pline	NAM
+et	KON
+sur	PRP
+la	DET:ART
+mosaïque	NOM
+carthaginoise	ADJ
+dite	VER:pper
+du	PRP:det
+Seigneur	NAM
+Julius	NAM
+(	PUN
+4e	NUM
+s.	ABR
+)	PUN
+

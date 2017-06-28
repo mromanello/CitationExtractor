@@ -1,0 +1,27 @@
+Rilettura	NOM
+di	PRE
+alcuni	PRO:indef
+passi	NOM
+della	PRE:det
+«	PON
+Phaedra	NOM
+»	PON
+senecana	NOM
+,	PON
+esemplificativi	ADJ
+delle	PRE:det
+varie	ADJ
+modalità	NOM
+attraverso	PRE
+cui	PRO:rela
+un	DET:indef
+linguaggio	NOM
+polisemico	ADJ
+può	VER:pres
+ampliare	VER:infi
+e	CON
+raddoppiare	VER:infi
+la	DET:def
+scena	NOM
+tragica	ADJ
+

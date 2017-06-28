@@ -1,0 +1,29 @@
+T1	AAUTHOR 32 39	Juvenal
+T2	AAUTHOR 44 50	Julian
+T3	AAUTHOR 87 93	Petron
+T4	AAUTHOR 131 137	Sueton
+T5	AAUTHOR 182 200	Calpurnius Siculus
+T7	REFSCOPE 201 212	(4.137ff.),
+T8	AAUTHOR 213 233	Sidonius Apollinaris
+T10	REFAUWORK 234 240	(Carm.
+T11	REFSCOPE 241 242	5
+T12	REFSCOPE 243 249	und 7)
+T13	AAUTHOR 254 262	Ausonius
+T14	REFAUWORK 263 270	(Epist.
+T15	REFSCOPE 271 274	17)
+T16	AWORK 296 315	« Apocolocyntosis »
+#0	AnnotatorNotes T4	urn:cts:cwkb:638
+#1	AnnotatorNotes T5	urn:cts:cwkb:415
+#3	AnnotatorNotes T3	urn:cts:latinLit:phi0972
+#4	AnnotatorNotes T1	urn:cts:cwkb:508
+#5	AnnotatorNotes T16	urn:cts:latinLit:phi1017.phi011
+#6	AnnotatorNotes T13	urn:cts:cwkb:2468
+R1	Scope Arg1:T5 Arg2:T7	
+#2	AnnotatorNotes R1	urn:cts:cwkb:415.829:4.137++
+#7	AnnotatorNotes T8	urn:cts:cwkb:1331
+R2	Scope Arg1:T10 Arg2:T11	
+#8	AnnotatorNotes R2	urn:cts:cwkb:1331.4356:5
+R3	Scope Arg1:T10 Arg2:T12	
+#9	AnnotatorNotes R3	urn:cts:cwkb:1331.4356:7
+R4	Scope Arg1:T14 Arg2:T15	
+#10	AnnotatorNotes R4	urn:cts:cwkb:2468.8534:17

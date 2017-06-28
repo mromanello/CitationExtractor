@@ -1,0 +1,9 @@
+T1	REFSCOPE 22 30	v. 13-31
+T2	AWORK 37 58	« Première Pythique »
+T3	REFSCOPE 66 76	v. 351-372
+T4	AWORK 80 103	« Prométhée enchaîné ».
+T5	AAUTHOR 104 111	Pindare
+T6	AAUTHOR 115 122	Eschyle
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes T6	urn:cts:greekLit:tlg0085
+#1	AnnotatorNotes T5	urn:cts:greekLit:tlg0033

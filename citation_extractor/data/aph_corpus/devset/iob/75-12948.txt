@@ -1,0 +1,14 @@
+Überlegungen	NN
+zum	APPRART
+Typus	NN
+und	KON
+seiner	PPOSAT
+Interpretation	NN
+anhand	APPR
+der	ART
+gefundenen	ADJA
+Statuen-	TRUNC
+und	KON
+Statuettenfragmente	NN
+.	$.
+

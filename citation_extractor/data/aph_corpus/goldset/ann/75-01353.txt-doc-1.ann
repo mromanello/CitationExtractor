@@ -1,0 +1,18 @@
+T1	REFAUWORK 143 147	Rep.
+T2	REFSCOPE 148 159	2, 11, 21f.
+T3	AAUTHOR 198 204	Cicero
+T4	AAUTHOR 335 341	Platon
+T5	AWORK 535 547	« Phaidros »
+T6	REFSCOPE 548 559	(275b3 f.),
+T7	AWORK 747 761	« Euthydemos »
+T8	REFSCOPE 762 773	(290e 1f.).
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T5 Arg2:T6
+R3	Scope Arg1:T7 Arg2:T8
+#0	AnnotatorNotes R1	urn:cts:cwkb:431.907:2.11.21-2.11.22
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0059.tlg012:275b.3-275b.4
+#2	AnnotatorNotes R3	urn:cts:greekLit:tlg0059.tlg021:290e.1-290e.2
+#3	AnnotatorNotes T7	urn:cts:greekLit:tlg0059.tlg021
+#4	AnnotatorNotes T4	urn:cts:greekLit:tlg0059
+#5	AnnotatorNotes T5	urn:cts:greekLit:tlg0059.tlg012
+#6	AnnotatorNotes T3	urn:cts:cwkb:431

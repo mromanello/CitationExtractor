@@ -1,0 +1,9 @@
+Spécialiste	NOM
+français	ADJ
+de	PRP
+la	DET:ART
+protohistoire	NOM
+de	PRP
+la	DET:ART
+Franche-Comté	NAM
+

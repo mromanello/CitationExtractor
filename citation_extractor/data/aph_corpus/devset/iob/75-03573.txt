@@ -1,0 +1,7 @@
+Sur	PRP
+la	DET:ART
+pastorale	NOM
+pénitentielle	ADJ
+de	PRP
+Pacien	NOM
+

@@ -1,0 +1,16 @@
+Analyse	VER:pres
+suivie	VER:pper
+de	PRP
+la	DET:ART
+pièce	NOM
+,	PUN
+illustrant	VER:ppre
+les	DET:ART
+particularités	NOM
+de	PRP
+l'	DET:ART
+expression	NOM
+de	PRP
+l'	DET:ART
+eros	NOM
+

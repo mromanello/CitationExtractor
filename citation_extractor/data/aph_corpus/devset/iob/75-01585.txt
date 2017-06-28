@@ -1,0 +1,6 @@
+La	ART
+tradition	NC
+directe	VLfin
+est	PE
+perdue	VLfin
+

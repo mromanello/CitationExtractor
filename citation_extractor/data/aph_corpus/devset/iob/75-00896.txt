@@ -1,0 +1,34 @@
+Trois	NUM
+traits	NOM
+fondamentaux	ADJ
+caractérisent	VER:pres
+la	DET:ART
+famille	NOM
+d'	PRP
+Augustin	NAM
+:	PUN
+l'	DET:ART
+éducation	NOM
+,	PUN
+la	DET:ART
+tolérance	NOM
+et	KON
+la	DET:ART
+diversité	NOM
+de	PRP
+l'	DET:ART
+expérience	NOM
+religieuse	ADJ
+.	SENT
+
+Son	DET:POS
+évolution	NOM
+spirituelle	ADJ
+est	VER:pres
+aussi	ADV
+l'	DET:ART
+effet	NOM
+de	PRP
+ce	PRO:DEM
+milieu	NOM
+

@@ -1,0 +1,18 @@
+Osservazioni	NOM
+sull'	PRE:det
+importanza	NOM
+del	PRE:det
+culto	NOM
+di	PRE
+Venere	NOM
+a	PRE
+Pompei	NOM
+in	PRE
+base	NOM
+alle	PRE:det
+epigrafi	NOM
+e	CON
+alle	PRE:det
+pitture	NOM
+parietali	ADJ
+

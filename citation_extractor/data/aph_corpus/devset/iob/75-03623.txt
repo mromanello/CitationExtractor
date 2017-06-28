@@ -1,0 +1,14 @@
+Rassegna	NOM
+degli	PRE:det
+studi	NOM
+(	PON
+traduzione	NOM
+di	PRE
+una	DET:indef
+conferenza	NOM
+in	PRE
+ungherese	ADJ
+tenuta	NOM
+nel1993	NOM
+)	PON
+

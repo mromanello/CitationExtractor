@@ -1,0 +1,51 @@
+A veces	ADV
+la	ART
+tensión	NC
+provocada	VLadj
+por	PREP
+un	ART
+«	SYM
+motivo	NC
+»	SYM
+dentro de	PREP
+la	ART
+acción	NC
+no	NEG
+se	SE
+libera	VLfin
+en	PREP
+la	ART
+obra	NC
+,	CM
+y	CC
+la	ART
+acción	NC
+toma	VLfin
+otro	QU
+rumbo	NC
+.	FS
+
+Se	SE
+estudian	VLfin
+tres	CARD
+ejemplos	NC
+de	PREP
+este	DM
+tipo	NC
+de	PREP
+«	SYM
+motivo	NC
+ciego	ADJ
+»	SYM
+en	PREP
+el	ART
+cuerpo	NC
+central	ADJ
+de	PREP
+la	ART
+«	SYM
+Historia	NC
+de	PREP
+Apolonio	NC
+»	SYM
+

@@ -1,0 +1,48 @@
+Notizie	NOM
+bibliografiche	ADJ
+su	PRE
+pubblicazioni	NOM
+relative	ADJ
+al	PRE:det
+periodo	NOM
+indicato	VER:pper
+,	PON
+concernenti	VER:ppre
+papiri	NOM
+con	PRE
+il	DET:def
+testo	NOM
+e/o	CON
+con	PRE
+commenti	NOM
+,	PON
+scolî	NOM
+o	CON
+parafrasi	NOM
+all'	PRE:det
+«	PON
+Iliade	NOM
+»	PON
+.	SENT
+
+Addenda	VER:impe
+per	PRE
+gli	DET:def
+anni	NOM
+1999-2001	NUM
+.	SENT
+
+P.	ABR
+122	NUM
+:	PON
+indice	NOM
+dei	PRE:det
+papiri	NOM
+considerati	ADJ
+.	SENT
+
+Per	PRE
+3	NUM
+=>	NOM
+74-02822	NUM
+

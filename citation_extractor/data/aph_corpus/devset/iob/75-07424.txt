@@ -1,0 +1,18 @@
+Toponymie	NOM
+lycienne	ADJ
+d'	PRP
+après	PRP
+les	DET:ART
+sources	NOM
+en	PRP
+hittite	NOM
+,	PUN
+en	PRO:PER
+louvite	VER:subp
+,	PUN
+en	PRP
+lycien	ADJ
+et	KON
+en	PRP
+araméen	ADJ
+

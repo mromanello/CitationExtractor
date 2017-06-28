@@ -1,0 +1,33 @@
+Dossier	NOM
+papyrologique	ADJ
+documentant	VER:ppre
+les	DET:ART
+types	NOM
+de	PRP
+division	NOM
+administrative	ADJ
+correspondant	VER:ppre
+aux	PRP:det
+toparchies	NOM
+romaines	ADJ
+dans	PRP
+le	DET:ART
+Fayum	NAM
+.	SENT
+
+Problèmes	NOM
+posés	VER:pper
+par	PRP
+leur	DET:POS
+disparition	NOM
+,	PUN
+en	PRP
+307-308	NUM
+,	PUN
+au	PRP:det
+bénéfice	NOM
+des	PRP:det
+«	PUN:cit
+pagi	NOM
+»	PUN:cit
+

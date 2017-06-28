@@ -1,0 +1,7 @@
+T1	AWORK 105 115	« Genesi »
+T2	AAUTHOR 119 138	Giovanni Crisostomo
+T3	REFSCOPE 139 145	(1-42)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:941:1-42
+#1	AnnotatorNotes T2	urn:cts:cwkb:941
+#2	AnnotatorNotes T1	urn:cts:latinLit:phi0690.phi003

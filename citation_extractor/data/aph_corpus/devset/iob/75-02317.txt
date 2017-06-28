@@ -1,0 +1,25 @@
+Diverses	ADJ
+lettres	NOM
+rédigées	VER:pper
+entre	PRP
+383	NUM
+et	KON
+385	NUM
+illustrent	VER:pres
+la	DET:ART
+plasticité	NOM
+du	PRP:det
+genre	NOM
+littéraire	ADJ
+qui	PRO:REL
+se	PRO:PER
+prête	VER:pres
+à	PRP
+l'	DET:ART
+élaboration	NOM
+progressive	ADJ
+d'	PRP
+une	DET:ART
+méthode	NOM
+exégétique	ADJ
+

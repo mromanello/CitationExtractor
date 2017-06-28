@@ -1,0 +1,16 @@
+Introduction	NN
+to	TO
+A.	NP
+Feldherr	NP
+(	(
+=>	NP
+75-03489	CD
+)	)
+and	CC
+P.	NP
+James	NP
+(	(
+=>	NP
+75-03507	CD
+)	)
+

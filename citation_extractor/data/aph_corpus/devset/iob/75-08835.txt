@@ -1,0 +1,53 @@
+Fibeln	NN
+sind	VAFIN
+auf	APPR
+Zypern	NE
+nur	ADV
+vom	APPRART
+13.	ADJA
+bis	KON
+6.	ADJA
+
+Jh	NE
+.	$.
+
+v.	APPR
+Chr.	NE
+und	KON
+danach	PAV
+erst	ADV
+wieder	ADV
+in	APPR
+römischer	ADJA
+Zeit	NN
+belegt	VVPP
+.	$.
+
+Die	ART
+rund	ADV
+600	CARD
+gefundenen	ADJA
+Exemplare	NN
+lassen	VVFIN
+sich	PRF
+in	APPR
+12	CARD
+Typen	NN
+unterteilen	VVINF
+,	$,
+die	PRELS
+teils	ADV
+durch	APPR
+Kontakte	NN
+auf	APPR
+der	ART
+Insel	NN
+heimisch	ADJD
+wurden	VAFIN
+,	$,
+teils	ADV
+dort	ADV
+entwickelt	VVPP
+sind	VAFIN
+.	$.
+

@@ -1,0 +1,19 @@
+Se	SE
+propone	VLfin
+el	ART
+estudio	NC
+de	PREP
+la	ART
+«	SYM
+Historia	NP
+Augusta	NP
+»	SYM
+como	CSUBX
+una	ART
+obra	NC
+de	PREP
+literatura	NC
+teológica	ADJ
+pagana	VLfin
+.	FS
+

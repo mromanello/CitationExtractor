@@ -1,0 +1,6 @@
+T1	AAUTHOR 136 143	Erodoto
+T2	REFAUWORK 183 187	Hdt.
+T3	REFSCOPE 188 193	6, 40
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0016:6.40
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0016

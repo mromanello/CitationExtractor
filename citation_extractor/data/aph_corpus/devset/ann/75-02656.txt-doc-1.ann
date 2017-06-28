@@ -1,0 +1,4 @@
+T1	REFAUWORK 175 180	(sat.
+T2	REFSCOPE 181 187	2, 2).
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:1368.4417:2.2

@@ -1,0 +1,26 @@
+Esegesi	NOM
+e	CON
+analisi	NOM
+stilistica	ADJ
+di	PRE
+questo	PRO:demo
+carme	NOM
+,	PON
+nella	PRE:det
+cui	PRO:rela
+chiusa	VER:pper
+Sidonio	NOM
+vuole	VER:pres
+ribadire	VER:infi
+la	DET:def
+sua	PRO:poss
+fedeltà	NOM
+ai	PRE:det
+modelli	NOM
+classici	ADJ
+attraverso	PRE
+l'	DET:def
+allusione	NOM
+ad	PRE
+Orazio	NOM
+

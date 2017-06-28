@@ -1,0 +1,47 @@
+Die	ART
+frühesten	ADJA
+Zeugnisse	NN
+der	ART
+Verehrung	NN
+sind	VAFIN
+eine	ART
+Nachricht	NN
+bei	APPR
+Venantius	NE
+Fortunatus	NE
+(	$(
+um	APPR
+575	CARD
+)	$(
+,	$,
+Gräber	NN
+des	ART
+6.	ADJA
+
+Jh	NE
+.	$.
+
+im	APPRART
+Umfeld	NN
+der	ART
+Stelle	NN
+des	ART
+Afra-Altars	NN
+und	KON
+die	ART
+«	$(
+Passio	NE
+S.	NE
+Afrae	NE
+»	$(
+in	APPR
+zwei	CARD
+Fassungen	NN
+des	ART
+7.	ADJA
+und	KON
+8.	ADJA
+
+Jh	NE
+.	$.
+

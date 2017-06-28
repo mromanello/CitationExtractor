@@ -1,0 +1,17 @@
+Notamment	ADV
+à	PRP
+propos	NOM
+des	PRP:det
+commentaires	NOM
+théologiques	ADJ
+à	PRP
+Mt.	ABR
+13	NUM
+,	PUN
+45-46	NUM
+et	KON
+Apoc.	ABR
+21	NUM
+,	PUN
+21.	INT
+

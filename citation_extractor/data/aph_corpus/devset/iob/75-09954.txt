@@ -1,0 +1,19 @@
+Rapporti	NOM
+tra	PRE
+la	DET:def
+regione	NOM
+iraniana	ADJ
+e	CON
+la	DET:def
+dinastia	NOM
+siriaca	ADJ
+fino	CON
+ad	PRE
+Antioco	NOM
+IV	NUM
+(	PON
+175-164	NUM
+a.	NOM
+C.	NPR
+)	PON
+

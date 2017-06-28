@@ -1,0 +1,17 @@
+Hommage	NOM
+à	PRP
+cet	PRO:DEM
+helléniste	NOM
+et	KON
+historien	NOM
+français	ADJ
+,	PUN
+cofondateur	NOM
+des	PRP:det
+«	PUN:cit
+Dialogues	NOM
+d'	PRP
+histoire	NOM
+ancienne	ADJ
+»	PUN:cit
+

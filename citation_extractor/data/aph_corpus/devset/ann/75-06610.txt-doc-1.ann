@@ -1,0 +1,4 @@
+T1	REFAUWORK 150 156	Manil.
+T2	REFSCOPE 157 167	5, 538-618
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0474.phi009:5.538-5.618

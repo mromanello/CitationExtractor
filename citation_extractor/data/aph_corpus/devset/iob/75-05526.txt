@@ -1,0 +1,24 @@
+La	DET:def
+variante	NOM
+al	PRE:det
+passivo	NOM
+sembra	VER:pres
+essere	VER:infi
+quella	PRO:demo
+originaria	ADJ
+e	CON
+presupporre	VER:infi
+una	DET:indef
+vocalizzazione	NOM
+del	PRE:det
+testo	NOM
+ebraico	ADJ
+diversa	ADJ
+da	PRE
+quella	PRO:demo
+poi	ADV
+impostasi	VER:impe
+con	PRE
+il	DET:def
+TM	NOM
+

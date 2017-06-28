@@ -1,0 +1,12 @@
+Présentation	NOM
+d'	PRP
+une	DET:ART
+thèse	NOM
+soutenue	VER:pper
+à	PRP
+Besançon	NAM
+le	DET:ART
+9	NUM
+décembre	NOM
+2003	NUM
+

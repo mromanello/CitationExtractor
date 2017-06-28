@@ -1,0 +1,623 @@
+Thucydides - Wikipedia
+Thucydides
+From Wikipedia, the free encyclopedia
+Jump to:					navigation, 					search
+For other uses, see Thucydides (disambiguation).
+Thucydides
+Plaster cast bust of Thucydides (in the Pushkin Museum). From a Roman copy (located at Holkham Hall) of an early 4th Century BC Greek original.
+Native name
+Θουκυδίδης
+Born
+c. 460 BC
+Halimous (modern Alimos)
+Died
+c. 400 BC (aged approximately 60)
+Athens
+Occupation
+Historian, General
+Notable work
+History of the Peloponnesian War
+Relatives
+Olorus (father)
+Thucydides (/θjuːˈsɪdᵻdiːz/; Greek: Θουκυδίδης, Thoukudídēs, Ancient Greek: [tʰuːkydídɛːs]; c. 460 – c. 400 BC) was an Athenian historian and general. His History of the Peloponnesian War recounts the 5th century BC war between Sparta and Athens to the year 411 BC. Thucydides has been dubbed the father of "scientific history" because of his strict standards of evidence-gathering and analysis of cause and effect without reference to intervention by the gods, as outlined in his introduction to his work.[1][2]
+He has also been called the father of the school of political realism, which views the political behavior of individuals and the subsequent outcome of relations between states as ultimately mediated by and constructed upon the emotions of fear and self-interest.[3] His text is still studied at both universities and advanced military colleges worldwide.[4] The Melian dialogue remains a seminal work of international relations theory while Pericles' Funeral Oration is widely studied in political theory, history, and classical studies.
+More generally, Thucydides showed an interest in developing an understanding of human nature to explain behaviour in such crises as plague, massacres, as in that of the Melians, and civil war.
+Contents
+1 Life
+1.1 Evidence from the Classical period
+1.2 Later sources
+1.3 The History of the Peloponnesian War
+2 Philosophical outlook and influences
+3 Critical interpretation
+4 Versus Herodotus
+5 Quotations
+6 Quotations about Thucydides
+7 See also
+8 Notes
+9 References and further reading
+9.1 Primary sources
+9.2 Secondary sources
+10 External links
+Life[edit]
+In spite of his stature as a historian, modern historians know relatively little about Thucydides's life. The most reliable information comes from his own History of the Peloponnesian War, which expounds his nationality, paternity and native locality. Thucydides informs us that he fought in the war, contracted the plague and was exiled by the democracy. He may have also been involved in quelling the Samian Revolt.[5]
+Evidence from the Classical period[edit]
+Thucydides identifies himself as an Athenian, telling us that his father's name was Olorus and that he was from the Athenian deme of Halimous.[6] He survived the Plague of Athens[7] that killed Pericles and many other Athenians. He also records that he owned gold mines at Scapte Hyle (literally: "Dug Woodland"), a coastal area in Thrace, opposite the island of Thasos.[8]
+The ruins of Amphipolis as envisaged by E. Cousinéry in 1831: the bridge over the Strymon, the city fortifications, and the acropolis
+Because of his influence in the Thracian region, Thucydides wrote, he was sent as a strategos (general) to Thasos in 424 BC. During the winter of 424–423 BC, the Spartan general Brasidas attacked Amphipolis, a half-day's sail west from Thasos on the Thracian coast, instigating the Battle of Amphipolis. Eucles, the Athenian commander at Amphipolis, sent to Thucydides for help.[9] Brasidas, aware of Thucydides's presence on Thasos and his influence with the people of Amphipolis, and afraid of help arriving by sea, acted quickly to offer moderate terms to the Amphipolitans for their surrender, which they accepted. Thus, when Thucydides arrived, Amphipolis was already under Spartan control.[10]
+Amphipolis was of considerable strategic importance, and news of its fall caused great consternation in Athens.[11] It was blamed on Thucydides, although he claimed that it was not his fault and that he had simply been unable to reach it in time. Because of his failure to save Amphipolis, he was sent into exile:[12]
+I lived through the whole of it, being of an age to comprehend events, and giving my attention to them in order to know the exact truth about them. It was also my fate to be an exile from my country for twenty years after my command at Amphipolis; and being present with both parties, and more especially with the Peloponnesians by reason of my exile, I had leisure to observe affairs somewhat particularly.
+Using his status as an exile from Athens to travel freely among the Peloponnesian allies, he was able to view the war from the perspective of both sides. During his exile from Athens, Thucydides wrote his most famous work "History of the Peloponnesian War." Because he was in exile during this time, he was free to speak his mind. He also conducted important research for his history during this time, having claimed that he pursued the project as he thought it would be one of the greatest wars waged among the Greeks in terms of scale. This is all that Thucydides wrote about his own life, but a few other facts are available from reliable contemporary sources. Herodotus wrote that the name Olorus, Thucydides's father's name, was connected with Thrace and Thracian royalty.[13] Thucydides was probably connected through family to the Athenian statesman and general Miltiades, and his son Cimon, leaders of the old aristocracy supplanted by the Radical Democrats. Cimon's maternal grandfather's name was also Olorus, making the connection exceedingly likely. Another Thucydides lived before the historian and was also linked with Thrace, making a family connection between them very likely as well. Finally, Herodotus confirms the connection of Thucydides's family with the mines at Scapté Hýlē.[14]
+Combining all the fragmentary evidence available, it seems that his family had owned a large estate in Thrace, one that even contained gold mines, and which allowed the family considerable and lasting affluence. The security and continued prosperity of the wealthy estate must have necessitated formal ties with local kings or chieftains, which explains the adoption of the distinctly Thracian royal name "Όloros" into the family. Once exiled, Thucydides took permanent residence in the estate and, given his ample income from the gold mines, he was able to dedicate himself to full-time history writing and research, including many fact-finding trips. In essence, he was a well-connected gentleman of considerable resources who, by then retired from the political and military spheres, decided to fund his own historical project.
+Later sources[edit]
+The remaining evidence for Thucydides's life comes from rather less reliable later ancient sources. According to Pausanias, someone named Oenobius was able to get a law passed allowing Thucydides to return to Athens, presumably sometime shortly after the city's surrender and the end of the war in 404 BC.[15] Pausanias goes on to say that Thucydides was murdered on his way back to Athens. Many doubt this account, seeing evidence to suggest he lived as late as 397 BC. Plutarch claims that his remains were returned to Athens and placed in Cimon's family vault.[16]
+The abrupt end to Thucydides's narrative, which breaks off in the middle of the year 411 BC, has traditionally been interpreted as indicating that he died while writing the book, although other explanations have been put forward.
+Bust of Pericles
+Inferences about Thucydides's character can only be drawn (with due caution) from his book. His sardonic sense of humour is evident throughout, as when, during his description of the Athenian plague, he remarks that old Athenians seemed to remember a rhyme which said that with the Dorian War would come a "great death". Some claimed that the rhyme was actually about a [death by] "famine" or "starvation" (limos – Greek λιμός[17]), and was only remembered as [death by] "pestilence" (loimos – Greek λοιμός[18]) due to the current plague. Thucydides then remarks that should another Dorian War come, this time attended with a great dearth, the rhyme will be remembered as "dearth," and any mention of "death" forgotten.[19]
+Thucydides admired Pericles, approving of his power over the people and showing a marked distaste for the demagogues who followed him. He did not approve of the democratic mob nor the radical democracy that Pericles ushered in but considered democracy acceptable when guided by a good leader.[20] Thucydides's presentation of events is generally even-handed; for example, he does not minimize the negative effect of his own failure at Amphipolis. Occasionally, however, strong passions break through, as in his scathing appraisals of the demagogues Cleon[21][22] and Hyperbolus.[23] Cleon has sometimes been connected with Thucydides's exile.[24]
+That Thucydides was clearly moved by the suffering inherent in war and concerned about the excesses to which human nature is prone in such circumstances is evident in his analysis of the atrocities committed during civil conflict on Corcyra,[25] which includes the phrase "War is a violent teacher" (Greek πόλεμος βίαιος διδάσκαλος).
+The History of the Peloponnesian War[edit]
+Main article: History of the Peloponnesian War
+The Acropolis in Athens
+Ruins at Sparta
+Thucydides believed that the Peloponnesian War represented an event of unmatched magnitude.[26] As such, he began to write the History at the onset of the war in 431.[27][28] His intention was to write an account of the events of the late fifth century which would serve as "a possession for all time".[29] The history breaks off near the end of the 21st year of the war and does not elaborate on the final conflicts of the war. This facet of the work suggests that Thucydides died whilst writing his history and more so, that his death was unexpected.
+After his death, Thucydides's history was subdivided into eight books: its modern title is the History of the Peloponnesian War. His great contribution to history and historiography is contained in this one dense history of the 27-year war between Athens and Sparta, each with their respective allies. This subdividing was most likely done by librarians and archivists, themselves being historians and scholars, most likely working in the Library of Alexandria.
+The History of the Peloponnesian War continued to be modified well beyond the end of the war in 404, as exemplified by a reference at Book I.1.13[30] to the conclusion of the Peloponnesian War (404 BCE), seven years after the last events in the main text of Thucydides' history.[31]
+Thucydides is generally regarded as one of the first true historians. Like his predecessor Herodotus, known as "the father of history", Thucydides places a high value on eyewitness testimony and writes about events in which he himself probably took part. He also assiduously consulted written documents and interviewed participants about the events that he recorded. Unlike Herodotus, whose stories often teach that a foolish arrogance invites the wrath of the gods, Thucydides does not acknowledge divine intervention in human affairs.[32]
+Thucydides exerted wide historiographical influence on subsequent Hellenistic and Roman historians, though the exact description of his style in relation to many successive historians remains unclear.[33] Readers in antiquity often placed the continuation of the stylistic legacy of the History in the writings of Thucydides' putative intellectual successor Xenophon. Such readings often described Xenophon's treatises as attempts to "finish" Thucydides' History. Many of these interpretations, however, have garnered significant scepticism among modern scholars, such as Dillery, who spurn the view of interpreting Xenophon qua Thucydides, arguing that the latter's "modern" history (defined as constructed based on literary and historical themes) is antithetical to the former's account in the Hellenica, which diverges from the Hellenic historiographical tradition in its absence of a preface or introduction to the text and the associated lack of an "overarching concept" unifying the history.[34]
+A noteworthy difference between Thucydides's method of writing history and that of modern historians is Thucydides's inclusion of lengthy formal speeches that, as he himself states, were literary reconstructions rather than actual quotations of what was said — or, perhaps, what he believed ought to have been said. Arguably, had he not done this, the gist of what was said would not otherwise be known at all — whereas today there is a plethora of documentation — written records, archives and recording technology for historians to consult. Therefore, Thucydides's method served to rescue his mostly oral sources from oblivion. We do not know how these historical figures actually spoke. Thucydides's recreation uses a heroic stylistic register. A celebrated example is Pericles' funeral oration, which heaps honour on the dead and includes a defence of democracy:
+The whole earth is the sepulchre of famous men; they are honoured not only by columns and inscriptions in their own land, but in foreign nations on memorials graven not on stone but in the hearts and minds of men. 2:43
+Stylistically, the placement of this passage also serves to heighten the contrast with the description of the plague in Athens immediately following it, which graphically emphasizes the horror of human mortality, thereby conveying a powerful sense of verisimilitude:
+Though many lay unburied, birds and beasts would not touch them, or died after tasting them [...]. The bodies of dying men lay one upon another, and half-dead creatures reeled about the streets and gathered round all the fountains in their longing for water. The sacred places also in which they had quartered themselves were full of corpses of persons who had died there, just as they were; for, as the disaster passed all bounds, men, not knowing what was to become of them, became equally contemptuous of the gods' property and the gods' dues. All the burial rites before in use were entirely upset, and they buried the bodies as best they could. Many from want of the proper appliances, through so many of their friends having died already, had recourse to the most shameless sepultures: sometimes getting the start of those who had raised a pile, they threw their own dead body upon the stranger's pyre and ignited it; sometimes they tossed the corpse which they were carrying on the top of another that was burning, and so went off. 2:52
+Thucydides omits discussion of the arts, literature or the social milieu in which the events in his book take place and in which he himself grew up. He saw himself as recording an event, not a period, and went to considerable lengths to exclude what he deemed frivolous or extraneous.
+Philosophical outlook and influences[edit]
+Paul Shorey thematizes Thucydides' outlook by calling him "a cynic devoid of moral sensibility."[35] In addition, he notes that Thucydides conceived of man's nature as strictly determined by the physical and social environments, alongside basic desires.[36]
+Thucydides' work indicates an influence from the teachings of the Sophists that contributes substantially to the thinking and character of his History.[37] Possible evidence includes the skeptical ideas concerning justice and morality.[38] There are also elements within the History — such as his views on nature revolving around the factual, empirical, and the non-anthropomorphic — which permit the stipulation awareness, if not subscription to, the views of philosophers like Anaxagoras and Democritus. There is also evidence of his knowledge concerning some of the corpus of Hippocratic medical writings.[39]
+Thucydides is especially interested in the relationship between human intelligence and judgment,[40] Fortune and Necessity,[41] and that history, as in life, is too irrational and incalculable to predict.[42]
+Critical interpretation[edit]
+Bust of Thucydides residing in the Royal Ontario Museum, Toronto
+Scholars traditionally view Thucydides as recognizing and teaching the lesson that democracies need leadership, but that leadership can be dangerous to democracy. Leo Strauss (in The City and Man) locates the problem in the nature of Athenian democracy itself, about which, he argued, Thucydides had a deeply ambivalent view: on one hand, Thucydides's own "wisdom was made possible" by the Periclean democracy, which had the effect of liberating individual daring, enterprise and questioning spirit, but this same liberation, by permitting the growth of limitless political ambition, led to imperialism and, eventually, civic strife.[43]
+For Canadian historian Charles Norris Cochrane (1889–1945), Thucydides's fastidious devotion to observable phenomena, focus on cause and effect, and strict exclusion of other factors anticipates twentieth century scientific positivism. Cochrane, the son of a physician, speculated that Thucydides generally (and especially in describing the plague in Athens) was influenced by the methods and thinking of early medical writers such as Hippocrates of Kos.[44]
+After World War II, Classical scholar Jacqueline de Romilly pointed out that the problem of Athenian imperialism was one of Thucydides's central preoccupations and situated his history in the context of Greek thinking about international politics. Since the appearance of her study, other scholars further examined Thucydides's treatment of realpolitik.
+More recently, scholars have questioned the perception of Thucydides as simply "the father of realpolitik". Instead they have brought to the fore the literary qualities of the History, which they see as belonging to the narrative tradition of Homer and Hesiod and as concerned with the concepts of justice and suffering found in Plato and Aristotle and problematized in Aeschylus and Sophocles.[45] Richard Ned Lebow terms Thucydides "the last of the tragedians", stating that "Thucydides drew heavily on epic poetry and tragedy to construct his history, which not surprisingly is also constructed as a narrative."[46] In this view, the blind and immoderate behaviour of the Athenians (and indeed of all the other actors), though perhaps intrinsic to human nature, ultimately leads to their downfall. Thus his History could serve as a warning to future leaders to be more prudent, by putting them on notice that someone would be scrutinizing their actions with a historian's objectivity rather than a chronicler's flattery.[47]
+Versus Herodotus[edit]
+Herodotus and Thucydides
+Thucydides and his immediate predecessor Herodotus both exerted a significant influence on Western historiography. Thucydides does not mention his counterpart by name, but his famous introductory statement is thought to refer to him:[48][49]
+To hear this history rehearsed, for that there be inserted in it no fables, shall be perhaps not delightful. But he that desires to look into the truth of things done, and which (according to the condition of humanity) may be done again, or at least their like, shall find enough herein to make him think it profitable. And it is compiled rather for an everlasting possession than to be rehearsed for a prize. 1:22
+Herodotus records in his Histories not only the events of the Persian Wars but also geographical and ethnographical information, as well as the fables related to him during his extensive travels. Typically, he passes no definitive judgment on what he has heard. In the case of conflicting or unlikely accounts, he presents both sides, says what he believes and then invites readers to decide for themselves.[50] The work of Herodotus is reported to have been recited at festivals, where prizes were awarded, as for example, during the games at Olympia.[51]
+Herodotus views history as a source of moral lessons, with conflicts and wars as misfortunes flowing from initial acts of injustice perpetuated through cycles of revenge.[52] In contrast, Thucydides claims to confine himself to factual reports of contemporary political and military events, based on unambiguous, first-hand, eye-witness accounts,[53] although, unlike Herodotus, he does not reveal his sources. Thucydides views life exclusively as political life, and history in terms of political history. Conventional moral considerations play no role in his analysis of political events while geographic and ethnographic aspects are omitted or, at best, of secondary importance. Subsequent Greek historians — such as Ctesias, Diodorus, Strabo, Polybius and Plutarch — held up Thucydides's writings as a model of truthful history. Lucian[54] refers to Thucydides as having given Greek historians their law, requiring them to say what had been done (ὡς ἐπράχθη). Greek historians of the fourth century BC accepted that history was political and that contemporary history was the proper domain of a historian.[55] Cicero calls Herodotus the "father of history;"[56] yet the Greek writer Plutarch, in his Moralia (Ethics) denigrated Herodotus, notably calling him a philobarbaros, a "barbarian lover', to the detriment of the Greeks.[57] Unlike Thucydides, however, these authors all continued to view history as a source of moral lessons.
+Due to the loss of the ability to read Greek, Thucydides and Herodotus were largely forgotten during the Middle Ages in Western Europe, although their influence continued in the Byzantine world. In Europe, Herodotus become known and highly respected only in the late-sixteenth and early-seventeenth century as an ethnographer, in part due to the discovery of America, where customs and animals were encountered even more surprising than what he had related. During the Reformation, moreover, information about Middle Eastern countries in the Histories provided a basis for establishing Biblical chronology as advocated by Isaac Newton.
+The first European translation of Thucydides (into Latin) was made by the humanist Lorenzo Valla between 1448 and 1452, and the first Greek edition was published by Aldo Manuzio in 1502. During the Renaissance, however, Thucydides attracted less interest among Western European historians as a political philosopher than his successor, Polybius,[58] although Poggio Bracciolini claimed to have been influenced by him. There is not much trace of Thucydides's influence in Niccolò Machiavelli's The Prince (1513), which held that the chief aim of a new prince must be to "maintain his state" [i.e., his power] and that in so doing he is often compelled to act against faith, humanity and religion. Later historians, such as J. B. Bury, however, have noted parallels between them:
+If, instead of a history, Thucydides had written an analytical treatise on politics, with particular reference to the Athenian empire, it is probable that . . . he could have forestalled Machiavelli. . . .[since] the whole innuendo of the Thucydidean treatment of history agrees with the fundamental postulate of Machiavelli, the supremacy of reason of state. To maintain a state said the Florentine thinker, "a statesman is often compelled to act against faith, humanity and religion." . . . But . . . the true Machiavelli, not the Machiavelli of fable. . . entertained an ideal: Italy for the Italians, Italy freed from the stranger: and in the service of this ideal he desired to see his speculative science of politics applied. Thucydides has no political aim in view: he was purely a historian. But it was part of the method of both alike to eliminate conventional sentiment and morality.[59]
+Thomas Hobbes
+In the seventeenth century, the English political philosopher Thomas Hobbes, whose Leviathan advocated absolute monarchy, admired Thucydides and in 1628 was the first to translate his writings into English directly from Greek. Thucydides, Hobbes and Machiavelli are together considered the founding fathers of political realism, according to which state policy must primarily or solely focus on the need to maintain military and economic power rather than on ideals or ethics.
+Nineteenth-century positivist historians stressed what they saw as Thucydides's seriousness, his scientific objectivity and his advanced handling of evidence. A virtual cult following developed among such German philosophers as Friedrich Schelling, Friedrich Schlegel and Friedrich Nietzsche, who claimed that, "[in Thucydides], the portrayer of man, that culture of the most impartial knowledge of the world finds its last glorious flower." The late-18th century Swiss historian Johannes von Müller described Thucydides as 'the favourite author of the greatest and noblest men, and one of the best teachers of the wisdom of human life.' [60] For Eduard Meyer, Macaulay and Leopold von Ranke, who initiated modern source-based history writing,[61] Thucydides was again the model historian.[62][63]
+Generals and statesmen loved him: the world he drew was theirs, an exclusive power-brokers' club. It is no accident that even today Thucydides turns up as a guiding spirit in military academies, neocon think tanks and the writings of men like Henry Kissinger; whereas Herodotus has been the choice of imaginative novelists (Michael Ondaatje's novel The English Patient and the film based on it boosted the sale of the Histories to a wholly unforeseen degree) and — as food for a starved soul — of an equally imaginative foreign correspondent from Iron Curtain Poland, Ryszard Kapuscinski.[64]
+These historians also admired Herodotus, however, as social and ethnographic history increasingly came to be recognized as complementary to political history.[65] In the twentieth century, this trend gave rise to the works of Johan Huizinga, Marc Bloch and Braudel, who pioneered the study of long-term cultural and economic developments and the patterns of everyday life. The Annales School, which exemplifies this direction, has been viewed as extending the tradition of Herodotus.[66]
+At the same time, Thucydides's influence was increasingly important in the area of international relations during the Cold War, through the work of Hans Morgenthau, Leo Strauss[67] and Edward Carr.[68]
+The tension between the Thucydidean and Herodotean traditions extends beyond historical research. According to Irving Kristol, self-described founder of American Neoconservatism, Thucydides wrote "the favorite neoconservative text on foreign affairs";[69] and Thucydides is a required text at the Naval War College, an American institution located in Rhode Island. On the other hand, Daniel Mendelsohn, in a review of a recent edition of Herodotus, suggests that, at least in his graduate school days during the Cold War, professing admiration of Thucydides served as a form of self-presentation:
+To be an admirer of Thucydides' History, with its deep cynicism about political, rhetorical and ideological hypocrisy, with its all too recognizable protagonists — a liberal yet imperialistic democracy and an authoritarian oligarchy, engaged in a war of attrition fought by proxy at the remote fringes of empire — was to advertise yourself as a hardheaded connoisseur of global Realpolitik.[70]
+Another author, Thomas Geoghegan, whose speciality is labour rights, comes down on the side of Herodotus when it comes to drawing lessons relevant to Americans, who, he notes, tend to be rather isolationist in their habits (if not in their political theorizing): "We should also spend more funds to get our young people out of the library where they're reading Thucydides and get them to start living like Herodotus — going out and seeing the world."[71]
+Quotations[edit]
+A statue of Thucydides at the main entrance to the Bavarian State Library in Munich
+"But, the bravest are surely those who have the clearest vision of what is before them, glory and danger alike, and yet notwithstanding, go out to meet it."[72]
+"Right, as the world goes, is only in question between equals in power, while the strong do what they can and the weak suffer what they must."[73] — This quotation is part of the Melian dialogue (Strassler (1996), 352/5.89).
+"It is a general rule of human nature that people despise those who treat them well, and look up to those who make no concessions."[74]
+"In peace and prosperity states and individuals have better sentiments, because they do not find themselves suddenly confronted with imperious necessities; but war takes away the easy supply of daily wants and so proves a rough master that brings most men's characters to a level with their fortunes" (Strassler (1996), 199/3.82.2).
+"The cause of all these evils was the lust for power arising from greed and ambition; and from these passions proceeded the violence of parties once engaged in contention."[75]
+"So that, though overcome by three of the greatest things, honour, fear and profit, we have both accepted the dominion delivered us and refuse again to surrender it, we have therein done nothing to be wondered at nor beside the manner of men."[76]
+"Indeed men too often take upon themselves in the prosecution of their revenge to set the example of doing away with those general laws to which all can look for salvation in adversity, instead of allowing them to subsist against the day of danger when their aid may be required" (Strassler (1996), 201/3.84.3).
+"It is the habit of mankind to entrust to careless hope what they long for, and to use sovereign reason to thrust aside what they do not desire" (Strassler (1996), 282/4.108.4).
+A quotation frequently attributed to Thucydides but was in fact from Sir William Francis Butler:[77]
+"The nation that will insist upon drawing a broad line of demarcation between the fighting man and the thinking man is liable to find its fighting done by fools and its thinking by cowards."
+More frequently, this quotation is truncated as follows:
+"The State that separates its scholars from its warriors will have its thinking done by cowards and its fighting by fools."
+Quotations about Thucydides[edit]
+A statue of Thucydides in front of the Austrian Parliament Building.
+And after [the time of Herodotus], Thucydides, in my opinion, easily vanquished all in the artfulness of his style: he so concentrates his copious material that he almost matches the number of his words with the number of his thoughts. In his words, further, he is so apposite and compressed that you do not know whether his matter is being illuminated by his diction or his words by his thoughts. (Cicero,De Oratore 2.56 (55 B.C.))
+In the preface to his 1628 translation of Thucydides, entitled, Eight Bookes of the Peloponnesian Warres, political philosopher Thomas Hobbes calls Thucydides
+"the most politic historiographer that ever wrote."
+A hundred years later, philosopher David Hume, wrote that:
+The first page of Thucydides is, in my opinion, the commencement of real history. All preceding narrations are so intermixed with fable, that philosophers ought to abandon them to the embellishments of poets and orators. ("Of the Populousness of Ancient Nations", 1742)
+Friedrich Nietzsche wrote that the best antidotes for Platonism were to be found in Thucydides:
+"My recreation, my predilection, my cure, after all Platonism, has always been Thucydides. Thucydides and perhaps Machiavelli's Principe are most closely related to me owing to the absolute determination which they show of refusing to deceive themselves and of seeing reason in reality – not in "rationality," and still less in "morality." There is no more radical cure than Thucydides for the lamentably rose-coloured idealisation of the Greeks... His writings must be carefully studied line by line, and his unuttered thoughts must be read as distinctly as what he actually says. There are few thinkers so rich in unuttered thoughts... Thucydides is the great summing up, the final manifestation of that strong, severe positivism which lay in the instincts of the ancient Hellene. After all, it is courage in the face of reality that distinguishes such natures as Thucydides from Plato: Plato is a coward in the face of reality – consequently he takes refuge in the ideal: Thucydides is a master of himself – consequently he is able to master life." (A Nietzsche Compendium, Twilight of the Idols, trans. Anthony M. Ludovici)
+W. H. Auden's poem, "September 1, 1939", written at the start of World War II, contains these lines:
+Exiled Thucydides knew All that a speech can say About Democracy, And what dictators do, The elderly rubbish they talk To an apathetic grave; Analysed all in his book, The enlightenment driven away, The habit-forming pain, Mismanagement and grief: We must suffer them all again.
+See also[edit]
+Speech of Hermocrates at Gela
+Thucydides Trap
+Manuscripts
+Papyrus Oxyrhynchus 16
+Papyrus Oxyrhynchus 17
+Notes[edit]
+^ Cochrane, p. 179; Meyer, p. 67; de Sainte Croix.
+^ Korab-Karpowicz, W. Julian. "Political Realism in International Relations". The Stanford Encyclopedia of Philosophy (Summer 2013 Edition), Edward N. Zalta (ed.). Retrieved 2016-03-23. 
+^ Strauss, p. 139.
+^ Harloe, Katherine, Morley, Neville, Thucydides and the Modern World: Reception, Reinterpretation and Influence from the Renaissance to the Present. Cambridge, Cambridge University Press (2012). p. 12
+^ Thucydides, History of the Peloponnesian War 1.117
+^ Thucydides 4.104
+^ Thucydides 2.48.1–3
+^ Thucydides 4.105.1
+^ Thucydides 4.104.1
+^ Thucydides 4.105–106.3
+^ Thucydides 4.108.1–7
+^ Thucydides 5.26.5
+^ 6.39.1
+^ Herodotus, Histories 6.46.1
+^ Pausanias, 1.23.9.
+^ Plutarch, Cimon 4.1.
+^ "Μετάφραση Google". google.com. Retrieved 2016-03-23. 
+^ "Μετάφραση Google". google.com. Retrieved 2016-03-23. 
+^ Thucydides 2.54.3
+^ Thucydides 2.65.1
+^ Thucydides 3.36.6
+^ Thucydides 4.27, 5.16.1
+^ Thucydides 8.73.3
+^ Marcellinus, Life of Thucydides 46
+^ Thucydides 3.82–83
+^ Thucydides 1.1.1
+^ Thucydides 1.1
+^ Zagorin, Perez. Thucydides. (Princeton University Press, 2015), p.9
+^ Thucydides 1.22.4
+^ Thucydides. " Book 11#1:13". History of the Peloponnesian War. Wikisource. 
+^ Mynott, Jeremy, The War of the Peloponnesians and Athenians. Cambridge, Cambridge University Press (2013). p. 11
+^ Grant, Michael (1995). Greek and Roman Historians: Information and Misinformation. London: Routledge. pp. 55–56. ISBN 0415117704. 
+^ Hornblower, Simon, Spawforth, Antony, Eidinow, Esther, The Oxford Classical Dictionary. New York, Oxford University Press (2012). pp. 692-693
+^ Dillery, John, Xenophon and the History of His Times. London, Routledge (2002).
+^ Zagorin, Perez. Thucydides. (Princeton University Press, 2015), p.144.
+Endnote cites: Paul Shorey, “On the Implict Ethics and Psychology of Thucydides”
+^ Zagorin, Perez. Thucydides. (Princeton University Press, 2015), p.144.
+^ Zagorin, Perez. Thucydides. (Princeton University Press, 2015), p.22
+The page itself refers to an endnote detailing that this conclusion is inspired by multiple works, including but not limited to: Athens as A Cultural Center by Martin Ostwald; Thucydides by John H. Finley; Intellectual Experiments of Greek Enlightenment by Friedrich Solmsen
+^ Zagorin, Perez. Thucydides. (Princeton University Press, 2015), p.152.
+^ Zagorin, Perez. Thucydides. (Princeton University Press, 2015), p.147.
+^ Zagorin, Perez. Thucydides. (Princeton University Press, 2015), p.156.
+^ Zagorin, Perez. Thucydides. (Princeton University Press, 2015), p.157.
+^ Zagorin, Perez. Thucydides. (Princeton University Press, 2015), p.160.
+^ Russett, p. 45.
+^ Charles Norris Cochrane, Thucydides and the Science of Medicine (1929).
+^ Clifford Orwin, The Humanity of Thucydides, Princeton, 1994.
+^ Richard Ned Lebow, The Tragic vision of Politics (Cambridge University Press, 2003), p. 20.
+^ See also Walter Robert Connor, Thucydides (Princeton University Press, 1987).
+^ Lucian, How to write history, p. 42
+^ Thucydides 1.22
+^ Momigliano, pp. 39, 40.
+^ Lucian: Herodotus, pp. 1–2.
+^ Ryszard Kapuscinski: Travels with Herodotus, p. 78.
+^ Thucydides 1.23
+^ Lucian, p. 25, 41.
+^ Momigliano, Ch. 2, IV.
+^ Cicero, Laws 1.5.
+^ Plutarch, On the Malignity of Herodotus, Moralia XI (Loeb Classical Library 426).
+^ Momigliano Chapter 2, V.
+^ J. B. Bury, The Ancient Greek Historians (London, MacMillan, 1909), pp. 140–143.
+^ Johannes von Müller, The History of the World, (Boston: Thomas H. Webb and Co., 1842), Vol.1, p.61.
+^ See Anthony Grafton, The Footnote, a Curious History (Cambridge Mass: Harvard University Press, 1999)
+^ Momigliano, p. 50.
+^ For his part, Peter Green notes of these historians, the fact "That [Thucydides] was exiled for military incompetence, did a hatchet job on the man responsible and praised as virtually unbeatable the Spartan general to whom he had lost the key city of Amphipolis bothered them not at all." Peter Green (2008) cit.
+^ (Green 2008, op cit)
+^ Momigliano, pg.52.
+^ Stuart Clark (ed.): The Annales school: critical assessments, Vol. II, 1999.
+^ See essay on Thucydides in The Rebirth of Classical Political Rationalism: An Introduction to the Thought of Leo Strauss – Essays and Lectures by Leo Strauss, edited by Thomas L. Pangle (Chicago: University of Chicago Press, 1989).
+^ See, for example, E.H. Carr's The Twenty Years' Crisis.
+^ "The Neoconservative Persuasion". weeklystandard.com. 
+^ "Arms and the Man: What was Herodotus trying to tell us?" (The New Yorker, April 28, 2008)
+^ "The American Prospect". The American Prospect. Archived from the original on July 5, 2009. 
+^ Thucydides 2.40.3
+^ Thucydides 5.89
+^ Thucydides 3.39.5
+^ Thucydides 3.82.8
+^ Thucydides 1.76
+^ "Charles George Gordon by William Francis Butler", p. 89, MacMillan & Co 1889
+References and further reading[edit]
+Primary sources[edit]
+Thucydides, The Peloponnesian War. London, J. M. Dent; New York, E. P. Dutton (1910). . The classic translation by Richard Crawley. Reissued by the Echo Library in 2006. ISBN 1406809845 OCLC 173484508
+Thucydides, The Peloponnesian War. Indianapolis, Hackett (1998); translation by Steven Lattimore. ISBN 9780872203945.
+Herodotus, Histories, A. D. Godley (translator), Cambridge: Harvard University Press (1920). ISBN 0-674-99133-8  .
+Pausanias, Description of Greece, Books I-II, (Loeb Classical Library) translated by W. H. S. Jones; Cambridge, Massachusetts: Harvard University Press; London, William Heinemann Ltd. (1918). ISBN 0-674-99104-4. .
+Plutarch, Lives, Bernadotte Perrin (translator), Cambridge, MA. Harvard University Press. London. William Heinemann Ltd. (1914). ISBN 0-674-99053-6  .
+The Landmark Thucydides, Edited by Robert B. Strassler, Richard Crawley translation, Annotated, Indexed and Illustrated, A Touchstone Book, New York, NY, 1996 ISBN 0-684-82815-4
+Secondary sources[edit]
+Cochrane, Charles Norris, Thucydides and the Science of History, Oxford University Press (1929).
+Connor, W. Robert, Thucydides. Princeton: Princeton University Press (1984). ISBN 0-691-03569-5
+Dewald, Carolyn. Thucydides' War Narrative: A Structural Study. Berkeley, CA: University of California Press, 2006 (hardcover, ISBN 0-520-24127-4).
+Finley, John Huston, Jr., Thucydides, Cambridge, Massachusetts : Harvard University Press, 1947.
+Forde, Steven, The ambition to rule : Alcibiades and the politics of imperialism in Thucydides. Ithaca : Cornell University Press (1989). ISBN 0-8014-2138-1.
+Hanson, Victor Davis, A War Like No Other: How the Athenians and Spartans Fought the Peloponnesian War. New York: Random House (2005). ISBN 1-4000-6095-8.
+Hornblower, Simon, A Commentary on Thucydides. 2 vols. Oxford: Clarendon (1991–1996). ISBN 0-19-815099-7 (vol. 1), ISBN 0-19-927625-0 (vol. 2).
+Hornblower, Simon, Thucydides. London: Duckworth (1987). ISBN 0-7156-2156-4.
+Kagan, Donald. (1974). The Archidamian War. Cornell University Press. ISBN 0-801-40889-X OCLC 1129967
+Kagan, Donald. (2003). The Peloponnesian War. New York: Viking Press. ISBN 0-670-03211-5.
+Luce, T.J., The Greek Historians. London: Routledge (1997). ISBN 0-415-10593-5.
+Luginbill, R.D., Thucydides on War and National Character. Boulder: Westview (1999). ISBN 0-8133-3644-9.
+Momigliano, Arnaldo, The Classical Foundations of Modern Historiography. Sather Classical Lectures, 54 Berkeley: University of California Press (1990).
+Meyer, Eduard, Kleine Schriften (1910), (Zur Theorie und Methodik der Geschichte).
+Orwin, Clifford, The Humanity of Thucydides. Princeton: Princeton University Press (1994). ISBN 0-691-03449-4.
+Podoksik, Efraim. "Justice, Power, and Athenian Imperialism: An Ideological Moment in Thucydides’ History", History of Political Thought. 26(1): 21–42, 2005.
+Romilly, Jacqueline de, Thucydides and Athenian Imperialism. Oxford: Basil Blackwell (1963). ISBN 0-88143-072-2.
+Rood, Tim, Thucydides: Narrative and Explanation. Oxford: Oxford University Press (1998). ISBN 0-19-927585-8.
+Russett, Bruce (1993). Grasping the Democratic Peace. Princeton University Press. ISBN 0-691-03346-3. 
+de Sainte Croix. The origins of the Peloponnesian War (1972). London: Duckworth. 1972. Pp. xii, 444.
+Strassler, Robert B, ed. The Landmark Thucydides: A Comprehensive Guide to the Peloponnesian War. New York: Free Press (1996). ISBN 0-684-82815-4.
+Strauss, Leo, The City and Man Chicago: Rand McNally, 1964.
+Zagorin, Perez. Thucydides: an Introduction for the Common Reader. Princeton, NJ: Princeton University Press (2005). ISBN 069113880X OCLC 57010364
+External links[edit]
+Find more aboutThucydidesat Wikipedia's sister projects
+Definitions from Wiktionary
+Media from Commons
+News from Wikinews
+Quotations from Wikiquote
+Texts from Wikisource
+Textbooks from Wikibooks
+Learning resources from Wikiversity
+Greek Wikisource has original text related to this article:
+Θουκυδίδης
+Works by Thucydides at Project Gutenberg
+Works by or about Thucydides at Internet Archive
+Works by Thucydides at LibriVox (public domain audiobooks)
+Short Bibliography on Thucydides Lowell Edmunds, Rutgers University
+Perseus Project Thucydides, Table of Contents
+Thomas Hobbes' Translation of Thucydides
+Anthony Grafton, "Did Thucydides Really Tell The Truth?" in Slate, October 2009.
+Bibliography at GreatThinkers.org
+Works by Thucydides at Somni:
+Thucididis Historiarum liber a Laurentio Vallensi traductus. Italy, 1450-1499.
+De bello Peloponnesiaco.Naples, 1475.
+v
+t
+e
+Ancient Greece
+Outline
+Timeline
+ 
+History
+Geography
+Periods
+Cycladic civilization
+Minoan civilization
+Mycenaean civilization
+Greek Dark Ages
+Archaic period
+Classical Greece
+Hellenistic Greece
+Roman Greece
+Geography
+Aegean Sea
+Aeolis
+Alexandria
+Antioch
+Cappadocia
+Crete
+Cyprus
+Doris
+Ephesus
+Epirus
+Hellespont
+Ionia
+Ionian Sea
+Macedonia
+Magna Graecia
+Miletus
+Peloponnesus
+Pergamon
+Pontus
+Taurica
+Ancient Greek colonies
+ 
+City states
+Politics
+Military
+City states
+Argos
+Athens
+Byzantion
+Chalcis
+Corinth
+Eretria
+Kerkyra
+Larissa
+Megalopolis
+Megara
+Rhodes
+Samos
+Sparta
+Syracuse
+Thebes
+Politics
+Boeotarch
+Boule
+Koinon
+Proxeny
+Strategos
+Tagus
+Tyrant
+Amphictyonic League
+Athenian
+Agora
+Areopagus
+Ecclesia
+Graphē paranómōn
+Heliaia
+Ostracism
+Spartan
+Apella
+Ephor
+Gerousia
+Harmost
+Macedon
+Synedrion
+Koinon
+Military
+Wars
+Athenian military
+Antigonid Macedonian army
+Army of Macedon
+Ballista
+Cretan archers
+Hellenistic armies
+Hippeis
+Hoplite
+Hetairoi
+Macedonian phalanx
+Phalanx
+Peltast
+Pezhetairos
+Sarissa
+Sacred Band of Thebes
+Sciritae
+Seleucid army
+Spartan army
+Toxotai
+Xiphos
+Xyston
+ 
+People
+List of ancient Greeks
+Rulers
+Kings of Argos
+Archons of Athens
+Kings of Athens
+Kings of Commagene
+Diadochi
+Kings of Lydia
+Kings of Macedonia
+Kings of Paionia
+Attalid kings of Pergamon
+Kings of Pontus
+Kings of Sparta
+Tyrants of Syracuse
+Philosophers
+Anaxagoras
+Anaximander
+Anaximenes
+Antisthenes
+Aristotle
+Democritus
+Diogenes of Sinope
+Empedocles
+Epicurus
+Gorgias
+Heraclitus
+Hypatia
+Leucippus
+Parmenides
+Plato
+Protagoras
+Pythagoras
+Socrates
+Thales
+Zeno
+Authors
+Aeschylus
+Aesop
+Alcaeus
+Archilochus
+Aristophanes
+Bacchylides
+Euripides
+Herodotus
+Hesiod
+Hipponax
+Homer
+Ibycus
+Lucian
+Menander
+Mimnermus
+Panyassis
+Philocles
+Pindar
+Plutarch
+Polybius
+Sappho
+Simonides
+Sophocles
+Stesichorus
+Theognis
+Thucydides
+Timocreon
+Tyrtaeus
+Xenophon
+Others
+Agesilaus II
+Agis II
+Alcibiades
+Alexander the Great
+Aratus
+Archimedes
+Aspasia
+Demosthenes
+Epaminondas
+Euclid
+Hipparchus
+Hippocrates
+Leonidas
+Lycurgus
+Lysander
+Milo of Croton
+Miltiades
+Pausanias
+Pericles
+Philip of Macedon
+Philopoemen
+Praxiteles
+Ptolemy
+Pyrrhus
+Solon
+Themistocles
+Groups
+Philosophers
+Playwrights
+Poets
+Tyrants
+By culture
+Ancient Greek tribes
+Thracian Greeks
+Ancient Macedonians
+ 
+Society
+Culture
+Society
+Agriculture
+Calendar
+Clothing
+Coinage
+Cuisine
+Economy
+Education
+Festivals
+Funeral and burial practices
+Homosexuality
+Law
+Olympic Games
+Pederasty
+Philosophy
+Prostitution
+Religion
+Slavery
+Warfare
+Wedding customs
+Wine
+Arts
+Sciences
+Architecture (Greek Revival architecture)
+Astronomy
+Literature
+Mathematics
+Medicine
+Music (Musical system)
+Pottery
+Sculpture
+Technology
+Theatre
+Religion
+Funeral and burial practices
+Mythology
+mythological figures
+Temple
+Twelve Olympians
+Underworld
+Sacred places
+Eleusis
+Delphi
+Delos
+Dodona
+Mount Olympus
+Olympia
+Structures
+Athenian Treasury
+Lion Gate
+Long Walls
+Philippeion
+Theatre of Dionysus
+Tunnel of Eupalinos
+Temples
+Aphaea
+Artemis
+Athena Nike
+Erechtheion
+Hephaestus
+Hera (Olympia)
+Parthenon
+Samothrace
+Zeus (Olympia)
+Language
+Proto-Greek
+Mycenaean
+Homeric
+Dialects
+Aeolic
+Arcadocypriot
+Attic
+Doric
+Ionic
+Locrian
+Macedonian
+Pamphylian
+Koine
+Writing
+Linear A
+Linear B
+Cypriot syllabary
+Greek alphabet
+Greek numerals
+Attic numerals
+ 
+Lists
+Cities
+in Epirus
+People
+Place names
+Stoae
+Temples
+Theatres
+Category
+Portal
+Authority control
+WorldCat Identities
+VIAF: 95161463
+LCCN: n79021175
+ISNI: 0000 0001 2144 141X
+GND: 11862234X
+SUDOC: 02716280X
+BNF: cb119266111 (data)
+NDL: 00476166
+NKC: jn19981002215
+BNE: XX1719702
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Thucydides&oldid=767690521"
+Categories: Ancient Athenian generalsAncient Athenian historiansClassical-era Greek historiansAncient Thracian GreeksAncient Greek merchantsPeople of the Peloponnesian War5th-century BC Greek people4th-century BC Greek people5th-century BC historiansPhilosophers of scienceAncient Greek agnosticsOstracized AtheniansAttic Greek writersPolitical realistsPhilaidae460s BC births400s BC deathsHidden categories: Pages using infobox person with unknown parametersInfobox person using ethnicityArticles with hCardsArticles containing Ancient Greek-language textArticles with Project Gutenberg linksArticles with Internet Archive linksArticles with LibriVox linksWikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with BNF identifiersPages using ISBN magic links
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+Article
+Talk
+Variants
+Views
+Read
+Edit
+View history
+More
+Search
+Navigation
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+Interaction
+HelpAbout WikipediaCommunity portalRecent changesContact page
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page
+Print/export
+Create a bookDownload as PDFPrintable version
+In other projects
+Wikimedia CommonsWikiquoteWikisource
+Languages
+AfrikaansAlemannischአማርኛالعربيةAragonésAsturianuAzərbaycancaবাংলাБеларускаяБългарскиBrezhonegCatalàČeštinaCymraegDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisGaeilgeGalego한국어Հայերենहिन्दीHrvatskiIdoBahasa IndonesiaInterlinguaÍslenskaItalianoעבריתქართულიҚазақшаLatinaLatviešuLëtzebuergeschLietuviųMagyarМакедонскиMalagasyമലയാളംმარგალურიNederlands日本語Norsk bokmålNorsk nynorskOccitanOʻzbekcha/ўзбекчаپنجابیPatoisPiemontèisPolskiPortuguêsRomânăРусскийScotsShqipSicilianuSimple EnglishSlovenčinaSlovenščinaکوردیی ناوەندیСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaTagalogไทยTürkçeУкраїнськаاردوTiếng ViệtWinarayYorùbáZazaki中文
+Edit links
+This page was last modified on 27 February 2017, at 11:22.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view

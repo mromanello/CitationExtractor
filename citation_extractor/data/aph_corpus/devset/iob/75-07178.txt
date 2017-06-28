@@ -1,0 +1,15 @@
+Étude	NOM
+lexicale	ADJ
+visant	VER:ppre
+à	PRP
+décrire	VER:infi
+l'	DET:ART
+organisation	NOM
+et	KON
+la	DET:ART
+mentalité	NOM
+des	PRP:det
+milieux	NOM
+monastiques	ADJ
+égyptiens	ADJ
+

@@ -1,0 +1,176 @@
+Arétée de Cappadoce — Wikipédia
+Arétée de Cappadoce
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+ Pour l’article ayant un titre homophone, voir Arété.
+Arétée de Cappadoce, huile sur panneau de bois, Mahmut Karatoprak, 2015 (Collection du Dr. Halil Tekiner, Kayseri/Cappadoce)
+Aretæus ou Arétée de Cappadoce, (Ἀρεταῖος / Aretaĩos) est un médecin de l'Antiquité romaine (Ier siècle ou IIe siècle a.p. J.C), originaire d'Anatolie, et auteur d'un traité d'observations cliniques, rédigé en grec ancien (dialecte ionien). Ses observations ont servi de modèles exemplaires jusqu'au XIXe siècle.
+Sommaire
+1 Biographie
+2 Texte et transmission
+3 Style
+4 Méthode et doctrine
+5 Éthique
+6 Tableaux cliniques
+6.1 Diabète
+6.2 Apoplexie
+6.3 Phtisie et asthme
+6.4 Lèpre
+6.5 Épilepsie
+6.6 Mélancolie et manie
+7 Références
+8 Bibliographie
+9 Sources
+10 Liens externes
+Biographie[modifier | modifier le code]
+On ne sait à peu près rien sur sa personne et sur sa vie. Son nom, Arétée de Cappadoce, indique qu'il est né en Anatolie centrale, en Turquie actuelle. C'est sous ce nom qu'il est connu (titre de son premier manuscrit), et cité [1],[2].
+On peut juste déduire de ses manuscrits et des témoignages d'autres auteurs grecs, qu'il a vécu entre le Ier siècle et le IIe siècle a.p. J.C. Un intervalle possible de temps serait celui de Néron à Didius Julianus. Des auteurs pensent qu'il a vécu dans la première moitié du Ier siècle après notre ère [3],[4]. Vivian Nutton (en) préfère l'ancienne hypothèse selon laquelle il aurait été contemporain de Galien[5],[6].
+On suppose qu'il a étudié à l'école de médecine d'Alexandrie[7] car il parle du Nil et de la nourriture des Égyptiens[8]. Mais nous ne connaissons en fait ni les lieux où il a vécu, ni celui où il est mort. On pense également qu'il a exercé à Rome[7], car il parle des vins et des aliments les plus consommés de cette ville[9].
+Texte et transmission[modifier | modifier le code]
+Médecin gréco-romain dans son étude.
+Il ne subsiste de lui qu'un seul ouvrage : Traité des signes, des causes et cures des maladies aiguës et chroniques comportant huit livres :
+Deux livres : De causis et signis acutorum morborum
+Deux livres : De causis et signis diuturnorum morborum
+Deux livres : De curatione acutorum morborum
+Deux livres, complets à l'exception de quelques chapitres, écrits en grec ionien : De curatione diuturnorum morborum
+Arétée parle dans son traité des autres manuscrits qu'il aurait écrits, sur les fièvres, les maladies des femmes et la chirurgie, mais aucun d’eux ne nous est parvenu[1].
+Son œuvre est d'abord restée en marge de la tradition hippocrato-galénique, en étant très peu citée[10]. Galien l'ignore totalement, ainsi qu'Oribase[10]. Au VIe siècle et VIIe siècle a.p. J.C, il est mentionné par Aetios d'Amida, Alexandre de Tralles, Paul d'Egine, mais il reste oublié par les médecins arabes et médiévaux jusqu'à sa redécouverte au XVIe siècle[11] , à la faveur de l'humanisme de la Renaissance (retour aux sources grecques)[12].
+Son traité est donc connu par une vingtaine de manuscrits en mauvais état, tous tardifs (seconde moitié du XVe siècle [10]). Giono Paolo Crasso[13] (dit Junius Paulus Crassus), professeur à Padoue, découvre un manuscrit grec d'Arétée, et décide de le traduire en latin, en collationnant également d'autres manuscrits. Cette première traduction latine est imprimée à Venise en 1552 [10]. Elle est reprise dans Medicae artis principes (1567), recueil de textes médicaux antiques postérieurs à ceux d'Hippocrate et Galien, imprimé par Henri Estienne. Ce qui assura à Arétée une place parmi les grands médecins de l'Antiquité. « Cette traduction latine imprimée fait connaitre Arétée à des lecteurs plus nombreux que ceux qui pouvaient le lire dans des manuscrits grecs »[10].
+La première édition en grec, plus complète (5 chapitres étaient manquants dans l'édition latine), est celle de 1554. Elle est attribuée à Jacques Goupil, pour le compte d'Adrien Turnèbe, l'imprimeur royal d'Henri II[2].
+De nouvelles éditions, accompagnées ou non de commentaires, se succèdent avec la découverte de nouveaux manuscrits : en 1603 par Georg Henisch (de), celle de John Wigan (en) (1725), de Pierre Petit (1726, publiée après la mort de l'auteur), de Boerhaave (1731), de Haller (1772). Au XIXe siècle, il existe deux traductions françaises, celle de Laennec restée longtemps manuscrite (105 feuillets conservés à la Bibliothèque Universitaire de Nantes[14]) et publiée en 2000[15], et celle de M.L. Renaud (1834)[2]
+Style[modifier | modifier le code]
+Arétée se veut un digne successeur d’Hippocrate de Cos. Il fait montre d'hermétisme médical en écrivant dans la langue d’Hippocrate, l’ionien, qui n'avait pourtant plus cours au premier siècle[16]. Ce caractère archaïque a donné à penser qu'Arétée serait un auteur beaucoup plus ancien, mais il s'agirait plutôt d'une fidélité doctrinale à l'hippocratisme[14].
+Sa manière d'écrire est concise, précise, saisissante[2], il peint les maladies de manière naturaliste, originale[15], certains de ses tableaux cliniques sont très expressifs et presque modernes[7]. Elle ne fait cependant pas l'unanimité chez des médecins historiens, comme Daremberg qui n'aimait pas Arétée[17] : « La rhétorique a masqué la médecine. La phrase est si élégante, qu'on est séduit par la forme et qu'on est enclin à considérer comme ressemblant ce qui est peint sous de vives couleurs [18]». De même, Souques qui trouve le style pompeux, surchargé de métaphores, et qui conclut, après avoir cité Daremberg, « c'est mon sentiment. Il y a cependant de bonnes choses dans Arétée [19]».
+Méthode et doctrine[modifier | modifier le code]
+Sa méthode diagnostique reprend le modèle humoral hippocratique. Il commence chaque chapitre par une courte description anatomique de la partie dont il va décrire les maladies. Cette anatomie succincte est celle de son temps, parfois fautive du point de vue moderne.
+Loin de rester prisonnier des dogmes d'aucune secte, il expose une clinique et une thérapeutique basées sur son jugement, son expérience et l'observation. Arétée n'est pas un compilateur, il ne traite que de ce qu'il a constaté lui-même de visu. Démarche reprise plus tard au XVIIe siècle par Sydenham et XVIIIe siècle par Morgagni. Ce dernier fait les louanges d'Arétée, comme lui, Morgagni attache une importance particulière à l'environnement du malade (l'air qu'il respire, les aliments qu'il ingère, les appartements où il vit). Il est le premier à s'intéresser à ce que les médecins du XIXe siècle appelaient «  habitus [20]» et reconnaît en cela l'influence du médecin grec qui « l'a tant impressionné »[2],[15].
+Inconnu du grand public, Arétée est cependant considéré, au début du XIXe siècle par Laennec ou Pinel, comme aussi important que Hippocrate, dont il en reprend d'ailleurs en partie l'approche nosologique clinique[2]. C'est-à-dire qu'il envisage de classer les maladies selon leurs symptômes, faute de pouvoir le faire sur leurs causes ou sur leur mécanismes. Il évite ainsi la plupart des querelles de doctrine[7], en développant pleinement la distinction entre les maladies aigües (Hippocrate en avait déjà fait un groupe distinct) et les maladies chroniques[21].
+Vivian Nutton (en) et Danielle Gourevitch (de) placent Arétéé dans le groupe des médecins « hors secte[22] ». Nutton le range comme médecin « rationaliste »[23]. D'autres le classent parmi les « pneumatiques »[15],[24], mais si Arétée mentionne le pneuma (le souffle, l'esprit) ce n'est pas assez pour le rattacher à cette doctrine[14]. De même, lorsqu'il mentionne le « tonos » (énergie ou force vitale), ou la qualité des éléments (par exemple, la céphalée due au froid et au vent sec[2]), il montre qu'il peut emprunter à toutes les écoles, en restant lui-même un esprit original[7].
+Éthique[modifier | modifier le code]
+Arétée n'hésite pas à faire partager son sentiment et ses émotions, devant des situations pénibles ou atroces. Cette compassion s'accompagne d'une rigueur de principe : face à des maladies qui l'ont frappé d'horreur (le tétanos ou « l'iléon » probablement occlusion intestinale aigüe), le médecin selon lui, même dans ces situations désespérées, ne doit pas participer au suicide : « Même lorsque la mort est un bonheur pour ceux qui souffrent ainsi, il ne convient pas à un médecin de s'en occuper » (maladies aigües, II, 5)[25].
+Il témoigne aussi des réactions communes, psychologiques ou sociales face à la maladie, comme le sentiment d'humiliation ou de honte ressenti par le patient épileptique, l'abandon par leurs proches des patients atteints de lèpre[26], ou encore que même un homme du peuple sait reconnaitre un phtisique (tuberculeux) dans « une personne pâle, défaite, décharnée, poursuivie par une toux continuelle ».
+Tableaux cliniques[modifier | modifier le code]
+Les plus éminents médecins depuis la Renaissance jusqu'au XIXe siècle lisent beaucoup Arétée, et le citent dans leurs références bibliographiques : on retrouve Arétée cité par Valsalva, Cabanis, Morgagni, Laennec, Chomel, entre autres.
+Laënnec le cite parmi les médecins qui ont ouvert la voie à la médecine « moderne », alliant observation, approche rationnelle et sens critique. Ses descriptions, son talent d'observation sont dignes d'Hippocrate. Selon Mirko D Grmek, Arétée est l'un des représentants de la médecine hellénistique et romaine s'attachant à retracer des tableaux synthétiques de maladies :
+« La remarque d'Aristote qu'il n'y a pas de science de l'individu et de l'unique devenait de plus en plus évidente : s'il est vrai que le médecin observe et soigne des individus, l'art médical comme tel ne peut concevoir que des règles générales »[21],.
+Les descriptions synthétiques d'Arétée les plus remarquables sont celles de l'apoplexie, de l'épilepsie, de la mélancolie ; de la migraine, du tétanos ; de la phtisie ; du diabète, de la lithiase urinaire ; il aurait aussi entrevu la lèpre et la diphtérie.
+Diabète[modifier | modifier le code]
+Encore inconnu au temps d'Hippocrate, probablement à cause de sa rareté, le diabète apparait comme une maladie relativement fréquente et sérieuse sous l'Empire Romain (modifications des habitudes sociales et alimentaires)[27]. On lit habituellement que c'est Galien (129-201 apr. J.-C.) qui, le premier, reprend les descriptions du « mal de la soif » (notamment celle d'Appollonius de Memphis[28], inventeur du mot « diabète » en 250 av. J.-C.)[29].
+Arétée est le premier à insister sur l'observation qu'il a faite, celle de l'évolution vers la cachexie des malades atteints de diabète :
+« Le développement de la maladie est progressif mais courte sera la vie de l'homme chez lequel la maladie est complètement développée. Un amaigrissement rapide se produit et la mort survient vite (...) L'urine emmène avec elle différentes parties du corps qui ont été liquéfiées. D'où il me semble que cette affection a reçu le nom de diabète, ce qui signifie siphon, car les fluides ne restent pas dans le corps qu'ils utilisent comme un canal à travers lequel ils peuvent passer. »[30].
+Il ne manque que la description de la glycosurie, le « Madu Mehe » décrit par le médecin Sushruta (Inde, VIe siècle av. J.-C.) puis beaucoup plus tard par Paracelse au XVe siècle puis Thomas Willis au XVIIe siècle.
+Apoplexie[modifier | modifier le code]
+Arétée situe les lésions à l'origine de paralysies après « ictus apoplectique » du côté cérébral opposé à l'hémiplégie[31], qu'il explique par « l'entrecroisement de nerfs » partant du cerveau (maladies chroniques, livre I, chap. VII)[32]. Plusieurs des médecins des siècles qui suivirent rejetèrent cette assertion, jusqu'à l'avènement de l'anatomie-pathologique de Morgagni (1761) confirmant les talents d'observation d'Arétée.
+Selon Souques, Arétée n'est pas un anatomiste, c'est d'abord un clinicien qui imagine ou admet un entrecroisement théorique, car stricto sensu les nerfs partant du cerveau ne se croisent pas, il s'agit en fait d'un entrecroisement (décussation) des voies motrices et sensitives qui ne sera démontré qu'à l'époque moderne[33].
+Phtisie et asthme[modifier | modifier le code]
+Les lignes qu'Arétée de Cappadoce consacre à la phtisie et à l'asthme le font considérer comme un des premiers des « pneumo-phtisiologues »[34].
+Il reprend la notion d'habitus phthisicus (apparence générale du sujet atteint de phtisie) d'Hippocrate, en mentionnant notamment les scapulæ alatæ (omoplates faisant saillie en forme d'ailerons). Sa description de la phtisie pulmonaire (tuberculose pulmonaire) est détaillée par le menu avec beaucoup de discernement. Selon Laennec, cité par M.D. Grmek, cette description est « un tableau effrayant de vérité ». Grmek ajoute : « son chapitre sur la phtisie est l'apogée de la sémiologie médicale de l'Antiquité. Même un praticien d'aujourd'hui aurait des choses à apprendre en méditant ce texte »[35].
+L'asthme est désigné sous le nom de « orthopnée », parce que le patient veut se redresser et respirer debout. Il note sa fréquence chez l'enfant et sa disparition à l'adolescence, mais s'il persiste chez un homme adulte, c'est une maladie dangereuse. Arétée décrit la crise d'asthme : l'oppression dans la poitrine, le rougissement des joues, les yeux exorbités, la tentative de trouver de l'air frais, le soulagement de la fin de crise, jusqu'au retour des crises suivantes. Il attribue cet asthme à un froid humide, le différenciant de l'essoufflement aux vapeurs nocives chaudes (brûleurs de chaux, travailleurs des métaux, employés aux fourneaux dans les bains..). L'explication froid/chaud est fausse du point de vue moderne, mais la distinction est correcte[36].
+Lèpre[modifier | modifier le code]
+Aretée donne une description approfondie de l'elephantiasis, terme de médecine antique désignant la lèpre (et qui, en médecine moderne, désigne tout autre chose : une forme compliquée de filariose lymphatique). Il montre son début insidieux, les lépromes (nodules infiltrés de la lèpre), le faciès léonin, et les mutilations finales. Il n'indique pas la perte de sensibilité de la lèpre tuberculoïde, son expérience directe étant confrontée avec la seule forme lépromateuse, à basse résistance immunitaire[26].
+Épilepsie[modifier | modifier le code]
+Arétée de Cappadoce fait également une description précise et fine de l'épilepsie. Il est l'un des premiers à décrire l'aura (symptômes annonciateurs -phénomènes sensoriels- qui peuvent précéder certaines crises épileptiques). Il donne des exemples de stimuli provoquant ce qu'on appelle aujourd'hui des épilepsies réflexes :
+« Aussi les uns tombent à la moindre cause, au moindre chagrin ; les autres, s'il leur arrive de fixer le courant d'une rivière, ou bien une roue que l'on tourne, ou un sabot que l'on fait pirouetter ; enfin s'il leur arrive de sentir une odeur un peu forte » (maladies aigües, livre I, chap.V).
+En décrivant en détail la grande crise épileptique, il ajoute deux métaphores :
+« L'état de ces infortunés ressemble beaucoup à celui d'un taureau qu'on vient d'égorger (...) Ainsi les épileptiques, de même que la mer lorsqu'elle est agitée par la tempête, rejettent une grande quantité d'écume, et alors se relèvent comme ayant fini leur accès ».
+Tout en louant Arétée pour sa description magistrale et complète de la crise épileptique « il n'oublie rien d'essentiel », Souques trouve son style métaphorique superflu [19]. D''autres considèrent dans les textes médicaux antiques la valeur opératoire des métaphores, de l'imagination et de la poésie[37].
+Mélancolie et manie[modifier | modifier le code]
+Arétée distingue l'hallucination (« rêve éveillé », ou sensation vaine, perception sans réalité qui la provoque) de l'illusion (erreur d'interprétation à partir d'un stimulus réel). Il rattache les hallucinations à la phrenitis[38] (agitation délirante lors de paroxysmes fébriles), et les illusions à la manie. La manie s'oppose d'abord à la phrenitis, la manie étant un état durable sans fièvre.
+Tous les historiques de la psychose maniaco-dépressive commencent par une référence à Arétée de Cappadoce, considéré comme le premier à avoir eu une conception unitaire entre manie et mélancolie. Selon Pigeaud, « c'est une idée reçue que l'on rencontre dans tous les ouvrages de vulgarisation »[39]. Une des sources de cette idée reçue serait Pinel, citant Arétée comme autorité. En fait, depuis Aristote, il existait déjà une tradition médico-philosophique faisant de la mélancolie et de la manie, deux états d'un même trouble des humeurs[40], affectant la bile.
+Cette tradition unitaire est traversée par des discussions (la mélancolie comme espèce du genre manie - ou le contraire - ; la manie affectant la tête et la mélancolie le ventre ; la manie ou la mélancolie comme état de début...). Arétée ne fait que s'inscrire dans ce débat en disant « les formes de la manie sont innombrables, mais elle est une par le genre »[41] et en faisant de la mélancolie, un état de début, précédant l'état maniaque[40].
+« Il me semble que la mélancolie est le départ et une partie de la manie. Chez les maniaques, en effet, la pensée se tourne tantôt vers la colère, tantôt vers la joie ; mais chez les mélancoliques, elle ne se tourne que vers le chagrin et l'abattement »[42].
+Les descriptions d'Arétée peuvent être vues comme assez proches de ce qu'on appelle aujourd'hui le trouble bipolaire. A condition toutefois d'occulter le fait que tous les auteurs antiques décrivent aussi la concomitance de troubles psychiques et de troubles digestifs, pour expliquer la manie et la mélancolie. Arétée s'applique plus à distinguer manie et mélancolie qu'à approfondir leur réunion[40].
+Références[modifier | modifier le code]
+↑ a et b (en) Halil Tekiner, « Aretaeus of Cappadocia and his treatises on diseases », Turkish Neurosurgery, vol. 25, no 3,‎ 2015, p. 508-512 (DOI 10.5137/1019-5149.jtn.12347-14.0, lire en ligne)
+↑ a, b, c, d, e, f et g « M.L. Renaud, 1834. »
+↑ Huard, Grmek, 1985.« Arétée de Cappadoce »
+↑ Oberhelman, 1994. « Aretaeus of Cappadocia : the Pneumatic physician of the first century », ANRW II, 37(2), p.941-966.
+↑ Vivian Nutton dans The Western Medical Tradition, 800 BC to AD 1800, Cambridge University Press, 1995, place Arétée de Capadoce dans une période centrée sur 140 a.p.J.C, dans une table chronologique p.9.
+↑ V. Nutton, La médecine antique, Les Belles Lettres, 2016 (ISBN 978-2-251-38135-0), p. 231-232.
+↑ a, b, c, d et e P. Theil, L'esprit éternel de la médecine, anthologie des écrits médicaux anciens, t. I : L'antiquité occidentale, Compagnie générale de publicité et d'édition, 1965, p. 287-288
+↑ M.L. Renaud 1834, op.cit., p.22.
+↑ N.F.J. Eloy, Dictionnaire historique de la médecine ancienne et moderne, 1778 (lire en ligne), p. 170-173
+↑ a, b, c, d et e Amneris Roselli, Les éditions d'Arétée de Cappadoce, De Boccard Edition-Diffusion, 2004 (ISBN 2-915634-00-9), p. 99-112.
+dans Lire les médecins grecs à la Renaissance, aux origines de l'édition médicale.
+↑ Notamment par Morgagni, dans son De sedibus et causis morborum, Venise, 1761.
+↑ P.E. Pormann, La querelle des médecins arabistes et hellénistes et l'héritage oublié., De Boccard Edition-Diffusion, 2004 (ISBN 2-915634-00-9), p. 113-141.
+dans Lire les médecins grecs à la Renaissance, aux origines de l'édition médicale. (L'héritage oublié ne concerne pas Arétée, il s'agit du refoulement des traductions latines à partir de l'arabe, au profit de celles à partir du grec).
+↑ Appelé aussi Giunio Paolo Grassi.
+↑ a, b et c D. Gourevitch, La médecine dans le monde romain, Seuil, 1995 (ISBN 2-02-022138-1), p. 108
+dans Histoire de la pensée médicale en Occident, vol.1, Antiquité et Moyen-Age, M.D. Grmek (dir.).
+↑ a, b, c et d Arétée de Cappadoce, « Des causes et des signes des maladies aiguës et chroniques », traduit par R.T.H Laennec, préfacé par Danielle Gourevicth, commenté par Mirko Grmek, Genève, Droz, 2000.
+↑ Caroline Petit, « Médecine et hellénisme à la Renaissance », Medicina & Storia, XI, 2011
+↑ Jackie Pigeaud, La maladie de l'âme, Les Belles Lettres, 1981 (ISBN 2-251-32842-4), p. 256 (note 57)
+↑ C. Daremberg, Histoire des Sciences Médicales, Baillière, 1870, p. 239-240
+cité par J. Pigeaud 1981, op.cit, p.256, note 57.
+↑ a et b A. Souques, Etapes de la neurologie dans l'Antiquité grecque, Masson, 1936, p. 149-150 et 159.
+↑ En médecine : apparence physique, aspect général du corps, indiquant un état de santé ou de maladie, lié à l'hérédité et/ou aux habitudes de vie.
+↑ a et b M.D. Grmek, Le concept de maladie, Seuil, 1995 (ISBN 2-02-022138-1), p. 223-224.
+dans Histoire de la pensée médicale en Occident, vol.1, Antiquité et Moyen-Age, M.D. Grmek (dir.).
+↑ Le terme secte (secte médicale de l'antiquité) n'a pas de sens péjoratif, il a le sens d'école (disciples regroupés autour d'un Maître).
+↑ (en) Vivian Nutton, Roman medicine 250 BC to AD 200, Cambridge University Press, 1995 (ISBN 0-521-38135-5), p. 44.
+dans The Western Medical Tradition 800 BC to AD 1800
+↑ La secte ou école Pneumatique ou des Pneumatistes attribue tous les changements du corps à un pneuma (souffle, esprit), une sorte de super-élément contrôlant aussi les mouvements cosmiques. Concept attribué aux stoïques et à quelques philosophes pré-socratiques.
+↑ Danielle Gourevitch, Le triangle hippocratique dans le monde gréco-romain, le malade, sa maladie et son médecin., Ecole française de Rome, 1984, p. 206
+↑ a et b M.D. Grmek 1983, op. cit., p.253.
+↑ M.D. Grmek, Les maladies à l'aube de la civilisation occidentale, Payot, 1983 (ISBN 2-228-55030-2), p. 28.
+↑ ou Appollonius Memphites, né à Memphis, et disciple d'Érasistrate.
+↑ Leclerc, Histoire de la médecine, Genève, J. A. Chouët, D. Ritter, 1696.
+↑ J. Hazard et L. Perlemuter, L'Homme hormonal, Hazard, Paris, 1995.
+↑ Brouardel, Gilbert, Traité de médecine et de thérapeutique, Baillère, Paris 1905.
+↑ Renaud 1834, op.cit., voir p.97.
+↑ A. Souques, op. cit., p.165.
+↑ Gluck U., “The history of bronchial asthma”, Ther Umsch., 1992.
+↑ M.D Grmek 1983, op. cit, p.281-283.
+↑ V. Nutton 2016, op. cit., p.232-233.
+↑ J. Pigeaud 1981, op.cit, p.24-25 et 137. Voir aussi Poétiques du corps, aux origines de la médecine, 2008, du même auteur.
+↑ Les phrênes ou diaphragme étaient censés (à l'époque d'Homère) être le siège de l'intelligence et du contrôle des émotions. Le terme phrenitis disparait du langage médical au cours du XVIIIe siècle, en passant dans le langage courant : le français frénésie, l'anglais frenzy etc...
+↑ J. Pigeaud 1981, op.cit. p. 130, donne deux exemples : Y. Pélicier, Histoire de la psychiatrie, PUF, Que sais-je ?, p.21 et Alexander Histoire de la psychiatrie, Colin, 1972, p.59.
+↑ a, b et c J. Pigeaud 1981, op. cit., p.129-131.
+↑ J. Pigeaud 1981, op. cit., p.100.
+↑ cité par Jackie Pigeaud, Poétiques du corps, Aux origines de la médecine, Les Belles Lettres, 2008, p.559.
+Bibliographie[modifier | modifier le code]
+Arétée de Cappadoce, Des causes et des signes des maladies aiguës et chroniques, traduit par R.T.H Laennec, édité et commenté par Mirko D. Grmek, préface de Danielle Gourevitch, Genève, Droz, 2000. (ISBN 2-600-00411-4).
+Sources[modifier | modifier le code]
+Marie-Nicolas Bouillet et Alexis Chassang (dir.), « Arétée de Cappadoce » dans Dictionnaire universel d’histoire et de géographie, 1878 (Wikisource)
+Liens externes[modifier | modifier le code]
+Notices d'autorité : Fichier d'autorité international virtuel • International Standard Name Identifier • Bibliothèque nationale de France (données) • Système universitaire de documentation • Bibliothèque du Congrès • Gemeinsame Normdatei • Service bibliothécaire national • WorldCat
+Traité des signes, des causes et de la cure des maladies aigües et chroniques, Paris : Lagny, 1834, édition de M.L. Renaud
+Portail de la médecine
+Portail de la Grèce antique
+Ce document provient de « https://fr.wikipedia.org/w/index.php?title=Arétée_de_Cappadoce&oldid=132616985 ».
+Catégorie : Médecin de la Grèce antiqueCatégories cachées : Article contenant un appel à traduction en anglaisArticle contenant un appel à traduction en allemandPage utilisant le modèle Références avec un paramètre obsolèteArticle partiellement issu du Dictionnaire universel d'histoire et de géographie BouilletArticle de Wikipédia avec notice d'autoritéPortail:Médecine/Articles liésPortail:Sciences humaines et sociales/Articles liésPortail:Grèce antique/Articles liésPortail:Monde antique/Articles liésPortail:Histoire/Articles liésPortail:Europe/Articles liésBon article en russeWikipédia:Article biographiquePortail:Biographie/Articles liés/Sciences
+Menu de navigation
+Outils personnels
+Non connectéDiscussionContributionsCréer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+AccueilPortails thématiquesArticle au hasardContact
+Contribuer
+Débuter sur WikipédiaAideCommunautéModifications récentesFaire un don
+Outils
+Pages liéesSuivi des pages liéesImporter un fichierPages spécialesAdresse permanenteInformation sur la pageÉlément WikidataCiter cette page
+Imprimer / exporter
+Créer un livreTélécharger comme PDFVersion imprimable
+Dans d’autres langues
+العربيةБългарскиCatalàDeutschΕλληνικάEnglishEsperantoEspañolMagyarItalianoPolskiPortuguêsRomânăРусскийSvenskaTürkçeУкраїнська中文
+Modifier les liens
+Dernière modification de cette page le 12 décembre 2016, à 12:28.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Déclaration sur les témoins (cookies)
+Version mobile

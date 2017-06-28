@@ -1,0 +1,36 @@
+Projet	NOM
+d'	PRP
+une	DET:ART
+édition	NOM
+juxtaposant	VER:ppre
+plusieurs	PRO:IND
+formes	NOM
+du	PRP:det
+texte	NOM
+du	PRP:det
+Nouveau	NAM
+Testament	NAM
+,	PUN
+plutôt	ADV
+que	KON
+de	PRP
+revendiquer	VER:infi
+la	DET:ART
+priorité	NOM
+d'	PRP
+une	DET:ART
+version	NOM
+sur	PRP
+l'	DET:ART
+autre	ADJ
+.	SENT
+
+Rappel	NOM
+des	PRP:det
+éditions	NOM
+du	PRP:det
+texte	NOM
+grec	ADJ
+déjà	ADV
+réalisées	VER:pper
+

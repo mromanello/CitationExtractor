@@ -1,0 +1,11 @@
+À	PRP
+propos	NOM
+de	PRP
+l'	DET:ART
+ouvrage	NOM
+de	PRP
+l'	DET:ART
+auteur	NOM
+noté	VER:pper
+72-09954	NUM
+

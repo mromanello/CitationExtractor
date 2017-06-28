@@ -1,0 +1,19 @@
+Estudio	NC
+crítico	ADJ
+de	PREP
+los	ART
+ritos	NC
+mistéricos	ADJ
+paganos	ADJ
+y	CC
+de	PREP
+la	ART
+cuestión	NC
+de	PREP
+su	PPO
+posible	ADJ
+relación	NC
+con	PREP
+el	ART
+cristianismo	NC
+

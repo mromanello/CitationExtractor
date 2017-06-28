@@ -1,0 +1,18 @@
+L'	DET:def
+analisi	NOM
+testuale	ADJ
+mette	VER:pres
+in	PRE
+luce	NOM
+l'	DET:def
+utilizzo	NOM
+dell'	PRE:det
+immaginario	NOM
+biblico	ADJ
+,	PON
+dell'	PRE:det
+anafora	NOM
+e	CON
+del	PRE:det
+poliptoto	NOM
+

@@ -1,0 +1,55 @@
+Results	NNS
+of	IN
+excavations	NNS
+carried	VBN
+out	RP
+in	IN
+1996-1999	CD
+at	IN
+Jebel	NP
+Khalid	NP
+by	IN
+the	DT
+Australian	JJ
+National	NP
+University	NP
+.	SENT
+
+A	DT
+necropolis	NN
+was	VBD
+excavated	VBN
+but	CC
+most	JJS
+graves	NNS
+had	VBD
+been	VBN
+plundered	VBN
+.	SENT
+
+Finds	NNS
+from	IN
+the	DT
+North-West	NP
+Tower	NP
+and	CC
+the	DT
+Main	NP
+Gates	NP
+suggest	VBP
+a	DT
+construction	NN
+date	NN
+around	IN
+the	DT
+3rd	JJ
+cent	NN
+.	SENT
+
+B.	NP
+C.	NP
+For	IN
+previous	JJ
+=>	NN
+74-10482	CD
+

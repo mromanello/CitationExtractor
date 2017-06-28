@@ -1,0 +1,8 @@
+T1	REFAUWORK 29 36	(Geog.,
+T2	REFSCOPE 37 50	16, 2.35ff.),
+T3	AWORK 219 233	« Golden Age »
+T4	AAUTHOR 333 342	Tacitus '
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:2419:16.2.35
+#1	AnnotatorNotes T4	urn:cts:latinLit:phi1351
+#2	AnnotatorNotes T3	urn:cts:cwkb:377.762

@@ -1,0 +1,7 @@
+T1	REFAUWORK 74 78	(Ep.
+T2	REFSCOPE 79 114	63, 39, 88, 87, 19, 68, 25, 27, 101
+T3	REFSCOPE 115 122	und 34)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:897.2630:63.39.88.87.19.68.25.27.101
+#1	AnnotatorNotes R2	urn:cts:cwkb:897.2630:34

@@ -1,0 +1,11 @@
+T1	AAUTHOR 10 24	d' Aristophane
+T2	REFSCOPE 198 202	9-12
+T3	AWORK 207 222	« Acharniens »,
+T4	AAUTHOR 255 263	Théognis
+T5	AAUTHOR 312 322	d' Eschyle
+#0	AnnotatorNotes T4	urn:cts:cwkb:1372
+#1	AnnotatorNotes T5	urn:cts:greekLit:tlg0085
+#2	AnnotatorNotes T3	urn:cts:greekLit:tlg0019.tlg001
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0019
+R1	Scope Arg1:T3 Arg2:T2	
+#4	AnnotatorNotes R1	urn:cts:greekLit:tlg0019.tlg001:9-12

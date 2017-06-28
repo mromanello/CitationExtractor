@@ -1,0 +1,15 @@
+Analisi	NOM
+del	PRE:det
+rapporto	NOM
+tra	PRE
+il	DET:def
+cap.	ABR
+6	NUM
+e	CON
+il	DET:def
+cap.	ABR
+14	NUM
+del	PRE:det
+trattato	NOM
+aristotelico	ADJ
+

@@ -1,0 +1,15 @@
+Témoignage	NOM
+des	PRP:det
+inscriptions	NOM
+honorifiques	ADJ
+latines	ADJ
+de	PRP
+Bétique	NAM
+et	KON
+des	PRP:det
+papyrus	NOM
+grecs	ADJ
+de	PRP
+Soknopaiou	NAM
+Nesos	NAM
+

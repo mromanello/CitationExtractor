@@ -1,0 +1,15 @@
+Zur	APPRART
+veränderten	ADJA
+Nutzung	NN
+des	ART
+Stadtbezirkes	NN
+und	KON
+dem	ART
+Ortswechsel	NN
+der	ART
+heiligen	ADJA
+Stätten	NN
+im	APPRART
+historischen	ADJA
+Kontext	NN
+

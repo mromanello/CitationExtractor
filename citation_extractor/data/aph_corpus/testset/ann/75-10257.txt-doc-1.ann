@@ -1,0 +1,12 @@
+T1	AAUTHOR 34 50	Ammien Marcellin
+T3	REFAUWORK 151 154	(RG
+T4	REFSCOPE 155 168	28, 6, 1-29 ;
+T5	REFSCOPE 169 181	27, 9, 1-4 ;
+T6	REFSCOPE 182 195	30, 2, 9-12).
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T3 Arg2:T5
+R3	Scope Arg1:T3 Arg2:T6
+#3	AnnotatorNotes T1	urn:cts:latinLit:stoa0023
+#1	AnnotatorNotes R1	urn:cts:latinLit:stoa0023.stoa001:28.6.1-28.6.29
+#2	AnnotatorNotes R2	urn:cts:latinLit:stoa0023.stoa001:27.9.1-27.9.4
+#4	AnnotatorNotes R3	urn:cts:latinLit:stoa0023.stoa001:30.2.9-30.2.12

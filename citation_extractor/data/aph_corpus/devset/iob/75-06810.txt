@@ -1,0 +1,13 @@
+Exemples	NOM
+tirés	VER:pper
+des	PRP:det
+tragédies	NOM
+d'	PRP
+Eschyle	NAM
+,	PUN
+de	PRP
+Sophocle	NAM
+et	KON
+d'	PRP
+Euripide	NAM
+

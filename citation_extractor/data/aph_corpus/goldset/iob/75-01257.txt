@@ -1,0 +1,5 @@
+Osservazioni	NOM	O
+sul	PRE:det	O
+vol.	ABR	O
+schedato	NOM	O
+72-01267	NUM	O

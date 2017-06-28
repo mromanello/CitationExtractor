@@ -1,0 +1,25 @@
+Concernant	VER:ppre
+le	DET:ART
+règne	NOM
+de	PRP
+Justinien	NAM
+,	PUN
+Malalas	NAM
+est	VER:pres
+une	DET:ART
+source	NOM
+plus	ADV
+fiable	ADJ
+que	KON
+Théophane	NAM
+dont	PRO:REL
+l'	DET:ART
+œuvre	NOM
+est	VER:pres
+une	DET:ART
+construction	NOM
+tardive	ADJ
+et	KON
+trop	ADV
+libre	ADJ
+

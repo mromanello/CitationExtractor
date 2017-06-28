@@ -1,0 +1,21 @@
+Le	DET:ART
+sens	NOM
+«	PUN:cit
+corps	NOM
+non	ADV
+encore	ADV
+momifié	VER:pper
+»	PUN:cit
+est	VER:pres
+attesté	VER:pper
+par	PRP
+un	DET:ART
+unique	ADJ
+texte	NOM
+(	PUN
+SB	NAM
+6	NUM
+,	PUN
+9126	NUM
+)	PUN
+

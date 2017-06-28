@@ -1,0 +1,12 @@
+Osservazioni	NOM
+in	PRE
+merito	NOM
+all'	PRE:det
+opera	NOM
+di	PRE
+L.	ABR
+H.	ABR
+Westra	NOM
+schedata	ADJ
+74-06072	NUM
+

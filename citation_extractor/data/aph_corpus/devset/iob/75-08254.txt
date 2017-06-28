@@ -1,0 +1,27 @@
+Étude	NOM
+de	PRP
+cette	PRO:DEM
+tombe	NOM
+en	PRP
+usage	NOM
+aux	PRP:det
+1er-2e	NAM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+
+et	KON
+présentation	NOM
+du	PRP:det
+matériel	ADJ
+associé	NOM
+(	PUN
+céramique	ADJ
+,	PUN
+lampes	NOM
+,	PUN
+verres	NOM
+)	PUN
+

@@ -1,0 +1,22 @@
+Die	ART
+Vorherrschaft	NN
+auch	ADV
+gegenüber	APPR
+der	ART
+Septuaginta	NN
+entstand	VVFIN
+in	APPR
+Folge	NN
+der	ART
+Ereignisse	NN
+der	ART
+Makkabäerzeit	NN
+und	KON
+durch	APPR
+das	ART
+hasmonäische	ADJA
+Königtum	NN
+und	KON
+Hohepriestertum	NN
+.	$.
+

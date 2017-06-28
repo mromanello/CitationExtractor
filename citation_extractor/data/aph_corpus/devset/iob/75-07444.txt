@@ -1,0 +1,11 @@
+Etymologisch-semantische	ADJA
+Analyse	NN
+der	ART
+griechischen	ADJA
+Namensform	NN
+anhand	APPR
+der	ART
+wichtigsten	ADJA
+Belege	NN
+.	$.
+

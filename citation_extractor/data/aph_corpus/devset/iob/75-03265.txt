@@ -1,0 +1,10 @@
+Überlegungen	NN
+auch	ADV
+zur	APPRART
+Gestaltung	NN
+des	ART
+Stoffs	NN
+bei	APPR
+Menander	NE
+.	$.
+

@@ -1,0 +1,10 @@
+Note	NOM
+sull'	PRE:det
+attività	NOM
+dell'	PRE:det
+Accademia	NOM
+dedicata	VER:pper
+agli	PRE:det
+studi	NOM
+ambrosiani	ADJ
+

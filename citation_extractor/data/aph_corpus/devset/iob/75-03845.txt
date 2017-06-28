@@ -1,0 +1,13 @@
+Zu	APPR
+den	ART
+Darstellungen	NN
+des	ART
+Apollonios	NE
+von	APPR
+Tyana	NE
+und	KON
+des	ART
+Alexander	NE
+von	APPR
+Abonuteichos	NN
+

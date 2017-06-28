@@ -1,0 +1,5 @@
+T1	AAUTHOR 38 49	Quintilien,
+T2	REFSCOPE 50 62	8, 3, 61 sq.
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:602:8.3.61
+#1	AnnotatorNotes T1	urn:cts:cwkb:602

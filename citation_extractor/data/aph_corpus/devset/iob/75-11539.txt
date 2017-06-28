@@ -1,0 +1,32 @@
+À	PRP
+propos	NOM
+d'	PRP
+un	DET:ART
+motif	NOM
+présent	ADJ
+sur	PRP
+des	PRP:det
+vases	NOM
+à	PRP
+«	PUN:cit
+charioteers	NOM
+»	PUN:cit
+mycéniens	ADJ
+de	PRP
+Chypre	NAM
+et	KON
+sur	PRP
+des	PRP:det
+sceaux	NOM
+de	PRP
+Cnossos	NAM
+.	SENT
+
+L'	DET:ART
+objet	NOM
+semble	VER:pres
+être	VER:infi
+une	DET:ART
+chaise	NOM
+pliante	ADJ
+

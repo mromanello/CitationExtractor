@@ -1,0 +1,11 @@
+T1	AAUTHOR 129 138	Cicero 's
+T2	REFAUWORK 151 155	leg.
+T3	REFSCOPE 156 164	2, 15-16
+T4	REFSCOPE 169 176	3, 2-5.
+T5	AAUTHOR 177 183	Cicero
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:431.908:2.15-2.16
+#1	AnnotatorNotes R2	urn:cts:cwkb:431.908:3.2-3.5
+#2	AnnotatorNotes T5	urn:cts:cwkb:431
+#3	AnnotatorNotes T1	urn:cts:cwkb:431

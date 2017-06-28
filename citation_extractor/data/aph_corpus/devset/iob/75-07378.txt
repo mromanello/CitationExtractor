@@ -1,0 +1,11 @@
+Concerne	VER:pres
+le	DET:ART
+grec	NOM
+et	KON
+le	DET:ART
+latin	NOM
+.	SENT
+
+Avec	PRP
+bibliographie	NOM
+

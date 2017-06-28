@@ -1,0 +1,12 @@
+T1	REFAUWORK 45 49	(Mt.
+T2	REFSCOPE 50 58	2, 1-12)
+T3	REFAUWORK 99 104	(Num.
+T4	REFSCOPE 105 112	24, 17)
+T5	REFAUWORK 538 541	Mt.
+T6	REFSCOPE 542 549	2, 1-12
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:820.1957:2.1-2.12
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0007.tlg005:24.17
+#2	AnnotatorNotes R3	urn:cts:cwkb:820.1957:2.1-2.12

@@ -1,0 +1,21 @@
+Le	DET:def
+varianti	NOM
+del	PRE:det
+papiro	NOM
+dimostrano	VER:pres
+che	PRO:rela
+l'	DET:def
+aggiunta	NOM
+greca	ADJ
+al	PRE:det
+testo	NOM
+di	PRE
+Est	NOM
+8	NUM
+è	VER:pres
+stata	VER:pper
+composta	VER:pper
+in	PRE
+àmbito	NOM
+egiziano	ADJ
+

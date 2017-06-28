@@ -1,0 +1,20 @@
+Examen	NOM
+des	PRP:det
+gisements	NOM
+chypriotes	ADJ
+et	KON
+analyses	NOM
+d'	PRP
+objets	NOM
+du	PRP:det
+Bronze	NAM
+moyen	ADJ
+et	KON
+récent	ADJ
+trouvés	VER:pper
+à	PRP
+Chypre	NAM
+et	KON
+en	PRP
+Crète	NAM
+

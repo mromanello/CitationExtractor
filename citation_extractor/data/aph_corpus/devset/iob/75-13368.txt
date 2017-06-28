@@ -1,0 +1,53 @@
+À	PRP
+propos	NOM
+de	PRP
+CJ	ABR
+10	NUM
+,	PUN
+61	NUM
+,	PUN
+1	NUM
+=	NOM
+PGiss	NAM
+.	SENT
+
+40	NUM
+,	PUN
+2	NUM
+,	PUN
+1-5	NUM
+(	PUN
+=	NOM
+MChr	NAM
+.	SENT
+378	NUM
+)	PUN
++	SYM
+POxy	NAM
+.	SENT
+
+36	NUM
+,	PUN
+2755.	INT
+
+Une	DET:ART
+condamnation	NOM
+ou	KON
+une	DET:ART
+incapacité	NOM
+prononcée	VER:pper
+à	PRP
+temps	NOM
+ne	ADV
+saurait	VER:cond
+être	VER:infi
+prolongée	VER:pper
+au-delà	ADV
+de	PRP
+la	DET:ART
+durée	NOM
+prescrite	VER:pper
+pour	PRP
+la	DET:ART
+peine	NOM
+

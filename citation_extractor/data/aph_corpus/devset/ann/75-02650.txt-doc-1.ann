@@ -1,0 +1,8 @@
+T1	REFAUWORK 3 7	sat.
+T2	REFSCOPE 8 16	2, 2, 64
+T3	AAUTHOR 17 23	Horace
+T4	AAUTHOR 412 421	Horace 's
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:1368.4417:2.2.64
+#1	AnnotatorNotes T4	urn:cts:latinLit:phi0893
+#2	AnnotatorNotes T3	urn:cts:latinLit:phi0893

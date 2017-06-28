@@ -1,0 +1,19 @@
+L'	DET:ART
+ecclésiologie	NOM
+du	PRP:det
+Pseudo-Denys	NAM
+peut	VER:pres
+-elle	PRO:PER
+être	VER:infi
+considérée	VER:pper
+comme	ADV
+la	DET:ART
+transposition	NOM
+chrétienne	ADJ
+d'	PRP
+une	DET:ART
+philosophie	NOM
+politique	ADJ
+néoplatonicienne	ADJ
+?	SENT
+

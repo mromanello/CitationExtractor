@@ -1,0 +1,27 @@
+Osservazioni	NOM
+su	PRE
+tratti	NOM
+moderni	ADJ
+e	CON
+tratti	VER:cpre
+arcaici	ADJ
+nella	PRE:det
+cultura	NOM
+dei	PRE:det
+Traci	NOM
+,	PON
+con	PRE
+esempi	NOM
+riguardanti	VER:ppre
+la	DET:def
+cortigiana	ADJ
+Rodopi	NOM
+,	PON
+il	DET:def
+re	NOM
+Seute	NOM
+e	CON
+il	DET:def
+gladiatore	NOM
+Spartaco	NOM
+

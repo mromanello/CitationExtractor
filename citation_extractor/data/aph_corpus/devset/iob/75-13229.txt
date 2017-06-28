@@ -1,0 +1,13 @@
+Resoconto	NOM
+dei	PRE:det
+lavori	NOM
+del	PRE:det
+convegno	NOM
+sulla	PRE:det
+santità	NOM
+come	PRE
+concetto	NOM
+giuridico	ADJ
+e	CON
+religioso	ADJ
+

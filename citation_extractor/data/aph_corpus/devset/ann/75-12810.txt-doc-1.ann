@@ -1,0 +1,4 @@
+T1	REFAUWORK 455 464	Louvre CA
+T2	REFSCOPE 465 469	616)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:528.1097:616

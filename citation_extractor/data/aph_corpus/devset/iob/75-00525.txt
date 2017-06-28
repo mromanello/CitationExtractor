@@ -1,0 +1,12 @@
+Éd	NOM
+.	SENT
+
+de	PRP
+commentaires	NOM
+sur	PRP
+les	DET:ART
+«	PUN:cit
+Sophistici	NOM
+elenchi	ADJ
+»	PUN:cit
+

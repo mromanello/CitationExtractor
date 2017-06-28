@@ -1,0 +1,12 @@
+T2	AWORK 63 76	« Éthiopide »
+T3	AAUTHOR 77 89	d' Arctinus,
+T4	REFAUWORK 138 143	(Aen.
+T5	REFSCOPE 144 156	7, 803-817),
+T6	AAUTHOR 251 269	Quintus de Smyrne,
+T7	AAUTHOR 304 311	Virgile
+T8	AWORK 329 343	« Posthomerica
+#1	AnnotatorNotes T8	urn:cts:greekLit:tlg2046.tlg001
+#2	AnnotatorNotes T6	urn:cts:greekLit:tlg2046
+#3	AnnotatorNotes T7	urn:cts:latinLit:phi0690
+R1	Scope Arg1:T4 Arg2:T5	
+#4	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:7.803-7.817

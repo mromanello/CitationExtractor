@@ -1,0 +1,18 @@
+Les	DET:ART
+«	PUN:cit
+Commentaires	NOM
+sur	PRP
+les	DET:ART
+Psaumes	NOM
+»	PUN:cit
+étaient	VER:impf
+conçus	VER:pper
+pour	PRP
+être	VER:infi
+délivrés	VER:pper
+verbalement	ADV
+plutôt	ADV
+que	KON
+par	PRP
+écrit	NOM
+

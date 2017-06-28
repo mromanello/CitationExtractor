@@ -1,0 +1,17 @@
+A	PRE
+proposito	NOM
+degli	PRE:det
+scavi	NOM
+in	PRE
+loco	VER:pres
+,	PON
+durante	PRE
+i	DET:def
+quali	PRO:rela
+sono	VER:pres
+stati	VER:pper
+rinvenuti	VER:pper
+numerosi	ADJ
+papiri	NOM
+greci	ADJ
+

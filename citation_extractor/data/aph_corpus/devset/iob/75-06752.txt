@@ -1,0 +1,24 @@
+Vom	APPRART
+Einsetzen	NN
+der	ART
+Überlieferung	NN
+im	APPRART
+7.	ADJA
+
+Jh	NE
+.	$.
+bis	KON
+zum	APPRART
+Durchbruch	NN
+der	ART
+Schriftlichkeit	NN
+in	APPR
+der	ART
+zweiten	ADJA
+Hälfte	NN
+des	ART
+5.	ADJA
+
+Jh	NE
+.	$.
+

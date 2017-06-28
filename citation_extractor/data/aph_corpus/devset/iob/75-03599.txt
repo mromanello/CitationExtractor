@@ -1,0 +1,36 @@
+Rhétorique	NOM
+du	PRP:det
+«	PUN:cit
+malum	NOM
+»	PUN:cit
+(	PUN
+289-313	NUM
+)	PUN
+.	SENT
+
+Il	PRO:PER
+convient	VER:pres
+tout	ADV
+d'	PRP
+abord	NOM
+de	PRP
+distinguer	VER:infi
+entre	PRP
+les	DET:ART
+œuvres	NOM
+de	PRP
+proches	NOM
+du	PRP:det
+Prince	NAM
+et	KON
+celles	PRO:DEM
+qui	PRO:REL
+expriment	VER:pres
+le	DET:ART
+point	NOM
+de	PRP
+vue	NOM
+de	PRP
+la	DET:ART
+société	NOM
+

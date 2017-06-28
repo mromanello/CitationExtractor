@@ -1,0 +1,8 @@
+T1	AAUTHOR 0 6	Cicero
+T2	REFAUWORK 60 64	Rep.
+T3	REFSCOPE 65 71	1, 39.
+T4	AAUTHOR 259 265	Cicero
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:431.907:1.39
+#1	AnnotatorNotes T4	urn:cts:cwkb:431
+#2	AnnotatorNotes T1	urn:cts:cwkb:431

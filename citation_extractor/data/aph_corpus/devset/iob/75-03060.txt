@@ -1,0 +1,22 @@
+Discussione	NOM
+di	PRE
+Lucr.	ABR
+1	NUM
+,	PON
+62-79	NUM
+e	CON
+di	PRE
+altri	PRO:indef
+passi	NOM
+che	PRO:rela
+sembrano	VER:pres
+rivelare	VER:infi
+l'	DET:def
+importanza	NOM
+della	PRE:det
+dimensione	NOM
+propriamente	ADV
+romana	ADJ
+per	PRE
+Lucrezio	NOM
+

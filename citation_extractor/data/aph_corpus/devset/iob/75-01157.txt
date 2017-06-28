@@ -1,0 +1,27 @@
+Se	SE
+reedita	VLfin
+,	CM
+con	PREP
+aparato	NC
+crítico	ADJ
+,	CM
+comentario	NC
+y	CC
+traducción	NC
+española	NC
+,	CM
+este	DM
+epigrama	NC
+de	PREP
+la	ART
+ciudad	NC
+cretense	ADJ
+de	PREP
+Itano	NC
+que	CQUE
+presenta	VLfin
+algunas	QU
+dificultades	NC
+de	PREP
+lectura	NC
+

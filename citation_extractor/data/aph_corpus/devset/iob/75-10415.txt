@@ -1,0 +1,31 @@
+Das	ART
+Phänomen	NN
+des	ART
+Asyls	NN
+im	APPRART
+Sinne	NN
+der	ART
+Unverletzlichkeit	NN
+des	ART
+Territoriums	NN
+einer	ART
+Polis	NE
+durch	APPR
+Krieg	NN
+ist	VAFIN
+bereits	ADV
+in	APPR
+der	ART
+zweiten	ADJA
+Hälfte	NN
+des	ART
+5.	ADJA
+
+Jh	NE
+.	$.
+
+v.	APPR
+Chr.	NE
+nachweisbar	ADJD
+.	$.
+

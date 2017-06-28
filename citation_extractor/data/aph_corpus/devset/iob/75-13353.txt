@@ -1,0 +1,23 @@
+À	PRP
+propos	NOM
+des	PRP:det
+aspects	NOM
+juridiques	ADJ
+relatifs	ADJ
+à	PRP
+l'	DET:ART
+enfant	NOM
+à	PRP
+naître	VER:infi
+et	KON
+au	PRP:det
+nouveau-né	NOM
+,	PUN
+principalement	ADV
+aux	PRP:det
+2e-3e	NAM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+

@@ -1,0 +1,26 @@
+Introduzione	NOM
+generale	ADJ
+al	PRE:det
+dramma	NOM
+,	PON
+con	PRE
+esame	NOM
+dei	PRE:det
+problemi	NOM
+di	PRE
+datazione	NOM
+,	PON
+dell'	PRE:det
+azione	NOM
+drammatica	ADJ
+,	PON
+dei	PRE:det
+modelli	NOM
+precedenti	ADJ
+e	CON
+del	PRE:det
+ruolo	NOM
+dei	PRE:det
+singoli	ADJ
+personaggi	NOM
+

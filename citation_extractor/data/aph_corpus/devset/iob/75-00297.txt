@@ -1,0 +1,62 @@
+Se	SE
+analiza	VLfin
+la	ART
+relación	NC
+entre	PREP
+los	ART
+ladrones	NC
+y	CC
+el	ART
+ejército	NC
+romano	VLfin
+en	PREP
+«	SYM
+Las	ART
+Metamorfosis	NC
+»	SYM
+de	PREP
+Apuleyo	NC
+.	FS
+
+Dado que	CSUBX
+esta	DM
+obra	NC
+ofrece	VLfin
+muchas	QU
+informaciones	NC
+acerca de	PREP
+la	ART
+vida	NC
+de	PREP
+los	ART
+bandoleros	NC
+y	CC
+desertores	NC
+,	CM
+es	VSfin
+posible	ADJ
+considerarla	VCLIinf
+como	CSUBX
+una	ART
+importante	ADJ
+fuente	NC
+para	CSUBI
+cuestionar	VLinf
+diversos	QU
+aspectos	NC
+de	PREP
+las	ART
+obras	NC
+historiográficas	ADJ
+modernas	ADJ
+y	CC
+sus	PPO
+interpretaciones	NC
+acerca de	PREP
+la	ART
+«	SYM
+plebs	NC
+»	SYM
+romana	VLfin
+.	FS
+

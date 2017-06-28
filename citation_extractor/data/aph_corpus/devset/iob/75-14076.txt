@@ -1,0 +1,16 @@
+Considérations	NOM
+diverses	ADJ
+sur	PRP
+l'	DET:ART
+attitude	NOM
+de	PRP
+Scaliger	VER:infi
+à	PRP
+l'	DET:ART
+égard	NOM
+des	PRP:det
+grammairiens	NOM
+anciens	ADJ
+et	KON
+modernes	ADJ
+

@@ -1,0 +1,34 @@
+Anhand	APPR
+eines	ART
+mykenischen	ADJA
+Keramikfragmentes	NN
+aus	APPR
+Borg	NN
+in-Nadur	NN
+(	$(
+Malta	NE
+)	$(
+werden	VAFIN
+neue	ADJA
+Überlegungen	NN
+zu	APPR
+Kontaktmöglichkeiten	NN
+zwischen	APPR
+dem	ART
+maltesischen	ADJA
+Archipel	NN
+und	KON
+der	ART
+mykenischen	ADJA
+Welt	NN
+während	APPR
+der	ART
+zweiten	ADJA
+Hälfte	NN
+des	ART
+2.	ADJA
+
+Jahrtausends	NN
+formuliert	VVPP
+.	$.
+

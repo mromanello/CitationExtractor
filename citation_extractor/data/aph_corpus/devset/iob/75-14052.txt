@@ -1,0 +1,12 @@
+Sull'	PRE:det
+interpretazione	NOM
+di	PRE
+Properzio	NOM
+,	PON
+Virgilio	NPR
+e	CON
+Orazio	NOM
+offerta	NOM
+dallo	PRE:det
+studioso	NOM
+

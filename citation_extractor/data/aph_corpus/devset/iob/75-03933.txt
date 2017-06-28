@@ -1,0 +1,10 @@
+Discussione	NOM
+di	PRE
+problemi	NOM
+testuali	ADJ
+e	CON
+nuove	ADJ
+proposte	NOM
+di	PRE
+lettura	NOM
+

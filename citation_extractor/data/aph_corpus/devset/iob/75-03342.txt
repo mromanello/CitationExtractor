@@ -1,0 +1,24 @@
+Le	DET:def
+vicende	NOM
+biografiche	ADJ
+,	PON
+la	DET:def
+cronologia	NOM
+e	CON
+l'	DET:def
+opera	NOM
+di	PRE
+Nonio	NOM
+(	PON
+titolo	NOM
+,	PON
+contenuto	VER:pper
+,	PON
+modalità	NOM
+di	PRE
+composizione	NOM
+,	PON
+materiali	NOM
+consultati	VER:pper
+)	PON
+

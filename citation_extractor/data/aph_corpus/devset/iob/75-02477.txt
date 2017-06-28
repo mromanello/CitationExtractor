@@ -1,0 +1,19 @@
+Spiegazioni	NOM
+antiche	ADJ
+dell'	PRE:det
+assenza	NOM
+di	PRE
+articolo	NOM
+e	CON
+pronome	NOM
+relativo	ADJ
+in	PRE
+Omero	NOM
+,	PON
+con	PRE
+particolare	ADJ
+attenzione	NOM
+ad	PRE
+Apollonio	NOM
+Discolo	NOM
+

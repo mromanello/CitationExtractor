@@ -1,0 +1,7 @@
+Versione	NOM
+aggiornata	VER:pper
+dello	PRE:det
+studio	NOM
+=>	NOM
+53-10176	NUM
+

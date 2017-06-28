@@ -1,0 +1,20 @@
+Überlegungen	NN
+zur	APPRART
+Prosopographie	NN
+der	ART
+Statthalter	NN
+von	APPR
+Hadrianopolis	NE
+,	$,
+Philippopolis	NE
+,	$,
+Anchialos	NE
+,	$,
+Pautalia	NE
+und	KON
+Marcianopolis	NE
+anhand	APPR
+von	APPR
+Münzen	NN
+.	$.
+

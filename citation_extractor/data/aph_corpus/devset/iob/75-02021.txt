@@ -1,0 +1,10 @@
+A	PRE
+proposito	NOM
+del	PRE:det
+volume	NOM
+di	PRE
+M.	NOM
+Capasso	NOM
+schedato	ADJ
+74-02346	NUM
+

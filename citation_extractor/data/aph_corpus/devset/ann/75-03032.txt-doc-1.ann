@@ -1,0 +1,8 @@
+T1	REFAUWORK 26 42	Lucian, Philops.
+T2	REFSCOPE 43 48	27-28
+T3	REFAUWORK 83 92	Herodotus
+T4	REFSCOPE 93 100	5, 92 ;
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0062.tlg031:27-28
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0062.tlg056:5.92

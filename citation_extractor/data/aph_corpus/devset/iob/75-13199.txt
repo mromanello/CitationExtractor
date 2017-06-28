@@ -1,0 +1,8 @@
+Osservazioni	NOM
+metodologiche	ADJ
+e	CON
+panoramica	ADJ
+sui	PRE:det
+dati	NOM
+disponibili	ADJ
+

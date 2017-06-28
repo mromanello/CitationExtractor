@@ -1,0 +1,12 @@
+T1	AAUTHOR 0 6	Vergil
+T2	AAUTHOR 171 178	Vergil.
+T3	AAUTHOR 213 219	Vergil
+T4	REFAUWORK 297 301	Aen.
+T5	REFSCOPE 302 309	1, 1-11
+T6	AWORK 367 377	« Aeneid »
+R1	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:1.1-1.11
+#1	AnnotatorNotes T6	urn:cts:latinLit:phi0690.phi003
+#2	AnnotatorNotes T2	urn:cts:latinLit:phi0690
+#3	AnnotatorNotes T3	urn:cts:latinLit:phi0690
+#4	AnnotatorNotes T1	urn:cts:latinLit:phi0690

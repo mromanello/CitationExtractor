@@ -1,0 +1,12 @@
+T1	AAUTHOR 269 275	Proba,
+T2	AAUTHOR 276 286	Prudentius
+T3	AAUTHOR 291 301	Orientius,
+T4	AAUTHOR 409 417	Juvencus
+T5	AAUTHOR 482 492	Sedulius '
+T6	AWORK 493 513	« Carmen paschale »,
+#0	AnnotatorNotes T6	urn:cts:cwkb:1317.4338
+#1	AnnotatorNotes T4	urn:cts:cwkb:2732
+#2	AnnotatorNotes T5	urn:cts:cwkb:1317
+#3	AnnotatorNotes T2	urn:cts:cwkb:2755
+#4	AnnotatorNotes T3	urn:cts:cwkb:2742
+#5	AnnotatorNotes T1	urn:cts:cwkb:2753

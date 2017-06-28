@@ -1,0 +1,25 @@
+Il	DET:def
+commentario	NOM
+di	PRE
+Giovanni	NPR
+Filopono	NOM
+all'	PRE:det
+«	PON
+Introduzione	NOM
+Aritmetica	NOM
+»	PON
+di	PRE
+Nicomaco	NOM
+quale	PRO:rela
+corso	NOM
+di	PRE
+Ammonio	NOM
+sulle	PRE:det
+scienze	NOM
+matematiche	ADJ
+considerate	VER:pper
+in	PRE
+senso	NOM
+puramente	ADV
+teoretico	ADJ
+

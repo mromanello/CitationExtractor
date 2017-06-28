@@ -1,0 +1,4 @@
+T1	REFAUWORK 123 128	(inv.
+T2	REFSCOPE 129 142	10-975 : 102)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:431.900:10-975

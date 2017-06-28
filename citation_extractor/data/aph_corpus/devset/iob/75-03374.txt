@@ -1,0 +1,19 @@
+Analisi	NOM
+della	PRE:det
+struttura	NOM
+drammatica	ADJ
+di	PRE
+questa	PRO:demo
+tragedia	NOM
+pseudo-senecana	ADJ
+,	PON
+della	PRE:det
+caratterizzazione	NOM
+dei	PRE:det
+personaggi	NOM
+,	PON
+della	PRE:det
+funzione	NOM
+del	PRE:det
+coro	NOM
+

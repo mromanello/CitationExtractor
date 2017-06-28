@@ -1,0 +1,25 @@
+Overview	NN
+of	IN
+Homer	NP
+'s	POS
+reception	NN
+and	CC
+enduring	JJ
+fascination	NN
+as	IN
+well	RB
+as	RB
+that	IN
+of	IN
+the	DT
+destruction	NN
+of	IN
+Troy	NP
+,	,
+from	IN
+antiquity	NN
+to	TO
+modern	JJ
+times	NNS
+.	SENT
+

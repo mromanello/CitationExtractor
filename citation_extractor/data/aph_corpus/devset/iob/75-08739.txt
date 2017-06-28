@@ -1,0 +1,23 @@
+Étude	NOM
+technique	ADJ
+d'	PRP
+un	DET:ART
+petit	ADJ
+monument	NOM
+révélateur	ADJ
+du	PRP:det
+savoir	NOM
+faire	VER:infi
+et	KON
+de	PRP
+l'	DET:ART
+inventivité	NOM
+des	PRP:det
+bâtisseurs	NOM
+du	PRP:det
+Massif	NAM
+calcaire	ADJ
+aux	PRP:det
+5e-6e	NOM
+s	VER:futu
+

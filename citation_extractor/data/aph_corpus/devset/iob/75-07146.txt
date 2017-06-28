@@ -1,0 +1,14 @@
+Acceptions	NOM
+païennes	ADJ
+et	KON
+chrétiennes	ADJ
+de	PRP
+ce	PRO:DEM
+terme	NOM
+grec	ADJ
+;	PUN
+témoignages	NOM
+épigraphiques	ADJ
+et	KON
+littéraires	ADJ
+

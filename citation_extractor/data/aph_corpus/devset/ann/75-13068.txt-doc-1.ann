@@ -1,0 +1,6 @@
+T1	AAUTHOR 72 89	Grégoire de Tours
+T2	REFAUWORK 90 97	(Franc.
+T3	REFSCOPE 98 105	2, 14),
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:1314.8977:2.14
+#1	AnnotatorNotes T1	urn:cts:cwkb:1314

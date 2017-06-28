@@ -1,0 +1,21 @@
+Analisi	NOM
+stilistica	ADJ
+di	PRE
+alcuni	PRO:indef
+passi	NOM
+dell'	PRE:det
+inno	NOM
+di	PRE
+Prudenzio	NOM
+e	CON
+delle	PRE:det
+modalità	NOM
+adottate	ADJ
+da	PRE
+Ildeberto	NOM
+per	PRE
+riscriverlo	VER:infi
+in	PRE
+esametri	NOM
+leonini	NOM
+

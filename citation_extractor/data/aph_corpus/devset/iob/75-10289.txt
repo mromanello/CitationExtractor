@@ -1,0 +1,15 @@
+In	PRE
+margine	NOM
+al	PRE:det
+volume	NOM
+di	PRE
+P.	NOM
+Cesaretti	NOM
+sull'	PRE:det
+imperatrice	NOM
+Teodora	NOM
+(	PON
+=>	NOM
+73-11652	NUM
+)	PON
+

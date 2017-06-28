@@ -1,0 +1,11 @@
+T1	REFAUWORK 63 75	Cicero, diu.
+T2	REFSCOPE 76 87	1, 16, 29 ;
+T3	REFAUWORK 88 104	Valerius Maximus
+T4	REFSCOPE 105 114	9, 4, 1 ;
+T5	REFAUWORK 115 131	Plutarch, Crass.
+T6	REFSCOPE 132 138	14, 4)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:658.1360:1.16.29
+#1	AnnotatorNotes R3	urn:cts:greekLit:tlg0007.tlg039:14.4

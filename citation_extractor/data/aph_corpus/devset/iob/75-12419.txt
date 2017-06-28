@@ -1,0 +1,13 @@
+Propose	VER:pres
+de	PRP
+voir	VER:infi
+dans	PRP
+certaines	PRO:IND
+figurines	NOM
+des	PRP:det
+Cyclades	NAM
+des	PRP:det
+représentations	NOM
+de	PRP
+prophétesses	NOM
+

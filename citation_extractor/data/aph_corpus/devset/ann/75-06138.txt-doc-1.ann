@@ -1,0 +1,11 @@
+T1	AWORK 17 34	« De senectute »,
+T2	AAUTHOR 53 66	Valère Maxime
+T3	AWORK 210 224	« Cato Maior »
+T4	AAUTHOR 228 235	Cicéron
+T5	AAUTHOR 282 295	Valère Maxime
+T6	AAUTHOR 322 337	Caton d' Utique
+#0	AnnotatorNotes T4	urn:cts:cwkb:431
+#1	AnnotatorNotes T5	urn:cts:cwkb:666
+#2	AnnotatorNotes T2	urn:cts:cwkb:666
+#3	AnnotatorNotes T3	urn:cts:greekLit:tlg0007.tlg025
+#4	AnnotatorNotes T1	urn:cts:greekLit:tlg0017.tlg002

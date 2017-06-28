@@ -1,0 +1,12 @@
+Recensione	NOM
+dell'	PRE:det
+edizione	NOM
+(	PON
+=>	NOM
+72-11364	NUM
+)	PON
+con	PRE
+numerose	ADJ
+proposte	NOM
+critico-testuali	ADJ
+

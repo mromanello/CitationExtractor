@@ -1,0 +1,21 @@
+Le	DET:def
+tendenze	NOM
+e	CON
+i	DET:def
+momenti	NOM
+salienti	ADJ
+della	PRE:det
+storiografia	NOM
+recente	ADJ
+sulla	PRE:det
+Sicilia	NPR
+repubblicana	ADJ
+,	PON
+anche	ADV
+sulla	PRE:det
+base	NOM
+dei	PRE:det
+nuovi	ADJ
+dati	NOM
+archeologici	ADJ
+

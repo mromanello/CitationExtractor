@@ -1,0 +1,10 @@
+Rassegna	NOM
+dei	PRE:det
+commenti	NOM
+medievali	ADJ
+e	CON
+moderni	ADJ
+all'	PRE:det
+opera	NOM
+agostiniana	ADJ
+

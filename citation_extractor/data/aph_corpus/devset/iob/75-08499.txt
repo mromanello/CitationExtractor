@@ -1,0 +1,12 @@
+Sondages	NOM
+de	PRP
+2003	NUM
+dans	PRP
+des	PRP:det
+niveaux	NOM
+d'	PRP
+époque	NOM
+républicaine	ADJ
+et	KON
+impériale	ADJ
+

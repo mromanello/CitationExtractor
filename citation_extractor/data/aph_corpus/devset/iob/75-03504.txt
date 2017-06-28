@@ -1,0 +1,13 @@
+In	PE
+den	VLfin
+«	SYM
+Tristia	NC
+»	SYM
+und	ADJ
+«	SYM
+Epistulae	VLfin
+ex	ADJ
+Ponto	NP
+»	SYM
+.	FS
+

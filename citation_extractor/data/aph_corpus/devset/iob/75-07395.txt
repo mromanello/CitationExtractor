@@ -1,0 +1,20 @@
+Concerne	VER:pres
+soprattutto	ADV
+i	DET:def
+toponimi	NOM
+,	PON
+gli	DET:def
+antroponimi	NOM
+e	CON
+i	DET:def
+nomi	NOM
+di	PRE
+popoli	NOM
+,	PON
+in	PRE
+versione	NOM
+sia	VER:cpre
+grecizzata	VER:pper
+sia	CON
+latinizzata	VER:pper
+

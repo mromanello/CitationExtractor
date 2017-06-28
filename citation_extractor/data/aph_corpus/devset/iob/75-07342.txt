@@ -1,0 +1,20 @@
+Liste	NOM
+de	PRP
+publications	NOM
+,	PUN
+de	PRP
+1734	NUM
+à	PRP
+nos	DET:POS
+jours	NOM
+,	PUN
+permettant	VER:ppre
+l'	DET:ART
+étude	NOM
+du	PRP:det
+dialecte	NOM
+ombrien	ADJ
+des	PRP:det
+Tables	ADJ
+eugubines	NOM
+

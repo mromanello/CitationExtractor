@@ -1,0 +1,35 @@
+Le	DET:ART
+toponyme	NOM
+Ekron	NAM
+noté	VER:pper
+en	PRP
+grec	NOM
+sur	PRP
+la	DET:ART
+carte	NOM
+de	PRP
+Madaba	NOM
+(	PUN
+=	NOM
+Akkarâ[n	NAM
+]	PUN
+)	PUN
+.	SENT
+
+Correction	NOM
+à	PRP
+la	DET:ART
+précédente	ADJ
+interprétation	NOM
+de	PRP
+l'	DET:ART
+auteur	NOM
+exposée	VER:pper
+dans	PRP
+:	PUN
+IEJ	NOM
+1998	NUM
+48	NUM
+:	PUN
+239-251	NUM
+

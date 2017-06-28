@@ -1,0 +1,18 @@
+Se	SE
+aborda	VLfin
+el	ART
+estudio	NC
+de	PREP
+los	ART
+temas	NC
+más	ADV
+relevantes	ADJ
+considerados	ADJ
+como	ADV
+míticos	ADJ
+en	PREP
+la	ART
+primitiva	NC
+literatura	NC
+cristiana	ADJ
+

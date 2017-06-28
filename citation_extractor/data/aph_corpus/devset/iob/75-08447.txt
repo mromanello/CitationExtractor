@@ -1,0 +1,19 @@
+Études	NOM
+conduites	VER:pper
+en	PRP
+2003	NUM
+sur	PRP
+l'	DET:ART
+artisanat	NOM
+du	PRP:det
+cuir	NOM
+,	PUN
+les	DET:ART
+textiles	NOM
+,	PUN
+la	DET:ART
+vannerie	NOM
+et	KON
+la	DET:ART
+plomberie	NOM
+

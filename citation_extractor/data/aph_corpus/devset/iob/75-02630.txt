@@ -1,0 +1,27 @@
+Commentaire	NOM
+anonyme	ADJ
+connu	VER:pper
+par	PRP
+les	DET:ART
+mss	NOM
+Bruxelles	NAM
+,	PUN
+B.	ABR
+roy	NOM
+.	SENT
+
+10063-10065	NUM
+et	KON
+4988-4990	NUM
+(	PUN
+accessus	NOM
+)	PUN
+et	KON
+Zurich	NAM
+,	PUN
+Zentralbibl	NAM
+.	SENT
+
+Rh.	ABR
+76	NUM
+

@@ -1,0 +1,6 @@
+T1	AAUTHOR 145 150	Pline
+T2	REFAUWORK 151 158	(epist.
+T3	REFSCOPE 159 165	6, 2),
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:897.2630:6.2
+#1	AnnotatorNotes T1	urn:cts:cwkb:585

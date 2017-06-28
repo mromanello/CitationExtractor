@@ -1,0 +1,16 @@
+T1	REFAUWORK 62 67	(Aen.
+T2	REFSCOPE 68 75	4, 648)
+T3	REFSCOPE 92 97	(451)
+T4	AAUTHOR 133 142	Vergil 's
+T5	REFAUWORK 210 221	(Apollonius
+T6	REFSCOPE 222 234	3, 1204-1206
+T7	REFSCOPE 239 251	4, 422-430),
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T5 Arg2:T6
+R4	Scope Arg1:T5 Arg2:T7
+#0	AnnotatorNotes R4	urn:cts:cwkb:1165:4.422-4.430
+#1	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:4.648
+#2	AnnotatorNotes R2	urn:cts:latinLit:phi0690.phi003:451
+#3	AnnotatorNotes R3	urn:cts:cwkb:1165:3.1204-3.1206
+#4	AnnotatorNotes T4	urn:cts:latinLit:phi0690

@@ -1,0 +1,29 @@
+Le	DET:ART
+messapien	NOM
+:	PUN
+étymologie	NOM
+de	PRP
+l'	DET:ART
+ethnonyme	NOM
+,	PUN
+délimitation	NOM
+de	PRP
+l'	DET:ART
+espace	NOM
+géographique	ADJ
+.	SENT
+
+L'	DET:ART
+écriture	NOM
+.	SENT
+
+Inscriptions	NOM
+funéraires	ADJ
+et	KON
+votives	ADJ
+.	SENT
+
+Les	DET:ART
+déclinaisons	NOM
+.	SENT
+

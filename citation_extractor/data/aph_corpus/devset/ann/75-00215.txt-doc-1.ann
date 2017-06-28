@@ -1,0 +1,5 @@
+T1	REFSCOPE 45 50	36, 1
+T2	REFAUWORK 109 121	Vergil, Aen.
+T3	REFSCOPE 122 133	9, 481-483.
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:9.481-9.483

@@ -1,0 +1,21 @@
+Une	DET:ART
+comparaison	NOM
+entre	PRP
+textes	NOM
+scolaires	ADJ
+grecs	ADJ
+et	KON
+akkadiens	ADJ
+nous	PRO:PER
+permet	VER:pres
+de	PRP
+mieux	ADV
+comprendre	VER:infi
+un	DET:ART
+chapitre	NOM
+difficile	ADJ
+d'	PRP
+un	DET:ART
+traité	NOM
+hippocratique	ADJ
+

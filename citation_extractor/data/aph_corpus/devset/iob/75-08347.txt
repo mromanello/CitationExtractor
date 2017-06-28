@@ -1,0 +1,17 @@
+Concerne	VER:pres
+l'	DET:def
+attività	NOM
+organizzata	VER:pper
+dall'	PRE:det
+Università	NOM
+di	PRE
+Bari	NOM
+in	PRE
+collaborazione	NOM
+con	PRE
+la	DET:def
+Soprintendenza	NOM
+Archeologica	ADJ
+della	PRE:det
+Puglia	NPR
+

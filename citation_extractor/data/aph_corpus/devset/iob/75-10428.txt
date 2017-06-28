@@ -1,0 +1,23 @@
+Le	DET:def
+fonti	NOM
+delineano	VER:pres
+una	DET:indef
+figura	NOM
+di	PRE
+Policrate	NOM
+perfettamente	ADV
+rispondente	ADJ
+alle	PRE:det
+caratteristiche	NOM
+che	PRO:rela
+la	DET:def
+cultura	NOM
+greca	ADJ
+considerava	VER:impf
+tipiche	ADJ
+della	PRE:det
+tirannide	NOM
+arcaica	ADJ
+e	CON
+tardo-arcaica	NOM
+

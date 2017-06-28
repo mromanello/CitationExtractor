@@ -1,0 +1,6 @@
+T1	AAUTHOR 72 78	Platon
+T2	REFAUWORK 79 83	(Ti.
+T3	REFSCOPE 84 95	31b6-32c3),
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0059.tlg031:31
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0059

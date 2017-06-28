@@ -1,0 +1,22 @@
+Das	ART
+1925	ADJA
+gefundene	ADJA
+,	$,
+umfangreiche	ADJA
+Besteck	NN
+(	$(
+Bingen	NN
+,	$,
+Historisches	ADJA
+Museum	NN
+)	$(
+enthält	VVFIN
+unter	APPR
+anderem	PIS
+ein	ART
+komplettes	ADJA
+Instrumentarium	NN
+zur	APPRART
+Schädeltrepanation	NN
+.	$.
+

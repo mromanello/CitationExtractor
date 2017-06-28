@@ -1,0 +1,13 @@
+Bilan	NOM
+comparatiste	ADJ
+du	PRP:det
+concept	NOM
+de	PRP
+cité-état	NOM
+,	PUN
+notamment	ADV
+dans	PRP
+le	DET:ART
+monde	NOM
+classique	ADJ
+

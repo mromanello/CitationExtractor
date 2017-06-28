@@ -1,0 +1,7 @@
+T1	REFAUWORK 44 47	(F.
+T2	REFSCOPE 48 60	3, 524-710),
+T3	AAUTHOR 61 66	Ovide
+T4	AAUTHOR 135 140	César
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes T4	urn:cts:cwkb:429
+#1	AnnotatorNotes T3	urn:cts:cwkb:568

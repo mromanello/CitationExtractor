@@ -1,0 +1,6 @@
+T1	REFSCOPE 198 199	3
+T2	REFSCOPE 200 203	e 5
+T3	AAUTHOR 247 257	Aristofane
+T4	AAUTHOR 270 278	Platone,
+#0	AnnotatorNotes T4	urn:cts:greekLit:tlg0059
+#1	AnnotatorNotes T3	urn:cts:cwkb:1171

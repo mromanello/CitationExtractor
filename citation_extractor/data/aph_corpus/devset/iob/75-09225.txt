@@ -1,0 +1,20 @@
+Epigraphische	ADJA
+Literatur	NN
+über	APPR
+römerzeitliche	ADJA
+Inschriften	NN
+der	ART
+Austria	NN
+Romana	NE
+sowie	KON
+Nachträge	NN
+mit	APPR
+Index	NN
+und	KON
+Konkordanzen	NN
+.	$.
+
+Zu	APPR
+2001-2002	CARD
+73-10550	CARD
+

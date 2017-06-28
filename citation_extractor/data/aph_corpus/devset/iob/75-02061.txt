@@ -1,0 +1,25 @@
+Reflexiones	NC
+realizadas	VLadj
+al	PAL
+hilo	NC
+de	PREP
+un	ART
+pasaje	NC
+de	PREP
+una	ART
+obra	NC
+todavía	ADV
+inédita	ADJ
+del	PDEL
+profesor	NC
+homenajeado	VLadj
+(	LP
+«	SYM
+Sofistas	NC
+:	COLON
+testimonios	NC
+y	CC
+fragmentos	NC
+»	SYM
+)	RP
+

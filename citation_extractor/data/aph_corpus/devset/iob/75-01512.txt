@@ -1,0 +1,13 @@
+Étude	NOM
+du	PRP:det
+vocabulaire	NOM
+de	PRP
+la	DET:ART
+beauté	NOM
+chez	PRP
+Cyprien	NAM
+et	KON
+de	PRP
+son	DET:POS
+esthétique	NOM
+

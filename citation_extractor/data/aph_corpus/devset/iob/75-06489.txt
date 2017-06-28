@@ -1,0 +1,25 @@
+Le	DET:ART
+chant	NOM
+merveilleux	ADJ
+du	PRP:det
+cygne	NOM
+devient	VER:pres
+dans	PRP
+la	DET:ART
+rhétorique	NOM
+de	PRP
+la	DET:ART
+Seconde	NAM
+Sophistique	ADJ
+,	PUN
+notamment	ADV
+chez	PRP
+Élien	NAM
+,	PUN
+une	DET:ART
+sorte	NOM
+de	PRP
+miroir	NOM
+du	PRP:det
+discours	NOM
+

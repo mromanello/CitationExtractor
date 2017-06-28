@@ -1,0 +1,8 @@
+Panoramica	NOM	O
+storica	ADJ	O
+dal	PRE:det	O
+4°	NOM	O
+secolo	NOM	O
+al	PRE:det	O
+basso	ADJ	O
+Medioevo	NOM	O

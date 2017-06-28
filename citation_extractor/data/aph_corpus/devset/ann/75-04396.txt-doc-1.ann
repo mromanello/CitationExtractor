@@ -1,0 +1,12 @@
+T1	REFAUWORK 13 24	Plin., Nat.
+T2	REFSCOPE 25 31	15, 78
+T3	REFAUWORK 129 142	Clem., Protr.
+T4	REFSCOPE 143 152	2, 29-30)
+T5	REFAUWORK 185 190	Paus.
+T6	REFSCOPE 191 200	1, 38, 5)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:1116.3999:15.78
+#1	AnnotatorNotes R2	urn:cts:cwkb:638.1327:2.29-2.30
+#2	AnnotatorNotes R3	urn:cts:greekLit:tlg0525:1.38.5

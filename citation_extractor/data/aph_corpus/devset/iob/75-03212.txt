@@ -1,0 +1,18 @@
+Quadruplice	ADJ
+partizione	NOM
+della	PRE:det
+logica	NOM
+secondo	PRE
+il	DET:def
+trattato	NOM
+,	PON
+che	PRO:rela
+tenta	VER:pres
+una	DET:indef
+sintesi	NOM
+tra	PRE
+Aristotele	NPR
+e	CON
+gli	DET:def
+Stoici	NOM
+

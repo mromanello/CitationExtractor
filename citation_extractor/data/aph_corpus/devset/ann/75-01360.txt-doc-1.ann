@@ -1,0 +1,8 @@
+T1	AWORK 34 48	« Pro Caelio »
+T2	AAUTHOR 83 92	Cicero 's
+T3	REFAUWORK 395 400	Cael.
+T4	REFSCOPE 401 406	39-42
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:766.1623:39-42
+#1	AnnotatorNotes T2	urn:cts:cwkb:431
+#2	AnnotatorNotes T1	urn:cts:greekLit:tlg0540.tlg005

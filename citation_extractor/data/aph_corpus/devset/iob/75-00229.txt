@@ -1,0 +1,32 @@
+Riflessioni	NOM
+sulla	PRE:det
+figura	NOM
+di	PRE
+Antifonte	NOM
+a	PRE
+partire	VER:infi
+dall'	PRE:det
+edizione	NOM
+dei	PRE:det
+frammenti	NOM
+curata	VER:pper
+da	PRE
+G.	NPR
+J.	ABR
+
+Pendrick	NOM
+(	PON
+=>	NOM
+73-00231	NUM
+)	PON
+e	CON
+dalla	PRE:det
+monografia	NOM
+di	PRE
+M.	NOM
+Gagarin	NOM
+(	PON
+=>	NOM
+73-00232	NUM
+)	PON
+

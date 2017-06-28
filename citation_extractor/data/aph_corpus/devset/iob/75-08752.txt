@@ -1,0 +1,15 @@
+P.	ABR
+153-155	NUM
+:	PUN
+«	PUN:cit
+Liste	NAM
+des	PRP:det
+communications	NOM
+sur	PRP
+Dougga	NOM
+présentées	VER:pper
+devant	PRP
+l'	DET:ART
+Académie	NAM
+»	PUN:cit
+

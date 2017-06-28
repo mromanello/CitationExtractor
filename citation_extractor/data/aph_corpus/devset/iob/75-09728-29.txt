@@ -1,0 +1,18 @@
+Dossier	NOM
+papyrologique	ADJ
+du	PRP:det
+village	NOM
+de	PRP
+Philoxenos	NOM
+,	PUN
+dont	PRO:REL
+la	DET:ART
+localisation	NOM
+demeure	VER:pres
+difficile	ADJ
+(	PUN
+nome	NOM
+Arsinoïte	NAM
+?	SENT
+)	PUN
+

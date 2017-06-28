@@ -1,0 +1,28 @@
+Les	DET:ART
+rapports	NOM
+entre	PRP
+Jupiter	NAM
+,	PUN
+Dius	NAM
+Fidius	NAM
+et	KON
+Fides	NAM
+.	SENT
+
+La	DET:ART
+notion	NOM
+de	PRP
+«	PUN:cit
+protection	NOM
+du	PRP:det
+serment	NOM
+»	PUN:cit
+(	PUN
+voir	VER:infi
+aussi	ADV
+l'	DET:ART
+ouvrage	NOM
+noté	VER:pper
+59-07212	NUM
+)	PUN
+

@@ -1,0 +1,24 @@
+Riflessioni	NOM
+sul	PRE:det
+valore	NOM
+della	PRE:det
+tradizione	NOM
+nella	PRE:det
+cultura	NOM
+e	CON
+nella	PRE:det
+storiografia	NOM
+classiche	ADJ
+e	CON
+sugli	PRE:det
+esiti	NOM
+del	PRE:det
+suo	PRO:poss
+incontro	NOM
+con	PRE
+la	DET:def
+«	PON
+nouitas	NOM
+»	PON
+cristiana	ADJ
+

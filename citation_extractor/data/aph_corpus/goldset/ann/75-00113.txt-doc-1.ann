@@ -1,0 +1,11 @@
+T1	REFAUWORK 442 453	Pliny, nat.
+T2	REFSCOPE 454 463	11, 4, 11
+T3	REFSCOPE 468 478	11, 16, 46
+T4	REFAUWORK 483 497	Vergil, georg.
+T5	REFSCOPE 498 509	4, 149-218.
+R1	Scope Arg1:T1 Arg2:T2	
+R2	Scope Arg1:T1 Arg2:T3	
+R3	Scope Arg1:T4 Arg2:T5	
+#1	AnnotatorNotes R1	urn:cts:latinLit:phi0978.phi001:11.4.11
+#2	AnnotatorNotes R2	urn:cts:latinLit:phi0978.phi001:11.16.46
+#3	AnnotatorNotes R3	urn:cts:latinLit:phi0690.phi002:4.149-4.218

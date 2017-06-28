@@ -1,0 +1,6 @@
+T1	AAUTHOR 77 85	Augustin
+T2	REFAUWORK 313 319	(Conf.
+T3	REFSCOPE 320 331	13, 9, 10).
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:2386.8404:13.9.10
+#1	AnnotatorNotes T1	urn:cts:cwkb:2386

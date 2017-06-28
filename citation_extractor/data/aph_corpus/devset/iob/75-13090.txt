@@ -1,0 +1,22 @@
+Étude	NOM
+iconographique	ADJ
+de	PRP
+cette	PRO:DEM
+mosaïque	ADJ
+tardo-antique	NOM
+d'	PRP
+Astypalaea	NAM
+:	PUN
+elle	PRO:PER
+présente	VER:pres
+un	DET:ART
+motif	NOM
+fréquemment	ADV
+traité	VER:pper
+en	PRP
+Palestine	NAM
+à	PRP
+la	DET:ART
+même	ADJ
+époque	NOM
+

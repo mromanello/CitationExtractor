@@ -1,0 +1,27 @@
+On	IN
+evidence	NN
+for	IN
+the	DT
+use	NN
+of	IN
+copper	NN
+sheathing	VBG
+to	TO
+repair	VB
+ships	NNS
+'	POS
+hulls	NNS
+and	CC
+of	IN
+orpiment	NN
+in	IN
+encaustic	JJ
+painting	NN
+of	IN
+hulls	NNS
+as	IN
+an	DT
+anti-fouling	JJ
+measure	NN
+.	SENT
+

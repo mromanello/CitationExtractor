@@ -1,0 +1,16 @@
+Zu	APPR
+verschiedenen	ADJA
+Problemen	NN
+der	ART
+lateinischen	ADJA
+Grammatik	NN
+anhand	APPR
+eines	ART
+Vergleichs	NN
+moderner	ADJA
+Positionen	NN
+mit	APPR
+den	ART
+lateinischen	ADJA
+Grammatikern	NN
+

@@ -1,0 +1,18 @@
+Sul	PRE:det
+rapporto	NOM
+dello	PRE:det
+studioso	NOM
+appena	ADV
+scomparso	VER:pper
+(	PON
+1913-2001	NUM
+)	PON
+con	PRE
+il	DET:def
+mondo	NOM
+della	PRE:det
+scuola	NOM
+e	CON
+della	PRE:det
+ricerca	NOM
+

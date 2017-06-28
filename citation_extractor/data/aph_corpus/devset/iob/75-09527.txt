@@ -1,0 +1,8 @@
+Un	DET:ART
+follis	NOM
+de	PRP
+Maxence	NAM
+(	PUN
+306-312	NUM
+)	PUN
+

@@ -1,0 +1,13 @@
+Concerne	VER:pres
+l'	DET:ART
+Etna	NAM
+et	KON
+le	DET:ART
+Caucase	NOM
+.	SENT
+
+Pour	PRP
+2	NUM
+=>	ABR
+75-00036	NUM
+

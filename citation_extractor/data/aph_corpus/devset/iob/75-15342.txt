@@ -1,0 +1,5 @@
+Ricordo	NP
+dello	VLfin
+studioso	ADJ
+scomparso	NC
+

@@ -1,0 +1,25 @@
+Édition	NOM
+du	PRP:det
+ms.	ABR
+Uppsala	NAM
+,	PUN
+Universitetsbibl	NAM
+.	SENT
+
+C.924	ABR
+,	PUN
+69r-73r	NOM
+,	PUN
+(	PUN
+12e	NUM
+s.	ABR
+)	PUN
+,	PUN
+qui	PRO:REL
+fait	VER:pres
+mention	NOM
+de	PRP
+Michel	NAM
+d'	PRP
+Éphèse	NOM
+

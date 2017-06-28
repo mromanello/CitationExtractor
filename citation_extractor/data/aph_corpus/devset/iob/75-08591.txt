@@ -1,0 +1,31 @@
+Fouilles	NOM
+conduites	VER:pper
+par	PRP
+l'	DET:ART
+Institut	NOM
+d'	PRP
+archéologie	NOM
+de	PRP
+l'	DET:ART
+Université	NOM
+Jagellonne	NAM
+(	PUN
+Kraków	NAM
+)	PUN
+.	SENT
+
+À	PRP
+noter	VER:infi
+la	DET:ART
+mise	NOM
+au	PRP:det
+jour	NOM
+d'	PRP
+un	DET:ART
+pressoir	NOM
+à	PRP
+vin	NOM
+d'	PRP
+époque	NOM
+byzantine	ADJ
+

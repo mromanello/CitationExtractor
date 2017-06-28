@@ -1,0 +1,8 @@
+T1	AAUTHOR 56 63	Platon,
+T2	AAUTHOR 64 72	Cicéron,
+T3	AAUTHOR 73 79	Homère
+T4	AAUTHOR 83 90	Virgile
+#0	AnnotatorNotes T4	urn:cts:latinLit:phi0690
+#1	AnnotatorNotes T2	urn:cts:cwkb:431
+#2	AnnotatorNotes T3	urn:cts:greekLit:tlg0012
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0059

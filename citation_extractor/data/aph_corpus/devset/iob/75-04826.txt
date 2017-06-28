@@ -1,0 +1,25 @@
+Questi	PRO:demo
+personaggi	NOM
+sono	VER:pres
+per	PRE
+lo	PRO:pers
+più	ADV
+stereotipati	ADJ
+,	PON
+ma	CON
+in	PRE
+alcuni	PRO:indef
+casi	NOM
+mostrano	VER:pres
+una	DET:indef
+parziale	ADJ
+originalità	NOM
+e	CON
+possono	VER:pres
+trasmettere	VER:infi
+un	DET:indef
+messaggio	NOM
+etico	ADJ
+autenticamente	VER:ppre
+stoico	NOM
+

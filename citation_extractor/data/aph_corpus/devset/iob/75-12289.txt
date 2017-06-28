@@ -1,0 +1,44 @@
+El	ART
+cristianismo	NC
+impregna	VLfin
+la	ART
+tradición	NC
+epigráfica	ADJ
+de	PREP
+una	ART
+nueva	ADJ
+perspectiva	NC
+.	FS
+
+Frente	NC
+al	PAL
+carácter	NC
+informativo	ADJ
+,	CM
+a veces	ADV
+con	PREP
+apuntes	NC
+admonitorios	ADJ
+especialmente	ADV
+en	PREP
+los	ART
+epitafios	NC
+,	CM
+de	PREP
+los	ART
+«	SYM
+carmina	NC
+epigraphica	ADJ
+»	SYM
+no	NEG
+cristianos	ADJ
+,	CM
+los	ART
+cristianos	ADJ
+se	SE
+caracterizan	VLfin
+por	PREP
+su	PPO
+intención	NC
+didáctica	ADJ
+

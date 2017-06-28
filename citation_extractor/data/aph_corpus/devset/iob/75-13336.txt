@@ -1,0 +1,19 @@
+Resoconto	NOM
+dei	PRE:det
+lavori	NOM
+,	PON
+dedicati	VER:pper
+a	PRE
+temi	NOM
+giuridici	ADJ
+in	PRE
+ambito	NOM
+agro-pastorale	ADJ
+(	PON
+Chia	NOM
+,	PON
+17-22	NUM
+settembre	NOM
+2002	NUM
+)	PON
+

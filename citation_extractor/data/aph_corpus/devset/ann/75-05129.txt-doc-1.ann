@@ -1,0 +1,10 @@
+T1	AWORK 82 94	« Histoire »
+T2	AAUTHOR 95 105	d' Eunape,
+T3	AWORK 188 199	« Annales »
+T4	AAUTHOR 203 221	Nicomaque Flavien.
+T5	AWORK 342 370	« Histoire ecclésiastique »,
+T6	AAUTHOR 421 427	Eunape
+#0	AnnotatorNotes T6	urn:cts:cwkb:865
+#1	AnnotatorNotes T5	urn:cts:cwkb:1072.3863
+#2	AnnotatorNotes T3	urn:cts:cwkb:600.1244
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0016.tlg001

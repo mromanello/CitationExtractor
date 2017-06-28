@@ -1,0 +1,12 @@
+Discussione	NOM
+storico-letteraria	ADJ
+dell'	PRE:det
+opera	NOM
+di	PRE
+Acusilao	NOM
+in	PRE
+base	NOM
+alle	PRE:det
+testimonianze	NOM
+antiche	ADJ
+

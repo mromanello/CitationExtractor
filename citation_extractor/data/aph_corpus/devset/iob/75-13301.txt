@@ -1,0 +1,22 @@
+In	PRE
+margine	NOM
+al	PRE:det
+volume	NOM
+curato	VER:pper
+da	PRE
+M.	ABR
+Navarra	NPR
+riguardante	VER:ppre
+proposte	NOM
+di	PRE
+ricerca	NOM
+sul	PRE:det
+diritto	NOM
+nella	PRE:det
+tarda	ADJ
+antichità	NOM
+(	PON
+=>	NOM
+75-14878	NUM
+)	PON
+

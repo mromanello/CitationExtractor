@@ -1,0 +1,18 @@
+Catalogue	NOM
+de	PRP
+ce	PRO:DEM
+fonds	NOM
+qui	PRO:REL
+réunit	VER:pres
+des	PRP:det
+objets	NOM
+allant	VER:ppre
+de	PRP
+l'	DET:ART
+époque	NOM
+archaïque	ADJ
+à	PRP
+l'	DET:ART
+époque	NOM
+romaine	ADJ
+

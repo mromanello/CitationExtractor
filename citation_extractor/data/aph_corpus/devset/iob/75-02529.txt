@@ -1,0 +1,18 @@
+L'	DET:ART
+imprécision	NOM
+des	PRP:det
+descriptions	NOM
+homériques	ADJ
+confirme	VER:pres
+la	DET:ART
+valeur	NOM
+symbolique	ADJ
+du	PRP:det
+poème	NOM
+.	SENT
+
+Pour	PRP
+1	NUM
+=>	ABR
+75-02528	NUM
+

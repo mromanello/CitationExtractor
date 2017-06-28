@@ -1,0 +1,32 @@
+Comentario	NC
+de	PREP
+la	ART
+obra	NC
+de	PREP
+Jean-Martial	NC
+Besse	NP
+«	SYM
+Les	NP
+Moines	NP
+d'Orient	NP
+antérieurs	NC
+au	PE
+concile	VLfin
+de	PREP
+Chalcédoine	NP
+»	SYM
+(	LP
+Paris	NP
+,	CM
+1900	CARD
+)	RP
+.	FS
+
+Breve	ADJ
+semblanza	NC
+y	CC
+bibliografía	NC
+del	PDEL
+autor	NC
+.	FS
+

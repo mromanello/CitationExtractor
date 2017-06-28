@@ -1,0 +1,15 @@
+I	DET:def
+racconti	NOM
+nel	PRE:det
+cap.	ABR
+62	NUM
+rispecchiano	VER:pres
+una	DET:indef
+tipologia	NOM
+già	ADV
+presente	ADJ
+nella	PRE:det
+tradizione	NOM
+folclorica	ADJ
+orale	ADJ
+

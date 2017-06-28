@@ -1,0 +1,14 @@
+A	PRE
+proposito	NOM
+del	PRE:det
+testo	NOM
+principale	ADJ
+(	PON
+242a	NOM
+)	PON
+dell'	PRE:det
+iscrizione	NOM
+paleofalisca	ADJ
+242	NUM
+Vetter	NOM
+

@@ -1,0 +1,25 @@
+Studio	NOM
+sulle	PRE:det
+peculiarità	NOM
+dell'	PRE:det
+agro	NOM
+centuriato	ADJ
+mediolanense	ADJ
+,	PON
+con	PRE
+particolare	ADJ
+riguardo	NOM
+alla	PRE:det
+fascia	NOM
+compresa	VER:pper
+tra	PRE
+l'	DET:def
+«	PON
+urbs	NOM
+»	PON
+e	CON
+il	DET:def
+«	PON
+territorium	NOM
+»	PON
+

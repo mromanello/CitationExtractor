@@ -1,0 +1,10 @@
+Concerne	VER:pres
+anche	ADV
+la	DET:def
+poesia	NOM
+latina	ADJ
+cristiana	ADJ
+di	PRE
+età	NOM
+tardoantica	NOM
+

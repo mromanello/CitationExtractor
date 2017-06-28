@@ -1,0 +1,19 @@
+Sobre	PREP
+la	ART
+romanización	NC
+lingüística	ADJ
+en	PREP
+el	ART
+«	SYM
+ager	NP
+Vasconum	NP
+»	SYM
+y	CC
+en	PREP
+el	ART
+«	SYM
+saltus	NC
+Vasconum	NP
+»	SYM
+.	FS
+

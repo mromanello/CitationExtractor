@@ -1,0 +1,26 @@
+A	PRE
+proposito	NOM
+delle	PRE:det
+rivalità	NOM
+e	CON
+delle	PRE:det
+guerre	NOM
+per	PRE
+il	DET:def
+possesso	NOM
+dei	PRE:det
+due	ADJ
+santuari	NOM
+dal	PRE:det
+tempo	NOM
+delle	PRE:det
+Guerre	NOM
+Persiane	NOM
+fino	CON
+alla	PRE:det
+morte	NOM
+di	PRE
+Filippo	NPR
+di	PRE
+Macedonia	NOM
+

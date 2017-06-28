@@ -1,0 +1,6 @@
+T1	AAUTHOR 300 315	Pline l' Ancien
+T2	REFAUWORK 316 319	(HN
+T3	REFSCOPE 320 327	34, 65)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0978.phi001:34.65
+#1	AnnotatorNotes T1	urn:cts:cwkb:585

@@ -1,0 +1,17 @@
+Analisi	NOM
+della	PRE:det
+complessa	ADJ
+stratificazione	NOM
+di	PRE
+fonti	NOM
+rintracciabile	ADJ
+nell'	PRE:det
+apparato	NOM
+esegetico	ADJ
+di	PRE
+questa	PRO:demo
+edizione	NOM
+del	PRE:det
+19°	NOM
+secolo	NOM
+

@@ -1,0 +1,18 @@
+Zur	APPRART
+sprachlichen	ADJA
+Charakterisierung	NN
+von	APPR
+Eigenschaften	NN
+,	$,
+Alter	NN
+und	KON
+gesellschaftlichem	ADJA
+Rang	NN
+,	$,
+insbesondere	ADV
+am	APPRART
+Beispiel	NN
+des	ART
+Rustiken	NN
+.	$.
+

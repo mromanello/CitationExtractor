@@ -1,0 +1,15 @@
+T1	REFAUWORK 304 309	(Syn.
+T2	REFSCOPE 310 320	2, 14-15),
+T3	REFAUWORK 354 360	(Sent.
+T4	REFSCOPE 361 370	2, 42-46)
+T5	REFAUWORK 395 401	(Sent.
+T6	REFSCOPE 402 412	3, 15-22),
+T7	AWORK 474 496	« Regula monachorum ».
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T5 Arg2:T6
+#1	AnnotatorNotes R2	urn:cts:cwkb:2437.9002:2.42-2.46
+#2	AnnotatorNotes R3	urn:cts:cwkb:2437.9002:3.15-3.22
+#3	AnnotatorNotes T7	urn:cts:cwkb:2437.9001
+T8	AAUTHOR 56 63	Isidoro
+#4	AnnotatorNotes T8	urn:cts:cwkb:2437

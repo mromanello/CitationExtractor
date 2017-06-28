@@ -1,0 +1,15 @@
+Osservazioni	NOM	O
+sull'	PRE:det	O
+attività	NOM	O
+intellettuale	ADJ	O
+del	PRE:det	O
+copista	NOM	O
+,	PON	O
+traduttore	NOM	O
+di	PRE	O
+Giovanni	NPR	B-AAUTHOR
+Crisostomo	NOM	I-AAUTHOR
+,	PON	I-AAUTHOR
+Teofilatto	NOM	B-AAUTHOR
+e	CON	I-AAUTHOR
+Origene	NOM	O

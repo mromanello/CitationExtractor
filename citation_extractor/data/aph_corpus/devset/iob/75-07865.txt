@@ -1,0 +1,8 @@
+Présente	NOM
+huit	NUM
+autels	NOM
+monolithes	ADJ
+du	PRP:det
+Bronze	NAM
+récent	ADJ
+

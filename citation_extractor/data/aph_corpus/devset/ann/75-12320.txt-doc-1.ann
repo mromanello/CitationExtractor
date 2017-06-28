@@ -1,0 +1,5 @@
+T1	REFAUWORK 414 416	Gv
+T2	REFSCOPE 417 426	4, 23-24)
+T3	AAUTHOR 443 450	Origene
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes T3	urn:cts:cwkb:1015

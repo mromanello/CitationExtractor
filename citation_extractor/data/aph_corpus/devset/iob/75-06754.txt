@@ -1,0 +1,17 @@
+Für	APPR
+die	ART
+Antike	NN
+am	APPRART
+Beispiel	NN
+von	APPR
+Pindars	NN
+14.	ADJA
+
+Olympischer	ADJA
+Ode	NN
+und	KON
+Kallimachos	NN
+'	$(
+Hymne	NN
+auf	APPR
+Apoll.	NE

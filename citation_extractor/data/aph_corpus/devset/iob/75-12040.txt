@@ -1,0 +1,33 @@
+Le	DET:ART
+culte	NOM
+de	PRP
+Tyche	NAM
+dans	PRP
+le	DET:ART
+Peloponnèse	NOM
+à	PRP
+l'	DET:ART
+époque	NOM
+romaine	ADJ
+,	PUN
+associé	VER:pper
+au	PRP:det
+culte	NOM
+impérial	ADJ
+.	SENT
+
+Version	NOM
+complète	ADJ
+dans	PRP
+:	PUN
+YaleBull	NOM
+47	NUM
+1994	NUM
+:	PUN
+64-75	NUM
+.	SENT
+
+Discussion	NOM
+p.	ABR
+221-222	NUM
+

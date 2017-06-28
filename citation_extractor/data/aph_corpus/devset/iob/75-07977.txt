@@ -1,0 +1,19 @@
+Scavi	NOM
+recenti	ADJ
+permettono	VER:pres
+una	DET:indef
+più	ADV
+approfondita	VER:pper
+valutazione	NOM
+delle	PRE:det
+pitture	NOM
+murali	ADJ
+di	PRE
+questa	PRO:demo
+domus	NOM
+,	PON
+databili	ADJ
+all'	PRE:det
+età	NOM
+antonina	NOM
+

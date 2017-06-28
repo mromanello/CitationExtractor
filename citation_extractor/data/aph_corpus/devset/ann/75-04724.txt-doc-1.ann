@@ -1,0 +1,8 @@
+T1	REFAUWORK 169 173	Book
+T2	REFSCOPE 174 175	6
+T3	AAUTHOR 179 192	Quintilian 's
+T4	AWORK 193 207	« Institutes »
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:3050:6
+#1	AnnotatorNotes T4	urn:cts:cwkb:478.1023
+#2	AnnotatorNotes T3	urn:cts:cwkb:602

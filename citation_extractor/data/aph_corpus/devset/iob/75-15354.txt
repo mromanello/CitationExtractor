@@ -1,0 +1,11 @@
+Profilo	NOM
+di	PRE
+vita	NOM
+e	CON
+studi	NOM
+.	SENT
+
+Elenco	NOM
+delle	PRE:det
+pubblicazioni	NOM
+

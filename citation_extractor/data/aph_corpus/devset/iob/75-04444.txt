@@ -1,0 +1,15 @@
+Quatre	NUM
+chemins	NOM
+:	PUN
+la	DET:ART
+vertu	NOM
+,	PUN
+l'	DET:ART
+art	NOM
+,	PUN
+l'	DET:ART
+amour	NOM
+,	PUN
+la	DET:ART
+dialectique	NOM
+

@@ -1,0 +1,40 @@
+Verschiedene	ADJA
+Übereinstimmungen	NN
+der	ART
+beiden	PIAT
+Dokumente	NN
+des	ART
+1.	ADJA
+
+Jh	NE
+.	$.
+
+n.	APPR
+Chr.	NE
+legen	VVFIN
+den	ART
+Schluss	NN
+nahe	PTKVZ
+,	$,
+dass	KOUS
+es	PPER
+um	APPR
+dieselbe	PDAT
+Person	NN
+geht	VVFIN
+,	$,
+und	KON
+zwar	ADV
+um	APPR
+einen	ART
+Weber	NN
+namens	APPR
+Theabennis	NN
+,	$,
+Sohn	NN
+des	ART
+Hieranouphis	NN
+aus	APPR
+Karanis	NN
+.	$.
+

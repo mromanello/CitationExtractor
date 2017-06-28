@@ -1,0 +1,24 @@
+Bilancio	NOM
+delle	PRE:det
+testimonianze	NOM
+epigrafiche	ADJ
+micenee	ADJ
+,	PON
+di	PRE
+quelle	PRO:demo
+greche	ADJ
+fino	CON
+al	PRE:det
+4°	NOM
+sec.	NOM
+a.	NOM
+C.	NPR
+e	CON
+delle	PRE:det
+fonti	NOM
+letterarie	ADJ
+soprattutto	ADV
+di	PRE
+età	NOM
+classica	ADJ
+

@@ -1,0 +1,19 @@
+Testo	NOM
+critico	ADJ
+e	CON
+commento	NOM
+dei	PRE:det
+v.	ABR
+172-224	NUM
+della	PRE:det
+commedia	NOM
+dopo	PRE
+il	DET:def
+recentissimo	ADJ
+apporto	NOM
+del	PRE:det
+POxy	NOM
+.	SENT
+
+4641	NUM
+

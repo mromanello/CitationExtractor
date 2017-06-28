@@ -1,0 +1,62 @@
+Relevés	NOM
+microtopographiques	ADJ
+.	SENT
+
+Étude	NOM
+de	PRP
+la	DET:ART
+fortification	NOM
+éduenne	ADJ
+extérieure	ADJ
+,	PUN
+de	PRP
+l'	DET:ART
+architecture	NOM
+du	PRP:det
+1er	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+et	KON
+de	PRP
+la	DET:ART
+trame	NOM
+urbaine	ADJ
+.	SENT
+
+Nouvelles	ADJ
+données	NOM
+sur	PRP
+la	DET:ART
+chronologie	NOM
+:	PUN
+le	DET:ART
+site	NOM
+fut	VER:simp
+occupé	VER:pper
+entre	PRP
+la	DET:ART
+fin	NOM
+du	PRP:det
+2e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+et	KON
+le	DET:ART
+tout	PRO:IND
+début	NOM
+du	PRP:det
+1er	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+

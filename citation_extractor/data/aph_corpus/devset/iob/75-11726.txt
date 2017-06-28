@@ -1,0 +1,15 @@
+Confronto	NOM
+tra	PRE
+le	DET:def
+guarigioni	NOM
+celebrate	VER:pper
+nelle	PRE:det
+epigrafi	NOM
+di	PRE
+Epidauro	NOM
+e	CON
+quelle	PRO:demo
+narrate	VER:pper
+nel	PRE:det
+Vangelo	ABR
+

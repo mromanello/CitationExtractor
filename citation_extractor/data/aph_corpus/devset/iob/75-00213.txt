@@ -1,0 +1,16 @@
+Neuedition	NN
+mit	APPR
+Angaben	NN
+zur	APPRART
+Tradition	NN
+und	KON
+zum	APPRART
+Text	NN
+sowie	KON
+zur	APPRART
+Interpretation	NN
+des	ART
+anonymen	ADJA
+Gedichtes	NN
+.	$.
+

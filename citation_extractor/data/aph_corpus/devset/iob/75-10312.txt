@@ -1,0 +1,11 @@
+Zum	APPRART
+Ablauf	NN
+der	ART
+Ereignisse	NN
+zwischen	APPR
+313	CARD
+und	KON
+315	CARD
+n.	APPR
+Chr	NE
+

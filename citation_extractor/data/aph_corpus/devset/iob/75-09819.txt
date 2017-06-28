@@ -1,0 +1,14 @@
+Se	SE
+comentan	VLfin
+los	ART
+papiros	NC
+griegos	ADJ
+editados	VLadj
+en	PREP
+la	ART
+obra	NC
+consignada	VLadj
+en	PREP
+64-08142	CARD
+.	FS
+

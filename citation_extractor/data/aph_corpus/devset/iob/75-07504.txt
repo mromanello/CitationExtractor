@@ -1,0 +1,24 @@
+Studio	NOM
+e	CON
+descrizione	NOM
+del	PRE:det
+manoscritto	NOM
+Roma	NPR
+,	PON
+Biblioteca	NOM
+Casanatense	ABR
+453	NUM
+,	PON
+contenente	VER:ppre
+i	DET:def
+«	PON
+Commentarii	NOM
+de	NPR
+bello	ADJ
+gallico	ADJ
+et	NOM
+de	NPR
+bello	ADJ
+ciuili	VER:impe
+»	PON
+

@@ -1,0 +1,8 @@
+T1	AAUTHOR 14 22	Plato 's
+T2	AAUTHOR 531 539	Plato 's
+T3	AWORK 609 623	« Euthydemus »
+T4	REFSCOPE 624 628	(278
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes T2	urn:cts:greekLit:tlg0059
+#1	AnnotatorNotes T3	urn:cts:greekLit:tlg0059.tlg021
+#2	AnnotatorNotes T1	urn:cts:greekLit:tlg0059

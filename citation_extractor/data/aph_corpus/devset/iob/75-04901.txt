@@ -1,0 +1,24 @@
+Servius	NAM
+dépoétise	VER:pres
+la	DET:ART
+Sibylle	NAM
+de	PRP
+Virgile	NAM
+,	PUN
+mais	KON
+il	PRO:PER
+l'	PRO:PER
+explique	VER:pres
+dans	PRP
+le	DET:ART
+traitement	NOM
+de	PRP
+motifs	NOM
+variés	ADJ
+et	KON
+d'	PRP
+un	DET:ART
+grand	ADJ
+intérêt	NOM
+exégétique	ADJ
+

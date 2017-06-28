@@ -1,0 +1,13 @@
+Concerne	VER:pres
+le	DET:ART
+Tmôlos	NAM
+et	KON
+le	DET:ART
+Pangée	NOM
+.	SENT
+
+Pour	PRP
+1	NUM
+=>	ABR
+75-00035	NUM
+

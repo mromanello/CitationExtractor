@@ -1,0 +1,11 @@
+Auch	ADV
+zur	APPRART
+Vorgeschichte	NN
+von	APPR
+Akut	NN
+und	KON
+Zirkumflex	NN
+im	APPRART
+Griechischen	NN
+.	$.
+

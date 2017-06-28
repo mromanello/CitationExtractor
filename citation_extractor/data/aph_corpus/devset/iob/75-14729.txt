@@ -1,0 +1,13 @@
+Table	NOM
+ronde	ADJ
+qui	PRO:REL
+s'	PRO:PER
+est	VER:pres
+tenue	VER:pper
+à	PRP
+Paris	NAM
+le	DET:ART
+16	NUM
+juin	NOM
+2001	NUM
+

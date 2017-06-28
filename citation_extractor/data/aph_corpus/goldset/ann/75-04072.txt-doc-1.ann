@@ -1,0 +1,22 @@
+T1	AAUTHOR 0 8	Plato 's
+T2	AWORK 35 47	« Republic »
+T3	REFSCOPE 364 378	(520 D-521 B).
+T4	AAUTHOR 393 401	Plato 's
+T5	AAUTHOR 464 469	Plato
+T6	AAUTHOR 557 565	Plato 's
+T7	REFSCOPE 780 790	(346 D 6-8
+T8	REFSCOPE 791 802	; 347 A 1-2
+T9	REFSCOPE 803 814	; 495 D-E).
+R1	Scope Arg1:T2 Arg2:T3	
+R2	Scope Arg1:T2 Arg2:T7	
+R3	Scope Arg1:T2 Arg2:T8	
+R4	Scope Arg1:T2 Arg2:T9	
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0059
+#2	AnnotatorNotes T2	urn:cts:greekLit:tlg0059.tlg030
+#3	AnnotatorNotes T3	urn:cts:greekLit:tlg0059.tlg030:520d-521b
+#4	AnnotatorNotes T4	urn:cts:greekLit:tlg0059
+#5	AnnotatorNotes T5	urn:cts:greekLit:tlg0059
+#6	AnnotatorNotes T6	urn:cts:greekLit:tlg0059
+#7	AnnotatorNotes T7	urn:cts:greekLit:tlg0059.tlg030:346d.6-346d.8
+#8	AnnotatorNotes T8	urn:cts:greekLit:tlg0059.tlg030:347a.1-347a.2
+#9	AnnotatorNotes T9	urn:cts:greekLit:tlg0059.tlg030:495d-495e

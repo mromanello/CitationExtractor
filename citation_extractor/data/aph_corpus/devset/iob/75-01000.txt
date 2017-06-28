@@ -1,0 +1,10 @@
+L'	DET:ART
+évolution	NOM
+spirituelle	ADJ
+de	PRP
+Basile	NAM
+d'	PRP
+après	PRP
+sa	DET:POS
+correspondance	NOM
+

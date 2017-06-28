@@ -1,0 +1,7 @@
+T1	REFAUWORK 139 143	Cor.
+T2	REFSCOPE 144 151	11, 4-5
+T3	REFSCOPE 152 162	e 14, 1-40
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:444:11.4-11.5
+#1	AnnotatorNotes R2	urn:cts:cwkb:444:14.1-14.40

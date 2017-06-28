@@ -1,0 +1,16 @@
+Propose	VER:pres
+la	DET:ART
+correction	NOM
+«	PUN:cit
+Laestrygonas	NAM
+<heros>
+»	PUN:cit
+pour	PRP
+compléter	VER:infi
+la	DET:ART
+fin	NOM
+corrompue	VER:pper
+de	PRP
+ce	PRO:DEM
+vers	PRP
+

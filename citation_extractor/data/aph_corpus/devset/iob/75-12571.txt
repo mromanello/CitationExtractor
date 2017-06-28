@@ -1,0 +1,16 @@
+Osservazioni	NOM
+sul	PRE:det
+rapporto	NOM
+tra	PRE
+immagine	NOM
+e	CON
+simbolo	NOM
+nell'	PRE:det
+arte	NOM
+plastica	ADJ
+e	CON
+figurativa	ADJ
+del	PRE:det
+mondo	NOM
+antico	ADJ
+

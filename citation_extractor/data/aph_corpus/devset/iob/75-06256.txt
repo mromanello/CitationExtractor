@@ -1,0 +1,7 @@
+Descriptions	NOM
+de	PRP
+l'	DET:ART
+Olympe	NAM
+chez	PRP
+Virgile	NAM
+

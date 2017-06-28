@@ -1,0 +1,12 @@
+Évocation	NOM
+de	PRP
+la	DET:ART
+carrière	NOM
+et	KON
+des	PRP:det
+travaux	NOM
+de	PRP
+cette	PRO:DEM
+archéologue	NOM
+allemande	ADJ
+

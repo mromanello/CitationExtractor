@@ -1,0 +1,10 @@
+Arguments	NOM
+en	PRP
+faveur	NOM
+de	PRP
+la	DET:ART
+prononciation	NOM
+«	PUN:cit
+zd	NOM
+»	PUN:cit
+

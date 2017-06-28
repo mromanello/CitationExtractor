@@ -1,0 +1,34 @@
+Spunti	NOM
+di	PRE
+riflessione	NOM
+ricostruibili	ADJ
+nel	PRE:det
+commento	NOM
+di	PRE
+Donato	NOM
+a	PRE
+proposito	NOM
+della	PRE:det
+«	PON
+bona	NOM
+meretrix	NOM
+»	PON
+in	PRE
+Terenzio	NOM
+.	SENT
+
+Peculiarità	NOM
+di	PRE
+matrone	NOM
+e	CON
+meretrici	NOM
+nelle	PRE:det
+commedie	NOM
+terenziane	NOM
+e	CON
+il	DET:def
+caso	NOM
+specifico	ADJ
+di	PRE
+Bacchide	NOM
+

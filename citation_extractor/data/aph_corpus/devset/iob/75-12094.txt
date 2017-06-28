@@ -1,0 +1,23 @@
+Einleitung	NN
+zu	APPR
+den	ART
+Märtyrern	NN
+als	KOKOM
+Leitbild	NN
+,	$,
+zu	APPR
+Charakter	NN
+und	KON
+Bedeutung	NN
+der	ART
+Märtyrerakten	NN
+sowie	KON
+zur	APPRART
+Bedeutung	NN
+des	ART
+Märtyrerkultes	NN
+in	APPR
+nachkonstantinischer	ADJA
+Zeit	NN
+.	$.
+

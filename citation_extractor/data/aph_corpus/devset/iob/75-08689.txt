@@ -1,0 +1,19 @@
+Fragments	NOM
+datés	VER:pper
+du	PRP:det
+2e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+au	PRP:det
+7e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+

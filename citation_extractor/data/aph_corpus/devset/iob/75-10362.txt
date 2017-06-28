@@ -1,0 +1,21 @@
+Riguardo	NOM
+al	PRE:det
+vol.	ABR
+schedato	NOM
+75-10326	NUM
+,	PON
+considerazioni	NOM
+sulla	PRE:det
+rappresentazione	NOM
+di	PRE
+Italici	NOM
+e	CON
+Ausoni	NOM
+nel	PRE:det
+sistema	NOM
+etnografico	ADJ
+di	PRE
+Antioco	NOM
+di	PRE
+Siracusa	NPR
+

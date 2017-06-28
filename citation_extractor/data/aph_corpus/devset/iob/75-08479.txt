@@ -1,0 +1,62 @@
+L'	DET:ART
+oratoire	NOM
+a	VER:pres
+été	VER:pper
+construit	VER:pper
+par	PRP
+le	DET:ART
+pape	NOM
+Hilaire	NAM
+contre	PRP
+le	DET:ART
+baptistère	NOM
+du	PRP:det
+Latran	NAM
+.	SENT
+
+Détruit	VER:pper
+en	PRP
+1588	NUM
+,	PUN
+l'	DET:ART
+édifice	NOM
+est	VER:pres
+bien	ADV
+documenté	VER:pper
+par	PRP
+les	DET:ART
+dessins	NOM
+et	KON
+descriptions	NOM
+de	PRP
+la	DET:ART
+Renaissance	NOM
+.	SENT
+
+En	PRP
+1995	NUM
+,	PUN
+des	PRP:det
+fouilles	NOM
+dans	PRP
+le	DET:ART
+baptistère	NOM
+en	PRO:PER
+ont	VER:pres
+dégagé	VER:pper
+des	PRP:det
+fondations	NOM
+.	SENT
+
+Étude	NOM
+architecturale	ADJ
+et	KON
+propositions	NOM
+de	PRP
+restitution	NOM
+.	SENT
+
+Discussions	NOM
+p.	ABR
+109-116	NUM
+

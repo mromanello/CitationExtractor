@@ -1,0 +1,8 @@
+T1	REFAUWORK 51 54	Mt.
+T2	REFSCOPE 55 64	13, 45-46
+T3	REFAUWORK 68 73	Apoc.
+T4	REFSCOPE 74 81	21, 21.
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:820.1957:13.45-13.46
+#1	AnnotatorNotes R2	urn:cts:cwkb:375:21.21

@@ -1,0 +1,23 @@
+Zu	APPR
+Fragestellung	NN
+und	KON
+Zielrichtung	NN
+des	ART
+Symposiums	NN
+;	$.
+zum	APPRART
+Forschungsprojekt	NN
+«	$(
+Corpus	NN
+Judaeo-Hellenisticum	NE
+Novi	NE
+Testamenti	NN
+»	$(
+sowie	KON
+zu	APPR
+den	ART
+Beiträgen	NN
+des	ART
+Symposiums	NN
+.	$.
+

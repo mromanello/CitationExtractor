@@ -1,0 +1,6 @@
+T1	AAUTHOR 76 83	Origène
+T2	REFAUWORK 84 94	(In Matth.
+T3	REFSCOPE 95 106	13, 10-14).
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:462.977:13.10-13.14
+#1	AnnotatorNotes T1	urn:cts:cwkb:1015

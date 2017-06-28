@@ -1,0 +1,23 @@
+Esame	NOM
+del	PRE:det
+passo	NOM
+e	CON
+delle	PRE:det
+interpretazioni	NOM
+speculative	ADJ
+di	PRE
+esso	PRO:pers
+proposte	VER:pper
+da	PRE
+numerosi	ADJ
+filosofi	NOM
+platonici	ADJ
+e	CON
+in	PRE
+testimonianze	NOM
+non	ADV
+filosofiche	ADJ
+,	PON
+anche	ADV
+latine	ADJ
+

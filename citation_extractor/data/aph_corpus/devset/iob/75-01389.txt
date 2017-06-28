@@ -1,0 +1,30 @@
+Examen	NOM
+des	PRP:det
+citations	NOM
+philosophiques	ADJ
+et	KON
+poétiques	ADJ
+dans	PRP
+les	DET:ART
+livres	NOM
+1	NUM
+et	KON
+2	NUM
+des	PRP:det
+«	PUN:cit
+Tusculanes	NOM
+»	PUN:cit
+.	SENT
+
+Pour	PRP
+Cicéron	NAM
+,	PUN
+la	DET:ART
+poésie	NOM
+participe	VER:pres
+pleinement	ADV
+de	PRP
+la	DET:ART
+réflexion	NOM
+philosophique	ADJ
+

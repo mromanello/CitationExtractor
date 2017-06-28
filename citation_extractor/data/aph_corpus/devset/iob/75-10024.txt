@@ -1,0 +1,27 @@
+Riesame	NOM
+delle	PRE:det
+fonti	NOM
+storiche	ADJ
+dell'	PRE:det
+evento	NOM
+,	PON
+con	PRE
+particolare	ADJ
+attenzione	NOM
+per	PRE
+il	DET:def
+resoconto	NOM
+offerto	VER:pper
+da	PRE
+Senofonte	NOM
+nel	PRE:det
+3°	NOM
+e	CON
+nel	PRE:det
+4°	NOM
+libro	NOM
+delle	PRE:det
+«	PON
+Elleniche	NOM
+»	PON
+

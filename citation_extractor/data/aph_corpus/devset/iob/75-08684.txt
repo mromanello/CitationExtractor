@@ -1,0 +1,44 @@
+Découverte	VER:pper
+en	PRP
+2001	NUM
+de	PRP
+deux	NUM
+conduites	NOM
+d'	PRP
+eau	NOM
+parallèles	ADJ
+construites	VER:pper
+selon	PRP
+des	PRP:det
+techniques	NOM
+différentes	ADJ
+et	KON
+qui	PRO:REL
+portent	VER:pres
+des	PRP:det
+traces	NOM
+de	PRP
+réparation	NOM
+.	SENT
+
+Leur	DET:POS
+chronologie	NOM
+est	VER:pres
+peu	ADV
+claire	ADJ
+.	SENT
+
+Quelques	PRO:IND
+restes	NOM
+de	PRP
+céramiques	NOM
+permettent	VER:pres
+une	DET:ART
+datation	NOM
+aux	PRP:det
+1er-2e	NAM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+

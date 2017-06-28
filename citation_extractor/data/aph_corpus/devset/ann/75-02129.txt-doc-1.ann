@@ -1,0 +1,12 @@
+T1	AAUTHOR 66 85	Gregorio Nazianzeno
+T2	AAUTHOR 98 116	Basilio di Cesarea
+T3	REFAUWORK 117 121	(Or.
+T4	REFSCOPE 122 144	43, 1, 23-24 Bernardi)
+T5	REFAUWORK 180 186	Theol.
+T6	REFSCOPE 187 196	98, 45-52
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:443.950:43.1.23-43.1.24
+#1	AnnotatorNotes R2	urn:cts:cwkb:1101:98.45-98.52
+#2	AnnotatorNotes T2	urn:cts:greekLit:tlg2040
+#3	AnnotatorNotes T1	urn:cts:cwkb:896

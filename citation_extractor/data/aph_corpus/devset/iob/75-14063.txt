@@ -1,0 +1,13 @@
+Semblanza	NC
+y	CC
+bibliografía	NC
+del	PDEL
+historiador	NC
+F.	NP
+J.	NP
+Doelger	NP
+(	LP
+1879-1940	CARD
+)	RP
+.	FS
+

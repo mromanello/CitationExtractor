@@ -1,0 +1,26 @@
+Erstpublikation	NN
+des	ART
+lateinischen	ADJA
+Steines	NN
+(	$(
+nach	APPR
+der	ART
+1.	ADJA
+Hälfte	NN
+des	ART
+1.	ADJA
+Jh	NN
+.	$.
+n.	APPR
+Chr.	NE
+,	$,
+Verbleib	NN
+unbekannt	ADJD
+)	$(
+,	$,
+der	PRELS
+einen	ART
+Vermessungspunkt	NN
+markierte	VVFIN
+.	$.
+

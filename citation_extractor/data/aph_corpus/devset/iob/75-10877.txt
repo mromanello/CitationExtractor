@@ -1,0 +1,16 @@
+Documentation	NOM
+papyrologique	ADJ
+relative	ADJ
+au	PRP:det
+commerce	NOM
+des	PRP:det
+vins	NOM
+(	PUN
+périodes	NOM
+ptolémaïque	ADJ
+,	PUN
+romaine	ADJ
+et	KON
+byzantine	ADJ
+)	PUN
+

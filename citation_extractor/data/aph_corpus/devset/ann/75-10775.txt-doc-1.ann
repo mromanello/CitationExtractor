@@ -1,0 +1,6 @@
+T1	REFAUWORK 455 460	(Liu.
+T2	REFSCOPE 461 473	27, 10, 13).
+T3	AAUTHOR 497 504	Plaute.
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:387:27.10.13
+#1	AnnotatorNotes T3	urn:cts:latinLit:phi0119

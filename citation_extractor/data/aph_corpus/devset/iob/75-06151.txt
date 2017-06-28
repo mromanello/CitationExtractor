@@ -1,0 +1,10 @@
+In	PRE
+margine	NOM
+allo	PRE:det
+studio	NOM
+di	PRE
+U.	NOM
+Bartocci	NOM
+schedato	ADJ
+75-13287	NUM
+

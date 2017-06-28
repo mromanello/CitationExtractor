@@ -1,0 +1,39 @@
+T1	REFSCOPE 15 24	5, 5, 4 ;
+T2	REFSCOPE 25 35	6, 4, 10 ;
+T3	REFSCOPE 36 45	8, 2, 4 ;
+T4	REFAUWORK 48 55	X. Eph.
+T5	REFSCOPE 56 65	1, 9, 5 ;
+T6	REFSCOPE 66 75	2, 7, 4 ;
+T7	REFSCOPE 76 85	3, 2, 7 ;
+T8	REFSCOPE 86 95	4, 1, 4 ;
+T9	REFSCOPE 96 105	4, 1, 5 ;
+T10	REFSCOPE 106 115	5, 2, 5 ;
+T11	REFAUWORK 120 126	Longus
+T12	REFSCOPE 127 137	1, 23, 3 ;
+T13	REFSCOPE 138 148	2, 23, 4 ;
+T14	REFSCOPE 149 157	3, 16, 1
+R1	Scope Arg1:T4 Arg2:T5
+R2	Scope Arg1:T4 Arg2:T6
+R3	Scope Arg1:T4 Arg2:T7
+R4	Scope Arg1:T4 Arg2:T8
+R5	Scope Arg1:T4 Arg2:T9
+R6	Scope Arg1:T4 Arg2:T10
+R7	Scope Arg1:T11 Arg2:T12
+R8	Scope Arg1:T11 Arg2:T13
+R9	Scope Arg1:T11 Arg2:T14
+#0	AnnotatorNotes R4	urn:cts:cwkb:1186.4024:4.1.4
+#1	AnnotatorNotes R5	urn:cts:cwkb:1186.4024:4.1.5
+#2	AnnotatorNotes R6	urn:cts:cwkb:1186.4024:5.2.5
+#3	AnnotatorNotes R7	urn:cts:greekLit:tlg0561.tlg001:1.23.3
+#4	AnnotatorNotes R1	urn:cts:cwkb:1186.4024:1.9.5
+#5	AnnotatorNotes R2	urn:cts:cwkb:1186.4024:2.7.4
+#6	AnnotatorNotes R3	urn:cts:cwkb:1186.4024:3.2.7
+#7	AnnotatorNotes R8	urn:cts:greekLit:tlg0561.tlg001:2.23.4
+#8	AnnotatorNotes R9	urn:cts:greekLit:tlg0561.tlg001:3.16.1
+T15	REFAUWORK 7 14	Charit.
+R10	Scope Arg1:T15 Arg2:T1	
+R11	Scope Arg1:T15 Arg2:T2	
+R12	Scope Arg1:T15 Arg2:T3	
+#9	AnnotatorNotes R10	urn:cts:greekLit:tlg0554.tlg001:5.5.4
+#10	AnnotatorNotes R11	urn:cts:greekLit:tlg0554.tlg001:6.4.10
+#11	AnnotatorNotes R12	urn:cts:greekLit:tlg0554.tlg001:8.2.4

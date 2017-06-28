@@ -1,0 +1,8 @@
+T1	AWORK 12 24	« Supplici »
+T2	AAUTHOR 28 35	Eschilo
+T3	AWORK 42 54	« Eraclidi »
+T4	AAUTHOR 58 67	Euripide,
+#0	AnnotatorNotes T4	urn:cts:greekLit:tlg0006
+#1	AnnotatorNotes T2	urn:cts:greekLit:tlg0085
+#2	AnnotatorNotes T3	urn:cts:greekLit:tlg0006.tlg004
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0006.tlg008

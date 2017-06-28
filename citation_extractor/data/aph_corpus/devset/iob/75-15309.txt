@@ -1,0 +1,16 @@
+Riproduzione	NOM
+di	PRE
+un	DET:indef
+discorso	NOM
+tenuto	VER:pper
+nel	PRE:det
+1984	NUM
+all'	PRE:det
+Università	NOM
+Cattolica	NOM
+del	PRE:det
+Sacro	NOM
+Cuore	NOM
+di	PRE
+Milano	NPR
+

@@ -1,0 +1,7 @@
+T1	REFAUWORK 49 52	Il.
+T2	REFSCOPE 53 81	2, 681-685, 840-843, 851-855
+T3	REFSCOPE 84 95	16, 233-235
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:763.1599:2.681-685.840
+#1	AnnotatorNotes R2	urn:cts:cwkb:763.1599:16.233-16.235

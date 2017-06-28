@@ -1,0 +1,4 @@
+T1	REFAUWORK 49 56	Atticum
+T2	REFSCOPE 57 82	4-6, 25-26, 46, 77, 85-86
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:2450:4-25.6

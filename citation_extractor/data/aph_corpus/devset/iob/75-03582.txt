@@ -1,0 +1,21 @@
+Reprend	VER:pres
+l'	PRO:PER
+article	VER:pres
+noté	VER:pper
+71-03626	NUM
+.	SENT
+
+Pacien	NAM
+est	VER:pres
+tributaire	ADJ
+des	PRP:det
+stéréotypes	NOM
+développés	VER:pper
+dans	PRP
+la	DET:ART
+«	PUN:cit
+Correspondance	NAM
+»	PUN:cit
+de	PRP
+Cyprien	NAM
+

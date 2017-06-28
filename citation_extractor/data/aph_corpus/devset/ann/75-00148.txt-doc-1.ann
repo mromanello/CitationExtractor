@@ -1,0 +1,5 @@
+T1	AAUTHOR 0 8	Ambrosio
+T2	REFAUWORK 97 109	En Hexameron
+T3	REFSCOPE 110 114	5, 1
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes T1	urn:cts:cwkb:2613

@@ -1,0 +1,15 @@
+Les	DET:ART
+différentes	ADJ
+contributions	NOM
+sont	VER:pres
+signalées	VER:pper
+dans	PRP
+le	DET:ART
+tome	NOM
+75.	PRP:det
+
+Pour	PRP
+34	NUM
+=>	ABR
+74-09257	NUM
+

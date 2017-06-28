@@ -1,0 +1,15 @@
+Queste	PRO:demo
+forme	NOM
+nascono	VER:pres
+verosimilmente	ADV
+come	PRE
+modali	ADJ
+di	PRE
+preterito	NOM
+,	PON
+con	PRE
+-s-	NOM
+di	PRE
+origine	NOM
+aoristica	ADJ
+

@@ -1,0 +1,6 @@
+T1	REFAUWORK 39 44	(Aen.
+T2	REFSCOPE 45 56	9, 424-449)
+T3	AWORK 132 155	« Epitafio de Adonis »,
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:9.424-9.449
+#1	AnnotatorNotes T3	urn:cts:greekLit:tlg0036.tlg001

@@ -1,0 +1,31 @@
+Étude	NOM
+chronologique	ADJ
+de	PRP
+l'	DET:ART
+emploi	NOM
+de	PRP
+ces	PRO:DEM
+termes	NOM
+par	PRP
+Jérôme	NAM
+.	SENT
+
+On	PRO:PER
+ne	ADV
+peut	VER:pres
+conclure	VER:infi
+à	PRP
+une	DET:ART
+évolution	NOM
+et	KON
+les	DET:ART
+deux	NUM
+champs	NOM
+lexicaux	ADJ
+semblent	VER:pres
+posséder	VER:infi
+des	PRP:det
+connotations	NOM
+misogynes	ADJ
+immuables	ADJ
+

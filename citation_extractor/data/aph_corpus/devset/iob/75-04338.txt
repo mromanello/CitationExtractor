@@ -1,0 +1,14 @@
+Il	DET:def
+motivo	NOM
+del	PRE:det
+«	PON
+tessere	NOM
+»	PON
+come	PRE
+metafora	NOM
+dell'	PRE:det
+inganno	NOM
+nelle	PRE:det
+commedie	NOM
+plautine	VER:impe
+

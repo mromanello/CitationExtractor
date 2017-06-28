@@ -1,0 +1,23 @@
+I	DET:def
+risultati	NOM
+delle	PRE:det
+recenti	ADJ
+campagne	NOM
+di	PRE
+scavo	NOM
+confermano	VER:pres
+la	DET:def
+specializzazione	NOM
+di	PRE
+quest'	PRO:demo
+area	NOM
+per	PRE
+i	DET:def
+culti	NOM
+femminili	ADJ
+fin	PRE
+da	PRE
+età	NOM
+molto	ADV
+antica	ADJ
+

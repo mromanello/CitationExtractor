@@ -1,0 +1,36 @@
+Présentation	NOM
+du	PRP:det
+colloque	NOM
+,	PUN
+noté	VER:pper
+75-15071	NUM
+,	PUN
+sur	PRP
+Rome	NAM
+et	KON
+Ostie	NAM
+.	SENT
+
+Ce	PRO:DEM
+type	NOM
+de	PRP
+structure	NOM
+portuaire	ADJ
+méditerranéen	ADJ
+a	VER:pres
+été	VER:pper
+théorisé	VER:pper
+dès	PRP
+l'	DET:ART
+Antiquité	NOM
+,	PUN
+du	PRP:det
+point	NOM
+de	PRP
+vue	NOM
+militaire	ADJ
+,	PUN
+économique	ADJ
+,	PUN
+politique	ADJ
+

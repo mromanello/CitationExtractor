@@ -1,0 +1,12 @@
+Plante	NOM
+aromatique	ADJ
+et	KON
+médicinale	ADJ
+disparue	VER:pper
+au	PRP:det
+5e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+

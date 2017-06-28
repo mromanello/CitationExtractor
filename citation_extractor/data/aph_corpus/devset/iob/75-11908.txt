@@ -1,0 +1,26 @@
+Le	DET:def
+fonti	NOM
+epigrafiche	ADJ
+tra	PRE
+5°	NOM
+e	CON
+3°	NOM
+sec.	NOM
+a.	NOM
+C.	NPR
+rivelano	VER:pres
+una	DET:indef
+forte	ADJ
+impronta	NOM
+del	PRE:det
+«	PON
+politico	ADJ
+»	PON
+nell'	PRE:det
+attività	NOM
+nomotetica	ADJ
+relativa	ADJ
+al	PRE:det
+settore	NOM
+funerario	ADJ
+

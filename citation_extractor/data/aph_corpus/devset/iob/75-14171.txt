@@ -1,0 +1,8 @@
+Présentation	NOM
+de	PRP
+cet	PRO:DEM
+utilitaire	NOM
+par	PRP
+son	DET:POS
+créateur	NOM
+

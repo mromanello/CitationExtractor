@@ -1,0 +1,85 @@
+Se	SE
+presenta	VLfin
+un	ART
+panorama	NC
+general	ADJ
+sobre	PREP
+la	ART
+imagen	NC
+de	PREP
+Dios	NC
+que	CQUE
+Gregorio	NP
+de	PREP
+Nisa	NC
+ofrece	VLfin
+en	PREP
+su	PPO
+«	SYM
+Gran	NP
+catequesis	NC
+»	SYM
+.	FS
+
+Gregorio	NP
+usa	VLfin
+relativamente	ADV
+poco	QU
+el	ART
+vocabulario	NC
+trinitario	NC
+,	CM
+centrándose	VCLIger
+en	PREP
+Dios	NC
+.	FS
+
+Atribuye	VLfin
+a	PREP
+Dios	NC
+no	NEG
+sólo	ADV
+el	ART
+poder	VMinf
+sino	CCAD
+también	ADV
+la	ART
+justicia	NC
+,	CM
+la	ART
+bondad	NC
+y	CC
+la	ART
+sabiduría	NC
+.	FS
+
+Los	ART
+cuatro	CARD
+atributos	NC
+deben	VMfin
+ir	VLinf
+juntos	ADJ
+en	PREP
+la	ART
+economía	NC
+de	PREP
+Dios	NC
+.	FS
+
+Su	PPO
+cristología	NC
+y	CC
+redención	NC
+es	VSfin
+sobre todo	ADV
+descendente	ADJ
+.	FS
+
+En	PREP
+todo	QU
+se	SE
+muestra	VLfin
+un	ART
+Dios	NC
+razonable	ADJ
+

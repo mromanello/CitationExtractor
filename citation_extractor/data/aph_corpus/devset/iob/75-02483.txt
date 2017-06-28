@@ -1,0 +1,14 @@
+Concerne	VER:pres
+essentiellement	ADV
+les	DET:ART
+«	PUN:cit
+Essais	NAM
+sur	PRP
+Homère	NAM
+»	PUN:cit
+(	PUN
+=>	ABR
+69-02234	NUM
+)	PUN
+.	SENT
+

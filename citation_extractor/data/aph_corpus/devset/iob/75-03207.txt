@@ -1,0 +1,57 @@
+Mise	VER:pper
+en	PRP
+scène	NOM
+des	PRP:det
+quatre	NUM
+sciences	NOM
+mathématiques	ADJ
+.	SENT
+
+Chaque	PRO:IND
+jeune	ADJ
+fille	NOM
+symbolise	VER:pres
+les	DET:ART
+préliminaires	NOM
+hiérarchisés	VER:pper
+,	PUN
+indispensables	ADJ
+à	PRP
+l'	DET:ART
+acquisition	NOM
+de	PRP
+la	DET:ART
+sagesse	NOM
+,	PUN
+non	ADV
+sans	PRP
+une	DET:ART
+certaine	ADJ
+distance	NOM
+ironique	ADJ
+.	SENT
+
+Dans	PRP
+ce	PRO:DEM
+cadre	NOM
+,	PUN
+l'	DET:ART
+allégorie	NOM
+remplit	VER:pres
+bien	ADV
+la	DET:ART
+fonction	NOM
+pédagogique	ADJ
+reconnue	VER:pper
+à	PRP
+ce	PRO:DEM
+mode	NOM
+d'	PRP
+expression	NOM
+.	SENT
+
+Pour	PRP
+2	NUM
+=>	ABR
+74-3798	NUM
+

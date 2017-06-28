@@ -1,0 +1,9 @@
+Adaptation	NOM
+d'	PRP
+une	DET:ART
+route	NOM
+aux	PRP:det
+contraintes	NOM
+du	PRP:det
+terrain	NOM
+

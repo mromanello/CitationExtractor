@@ -1,0 +1,9 @@
+T1	REFSCOPE 0 12	L' Idylle 16
+T2	AAUTHOR 16 25	Théocrite
+T3	AAUTHOR 394 403	Théocrite
+T4	AAUTHOR 573 582	Théocrite
+#0	AnnotatorNotes T4	urn:cts:greekLit:tlg0005
+#1	AnnotatorNotes T2	urn:cts:greekLit:tlg0005
+#2	AnnotatorNotes T3	urn:cts:greekLit:tlg0005
+R1	Scope Arg1:T2 Arg2:T1	
+#3	AnnotatorNotes R1	urn:cts:greekLit:tlg0005.tlg001:16

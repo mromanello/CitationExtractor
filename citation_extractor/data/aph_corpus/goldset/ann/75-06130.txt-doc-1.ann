@@ -1,0 +1,14 @@
+T1	REFSCOPE 9 16	chant 3
+T2	AAUTHOR 17 41	d' Apollonios de Rhodes,
+T3	REFSCOPE 70 77	chant 7
+T4	AAUTHOR 81 97	Valérius Flaccus
+T5	AWORK 212 221	« Médée »
+T6	AAUTHOR 225 232	Sénèque
+#1	AnnotatorNotes T4	urn:cts:cwkb:412
+#2	AnnotatorNotes T2	urn:cts:greekLit:tlg0001
+R1	Scope Arg1:T2 Arg2:T1	
+R2	Scope Arg1:T4 Arg2:T3	
+#3	AnnotatorNotes T5	urn:cts:cwkb:620.1278
+#4	AnnotatorNotes T6	urn:cts:cwkb:620
+#5	AnnotatorNotes R2	urn:cts:cwkb:664.1367:7
+#6	AnnotatorNotes R1	urn:cts:greekLit:tlg0001.tlg001:3

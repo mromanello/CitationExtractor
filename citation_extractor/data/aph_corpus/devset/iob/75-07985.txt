@@ -1,0 +1,57 @@
+Dépôt	NOM
+trouvé	VER:pper
+en	PRP
+1985.	DET:POS
+
+Il	PRO:PER
+provient	VER:pres
+d'	PRP
+un	DET:ART
+quartier	NOM
+périurbain	ADJ
+de	PRP
+la	DET:ART
+ville	NOM
+antique	ADJ
+qui	PRO:REL
+se	PRO:PER
+développe	VER:pres
+à	PRP
+partir	VER:infi
+du	PRP:det
+milieu	NOM
+du	PRP:det
+1er	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+
+Ce	PRO:DEM
+sont	VER:pres
+des	PRP:det
+éléments	NOM
+de	PRP
+décoration	NOM
+architectonique	ADJ
+et	KON
+pariétale	ADJ
+,	PUN
+des	PRP:det
+pavements	NOM
+et	KON
+des	PRP:det
+revêtements	NOM
+de	PRP
+maçonneries	NOM
+extérieures	ADJ
+.	SENT
+
+Étude	NOM
+de	PRP
+l'	DET:ART
+origine	NOM
+du	PRP:det
+marbre	NOM
+

@@ -1,0 +1,13 @@
+Semblanza	VER:impe
+y	NOM
+bibliografía	ADJ
+del	PRE:det
+arqueólogo	NOM
+alemán	ADJ
+T.	NOM
+Ulbert	NOM
+(	PON
+1939-	NUM
+)	PON
+.	SENT
+

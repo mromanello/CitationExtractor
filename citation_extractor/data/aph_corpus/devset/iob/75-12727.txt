@@ -1,0 +1,64 @@
+Fragment	NOM
+sculpté	VER:pper
+s'	PRO:PER
+inscrivant	VER:ppre
+dans	PRP
+une	DET:ART
+série	NOM
+bien	ADV
+attestée	VER:pper
+au	PRP:det
+4e-3e	NOM
+s.	VER:cond
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+et	KON
+qui	PRO:REL
+doit	VER:pres
+avoir	VER:infi
+pour	PRP
+fonction	NOM
+de	PRP
+supporter	VER:infi
+un	DET:ART
+plateau	NOM
+de	PRP
+marbre	NOM
+.	SENT
+
+L'	DET:ART
+atelier	NOM
+de	PRP
+cet	PRO:DEM
+exemplaire	NOM
+semble	VER:pres
+asiatique	ADJ
+.	SENT
+
+Le	DET:ART
+lieu	NOM
+de	PRP
+trouvaille	NOM
+est	VER:pres
+commenté	VER:pper
+dans	PRP
+la	DET:ART
+chronique	NOM
+de	PRP
+V.	ABR
+Karageorghis	NAM
+de	PRP
+1988	NUM
+(	PUN
+=>	ABR
+59-07910	NUM
+,	PUN
+p.	ABR
+804	NUM
+)	PUN
+

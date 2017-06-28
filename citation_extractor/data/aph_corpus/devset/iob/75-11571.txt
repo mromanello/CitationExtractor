@@ -1,0 +1,8 @@
+Poétesses	NOM
+,	PUN
+musiciennes	NOM
+,	PUN
+danseuses	NOM
+et	KON
+acrobates	NOM
+

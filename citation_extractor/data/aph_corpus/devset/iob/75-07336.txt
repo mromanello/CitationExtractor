@@ -1,0 +1,23 @@
+L'	DET:ART
+histoire	NOM
+du	PRP:det
+latin	NOM
+(	PUN
+latin	NOM
+classique	ADJ
+,	PUN
+latin	ADJ
+parlé	VER:pper
+tardif	ADJ
+et	KON
+protoroman	NOM
+)	PUN
+à	PRP
+la	DET:ART
+lumière	NOM
+de	PRP
+modèles	NOM
+de	PRP
+la	DET:ART
+sociolinguistique	NOM
+

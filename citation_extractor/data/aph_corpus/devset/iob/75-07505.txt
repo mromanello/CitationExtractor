@@ -1,0 +1,25 @@
+Description	NOM
+.	SENT
+
+Hypothèses	NOM
+sur	PRP
+l'	DET:ART
+origine	NOM
+du	PRP:det
+manuscrit	NOM
+(	PUN
+Ravenne	NAM
+ou	KON
+Rome	NAM
+?	SENT
+)	PUN
+et	KON
+sur	PRP
+sa	DET:POS
+date	NOM
+(	PUN
+9e	NUM
+s.	ABR
+?	SENT
+)	PUN
+

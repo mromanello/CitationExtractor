@@ -1,0 +1,9 @@
+L'	DET:def
+identità	NOM
+mediterranea	ADJ
+nella	PRE:det
+prospettiva	NOM
+storiografica	ADJ
+dello	PRE:det
+studioso	NOM
+

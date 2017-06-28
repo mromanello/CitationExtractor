@@ -1,0 +1,13 @@
+Ulteriore	ADJ
+analisi	NOM
+del	PRE:det
+passo	NOM
+già	ADV
+discusso	VER:pper
+dall'	PRE:det
+autrice	NOM
+(	PON
+=>	NOM
+71-01458	NUM
+)	PON
+

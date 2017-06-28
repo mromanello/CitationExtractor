@@ -1,0 +1,13 @@
+Sobre	ADJ
+las	NOM
+citas	VER:simp
+que	KON
+Nebrija	NAM
+hace	VER:pres
+de	PRP
+autores	ADJ
+latinos	NOM
+de	PRP
+origen	NOM
+hispano	ADJ
+

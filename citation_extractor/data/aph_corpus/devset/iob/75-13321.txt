@@ -1,0 +1,8 @@
+Resoconto	NOM
+della	PRE:det
+presentazione	NOM
+del	PRE:det
+volume	NOM
+schedato	ADJ
+73-16918	NUM
+

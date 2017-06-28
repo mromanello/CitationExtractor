@@ -1,0 +1,25 @@
+Se	SE
+estudia	VLfin
+el	ART
+papel	NC
+de	PREP
+las	ART
+madres	NC
+en	PREP
+la	ART
+tragedia	NC
+,	CM
+entendida	VLadj
+ésta	DM
+como	ADV
+forma	NC
+de	PREP
+expresión	NC
+de	PREP
+la	ART
+ideología	NC
+de	PREP
+la	ART
+ciudad	NC
+.	FS
+

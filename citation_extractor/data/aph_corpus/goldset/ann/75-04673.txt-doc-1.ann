@@ -1,0 +1,13 @@
+T1	REFAUWORK 58 63	Prop.
+T2	REFSCOPE 64 73	1, 16, 29
+T3	REFSCOPE 100 109	1, 16, 38
+T4	REFSCOPE 276 287	4, 3, 47-48
+T5	REFSCOPE 417 425	4, 3, 51
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+R4	Scope Arg1:T1 Arg2:T5
+#0	AnnotatorNotes R4	urn:cts:latinLit:phi0620.phi001:4.3.51
+#1	AnnotatorNotes R1	urn:cts:latinLit:phi0620.phi001:1.16.29
+#2	AnnotatorNotes R2	urn:cts:latinLit:phi0620.phi001:1.16.38
+#3	AnnotatorNotes R3	urn:cts:latinLit:phi0620.phi001:4.3.47-4.3.48

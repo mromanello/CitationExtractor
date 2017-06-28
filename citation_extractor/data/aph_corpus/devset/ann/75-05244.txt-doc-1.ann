@@ -1,0 +1,4 @@
+T1	REFAUWORK 211 216	Inst.
+T2	REFSCOPE 217 228	12, 7, 8-12
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:602.1246:12.7.8-12.7.12

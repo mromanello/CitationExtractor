@@ -1,0 +1,4 @@
+T1	REFAUWORK 129 136	Erodoto
+T2	REFSCOPE 137 153	1, 196, 4-199, 2
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0016:1.196.4-1.2.199

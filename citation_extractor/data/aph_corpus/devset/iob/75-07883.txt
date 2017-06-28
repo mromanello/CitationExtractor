@@ -1,0 +1,25 @@
+Matériel	ADJ
+datant	VER:ppre
+du	PRP:det
+2e	NUM
+s.	ABR
+av	NOM
+.	SENT
+-2e	ADJ
+s.	NOM
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+,	PUN
+issu	ADJ
+de	PRP
+la	DET:ART
+fouille	NOM
+de	PRP
+1981	NUM
+(	PUN
+=>	ABR
+60-07441	NUM
+)	PUN
+

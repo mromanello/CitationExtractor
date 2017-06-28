@@ -1,0 +1,16 @@
+Figurines	NOM
+de	PRP
+terre	NOM
+cuite	VER:pper
+des	PRP:det
+4e	NUM
+et	KON
+3e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+

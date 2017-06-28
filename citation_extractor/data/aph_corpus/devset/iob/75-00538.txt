@@ -1,0 +1,15 @@
+Interprétation	NOM
+de	PRP
+la	DET:ART
+chronologie	NOM
+des	PRP:det
+réformes	NOM
+de	PRP
+Clisthène	NAM
+présentée	VER:pper
+dans	PRP
+l'	DET:ART
+Athenaion	NOM
+politeia	VER:simp
+21-22	NUM
+

@@ -1,0 +1,30 @@
+Restitution	NOM
+du	PRP:det
+projet	NOM
+d'	PRP
+Ictinos	NOM
+:	PUN
+un	DET:ART
+ensemble	NOM
+purement	ADV
+dorique	ADJ
+.	SENT
+
+Le	DET:ART
+mélange	NOM
+des	PRP:det
+styles	NOM
+fut	VER:simp
+introduit	VER:pper
+ultérieurement	ADV
+par	PRP
+Mnésiclès	NAM
+aux	PRP:det
+Propylées	NAM
+.	SENT
+
+Pour	PRP
+5	NUM
+=>	ABR
+75-12640	NUM
+

@@ -1,0 +1,37 @@
+Étude	NOM
+de	PRP
+divers	ADJ
+épisodes	NOM
+hagiographiques	ADJ
+mettant	VER:ppre
+en	PRP
+scène	NOM
+des	PRP:det
+saintes	NOM
+aux	PRP:det
+seins	NOM
+profanés	VER:pper
+.	SENT
+
+Ces	PRO:DEM
+récits	NOM
+,	PUN
+aux	PRP:det
+connotations	NOM
+fortement	ADV
+négatives	ADJ
+,	PUN
+résultent	VER:pres
+de	PRP
+la	DET:ART
+dévalorisation	NOM
+du	PRP:det
+corps	NOM
+féminin	ADJ
+par	PRP
+les	DET:ART
+Pères	NOM
+de	PRP
+l'	DET:ART
+Église	NAM
+

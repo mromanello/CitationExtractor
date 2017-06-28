@@ -1,0 +1,6 @@
+Historienne	NOM
+de	PRP
+l'	DET:ART
+art	NOM
+antique	ADJ
+

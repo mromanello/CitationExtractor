@@ -1,0 +1,5 @@
+T1	AAUTHOR 290 299	Columelle
+T2	REFAUWORK 300 312	(De re rust.
+T3	REFSCOPE 313 325	3, 3, 9-10),
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes T1	urn:cts:cwkb:442

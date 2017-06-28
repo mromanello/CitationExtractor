@@ -1,0 +1,37 @@
+Se	SE
+analiza	VLfin
+la	ART
+importancia	NC
+que	CQUE
+los	ART
+referentes	ADJ
+griegos	NC
+,	CM
+como	CSUBX
+Diófanes	NC
+de	PREP
+Mitilene	NC
+o	CC
+Blosio	NC
+de	PREP
+Cumas	NC
+,	CM
+pudieron	VLfin
+tener	VLinf
+en	PREP
+la	ART
+reforma	NC
+agraria	ADJ
+de	PREP
+Tiberio	NC
+Graco	NP
+,	CM
+por encima de	PREP
+la	ART
+escasa	ADJ
+influencia	NC
+de	PREP
+los	ART
+círculos	NC
+romanos	ADJ
+

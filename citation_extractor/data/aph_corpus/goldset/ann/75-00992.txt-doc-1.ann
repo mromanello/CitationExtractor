@@ -1,0 +1,12 @@
+T1	REFSCOPE 3 16	epistole 155,
+T2	AAUTHOR 29 36	Basilio
+T3	AWORK 53 78	« Passio S. Sabae Gothi »
+#0	AnnotatorNotes T2	urn:cts:cwkb:783
+T4	REFSCOPE 17 21	164,
+T5	REFSCOPE 22 25	165
+R1	Scope Arg1:T2 Arg2:T1	
+R2	Scope Arg1:T2 Arg2:T4	
+R3	Scope Arg1:T2 Arg2:T5	
+#1	AnnotatorNotes R1	urn:cts:greekLit:tlg2040.tlg004:155
+#2	AnnotatorNotes R2	urn:cts:greekLit:tlg2040.tlg004:164
+#3	AnnotatorNotes R3	urn:cts:greekLit:tlg2040.tlg004:165

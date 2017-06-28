@@ -1,0 +1,16 @@
+T1	AWORK 34 47	« Historiae »
+T2	AAUTHOR 51 60	Sallustio
+T3	REFSCOPE 68 75	2, 70 ;
+T4	REFSCOPE 76 84	1, 120 ;
+T5	REFSCOPE 85 91	2, 1-4
+T6	REFSCOPE 92 108	e 4, 23-39 Maur.
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+R3	Scope Arg1:T2 Arg2:T5
+R4	Scope Arg1:T2 Arg2:T6
+#0	AnnotatorNotes R4	urn:cts:cwkb:1073:4.23-4.39
+#1	AnnotatorNotes R1	urn:cts:cwkb:1073:2.70
+#2	AnnotatorNotes R2	urn:cts:cwkb:1073:1.120
+#3	AnnotatorNotes R3	urn:cts:cwkb:1073:2.1-2.4
+#4	AnnotatorNotes T2	urn:cts:cwkb:1073
+#5	AnnotatorNotes T1	urn:cts:cwkb:389.787

@@ -1,0 +1,18 @@
+Zur	APPRART
+Entwicklung	NN
+des	ART
+Märtyrerkultes	NN
+und	KON
+seiner	PPOSAT
+Bauwerke	NN
+vom	APPRART
+2.	ADJA
+bis	APPR
+zum	APPRART
+5.	ADJA
+
+Jh	NE
+.	$.
+
+n.	APPR
+Chr.	NE

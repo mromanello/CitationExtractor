@@ -1,0 +1,10 @@
+T1	AWORK 4 15	« Timaeus »
+T2	AWORK 35 46	« Critias »
+T3	AWORK 134 146	« Timaeus »,
+T4	AWORK 176 188	« Critias »)
+T5	AAUTHOR 536 543	Critias
+#0	AnnotatorNotes T4	urn:cts:greekLit:tlg0059.tlg032
+#1	AnnotatorNotes T5	urn:cts:cwkb:817
+#2	AnnotatorNotes T2	urn:cts:greekLit:tlg0059.tlg032
+#3	AnnotatorNotes T3	urn:cts:cwkb:431.936
+#4	AnnotatorNotes T1	urn:cts:cwkb:431.936

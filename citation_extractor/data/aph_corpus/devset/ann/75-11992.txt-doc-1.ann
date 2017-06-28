@@ -1,0 +1,9 @@
+T1	AAUTHOR 457 466	Pausanias
+T2	REFSCOPE 467 478	(7, 17, 12)
+T3	REFAUWORK 710 718	Catullus
+T4	REFSCOPE 719 721	63
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0525:7.17.12
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0472:63
+#2	AnnotatorNotes T1	urn:cts:greekLit:tlg0525

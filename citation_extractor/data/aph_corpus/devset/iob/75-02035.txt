@@ -1,0 +1,20 @@
+Analisi	NOM
+stilistica	ADJ
+e	CON
+tematica	ADJ
+di	PRE
+questo	PRO:demo
+carme	NOM
+alla	PRE:det
+luce	NOM
+delle	PRE:det
+varie	ADJ
+concezioni	NOM
+del	PRE:det
+ridere	VER:infi
+presenti	ADJ
+nelle	PRE:det
+opere	NOM
+del	PRE:det
+Pisida	NOM
+

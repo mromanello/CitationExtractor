@@ -1,0 +1,29 @@
+Sobre	PREP
+el	ART
+erotismo	NC
+en	PREP
+la	ART
+vida	NC
+y	CC
+la	ART
+obra	NC
+de	PREP
+Sófocles	NC
+,	CM
+centrándose	VCLIger
+en	PREP
+el	ART
+estudio	NC
+de	PREP
+sus	PPO
+fragmentos	NC
+.	FS
+
+Para	PREP
+1	CARD
+=>	NC
+73-16241	CODE
+,	CM
+p.	ALFS
+321-332	CARD
+

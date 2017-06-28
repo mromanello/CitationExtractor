@@ -1,0 +1,25 @@
+Utilità	NOM
+degli	PRE:det
+storici	NOM
+dell'	PRE:det
+antichità	NOM
+in	PRE
+rapporto	NOM
+ai	PRE:det
+valori	NOM
+morali	ADJ
+della	PRE:det
+società	NOM
+civile	ADJ
+contemporanea	ADJ
+:	PON
+modi	NOM
+e	CON
+ragioni	NOM
+di	PRE
+una	DET:indef
+corretta	ADJ
+ricerca	NOM
+storica	ADJ
+oggi	ADV
+

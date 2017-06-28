@@ -1,0 +1,17 @@
+Le	DET:def
+istanze	NOM
+formative	ADJ
+di	PRE
+Ignazio	NOM
+per	PRE
+i	DET:def
+diaconi	NOM
+si	PRO:refl
+muovono	VER:pres
+in	PRE
+prospettiva	NOM
+sia	VER:cpre
+teologica	ADJ
+sia	CON
+pratica	NOM
+

@@ -1,0 +1,11 @@
+Zum	APPRART
+Kirchenverständnis	NN
+Gregors	NE
+und	KON
+dessen	PDAT
+Bedeutung	NN
+für	APPR
+sein	PPOSAT
+Wirken	NN
+.	$.
+

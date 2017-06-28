@@ -1,0 +1,21 @@
+Nuova	ADJ
+edizione	NOM
+critica	ADJ
+di	PRE
+questo	PRO:demo
+frammento	NOM
+,	PON
+probabilmente	ADV
+menandreo	VER:pres
+,	PON
+e	CON
+progressi	NOM
+nella	PRE:det
+lettura	NOM
+dei	PRE:det
+r.	NOM
+
+11a-b	NOM
+e	CON
+21	NUM
+

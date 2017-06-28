@@ -1,0 +1,5 @@
+T1	AAUTHOR 461 469	Polybios
+T2	REFSCOPE 470 478	(18, 52)
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0543:18.52
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0543

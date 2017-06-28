@@ -1,0 +1,21 @@
+Fragments	NOM
+de	PRP
+colonne	NOM
+de	PRP
+style	NOM
+corinthien	ADJ
+avec	PRP
+un	DET:ART
+chapiteau	NOM
+«	PUN:cit
+nabatéen	NOM
+»	PUN:cit
+,	PUN
+trouvés	VER:pper
+en	PRP
+1986	NUM
+lors	ADV
+de	PRP
+travaux	NOM
+immobiliers	ADJ
+

@@ -1,0 +1,40 @@
+Présence	NOM
+et	KON
+rôle	NOM
+de	PRP
+ce	PRO:DEM
+gnome	NOM
+dans	PRP
+la	DET:ART
+diffusion	NOM
+du	PRP:det
+culte	NOM
+isiaque	ADJ
+en	PRP
+et	KON
+hors	PRP
+d'	PRP
+Égypte	NAM
+,	PUN
+entre	PRP
+la	DET:ART
+fin	NOM
+du	PRP:det
+4e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+et	KON
+celle	PRO:DEM
+du	PRP:det
+4e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+

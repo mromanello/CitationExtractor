@@ -1,0 +1,4 @@
+T1	REFAUWORK 3 7	Aen.
+T2	REFSCOPE 8 15	12, 571
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0690.phi003:12.571

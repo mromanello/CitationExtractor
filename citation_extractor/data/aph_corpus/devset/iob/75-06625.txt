@@ -1,0 +1,9 @@
+Le	DET:ART
+mythe	NOM
+de	PRP
+Tithonos	NOM
+dans	PRP
+la	DET:ART
+littérature	NOM
+antique	ADJ
+

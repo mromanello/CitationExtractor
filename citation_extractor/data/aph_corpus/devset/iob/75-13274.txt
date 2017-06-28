@@ -1,0 +1,37 @@
+In	APPR
+den	ART
+griechischen	ADJA
+Poleis	NN
+gab	VVFIN
+es	PPER
+keine	PIAT
+gerichtliche	ADJA
+Kontrolle	NN
+des	ART
+Anspruchs	NN
+einer	ART
+freien	ADJA
+Person	NN
+auf	APPR
+Asyl	NN
+.	$.
+
+Gerichtsverfahren	NN
+gab	VVFIN
+es	PPER
+lediglich	ADV
+für	APPR
+Sklaven	NN
+,	$,
+die	PRELS
+wegen	APPR
+Übergriffe	NN
+ihrer	PPOSAT
+Herren	NN
+in	APPR
+ein	ART
+Heiligtum	NN
+geflohen	VVPP
+waren	VAFIN
+.	$.
+

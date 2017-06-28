@@ -1,0 +1,28 @@
+Rôle	NOM
+novateur	NOM
+de	PRP
+P.	ABR
+-A	NAM
+.	SENT
+
+Février	NOM
+(	PUN
+=>	NOM
+APh	NAM
+30	NUM
+,	PUN
+p.	ABR
+362	NUM
+,	PUN
+1er	NUM
+et	KON
+2e	NUM
+titres	NOM
+;	PUN
+APh	NAM
+31	NUM
+,	PUN
+p.	ABR
+410	NUM
+)	PUN
+

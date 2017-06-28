@@ -1,0 +1,47 @@
+T1	REFAUWORK 92 96	(Ap.
+T2	REFSCOPE 97 103	31c-d,
+T3	REFSCOPE 114 119	41d ;
+T4	REFAUWORK 120 128	Euthyph.
+T5	REFSCOPE 129 133	3b ;
+T6	REFSCOPE 140 146	103a ;
+T7	REFAUWORK 147 152	Resp.
+T8	REFSCOPE 153 159	496c ;
+T9	REFAUWORK 160 167	Phaedr.
+T10	REFSCOPE 168 174	242b ;
+T11	REFAUWORK 175 182	Euthyd.
+T12	REFSCOPE 183 189	272e ;
+T13	REFAUWORK 190 197	Theaet.
+T14	REFSCOPE 198 204	151a ;
+T15	REFAUWORK 205 211	Theag.
+T16	REFSCOPE 212 217	128d,
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T4 Arg2:T5
+R5	Scope Arg1:T7 Arg2:T8
+R6	Scope Arg1:T9 Arg2:T10
+R7	Scope Arg1:T11 Arg2:T12
+R8	Scope Arg1:T13 Arg2:T14
+R9	Scope Arg1:T15 Arg2:T16
+#1	AnnotatorNotes R5	urn:cts:greekLit:tlg0059.tlg030:496c
+#2	AnnotatorNotes R6	urn:cts:greekLit:tlg0059.tlg012:242b
+#3	AnnotatorNotes R7	urn:cts:greekLit:tlg0059.tlg021:272e
+#4	AnnotatorNotes R1	urn:cts:greekLit:tlg0059.tlg002:31c-31d
+#5	AnnotatorNotes R2	urn:cts:greekLit:tlg0059.tlg002:41d
+#6	AnnotatorNotes R3	urn:cts:greekLit:tlg0059.tlg001:3b
+#7	AnnotatorNotes R8	urn:cts:greekLit:tlg0059.tlg006:151a
+#8	AnnotatorNotes R9	urn:cts:greekLit:tlg0059.tlg017:128d
+T17	REFSCOPE 104 111	40a-b-c
+R10	Scope Arg1:T1 Arg2:T17	
+T18	REFAUWORK 134 139	Alc.1
+R4	Scope Arg1:T18 Arg2:T6	
+T19	REFSCOPE 218 225	129b-c,
+T20	REFSCOPE 226 231	129e,
+T21	REFSCOPE 232 237	131a)
+R11	Scope Arg1:T15 Arg2:T21	
+#9	AnnotatorNotes R10	urn:cts:greekLit:tlg0059.tlg002:40a-40c
+#10	AnnotatorNotes R4	urn:cts:greekLit:tlg0059.tlg013:103a
+R12	Scope Arg1:T15 Arg2:T19	
+#11	AnnotatorNotes R12	urn:cts:greekLit:tlg0059.tlg017:129b-c
+R13	Scope Arg1:T15 Arg2:T20	
+#12	AnnotatorNotes R13	urn:cts:greekLit:tlg0059.tlg017:129e
+#13	AnnotatorNotes R11	urn:cts:greekLit:tlg0059.tlg017:131a

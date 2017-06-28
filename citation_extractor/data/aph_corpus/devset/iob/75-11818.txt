@@ -1,0 +1,6 @@
+Rapprochements	NOM
+avec	PRP
+le	DET:ART
+monde	NOM
+gréco-latin	ADJ
+

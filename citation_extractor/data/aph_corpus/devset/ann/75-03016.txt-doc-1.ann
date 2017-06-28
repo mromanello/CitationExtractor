@@ -1,0 +1,12 @@
+T1	REFAUWORK 77 82	Herc.
+T2	REFSCOPE 83 84	4
+T3	AAUTHOR 162 170	Lucianus
+T4	REFAUWORK 193 197	Eun.
+T5	REFSCOPE 198 199	7
+T6	AAUTHOR 225 234	Lucian 's
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:2897:4
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0134.phi003:7
+#2	AnnotatorNotes T6	urn:cts:greekLit:tlg0062
+#3	AnnotatorNotes T3	urn:cts:greekLit:tlg0062

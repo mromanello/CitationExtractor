@@ -1,0 +1,17 @@
+T1	AAUTHOR 0 8	Porphyre
+T2	AWORK 23 38	l' « Isagoge »,
+T3	AWORK 94 108	« Catégories »
+T4	AAUTHOR 112 120	Aristote
+T5	AWORK 323 337	l' « Isagoge »
+T6	AAUTHOR 342 360	Jean Scot Erigène,
+T7	AWORK 370 386	« Periphyseon »,
+T8	AAUTHOR 460 468	Proclus,
+T9	AAUTHOR 469 478	Jean Scot
+T10	AWORK 513 527	l' « Isagoge »
+#0	AnnotatorNotes T8	urn:cts:cwkb:1059
+#4	AnnotatorNotes T2	urn:cts:cwkb:1056.3779
+#5	AnnotatorNotes T3	urn:cts:cwkb:766.1621
+#6	AnnotatorNotes T1	urn:cts:cwkb:1056
+#7	AnnotatorNotes T10	urn:cts:greekLit:tlg0081.tlg005
+#8	AnnotatorNotes T4	urn:cts:greekLit:tlg0086
+#3	AnnotatorNotes T5	urn:cts:cwkb:1056.3779

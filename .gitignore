@@ -1,0 +1,23 @@
+# MacOS Specific
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# pytest
+.cache
+
+# venv
+.env
+env/
+
+# Vim tmp files
+*~
+
+# project specific
+citation_extractor/data/pickles/
+
+# pypi
+build/
+dist/

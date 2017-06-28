@@ -1,0 +1,10 @@
+T1	REFAUWORK 22 26	Met.
+T2	REFSCOPE 27 37	2, 643-648
+T3	REFSCOPE 105 115	6, 759-762
+T4	REFSCOPE 120 130	5, 397-414
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0959.phi006:2.643-2.648
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi0959.phi006:6.759-6.762
+#2	AnnotatorNotes R3	urn:cts:latinLit:phi0959.phi006:5.397-5.414

@@ -1,0 +1,708 @@
+Aeschylus - Wikipedia
+Aeschylus
+From Wikipedia, the free encyclopedia
+Jump to:					navigation, 					search
+This article is about the ancient Greek playwright. For other uses, see Aeschylus (disambiguation).
+Aeschylus
+Bust of Aeschylus
+from the Capitoline Museums, Rome
+Native name
+Αἰσχύλος
+Born
+c. 523 BC
+Eleusis
+Died
+c. 456 BC (aged c. 67)
+Gela
+Occupation
+Playwright and soldier
+Children
+Euphorion
+Euaeon
+Parent(s)
+Euphorion (father)
+Relatives
+Cynaegirus (brother)
+Ameinias (brother)
+Philopatho (sister)
+Philocles (nephew)
+Aeschylus (/ˈiːskᵻləs/ or /ˈɛskᵻləs/;[1] Greek: Αἰσχύλος Aiskhulos; Ancient Greek: [ai̯s.kʰý.los]; c. 525/524 – c. 456/455 BC) was an ancient Greek tragedian. He is often described as the father of tragedy.[2][3] Academics' knowledge of the genre begins with his work,[4] and understanding of earlier tragedies is largely based on inferences from his surviving plays.[5] According to Aristotle, he expanded the number of characters in theater allowing conflict among them; characters previously had interacted only with the chorus.[nb 1]
+Only seven of his estimated seventy to ninety plays have survived, and there is a longstanding debate regarding his authorship of one of these plays, Prometheus Bound, which some believe his son Euphorion actually wrote. Fragments of some other plays have survived in quotes and more continue to be discovered on Egyptian papyrus, often giving us surprising insights into his work.[6] He was probably the first dramatist to present plays as a trilogy; his Oresteia is the only ancient example of the form to have survived.[7] At least one of his plays was influenced by the Persians' second invasion of Greece (480–479 BC). This work, The Persians, is the only surviving classical Greek tragedy concerned with contemporary events (very few of that kind were ever written),[8] and a useful source of information about its period. The significance of war in Ancient Greek culture was so great that Aeschylus' epitaph commemorates his participation in the Greek victory at Marathon while making no mention of his success as a playwright. Despite this, Aeschylus' work – particularly the Oresteia – is generally acclaimed by modern critics and scholars.
+Contents
+1 Life
+1.1 Death
+2 Personal life
+3 Works
+3.1 Trilogies
+4 Surviving plays
+4.1 The Persians
+4.2 Seven against Thebes
+4.3 The Suppliants
+4.4 The Oresteia
+4.4.1 Agamemnon
+4.4.2 The Libation Bearers
+4.4.3 The Eumenides
+4.5 Prometheus Bound
+5 Lost plays
+5.1 Myrmidons
+5.2 Nereids
+5.3 Phrygians, or Hector's Ransom
+5.4 Niobe
+6 Influence
+6.1 Influence on Greek drama and culture
+6.2 Influence outside of Greek culture
+7 See also
+8 Notes
+9 Citations
+10 Editions
+11 References
+12 External links
+Life[edit]
+Bust of Aeschylus at North Carolina Museum of Art
+Aeschylus was born in c. 525 BC in Eleusis, a small town about 27 kilometers northwest of Athens, which is nestled in the fertile valleys of western Attica,[9] though the date is most likely based on counting back forty years from his first victory in the Great Dionysia. His family was wealthy and well established; his father, Euphorion, was a member of the Eupatridae, the ancient nobility of Attica,[10] though this might be a fiction that the ancients invented to account for the grandeur of his plays.[11]
+As a youth, he worked at a vineyard until, according to the 2nd-century AD geographer Pausanias, the god Dionysus visited him in his sleep and commanded him to turn his attention to the nascent art of tragedy.[10] As soon as he woke from the dream, the young Aeschylus began to write a tragedy, and his first performance took place in 499 BC, when he was only 26 years old.[9][10] He won his first victory at the City Dionysia in 484 BC.[10][12]
+In 510 BC, when Aeschylus was 15 years old, Cleomenes I expelled the sons of Peisistratus from Athens, and Cleisthenes came to power. Cleisthenes' reforms included a system of registration that emphasized the importance of the deme over family tradition. In the last decade of the 6th century, Aeschylus and his family were living in the deme of Eleusis.[13]
+The Persian Wars played a large role in the playwright's life and career. In 490 BC, Aeschylus and his brother Cynegeirus fought to defend Athens against the invading army of Darius I of Persia at the Battle of Marathon.[9] The Athenians emerged triumphant, a victory celebrated across the city-states of Greece.[9] Cynegeirus, however, died in the battle, receiving a mortal wound while trying to prevent a Persian ship retreating from the shore, for which his countrymen extolled him as a hero.[9][13]
+In 480, Aeschylus was called into military service again, this time against Xerxes I's invading forces at the Battle of Salamis, and perhaps, too, at the Battle of Plataea in 479.[9] Ion of Chios was a witness for Aeschylus's war record and his contribution in Salamis.[13] Salamis holds a prominent place in The Persians, his oldest surviving play, which was performed in 472 BC and won first prize at the Dionysia.[14]
+Aeschylus was one of many Greeks who were initiated into the Eleusinian Mysteries, an ancient cult of Demeter based in his hometown of Eleusis.[15] Initiates gained secret knowledge through these rites, likely concerning the afterlife. Firm details of specific rites are sparse, as members were sworn under the penalty of death not to reveal anything about the Mysteries to non-initiates. Nevertheless, according to Aristotle, Aeschylus was accused of revealing some of the cult's secrets on stage.[16]
+Other sources claim that an angry mob tried to kill Aeschylus on the spot, but he fled the scene. Heracleides of Pontus asserts that the audience tried to stone Aeschylus. He then took refuge at the altar in the orchestra of the Theater of Dionysus. At his trial, he pleaded ignorance. He was acquitted, with the jury sympathetic to the military service of Aeschylus and his brothers during the Persian Wars. According to the 2nd-century AD author Aelian, Aeschylus's younger brother Ameinias helped to acquit Aeschylus by showing the jury the stump of the hand that he lost at Salamis, where he was voted bravest warrior. The truth is that the award for bravery at Salamis went not to Aeschylus' brother but to Ameinias of Pallene.[13]
+Aeschylus travelled to Sicily once or twice in the 470s BC, having been invited by Hiero I of Syracuse, a major Greek city on the eastern side of the island; and during one of these trips he produced The Women of Aetna (in honor of the city founded by Hieron) and restaged his Persians.[9] By 473 BC, after the death of Phrynichus, one of his chief rivals, Aeschylus was the yearly favorite in the Dionysia, winning first prize in nearly every competition.[9] In 472 BC, Aeschylus staged the production that included the Persians, with Pericles serving as choregos.[13]
+Death[edit]
+In 458 BC, he returned to Sicily for the last time, visiting the city of Gela where he died in 456 or 455 BC. Valerius Maximus wrote that he was killed outside the city by a tortoise dropped by an eagle which had mistaken his head for a rock suitable for shattering the shell of the reptile.[17] Pliny, in his Naturalis Historiæ, adds that Aeschylus had been staying outdoors to avoid a prophecy that he would be killed by a falling object.[17] Aeschylus's work was so respected by the Athenians that after his death, his were the only tragedies allowed to be restaged in subsequent competitions.[9] His sons Euphorion and Euæon and his nephew Philocles also became playwrights.[9]
+The inscription on Aeschylus's gravestone makes no mention of his theatrical renown, commemorating only his military achievements:
+Αἰσχύλον Εὐφορίωνος Ἀθηναῖον τόδε κεύθει
+     μνῆμα καταφθίμενον πυροφόροιο Γέλας·
+ἀλκὴν δ' εὐδόκιμον Μαραθώνιον ἄλσος ἂν εἴποι
+     καὶ βαθυχαιτήεις Μῆδος ἐπιστάμενος[18]
+Beneath this stone lies Aeschylus, son of Euphorion, the Athenian,
+     who perished in the wheat-bearing land of Gela;
+of his noble prowess the grove of Marathon can speak,
+     and the long-haired Persian knows it well.
+According to Castoriadis, the inscription on his grave signifies the primary importance of "belonging to the City" (polis), of the solidarity that existed within the collective body of citizen-soldiers.
+Personal life[edit]
+Aeschylus married and had two sons, Euphorion and Euaeon, both of whom became tragic poets. Euphorion won first prize in 431 in competition against both Sophocles and Euripides.[19] His nephew, Philocles (his sister's son), was also a tragic poet, and won first prize in the competition against Sophocles' Oedipus Rex.[13][20]
+A scholiast has noted that Philocles' Tereus was part of his Pandionis tetralogy.[21] Aeschylus had at least two brothers, Cynegeirus and Ameinias.
+Works[edit]
+Modern picture of the Theatre of Dionysus in Athens, where many of Aeschylus's plays were performed
+Tragoediae septem (1552)
+The roots of Greek drama are in religious festivals for the gods, chiefly Dionysus, the god of wine.[12] During Aeschylus's lifetime, dramatic competitions became part of the City Dionysia in the spring.[12] The festival opened with a procession, followed with a competition of boys singing dithyrambs and culminated in a pair of dramatic competitions.[22] The first competition Aeschylus would have participated in, consisted of three playwrights each presenting three tragic plays followed by a shorter comedic satyr play.[22] A second competition of five comedic playwrights followed, and the winners of both competitions were chosen by a panel of judges.[22]
+Aeschylus entered many of these competitions in his lifetime, and various ancient sources attribute between seventy and ninety plays to him.[2][23] Only seven tragedies have survived intact: The Persians, Seven against Thebes, The Suppliants, the trilogy known as The Oresteia, consisting of the three tragedies Agamemnon, The Libation Bearers and The Eumenides, together with Prometheus Bound (whose authorship is disputed). With the exception of this last play – the success of which is uncertain – all of Aeschylus's extant tragedies are known to have won first prize at the City Dionysia.
+The Alexandrian Life of Aeschylus claims that he won the first prize at the City Dionysia thirteen times. This compares favorably with Sophocles' reported eighteen victories (with a substantially larger catalogue, at an estimated 120 plays), and dwarfs the five victories of Euripides, who is thought to have written roughly 90 plays.
+Trilogies[edit]
+One hallmark of Aeschylean dramaturgy appears to have been his tendency to write connected trilogies, in which each play serves as a chapter in a continuous dramatic narrative.[24] The Oresteia is the only extant example of this type of connected trilogy, but there is evidence that Aeschylus often wrote such trilogies. The comic satyr plays that follow his trilogies also drew upon stories derived from myths.
+For example, the Oresteia's satyr play Proteus treated the story of Menelaus' detour in Egypt on his way home from the Trojan War. Based on the evidence provided by a catalogue of Aeschylean play titles, scholia, and play fragments recorded by later authors, it is assumed that three other of his extant plays were components of connected trilogies: Seven against Thebes being the final play in an Oedipus trilogy, and The Suppliants and Prometheus Bound each being the first play in a Danaid trilogy and Prometheus trilogy, respectively (see below). Scholars have moreover suggested several completely lost trilogies derived from known play titles. A number of these trilogies treated myths surrounding the Trojan War. One, collectively called the Achilleis, comprised the titles Myrmidons, Nereids and Phrygians (alternately, The Ransoming of Hector).
+Another trilogy apparently recounts the entry of the Trojan ally Memnon into the war, and his death at the hands of Achilles (Memnon and The Weighing of Souls being two components of the trilogy); The Award of the Arms, The Phrygian Women, and The Salaminian Women suggest a trilogy about the madness and subsequent suicide of the Greek hero Ajax; Aeschylus also seems to have written about Odysseus' return to Ithaca after the war (including his killing of his wife Penelope's suitors and its consequences) in a trilogy consisting of The Soul-raisers, Penelope and The Bone-gatherers. Other suggested trilogies touched on the myth of Jason and the Argonauts (Argô, Lemnian Women, Hypsipylê); the life of Perseus (The Net-draggers, Polydektês, Phorkides); the birth and exploits of Dionysus (Semele, Bacchae, Pentheus); and the aftermath of the war portrayed in Seven against Thebes (Eleusinians, Argives (or Argive Women), Sons of the Seven).[25]
+Surviving plays[edit]
+The Persians[edit]
+Main article: The Persians
+The earliest of his plays to survive is The Persians (Persai), performed in 472 BC and based on experiences in Aeschylus's own life, specifically the Battle of Salamis.[26] It is unique among surviving Greek tragedies in that it describes a recent historical event.[2] The Persians focuses on the popular Greek theme of hubris by blaming Persia's loss on the pride of its king.[26]
+It opens with the arrival of a messenger in Susa, the Persian capital, bearing news of the catastrophic Persian defeat at Salamis to Atossa, the mother of the Persian King Xerxes. Atossa then travels to the tomb of Darius, her husband, where his ghost appears to explain the cause of the defeat. It is, he says, the result of Xerxes' hubris in building a bridge across the Hellespont, an action which angered the gods. Xerxes appears at the end of the play, not realizing the cause of his defeat, and the play closes to lamentations by Xerxes and the chorus.[27]
+Seven against Thebes[edit]
+Main article: Seven against Thebes
+Seven against Thebes (Hepta epi Thebas), which was performed in 467 BC, has the contrasting theme of the interference of the gods in human affairs.[26] It also marks the first known appearance in Aeschylus's work of a theme which would continue through his plays, that of the polis (the city) being a key development of human civilization.[28]
+The play tells the story of Eteocles and Polynices, the sons of the shamed King of Thebes, Oedipus. The sons agree to alternate in the throne of the city, but after the first year Eteocles refuses to step down, and Polynices wages war to claim his crown. The brothers kill each other in single combat, and the original ending of the play consisted of lamentations for the dead brothers.[29]
+A new ending was added to the play some fifty years later: Antigone and Ismene mourn their dead brothers, a messenger enters announcing an edict prohibiting the burial of Polynices; and finally, Antigone declares her intention to defy this edict.[29] The play was the third in a connected Oedipus trilogy; the first two plays were Laius and Oedipus. The concluding satyr play was The Sphinx.[30]
+The Suppliants[edit]
+Main article: The Suppliants (Aeschylus)
+Aeschylus continued his emphasis on the polis with The Suppliants in 463 BC (Hiketides), which pays tribute to the democratic undercurrents running through Athens in advance of the establishment of a democratic government in 461. In the play, the Danaids, the fifty daughters of Danaus, founder of Argos, flee a forced marriage to their cousins in Egypt. They turn to King Pelasgus of Argos for protection, but Pelasgus refuses until the people of Argos weigh in on the decision, a distinctly democratic move on the part of the king. The people decide that the Danaids deserve protection, and they are allowed within the walls of Argos despite Egyptian protests.[31]
+The 1952 publication of Oxyrhynchus Papyrus 2256 fr. 3 confirmed a long-assumed (because of The Suppliants' cliffhanger ending) Danaid trilogy, whose constituent plays are generally agreed to be The Suppliants, The Egyptians and The Danaids. A plausible reconstruction of the trilogy's last two-thirds runs thus:[32] In The Egyptians, the Argive-Egyptian war threatened in the first play has transpired. During the course of the war, King Pelasgus has been killed, and Danaus rules Argos. He negotiates a peace settlement with Aegyptus, as a condition of which, his fifty daughters will marry the fifty sons of Aegyptus. Danaus secretly informs his daughters of an oracle predicting that one of his sons-in-law would kill him; he therefore orders the Danaids to murder their husbands on their wedding night. His daughters agree. The Danaids would open the day after the wedding.[33]
+In short order, it is revealed that forty-nine of the Danaids killed their husbands as ordered; Hypermnestra, however, loved her husband Lynceus, and thus spared his life and helped him to escape. Angered by his daughter's disobedience, Danaus orders her imprisonment and, possibly, her execution. In the trilogy's climax and dénouement, Lynceus reveals himself to Danaus, and kills him (thus fulfilling the oracle). He and Hypermnestra will establish a ruling dynasty in Argos. The other forty-nine Danaids are absolved of their murderous crime, and married off to unspecified Argive men. The satyr play following this trilogy was titled Amymone, after one of the Danaids.[33]
+The Oresteia[edit]
+Main article: Oresteia
+The only complete (save a few missing lines in several spots) trilogy of Greek plays by any playwright still extant is the Oresteia (458 BC); although the satyr play that originally followed it, Proteus, is lost except for some fragments.[26] The trilogy consists of Agamemnon, The Libation Bearers (Choephoroi), and The Eumenides.[28] Together, these plays tell the bloody story of the family of Agamemnon, King of Argos.
+Agamemnon[edit]
+Aeschylus begins in Greece describing the return of King Agamemnon from his victory in the Trojan War, from the perspective of the towns people (the Chorus) and his wife, Clytemnestra. However, dark foreshadowings build to the death of the king at the hands of his wife, who was angry at his sacrifice of their daughter Iphigenia, killed so the Gods would stop a storm hindering the Greek fleet in the war. She was also unhappy at his keeping of the Trojan prophetess Cassandra as a concubine. Cassandra foretells of the murder of Agamemnon, and of herself, to the assembled townsfolk, who are horrified. She then enters the palace knowing that she cannot avoid her fate. The ending of the play includes a prediction of the return of Orestes, son of Agamemnon, who will seek to avenge his father.[28]
+The Libation Bearers[edit]
+The Libation Bearers continues the tale, opening with Orestes's arrival at Agamemnon's tomb. At the tomb, Electra meets Orestes, who has returned from exile in Phocis, and they plan revenge upon Clytemnestra and her lover Aegisthus. Clytemnestra's account of a nightmare in which she gives birth to a snake is recounted by the chorus; and this leads her to order Electra, her daughter, to pour libations on Agamemnon's tomb (with the assistance of libation bearers) in hope of making amends. Orestes enters the palace pretending to bear news of his own death, and when Clytemnestra calls in Aegisthus to share in the news, Orestes kills them both. Orestes is then beset by the Furies, who avenge the murders of kin in Greek mythology.[28]
+The Eumenides[edit]
+The final play of The Oresteia addresses the question of Orestes' guilt.[28] The Furies drive Orestes from Argos and into the wilderness. He makes his way to the temple of Apollo and begs him to drive the Furies away. Apollo had encouraged Orestes to kill Clytemnestra, and so bears some of the guilt for the murder. The Furies are a more ancient race of the gods, and Apollo sends Orestes to the temple of Athena, with Hermes as a guide.[31]
+The Furies track him down, and the goddess Athena, patron of Athens, steps in and declares that a trial is necessary. Apollo argues Orestes' case and, after the judges, including Athena deliver a tie vote, Athena announces that Orestes is acquitted. She renames the Furies The Eumenides (The Good-spirited, or Kindly Ones), and extols the importance of reason in the development of laws, and, as in The Suppliants, the ideals of a democratic Athens are praised.[31]
+Prometheus Bound[edit]
+Main article: Prometheus Bound
+In addition to these six works, a seventh tragedy, Prometheus Bound, is attributed to Aeschylus by ancient authorities. Since the late 19th century, however, scholars have increasingly doubted this ascription, largely on stylistic grounds. Its production date is also in dispute, with theories ranging from the 480s BC to as late as the 410s.[9][34]
+The play consists mostly of static dialogue, as throughout the play the Titan Prometheus is bound to a rock as punishment from the Olympian Zeus for providing fire to humans. The god Hephaestus, the Titan Oceanus, and the chorus of Oceanids all express sympathy for Prometheus' plight. Prometheus meets Io, a fellow victim of Zeus' cruelty; and prophesies her future travels, revealing that one of her descendants will free Prometheus. The play closes with Zeus sending Prometheus into the abyss because Prometheus refuses to divulge the secret of a potential marriage that could prove Zeus' downfall.[27]
+The Prometheus Bound appears to have been the first play in a trilogy called the Prometheia. In the second play, Prometheus Unbound, Heracles frees Prometheus from his chains and kills the eagle that had been sent daily to eat Prometheus' perpetually regenerating liver. Perhaps foreshadowing his eventual reconciliation with Prometheus, we learn that Zeus has released the other Titans whom he imprisoned at the conclusion of the Titanomachy.[35]
+In the trilogy's conclusion, Prometheus the Fire-Bringer, it appears that the Titan finally warns Zeus not to sleep with the sea nymph Thetis, for she is fated to give birth to a son greater than the father. Not wishing to be overthrown, Zeus marries Thetis off to the mortal Peleus; the product of that union is Achilles, Greek hero of the Trojan War. After reconciling with Prometheus, Zeus probably inaugurates a festival in his honor at Athens.[35]
+Lost plays[edit]
+Only the titles and assorted fragments of Aeschylus's other plays have come down to us. We have enough fragments of some plays (along with comments made by later authors and scholiasts) to produce rough synopses of their plots.
+Myrmidons[edit]
+This play was based on books 9 and 16 in Homer's Iliad. Achilles sits in silent indignation over his humiliation at Agamemnon's hands for most of the play. Envoys from the Greek army attempt to reconcile him to Agamemnon, but he yields only to his friend Patroclus, who then battles the Trojans in Achilles' armour. The bravery and death of Patroclus are reported in a messenger's speech, which is followed by mourning.[13]
+Nereids[edit]
+This play was based on books 18, 19, and 22 of the Iliad; it follows the Daughters of Nereus, the sea god, who lament Patroclus' death. In the play, a messenger tells how Achilles, perhaps reconciled to Agamemnon and the Greeks, slew Hector.[13]
+Phrygians, or Hector's Ransom[edit]
+In this play, Achilles sits in silent mourning over Patroclus, after a brief discussion with Hermes. Hermes then brings in King Priam of Troy, who wins over Achilles and ransoms his son's body in a spectacular coup de théâtre. A scale is brought on stage and Hector's body is placed in one scale and gold in the other. The dynamic dancing of the chorus of Trojans when they enter with Priam is reported by Aristophanes.[13]
+Niobe[edit]
+The children of Niobe, the heroine, have been slain by Apollo and Artemis because Niobe had gloated that she had more children than their mother, Leto. Niobe sits in silent mourning on stage during most of the play. In the Republic, Plato quotes the line "God plants a fault in mortals when he wills to destroy a house utterly."[13]
+These are the remaining 71 plays ascribed to Aeschylus which are known to us:
+Alcmene
+Amymone
+The Archer-Women
+The Argivian Women
+The Argo, also titled The Rowers
+Atalanta
+Athamas
+Attendants of the Bridal Chamber
+Award of the Arms
+The Bacchae
+The Bassarae
+The Bone-Gatherers
+The Cabeiroi
+Callisto
+The Carians, also titled Europa
+Cercyon
+Children of Hercules
+Circe
+The Cretan Women
+Cycnus
+The Danaids
+Daughters of Helios
+Daughters of Phorcys
+The Descendants
+The Edonians
+The Egyptians
+The Escorts
+Glaucus of Pontus
+Glaucus of Potniae
+Hypsipyle
+Iphigenia
+Ixion
+Laius
+The Lemnian Women
+The Lion
+Lycurgus
+Memnon
+The Men of Eleusis
+The Messengers
+The Myrmidons
+The Mysians
+Nemea
+The Net-Draggers
+The Nurses of Dionysus
+Orethyia
+Palamedes
+Penelope
+Pentheus
+Perrhaibides
+Philoctetes
+Phineus
+The Phrygian Women
+Polydectes
+The Priestesses
+Prometheus the Fire-Bearer
+Prometheus the Fire-Kindler
+Prometheus Unbound
+Proteus
+Semele, also titled The Water-Bearers
+Sisyphus the Runaway
+Sisyphus the Stone-Roller
+The Spectators, also titled Athletes of the Isthmian Games
+The Sphinx
+The Spirit-Raisers
+Telephus
+The Thracian Women
+Weighing of Souls
+Women of Aetna (two versions)
+Women of Salamis
+Xantriae
+The Youths
+Influence[edit]
+Influence on Greek drama and culture[edit]
+Mosaic of Orestes, main character in Aeschylus's only surviving trilogy, The Oresteia
+When Aeschylus first began writing, the theatre had only just begun to evolve, although earlier playwrights like Thespis had already expanded the cast to include an actor who was able to interact with the chorus.[23] Aeschylus added a second actor, allowing for greater dramatic variety, while the chorus played a less important role.[23] He is sometimes credited with introducing skenographia, or scene-decoration,[36] though Aristotle gives this distinction to Sophocles. Aeschylus is also said to have made the costumes more elaborate and dramatic, and having his actors wear platform boots (cothurni) to make them more visible to the audience. According to a later account of Aeschylus's life, as they walked on stage in the first performance of the Eumenides, the chorus of Furies were so frightening in appearance that they caused young children to faint, patriarchs to urinate, and pregnant women to go into labour.[37]
+His plays were written in verse, no violence is performed on stage, and the plays have a remoteness from daily life in Athens, either by relating stories about the gods or by being set, like The Persians, in far-away locales.[38] Aeschylus's work has a strong moral and religious emphasis.[38] The Oresteia trilogy concentrated on man's position in the cosmos in relation to the gods, divine law, and divine punishment.[39]
+Aeschylus's popularity is evident in the praise the comic playwright Aristophanes gives him in The Frogs, produced some half-century after Aeschylus's death. Appearing as a character in the play, Aeschylus claims at line 1022 that his Seven against Thebes "made everyone watching it to love being warlike"; with his Persians, Aeschylus claims at lines 1026–7 that he "taught the Athenians to desire always to defeat their enemies." Aeschylus goes on to say at lines 1039ff. that his plays inspired the Athenians to be brave and virtuous.
+Influence outside of Greek culture[edit]
+Aeschylus's works were influential beyond his own time. Hugh Lloyd-Jones draws attention to Richard Wagner's reverence of Aeschylus. Michael Ewans argues in his Wagner and Aeschylus. The Ring and the Oresteia (London: Faber. 1982) that the influence was so great as to merit a direct character by character comparison between Wagner's Ring and Aeschylus's Oresteia. A critic of his book however, while not denying that Wagner read and respected Aeschylus, has described his arguments as unreasonable and forced.[40]
+Sir J. T. Sheppard argues in the second half of his Aeschylus and Sophocles: Their Work and Influence that Aeschylus, along with Sophocles, have played a major part in the formation of dramatic literature from the Renaissance to the present, specifically in French and Elizabethan drama. He also claims that their influence went beyond just drama and applies to literature in general, citing Milton and the Romantics.[41]
+During his presidential campaign in 1968, Senator Robert F. Kennedy quoted the Edith Hamilton translation of Aeschylus on the night of the assassination of Martin Luther King Jr. Kennedy was notified of King's murder before a campaign stop in Indianapolis, Indiana and was warned not to attend the event due to fears of rioting from the mostly African-American crowd. Kennedy insisted on attending and delivered an impromptu speech that delivered news of King's death to the crowd.[42][unreliable source?]
+Acknowledging the audience's emotions, Kennedy referred to his own grief at the murder of his brother, President John F. Kennedy and, quoting a passage from the play Agamemnon (in translation), said: "My favorite poet was Aeschylus. And he once wrote: 'Even in our sleep, pain which cannot forget falls drop by drop upon the heart, until in our own despair, against our will, comes wisdom through the awful grace of God.' What we need in the United States is not division; what we need in the United States is not hatred; what we need in the United States is not violence and lawlessness; but is love and wisdom, and compassion toward one another, and a feeling of justice toward those who still suffer within our country, whether they be white or whether they be black ... Let us dedicate ourselves to what the Greeks wrote so many years ago: to tame the savageness of man and make gentle the life of this world." The quotation from Aeschylus was later inscribed on a memorial at the gravesite of Robert Kennedy following his own assassination.[42][better source needed]
+See also[edit]
+2876 Aeschylus, an asteroid named for him
+Theatre of ancient Greece
+Notes[edit]
+^ The remnant of a commemorative inscription, dated to the 3rd century BC, lists four, possibly eight, dramatic poets (probably including Choerilus, Phrynichus, and Pratinas) who had won tragic victories at the Dionysia before Aeschylus had. Thespis was traditionally regarded the inventor of tragedy. According to another tradition, tragedy was established in Athens in the late 530s BC, but that may simply reflect an absence of records. Major innovations in dramatic form, credited to Aeschylus by Aristotle and the anonymous source The Life of Aeschylus, may be exaggerations and should be viewed with caution (Martin Cropp (2006), "Lost Tragedies: A Survey" in A Companion to Greek Tragedy, pp. 272–4)
+Citations[edit]
+^ Jones, Daniel; Roach, Peter, James Hartman and Jane Setter, eds. Cambridge English Pronouncing Dictionary. 17th edition. Cambridge UP, 2006.
+^ a b c Freeman 1999, p. 243
+^ Schlegel, August Wilhelm von. Lectures on Dramatic Art and Literature. p. 121. 
+^ R. Lattimore, Aeschylus I: Oresteia, 4
+^ Martin Cropp, 'Lost Tragedies: A Survey'; A Companion to Greek Tragedy, page 273
+^ P. Levi, Greek Drama, 159
+^ S. Saïd, Aeschylean Tragedy, 215
+^ S. Saïd, Aeschylean Tragedy, 221
+^ a b c d e f g h i j k Sommerstein 1996, p. 33[citation not found]
+^ a b c d Bates 1906, pp. 53–59
+^ S. Saïd, Eschylean tragedy, 217
+^ a b c Freeman 1999, p. 241
+^ a b c d e f g h i j Kopff 1997 pp. 1–472
+^ Sommerstein 1996, p. 34
+^ Martin 2000, §10.1
+^ Nicomachean Ethics 1111a8-10.
+^ a b J. C. McKeown (2013), A Cabinet of Greek Curiosities: Strange Tales and Surprising Facts from the Cradle of Western Civilization, Oxford University Press, p. 136, ISBN 978-0-19-998210-3, The unusual nature of Aeschylus's death ... 
+^ Anthologiae Graecae Appendix, vol. 3, Epigramma sepulcrale. p. 17. 
+^ Osborn, K.; Burges, D. (1998). The complete idiot's guide to classical mythology. Penguin. ISBN 978-0-02-862385-6. 
+^ Smith 2005, p. 1
+^ March, J. (2000). "Vases and Tragic Drama". In Rutter, N.K.; Sparkes, B.A. Word and Image in Ancient Greece. University of Edinburgh. pp. 121–123. ISBN 978-0-7486-1405-9. 
+^ a b c Freeman 1999, p. 242
+^ a b c Pomeroy 1999, p. 222
+^ Sommerstein 1996
+^ Sommerstein 2002, 34.
+^ a b c d Freeman 1999, p. 244
+^ a b Vellacott: 7–19
+^ a b c d e Freeman 1999, pp. 244–246
+^ a b Aeschylus. "Prometheus Bound, The Suppliants, Seven Against Thebes, The Persians." Philip Vellacott's Introduction, pp. 7–19. Penguin Classics.
+^ Sommerstein 2002, 23.
+^ a b c Freeman 1999, p. 246
+^ See (e.g.) Sommerstein 1996, 141-51; Turner 2001, 36–39.
+^ a b Sommerstein 2002, 89.
+^ Griffith 1983, pp. 32–34
+^ a b For a discussion of the trilogy's reconstruction, see (e.g.) Conacher 1980, 100-2.
+^ According to Vitruvius. See Summers 2007, 23.
+^ Life of Aeschylus.
+^ a b Pomeroy 1999, p. 223
+^ Pomeroy 1999, pp. 224–225
+^ Furness, Raymond (January 1984). "The Modern Language Review". 79 (1): 239–240. JSTOR 3730399. 
+^ Sheppard, J. T. (1927). "Aeschylus and Sophocles: their Work and Influence". Journal of Hellenic Studies. The Society for the Promotion of Hellenic Studies. 47 (2): 265. doi:10.2307/625177. JSTOR 625177. 
+^ a b Virginia - Arlington National Cemetery: Robert F. Kennedy Gravesite
+Editions[edit]
+Martin L. West, Aeschyli Tragoediae: cum incerti poetae Prometheo 2 ed. (1998). The first translation of the seven plays into English was by Robert Potter in 1779, using blank verse for the iambic trimeters and rhymed verse for the choruses, a convention adopted by most translators for the next century.
+Stefan Radt (Hg.), Tragicorum Graecorum Fragmenta. Vol. III: Aeschylus (Göttingen, Vandenhoeck & Ruprecht, 2009) (Tragicorum Graecorum Fragmenta, 3).
+Alan H. Sommerstein (ed.), Aeschylus, Volume II, Oresteia: Agamemnon. Libation-bearers. Eumenides. 146 (Cambridge, Mass./London: Loeb Classical Library, 2009); Volume III, Fragments. 505 (Cambridge, Mass./London: Loeb Classical Library, 2008).
+References[edit]
+Bates, Alfred (1906). "The Drama: Its History, Literature, and Influence on Civilization, Vol. 1". London: Historical Publishing Company. .
+Bierl, A. Die Orestie des Aischylos auf der modernen Bühne: Theoretische Konzeptionen und ihre szenische Realizierung (Stuttgart, Metzler, 1997).
+Cairns, D., V. Liapis, Dionysalexandros: Essays on Aeschylus and His Fellow Tragedians in Honour of Alexander F. Garvie (Swansea, The Classical Press of Wales, 2006).
+Cropp, Martin (2006). "Lost Tragedies: A Survey". In Gregory, Justine. A Companion to Greek Tragedy. Blackwell Publishing. .
+Deforge, B. Une vie avec Eschyle. Vérité des mythes (Paris, Les Belles Lettres, 2010).
+Freeman, Charles (1999). The Greek Achievement: The Foundation of the Western World. New York City: Viking Press. ISBN 0-670-88515-0. .
+Goldhill, Simon (1992). Aeschylus, The Oresteia. Cambridge: Cambridge University Press. ISBN 0-521-40293-X. .
+Griffith, Mark (1983). Aeschylus' Prometheus Bound. Cambridge: Cambridge University Press. ISBN 0-521-27011-1. .
+Herington, C.J. (1986). Aeschylus. New Haven, CT: Yale University Press. ISBN 0-300-03562-4. .
+Herington, C.J. (1967). "Aeschylus in Sicily". Journal of Hellenic Studies. 87: 74–85. doi:10.2307/627808. 
+Kopff, E. Christian (1997). Ancient Greek Authors. Gale. ISBN 978-0-8103-9939-6. 
+Lattimore, Richmond (1953). Aeschylus I: Oresteia. University of Chicago Press. 
+Lefkowitz, Mary (1981). The Lives of the Greek Poets. University of North Carolina Press.
+Lesky, Albin (1979). Greek Tragedy. London: Benn. .
+Lesky, Albin (1966). A History of Greek Literature. New York: Crowell. .
+Levi, Peter (1986). "Greek Drama". The Oxford History of the Classical World. Oxford University Press. 
+Martin, Thomas (2000). "Ancient Greece: From Prehistoric to Hellenistic Times". Yale University Press. .
+Murray, Gilbert (1978). Aeschylus: The Creator of Tragedy. Oxford: Clarendon Press. .
+Podlecki, Anthony J. (1966). The Political Background of Aeschylean Tragedy. Ann Arbor: University of Michigan Press. .
+Pomeroy, Sarah B. (1999). Ancient Greece: A Political, Social, and Cultural History. New York City: Oxford University Press. ISBN 0-19-509743-2. .
+Rosenmeyer, Thomas G. (1982). The Art of Aeschylus. Berkeley: University of California Press. ISBN 0-520-04440-1. .
+Saïd, Suzanne (2006). "Aeschylean Tragedy". A Companion to Greek Tragedy. Blackwell Publishing. .
+Smith, Helaine (2005). Masterpieces of Classic Greek Drama. Greenwood. ISBN 978-0-313-33268-5. .
+Smyth, Herbert Weir (1922). Aeschylus. Cambridge, MA: Harvard University Press. .
+Sommerstein, Alan H. (2010). "Aeschylean Tragedy" (2nd ed.). London: Duckworth. ISBN 978-0-7156-3824-8. .
+—(2002). Greek Drama and Dramatists. London: Routledge Press. ISBN 0-415-26027-2
+Spatz, Lois (1982). Aeschylus. Boston: Twayne Publishers Press. ISBN 0-8057-6522-0. .
+Summers, David (2007). Vision, Reflection, and Desire in Western Painting. University of North Carolina Press.
+Thomson, George (1973) Aeschylus and Athens: A Study in the Social Origin of Drama. London: Lawrence and Wishart (4th edition)
+Turner, Chad (2001). "Perverted Supplication and Other Inversions in Aeschylus' Danaid Trilogy". Classical Journal. 97 (1): 27–50. JSTOR 3298432. 
+Vellacott, Philip, (1961). Prometheus Bound and Other Plays: Prometheus Bound, Seven Against Thebes, and The Persians. New York:Penguin Classics. ISBN 0-14-044112-3
+Winnington-Ingram, R. P. (1985). "Aeschylus". The Cambridge History of Classical Literature: Greek Literature. Cambridge University Press. 
+Zeitlin, F. I. Under the sign of the shield: semiotics and Aeschylus' Seven against Thebes (Lanham, Md.: Lexington Books, 1982); 2nd ed. 2009, (Greek studies: interdisciplinary approaches).
+Castoriadis, Cornelius. "What Makes Greece, 1. From Homer to Heraclitus." (2004)
+External links[edit]
+Find more aboutAeschylusat Wikipedia's sister projects
+Definitions from Wiktionary
+Media from Commons
+Quotations from Wikiquote
+Texts from Wikisource
+Textbooks from Wikibooks
+Works by Aeschylus at Project Gutenberg
+Works by Aeschylus (translated by George Gilbert Aimé) at Faded Page (Canada)
+Works by or about Aeschylus at Internet Archive
+Works by Aeschylus at LibriVox (public domain audiobooks)
+Selected Poems of Aeschylus
+Aeschylus-related materials at the Perseus Digital Library
+Complete syntax diagrams at Alpheios
+Online English Translations of Aeschylus
+Photo of a fragment of The Net-pullers
+Crane, Gregory. "Aeschylus (4)". Perseus Encyclopedia. 
+"Aeschylus, I: Persians" from the Loeb Classical Library, Harvard University Press
+"Aeschylus, II: The Oresteia" from the Loeb Classical Library, Harvard University Press
+"Aeschylus, III: Fragments" from the Loeb Classical Library, Harvard University Press
+v
+t
+e
+Plays by Aeschylus
+Tetralogies
+Achilleis
+Danaid Tetralogy
+Lycurgeia
+Oedipodea
+Oresteia
+Prometheia
+Extant plays
+The Persians
+Seven Against Thebes
+The Suppliants
+Prometheus Bound (authorship disputed)
+Fragmentary plays
+Philoctetes
+Prometheus Unbound
+Prometheus the Fire-Bringer
+v
+t
+e
+Ancient Greece
+Outline
+Timeline
+ 
+History
+Geography
+Periods
+Cycladic civilization
+Minoan civilization
+Mycenaean civilization
+Greek Dark Ages
+Archaic period
+Classical Greece
+Hellenistic Greece
+Roman Greece
+Geography
+Aegean Sea
+Aeolis
+Alexandria
+Antioch
+Cappadocia
+Crete
+Cyprus
+Doris
+Ephesus
+Epirus
+Hellespont
+Ionia
+Ionian Sea
+Macedonia
+Magna Graecia
+Miletus
+Peloponnesus
+Pergamon
+Pontus
+Taurica
+Ancient Greek colonies
+ 
+City states
+Politics
+Military
+City states
+Argos
+Athens
+Byzantion
+Chalcis
+Corinth
+Eretria
+Kerkyra
+Larissa
+Megalopolis
+Megara
+Rhodes
+Samos
+Sparta
+Syracuse
+Thebes
+Politics
+Boeotarch
+Boule
+Koinon
+Proxeny
+Strategos
+Tagus
+Tyrant
+Amphictyonic League
+Athenian
+Agora
+Areopagus
+Ecclesia
+Graphē paranómōn
+Heliaia
+Ostracism
+Spartan
+Apella
+Ephor
+Gerousia
+Harmost
+Macedon
+Synedrion
+Koinon
+Military
+Wars
+Athenian military
+Antigonid Macedonian army
+Army of Macedon
+Ballista
+Cretan archers
+Hellenistic armies
+Hippeis
+Hoplite
+Hetairoi
+Macedonian phalanx
+Phalanx
+Peltast
+Pezhetairos
+Sarissa
+Sacred Band of Thebes
+Sciritae
+Seleucid army
+Spartan army
+Toxotai
+Xiphos
+Xyston
+ 
+People
+List of ancient Greeks
+Rulers
+Kings of Argos
+Archons of Athens
+Kings of Athens
+Kings of Commagene
+Diadochi
+Kings of Lydia
+Kings of Macedonia
+Kings of Paionia
+Attalid kings of Pergamon
+Kings of Pontus
+Kings of Sparta
+Tyrants of Syracuse
+Philosophers
+Anaxagoras
+Anaximander
+Anaximenes
+Antisthenes
+Aristotle
+Democritus
+Diogenes of Sinope
+Empedocles
+Epicurus
+Gorgias
+Heraclitus
+Hypatia
+Leucippus
+Parmenides
+Plato
+Protagoras
+Pythagoras
+Socrates
+Thales
+Zeno
+Authors
+Aeschylus
+Aesop
+Alcaeus
+Archilochus
+Aristophanes
+Bacchylides
+Euripides
+Herodotus
+Hesiod
+Hipponax
+Homer
+Ibycus
+Lucian
+Menander
+Mimnermus
+Panyassis
+Philocles
+Pindar
+Plutarch
+Polybius
+Sappho
+Simonides
+Sophocles
+Stesichorus
+Theognis
+Thucydides
+Timocreon
+Tyrtaeus
+Xenophon
+Others
+Agesilaus II
+Agis II
+Alcibiades
+Alexander the Great
+Aratus
+Archimedes
+Aspasia
+Demosthenes
+Epaminondas
+Euclid
+Hipparchus
+Hippocrates
+Leonidas
+Lycurgus
+Lysander
+Milo of Croton
+Miltiades
+Pausanias
+Pericles
+Philip of Macedon
+Philopoemen
+Praxiteles
+Ptolemy
+Pyrrhus
+Solon
+Themistocles
+Groups
+Philosophers
+Playwrights
+Poets
+Tyrants
+By culture
+Ancient Greek tribes
+Thracian Greeks
+Ancient Macedonians
+ 
+Society
+Culture
+Society
+Agriculture
+Calendar
+Clothing
+Coinage
+Cuisine
+Economy
+Education
+Festivals
+Funeral and burial practices
+Homosexuality
+Law
+Olympic Games
+Pederasty
+Philosophy
+Prostitution
+Religion
+Slavery
+Warfare
+Wedding customs
+Wine
+Arts
+Sciences
+Architecture (Greek Revival architecture)
+Astronomy
+Literature
+Mathematics
+Medicine
+Music (Musical system)
+Pottery
+Sculpture
+Technology
+Theatre
+Religion
+Funeral and burial practices
+Mythology
+mythological figures
+Temple
+Twelve Olympians
+Underworld
+Sacred places
+Eleusis
+Delphi
+Delos
+Dodona
+Mount Olympus
+Olympia
+Structures
+Athenian Treasury
+Lion Gate
+Long Walls
+Philippeion
+Theatre of Dionysus
+Tunnel of Eupalinos
+Temples
+Aphaea
+Artemis
+Athena Nike
+Erechtheion
+Hephaestus
+Hera (Olympia)
+Parthenon
+Samothrace
+Zeus (Olympia)
+Language
+Proto-Greek
+Mycenaean
+Homeric
+Dialects
+Aeolic
+Arcadocypriot
+Attic
+Doric
+Ionic
+Locrian
+Macedonian
+Pamphylian
+Koine
+Writing
+Linear A
+Linear B
+Cypriot syllabary
+Greek alphabet
+Greek numerals
+Attic numerals
+ 
+Lists
+Cities
+in Epirus
+People
+Place names
+Stoae
+Temples
+Theatres
+Category
+Portal
+Authority control
+WorldCat Identities
+VIAF: 268526195
+LCCN: n79055702
+ISNI: 0000 0001 2140 7828
+GND: 118500856
+SELIBR: 174753
+SUDOC: 086453033
+BNF: cb118881476 (data)
+MusicBrainz: bb3934cc-aca7-46c2-90f4-29f7c1ccb7e7
+NLA: 35001568
+NDL: 00431086
+NKC: jn19981228002
+ICCU: IT\ICCU\CFIV\003888
+BNE: XX841570
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Aeschylus&oldid=767228467"
+Categories: AeschylusAncient AtheniansAncient Greek dramatists and playwrightsAncient Greek poets5th-century BC Greek people5th-century BC writers520s BC births450s BC deathsTragic poetsAncient Greeks accused of sacrilegePeople of the Greco-Persian WarsBattle of MarathonAccidental deathsHidden categories: All articles with broken links to citationsPages using infobox person with unknown parametersInfobox person using ethnicityArticles with hCardsArticles containing Ancient Greek-language textAll articles lacking reliable referencesArticles lacking reliable references from December 2016Articles lacking reliable references from February 2017Articles with Project Gutenberg linksArticles with Internet Archive linksArticles with LibriVox linksWikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with SELIBR identifiersWikipedia articles with BNF identifiersWikipedia articles with MusicBrainz identifiersWikipedia articles with NLA identifiersWikipedia articles with SBN identifiersPages using ISBN magic links
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+Article
+Talk
+Variants
+Views
+Read
+Edit
+View history
+More
+Search
+Navigation
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+Interaction
+HelpAbout WikipediaCommunity portalRecent changesContact page
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page
+Print/export
+Create a bookDownload as PDFPrintable version
+In other projects
+Wikimedia CommonsWikiquoteWikisource
+Languages
+AfrikaansAlemannischالعربيةAragonésAsturianuAzərbaycancaবাংলাБашҡортсаБеларускаяБеларуская (тарашкевіца)‎БългарскиBosanskiBrezhonegCatalàČeštinaCymraegDanskDeutschEestiΕλληνικάEspañolEsperantoEstremeñuEuskaraفارسیFrançaisFryskGalego한국어ՀայերենHrvatskiIdoBahasa IndonesiaInterlinguaÍslenskaItalianoעבריתქართულიҚазақшаLatinaLatviešuLëtzebuergeschLietuviųMagyarМакедонскиMalagasyമലയാളംमराठीМонголNederlands日本語Norsk bokmålNorsk nynorskOccitanਪੰਜਾਬੀPiemontèisPolskiPortuguêsRomânăРусскийScotsSeelterskShqipSicilianuSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaTagalogTürkçeУкраїнськаاردوTiếng ViệtWinarayZazaki中文
+Edit links
+This page was last modified on 24 February 2017, at 17:29.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view

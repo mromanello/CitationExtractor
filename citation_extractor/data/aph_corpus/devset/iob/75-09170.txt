@@ -1,0 +1,18 @@
+Zu	APPR
+IG	NN
+22	CARD
+,	$,
+1930	CARD
+,	$,
+zu	APPR
+IRhamnous	NN
+63	CARD
+,	$,
+180	CARD
+und	KON
+371	CARD
+und	KON
+zu	APPR
+IOropos	NN
+207	CARD
+

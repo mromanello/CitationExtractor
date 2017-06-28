@@ -1,0 +1,27 @@
+Il	DET:def
+libro	NOM
+di	PRE
+Persio	NOM
+non	ADV
+ha	VER:pres
+una	DET:indef
+struttura	NOM
+ben	ADV
+definita	VER:pper
+,	PON
+e	CON
+tuttavia	ADV
+nella	PRE:det
+satira	NOM
+3	NUM
+si	PRO:pers
+notano	VER:pres
+alcune	PRO:indef
+caratteristiche	NOM
+di	PRE
+centralità	NOM
+,	PON
+presumibilmente	ADV
+non	ADV
+casuali	ADJ
+

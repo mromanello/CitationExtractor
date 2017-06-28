@@ -1,0 +1,40 @@
+Text	NN
+,	$,
+Übersetzung	NN
+und	KON
+Interpretation	NN
+eines	ART
+Grabepigramms	NN
+aus	APPR
+dem	ART
+2.	ADJA
+bis	KON
+3.	ADJA
+
+Jh	NE
+.	$.
+
+n.	APPR
+Chr.	NE
+,	$,
+das	PRELS
+von	APPR
+einer	ART
+1989	CARD
+in	APPR
+Krene	ADJA
+Pharsalon	NN
+in	APPR
+Thessalien	NN
+gefundenen	ADJA
+hellenistischen	ADJA
+Grabstele	NN
+stammt	VVFIN
+(	$(
+SEG	NN
+55	CARD
+,	$,
+641	CARD
+)	$(
+.	$.
+

@@ -1,0 +1,13 @@
+Auch	ADV
+im	APPRART
+hellenistischen	ADJA
+Judentum	NN
+(	$(
+Septuaginta	NN
+)	$(
+und	KON
+im	APPRART
+Neuen	ADJA
+Testament	NN
+.	$.
+

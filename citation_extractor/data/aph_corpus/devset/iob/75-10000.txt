@@ -1,0 +1,26 @@
+Étude	NOM
+prosopographique	ADJ
+sur	PRP
+les	DET:ART
+conseillers	NOM
+indigènes	ADJ
+qui	PRO:REL
+faisaient	VER:impf
+bénéficier	VER:infi
+les	DET:ART
+rois	NOM
+lagides	NOM
+de	PRP
+leurs	DET:POS
+compétences	NOM
+en	PRP
+histoire	NOM
+,	PUN
+droit	NOM
+,	PUN
+médecine	NOM
+,	PUN
+astrologie	NOM
+et	KON
+divination	NOM
+

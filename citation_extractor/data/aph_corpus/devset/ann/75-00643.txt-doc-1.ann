@@ -1,0 +1,5 @@
+T1	REFAUWORK 65 68	APo
+T2	REFSCOPE 69 76	72-100.
+T3	AAUTHOR 216 225	Aristotle
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes T3	urn:cts:greekLit:tlg0086

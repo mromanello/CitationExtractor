@@ -1,0 +1,12 @@
+Considerazioni	NOM
+in	PRE
+margine	NOM
+ad	PRE
+alcune	PRO:indef
+tesi	NOM
+avanzate	VER:pper
+nel	PRE:det
+saggio	ADJ
+schedato	NOM
+74-14632	NUM
+

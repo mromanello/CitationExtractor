@@ -1,0 +1,7 @@
+T1	REFSCOPE 86 95	2, 68-93,
+T2	REFAUWORK 153 155	v.
+T3	REFSCOPE 156 159	80,
+T4	AWORK 367 381	« Pharsalia »,
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0019.tlg004:80
+#1	AnnotatorNotes T4	urn:cts:latinLit:phi0917.phi001

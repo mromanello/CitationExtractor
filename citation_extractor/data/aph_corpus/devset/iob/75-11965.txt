@@ -1,0 +1,40 @@
+Vingt-huit	NUM
+sites	NOM
+du	PRP:det
+Péloponnèse	NAM
+ont	VER:pres
+livré	VER:pper
+des	PRP:det
+traces	NOM
+d'	PRP
+un	DET:ART
+culte	NOM
+à	PRP
+Herakles	NAM
+,	PUN
+en	PRP
+liaison	NOM
+avec	PRP
+ses	DET:POS
+fonctions	NOM
+militaires	ADJ
+,	PUN
+athlétiques	ADJ
+ou	KON
+curatives	ADJ
+.	SENT
+
+Herakles	NAM
+Alexikakos	NAM
+guérit	VER:pres
+mais	KON
+surtout	ADV
+prévient	VER:pres
+les	DET:ART
+maladies	NOM
+.	SENT
+
+Discussion	NOM
+p.	ABR
+190-191	NUM
+

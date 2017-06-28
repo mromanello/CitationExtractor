@@ -1,0 +1,33 @@
+Communication	NOM
+à	PRP
+la	DET:ART
+Société	NOM
+française	ADJ
+d'	PRP
+archéologie	NOM
+classique	ADJ
+,	PUN
+séance	NOM
+du	PRP:det
+1er	NUM
+mars	NOM
+2003.	SENT
+
+Panorama	NOM
+synthétique	ADJ
+intégrant	VER:ppre
+les	DET:ART
+données	NOM
+accumulées	VER:pper
+par	PRP
+la	DET:ART
+généralisation	NOM
+des	PRP:det
+fouilles	NOM
+de	PRP
+sauvetage	NOM
+depuis	PRP
+les	DET:ART
+années	NOM
+1980	NUM
+

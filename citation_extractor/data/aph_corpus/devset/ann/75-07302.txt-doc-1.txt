@@ -1,0 +1,1 @@
+Résultats obtenus par le lemmatiseur LEMLAT, un instrument mis au point par l' Istituto di Linguistica computazionale del Consiglio Nazionale delle Ricerche, à Pise, pour résoudre le problème des « homographes » du latin

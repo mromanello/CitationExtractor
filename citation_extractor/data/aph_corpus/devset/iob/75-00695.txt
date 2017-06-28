@@ -1,0 +1,26 @@
+Riflessioni	NOM
+sul	PRE:det
+problema	NOM
+della	PRE:det
+coesistenza	NOM
+nello	PRE:det
+stesso	ADJ
+individuo	NOM
+delle	PRE:det
+due	ADJ
+qualità	NOM
+,	PON
+«	PON
+abilità	NOM
+»	PON
+e	CON
+«	PON
+incontinenza	NOM
+»	PON
+,	PON
+nella	PRE:det
+filosofia	NOM
+etica	ADJ
+di	PRE
+Aristotele	NPR
+

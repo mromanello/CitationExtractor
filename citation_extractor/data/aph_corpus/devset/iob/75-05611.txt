@@ -1,0 +1,14 @@
+Nota	NOM
+sulle	PRE:det
+traduzioni	NOM
+greche	ADJ
+e	CON
+latine	ADJ
+di	PRE
+un'	DET:indef
+espressione	NOM
+ebraica	ADJ
+di	PRE
+difficile	ADJ
+lettura	NOM
+

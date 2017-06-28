@@ -1,0 +1,10 @@
+T1	AAUTHOR 57 65	Cicerone
+T2	REFAUWORK 170 179	Aug. civ.
+T3	REFSCOPE 180 186	12, 2,
+T4	REFAUWORK 230 234	Eph.
+T5	REFSCOPE 235 240	4, 19
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+#0	AnnotatorNotes R1	urn:cts:cwkb:1346.4372:12.2
+#1	AnnotatorNotes R2	urn:cts:cwkb:849:4.19
+#2	AnnotatorNotes T1	urn:cts:cwkb:431

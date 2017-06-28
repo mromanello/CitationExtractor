@@ -1,0 +1,36 @@
+Esame	NOM
+degli	PRE:det
+ff	NOM
+.	SENT
+
+1-2	NUM
+.	SENT
+
+Nella	PRE:det
+scrittura	NOM
+inferiore	ADJ
+è	VER:pres
+leggibile	ADJ
+un	DET:indef
+frammento	NOM
+della	PRE:det
+8a	NOM
+omilia	NOM
+sul	PRE:det
+Vangelo	NOM
+di	PRE
+Matteo	NOM
+di	PRE
+Giovanni	NPR
+Crisostomo	NOM
+,	PON
+in	PRE
+quella	PRO:demo
+superiore	ADJ
+un	DET:indef
+frammento	NOM
+di	PRE
+un	DET:indef
+sinassario	NOM
+bizantino	ADJ
+

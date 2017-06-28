@@ -1,0 +1,20 @@
+Se	SE
+inventarían	VLfin
+los	ART
+teónimos	NC
+indígenas	ADJ
+de	PREP
+la	ART
+Península	NC
+Ibérica	NP
+documentados	VLadj
+en	PREP
+las	ART
+inscripciones	NC
+latinas	ADJ
+halladas	VLadj
+en	PREP
+los	ART
+últimos	ADJ
+años	NC
+

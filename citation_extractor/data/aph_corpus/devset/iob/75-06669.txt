@@ -1,0 +1,16 @@
+Le	DET:def
+interpretazioni	NOM
+del	PRE:det
+mito	NOM
+di	PRE
+Narciso	NOM
+e	CON
+la	DET:def
+sua	PRO:poss
+figura	NOM
+nella	PRE:det
+letteratura	NOM
+greca	ADJ
+e	CON
+latina	ADJ
+

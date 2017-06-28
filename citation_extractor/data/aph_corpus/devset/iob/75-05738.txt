@@ -1,0 +1,13 @@
+Note	NOM
+su	PRE
+alcune	PRO:indef
+particolarità	NOM
+del	PRE:det
+testo	NOM
+greco	ADJ
+e	CON
+confronto	NOM
+con	PRE
+il	DET:def
+TM	NOM
+

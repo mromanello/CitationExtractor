@@ -1,0 +1,37 @@
+Tradizione	NOM
+giovannea	ADJ
+e	CON
+petrina	ADJ
+in	PRE
+Gv	NOM
+.	SENT
+
+21	NUM
+,	PON
+analisi	NOM
+delle	PRE:det
+circostanze	NOM
+che	PRO:rela
+portarono	VER:remo
+all'	PRE:det
+inserimento	NOM
+di	PRE
+tale	PRO:demo
+capitolo	NOM
+nel	PRE:det
+quarto	ADJ
+Vangelo	NOM
+e	CON
+tratti	VER:cpre
+complessivi	ADJ
+del	PRE:det
+processo	NOM
+di	PRE
+rilettura	NOM
+del	PRE:det
+patrimonio	NOM
+tradizionale	ADJ
+nell'	PRE:det
+ambito	NOM
+giovanneo	ADJ
+

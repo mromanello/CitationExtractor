@@ -1,0 +1,19 @@
+Allgemeines	ADJA
+(	$(
+Sammelwerke	NN
+,	$,
+Lexika	NN
+,	$,
+Biographien	NN
+,	$,
+Bibliographien	NN
+,	$,
+Handschriften	NN
+)	$(
+;	$.
+Byzantinische	ADJA
+Kirchengeschichte	NN
+(	$(
+1	CARD
+)	$(
+

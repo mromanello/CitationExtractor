@@ -1,0 +1,7 @@
+Reconstitution	NOM
+du	PRP:det
+témoignage	NOM
+perdu	VER:pper
+d'	PRP
+Eunape	NAM
+

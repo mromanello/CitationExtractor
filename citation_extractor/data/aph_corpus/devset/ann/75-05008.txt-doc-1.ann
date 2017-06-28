@@ -1,0 +1,4 @@
+T1	REFAUWORK 26 37	Demosthenes
+T2	REFSCOPE 38 44	46, 16
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0007.tlg054:46.16

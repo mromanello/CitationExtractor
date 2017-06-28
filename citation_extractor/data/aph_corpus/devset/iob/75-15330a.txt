@@ -1,0 +1,6 @@
+Ricordo	NOM
+e	CON
+profilo	NOM
+dello	PRE:det
+studioso	NOM
+

@@ -1,0 +1,13 @@
+Se	SE
+analizan	VLfin
+,	CM
+entre	PREP
+otros	QU
+,	CM
+los	ART
+testimonios	NC
+de	PREP
+la	ART
+historiografía	NC
+grecolatina	ADJ
+

@@ -1,0 +1,33 @@
+Étudie	VER:pres
+l'	DET:ART
+influence	NOM
+de	PRP
+Rome	NAM
+sur	PRP
+les	DET:ART
+cultures	NOM
+variées	VER:pper
+de	PRP
+la	DET:ART
+Pamphylie	NOM
+d'	PRP
+après	PRP
+les	DET:ART
+témoignages	NOM
+épigraphiques	ADJ
+latins	ADJ
+et	KON
+grecs	ADJ
+.	SENT
+
+Elle	PRO:PER
+se	PRO:PER
+révèle	VER:pres
+un	DET:ART
+facteur	NOM
+d'	PRP
+unification	NOM
+et	KON
+de	PRP
+prospérité	NOM
+

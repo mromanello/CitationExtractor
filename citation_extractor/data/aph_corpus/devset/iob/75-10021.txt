@@ -1,0 +1,62 @@
+Les	DET:ART
+Macédoniens	NOM
+font	VER:pres
+partie	VER:pper
+des	PRP:det
+tribus	NOM
+hellénophones	ADJ
+qui	PRO:REL
+s'	PRO:PER
+installent	VER:pres
+en	PRP
+Grèce	NAM
+du	PRP:det
+Nord	NOM
+vers	PRP
+2200-2100	NUM
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+et	KON
+arrivent	VER:pres
+sur	PRP
+la	DET:ART
+scène	NOM
+de	PRP
+l'	DET:ART
+histoire	NOM
+à	PRP
+partir	VER:infi
+du	PRP:det
+8e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+Essentiellement	ADV
+dorien	ADJ
+et	KON
+mêlé	VER:pper
+d'	PRP
+éléments	NOM
+éoliens	ADJ
+,	PUN
+le	DET:ART
+dialecte	NOM
+macédonien	ADJ
+fait	VER:pres
+partie	VER:pper
+du	PRP:det
+fonds	NOM
+linguistique	ADJ
+du	PRP:det
+grec	NOM
+

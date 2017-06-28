@@ -1,0 +1,18 @@
+Historique	ADJ
+de	PRP
+la	DET:ART
+collection	NOM
+et	KON
+présentation	NOM
+de	PRP
+quelques	PRO:IND
+pièces	NOM
+qui	PRO:REL
+se	PRO:PER
+trouvent	VER:pres
+au	PRP:det
+musée	NOM
+Calvet	NAM
+d'	PRP
+Avignon	NAM
+

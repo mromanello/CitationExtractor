@@ -1,0 +1,8 @@
+Sintassi	NOM
+dei	PRE:det
+pronomi	NOM
+personali	ADJ
+ortotonici	NOM
+ed	CON
+enclitici	ADJ
+

@@ -1,0 +1,6 @@
+Discussione	NOM
+dell'	PRE:det
+opera	NOM
+schedata	ADJ
+70-01686	NUM
+

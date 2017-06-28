@@ -1,0 +1,21 @@
+De	PRP
+l'	DET:ART
+importance	NOM
+des	PRP:det
+papyrus	NOM
+grecs	ADJ
+des	PRP:det
+Évangiles	NOM
+apocryphes	ADJ
+pour	PRP
+la	DET:ART
+critique	NOM
+et	KON
+l'	DET:ART
+établissement	NOM
+du	PRP:det
+texte	NOM
+du	PRP:det
+Nouveau	NAM
+Testament	NAM
+

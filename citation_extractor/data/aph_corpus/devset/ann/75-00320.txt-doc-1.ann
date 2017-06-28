@@ -1,0 +1,6 @@
+T1	REFAUWORK 30 35	(met.
+T2	REFSCOPE 36 45	2, 21-32)
+T3	AAUTHOR 164 170	Platon
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0959.phi006:2.21-2.32
+#1	AnnotatorNotes T3	urn:cts:greekLit:tlg0059

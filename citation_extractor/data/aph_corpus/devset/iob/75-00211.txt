@@ -1,0 +1,24 @@
+Seconda	ADJ
+parte	NOM
+di	PRE
+un'	DET:indef
+analisi	NOM
+del	PRE:det
+carme	NOM
+carme	NOM
+189	NUM
+Sh	NOM
+.	SENT
+-B	NOM
+:	PON
+commento	NOM
+dei	PRE:det
+v.	NOM
+1-26	NUM
+.	SENT
+
+Per	PRE
+l	VER:infi
+=>	NOM
+74-00232	NUM
+

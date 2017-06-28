@@ -1,0 +1,27 @@
+Si	PRO:pers
+rintracciano	VER:pres
+le	DET:def
+corrispondenze	NOM
+testuali	ADJ
+tra	PRE
+l'	DET:def
+«	PON
+Agamennone	NOM
+»	PON
+di	PRE
+Eschilo	NOM
+e	CON
+quello	PRO:demo
+di	PRE
+Seneca	NPR
+per	PRE
+valutare	VER:infi
+i	DET:def
+modi	NOM
+della	PRE:det
+ricezione	NOM
+senecana	ADJ
+del	PRE:det
+testo	NOM
+greco	ADJ
+

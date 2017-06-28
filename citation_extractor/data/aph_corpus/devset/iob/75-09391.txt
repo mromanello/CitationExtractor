@@ -1,0 +1,24 @@
+Se	SE
+da	VLfin
+a	PREP
+conocer	VLinf
+una	ART
+inscripción	NC
+latina	ADJ
+,	CM
+con	PREP
+dos	CARD
+epígrafes	NC
+funerarios	ADJ
+,	CM
+de	PREP
+la	ART
+que	CQUE
+se	SE
+desconoce	VLfin
+el	ART
+lugar	NC
+exacto	ADJ
+de	PREP
+hallazgo	NC
+

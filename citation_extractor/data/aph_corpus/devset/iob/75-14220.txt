@@ -1,0 +1,14 @@
+Rassegna	NOM
+delle	PRE:det
+risorse	NOM
+in	PRE
+linea	NOM
+per	PRE
+lo	DET:def
+studio	NOM
+dei	PRE:det
+testi	NOM
+latini	ADJ
+accessibili	ADJ
+gratuitamente	ADV
+

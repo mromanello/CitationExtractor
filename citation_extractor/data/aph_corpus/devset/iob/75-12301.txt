@@ -1,0 +1,13 @@
+Zum	APPRART
+Umgang	NN
+mit	APPR
+dem	ART
+jüdischen	ADJA
+Hintergrund	NN
+Jesu	NN
+in	APPR
+der	ART
+frühchristlichen	ADJA
+Theologie	NN
+.	$.
+

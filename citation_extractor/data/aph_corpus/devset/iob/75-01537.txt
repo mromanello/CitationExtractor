@@ -1,0 +1,29 @@
+El	ART
+«	SYM
+De	PREP
+excidio	NC
+Troiae	NC
+»	SYM
+fue	VSfin
+ampliamente	ADV
+difundido	VLadj
+durante	PREP
+la	ART
+Edad	NC
+Media	ADJ
+.	FS
+
+Se	SE
+ofrece	VLfin
+un	ART
+interesante	ADJ
+ejemplo	NC
+de	PREP
+una	ART
+recensión	NC
+inglesa	ADJ
+o	CC
+galesa	ADJ
+del	PDEL
+texto	NC
+

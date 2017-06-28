@@ -1,0 +1,12 @@
+Sul	PRE:det
+possibile	ADJ
+utilizzo	NOM
+di	PRE
+Libanio	NOM
+come	PRE
+fonte	NOM
+di	PRE
+storia	NOM
+locale	ADJ
+greca	ADJ
+

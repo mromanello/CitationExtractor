@@ -1,0 +1,14 @@
+Osservazioni	NOM
+in	PRE
+margine	NOM
+all'	PRE:det
+edizione	NOM
+curata	VER:pper
+da	PRE
+M.	NOM
+Marcovich	NOM
+(	PON
+=>	NOM
+72-00791	NUM
+)	PON
+

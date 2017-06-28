@@ -1,0 +1,27 @@
+PKöln	NN
+10	CARD
+,	$,
+399	CARD
+ist	VAFIN
+vielleicht	ADV
+als	KOKOM
+Glossar	NN
+zu	PTKZU
+deuten	VVINF
+,	$,
+zu	APPR
+welchem	PRELS
+die	ART
+Zeilen	NN
+2	CARD
+und	KON
+3	CARD
+einleitende	ADJA
+Bemerkungen	NN
+enthielten	VVFIN
+.	$.
+
+Mit	APPR
+Rekonstruktionsvorschlag	NN
+.	$.
+

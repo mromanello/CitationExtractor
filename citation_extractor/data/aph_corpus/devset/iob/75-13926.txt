@@ -1,0 +1,8 @@
+Typologie	NOM
+établie	VER:pper
+selon	PRP
+les	DET:ART
+techniques	NOM
+de	PRP
+construction	NOM
+

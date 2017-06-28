@@ -1,0 +1,6 @@
+In	PRE	O
+margine	NOM	O
+al	PRE:det	O
+volume	NOM	O
+schedato	ADJ	O
+75-14645	NUM	O

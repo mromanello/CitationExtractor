@@ -1,0 +1,5 @@
+Esegesi	NOM
+della	PRE:det
+breve	ADJ
+epistola	NOM
+

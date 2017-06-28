@@ -1,0 +1,15 @@
+T1	AAUTHOR 67 76	Aristotle
+T2	REFAUWORK 77 80	(EN
+T3	REFSCOPE 81 93	1127a19-20).
+T4	AAUTHOR 137 149	Aristophanes
+T5	AWORK 150 160	« Clouds »
+T6	REFSCOPE 161 168	362-363
+T7	AAUTHOR 239 247	Plato 's
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0086.tlg010:1127a.19-1127a.20
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0019.tlg003:362-363
+#2	AnnotatorNotes T7	urn:cts:greekLit:tlg0059
+#3	AnnotatorNotes T4	urn:cts:greekLit:tlg0019
+#4	AnnotatorNotes T5	urn:cts:greekLit:tlg0019.tlg003
+#5	AnnotatorNotes T1	urn:cts:greekLit:tlg0086

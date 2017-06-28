@@ -1,0 +1,60 @@
+L'	DET:ART
+Église	NAM
+et	KON
+le	DET:ART
+pouvoir	NOM
+impérial	ADJ
+ont	VER:pres
+repris	VER:pper
+la	DET:ART
+tradition	NOM
+du	PRP:det
+rêve	NOM
+inspiré	VER:pper
+.	SENT
+
+Développement	NOM
+du	PRP:det
+rêve	NOM
+symbolique	ADJ
+dans	PRP
+les	DET:ART
+actes	NOM
+des	PRP:det
+martyrs	NOM
+et	KON
+l'	DET:ART
+hagiographie	NOM
+.	SENT
+
+Révélation	NOM
+divine	ADJ
+par	PRP
+le	DET:ART
+rêve	NOM
+ou	KON
+la	DET:ART
+vision	NOM
+chez	PRP
+les	DET:ART
+Pères	NOM
+.	SENT
+
+Le	DET:ART
+rêve	NOM
+en	PRP
+tant	ADV
+qu'	KON
+élément	NOM
+constitutif	ADJ
+de	PRP
+la	DET:ART
+foi	NOM
+populaire	ADJ
+.	SENT
+
+Pour	PRP
+3	NUM
+=>	ABR
+75-11706	NUM
+

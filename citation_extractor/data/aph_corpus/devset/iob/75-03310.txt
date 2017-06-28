@@ -1,0 +1,19 @@
+Vorschläge	NN
+zur	APPRART
+Lesung	NN
+der	ART
+Z.	NE
+8-9	CARD
+eines	ART
+Ostrakon	NN
+aus	APPR
+Kellis	NN
+mit	APPR
+mythographischem	ADJA
+Text	NN
+(	$(
+OKellis	NN
+inv.	ADJA
+31/420-D6-1/D/3/90	ADJA
+)	$(
+

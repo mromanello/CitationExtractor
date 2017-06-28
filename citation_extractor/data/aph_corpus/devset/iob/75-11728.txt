@@ -1,0 +1,18 @@
+Zu	APPR
+den	ART
+Mysterien	NN
+in	APPR
+der	ART
+Überlieferung	NN
+zu	APPR
+Pythagoras	NN
+und	KON
+im	APPRART
+«	$(
+Goldenen	ADJA
+Esel	NN
+»	$(
+des	ART
+Apuleius	NN
+.	$.
+

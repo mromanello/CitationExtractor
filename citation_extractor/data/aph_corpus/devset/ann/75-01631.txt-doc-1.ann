@@ -1,0 +1,6 @@
+T1	AAUTHOR 241 258	Diogenes Laertius
+T2	AWORK 266 282	« Life of Zeno »
+T3	REFSCOPE 283 294	(7, 10-12).
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes T2	urn:cts:cwkb:2388.8675
+#1	AnnotatorNotes T1	urn:cts:greekLit:tlg0004

@@ -1,0 +1,16 @@
+Esame	NOM
+delle	PRE:det
+tradizioni	NOM
+leggendarie	ADJ
+sui	PRE:det
+personaggi	NOM
+legati	ADJ
+a	PRE
+Ftia	NOM
+,	PON
+e	CON
+ricostruzione	NOM
+del	PRE:det
+loro	PRO:poss
+sviluppo	NOM
+

@@ -1,0 +1,7 @@
+T1	REFAUWORK 531 551	Ammianus Marcellinus
+T2	REFSCOPE 552 560	16, 12 ;
+T3	REFAUWORK 561 575	Iordanes, Get.
+T4	REFSCOPE 576 581	281 ;
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R2	urn:cts:cwkb:1426.7938:281

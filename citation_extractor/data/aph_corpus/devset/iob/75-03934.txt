@@ -1,0 +1,24 @@
+In	PRE
+margine	NOM
+al	PRE:det
+volume	NOM
+edito	ADJ
+da	PRE
+R.	NOM
+W.	NOM
+Sharples	NOM
+e	CON
+A.	LS
+Sheppard	NOM
+sugli	PRE:det
+antichi	ADJ
+approcci	NOM
+al	PRE:det
+«	PON
+Timeo	NOM
+»	PON
+(	PON
+=>	NOM
+75-03927	NUM
+)	PON
+

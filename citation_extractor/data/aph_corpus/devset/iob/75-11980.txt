@@ -1,0 +1,34 @@
+Dans	PRP
+la	DET:ART
+religion	NOM
+grecque	ADJ
+Éros	NOM
+ne	ADV
+s'	PRO:PER
+oppose	VER:pres
+pas	ADV
+à	PRP
+Thanatos	NAM
+mais	KON
+à	PRP
+Antéros	NAM
+.	SENT
+
+Leur	DET:POS
+lutte	NOM
+est	VER:pres
+représentée	VER:pper
+dans	PRP
+les	DET:ART
+gymnases	NOM
+,	PUN
+ce	PRO:DEM
+qui	PRO:REL
+renvoie	VER:pres
+à	PRP
+la	DET:ART
+symbolique	NOM
+des	PRP:det
+jeux	NOM
+funéraires	ADJ
+

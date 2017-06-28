@@ -1,0 +1,34 @@
+Étude	NOM
+lexicale	ADJ
+et	KON
+sémantique	ADJ
+des	PRP:det
+termes	NOM
+homériques	ADJ
+employés	VER:pper
+pour	PRP
+désigner	VER:infi
+les	DET:ART
+jeunes	NOM
+,	PUN
+la	DET:ART
+jeunesse	NOM
+et	KON
+leurs	DET:POS
+actes	NOM
+:	PUN
+Nausicaa	NAM
+,	PUN
+Briséis	NAM
+et	KON
+Télémaque	NAM
+.	SENT
+
+Remarques	NOM
+sur	PRP
+leurs	DET:POS
+relations	NOM
+avec	PRP
+les	DET:ART
+dieux	NOM
+

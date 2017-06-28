@@ -1,0 +1,23 @@
+Problemi	NOM
+filologici	ADJ
+,	PON
+contenutistici	ADJ
+e	CON
+interpretativi	ADJ
+in	PRE
+tre	ADJ
+frammenti	NOM
+provenienti	ADJ
+verosimilmente	ADV
+dal	PRE:det
+primo	ADJ
+libro	NOM
+delle	PRE:det
+«	PON
+Res	NOM
+Romanae	NOM
+»	PON
+di	PRE
+Cornelio	NOM
+Severo	VER:pres
+

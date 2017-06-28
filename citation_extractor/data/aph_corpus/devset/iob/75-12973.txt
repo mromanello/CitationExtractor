@@ -1,0 +1,37 @@
+Fragments	NOM
+d'	PRP
+un	DET:ART
+médaillon	NOM
+de	PRP
+mosaïque	NOM
+figurée	VER:pper
+,	PUN
+d'	PRP
+époque	NOM
+sévérienne	ADJ
+,	PUN
+trouvés	VER:pper
+fortuitement	ADV
+dans	PRP
+les	DET:ART
+années	NOM
+1960	NUM
+au	PRP:det
+sud	NOM
+de	PRP
+la	DET:ART
+«	PUN:cit
+villa	NOM
+de	PRP
+Thésée	NAM
+»	PUN:cit
+à	PRP
+Paphos	NOM
+.	SENT
+
+Le	DET:ART
+médaillon	NOM
+représente	VER:pres
+l'	DET:ART
+Été	NOM
+

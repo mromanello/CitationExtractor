@@ -1,0 +1,15 @@
+Avec	PRP
+catalogue	NOM
+typologique	ADJ
+des	PRP:det
+découvertes	NOM
+(	PUN
+8e-3e	VER:pres
+s.	VER:pper
+av	NOM
+.	SENT
+J.	ABR
+-C	ADJ
+.	SENT
+)	PUN
+

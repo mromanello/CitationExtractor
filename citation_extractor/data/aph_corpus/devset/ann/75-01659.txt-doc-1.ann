@@ -1,0 +1,7 @@
+T1	AWORK 100 127	l' « Épitomé ambrosienne »,
+T2	REFSCOPE 206 214	(12-20),
+T3	REFSCOPE 389 397	livres 4
+T4	REFSCOPE 398 403	et 8,
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4

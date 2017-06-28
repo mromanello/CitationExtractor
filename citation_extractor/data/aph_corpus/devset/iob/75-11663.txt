@@ -1,0 +1,22 @@
+Mit	APPR
+einer	ART
+Bibliographie	NN
+«	$(
+Monographien	NN
+und	KON
+Sammelwerke	NN
+zur	APPRART
+römischen	ADJA
+Ernährung	NN
+(	$(
+1950-2002	CARD
+)	$(
+»	$(
+und	KON
+einer	ART
+Auswahlbibliographie	NN
+zu	APPR
+römischen	ADJA
+Getränken	NN
+.	$.
+

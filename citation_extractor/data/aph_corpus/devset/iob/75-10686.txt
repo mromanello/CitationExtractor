@@ -1,0 +1,10 @@
+Sur	PRP
+la	DET:ART
+procédure	NOM
+de	PRP
+désignation	NOM
+de	PRP
+Q.	ABR
+Fabius	NAM
+Maximus	NAM
+

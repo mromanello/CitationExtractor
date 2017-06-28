@@ -1,0 +1,35 @@
+T2	AAUTHOR 90 96	Silius
+T3	AAUTHOR 227 233	Silius
+T4	REFSCOPE 398 408	7, 166-211
+T5	REFAUWORK 420 430	Ovid, met.
+T6	REFSCOPE 431 442	3, 664 ff.,
+T7	REFAUWORK 443 447	met.
+T8	REFSCOPE 448 459	8, 624 ff.,
+T9	REFAUWORK 464 469	fast.
+T10	REFSCOPE 470 480	5, 495 ff.
+T11	REFSCOPE 507 516	9, 90-177
+T12	REFAUWORK 533 543	Ovid, met.
+T13	REFSCOPE 544 553	4, 55 ff.
+T14	REFSCOPE 558 570	7, 690 ff.).
+T15	AAUTHOR 588 594	Silius
+T16	AAUTHOR 652 658	Silius
+T17	AAUTHOR 714 720	Vergil
+R1	Scope Arg1:T5 Arg2:T6
+R2	Scope Arg1:T7 Arg2:T8
+R3	Scope Arg1:T9 Arg2:T10
+R4	Scope Arg1:T9 Arg2:T11
+R5	Scope Arg1:T12 Arg2:T13
+R6	Scope Arg1:T12 Arg2:T14
+#0	AnnotatorNotes R4	urn:cts:cwkb:568.1162:9.90-9.177
+#1	AnnotatorNotes R5	urn:cts:latinLit:phi0959.phi006:4.55++
+#2	AnnotatorNotes R6	urn:cts:latinLit:phi0959.phi006:7.690++
+#3	AnnotatorNotes R1	urn:cts:latinLit:phi0959.phi006:3.664++
+#4	AnnotatorNotes R2	urn:cts:latinLit:phi0959.phi006:8.624++
+#5	AnnotatorNotes R3	urn:cts:cwkb:568.1162:5.495++
+#6	AnnotatorNotes T2	urn:cts:cwkb:630
+#7	AnnotatorNotes T3	urn:cts:cwkb:630
+#9	AnnotatorNotes T15	urn:cts:cwkb:630
+#10	AnnotatorNotes T16	urn:cts:cwkb:630
+#11	AnnotatorNotes T17	urn:cts:latinLit:phi0690
+R7	Scope Arg1:T3 Arg2:T4	
+#8	AnnotatorNotes R7	urn:cts:cwkb:630.1310:7.166-7.211

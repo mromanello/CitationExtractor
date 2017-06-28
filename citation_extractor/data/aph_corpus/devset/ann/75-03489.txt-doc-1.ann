@@ -1,0 +1,4 @@
+T1	REFAUWORK 30 40	Ovid, met.
+T2	REFSCOPE 41 51	6, 382-400
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0024.tlg001:6.382-6.400

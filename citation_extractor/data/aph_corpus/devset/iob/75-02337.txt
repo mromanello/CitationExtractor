@@ -1,0 +1,13 @@
+Zu	APPR
+Kirchenverständnis	NN
+und	KON
+Bedeutung	NN
+des	ART
+Hieronymus	NE
+,	$,
+der	PRELS
+kein	PIAT
+Amt	NN
+annahm	VVFIN
+.	$.
+

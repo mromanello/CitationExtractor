@@ -1,0 +1,19 @@
+T1	AAUTHOR 45 59	Aristophanes '
+T2	AWORK 60 69	« Frogs »
+T3	REFSCOPE 70 79	(1466ff.)
+T4	AAUTHOR 141 150	Aeschylus
+T5	AAUTHOR 155 164	Euripides
+T6	AWORK 341 350	« Frogs »
+T7	AWORK 359 391	« Contest of Homer and Hesiod »,
+T8	AAUTHOR 589 598	Aeschylus
+T9	AAUTHOR 603 612	Euripides
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0019.tlg009:1466-1466++
+#1	AnnotatorNotes T8	urn:cts:greekLit:tlg0085
+#2	AnnotatorNotes T9	urn:cts:greekLit:tlg0006
+#3	AnnotatorNotes T6	urn:cts:greekLit:tlg0019.tlg009
+#4	AnnotatorNotes T4	urn:cts:greekLit:tlg0085
+#5	AnnotatorNotes T5	urn:cts:greekLit:tlg0006
+#6	AnnotatorNotes T2	urn:cts:greekLit:tlg0019.tlg009
+#7	AnnotatorNotes T1	urn:cts:greekLit:tlg0019
+#8	AnnotatorNotes T7	urn:cts:cwkb:1398.4477

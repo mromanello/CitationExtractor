@@ -1,0 +1,24 @@
+L'	DET:def
+eziologia	NOM
+del	PRE:det
+lago	NOM
+Trasimeno	VER:pres
+in	PRE
+Silio	NOM
+è	VER:pres
+chiaramente	ADV
+ispirata	VER:pper
+al	PRE:det
+mito	NOM
+di	PRE
+Ila	NOM
+,	PON
+che	PRO:rela
+in	PRE
+questa	PRO:demo
+età	NOM
+godette	VER:remo
+di	PRE
+notevole	ADJ
+fortuna	NOM
+

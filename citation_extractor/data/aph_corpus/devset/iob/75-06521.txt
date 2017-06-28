@@ -1,0 +1,15 @@
+Sobre	PREP
+la	ART
+relación	NC
+entre	PREP
+literatura	NC
+de	PREP
+tema	NC
+mitológico	ADJ
+y	CC
+arte	NC
+desde	PREP
+la	ART
+Antigüedad	NC
+.	FS
+

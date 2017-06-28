@@ -1,0 +1,47 @@
+Der	ART
+Überblick	NN
+über	APPR
+die	ART
+Zeugnisse	NN
+lässt	VVFIN
+vermuten	VVINF
+,	$,
+dass	KOUS
+im	APPRART
+2.	ADJA
+
+Jh	NE
+.	$.
+mehr	PIAT
+Heiden	NN
+die	ART
+Evangelien	NN
+kannten	VVFIN
+,	$,
+als	KOKOM
+allgemein	ADJD
+vermutet	VVPP
+wird	VAFIN
+.	$.
+
+Dass	KOUS
+die	ART
+literarischen	ADJA
+Spuren	NN
+davon	PAV
+weitgehend	ADJD
+verloren	VVPP
+sind	VAFIN
+,	$,
+düfte	ADJD
+damit	PAV
+zusammenhängen	VVFIN
+,	$,
+dass	KOUS
+die	ART
+Beurteilung	NN
+überwiegend	ADJD
+negativ	ADJD
+war	VAFIN
+.	$.
+

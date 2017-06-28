@@ -1,0 +1,24 @@
+Analisi	NOM
+articolata	VER:pper
+su	PRE
+un	DET:indef
+ampio	ADJ
+arco	NOM
+di	PRE
+tempo	NOM
+,	PON
+dal	PRE:det
+periodo	NOM
+classico	ADJ
+all'	PRE:det
+età	NOM
+imperiale	ADJ
+,	PON
+senza	PRE
+tralasciare	VER:infi
+le	DET:def
+testimonianze	NOM
+nella	PRE:det
+pittura	NOM
+vascolare	ADJ
+

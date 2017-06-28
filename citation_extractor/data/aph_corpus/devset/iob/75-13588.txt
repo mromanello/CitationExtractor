@@ -1,0 +1,10 @@
+Sur	PRP
+les	DET:ART
+valeurs	NOM
+morales	ADJ
+que	PRO:REL
+reflètent	VER:pres
+les	DET:ART
+mosaïques	NOM
+romaines	ADJ
+

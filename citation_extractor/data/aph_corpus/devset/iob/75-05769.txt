@@ -1,0 +1,33 @@
+En	PRP
+1Cor	NOM
+13,2	NUM
+,	PUN
+Paul	NAM
+fait	VER:pres
+une	DET:ART
+allusion	NOM
+polémique	ADJ
+à	PRP
+1QpHa	NOM
+7,4-5	NUM
+.	SENT
+
+Transparente	ADJ
+pour	PRP
+certains	PRO:IND
+des	PRP:det
+destinataires	NOM
+de	PRP
+l'	DET:ART
+Épître	NOM
+,	PUN
+elle	PRO:PER
+est	VER:pres
+masquée	VER:pper
+aux	PRP:det
+autres	ADJ
+par	PRP
+des	PRP:det
+procédés	NOM
+rhétoriques	ADJ
+

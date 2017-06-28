@@ -1,0 +1,31 @@
+Panoramica	NOM
+a	PRE
+partire	VER:infi
+dal	PRE:det
+secondo	ADJ
+dopoguerra	NOM
+.	SENT
+
+Rilevanza	NOM
+di	PRE
+scavi	NOM
+e	CON
+ritrovamenti	NOM
+archeologici	ADJ
+per	PRE
+la	DET:def
+ricostruzione	NOM
+della	PRE:det
+storia	NOM
+di	PRE
+Etolia	NOM
+e	CON
+Acarnania	NOM
+,	PON
+mal	NOM
+rappresentata	VER:pper
+nella	PRE:det
+tradizione	NOM
+letteraria	ADJ
+antica	ADJ
+

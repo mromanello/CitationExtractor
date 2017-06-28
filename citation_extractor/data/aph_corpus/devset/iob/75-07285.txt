@@ -1,0 +1,17 @@
+Analisi	NOM
+del	PRE:det
+verbo	NOM
+«	PON
+corono	VER:pres
+»	PON
+,	PON
+alla	PRE:det
+luce	NOM
+di	PRE
+attestazioni	NOM
+tardoantiche	NOM
+,	PON
+medievali	ADJ
+e	CON
+rinascimentali	ADJ
+

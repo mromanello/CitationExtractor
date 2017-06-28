@@ -1,0 +1,4 @@
+T1	AWORK 6 17	« Odissea »
+T2	REFSCOPE 159 172	(10, 14-16) ;
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes T1	urn:cts:greekLit:tlg0012.tlg002

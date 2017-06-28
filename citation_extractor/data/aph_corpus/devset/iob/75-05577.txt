@@ -1,0 +1,12 @@
+A	PRE
+proposito	NOM
+del	PRE:det
+saggio	NOM
+di	PRE
+S.	NOM
+Enste	NOM
+(	PON
+=>	NOM
+72-06034	NUM
+)	PON
+

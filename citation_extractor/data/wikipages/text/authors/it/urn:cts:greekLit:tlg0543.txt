@@ -1,0 +1,157 @@
+Polibio - Wikipedia
+Polibio
+Da Wikipedia, l'enciclopedia libera.
+Vai a:					navigazione, 					ricerca
+Stele di Kleitor che ha «solo valore commemorativo e ideale e non può fornirci alcun elemento sulla reale iconografia di Polibio»[1] negli anni successivi al 146 a.C.
+Polibio (in greco antico: Πολύβιος, Polýbios; Megalopoli, 206 a.C. circa – Grecia, 124 a.C.) è stato uno storico greco antico.
+Studiò in modo particolare il sorgere della potenza della Repubblica romana, che attribuì all'onestà dei romani ed all'eccellenza delle loro istituzioni civiche e militari[2]. Nelle sue Storie, si rivela particolarmente importante il suo resoconto della Seconda guerra punica e della Terza guerra punica fra Roma e Cartagine, nonché del periodo dell'imperialismo.
+Indice
+1 Biografia
+1.1 Origini e carriera
+1.2 A Roma
+1.3 Il ritorno e gli ultimi anni
+2 Opere
+2.1 Opere minori
+2.2 Le Storie
+3 Note
+4 Bibliografia
+5 Voci correlate
+6 Altri progetti
+7 Collegamenti esterni
+Biografia[modifica | modifica wikitesto]
+Origini e carriera[modifica | modifica wikitesto]
+Figlio di Licorta, stratego della Lega Achea, Polibio era per tradizione familiare fra i più eminenti uomini di Megalopoli, capitale dell'Arcadia, a sua volta importante componente della Lega Achea. Se il padre fu uno stratego, cioè comandante in capo della Lega, Polibio ne fu ipparco ovvero capo della cavalleria, secondo in grado delle forze armate[3].
+La sua carriera politica in Grecia si conclude dopo la battaglia di Pidna (168 a.C.) con la quale il console Lucio Emilio Paolo, figlio del console caduto nella Battaglia di Canne, cancellò la Macedonia di Perseo dal novero delle potenze dell'epoca. Come dirigente del partito della neutralità durante la guerra attirò infatti i sospetti dei romani e fu uno dei mille nobili achei che nel 166 a.C. furono inviati quali ostaggi a Roma. Vi rimase per diciassette anni.
+Moneta di Perseo di Macedonia.
+A Roma[modifica | modifica wikitesto]
+A Roma, in ragione della sua vasta cultura, Polibio fu ammesso nei più rinomati salotti, in particolare quello di Paolo Emilio, amico e "rivale" degli Scipioni, che gli affidò l'educazione dei figli, uno dei quali fu poi adottato da Scipione e cambiò nome in Scipione Emiliano (Africano Minore)[4]. L'amicizia degli Scipioni permise a Polibio frequenti uscite da Roma con viaggi in Italia, Gallia, Spagna. Fu anche in Spagna[5], al seguito di Scipione nel 134 a.C. nella guerra a Numanzia.
+Il ritorno e gli ultimi anni[modifica | modifica wikitesto]
+Per intercessione di Scipione, nel 150 a.C. Polibio ottenne di ritornare in Grecia ma già nell'anno successivo era (come già detto) in Africa con il suo amico e nel 146 a.C. assistette alla caduta di Cartagine, che in seguito descrisse[6].
+Lo stesso argomento in dettaglio: Scacchiera di Polibio.
+Perfezionò, in questi anni un utile strumento di telecomunicazione, inventato da Cleosseno e Democlito, che, attraverso segnali di fuoco, permetteva la facile trasmissione di qualunque tipo di messaggio. Il sistema di telecomunicazione è descritto nei dettagli da Polibio stesso, che ne spiega preliminarmente i vantaggi rispetto ai sistemi precedenti, che consentivano solamente di trasmettere messaggi preimpostati, estratti da una lista concordata preventivamente tra mittente e destinatario, o, ancora più semplicemente, confermavano o smentivano un evento atteso. Lo storico considera l'utilizzazione di questo sistema nel contesto di campagne militari, ma è ovvio che l'applicazione poteva essere generale.
+Il mittente si colloca dietro un parapetto provvisto di cinque fiaccole a sinistra e cinque a destra, con una tavoletta distinta in cinque righe e cinque colonne riportante in ogni cella una lettera dell'alfabeto greco (composto da 24 lettere, di cui 7 vocali e 17 consonanti), secondo uno schema simile:
+A B Γ Δ Ε
+Z H Θ I K
+Λ M N Ξ O
+Π Ρ Σ T Υ
+Φ Χ Ψ Ω
+La comunicazione si svolge secondo le seguenti fasi:
+1.La comunicazione viene stabilita: il destinatore alza due torce, segnalando che sta per iniziare la trasmissione; il destinatario risponde alzando due torce, segnalando che è pronto a ricevere
+2. La comunicazione viene inoltrata: viene trasmessa una lettera alla volta; il destinatore alza un numero di torce a sinistra corrispondente al numero di riga e un numero di torce a destra corrispondente al numero di colonna, individuando così una lettera precisa
+3.La comunicazione termina: il destinatore alza due torce segnalando la fine della trasmissione
+È da notare che questo metodo si prestava ottimamente alla trasmissione di messaggi crittografati; era sufficiente che trasmettitore e ricevitore concordassero uno stesso schema comune (diverso da quello banale alfabetico indicato sopra) con una disposizione particolare delle lettere in riga e colonne.
+Ad esempio, se si vuole trasmettere la parola “Cretesi”, in greco KΡHTEΣ (cretès), si trasmetteranno le lettere nel modo seguente:
+K 2 torce a sinistra, 5 torce a destra
+Ρ 4 torce a sinistra, 2 torce a destra
+H 2 torce a sinistra, 2 torce a destra
+T 4 torce a sinistra, 4 torce a destra
+E 1 torcia a sinistra, 5 torce a destra
+Σ 4 torce a sinistra, 3 torce a destra
+Il metodo di trasmissione richiede che il testo sia sintetico: non si sceglierà di comunicare la frase “circa mille soldati cretesi sono passati ai nemici”, si preferirà dire “mille Cretesi disertano”[7].
+Dopo la distruzione di Corinto, nello stesso anno (146 a.C.), ritornò in Grecia e usò le sue conoscenze a Roma per rendere meno gravose le condizioni della Grecia diventata una Provincia romana. Gli fu anche affidato il compito di riorganizzare le città greche sotto la nuova forma di governo e per quest'opera di legislatore ed interprete delle leggi si guadagnò le più alte considerazioni, tanto che gli furono erette statue[8].
+Gli anni successivi li trascorse a Roma, teso al completamento del suo lavoro storico, affrontando occasionali lunghi viaggi nelle terre bagnate dal Mediterraneo che interessavano la sua Storia, soprattutto con l'obiettivo di ottenere informazioni di prima mano sui siti storici[9].
+Alla morte di Scipione ritornò in Grecia, dove morì, all'età di 82 anni, per una caduta da cavallo[10].
+Opere[modifica | modifica wikitesto]
+Opere minori[modifica | modifica wikitesto]
+Si ha notizia di almeno tre opere di Polibio, però perdute, legate alla sua attività di politico: una Vita di Filopemene in tre libri[11], un trattato di tattica[12] una storia della guerra di Numanzia[13]. Quest'ultima è, tuttavia, non molto certa.
+Le Storie[modifica | modifica wikitesto]
+Lo stesso argomento in dettaglio: Storie (Polibio).
+L'opera principale di Polibio cercava di fornire una storia universale (la sua Pragmateia) del periodo fra il 220 a.C. e il 146 a.C., con un prologo concernente la storia romana a partire dal 264 a.C. Dei quaranta libri in cui, sappiamo, si divideva l'opera, solo i primi cinque (che coprono il periodo fino al 216 a.C.) ci sono giunti completi. Per il resto ci sono pervenuti solo lunghi frammenti ed epitomi. I due libri dell'introduzione raccontano gli eventi nel Mediterraneo a partire dal Sacco di Roma da parte dei Galli di Brenno (390 a.C. ) fino alla Prima guerra punica, focalizzandosi sulla crescita dell'egemonia romana. Nei libri I[14] e III[15] esprime dichiaratamente l'intenzione di esaminare come e perché Roma, nel breve volgere di nemmeno 53 anni divenne l'incontrastata dominatrice dell'ecumene, dell'intero mondo abitato[16].
+L'affermazione è un po' esagerata, anche se in effetti Roma, potenza esclusivamente peninsulare italiana, in mezzo secolo eliminò Cartagine acquisendo la costa africana dall'Egitto all'Algeria, assoggettò la Spagna, la Provenza, l'Illiria, la Grecia, la Macedonia, l'Asia (Turchia e Siria). Polibio non tiene conto dei secoli di "preparazione" necessari. E dobbiamo ricordare che era greco e che per "mondo" intendeva il Mediterraneo "greco". Tutto il resto era barbarie.
+Anche se, in quanto amico degli Scipioni, non del tutto imparziale e piuttosto ammirativo delle capacità dei romani, Polibio non era romano e i suoi scritti erano intesi per lettori greci. Tito Livio lo utilizzò come fonte[17] anche perché, a sua volta, Polibio poteva attingere a ottime fonti: almeno una delle più influenti e politicamente impegnate famiglie dell'aristocrazia romana. Anche in qualità di ostaggio, rimaneva membro della classe al governo con opportunità di accedere a informazioni di prima mano e di vedere nel profondo degli affari politici e militari.
+In una classica storia del comportamento umano, Polibio ne coglie tutte le essenze: nazionalismo, razzismo, doppiezze politiche, orrende battaglie, brutalità assieme a lealtà, valore, intelligenza, ragione e risorse. Con il suo occhio per i dettagli ed il suo stile criticamente ragionato, Polibio ci dà una visione unificata di Storia piuttosto che una cronologia.
+Polibio racconta di eventi di cui ha avuto diretta esperienza. È uno dei primi storici che cercano di presentare la storia come una sequenza di cause ed effetti,
+« basata sull'attento esame della tradizione, proseguita con accorta critica, in parte anche su quanto egli stesso vide e con comunicazioni di testimoni oculari e di protagonisti del fatto. Racconta il corso degli avvenimenti con chiarezza e penetrazione, giudizio e amore per la verità ed, a seconda dei casi, pone una speciale attenzione alle condizioni geografiche. Appartiene, quindi, alla più grande tradizione di antichi storici anche se, per stile e linguaggio non si attiene alle caratteristiche tipiche della prosa attica. Il linguaggio spesso richiede più purezza e lo stile è rigido e disarmonico. »
+(H. Thurston Peck, Polybius, in "Harper's Dictionary of Classical Antiquities", New York, Harper & Bros., 1898.)
+I suoi scritti ebbero una grande influenza su Cicerone, sui Padri fondatori degli Stati Uniti e su Charles de Montesquieu, per la sua concezione della storia come "maestra" per il comportamento degli uomini i quali, non si stanca mai di ripetere, devono imparare da essa a non commettere gli stessi errori compiuti dai predecessori e riportati dagli storici[18].
+Note[modifica | modifica wikitesto]
+^ P. Orlandini, Polibio, in Enciclopedia dell'arte antica, Istituto dell'Enciclopedia Italiana. URL consultato il 7 gennaio 2017.
+^ Libro VI, passim.
+^ Polibio, X 21, 5.
+^ Polibio, XXXI 23, 3.
+^ Plinio, Naturalis historia, V, 9.
+^ In Appiano, Punica, 132.
+^ (EN) Storie, penelope.uchicago.edu. Parametro sconosciuto nota ignorato (aiuto)
+^ Polibio, XXXIX 16. Un basamento fu ritrovato a Olimpia nel 1877, con l'iscrizione ἡ πόλις ἡ Ήλείων Πολύβιον Λυκόρτα Μεγαλοπόλίτην.
+^ Confluite nel libro XXXIV, sulla geopolitica mediterranea, di cui restano frammenti.
+^ Luciano, Macrob., 22.
+^ Polibio, X 24.
+^ Polibio, IX 20; Arriano, Tactica, 1.
+^ Forse citata in Cicerone, Ad Fam., V 12.
+^ I 1, 5-6.
+^ III, 1-3.
+^ Il tema è ripreso da Zosimo di Gaza.
+^ Cfr. Chapter 5, oxfordscholarship.com.
+^ Si vedano le osservazioni nel proemio e in più punti dei libri IX e XII.
+Bibliografia[modifica | modifica wikitesto]
+Polibio, Storie, a cura di Domenico Musti, traduzione di Manuela Mari, note di John Thornton, Milano, BUR, 1993, SBN IT\ICCU\RAV\0800816.
+B. Gibson e T. Harrison (a cura di), Polybius and his World: Essays in Memory of F.W. Walbank, Oxford, OUP, 2013, ISBN 978-0-19-960840-9.
+Voci correlate[modifica | modifica wikitesto]
+Fustel De Coulanges
+Segnali di fuoco
+Scacchiera di Polibio
+Storiografia greca
+Storiografia romana
+Anaciclosi
+Altri progetti[modifica | modifica wikitesto]
+Altri progetti
+Wikisource
+Wikiquote
+Wikimedia Commons
+Wikisource contiene una pagina dedicata a Polibio
+Wikiquote contiene citazioni di o su Polibio
+Wikimedia Commons contiene immagini o altri file su Polibio
+Collegamenti esterni[modifica | modifica wikitesto]
+(EN) M. Davies Lloyd, Polybius and the Founding Fathers, sms.org.
+(FR) Polybe, Histoire Générale, remacle.org.
+Polìbio di Megalopoli, in Treccani.it – Enciclopedie on line, Istituto dell'Enciclopedia Italiana, 15 marzo 2011. URL consultato il 7 gennaio 2017.
+Circolo degli Scipioni
+Promotori del
+Circolo degli Scipioni
+Scipione Africano (235 a.C.-183 a.C.) • Lucio Emilio Paolo (229 a.C.-160 a.C.) • Scipione Emiliano (185 a.C.-129 a.C.)
+Membri
+Gaio Lelio Sapiente • Gaio Lucilio • Panezio • Polibio • Quinto Ennio • Terenzio
+Controllo di autorità
+VIAF: (EN) 267920293 · LCCN: (EN) n79006487 · ISNI: (EN) 0000 0001 2098 7680 · GND: (DE) 118595571 · BNF: (FR) cb11920194q (data) · BAV: ADV10215582 · CERL: cnp01259834
+Portale Antica Grecia
+Portale Antica Roma
+Portale Biografie
+Portale Letteratura
+Estratto da "https://it.wikipedia.org/w/index.php?title=Polibio&oldid=85716587"
+Categorie: Storici greci antichiMorti nel 124 a.C.Nati a Megalopoli (Grecia)Morti in GreciaCategorie nascoste: Errori del modulo citazione - citazioni che usano parametri non supportatiBioBotVoci con template Bio e nazionalità assente su WikidataVoci con codice VIAFVoci con codice LCCNVoci con codice ISNIVoci con codice GNDVoci con codice BNFVoci con codice BAVVoci con codice CERLVoci biografiche con codici di controllo di autorità
+Menu di navigazione
+Strumenti personali
+Accesso non effettuatodiscussionicontributiRegistratiEntra
+Namespace
+Voce
+Discussione
+Varianti
+Visite
+Leggi
+Modifica
+Modifica wikitesto
+Cronologia
+Altro
+Ricerca
+Navigazione
+Pagina principaleUltime modificheUna voce a casoVetrinaAiutoSportello informazioni
+Comunità
+Portale ComunitàBarIl WikipedianoFai una donazioneContatti
+Strumenti
+Puntano quiModifiche correlatePagine specialiLink permanenteInformazioni sulla paginaElemento WikidataCita questa voce
+Stampa/esporta
+Crea un libroScarica come PDFVersione stampabile
+In altri progetti
+Wikimedia CommonsWikiquoteWikisource
+In altre lingue
+AragonésالعربيةمصرىAzərbaycancaБеларускаяБългарскиবাংলাBrezhonegBosanskiCatalàČeštinaCymraegDanskDeutschΕλληνικάEnglishEsperantoEspañolEestiEuskaraفارسیSuomiFrançaisGalegoעבריתHrvatskiMagyarՀայերենInterlinguaBahasa IndonesiaIdoÍslenska日本語ქართულიҚазақша한국어LatinaLietuviųLatviešuNederlandsNorsk bokmålPolskiPortuguêsRomânăРусскийSicilianuSrpskohrvatski / српскохрватскиSlovenčinaSlovenščinaShqipСрпски / srpskiSvenskaไทยTagalogTürkçeУкраїнськаOʻzbekcha/ўзбекча中文
+Modifica collegamenti
+Questa pagina è stata modificata per l'ultima volta il 2 feb 2017 alle 18:24.
+Il testo è disponibile secondo la licenza Creative Commons Attribuzione-Condividi allo stesso modo; possono applicarsi condizioni ulteriori. Vedi le
+Condizioni d'uso per i dettagli. Wikipedia® è un marchio registrato della Wikimedia Foundation, Inc.
+Politica sulla privacy
+Informazioni su Wikipedia
+Avvertenze
+Sviluppatori
+Dichiarazione sui cookie
+Versione mobile

@@ -1,0 +1,22 @@
+Studies	NNS
+the	DT
+life	NN
+and	CC
+work	NN
+of	IN
+the	DT
+Patristics	NP
+scholar	NN
+E.	NP
+F.	NP
+Osborn	NP
+.	SENT
+
+Includes	VBZ
+a	DT
+bibliography	NN
+of	IN
+his	PP$
+works	NNS
+.	SENT
+

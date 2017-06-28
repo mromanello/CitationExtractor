@@ -1,0 +1,10 @@
+T1	AAUTHOR 23 35	Aristotle 's
+T2	AAUTHOR 92 104	Aristotle 's
+T3	AWORK 105 137	« On generation and corruption »
+T4	AAUTHOR 142 154	Philoponus '
+T5	AWORK 192 205	« De anima ».
+#0	AnnotatorNotes T4	urn:cts:cwkb:2441
+#1	AnnotatorNotes T5	urn:cts:cwkb:726.1477
+#2	AnnotatorNotes T2	urn:cts:greekLit:tlg0086
+#3	AnnotatorNotes T3	urn:cts:cwkb:766.1627
+#4	AnnotatorNotes T1	urn:cts:greekLit:tlg0086

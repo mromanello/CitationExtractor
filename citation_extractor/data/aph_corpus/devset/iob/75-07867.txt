@@ -1,0 +1,15 @@
+Tombes	NOM
+repérées	VER:pper
+ou	KON
+fouillées	VER:pper
+entre	PRP
+1975	NUM
+et	KON
+1987	NUM
+,	PUN
+contenant	VER:ppre
+une	DET:ART
+abondante	ADJ
+vaisselle	NOM
+mycénienne	ADJ
+

@@ -1,0 +1,17 @@
+Panoramica	NOM
+sulla	PRE:det
+narrazione	NOM
+della	PRE:det
+morte	NOM
+di	PRE
+Cicerone	NOM
+in	PRE
+Livio	NPR
+,	PON
+in	PRE
+Plutarco	NOM
+e	CON
+nelle	PRE:det
+letterature	NOM
+moderne	ADJ
+

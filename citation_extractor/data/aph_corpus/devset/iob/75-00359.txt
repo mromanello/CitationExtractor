@@ -1,0 +1,24 @@
+Par	PRP
+rapport	NOM
+aux	PRP:det
+autres	ADJ
+traités	NOM
+nosologiques	ADJ
+,	PUN
+l'	DET:ART
+œuvre	NOM
+d'	PRP
+Arétée	NAM
+se	PRO:PER
+caractérise	VER:pres
+par	PRP
+l'	DET:ART
+intérêt	NOM
+porté	VER:pper
+aux	PRP:det
+malades	NOM
+et	KON
+à	PRP
+leurs	DET:POS
+souffrances	NOM
+

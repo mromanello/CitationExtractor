@@ -1,0 +1,7 @@
+Suplemento	NC
+del	PDEL
+artículo	NC
+consignado	VLadj
+en	PREP
+74-03893	CARD
+

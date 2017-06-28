@@ -1,0 +1,45 @@
+La	ART
+actividad	NC
+literaria	ADJ
+de	PREP
+la	ART
+mujer	NP
+era	VEfin
+infrecuente	ADJ
+en	PREP
+el	ART
+helenismo	NC
+,	CM
+como	CSUBX
+lo	PPC
+había	VHfin
+sido	VSadj
+en	PREP
+épocas	NC
+anteriores	ADJ
+.	FS
+
+Si bien	CSUBF
+se	SE
+conocen	VLfin
+algunos	QU
+nombres	NC
+femeninos	ADJ
+ligados	VLadj
+a	PREP
+la	ART
+escritura	NC
+,	CM
+se	SE
+debe	VMfin
+concluir	VLinf
+que	CQUE
+la	ART
+mujer	NC
+escritora	NC
+es	VSfin
+una	ART
+figura	NC
+apenas	ADV
+representada	VLadj
+

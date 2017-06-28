@@ -1,0 +1,6 @@
+Ricordo	NOM
+dello	PRE:det
+studioso	NOM
+appena	ADV
+scomparso	VER:pper
+

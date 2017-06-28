@@ -1,0 +1,7 @@
+T1	AAUTHOR 34 56	Clemens von Alexandria
+T2	AAUTHOR 78 85	Platons
+T3	REFSCOPE 86 97	(835c-842a)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0059.tlg034:835c-842a
+#1	AnnotatorNotes T2	urn:cts:greekLit:tlg0059
+#2	AnnotatorNotes T1	urn:cts:greekLit:tlg0555

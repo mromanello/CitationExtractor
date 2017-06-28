@@ -1,0 +1,20 @@
+Analisi	NOM
+della	PRE:det
+caratterizzazione	NOM
+di	PRE
+questi	PRO:demo
+due	ADJ
+personaggi	NOM
+nella	PRE:det
+tragedia	NOM
+euripidea	ADJ
+e	CON
+dei	PRE:det
+principali	ADJ
+aspetti	NOM
+innovativi	ADJ
+rispetto	NOM
+ai	PRE:det
+modelli	NOM
+epici	ADJ
+

@@ -1,0 +1,16 @@
+Zur	APPRART
+Grammatik	NN
+als	KOKOM
+Disziplin	NN
+zwischen	APPR
+Philosophie	NN
+und	KON
+Rhetorik/Poetik	NN
+insbesondere	ADV
+bei	APPR
+Aristoteles	NN
+und	KON
+Dionysios	NE
+Thrax	NN
+.	$.
+

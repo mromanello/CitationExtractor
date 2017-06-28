@@ -1,0 +1,14 @@
+Su	PRE
+Maria	NPR
+di	PRE
+Betania	NOM
+nel	PRE:det
+Vangelo	NOM
+di	PRE
+Giovanni	NPR
+(	PON
+12	NUM
+,	PON
+1-8	NUM
+)	PON
+

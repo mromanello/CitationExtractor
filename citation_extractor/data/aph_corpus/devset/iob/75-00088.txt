@@ -1,0 +1,27 @@
+The	DT
+vulgate	NN
+in	IN
+this	DT
+passage	NN
+is	VBZ
+open	JJ
+to	TO
+serious	JJ
+doubts	NNS
+.	SENT
+
+Postulating	VBG
+a	DT
+lacuna	NN
+in	IN
+the	DT
+antistrophe	NN
+allows	VBZ
+an	DT
+alternative	JJ
+colometry	NN
+of	IN
+the	DT
+text	NN
+.	SENT
+

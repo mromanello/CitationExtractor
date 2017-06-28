@@ -1,0 +1,15 @@
+Pour	PRP
+Pierre	NAM
+,	PUN
+l'	DET:ART
+exil	NOM
+ou	KON
+la	DET:ART
+marginalité	NOM
+permettent	VER:pres
+de	PRP
+mieux	ADV
+propager	VER:infi
+sa	DET:POS
+foi	NOM
+

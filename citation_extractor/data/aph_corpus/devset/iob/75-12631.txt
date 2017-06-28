@@ -1,0 +1,24 @@
+À	PRP
+partir	VER:infi
+de	PRP
+la	DET:ART
+description	NOM
+de	PRP
+Pausanias	NOM
+(	PUN
+5	NUM
+,	PUN
+13	NUM
+,	PUN
+8-11	NUM
+)	PUN
+,	PUN
+considérations	NOM
+sur	PRP
+la	DET:ART
+restitution	NOM
+de	PRP
+ce	PRO:DEM
+monument	NOM
+disparu	VER:pper
+

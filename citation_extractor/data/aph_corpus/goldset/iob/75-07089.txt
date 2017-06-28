@@ -1,0 +1,12 @@
+Contiene	VLfin	O
+reflexiones	NC	O
+sobre	PREP	O
+el	ART	O
+análisis	NC	O
+lingüístico	ADJ	O
+de	PREP	O
+la	ART	O
+reduplicación	NC	O
+en	PREP	O
+griego	NC	O
+clásico	ADJ	O

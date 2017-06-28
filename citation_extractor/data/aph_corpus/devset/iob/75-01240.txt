@@ -1,0 +1,27 @@
+Se	SE
+examina	VLfin
+el	ART
+texto	NC
+de	PREP
+los	ART
+siguientes	ADJ
+pasajes	NC
+:	COLON
+1	CARD
+,	CM
+2	CARD
+;	SEMICOLON
+66	CARD
+,	CM
+15	CARD
+;	SEMICOLON
+68	CARD
+,	CM
+145	CARD
+,	CM
+157	CARD
+;	SEMICOLON
+115	CARD
+,	CM
+5	CARD
+

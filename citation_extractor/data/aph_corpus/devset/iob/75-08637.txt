@@ -1,0 +1,15 @@
+Resoconto	NOM
+sui	PRE:det
+recenti	ADJ
+scavi	NOM
+iniziati	VER:pper
+nel	PRE:det
+1995	NUM
+dall'	PRE:det
+Istituto	NOM
+di	PRE
+Ricerche	NOM
+Eco-Museali	NOM
+di	PRE
+Tulcea	NOM
+

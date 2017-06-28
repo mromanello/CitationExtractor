@@ -1,0 +1,24 @@
+Peu	ADV
+de	PRP
+descriptions	NOM
+embrassant	VER:ppre
+de	PRP
+vastes	ADJ
+étendues	NOM
+,	PUN
+mais	KON
+fréquentes	ADJ
+évocations	NOM
+de	PRP
+lieux	NOM
+clos	VER:pper
+que	KON
+les	DET:ART
+personnages	NOM
+aspirent	VER:pres
+à	PRP
+quitter	VER:infi
+sans	PRP
+y	PRO:PER
+parvenir	VER:infi
+

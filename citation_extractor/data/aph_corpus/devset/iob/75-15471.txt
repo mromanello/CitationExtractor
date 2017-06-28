@@ -1,0 +1,12 @@
+With	IN
+the	DT
+bibliography	NN
+of	IN
+the	DT
+American	JJ
+papyrologist	NN
+(	(
+p.	NN
+9-12	CD
+)	)
+

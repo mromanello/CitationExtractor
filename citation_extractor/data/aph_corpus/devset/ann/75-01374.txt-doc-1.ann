@@ -1,0 +1,12 @@
+T1	AAUTHOR 45 54	Cicero 's
+T2	AWORK 99 119	« Second Philippic »
+T3	REFSCOPE 120 125	(44 ;
+T4	REFSCOPE 126 130	55 ;
+T5	REFSCOPE 131 138	77-78 ;
+T6	REFSCOPE 139 143	118)
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+R3	Scope Arg1:T2 Arg2:T5
+R4	Scope Arg1:T2 Arg2:T6
+#0	AnnotatorNotes T2	urn:cts:greekLit:tlg0014.tlg006
+#1	AnnotatorNotes T1	urn:cts:cwkb:431

@@ -1,0 +1,12 @@
+T1	AWORK 15 27	« Rhetoric »
+T2	AAUTHOR 44 53	Aristotle
+T3	REFAUWORK 232 236	Mem.
+T4	REFSCOPE 237 252	449b 10-452a 17
+T5	AAUTHOR 290 299	Aristotle
+T6	AWORK 371 383	« Rhetoric »
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:766.1635:449
+#1	AnnotatorNotes T6	urn:cts:greekLit:tlg0086.tlg038
+#2	AnnotatorNotes T5	urn:cts:greekLit:tlg0086
+#3	AnnotatorNotes T2	urn:cts:greekLit:tlg0086
+#4	AnnotatorNotes T1	urn:cts:greekLit:tlg0086.tlg038

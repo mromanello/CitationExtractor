@@ -1,0 +1,25 @@
+T1	REFAUWORK 87 95	Velleius
+T2	REFSCOPE 96 103	2, 59 ;
+T3	REFAUWORK 104 110	Appian
+T4	REFSCOPE 111 118	3, 28 ;
+T5	REFAUWORK 119 122	Dio
+T6	REFSCOPE 123 130	45, 5 ;
+T7	AAUTHOR 162 173	Octavian 's
+T8	REFAUWORK 283 288	(Att.
+T9	REFSCOPE 289 299	14, 5, 3 ;
+T10	REFSCOPE 300 310	14, 6, 1 ;
+T11	REFSCOPE 311 322	14, 10, 3).
+T12	AAUTHOR 436 447	Octavian 's
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T3 Arg2:T4
+R3	Scope Arg1:T5 Arg2:T6
+R4	Scope Arg1:T8 Arg2:T9
+R5	Scope Arg1:T8 Arg2:T10
+R6	Scope Arg1:T8 Arg2:T11
+#0	AnnotatorNotes R4	urn:cts:latinLit:phi0474.phi057:14.5.3
+#1	AnnotatorNotes R5	urn:cts:latinLit:phi0474.phi057:14.6.1
+#2	AnnotatorNotes R6	urn:cts:latinLit:phi0474.phi057:14.10.3
+#3	AnnotatorNotes R1	urn:cts:cwkb:662:2.59
+#4	AnnotatorNotes R2	urn:cts:greekLit:tlg0551:3.28
+#5	AnnotatorNotes T7	urn:cts:cwkb:598
+#6	AnnotatorNotes T12	urn:cts:cwkb:598

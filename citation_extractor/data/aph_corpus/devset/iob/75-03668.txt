@@ -1,0 +1,13 @@
+Chez	PRP
+Basile	NAM
+de	PRP
+Césarée	NAM
+,	PUN
+Grégoire	NAM
+de	PRP
+Nysse	NAM
+et	KON
+Grégoire	NAM
+de	PRP
+Nazianze	NAM
+

@@ -1,0 +1,10 @@
+T1	AAUTHOR 330 339	Aristotle
+T2	AAUTHOR 411 420	Aristotle
+T3	AWORK 444 456	« De anima »
+T4	AAUTHOR 513 522	Aristotle
+T5	AAUTHOR 666 675	Aristotle
+#0	AnnotatorNotes T4	urn:cts:greekLit:tlg0086
+#1	AnnotatorNotes T5	urn:cts:greekLit:tlg0086
+#2	AnnotatorNotes T2	urn:cts:greekLit:tlg0086
+#3	AnnotatorNotes T3	urn:cts:cwkb:726.1477
+#4	AnnotatorNotes T1	urn:cts:greekLit:tlg0086

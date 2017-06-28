@@ -1,0 +1,11 @@
+Sur	PRP
+la	DET:ART
+fortune	NOM
+de	PRP
+cet	PRO:DEM
+ouvrage	NOM
+chez	PRP
+les	DET:ART
+érudits	NOM
+byzantins	ADJ
+

@@ -1,0 +1,11 @@
+I	DET:def
+campi	NOM
+di	PRE
+ricerca	NOM
+a	PRE
+cui	PRO:rela
+si	PRO:pers
+dedicò	VER:remo
+lo	DET:def
+studioso	NOM
+

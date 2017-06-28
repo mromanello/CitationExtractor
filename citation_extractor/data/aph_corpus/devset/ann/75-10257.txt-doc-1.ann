@@ -1,0 +1,15 @@
+T1	AAUTHOR 34 50	Ammien Marcellin
+T2	AAUTHOR 143 150	Romanus
+T3	REFAUWORK 151 154	(RG
+T4	REFSCOPE 155 168	28, 6, 1-29 ;
+T5	REFSCOPE 169 181	27, 9, 1-4 ;
+T6	REFSCOPE 182 195	30, 2, 9-12).
+T7	AAUTHOR 326 333	Romanus
+T8	AAUTHOR 369 375	Firmus
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T3 Arg2:T5
+R3	Scope Arg1:T3 Arg2:T6
+#0	AnnotatorNotes T8	urn:cts:cwkb:884
+#1	AnnotatorNotes T7	urn:cts:cwkb:1420
+#2	AnnotatorNotes T2	urn:cts:cwkb:1420
+#3	AnnotatorNotes T1	urn:cts:latinLit:stoa0023

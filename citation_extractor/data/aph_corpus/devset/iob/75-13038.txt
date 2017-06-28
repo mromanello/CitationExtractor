@@ -1,0 +1,12 @@
+Zu	APPR
+ikonographischen	ADJA
+Besonderheiten	NN
+anhand	APPR
+von	APPR
+Beispielen	NN
+des	ART
+1.	ADJA
+
+Jh	NE
+.	$.
+

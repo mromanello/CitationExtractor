@@ -1,0 +1,26 @@
+T2	REFAUWORK 117 130	Cicero, Phil.
+T3	REFSCOPE 131 140	2, 71-74.
+T4	REFAUWORK 141 155	Plutarch, Ant.
+T5	REFSCOPE 156 161	10, 3
+T6	REFAUWORK 166 169	Dio
+T7	REFSCOPE 170 181	45, 28, 2-3
+T8	AAUTHOR 190 196	Cicero
+T11	REFAUWORK 267 280	(Cicero, Att.
+T12	REFSCOPE 281 292	12, 19, 2 ;
+T13	REFAUWORK 293 298	Phil.
+T14	REFSCOPE 299 308	2, 77-78)
+T15	REFAUWORK 477 483	(Phil.
+T16	REFSCOPE 484 491	2, 76),
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T6 Arg2:T7
+R5	Scope Arg1:T11 Arg2:T12
+R6	Scope Arg1:T13 Arg2:T14
+R7	Scope Arg1:T15 Arg2:T16
+#1	AnnotatorNotes R5	urn:cts:latinLit:phi0474.phi057:12.19.2
+#2	AnnotatorNotes R6	urn:cts:latinLit:phi0474.phi035:2.77-2.78
+#3	AnnotatorNotes R7	urn:cts:latinLit:phi0474.phi035:2.76
+#4	AnnotatorNotes R1	urn:cts:latinLit:phi0474.phi035:2.71-2.74
+#5	AnnotatorNotes R2	urn:cts:greekLit:tlg0007.tlg058:10.3
+#6	AnnotatorNotes T8	urn:cts:cwkb:431
+#7	AnnotatorNotes R3	urn:cts:greekLit:tlg0385.tlg001:45.28.2-45.28.3

@@ -1,0 +1,15 @@
+T1	AWORK 57 68	« Annales »
+T2	REFAUWORK 143 154	Esiodo, Th.
+T3	REFSCOPE 155 164	226-229 ;
+T4	REFAUWORK 165 168	Op.
+T5	REFSCOPE 169 176	193-196
+T6	REFSCOPE 179 186	290-292
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T4 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0020.tlg001:226-229
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0020.tlg002:193-196
+#2	AnnotatorNotes R3	urn:cts:greekLit:tlg0020.tlg002:290-292
+#3	AnnotatorNotes T1	urn:cts:cwkb:462.974
+T7	AAUTHOR 72 77	Ennio
+#4	AnnotatorNotes T7	urn:cts:cwkb:462

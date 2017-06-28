@@ -1,0 +1,8 @@
+T1	REFAUWORK 79 83	Met.
+T2	REFSCOPE 84 94	3, 339-510
+T3	AWORK 259 276	« Métamorphoses »
+T4	AAUTHOR 531 537	Ovide,
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi0959.phi006:3.339-3.510
+#1	AnnotatorNotes T4	urn:cts:cwkb:568
+#2	AnnotatorNotes T3	urn:cts:latinLit:phi0959.phi006

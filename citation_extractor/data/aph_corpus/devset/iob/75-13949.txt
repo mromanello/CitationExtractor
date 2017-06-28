@@ -1,0 +1,20 @@
+Exemples	NOM
+archéologiques	ADJ
+de	PRP
+Gaule	NAM
+romaine	ADJ
+;	PUN
+étude	NOM
+des	PRP:det
+effets	NOM
+sur	PRP
+la	DET:ART
+population	NOM
+rurale	ADJ
+de	PRP
+la	DET:ART
+réglementation	NOM
+concernant	VER:ppre
+les	DET:ART
+aqueducs	NOM
+

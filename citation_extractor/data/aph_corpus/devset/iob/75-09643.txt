@@ -1,0 +1,27 @@
+Lo	DET:def
+studio	NOM
+della	PRE:det
+monetazione	NOM
+greco-latina	ADJ
+raffigurante	VER:ppre
+Dioniso-Bacco	NOM
+permette	VER:pres
+di	PRE
+comprendere	VER:infi
+con	PRE
+maggiore	ADJ
+chiarezza	NOM
+gli	DET:def
+aspetti	NOM
+e	CON
+gli	DET:def
+attributi	NOM
+del	PRE:det
+dio	NOM
+.	SENT
+
+Panoramica	NOM
+sui	PRE:det
+reperti	NOM
+numismatici	ADJ
+

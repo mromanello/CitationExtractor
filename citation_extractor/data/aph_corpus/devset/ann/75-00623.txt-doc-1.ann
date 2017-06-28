@@ -1,0 +1,8 @@
+T1	AAUTHOR 23 32	Aristotle
+T2	AAUTHOR 394 403	Aristotle
+T3	REFAUWORK 413 415	EE
+T4	REFSCOPE 416 422	7, 12,
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0086.tlg009:7.12
+#1	AnnotatorNotes T2	urn:cts:greekLit:tlg0086
+#2	AnnotatorNotes T1	urn:cts:greekLit:tlg0086

@@ -1,0 +1,41 @@
+De	PRP
+la	DET:ART
+deuxième	NUM
+moitié	NOM
+du	PRP:det
+7e	NUM
+s.	ABR
+jusque	PRP
+vers	PRP
+300	NUM
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+Étudie	VER:pres
+le	DET:ART
+développement	NOM
+des	PRP:det
+villes	NOM
+du	PRP:det
+Latium	NAM
+et	KON
+de	PRP
+leurs	DET:POS
+territoires	NOM
+,	PUN
+l'	DET:ART
+importance	NOM
+des	PRP:det
+fortifications	NOM
+,	PUN
+les	DET:ART
+institutions	NOM
+et	KON
+les	DET:ART
+structures	NOM
+sociales	ADJ
+

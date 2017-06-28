@@ -1,0 +1,39 @@
+T1	REFAUWORK 39 42	am.
+T2	REFSCOPE 43 47	1, 1
+T3	AAUTHOR 287 294	Ovid 's
+T4	REFSCOPE 312 322	1, 25-30 ;
+T5	REFSCOPE 323 335	2, 493-510 ;
+T6	REFSCOPE 336 348	3, 789-792 ;
+T7	REFSCOPE 354 359	75-78
+T8	REFSCOPE 364 373	703-706),
+T9	REFSCOPE 464 471	2, 1-16
+T10	REFSCOPE 476 483	2, 45 ;
+T11	REFAUWORK 484 488	rem.
+T12	REFSCOPE 489 496	361-396
+T13	REFSCOPE 497 510	and 811-814),
+R1	Scope Arg1:T1 Arg2:T2
+R9	Scope Arg1:T11 Arg2:T12
+R10	Scope Arg1:T11 Arg2:T13
+#4	AnnotatorNotes R1	urn:cts:cwkb:568.1156:1.1
+#8	AnnotatorNotes R9	urn:cts:latinLit:phi0959.phi005:361-396
+#9	AnnotatorNotes R10	urn:cts:latinLit:phi0959.phi005:811-814
+#10	AnnotatorNotes T3	urn:cts:cwkb:568
+T14	AAUTHOR 154 158	Ovid
+T15	REFAUWORK 308 311	ars
+R2	Scope Arg1:T15 Arg2:T4	
+#5	AnnotatorNotes R2	urn:cts:latinLit:phi0959.phi004:1.25-1.30
+R3	Scope Arg1:T15 Arg2:T5	
+#6	AnnotatorNotes R3	urn:cts:latinLit:phi0959.phi004:2.493-2.510
+R4	Scope Arg1:T15 Arg2:T6	
+#11	AnnotatorNotes R4	urn:cts:latinLit:phi0959.phi004:3.789-3.792
+T16	REFAUWORK 349 353	rem.
+R5	Scope Arg1:T16 Arg2:T7	
+T17	REFAUWORK 459 463	(ars
+R6	Scope Arg1:T17 Arg2:T9	
+R7	Scope Arg1:T17 Arg2:T10	
+#1	AnnotatorNotes R6	urn:cts:latinLit:phi0959.phi004:2.1-2.16
+#2	AnnotatorNotes R7	urn:cts:latinLit:phi0959.phi004:2.45
+R8	Scope Arg1:T16 Arg2:T8	
+#3	AnnotatorNotes R5	urn:cts:latinLit:phi0959.phi005:75-78
+#7	AnnotatorNotes R8	urn:cts:latinLit:phi0959.phi005:703-706
+#12	AnnotatorNotes T14	urn:cts:cwkb:568

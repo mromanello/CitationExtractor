@@ -1,0 +1,8 @@
+T1	AAUTHOR 130 140	Aristotele
+T2	REFAUWORK 141 149	(Metaph.
+T3	REFSCOPE 150 152	2)
+T4	AAUTHOR 177 184	Platone
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0086.tlg025:2
+#1	AnnotatorNotes T4	urn:cts:greekLit:tlg0059
+#2	AnnotatorNotes T1	urn:cts:greekLit:tlg0086

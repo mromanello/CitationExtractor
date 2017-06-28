@@ -1,0 +1,12 @@
+T1	AAUTHOR 66 72	Homère
+T2	REFAUWORK 73 77	(Od.
+T3	REFSCOPE 78 90	4, 349-570),
+T4	AAUTHOR 116 124	Augustin
+T5	AWORK 133 154	« Contra Academicos »
+T6	REFSCOPE 155 161	(3, 11
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:763.1600:4.349-4.570
+#1	AnnotatorNotes T4	urn:cts:cwkb:2386
+#2	AnnotatorNotes T5	urn:cts:cwkb:2386.8406
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0012

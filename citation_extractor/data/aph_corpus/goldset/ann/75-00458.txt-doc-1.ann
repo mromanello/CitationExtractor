@@ -1,0 +1,7 @@
+T1	AAUTHOR 24 38	Aristophanes '
+T2	AWORK 39 53	« Acharnians »
+T3	REFSCOPE 54 59	(100)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0019.tlg001:100
+#1	AnnotatorNotes T2	urn:cts:greekLit:tlg0019.tlg001
+#2	AnnotatorNotes T1	urn:cts:greekLit:tlg0019

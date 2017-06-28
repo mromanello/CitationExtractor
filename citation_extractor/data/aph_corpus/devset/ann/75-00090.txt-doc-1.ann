@@ -1,0 +1,12 @@
+T1	AWORK 44 65	« Sette contro Tebe »
+T2	AWORK 68 81	l' « Iliade »
+T3	REFAUWORK 145 148	Il.
+T4	REFSCOPE 149 151	6,
+T5	REFAUWORK 265 268	Il.
+T6	REFSCOPE 269 271	22
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:763.1599:6
+#1	AnnotatorNotes R2	urn:cts:cwkb:763.1599:22
+#2	AnnotatorNotes T2	urn:cts:greekLit:tlg0012.tlg001
+#3	AnnotatorNotes T1	urn:cts:greekLit:tlg0085.tlg004

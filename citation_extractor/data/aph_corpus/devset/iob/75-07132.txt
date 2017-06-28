@@ -1,0 +1,27 @@
+Étude	NOM
+lexicale	ADJ
+,	PUN
+proposant	VER:ppre
+une	DET:ART
+typologie	NOM
+de	PRP
+l'	DET:ART
+utilisation	NOM
+par	PRP
+les	DET:ART
+tragédiens	NOM
+de	PRP
+terminologie	NOM
+relevant	VER:ppre
+notamment	ADV
+des	PRP:det
+outils	NOM
+utilisés	VER:pper
+dans	PRP
+l'	DET:ART
+agriculture	NOM
+et	KON
+dans	PRP
+la	DET:ART
+zootechnie	NOM
+

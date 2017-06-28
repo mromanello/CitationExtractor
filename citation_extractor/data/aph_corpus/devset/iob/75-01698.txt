@@ -1,0 +1,34 @@
+Donato	VER:pper
+riconosce	VER:pres
+i	DET:def
+comportamenti	NOM
+nobili	ADJ
+che	PRO:rela
+Terenzio	NOM
+attribuisce	VER:pres
+alle	PRE:det
+«	PON
+meretrices	NOM
+»	PON
+e	CON
+ne	ADV
+mette	VER:pres
+in	PRE
+luce	NOM
+il	DET:def
+carattere	NOM
+innovativo	ADJ
+rispetto	NOM
+all'	PRE:det
+opinione	NOM
+comune	ADJ
+.	SENT
+
+Esame	NOM
+delle	PRE:det
+figure	NOM
+di	PRE
+prostitute	NOM
+in	PRE
+Terenzio	NOM
+

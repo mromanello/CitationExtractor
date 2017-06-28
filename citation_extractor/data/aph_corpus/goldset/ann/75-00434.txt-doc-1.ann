@@ -1,0 +1,8 @@
+T1	REFAUWORK 30 34	Lys.
+T2	REFSCOPE 35 42	742-743
+T3	REFSCOPE 43 52	e 753-755
+T4	AWORK 53 67	dell' « Auge »
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0019.tlg007:742-743
+#1	AnnotatorNotes R2	urn:cts:greekLit:tlg0019.tlg007:753-755

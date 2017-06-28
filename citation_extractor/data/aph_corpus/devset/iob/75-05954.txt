@@ -1,0 +1,24 @@
+Osservazioni	NOM
+sul	PRE:det
+rapporto	NOM
+tra	PRE
+«	PON
+Logos	NOM
+»	PON
+e	CON
+«	PON
+Nomos	NOM
+»	PON
+in	PRE
+quest'	PRO:demo
+opera	NOM
+(	PON
+CANT	NOM
+204	NUM
+)	PON
+e	CON
+nella	PRE:det
+tradizione	NOM
+patristica	ADJ
+coeva	ADJ
+

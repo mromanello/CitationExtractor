@@ -1,0 +1,14 @@
+T1	AAUTHOR 82 101	Eusebius Gallicanus
+T2	REFSCOPE 224 229	(11 ;
+T3	REFSCOPE 230 234	36 ;
+T4	REFSCOPE 235 239	55 ;
+T5	REFSCOPE 240 243	56)
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+R3	Scope Arg1:T1 Arg2:T4
+R4	Scope Arg1:T1 Arg2:T5
+#0	AnnotatorNotes R4	urn:cts:cwkb:2842.9072:56
+#1	AnnotatorNotes R1	urn:cts:cwkb:2842.9072:11
+#2	AnnotatorNotes R2	urn:cts:cwkb:2842.9072:36
+#3	AnnotatorNotes R3	urn:cts:cwkb:2842.9072:55
+#4	AnnotatorNotes T1	urn:cts:cwkb:2842

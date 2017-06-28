@@ -1,0 +1,40 @@
+Aspects	NOM
+économiques	ADJ
+et	KON
+financiers	ADJ
+de	PRP
+l'	DET:ART
+organisation	NOM
+des	PRP:det
+spectacles	NOM
+.	SENT
+
+C'	PRO:DEM
+est	VER:pres
+à	PRP
+partir	VER:infi
+de	PRP
+420	NUM
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+que	KON
+l'	PRO:PER
+on	PRO:PER
+constate	VER:pres
+qu'	KON
+un	DET:ART
+acteur	NOM
+peut	VER:pres
+vivre	VER:infi
+de	PRP
+son	DET:POS
+art	NOM
+et	KON
+même	ADV
+devenir	VER:infi
+célèbre	ADJ
+

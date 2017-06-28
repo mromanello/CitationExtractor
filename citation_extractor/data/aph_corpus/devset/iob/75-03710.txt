@@ -1,0 +1,26 @@
+In	IN
+the	DT
+lines	NNS
+in	IN
+question	NN
+,	,
+Persius	NP
+portrays	VBZ
+the	DT
+Roman	JJ
+politican	NN
+as	IN
+enslaved	VBN
+,	,
+not	RB
+by	IN
+Ambition	NP
+,	,
+but	CC
+by	IN
+his	PP$
+belief	NN
+in	IN
+Jewish	JJ
+religion	NN
+

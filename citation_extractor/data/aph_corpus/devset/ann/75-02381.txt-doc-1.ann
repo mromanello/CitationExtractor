@@ -1,0 +1,4 @@
+T1	REFAUWORK 33 38	Epid.
+T2	REFSCOPE 39 40	7
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0627.tlg006:7

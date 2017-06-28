@@ -1,0 +1,22 @@
+Analisi	NOM
+dei	PRE:det
+contesti	NOM
+in	PRE
+cui	PRO:rela
+Plotino	VER:cpre
+tratta	VER:pper
+il	DET:def
+problema	NOM
+dell'	PRE:det
+esistenza	NOM
+di	PRE
+elementi	NOM
+individuali	ADJ
+,	PON
+e	CON
+delle	PRE:det
+fonti	NOM
+platoniche	ADJ
+e	CON
+stoiche	ADJ
+

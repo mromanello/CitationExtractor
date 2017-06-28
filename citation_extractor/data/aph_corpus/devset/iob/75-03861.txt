@@ -1,0 +1,26 @@
+La	DET:def
+conoscenza	NOM
+delle	PRE:det
+opere	NOM
+pindariche	ADJ
+nella	PRE:det
+Francia	NPR
+rinascimentale	ADJ
+,	PON
+dovuta	VER:pper
+in	PRE
+misura	NOM
+limitata	ADJ
+alla	PRE:det
+tradizione	NOM
+erudita	ADJ
+e	CON
+,	PON
+molto	ADV
+più	ADV
+diffusamente	ADV
+,	PON
+all'	PRE:det
+ispirazione	NOM
+poetica	ADJ
+

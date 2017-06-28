@@ -1,0 +1,29 @@
+Publication	NOM
+du	PRP:det
+journal	NOM
+tenu	VER:pper
+par	PRP
+W.	ABR
+M.	NOM
+
+Flinders	NAM
+Petrie	NAM
+pendant	PRP
+la	DET:ART
+campagne	NOM
+de	PRP
+fouilles	NOM
+à	PRP
+Coptos	NAM
+(	PUN
+hiver	NOM
+1893-1894	NUM
+)	PUN
+.	SENT
+
+Concerne	VER:pres
+aussi	ADV
+l'	DET:ART
+époque	NOM
+gréco-romaine	ADJ
+

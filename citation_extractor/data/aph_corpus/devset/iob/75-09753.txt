@@ -1,0 +1,19 @@
+PVindob	NP
+.	SENT
+
+G	NP
+23306	CD
+,	,
+Arsinoites	NP
+oder	NP
+Herakleopolites	NP
+,	,
+4.	CD
+/5	CD
+.	SENT
+
+Jh	NP
+.	SENT
+
+n.	NP
+Chr.	NP

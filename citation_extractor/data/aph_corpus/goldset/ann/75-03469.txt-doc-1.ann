@@ -1,0 +1,18 @@
+T1	AAUTHOR 0 4	Ovid
+T2	AWORK 186 195	« Fasti »
+T3	REFSCOPE 268 278	4, 181-186
+T4	REFSCOPE 279 292	and 249-260 ;
+T5	REFSCOPE 308 319	4, 871-876)
+T6	REFSCOPE 389 401	4, 683-690),
+T7	AAUTHOR 402 406	Ovid
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T2 Arg2:T4
+R3	Scope Arg1:T2 Arg2:T5
+R4	Scope Arg1:T2 Arg2:T6
+#0	AnnotatorNotes R4	urn:cts:cwkb:568.1162:4.683-4.690
+#1	AnnotatorNotes R1	urn:cts:cwkb:568.1162:4.181-4.186
+#2	AnnotatorNotes R2	urn:cts:cwkb:568.1162:249-260
+#3	AnnotatorNotes R3	urn:cts:cwkb:568.1162:4.871-4.876
+#4	AnnotatorNotes T2	urn:cts:cwkb:568.1162
+#5	AnnotatorNotes T1	urn:cts:cwkb:568
+#6	AnnotatorNotes T7	urn:cts:cwkb:568

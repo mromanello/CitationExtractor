@@ -1,0 +1,33 @@
+Al	PRE:det
+v.	NOM
+3	NUM
+,	PON
+«	PON
+maluae	NOM
+»	PON
+va	VER:pres
+corretto	VER:pper
+in	PRE
+«	PON
+palmae	ADJ
+»	PON
+.	SENT
+
+Era	NOM
+la	DET:def
+palma	NOM
+,	PON
+e	CON
+non	ADV
+la	DET:def
+malva	NOM
+,	PON
+a	PRE
+essere	VER:infi
+intrecciata	VER:pper
+e	CON
+utilizzata	VER:pper
+come	PRE
+supporto	NOM
+scrittorio	ADJ
+

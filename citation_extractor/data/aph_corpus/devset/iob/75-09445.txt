@@ -1,0 +1,24 @@
+Étudie	VER:pres
+,	PUN
+en	PRP
+les	DET:ART
+replaçant	VER:ppre
+dans	PRP
+leur	DET:POS
+contexte	NOM
+historique	ADJ
+et	KON
+culturel	ADJ
+,	PUN
+diverses	ADJ
+inscriptions	NOM
+latines	ADJ
+ayant	VER:ppre
+déjà	ADV
+fait	VER:pper
+l'	DET:ART
+objet	NOM
+d'	PRP
+une	DET:ART
+publication	NOM
+

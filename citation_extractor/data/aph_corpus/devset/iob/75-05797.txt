@@ -1,0 +1,20 @@
+Les	DET:ART
+différentes	ADJ
+versions	NOM
+françaises	ADJ
+illustrent	VER:pres
+la	DET:ART
+difficulté	NOM
+à	PRP
+comprendre	VER:infi
+et	KON
+traduire	VER:infi
+fidèlement	ADV
+les	DET:ART
+aspects	NOM
+verbaux	ADJ
+du	PRP:det
+grec	NOM
+néotestamentaire	ADJ
+.	SENT
+

@@ -1,0 +1,16 @@
+Retrace	VER:pres
+les	DET:ART
+grandes	ADJ
+étapes	NOM
+du	PRP:det
+développement	NOM
+d'	PRP
+Eburodunum	NOM
+jusqu'	PRP
+au	PRP:det
+6e	NUM
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+

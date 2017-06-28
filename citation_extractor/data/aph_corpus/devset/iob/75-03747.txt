@@ -1,0 +1,24 @@
+In	PRE
+Phanocl.	NOM
+fr.	ABR
+1	NUM
+,	PON
+20	NUM
+Powell	NOM
+l'	DET:def
+allusione	NOM
+non	ADV
+è	VER:pres
+all'	PRE:det
+Oltretomba	NOM
+,	PON
+bensì	CON
+al	PRE:det
+mare	NOM
+visto	VER:pper
+come	PRE
+forza	NOM
+incontrollabile	ADJ
+e	CON
+minacciosa	ADJ
+

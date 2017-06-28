@@ -1,0 +1,7 @@
+T1	AAUTHOR 62 80	(Sextus Empiricus,
+T2	AWORK 81 121	« Grundzüge der pyrrhonischen Skepsis »,
+T3	REFSCOPE 122 133	1, 164 ff.)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:1083.3885:1.164-1.164++
+#1	AnnotatorNotes T2	urn:cts:cwkb:1083.3885
+#2	AnnotatorNotes T1	urn:cts:cwkb:1083

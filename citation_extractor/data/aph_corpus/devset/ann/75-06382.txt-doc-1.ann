@@ -1,0 +1,7 @@
+T1	REFAUWORK 107 113	(Hell.
+T2	REFSCOPE 114 122	2, 2, 23
+T3	REFSCOPE 126 133	3, 56).
+R1	Scope Arg1:T1 Arg2:T2
+R2	Scope Arg1:T1 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:latinLit:phi1254:2.2.23
+#1	AnnotatorNotes R2	urn:cts:latinLit:phi1254:3.56

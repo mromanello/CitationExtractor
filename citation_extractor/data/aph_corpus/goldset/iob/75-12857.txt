@@ -1,0 +1,6 @@
+Zu	APPR	O
+Aussehen	NN	O
+und	KON	O
+Verteilung	NN	O
+der	ART	O
+Monumente	NN	O

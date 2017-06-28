@@ -1,0 +1,26 @@
+Descrizione	NOM
+delle	PRE:det
+Baleari	NOM
+in	PRE
+Timeo	NOM
+,	PON
+interessato	VER:pper
+alle	PRE:det
+isole	NOM
+come	PRE
+luogo	NOM
+di	PRE
+provenienza	NOM
+dei	PRE:det
+mercenari	NOM
+utilizzati	VER:pper
+dai	PRE:det
+Cartaginesi	NOM
+nei	PRE:det
+conflitti	NOM
+contro	PRE
+i	DET:def
+Greci	NOM
+in	PRE
+Sicilia	NPR
+

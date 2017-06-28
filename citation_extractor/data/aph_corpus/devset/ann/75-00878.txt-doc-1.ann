@@ -1,0 +1,4 @@
+T1	REFAUWORK 71 77	Genesi
+T2	REFSCOPE 78 84	25, 23
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:470:25.23

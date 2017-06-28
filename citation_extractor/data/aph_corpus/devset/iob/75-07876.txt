@@ -1,0 +1,15 @@
+Présentation	NOM
+des	PRP:det
+tombes	NOM
+5	NUM
+et	KON
+6	NUM
+(	PUN
+Chypriote	NOM
+archaïque	ADJ
+II	NUM
+)	PUN
+fouillées	VER:pper
+en	PRP
+1983	NUM
+

@@ -1,0 +1,20 @@
+Concerne	VER:pres
+les	DET:ART
+rapports	NOM
+entre	PRP
+philosophie	NOM
+et	KON
+médecine	NOM
+dans	PRP
+la	DET:ART
+tradition	NOM
+arabe	ADJ
+et	KON
+,	PUN
+principalement	ADV
+,	PUN
+l'	DET:ART
+héritage	NOM
+de	PRP
+Galien	NAM
+

@@ -1,0 +1,4 @@
+T1	REFAUWORK 95 104	Herodotus
+T2	REFSCOPE 105 113	9.74-75,
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0062.tlg056:9.74-9.75

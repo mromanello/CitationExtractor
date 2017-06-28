@@ -1,0 +1,47 @@
+Évolution	NOM
+dans	PRP
+le	DET:ART
+Jura	NAM
+de	PRP
+la	DET:ART
+végétation	NOM
+et	KON
+de	PRP
+l'	DET:ART
+anthropisation	NOM
+depuis	PRP
+l'	DET:ART
+Atlantique	NAM
+ancien	ADJ
+.	SENT
+
+L'	DET:ART
+époque	NOM
+gallo-romaine	ADJ
+est	VER:pres
+une	DET:ART
+des	PRP:det
+phases	NOM
+de	PRP
+reprise	NOM
+et	KON
+d'	PRP
+essor	NOM
+des	PRP:det
+activités	NOM
+agro-pastorales	ADJ
+.	SENT
+
+Malgré	PRP
+le	DET:ART
+développement	NOM
+de	PRP
+l'	DET:ART
+agriculture	NOM
+,	PUN
+l'	DET:ART
+environnement	NOM
+est	VER:pres
+resté	VER:pper
+forestier	ADJ
+

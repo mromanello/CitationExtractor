@@ -1,0 +1,7 @@
+Complément	NOM
+à	PRP
+l'	DET:ART
+article	NOM
+noté	VER:pper
+75-07015	NUM
+

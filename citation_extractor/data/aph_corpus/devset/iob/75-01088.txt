@@ -1,0 +1,17 @@
+La	DET:def
+polemica	NOM
+letteraria	ADJ
+dei	PRE:det
+versi	NOM
+finali	ADJ
+non	ADV
+è	VER:pres
+in	PRE
+discontinuità	NOM
+con	PRE
+la	DET:def
+dimensione	NOM
+religiosa	ADJ
+dell'	PRE:det
+inno	NOM
+

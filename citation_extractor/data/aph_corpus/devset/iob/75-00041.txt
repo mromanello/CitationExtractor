@@ -1,0 +1,24 @@
+Osservazioni	NOM
+sulla	PRE:det
+tecnica	NOM
+compositiva	ADJ
+di	PRE
+due	ADJ
+drammi	NOM
+satireschi	ADJ
+,	PON
+il	DET:def
+frammentario	ADJ
+«	PON
+Proteo	NOM
+»	PON
+di	PRE
+Eschilo	NOM
+e	CON
+il	DET:def
+«	PON
+Ciclope	NOM
+»	PON
+di	PRE
+Euripide	NOM
+

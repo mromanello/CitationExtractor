@@ -1,0 +1,11 @@
+T1	AAUTHOR 169 176	Tacitus
+T2	REFAUWORK 213 218	(Ann.
+T3	REFSCOPE 219 229	15.33-36),
+T4	AAUTHOR 244 253	Suetonius
+T5	REFAUWORK 254 259	(Nero
+T6	REFSCOPE 260 266	19.1).
+R1	Scope Arg1:T2 Arg2:T3	
+R2	Scope Arg1:T5 Arg2:T6	
+#1	AnnotatorNotes R1	urn:cts:latinLit:phi1351.phi005:15.33-15.36
+#2	AnnotatorNotes T1	urn:cts:latinLit:phi1351
+#3	AnnotatorNotes T4	urn:cts:cwkb:638

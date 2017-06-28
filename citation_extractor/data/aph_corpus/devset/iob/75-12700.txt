@@ -1,0 +1,21 @@
+Première	NUM
+publication	NOM
+d'	PRP
+objets	NOM
+trouvés	VER:pper
+à	PRP
+Chypre	NAM
+,	PUN
+datés	VER:pper
+du	PRP:det
+5e	NUM
+au	PRP:det
+2e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+

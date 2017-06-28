@@ -1,0 +1,4 @@
+T1	REFAUWORK 103 106	Kol
+T2	REFSCOPE 107 118	3, 18-4, 1.
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:788:3.18-4.1

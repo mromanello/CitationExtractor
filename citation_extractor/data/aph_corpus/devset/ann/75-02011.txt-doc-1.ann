@@ -1,0 +1,8 @@
+T1	AWORK 78 99	« Institutio logica »
+T2	AAUTHOR 103 109	Galeno
+T3	AWORK 118 136	« Noctes Atticae »
+T4	AAUTHOR 140 146	Gellio
+#0	AnnotatorNotes T4	urn:cts:latinLit:phi1254
+#1	AnnotatorNotes T2	urn:cts:greekLit:tlg0057
+#2	AnnotatorNotes T3	urn:cts:latinLit:phi1254.phi001
+#3	AnnotatorNotes T1	urn:cts:cwkb:890.2511

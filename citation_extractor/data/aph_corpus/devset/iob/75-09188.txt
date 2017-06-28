@@ -1,0 +1,19 @@
+Pendant	PRP
+toute	PRO:IND
+la	DET:ART
+période	NOM
+hellénistique	ADJ
+et	KON
+romaine	ADJ
+,	PUN
+le	DET:ART
+grec	NOM
+demeure	VER:pres
+la	DET:ART
+langue	NOM
+d'	PRP
+inscription	NOM
+des	PRP:det
+textes	NOM
+officiels	ADJ
+

@@ -1,0 +1,11 @@
+Étude	NOM
+sur	PRP
+l'	DET:ART
+ancienneté	NOM
+et	KON
+l'	DET:ART
+origine	NOM
+de	PRP
+cette	PRO:DEM
+tournure	NOM
+

@@ -1,0 +1,16 @@
+Zu	APPR
+den	ART
+Ergebnissen	NN
+des	ART
+Surveys	NN
+(	$(
+vgl	NN
+.	$.
+auch	ADV
+=>	ADJD
+68-13212	CARD
+und	KON
+73-15834	CARD
+)	$(
+.	$.
+

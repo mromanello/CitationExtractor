@@ -1,0 +1,6 @@
+T1	AAUTHOR 41 47	Philon
+T2	REFAUWORK 48 59	(De somniis
+T3	REFSCOPE 60 78	2, 183, 190, 249).
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:1042.3553:2.183.190.249
+#1	AnnotatorNotes T1	urn:cts:cwkb:1041

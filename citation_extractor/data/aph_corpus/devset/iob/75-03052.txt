@@ -1,0 +1,27 @@
+Nota	NOM
+critica	ADJ
+:	PON
+«	PON
+claricitatiate	NOM
+»	PON
+della	PRE:det
+tradizione	NOM
+può	VER:pres
+essere	VER:infi
+emendato	VER:pper
+in	PRE
+«	PON
+clari	NOM
+citant	NOM
+late	ADJ
+»	PON
+o	CON
+,	PON
+piuttosto	ADV
+,	PON
+in	PRE
+«	PON
+sollicitat	NOM
+late	ADJ
+»	PON
+

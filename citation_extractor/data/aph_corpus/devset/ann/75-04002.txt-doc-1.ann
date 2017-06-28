@@ -1,0 +1,4 @@
+T1	REFAUWORK 520 526	(Fedro
+T2	REFSCOPE 527 533	249c).
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0059.tlg012:249

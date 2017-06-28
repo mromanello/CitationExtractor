@@ -1,0 +1,13 @@
+Influence	NOM
+réciproque	ADJ
+de	PRP
+ces	PRO:DEM
+deux	NUM
+pratiques	NOM
+de	PRP
+discours	NOM
+dans	PRP
+l'	DET:ART
+Antiquité	NOM
+gréco-latine	ADJ
+

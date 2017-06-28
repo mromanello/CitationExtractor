@@ -1,0 +1,7 @@
+Philologue	NOM
+classique	ADJ
+allemand	ADJ
+(	PUN
+1930-2004	NUM
+)	PUN
+

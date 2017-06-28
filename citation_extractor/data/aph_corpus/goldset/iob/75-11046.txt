@@ -1,0 +1,12 @@
+Exploitation	NOM	O
+de	PRP	O
+la	DET:ART	O
+correspondance	NOM	O
+cicéronienne	ADJ	O
+:	PUN	O
+les	DET:ART	O
+affaires	NOM	O
+de	PRP	O
+Marcus	NAM	O
+et	KON	O
+Quintus	NAM	O

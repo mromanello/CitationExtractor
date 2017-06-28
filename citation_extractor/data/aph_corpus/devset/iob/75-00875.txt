@@ -1,0 +1,24 @@
+Analisi	NOM
+del	PRE:det
+dialogo	NOM
+agostiniano	ADJ
+,	PON
+nelle	PRE:det
+sue	PRO:poss
+intenzionalità	NOM
+filosofiche	ADJ
+e	CON
+formative	ADJ
+,	PON
+e	CON
+confronto	NOM
+con	PRE
+l'	DET:def
+omonima	ADJ
+«	PON
+quaestio	NOM
+»	PON
+di	PRE
+S.	NOM
+Tommaso	NPR
+

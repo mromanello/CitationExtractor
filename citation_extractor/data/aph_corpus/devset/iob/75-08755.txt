@@ -1,0 +1,24 @@
+Travaux	NOM
+de	PRP
+2003	NUM
+dans	PRP
+le	DET:ART
+secteur	NOM
+du	PRP:det
+temple	NOM
+,	PUN
+sur	PRP
+les	DET:ART
+thermes	NOM
+et	KON
+dans	PRP
+la	DET:ART
+grande	ADJ
+salle	NOM
+triconque	NOM
+à	PRP
+mosaïque	NOM
+de	PRP
+la	DET:ART
+résidence	NOM
+

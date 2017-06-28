@@ -1,0 +1,18 @@
+Descrizione	NOM
+e	CON
+storia	NOM
+del	PRE:det
+ms.	NOM
+Messina	NPR
+,	PON
+Bibl	NOM
+.	SENT
+
+Regionale	ADJ
+Universitaria	NOM
+,	PON
+San	NPR
+Salvatore	NOM
+gr.	ABR
+66	NUM
+

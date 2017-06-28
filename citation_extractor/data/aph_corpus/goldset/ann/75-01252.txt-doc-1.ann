@@ -1,0 +1,14 @@
+T1	AAUTHOR 69 76	Origene
+T2	REFAUWORK 77 83	(Cels.
+T3	REFSCOPE 84 91	2, 36),
+T4	REFAUWORK 121 126	(Ioh.
+T5	REFSCOPE 127 133	19,34)
+T7	REFAUWORK 319 323	(Il.
+T8	REFSCOPE 324 335	5, 335-342)
+R1	Scope Arg1:T2 Arg2:T3
+R2	Scope Arg1:T4 Arg2:T5
+R3	Scope Arg1:T7 Arg2:T8
+#0	AnnotatorNotes R1	urn:cts:cwkb:1015.3455:2.36
+#2	AnnotatorNotes R3	urn:cts:greekLit:tlg0012.tlg001:5.335-5.342
+#5	AnnotatorNotes T1	urn:cts:cwkb:1015
+T6	AAUTHOR 37 42	Celso

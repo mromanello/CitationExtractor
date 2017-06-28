@@ -1,0 +1,15 @@
+Se	SE
+ofrece	VLfin
+una	ART
+semblanza	NC
+de	PREP
+la	ART
+figura	NC
+del	PDEL
+historiador	NC
+(	LP
+†	NC
+2004	CODE
+)	RP
+.	FS
+

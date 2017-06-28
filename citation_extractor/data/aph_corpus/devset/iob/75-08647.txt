@@ -1,0 +1,25 @@
+Travaux	NOM
+de	PRP
+la	DET:ART
+mission	NOM
+franco-serbe	ADJ
+sur	PRP
+les	DET:ART
+remparts	NOM
+et	KON
+la	DET:ART
+rue	NOM
+principale	ADJ
+de	PRP
+la	DET:ART
+ville	NOM
+basse	ADJ
+(	PUN
+6e-7e	VER:pres
+s.	ABR
+apr.	ABR
+J.	ABR
+-C	ADJ
+.	SENT
+)	PUN
+

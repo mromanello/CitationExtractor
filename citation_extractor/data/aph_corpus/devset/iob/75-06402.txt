@@ -1,0 +1,27 @@
+Zur	APPRART
+Bedeutung	NN
+und	KON
+Problematik	NN
+des	ART
+(	$(
+Prosa-)Übersetzens	NN
+aus	APPR
+dem	ART
+Lateinischen	NN
+auch	ADV
+im	APPRART
+Vergleich	NN
+mit	APPR
+dem	ART
+aus	APPR
+dem	ART
+Griechischen	NN
+(	$(
+anlässlich	APPR
+der	ART
+Verleihung	NN
+des	ART
+Johann-Heinrich-Voss-Preises	NN
+)	$(
+.	$.
+

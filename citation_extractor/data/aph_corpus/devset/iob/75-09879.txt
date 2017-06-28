@@ -1,0 +1,10 @@
+Influences	NOM
+grecques	ADJ
+sur	PRP
+l'	DET:ART
+histoire	NOM
+et	KON
+la	DET:ART
+culture	NOM
+étrusques	ADJ
+

@@ -1,0 +1,31 @@
+Communication	NOM
+au	PRP:det
+congrès	NOM
+annuel	ADJ
+de	PRP
+la	DET:ART
+Société	NOM
+française	ADJ
+d'	PRP
+archéologie	NOM
+classique	ADJ
+(	PUN
+16	NUM
+novembre	NOM
+2002	NUM
+)	PUN
+.	SENT
+
+Dans	PRP
+l'	DET:ART
+attente	NOM
+de	PRP
+la	DET:ART
+publication	NOM
+annoncée	VER:pper
+de	PRP
+ce	PRO:DEM
+célèbre	ADJ
+monument	NOM
+augustéen	ADJ
+

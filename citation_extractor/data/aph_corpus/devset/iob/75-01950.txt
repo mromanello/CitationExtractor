@@ -1,0 +1,26 @@
+Riguarda	VER:pres
+tra	PRE
+l'	DET:def
+altro	PRO:indef
+il	DET:def
+volume	NOM
+7	NUM
+della	PRE:det
+serie	NOM
+«	PON
+Favolisti	NOM
+latini	ADJ
+medievali	ADJ
+e	CON
+umanistici	ADJ
+»	PON
+(	PON
+=>	NOM
+72-02075	NUM
+)	PON
+,	PON
+pertinente	ADJ
+anche	ADV
+all'	PRE:det
+antichità	NOM
+

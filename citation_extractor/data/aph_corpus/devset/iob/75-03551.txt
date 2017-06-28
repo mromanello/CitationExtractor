@@ -1,0 +1,53 @@
+Naugerius	NP
+'	POS
+conjecture	NN
+«	)
+internas	NNS
+»	(
+at	IN
+her	PP
+.	SENT
+
+7	CD
+,	,
+113	CD
+brilliantly	RB
+corrects	VBZ
+the	DT
+unintelligible	JJ
+«	)
+in	IN
+terras	NNS
+»	(
+of	IN
+the	DT
+older	JJR
+MSS	NP
+.	SENT
+
+But	CC
+it	PP
+is	VBZ
+probably	RB
+not	RB
+what	WP
+Ovid	NP
+would	MD
+have	VB
+written	VBN
+.	SENT
+
+The	DT
+adjective	NN
+that	IN
+best	JJS
+modifies	VBZ
+«	)
+aras	NNS
+»	(
+is	VBZ
+«	)
+antiquas	NNS
+»	(
+.	SENT
+

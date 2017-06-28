@@ -1,0 +1,23 @@
+A	PRE
+partire	VER:infi
+dagli	PRE:det
+studi	NOM
+dell'	PRE:det
+illuminista	NOM
+sulla	PRE:det
+dottrina	NOM
+epicurea	ADJ
+e	CON
+le	DET:def
+sue	PRO:poss
+variazioni	NOM
+lucreziane	VER:futu
+confuiti	VER:pper
+nelle	PRE:det
+voci	NOM
+del	PRE:det
+«	PON
+Dictionnaire	NOM
+philosophique	NOM
+»	PON
+

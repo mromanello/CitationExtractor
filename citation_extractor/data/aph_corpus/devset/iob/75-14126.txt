@@ -1,0 +1,30 @@
+Esame	NOM
+del	PRE:det
+pensiero	NOM
+e	CON
+degli	PRE:det
+studi	NOM
+storici	ADJ
+di	PRE
+K.	NPR
+W.	ABR
+
+Nitzsch	NOM
+,	PON
+con	PRE
+particolare	ADJ
+riguardo	NOM
+per	PRE
+l'	DET:def
+interesse	NOM
+verso	PRE
+la	DET:def
+storia	NOM
+comparata	VER:pper
+dei	PRE:det
+popoli	NOM
+e	CON
+verso	PRE
+l'	DET:def
+antichistica	NOM
+

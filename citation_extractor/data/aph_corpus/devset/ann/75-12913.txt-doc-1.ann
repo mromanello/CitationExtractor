@@ -1,0 +1,16 @@
+T1	AAUTHOR 474 481	Seneca,
+T2	AWORK 482 493	« Medea »),
+T3	REFAUWORK 517 531	(Cicero, Tusc.
+T4	REFSCOPE 532 542	3, 76-82 ;
+T5	REFAUWORK 543 556	Seneca, dial.
+T6	REFSCOPE 557 569	6, 20, 4-6),
+T7	AAUTHOR 574 581	Ovid 's
+T8	AWORK 582 594	« Heroides »
+R1	Scope Arg1:T3 Arg2:T4
+R2	Scope Arg1:T5 Arg2:T6
+#0	AnnotatorNotes R1	urn:cts:cwkb:658.1360:3.76-3.82
+#1	AnnotatorNotes R2	urn:cts:cwkb:622.1295:6.20.4-6.20.6
+#2	AnnotatorNotes T8	urn:cts:latinLit:phi0959.phi002
+#3	AnnotatorNotes T7	urn:cts:cwkb:568
+#4	AnnotatorNotes T2	urn:cts:greekLit:tlg0006.tlg003
+#5	AnnotatorNotes T1	urn:cts:cwkb:620

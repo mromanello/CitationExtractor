@@ -1,0 +1,36 @@
+Das	ART
+Motiv	NN
+des	ART
+Auf-die-Probe-Stellens	NN
+begegnet	VVFIN
+bereits	ADV
+im	APPRART
+hethitischen	ADJA
+Schrifttum	NN
+,	$,
+allerdings	ADV
+mit	APPR
+dem	ART
+Ziel	NN
+,	$,
+Dämonen	NN
+zu	PTKZU
+entlarven	VVINF
+.	$.
+
+Auch	ADV
+andere	PIAT
+Motive	NN
+der	ART
+Tantaliden-Erzählung	NN
+haben	VAFIN
+Parallelen	NN
+in	APPR
+hethitischen	ADJA
+(	$(
+und	KON
+babylonischen	ADJA
+)	$(
+Texten	NN
+.	$.
+

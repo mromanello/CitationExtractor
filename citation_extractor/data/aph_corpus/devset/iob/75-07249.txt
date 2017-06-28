@@ -1,0 +1,31 @@
+Utilité	NOM
+du	PRP:det
+concept	NOM
+de	PRP
+corrélation	NOM
+pour	PRP
+l'	DET:ART
+étude	NOM
+de	PRP
+la	DET:ART
+subordination	NOM
+et	KON
+de	PRP
+la	DET:ART
+proposition	NOM
+relative	ADJ
+en	PRP
+latin	NOM
+.	SENT
+
+Évolution	NOM
+de	PRP
+la	DET:ART
+structure	NOM
+à	PRP
+différentes	ADJ
+époques	NOM
+.	SENT
+
+Typologie	NOM
+

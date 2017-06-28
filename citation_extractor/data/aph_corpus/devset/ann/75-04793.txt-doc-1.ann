@@ -1,0 +1,5 @@
+T1	AAUTHOR 167 176	d' Homère
+T2	REFAUWORK 177 181	(Il.
+T3	REFSCOPE 182 189	6, 146)
+R1	Scope Arg1:T2 Arg2:T3
+#0	AnnotatorNotes R1	urn:cts:cwkb:763.1599:6.146

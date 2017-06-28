@@ -1,0 +1,18 @@
+Cronaca	NOM
+dettagliata	VER:pper
+degli	PRE:det
+interventi	NOM
+tenuti	VER:pper
+al	PRE:det
+simposio	NOM
+svoltosi	VER:pper
+a	PRE
+Marburg	NOM
+dal	PRE:det
+30	NUM
+settembre	NOM
+al	PRE:det
+3	NUM
+ottobre	NOM
+2003	NUM
+

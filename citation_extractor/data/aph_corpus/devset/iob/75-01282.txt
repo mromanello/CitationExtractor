@@ -1,0 +1,22 @@
+La	DET:ART
+mention	NOM
+de	PRP
+la	DET:ART
+naissance	NOM
+du	PRP:det
+Christ	NOM
+dans	PRP
+le	DET:ART
+«	PUN:cit
+Chronographe	NOM
+»	PUN:cit
+de	PRP
+354	NUM
+et	KON
+dans	PRP
+le	DET:ART
+«	PUN:cit
+Martyrologe	NOM
+hiéronymien	ADJ
+»	PUN:cit
+

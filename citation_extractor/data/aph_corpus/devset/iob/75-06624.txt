@@ -1,0 +1,20 @@
+Communication	NOM
+au	PRP:det
+séminaire	NOM
+«	PUN:cit
+Traces	NAM
+,	PUN
+transmission	NOM
+,	PUN
+création	NOM
+»	PUN:cit
+,	PUN
+Université	NAM
+Paul	NAM
+Valéry-Montpellier	NAM
+3	NUM
+(	PUN
+janvier	NOM
+2002	NUM
+)	PUN
+

@@ -1,0 +1,6 @@
+Profilo	NOM
+di	PRE
+vita	NOM
+e	CON
+studi	NOM
+

@@ -1,0 +1,8 @@
+Note	ADJ
+esegetiche	NOM
+e	CON
+critiche	NOM
+a	PRE
+26	NUM
+passi	NOM
+

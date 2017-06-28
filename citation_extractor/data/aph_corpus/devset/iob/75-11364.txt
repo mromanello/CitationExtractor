@@ -1,0 +1,34 @@
+Dati	NOM
+topografici	ADJ
+su	PRE
+questa	PRO:demo
+località	NOM
+e	CON
+riedizione	NOM
+delle	PRE:det
+epigrafi	NOM
+CIL	NOM
+5	NUM
+,	PON
+6570add	NOM
+.	SENT
+-6572add	NOM
+.	SENT
+
+;	PON
+6573-6574	NUM
+;	PON
+6575add	NOM
+.	SENT
+-6576add	NOM
+.	SENT
+
+;	PON
+6578add	NOM
+.	SENT
+-6579add	NOM
+.	SENT
+
+;	PON
+8929-8932	NUM
+

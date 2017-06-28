@@ -1,0 +1,16 @@
+Zur	APPRART
+Bedeutung	NN
+der	ART
+Märtyrerberichte	NN
+und	KON
+der	ART
+Martyrien	NN
+selbst	ADV
+für	APPR
+die	ART
+innere	ADJA
+Einheit	NN
+der	ART
+Gemeinden	NN
+.	$.
+

@@ -1,0 +1,25 @@
+La	DET:ART
+domination	NOM
+de	PRP
+Poséidon	NAM
+sur	PRP
+l'	DET:ART
+élément	NOM
+aquatique	ADJ
+et	KON
+le	DET:ART
+rapport	NOM
+étymologique	ADJ
+de	PRP
+son	DET:POS
+nom	NOM
+avec	PRP
+l'	DET:ART
+association	NOM
+eau-terre	NOM
+,	PUN
+symbolique	ADJ
+de	PRP
+la	DET:ART
+fertilité	NOM
+

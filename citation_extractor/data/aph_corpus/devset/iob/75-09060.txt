@@ -1,0 +1,8 @@
+Pourrait	VER:cond
+dater	VER:infi
+de	PRP
+la	DET:ART
+guerre	NOM
+de	PRP
+Décélie	NAM
+

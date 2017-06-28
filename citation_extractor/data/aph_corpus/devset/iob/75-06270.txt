@@ -1,0 +1,21 @@
+Virgilio	NPR
+,	PON
+che	PRO:rela
+non	ADV
+è	VER:pres
+costretto	VER:pper
+nella	PRE:det
+dialettica	ADJ
+tradizionale	ADJ
+Greci/barbari	NOM
+,	PON
+affronta	VER:pres
+anche	ADV
+il	DET:def
+tema	NOM
+dei	PRE:det
+Traci	NOM
+in	PRE
+modo	NOM
+impregiudicato	ADJ
+

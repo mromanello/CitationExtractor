@@ -1,0 +1,26 @@
+L'	DET:ART
+appréciation	NOM
+de	PRP
+Josèphe	NAM
+sur	PRP
+Abraham	NAM
+se	PRO:PER
+trouve	VER:pres
+partagée	VER:pper
+entre	PRP
+la	DET:ART
+figure	NOM
+juive	ADJ
+du	PRP:det
+patriarche	NOM
+d'	PRP
+Ur	NAM
+et	KON
+la	DET:ART
+conception	NOM
+gréco-romaine	ADJ
+de	PRP
+l'	DET:ART
+astrologue	NOM
+chaldéen	ADJ
+

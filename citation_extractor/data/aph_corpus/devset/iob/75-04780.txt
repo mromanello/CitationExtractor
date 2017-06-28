@@ -1,0 +1,21 @@
+Il	DET:def
+carme	NOM
+è	VER:pres
+un	DET:indef
+epitalamio	NOM
+composto	VER:pper
+per	PRE
+essere	VER:infi
+cantato	VER:pper
+dal	PRE:det
+corteo	NOM
+nuziale	ADJ
+che	PRO:rela
+accompagnava	VER:impf
+la	DET:def
+sposa	NOM
+alla	PRE:det
+casa	NOM
+dello	PRE:det
+sposo	NOM
+

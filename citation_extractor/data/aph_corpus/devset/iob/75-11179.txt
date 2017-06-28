@@ -1,0 +1,25 @@
+Sur	PRP
+les	DET:ART
+différentes	ADJ
+phases	NOM
+de	PRP
+l'	DET:ART
+occupation	NOM
+du	PRP:det
+site	NOM
+et	KON
+de	PRP
+son	DET:POS
+développement	NOM
+économique	ADJ
+et	KON
+commercial	ADJ
+,	PUN
+fondé	VER:pper
+principalement	ADV
+sur	PRP
+l'	DET:ART
+exploitation	NOM
+du	PRP:det
+sel	NOM
+

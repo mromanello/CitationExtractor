@@ -1,0 +1,18 @@
+Panoramica	NOM
+su	PRE
+storia	NOM
+,	PON
+topografia	NOM
+e	CON
+urbanistica	NOM
+di	PRE
+questa	PRO:demo
+città	NOM
+dal	PRE:det
+301	NUM
+a.	NOM
+C.	NPR
+all'	PRE:det
+età	NOM
+tardoantica	NOM
+

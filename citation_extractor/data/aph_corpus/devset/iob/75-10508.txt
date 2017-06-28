@@ -1,0 +1,10 @@
+La	DET:ART
+rationalité	NOM
+politique	ADJ
+semble	VER:pres
+être	VER:infi
+ici	ADV
+l'	DET:ART
+élément	NOM
+original	ADJ
+

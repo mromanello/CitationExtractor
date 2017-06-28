@@ -1,0 +1,17 @@
+Se	SE
+analiza	VLfin
+en particular	ADV
+el	ART
+tratamiento	NC
+novedoso	ADJ
+de	PREP
+la	ART
+profecía	NC
+de	PREP
+Casandra	NP
+sobre	PREP
+la	ART
+caída	NC
+de	PREP
+Troya	NC
+

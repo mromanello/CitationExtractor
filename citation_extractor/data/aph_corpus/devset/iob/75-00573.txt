@@ -1,0 +1,16 @@
+Refonte	NOM
+d'	PRP
+un	DET:ART
+article	NOM
+paru	VER:pper
+dans	PRP
+le	DET:ART
+recueil	NOM
+noté	VER:pper
+71-15642	NUM
+.	SENT
+
+Voir	VER:infi
+aussi	ADV
+75-00575	NUM
+

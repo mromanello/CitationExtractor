@@ -1,0 +1,26 @@
+Matériel	ADJ
+inédit	NOM
+,	PUN
+publié	VER:pper
+à	PRP
+la	DET:ART
+lumière	NOM
+des	PRP:det
+résultats	NOM
+des	PRP:det
+nouvelles	ADJ
+fouilles	NOM
+conduites	VER:pper
+par	PRP
+l'	DET:ART
+auteur	NOM
+sur	PRP
+le	DET:ART
+site	NOM
+(	PUN
+1989-1993	NUM
+:	PUN
+voir	VER:infi
+75-08628	NUM
+)	PUN
+

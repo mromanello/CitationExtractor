@@ -1,0 +1,23 @@
+Panoramica	NOM
+sui	PRE:det
+rapporti	NOM
+tra	PRE
+Ibico	NOM
+e	CON
+l'	DET:def
+ambiente	NOM
+samio	NOM
+secondo	PRE
+le	DET:def
+fonti	NOM
+antiche	ADJ
+e	CON
+sugli	PRE:det
+elementi	NOM
+connessi	VER:pper
+con	PRE
+Samo	NOM
+nella	PRE:det
+sua	PRO:poss
+poesia	NOM
+

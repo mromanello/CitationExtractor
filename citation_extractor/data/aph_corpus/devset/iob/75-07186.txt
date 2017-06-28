@@ -1,0 +1,33 @@
+Corpus	NOM
+:	PUN
+«	PUN:cit
+Euthydème	NOM
+»	PUN:cit
+,	PUN
+«	PUN:cit
+Hippias	NAM
+Majeur	NAM
+»	PUN:cit
+,	PUN
+«	PUN:cit
+Hippias	NAM
+Mineur	NAM
+»	PUN:cit
+et	KON
+«	PUN:cit
+Gorgias	NAM
+»	PUN:cit
+.	SENT
+
+Étude	NOM
+formant	VER:ppre
+un	DET:ART
+ensemble	NOM
+avec	PRP
+les	DET:ART
+articles	NOM
+notés	VER:pper
+75-07184	NUM
+et	KON
+75-07197	NUM
+

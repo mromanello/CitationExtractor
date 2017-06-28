@@ -1,0 +1,40 @@
+Reprise	NOM
+des	PRP:det
+travaux	NOM
+en	PRP
+2002	NUM
+par	PRP
+une	DET:ART
+mission	NOM
+franco-serbe	ADJ
+.	SENT
+
+Des	PRP:det
+sondages	NOM
+ont	VER:pres
+atteint	VER:pper
+les	DET:ART
+niveaux	NOM
+du	PRP:det
+1er	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+et	KON
+un	DET:ART
+décapage	NOM
+a	VER:pres
+mis	VER:pper
+au	PRP:det
+jour	NOM
+un	DET:ART
+grand	ADJ
+bâtiment	NOM
+romain	ADJ
+tardif	ADJ
+

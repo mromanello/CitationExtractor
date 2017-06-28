@@ -1,0 +1,26 @@
+L'	DET:ART
+examen	NOM
+des	PRP:det
+sources	NOM
+littéraires	ADJ
+et	KON
+celui	PRO:DEM
+des	PRP:det
+données	NOM
+archéologiques	ADJ
+inclinent	VER:pres
+à	PRP
+considérer	VER:infi
+avec	PRP
+précaution	NOM
+la	DET:ART
+tradition	NOM
+selon	PRP
+laquelle	PRO:REL
+Septime	NAM
+Sévère	NAM
+aurait	VER:cond
+construit	VER:pper
+à	PRP
+Byzance	NAM
+

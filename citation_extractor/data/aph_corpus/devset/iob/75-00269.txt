@@ -1,0 +1,15 @@
+Analisi	NOM
+dettagliata	VER:pper
+della	PRE:det
+testimonianza	NOM
+appianea	ADJ
+alla	PRE:det
+luce	NOM
+degli	PRE:det
+altri	ADJ
+dati	NOM
+storici	ADJ
+di	PRE
+cui	PRO:rela
+disponiamo	VER:cpre
+

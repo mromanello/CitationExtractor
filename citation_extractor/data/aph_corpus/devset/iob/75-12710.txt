@@ -1,0 +1,31 @@
+Étude	NOM
+iconographique	ADJ
+de	PRP
+cette	PRO:DEM
+pièce	NOM
+d'	PRP
+origine	NOM
+béotienne	ADJ
+,	PUN
+datable	ADJ
+de	PRP
+la	DET:ART
+1re	ADJ
+moitié	NOM
+du	PRP:det
+5e	NUM
+s.	ABR
+av	NOM
+.	SENT
+
+J.	ABR
+-C	ADJ
+.	SENT
+
+(	PUN
+N°	ABR
+inv.	ABR
+80.51.139	NUM
+.	SENT
+)	PUN
+

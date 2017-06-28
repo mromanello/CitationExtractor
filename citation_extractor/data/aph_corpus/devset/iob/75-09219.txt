@@ -1,0 +1,25 @@
+Nuova	ADJ
+restituzione	NOM
+grafica	ADJ
+e	CON
+nuova	ADJ
+lettura	NOM
+dell'	PRE:det
+epigrafe	NOM
+osca	ADJ
+,	PON
+databile	ADJ
+al	PRE:det
+2°	NOM
+s.	NOM
+a.	NOM
+C.	NPR
+(	PON
+pubblicata	VER:pper
+da	PRE
+M.	NOM
+Russo	NOM
+=>	NOM
+61-06667	NUM
+)	PON
+

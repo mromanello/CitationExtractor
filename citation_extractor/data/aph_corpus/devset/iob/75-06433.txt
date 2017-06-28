@@ -1,0 +1,22 @@
+Resoconto	NOM
+dei	PRE:det
+lavori	NOM
+del	PRE:det
+convegno	NOM
+,	PON
+tenutosi	VER:pper
+a	PRE
+Genova	NPR
+e	CON
+Bogliasco	NOM
+dal	PRE:det
+16	NUM
+al	PRE:det
+18	NUM
+aprile	NOM
+2004	NUM
+(	PON
+=>	NOM
+75-14676	NUM
+)	PON
+

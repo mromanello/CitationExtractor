@@ -1,0 +1,4 @@
+T1	REFAUWORK 15 19	Ach.
+T2	REFSCOPE 20 29	1118-1121
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:greekLit:tlg0019.tlg001:1118-1121

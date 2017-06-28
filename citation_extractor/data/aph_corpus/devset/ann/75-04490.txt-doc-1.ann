@@ -1,0 +1,4 @@
+T1	REFAUWORK 194 202	(Moralia
+T2	REFSCOPE 203 216	608 A-612 B),
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:784.1858:608

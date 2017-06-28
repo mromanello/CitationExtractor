@@ -1,0 +1,9 @@
+Para	PREP
+la	ART
+versión	NC
+en	PREP
+castellano	NC
+=>	NC
+73-07825	CARD
+.	FS
+

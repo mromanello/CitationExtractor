@@ -1,0 +1,9 @@
+Les	DET:ART
+avatars	NOM
+de	PRP
+la	DET:ART
+tradition	NOM
+manuscrite	ADJ
+de	PRP
+Pacien	NOM
+

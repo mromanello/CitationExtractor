@@ -1,0 +1,23 @@
+Description	NOM
+et	KON
+contenu	NOM
+:	PUN
+fragments	NOM
+de	PRP
+l'	DET:ART
+homélie	NOM
+n°	ABR
+1	NUM
+de	PRP
+Grégoire	NAM
+de	PRP
+Nazianze	NAM
+.	SENT
+
+Présentation	NOM
+des	PRP:det
+variantes	NOM
+et	KON
+accidents	NOM
+textuels	ADJ
+

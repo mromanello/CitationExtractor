@@ -1,0 +1,43 @@
+Il	DET:def
+ms.	NOM
+euclideo	ADJ
+conservato	VER:pper
+a	PRE
+Firenze	NPR
+,	PON
+Bibl	NOM
+.	SENT
+
+Medicea	ADJ
+Laurenziana	NOM
+,	PON
+plut	NOM
+.	SENT
+
+28	NUM
+,	PON
+3	NUM
+,	PON
+in	PRE
+cui	PRO:rela
+è	VER:pres
+riconoscibile	ADJ
+la	DET:def
+mano	NOM
+di	PRE
+Efrem	NOM
+,	PON
+dimostra	VER:pres
+la	DET:def
+familiarità	NOM
+del	PRE:det
+copista	NOM
+con	PRE
+gli	DET:def
+aspetti	NOM
+più	ADV
+tecnici	ADJ
+della	PRE:det
+scrittura	NOM
+scientifica	ADJ
+

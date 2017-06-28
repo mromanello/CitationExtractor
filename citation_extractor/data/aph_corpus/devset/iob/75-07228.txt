@@ -1,0 +1,25 @@
+Nell'	PRE:det
+apparente	ADJ
+uniformità	NOM
+del	PRE:det
+latino	NOM
+imperiale	ADJ
+è	VER:pres
+possibile	ADJ
+individuare	VER:infi
+un'	DET:indef
+area	NOM
+a	PRE
+influsso	NOM
+gallico	ADJ
+a	PRE
+nord	NOM
+,	PON
+etrusco	ADJ
+al	PRE:det
+centro	NOM
+,	PON
+italico-magnogreco	NOM
+a	PRE
+sud	NOM
+

@@ -1,0 +1,27 @@
+Discussione	NOM
+di	PRE
+alcune	PRO:indef
+varianti	NOM
+sostanzialmente	ADV
+adiafore	ADJ
+nella	PRE:det
+«	PON
+Samia	NOM
+»	PON
+,	PON
+da	PRE
+attribuirsi	VER:infi
+con	PRE
+buona	ADJ
+probabilità	NOM
+alle	PRE:det
+varie	ADJ
+rappresentazioni	NOM
+della	PRE:det
+commedia	NOM
+e	CON
+agli	PRE:det
+interventi	NOM
+del	PRE:det
+capocomico	NOM
+

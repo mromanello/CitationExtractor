@@ -1,0 +1,25 @@
+Analisi	NOM
+di	PRE
+documenti	NOM
+utili	ADJ
+a	PRE
+comprendere	VER:infi
+la	DET:def
+formazione	NOM
+dell'	PRE:det
+organizzazione	NOM
+socio-politica	ADJ
+dell'	PRE:det
+Elide	NOM
+in	PRE
+età	NOM
+arcaica	ADJ
+e	CON
+la	DET:def
+costruzione	NOM
+dell'	PRE:det
+identità	NOM
+del	PRE:det
+popolo	NOM
+eleo	ADJ
+

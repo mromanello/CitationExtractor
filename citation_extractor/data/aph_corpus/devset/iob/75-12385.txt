@@ -1,0 +1,24 @@
+Chronologie	NOM
+de	PRP
+la	DET:ART
+succession	NOM
+abbatiale	ADJ
+dans	PRP
+le	DET:ART
+monastère	NOM
+de	PRP
+vierges	NOM
+fondé	VER:pper
+à	PRP
+Arles	NAM
+par	PRP
+l'	DET:ART
+évêque	NOM
+Césaire	ADJ
+avant	PRP
+507-508	NUM
+et	KON
+dédicacé	VER:pper
+en	PRP
+512	NUM
+

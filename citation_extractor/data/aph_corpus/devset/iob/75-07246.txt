@@ -1,0 +1,24 @@
+Discussion	NN
+of	IN
+the	DT
+use	NN
+of	IN
+the	DT
+so-called	JJ
+«	)
+Greek	JJ
+accusative	NN
+»	(
+in	IN
+Latin	JJ
+poetry	NN
+and	CC
+especially	RB
+in	IN
+Vergil	NP
+,	,
+with	IN
+numerous	JJ
+examples	NNS
+.	SENT
+

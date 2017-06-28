@@ -1,0 +1,9 @@
+Discussione	NOM
+del	PRE:det
+volume	NOM
+di	PRE
+M.	NOM
+Pani	NOM
+schedato	ADJ
+72-07737	NUM
+

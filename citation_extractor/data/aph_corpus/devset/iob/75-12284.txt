@@ -1,0 +1,34 @@
+Enquête	NOM
+limitée	VER:pper
+géographiquement	ADV
+à	PRP
+l'	DET:ART
+Orient	NAM
+chrétien	ADJ
+et	KON
+à	PRP
+deux	NUM
+questions	NOM
+cruciales	ADJ
+relatives	ADJ
+au	PRP:det
+statut	NOM
+de	PRP
+l'	DET:ART
+embryon	NOM
+:	PUN
+d'	PRP
+où	PRO:REL
+vient	VER:pres
+l'	DET:ART
+âme	NOM
+?	SENT
+
+quand	KON
+vient	VER:pres
+-elle	PRO:PER
+à	PRP
+l'	DET:ART
+embryon	NOM
+?	SENT
+

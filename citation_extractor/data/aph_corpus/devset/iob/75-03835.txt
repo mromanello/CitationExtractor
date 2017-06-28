@@ -1,0 +1,11 @@
+On	IN
+B.	NP
+McComiskey	NP
+=>	NN
+73-02363	CD
+and	CC
+S.	NP
+Consigny	NP
+=>	NN
+73-02359	CD
+

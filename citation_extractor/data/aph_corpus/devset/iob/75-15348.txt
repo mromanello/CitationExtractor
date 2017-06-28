@@ -1,0 +1,8 @@
+Osservazioni	NOM
+sull'	PRE:det
+attività	NOM
+editoriale	ADJ
+dello	PRE:det
+studioso	NOM
+scomparso	VER:pper
+

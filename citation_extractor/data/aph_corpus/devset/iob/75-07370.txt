@@ -1,0 +1,23 @@
+Analisi	NOM
+del	PRE:det
+rapporto	NOM
+tra	PRE
+dattili	NOM
+e	CON
+spondei	NOM
+,	PON
+delle	PRE:det
+norme	NOM
+relative	ADJ
+a	PRE
+cesure	NOM
+e	CON
+ponti	NOM
+,	PON
+dell'	PRE:det
+interazione	NOM
+tra	PRE
+metro	NOM
+e	CON
+ritmo	NOM
+

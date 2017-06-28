@@ -1,0 +1,24 @@
+Discussion	NOM
+critique	ADJ
+des	PRP:det
+ouvrages	NOM
+récents	ADJ
+de	PRP
+U.	ABR
+-M	NAM
+.	SENT
+
+Liertz	NAM
+(	PUN
+=>	ABR
+70-12172	NUM
+)	PUN
+et	KON
+de	PRP
+I.	NAM
+Gradel	NAM
+(	PUN
+=>	ABR
+73-12019	NUM
+)	PUN
+

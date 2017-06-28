@@ -1,0 +1,25 @@
+Se	SE
+encuentran	VLfin
+en	PREP
+Nono	NC
+claras	ADJ
+alusiones	NC
+sofocleas	VLfin
+,	CM
+aunque	CSUBX
+palidecen	VLfin
+ante	PREP
+las	ART
+euripideas	NC
+.	FS
+
+Se	SE
+aporta	VLfin
+la	ART
+relación	NC
+de	PREP
+los	ART
+pasajes	NC
+paralelos	ADJ
+Sófocles-Nono	ADJ
+

@@ -1,0 +1,27 @@
+Individuazione	NOM
+delle	PRE:det
+modalità	NOM
+di	PRE
+impiego	NOM
+dei	PRE:det
+dattili	NOM
+insieme	ADV
+con	PRE
+i	DET:def
+docmi	NOM
+come	PRE
+«	PON
+associazione	NOM
+di	PRE
+contrasto	NOM
+»	PON
+tra	PRE
+tono	NOM
+pacato	ADJ
+e	CON
+tono	NOM
+emotivo	ADJ
+nella	PRE:det
+tragedia	NOM
+attica	ADJ
+

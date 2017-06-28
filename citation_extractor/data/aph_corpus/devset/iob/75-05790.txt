@@ -1,0 +1,21 @@
+L'	DET:ART
+étude	NOM
+de	PRP
+certains	PRO:IND
+traits	NOM
+stylistiques	ADJ
+ou	KON
+grammaticaux	ADJ
+,	PUN
+comme	KON
+l'	DET:ART
+usage	NOM
+des	PRP:det
+prépositions	NOM
+,	PUN
+peut	VER:pres
+être	VER:infi
+un	DET:ART
+indice	NOM
+chronologique	ADJ
+

@@ -1,0 +1,19 @@
+Notamment	ADV
+d'	PRP
+après	PRP
+des	PRP:det
+représentations	NOM
+de	PRP
+bateau	NOM
+gravées	VER:pper
+à	PRP
+Kition	NAM
+,	PUN
+datant	VER:ppre
+de	PRP
+la	DET:ART
+fin	NOM
+du	PRP:det
+2e	NUM
+millénaire	NOM
+

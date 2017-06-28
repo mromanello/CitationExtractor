@@ -1,0 +1,726 @@
+Ptolemy - Wikipedia
+Ptolemy
+From Wikipedia, the free encyclopedia
+This is the latest accepted revision, reviewed on 26 February 2017.
+Jump to:					navigation, 					search
+For other uses, see Ptolemy (name).
+Ptolemy
+Early Baroque artist's rendition
+Born
+c. AD 100[1]
+Egypt, Roman Empire
+Died
+c. AD 170 (aged 69–70)[1]
+Alexandria, Egypt, Roman Empire
+Occupation
+Mathematician
+Geographer
+Astronomer
+Astrologer
+Claudius Ptolemy (/ˈtɒləmi/; Greek: Κλαύδιος Πτολεμαῖος, Klaúdios Ptolemaîos, [kláwdios ptolɛmɛ́ːos]; Latin: Claudius Ptolemaeus; c. AD 100 – c. 170)[2] was a Greek[3][4][5] writer, known as a mathematician, astronomer, geographer, astrologer, and poet of a single epigram in the Greek Anthology.[6][7] He lived in the city of Alexandria in the Roman province of Egypt, wrote in Koine Greek, and held Roman citizenship.[8] Beyond that, few reliable details of his life are known. His birthplace has been given as Ptolemais Hermiou in the Thebaid in an uncorroborated statement by the 14th-century astronomer Theodore Meliteniotes.[9] This is a very late attestation, however, and there is no other reason to suppose that he ever lived elsewhere than Alexandria,[9] where he died around AD 168.[10]
+Ptolemy wrote several scientific treatises, three of which were of importance to later Byzantine, Islamic and European science. The first is the astronomical treatise now known as the Almagest, although it was originally entitled the Mathematical Treatise (Μαθηματικὴ Σύνταξις, Mathēmatikē Syntaxis) and then known as the Great Treatise (Ἡ Μεγάλη Σύνταξις, Ē Megálē Syntaxis). The second is the Geography, which is a thorough discussion of the geographic knowledge of the Greco-Roman world. The third is the astrological treatise in which he attempted to adapt horoscopic astrology to the Aristotelian natural philosophy of his day. This is sometimes known as the Apotelesmatika (Ἀποτελεσματικά) but more commonly known as the Tetrabiblos from the Greek (Τετράβιβλος) meaning "Four Books" or by the Latin Quadripartitum.
+Contents
+1 Background
+2 Astronomy
+3 The Geography
+4 Astrology
+5 Music
+6 Optics
+7 Named after Ptolemy
+8 See also
+9 Footnotes
+10 References
+10.1 Texts and translations
+11 External links
+11.1 Primary sources
+11.2 Secondary material
+11.2.1 Animated illustrations
+Background[edit]
+Engraving of a crowned Ptolemy being guided by the muse Astronomy, from Margarita Philosophica by Gregor Reisch, 1508. Although Abu Ma'shar believed Ptolemy to be one of the Ptolemies who ruled Egypt after the conquest of Alexander the title ‘King Ptolemy’ is generally viewed as a mark of respect for Ptolemy's elevated standing in science.
+The name Claudius is a Roman nomen; the fact that Ptolemy bore it indicates he lived under the Roman rule of Egypt with the privileges and political rights of Roman citizenship. It would have suited custom if the first of Ptolemy's family to become a citizen (whether he or an ancestor) took the nomen from a Roman called Claudius who was responsible for granting citizenship. If, as was common, this was the emperor, citizenship would have been granted between AD 41 and 68 (when Claudius, and then Nero, were Roman emperors). The astronomer would also have had a praenomen, which remains unknown.
+Ptolemaeus (Πτολεμαῖος – Ptolemaios) is a Greek name. It occurs once in Greek mythology, and is of Homeric form.[11] It was common among the Macedonian upper class at the time of Alexander the Great, and there were several of this name among Alexander's army, one of whom made himself King of Egypt in 323 BC: Ptolemy I Soter. All the kings after him, until Egypt became a Roman province in 30 BC, were also Ptolemies.
+Perhaps for no other reason than the association of name, the 9th-century Persian astronomer Abu Ma'shar assumed Ptolemy to be a member of Egypt's royal lineage, stating that the ten kings of Egypt who followed Alexander were wise "and included Ptolemy the Wise, who composed the book of the Almagest". Abu Ma'shar recorded a belief that a different member of this royal line "composed the book on astrology and attributed it to Ptolemy". We can evidence historical confusion on this point from Abu Ma'shar's subsequent remark “It is sometimes said that the very learned man who wrote the book of astrology also wrote the book of the Almagest. The correct answer is not known”.[12] There is little evidence on the subject of Ptolemy's ancestry, apart from what can be drawn from the details of his name (see above); however, modern scholars refer to Abu Ma’shar’s account as erroneous,[13] and it is no longer doubted that the astronomer who wrote the Almagest also wrote the Tetrabiblos as its astrological counterpart.[14]
+Ptolemy wrote in Greek and can be shown to have utilized Babylonian astronomical data.[15][16] He was a Roman citizen, but most scholars conclude that Ptolemy was ethnically Greek,[17][4][18] although some suggest he was a Hellenized Egyptian.[4][19][20] He was often known in later Arabic sources as "the Upper Egyptian",[21] suggesting he may have had origins in southern Egypt.[22] Later Arabic astronomers, geographers and physicists referred to him by his name in Arabic: بَطْلُمْيوس‎‎ Batlamyus.[23]
+Astronomy[edit]
+Further information: Almagest
+Ptolemy with an armillary sphere model, by Joos van Ghent and Pedro Berruguete, 1476, Louvre, Paris
+The Almagest is the only surviving comprehensive ancient treatise on astronomy. Babylonian astronomers had developed arithmetical techniques for calculating astronomical phenomena; Greek astronomers such as Hipparchus had produced geometric models for calculating celestial motions. Ptolemy, however, claimed to have derived his geometrical models from selected astronomical observations by his predecessors spanning more than 800 years, though astronomers have for centuries suspected that his models' parameters were adopted independently of observations.[24] Ptolemy presented his astronomical models in convenient tables, which could be used to compute the future or past position of the planets.[25] The Almagest also contains a star catalogue, which is a version of a catalogue created by Hipparchus. Its list of forty-eight constellations is ancestral to the modern system of constellations, but unlike the modern system they did not cover the whole sky (only the sky Hipparchus could see). Across Europe, the Middle East and North Africa in the Medieval period, it was the authoritative text on astronomy, with its author becoming an almost mythical figure, called Ptolemy, King of Alexandria.[26] The Almagest was preserved, like most of Classical Greek science, in Arabic manuscripts (hence its familiar name). Because of its reputation, it was widely sought and was translated twice into Latin in the 12th century, once in Sicily and again in Spain.[27] Ptolemy's model, like those of his predecessors, was geocentric and was almost universally accepted until the appearance of simpler heliocentric models during the scientific revolution.
+His Planetary Hypotheses went beyond the mathematical model of the Almagest to present a physical realization of the universe as a set of nested spheres,[28] in which he used the epicycles of his planetary model to compute the dimensions of the universe. He estimated the Sun was at an average distance of 1,210 Earth radii, while the radius of the sphere of the fixed stars was 20,000 times the radius of the Earth.[29]
+Ptolemy presented a useful tool for astronomical calculations in his Handy Tables, which tabulated all the data needed to compute the positions of the Sun, Moon and planets, the rising and setting of the stars, and eclipses of the Sun and Moon. Ptolemy's Handy Tables provided the model for later astronomical tables or zījes. In the Phaseis (Risings of the Fixed Stars), Ptolemy gave a parapegma, a star calendar or almanac, based on the hands and disappearances of stars over the course of the solar year.
+The Geography[edit]
+Main article: Geography (Ptolemy)
+Geography by Ptolemy, Latin manuscript of the early 15th century
+Ptolemy's other main work is his Geography (also called the Geographia), a compilation of geographical coordinates of the part of the world known to the Roman Empire during his time. He relied somewhat on the work of an earlier geographer, Marinos of Tyre, and on gazetteers of the Roman and ancient Persian Empire.[citation needed] He also acknowledged ancient astronomer Hipparchus for having provided the elevation of the north pole for a few cities.[30]
+The first part of the Geography is a discussion of the data and of the methods he used. As with the model of the solar system in the Almagest, Ptolemy put all this information into a grand scheme. Following Marinos, he assigned coordinates to all the places and geographic features he knew, in a grid that spanned the globe. Latitude was measured from the equator, as it is today, but Ptolemy preferred [31] to express it as climata, the length of the longest day rather than degrees of arc: the length of the midsummer day increases from 12h to 24h as one goes from the equator to the polar circle. In books 2 through 7, he used degrees and put the meridian of 0 longitude at the most western land he knew, the "Blessed Islands", often identified as the Canary Islands, as suggested by the location of the six dots labelled the "FORTUNATA" islands near the left extreme of the blue sea of Ptolemy's map here reproduced.
+A 15th-century manuscript copy of the Ptolemy world map, reconstituted from Ptolemy's Geography (circa AD 150), indicating the countries of "Serica" and "Sinae" (China) at the extreme east, beyond the island of "Taprobane" (Sri Lanka, oversized) and the "Aurea Chersonesus" (Malay Peninsula).
+Prima Europe tabula. A 15th century copy of Ptolemy's map of Britain
+Ptolemy also devised and provided instructions on how to create maps both of the whole inhabited world (oikoumenè) and of the Roman provinces. In the second part of the Geography, he provided the necessary topographic lists, and captions for the maps. His oikoumenè spanned 180 degrees of longitude from the Blessed Islands in the Atlantic Ocean to the middle of China, and about 80 degrees of latitude from Shetland to anti-Meroe (east coast of Africa); Ptolemy was well aware that he knew about only a quarter of the globe, and an erroneous extension of China southward suggests his sources did not reach all the way to the Pacific Ocean.
+The maps in surviving manuscripts of Ptolemy's Geography, however, only date from about 1300, after the text was rediscovered by Maximus Planudes. It seems likely that the topographical tables in books 2–7 are cumulative texts – texts which were altered and added to as new knowledge became available in the centuries after Ptolemy.[32] This means that information contained in different parts of the Geography is likely to be of different dates.
+A printed map from the 15th century depicting Ptolemy's description of the Ecumene, (1482, Johannes Schnitzer, engraver).
+Maps based on scientific principles had been made since the time of Eratosthenes, in the 3rd century BC, but Ptolemy improved map projections. It is known from a speech by Eumenius that a world map, an orbis pictus, doubtless based on the Geography, was on display in a school in Augustodunum, Gaul in the third century.[33] In the 15th century, Ptolemy's Geography began to be printed with engraved maps; the earliest printed edition with engraved maps was produced in Bologna in 1477, followed quickly by a Roman edition in 1478 (Campbell, 1987). An edition printed at Ulm in 1482, including woodcut maps, was the first one printed north of the Alps. The maps look distorted when compared to modern maps, because Ptolemy's data were inaccurate. One reason is that Ptolemy estimated the size of the Earth as too small: while Eratosthenes found 700 stadia for a great circle degree on the globe, Ptolemy uses 500 stadia in the Geography. It is highly probable that these were the same stadion, since Ptolemy switched from the former scale to the latter between the Syntaxis and the Geography, and severely readjusted longitude degrees accordingly. See also Ancient Greek units of measurement and History of geodesy.
+Because Ptolemy derived many of his key latitudes from crude longest day values, his latitudes are erroneous on average by roughly a degree (2 degrees for Byzantium, 4 degrees for Carthage), though capable ancient astronomers knew their latitudes to more like a minute. (Ptolemy's own latitude was in error by 14'.) He agreed (Geography 1.4) that longitude was best determined by simultaneous observation of lunar eclipses, yet he was so out of touch with the scientists of his day that he knew of no such data more recent than 500 years before (Arbela eclipse). When switching from 700 stadia per degree to 500, he (or Marinos) expanded longitude differences between cities accordingly (a point first realized by P.Gosselin in 1790), resulting in serious over-stretching of the Earth's east-west scale in degrees, though not distance. Achieving highly precise longitude remained a problem in geography until the application of Galileo's Jovian moon method in the 18th century. It must be added that his original topographic list cannot be reconstructed: the long tables with numbers were transmitted to posterity through copies containing many scribal errors, and people have always been adding or improving the topographic data: this is a testimony to the persistent popularity of this influential work in the history of cartography.
+Astrology[edit]
+Main article: Tetrabiblos
+The mathematician Claudius Ptolemy 'the Alexandrian' as imagined by a 16th-century artist
+Ptolemy has been referred to as “a pro-astrological authority of the highest magnitude”.[34] His astrological treatise, a work in four parts, is known by the Greek term Tetrabiblos, or the Latin equivalent Quadripartitum: ‘Four Books’. Ptolemy's own title is unknown, but may have been the term found in some Greek manuscripts: Apotelesmatika, roughly meaning 'Astrological Outcomes,' 'Effects' or ‘Prognostics’.[35][36]
+As a source of reference, the Tetrabiblos is said to have "enjoyed almost the authority of a Bible among the astrological writers of a thousand years or more".[37] It was first translated from Arabic into Latin by Plato of Tivoli (Tiburtinus) in 1138, while he was in Spain.[38] The Tetrabiblos is an extensive and continually reprinted treatise on the ancient principles of horoscopic astrology. That it did not quite attain the unrivaled status of the Almagest was, perhaps, because it did not cover some popular areas of the subject, particularly electional astrology (interpreting astrological charts for a particular moment to determine the outcome of a course of action to be initiated at that time), and medical astrology, which were later adoptions.
+The great popularity that the Tetrabiblos did possess might be attributed to its nature as an exposition of the art of astrology, and as a compendium of astrological lore, rather than as a manual. It speaks in general terms, avoiding illustrations and details of practice. Ptolemy was concerned to defend astrology by defining its limits, compiling astronomical data that he believed was reliable and dismissing practices (such as considering the numerological significance of names) that he believed to be without sound basis.
+Much of the content of the Tetrabiblos was collected from earlier sources; Ptolemy's achievement was to order his material in a systematic way, showing how the subject could, in his view, be rationalized. It is, indeed, presented as the second part of the study of astronomy of which the Almagest was the first, concerned with the influences of the celestial bodies in the sublunar sphere. Thus explanations of a sort are provided for the astrological effects of the planets, based upon their combined effects of heating, cooling, moistening, and drying.
+Ptolemy's astrological outlook was quite practical: he thought that astrology was like medicine, that is conjectural, because of the many variable factors to be taken into account: the race, country, and upbringing of a person affects an individual's personality as much as, if not more than, the positions of the Sun, Moon, and planets at the precise moment of their birth, so Ptolemy saw astrology as something to be used in life but in no way relied on entirely.
+A collection of one hundred aphorisms about astrology called the Centiloquium, ascribed to Ptolemy, was widely reproduced and commented on by Arabic, Latin and Hebrew scholars, and often bound together in medieval manuscripts after the Tetrabiblos as a kind of summation. It is now believed to be a much later pseudepigraphical composition. The identity and date of the actual author of the work, referred to now as Pseudo-Ptolemy, remains the subject of conjecture.
+Music[edit]
+Ptolemy also wrote an influential work, Harmonics, on music theory and the mathematics of music. After criticizing the approaches of his predecessors, Ptolemy argued for basing musical intervals on mathematical ratios (in contrast to the followers of Aristoxenus and in agreement with the followers of Pythagoras), backed up by empirical observation (in contrast to the overly theoretical approach of the Pythagoreans). Ptolemy wrote about how musical notes could be translated into mathematical equations and vice versa in Harmonics. This is called Pythagorean tuning because it was first discovered by Pythagoras. However, Pythagoras believed that the mathematics of music should be based on the specific ratio of 3:2, whereas Ptolemy merely believed that it should just generally involve tetrachords and octaves. He presented his own divisions of the tetrachord and the octave, which he derived with the help of a monochord. His Harmonics never had the influence of his Almagest or Planetary Hypotheses, but a part of it (Book III) did encourage Kepler in his own musings on the harmony of the world (Kepler, Harmonice Mundi, Appendix to Book V).[39] Ptolemy's astronomical interests also appeared in a discussion of the "music of the spheres". See: Ptolemy's intense diatonic scale.
+Optics[edit]
+His Optics is a work that survives only in a poor Arabic translation and in about twenty manuscripts of a Latin version of the Arabic, which was translated by Eugene of Palermo (c. 1154). In it Ptolemy writes about properties of light, including reflection, refraction, and colour. The work is a significant part of the early history of optics[40] and influenced the more famous 11th-century Book of Optics by Alhazen (Ibn al-Haytham). It contains the earliest surviving table of refraction from air to water, for which the values (with the exception of the 60° angle of incidence), although historically praised as experimentally derived, appear to have been obtained from an arithmetic progression.[41]
+The work is also important for the early history of perception. Ptolemy combined the mathematical, philosophical and physiological traditions. He held an extramission-intromission theory of vision: the rays (or flux) from the eye formed a cone, the vertex being within the eye, and the base defining the visual field. The rays were sensitive, and conveyed information back to the observer’s intellect about the distance and orientation of surfaces. Size and shape were determined by the visual angle subtended at the eye combined with perceived distance and orientation. This was one of the early statements of size-distance invariance as a cause of perceptual size and shape constancy, a view supported by the Stoics.[42] Ptolemy offered explanations for many phenomena concerning illumination and colour, size, shape, movement and binocular vision. He also divided illusions into those caused by physical or optical factors and those caused by judgemental factors. He offered an obscure explanation of the sun or moon illusion (the enlarged apparent size on the horizon) based on the difficulty of looking upwards.[43][44]
+Named after Ptolemy[edit]
+There are several characters or items named after Ptolemy, including:
+The crater Ptolemaeus on the Moon;
+The crater Ptolemaeus[45] on Mars;
+The asteroid 4001 Ptolemaeus;
+The Ptolemy Stone used in the mathematics courses at both St. John's College campuses.
+Ptolemy's theorem on distances in a cyclic quadrilateral, and its generalization, Ptolemy's inequality, to non-cyclic quadrilaterals
+Ptolemaic graphs, the graphs whose distances obey Ptolemy's inequality
+See also[edit]
+Atlas portal
+Astronomy portal
+Cosmology portal
+Pei Xiu
+Messier 7 – Ptolemy Cluster, star cluster described by Ptolemaeus
+Ptolemy's Canon – a dated list of kings used by ancient astronomers.
+Ptolemy's table of chords
+Zhang Heng
+Footnotes[edit]
+^ a b http://www.britannica.com/biography/Ptolemy
+^ "Ptolemy | Accomplishments, Biography, & Facts". Encyclopedia Britannica. Retrieved 2016-03-06. 
+^ Britannica.com Encyclopaedia Britannica 2007, "Claudius Ptolemaeus"
+^ a b c Victor J. Katz (1998). A History of Mathematics: An Introduction, p. 184. Addison Wesley, ISBN 0-321-01618-1.
+^ "Ptolemy." Britannica Concise Encyclopedia. Encyclopædia Britannica, Inc., 2006. Answers.com 20 Jul. 2008.
+^ Select Epigrams from the Greek Anthology By John William Mackail Page 246 ISBN 1406922943, 2007
+^ Mortal am I, the creature of a day..
+^ See 'Background' section on his status as a Roman citizen
+^ a b G. J. Toomer, "Ptolemy (or Claudius Ptolemaeus). " Complete Dictionary of Scientific Biography. 2008. Retrieved from Encyclopedia.com. 21 Jan, 2013.
+^ Jean Claude Pecker (2001), Understanding the Heavens: Thirty Centuries of Astronomical Ideas from Ancient Thinking to Modern Cosmology, p. 311, Springer, ISBN 3-540-63198-4.
+^ Πτολεμαῖος, Georg Autenrieth, A Homeric Dictionary, on Perseus
+^ Abu Ma’shar, De magnis coniunctionibus, ed.-transl. K. Yamamoto, Ch. Burnett, Leiden, 2000, 2 vols. (Arabic & Latin text); 4.1.4.
+^ Jones (2010) ‘Ptolemy’s Doctrine of the Terms and Its Reception’ by Stephan Heilen, p. 68.
+^ Robbins, Ptolemy Tetrabiblos ‘Introduction’; p. x.
+^ Asger Aaboe, Episodes from the Early History of Astronomy, New York: Springer, 2001, pp. 62–65.
+^ Alexander Jones, "The Adaptation of Babylonian Methods in Greek Numerical Astronomy," in The Scientific Enterprise in Antiquity and the Middle Ages, p. 99.
+^ Britannica.com Encyclopaedia Britannica 2007, "Claudius Ptolemaeus"
+^ "Ptolemy." Britannica Concise Encyclopedia. Encyclopædia Britannica, Inc., 2006. Answers.com 20 Jul. 2008.
+^ George Sarton (1936). "The Unity and Diversity of the Mediterranean World", Osiris 2, p. 406–463 [429].
+^ John Horace Parry (1981). The Age of Reconnaissance, p. 10. University of California Press. ISBN 0-520-04235-2.
+^ J. F. Weidler (1741). Historia astronomiae, p. 177. Wittenberg: Gottlieb. (cf. Martin Bernal (1992). "Animadversions on the Origins of Western Science", Isis 83 (4), p. 596–607 [606].)
+^ Martin Bernal (1992). "Animadversions on the Origins of Western Science", Isis 83 (4), p. 596–607 [602, 606].
+^ Shahid Rahman; Tony Street; Hassan Tahiri, eds. (2008). "The Birth of Scientific Controversies, The Dynamics of the Arabic Tradition and Its Impact on the Development of Science: Ibn al-Haytham's Challenge of Ptolemy's Almagest". The Unity of Science in the Arabic Tradition. 11. Springer Netherlandsdoi=10.1007/978-1-4020-8405-8. pp. 183–225 [183]. doi:10.1007/978-1-4020-8405-8. ISBN 978-1-4020-8404-1. 
+^ "Dennis Rawlins". The International Journal of Scientific History. Retrieved 2009-10-07. 
+^ Goldstein, Bernard R. (1997). "Saving the Phenomena: The Background to Ptolemy's Planetary Theory". Journal for the History of Astronomy. 28 (1): 1–12. doi:10.1177/002182869702800101. 
+^ S. C. McCluskey, Astronomies and Cultures in Early Medieval Europe, Cambridge: Cambridge Univ. Pr. 1998, pp. 20–21.
+^ Charles Homer Haskins, Studies in the History of Mediaeval Science, New York: Frederick Ungar Publishing, 1967, reprint of the Cambridge, Mass., 1927 edition
+^ Dennis Duke, Ptolemy's Cosmology
+^ Bernard R. Goldstein, ed., The Arabic Version of Ptolemy's Planetary Hypotheses, Transactions of the American Philosophical Society 57, no. 4 (1967), pp. 9–12.
+^ Shcheglov D.A. (2002–2007): "Hipparchus’ Table of Climata and Ptolemy’s Geography", Orbis Terrarum 9 (2003–2007), 177–180.
+^ Book 8
+^ Bagrow 1945.
+^ Talbert, Richard J. A. (2012). "Urbs Roma to Orbis Romanus". In Talbert. Ancient Perspectives: Maps and Their Places in Mesopotamia, Egypt, Greece and Rome. Chicago. pp. 170–72. ISBN 978-0-226-78940-8. 
+^ Jones (2010) ‘The Use and Abuse of Ptolemy’s Tetrabiblos in Renaissance and Early Modern Europe’ by H. Darrel Rutkin, p. 135.
+^ Robbins, Ptolemy Tetrabiblos, 'Introduction' p. x.
+^ Jones (2010) p. xii.
+^ Robbins, Ptolemy Tetrabiblos, 'Introduction' p. xii.
+^ FA Robbins, 1940; Thorndike 1923
+^ Hetherington, Norriss S. Encyclopedia of Cosmology (Routledge Revivals): Historical, Philosophical, and Scientific Foundations of Modern Cosmology Routledge, 8 apr. 2014 ISBN 978-1317677666 p 527
+^ Smith, A. Mark (1996). Ptolemy's Theory of Visual Perception– An English translation of the Optics. The American Philosophical Society. ISBN 0-87169-862-5. Retrieved 27 June 2009. 
+^ Carl Benjamin Boyer, The Rainbow: From Myth to Mathematics (1959)
+^ H. W. Ross and C. Plug, "The History of Size Constancy and Size Illusions", in V. Walsh & J. Kulikowski (eds.) Perceptual Constancy: Why Things Look as They Do. Cambridge: Cambridge University Press, 1998, pp. 499–528.
+^ H. E. Ross and G. M. Ross, "Did Ptolemy Understand the Moon Illusion?", Perception 5 (1976): 377–395.
+^ A. I. Sabra, "Psychology Versus Mathematics: Ptolemy and Alhazen on the Moon Illusion", in E. Grant & J. E. Murdoch (eds.) Mathematics and Its Application to Science and Natural Philosophy in the Middle Ages. Cambridge: Cambridge University Press, 1987, pp. 217–247.
+^ Mars Labs. Google Maps.
+References[edit]
+Texts and translations[edit]
+Bagrow, L. (January 1, 1945). "The Origin of Ptolemy's Geographia". Geografiska Annaler. Geografiska Annaler, Vol. 27. 27: 318–387. doi:10.2307/520071. ISSN 1651-3215. JSTOR 520071. 
+Berggren, J. Lennart, and Alexander Jones. 2000. Ptolemy's Geography: An Annotated Translation of the Theoretical Chapters. Princeton and Oxford: Princeton University Press. ISBN 0-691-01042-0.
+Campbell, T. (1987). The Earliest Printed Maps. British Museum Press. 
+Hübner, Wolfgang, ed. 1998. Claudius Ptolemaeus, Opera quae exstant omnia Vol III/Fasc 1: ΑΠΟΤΕΛΕΣΜΑΤΙΚΑ (= Tetrabiblos). De Gruyter. ISBN 978-3-598-71746-8 (Bibliotheca scriptorum Graecorum et Romanorum Teubneriana). (The most recent edition of the Greek text of Ptolemy's astrological work, based on earlier editions by F. Boll and E. Boer.)
+Lejeune, A. (1989) L'Optique de Claude Ptolémée dans la version latine d'après l'arabe de l'émir Eugène de Sicile. [Latin text with French translation]. Collection de travaux de l'Académie International d'Histoire des Sciences, No. 31. Leiden: E.J.Brill.
+Neugebauer, Otto (1975). A History of Ancient Mathematical Astronomy. I-III. Berlin and New York: Sprnger Verlag. 
+Nobbe, C. F. A., ed. 1843. Claudii Ptolemaei Geographia. 3 vols. Leipzig: Carolus Tauchnitus. (The most recent edition of the complete Greek text)
+Ptolemy. 1930. Die Harmonielehre des Klaudios Ptolemaios, edited by Ingemar Düring. Göteborgs högskolas årsskrift 36, 1930:1. Göteborg: Elanders boktr. aktiebolag. Reprint, New York: Garland Publishing, 1980.
+Ptolemy. 2000. Harmonics, translated and commentary by Jon Solomon. Mnemosyne, Bibliotheca Classica Batava, Supplementum, 0169-8958, 203. Leiden and Boston: Brill Publishers. ISBN 90-04-11591-9
+Robbins, Frank E. (ed.) 1940. Ptolemy Tetrabiblos. Cambridge, Massachusetts: Harvard University Press (Loeb Classical Library). ISBN 0-674-99479-5.
+Smith, A.M. (1996) Ptolemy's theory of visual perception: An English translation of the Optics with introduction and commentary. Transactions of the American Philosophical Society, Vol. 86, Part 2. Philadelphia: The American Philosophical Society.
+Stevenson, Edward Luther (trans. and ed.). 1932. Claudius Ptolemy: The Geography. New York: New York Public Library. Reprint, New York: Dover, 1991. (This is the only complete English translation of Ptolemy's most famous work. Unfortunately, it is marred by numerous mistakes and the placenames are given in Latinised forms, rather than in the original Greek).
+Stückelberger, Alfred, and Gerd Graßhoff (eds). 2006. Ptolemaios, Handbuch der Geographie, Griechisch-Deutsch. 2 vols. Basel: Schwabe Verlag. ISBN 978-3-7965-2148-5. (Massive 1018 pp. scholarly edition by a team of a dozen scholars that takes account of all known manuscripts, with facing Greek and German text, footnotes on manuscript variations, color maps, and a CD with the geographical data)
+Taub, Liba Chia (1993). Ptolemy's Universe: The Natural Philosophical and Ethical Foundations of Ptolemy's Astronomy. Chicago: Open Court Press. ISBN 0-8126-9229-2. 
+Ptolemy's Almagest, Translated and annotated by G. J. Toomer. Princeton University Press, 1998
+External links[edit]
+Wikimedia Commons has media related to Ptolemy.
+Wikiquote has quotations related to: Ptolemy
+Wikisource has original works written by or about:
+Ptolemy
+Online Galleries, History of Science Collections, University of Oklahoma Libraries High resolution images of works by Ptolemy in .jpg and .tiff format.
+Primary sources[edit]
+Ptolemy's Tetrabiblos at LacusCurtius (Transcription of the Loeb Classical Library's English translation)
+Entire Tetrabiblos of J.M. Ashmand's 1822 translation.
+Ptolemy's Geography at LacusCurtius (English translation, incomplete)
+Extracts of Ptolemy on the country of the Seres (China) (English translation)
+Geography (the Balkan Provinces, with old maps) at Sorin Olteanu's LTDM Project (soltdm.com)
+Almagest books 1–13 The complete text of Heiberg's edition (PDF) Greek.
+Almagest books 1–6 (Greek) with preface (Latin) at archive.org
+Geography, digitized codex made in Italy between 1460 and 1477, translated to Latin by Jacobus Angelus at Somni. Also known as codex valentinus, it is the oldest manuscript of the codices with maps of Ptolemy with the donis projections.
+Hieronymi Cardani ... In Cl. Ptolemaei ... IIII De astrorum judiciis From the Rare Book and Special Collection Division at the Library of Congress
+Almagestū Cl. Ptolemei From the Rare Book and Special Collection Division at the Library of Congress
+Secondary material[edit]
+Arnett, Bill (2008). "Ptolemy, the Man". obs.nineplanets.org. Retrieved 2008-11-24. 
+Danzer, Gerald (1988). "Cartographic Images of the World on the Eve of the Discoveries". The Newberry Library. Retrieved 26 November 2008. 
+Haselein, Frank (2007). "Κλαυδιου Πτολεμιου: Γεωγραφικῆς Ύφηγήσεως (Geographie)" (in German and English). Frank Haselein. Retrieved 2008-11-24. 
+Houlding, Deborah (2003). "The Life & Work of Ptolemy". Skyscript.co. Retrieved 2008-11-24. 
+Jones, Alexander (ed.) 2010. Ptolemy in Perspective: Use and Criticism of his Work from Antiquity to the Nineteenth Century. New York: Series: Archimedes, Vol. 23., ISBN 978-90-481-2787-0
+Toomer, Gerald J. (1970). "Ptolemy (Claudius Ptolemæus)" (PDF). In Gillispie, Charles. Dictionary of Scientific Biography. 11. New York: Scribner & American Council of Learned Societies. pp. 186–206. ISBN 978-0-684-10114-9. 
+Sprague, Ben (2001–2007). "Claudius Ptolemaeus (Ptolemy): Representation, Understanding, and Mathematical Labeling of the Spherical Earth". Center for Spatially Integrated Social Science. Retrieved 26 November 2008. 
+Animated illustrations[edit]
+Java simulation of the Ptolemaic System – at Paul Stoddard's Animated Virtual Planetarium, Northern Illinois University
+Animation of Ptolemy's Two Solar Hypotheses on YouTube
+Epicycle and Deferent Demo – at Rosemary Kennett's website at the University of Syracuse
+Flash animation of Ptolemy's universe. (best in Internet Explorer)
+v
+t
+e
+Ancient Greek astronomy
+Astronomers
+Acoreus
+Aglaonice
+Agrippa
+Anaximander
+Andronicus
+Apollonius
+Aratus
+Aristarchus
+Aristyllus
+Attalus
+Autolycus
+Bion
+Callippus
+Cleomedes
+Cleostratus
+Conon
+Eratosthenes
+Euctemon
+Eudoxus
+Geminus
+Heraclides
+Hicetas
+Hipparchus
+Hippocrates of Chios
+Hypsicles
+Menelaus
+Meton
+Oenopides
+Philip of Opus
+Philolaus
+Posidonius
+Ptolemy
+Pytheas
+Seleucus
+Sosigenes of Alexandria
+Sosigenes the Peripatetic
+Strabo
+Thales
+Theodosius
+Theon of Alexandria
+Theon of Smyrna
+Timocharis
+Works
+Almagest (Ptolemy)
+On Sizes and Distances (Hipparchus)
+On the Sizes and Distances (Aristarchus)
+On the Heavens (Aristotle)
+Instruments
+Antikythera mechanism
+Armillary sphere
+Astrolabe
+Dioptra
+Equatorial ring
+Gnomon
+Mural instrument
+Triquetrum
+Concepts
+Callippic cycle
+Celestial spheres
+Circle of latitude
+Counter-Earth
+Deferent and epicycle
+Equant
+Geocentrism
+Heliocentrism
+Hipparchic cycle
+Metonic cycle
+Octaeteris
+Solstice
+Spherical Earth
+Sublunary sphere
+Zodiac
+Influences
+Babylonian astronomy
+Egyptian astronomy
+Influenced
+Medieval European science
+Indian astronomy
+Medieval Islamic astronomy
+v
+t
+e
+Ancient Greek mathematics
+Mathematicians
+Anaxagoras
+Anthemius
+Archytas
+Aristaeus the Elder
+Aristarchus
+Apollonius
+Archimedes
+Autolycus
+Bion
+Bryson
+Callippus
+Carpus
+Chrysippus
+Cleomedes
+Conon
+Ctesibius
+Democritus
+Dicaearchus
+Diocles
+Diophantus
+Dinostratus
+Dionysodorus
+Domninus
+Eratosthenes
+Eudemus
+Euclid
+Eudoxus
+Eutocius
+Geminus
+Heron
+Hipparchus
+Hippasus
+Hippias
+Hippocrates
+Hypatia
+Hypsicles
+Isidore of Miletus
+Leon
+Marinus
+Menaechmus
+Menelaus
+Metrodorus
+Nicomachus
+Nicomedes
+Nicoteles
+Oenopides
+Pappus
+Perseus
+Philolaus
+Philon
+Porphyry
+Posidonius
+Proclus
+Ptolemy
+Pythagoras
+Serenus
+Simplicius
+Sosigenes
+Sporus
+Thales
+Theaetetus
+Theano
+Theodorus
+Theodosius
+Theon of Alexandria
+Theon of Smyrna
+Thymaridas
+Xenocrates
+Zeno of Elea
+Zeno of Sidon
+Zenodorus
+Treatises
+Almagest
+Archimedes Palimpsest
+Arithmetica
+Conics (Apollonius)
+Elements (Euclid)
+On the Sizes and Distances (Aristarchus)
+On Sizes and Distances (Hipparchus)
+On the Moving Sphere (Autolycus)
+The Sand Reckoner
+Problems
+Problem of Apollonius
+Squaring the circle
+Doubling the cube
+Angle trisection
+Centers
+Cyrene
+Library of Alexandria
+Platonic Academy
+Timeline of Ancient Greek mathematicians
+v
+t
+e
+Ancient Greece
+Outline
+Timeline
+ 
+History
+Geography
+Periods
+Cycladic civilization
+Minoan civilization
+Mycenaean civilization
+Greek Dark Ages
+Archaic period
+Classical Greece
+Hellenistic Greece
+Roman Greece
+Geography
+Aegean Sea
+Aeolis
+Alexandria
+Antioch
+Cappadocia
+Crete
+Cyprus
+Doris
+Ephesus
+Epirus
+Hellespont
+Ionia
+Ionian Sea
+Macedonia
+Magna Graecia
+Miletus
+Peloponnesus
+Pergamon
+Pontus
+Taurica
+Ancient Greek colonies
+ 
+City states
+Politics
+Military
+City states
+Argos
+Athens
+Byzantion
+Chalcis
+Corinth
+Eretria
+Kerkyra
+Larissa
+Megalopolis
+Megara
+Rhodes
+Samos
+Sparta
+Syracuse
+Thebes
+Politics
+Boeotarch
+Boule
+Koinon
+Proxeny
+Strategos
+Tagus
+Tyrant
+Amphictyonic League
+Athenian
+Agora
+Areopagus
+Ecclesia
+Graphē paranómōn
+Heliaia
+Ostracism
+Spartan
+Apella
+Ephor
+Gerousia
+Harmost
+Macedon
+Synedrion
+Koinon
+Military
+Wars
+Athenian military
+Antigonid Macedonian army
+Army of Macedon
+Ballista
+Cretan archers
+Hellenistic armies
+Hippeis
+Hoplite
+Hetairoi
+Macedonian phalanx
+Phalanx
+Peltast
+Pezhetairos
+Sarissa
+Sacred Band of Thebes
+Sciritae
+Seleucid army
+Spartan army
+Toxotai
+Xiphos
+Xyston
+ 
+People
+List of ancient Greeks
+Rulers
+Kings of Argos
+Archons of Athens
+Kings of Athens
+Kings of Commagene
+Diadochi
+Kings of Lydia
+Kings of Macedonia
+Kings of Paionia
+Attalid kings of Pergamon
+Kings of Pontus
+Kings of Sparta
+Tyrants of Syracuse
+Philosophers
+Anaxagoras
+Anaximander
+Anaximenes
+Antisthenes
+Aristotle
+Democritus
+Diogenes of Sinope
+Empedocles
+Epicurus
+Gorgias
+Heraclitus
+Hypatia
+Leucippus
+Parmenides
+Plato
+Protagoras
+Pythagoras
+Socrates
+Thales
+Zeno
+Authors
+Aeschylus
+Aesop
+Alcaeus
+Archilochus
+Aristophanes
+Bacchylides
+Euripides
+Herodotus
+Hesiod
+Hipponax
+Homer
+Ibycus
+Lucian
+Menander
+Mimnermus
+Panyassis
+Philocles
+Pindar
+Plutarch
+Polybius
+Sappho
+Simonides
+Sophocles
+Stesichorus
+Theognis
+Thucydides
+Timocreon
+Tyrtaeus
+Xenophon
+Others
+Agesilaus II
+Agis II
+Alcibiades
+Alexander the Great
+Aratus
+Archimedes
+Aspasia
+Demosthenes
+Epaminondas
+Euclid
+Hipparchus
+Hippocrates
+Leonidas
+Lycurgus
+Lysander
+Milo of Croton
+Miltiades
+Pausanias
+Pericles
+Philip of Macedon
+Philopoemen
+Praxiteles
+Ptolemy
+Pyrrhus
+Solon
+Themistocles
+Groups
+Philosophers
+Playwrights
+Poets
+Tyrants
+By culture
+Ancient Greek tribes
+Thracian Greeks
+Ancient Macedonians
+ 
+Society
+Culture
+Society
+Agriculture
+Calendar
+Clothing
+Coinage
+Cuisine
+Economy
+Education
+Festivals
+Funeral and burial practices
+Homosexuality
+Law
+Olympic Games
+Pederasty
+Philosophy
+Prostitution
+Religion
+Slavery
+Warfare
+Wedding customs
+Wine
+Arts
+Sciences
+Architecture (Greek Revival architecture)
+Astronomy
+Literature
+Mathematics
+Medicine
+Music (Musical system)
+Pottery
+Sculpture
+Technology
+Theatre
+Religion
+Funeral and burial practices
+Mythology
+mythological figures
+Temple
+Twelve Olympians
+Underworld
+Sacred places
+Eleusis
+Delphi
+Delos
+Dodona
+Mount Olympus
+Olympia
+Structures
+Athenian Treasury
+Lion Gate
+Long Walls
+Philippeion
+Theatre of Dionysus
+Tunnel of Eupalinos
+Temples
+Aphaea
+Artemis
+Athena Nike
+Erechtheion
+Hephaestus
+Hera (Olympia)
+Parthenon
+Samothrace
+Zeus (Olympia)
+Language
+Proto-Greek
+Mycenaean
+Homeric
+Dialects
+Aeolic
+Arcadocypriot
+Attic
+Doric
+Ionic
+Locrian
+Macedonian
+Pamphylian
+Koine
+Writing
+Linear A
+Linear B
+Cypriot syllabary
+Greek alphabet
+Greek numerals
+Attic numerals
+ 
+Lists
+Cities
+in Epirus
+People
+Place names
+Stoae
+Temples
+Theatres
+Category
+Portal
+Authority control
+WorldCat Identities
+VIAF: 54152998
+LCCN: n50032768
+ISNI: 0000 0001 2280 0429
+GND: 118641786
+SELIBR: 196576
+SUDOC: 027084396
+BNF: cb11920750r (data)
+ULAN: 500330559
+NDL: 00453423
+NKC: ola2002159448
+BNE: XX1136821
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Ptolemy&oldid=767606080"
+Categories: PtolemyAD 100 births170 deaths1st-century Romans2nd-century Romans2nd-century philosophers2nd-century poetsEgyptian calendarAncient Greek astrologersAncient Greek astronomersAncient Greek mathematiciansAncient Greek music theoristsAstrological writersClaudiiEgyptian astronomersEgyptian mathematiciansEpigrammatists of the Greek AnthologyHellenistic EgyptiansAncient Greek geographersRoman-era geographersHidden categories: Pages using ISBN magic linksWikipedia pending changes protected pages (level 1)Wikipedia indefinitely move-protected pagesArticles with hCardsArticles containing Greek-language textArticles containing Latin-language textArticles containing Ancient Greek-language textArticles containing Arabic-language textAll articles with unsourced statementsArticles with unsourced statements from April 2009Articles with Greek-language external linksArticles with Latin-language external linksCS1 German-language sources (de)Wikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with SELIBR identifiersWikipedia articles with BNF identifiersWikipedia articles with ULAN identifiers
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+Article
+Talk
+Variants
+Views
+Read
+Edit
+View history
+More
+Search
+Navigation
+Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store
+Interaction
+HelpAbout WikipediaCommunity portalRecent changesContact page
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page
+Print/export
+Create a bookDownload as PDFPrintable version
+In other projects
+Wikimedia CommonsWikiquoteWikisource
+Languages
+AfrikaansAlemannischالعربيةAragonésArmãneashtiAsturianuAzərbaycancaবাংলাБеларускаяБеларуская (тарашкевіца)‎БългарскиBosanskiBrezhonegCatalàČeštinaChavacano de ZamboangaCymraegDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisFryskGaeilgeGàidhligGalego한국어Հայերենहिन्दीHrvatskiIdoBahasa IndonesiaInterlinguaÍslenskaItalianoעבריתBasa JawaქართულიҚазақшаKurdîLatinaLatviešuLëtzebuergeschLietuviųMagyarМакедонскиMalagasyമലയാളംمصرىBahasa MelayuМокшеньမြန်မာဘာသာNederlandsNedersaksies日本語Norsk bokmålNorsk nynorskOccitanଓଡ଼ିଆOʻzbekcha/ўзбекчаਪੰਜਾਬੀپنجابیپښتوPiemontèisPolskiPortuguêsRomânăРусскийСаха тылаScotsShqipSicilianuSimple EnglishSlovenčinaSlovenščinaکوردیی ناوەندیСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaTagalogதமிழ்Татарча/tatarçaไทยТоҷикӣTürkçeУкраїнськаاردوTiếng ViệtVõroWinaray粵語中文
+Edit links
+This page was last modified on 26 February 2017, at 22:02.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view

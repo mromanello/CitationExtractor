@@ -1,0 +1,28 @@
+Étude	NOM
+comparative	ADJ
+de	PRP
+la	DET:ART
+priorité	NOM
+relative	ADJ
+des	PRP:det
+idées	NOM
+de	PRP
+la	DET:ART
+sagesse	NOM
+et	KON
+de	PRP
+l'	DET:ART
+élection	NOM
+divine	ADJ
+chez	PRP
+les	DET:ART
+deux	NUM
+penseurs	NOM
+.	SENT
+
+Comparaison	NOM
+avec	PRP
+les	DET:ART
+doctrines	NOM
+gnostiques	NOM
+

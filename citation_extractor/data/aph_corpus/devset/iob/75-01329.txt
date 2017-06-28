@@ -1,0 +1,11 @@
+Analisi	NOM
+delle	PRE:det
+varie	ADJ
+funzioni	NOM
+del	PRE:det
+pianto	NOM
+nella	PRE:det
+teoria	NOM
+retorica	ADJ
+ciceroniana	NOM
+

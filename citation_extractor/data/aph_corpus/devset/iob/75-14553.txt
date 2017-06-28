@@ -1,0 +1,10 @@
+Données	NOM
+archéologiques	ADJ
+.	SENT
+
+Dépouillé	VER:pper
+dans	PRP
+le	DET:ART
+vol.	ABR
+75	NUM
+

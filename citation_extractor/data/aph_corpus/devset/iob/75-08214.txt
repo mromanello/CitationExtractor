@@ -1,0 +1,13 @@
+Étude	NOM
+architecturale	ADJ
+de	PRP
+cet	PRO:DEM
+édifice	NOM
+dorique	ADJ
+du	PRP:det
+début	NOM
+de	PRP
+l'	DET:ART
+époque	NOM
+hellénistique	ADJ
+

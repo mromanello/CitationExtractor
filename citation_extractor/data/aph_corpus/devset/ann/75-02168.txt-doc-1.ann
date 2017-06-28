@@ -1,0 +1,8 @@
+T1	AAUTHOR 3 13	Gregory 's
+T2	AWORK 14 35	« De uita Macrinae »,
+T3	AAUTHOR 36 43	Macrina
+T4	REFSCOPE 240 249	(26 ff.).
+R1	Scope Arg1:T3 Arg2:T4
+#0	AnnotatorNotes R1	urn:cts:cwkb:972:26
+#1	AnnotatorNotes T3	urn:cts:cwkb:972
+#2	AnnotatorNotes T1	urn:cts:cwkb:897

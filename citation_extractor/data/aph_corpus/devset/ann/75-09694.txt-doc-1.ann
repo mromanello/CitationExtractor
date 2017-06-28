@@ -1,0 +1,4 @@
+T1	REFAUWORK 153 159	Diodor
+T2	REFSCOPE 160 166	31, 17
+R1	Scope Arg1:T1 Arg2:T2
+#0	AnnotatorNotes R1	urn:cts:cwkb:835:31.17

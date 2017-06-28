@@ -1,0 +1,20 @@
+Questo	PRO:demo
+episodio	NOM
+dei	PRE:det
+«	PON
+Fasti	NOM
+»	PON
+riflette	VER:pres
+l'	DET:def
+importanza	NOM
+attribuita	VER:pper
+da	PRE
+Augusto	NOM
+al	PRE:det
+culto	NOM
+di	PRE
+Vesta	NOM
+e	CON
+dei	PRE:det
+Lari	NOM
+

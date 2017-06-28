@@ -1,0 +1,19 @@
+Zu	APPR
+den	ART
+Zielen	NN
+der	ART
+Argumentation	NN
+,	$,
+zur	APPRART
+Funktion	NN
+des	ART
+etymologischen	ADJA
+Teils	NN
+und	KON
+zu	APPR
+Platons	NN
+Sicht	NN
+der	ART
+Etymologie	NN
+.	$.
+

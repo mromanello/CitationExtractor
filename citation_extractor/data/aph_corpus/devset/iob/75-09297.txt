@@ -1,0 +1,43 @@
+Examine	VER:pres
+51	NUM
+inscriptions	NOM
+du	PRP:det
+CIL	NAM
+9.	SENT
+
+L'	DET:ART
+emploi	NOM
+de	PRP
+la	DET:ART
+formule	NOM
+documente	VER:pres
+l'	DET:ART
+exercice	NOM
+quotidien	ADJ
+de	PRP
+la	DET:ART
+magistrature	NOM
+décurionale	ADJ
+.	SENT
+
+Présentation	NOM
+de	PRP
+deux	NUM
+timbres	NOM
+sur	PRP
+brique	NOM
+inédits	ADJ
+,	PUN
+trouvés	VER:pper
+à	PRP
+Teanum	NAM
+Apulum	NAM
+et	KON
+datables	ADJ
+de	PRP
+la	DET:ART
+fin	NOM
+de	PRP
+la	DET:ART
+République	NOM
+

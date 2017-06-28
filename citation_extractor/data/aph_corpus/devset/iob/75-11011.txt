@@ -1,0 +1,32 @@
+Plus	ADV
+que	KON
+la	DET:ART
+guerre	NOM
+,	PUN
+le	DET:ART
+commerce	NOM
+assurait	VER:impf
+aux	PRP:det
+Romains	NAM
+un	DET:ART
+afflux	NOM
+constant	ADJ
+d'	PRP
+esclaves	NOM
+.	SENT
+
+Les	DET:ART
+populations	NOM
+barbares	ADJ
+se	PRO:PER
+livraient	VER:impf
+donc	ADV
+à	PRP
+des	PRP:det
+guerres	NOM
+intestines	ADJ
+pour	PRP
+acquérir	VER:infi
+des	PRP:det
+prisonniers	NOM
+
