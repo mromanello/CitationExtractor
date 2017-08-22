@@ -394,8 +394,8 @@ def sort_mentions_by_appearance(entities, relations):
 
 def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_titles):
     """
-    Utility function to load a set of APh documents (in brat format) and prepare them
-    in a format suitable for processing (typically when carrying out the evaluation).
+    Utility function to load a set of brat documents and prepare them
+    in a format suitable for processing (typically when carrying out the evaluation or the training).
 
     :param citation_extractor: instance of `core.citation_extractor`
     :parm knowledge_base: instance of `knowledge_base.KnowledgeBase`
@@ -403,7 +403,7 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
     :param aph_titles: `pandas.DataFrame` with column 'title'
     :return: a `pandas.DataFrame` (columns: 'surface', 'surface_norm', 'scope', 'type',
         'other_mentions', 'prev_mentions', 'urn', 'urn_clean','doc_id', 'doc_title',
-        'doc_title_mentions', 'doc_title_norm', 'doc_text')
+        'doc_title_mentions', 'doc_title_norm', 'doc_text', 'sentence_start', 'sentence_end')
 
     """
     from citation_extractor.pipeline import extract_entity_mentions

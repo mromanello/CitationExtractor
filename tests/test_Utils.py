@@ -33,7 +33,6 @@ def test_load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_
     # load the pandas.DataFrame
     dataframe = load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles)
     assert dataframe is not None and type(dataframe)==type(pd.DataFrame()) and dataframe.shape[0]>0
-    pdb.set_trace()
 
 #####################
 # Utils.strmatching #
