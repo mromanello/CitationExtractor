@@ -2,6 +2,7 @@
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
 from __future__ import print_function
+import pdb
 import logging
 import os
 import codecs
@@ -11,7 +12,7 @@ import sys,pprint,re,string
 import pandas as pd
 from random import *
 from pyCTS import CTS_URN
-from .strmatching import StringUtils  
+from .strmatching import StringUtils
 
 #import citation_extractor
 #import xml.dom.minidom as mdom
@@ -80,7 +81,7 @@ def read_ann_file_new(fileid, ann_dir, suffix="-doc-1.ann"):
     for row in rows:
         cols = row.split("\t")
         ann_id = cols[0]
-        
+
         if(u"#" in cols[0]):
             # it's a text annotation
             tmp = {
@@ -89,7 +90,7 @@ def read_ann_file_new(fileid, ann_dir, suffix="-doc-1.ann"):
                 ,"text":cols[2]
             }
             annotations.append(tmp)
-        
+
         elif(len(cols)==3 and u"T" in cols[0]):
             # it's an entity
             ent_count += 1
@@ -100,22 +101,22 @@ def read_ann_file_new(fileid, ann_dir, suffix="-doc-1.ann"):
                                 ,"offset_start":ranges.split()[0]
                                 ,"offset_end":ranges.split()[1]
                                 ,"surface":cols[2]}
-        
+
         elif(len(cols)>=2 and u"R" in cols[0]):
             # it's a relation
             rel_type, arg1, arg2 = cols[1].split()
             relations[cols[0]] = {"ann_id":ann_id
                                 ,"arguments":(arg1.split(":")[1], arg2.split(":")[1])
                                 ,"relation_type":rel_type}
-                                
+
     return entities, relations, annotations
 
 def annotations2references(doc_id, directory, kb):
     """
     Read annotations from a brat stand-off file (.ann).
     For each entity and relation keep also the context, i.e. the containing sentences.
-    
-    TODO: 
+
+    TODO:
     - add author and work labels
     - if annotation is a scope relation, add work- and author-urn
     if annotation is an AWORK, add work- and author-urn
@@ -130,7 +131,7 @@ def annotations2references(doc_id, directory, kb):
                 last_position = text.find(newline,last_position+1)
                 positions.append((last_position,last_position+len(newline)))
             return positions
-    
+
     def find_linenumber_newlineoffset_for_string(offset_start,offset_end,newline_offsets):
         """
         TODO
@@ -139,7 +140,7 @@ def annotations2references(doc_id, directory, kb):
             #print offset_start,offset_end,nl_offset
             if(offset_start <= nl_offset[0] and offset_end <= nl_offset[0]):
                 return (n,newline_offsets[n-1][1],newline_offsets[n][0])
-    
+
     import knowledge_base
 
     entities, relations, disambiguations = read_ann_file_new(doc_id, directory)
@@ -276,7 +277,7 @@ def file_to_instances(inp_file):
     """
     Reads a IOB file a converts it into a list of instances.
     Each instance is a list of tuples, where tuple[0] is the token and tuple[1] contains its assigned label
-   
+
     Example:
     >>> file_to_instances("data/75-02637.iob")
     """
@@ -298,9 +299,9 @@ def file_to_instances(inp_file):
 
 def instance_contains_label(instance,labels=["O"]):
     """
-    TODO: 
+    TODO:
     """
-    temp=[token[len(token)-1] for token in instance] 
+    temp=[token[len(token)-1] for token in instance]
     res = set(temp).intersection(set(labels))
     if(len(res)==0):
         return False
@@ -333,7 +334,7 @@ def filter_IOB(instances,tag_name):
         if(len(temp) > 0 and open):
             out.append(temp)
     for r in out:
-        res.append(' '.join(r)) 
+        res.append(' '.join(r))
     return res
 
 def read_iob_files(inp_dir, extension=".iob"):
@@ -393,7 +394,7 @@ def sort_mentions_by_appearance(entities, relations):
 
 def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_titles):
     """
-    Utility function to load a set of APh documents (in brat format) and prepare them 
+    Utility function to load a set of APh documents (in brat format) and prepare them
     in a format suitable for processing (typically when carrying out the evaluation).
 
     :param citation_extractor: instance of `core.citation_extractor`
@@ -401,14 +402,14 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
     :param aph_ann_files: a tuple: [0] the base directory; [1] a list of file names
     :param aph_titles: `pandas.DataFrame` with column 'title'
     :return: a `pandas.DataFrame` (columns: 'surface', 'surface_norm', 'scope', 'type',
-        'other_mentions', 'prev_mentions', 'urn', 'urn_clean','doc_id', 'doc_title', 
+        'other_mentions', 'prev_mentions', 'urn', 'urn_clean','doc_id', 'doc_title',
         'doc_title_mentions', 'doc_title_norm', 'doc_text')
 
     """
     from citation_extractor.pipeline import extract_entity_mentions
 
     cols = ['surface', 'surface_norm', 'scope', 'type', 'other_mentions', 'prev_mentions', 'urn', 'urn_clean',
-            'doc_id', 'doc_title', 'doc_title_mentions', 'doc_title_norm', 'doc_text']
+            'doc_id', 'doc_title', 'doc_title_mentions', 'doc_title_norm', 'doc_text', 'sentence_start', 'sentence_end']
     df_data = pd.DataFrame(dtype='object', columns=cols)
 
     # Read all annotated files
@@ -420,7 +421,6 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
             # Read doc annotations
             file_suffix = filename.replace('-doc-1.ann', '')
             entities, relations, disambiguations = read_ann_file_new(file_suffix, ann_dir + '/')
-
             # Read doc text
             doc_text = None
             filename_text = filename.replace('.ann', '.txt')
@@ -428,6 +428,7 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
                 doc_text = f.read()
                 doc_text = unicode(doc_text, 'utf-8')
             logger.debug(u'Document text: {}'.format(doc_text))
+            doc_newlines = _find_newlines(doc_text)
 
             # Get title
             doc_title = None
@@ -436,7 +437,7 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
                 doc_title = aph_titles.loc[file_id, 'title']
                 doc_title = unicode(doc_title, 'utf-8')
             logger.debug(u'Document title: {}'.format(doc_title))
-            
+
             try:
                 # Extract mentions from the title, list of (type, surface) tuples
                 doc_title_extracted_mentions = extract_entity_mentions(doc_title, extractor, postaggers, norm=True)
@@ -445,7 +446,7 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
                 print(e)
                 print(doc_title)
                 print(file_id)
-            
+
             # Normalize title
             doc_title_norm = StringUtils.normalize(doc_title)
 
@@ -455,7 +456,7 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
 
             # Rearrange disambiguations
             disambiguations_new = dict(map(lambda e: (e['anchor'], e['text']), disambiguations))
-            
+
             prev_entities = []
             for mention_id in ordered_mentions:
 
@@ -465,6 +466,8 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
                 mention_surface = None
                 mention_scope = None
                 mention_type = None
+                sentence_start = None
+                sentence_end = None
 
                 # It's a relation
                 if mention_id.startswith('R'):
@@ -495,6 +498,22 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
                     mention_scope = entity_1['surface']
                     mention_type = entity_0['entity_type']
 
+                    if entity_0["offset_start"] > entity_1["offset_start"]:
+                        sentence_start = _find_linenumber_by_offset(int(entity_1["offset_start"])
+                                                                , int(entity_1["offset_end"])
+                                                                , doc_newlines)[0]
+                        sentence_end = _find_linenumber_by_offset(int(entity_0["offset_start"])
+                                                                , int(entity_0["offset_end"])
+                                                                , doc_newlines)[0]
+                    else:
+                        sentence_start = _find_linenumber_by_offset(int(entity_0["offset_start"])
+                                                                , int(entity_0["offset_end"])
+                                                                , doc_newlines)[0]
+                        sentence_end = _find_linenumber_by_offset(int(entity_1["offset_start"])
+                                                                , int(entity_1["offset_end"])
+                                                                , doc_newlines)[0]
+
+
                 # It's a non-relation
                 elif mention_id.startswith('T'):
                     entity = entities[mention_id]
@@ -509,11 +528,17 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
                         mention_urn = disambiguations_new[mention_id]
                     mention_surface = entity['surface']
                     mention_type = entity['entity_type']
+                    mention_offset_start = int(entity['offset_start'])
+                    mention_offset_end = int(entity['offset_end'])
+                    sentence_start = _find_linenumber_by_offset(mention_offset_start
+                                                            , mention_offset_end
+                                                            , doc_newlines)[0]
+                    sentence_end = sentence_start
 
                 else:
                     logger.error('Unknown mention id: {} in doc {}'.format(mention_id, filename))
                     continue
-                    
+
                 # Get clean URN (without passage), skip if non-valid
                 if mention_urn != NIL_ENTITY:
                     try:
@@ -524,12 +549,14 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
                         logger.error(e)
                         logger.warning('Failed parsing the URN: |{}| at: {}'.format(mention_urn, file_id))
                         continue
-                        
+
                 # Keep track of previous mentions
                 mention_prev_entities = list(prev_entities) # copy
                 prev_entities.append(mention_data_id)
-                
+
                 df_data.loc[mention_data_id, 'surface'] = mention_surface
+                df_data.loc[mention_data_id, 'sentence_start'] = sentence_start
+                df_data.loc[mention_data_id, 'sentence_end'] = sentence_end
                 df_data.loc[mention_data_id, 'surface_norm'] = StringUtils.normalize(mention_surface)
                 df_data.loc[mention_data_id, 'scope'] = mention_scope
                 df_data.loc[mention_data_id, 'type'] = mention_type
@@ -541,7 +568,7 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
                 df_data.loc[mention_data_id, 'doc_text'] = doc_text
                 df_data.loc[mention_data_id, 'urn'] = mention_urn
                 df_data.loc[mention_data_id, 'urn_clean'] = clean_urn
-                
+
             # Add successfully parsed mentions of the doc to other_mentions field of each mention of the doc
             for m_id in prev_entities:
                 other_mentions = list(prev_entities)
@@ -567,3 +594,26 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
     ))
 
     return df_data
+
+def _find_newlines(text, newline=u'\n'):
+    """
+    TODO
+    """
+    positions = []
+    last_position = 0
+    if(text.find(newline) == -1):
+        return positions
+    else:
+        while(text.find(newline,last_position+1)>-1):
+            last_position = text.find(newline,last_position+1)
+            positions.append((last_position,last_position+len(newline)))
+        return positions
+
+def _find_linenumber_by_offset(offset_start, offset_end, newline_offsets):
+    """
+    TODO
+    """
+    for n,nl_offset in enumerate(newline_offsets):
+        #print offset_start,offset_end,nl_offset
+        if(offset_start <= nl_offset[0] and offset_end <= nl_offset[0]):
+            return (n+1, newline_offsets[n-1][1], newline_offsets[n][0])

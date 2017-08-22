@@ -7,7 +7,7 @@ import pkg_resources
 import logging
 import pandas as pd
 from pytest import fixture
-from citation_extractor.Utils.IO import * 
+from citation_extractor.Utils.IO import *
 from citation_extractor.Utils.strmatching import StringUtils
 
 logging.basicConfig(level=logging.INFO)
@@ -33,13 +33,14 @@ def test_load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_
     # load the pandas.DataFrame
     dataframe = load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles)
     assert dataframe is not None and type(dataframe)==type(pd.DataFrame()) and dataframe.shape[0]>0
+    pdb.set_trace()
 
 #####################
 # Utils.strmatching #
 #####################
 
 def test_utils_stringutils():
-    
+
     strings = [
         ("de", u"Wie seine Vorgänger verfolgt auch Ammianus die didaktische Absicht,")
         , ("en", u"Judgement of Paris, with actors playing the bribing goddesses, at the end of Book 10 (11, 3-5 : cf. 10, 30-31).")
