@@ -17,7 +17,12 @@ env/
 
 # project specific
 citation_extractor/data/pickles/
+citation_extractor/output/
 
 # pypi
 build/
 dist/
+
+.coverage
+*.egg-info/
+\#*#
