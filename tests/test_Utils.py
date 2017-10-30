@@ -46,6 +46,9 @@ def test_load_brat_data_withcontext(crf_citation_extractor, knowledge_base, post
                                , aph_titles
                                , context_window=(1,1))
 
+    pickle_filename = pkg_resources.resource_filename("citation_extractor", "data/pickles/aph_data.pkl")
+    dataframe.to_pickle(pickle_filename)
+    logger.info("Dataframe pickled to %s" % pickle_filename)
     assert dataframe is not None and type(dataframe)==type(pd.DataFrame()) and dataframe.shape[0]>0
     return
 

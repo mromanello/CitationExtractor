@@ -580,17 +580,27 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
                 df_data.loc[m_id, 'other_mentions'] = other_mentions
 
             # by now `prev_entities` contains all entities/relations, sorted
-            for m_id in prev_entities:
-                context_size_left, context_size_right = context_window
-                context_start = df_data.loc[m_id, 'sentence_start'] - context_size_left
-                context_end = df_data.loc[m_id, 'sentence_end'] + context_size_right
-                logger.debug("Entity %s; start sentence = %i; end sentence = %i; context = %i, %i" % (m_id
-                                                                       , df_data.loc[m_id, 'sentence_start']
-                                                                       , df_data.loc[m_id, 'sentence_end']
-                                                                       , context_start
-                                                                       , context_end))
-                #mentions_in_context = df_data[df[data]['sentence_start']]
-                #df_data.loc[m_id, 'mentions_in_context'] = mentions_in_context
+            if context_window is not None:
+                for m_id in prev_entities:
+                    context_size_left, context_size_right = context_window
+                    context_start = df_data.loc[m_id, 'sentence_start'] - context_size_left
+                    context_end = df_data.loc[m_id, 'sentence_end'] + context_size_right
+
+                    # filter out the entities/mentions outside of the context
+                    mentions_in_context = list(df_data[(df_data["doc_id"]==file_id) & \
+                                                        (df_data["sentence_start"] >= context_start) & \
+                                                        (df_data["sentence_end"]<= context_end)].index)
+
+                    logger.debug("Entity %s; start sentence = %i; end sentence = %i; context = %i, %i; entities in context: %s" % (m_id
+                                                                           , df_data.loc[m_id, 'sentence_start']
+                                                                           , df_data.loc[m_id, 'sentence_end']
+                                                                           , context_start
+                                                                           , context_end
+                                                                           , mentions_in_context))
+
+                    # remove the entity in focus
+                    mentions_in_context.remove(m_id)
+                    df_data.loc[m_id, 'mentions_in_context'] = mentions_in_context
 
     nb_total = df_data.shape[0]
     nb_authors = df_data[df_data['type'] == 'AAUTHOR'].shape[0]

@@ -55,7 +55,7 @@ def aph_test_ann_files():
 @fixture(scope="session")
 def aph_testset_dataframe(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles):
     """
-    A pandas DataFrame containing the APh test-set data: may be useful to perform evaluation. 
+    A pandas DataFrame containing the APh test-set data: may be useful to perform evaluation.
     """
     logger.info("Loading test-set data (%i documents) from %s" % (len(aph_test_ann_files[1]), aph_test_ann_files[0]))
     dataframe = load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles)
