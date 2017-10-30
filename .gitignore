@@ -21,3 +21,6 @@ citation_extractor/data/pickles/
 # pypi
 build/
 dist/
+
+# Pycharm
+.idea
