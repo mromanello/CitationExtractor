@@ -24,15 +24,27 @@ def test_annotations2references(knowledge_base):
     all_annotations = [annotations2references(file, dir, knowledge_base) for file in files]
     references = reduce((lambda x, y: x + y), all_annotations)
     assert references is not None
-
-#def test_sort_entities(): #TODO implement
-#    raise NotImplementedError
+    return
 
 #@pytest.mark.skip
 def test_load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles):
     # load the pandas.DataFrame
     dataframe = load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles)
     assert dataframe is not None and type(dataframe)==type(pd.DataFrame()) and dataframe.shape[0]>0
+
+def test_load_brat_data_withcontext(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles):
+    """
+    Same as above, but a context window for the current entity/relation.
+    """
+    # load the pandas.DataFrame
+    dataframe = load_brat_data(crf_citation_extractor
+                               , knowledge_base, postaggers
+                               , aph_test_ann_files
+                               , aph_titles
+                               , context_window=(1,1))
+
+    assert dataframe is not None and type(dataframe)==type(pd.DataFrame()) and dataframe.shape[0]>0
+    return
 
 #####################
 # Utils.strmatching #
