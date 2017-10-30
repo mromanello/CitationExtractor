@@ -392,15 +392,17 @@ def sort_mentions_by_appearance(entities, relations):
     by_offset = [id for id, offset in sorted(by_offset, key=lambda (id, offset): offset)]
     return by_offset
 
-def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_titles):
+def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_titles, context_window=None):
     """
     Utility function to load a set of brat documents and prepare them
     in a format suitable for processing (typically when carrying out the evaluation or the training).
 
     :param citation_extractor: instance of `core.citation_extractor`
-    :parm knowledge_base: instance of `knowledge_base.KnowledgeBase`
+    :param knowledge_base: instance of `knowledge_base.KnowledgeBase`
+    :param postaggers: TODO
     :param aph_ann_files: a tuple: [0] the base directory; [1] a list of file names
     :param aph_titles: `pandas.DataFrame` with column 'title'
+    :param context_window: TODO
     :return: a `pandas.DataFrame` (columns: 'surface', 'surface_norm', 'scope', 'type',
         'other_mentions', 'prev_mentions', 'urn', 'urn_clean','doc_id', 'doc_title',
         'doc_title_mentions', 'doc_title_norm', 'doc_text', 'sentence_start', 'sentence_end')
@@ -408,8 +410,10 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
     """
     from citation_extractor.pipeline import extract_entity_mentions
 
+    # define the columns of the resulting dataframe
     cols = ['surface', 'surface_norm', 'scope', 'type', 'other_mentions', 'prev_mentions', 'urn', 'urn_clean',
-            'doc_id', 'doc_title', 'doc_title_mentions', 'doc_title_norm', 'doc_text', 'sentence_start', 'sentence_end']
+            'doc_id', 'doc_title', 'doc_title_mentions', 'doc_title_norm', 'doc_text', 'sentence_start',
+            'sentence_end', 'mentions_in_context']
     df_data = pd.DataFrame(dtype='object', columns=cols)
 
     # Read all annotated files
@@ -574,6 +578,19 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
                 other_mentions = list(prev_entities)
                 other_mentions.remove(m_id)
                 df_data.loc[m_id, 'other_mentions'] = other_mentions
+
+            # by now `prev_entities` contains all entities/relations, sorted
+            for m_id in prev_entities:
+                context_size_left, context_size_right = context_window
+                context_start = df_data.loc[m_id, 'sentence_start'] - context_size_left
+                context_end = df_data.loc[m_id, 'sentence_end'] + context_size_right
+                logger.debug("Entity %s; start sentence = %i; end sentence = %i; context = %i, %i" % (m_id
+                                                                       , df_data.loc[m_id, 'sentence_start']
+                                                                       , df_data.loc[m_id, 'sentence_end']
+                                                                       , context_start
+                                                                       , context_end))
+                #mentions_in_context = df_data[df[data]['sentence_start']]
+                #df_data.loc[m_id, 'mentions_in_context'] = mentions_in_context
 
     nb_total = df_data.shape[0]
     nb_authors = df_data[df_data['type'] == 'AAUTHOR'].shape[0]
