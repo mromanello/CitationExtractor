@@ -32,6 +32,9 @@ def test_annotations2references(knowledge_base):
 def test_load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles):
     # load the pandas.DataFrame
     dataframe = load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles)
+    pickle_filename = pkg_resources.resource_filename("citation_extractor", "data/pickles/aph_data.pkl")
+    dataframe.to_pickle(pickle_filename)
+    logger.info("Dataframe pickled to %s" % pickle_filename)
     assert dataframe is not None and type(dataframe)==type(pd.DataFrame()) and dataframe.shape[0]>0
 
 #####################
