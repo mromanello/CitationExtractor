@@ -1,11 +1,11 @@
 ## Next steps
 
-* create evaluation `py.tests` for NER, RelEX and (as soon as possible) NED
+* [ ] create evaluation `py.tests` for NER, RelEX and ~~NED~~
     - k-fold cross evaluation
     - this way evaluations can be ran every time e.g. a feature extraction function is changed/introduced
     - write results to disk so that they can be inspected e.g. via brat
-    - for RelEx: compare rule-based and ML-based extraction 
-* create some stats about the traning/test corpus
+    - for RelEx: compare rule-based and ML-based extraction
+* [ ] create some stats about the traning/test corpus (**but not here, on APh corpus repo**)
     - number of entities by class
     - number of relations
     - number tokens
@@ -20,9 +20,9 @@
 
     - put author names into a dictionary, assuring that the keys are unique
     - this code uses the new KB, not the one in `citation_extractor.ned`
-    
-    flat_author_names = {"%s$$n%i"%(author.get_urn(), i+1):name[1] 
-            for author in kb.get_authors() 
+
+    flat_author_names = {"%s$$n%i"%(author.get_urn(), i+1):name[1]
+            for author in kb.get_authors()
                         for i,name in enumerate(author.get_names())  
                                             if author.get_urn() is not None}
 
@@ -54,5 +54,3 @@
     * use of the several classifiers (not only CRF) i.e. scikitlearnadapter
     * test that the ActiveLearner still works
 * ~~use py.test [doku](http://pytest.org/latest/pytest.pdf)~~
-
-
