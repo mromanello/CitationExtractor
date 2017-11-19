@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
+"""TODO."""
+
 import pytest
 import pprint
 import logging
@@ -9,26 +11,31 @@ from pytest import fixture
 import pandas as pd
 from citation_extractor import pipeline
 from citation_extractor.Utils.IO import load_brat_data
-from citation_extractor.settings import crf
+from citation_extractor.settings import crf, svm, maxent
 from citation_extractor.core import citation_extractor
 from citation_extractor.ned import KnowledgeBase
 from citation_extractor.ned import CitationMatcher
 from knowledge_base import KnowledgeBase as KnowledgeBaseNew
 
 logging.basicConfig(level=logging.INFO)
-#logging.basicConfig(level=logging.DEBUG)
+# logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
+
 
 @fixture(scope="session")
 def crf_citation_extractor(tmpdir_factory):
-    """
-    Initialise a citation extractor with CRF model trained on the
-    goldset of the APh corpus.
-    """
+    """Initialise a citation extractor trained with CRF on APh corpus."""
     crf.TEMP_DIR = str(tmpdir_factory.mktemp('tmp'))+"/"
     crf.OUTPUT_DIR = str(tmpdir_factory.mktemp('out'))+"/"
     crf.LOG_FILE = crf.TEMP_DIR.join("extractor.log")
     return pipeline.get_extractor(crf)
+
+
+@fixture(scope="session")
+def svm_citation_extractor():
+    """Initialise a citation extractor trained with SVM on APh corpus."""
+    return pipeline.get_extractor(svm)
+
 
 @fixture(scope="session")
 def processing_directories(tmpdir_factory):
@@ -55,7 +62,7 @@ def aph_test_ann_files():
 @fixture(scope="session")
 def aph_testset_dataframe(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles):
     """
-    A pandas DataFrame containing the APh test-set data: may be useful to perform evaluation. 
+    A pandas DataFrame containing the APh test-set data: may be useful to perform evaluation.
     """
     logger.info("Loading test-set data (%i documents) from %s" % (len(aph_test_ann_files[1]), aph_test_ann_files[0]))
     dataframe = load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles)
