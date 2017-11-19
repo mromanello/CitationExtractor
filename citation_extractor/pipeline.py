@@ -9,7 +9,7 @@ Usage:
 
 Options:
     -h, --help              Show this message.
-    -V, --version           Show version. 
+    -V, --version           Show version.
     -c, --config=<file>     The configuration file.
 """
 
@@ -22,7 +22,7 @@ import langid
 if(sys.version_info < (3, 0)):
     from treetagger_python2 import TreeTagger
 else:
-    from treetagger import TreeTagger 
+    from treetagger import TreeTagger
 from operator import itemgetter
 import citation_extractor
 from citation_extractor.Utils import IO
@@ -47,7 +47,7 @@ REFAUWORK_TYPE = 'REFAUWORK'
 def extract_entity_mentions(text, citation_extractor, postaggers, norm=False):
     if not text:
         return []
-    
+
     try:
         # detect the language of the input string for starters
         lang = detect_language(text)
@@ -57,10 +57,10 @@ def extract_entity_mentions(text, citation_extractor, postaggers, norm=False):
     except Exception, e:
         logger.debug(u'Exception while tagging {} with lang={}'.format(text, lang))
         return []
-    
+
     # convert to a list of lists; keep just token and PoS tag, discard lemma
     iob_data = [[token[:2] for token in sentence] for sentence in [postagged_string]]
-    
+
     # put the PoS tags into a separate nested list
     postags = [[("z_POS", token[1]) for token in sentence] for sentence in iob_data if len(sentence) > 0]
 
@@ -78,7 +78,7 @@ def extract_entity_mentions(text, citation_extractor, postaggers, norm=False):
     authors = map(lambda a: (AUTHOR_TYPE, a), filter_IOB(output, "AAUTHOR"))
     works = map(lambda w: (WORK_TYPE, w), filter_IOB(output, "AWORK"))
     mentions = authors + works
-    
+
     if norm:
         mentions_norm = map(lambda (m_type, m_surface): (m_type, StringUtils.normalize(m_surface, lang=lang)), mentions)
         return mentions_norm
@@ -101,7 +101,7 @@ def recover_segmentation_errors(text, abbreviation_list, verbose=False):
     >> recover_segmentation_errors(text,abbrev,verbose=True)
     """
     def is_abbreviation(token,abbreviations):
-        return token in abbreviations   
+        return token in abbreviations
     output = []
     text_lines = text.split('\n')
     if(verbose):
@@ -141,7 +141,7 @@ def get_taggers(treetagger_dir='/Applications/treetagger/cmd/', abbrev_file=None
     :param abbrev_file: an abbreviation file to be passed to TreeTagger.
     :return: a dictionary where keys are language codes and values are `TreeTagger` instances.
 
-    .. note::This function won't work (as it is) in Python 3, since the TreeTagger for py3 does not want 
+    .. note::This function won't work (as it is) in Python 3, since the TreeTagger for py3 does not want
             the `encoding` parameter at initialisation time.
     """
     try:
@@ -157,7 +157,7 @@ def get_taggers(treetagger_dir='/Applications/treetagger/cmd/', abbrev_file=None
         'fr':('french','utf-8'),
         #'la':('latin','latin-1'), #TODO: do it via CLTK
         'nl':('dutch','utf-8'),
-        #'pt':('portuguese','utf-8') # for this to work one needs to add the language 
+        #'pt':('portuguese','utf-8') # for this to work one needs to add the language
                                      # to the dict _treetagger_languages in TreeTagger
     }
     taggers = {}
@@ -170,11 +170,11 @@ def get_taggers(treetagger_dir='/Applications/treetagger/cmd/', abbrev_file=None
         except Exception, e:
             logger.error("initialising Treetagger for language %s raised error: \"%s\""%(lang_codes[lang][0],e))
             raise e
-    return taggers  
+    return taggers
 
 def get_extractor(settings):
     """
-    Instantiate, train and return a Citation_Extractor. 
+    Instantiate, train and return a Citation_Extractor.
     """
     import sys
     import citation_extractor as citation_extractor_module
@@ -187,7 +187,12 @@ def get_extractor(settings):
         for directory in settings.DATA_DIRS:
             train_instances += IO.read_iob_files(directory,extension=".txt")
         logger.info("Training data: found %i directories containing %i  sentences and %i tokens"%(len(settings.DATA_DIRS),len(train_instances),IO.count_tokens(train_instances)))
-        ce = citation_extractor(settings)
+
+        if(settings.CLASSIFIER is None):
+            ce = citation_extractor(settings)
+        else:
+            ce = citation_extractor(settings, settings.CLASSIFIER)
+            
     except Exception, e:
         print e
     finally:
@@ -196,10 +201,10 @@ def get_extractor(settings):
 def detect_language(text, return_probability=False):
     """
     Detect language of a notice by using the module `langid`.
-    
+
     : param text: the text whose language is to be detected
-    :return: if `return_probability` == False, returns the language code (string); 
-                if `return_probability` == False, returns a tuple where tuple[0] is 
+    :return: if `return_probability` == False, returns the language code (string);
+                if `return_probability` == False, returns a tuple where tuple[0] is
                 the language code and tuple[1] its probability.
     """
     try:
@@ -243,7 +248,7 @@ def compact_abbreviations(abbreviation_dir):
     return fname,abbreviations
 
 def split_sentences(filename,outfilename=None):
-    """ 
+    """
     sentence tokenization
     text tokenization
     POS-tagging
@@ -260,7 +265,7 @@ def split_sentences(filename,outfilename=None):
         sent_tok = create_instance_tokenizer(train_dirs=[("/Users/rromanello/Documents/APh_Corpus/goldset/txt/",'.txt'),])
         sentences = sent_tok.tokenize(text)
         blurb = "\n".join(sentences)
-        # the following lines try to correct the most predictable mistakes of the sentence tokenizer 
+        # the following lines try to correct the most predictable mistakes of the sentence tokenizer
         recover = r'((.?[A-Z][a-z]+\.?) ([()0-9]+\.?\n?)+)'
         matches = re.findall(recover,blurb)
         for match in matches:
@@ -298,7 +303,7 @@ def extract_relationships(entities):
 
 def save_scope_relationships(fileid, ann_dir, relations, entities):
     """
-    appends relationships (type=scope) to an .ann file. 
+    appends relationships (type=scope) to an .ann file.
     """
     import codecs
     ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
@@ -321,7 +326,7 @@ def save_scope_relationships(fileid, ann_dir, relations, entities):
 
 def clean_relations_annotation(fileid, ann_dir, entities):
     """
-    overwrites relationships (type=scope) to an .ann file. 
+    overwrites relationships (type=scope) to an .ann file.
     """
     ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
     keys = entities.keys()
@@ -348,7 +353,7 @@ def remove_all_annotations(fileid, ann_dir):
     relation_keys = relations.keys()
     relation_keys.sort(key=lambda k:(k[0], int(k[1:])))
     relation_string = "\n".join(["%s\tScope Arg1:%s Arg2:%s"%(rel,relations[rel][1].replace('Arg1:',''),relations[rel][2].replace('Arg2:','')) for rel in relation_keys])
-    
+
     try:
         f = codecs.open(ann_file,'w','utf-8')
         f.write(entities_string)
@@ -463,7 +468,7 @@ def disambiguate_entities(citation_matcher,entities,docid,min_distance_threshold
         return answer
     import re
     print >> sys.stderr, "Disambiguating the %i entities contained in %s..."%(len(entities), docid)
-    
+
     result = []
     matches = []
     distance_threshold = min_distance_threshold
@@ -510,10 +515,10 @@ def preproc_document(doc_id, inp_dir, interm_dir, out_dir, abbreviations, tagger
     :param inp_dir: the input directory
     :param interm_dir: the directory where to store intermediate outputs
     :param out_dir: the directory where to store the PoS-tagged and tokenised text
-    :param abbreviations: 
+    :param abbreviations:
     :param taggers: the dictionary returned by `get_taggers`
-    :param split_sentences: (boolean) whether to slit text into sentences or not. 
-                            If `False`, text is split on newline characters `\n`. 
+    :param split_sentences: (boolean) whether to slit text into sentences or not.
+                            If `False`, text is split on newline characters `\n`.
 
     Returns:
 
@@ -543,7 +548,7 @@ def preproc_document(doc_id, inp_dir, interm_dir, out_dir, abbreviations, tagger
         no_sentences = len(text.split('\n'))
         no_tokens = IO.count_tokens(tokenised_text)
     except Exception, e:
-        logger.error("The pre-processing of document %s (lang=\'%s\') failed with error \"%s\""%(doc_id,lang,e)) 
+        logger.error("The pre-processing of document %s (lang=\'%s\') failed with error \"%s\""%(doc_id,lang,e))
     finally:
         return doc_id, lang, no_sentences, no_tokens
 
@@ -584,7 +589,7 @@ def do_ned(doc_id, inp_dir, citation_matcher, clean_annotations=False, relation_
             if(relation_matching_approx):
                 logger.info("Fuzzy matching of relations: threshold = %i"%relation_matching_distance_threshold)
                 annotations += disambiguate_relations(citation_matcher
-                                                    , relations,entities 
+                                                    , relations,entities
                                                     , doc_id,fuzzy=True
                                                     , distance_threshold=relation_matching_distance_threshold
                                                     , fill_nomatch_with_bogus_urn=False
@@ -615,7 +620,7 @@ def do_relex(doc_id, inp_dir, clean_relations=False):
     try:
         entities, relations, disambiguations = read_ann_file(doc_id,inp_dir)
         logger.info("%s: %i entities; %i relations; %i disambiguations"%(doc_id
-                                                                        , len(entities) 
+                                                                        , len(entities)
                                                                         , len(relations)
                                                                         , len(disambiguations)))
         if(clean_relations):
