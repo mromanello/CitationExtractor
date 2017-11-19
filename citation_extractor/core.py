@@ -30,8 +30,8 @@ def determine_path():
         sys.exit ()
 
 class CRFPP_Classifier:
-	"""	
-	This class should extend an abstract classifier	
+	"""
+	This class should extend an abstract classifier
 	"""
 	def __init__(self,train_file_name,template_file_name,dir):
 		#dir=determine_path()+"/data/"
@@ -41,7 +41,7 @@ class CRFPP_Classifier:
 		t = fe.prepare_for_training(train_file_name)
 		out=open(train_fname,'w').write(t.encode("utf-8"))
 		# TODO the .mdl file should go somewhere else
-		model_fname=dir+fn+'.mdl' 
+		model_fname=dir+fn+'.mdl'
 		template_fname = template_file_name
 		train_crfpp(template_fname,train_fname,model_fname)
 		self.crf_model=CRF_classifier(model_fname)
@@ -49,7 +49,7 @@ class CRFPP_Classifier:
 	def classify(self,feature_sets):
 		"""
 		Args:
-			feature_sets: 
+			feature_sets:
 				a list of dictionaries like the following:
 
 				[{'a_token': u'Nella',
@@ -80,7 +80,7 @@ class CRFPP_Classifier:
 				[{'features': [],
 				 'id': 37,
 				 'label': 'O',
-				 'probs': {'B-AAUTHOR': 
+				 'probs': {'B-AAUTHOR':
 				 	{'alpha': '234.113833',
 				 	'beta': '-2.125040',
 				 	'prob': '0.000262'},
@@ -112,11 +112,13 @@ class ScikitClassifierAdapter:
 		from sklearn.naive_bayes import GaussianNB
 		from sklearn.ensemble import RandomForestClassifier
 		fe = FeatureExtractor()
+		logger.info("Initialising SklearnClassifier with model %s" %\
+				scikit_classifier)
 		#self.classifier = SklearnClassifier(scikit_classifier,sparse=False)
 		if(isinstance(scikit_classifier,RandomForestClassifier)):
-			self.classifier = SklearnClassifier(scikit_classifier,sparse=False) 
+			self.classifier = SklearnClassifier(scikit_classifier,sparse=False)
 		elif(isinstance(scikit_classifier,GaussianNB)):
-			self.classifier = SklearnClassifier(scikit_classifier,sparse=False) 
+			self.classifier = SklearnClassifier(scikit_classifier,sparse=False)
 		else:
 			self.classifier = SklearnClassifier(scikit_classifier)
 		self.compiled_templates = self.process_template(template_file_name)
@@ -126,8 +128,8 @@ class ScikitClassifierAdapter:
 			logger.info("using a pre-computed feature_sets containing %i instances"%len(feature_sets))
 		else:
 			iob_data = 	file_to_instances(train_file_name)
-			logger.info("instances ",len(iob_data))
-			logger.info("tokens",count_tokens(iob_data))
+			logger.info("Training with %i instances " % len(iob_data))
+			logger.info("Training with %i tokens" % count_tokens(iob_data))
 			for n,instance in enumerate(iob_data):
 			    sentence_n = n
 			    pos_tags = [('z_POS',token[1]) for token in instance]
@@ -141,7 +143,7 @@ class ScikitClassifierAdapter:
 	def classify(self,feature_sets):
 		"""
 		Args:
-			feature_sets: 
+			feature_sets:
 				a list of dictionaries like the following:
 
 				[{'a_token': u'Nella',
@@ -172,7 +174,7 @@ class ScikitClassifierAdapter:
 				[{'features': [],
 				 'id': 37,
 				 'label': 'O',
-				 'probs': {'B-AAUTHOR': 
+				 'probs': {'B-AAUTHOR':
 				 	{'alpha': '234.113833',
 				 	'beta': '-2.125040',
 				 	'prob': '0.000262'},
@@ -232,6 +234,7 @@ class ScikitClassifierAdapter:
 				template = template.split(":")[1]
 				values = [get_value(unlabelled_feature_sets,n+r[0],r[1]) for r in replacements]
 				result[template_name] = template%tuple(values)
+			logger.debug("Feature set after applying template: %s" % result)
 			if(out_label):
 				# keep the expected label for training
 				new_features.append([result,feature_sets[n][1]])
@@ -266,21 +269,21 @@ class citation_extractor:
 	A Canonical Citation Extractor.
 	First off, import the settings via module import
 	>>> from settings import base_settings
-	
+
 	Then create an extractor passing as argument the settings file
 	>>> extractor = citation_extractor(base_settings)
-	
+
 	Let's now get some test instances...
 	>>> test = read_iob_files(base_settings.TEST_DIRS[0])
-	
+
 	We pass the postags and tokens separately:
 	>>> postags = [[("z_POS",token[1]) for token in instance] for instance in test if len(instance)>0]
 	>>> instances = [[token[0] for token in instance] for instance in test if len(instance)>0]
-	
+
 	And finally we classify the test instances
 	>>> result = extractor.extract(instances, postags)
 
-	As deafult, a CRF model is used. However, when initialising the `citation_extractor` you can 
+	As deafult, a CRF model is used. However, when initialising the `citation_extractor` you can
 	pass on to it any scikit classifier, e.g. RandomForest:
 
 	>>> from sklearn.ensemble import RandomForestClassifier
@@ -301,7 +304,7 @@ class citation_extractor:
 			self.classifier=CRFPP_Classifier(allinone_iob_file,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE),options.TEMP_DIR)
 		else:
 			self.classifier = ScikitClassifierAdapter(classifier,allinone_iob_file,"%s%s"%(options.CRFPP_TEMPLATE_DIR,options.CRFPP_TEMPLATE),labelled_feature_sets)
-	
+
 	def output(self,result,outp=None):
 		"""
 		Outputs the result of extraction/classification in several formats.
@@ -321,12 +324,12 @@ class citation_extractor:
 			return out_html(text).decode("utf-8")
 		elif(outp=="json"):
 			return json.dumps(result)
-	
+
 	def extract(self, instances,legacy_features=None):
 		"""
-		Extracts canonical citations from a list of instances, such as sentences or other meaningful and 
+		Extracts canonical citations from a list of instances, such as sentences or other meaningful and
 		comparable subvisions of a text. This method acts as a proxy for the classify() method of the classifier.
-		
+
 		Args:
 			instances: A list of instances, for example sentences.
 		Returns:
@@ -340,11 +343,11 @@ class citation_extractor:
 				feat_sets = self.fe.get_features(instances[n],[],False)
 			result.append(self.classifier.classify(feat_sets))
 		return result
-	
+
 class FeatureExtractor:
 	"""
 	A feature extractor to extract features from tokens.
-	
+
 	Usage:
 		>>> fe = FeatureExtractor()
 	"""
@@ -383,7 +386,7 @@ class FeatureExtractor:
 		self.CONTAINED_AUTHORS_DICT=25
 		self.CONTAINED_WORKS_DICT=26
 		# misc
-		
+
 		self.feat_labels=['i']*30
 		self.feat_labels[self.OTHERS]="OTHERS"
 		# brackets
@@ -418,9 +421,9 @@ class FeatureExtractor:
 		self.feat_labels[self.CONTAINED_AUTHORS_DICT]="CONTAINED_AUTHORS_DICT"
 		self.feat_labels[self.CONTAINED_WORKS_DICT]="CONTAINED_WORKS_DICT"
 		# dictionary matching
-		
+
 		self.init_dictionaries()
-	
+
 	def init_dictionaries(self):
 		from citation_extractor.Utils.FastDict import LookupDictionary
 		import codecs
@@ -433,7 +436,7 @@ class FeatureExtractor:
 			self.works_dict = LookupDictionary(raw_data.encode('utf-8'))
 		except Exception, e:
 			raise e
-		
+
 		try:
 			# initialise authors dictionary
 			fname = dir="%s/data/authors.csv"%determine_path()
@@ -444,11 +447,11 @@ class FeatureExtractor:
 		except Exception, e:
 			raise e
 		return
-	
+
 	def extract_bracket_feature(self,check_str):
 		"""
 		Extract a feature concerning the eventual presence of brackets
-		
+
 		Args:
 			check_str: the string for which we need to extract features
 
@@ -480,7 +483,7 @@ class FeatureExtractor:
 		else:
 			res = self.OTHERS
 		return ("c_brackets",res)
-	
+
 	def extract_case_feature(self,check_str):
 		"""
 		Extracts a feature concerning the ortographic case of a token.
@@ -500,11 +503,11 @@ class FeatureExtractor:
 			elif(naked[0].isupper()):
 				res = self.INIT_CAPS
 		return ("d_case",res)
-	
+
 	def extract_punctuation_feature(self,check_str):
 		"""
 		Checks the presence of hyphen and quotation marks.
-		
+
 		Args:
 			check_str: the string for which we need to extract features
 
@@ -519,7 +522,7 @@ class FeatureExtractor:
 			>>> [(tests[n],fe.feat_labels[fe.extract_punctuation_feature(t)[1]]) for n,t in enumerate(tests)]
 			>>> tests = [u'«',u'De',u'uirginitate',u'»']
 			>>> [(tests[n],fe.feat_labels[fe.extract_punctuation_feature(t)[1]]) for n,t in enumerate(tests)]
-			
+
 		"""
 		res = self.OTHERS
 		punct_exp=re.compile('[%s]' % re.escape(string.punctuation))
@@ -538,7 +541,7 @@ class FeatureExtractor:
 		#elif(punct_exp.match(check_str)):
 			#res = self.OTHER_PUNCTUATION
 		return ("b_punct",res)
-	
+
 	def extract_number_feature(self,check_str):
 		"""
 		TODO
@@ -547,7 +550,7 @@ class FeatureExtractor:
 		* presence of range
 		* presence of modern dates
 		* is an ordinale number (Roman)?
-		
+
 		Example:
 			>>> tests = [u'100',u'1994',u'1990-1999',u'23s.',u'10-11']
 			>>> fe = FeatureExtractor()
@@ -556,7 +559,7 @@ class FeatureExtractor:
 		res = self.OTHERS
 		naked = re.sub('[%s]' % re.escape(string.punctuation), '', check_str).lower()
 		is_modern_date_range = r"(\d{4}-\d{4})"
-		
+
 		if(naked.isdigit()):
 			res = self.NUMBER
 		elif(naked.isalpha()):
@@ -564,7 +567,7 @@ class FeatureExtractor:
 		elif(naked.isalnum()):
 			res = self.MIXED_ALPHANUM
 		return ("e_number",res)
-	
+
 	def extract_char_ngrams(self,inp,size=4):
 		"""
 		Extract ngram features (prefixes and suffixes), provided that the input string has a minimum length
@@ -587,7 +590,7 @@ class FeatureExtractor:
 		inp  = u"%s"%inp
 		for i in range(0,4): # ngram prefixes
 			i+=1
-			if(len(inp) >= size): # string length matches minimum size				
+			if(len(inp) >= size): # string length matches minimum size
 				temp = ("f_ngram_%i"%i,inp[0:i])
 			else:
 				#  string length below minimum size
@@ -602,7 +605,7 @@ class FeatureExtractor:
 				temp = ("g_ngram_%i"%i,nd)
 			out.append(temp)
 		return out
-	
+
 	def extract_string_features(self,check_str):
 		"""
 		Extract string length and text only string lowercase
@@ -621,23 +624,23 @@ class FeatureExtractor:
 			res.append(t)
 		res.append(('a_token',check_str))
 		return res
-	
+
 	def extract_dictionary_feature(self,check_str):
 		"""
 		TODO
 		* check that the string is actually a word (may not be necessary with different tokenisation)
-		
+
 		Example:
 			>>> tests = [u'Hom.',u'Homér']
 			>>> fe = FeatureExtractor()
 			>>> [(tests[n],fe.feat_labels[fe.extract_dictionary_feature(t)[1]]) for n,t in enumerate(tests)]
-		
+
 		"""
 		feature_name = "n_works_dictionary"
 		match_works = self.works_dict.lookup(check_str.encode("utf-8"))
 		match_authors = self.authors_dict.lookup(check_str.encode("utf-8"))
 		result = (feature_name,self.OTHERS)
-		
+
 		if(len(match_authors)>0):
 			for key in match_authors:
 				if(len(match_authors[key]) == len(check_str)):
@@ -653,14 +656,14 @@ class FeatureExtractor:
 		else:
 			result = (feature_name,self.OTHERS)
 		return result
-	
+
 	def extract_word_length_feature(self,check_str,threshold=5):
 		"""
 		Features which gets fired when len(check_str) > threshold.
 		TODO We should probably calculate (periodically) the average length for diff tags (aauthor,awork,refauwork).
 		"""
 		pass
-	
+
 	def extract_pattern_feature(self,check_str):
 		"""
 		>>> fe = FeatureExtractor()
@@ -682,7 +685,7 @@ class FeatureExtractor:
 			else:
 				result.append('-')
 		return ('l_pattern',"".join(result))
-	
+
 	def extract_compressed_pattern_feature(self,check_str):
 		"""
 		>>> fe = FeatureExtractor()
@@ -716,7 +719,7 @@ class FeatureExtractor:
 				else:
 					result.append('-')
 		return ('m_compressed-pattern',"".join(result))
-	
+
 	def extract_features(self,inp):
 		feature_set=[]
 		feat_funcs=[self.extract_punctuation_feature
@@ -734,9 +737,9 @@ class FeatureExtractor:
 				feature_set.append(result)
 			elif(type(result) == types.ListType):
 				for r in result:
-					feature_set.append(r)	
+					feature_set.append(r)
 		return feature_set
-	
+
 	def get_features(self,instance,labels=[],outp_label=True, legacy_features=None):
 		"""
 		Args:
@@ -746,7 +749,7 @@ class FeatureExtractor:
 				...
 			outp_label:
 				...
-			
+
 		Example:
 			>>> fe = FeatureExtractor()
 			>>> test = ['cf.', 'Hom', 'Il.', '1.1', ';']
@@ -771,11 +774,11 @@ class FeatureExtractor:
 				token[legacy_features[n][0]] = legacy_features[n][1]
 		logger.debug("\n"+"\n".join(instance_to_string(res)))
 		return res
-	
+
 	def get_feature_order(self):
 		"""
 		Returns the order in which the features are output.
-		
+
 		Example:
 			>>> fe = FeatureExtractor()
 			>>> fe.get_feature_order()
@@ -783,7 +786,7 @@ class FeatureExtractor:
 		dumb_tok = ("Test.","O")
 		temp = self.get_features([dumb_tok[0]],[dumb_tok[1]])[0]
 		return [k for k in sorted(temp.keys())]
-	
+
 	def prepare_for_training(self,file_name):
 		"""
 		#TODO: can be made staticmethod at some point
@@ -824,7 +827,7 @@ class FeatureExtractor:
 			all_tokens.append(tokens)
 			if(len(postags) > 0):
 				all_postags.append(postags)
-		if(len(all_postags) > 0): 
+		if(len(all_postags) > 0):
 			all_postags = [[("z_POS",token) for token in instance] for instance in all_postags]
 			res2 = [self.get_features(r,all_labels[n],legacy_features=all_postags[n]) for n,r in enumerate(all_tokens)]
 		else:
@@ -834,8 +837,7 @@ class FeatureExtractor:
 		res3 = ["\n".join(i) for i in res2]
 		out = "\n\n".join(res3)
 		return out
-	
+
 if __name__ == "__main__":
 	import doctest
 	doctest.testmod()
-
