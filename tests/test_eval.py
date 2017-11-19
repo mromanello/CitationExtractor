@@ -2,6 +2,7 @@
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
 import pdb
+import glob
 import pandas as pd
 import pkg_resources
 import pytest
@@ -16,11 +17,14 @@ import citation_extractor
 from tabulate import tabulate
 from citation_extractor.eval import evaluate_ned
 from citation_extractor.ned import CitationMatcher
+from citation_extractor.Utils.IO import file_to_instances
 from knowledge_base import KnowledgeBase
+from sklearn import metrics
 
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
 
 def _pprocess(datum, citation_matcher):
     """
@@ -37,6 +41,7 @@ def _pprocess(datum, citation_matcher):
         disambiguation_result = None
         logger.debug("%i - %s - %s" % (n, id, disambiguation_result))
         return (id, disambiguation_result)
+
 
 def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
 
@@ -60,7 +65,7 @@ def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
     with codecs.open("citation_extractor/data/pickles/kb_data.pkl","wb") as pickle_file:
         pickle.dump(kb_data, pickle_file)
     """
-    
+
     cms = {}
 
     ##############################
@@ -83,42 +88,42 @@ def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
     #####################################
     # Test 3: alternative parameters    #
     #####################################
-    
+
     cms["cm3"] = CitationMatcher(kb
                         , fuzzy_matching_entities=True
                         , fuzzy_matching_relations=False
                         , min_distance_entities=4
                         , max_distance_entities=7)
     """
-    
+
     comp_evaluation = []
     comp_accuracy_by_type = []
-    
+
     # for each citation matcher disambiguate the records in the test set,
     # carry out the evaluation and store the results in two temporary lists (to be
     # transformed later on into two dataframes)
     for key in sorted(cms.keys()):
         cm = cms[key]
         testset_target_df = testset_gold_df.copy()
-        
+
         # run the parallel processing of records
         results = parmap.map(_pprocess, ((n, row[0], row[1]) for n, row in enumerate(testset_target_df.iterrows())), cm)
-        
+
         # collect the results and update the dataframe
         for instance_id, urn in results:
             testset_target_df.loc[instance_id]["urn_clean"] = urn
 
-        # save pickle for later 
+        # save pickle for later
         #testset_target_df.to_pickle("citation_extractor/data/pickles/test_target_dataframe_%s.pkl" % key)
 
         scores, accuracy_by_type, error_types, errors = evaluate_ned(testset_gold_df, ann_dir, testset_target_df, strict=True)
 
-        # aggregate and format the evaluation measure already with percentages        
-        scores  = {score_key : "%.2f%%" % (scores[score_key]*100) for score_key in scores}
+        # aggregate and format the evaluation measure already with percentages
+        scores = {score_key: "%.2f%%" % (scores[score_key]*100) for score_key in scores}
         scores["id"] = key
         comp_evaluation.append(scores)
 
-        # aggregate and format the accuracy by type already with percentages  
+        # aggregate and format the accuracy by type already with percentages
         accuracy = {type_key : "%.2f%%" % (accuracy_by_type[type_key]*100) for type_key in accuracy_by_type}
         accuracy["id"] = key
         comp_accuracy_by_type.append(accuracy)
@@ -132,3 +137,46 @@ def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
     logger.info("\n" + tabulate(comp_evaluation_df, headers=comp_evaluation_df.columns))
     logger.info("\n" + tabulate(comp_accuracy_by_type_df, headers=comp_accuracy_by_type_df.columns))
     logger.info("\n" + "\n".join(["%s: %s" % (key, cms[key].settings) for key in cms]))
+
+
+def test_eval_ner(crf_citation_extractor):
+    """Evaluate various models for the NER step."""
+    # TODO: crf_citation_extractor, svm_citation_extractor
+    test_dir = pkg_resources.resource_filename(
+                    'citation_extractor',
+                    'data/aph_corpus/testset/iob/'
+                )
+
+    iob_files = glob.glob("%s*.txt" % test_dir)
+
+    # concatenate all IOB test files into a list of lists
+    test_data = reduce(
+                    lambda x, y: x + y,
+                    [file_to_instances(file) for file in iob_files]
+                )
+
+    tokens = [
+        [token[0] for token in instance]
+        for instance in test_data if len(instance) > 0
+    ]
+
+    postags = [
+        [("z_POS", token[1]) for token in instance]
+        for instance in test_data if len(instance) > 0
+    ]
+
+    y_true = [
+        token[2].replace("B-", "").replace("I-", "")
+        for instance in test_data
+        for token in instance if len(instance) > 0
+    ]
+
+    result = crf_citation_extractor.extract(tokens, postags)
+
+    y_pred = [
+            instance[n]["label"].replace("B-", "").replace("I-", "")
+            for i, instance in enumerate(result)
+            for n, word in enumerate(instance)
+    ]
+
+    logger.info("\n" + metrics.classification_report(y_true, y_pred))
