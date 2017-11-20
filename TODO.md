@@ -1,10 +1,9 @@
 ## Next steps
 
-* [ ] create evaluation `py.tests` for NER, RelEX and ~~NED~~
-    - k-fold cross evaluation
-    - this way evaluations can be ran every time e.g. a feature extraction function is changed/introduced
-    - write results to disk so that they can be inspected e.g. via brat
-    - for RelEx: compare rule-based and ML-based extraction
+* [ ] create evaluation `py.tests` for
+    - [x] NER
+    - [ ] RelEX (compare rule-based and ML-based extraction)
+    - [x] NED
 * [ ] create some stats about the traning/test corpus (**but not here, on APh corpus repo**)
     - number of entities by class
     - number of relations
