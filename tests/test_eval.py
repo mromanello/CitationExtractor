@@ -141,12 +141,14 @@ def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
 
 def test_eval_ner(
         crf_citation_extractor,
+        crfsuite_citation_extractor,
         svm_citation_extractor,
         maxent_citation_extractor
         ):
     """Evaluate various models for the NER step."""
     extractors = [
         ("crf++", crf_citation_extractor),
+        ("crfsuite", crfsuite_citation_extractor),
         ("svm", svm_citation_extractor),
         ("MaxEnt", maxent_citation_extractor)
     ]

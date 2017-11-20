@@ -61,13 +61,5 @@ def test_pickle_crf_citation_extractor(crf_citation_extractor):
     test = read_iob_files(crf.DATA_DIRS[0],extension='.txt')
     postags = [[("z_POS",token[1]) for token in instance] for instance in test if len(instance)>0]
     instances = [[token[0] for token in instance] for instance in test if len(instance)>0]
-    crf_citation_extractor.extract(instances,postags)
-    unpickled_extractor.extract(instances,postags)
-
-
-def test_svm_citation_extractor(svm_citation_extractor):
-    """TODO."""
-    logger.info("%s, %s" % (
-        svm_citation_extractor,
-        svm_citation_extractor.classifier
-    ))
+    crf_citation_extractor.extract(instances, postags)
+    unpickled_extractor.extract(instances, postags)
