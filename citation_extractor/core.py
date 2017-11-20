@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
+import pdb
 import getopt
 from ConfigParser import SafeConfigParser
 import os,re,string,logging,pprint,types,xmlrpclib,json
 import citation_extractor
 from citation_extractor.crfpp_wrap import *
 from citation_extractor.Utils.IO import *
+from sklearn_crfsuite import CRF
 from stop_words import safe_get_stop_words
 
 """
@@ -47,6 +49,7 @@ class CRFPP_Classifier:
         train_crfpp(template_fname,train_fname,model_fname)
         self.crf_model=CRF_classifier(model_fname)
         return
+
     def classify(self,feature_sets):
         """
         Args:
@@ -123,24 +126,59 @@ class ScikitClassifierAdapter:
         else:
             self.classifier = SklearnClassifier(scikit_classifier)
         self.compiled_templates = self.process_template(template_file_name)
-        feature_sets = []
-        if(labelled_feature_sets is not None):
-            feature_sets = labelled_feature_sets
-            logger.info("using a pre-computed feature_sets containing %i instances"%len(feature_sets))
-        else:
-            iob_data =     file_to_instances(train_file_name)
+
+        iob_data = file_to_instances(train_file_name)
+
+        if(isinstance(scikit_classifier, CRF)):
+            feature_sets = []
+
             logger.info("Training with %i instances " % len(iob_data))
             logger.info("Training with %i tokens" % count_tokens(iob_data))
-            for n,instance in enumerate(iob_data):
+
+            for n, instance in enumerate(iob_data):
                 sentence_n = n
-                pos_tags = [('z_POS',token[1]) for token in instance]
+                pos_tags = [('z_POS', token[1]) for token in instance]
+                labels = [token[2] for token in instance]
+                tokens = [token[0] for token in instance]
+                sentence_feats = []
+
+                for n, token in enumerate(tokens):
+                    dict_features = fe.get_features(
+                            [token],
+                            labels=labels,
+                            outp_label=False,
+                            legacy_features=pos_tags
+                    )[0]
+                    sentence_feats.append([dict_features, labels[n]])
+
+                feature_sets.append(self.apply_feature_template(sentence_feats, out_label=True))
+
+            X_train = [
+                        [token[0] for token in instance]
+                        for instance in feature_sets
+                    ]
+            y_train = [
+                        [token[1] for token in instance]
+                        for instance in feature_sets
+                    ]
+            self.classifier._clf = self.classifier._clf.fit(X_train, y_train)
+            return
+
+        else:
+            feature_sets = []
+
+            logger.info("Training with %i instances " % len(iob_data))
+            logger.info("Training with %i tokens" % count_tokens(iob_data))
+            for n, instance in enumerate(iob_data):
+                sentence_n = n
+                pos_tags = [('z_POS', token[1]) for token in instance]
                 labels = [token[2] for token in instance]
                 tokens = [token[0] for token in instance]
                 for n,token in enumerate(tokens):
                     dict_features = fe.get_features([token],labels=labels,outp_label=False,legacy_features=pos_tags)[0]
                     feature_sets.append([dict_features, labels[n]])
-        self.classifier.train(self.apply_feature_template(feature_sets,out_label=True))
-        return
+            self.classifier.train(self.apply_feature_template(feature_sets,out_label=True))
+            return
 
     def classify(self, feature_sets):
         """
@@ -184,9 +222,21 @@ class ScikitClassifierAdapter:
                  'token': '.'},...]
         """
         # apply feature templates (from CRF++)
-        template_feature_sets = self.apply_feature_template(feature_sets,out_label=False)
-        # keep the output labels
-        output_labels = self.classifier.classify_many(template_feature_sets)
+        template_feature_sets = self.apply_feature_template(
+                                    feature_sets,
+                                    out_label=False
+                                )
+
+        if(isinstance(self.classifier._clf, CRF)):
+            output_labels = self.classifier._clf.predict(
+                                [template_feature_sets]
+                            )[0]
+        else:
+            # keep the output labels
+            output_labels = self.classifier.classify_many(
+                                template_feature_sets
+                            )
+
         result = []
         for n,feature_set in enumerate(feature_sets):
             temp = {}
