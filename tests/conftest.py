@@ -18,7 +18,7 @@ from citation_extractor.ned import CitationMatcher
 from knowledge_base import KnowledgeBase as KnowledgeBaseNew
 
 logging.basicConfig(level=logging.INFO)
-# logging.basicConfig(level=logging.DEBUG)
+#logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 
@@ -35,6 +35,12 @@ def crf_citation_extractor(tmpdir_factory):
 def svm_citation_extractor():
     """Initialise a citation extractor trained with SVM on APh corpus."""
     return pipeline.get_extractor(svm)
+
+
+@fixture(scope="session")
+def maxent_citation_extractor():
+    """Initialise a citation extractor trained with MaxEnt on APh corpus."""
+    return pipeline.get_extractor(maxent)
 
 
 @fixture(scope="session")

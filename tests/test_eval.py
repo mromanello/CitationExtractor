@@ -139,9 +139,17 @@ def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
     logger.info("\n" + "\n".join(["%s: %s" % (key, cms[key].settings) for key in cms]))
 
 
-def test_eval_ner(crf_citation_extractor):
+def test_eval_ner(
+        crf_citation_extractor,
+        svm_citation_extractor,
+        maxent_citation_extractor
+        ):
     """Evaluate various models for the NER step."""
-    # TODO: crf_citation_extractor, svm_citation_extractor
+    extractors = [
+        ("crf++", crf_citation_extractor),
+        ("svm", svm_citation_extractor),
+        ("MaxEnt", maxent_citation_extractor)
+    ]
     test_dir = pkg_resources.resource_filename(
                     'citation_extractor',
                     'data/aph_corpus/testset/iob/'
@@ -171,12 +179,38 @@ def test_eval_ner(crf_citation_extractor):
         for token in instance if len(instance) > 0
     ]
 
-    result = crf_citation_extractor.extract(tokens, postags)
+    for label, extractor in extractors:
 
-    y_pred = [
-            instance[n]["label"].replace("B-", "").replace("I-", "")
-            for i, instance in enumerate(result)
-            for n, word in enumerate(instance)
-    ]
+        result = extractor.extract(tokens, postags)
 
-    logger.info("\n" + metrics.classification_report(y_true, y_pred))
+        y_pred = [
+                instance[n]["label"].replace("B-", "").replace("I-", "")
+                for i, instance in enumerate(result)
+                for n, word in enumerate(instance)
+        ]
+
+        labels = list(set(y_pred))
+        labels.remove('O')
+        sorted_labels = sorted(labels)
+
+        p, r, f1, s = metrics.precision_recall_fscore_support(
+                        y_true,
+                        y_pred,
+                        average='macro'
+                    )
+
+        logger.info("P: %s, R: %s, F1: %s, Support: %s" % (
+                p,
+                r,
+                f1,
+                s
+        ))
+
+        logger.info("Evaluating %s extractor:\n%s" % (
+                        label, metrics.classification_report(
+                                        y_true,
+                                        y_pred,
+                                        labels=sorted_labels
+                                        )
+                        )
+                    )
