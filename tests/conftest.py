@@ -11,7 +11,7 @@ from pytest import fixture
 import pandas as pd
 from citation_extractor import pipeline
 from citation_extractor.Utils.IO import load_brat_data
-from citation_extractor.settings import crf, svm, maxent
+from citation_extractor.settings import crf, svm, maxent, crfsuite
 from citation_extractor.core import citation_extractor
 from citation_extractor.ned import KnowledgeBase
 from citation_extractor.ned import CitationMatcher
@@ -41,6 +41,12 @@ def svm_citation_extractor():
 def maxent_citation_extractor():
     """Initialise a citation extractor trained with MaxEnt on APh corpus."""
     return pipeline.get_extractor(maxent)
+
+
+@fixture(scope="session")
+def crfsuite_citation_extractor():
+    """Initialise a citation extractor trained with CRFSuite on APh corpus."""
+    return pipeline.get_extractor(crfsuite)
 
 
 @fixture(scope="session")
