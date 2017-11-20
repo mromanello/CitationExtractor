@@ -29,8 +29,7 @@ install:
   - pip install -r requirements_dev.txt
   - pip install .
 # command to run tests
-# script: pytest -s -vv --cov=citation_extractor --ignore=tests/test_eval.py tests/test_citation_extractor.py tests/test_eval.py::test_eval_ner
-pytest -s -vv --cov=citation_extractor tests/test_citation_extractor.py tests/test_eval.py::test_eval_ner
+script: pytest -s -vv --cov=citation_extractor --ignore=tests/test_eval.py tests/test_citation_extractor.py tests/test_eval.py::test_eval_ner
 #script: travis_wait 60 pytest -s -vv --cov=citation_extractor
 after_success:
   - codecov
