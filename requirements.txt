@@ -14,4 +14,5 @@ numpy>=1.9.2
 scipy>=0.17.0
 python-dateutil==2.4.2
 scikit-learn>=0.16.1
+sklearn-crfsuite
 citation-extractor-dependencies==0.0.0
