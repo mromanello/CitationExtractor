@@ -52,4 +52,3 @@ def test_instantiate_ml_citation_matcher(
 
     fe = FeatureExtractor(knowledge_base, train_df_data)
     logger.info(fe)
-    pdb.set_trace()
