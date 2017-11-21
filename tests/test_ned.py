@@ -36,22 +36,18 @@ def test_pickle_citation_matcher(citation_matcher):
 def test_instantiate_ml_citation_matcher(
         knowledge_base,
         aph_gold_ann_files,
-        #crf_citation_extractor,
-        #postaggers,
+        crf_citation_extractor,
+        postaggers,
         aph_titles
         ):
     """Create an instance of MLCitationMatcher."""
-    """
+
     train_df_data = load_brat_data(
         crf_citation_extractor,
         knowledge_base,
         postaggers,
         aph_gold_ann_files,
         aph_titles
-    )
-    """
-    train_df_data = pd.read_pickle(
-        "citation_extractor/data/pickles/aph_gold_df.pkl"
     )
 
     fe = FeatureExtractor(knowledge_base, train_df_data)
