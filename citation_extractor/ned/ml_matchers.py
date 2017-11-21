@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 
+
 from __future__ import print_function
+import pdb
 import logging
 import pkg_resources
 import os
+import pandas as pd
 from stop_words import safe_get_stop_words
 from sklearn.feature_extraction.text import TfidfVectorizer
 
@@ -33,7 +36,7 @@ class MLCitationMatcher(object):
         LOGGER.info('Starting training')
         # TODO: get tf-idf data from wiki texts
         tfidf = self._compute_tfidf_matrix()
-        for k, v in  tfidf.iteritems():
+        for k, v in tfidf.iteritems():
             print(k, v)
         # TODO: compute probs from train data
         # TODO: generate features for candidates (FeatureExtractor)
@@ -101,12 +104,67 @@ class MLCitationMatcher(object):
 
 
 class FeatureExtractor(object):
-    def __init__(self, tfidf_data=None, entities_prior_prob=None, m_given_e_prob=None, e_given_m_prob=None):
+    """TODO."""
+
+    def __init__(self, kb, train_data=None):
+        """Initialise an instance of FeatureExtractor.
+
+        :param kb: instance of HuCit KnowledgeBase
+        :param train_data:
+        """
         LOGGER.info('Initializing Feature Extractor')
-        self.tfidf = tfidf_data
-        self.prior_prob = entities_prior_prob
-        self.me_prob = m_given_e_prob
-        self.em_prob = e_given_m_prob
+        # self.tfidf = tfidf_data
+        # if kb is needed elsewhere will need to save it somewhere
+        self.prior_prob = self._compute_entity_probability(kb, train_data)
+        # self.me_prob = m_given_e_prob
+        # self.em_prob = e_given_m_prob
+
+    def _compute_entity_probability(self, kb, df_data):
+        """Compute the probability of an entity to occur in the training data.
+
+        :param kb: a KnowledgeBase instance
+        :param df_data: a dataframe with the traning data
+        :type df_data: output of `citation_extractor.Utils.IO.load_brat_data`
+        :rtype: a `pandas.Dataframe` with columns: ["count", "prob"] and
+                indexed by URN of author/work/NIL entity.
+        """
+        LOGGER.info("Computing entity probability...")
+
+        kb_authors = [
+            str(a.get_urn())
+            for a in kb.get_authors()
+            if a.get_urn() is not None
+        ]
+
+        kb_works = [
+            str(w.get_urn())
+            for a in kb.get_authors()
+            for w in a.get_works()
+            if w.get_urn() is not None
+        ]
+
+        idx = pd.Index(kb_works).append(pd.Index(kb_authors))
+        freqs = pd.DataFrame(
+            index=idx.append(pd.Index([NIL_URN])),
+            dtype='float64'
+        )
+        freqs['count'] = 0
+        freqs['prob'] = 0.0
+        M = df_data.shape[0]
+        N = freqs.shape[0]
+        MN = M+N
+
+        for mid, mrow in df_data.iterrows():
+            urn = mrow.urn_clean
+            freqs.loc[urn, 'count'] += 1
+
+        for mid, mrow in freqs.iterrows():
+            c = int(mrow['count'])
+            p = float(c+1) / MN
+            freqs.loc[mid, 'prob'] = p
+
+        LOGGER.info("Done computing entity probability.")
+        return freqs
 
     def extract_nil(self, m_type, m_scope, feature_dicts):
         LOGGER.info('Extracting NIL features for ...')
