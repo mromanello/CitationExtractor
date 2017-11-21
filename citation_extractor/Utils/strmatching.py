@@ -10,6 +10,7 @@ Module containing functions/classes for cleaning and matching of strings.
 import re
 import sys
 import unicodedata
+import jellyfish
 from stop_words import safe_get_stop_words
 
 global punct_codes, punct_codes_nodot, symbol_codes, numbers_codes
@@ -26,8 +27,8 @@ p_codes_nodot_to_space = dict.fromkeys(punct_codes_nodot, 32)
 s_codes_to_space = dict.fromkeys(symbol_codes, 32)
 n_codes_to_space = dict.fromkeys(numbers_codes, 32)
 
-class StringUtils:
 
+class StringUtils:
     @staticmethod
     def remove_symbols(s):
         return s.translate(s_codes_to_space)
@@ -42,22 +43,22 @@ class StringUtils:
 
     @staticmethod
     def remove_apostrophed_words(s):
-        s = re.sub(ur"[a-zA-Z]+'", '', s) # xx..'
+        s = re.sub(ur"[a-zA-Z]+'", '', s)  # xx..'
         s = re.sub(ur"'[a-zA-Z]", '', s)  # 'x
         return s
 
     @staticmethod
     def remove_iiis(s):
-        s = re.sub(ur" [i]+ ", ' ', s) # in the middle
-        s = re.sub(ur"^[i]+ ", ' ', s) # at the beginning
-        s = re.sub(ur" [i]+$", ' ', s) # at the end
+        s = re.sub(ur" [i]+ ", ' ', s)  # in the middle
+        s = re.sub(ur"^[i]+ ", ' ', s)  # at the beginning
+        s = re.sub(ur" [i]+$", ' ', s)  # at the end
         return s
-        
+
     @staticmethod
     def strip_single_letters_without_dot(s):
-        s = re.sub(ur" [a-zA-Z] ", ' ', s) # in the middle
-        s = re.sub(ur"^[a-zA-Z] ", ' ', s) # at the beginning
-        s = re.sub(ur" [a-zA-Z]$", ' ', s) # at the end
+        s = re.sub(ur" [a-zA-Z] ", ' ', s)  # in the middle
+        s = re.sub(ur"^[a-zA-Z] ", ' ', s)  # at the beginning
+        s = re.sub(ur" [a-zA-Z]$", ' ', s)  # at the end
         return s
 
     @staticmethod
@@ -70,7 +71,7 @@ class StringUtils:
     @staticmethod
     def trim_spaces(s):
         return u' '.join(s.split())
-    
+
     @staticmethod
     def remove_stop_words(string, language):
         tokens = string.split()
@@ -86,7 +87,7 @@ class StringUtils:
     def normalize(text, lang=None, keep_dots=False):
         if not text:
             return u'None'
-        
+
         text = StringUtils.remove_symbols(text)
         text = StringUtils.remove_numbers(text)
         text = StringUtils.strip_accents(text)
@@ -101,3 +102,150 @@ class StringUtils:
             text = StringUtils.remove_stop_words(text, lang)
 
         return text
+
+
+class StringSimilarity:
+    @staticmethod
+    def levenshtein_distance_norm(s1, s2):
+        return 1 - float(jellyfish.levenshtein_distance(s1, s2)) / max(len(s1) + len(s2), 1)
+
+    @staticmethod
+    def exact_match(s, names):
+        return s in names
+
+    @staticmethod
+    def exact_match_swords(ss, names):
+        matched = map(lambda s: s in names, ss)
+        return all(matched)
+
+    @staticmethod
+    def exact_match_swords_any(ss, names):
+        matched = map(lambda s: s in names, ss)
+        return any(matched)
+
+    @staticmethod
+    def fuzzy_match(s, names):
+        for n in names:
+            if StringSimilarity.levenshtein_distance_norm(s, n) >= 0.9:
+                return True
+        return False
+
+    @staticmethod
+    def fuzzy_match_max(s, names):
+        scores = [0.0]
+        for n in names:
+            scores.append(StringSimilarity.levenshtein_distance_norm(s, n))
+        return max(scores)
+
+    @staticmethod
+    def fuzzy_match_swords(ss, names):
+        matched = map(lambda s: StringSimilarity.fuzzy_match(s, names), ss)
+        return all(matched)
+
+    @staticmethod
+    def fuzzy_match_swords_any(ss, names):
+        matched = map(lambda s: StringSimilarity.fuzzy_match(s, names), ss)
+        return any(matched)
+
+    @staticmethod
+    def _common_initial_letters(s1, s2):
+        l = min(len(s1), len(s2))
+        n = 0
+        for i in range(l):
+            if s1[i] == s2[i]:
+                n += 1
+        return float(n) / max(l, 1)
+
+    @staticmethod
+    def fuzzy_initial_match(s, names):
+        for n in names:
+            if StringSimilarity._common_initial_letters(s, n) >= 0.75:
+                return True
+        return False
+
+    @staticmethod
+    def fuzzy_initial_match_max(s, names):
+        scores = [0.0]
+        for n in names:
+            scores.append(StringSimilarity._common_initial_letters(s, n))
+        return max(scores)
+
+    @staticmethod
+    def fuzzy_initial_match_swords(ss, names):
+        matched = map(lambda s: StringSimilarity.fuzzy_initial_match(s, names), ss)
+        return all(matched)
+
+    @staticmethod
+    def _phonetic_similarity(s1, s2):
+        sp1 = jellyfish.nysiis(s1)
+        sp2 = jellyfish.nysiis(s2)
+        return StringSimilarity.levenshtein_distance_norm(sp1, sp2)
+
+    @staticmethod
+    def fuzzy_phonetic_match(s, names):
+        for n in names:
+            if StringSimilarity._phonetic_similarity(s, n) >= 0.8:
+                return True
+        return False
+
+    @staticmethod
+    def fuzzy_phonetic_match_max(s, names):
+        scores = [0.0]
+        for n in names:
+            scores.append(StringSimilarity._phonetic_similarity(s, n))
+        return max(scores)
+
+    @staticmethod
+    def fuzzy_phonetic_match_swords(ss, names):
+        matched = map(lambda s: StringSimilarity.fuzzy_phonetic_match(s, names), ss)
+        return all(matched)
+
+    @staticmethod
+    def fuzzy_mrc(s, names):
+        for n in names:
+            if jellyfish.match_rating_comparison(s, n):
+                return True
+        return False
+
+    @staticmethod
+    def _is_exact_acronym(acronym, name):
+        return acronym == u''.join(map(lambda w: w[0], name.split()))
+
+    @staticmethod
+    def acronym_match(s, names):
+        for n in names:
+            if StringSimilarity._is_exact_acronym(s, n):
+                return True
+        return False
+
+    @staticmethod
+    def abbreviation_match(s, names):
+        for n in names:
+            if n.startswith(s):
+                return True
+        return False
+
+    @staticmethod
+    def _is_sparse_abbreviation(abbr, name):
+        pattern = u'^' + u'.*'.join(abbr) + u'.*$'
+        return re.match(pattern, name) is not None
+
+    @staticmethod
+    def abbreviation_sparse_match(s, names):
+        for n in names:
+            if StringSimilarity._is_sparse_abbreviation(s, n):
+                return True
+        return False
+
+    @staticmethod
+    def _is_abbreviation_sequence(seq, name):
+        pattern1 = u'^' + u'.* '.join(seq) + u'.*$'
+        pattern2 = u'^.* ' + u'.* '.join(seq) + u'.*$'
+        return re.match(pattern1, name) is not None or re.match(pattern2, name) is not None
+
+    @staticmethod
+    def abbreviation_sequence_match(seq, names):
+        for n in names:
+            if StringSimilarity._is_abbreviation_sequence(seq, n):
+                return True
+        return False
