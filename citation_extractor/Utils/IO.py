@@ -403,15 +403,15 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
     :param aph_ann_files: a tuple: [0] the base directory; [1] a list of file names
     :param aph_titles: `pandas.DataFrame` with column 'title'
     :param context_window: TODO
-    :return: a `pandas.DataFrame` (columns: 'surface', 'surface_norm', 'scope', 'type',
-        'other_mentions', 'prev_mentions', 'urn', 'urn_clean','doc_id', 'doc_title',
-        'doc_title_mentions', 'doc_title_norm', 'doc_text', 'sentence_start', 'sentence_end')
+    :return: a `pandas.DataFrame` (columns: 'surface', 'surface_norm', 'surface_norm_dots',
+            'scope', 'type', 'other_mentions', 'prev_mentions', 'urn', 'urn_clean','doc_id', 'doc_title',
+            'doc_title_mentions', 'doc_title_norm', 'doc_text', 'sentence_start', 'sentence_end')
 
     """
     from citation_extractor.pipeline import extract_entity_mentions
 
     # define the columns of the resulting dataframe
-    cols = ['surface', 'surface_norm', 'scope', 'type', 'other_mentions', 'prev_mentions', 'urn', 'urn_clean',
+    cols = ['surface', 'surface_norm', 'surface_norm_dots', 'scope', 'type', 'other_mentions', 'prev_mentions', 'urn', 'urn_clean',
             'doc_id', 'doc_title', 'doc_title_mentions', 'doc_title_norm', 'doc_text', 'sentence_start',
             'sentence_end', 'mentions_in_context']
     df_data = pd.DataFrame(dtype='object', columns=cols)
@@ -562,6 +562,7 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
                 df_data.loc[mention_data_id, 'sentence_start'] = sentence_start
                 df_data.loc[mention_data_id, 'sentence_end'] = sentence_end
                 df_data.loc[mention_data_id, 'surface_norm'] = StringUtils.normalize(mention_surface)
+                df_data.loc[mention_data_id, 'surface_norm_dots'] = StringUtils.normalize(mention_surface, keep_dots=True)
                 df_data.loc[mention_data_id, 'scope'] = mention_scope
                 df_data.loc[mention_data_id, 'type'] = mention_type
                 df_data.loc[mention_data_id, 'prev_mentions'] = mention_prev_entities
