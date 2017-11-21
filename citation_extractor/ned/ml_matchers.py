@@ -114,50 +114,55 @@ class FeatureExtractor(object):
         """
         LOGGER.info('Initializing Feature Extractor')
         # self.tfidf = tfidf_data
-        # if kb is needed elsewhere will need to save it somewhere
-        self.prior_prob = self._compute_entity_probability(kb, train_data)
-        # self.me_prob = m_given_e_prob
-        # self.em_prob = e_given_m_prob
 
-    def _compute_entity_probability(self, kb, df_data):
+        # get the list of author IDs (URNs)
+        self._kb_author_urns = [
+            str(a.get_urn())
+            for a in kb.get_authors()
+            if a.get_urn() is not None
+            ]
+
+        # get the list of work IDs (URNs)
+        self._kb_work_urns = [
+            str(w.get_urn())
+            for a in kb.get_authors()
+            for w in a.get_works()
+            if w.get_urn() is not None
+            ]
+
+        self._prior_prob = self._compute_entity_probability(train_data)
+        self._me_prob = self._compute_mention_entity_probability(train_data)
+        self._em_prob = self._compute_entity_mention_probability(train_data)
+
+    def _compute_entity_probability(self, train_data):
         """Compute the probability of an entity to occur in the training data.
 
-        :param kb: a KnowledgeBase instance
-        :param df_data: a dataframe with the traning data
-        :type df_data: output of `citation_extractor.Utils.IO.load_brat_data`
+        :param train_data: a dataframe with the traning data
+        :type train_data: outp of `citation_extractor.Utils.IO.load_brat_data`
         :rtype: a `pandas.Dataframe` with columns: ["count", "prob"] and
                 indexed by URN of author/work/NIL entity.
         """
         LOGGER.info("Computing entity probability...")
 
-        kb_authors = [
-            str(a.get_urn())
-            for a in kb.get_authors()
-            if a.get_urn() is not None
-        ]
-
-        kb_works = [
-            str(w.get_urn())
-            for a in kb.get_authors()
-            for w in a.get_works()
-            if w.get_urn() is not None
-        ]
-
-        idx = pd.Index(kb_works).append(pd.Index(kb_authors))
+        idx = pd.Index(self._kb_work_urns).append(
+                    pd.Index(self._kb_author_urns)
+            )
         freqs = pd.DataFrame(
             index=idx.append(pd.Index([NIL_URN])),
             dtype='float64'
-        )
+            )
         freqs['count'] = 0
         freqs['prob'] = 0.0
-        M = df_data.shape[0]
+        M = train_data.shape[0]
         N = freqs.shape[0]
         MN = M+N
 
-        for mid, mrow in df_data.iterrows():
+        # go through train data and update the frequency count table
+        for mid, mrow in train_data.iterrows():
             urn = mrow.urn_clean
             freqs.loc[urn, 'count'] += 1
 
+        # transform freq counts into probabilities
         for mid, mrow in freqs.iterrows():
             c = int(mrow['count'])
             p = float(c+1) / MN
@@ -165,6 +170,54 @@ class FeatureExtractor(object):
 
         LOGGER.info("Done computing entity probability.")
         return freqs
+
+    def _compute_entity_mention_probability(self, train_data):
+        """Probability of an entity to be referred to by a given mention.
+
+        :param train_data: a dataframe with the traning data
+        :type train_data: outp of `citation_extractor.Utils.IO.load_brat_data`
+        :rtype: a `pandas.Dataframe` with as many columns as the entities in
+                the training data, and as many rows as the mentions.
+        """
+        mentions = set(train_data.surface_norm_dots.tolist())
+        entities = self._kb_author_urns + self._kb_work_urns + [NIL_URN]
+
+        counts = pd.DataFrame(
+                    index=mentions,
+                    columns=entities,
+                    dtype='float64'
+                ).fillna(0.0)
+
+        for mid, mrow in train_data.iterrows():
+            s = mrow.surface_norm_dots
+            e = mrow.urn_clean
+            counts.loc[s, e] += 1.0
+
+        return counts.divide(counts.sum(axis=1), axis=0).fillna(0.0)
+
+    def _compute_mention_entity_probability(self, train_data):
+        """Probability of a mention to be connected to a given entity.
+
+        :param train_data: a dataframe with the traning data
+        :type train_data: outp of `citation_extractor.Utils.IO.load_brat_data`
+        :rtype: a `pandas.Dataframe` with as many columns as the entities in
+                the training data, and as many rows as the mentions.
+        """
+        mentions = set(train_data.surface_norm_dots.tolist())
+        entities = self._kb_author_urns + self._kb_work_urns + [NIL_URN]
+
+        counts = pd.DataFrame(
+                    index=mentions,
+                    columns=entities,
+                    dtype='float64'
+                ).fillna(0.0)
+
+        for mid, mrow in train_data.iterrows():
+            s = mrow.surface_norm_dots
+            e = mrow.urn_clean
+            counts.loc[s, e] += 1.0
+
+        return counts.divide(counts.sum(axis=0), axis=1).fillna(0.0)
 
     def extract_nil(self, m_type, m_scope, feature_dicts):
         LOGGER.info('Extracting NIL features for ...')

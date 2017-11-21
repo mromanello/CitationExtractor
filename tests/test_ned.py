@@ -41,7 +41,6 @@ def test_instantiate_ml_citation_matcher(
         aph_titles
         ):
     """Create an instance of MLCitationMatcher."""
-
     train_df_data = load_brat_data(
         crf_citation_extractor,
         knowledge_base,
@@ -49,6 +48,12 @@ def test_instantiate_ml_citation_matcher(
         aph_gold_ann_files,
         aph_titles
     )
+
+    """
+    train_df_data = pd.read_pickle(
+        "citation_extractor/data/pickles/aph_gold_df.pkl"
+    )
+    """
 
     fe = FeatureExtractor(knowledge_base, train_df_data)
     logger.info(fe)
