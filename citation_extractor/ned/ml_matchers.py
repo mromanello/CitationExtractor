@@ -32,8 +32,6 @@ import scipy.sparse as sp
 
 import multiprocessing
 
-import pylab as pl
-
 from citation_extractor.Utils.strmatching import StringSimilarity
 from citation_extractor.Utils.extra import avg
 
