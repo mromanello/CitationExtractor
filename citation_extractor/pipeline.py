@@ -75,6 +75,8 @@ def extract_entity_mentions(text, citation_extractor, postaggers, norm=False):
                for n, d_res in enumerate(res)]
               for i, res in enumerate(tagged_sents)]
 
+    logger.info(output)
+
     authors = map(lambda a: (AUTHOR_TYPE, a), filter_IOB(output, "AAUTHOR"))
     works = map(lambda w: (WORK_TYPE, w), filter_IOB(output, "AWORK"))
     mentions = authors + works
@@ -192,7 +194,7 @@ def get_extractor(settings):
             ce = citation_extractor(settings)
         else:
             ce = citation_extractor(settings, settings.CLASSIFIER)
-            
+
     except Exception, e:
         print e
     finally:
