@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
+"""TODO."""
+
 import pytest
 import pprint
 import logging
@@ -9,7 +11,7 @@ from pytest import fixture
 import pandas as pd
 from citation_extractor import pipeline
 from citation_extractor.Utils.IO import load_brat_data
-from citation_extractor.settings import crf
+from citation_extractor.settings import crf, svm, maxent, crfsuite
 from citation_extractor.core import citation_extractor
 from citation_extractor.ned import KnowledgeBase
 from citation_extractor.ned import CitationMatcher
@@ -19,16 +21,33 @@ logging.basicConfig(level=logging.INFO)
 #logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
+
 @fixture(scope="session")
 def crf_citation_extractor(tmpdir_factory):
-    """
-    Initialise a citation extractor with CRF model trained on the
-    goldset of the APh corpus.
-    """
+    """Initialise a citation extractor trained with CRF on APh corpus."""
     crf.TEMP_DIR = str(tmpdir_factory.mktemp('tmp'))+"/"
     crf.OUTPUT_DIR = str(tmpdir_factory.mktemp('out'))+"/"
     crf.LOG_FILE = crf.TEMP_DIR.join("extractor.log")
     return pipeline.get_extractor(crf)
+
+
+@fixture(scope="session")
+def svm_citation_extractor():
+    """Initialise a citation extractor trained with SVM on APh corpus."""
+    return pipeline.get_extractor(svm)
+
+
+@fixture(scope="session")
+def maxent_citation_extractor():
+    """Initialise a citation extractor trained with MaxEnt on APh corpus."""
+    return pipeline.get_extractor(maxent)
+
+
+@fixture(scope="session")
+def crfsuite_citation_extractor():
+    """Initialise a citation extractor trained with CRFSuite on APh corpus."""
+    return pipeline.get_extractor(crfsuite)
+
 
 @fixture(scope="session")
 def processing_directories(tmpdir_factory):

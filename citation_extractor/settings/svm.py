@@ -1,4 +1,7 @@
-# Settings for the citation extractor
+"""Settings for an SVM-based citation extractor."""
+
+import pkg_resources
+from sklearn.svm import LinearSVC
 
 # Sets debug on (=true) or off (=false)
 DEBUG = False
@@ -8,27 +11,33 @@ LOG_FILE = ""
 
 # list of directories containing data (IOB format with .iob extension)
 DATA_DIRS = (
+    pkg_resources.resource_filename(
+            'citation_extractor',
+            'data/aph_corpus/goldset/iob/'
+    ),
 )
 
-TEST_DIR = (
-)
+CLASSIFIER = CLASSIFIER = LinearSVC(verbose=False)
 
-TRAIN_COLLECTIONS = (
-	)
+TEST_DIR = ()
 
-TEST_COLLECTIONS = (
-)
+TRAIN_COLLECTIONS = ()
+
+TEST_COLLECTIONS = ()
 
 DATA_FILE = ""
 
-TEMP_DIR = "output/tmp/"
+TEMP_DIR = ""
 
-OUTPUT_DIR = "output/10fold/"
+OUTPUT_DIR = ""
 
 # number of iterations for the k-fold cross validation
 CROSS_VAL_FOLDS = 10
 
-CRFPP_TEMPLATE_DIR = "source/crex-1.2.4/citation_extractor/crfpp_templates/"
+CRFPP_TEMPLATE_DIR = pkg_resources.resource_filename(
+                'citation_extractor',
+                'crfpp_templates/'
+)
 
 CRFPP_TEMPLATE = "template_5.tpl"
 

@@ -75,6 +75,8 @@ def extract_entity_mentions(text, citation_extractor, postaggers, norm=False):
                for n, d_res in enumerate(res)]
               for i, res in enumerate(tagged_sents)]
 
+    logger.info(output)
+
     authors = map(lambda a: (AUTHOR_TYPE, a), filter_IOB(output, "AAUTHOR"))
     works = map(lambda w: (WORK_TYPE, w), filter_IOB(output, "AWORK"))
     mentions = authors + works
@@ -187,7 +189,12 @@ def get_extractor(settings):
         for directory in settings.DATA_DIRS:
             train_instances += IO.read_iob_files(directory,extension=".txt")
         logger.info("Training data: found %i directories containing %i  sentences and %i tokens"%(len(settings.DATA_DIRS),len(train_instances),IO.count_tokens(train_instances)))
-        ce = citation_extractor(settings)
+
+        if(settings.CLASSIFIER is None):
+            ce = citation_extractor(settings)
+        else:
+            ce = citation_extractor(settings, settings.CLASSIFIER)
+
     except Exception, e:
         print e
     finally:
