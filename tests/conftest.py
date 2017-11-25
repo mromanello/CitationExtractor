@@ -12,9 +12,7 @@ import pandas as pd
 from citation_extractor import pipeline
 from citation_extractor.Utils.IO import load_brat_data
 from citation_extractor.settings import crf, svm, maxent, crfsuite
-from citation_extractor.core import citation_extractor
-from citation_extractor.ned import KnowledgeBase
-from citation_extractor.ned import CitationMatcher
+from citation_extractor.ned.matchers import CitationMatcher
 from knowledge_base import KnowledgeBase as KnowledgeBaseNew
 
 logging.basicConfig(level=logging.INFO)
@@ -81,29 +79,10 @@ def aph_testset_dataframe(crf_citation_extractor, knowledge_base, postaggers, ap
     assert dataframe is not None and type(dataframe)==type(pd.DataFrame()) and dataframe.shape[0]>0
     return dataframe
 
-@fixture
-def old_knowledge_base():
-    """
-    Initialises and returns a HuCit KnowledgeBase (old version).
-    """
-    dir = pkg_resources.resource_filename('citation_extractor','data/kb/')
-    files = ["%s%s"%(dir,file) for file in pkg_resources.resource_listdir('citation_extractor','data/kb/')]
-    kb = KnowledgeBase(files,"turtle")
-    logger.info("The KnowledgeBase %s was initialised"%kb)
-    return kb
-
-@fixture
-def citation_matcher_legacy(old_knowledge_base):
-    """
-    Initialises and returns a CitationMatcher (legacy).
-    """
-    return CitationMatcher(knowledge_base)
 
 @fixture(scope="session")
 def citation_matcher(knowledge_base):
-    """
-    Initialises and returns a CitationMatcher.
-    """
+    """Initialise a CitationMatcher."""
     return CitationMatcher(knowledge_base)
 
 @fixture(scope="session")

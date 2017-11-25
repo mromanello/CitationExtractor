@@ -9,7 +9,7 @@ import logging
 import pickle
 import pandas as pd
 from citation_extractor.Utils.IO import load_brat_data
-from citation_extractor.ned.ml_matchers import FeatureExtractor
+from citation_extractor.ned.features import FeatureExtractor
 
 logger = logging.getLogger(__name__)
 
