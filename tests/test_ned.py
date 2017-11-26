@@ -34,6 +34,7 @@ def test_pickle_citation_matcher(citation_matcher):
     pickled_citation_matcher = pickle.dumps(citation_matcher)
     unpickled_citation_matcher = pickle.loads(pickled_citation_matcher)
 
+
 @pytest.mark.skip
 def test_instantiate_ml_citation_matcher(
         knowledge_base,

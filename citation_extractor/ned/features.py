@@ -3,7 +3,7 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import print_function
-import pdb # TODO remove when done with development
+import pdb  # TODO remove when done with development
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -28,7 +28,7 @@ LOGGER = logging.getLogger(__name__)
 class FeatureExtractor(object):
     """TODO."""
 
-    def __init__(self, kb, train_data=None):
+    def __init__(self, kb):
         """Initialise an instance of FeatureExtractor.
 
         :param kb: instance of HuCit KnowledgeBase
@@ -58,6 +58,8 @@ class FeatureExtractor(object):
         # TODO: define how wiki data is referenced
         self._tfidf = self._compute_tfidf_matrix()
 
+        # TODO: WARNING the prob should be computes on train phase because it depends on train data
+        train_data = None
         self._prior_prob = self._compute_entity_probability(train_data)
         self._me_prob = self._compute_mention_entity_probability(train_data)
         self._em_prob = self._compute_entity_mention_probability(train_data)

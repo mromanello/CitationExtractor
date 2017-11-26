@@ -13,10 +13,6 @@ from sklearn import svm, linear_model, cross_validation, preprocessing
 LOGGER = logging.getLogger(__name__)
 
 
-# TODO: how to deal with parallel computing?
-# TODO: how to deal/apply with (optional?) refinement step?
-
-
 class SVMRank(object):
     def __init__(self, classifier=None, sparse_dict_vect=True):
         LOGGER.info('Initializing SVM Rank')

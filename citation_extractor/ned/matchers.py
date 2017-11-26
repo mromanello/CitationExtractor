@@ -17,6 +17,10 @@ from citation_parser import CitationParser
 from citation_extractor.pipeline import NIL_URN
 from citation_extractor.Utils.strmatching import *
 
+from citation_extractor.ned.features import FeatureExtractor
+from citation_extractor.ned.ml import SVMRank
+from citation_extractor.ned.candidates import CandidatesGenerator
+
 global logger
 logger = logging.getLogger(__name__)
 LOGGER = logger
@@ -530,21 +534,22 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
 class MLCitationMatcher(object):
     def __init__(self, kb=None):
         LOGGER.info('Initializing Citation Matcher')
-        # TODO: Load, pre-process, ... the KB (?)
-        self._kb = None
-        self._feature_extractor = None
-        self._ranker = None
-        self._candidates_generator = None
 
-    def train(self, train_data=None, wikipages_dir=None, include_nil=True):
+        self._kb = kb
+
+        # TODO: Load, pre-process, ... the KB (?)
+        # self._kb_norm_authors = None
+        # self._kb_norm_works = None
+
+        self._candidates_generator = CandidatesGenerator(kb)
+        self._feature_extractor = FeatureExtractor(kb)
+        self._ranker = SVMRank()
+
+    def train(self, train_data, include_nil=True):
         LOGGER.info('Starting training')
-        # TODO: get tf-idf data from wiki texts
-        tfidf = self._compute_tfidf_matrix()
-        for k, v in tfidf.iteritems():
-            print(k, v)
-            # TODO: compute probs from train data
-            # TODO: generate features for candidates (FeatureExtractor)
-            # TODO: generate ranking function (SVMRank)
+        # TODO: compute probs from train data
+        # TODO: generate features for candidates (FeatureExtractor)
+        # TODO: generate ranking function (SVMRank)
 
     def disambiguate(self, surface, scope, type, doc_title, mentions_in_title, doc_text, other_mentions, **kwargs):
         LOGGER.info('Disambiguating ...')
