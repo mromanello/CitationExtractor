@@ -18,10 +18,10 @@ LOGGER = logging.getLogger(__name__)
 
 
 class SVMRank(object):
-    def __init__(self):
+    def __init__(self, classifier=None, sparse_dict_vect=True):
         LOGGER.info('Initializing SVM Rank')
-        self._classifier = None
-        self._dv = DictVectorizer(sparse=False)
+        self._classifier = classifier
+        self._dv = DictVectorizer(sparse=sparse_dict_vect)
 
     def _pairwise_transformation(self, X, y, groups, nb_groups):
         LOGGER.info('Applying pairwise transformation')
@@ -59,20 +59,21 @@ class SVMRank(object):
         X = self._dv.fit_transform(X)
         y, groups = map(np.array, (y, groups))
         nb_groups = len(set(groups))
+
         LOGGER.info('Fitting data [number of points: {}, number of groups: {}]'.format(len(X), nb_groups))
 
         # Aapply pairwise transform
         Xp, yp = self._pairwise_transformation(X, y, groups, nb_groups)
         Xp_norm = preprocessing.normalize(Xp)
-        print(Xp_norm)
-        print(yp)
 
-        # TODO: (optional?) compute best C parameter (k-folded)
-        C = 100
+        if not self._classifier:
+            # TODO: (optional?) compute best C parameter (k-folded)
+            C = 100
+            cache_size = 10000
+            self._classifier = svm.SVC(kernel='linear', C=C, cache_size=cache_size)
 
         # Fit linear SVM
         LOGGER.info('Fitting classifier')
-        self._classifier = svm.SVC(kernel='linear', C=C, cache_size=10000)
         self._classifier.fit(Xp_norm, yp)
 
     def predict(self, X):
@@ -83,8 +84,12 @@ class SVMRank(object):
         """
         if not self._classifier:
             LOGGER.error('The classifier is not initialized. Method fit() should invoked first')
+            return None
+
         X = self._dv.fit_transform(X)
+
         LOGGER.info('Applying prediction to matrix {}'.format(X.shape))
+
         coef = self._classifier.coef_.ravel()
         norm_coef = coef / np.linalg.norm(coef)
         scores = np.dot(X, norm_coef.T).ravel().tolist()
