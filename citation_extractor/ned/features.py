@@ -3,7 +3,7 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import print_function
-import pdb # TODO remove when done with development
+import pdb  # TODO remove when done with development
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.metrics.pairwise import cosine_similarity

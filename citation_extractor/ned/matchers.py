@@ -17,9 +17,13 @@ from citation_parser import CitationParser
 from citation_extractor.pipeline import NIL_URN
 from citation_extractor.Utils.strmatching import *
 
+from citation_extractor.ned.features import FeatureExtractor
+from citation_extractor.ned.ml import SVMRank
+from citation_extractor.ned.candidates import CandidatesGenerator
+
 global logger
 logger = logging.getLogger(__name__)
-
+LOGGER = logger
 
 # TODO: not sure about `scope`
 Result = namedtuple('DisambiguationResult', 'mention, entity_type, scope, urn')
@@ -33,14 +37,14 @@ def longest_common_substring(s1, s2):
     m = [[0] * (1 + len(s2)) for i in xrange(1 + len(s1))]
     longest, x_longest = 0, 0
     for x in xrange(1, 1 + len(s1)):
-       for y in xrange(1, 1 + len(s2)):
-           if s1[x - 1] == s2[y - 1]:
-               m[x][y] = m[x - 1][y - 1] + 1
-               if m[x][y] > longest:
-                   longest = m[x][y]
-                   x_longest = x
-           else:
-               m[x][y] = 0
+        for y in xrange(1, 1 + len(s2)):
+            if s1[x - 1] == s2[y - 1]:
+                m[x][y] = m[x - 1][y - 1] + 1
+                if m[x][y] > longest:
+                    longest = m[x][y]
+                    x_longest = x
+            else:
+                m[x][y] = 0
     return s1[x_longest - longest: x_longest]
 
 
@@ -93,15 +97,17 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
 
             logger.info("Done. Fetching work titles from the KB...")
             work_titles = knowledge_base.work_titles
-            self._work_titles = {key:StringUtils.normalize(work_titles[key]) for key in work_titles}
+            self._work_titles = {key: StringUtils.normalize(work_titles[key]) for key in work_titles}
 
             logger.info("Done. Fetching author abbreviations from the KB...")
             author_abbreviations = knowledge_base.author_abbreviations
-            self._author_abbreviations = {key:StringUtils.normalize(author_abbreviations[key]) for key in author_abbreviations}
+            self._author_abbreviations = {key: StringUtils.normalize(author_abbreviations[key]) for key in
+                                          author_abbreviations}
 
             logger.info("Done. Fetching work abbreviations from the KB...")
             work_abbreviations = knowledge_base.work_abbreviations
-            self._work_abbreviations = {key:StringUtils.normalize(work_abbreviations[key]) for key in work_abbreviations}
+            self._work_abbreviations = {key: StringUtils.normalize(work_abbreviations[key]) for key in
+                                        work_abbreviations}
 
             logger.info("Done. Now let's index all this information.")
 
@@ -139,21 +145,22 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
 
         if self.fuzzy_match_entities:
             entity_matching_settings = "\t-Entity matching: fuzzy matching=%s; min distance threshold=%i; max distance threshold=%i" % \
-                                        (self.fuzzy_match_entities, self.min_distance_entities, self.max_distance_entities)
+                                       (self.fuzzy_match_entities, self.min_distance_entities,
+                                        self.max_distance_entities)
         else:
             entity_matching_settings = "\t-Entity matching: fuzzy matching=%s" % self.fuzzy_match_entities
 
         if self.fuzzy_match_relations:
             relation_matching_settings = "\t-Relation matching: fuzzy matching=%s; edit distance threshold=%i" % \
-                                        (self.fuzzy_match_relations, self.distance_relations)
+                                         (self.fuzzy_match_relations, self.distance_relations)
         else:
             relation_matching_settings = "\t-Relation matching: fuzzy matching=%s" % self.fuzzy_match_relations
 
         knowledge_base_extent = "\t-Extent of the KnowledgeBase: %i author abbreviations, %i author_names, %i work abbreviations, %i work titles." % \
                                 (len(self._author_abbreviations)
-                                , len(self._author_names)
-                                , len(self._work_abbreviations)
-                                , len(self._work_titles))
+                                 , len(self._author_names)
+                                 , len(self._work_abbreviations)
+                                 , len(self._work_titles))
 
         return "\n".join((prolog, entity_matching_settings, relation_matching_settings, knowledge_base_extent))
 
@@ -166,14 +173,14 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
         returns:
             string
         """
-        if(scope_dictionary.has_key("end")):
-            #is range
-            return "%s-%s"%(".".join(scope_dictionary["start"]),".".join(scope_dictionary["end"]))
+        if (scope_dictionary.has_key("end")):
+            # is range
+            return "%s-%s" % (".".join(scope_dictionary["start"]), ".".join(scope_dictionary["end"]))
         else:
-            #is not range
+            # is not range
             return ".".join(scope_dictionary["start"])
 
-    def _disambiguate_relation(self, citation_string, entity_type, scope, n_guess=1): #TODO: finish debugging
+    def _disambiguate_relation(self, citation_string, entity_type, scope, n_guess=1):  # TODO: finish debugging
         """
         :citation_string: e.g. "Hom. Il.
         :scope: e.g. "1,100"
@@ -193,7 +200,8 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
                     if m[2] == 0:
                         zero_distance_match = True
 
-            logger.debug("[%s %s] zero distance match is %s, match = %s" % (citation_string, scope, zero_distance_match, match))
+            logger.debug(
+                "[%s %s] zero distance match is %s, match = %s" % (citation_string, scope, zero_distance_match, match))
 
             if match is None or not zero_distance_match:
                 match = self.matches_author(citation_string, self.fuzzy_match_relations, self.distance_relations)
@@ -210,14 +218,14 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
             """
 
         # citation string has two tokens
-        elif(len(citation_string.split(" "))==2):
+        elif (len(citation_string.split(" ")) == 2):
             tok1, tok2 = citation_string.split(" ")
 
             # case 1: tok1 is author and tok2 is work
             match_tok1 = self.matches_author(tok1, self.fuzzy_match_relations, self.distance_relations)
             match_tok2 = self.matches_work(tok2, self.fuzzy_match_relations, self.distance_relations)
 
-            if(match_tok1 is not None and match_tok2 is not None):
+            if (match_tok1 is not None and match_tok2 is not None):
 
                 for id1, label1, score1 in match_tok1:
                     for id2, label2, score2 in match_tok2:
@@ -233,7 +241,7 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
                     match = self.matches_work(citation_string, self.fuzzy_match_relations, self.distance_relations)
 
         # citation string has more than two tokens
-        elif(len(citation_string.split(" "))>2):
+        elif (len(citation_string.split(" ")) > 2):
 
             match = self.matches_author(citation_string, self.fuzzy_match_relations, self.distance_relations)
 
@@ -242,14 +250,14 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
             raise
 
         # return only n_guess results
-        if match is None or len(match)==0:
+        if match is None or len(match) == 0:
             logger.debug("\'%s %s\': no disambiguation candidates were found." % (citation_string, scope))
             return Result(citation_string, entity_type, scope, NIL_URN)
 
-        elif len(match)<= n_guess:
+        elif len(match) <= n_guess:
             logger.debug("There are %i matches and `n_guess`==%i. Nothing to cut." % (len(match), n_guess))
 
-        elif len(match)> n_guess:
+        elif len(match) > n_guess:
             # iterate and get what's the lowest ed_score
             # then keep only the matches with lowest (best) score
             # then keep the one with longest common string
@@ -262,14 +270,14 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
 
             filtered_matches = [m for m in match if m[2] == lowest_score]
 
-            best_match = ("",None)
+            best_match = ("", None)
 
-            if(lowest_score > 0):
+            if (lowest_score > 0):
                 for match in filtered_matches:
                     lcs = longest_common_substring(match[1], citation_string)
-                    if(len(lcs) > len(best_match[0])):
-                        best_match = (lcs,match)
-                match = [best_match[1]] # TODO: check this; don't think it's correct
+                    if (len(lcs) > len(best_match[0])):
+                        best_match = (lcs, match)
+                match = [best_match[1]]  # TODO: check this; don't think it's correct
                 logger.debug("Longest_common_substring selected %s out of %s" % (match, filtered_matches))
             else:
                 # TODO: use context here to disambiguate
@@ -280,13 +288,13 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
             urn = CTS_URN(urn_string)
 
             # check: does the URN have a scope but is missing the work element (not possible)?
-            if(urn.work is None):
+            if (urn.work is None):
                 # if so, try to get the opus maximum from the KB
                 opmax = self._kb.get_opus_maximum_of(urn)
 
-                if(opmax is not None):
-                    logger.debug("%s is opus maximum of %s"%(opmax, urn))
-                    urn = CTS_URN("%s:%s"%(opmax,formatted_scope))
+                if (opmax is not None):
+                    logger.debug("%s is opus maximum of %s" % (opmax, urn))
+                    urn = CTS_URN("%s:%s" % (opmax, formatted_scope))
 
             return Result(citation_string, entity_type, scope, urn)
 
@@ -321,21 +329,21 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
             if self.fuzzy_match_entities:
 
                 matches = self.matches_author(string, True, distance_threshold)
-                while(matches is None and distance_threshold <= max_distance_threshold):
-                    distance_threshold+=1
+                while (matches is None and distance_threshold <= max_distance_threshold):
+                    distance_threshold += 1
                     matches = self.matches_author(string, True, distance_threshold)
 
             else:
                 matches = self.matches_author(string, False)
 
-        elif(entity_type == "AWORK"):
+        elif (entity_type == "AWORK"):
 
             if self.fuzzy_match_entities:
 
-                matches = self.matches_work(string,True,distance_threshold)
+                matches = self.matches_work(string, True, distance_threshold)
 
-                while(matches is None and distance_threshold <= max_distance_threshold):
-                    distance_threshold+=1
+                while (matches is None and distance_threshold <= max_distance_threshold):
+                    distance_threshold += 1
                     matches = self.matches_work(string, True, distance_threshold)
             else:
                 matches = self.matches_work(string, False)
@@ -344,25 +352,25 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
             # TODO: raise exception
             logger.warning("unknown entity type: %s" % entity_type)
 
-        if(matches is not None and len(matches)>0):
+        if (matches is not None and len(matches) > 0):
             lowest_score = 1000
 
             for match in matches:
                 score = match[2]
-                if(score < lowest_score):
+                if (score < lowest_score):
                     lowest_score = score
 
-            filtered_matches = [match for match in matches if match[2]==lowest_score]
-            filtered_matches = sorted(filtered_matches, key =itemgetter(2))
-            best_match = ("",None)
+            filtered_matches = [match for match in matches if match[2] == lowest_score]
+            filtered_matches = sorted(filtered_matches, key=itemgetter(2))
+            best_match = ("", None)
 
-            if(lowest_score > 0):
+            if (lowest_score > 0):
                 for match in filtered_matches:
-                    lcs = longest_common_substring(match[1],string)
-                    if(len(lcs)>len(best_match[0])):
-                        best_match = (lcs,match)
+                    lcs = longest_common_substring(match[1], string)
+                    if (len(lcs) > len(best_match[0])):
+                        best_match = (lcs, match)
 
-                if(best_match[1] is not None):
+                if (best_match[1] is not None):
                     return Result(mention, entity_type, None, best_match[1][0])
                 else:
                     # TODO: perhaps log some message
@@ -390,51 +398,53 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
                 tuple[2] is the distance, measured in characters, between the search string and the matching string
                 or None if no match is found.
         """
-        #string = string.lower()
-        author_matches, abbr_matches = [],[]
+        # string = string.lower()
+        author_matches, abbr_matches = [], []
 
-        if(not fuzzy):
+        if (not fuzzy):
 
             author_matches = [(id.split("$$")[0]
-                            , self._author_names[id]
-                            , len(self._author_names[id])-len(string))
-                             for id in self._author_idx.searchAllWords(string)]
+                               , self._author_names[id]
+                               , len(self._author_names[id]) - len(string))
+                              for id in self._author_idx.searchAllWords(string)]
 
             abbr_matches = [(id.split("$$")[0]
-                            , self._author_abbreviations[id]
-                            , len(self._author_abbreviations[id])-len(string))
+                             , self._author_abbreviations[id]
+                             , len(self._author_abbreviations[id]) - len(string))
                             for id in self._author_abbr_idx.searchAllWords(string)]
         else:
             abbr_matches = [(id.split("$$")[0]
-                            , self._author_abbreviations[id]
-                            , edit_distance(string,self._author_abbreviations[id]))
+                             , self._author_abbreviations[id]
+                             , edit_distance(string, self._author_abbreviations[id]))
                             for id in self._author_abbreviations
-                            if edit_distance(string,self._author_abbreviations[id]) <= distance_threshold]
+                            if edit_distance(string, self._author_abbreviations[id]) <= distance_threshold]
 
-            abbr_matches = sorted(abbr_matches, key =itemgetter(2))
+            abbr_matches = sorted(abbr_matches, key=itemgetter(2))
             author_matches = []
 
             for id in self._author_names:
-                if(string.endswith(".")):
-                    if string.replace(".","") in self._author_names[id]:
-                        if(len(string) > (len(self._author_names[id]) / 2)):
+                if (string.endswith(".")):
+                    if string.replace(".", "") in self._author_names[id]:
+                        if (len(string) > (len(self._author_names[id]) / 2)):
                             try:
                                 assert abbr_matches[0][2] == 0
                                 distance = len(self._author_names[id]) - len(string)
                                 if distance < 0:
                                     distance = 1
-                                author_matches.append((id.split("$$")[0], self._author_names[id],distance))
+                                author_matches.append((id.split("$$")[0], self._author_names[id], distance))
                             except Exception, e:
-                                author_matches.append((id.split("$$")[0], self._author_names[id],0))
+                                author_matches.append((id.split("$$")[0], self._author_names[id], 0))
                         else:
-                            if(edit_distance(string,self._author_names[id]) <= distance_threshold):
-                                author_matches.append((id.split("$$")[0], self._author_names[id], edit_distance(string,self._author_names[id])))
+                            if (edit_distance(string, self._author_names[id]) <= distance_threshold):
+                                author_matches.append((id.split("$$")[0], self._author_names[id],
+                                                       edit_distance(string, self._author_names[id])))
                 else:
-                    if(edit_distance(string,self._author_names[id]) <= distance_threshold):
-                        author_matches.append((id.split("$$")[0], self._author_names[id], edit_distance(string,self._author_names[id])))
+                    if (edit_distance(string, self._author_names[id]) <= distance_threshold):
+                        author_matches.append(
+                            (id.split("$$")[0], self._author_names[id], edit_distance(string, self._author_names[id])))
 
-        if(len(author_matches)>0 or len(abbr_matches)>0):
-            return sorted(author_matches + abbr_matches, key =itemgetter(2))
+        if (len(author_matches) > 0 or len(abbr_matches) > 0):
+            return sorted(author_matches + abbr_matches, key=itemgetter(2))
         else:
             return None
 
@@ -455,22 +465,22 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
                 tuple[2] is the distance, measured in characters, between the search string and the matching string
                 or None if no match is found.
         """
-        #string = string.lower()
-        work_matches, work_abbr_matches = [],[]
+        # string = string.lower()
+        work_matches, work_abbr_matches = [], []
 
-        if(not fuzzy):
+        if (not fuzzy):
 
             work_matches = [(id.split("$$")[0]
-                            , self._work_titles[id]
-                            , len(self._work_titles[id])-len(string))
+                             , self._work_titles[id]
+                             , len(self._work_titles[id]) - len(string))
                             for id
                             in self._work_idx.searchAllWords(string)]
 
             work_abbr_matches = [(id.split("$$")[0]
-                                , self._work_abbreviations[id]
-                                , len(self._work_abbreviations[id])-len(string))
-                                for id
-                                in self._work_abbr_idx.searchAllWords(string)]
+                                  , self._work_abbreviations[id]
+                                  , len(self._work_abbreviations[id]) - len(string))
+                                 for id
+                                 in self._work_abbr_idx.searchAllWords(string)]
 
             logger.debug("Matching works: %s (fuzzy matching=%s)" % (work_matches, fuzzy))
             logger.debug("Matching work abbreviations: %s (fuzzy matching=%s)" % (work_abbr_matches, fuzzy))
@@ -480,29 +490,31 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
             work_matches = []
 
             for id in self._work_titles:
-                distance = edit_distance(string,self._work_titles[id])
+                distance = edit_distance(string, self._work_titles[id])
                 if distance <= distance_threshold:
                     work_matches.append(
-                            (id.split("$$")[0]
-                            , self._work_titles[id]
-                            , distance)
-                            )
+                        (id.split("$$")[0]
+                         , self._work_titles[id]
+                         , distance)
+                    )
 
             work_abbr_matches = [(id.split("$$")[0]
-                                , self._work_abbreviations[id]
-                                , edit_distance(string, self._work_abbreviations[id].lower()))
-                                for id in self._work_abbreviations
-                                if edit_distance(string, self._work_abbreviations[id].lower()) <= distance_threshold]
+                                  , self._work_abbreviations[id]
+                                  , edit_distance(string, self._work_abbreviations[id].lower()))
+                                 for id in self._work_abbreviations
+                                 if edit_distance(string, self._work_abbreviations[id].lower()) <= distance_threshold]
 
             logger.debug("Matching works: %s (fuzzy matching=%s; edit_distance_threshold=%i)" % (work_matches
-                                                                                                , fuzzy
-                                                                                                , distance_threshold))
+                                                                                                 , fuzzy
+                                                                                                 , distance_threshold))
 
-            logger.debug("Matching work abbreviations: %s (fuzzy matching=%s; edit_distance_threshold=%i)" % (work_abbr_matches
-                                                                                                            , fuzzy
-                                                                                                            , distance_threshold))
+            logger.debug(
+                "Matching work abbreviations: %s (fuzzy matching=%s; edit_distance_threshold=%i)" % (work_abbr_matches
+                                                                                                     , fuzzy
+                                                                                                     ,
+                                                                                                     distance_threshold))
 
-        if(len(work_matches)>0 or len(work_abbr_matches)>0):
+        if (len(work_matches) > 0 or len(work_abbr_matches) > 0):
             return sorted(work_matches + work_abbr_matches, key=itemgetter(2))
         else:
             return None
@@ -518,7 +530,7 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
 
         assert surface is not None
 
-        #cleaned_surface = StringUtils.remove_punctuation(surface, keep_dots=True).strip() if scope is not None else StringUtils.remove_punctuation(surface)
+        # cleaned_surface = StringUtils.remove_punctuation(surface, keep_dots=True).strip() if scope is not None else StringUtils.remove_punctuation(surface)
         cleaned_surface = StringUtils.normalize(surface)
         logger.debug("Citation string before and after cleaning: \"%s\" => \"%s\"" % (surface, cleaned_surface))
 
@@ -533,20 +545,22 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
 class MLCitationMatcher(object):
     def __init__(self, kb=None):
         LOGGER.info('Initializing Citation Matcher')
-        # TODO: Load, pre-process, ... the KB (?)
-        self._kb = None
-        self._feature_extractor = None
-        self._ranker = None
 
-    def train(self, train_data=None, wikipages_dir=None, include_nil=True):
+        self._kb = kb
+
+        # TODO: Load, pre-process, ... the KB (?)
+        # self._kb_norm_authors = None
+        # self._kb_norm_works = None
+
+        self._candidates_generator = CandidatesGenerator(kb)
+        self._feature_extractor = FeatureExtractor(kb)
+        self._ranker = SVMRank()
+
+    def train(self, train_data, include_nil=True):
         LOGGER.info('Starting training')
-        # TODO: get tf-idf data from wiki texts
-        tfidf = self._compute_tfidf_matrix()
-        for k, v in tfidf.iteritems():
-            print(k, v)
-            # TODO: compute probs from train data
-            # TODO: generate features for candidates (FeatureExtractor)
-            # TODO: generate ranking function (SVMRank)
+        # TODO: compute probs from train data
+        # TODO: generate features for candidates (FeatureExtractor)
+        # TODO: generate ranking function (SVMRank)
 
     def disambiguate(self, surface, scope, type, doc_title, mentions_in_title, doc_text, other_mentions, **kwargs):
         LOGGER.info('Disambiguating ...')
