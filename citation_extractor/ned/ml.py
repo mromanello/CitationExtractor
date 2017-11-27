@@ -46,7 +46,8 @@ class SVMRank(object):
         return Xp, yp
 
     def fit(self, X, y, groups):
-        """
+        """Train the SVMRank model.
+
         :param X: A list of dicts
         :param y: A list of integers (0 or 1)
         :param groups: A list of integers
@@ -56,7 +57,8 @@ class SVMRank(object):
         y, groups = map(np.array, (y, groups))
         nb_groups = len(set(groups))
 
-        LOGGER.info('Fitting data [number of points: {}, number of groups: {}]'.format(len(X), nb_groups))
+        LOGGER.info('Fitting data [number of points: {}, \
+                    number of groups: {}]'.format(len(X), nb_groups))
 
         # Aapply pairwise transform
         Xp, yp = self._pairwise_transformation(X, y, groups, nb_groups)
@@ -66,7 +68,11 @@ class SVMRank(object):
             # TODO: (optional?) compute best C parameter (k-folded)
             C = 100
             cache_size = 10000
-            self._classifier = svm.SVC(kernel='linear', C=C, cache_size=cache_size)
+            self._classifier = svm.SVC(
+                kernel='linear',
+                C=C,
+                cache_size=cache_size
+                )
 
         # Fit linear SVM
         LOGGER.info('Fitting classifier')

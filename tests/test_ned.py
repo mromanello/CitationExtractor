@@ -37,7 +37,6 @@ def test_pickle_citation_matcher(citation_matcher):
 
 # When finished testing, transform into a fixture
 # and move to conftest.py
-@pytest.mark.skip
 def test_instantiate_ml_citation_matcher(
         knowledge_base,
         aph_gold_ann_files,
@@ -72,7 +71,7 @@ def test_instantiate_ml_citation_matcher(
         pickle.dump(fe._kb_work_urns, f)
     """
 
-
+@pytest.mark.skip
 def test_instantiate_ml_citation_matcher_quick():
     """TODO."""
     prior_prob = pd.read_pickle(
