@@ -28,28 +28,44 @@ LOGGER = logging.getLogger(__name__)
 class FeatureExtractor(object):
     """TODO."""
 
-    def __init__(self, kb, train_data=None):
+    def __init__(self, kb=None, train_data=None, **kwargs):
         """Initialise an instance of FeatureExtractor.
+
+        Optional kwargs:
+            - `kb_author_urns`
+            - `kb_work_urns`
+            - `prior_prob`
+            - `mention_entity_prob`
+            - `entity_mention_prob`
 
         :param kb: instance of HuCit KnowledgeBase
         :param train_data:
         """
         LOGGER.info('Initializing Feature Extractor')
 
-        # get the list of author IDs (URNs)
-        self._kb_author_urns = [
-            str(a.get_urn())
-            for a in kb.get_authors()
-            if a.get_urn() is not None
-            ]
+        if kb is not None:
 
-        # get the list of work IDs (URNs)
-        self._kb_work_urns = [
-            str(w.get_urn())
-            for a in kb.get_authors()
-            for w in a.get_works()
-            if w.get_urn() is not None
-            ]
+            # get the list of author IDs (URNs)
+            self._kb_author_urns = [
+                str(a.get_urn())
+                for a in kb.get_authors()
+                if a.get_urn() is not None
+                ]
+
+            # get the list of work IDs (URNs)
+            self._kb_work_urns = [
+                str(w.get_urn())
+                for a in kb.get_authors()
+                for w in a.get_works()
+                if w.get_urn() is not None
+                ]
+
+        elif 'kb_author_urns' in kwargs and 'kb_work_urns' in kwargs:
+            self._kb_author_urns = kwargs['kb_author_urns']
+            self._kb_work_urns = kwargs['kb_work_urns']
+
+        else:
+            raise Exception
 
         # TODO: pre-compute normalized authors/works (?)
         self._kb_norm_authors = None
@@ -58,9 +74,22 @@ class FeatureExtractor(object):
         # TODO: define how wiki data is referenced
         self._tfidf = self._compute_tfidf_matrix()
 
-        self._prior_prob = self._compute_entity_probability(train_data)
-        self._me_prob = self._compute_mention_entity_probability(train_data)
-        self._em_prob = self._compute_entity_mention_probability(train_data)
+        if train_data is not None:
+
+            self._prior_prob = self._compute_entity_probability(
+                train_data
+            )
+            self._me_prob = self._compute_mention_entity_probability(
+                train_data
+            )
+            self._em_prob = self._compute_entity_mention_probability(
+                train_data
+            )
+
+        else:
+            self._prior_prob = kwargs['prior_prob']
+            self._me_prob = kwargs['mention_entity_prob']
+            self._em_prob = kwargs['entity_mention_prob']
 
     def _compute_tfidf_matrix(self, base_dir=None):
         LOGGER.info('Computing TF-IDF matrix (base_dir={})'.format(base_dir))
@@ -72,11 +101,20 @@ class FeatureExtractor(object):
 
             if not base_dir:
                 resources_dir = 'data/wikipages/text/authors/{}'.format(lang)
-                text_authors_dir_lang = pkg_resources.resource_filename('citation_extractor', resources_dir)
-                text_authors_files = pkg_resources.resource_listdir('citation_extractor', resources_dir)
+                text_authors_dir_lang = pkg_resources.resource_filename(
+                    'citation_extractor',
+                    resources_dir
+                )
+                text_authors_files = pkg_resources.resource_listdir(
+                    'citation_extractor',
+                    resources_dir
+                )
             else:
                 text_authors_dir_lang = os.path.join(base_dir, lang)
                 text_authors_files = os.listdir(text_authors_dir_lang)
+
+            LOGGER.info('Computing TF-IDF matrix: using %i document for \
+                        language %s' % (len(text_authors_files), lang))
 
             texts = []
             urn_to_index = {}
@@ -111,6 +149,7 @@ class FeatureExtractor(object):
             lang_data['matrix'] = tfidf_matrix
 
             tfidf_data[lang] = lang_data
+            LOGGER.info('Done computing TF-IDF matrix.')
 
         return tfidf_data
 
@@ -200,6 +239,17 @@ class FeatureExtractor(object):
         return counts.divide(counts.sum(axis=0), axis=1).fillna(0.0)
 
     def extract_nil(self, m_type, m_scope, feature_dicts):
+        """Extract NIL-related features from entity mention.
+
+        :param m_type:
+        :type m_type: str
+        :param m_scope:
+        :type m_scope: str
+        :param feature_dicts:
+        :type feature_dicts: dict
+        :rtype: dict
+
+        """
         LOGGER.info('Extracting NIL features for ...')
         feature_vector = {}
 
@@ -233,8 +283,18 @@ class FeatureExtractor(object):
 
         return feature_vector
 
-    def extract(self, m_surface, m_scope, m_type, m_title_mentions, m_title, m_doc_text, m_prev_entities,
-                candidate_urn):
+    def extract(
+            self,
+            m_surface,
+            m_scope,
+            m_type,
+            m_title_mentions,
+            m_title,
+            m_doc_text,
+            m_prev_entities,
+            candidate_urn
+            ):
+        """TODO."""
         LOGGER.info('Extracting features for ...')
 
         feature_vector = {}
@@ -247,18 +307,55 @@ class FeatureExtractor(object):
         if m_type == AUTHOR_TYPE and not m_scope:
 
             surf = m_surface
-            names = self._kb_norm_authors.loc[candidate_urn, 'norm_names_clean']
-            abbr = self._kb_norm_authors.loc[candidate_urn, 'norm_abbr']
+            names = self._kb_norm_authors.loc[
+                candidate_urn,
+                'norm_names_clean'
+            ]
+            abbr = self._kb_norm_authors.loc[
+                candidate_urn,
+                'norm_abbr'
+            ]
 
             if string_sim:
-                self.add_string_similarities(feature_vector, 'ANS_ss_', surf, names)
-                self.add_abbr_match(feature_vector, 'ANS_ss_', surf, abbr)
+                self.add_string_similarities(
+                    feature_vector,
+                    'ANS_ss_',
+                    surf,
+                    names
+                )
+                self.add_abbr_match(
+                    feature_vector,
+                    'ANS_ss_',
+                    surf,
+                    abbr
+                )
 
             if context_sim:
-                self.add_tfidf_similarity(feature_vector, 'ANS_cxt_tfidf_', candidate_urn, m_doc_text)
-                self.add_title_similarities(feature_vector, 'ANS_cxt_title_', m_title_mentions, m_title, candidate_urn)
-                self.add_other_mentions_string_similarities(feature_vector, 'ANS_cxt_om_', m_surface, m_scope, m_type,
-                                                            m_prev_entities, candidate_urn)
+
+                self.add_tfidf_similarity(
+                    feature_vector,
+                    'ANS_cxt_tfidf_',
+                    candidate_urn,
+                    m_doc_text
+                )
+
+                self.add_title_similarities(
+                    feature_vector,
+                    'ANS_cxt_title_',
+                    m_title_mentions,
+                    m_title,
+                    candidate_urn
+                )
+
+                self.add_other_mentions_string_similarities(
+                    feature_vector,
+                    'ANS_cxt_om_',
+                    m_surface,
+                    m_scope,
+                    m_type,
+                    m_prev_entities,
+                    candidate_urn
+                )
 
             if prob:
                 self.add_prior_prob(feature_vector, 'ANS_prob_entity_prior', candidate_urn)

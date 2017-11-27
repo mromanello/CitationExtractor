@@ -43,26 +43,39 @@ def longest_common_substring(s1, s2):
                m[x][y] = 0
     return s1[x_longest - longest: x_longest]
 
+
 class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
     """
     TODO
     docstring for CitationMatcher
 
     """
-    def __init__(self, knowledge_base=None, fuzzy_matching_entities=False, fuzzy_matching_relations=False,
-                min_distance_entities=1, max_distance_entities=3, distance_relations=3, **kwargs):
+    def __init__(
+            self,
+            knowledge_base=None,
+            fuzzy_matching_entities=False,
+            fuzzy_matching_relations=False,
+            min_distance_entities=1,
+            max_distance_entities=3,
+            distance_relations=3,
+            **kwargs
+            ):
 
         self.fuzzy_match_entities = fuzzy_matching_entities
         self.fuzzy_match_relations = fuzzy_matching_relations
 
-        self.min_distance_entities = min_distance_entities if fuzzy_matching_entities else None
-        self.max_distance_entities = max_distance_entities if fuzzy_matching_entities else None
-        self.distance_relations = distance_relations if fuzzy_matching_relations else None
+        self.min_distance_entities = min_distance_entities if \
+            fuzzy_matching_entities else None
+        self.max_distance_entities = max_distance_entities if \
+            fuzzy_matching_entities else None
+        self.distance_relations = distance_relations if \
+            fuzzy_matching_relations else None
 
         self._kb = knowledge_base
 
         if 'author_names' in kwargs and 'work_titles' in kwargs \
-            and 'work_abbreviations' in kwargs and 'author_abbreviations' in kwargs:
+                and 'work_abbreviations' in kwargs and \
+                'author_abbreviations' in kwargs:
 
             self._author_names = kwargs["author_names"]
             self._author_abbreviations = kwargs["author_abbreviations"]
@@ -515,6 +528,7 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
 
         elif scope is not None:
             return self._disambiguate_relation(cleaned_surface, entity_type, scope, n_results)
+
 
 class MLCitationMatcher(object):
     def __init__(self, kb=None):

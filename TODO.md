@@ -13,6 +13,7 @@
 
 ## Code Refactoring
 
+* [ ] remove obsolete functions from `pipeline`
 * to streamline installation, try to remove local dependencies:
 	* [ ] add `pysuffix` to the codebase => `Utils.pysuffix` (or os)
 
@@ -31,6 +32,7 @@
 
 ## Testing
 
+* [ ] rewrite tests for `pipeline` module
 
 * write tests for:
     * [x] creating and running a citation extractor
