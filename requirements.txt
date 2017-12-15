@@ -1,10 +1,10 @@
 pyCTS
 http://www.antlr3.org/download/Python/antlr_python_runtime-3.1.3.tar.gz
-https://github.com/mromanello/hucit_kb/archive/master.zip
 https://github.com/mromanello/treetagger-python/archive/master.zip
 langid
 docopt
 pandas
+hucitlib
 jellyfish>=0.5.6
 stop_words>=2015.2.23.1
 citation_parser>=0.4.1

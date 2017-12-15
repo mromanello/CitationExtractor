@@ -1,8 +1,10 @@
 """
 Creates a wrapper around the CRF++ implementation.
 """
-
-import CRFPP
+try:
+	import CRFPP
+except ImportError as e:
+	print "CRFPP not found: you won't be able to use this implementation!"
 import sys
 import logging
 import os
@@ -34,10 +36,10 @@ class CRF_classifier:
 	def classify(self,l_tokens):
 		"""
 		Classify a lost of tokens.
-		
+
 		Args:
 			l_tokens: A list of string where the token and its feature vector are separated by tabs ("\t").
-			
+
 			For example: an instance with tokens ("Eschilo","interprete") would correspond to the following list
 			[
 			u'Eschilo\tOTHERS\tINIT_CAPS\teschilo\tNO_DIGITS\tOTHERS\t7\tE\tEs\tEsc\tEsch\to\tlo\tilo\thilo'
@@ -80,4 +82,3 @@ class CRF_classifier:
 if __name__ == "__main__":
     # crf_learn -t /56k/phd/code/python/crfx.tpl /56k/phd/code/python/doc1.train /56k/phd/code/python/crfx.mdl
     train_crfpp("/56k/phd/code/python/crfx.tpl","/56k/phd/code/python/doc1.train","/56k/phd/code/python/eval/new.mdl")
-			

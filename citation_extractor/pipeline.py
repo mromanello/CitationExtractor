@@ -44,6 +44,7 @@ AUTHOR_TYPE = 'AAUTHOR'
 WORK_TYPE = 'AWORK'
 REFAUWORK_TYPE = 'REFAUWORK'
 
+
 def extract_entity_mentions(text, citation_extractor, postaggers, norm=False):
     if not text:
         return []
@@ -86,6 +87,7 @@ def extract_entity_mentions(text, citation_extractor, postaggers, norm=False):
         return mentions_norm
 
     return mentions
+
 
 def recover_segmentation_errors(text, abbreviation_list, verbose=False):
     """
@@ -134,6 +136,7 @@ def recover_segmentation_errors(text, abbreviation_list, verbose=False):
         print >> sys.stderr, "%i line were breaks recovered"%(len(text_lines)-len(output_text.split('\n')))
     return output_text
 
+
 def get_taggers(treetagger_dir='/Applications/treetagger/cmd/', abbrev_file=None):
     """
     Initialises a set of treetaggers, one for each supported language (i.e. en, it, es, de, fr, nl).
@@ -174,6 +177,7 @@ def get_taggers(treetagger_dir='/Applications/treetagger/cmd/', abbrev_file=None
             raise e
     return taggers
 
+
 def get_extractor(settings):
     """
     Instantiate, train and return a Citation_Extractor.
@@ -200,6 +204,7 @@ def get_extractor(settings):
     finally:
         return ce
 
+
 def detect_language(text, return_probability=False):
     """
     Detect language of a notice by using the module `langid`.
@@ -218,6 +223,7 @@ def detect_language(text, return_probability=False):
             return language
     except Exception,e:
         print "lang detection raised error \"%s\""%str(e)
+
 
 def compact_abbreviations(abbreviation_dir):
     """
@@ -249,6 +255,7 @@ def compact_abbreviations(abbreviation_dir):
     f.close()
     return fname,abbreviations
 
+
 def split_sentences(filename,outfilename=None):
     """
     sentence tokenization
@@ -279,6 +286,7 @@ def split_sentences(filename,outfilename=None):
         raise e
     return new_sentences
 
+
 def extract_relationships(entities):
     """
     TODO: implement properly the pseudocode!
@@ -303,6 +311,7 @@ def extract_relationships(entities):
 
     return relations
 
+
 def save_scope_relationships(fileid, ann_dir, relations, entities):
     """
     appends relationships (type=scope) to an .ann file.
@@ -326,6 +335,7 @@ def save_scope_relationships(fileid, ann_dir, relations, entities):
         raise e
     return result
 
+
 def clean_relations_annotation(fileid, ann_dir, entities):
     """
     overwrites relationships (type=scope) to an .ann file.
@@ -342,6 +352,7 @@ def clean_relations_annotation(fileid, ann_dir, entities):
     except Exception, e:
         raise e
     return result
+
 
 def remove_all_annotations(fileid, ann_dir):
     import codecs
@@ -366,6 +377,7 @@ def remove_all_annotations(fileid, ann_dir):
     except Exception, e:
         raise e
     return
+
 
 def save_scope_annotations(fileid, ann_dir, annotations):
     """
@@ -393,6 +405,7 @@ def save_scope_annotations(fileid, ann_dir, annotations):
         logger.error("Saving annotations to file %s%s failed with error: %s"%(ann_dir, fileid, e))
         return False
 
+
 def tostandoff(iobfile,standoffdir,brat_script):
     """
     Converts the .iob file with NE annotation into standoff markup.
@@ -406,110 +419,6 @@ def tostandoff(iobfile,standoffdir,brat_script):
     except Exception, e:
         raise e
 
-# TODO: refactor -> transform function into method of CitationMatcher
-def disambiguate_relations(citation_matcher,relations,entities,docid,fuzzy=False,distance_threshold=3,fill_nomatch_with_bogus_urn=False):
-    """
-    Returns:
-         [(u'R5', u'[ Verg. ] catal. 47s', u'urn:cts:TODO:47s')]
-    """
-    result = []
-    for relation in relations:
-        relation_type = relations[relation][0]
-        arg1 = relations[relation][1].split(":")[1]
-        arg2 = relations[relation][2].split(":")[1]
-        citation_string=entities[arg1][1]
-        scope = entities[arg2][1]
-        regex_clean_citstring = r'(« )|( »)|\(|\)|\,'
-        regex_clean_scope = r'(\(|\)| ?\;$|\.$|\,$)'
-        citation_string_cleaned = re.sub(regex_clean_citstring,"",citation_string)
-        scope_cleaned = re.sub(regex_clean_scope,"",scope)
-        logger.info("Citation_string cleaning: from \'%s\' to \'%s\'"%(citation_string,citation_string_cleaned))
-        logger.info("Scope cleaning: from \'%s\' to \'%s\'"%(scope,scope_cleaned))
-        citation_string = citation_string_cleaned
-        scope = scope_cleaned
-        try:
-            urn = citation_matcher.disambiguate(citation_string,scope,fuzzy=fuzzy,distance_threshold=distance_threshold,cleanup=True)[0]
-            tmp = (relation,"%s %s"%(citation_string,scope),urn)
-            logger.debug("Disambiguated relation %s as %s"%(tmp[1],tmp[2]))
-            result.append(tmp)
-        except Exception, e: # TODO: be more precise about the Exception
-            logger.error(e)
-            normalized_scope = scope
-            try:
-                normalized_scope = citation_matcher._citation_parser.parse(scope)
-                normalized_scope = citation_matcher._format_scope(normalized_scope[0]['scp'])
-            except Exception, e:
-                print e
-            if(fill_nomatch_with_bogus_urn):
-                result.append((relation,"%s %s"%(citation_string,scope),"urn:cts:TODO:%s"%normalized_scope))
-    return result
-
-# TODO: refactor -> transform function into method of CitationMatcher
-def disambiguate_entities(citation_matcher,entities,docid,min_distance_threshold,max_distance_threshold):
-    """
-
-    When no match is found it's better not to fill with a bogus URN. The
-    reason is that in some cases it's perfectly ok that no match is found. An entity
-    can be valid entity also without having disambiguation information in the groundtruth.
-
-    """
-    def longestSubstringFinder(string1, string2):
-        """
-        solution taken from http://stackoverflow.com/questions/18715688/find-common-substring-between-two-strings
-        """
-        answer = ""
-        len1, len2 = len(string1), len(string2)
-        for i in range(len1):
-            match = ""
-            for j in range(len2):
-                if (i + j < len1 and string1[i + j] == string2[j]):
-                    match += string2[j]
-                else:
-                    if (len(match) > len(answer)): answer = match
-                    match = ""
-        return answer
-    import re
-    print >> sys.stderr, "Disambiguating the %i entities contained in %s..."%(len(entities), docid)
-
-    result = []
-    matches = []
-    distance_threshold = min_distance_threshold
-    regex_clean_string = r'(« )|( »)|\(|\)|\,'
-    for entity in entities:
-        entity_type = entities[entity][0]
-        string = entities[entity][1].encode("utf-8")
-        cleaned_string = re.sub(regex_clean_string,"",string)
-        #print >> sys.stderr, "String cleaning: from \'%s\' to \'%s\'"%(string,cleaned_string)
-        string = cleaned_string
-        if entity_type == "AAUTHOR":
-            matches = citation_matcher.matches_author(string,True,distance_threshold)
-            while(matches is None and distance_threshold <= max_distance_threshold):
-                distance_threshold+=1
-                matches = citation_matcher.matches_author(string,True,distance_threshold)
-        elif(entity_type == "AWORK"):
-            matches = citation_matcher.matches_work(string,True,distance_threshold)
-            while(matches is None and distance_threshold <= max_distance_threshold):
-                distance_threshold+=1
-                matches = citation_matcher.matches_work(string,True,distance_threshold)
-        if(matches is not None and (entity_type == "AAUTHOR" or entity_type == "AWORK")):
-            lowest_score = 1000
-            for match in matches:
-                score = match[2]
-                if(score < lowest_score):
-                    lowest_score = score
-            filtered_matches = [match for match in matches if match[2]==lowest_score]
-            filtered_matches = sorted(filtered_matches, key =itemgetter(2))
-            best_match = ("",None)
-            if(lowest_score > 0):
-                for match in filtered_matches:
-                    lcs = longestSubstringFinder(match[1],string)
-                    if(len(lcs)>len(best_match[0])):
-                        best_match = (lcs,match)
-                if(best_match[1] is not None):
-                    result.append((entity,string,best_match[1][0]))
-            else:
-                result.append((entity, string ,filtered_matches[0][0]))
-    return result
 
 def preproc_document(doc_id, inp_dir, interm_dir, out_dir, abbreviations, taggers, split_sentences=True):
     """
@@ -554,6 +463,7 @@ def preproc_document(doc_id, inp_dir, interm_dir, out_dir, abbreviations, tagger
     finally:
         return doc_id, lang, no_sentences, no_tokens
 
+
 def do_ner(doc_id, inp_dir, interm_dir, out_dir, extractor, so2iob_script):
     # TODO:
     # wrap with a try/except/finally
@@ -577,7 +487,8 @@ def do_ner(doc_id, inp_dir, interm_dir, out_dir, extractor, so2iob_script):
         logger.info("Finished processing document \"%s\""%doc_id)
     return
 
-def do_ned(doc_id, inp_dir, citation_matcher, clean_annotations=False, relation_matching_distance_threshold=3, relation_matching_approx=True, entity_matching_distance_minthreshold=1, entity_matching_distance_maxthreshold=4):
+
+def do_ned(doc_id, inp_dir, citation_matcher, clean_annotations=False):
     """
     TODO: refactor. Read annotations sequentially and disambiguate one by one.
     """
@@ -618,6 +529,7 @@ def do_ned(doc_id, inp_dir, citation_matcher, clean_annotations=False, relation_
     finally:
         logger.info("Finished processing document \"%s\""%doc_id)
 
+
 def do_relex(doc_id, inp_dir, clean_relations=False):
     try:
         entities, relations, disambiguations = read_ann_file(doc_id,inp_dir)
@@ -638,6 +550,7 @@ def do_relex(doc_id, inp_dir, clean_relations=False):
         return (doc_id,False,{})
     finally:
         logger.info("Finished processing document \"%s\""%doc_id)
+
 
 def validate_configuration(configuration_parameters, task="all"): #TODO finish
     """TODO"""
@@ -660,6 +573,7 @@ def validate_configuration(configuration_parameters, task="all"): #TODO finish
         pass
     elif task == "ned":
         pass
+
 
 def run_pipeline(configuration_file): #TODO: implement
     pass
