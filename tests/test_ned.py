@@ -42,8 +42,7 @@ def test_instantiate_ml_citation_matcher(
         aph_gold_ann_files,
         crf_citation_extractor,
         postaggers,
-        aph_titles
-        ):
+        aph_titles):
     """Create an instance of MLCitationMatcher."""
     train_df_data = load_brat_data(  # TODO create a fixture out of thi  s
         crf_citation_extractor,
@@ -71,20 +70,21 @@ def test_instantiate_ml_citation_matcher(
         pickle.dump(fe._kb_work_urns, f)
     """
 
-@pytest.mark.skip
-def test_instantiate_ml_citation_matcher_quick():
-    """TODO."""
+
+# @pytest.mark.skip
+def test_instantiate_featureextractor_quick():
+    """Instantiate an instance of FeatureExtractor from pickled data."""
     prior_prob = pd.read_pickle(
         'citation_extractor/data/pickles/prior_prob.pkl'
-        )
+    )
 
     em_prob = pd.read_pickle(
         'citation_extractor/data/pickles/em_prob.pkl'
-        )
+    )
 
     me_prob = pd.read_pickle(
         'citation_extractor/data/pickles/me_prob.pkl'
-        )
+    )
 
     with open('citation_extractor/data/pickles/kb_author_urns.pkl', 'rb') as f:
         kb_author_urns = pickle.load(f)
@@ -109,12 +109,37 @@ def test_instantiate_ml_citation_matcher_quick():
 
     test_df_data = pd.read_pickle(
         'citation_extractor/data/pickles/aph_test_df.pkl'
-        )
+    )
     logger.info(test_df_data.info())
 
-    # TODO extract features for some instances of test data
+    """
+    def extract(
+            self,
+            m_surface,
+            m_scope,
+            m_type,
+            m_title_mentions,
+            m_title,
+            m_doc_text,
+            m_prev_entities,
+            candidate_urn):
+    """
+
+    for id_row, row in test_df_data.iterrows():
+        fv = fe.extract(
+            row["surface_norm"],
+            row["scope"],
+            row["type"],
+            row["doc_title_mentions"],
+            row["doc_title_norm"],
+            row["doc_text"],
+            row["other_mentions"],
+            row["urn_clean"]
+        )
+        logger.info(fv)
 
 
+# TODO: MatteoF guardera' perche' non va il test?
 def test_svm_rank():
     lowb, upperb, shift = 0, 1, 1
 

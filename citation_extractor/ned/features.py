@@ -32,8 +32,8 @@ class FeatureExtractor(object):
         """Initialise an instance of FeatureExtractor.
 
         Optional kwargs:
-            - `kb_author_urns`
-            - `kb_work_urns`
+            - `kb_author_urns` # TODO: change into kb_norm_authors
+            - `kb_work_urns` # TODO: change into kb_norm_works
             - `prior_prob`
             - `mention_entity_prob`
             - `entity_mention_prob`
@@ -50,7 +50,7 @@ class FeatureExtractor(object):
                 str(a.get_urn())
                 for a in kb.get_authors()
                 if a.get_urn() is not None
-                ]
+            ]
 
             # get the list of work IDs (URNs)
             self._kb_work_urns = [
@@ -58,7 +58,7 @@ class FeatureExtractor(object):
                 for a in kb.get_authors()
                 for w in a.get_works()
                 if w.get_urn() is not None
-                ]
+            ]
 
         elif 'kb_author_urns' in kwargs and 'kb_work_urns' in kwargs:
             self._kb_author_urns = kwargs['kb_author_urns']
@@ -92,6 +92,7 @@ class FeatureExtractor(object):
             self._em_prob = kwargs['entity_mention_prob']
 
     def _compute_tfidf_matrix(self, base_dir=None):
+        """TODO: write documentation."""
         LOGGER.info('Computing TF-IDF matrix (base_dir={})'.format(base_dir))
         tfidf_data = {}
 
@@ -292,9 +293,8 @@ class FeatureExtractor(object):
             m_title,
             m_doc_text,
             m_prev_entities,
-            candidate_urn
-            ):
-        """TODO."""
+            candidate_urn):
+        """TODO: write docstring."""
         LOGGER.info('Extracting features for ...')
 
         feature_vector = {}

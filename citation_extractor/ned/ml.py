@@ -13,6 +13,7 @@ from sklearn import svm, linear_model, cross_validation, preprocessing
 LOGGER = logging.getLogger(__name__)
 
 
+# TODO: rename => LinearSVMRank
 class SVMRank(object):
     def __init__(self, classifier=None, sparse_dict_vect=True):
         LOGGER.info('Initializing SVM Rank')
@@ -58,7 +59,7 @@ class SVMRank(object):
         nb_groups = len(set(groups))
 
         LOGGER.info('Fitting data [number of points: {}, \
-                    number of groups: {}]'.format(len(X), nb_groups))
+                    number of groups: {}]'.format(X.shape[0], nb_groups))
 
         # Aapply pairwise transform
         Xp, yp = self._pairwise_transformation(X, y, groups, nb_groups)
