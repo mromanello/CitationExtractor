@@ -10,6 +10,7 @@
 import logging
 import tabulate
 from citation_extractor.Utils.IO import init_logger
+from citation_extractor.Utils.strmatching import StringUtils
 init_logger(loglevel=logging.DEBUG)
 
 import codecs, pickle
@@ -25,14 +26,20 @@ with codecs.open("citation_extractor/data/pickles/testset_dataframe.pkl","rb") a
 
 from knowledge_base import KnowledgeBase
 #kb = KnowledgeBase("../KnowledgeBase/knowledge_base/config/virtuoso.ini")
-kb = KnowledgeBase("/Users/rromanello/Documents/ClassicsCitations/hucit_kb/knowledge_base/config/virtuoso.ini")
+kb = KnowledgeBase("/Users/rromanello/Documents/ClassicsCitations/hucit_kb/knowledge_base/config/virtuoso_local.ini")
+
+
+author_names = kb.author_names
+author_abbreviations = kb.author_abbreviations
+work_titles = kb.work_titles
+work_abbreviations = kb.work_abbreviations
 
 kb_data = {
-        "author_names": kb.author_names
-        , "author_abbreviations": kb.author_abbreviations
-        , "work_titles": kb.work_titles
-        , "work_abbreviations": kb.work_abbreviations
-        }
+        "author_names": {key: StringUtils.normalize(author_names[key]) for key in author_names}
+        , "author_abbreviations": {key: StringUtils.normalize(author_abbreviations[key]) for key in author_abbreviations}
+        , "work_titles": {key: StringUtils.normalize(work_titles[key]) for key in work_titles}
+        , "work_abbreviations": {key: StringUtils.normalize(work_abbreviations[key]) for key in work_abbreviations}
+}
 
 with codecs.open("citation_extractor/data/pickles/kb_data.pkl","rb") as pickle_file:
     kb_data = pickle.load(pickle_file)
@@ -59,6 +66,7 @@ print(tabulate.tabulate(testset_gold_df.head(20)[["urn_clean","predicted_urn"]])
 from __future__ import print_function
 import re
 import sys
+import pdb
 import logging
 from operator import itemgetter
 from collections import namedtuple
@@ -87,6 +95,7 @@ class DisambiguationNotFound(Exception):
         return repr(self.message)
 """
 
+
 def longest_common_substring(s1, s2):
     """
     Taken from https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Longest_common_substring#Python
@@ -103,6 +112,39 @@ def longest_common_substring(s1, s2):
            else:
                m[x][y] = 0
     return s1[x_longest - longest: x_longest]
+
+
+def select_lcs_match(citation_string, matches, n_guess=1):
+    """TODO."""
+    # iterate and get what's the lowest ed_score
+    # then keep only the matches with lowest (best) score
+    # then keep the one with longest common string
+    lowest_score = 1000
+
+    for m in matches:
+        score = m[2]
+        if score < lowest_score:
+            lowest_score = score
+
+    filtered_matches = [m for m in matches if m[2] == lowest_score]
+
+    best_match = ("", None)
+
+    if(lowest_score > 0):
+        for match in filtered_matches:
+            lcs = longest_common_substring(match[1], citation_string)
+            if(len(lcs) > len(best_match[0])):
+                best_match = (lcs, match)
+        match = [best_match[1]]
+        logger.debug("Longest_common_substring selected %s out of %s" % (
+            match,
+            filtered_matches
+        ))
+    else:
+        # TODO: use context here to disambiguate
+        match = matches[:n_guess]
+    return match
+
 
 class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
     """
@@ -221,13 +263,39 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
             #is not range
             return ".".join(scope_dictionary["start"])
 
-    def _disambiguate_relation(self, citation_string, entity_type, scope, n_guess=1): #TODO: finish debugging
-        """
+    def _consolidate_result(
+        self,
+        urn_string,
+        citation_string,
+        entity_type,
+        scope
+    ):
+        urn = CTS_URN(urn_string)
+
+        # check: does the URN have a scope but is missing the work element
+        if(urn.work is None):
+            # if so, try to get the opus maximum from the KB
+            opmax = self._kb.get_opus_maximum_of(urn)
+
+            if(opmax is not None):
+                logger.debug("%s is opus maximum of %s" % (opmax, urn))
+                urn = CTS_URN("{}".format(opmax.get_urn()))
+
+        return Result(citation_string, entity_type, scope, urn)
+
+    def _disambiguate_relation(
+        self,
+        citation_string,
+        entity_type,
+        scope,
+        n_guess=1
+    ):
+        """Disambiguate a relation.
+
         :citation_string: e.g. "Hom. Il.
         :scope: e.g. "1,100"
         :return: a named tuple  (see `Result`)
         """
-
         match = None
 
         # citation string has one single token
@@ -247,21 +315,63 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
 
             if match is None or not zero_distance_match:
                 match = self.matches_author(citation_string, self.fuzzy_match_relations, self.distance_relations)
-
-            """
             if match is not None:
-                #match = [(id,name,diff) for id, name, diff in match if diff == 0][:n_guess] # this has to be removed
-                pass
-            else:
-                # fuzzy matching as author
-                # then fuzzy matching as work
-                # ad the end take the matching with lowest score
-                pass
-            """
+                if(len(match) <= n_guess):
+                    match = match[:n_guess]
+                else:
+                    match = select_lcs_match(citation_string, match, n_guess)
+
+                for urn_string, label, score in match:
+                    result = self._consolidate_result(
+                        urn_string,
+                        citation_string,
+                        entity_type,
+                        scope
+                    )
+                    return result
 
         # citation string has two tokens
-        elif(len(citation_string.split(" "))==2):
+        elif(len(citation_string.split(" ")) == 2):
             tok1, tok2 = citation_string.split(" ")
+
+            # case 2: tok1 and tok2 are author
+            match = self.matches_author(citation_string, self.fuzzy_match_relations, self.distance_relations)
+
+            if match is not None:
+                if(len(match) <= n_guess):
+                    match = match[:n_guess]
+                else:
+                    match = select_lcs_match(citation_string, match, n_guess)
+
+                for urn_string, label, score in match:
+                    result = self._consolidate_result(
+                        urn_string,
+                        citation_string,
+                        entity_type,
+                        scope
+                    )
+                    return result
+            else:
+                # case 3: tok1 and tok2 are work
+                match = self.matches_work(
+                    citation_string,
+                    self.fuzzy_match_relations,
+                    self.distance_relations
+                )
+                if match is not None:
+                    if(len(match) <= n_guess):
+                        match = match[:n_guess]
+                    else:
+                        match = select_lcs_match(citation_string, match, n_guess)
+
+                    for urn_string, label, score in match:
+                        result = self._consolidate_result(
+                            urn_string,
+                            citation_string,
+                            entity_type,
+                            scope
+                        )
+                        return result
 
             # case 1: tok1 is author and tok2 is work
             match_tok1 = self.matches_author(tok1, self.fuzzy_match_relations, self.distance_relations)
@@ -271,74 +381,45 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
 
                 for id1, label1, score1 in match_tok1:
                     for id2, label2, score2 in match_tok2:
-                        if id1 in id2:
+                        work = self._kb.get_resource_by_urn(id2)
+
+                        if id1 == str(work.author.get_urn()):
                             match = [(id2, label2, score2)]
                             return Result(citation_string, entity_type, scope, CTS_URN(id2))
-            else:
-                # case 2: tok1 and tok2 are author
-                match = self.matches_author(citation_string, self.fuzzy_match_relations, self.distance_relations)
-
-                if match is None:
-                    # case 3: tok1 and tok2 are work
-                    match = self.matches_work(citation_string, self.fuzzy_match_relations, self.distance_relations)
+                        else:
+                            logger.debug("The combination: {} and {} was ruled out".format(id1, id2))
 
         # citation string has more than two tokens
-        elif(len(citation_string.split(" "))>2):
-
+        elif(len(citation_string.split(" ")) > 2):
             match = self.matches_author(citation_string, self.fuzzy_match_relations, self.distance_relations)
-
         else:
-            logger.error("This case is not handled properly: %s" % citation_string)
+            logger.error("This case is not handled properly: {}".format(
+                citation_string
+            ))
             raise
 
         # return only n_guess results
-        if match is None or len(match)==0:
+        if match is None or len(match) == 0:
             logger.debug("\'%s %s\': no disambiguation candidates were found." % (citation_string, scope))
             return Result(citation_string, entity_type, scope, NIL_URN)
 
-        elif len(match)<= n_guess:
+        elif len(match) <= n_guess:
             logger.debug("There are %i matches and `n_guess`==%i. Nothing to cut." % (len(match), n_guess))
 
-        elif len(match)> n_guess:
-            # iterate and get what's the lowest ed_score
-            # then keep only the matches with lowest (best) score
-            # then keep the one with longest common string
-            lowest_score = 1000
-
-            for m in match:
-                score = m[2]
-                if score < lowest_score:
-                    lowest_score = score
-
-            filtered_matches = [m for m in match if m[2] == lowest_score]
-
-            best_match = ("",None)
-
-            if(lowest_score > 0):
-                for match in filtered_matches:
-                    lcs = longest_common_substring(match[1], citation_string)
-                    if(len(lcs) > len(best_match[0])):
-                        best_match = (lcs,match)
-                match = [best_match[1]] # TODO: check this; don't think it's correct
-                logger.debug("Longest_common_substring selected %s out of %s" % (match, filtered_matches))
-            else:
-                # TODO: use context here to disambiguate
-                match = match[:n_guess]
+        elif len(match) > n_guess:
+            logger.debug("There are %i matches: selecting based on LCS" % len(
+                match
+            ))
+            match = select_lcs_match(citation_string, match, n_guess)
 
         for urn_string, label, score in match:
-
-            urn = CTS_URN(urn_string)
-
-            # check: does the URN have a scope but is missing the work element (not possible)?
-            if(urn.work is None):
-                # if so, try to get the opus maximum from the KB
-                opmax = self._kb.get_opus_maximum_of(urn)
-
-                if(opmax is not None):
-                    logger.debug("%s is opus maximum of %s"%(opmax, urn))
-                    urn = CTS_URN("%s:%s"%(opmax,formatted_scope))
-
-            return Result(citation_string, entity_type, scope, urn)
+            result = self._consolidate_result(
+                urn_string,
+                citation_string,
+                entity_type,
+                scope
+            )
+            return result
 
     def _disambiguate_entity(self, mention, entity_type):
         """
@@ -568,8 +649,12 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
 
         assert surface is not None
 
-        #cleaned_surface = StringUtils.remove_punctuation(surface, keep_dots=True).strip() if scope is not None else StringUtils.remove_punctuation(surface)
-        cleaned_surface = StringUtils.normalize(surface)
+        text = StringUtils.remove_symbols(surface)
+        text = StringUtils.remove_numbers(text)
+        text = StringUtils.strip_accents(text)
+        text = StringUtils.remove_punctuation(text, keep_dots=False)
+        text = StringUtils.trim_spaces(text)
+        cleaned_surface = text.lower()
         logger.debug("Citation string before and after cleaning: \"%s\" => \"%s\"" % (surface, cleaned_surface))
 
         # TODO: log the result

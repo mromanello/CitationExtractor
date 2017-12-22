@@ -343,7 +343,16 @@ def clean_relations_annotation(fileid, ann_dir, entities):
     ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
     keys = entities.keys()
     keys.sort(key=lambda k:(k[0], int(k[1:])))
-    result = "\n".join(["%s\t%s %s %s\t%s"%(ent,entities[ent][0],entities[ent][2],entities[ent][3],entities[ent][1]) for ent in keys])
+    result = "\n".join([
+        "%s\t%s %s %s\t%s" % (
+            ent,
+            entities[ent][0],
+            entities[ent][2],
+            entities[ent][3],
+            entities[ent][1]
+        )
+        for ent in keys
+    ])
     try:
         f = codecs.open(ann_file,'w','utf-8')
         f.write(result)
@@ -355,25 +364,44 @@ def clean_relations_annotation(fileid, ann_dir, entities):
 
 
 def remove_all_annotations(fileid, ann_dir):
-    import codecs
-    ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
+    """Remove all free-text annotations from a brat file."""
+    ann_file = "%s%s-doc-1.ann" % (ann_dir, fileid)
     entities, relations, annotations = read_ann_file(fileid, ann_dir)
 
     entity_keys = entities.keys()
-    entity_keys.sort(key=lambda k:(k[0], int(k[1:])))
-    entities_string = "\n".join(["%s\t%s %s %s\t%s"%(ent,entities[ent][0],entities[ent][2],entities[ent][3],entities[ent][1]) for ent in entity_keys])
+    entity_keys.sort(key=lambda k: (k[0], int(k[1:])))
+    entities_string = "\n".join(
+        [
+            "%s\t%s %s %s\t%s" % (
+                ent,
+                entities[ent][0],
+                entities[ent][2],
+                entities[ent][3],
+                entities[ent][1]
+            )
+            for ent in entity_keys
+        ]
+    )
 
     relation_keys = relations.keys()
-    relation_keys.sort(key=lambda k:(k[0], int(k[1:])))
-    relation_string = "\n".join(["%s\tScope Arg1:%s Arg2:%s"%(rel,relations[rel][1].replace('Arg1:',''),relations[rel][2].replace('Arg2:','')) for rel in relation_keys])
+    relation_keys.sort(key=lambda k: (k[0], int(k[1:])))
+    relation_string = "\n".join(
+        [
+            "%s\tScope Arg1:%s Arg2:%s" % (
+                rel,
+                relations[rel][1].replace('Arg1:', ''),
+                relations[rel][2].replace('Arg2:', '')
+            )
+            for rel in relation_keys
+        ]
+    )
 
     try:
-        f = codecs.open(ann_file,'w','utf-8')
-        f.write(entities_string)
-        f.write("\n")
-        f.write(relation_string)
-        f.close()
-        print >> sys.stderr,"Cleaned all relations annotations from %s"%ann_file
+        with codecs.open(ann_file,'w','utf-8') as f:
+            f.write(entities_string)
+            f.write("\n")
+            f.write(relation_string)
+        print >> sys.stderr, "Cleaned all relations annotations from %s"%ann_file
     except Exception, e:
         raise e
     return
@@ -488,46 +516,28 @@ def do_ner(doc_id, inp_dir, interm_dir, out_dir, extractor, so2iob_script):
     return
 
 
-def do_ned(doc_id, inp_dir, citation_matcher, clean_annotations=False):
-    """
-    TODO: refactor. Read annotations sequentially and disambiguate one by one.
-    """
+def do_ned(
+        doc_id,
+        inp_dir,
+        citation_matcher,
+        clean_annotations=False
+):
+    """Perform named entity and relation disambiguation on a brat file."""
     try:
         if(clean_annotations):
-            remove_all_annotations(doc_id,inp_dir)
-        entities, relations, disambiguations = read_ann_file(doc_id,inp_dir)
+            remove_all_annotations(doc_id, inp_dir)
+
         annotations = []
-        # match relations
-        if relations > 0:
-            if(relation_matching_approx):
-                logger.info("Fuzzy matching of relations: threshold = %i"%relation_matching_distance_threshold)
-                annotations += disambiguate_relations(citation_matcher
-                                                    , relations,entities
-                                                    , doc_id,fuzzy=True
-                                                    , distance_threshold=relation_matching_distance_threshold
-                                                    , fill_nomatch_with_bogus_urn=False
-                                                    )
-            else:
-                logger.info("Exact matching of relations")
-                annotations += disambiguate_relations(citation_matcher
-                                                    , relations
-                                                    , entities
-                                                    , doc_id
-                                                    , fill_nomatch_with_bogus_urn=False
-                                                    )
-        else:
-            logger.info("No relations found.")
-        # match entities
-        logger.info("Fuzzy matching of entities: threshold > %i, < %i"%(entity_matching_distance_minthreshold,entity_matching_distance_maxthreshold))
-        annotations += disambiguate_entities(citation_matcher,entities,doc_id,min_distance_threshold=entity_matching_distance_minthreshold,max_distance_threshold=entity_matching_distance_maxthreshold)
-        logger.debug(annotations)
-        save_scope_annotations(doc_id,inp_dir,annotations)
-        return (doc_id,True,len(annotations))
+        pass
+
+        return (doc_id, True, len(annotations))
     except Exception, e:
-        logger.error("The NED of document %s failed with error \"%s\""%(doc_id,e))
-        return (doc_id,False,None)
+        logger.error("The NED of document %s failed with error \"%s\"" % (
+            doc_id, e
+        ))
+        return (doc_id, False, None)
     finally:
-        logger.info("Finished processing document \"%s\""%doc_id)
+        logger.info("Finished processing document \"%s\"" % doc_id)
 
 
 def do_relex(doc_id, inp_dir, clean_relations=False):

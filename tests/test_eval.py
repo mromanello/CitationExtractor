@@ -27,32 +27,38 @@ logger = logging.getLogger(__name__)
 
 
 def _pprocess(datum, citation_matcher):
-    """
-    Function to use for parallel processing.
-    """
+    """Use parallel processing for disambiguation."""
     n, id, instance = datum
     try:
-        disambiguation_result = citation_matcher.disambiguate(instance['surface'], instance["type"], instance["scope"])
+        disambiguation_result = citation_matcher.disambiguate(
+            instance['surface'],
+            instance["type"],
+            instance["scope"]
+        )
         logger.debug("%i - %s - %s" % (n, id, disambiguation_result.urn))
         return (id, str(disambiguation_result.urn))
     except Exception as e:
         logger.error("Disambiguation of %s raised the following error: %s" % (id, e))
-        #traceback.print_stack()
         disambiguation_result = None
         logger.debug("%i - %s - %s" % (n, id, disambiguation_result))
         return (id, disambiguation_result)
 
 
 def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
-
+    """TODO."""
     ann_dir, ann_files = aph_test_ann_files
     testset_gold_df = aph_testset_dataframe
-    #testset_gold_df.to_pickle("citation_extractor/data/pickles/test_gold_dataframe.pkl")
 
-    logger.info(tabulate(testset_gold_df.head(20)[["type", "surface", "scope", "urn"]]))
+    logger.info(
+        tabulate(
+            testset_gold_df.head(20)[["type", "surface", "scope", "urn"]]
+        )
+    )
 
-    # TODO: replace hard-coded path with pkg_resources
-    kb_cfg_file = pkg_resources.resource_filename('knowledge_base','config/virtuoso.ini')
+    kb_cfg_file = pkg_resources.resource_filename(
+        'knowledge_base',
+        'config/virtuoso_local.ini'
+    )
     kb = KnowledgeBase(kb_cfg_file)
     """
     kb_data = {
@@ -66,24 +72,36 @@ def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
         pickle.dump(kb_data, pickle_file)
     """
 
+    with codecs.open("citation_extractor/data/pickles/kb_data.pkl","rb") as pickle_file:
+        kb_data = pickle.load(pickle_file)
+
     cms = {}
 
     ##############################
     # Test 1: default parameters #
     ##############################
 
-    cms["cm1"] = CitationMatcher(kb, fuzzy_matching_entities=False, fuzzy_matching_relations=False)
+    cms["cm1"] = CitationMatcher(
+        kb,
+        fuzzy_matching_entities=False,
+        fuzzy_matching_relations=False,
+        **kb_data
+    )
 
-    """
     ##############################
     # Test 2: best parameters    #
     ##############################
-    cms["cm2"] = CitationMatcher(kb
-                        , fuzzy_matching_entities=True
-                        , fuzzy_matching_relations=True
-                        , min_distance_entities=4
-                        , max_distance_entities=7
-                        , distance_relations=4)
+    cms["cm2"] = CitationMatcher(
+        kb,
+        fuzzy_matching_entities=True,
+        fuzzy_matching_relations=True,
+        min_distance_entities=4,
+        max_distance_entities=7,
+        distance_relations=4,
+        **kb_data
+    )
+
+    """
 
     #####################################
     # Test 3: alternative parameters    #
@@ -100,8 +118,8 @@ def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
     comp_accuracy_by_type = []
 
     # for each citation matcher disambiguate the records in the test set,
-    # carry out the evaluation and store the results in two temporary lists (to be
-    # transformed later on into two dataframes)
+    # carry out the evaluation and store the results in two temporary lists
+    # (to be transformed later on into two dataframes)
     for key in sorted(cms.keys()):
         cm = cms[key]
         testset_target_df = testset_gold_df.copy()
