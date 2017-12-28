@@ -5,7 +5,6 @@
 
 from __future__ import print_function
 import logging
-import random
 import numpy as np
 from sklearn.feature_extraction import DictVectorizer
 from sklearn import svm, linear_model, cross_validation, preprocessing
@@ -13,7 +12,7 @@ from sklearn import svm, linear_model, cross_validation, preprocessing
 LOGGER = logging.getLogger(__name__)
 
 
-class SVMRank(object):
+class LinearSVMRank(object):
     def __init__(self, classifier=None):
         LOGGER.info('Initializing SVM Rank')
         self._classifier = classifier
@@ -47,7 +46,8 @@ class SVMRank(object):
         return Xp, yp
 
     def fit(self, X, y, groups):
-        """
+        """Train the SVMRank model.
+
         :param X: A list of dicts
         :param y: A list of integers (0 or 1)
         :param groups: A list of integers
@@ -67,7 +67,11 @@ class SVMRank(object):
             # TODO: (optional?) compute best C parameter (k-folded)
             C = 100
             cache_size = 10000
-            self._classifier = svm.SVC(kernel='linear', C=C, cache_size=cache_size)
+            self._classifier = svm.SVC(
+                kernel='linear',
+                C=C,
+                cache_size=cache_size
+            )
 
         # Fit linear SVM
         LOGGER.info('Fitting classifier')

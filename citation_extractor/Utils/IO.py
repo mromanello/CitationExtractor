@@ -392,6 +392,7 @@ def sort_mentions_by_appearance(entities, relations):
     by_offset = [id for id, offset in sorted(by_offset, key=lambda (id, offset): offset)]
     return by_offset
 
+
 def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_titles, context_window=None):
     """
     Utility function to load a set of brat documents and prepare them
@@ -565,6 +566,7 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
                 df_data.loc[mention_data_id, 'surface_norm_dots'] = StringUtils.normalize(mention_surface, keep_dots=True)
                 df_data.loc[mention_data_id, 'scope'] = mention_scope
                 df_data.loc[mention_data_id, 'type'] = mention_type
+                # TODO: MatteoF controlla se si puo rimuovere
                 df_data.loc[mention_data_id, 'prev_mentions'] = mention_prev_entities
                 df_data.loc[mention_data_id, 'doc_id'] = file_id
                 df_data.loc[mention_data_id, 'doc_title'] = doc_title
