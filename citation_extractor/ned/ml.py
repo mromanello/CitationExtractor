@@ -14,10 +14,11 @@ LOGGER = logging.getLogger(__name__)
 
 
 class SVMRank(object):
-    def __init__(self, classifier=None, sparse_dict_vect=True):
+    def __init__(self, classifier=None):
         LOGGER.info('Initializing SVM Rank')
         self._classifier = classifier
-        self._dv = DictVectorizer(sparse=sparse_dict_vect)
+        self._dv = DictVectorizer(sparse=False)
+        # TODO: add feature to use sparse
 
     def _pairwise_transformation(self, X, y, groups, nb_groups):
         LOGGER.info('Applying pairwise transformation')
@@ -56,9 +57,9 @@ class SVMRank(object):
         y, groups = map(np.array, (y, groups))
         nb_groups = len(set(groups))
 
-        LOGGER.info('Fitting data [number of points: {}, number of groups: {}]'.format(len(X), nb_groups))
+        LOGGER.info('Fitting data [number of points: {}, number of groups: {}]'.format(X.shape[0], nb_groups))
 
-        # Aapply pairwise transform
+        # Apply pairwise transform
         Xp, yp = self._pairwise_transformation(X, y, groups, nb_groups)
         Xp_norm = preprocessing.normalize(Xp)
 
@@ -79,7 +80,7 @@ class SVMRank(object):
         :return: A tuple. (list of sorted indexes, list of sorted scores)
         """
         if not self._classifier:
-            LOGGER.error('The classifier is not initialized. Method fit() should invoked first')
+            LOGGER.error('The classifier is not initialized. Method fit() should be invoked first')
             return None
 
         X = self._dv.fit_transform(X)
