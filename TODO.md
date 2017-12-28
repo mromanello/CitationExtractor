@@ -15,7 +15,7 @@
 
 * [ ] remove obsolete functions from `pipeline`
 * to streamline installation, try to remove local dependencies:
-	* [ ] add `pysuffix` to the codebase => `Utils.pysuffix` (or os)
+	* [ ] add `pysuffix` to the codebase => `Utils.pysuffix` (or so)
 
 * [ ] change the `LookupDictionary` in `Utils.FastDict` so that it gets the data directly from the Knowledge Base instead of the static file (**needs tests**)
 

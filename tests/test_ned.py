@@ -16,6 +16,7 @@ import random
 logger = logging.getLogger(__name__)
 
 
+# TODO: move this test somewhere else
 @pytest.mark.skip
 def test_pickle_kb(knowledge_base):
     """Tests whether instances of `KnowledgeBase` can be pickled."""
@@ -37,7 +38,6 @@ def test_pickle_citation_matcher(citation_matcher):
 
 # When finished testing, transform into a fixture
 # and move to conftest.py
-@pytest.mark.skip
 def test_instantiate_ml_citation_matcher(
         knowledge_base,
         aph_gold_ann_files,
@@ -64,15 +64,14 @@ def test_instantiate_ml_citation_matcher(
     fe._me_prob.to_pickle('citation_extractor/data/pickles/me_prob.pkl')
 
     # pickle list of URNs from the KB
-    with open('citation_extractor/data/pickles/kb_author_urns.pkl', 'wb') as f:
-        pickle.dump(fe._kb_author_urns, f)
+    with open('citation_extractor/data/pickles/kb_norm_authors.pkl', 'wb') as f:
+        pickle.dump(fe._kb_norm_authors, f)
 
-    with open('citation_extractor/data/pickles/kb_work_urns.pkl', 'wb') as f:
-        pickle.dump(fe._kb_work_urns, f)
+    with open('citation_extractor/data/pickles/kb_norm_works.pkl', 'wb') as f:
+        pickle.dump(fe._kb_norm_works, f)
     """
 
 
-@pytest.mark.skip
 def test_instantiate_featureextractor_quick():
     """Instantiate an instance of FeatureExtractor from pickled data."""
     prior_prob = pd.read_pickle(
@@ -87,15 +86,16 @@ def test_instantiate_featureextractor_quick():
         'citation_extractor/data/pickles/me_prob.pkl'
     )
 
-    with open('citation_extractor/data/pickles/kb_author_urns.pkl', 'rb') as f:
-        kb_author_urns = pickle.load(f)
+    fname = 'citation_extractor/data/pickles/kb_norm_authors.pkl'
+    with open(fname, 'rb') as f:
+        kb_norm_authors = pickle.load(f)
 
-    with open('citation_extractor/data/pickles/kb_work_urns.pkl', 'rb') as f:
-        kb_work_urns = pickle.load(f)
+    with open('citation_extractor/data/pickles/kb_norm_works.pkl', 'rb') as f:
+        kb_norm_works = pickle.load(f)
 
     fe = FeatureExtractor(
-        kb_author_urns=kb_author_urns,
-        kb_work_urns=kb_work_urns,
+        kb_norm_authors=kb_norm_authors,
+        kb_norm_works=kb_norm_works,
         prior_prob=prior_prob,
         mention_entity_prob=me_prob,
         entity_mention_prob=em_prob
@@ -113,18 +113,6 @@ def test_instantiate_featureextractor_quick():
     )
     logger.info(test_df_data.info())
 
-    """
-    def extract(
-            self,
-            m_surface,
-            m_scope,
-            m_type,
-            m_title_mentions,
-            m_title,
-            m_doc_text,
-            m_prev_entities,
-            candidate_urn):
-    """
 
     for id_row, row in test_df_data.iterrows():
         fv = fe.extract(
@@ -147,10 +135,16 @@ def test_svm_rank():
     X = [
         dict(x=random.uniform(lowb, upperb), y=random.uniform(lowb, upperb)),
         dict(x=random.uniform(lowb, upperb), y=random.uniform(lowb, upperb)),
-        dict(x=random.uniform(lowb, upperb) + shift, y=random.uniform(lowb, upperb) + shift),  # true one
+        dict(x=random.uniform(lowb, upperb) + shift, y=random.uniform(
+            lowb,
+            upperb
+        ) + shift),  # true one
         dict(x=random.uniform(lowb, upperb), y=random.uniform(lowb, upperb)),
         dict(x=random.uniform(lowb, upperb), y=random.uniform(lowb, upperb)),
-        dict(x=random.uniform(lowb, upperb) + shift, y=random.uniform(lowb, upperb) + shift)  # true one
+        dict(x=random.uniform(lowb, upperb) + shift, y=random.uniform(
+            lowb,
+            upperb
+        ) + shift)  # true one
     ]
     print(X)
     y = [
@@ -179,7 +173,10 @@ def test_svm_rank():
     # Generate a group of three points, the second (index=1) is the true one
     candidates = [
         dict(x=random.uniform(lowb, upperb), y=random.uniform(lowb, upperb)),
-        dict(x=random.uniform(lowb, upperb) + shift, y=random.uniform(lowb, upperb) + shift),  # true one
+        dict(x=random.uniform(lowb, upperb) + shift, y=random.uniform(
+            lowb,
+            upperb
+        ) + shift),  # true one
         dict(x=random.uniform(lowb, upperb), y=random.uniform(lowb, upperb))
     ]
 

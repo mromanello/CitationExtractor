@@ -10,6 +10,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from stop_words import safe_get_stop_words
 
 from citation_extractor.Utils.strmatching import StringSimilarity
+from citation_extractor.Utils.strmatching import StringUtils
 from citation_extractor.ned import AUTHOR_TYPE, WORK_TYPE, REFAUWORK_TYPE
 from citation_extractor.ned import NIL_URN, LANGUAGES, PREPS
 from citation_extractor.Utils.extra import avg
@@ -32,44 +33,27 @@ class FeatureExtractor(object):
         """Initialise an instance of FeatureExtractor.
 
         Optional kwargs:
-            - `kb_author_urns` # TODO: change into kb_norm_authors
-            - `kb_work_urns` # TODO: change into kb_norm_works
+            - `kb_norm_authors`
+            - `kb_norm_works`
             - `prior_prob`
             - `mention_entity_prob`
             - `entity_mention_prob`
 
-        :param kb: instance of HuCit KnowledgeBase
+        :param kb: an instance of HuCit KnowledgeBase
         :param train_data:
         """
         LOGGER.info('Initializing Feature Extractor')
 
         if kb is not None:
+            self._kb_norm_authors = self.normalize_kb_authors(kb)
+            self._kb_norm_works = self.normalize_kb_works(kb)
 
-            # get the list of author IDs (URNs)
-            self._kb_author_urns = [
-                str(a.get_urn())
-                for a in kb.get_authors()
-                if a.get_urn() is not None
-            ]
-
-            # get the list of work IDs (URNs)
-            self._kb_work_urns = [
-                str(w.get_urn())
-                for a in kb.get_authors()
-                for w in a.get_works()
-                if w.get_urn() is not None
-            ]
-
-        elif 'kb_author_urns' in kwargs and 'kb_work_urns' in kwargs:
-            self._kb_author_urns = kwargs['kb_author_urns']
-            self._kb_work_urns = kwargs['kb_work_urns']
+        elif 'kb_norm_authors' in kwargs and 'kb_norm_works' in kwargs:
+            self._kb_norm_authors = kwargs['kb_norm_authors']
+            self._kb_norm_works = kwargs['kb_norm_works']
 
         else:
             raise Exception
-
-        # TODO: pre-compute normalized authors/works (?)
-        self._kb_norm_authors = None
-        self._kb_norm_works = None
 
         # TODO: define how wiki data is referenced
         self._tfidf = self._compute_tfidf_matrix()
@@ -91,8 +75,135 @@ class FeatureExtractor(object):
             self._me_prob = kwargs['mention_entity_prob']
             self._em_prob = kwargs['entity_mention_prob']
 
+    def normalize_kb_authors(self, knowledge_base):
+        """Pre-compute cleaning and normalization of author names/abbr.
+
+        :param knowledge_base: an instance of HuCit KnowledgeBase
+        :type knowledge_base: `knowledge_base.KnowledgeBase`
+        :rtype: `pd.DataFrame`
+        """
+        cols = [
+            'names',
+            'norm_names',
+            'norm_names_clean',
+            'abbr',
+            'norm_abbr',
+            'works'
+        ]
+        LOGGER.info("Normalizing KB authors...")
+        df_norm_authors = pd.DataFrame(dtype='object', columns=cols)
+
+        i = 0
+        t = len(knowledge_base.get_authors())
+        for author in knowledge_base.get_authors():
+            i += 1
+            print('{}/{}'.format(i, t), end='\r')
+
+            a_urn = str(author.get_urn())
+            if a_urn == 'None':
+                continue
+
+            a_names = author.get_names()
+            a_norm_names = []
+            a_norm_names_clean = []
+            for lang, name in a_names:
+                if type(name) != unicode:
+                    print('!!!', a_urn, repr(name), type(name))
+                norm_name = StringUtils.normalize(name, lang=lang)
+                a_norm_names.append((lang, norm_name))
+                a_norm_names_clean.append(
+                    StringUtils.remove_words_shorter_than(norm_name, 2)
+                )
+            df_norm_authors.loc[a_urn, 'names'] = a_names
+            df_norm_authors.loc[a_urn, 'norm_names'] = a_norm_names
+            df_norm_authors.loc[a_urn, 'norm_names_clean'] = a_norm_names_clean
+
+            a_abbr = author.get_abbreviations()
+            a_norm_abbr = []
+            for abbr in a_abbr:
+                if type(abbr) != unicode:
+                    print('!!!', a_urn, repr(abbr), type(abbr))
+                a_norm_abbr.append(StringUtils.normalize(abbr))
+            df_norm_authors.loc[a_urn, 'abbr'] = a_abbr
+            df_norm_authors.loc[a_urn, 'norm_abbr'] = a_norm_abbr
+
+            a_works = []
+            for w in author.get_works():
+                a_works.append(str(w.get_urn()))
+            df_norm_authors.loc[a_urn, 'works'] = a_works
+
+        return df_norm_authors
+
+    def normalize_kb_works(self, knowledge_base):
+        """Pre-compute cleaning and normalization of work titles/abbr.
+
+        :param knowledge_base: an instance of HuCit KnowledgeBase
+        :type knowledge_base: `knowledge_base.KnowledgeBase`
+        :rtype: `pd.DataFrame`
+        """
+        cols = [
+            'titles',
+            'norm_titles',
+            'norm_titles_clean',
+            'abbr',
+            'norm_abbr',
+            'author'
+        ]
+        LOGGER.info("Normalizing KB works...")
+        df_norm_works = pd.DataFrame(dtype='object', columns=cols)
+
+        i = 0
+        t = len(knowledge_base.get_works())
+        for work in knowledge_base.get_works():
+            i += 1
+            print('{}/{}'.format(i, t), end='\r')
+
+            w_urn = str(work.get_urn())
+            if w_urn == 'None':
+                continue
+
+            w_titles = work.get_titles()
+            w_norm_titles = []
+            w_norm_titles_clean = []
+            for lang, title in w_titles:
+                if type(title) != unicode:
+                    print('!!!', w_urn, repr(title), type(title))
+                norm_name = StringUtils.normalize(title)
+                w_norm_titles.append((lang, norm_name))
+                w_norm_titles_clean.append(
+                    StringUtils.remove_words_shorter_than(norm_name, 2)
+                )
+            df_norm_works.loc[w_urn, 'titles'] = w_titles
+            df_norm_works.loc[w_urn, 'norm_titles'] = w_norm_titles
+            df_norm_works.loc[w_urn, 'norm_titles_clean'] = w_norm_titles_clean
+
+            w_abbr = work.get_abbreviations()
+            w_norm_abbr = []
+            for abbr in w_abbr:
+                if type(abbr) != unicode:
+                    print('!!!', w_urn, repr(abbr), type(abbr))
+                w_norm_abbr.append(
+                    StringUtils.normalize(abbr)
+                )
+            df_norm_works.loc[w_urn, 'abbr'] = w_abbr
+            df_norm_works.loc[w_urn, 'norm_abbr'] = w_norm_abbr
+
+            w_author = str(work.author.get_urn())
+            df_norm_works.loc[w_urn, 'author'] = w_author
+
+        return df_norm_works
+
     def _compute_tfidf_matrix(self, base_dir=None):
-        """TODO: write documentation."""
+        """TODO: write documentation.
+
+        :param base_dir: the directory containing the plain text of Wikipedia
+            related to the ancient authors in the KB.
+        :type base_dir: str
+        :rtype: a dictionary of dictionaries. The first dictionary has
+            languages as keys; second dictionary has two keys ('matrix'
+            and `vectorizer`), and as values the raw tf-idf matrix and
+            the TfidfVectorizer used.
+        """
         LOGGER.info('Computing TF-IDF matrix (base_dir={})'.format(base_dir))
         tfidf_data = {}
 
@@ -164,8 +275,8 @@ class FeatureExtractor(object):
         """
         LOGGER.info("Computing entity probability...")
 
-        idx = pd.Index(self._kb_work_urns).append(
-            pd.Index(self._kb_author_urns)
+        idx = pd.Index(self._kb_norm_works.index).append(
+            pd.Index(self._kb_norm_authors.index)
         )
         freqs = pd.DataFrame(
             index=idx.append(pd.Index([NIL_URN])),
@@ -200,7 +311,8 @@ class FeatureExtractor(object):
                 the training data, and as many rows as the mentions.
         """
         mentions = set(train_data.surface_norm_dots.tolist())
-        entities = self._kb_author_urns + self._kb_work_urns + [NIL_URN]
+        entities = list(self._kb_norm_authors.index) +\
+            list(self._kb_norm_works.index) + [NIL_URN]
 
         counts = pd.DataFrame(
             index=mentions,
@@ -224,7 +336,8 @@ class FeatureExtractor(object):
                 the training data, and as many rows as the mentions.
         """
         mentions = set(train_data.surface_norm_dots.tolist())
-        entities = self._kb_author_urns + self._kb_work_urns + [NIL_URN]
+        entities = list(self._kb_norm_authors.index) +\
+            list(self._kb_norm_works.index) + [NIL_URN]
 
         counts = pd.DataFrame(
             index=mentions,
@@ -371,19 +484,50 @@ class FeatureExtractor(object):
             abbr = self._kb_norm_authors.loc[aurn, 'norm_abbr']
 
             if string_sim:
-                self.add_string_similarities(feature_vector, 'AS_ss_', surf, names)
+                self.add_string_similarities(
+                    feature_vector,
+                    'AS_ss_',
+                    surf, names
+                )
                 self.add_abbr_match(feature_vector, 'AS_ss_', surf, abbr)
 
             if context_sim:
-                self.add_tfidf_similarity(feature_vector, 'AS_cxt_tfidf_', candidate_urn, m_doc_text)
-                self.add_title_similarities(feature_vector, 'AS_cxt_title_', m_title_mentions, m_title, candidate_urn)
-                self.add_other_mentions_string_similarities(feature_vector, 'AS_cxt_om_', m_surface, m_scope, m_type,
-                                                            m_prev_entities, candidate_urn)
+                self.add_tfidf_similarity(
+                    feature_vector,
+                    'AS_cxt_tfidf_',
+                    candidate_urn,
+                    m_doc_text
+                )
+                self.add_title_similarities(
+                    feature_vector,
+                    'AS_cxt_title_',
+                    m_title_mentions,
+                    m_title,
+                    candidate_urn
+                )
+                self.add_other_mentions_string_similarities(
+                    feature_vector,
+                    'AS_cxt_om_',
+                    m_surface,
+                    m_scope,
+                    m_type,
+                    m_prev_entities,
+                    candidate_urn
+                )
 
             if prob:
-                self.add_prior_prob(feature_vector, 'AS_prob_entity_prior', candidate_urn)
+                self.add_prior_prob(
+                    feature_vector,
+                    'AS_prob_entity_prior',
+                    candidate_urn
+                )
                 # self.add_me_prob(feature_vector, 'AS_prob_m_given_e', surf, candidate_urn)
-                self.add_em_prob(feature_vector, 'AS_prob_e_given_m', surf, candidate_urn)
+                self.add_em_prob(
+                    feature_vector,
+                    'AS_prob_e_given_m',
+                    surf,
+                    candidate_urn
+                )
 
         # The mention is a work name and searching for a work
         elif m_type == WORK_TYPE:
@@ -393,21 +537,49 @@ class FeatureExtractor(object):
             abbr = self._kb_norm_works.loc[candidate_urn, 'norm_abbr']
 
             if string_sim:
-                self.add_string_similarities(feature_vector, 'W_ss_', surf, names)
+                self.add_string_similarities(
+                    feature_vector,
+                    'W_ss_',
+                    surf,
+                    names
+                )
                 self.add_abbr_match(feature_vector, 'W_ss_', surf, abbr)
 
             if context_sim:
-                self.add_tfidf_similarity(feature_vector, 'W_cxt_tfidf_', candidate_urn, m_doc_text)
-                self.add_title_similarities(feature_vector, 'W_cxt_title_', m_title_mentions, m_title, candidate_urn)
-                self.add_other_mentions_string_similarities(feature_vector, 'W_cxt_om_', m_surface, m_scope, m_type,
-                                                            m_prev_entities, candidate_urn)
+                self.add_tfidf_similarity(
+                    feature_vector,
+                    'W_cxt_tfidf_',
+                    candidate_urn,
+                    m_doc_text
+                )
+                self.add_title_similarities(
+                    feature_vector,
+                    'W_cxt_title_',
+                    m_title_mentions,
+                    m_title,
+                    candidate_urn
+                )
+                self.add_other_mentions_string_similarities(
+                    feature_vector,
+                    'W_cxt_om_',
+                    m_surface,
+                    m_scope,
+                    m_type,
+                    m_prev_entities,
+                    candidate_urn
+                )
 
             if prob:
-                self.add_prior_prob(feature_vector, 'W_prob_entity_prior', candidate_urn)
+                self.add_prior_prob(
+                    feature_vector,
+                    'W_prob_entity_prior',
+                    candidate_urn
+                )
                 # self.add_me_prob(feature_vector, 'W_prob_m_given_e', surf, candidate_urn)
                 # self.add_em_prob(feature_vector, 'W_prob_e_given_m', surf, candidate_urn)
 
-        # The mention is an author name, work name or mixed and searching for a work
+        # The mention is an author name, work name or mixed
+        # and searching for a work
         elif m_type == REFAUWORK_TYPE:
 
             surf = m_surface
@@ -418,22 +590,69 @@ class FeatureExtractor(object):
             aabbr = self._kb_norm_authors.loc[aurn, 'norm_abbr']
 
             if string_sim:
-                self.add_mixed_string_similarities(feature_vector, 'R_ss_mix_', surf, names, anames)
-                self.add_string_similarities(feature_vector, 'R_ss_w_', surf, names)
+                self.add_mixed_string_similarities(
+                    feature_vector,
+                    'R_ss_mix_',
+                    surf,
+                    names,
+                    anames
+                )
+                self.add_string_similarities(
+                    feature_vector,
+                    'R_ss_w_',
+                    surf,
+                    names
+                )
                 self.add_abbr_match(feature_vector, 'R_ss_w_', surf, abbr)
-                self.add_string_similarities(feature_vector, 'R_ss_a_', surf, anames)
-                self.add_abbr_match(feature_vector, 'R_ss_a_', surf, aabbr)
+                self.add_string_similarities(
+                    feature_vector,
+                    'R_ss_a_',
+                    surf, anames
+                )
+                self.add_abbr_match(
+                    feature_vector,
+                    'R_ss_a_',
+                    surf,
+                    aabbr
+                )
 
             if context_sim:
-                self.add_tfidf_similarity(feature_vector, 'R_cxt_tfidf_', candidate_urn, m_doc_text)
-                self.add_title_similarities(feature_vector, 'R_cxt_title_', m_title_mentions, m_title, candidate_urn)
-                self.add_other_mentions_string_similarities(feature_vector, 'R_cxt_om_', m_surface, m_scope, m_type,
-                                                            m_prev_entities, candidate_urn)
+                self.add_tfidf_similarity(
+                    feature_vector,
+                    'R_cxt_tfidf_',
+                    candidate_urn,
+                    m_doc_text
+                )
+                self.add_title_similarities(
+                    feature_vector,
+                    'R_cxt_title_',
+                    m_title_mentions,
+                    m_title,
+                    candidate_urn
+                )
+                self.add_other_mentions_string_similarities(
+                    feature_vector,
+                    'R_cxt_om_',
+                    m_surface,
+                    m_scope,
+                    m_type,
+                    m_prev_entities,
+                    candidate_urn
+                )
 
             if prob:
-                self.add_prior_prob(feature_vector, 'R_prob_entity_prior', candidate_urn)
+                self.add_prior_prob(
+                    feature_vector,
+                    'R_prob_entity_prior',
+                    candidate_urn
+                )
                 # self.add_me_prob(feature_vector, 'R_prob_m_given_e', surf, candidate_urn)
-                self.add_em_prob(feature_vector, 'R_prob_e_given_m', surf, candidate_urn)
+                self.add_em_prob(
+                    feature_vector,
+                    'R_prob_e_given_m',
+                    surf,
+                    candidate_urn
+                )
 
         else:
             LOGGER.error('Unknown mention type: {}'.format(m_type))
@@ -444,7 +663,14 @@ class FeatureExtractor(object):
         surf = surf.replace(u'.', u'')
         feature_vector[feat_prefix + 'kb_abbr_ex_match'] = StringSimilarity.exact_match(surf, abbr)
 
-    def add_mixed_string_similarities(self, feature_vector, feat_prefix, surf, names, anames):
+    def add_mixed_string_similarities(
+        self,
+        feature_vector,
+        feat_prefix,
+        surf,
+        names,
+        anames
+    ):
         surf = self.clean_surface(surf)
         surf_words = surf.split()
         names_words = set(u' '.join(names).split())
@@ -456,15 +682,20 @@ class FeatureExtractor(object):
             s1, s2 = matched.group(1), matched.group(2)
 
             # author work
-            feature_vector[feat_prefix + 'a_ex_match_and_w_ex_match'] = StringSimilarity.exact_match(s1,
-                                                                                                     anames) and StringSimilarity.exact_match(
-                s2, names)
+            exact_match_s1 = StringSimilarity.exact_match(s1, anames)
+            exact_match_s2 = StringSimilarity.exact_match(s2, names)
+            feat_name = 'a_ex_match_and_w_ex_match'
+            feature_vector[
+                feat_prefix + feat_name
+            ] = exact_match_s1 and exact_match_s2
 
             # ~author ~work
-            feature_vector[feat_prefix + 'a_fuz_match_and_w_fuz_match'] = StringSimilarity.fuzzy_match(s1,
-                                                                                                       anames) and StringSimilarity.fuzzy_match(
-                s2,
-                names)
+            fuzzy_match_s1 = StringSimilarity.fuzzy_match(s1, anames)
+            fuzzy_match_s2 = StringSimilarity.fuzzy_match(s2, names)
+            feat_name = 'a_fuz_match_and_w_fuz_match'
+            feature_vector[
+                feat_prefix + feat_name
+            ] = fuzzy_match_s1 and fuzzy_match_s2
 
         # s1 s2.
         matched = re.match(ur'^([a-z]+) ([a-z]+)\.$', surf)
