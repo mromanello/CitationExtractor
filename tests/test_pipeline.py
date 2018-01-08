@@ -8,7 +8,6 @@ import logging
 import pkg_resources
 from citation_extractor.pipeline import *
 
-logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 def test_read_ann_file_new():
@@ -24,13 +23,13 @@ def test_read_ann_file_new():
 				assert entities.has_key(entity_id)
 		logger.debug(annotations)
 		for annotation in annotations:
-			assert (relations.has_key(annotation["anchor"]) or entities.has_key(annotation["anchor"])) 
+			assert (relations.has_key(annotation["anchor"]) or entities.has_key(annotation["anchor"]))
 
 def test_tokenize_string(aph_titles, postaggers):
 	# as a string example, take the first title of APh reviews
 	aph_title = aph_titles.iloc[0]["title"]
 	lang = detect_language(aph_title)
-	postagged_string = postaggers[lang].tag(aph_title) 
+	postagged_string = postaggers[lang].tag(aph_title)
 	logger.debug(postagged_string)
 	assert postagged_string is not None
 
