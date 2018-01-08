@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
+"""Tests for the module `citation_extractor.Utils`."""
+
 import pytest
-import pdb
 import pkg_resources
 import logging
 import pandas as pd
 from pytest import fixture
-from citation_extractor.Utils.IO import *
+from citation_extractor.Utils.IO import load_brat_data, annotations2references
 from citation_extractor.Utils.strmatching import StringUtils
 
 logging.basicConfig(level=logging.INFO)
@@ -17,44 +18,74 @@ logger = logging.getLogger(__name__)
 # Utils.IO #
 ############
 
+
 def test_annotations2references(knowledge_base):
-    datadir = ('citation_extractor','data/aph_corpus/goldset/ann/')
+    datadir = ('citation_extractor', 'data/aph_corpus/goldset/ann/')
     dir = pkg_resources.resource_filename(*datadir)
-    files = [file.replace('-doc-1.ann','') for file in pkg_resources.resource_listdir(*datadir) if '.ann' in file]
-    all_annotations = [annotations2references(file, dir, knowledge_base) for file in files]
+    files = [
+        file.replace('-doc-1.ann', '')
+        for file
+        in pkg_resources.resource_listdir(*datadir) if '.ann' in file
+    ]
+    all_annotations = [
+        annotations2references(file, dir, knowledge_base)
+        for file in files
+    ]
     references = reduce((lambda x, y: x + y), all_annotations)
     assert references is not None
     return
 
+
 #@pytest.mark.skip
 def test_load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles):
     # load the pandas.DataFrame
-    dataframe = load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles)
+    dataframe = load_brat_data(
+        crf_citation_extractor,
+        knowledge_base,
+        postaggers,
+        aph_test_ann_files,
+        aph_titles
+    )
     pickle_filename = pkg_resources.resource_filename("citation_extractor", "data/pickles/aph_data.pkl")
     dataframe.to_pickle(pickle_filename)
     logger.info("Dataframe pickled to %s" % pickle_filename)
     assert dataframe is not None and type(dataframe)==type(pd.DataFrame()) and dataframe.shape[0]>0
+    return
 
-def test_load_brat_data_withcontext(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles):
+
+def test_load_brat_data_withcontext(
+    crf_citation_extractor,
+    knowledge_base,
+    postaggers,
+    aph_test_ann_files,
+    aph_titles
+):
     """
     Same as above, but a context window for the current entity/relation.
     """
     # load the pandas.DataFrame
-    dataframe = load_brat_data(crf_citation_extractor
-                               , knowledge_base, postaggers
-                               , aph_test_ann_files
-                               , aph_titles
-                               , context_window=(1,1))
+    dataframe = load_brat_data(
+        crf_citation_extractor,
+        knowledge_base, postaggers,
+        aph_test_ann_files,
+        aph_titles,
+        context_window=(1, 1)
+    )
 
-    pickle_filename = pkg_resources.resource_filename("citation_extractor", "data/pickles/aph_data.pkl")
+    pickle_filename = pkg_resources.resource_filename(
+        "citation_extractor",
+        "data/pickles/aph_data.pkl"
+    )
     dataframe.to_pickle(pickle_filename)
     logger.info("Dataframe pickled to %s" % pickle_filename)
-    assert dataframe is not None and type(dataframe)==type(pd.DataFrame()) and dataframe.shape[0]>0
+    assert dataframe is not None and isinstance(dataframe, pd.DataFrame)\
+        and dataframe.shape[0] > 0
     return
 
 #####################
 # Utils.strmatching #
 #####################
+
 
 def test_utils_stringutils():
 

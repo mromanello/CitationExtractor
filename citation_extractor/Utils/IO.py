@@ -576,10 +576,19 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
                 df_data.loc[mention_data_id, 'urn'] = mention_urn
                 df_data.loc[mention_data_id, 'urn_clean'] = clean_urn
 
-            # Add successfully parsed mentions of the doc to other_mentions field of each mention of the doc
+            # Add successfully parsed mentions of the doc to other_mentions
+            # field of each mention of the doc
             for m_id in prev_entities:
                 other_mentions = list(prev_entities)
                 other_mentions.remove(m_id)
+                other_mentions = map(
+                    lambda mid: (
+                        df_data.loc[mid, 'type'],
+                        df_data.loc[mid, 'surface_norm_dots'],
+                        df_data.loc[m_id, 'scope']
+                    ),
+                    other_mentions
+                )
                 df_data.loc[m_id, 'other_mentions'] = other_mentions
 
             # by now `prev_entities` contains all entities/relations, sorted
@@ -603,6 +612,14 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
 
                     # remove the entity in focus
                     mentions_in_context.remove(m_id)
+                    mentions_in_context = map(
+                        lambda mid: (
+                            df_data.loc[mid, 'type'],
+                            df_data.loc[mid, 'surface_norm_dots'],
+                            df_data.loc[m_id, 'scope']
+                        ),
+                        mentions_in_context
+                    )
                     df_data.loc[m_id, 'mentions_in_context'] = mentions_in_context
 
     nb_total = df_data.shape[0]
