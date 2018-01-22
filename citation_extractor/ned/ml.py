@@ -57,7 +57,12 @@ class LinearSVMRank(object):
         y, groups = map(np.array, (y, groups))
         nb_groups = len(set(groups))
 
-        LOGGER.info('Fitting data [number of points: {}, number of groups: {}]'.format(X.shape[0], nb_groups))
+        LOGGER.info(
+            'Fitting data [number of points: {}, number of groups: {}]'.format(
+                X.shape[0],
+                nb_groups
+            )
+        )
 
         # Apply pairwise transform
         Xp, yp = self._pairwise_transformation(X, y, groups, nb_groups)
@@ -84,7 +89,10 @@ class LinearSVMRank(object):
         :return: A tuple. (list of sorted indexes, list of sorted scores)
         """
         if not self._classifier:
-            LOGGER.error('The classifier is not initialized. Method fit() should be invoked first')
+            LOGGER.error(
+                'The classifier is not initialized. Method fit() should be\
+                 invoked first'
+            )
             return None
 
         X = self._dv.fit_transform(X)

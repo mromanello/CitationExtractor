@@ -23,9 +23,6 @@ import re
 
 LOGGER = logging.getLogger(__name__)
 
-
-# TODO: how to deal with parallel computing?
-
 class FeatureExtractor(object):
     """TODO."""
 
@@ -95,6 +92,7 @@ class FeatureExtractor(object):
 
         i = 0
         t = len(knowledge_base.get_authors())
+
         for author in knowledge_base.get_authors():
             i += 1
             print('{}/{}'.format(i, t), end='\r')
@@ -131,6 +129,14 @@ class FeatureExtractor(object):
             for w in author.get_works():
                 a_works.append(str(w.get_urn()))
             df_norm_authors.loc[a_urn, 'works'] = a_works
+
+        # at the end add a NIL Entity (author) TODO: @MatteoF correct?
+        df_norm_authors.loc[NIL_URN, 'names'] = []
+        df_norm_authors.loc[NIL_URN, 'norm_names'] = []
+        df_norm_authors.loc[NIL_URN, 'norm_names_clean'] = []
+        df_norm_authors.loc[NIL_URN, 'abbr'] = []
+        df_norm_authors.loc[NIL_URN, 'norm_abbr'] = []
+        df_norm_authors.loc[NIL_URN, 'works'] = []
 
         return df_norm_authors
 
@@ -191,6 +197,13 @@ class FeatureExtractor(object):
             w_author = str(work.author.get_urn())
             df_norm_works.loc[w_urn, 'author'] = w_author
 
+        # at the end add a NIL Entity (work) TODO: @MatteoF correct?
+        df_norm_works.loc[NIL_URN, 'titles'] = []
+        df_norm_works.loc[NIL_URN, 'norm_titles'] = []
+        df_norm_works.loc[NIL_URN, 'norm_titles_clean'] = []
+        df_norm_works.loc[NIL_URN, 'abbr'] = []
+        df_norm_works.loc[NIL_URN, 'norm_abbr'] = []
+        df_norm_works.loc[NIL_URN, 'author'] = []
         return df_norm_works
 
     def _compute_tfidf_matrix(self, base_dir=None):

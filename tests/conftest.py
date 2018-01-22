@@ -69,10 +69,17 @@ def aph_test_ann_files():
     ann_files = pkg_resources.resource_listdir('citation_extractor', 'data/aph_corpus/testset/ann')
     return ann_dir, ann_files
 
+
 @fixture(scope="session")
-def aph_testset_dataframe(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles):
+def aph_testset_dataframe(
+    crf_citation_extractor,
+    knowledge_base, postaggers,
+    aph_test_ann_files,
+    aph_titles
+):
     """
-    A pandas DataFrame containing the APh test-set data: may be useful to perform evaluation.
+    A pandas DataFrame containing the APh test-set data:
+    may be useful to perform evaluation.
     """
     logger.info("Loading test-set data (%i documents) from %s" % (len(aph_test_ann_files[1]), aph_test_ann_files[0]))
     dataframe = load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles)

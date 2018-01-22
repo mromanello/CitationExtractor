@@ -43,7 +43,9 @@ def test_instantiate_ml_citation_matcher(
         aph_gold_ann_files,
         crf_citation_extractor,
         postaggers,
-        aph_titles):
+        aph_titles,
+        aph_testset_dataframe
+):
     """Create an instance of MLCitationMatcher."""
     train_df_data = load_brat_data(  # TODO create a fixture out of thi  s
         crf_citation_extractor,
@@ -57,19 +59,27 @@ def test_instantiate_ml_citation_matcher(
     fe = FeatureExtractor(knowledge_base, train_df_data)
     logger.info(fe)
 
-    """
+    aph_testset_dataframe.to_pickle(
+        'citation_extractor/data/pickles/aph_test_df.pkl'
+    )
+
     # pickle probability dataframes
     fe._prior_prob.to_pickle('citation_extractor/data/pickles/prior_prob.pkl')
     fe._em_prob.to_pickle('citation_extractor/data/pickles/em_prob.pkl')
     fe._me_prob.to_pickle('citation_extractor/data/pickles/me_prob.pkl')
 
     # pickle list of URNs from the KB
-    with open('citation_extractor/data/pickles/kb_norm_authors.pkl', 'wb') as f:
+    with open(
+        'citation_extractor/data/pickles/kb_norm_authors.pkl',
+        'wb'
+    ) as f:
         pickle.dump(fe._kb_norm_authors, f)
 
-    with open('citation_extractor/data/pickles/kb_norm_works.pkl', 'wb') as f:
+    with open(
+        'citation_extractor/data/pickles/kb_norm_works.pkl',
+        'wb'
+    ) as f:
         pickle.dump(fe._kb_norm_works, f)
-    """
 
 
 def test_instantiate_featureextractor_quick():
@@ -113,7 +123,6 @@ def test_instantiate_featureextractor_quick():
     )
     logger.info(test_df_data.info())
 
-
     for id_row, row in test_df_data.iterrows():
         fv = fe.extract(
             row["surface_norm"],
@@ -125,6 +134,7 @@ def test_instantiate_featureextractor_quick():
             row["other_mentions"],
             row["urn_clean"]
         )
+        # TODO: call `fe.extract_nil`
         logger.info(fv)
 
 

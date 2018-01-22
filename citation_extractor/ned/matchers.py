@@ -548,7 +548,9 @@ class MLCitationMatcher(object):
 
         self._kb = kb
 
-        # TODO: Load, pre-process, ... the KB (?)
+        # TODO: normalize authors and works once, the pass to both
+        # CandidatesGenerator and FeatureExtractor
+
         # self._kb_norm_authors = None
         # self._kb_norm_works = None
 
@@ -562,9 +564,20 @@ class MLCitationMatcher(object):
         # TODO: generate features for candidates (FeatureExtractor)
         # TODO: generate ranking function (SVMRank)
 
-    def disambiguate(self, surface, scope, type, doc_title, mentions_in_title, doc_text, other_mentions, **kwargs):
+    def disambiguate(
+        self,
+        surface,
+        scope,
+        type,
+        doc_title,
+        mentions_in_title,
+        doc_text,
+        other_mentions,
+        **kwargs
+    ):
+        """TODO: doctsring"""
         LOGGER.info('Disambiguating ...')
-        # TODO: get candidates (pre-computed?)
+        # TODO: get candidates (pre-compute? << not possible!)
         # TODO: generate features for candidates (FeatureExtractor)
         # TODO: rank candidates (SVMRank)
         return None

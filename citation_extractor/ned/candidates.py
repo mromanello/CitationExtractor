@@ -14,7 +14,9 @@ import multiprocessing
 LOGGER = logging.getLogger(__name__)
 
 
-# TODO: we should define precise data-structures, if we use pandas dataframes we should also enforce a schema and also define column names as variables
+# TODO: we should define precise data-structures,
+# if we use pandas dataframes we should also enforce a schema and also define
+# column names as variables
 
 class CandidatesGenerator(object):
     def __init__(self, kb, mention_surface_is_normalized=True, fuzzy_threshold=0.7):
