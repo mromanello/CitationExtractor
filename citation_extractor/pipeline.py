@@ -481,7 +481,7 @@ def preproc_document(doc_id, inp_dir, interm_dir, out_dir, abbreviations, tagger
         lang = detect_language(text)
         logger.info("Language detected=\"%s\""%lang)
         tagged_sentences = taggers[lang].tag_sents(sentences)
-        tokenised_text = [[token[:2] for token in line] for line in tagged_sentences]
+        tokenised_text = [[token for token in line] for line in tagged_sentences]
         IO.write_iob_file(tokenised_text,iob_out_file)
         logger.info("Written IOB output to %s"%iob_out_file)
         no_sentences = len(text.split('\n'))
