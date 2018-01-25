@@ -130,6 +130,7 @@ class FeatureExtractor(object):
                 a_works.append(str(w.get_urn()))
             df_norm_authors.loc[a_urn, 'works'] = a_works
 
+        """
         # at the end add a NIL Entity (author) TODO: @MatteoF correct?
         df_norm_authors.loc[NIL_URN, 'names'] = []
         df_norm_authors.loc[NIL_URN, 'norm_names'] = []
@@ -137,6 +138,7 @@ class FeatureExtractor(object):
         df_norm_authors.loc[NIL_URN, 'abbr'] = []
         df_norm_authors.loc[NIL_URN, 'norm_abbr'] = []
         df_norm_authors.loc[NIL_URN, 'works'] = []
+        """
 
         return df_norm_authors
 
@@ -197,6 +199,7 @@ class FeatureExtractor(object):
             w_author = str(work.author.get_urn())
             df_norm_works.loc[w_urn, 'author'] = w_author
 
+        """
         # at the end add a NIL Entity (work) TODO: @MatteoF correct?
         df_norm_works.loc[NIL_URN, 'titles'] = []
         df_norm_works.loc[NIL_URN, 'norm_titles'] = []
@@ -204,6 +207,7 @@ class FeatureExtractor(object):
         df_norm_works.loc[NIL_URN, 'abbr'] = []
         df_norm_works.loc[NIL_URN, 'norm_abbr'] = []
         df_norm_works.loc[NIL_URN, 'author'] = []
+        """
         return df_norm_works
 
     def _compute_tfidf_matrix(self, base_dir=None):

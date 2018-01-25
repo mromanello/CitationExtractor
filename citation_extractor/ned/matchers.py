@@ -560,9 +560,9 @@ class MLCitationMatcher(object):
 
     def train(self, train_data, include_nil=True):
         LOGGER.info('Starting training')
-        # TODO: compute probs from train data
+        # TODO: generate candidates
         # TODO: generate features for candidates (FeatureExtractor)
-        # TODO: generate ranking function (SVMRank)
+        # TODO: vectorize features, generate ranking function (SVMRank)
 
     def disambiguate(
         self,
