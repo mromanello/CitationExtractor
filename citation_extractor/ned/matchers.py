@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# author: Matteo Romanello, matteo.romanello@gmail.com
+# author: Matteo Romanello, matteo.romanello@gmail.com, Matteo Filipponi
 
 """Contains various implementations of citation matchers."""
 
@@ -29,6 +29,7 @@ LOGGER = logger
 Result = namedtuple('DisambiguationResult', 'mention, entity_type, scope, urn')
 
 
+# TODO: could be moved to StringUtils (?)
 def longest_common_substring(s1, s2):
     """
     Taken from https://en.wikibooks.org/wiki/Algorithm_Implementation/\
@@ -48,12 +49,13 @@ def longest_common_substring(s1, s2):
     return s1[x_longest - longest: x_longest]
 
 
-class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
+class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
     """
     TODO
     docstring for CitationMatcher
 
     """
+
     def __init__(
             self,
             knowledge_base=None,
@@ -63,7 +65,7 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
             max_distance_entities=3,
             distance_relations=3,
             **kwargs
-            ):
+    ):
 
         self.fuzzy_match_entities = fuzzy_matching_entities
         self.fuzzy_match_relations = fuzzy_matching_relations
@@ -79,7 +81,7 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
 
         if 'author_names' in kwargs and 'work_titles' in kwargs \
                 and 'work_abbreviations' in kwargs and \
-                'author_abbreviations' in kwargs:
+                        'author_abbreviations' in kwargs:
 
             self._author_names = kwargs["author_names"]
             self._author_abbreviations = kwargs["author_abbreviations"]
@@ -565,15 +567,15 @@ class MLCitationMatcher(object):
         # TODO: generate ranking function (SVMRank)
 
     def disambiguate(
-        self,
-        surface,
-        scope,
-        type,
-        doc_title,
-        mentions_in_title,
-        doc_text,
-        other_mentions,
-        **kwargs
+            self,
+            surface,
+            scope,
+            type,
+            doc_title,
+            mentions_in_title,
+            doc_text,
+            other_mentions,
+            **kwargs
     ):
         """TODO: doctsring"""
         LOGGER.info('Disambiguating ...')

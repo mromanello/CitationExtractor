@@ -2,9 +2,7 @@
 # author: Matteo Filipponi
 
 """
-
 Module containing functions/classes for cleaning and matching of strings.
-
 """
 
 import re
@@ -42,6 +40,22 @@ class DictUtils:
         :rtype: bool
         """
         return any(filter(lambda v: type(v) == bool, dictionary.values()))
+
+    @staticmethod
+    def dict_feat_name_to_index(vect):
+        """Map the features names to their position in a DictVectorizer
+
+        :param vect: a DictVectorizer instance
+        :type vect: sklearn.feature_extraction.DictVectorizer
+
+        :return: a dictionary mapping a feature names to its index position in the DictVectorizer instance
+        :rtype: dict
+        """
+        d = {}
+        feat_names = vect.get_feature_names()
+        for i in range(len(feat_names)):
+            d[feat_names[i]] = i
+        return d
 
 
 class StringUtils:

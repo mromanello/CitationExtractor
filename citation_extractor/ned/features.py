@@ -1,6 +1,7 @@
-"""Code related to feature extraction for thr NED step."""
-
 # -*- coding: utf-8 -*-
+# author: Matteo Filipponi
+
+"""Code related to feature extraction for thr NED step."""
 
 from __future__ import print_function
 import pdb  # TODO remove when done with development
@@ -28,7 +29,7 @@ class FeatureExtractor(object):
     """Extract features for an <entity-mention, entity-candidate> couple."""
 
     def __init__(self, kb=None, train_data=None, **kwargs):
-        """Initialise an instance of FeatureExtractor.
+        """Initialize an instance of FeatureExtractor.
 
         Optional kwargs:
             - `kb_norm_authors`
