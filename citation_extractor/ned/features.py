@@ -1216,36 +1216,81 @@ class FeatureExtractor(object):
     # Helper functions #
     ####################
 
-    def _split_names(self, names):
-        splitted_names = set(u' '.join(names).split())
-        return list(splitted_names)
-
-    def _qexact_match(self, s1, s2):
-        return s1 == s2 or StringSimilarity.levenshtein_distance_norm(s1, s2) >= 0.9
-
     def _names_in_title(self, names, title):
+        """Find a name in a title.
+
+        :param names: a list of names
+        :type names: list of unicode
+        :param title: a title of a document
+        :type title: unicode
+
+        :return: True if a name is matched in the title, False otherwise
+        :rtype: bool
+        """
         for name in names:
             for word in title.split():
-                if self._qexact_match(name, word):
+                if StringSimilarity.qexact_match(name, word):
                     return True
         return False
 
     def _names_in_title_perword(self, names, title):
+        """Find a word of a name in a title
+
+        :param names: a list of names
+        :type names: list of unicode
+        :param title: a title of a document
+        :type title: unicode
+
+        :return: True if a word of a name is matched in the title, False otherwise
+        :rtype: bool
+        """
         names = self._split_names(names)
         return self._names_in_title(names, title)
 
     def _names_in_extracted_title(self, names, title_mentions):
+        """Find a name in the mentions extracted from a title
+
+        :param names: a list of names
+        :type names: list of unicode
+        :param title_mentions: the mentions extracted from the title
+        :type title_mentions: list of tuples [(m_type, m_surface), ...]
+
+        :return: True if a name is matched against a mention extracted from the title, False otherwise
+        :rtype: bool
+        """
         for m_type, m_surface in title_mentions:
             for name in names:
-                if self._qexact_match(m_surface, name):
+                if StringSimilarity.qexact_match(m_surface, name):
                     return True
         return False
 
     def _names_in_extracted_title_perword(self, names, title_mentions):
+        """Find a word of a name in the mentions extracted from a title
+
+        :param names: a list of names
+        :type names: list of unicode
+        :param title_mentions: the mentions extracted from the title
+        :type title_mentions: list of tuples [(m_type, m_surface), ...]
+
+        :return: True if a word of a name is matched against a mention extracted from the title, False otherwise
+        :rtype: bool
+        """
         names = self._split_names(names)
         return self._names_in_extracted_title(names, title_mentions)
 
     def _text_similarity(self, text, urn, lang):
+        """Return the cosine similarity between a text and the document describing an entity in a given language
+
+        :param text: the target text
+        :type text: unicode
+        :param urn: the URN of an entity
+        :type urn: str
+        :param lang: the language of the text (en, es, it, fr, de)
+        :type lang: str
+
+        :return: the cosine similarity between the input text and the entity document
+        :rtype: float
+        """
         if urn not in self._tfidf[lang]['urn_to_index'].keys():
             return 0.0
 
@@ -1254,30 +1299,3 @@ class FeatureExtractor(object):
         urn_doc_vector = self._tfidf[lang]['matrix'][urn_doc_index]
 
         return cosine_similarity(text_vector, urn_doc_vector).flatten()[0]
-
-    def _remove_initial_word(self, word, name):
-        pattern = u'^' + word + u' (.+)$'
-        matched = re.match(pattern, name)
-        if matched:
-            return matched.group(1)
-        return name
-
-    def _remove_words_shorter_than(self, name, k):
-        filtered = filter(lambda w: len(w) > k, name.split())
-        return u' '.join(filtered)
-
-    def _remove_preps(self, name):
-        name_words = filter(lambda w: w not in PREPS, name.split())
-        return u' '.join(name_words)
-
-    def _dict_contains_match(self, dictionary):
-        return any(filter(lambda v: type(v) == bool, dictionary.values()))
-
-    def _clean_surface(self, surface):
-        if len(surface.split()) > 1:
-            surface = self._remove_initial_word(u'de', surface)
-        if len(surface.split()) > 1:
-            surface = self._remove_initial_word(u'in', surface)
-        if len(surface.split()) > 2:
-            surface = self._remove_preps(surface)
-        return surface
