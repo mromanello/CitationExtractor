@@ -2,9 +2,7 @@
 # author: Matteo Filipponi
 
 """
-
 Module containing functions/classes for cleaning and matching of strings.
-
 """
 
 import re
@@ -12,6 +10,8 @@ import sys
 import unicodedata
 import jellyfish
 from stop_words import safe_get_stop_words
+
+from citation_extractor.ned import PREPS
 
 global punct_codes, punct_codes_nodot, symbol_codes, numbers_codes
 
@@ -26,6 +26,36 @@ p_codes_to_space = dict.fromkeys(punct_codes, 32)
 p_codes_nodot_to_space = dict.fromkeys(punct_codes_nodot, 32)
 s_codes_to_space = dict.fromkeys(symbol_codes, 32)
 n_codes_to_space = dict.fromkeys(numbers_codes, 32)
+
+
+class DictUtils:
+    @staticmethod
+    def _dict_contains_match(self, dictionary):
+        """Find if at least one boolean value of a dictionary is True
+
+        :param dictionary: the target dictionary
+        :type dict
+
+        :return: True if at least one boolean value of a dictionary is True, False otherwise
+        :rtype: bool
+        """
+        return any(filter(lambda v: type(v) == bool, dictionary.values()))
+
+    @staticmethod
+    def dict_feat_name_to_index(vect):
+        """Map the features names to their position in a DictVectorizer
+
+        :param vect: a DictVectorizer instance
+        :type vect: sklearn.feature_extraction.DictVectorizer
+
+        :return: a dictionary mapping a feature names to its index position in the DictVectorizer instance
+        :rtype: dict
+        """
+        d = {}
+        feat_names = vect.get_feature_names()
+        for i in range(len(feat_names)):
+            d[feat_names[i]] = i
+        return d
 
 
 class StringUtils:
@@ -103,6 +133,83 @@ class StringUtils:
 
         return text
 
+    @staticmethod
+    def split_names(names):
+        """Split a list of names into a list of unique words.
+
+        :param names: a list of names
+        :type names: list of unicode
+
+        :return: a list of unique words
+        :rtype: list of unicode
+        """
+        splitted_names = set(u' '.join(names).split())
+        return list(splitted_names)
+
+    @staticmethod
+    def remove_initial_word(word, name):
+        """Remove a word from a name if the name starts with that word
+
+        :param word: the word to be removed if present
+        :type word: unicode
+        :param name: a target name
+        :type name: unicode
+
+        :return: the name without the initial word if present, the name otherwise
+        :rtype: unicode
+        """
+        pattern = u'^' + word + u' (.+)$'
+        matched = re.match(pattern, name)
+        if matched:
+            return matched.group(1)
+        return name
+
+    @staticmethod
+    def remove_words_shorter_than(name, k):
+        """Remove words shorter than a specified length from a name
+
+        :param name: the target name
+        :type name: unicode
+        :param k: the lenght threshold
+        :type k: int
+
+        :return: the name without the words shorter than k
+        :rtype: unicode
+        """
+        filtered = filter(lambda w: len(w) > k, name.split())
+        return u' '.join(filtered)
+
+    @staticmethod
+    def remove_preps(name):
+        """Remove prepositions from a name
+
+        :param name: the target name
+        :type name: unicode
+
+        :return: the name without prepositions
+        :rtype: unicode
+        """
+        name_words = filter(lambda w: w not in PREPS, name.split())
+        return u' '.join(name_words)
+
+    @staticmethod
+    def clean_surface(surface):
+        """Clean the surface form of a mention
+
+        :param surface: the surface form a mention
+        :type: unicode
+
+        :return: the surface form of a mention without prepositions and the words 'de', 'in' if present at the beginning
+        :rtype: unicode
+        """
+        if len(surface.split()) > 1:
+            surface = StringUtils.remove_initial_word(u'de', surface)
+        if len(surface.split()) > 1:
+            surface = StringUtils.remove_initial_word(u'in', surface)
+        if len(surface.split()) > 2:
+            surface = StringUtils.remove_preps(surface)
+        return surface
+
 
 class StringSimilarity:
     @staticmethod
@@ -117,6 +224,10 @@ class StringSimilarity:
     def exact_match_swords(ss, names):
         matched = map(lambda s: s in names, ss)
         return all(matched)
+
+    @staticmethod
+    def qexact_match(s1, s2):
+        return s1 == s2 or StringSimilarity.levenshtein_distance_norm(s1, s2) >= 0.9
 
     @staticmethod
     def exact_match_swords_any(ss, names):

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# author: Matteo Romanello, matteo.romanello@gmail.com
+# author: Matteo Romanello, matteo.romanello@gmail.com, Matteo Filipponi
 
 """Contains various implementations of citation matchers."""
 
@@ -7,6 +7,7 @@ from __future__ import print_function
 import re
 import sys
 import logging
+import multiprocessing
 from operator import itemgetter
 from collections import namedtuple
 from nltk.metrics import edit_distance
@@ -29,6 +30,7 @@ LOGGER = logger
 Result = namedtuple('DisambiguationResult', 'mention, entity_type, scope, urn')
 
 
+# TODO: could be moved to StringUtils (?)
 def longest_common_substring(s1, s2):
     """
     Taken from https://en.wikibooks.org/wiki/Algorithm_Implementation/\
@@ -48,12 +50,13 @@ def longest_common_substring(s1, s2):
     return s1[x_longest - longest: x_longest]
 
 
-class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
+class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
     """
     TODO
     docstring for CitationMatcher
 
     """
+
     def __init__(
             self,
             knowledge_base=None,
@@ -63,7 +66,7 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
             max_distance_entities=3,
             distance_relations=3,
             **kwargs
-            ):
+    ):
 
         self.fuzzy_match_entities = fuzzy_matching_entities
         self.fuzzy_match_relations = fuzzy_matching_relations
@@ -79,7 +82,7 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
 
         if 'author_names' in kwargs and 'work_titles' in kwargs \
                 and 'work_abbreviations' in kwargs and \
-                'author_abbreviations' in kwargs:
+                        'author_abbreviations' in kwargs:
 
             self._author_names = kwargs["author_names"]
             self._author_abbreviations = kwargs["author_abbreviations"]
@@ -543,7 +546,13 @@ class CitationMatcher(object): #TODO: rename => FuzzyCitationMatcher
 
 
 class MLCitationMatcher(object):
+    """TODO"""
+
     def __init__(self, kb=None):
+        """TODO
+
+        :param kb:
+        """
         LOGGER.info('Initializing Citation Matcher')
 
         self._kb = kb
@@ -559,25 +568,92 @@ class MLCitationMatcher(object):
         self._ranker = LinearSVMRank()
 
     def train(self, train_data, include_nil=True):
+        """TODO
+
+        :param train_data:
+        :param include_nil:
+        :return:
+        """
         LOGGER.info('Starting training')
         # TODO: generate candidates
         # TODO: generate features for candidates (FeatureExtractor)
         # TODO: vectorize features, generate ranking function (SVMRank)
 
-    def disambiguate(
-        self,
-        surface,
-        scope,
-        type,
-        doc_title,
-        mentions_in_title,
-        doc_text,
-        other_mentions,
-        **kwargs
-    ):
-        """TODO: doctsring"""
-        LOGGER.info('Disambiguating ...')
-        # TODO: get candidates (pre-compute? << not possible!)
-        # TODO: generate features for candidates (FeatureExtractor)
-        # TODO: rank candidates (SVMRank)
-        return None
+    def disambiguate(self, surface, scope, type, doc_title, mentions_in_title, doc_text, other_mentions, **kwargs):
+        """Disambiguate an entity mention.
+
+        :param surface: the surface form of the mention
+        :type surface: unicode
+        :param scope: the scope of the mention (could be None)
+        :type scope: unicode
+        :param type: the type of the mention (AAUTHOR, AWORK, REFAUWORK)
+        :type type: str
+        :param doc_title: the title of the document containing the mention
+        :type doc_title: unicode
+        :param mentions_in_title: the mentions extracted from the title
+        :type mentions_in_title: list of tuples [(m_type, m_surface), ...]
+        :param doc_text: the text of the document containing the mention
+        :type doc_text: unicode
+        :param other_mentions: the other mentions extracted from the same document
+        :type other_mentions: list of triples [(m_type, m_surface, m_scope), ...]
+
+        :param kwargs:
+
+        :return: the URN of the candidate entity ranked first
+        :rtype: str
+        """
+        LOGGER.info('Disambiguating surface={} scope={} type={}'.format(surface, scope, type))
+
+        # TODO: globally set
+        include_nil = True
+        parallel = False
+        nb_processes = 10
+
+        # Generate candidates
+        candidates = self._candidates_generator.generate_candidates(surface, type, scope)
+
+        # Extract features
+        feature_vectors = None
+        if parallel:
+            pool = multiprocessing.Pool(processes=nb_processes)  # TODO: the pool can be global to avoid create/destroy each time
+            argumets = map(lambda candidate: dict(m_surface=surface,
+                                                  m_scope=scope,
+                                                  m_type=type,
+                                                  m_title_mentions=mentions_in_title,
+                                                  m_title=doc_title,
+                                                  m_doc_text=doc_text,
+                                                  m_other_mentions=other_mentions,
+                                                  candidates=candidate), candidates)
+            feature_vectors = pool.map(self._feature_extractor.extract_unpack_kwargs, argumets)
+            pool.terminate()
+        else:
+            feature_vectors = map(lambda candidate: self._feature_extractor.extract(m_surface=surface,
+                                                                                    m_scope=scope,
+                                                                                    m_type=type,
+                                                                                    m_title_mentions=mentions_in_title,
+                                                                                    m_title=doc_title,
+                                                                                    m_doc_text=doc_text,
+                                                                                    m_other_mentions=other_mentions,
+                                                                                    candidate_urn=candidate), candidates)
+
+        # Include NIL candidate if specified
+        if include_nil:
+            candidates.append(NIL_URN)
+            nil_feature_vector = self._feature_extractor.extract_nil(m_type=type, m_scope=scope, feature_dicts=feature_vectors)
+            feature_vectors.append(nil_feature_vector)
+
+        # Check whether there are no candidates (in case of not include_nil) or just one
+        if len(candidates) == 0:
+            return NIL_URN
+        elif len(candidates) == 1:
+            return candidates[0]
+
+        # Rank candidates
+        ranked_columns, scores = self._ranker.predict(feature_vectors)
+        winner_column = ranked_columns[0]
+        winner_score = scores[0]
+        winner_candidate = candidates[winner_column]
+
+        LOGGER.info('Entity {} won with score {}'.format(winner_candidate, winner_score))
+
+        return winner_candidate

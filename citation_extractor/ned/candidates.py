@@ -1,7 +1,7 @@
-"""Candidates Generation code related to the NED step."""
-
 # -*- coding: utf-8 -*-
+# author: Matteo Filipponi
 
+"""Candidates Generation code related to the NED step."""
 
 from __future__ import print_function
 import logging
@@ -19,7 +19,18 @@ LOGGER = logging.getLogger(__name__)
 # column names as variables
 
 class CandidatesGenerator(object):
+    """Generate entity candidates for a given mention."""
+
     def __init__(self, kb, mention_surface_is_normalized=True, fuzzy_threshold=0.7):
+        """Initialize an instance of CandidatesGenerator.
+
+        :param kb: an instance of HuCit KnowledgeBase
+        :type kb: knowledge_base.KnowledgeBase
+        :param mention_surface_is_normalized: specify whether mention surfaces are already normalized (default is True)
+        :type mention_surface_is_normalized: bool
+        :param fuzzy_threshold: specify the threshold to be used in fuzzy string matching (default is 0.7)
+        :type fuzzy_threshold: float
+        """
 
         # TODO: compute kb norm authors/works (get Dataframe schema)
         self._kb_norm_authors = None
@@ -36,7 +47,14 @@ class CandidatesGenerator(object):
         self._build_name_abbr_dict()
 
     def _build_name_abbr_dict(self):
+        """Construct dictionaries that map names/abbreviations to sets of entity URNs that use those names/abbreviations.
 
+        This function initializes (in-place) the dictionaries that map author names to their URNs, author abbreviations to their URN,
+        work names to their URNs and work abbreviations to their URNs. For example if two author entities share the same abbreviation.
+        then the URNs of the two entities will be both present in the set mapped by that abbreviation key.
+        """
+
+        # Helper function: update a dataframe entry set with a new value
         def update_df_list(df, row, col, value):
             if row not in df.index:
                 df.loc[row, col] = set()
@@ -80,12 +98,17 @@ class CandidatesGenerator(object):
         self._works_dict_abbr = works_dict_abbr
 
     def generate_candidates(self, mention_surface, mention_type, mention_scope):
-        """
-        Generate the candidates for a mention
-        :param mention_surface: A unicode string
-        :param mention_type: A string representing the type of the mention
-        :param mention_scope: A string representing the scope of the mention
-        :return: A set of strings representing the ids of the canidates
+        """Generate the entity candidates for a mention.
+
+        :param mention_surface: the surface form of the mention
+        :type mention_surface: unicode
+        :param mention_type: the type of the mention (AAUTHOR, AWORK, REFAUWORK)
+        :type mention_type: str
+        :param mention_scope: the scope of the mention (could be None)
+        :type mention_scope: unicode
+
+        :return: the URNs of the candidate entities
+        :rtype: list of str
         """
 
         def many_to_many_exact_match(surf, name):
@@ -153,14 +176,18 @@ class CandidatesGenerator(object):
             candidates.update(search_names(self._works_dict_names, norm_surface))
             candidates.update(search_abbr(self._works_dict_abbr, norm_surface))
 
-        return candidates
+        return list(candidates)
 
     def generate_candidates_parallel(self, mentions, nb_processes=10):
-        """
-        Generate the candidates for a list of mentions by using parallel computation.
-        :param mentions: A pandas Dataframe containing the mentions.
-        :param nb_processes: The number of processes to be used for the computation.
-        :return: A list of tuples (mention id, set of candidates)
+        """Generate the entity candidates for a mention by using parallel computation.
+
+        :param mentions: a pandas Dataframe containing the mentions (schema: surface_norm, type, scope)
+        :type mentions: pandas.DataFrame
+        :param nb_processes: The number of processes to be used for the computation (default is 10)
+        :type nb_processes: int
+
+        :return: the URNs of the candidate entities for each mention [(mention_id, set_of_candidates), ...]
+        :rtype: list of (str, list of str)
         """
 
         def dispatch_per_process(params):
