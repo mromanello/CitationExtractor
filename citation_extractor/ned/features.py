@@ -10,6 +10,7 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from stop_words import safe_get_stop_words
 
+from citation_extractor.Utils.strmatching import DictUtils
 from citation_extractor.Utils.strmatching import StringSimilarity
 from citation_extractor.Utils.strmatching import StringUtils
 from citation_extractor.ned import AUTHOR_TYPE, WORK_TYPE, REFAUWORK_TYPE
@@ -207,17 +208,6 @@ class FeatureExtractor(object):
                     m_other_mentions,
                     candidate_urn
                 )
-
-        """
-        # at the end add a NIL Entity (work) TODO: @MatteoF correct?
-        df_norm_works.loc[NIL_URN, 'titles'] = []
-        df_norm_works.loc[NIL_URN, 'norm_titles'] = []
-        df_norm_works.loc[NIL_URN, 'norm_titles_clean'] = []
-        df_norm_works.loc[NIL_URN, 'abbr'] = []
-        df_norm_works.loc[NIL_URN, 'norm_abbr'] = []
-        df_norm_works.loc[NIL_URN, 'author'] = []
-        """
-        return df_norm_works
 
         # The mention is a work name and searching for a work
         elif m_type == WORK_TYPE:
@@ -709,7 +699,7 @@ class FeatureExtractor(object):
         :type names: list of unicode
         """
 
-        surf = self._clean_surface(surf)
+        surf = StringUtils.clean_surface(surf)
         surf_words = surf.split()
         names_words = set(u' '.join(names).split())
 
@@ -815,7 +805,7 @@ class FeatureExtractor(object):
         elif len(surf_words) > 3:
             feat_prefix = feat_prefix + '3+w_'
 
-            surf = self._remove_words_shorter_than(surf, 2)
+            surf = StringUtils.remove_words_shorter_than(surf, 2)
             surf_words = surf.split()
 
             # Exact match
@@ -858,7 +848,7 @@ class FeatureExtractor(object):
         :param anames: the names of the author of the candidate work
         :type anames: list of unicode
         """
-        surf = self._clean_surface(surf)
+        surf = StringUtils.clean_surface(surf)
         surf_words = surf.split()
         names_words = set(u' '.join(names).split())
         anames_words = set(u' '.join(anames).split())
@@ -1047,7 +1037,7 @@ class FeatureExtractor(object):
         :type candidate_urn: str
         """
 
-        stripped_title = self._remove_words_shorter_than(title, 3)
+        stripped_title = StringUtils.remove_words_shorter_than(title, 3)
 
         if candidate_urn in self._kb_norm_authors.index:
             names = self._kb_norm_authors.loc[candidate_urn, 'norm_names_clean']
@@ -1146,19 +1136,19 @@ class FeatureExtractor(object):
             if om_type == AUTHOR_TYPE:
                 tmp_vector = {}
                 self._add_string_similarities(tmp_vector, 'tmp', om_surf, anames)
-                amatch.append(self._dict_contains_match(tmp_vector))
+                amatch.append(DictUtils._dict_contains_match(tmp_vector))
 
             if om_type == WORK_TYPE:
                 tmp_vector = {}
                 self._add_string_similarities(tmp_vector, 'tmp', om_surf, wnames)
-                wmatch.append(self._dict_contains_match(tmp_vector))
+                wmatch.append(DictUtils._dict_contains_match(tmp_vector))
 
             if om_type == REFAUWORK_TYPE:
                 tmp_vector = {}
                 self._add_string_similarities(tmp_vector, 'tmp', om_surf, anames)
                 self._add_string_similarities(tmp_vector, 'tmp', om_surf, wnames)
                 self._add_mixed_string_similarities(tmp_vector, 'tmp', om_surf, wnames, anames)
-                rmatch.append(self._dict_contains_match(tmp_vector))
+                rmatch.append(DictUtils._dict_contains_match(tmp_vector))
 
         feature_vector[feat_prefix + 'author_match'] = any(amatch)
         feature_vector[feat_prefix + 'author_match_nb'] = float(sum(amatch)) / max(len(other_mentions), 1)
@@ -1246,7 +1236,7 @@ class FeatureExtractor(object):
         :return: True if a word of a name is matched in the title, False otherwise
         :rtype: bool
         """
-        names = self._split_names(names)
+        names = StringUtils.split_names(names)
         return self._names_in_title(names, title)
 
     def _names_in_extracted_title(self, names, title_mentions):
@@ -1277,7 +1267,7 @@ class FeatureExtractor(object):
         :return: True if a word of a name is matched against a mention extracted from the title, False otherwise
         :rtype: bool
         """
-        names = self._split_names(names)
+        names = StringUtils.split_names(names)
         return self._names_in_extracted_title(names, title_mentions)
 
     def _text_similarity(self, text, urn, lang):
