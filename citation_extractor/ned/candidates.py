@@ -108,7 +108,7 @@ class CandidatesGenerator(object):
         :type mention_scope: unicode
 
         :return: the URNs of the candidate entities
-        :rtype: set of str
+        :rtype: list of str
         """
 
         def many_to_many_exact_match(surf, name):
@@ -176,7 +176,7 @@ class CandidatesGenerator(object):
             candidates.update(search_names(self._works_dict_names, norm_surface))
             candidates.update(search_abbr(self._works_dict_abbr, norm_surface))
 
-        return candidates
+        return list(candidates)
 
     def generate_candidates_parallel(self, mentions, nb_processes=10):
         """Generate the entity candidates for a mention by using parallel computation.
@@ -187,7 +187,7 @@ class CandidatesGenerator(object):
         :type nb_processes: int
 
         :return: the URNs of the candidate entities for each mention [(mention_id, set_of_candidates), ...]
-        :rtype: list of (str, set of str)
+        :rtype: list of (str, list of str)
         """
 
         def dispatch_per_process(params):

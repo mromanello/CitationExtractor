@@ -21,6 +21,7 @@ import pandas as pd
 import logging
 import os
 import re
+import multiprocessing
 
 LOGGER = logging.getLogger(__name__)
 
@@ -73,6 +74,9 @@ class FeatureExtractor(object):
             self._prior_prob = kwargs['prior_prob']
             self._me_prob = kwargs['mention_entity_prob']
             self._em_prob = kwargs['entity_mention_prob']
+
+    def extract_unpack_kwargs(self, kwargs):
+        return self.extract(**kwargs)
 
     def extract(self, m_surface, m_scope, m_type, m_title_mentions, m_title, m_doc_text, m_other_mentions, candidate_urn):
         """Extract features about the similarity between an entity-mention and a candidate entity.
