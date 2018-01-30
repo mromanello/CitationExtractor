@@ -30,7 +30,7 @@ n_codes_to_space = dict.fromkeys(numbers_codes, 32)
 
 class DictUtils:
     @staticmethod
-    def _dict_contains_match(self, dictionary):
+    def _dict_contains_match(dictionary):
         """Find if at least one boolean value of a dictionary is True
 
         :param dictionary: the target dictionary
@@ -199,7 +199,8 @@ class StringUtils:
         :param surface: the surface form a mention
         :type: unicode
 
-        :return: the surface form of a mention without prepositions and the words 'de', 'in' if present at the beginning
+        :return: the surface form of a mention without prepositions,
+            and without the words 'de', 'in' if present at the beginning
         :rtype: unicode
         """
         if len(surface.split()) > 1:

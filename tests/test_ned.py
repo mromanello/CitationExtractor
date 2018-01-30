@@ -124,6 +124,7 @@ def test_instantiate_featureextractor_quick():
     logger.info(test_df_data.info())
 
     for id_row, row in test_df_data.iterrows():
+        # TODO: should be called on the candidates!
         fv = fe.extract(
             row["surface_norm"],
             row["scope"],

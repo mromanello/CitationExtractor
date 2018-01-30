@@ -25,7 +25,7 @@ class LinearSVMRank(object):
         LOGGER.info('Initializing SVM Rank')
         self._classifier = classifier
         self._dv = DictVectorizer(sparse=False)
-        # TODO: add feature to use sparse
+        # TODO: add feature to use sparse (MF)
 
     def _pairwise_transformation(self, X, y, groups):
         """Apply the pairwise transformation to groups of labeled vectors

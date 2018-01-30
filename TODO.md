@@ -1,3 +1,11 @@
+## integration of ML-Matcher into the codebase
+
+* [ ] write test `FeatureExtractor.extract_nil` (mr)
+* [ ] write tests for `ned.candidates.CandidatesGenerator` (mr)
+* [ ] write documentation for feature functions (mf)
+* [ ] implement `MLCitationMatcher.train`
+* [ ] implement `MLCitationMatcher.classify`
+
 ## Next steps
 
 * [ ] improve the code quality/style
