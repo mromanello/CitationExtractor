@@ -546,15 +546,21 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
 
 
 class MLCitationMatcher(object):
-    """TODO"""
+    """Machine Learning based Citation Matcher.
+
+    This matcher uses a supervised learning-to-rank framework to build a model from a
+    set of labeled entity mentions.
+    """
 
     def __init__(self, kb=None):
-        """TODO
+        """Initialize an instance of MLCitationMatcher.
 
-        :param kb:
+        :param kb: an instance of HuCit KnowledgeBase
+        :type kb: knowledge_base.KnowledgeBase
         """
         LOGGER.info('Initializing Citation Matcher')
 
+        # TODO: what if kb is None ?
         self._kb = kb
 
         # TODO: normalize authors and works once, the pass to both
@@ -566,20 +572,122 @@ class MLCitationMatcher(object):
         self._candidates_generator = CandidatesGenerator(kb)
         self._feature_extractor = FeatureExtractor(kb)
         self._ranker = LinearSVMRank()
+        self._is_trained = False
 
-    def train(self, train_data, include_nil=True):
-        """TODO
+    def train(self, train_data, include_nil=True, parallelize=False, nb_processes=10):
+        """Train the MLCitationMatcher with a set of labeled mentions.
 
-        :param train_data:
-        :param include_nil:
-        :return:
+        :param train_data: a set of labeled mentions to be used as train data
+        :type train_data: pandas.DataFrame
+        :param include_nil: include the NIL entity as a candidate if the true entity is not NIL (default is True)
+        :type include_nil: bool
+        :param parallelize: parallelize the extraction of the feature vectors (default is False)
+        :type parallelize: bool
+        :param nb_processes: number of processes to be used for parallelization (default is 10)
+        :type nb_processes: int
         """
         LOGGER.info('Starting training')
-        # TODO: compute probs from train data
-        # TODO: generate features for candidates (FeatureExtractor)
-        # TODO: generate ranking function (SVMRank)
 
-    def disambiguate(self, surface, scope, type, doc_title, mentions_in_title, doc_text, other_mentions, **kwargs):
+        # TODO: check for train_data schema
+
+        if parallelize:
+            LOGGER.info('Parallelization is enabled (nb_processes={})'.format(nb_processes))
+            pool = multiprocessing.Pool(processes=nb_processes)
+
+        X, y, groups = [], [], []
+        group_id = 1
+
+        for mention_id, row in train_data.iterrows():
+            LOGGER.debug('Disambiguating {}'.format(mention_id))
+
+            surface = row['surface_norm_dots']
+            scope = row['scope']
+            type = row['type']
+            doc_title = row['doc_title_norm']
+            mentions_in_title = row['doc_title_mentions']
+            doc_text = row['doc_text']
+            other_mentions = row['other_mentions']
+            true_urn = row['urn_clean']
+
+            # Generate candidates
+            # TODO: can also be parallelized
+            candidates = self._candidates_generator.generate_candidates(surface, type, scope)
+
+            # Remove true entity (need special treatment)
+            candidates.remove(true_urn)
+
+            # Extract features
+            feature_vectors = None
+            if parallelize:
+                arguments = map(lambda candidate: dict(m_surface=surface,
+                                                       m_scope=scope,
+                                                       m_type=type,
+                                                       m_title_mentions=mentions_in_title,
+                                                       m_title=doc_title,
+                                                       m_doc_text=doc_text,
+                                                       m_other_mentions=other_mentions,
+                                                       candidates=candidate), candidates)
+                feature_vectors = pool.map(self._feature_extractor.extract_unpack_kwargs, arguments)
+            else:
+                feature_vectors = map(lambda candidate: self._feature_extractor.extract(m_surface=surface,
+                                                                                        m_scope=scope,
+                                                                                        m_type=type,
+                                                                                        m_title_mentions=mentions_in_title,
+                                                                                        m_title=doc_title,
+                                                                                        m_doc_text=doc_text,
+                                                                                        m_other_mentions=other_mentions,
+                                                                                        candidate_urn=candidate), candidates)
+
+            # Append not-true candidates values
+            for vector in feature_vectors:
+                X.append(vector)
+                y.append(0)  # false
+                groups.append(group_id)
+
+            # Add the true entity (not NIL)
+            if true_urn != NIL_URN:
+                LOGGER.debug('True entity is not NIL')
+                true_feature_vector = self._feature_extractor.extract(m_surface=surface,
+                                                                      m_scope=scope,
+                                                                      m_type=type,
+                                                                      m_title_mentions=mentions_in_title,
+                                                                      m_title=doc_title,
+                                                                      m_doc_text=doc_text,
+                                                                      m_other_mentions=other_mentions,
+                                                                      candidate_urn=true_urn)
+
+                # Append true candidate values
+                feature_vectors.append(true_feature_vector)
+                X.append(true_feature_vector)
+                y.append(1)  # true
+                groups.append(group_id)
+
+                # Include NIL if specified
+                if include_nil:
+                    LOGGER.debug('Including NIL entity as candidate')
+                    nil_feature_vector = self._feature_extractor.extract_nil(m_type=type, m_scope=scope, feature_dicts=feature_vectors)
+                    X.append(nil_feature_vector)
+                    y.append(0)
+                    groups.append(group_id)
+
+            # Add the true entity (NIL)
+            else:
+                LOGGER.debug('True entity is NIL')
+                nil_feature_vector = self._feature_extractor.extract_nil(m_type=type, m_scope=scope, feature_dicts=feature_vectors)
+                X.append(nil_feature_vector)
+                y.append(1)
+                groups.append(group_id)
+
+            group_id += 1
+
+        if parallelize:
+            pool.terminate()
+
+        # Fit SVMRank
+        self._ranker.fit(X, y, groups)
+        self._is_trained = True
+
+    def disambiguate(self, surface, scope, type, doc_title, mentions_in_title, doc_text, other_mentions, include_nil=True, parallelize=False, nb_processes=10):
         """Disambiguate an entity mention.
 
         :param surface: the surface form of the mention
@@ -596,35 +704,39 @@ class MLCitationMatcher(object):
         :type doc_text: unicode
         :param other_mentions: the other mentions extracted from the same document
         :type other_mentions: list of triples [(m_type, m_surface, m_scope), ...]
-
-        :param kwargs:
+        :param include_nil: include the NIL entity as a candidate if the true entity is not NIL (default is True)
+        :type include_nil: bool
+        :param parallelize: parallelize the extraction of the feature vectors (default is False)
+        :type parallelize: bool
+        :param nb_processes: number of processes to be used for parallelization (default is 10)
+        :type nb_processes: int
 
         :return: the URN of the candidate entity ranked first
         :rtype: str
         """
         LOGGER.info('Disambiguating surface={} scope={} type={}'.format(surface, scope, type))
 
-        # TODO: globally set
-        include_nil = True
-        parallel = False
-        nb_processes = 10
+        if not self._is_trained:
+            raise Exception('method disambiguate() must be invoked after train()')
+
+        if parallelize:
+            LOGGER.debug('Parallelization is enabled (nb_processes={})'.format(nb_processes))
 
         # Generate candidates
         candidates = self._candidates_generator.generate_candidates(surface, type, scope)
 
         # Extract features
-        feature_vectors = None
-        if parallel:
-            pool = multiprocessing.Pool(processes=nb_processes)  # TODO: the pool can be global to avoid create/destroy each time
-            argumets = map(lambda candidate: dict(m_surface=surface,
-                                                  m_scope=scope,
-                                                  m_type=type,
-                                                  m_title_mentions=mentions_in_title,
-                                                  m_title=doc_title,
-                                                  m_doc_text=doc_text,
-                                                  m_other_mentions=other_mentions,
-                                                  candidates=candidate), candidates)
-            feature_vectors = pool.map(self._feature_extractor.extract_unpack_kwargs, argumets)
+        if parallelize:
+            pool = multiprocessing.Pool(processes=nb_processes)  # TODO: the pool can be global to avoid create/destroy each time (?)
+            arguments = map(lambda candidate: dict(m_surface=surface,
+                                                   m_scope=scope,
+                                                   m_type=type,
+                                                   m_title_mentions=mentions_in_title,
+                                                   m_title=doc_title,
+                                                   m_doc_text=doc_text,
+                                                   m_other_mentions=other_mentions,
+                                                   candidates=candidate), candidates)
+            feature_vectors = pool.map(self._feature_extractor.extract_unpack_kwargs, arguments)
             pool.terminate()
         else:
             feature_vectors = map(lambda candidate: self._feature_extractor.extract(m_surface=surface,
@@ -638,6 +750,7 @@ class MLCitationMatcher(object):
 
         # Include NIL candidate if specified
         if include_nil:
+            LOGGER.debug('Including NIL entity as candidate')
             candidates.append(NIL_URN)
             nil_feature_vector = self._feature_extractor.extract_nil(m_type=type, m_scope=scope, feature_dicts=feature_vectors)
             feature_vectors.append(nil_feature_vector)
