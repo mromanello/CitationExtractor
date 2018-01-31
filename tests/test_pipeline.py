@@ -10,7 +10,7 @@ from citation_extractor.pipeline import do_ned
 from citation_extractor.pipeline import preproc_document, do_ner, do_relex
 from citation_extractor.pipeline import read_ann_file_new, detect_language
 
-logging.basicConfig(level=logging.DEBUG)
+
 logger = logging.getLogger(__name__)
 
 

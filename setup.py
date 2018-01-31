@@ -19,7 +19,7 @@ setup(
     version=VERSION,
     dependency_links=[
         'http://www.antlr3.org/download/Python/antlr_python_runtime-3.1.3.tar.gz',
-        'https://github.com/mromanello/treetagger-python/archive/master.zip#egg=treetagger-1.0.1'
+        'https://github.com/mromanello/treetagger-python/tarball/master#egg=treetagger-1.0.1'
     ],
     packages=find_packages(),
     package_data={
