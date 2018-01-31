@@ -77,6 +77,15 @@ class FeatureExtractor(object):
             self._em_prob = kwargs['entity_mention_prob']
 
     def extract_unpack_kwargs(self, kwargs):
+        """Helper method to be used in parallel computation. It simply calls the FeatureExtractor.extract()
+        method by unpacking the key-word arguments.
+
+        :param kwargs: a dictionary containing all the necessary arguments to call FeatureExtractor.extract()
+        :type kwargs: dict
+
+        :return: the output of the FeatureExtractor.extract() method
+        :rtype: dict
+        """
         return self.extract(**kwargs)
 
     def extract(self, m_surface, m_scope, m_type, m_title_mentions, m_title, m_doc_text, m_other_mentions, candidate_urn):
