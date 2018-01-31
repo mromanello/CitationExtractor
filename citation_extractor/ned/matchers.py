@@ -72,8 +72,7 @@ from operator import itemgetter
 from collections import namedtuple
 from nltk.metrics import edit_distance
 from pyCTS import CTS_URN
-from pysuffix import suffixIndexers
-from pysuffix.suffixIndexers import DictValuesIndexer
+from citation_extractor.extra.pysuffix.suffixIndexers import DictValuesIndexer
 from citation_parser import CitationParser
 from citation_extractor.pipeline import NIL_URN
 from citation_extractor.Utils.strmatching import *
