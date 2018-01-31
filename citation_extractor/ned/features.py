@@ -22,7 +22,6 @@ import pandas as pd
 import logging
 import os
 import re
-import multiprocessing
 
 LOGGER = logging.getLogger(__name__)
 
@@ -76,17 +75,22 @@ class FeatureExtractor(object):
             self._me_prob = kwargs['mention_entity_prob']
             self._em_prob = kwargs['entity_mention_prob']
 
-    def extract_unpack_kwargs(self, kwargs):
+    def extract_unpack(self, extract_arguments):
         """Helper method to be used in parallel computation. It simply calls the FeatureExtractor.extract()
-        method by unpacking the key-word arguments.
+        method by unpacking the passed arguments.
 
-        :param kwargs: a dictionary containing all the necessary arguments to call FeatureExtractor.extract()
-        :type kwargs: dict
+        :param extract_arguments: a dictionary or a tuple containing all the necessary arguments to call FeatureExtractor.extract()
+        :type extract_arguments: dict or tuple
 
         :return: the output of the FeatureExtractor.extract() method
         :rtype: dict
         """
-        return self.extract(**kwargs)
+        if type(extract_arguments) == tuple:
+            return self.extract(*extract_arguments)
+        elif type(extract_arguments) == dict:
+            return self.extract(**extract_arguments)
+        else:
+            raise TypeError('extract_arguments type must be tuple or dict')
 
     def extract(self, m_surface, m_scope, m_type, m_title_mentions, m_title, m_doc_text, m_other_mentions, candidate_urn):
         """Extract features about the similarity between an entity-mention and a candidate entity.
