@@ -17,6 +17,7 @@ logger = logging.getLogger(__name__)
 # Utils.IO #
 ############
 
+
 def test_annotations2references(knowledge_base):
     datadir = ('citation_extractor','data/aph_corpus/goldset/ann/')
     dir = pkg_resources.resource_filename(*datadir)
