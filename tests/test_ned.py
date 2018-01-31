@@ -8,6 +8,7 @@ import pytest
 import logging
 import pickle
 import pandas as pd
+from citation_extractor.pipeline import NIL_URN
 from citation_extractor.Utils.IO import load_brat_data
 from citation_extractor.ned.features import FeatureExtractor
 from citation_extractor.ned.ml import LinearSVMRank
@@ -38,7 +39,7 @@ def test_pickle_citation_matcher(citation_matcher):
 
 # When finished testing, transform into a fixture
 # and move to conftest.py
-def test_instantiate_ml_citation_matcher(
+def test_instantiate_featureextractor(
         knowledge_base,
         aph_gold_ann_files,
         crf_citation_extractor,
@@ -59,6 +60,24 @@ def test_instantiate_ml_citation_matcher(
     fe = FeatureExtractor(knowledge_base, train_df_data)
     logger.info(fe)
 
+    for id_row, row in aph_testset_dataframe.iterrows():
+        # NB: should be called on the candidates!
+        if row["urn"] != NIL_URN:
+            fv = fe.extract(
+                row["surface_norm"],
+                row["scope"],
+                row["type"],
+                row["doc_title_mentions"],
+                row["doc_title_norm"],
+                row["doc_text"],
+                row["other_mentions"],
+                row["urn_clean"]
+            )
+            # TODO: call `fe.extract_nil`
+            logger.debug(fv)
+        else:
+            logger.debug("Skipped {}".format(row))
+
     aph_testset_dataframe.to_pickle(
         'citation_extractor/data/pickles/aph_test_df.pkl'
     )
@@ -68,18 +87,26 @@ def test_instantiate_ml_citation_matcher(
     fe._em_prob.to_pickle('citation_extractor/data/pickles/em_prob.pkl')
     fe._me_prob.to_pickle('citation_extractor/data/pickles/me_prob.pkl')
 
-    # pickle list of URNs from the KB
+    # serialize normalized authors
     with open(
         'citation_extractor/data/pickles/kb_norm_authors.pkl',
         'wb'
     ) as f:
         pickle.dump(fe._kb_norm_authors, f)
 
+    # serialize normalized works
     with open(
         'citation_extractor/data/pickles/kb_norm_works.pkl',
         'wb'
     ) as f:
         pickle.dump(fe._kb_norm_works, f)
+
+    # serialize the FeatureExtractor
+    with open(
+        'citation_extractor/data/pickles/ml_feature_extractor.pkl',
+        'wb'
+    ) as f:
+        pickle.dump(fe, f)
 
 
 def test_instantiate_featureextractor_quick():
@@ -121,22 +148,25 @@ def test_instantiate_featureextractor_quick():
     test_df_data = pd.read_pickle(
         'citation_extractor/data/pickles/aph_test_df.pkl'
     )
-    logger.info(test_df_data.info())
+    logger.debug(test_df_data.info())
 
     for id_row, row in test_df_data.iterrows():
         # TODO: should be called on the candidates!
-        fv = fe.extract(
-            row["surface_norm"],
-            row["scope"],
-            row["type"],
-            row["doc_title_mentions"],
-            row["doc_title_norm"],
-            row["doc_text"],
-            row["other_mentions"],
-            row["urn_clean"]
-        )
-        # TODO: call `fe.extract_nil`
-        logger.info(fv)
+        if row["urn"] != NIL_URN:
+            fv = fe.extract(
+                row["surface_norm"],
+                row["scope"],
+                row["type"],
+                row["doc_title_mentions"],
+                row["doc_title_norm"],
+                row["doc_text"],
+                row["other_mentions"],
+                row["urn_clean"]
+            )
+            # TODO: call `fe.extract_nil`
+            logger.debug(fv)
+        else:
+            logger.debug("Skipped {}".format(row))
 
 
 def test_svm_rank():

@@ -546,10 +546,10 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
 
 
 class MLCitationMatcher(object):
-    """Machine Learning based Citation Matcher.
+    """Machine Learning-based Citation Matcher.
 
-    This matcher uses a supervised learning-to-rank framework to build a model from a
-    set of labeled entity mentions.
+    This matcher uses a supervised learning-to-rank framework to build a model
+    from a set of labeled entity mentions.
     """
 
     def __init__(self, kb=None):
@@ -714,6 +714,7 @@ class MLCitationMatcher(object):
         :return: the URN of the candidate entity ranked first
         :rtype: str
         """
+        # TODO: move some parameters to kwargs
         LOGGER.info(
             'Disambiguating surface={} scope={} type={}'.format(
                 surface,
