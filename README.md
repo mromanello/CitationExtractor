@@ -21,3 +21,10 @@ followed by:
 
 **NB:** the installation of all other dependencies is handled by `setup.py` but for some reason
 (that I'm still trying to figure out) it does not pick up these two.
+
+
+## Documentation
+
+I'm working on it ;-)
+
+For the time being, you can find a concrete example of how to use the library in [this notebook](https://gist.github.com/mromanello/3d29add74a33da6629509742fe738ca1).
