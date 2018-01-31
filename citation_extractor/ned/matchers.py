@@ -579,7 +579,17 @@ class MLCitationMatcher(object):
         # TODO: generate features for candidates (FeatureExtractor)
         # TODO: vectorize features, generate ranking function (SVMRank)
 
-    def disambiguate(self, surface, scope, type, doc_title, mentions_in_title, doc_text, other_mentions, **kwargs):
+    def disambiguate(
+        self,
+        surface,
+        scope,
+        type,
+        doc_title,
+        mentions_in_title,
+        doc_text,
+        other_mentions,
+        **kwargs
+    ):
         """Disambiguate an entity mention.
 
         :param surface: the surface form of the mention
@@ -594,15 +604,21 @@ class MLCitationMatcher(object):
         :type mentions_in_title: list of tuples [(m_type, m_surface), ...]
         :param doc_text: the text of the document containing the mention
         :type doc_text: unicode
-        :param other_mentions: the other mentions extracted from the same document
-        :type other_mentions: list of triples [(m_type, m_surface, m_scope), ...]
+        :param other_mentions: other mentions extracted from the same document
+        :type other_mentions: list of triples [(m_type, m_surface, m_scope),]
 
         :param kwargs:
 
         :return: the URN of the candidate entity ranked first
         :rtype: str
         """
-        LOGGER.info('Disambiguating surface={} scope={} type={}'.format(surface, scope, type))
+        LOGGER.info(
+            'Disambiguating surface={} scope={} type={}'.format(
+                surface,
+                scope,
+                type
+            )
+        )
 
         # TODO: globally set
         include_nil = True
@@ -610,39 +626,62 @@ class MLCitationMatcher(object):
         nb_processes = 10
 
         # Generate candidates
-        candidates = self._candidates_generator.generate_candidates(surface, type, scope)
+        candidates = self._candidates_generator.generate_candidates(
+            surface,
+            type,
+            scope
+        )
 
         # Extract features
         feature_vectors = None
         if parallel:
-            pool = multiprocessing.Pool(processes=nb_processes)  # TODO: the pool can be global to avoid create/destroy each time
-            argumets = map(lambda candidate: dict(m_surface=surface,
-                                                  m_scope=scope,
-                                                  m_type=type,
-                                                  m_title_mentions=mentions_in_title,
-                                                  m_title=doc_title,
-                                                  m_doc_text=doc_text,
-                                                  m_other_mentions=other_mentions,
-                                                  candidates=candidate), candidates)
-            feature_vectors = pool.map(self._feature_extractor.extract_unpack_kwargs, argumets)
+            # TODO: the pool can be global to avoid create/destroy each time
+            pool = multiprocessing.Pool(processes=nb_processes)
+            arguments = map(
+                lambda candidate: dict(
+                    m_surface=surface,
+                    m_scope=scope,
+                    m_type=type,
+                    m_title_mentions=mentions_in_title,
+                    m_title=doc_title,
+                    m_doc_text=doc_text,
+                    m_other_mentions=other_mentions,
+                    candidates=candidate
+                ),
+                candidates
+            )
+            feature_vectors = pool.map(
+                self._feature_extractor.extract_unpack_kwargs,
+                arguments
+            )
             pool.terminate()
         else:
-            feature_vectors = map(lambda candidate: self._feature_extractor.extract(m_surface=surface,
-                                                                                    m_scope=scope,
-                                                                                    m_type=type,
-                                                                                    m_title_mentions=mentions_in_title,
-                                                                                    m_title=doc_title,
-                                                                                    m_doc_text=doc_text,
-                                                                                    m_other_mentions=other_mentions,
-                                                                                    candidate_urn=candidate), candidates)
+            feature_vectors = map(
+                lambda candidate: self._feature_extractor.extract(
+                    m_surface=surface,
+                    m_scope=scope,
+                    m_type=type,
+                    m_title_mentions=mentions_in_title,
+                    m_title=doc_title,
+                    m_doc_text=doc_text,
+                    m_other_mentions=other_mentions,
+                    candidate_urn=candidate
+                ),
+                candidates
+            )
 
         # Include NIL candidate if specified
         if include_nil:
             candidates.append(NIL_URN)
-            nil_feature_vector = self._feature_extractor.extract_nil(m_type=type, m_scope=scope, feature_dicts=feature_vectors)
+            nil_feature_vector = self._feature_extractor.extract_nil(
+                m_type=type,
+                m_scope=scope,
+                feature_dicts=feature_vectors
+            )
             feature_vectors.append(nil_feature_vector)
 
-        # Check whether there are no candidates (in case of not include_nil) or just one
+        # Check whether there are no candidates (in case of not include_nil)
+        # or just one
         if len(candidates) == 0:
             return NIL_URN
         elif len(candidates) == 1:
@@ -654,6 +693,11 @@ class MLCitationMatcher(object):
         winner_score = scores[0]
         winner_candidate = candidates[winner_column]
 
-        LOGGER.info('Entity {} won with score {}'.format(winner_candidate, winner_score))
+        LOGGER.info(
+            'Entity {} won with score {}'.format(
+                winner_candidate,
+                winner_score
+            )
+        )
 
         return winner_candidate
