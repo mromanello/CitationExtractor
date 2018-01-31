@@ -1,4 +1,4 @@
-http://www.antlr3.org/download/Python/antlr_python_runtime-3.1.3.tar.gz
+http://www.antlr3.org/download/Python/antlr_python_runtime-3.1.3.tar.gz#egg=antlr_python_runtime-3.1.3
 https://github.com/mromanello/treetagger-python/archive/master.zip#egg=treetagger-1.0.1
 langid
 docopt

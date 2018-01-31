@@ -40,8 +40,10 @@ from citation_extractor.core import *
 from citation_extractor.crfpp_wrap import CRF_classifier
 from citation_extractor.Utils import IO
 from citation_extractor.Utils.IO import read_ann_file, read_ann_file_new, init_logger, NIL_ENTITY
-from miguno.partitioner import *
-from miguno.crossvalidationdataconstructor import *
+# TODO: in the long run, remove `SimpleEvaluator` and `CrossEvaluator`
+#   and generally the `miguno` library as a dependency (use `sklearn` instead) 
+#from miguno.partitioner import *
+#from miguno.crossvalidationdataconstructor import *
 import pprint
 
 global logger
@@ -54,16 +56,16 @@ class SimpleEvaluator(object):
     >>> se = SimpleEvaluator([extractor_1,],iob_file="data/75-02637.iob") #doctest: +SKIP
     >>> se = SimpleEvaluator([extractor_1,],["/Users/56k/phd/code/APh/corpus/by_collection/C2/",]) #doctest: +SKIP
     >>> print se.eval() #doctest: +SKIP
-    
+
     TODO: there should be a test also for IOB files w/ POS tag column
-    
+
     """
     def __init__(self,extractors,iob_directories=[],iob_file=None,label_index=-1):
         """
         Args:
             extractors:
                 the list of canonical citation extractors to evaluate
-            iob_test_file: 
+            iob_test_file:
                 the file in IOB format to be used for testing and evaluating the extactors
         """
         # read the test instances from a list of directories containing the test data
@@ -83,11 +85,11 @@ class SimpleEvaluator(object):
         self.error_matrix = None
         self.label_index = label_index
         return
-    
+
     def eval(self):
         """
         Run the evaluator.
-        
+
         Returns:
             TODO
         """
@@ -118,15 +120,15 @@ class SimpleEvaluator(object):
             by_tag_results = self.calc_stats_by_tag(by_tag_results)
             extractor_results[extractor_name] = results
         return extractor_results
-    
+
     @staticmethod
     def write_result(l_tagged_instances,l_test_instances,label_index=1):
         """
-        
+
         """
         temp = [[(l_test_instances[n][i][0],l_test_instances[n][i][label_index],l_tagged_instances[n][i][label_index]) for i,token in enumerate(instance)] for n,instance in enumerate(l_test_instances)]
         return temp
-    
+
     @staticmethod
     def print_stats(d_results):
         """
@@ -137,45 +139,45 @@ class SimpleEvaluator(object):
             print "%10s\t%10s\t%10s\t%5s\t%5s\t%5s\t%5s"%("f-score","precision","recall","tp","fp","tn","fn")
             print "%10f\t%10f\t%10f\t%5i\t%5i\t%5i\t%5i\n"%(d_results[item]["f-sc"],d_results[item]["prec"],d_results[item]["rec"],d_results[item]["true_pos"],d_results[item]["false_pos"],d_results[item]["true_neg"],d_results[item]["false_neg"],)
         return
-    
+
     @staticmethod
     def read_instances(directories):
         result = []
         for d in directories:
             result += IO.read_iob_files(d)
         return result
-    
+
     @staticmethod
     def evaluate(l_tagged_instances,l_test_instances,negative_BIO_tag = u'O',label_index=-1):
         """
         Evaluates a list of tagged instances against a list of test instances (gold standard):
-        
-        >>> tagged = [[('cf.','O'),('Hom','O'),('Il.','B-REFAUWORK'),('1.1','I-REFAUWORK'),(';','I-REFAUWORK')]] 
-        >>> test = [[('cf.','O'),('Hom','B-REFAUWORK'),('Il.','I-REFAUWORK'),('1.1','B-REFSCOPE'),(';','O')]] 
-        >>> res = SimpleEvaluator.evaluate(tagged,test) 
-        >>> print res[0] 
+
+        >>> tagged = [[('cf.','O'),('Hom','O'),('Il.','B-REFAUWORK'),('1.1','I-REFAUWORK'),(';','I-REFAUWORK')]]
+        >>> test = [[('cf.','O'),('Hom','B-REFAUWORK'),('Il.','I-REFAUWORK'),('1.1','B-REFSCOPE'),(';','O')]]
+        >>> res = SimpleEvaluator.evaluate(tagged,test)
+        >>> print res[0]
         {'false_pos': 3, 'true_pos': 1, 'true_neg': 1, 'false_neg': 1}
-        
-        
+
+
         And with tokens having POS information
-        >>> tagged = [[('cf.','N/A','O'),('Hom','N/A','O'),('Il.','N/A','B-REFAUWORK'),('1.1','N/A','I-REFAUWORK'),(';','N/A','I-REFAUWORK')]] 
+        >>> tagged = [[('cf.','N/A','O'),('Hom','N/A','O'),('Il.','N/A','B-REFAUWORK'),('1.1','N/A','I-REFAUWORK'),(';','N/A','I-REFAUWORK')]]
         >>> test = [[('cf.','N/A','O'),('Hom','N/A','B-REFAUWORK'),('Il.','N/A','I-REFAUWORK'),('1.1','N/A','B-REFSCOPE'),(';','N/A','O')]]
-        >>> print SimpleEvaluator.evaluate(tagged,test,label_index=2)[0] 
+        >>> print SimpleEvaluator.evaluate(tagged,test,label_index=2)[0]
         {'false_pos': 3, 'true_pos': 1, 'true_neg': 1, 'false_neg': 1}
-        
+
         Args:
             l_tagged_instances:
                 A list of instances. Each instance is a list of tokens, the tokens being tuples.
                 Each tuple has the token (i=0) and the assigned label (i=1).
-                
+
             l_test_instances:
-            
+
             pos_index:
                 An integer: when set to -1 indicates that there is no POS "column" in the data. Otherwise provides the tuple index
                 of the POS tag.
-            
+
         Returns:
-            A dictionary: 
+            A dictionary:
             {
                 "true_pos": <int>
                 ,"false_pos": <int>
@@ -184,18 +186,18 @@ class SimpleEvaluator(object):
             }
         """
         # TODO: check same lenght and identity of tokens
-        
+
         import logging
         l_logger = logging.getLogger('CREX.EVAL')
-        
+
         fp = tp = fn = tn = token_counter = 0
         errors_by_tag = {}
-        
+
         labels = ['O','B-AAUTHOR','I-AAUTHOR','B-AWORK','I-AWORK','B-REFAUWORK','I-REFAUWORK','B-REFSCOPE','I-REFSCOPE']
         import numpy
         error_matrix = numpy.zeros((len(labels),len(labels)),dtype=numpy.int)
         error_details = {}
-        
+
         for n,inst in enumerate(l_tagged_instances):
             tag_inst = l_tagged_instances[n]
             gold_inst = l_test_instances[n]
@@ -206,7 +208,7 @@ class SimpleEvaluator(object):
                 tagged_token = tok[0]
                 l_logger.debug("Gold token: %s"%gold_token)
                 l_logger.debug("Tagged token: %s"%tagged_token)
-                
+
                 if(label_index != -1):
                     gold_label = gold_inst[n][label_index]
                     tagged_label = tok[label_index]
@@ -215,15 +217,15 @@ class SimpleEvaluator(object):
                     tagged_label = tok[1]
                 l_logger.debug("Gold label: %s"%gold_label)
                 l_logger.debug("Tagged label: %s"%tagged_label)
-                    
-                
+
+
                 if(not errors_by_tag.has_key(gold_label)):
                     errors_by_tag[gold_label] = {"true_pos": 0
                             ,"false_pos": 0
                             ,"true_neg": 0
                             ,"false_neg": 0
                             }
-                            
+
                 error_matrix[labels.index(gold_label)][labels.index(tagged_label)] += 1
                 error = "%s => %s"%(gold_label, tagged_label)
                 if(gold_label != tagged_label):
@@ -232,7 +234,7 @@ class SimpleEvaluator(object):
                     else:
                         error_details[error] = []
                         error_details[error].append(gold_token)
-                
+
                 if(gold_label != negative_BIO_tag):
                     l_logger.debug("Label \"%s\" for token \"%s\" is not negative"%(gold_label,gold_token))
                     if(tagged_label == gold_label):
@@ -249,7 +251,7 @@ class SimpleEvaluator(object):
                             errors_by_tag[gold_label]["false_pos"] += p_fp
                             l_logger.info("[%s] \"%s\"=> tagged: %s / gold: %s"%("FP",tagged_token, tagged_label, gold_label))
                 elif(gold_label == negative_BIO_tag):
-                    l_logger.debug("Label \"%s\" for token \"%s\" is negative"%(gold_label,gold_token)) 
+                    l_logger.debug("Label \"%s\" for token \"%s\" is negative"%(gold_label,gold_token))
                     if(tagged_label == gold_label):
                         p_tn += 1
                         errors_by_tag[gold_label]["true_pos"] += 1
@@ -282,20 +284,20 @@ class SimpleEvaluator(object):
         #SimpleEvaluator.render_error_matrix(error_matrix,labels)
         #print pprint.pprint(error_details)
         return result
-    
+
     @staticmethod
     def render_error_matrix(matrix, labels):
         """
         TODO:
-        
+
         Prints the error matrix
-        
+
         """
         print '                        %11s'%" ".join(labels)
         for row_label, row in zip(labels, matrix):
             print '%11s [%s]' % (row_label, ' '.join('%09s' % i for i in row))
         return
-    
+
     @staticmethod
     def calc_stats_by_tag(d_by_tag_errors):
         for tag in d_by_tag_errors:
@@ -303,16 +305,16 @@ class SimpleEvaluator(object):
             d_by_tag_errors[tag]["rec"] = SimpleEvaluator.calc_recall(d_by_tag_errors[tag])
             d_by_tag_errors[tag]["f-sc"] = SimpleEvaluator.calc_fscore(d_by_tag_errors[tag])
         return d_by_tag_errors
-    
+
     @staticmethod
     def calc_stats_by_entity(d_by_tag_errors):
         """
         Aggregates results by entity (B-X and I-X are aggregated together.)
-        
+
         Args:
             d_by_tag_errors:
                 a dictionary containing error details by tag
-                
+
         Example:
             >>> import core #doctest: +SKIP
             >>> from core import citation_extractor #doctest: +SKIP
@@ -322,8 +324,8 @@ class SimpleEvaluator(object):
             >>> se = SimpleEvaluator([extractor_1,],["/Users/56k/phd/code/APh/experiments/C2/",]) #doctest: +SKIP
             >>> res = se.eval() #doctest: +SKIP
             >>> by_entity = se.calc_stats_by_entity(res[str(extractor_1)][1]) #doctest: +SKIP
-            
-            
+
+
         """
         overall_errors = d_by_tag_errors
         stats_by_entity = {}
@@ -346,7 +348,7 @@ class SimpleEvaluator(object):
                             "true_neg":0,
                             "false_pos":0,
                             "false_neg":0,
-                        }   
+                        }
                     stats_by_entity[aggreg_tag]['false_pos'] += overall_errors[tag]['false_pos']
                     stats_by_entity[aggreg_tag]['true_pos'] += overall_errors[tag]['true_pos']
                     stats_by_entity[aggreg_tag]['true_neg'] += overall_errors[tag]['true_neg']
@@ -356,8 +358,8 @@ class SimpleEvaluator(object):
                 stats_by_entity[aggreg_tag]['rec'] = SimpleEvaluator.calc_recall(stats_by_entity[aggreg_tag])
                 stats_by_entity[aggreg_tag]['f-sc'] = SimpleEvaluator.calc_fscore(stats_by_entity[aggreg_tag])
         return stats_by_entity
-    
-    @staticmethod       
+
+    @staticmethod
     def calc_precision(d_errors):
         """
         Calculates the precision given the input error dictionary.
@@ -366,7 +368,7 @@ class SimpleEvaluator(object):
             return 0
         else:
             return d_errors["true_pos"] / float(d_errors["true_pos"] + d_errors["false_pos"])
-    
+
     @staticmethod
     def calc_recall(d_errors):
         """
@@ -376,7 +378,7 @@ class SimpleEvaluator(object):
             return 0
         else:
             return d_errors["true_pos"] / float(d_errors["true_pos"] + d_errors["false_neg"])
-    
+
     @staticmethod
     def calc_accuracy(d_errors):
         """
@@ -384,7 +386,7 @@ class SimpleEvaluator(object):
         """
         acc = (d_errors["true_pos"] + d_errors["true_neg"]) / float(d_errors["true_pos"] + d_errors["false_pos"] + d_errors["true_neg"] + d_errors["false_neg"])
         return acc
-    
+
     @staticmethod
     def calc_fscore(d_errors):
         """
@@ -426,7 +428,7 @@ class CrossEvaluator(SimpleEvaluator): # TODO: remove
         self.logger.info("Evaluation type: %i-fold cross evaluations"%self.fold_number)
         self.logger.info("Training/Test set contains %i instances."%len(self.test_instances))
         self.create_datasets()
-    
+
     def create_datasets(self):
         """
         TODO
@@ -445,10 +447,10 @@ class CrossEvaluator(SimpleEvaluator): # TODO: remove
         self.logger.info("%i Total instances"%(len(positives)+len(negatives)))
         self.dataSets_iterator = CrossValidationDataConstructor(positives, negatives, numPartitions=self.fold_number, randomize=False).getDataSets()
         pass
-    
+
     def run(self):
         """
-        TODO        
+        TODO
         """
         iterations = []
         results = {}
@@ -465,7 +467,7 @@ class CrossEvaluator(SimpleEvaluator): # TODO: remove
                     else:
                         test_set+=group
             iterations.append((train_set,test_set))
-        
+
         # let's go through all the iterations
         for i,iter in enumerate(iterations):
             results["iter-%i"%(i+1)] = {}
@@ -509,28 +511,28 @@ class CrossEvaluator(SimpleEvaluator): # TODO: remove
                     results["iter-%i"%(i+1)][extractor_name] = se.eval()[extractor_name][0]
                     results_by_entity["iter-%i"%(i+1)][extractor_name] = SimpleEvaluator.calc_stats_by_entity(se.eval()[extractor_name][1])
                     #self.logger.info(results_by_entity["iter-%i"%(i+1)][extractor_name])
-        return results,results_by_entity    
+        return results,results_by_entity
 
 def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
     """
-    Evaluate the Named Entity Disambigutation taking in input the goldset data, the 
+    Evaluate the Named Entity Disambigutation taking in input the goldset data, the
     goldset directory and a target directory contaning files in the brat stand-off annotation format.
 
-    The F1 score is computed over the macro-averaged precision and recall. 
+    The F1 score is computed over the macro-averaged precision and recall.
     self.
 
     :param goldset_data: a `pandas.DataFrame` with the goldset data read via `citation_extractor.Utils.IO.load_brat_data`
-    
+
     :param gold_directory: the path to the gold set
-    
+
     :param target: a `pandas.DataFrame` with the target data read via `citation_extractor.Utils.IO.load_brat_data`
 
     :param strict: whether to consider consecutive references to the same ancient work only once (i.e. `scope`
         relations with identical arg1).
-    
-    :return: a tuple where [0] is a dictionary with keys "precision", "recall", "fscore"; 
-            [1] is a list of dictionaries (keys "true_pos", "true_neg", "false_pos" and "false_neg"), one for each document; 
-            [2] is a dictionary containing the actual URNs (gold and predicted) grouped by error types 
+
+    :return: a tuple where [0] is a dictionary with keys "precision", "recall", "fscore";
+            [1] is a list of dictionaries (keys "true_pos", "true_neg", "false_pos" and "false_neg"), one for each document;
+            [2] is a dictionary containing the actual URNs (gold and predicted) grouped by error types
             or None if the evaluation is aborted.
 
     """
@@ -541,11 +543,11 @@ def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
     aggregated_results = {"true_pos":0, "true_neg":0, "false_pos":0, "false_neg":0}
     results_by_entity_type = {}
     scores = {}
-    
+
     # check that number/names of .ann files is the same
     doc_ids_gold = list(set(goldset_data["doc_id"]))
     docs_ids_target = list(set(target_data["doc_id"]))
-    
+
     try:
         assert sorted(doc_ids_gold)==sorted(docs_ids_target)
     except AssertionError as e:
@@ -557,16 +559,16 @@ def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
     for doc_id in doc_ids_gold:
 
         # create a dictionary like {"T1":"urn:cts:greekLit:tlg0012", }
-        gold_disambiguations = {id.split('-')[2]: row["urn_clean"] 
+        gold_disambiguations = {id.split('-')[2]: row["urn_clean"]
                                     for id, row in goldset_data[goldset_data["doc_id"]==doc_id].iterrows()}
-       
+
         # pass on all relations data
-        gold_entities, gold_relations = read_ann_file_new("%s.txt" % doc_id, os.path.join(gold_directory, ""))[:2] 
-       
+        gold_entities, gold_relations = read_ann_file_new("%s.txt" % doc_id, os.path.join(gold_directory, ""))[:2]
+
         # create a dictionary like {"T1":"urn:cts:greekLit:tlg0012", }
-        target_disambiguations = {id.split('-')[2]: row["urn_clean"] 
+        target_disambiguations = {id.split('-')[2]: row["urn_clean"]
                                     for id, row in target_data[target_data["doc_id"]==doc_id].iterrows()}
-        
+
         # process each invidual file
         file_result, file_errors, result_by_entity_type = _evaluate_ned_file(doc_id
                                                     , gold_disambiguations
@@ -574,7 +576,7 @@ def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
                                                     , gold_relations
                                                     , target_disambiguations
                                                     , strict)
-        
+
 
         # add error details
         for error_type in file_errors:
@@ -586,7 +588,7 @@ def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
                 results_by_entity_type[entity_type] = {}
 
             for error_type in result_by_entity_type[entity_type]:
-                
+
                 if not error_type in results_by_entity_type[entity_type]:
                     results_by_entity_type[entity_type] = {"true":0, "false":0}
 
@@ -597,7 +599,7 @@ def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
         # used to computed the macro-averaged precision and recall
         NIL_entities = [urn for urn in gold_disambiguations.values() if urn == NIL_ENTITY]
         non_NIL_entities = [urn for urn in gold_disambiguations.values() if urn != NIL_ENTITY]
-        
+
         if len(non_NIL_entities)>0:
             disambig_results.append(file_result)
         elif len(non_NIL_entities)==0:
@@ -627,9 +629,9 @@ def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
                                                                 , aggregated_results["true_neg"]
                                                                 , aggregated_results["false_neg"]
                                                                 , aggregated_results["false_pos"]
-                                                                ))   
+                                                                ))
     assert sum([results_by_entity_type[ent_type][err_type]
-                for ent_type in results_by_entity_type 
+                for ent_type in results_by_entity_type
                 for err_type in results_by_entity_type[ent_type]]) == sum(aggregated_results.values())
 
     logger.info("Precision and recall averaged over %i documents (documents with NIL-entities only are excluded)" % len(precisions))
@@ -651,7 +653,7 @@ def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
 
 def _evaluate_ned_file(docid, gold_disambiguations, gold_entities, gold_relations, target_disambiguations, strict=False):
     """
-    Evaluates NED of a single file. 
+    Evaluates NED of a single file.
 
     """
     # TODO expect data in this format
@@ -670,7 +672,7 @@ def _evaluate_ned_file(docid, gold_disambiguations, gold_entities, gold_relation
     for disambiguation_id in gold_disambiguations:
 
         is_relation_disambiguation = True if disambiguation_id.startswith('R') else False
-        
+
         try:
             gold_disambiguation = gold_disambiguations[disambiguation_id]
             gold_urn = CTS_URN(gold_disambiguation.strip()).get_urn_without_passage()
@@ -718,7 +720,7 @@ def _evaluate_ned_file(docid, gold_disambiguations, gold_entities, gold_relation
                     error_type = "true_pos"
                 else:
                     error_type = "false_pos"
-        
+
         if gold_urn != NIL_ENTITY:
             entity_type = gold_entities[disambiguation_id]["entity_type"] if not is_relation_disambiguation else "scope-%s" % gold_entities[arg1_entity_id]["entity_type"]
         else:
