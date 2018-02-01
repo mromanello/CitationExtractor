@@ -627,7 +627,7 @@ class MLCitationMatcher(object):
                                                        m_doc_text=doc_text,
                                                        m_other_mentions=other_mentions,
                                                        candidates=candidate), candidates)
-                feature_vectors = pool.map(self._feature_extractor.extract_unpack_kwargs, arguments)
+                feature_vectors = pool.map(self._feature_extractor.extract_unpack, arguments)
             else:
                 feature_vectors = map(lambda candidate: self._feature_extractor.extract(m_surface=surface,
                                                                                         m_scope=scope,
