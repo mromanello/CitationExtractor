@@ -131,6 +131,7 @@ def test_do_relex_rulebased(processing_directories):
         assert success
 
 
+@pytest.mark.skip
 def test_do_ned_fuzzymatching(processing_directories, citation_matcher):
     """
     Test the Named Entity Disambiguation step of the pipeline (baseline).

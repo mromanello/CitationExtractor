@@ -2,12 +2,9 @@
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
 import pytest
-import pprint
 import logging
 import pickle
 
-# logging.basicConfig(level=logging.DEBUG)
-logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 @pytest.mark.skip
@@ -26,19 +23,3 @@ def test_pickle_citation_matcher(citation_matcher):
 	"""
 	pickled_citation_matcher = pickle.dumps(cm)
 	unpickled_citation_matcher = pickle.loads(pickled_citation_matcher)
-
-# def test_dummy(knowledge_base):
-#     """
-#     Dummy test..
-#     """
-#     ml_cm = MLCitationMatcher()
-#     ml_cm.disambiguate('Hello', '1.2.3')
-
-"""
-Tests to write:
-
-- test methods of the CitationMatcher with old KB (matches_author, matches_work, disambiguate)
-- test methods of the CitationMatcher with new KB (matches_author, matches_work, disambiguate)
-
-
-"""
