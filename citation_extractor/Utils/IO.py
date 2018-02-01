@@ -464,8 +464,8 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
 
             prev_entities = []
             for mention_id in ordered_mentions:
-
-                mention_data_id = file_id + '-' + mention_id
+                # Note: added utf-8 encoding after new error 
+                mention_data_id = file_id + '-' + mention_id.encode('utf-8')
                 mention_urn = NIL_ENTITY
                 clean_urn = mention_urn
                 mention_surface = None

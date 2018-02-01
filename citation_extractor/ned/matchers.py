@@ -6,14 +6,14 @@
 from __future__ import print_function
 import re
 import sys
+import pdb
 import logging
 import multiprocessing
 from operator import itemgetter
 from collections import namedtuple
 from nltk.metrics import edit_distance
 from pyCTS import CTS_URN
-from pysuffix import suffixIndexers
-from pysuffix.suffixIndexers import DictValuesIndexer
+from citation_extractor.extra.pysuffix.suffixIndexers import DictValuesIndexer
 from citation_parser import CitationParser
 from citation_extractor.pipeline import NIL_URN
 from citation_extractor.Utils.strmatching import *
@@ -208,8 +208,6 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
 
             if match is None or not zero_distance_match:
                 match = self.matches_author(citation_string, self.fuzzy_match_relations, self.distance_relations)
-
-            """
             if match is not None:
                 #match = [(id,name,diff) for id, name, diff in match if diff == 0][:n_guess] # this has to be removed
                 pass
@@ -224,6 +222,45 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
         elif (len(citation_string.split(" ")) == 2):
             tok1, tok2 = citation_string.split(" ")
 
+            # case 2: tok1 and tok2 are author
+            match = self.matches_author(citation_string, self.fuzzy_match_relations, self.distance_relations)
+
+            if match is not None:
+                if(len(match) <= n_guess):
+                    match = match[:n_guess]
+                else:
+                    match = select_lcs_match(citation_string, match, n_guess)
+
+                for urn_string, label, score in match:
+                    result = self._consolidate_result(
+                        urn_string,
+                        citation_string,
+                        entity_type,
+                        scope
+                    )
+                    return result
+            else:
+                # case 3: tok1 and tok2 are work
+                match = self.matches_work(
+                    citation_string,
+                    self.fuzzy_match_relations,
+                    self.distance_relations
+                )
+                if match is not None:
+                    if(len(match) <= n_guess):
+                        match = match[:n_guess]
+                    else:
+                        match = select_lcs_match(citation_string, match, n_guess)
+
+                    for urn_string, label, score in match:
+                        result = self._consolidate_result(
+                            urn_string,
+                            citation_string,
+                            entity_type,
+                            scope
+                        )
+                        return result
+
             # case 1: tok1 is author and tok2 is work
             match_tok1 = self.matches_author(tok1, self.fuzzy_match_relations, self.distance_relations)
             match_tok2 = self.matches_work(tok2, self.fuzzy_match_relations, self.distance_relations)
@@ -232,7 +269,9 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
 
                 for id1, label1, score1 in match_tok1:
                     for id2, label2, score2 in match_tok2:
-                        if id1 in id2:
+                        work = self._kb.get_resource_by_urn(id2)
+
+                        if id1 == str(work.author.get_urn()):
                             match = [(id2, label2, score2)]
                             return Result(citation_string, entity_type, scope, CTS_URN(id2))
             else:
@@ -247,9 +286,10 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
         elif (len(citation_string.split(" ")) > 2):
 
             match = self.matches_author(citation_string, self.fuzzy_match_relations, self.distance_relations)
-
         else:
-            logger.error("This case is not handled properly: %s" % citation_string)
+            logger.error("This case is not handled properly: {}".format(
+                citation_string
+            ))
             raise
 
         # return only n_guess results

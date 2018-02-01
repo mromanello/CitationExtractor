@@ -1,3 +1,5 @@
+"""Config for Pypi."""
+
 import os
 from setuptools import setup, find_packages
 import citation_extractor
@@ -9,23 +11,37 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 
-setup(name='citation_extractor'
-	,author='Matteo Romanello'
-	,author_email='matteo.romanello@gmail.com'
-	,url='http://github.com/mromanello/CitationExtractor/'
-    ,version=VERSION
-    ,packages=find_packages()
-    ,package_data={'citation_extractor': ['data/*.*'
-                                          ,'data/aph_corpus/goldset/ann/*.*'
-                                          ,'data/aph_corpus/goldset/iob/*.*']}
-    ,long_description=read('README.md')
-    #,install_requires=[
-    #    'citation-extractor-dependencies'
-    #    ,'guess_language'
-    #    ,'mecab-python'
-    #    ,'nltk'
-    #    ,'scikit-learn'
-    #    ,'treetagger'
-    #    ,'pandas'
-    #    ]
+setup(
+    name='citation_extractor',
+    author='Matteo Romanello',
+    author_email='matteo.romanello@gmail.com',
+    url='http://github.com/mromanello/CitationExtractor/',
+    version=VERSION,
+    dependency_links=[
+        'http://www.antlr3.org/download/Python/antlr_python_runtime-3.1.3.tar.gz',
+        'https://github.com/mromanello/treetagger-python/tarball/master#egg=treetagger-1.0.1'
+    ],
+    packages=find_packages(),
+    package_data={
+        'citation_extractor': [
+            'data/*.*',
+            'crfpp_templates/*.*',
+            'data/aph_corpus/goldset/ann/*.*',
+            'data/aph_corpus/goldset/iob/*.*'
+        ]
+    },
+    long_description=read('README.md'),
+    install_requires=[
+        'hucitlib',
+        'langid',
+        'docopt',
+        'pandas',
+        'scipy',
+        'treetagger',
+        'citation_parser>=0.4.1',
+        'sklearn-crfsuite',
+        'jellyfish>=0.5.6',
+        'stop_words>=2015.2.23.1',
+        'scikit-learn>=0.16.1'
+    ]
 )

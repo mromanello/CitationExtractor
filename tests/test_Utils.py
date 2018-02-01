@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# author: Matteo Romanello, matteo.romanello@gmail.com
-
 """Tests for the module `citation_extractor.Utils`."""
 
 import pytest
@@ -36,51 +33,24 @@ def test_annotations2references(knowledge_base):
     return
 
 
-#@pytest.mark.skip
-def test_load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles):
+def test_load_brat_data(
+    crfsuite_citation_extractor,
+    knowledge_base, postaggers,
+    aph_test_ann_files,
+    aph_titles
+):
+    assert crfsuite_citation_extractor is not None
     # load the pandas.DataFrame
     dataframe = load_brat_data(
-        crf_citation_extractor,
+        crfsuite_citation_extractor,
         knowledge_base,
         postaggers,
         aph_test_ann_files,
         aph_titles
     )
-    pickle_filename = pkg_resources.resource_filename("citation_extractor", "data/pickles/aph_data.pkl")
-    dataframe.to_pickle(pickle_filename)
-    logger.info("Dataframe pickled to %s" % pickle_filename)
-    assert dataframe is not None and type(dataframe)==type(pd.DataFrame()) and dataframe.shape[0]>0
-    return
-
-
-def test_load_brat_data_withcontext(
-    crf_citation_extractor,
-    knowledge_base,
-    postaggers,
-    aph_test_ann_files,
-    aph_titles
-):
-    """
-    Same as above, but a context window for the current entity/relation.
-    """
-    # load the pandas.DataFrame
-    dataframe = load_brat_data(
-        crf_citation_extractor,
-        knowledge_base, postaggers,
-        aph_test_ann_files,
-        aph_titles,
-        context_window=(1, 1)
-    )
-
-    pickle_filename = pkg_resources.resource_filename(
-        "citation_extractor",
-        "data/pickles/aph_data.pkl"
-    )
-    dataframe.to_pickle(pickle_filename)
-    logger.info("Dataframe pickled to %s" % pickle_filename)
-    assert dataframe is not None and isinstance(dataframe, pd.DataFrame)\
-        and dataframe.shape[0] > 0
-    return
+    assert dataframe is not None
+    assert isinstance(dataframe, pd.DataFrame)
+    assert dataframe.shape[0] > 0
 
 #####################
 # Utils.strmatching #
@@ -88,14 +58,26 @@ def test_load_brat_data_withcontext(
 
 
 def test_utils_stringutils():
-
     strings = [
-        ("de", u"Wie seine Vorgänger verfolgt auch Ammianus die didaktische Absicht,")
-        , ("en", u"Judgement of Paris, with actors playing the bribing goddesses, at the end of Book 10 (11, 3-5 : cf. 10, 30-31).")
-        , ("it", u"Superior e databili tra l'età augustea e il 5° sec. : AE 1952, 16 ; CIL 13, 8648 = ILS 2244 ; AE 1938, 120 ;")
+        (
+            "de",
+            u"Wie seine Vorgänger verfolgt auch\
+            Ammianus die didaktische Absicht,"
+        ),
+        (
+            "en",
+            u"Judgement of Paris, with actors playing the bribing goddesses,\
+            at the end of Book 10 (11, 3-5 : cf. 10, 30-31)."
+        ),
+        (
+            "it",
+            u"Superior e databili tra l'età augustea e il 5° sec. : AE 1952,\
+            16 ; CIL 13, 8648 = ILS 2244 ; AE 1938, 120 ;"
+        )
     ]
 
     for language, text in strings:
         normalized_text = StringUtils.normalize(text)
         normalized_text = StringUtils.normalize(text, language)
         normalized_text = StringUtils.normalize(text, language, keep_dots=True)
+        assert normalized_text is not None

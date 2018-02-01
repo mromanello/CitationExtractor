@@ -1,7 +1,7 @@
+"""Machine learning code related to the NED step."""
+
 # -*- coding: utf-8 -*-
 # author: Matteo Filipponi
-
-"""Machine learning code related to the NED step."""
 
 from __future__ import print_function
 import logging
