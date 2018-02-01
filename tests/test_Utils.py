@@ -1,4 +1,6 @@
 """Tests for the module `citation_extractor.Utils`."""
+# -*- coding: utf-8 -*-
+# author: Matteo Romanello, matteo.romanello@gmail.com
 
 import pytest
 import pkg_resources
