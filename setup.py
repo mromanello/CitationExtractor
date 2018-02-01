@@ -25,6 +25,7 @@ setup(
     package_data={
         'citation_extractor': [
             'data/*.*',
+            'crfpp_templates/*.*',
             'data/aph_corpus/goldset/ann/*.*',
             'data/aph_corpus/goldset/iob/*.*'
         ]
