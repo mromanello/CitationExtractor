@@ -1,16 +1,14 @@
+"""Tests for the module `citation_extractor.ned`."""
+
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
-"""Tests for the module `citation_extractor.ned.matchers`."""
-
-import pdb
+import ipdb as pdb
 import pytest
 import logging
 import pickle
-import pandas as pd
 from citation_extractor.pipeline import NIL_URN
-from citation_extractor.Utils.IO import load_brat_data
-from citation_extractor.ned.features import FeatureExtractor
+from citation_extractor.ned.candidates import CandidatesGenerator
 from citation_extractor.ned.ml import LinearSVMRank
 import random
 
@@ -37,117 +35,10 @@ def test_pickle_citation_matcher(citation_matcher):
     unpickled_citation_matcher = pickle.loads(pickled_citation_matcher)
 
 
-# When finished testing, transform into a fixture
-# and move to conftest.py
-def test_instantiate_featureextractor(
-        knowledge_base,
-        aph_gold_ann_files,
-        crf_citation_extractor,
-        postaggers,
-        aph_titles,
-        aph_testset_dataframe
-):
-    """Create an instance of MLCitationMatcher."""
-    train_df_data = load_brat_data(  # TODO create a fixture out of thi  s
-        crf_citation_extractor,
-        knowledge_base,
-        postaggers,
-        aph_gold_ann_files,
-        aph_titles
-    )
+def test_extract_features(feature_extractor_quick, aph_testset_dataframe):
+    fe = feature_extractor_quick
+    test_df_data = aph_testset_dataframe
 
-    # initialise a FeatureExtractor
-    fe = FeatureExtractor(knowledge_base, train_df_data)
-    logger.info(fe)
-
-    for id_row, row in aph_testset_dataframe.iterrows():
-        # NB: should be called on the candidates!
-        if row["urn"] != NIL_URN:
-            fv = fe.extract(
-                row["surface_norm"],
-                row["scope"],
-                row["type"],
-                row["doc_title_mentions"],
-                row["doc_title_norm"],
-                row["doc_text"],
-                row["other_mentions"],
-                row["urn_clean"]
-            )
-            # TODO: call `fe.extract_nil`
-            logger.debug(fv)
-        else:
-            logger.debug("Skipped {}".format(row))
-
-    aph_testset_dataframe.to_pickle(
-        'citation_extractor/data/pickles/aph_test_df.pkl'
-    )
-
-    # pickle probability dataframes
-    fe._prior_prob.to_pickle('citation_extractor/data/pickles/prior_prob.pkl')
-    fe._em_prob.to_pickle('citation_extractor/data/pickles/em_prob.pkl')
-    fe._me_prob.to_pickle('citation_extractor/data/pickles/me_prob.pkl')
-
-    # serialize normalized authors
-    with open(
-        'citation_extractor/data/pickles/kb_norm_authors.pkl',
-        'wb'
-    ) as f:
-        pickle.dump(fe._kb_norm_authors, f)
-
-    # serialize normalized works
-    with open(
-        'citation_extractor/data/pickles/kb_norm_works.pkl',
-        'wb'
-    ) as f:
-        pickle.dump(fe._kb_norm_works, f)
-
-    # serialize the FeatureExtractor
-    with open(
-        'citation_extractor/data/pickles/ml_feature_extractor.pkl',
-        'wb'
-    ) as f:
-        pickle.dump(fe, f)
-
-
-def test_instantiate_featureextractor_quick():
-    """Instantiate an instance of FeatureExtractor from pickled data."""
-    prior_prob = pd.read_pickle(
-        'citation_extractor/data/pickles/prior_prob.pkl'
-    )
-
-    em_prob = pd.read_pickle(
-        'citation_extractor/data/pickles/em_prob.pkl'
-    )
-
-    me_prob = pd.read_pickle(
-        'citation_extractor/data/pickles/me_prob.pkl'
-    )
-
-    fname = 'citation_extractor/data/pickles/kb_norm_authors.pkl'
-    with open(fname, 'rb') as f:
-        kb_norm_authors = pickle.load(f)
-
-    with open('citation_extractor/data/pickles/kb_norm_works.pkl', 'rb') as f:
-        kb_norm_works = pickle.load(f)
-
-    fe = FeatureExtractor(
-        kb_norm_authors=kb_norm_authors,
-        kb_norm_works=kb_norm_works,
-        prior_prob=prior_prob,
-        mention_entity_prob=me_prob,
-        entity_mention_prob=em_prob
-    )
-
-    logger.info(fe)
-
-    assert fe is not None
-    assert fe._prior_prob is not None
-    assert fe._em_prob is not None
-    assert fe._me_prob is not None
-
-    test_df_data = pd.read_pickle(
-        'citation_extractor/data/pickles/aph_test_df.pkl'
-    )
     logger.debug(test_df_data.info())
 
     for id_row, row in test_df_data.iterrows():
@@ -168,6 +59,38 @@ def test_instantiate_featureextractor_quick():
         else:
             logger.debug("Skipped {}".format(row))
 
+
+def test_candidate_generator(
+    feature_extractor_quick,
+    knowledge_base,
+    aph_testset_dataframe
+):
+
+    fe = feature_extractor_quick
+    _kb_norm_authors = fe._kb_norm_authors
+    _kb_norm_works = fe._kb_norm_works
+
+    cg = CandidatesGenerator(
+        knowledge_base,
+        kb_norm_authors=_kb_norm_authors,
+        kb_norm_works=_kb_norm_works
+    )
+
+    for mention_id, row in aph_testset_dataframe.iterrows():
+
+        surface = row['surface_norm_dots']
+        scope = row['scope']
+        entity_type = row['type']
+
+        candidates = cg.generate_candidates(surface, entity_type, scope)
+        logger.info(
+            'Generated {} candidates for {}'.format(
+                len(candidates),
+                mention_id
+            )
+        )
+
+# TODO: test `CandidateGenerator.generate_candidates_parallel()`
 
 def test_svm_rank():
     lowb, upperb, shift = 0, 1, 1

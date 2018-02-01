@@ -25,7 +25,8 @@ class CandidatesGenerator(object):
         self,
         kb,
         mention_surface_is_normalized=True,
-        fuzzy_threshold=0.7
+        fuzzy_threshold=0.7,
+        **kwargs
     ):
         """Initialize an instance of CandidatesGenerator.
 
@@ -39,9 +40,12 @@ class CandidatesGenerator(object):
         :type fuzzy_threshold: float
         """
 
-        # TODO: compute kb norm authors/works (get Dataframe schema)
-        self._kb_norm_authors = None
-        self._kb_norm_works = None
+        if 'kb_norm_authors' in kwargs and 'kb_norm_works' in kwargs:
+            self._kb_norm_authors = kwargs['kb_norm_authors']
+            self._kb_norm_works = kwargs['kb_norm_works']
+        else:
+            # TODO: make static the normalization methods of FeatureExtractor
+            raise Exception
 
         self._surf_is_norm = mention_surface_is_normalized
         self._fuzzy_threshold = fuzzy_threshold
@@ -63,6 +67,7 @@ class CandidatesGenerator(object):
         then the URNs of the two entities will be both present in the set
         mapped by that abbreviation key.
         """
+        LOGGER.info("Starting to build name/abbreviation indexes...")
 
         # Helper function: update a dataframe entry set with a new value
         def update_df_list(df, row, col, value):
@@ -122,6 +127,8 @@ class CandidatesGenerator(object):
         self._authors_dict_abbr = authors_dict_abbr
         self._works_dict_names = works_dict_names
         self._works_dict_abbr = works_dict_abbr
+
+        LOGGER.info("Done with creating name/abbreviation indexes.")
 
     def generate_candidates(self, mention_surface, mention_type, mention_scope):
         """Generate a set of entity candidates for a given mention.

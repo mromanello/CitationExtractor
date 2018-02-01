@@ -1,8 +1,9 @@
+"""py.test config file."""
+
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
-"""TODO."""
-
+import pickle
 import pytest
 import pprint
 import logging
@@ -13,18 +14,105 @@ from citation_extractor import pipeline
 from citation_extractor.Utils.IO import load_brat_data
 from citation_extractor.settings import crf, svm, maxent, crfsuite
 from citation_extractor.ned.matchers import CitationMatcher
+from citation_extractor.ned.features import FeatureExtractor
 from knowledge_base import KnowledgeBase as KnowledgeBaseNew
 
-logging.basicConfig(level=logging.INFO)
-#logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO)
+
+
+@fixture(scope="session")
+def feature_extractor_quick():
+    """Instantiate an instance of FeatureExtractor from pickled data."""
+    prior_prob = pd.read_pickle(
+        'citation_extractor/data/pickles/prior_prob.pkl'
+    )
+
+    em_prob = pd.read_pickle(
+        'citation_extractor/data/pickles/em_prob.pkl'
+    )
+
+    me_prob = pd.read_pickle(
+        'citation_extractor/data/pickles/me_prob.pkl'
+    )
+
+    fname = 'citation_extractor/data/pickles/kb_norm_authors.pkl'
+    with open(fname, 'rb') as f:
+        kb_norm_authors = pickle.load(f)
+
+    with open('citation_extractor/data/pickles/kb_norm_works.pkl', 'rb') as f:
+        kb_norm_works = pickle.load(f)
+
+    fe = FeatureExtractor(
+        kb_norm_authors=kb_norm_authors,
+        kb_norm_works=kb_norm_works,
+        prior_prob=prior_prob,
+        mention_entity_prob=me_prob,
+        entity_mention_prob=em_prob
+    )
+    return fe
+
+
+@fixture(scope="session")
+def feature_extractor_nopickles(
+        knowledge_base,
+        aph_gold_ann_files,
+        crfsuite_citation_extractor,
+        postaggers,
+        aph_titles,
+        aph_testset_dataframe
+):
+    """Create an instance of MLCitationMatcher."""
+    train_df_data = load_brat_data(  # TODO create a fixture out of thi  s
+        crf_citation_extractor,
+        knowledge_base,
+        postaggers,
+        aph_gold_ann_files,
+        aph_titles
+    )
+
+    # initialise a FeatureExtractor
+    fe = FeatureExtractor(knowledge_base, train_df_data)
+    logger.info(fe)
+
+    aph_testset_dataframe.to_pickle(
+        'citation_extractor/data/pickles/aph_test_df.pkl'
+    )
+
+    # pickle probability dataframes
+    fe._prior_prob.to_pickle('citation_extractor/data/pickles/prior_prob.pkl')
+    fe._em_prob.to_pickle('citation_extractor/data/pickles/em_prob.pkl')
+    fe._me_prob.to_pickle('citation_extractor/data/pickles/me_prob.pkl')
+
+    # serialize normalized authors
+    with open(
+        'citation_extractor/data/pickles/kb_norm_authors.pkl',
+        'wb'
+    ) as f:
+        pickle.dump(fe._kb_norm_authors, f)
+
+    # serialize normalized works
+    with open(
+        'citation_extractor/data/pickles/kb_norm_works.pkl',
+        'wb'
+    ) as f:
+        pickle.dump(fe._kb_norm_works, f)
+
+    # serialize the FeatureExtractor
+    with open(
+        'citation_extractor/data/pickles/ml_feature_extractor.pkl',
+        'wb'
+    ) as f:
+        pickle.dump(fe, f)
+
+    return fe
 
 
 @fixture(scope="session")
 def crf_citation_extractor(tmpdir_factory):
     """Initialise a citation extractor trained with CRF on APh corpus."""
-    crf.TEMP_DIR = str(tmpdir_factory.mktemp('tmp'))+"/"
-    crf.OUTPUT_DIR = str(tmpdir_factory.mktemp('out'))+"/"
+    crf.TEMP_DIR = str(tmpdir_factory.mktemp('tmp')) + "/"
+    crf.OUTPUT_DIR = str(tmpdir_factory.mktemp('out')) + "/"
     crf.LOG_FILE = crf.TEMP_DIR.join("extractor.log")
     return pipeline.get_extractor(crf)
 
@@ -72,8 +160,9 @@ def aph_test_ann_files():
 
 @fixture(scope="session")
 def aph_testset_dataframe(
-    crf_citation_extractor,
-    knowledge_base, postaggers,
+    crfsuite_citation_extractor,
+    knowledge_base,
+    postaggers,
     aph_test_ann_files,
     aph_titles
 ):
@@ -81,9 +170,23 @@ def aph_testset_dataframe(
     A pandas DataFrame containing the APh test-set data:
     may be useful to perform evaluation.
     """
-    logger.info("Loading test-set data (%i documents) from %s" % (len(aph_test_ann_files[1]), aph_test_ann_files[0]))
-    dataframe = load_brat_data(crf_citation_extractor, knowledge_base, postaggers, aph_test_ann_files, aph_titles)
-    assert dataframe is not None and type(dataframe)==type(pd.DataFrame()) and dataframe.shape[0]>0
+    logger.info(
+        "Loading test-set data (%i documents) from %s" % (
+            len(aph_test_ann_files[1]),
+            aph_test_ann_files[0]
+        )
+    )
+    dataframe = load_brat_data(
+        crfsuite_citation_extractor,
+        knowledge_base,
+        postaggers,
+        aph_test_ann_files,
+        aph_titles
+    )
+    assert dataframe is not None
+    assert isinstance(dataframe, pd.DataFrame)
+    assert dataframe.shape[0] > 0
+
     return dataframe
 
 
@@ -91,6 +194,7 @@ def aph_testset_dataframe(
 def citation_matcher(knowledge_base):
     """Initialise a CitationMatcher."""
     return CitationMatcher(knowledge_base)
+
 
 @fixture(scope="session")
 def knowledge_base():
@@ -106,6 +210,7 @@ def knowledge_base():
         config_file = pkg_resources.resource_filename('knowledge_base','config/inmemory.ini')
         return KnowledgeBaseNew(config_file)
 
+
 @fixture(scope="session")
 def postaggers():
     """
@@ -114,6 +219,7 @@ def postaggers():
     abbreviations = pkg_resources.resource_filename('citation_extractor'
                                                     , 'data/aph_corpus/extra/abbreviations.txt')
     return pipeline.get_taggers(abbrev_file = abbreviations)
+
 
 @fixture(scope="session")
 def aph_titles():

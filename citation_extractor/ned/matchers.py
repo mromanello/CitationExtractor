@@ -216,7 +216,6 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
                 # then fuzzy matching as work
                 # ad the end take the matching with lowest score
                 pass
-            """
 
         # citation string has two tokens
         elif (len(citation_string.split(" ")) == 2):
