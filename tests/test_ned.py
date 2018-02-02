@@ -91,6 +91,7 @@ def test_candidate_generator(
 
 # TODO: test `CandidateGenerator.generate_candidates_parallel()`
 
+
 def test_svm_rank():
     lowb, upperb, shift = 0, 1, 1
 
