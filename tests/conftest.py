@@ -202,7 +202,7 @@ def knowledge_base():
     Initialises and returns a HuCit KnowledgeBase (new version, standalone package).
     """
     try:
-        config_file = pkg_resources.resource_filename('knowledge_base','config/virtuoso_local.ini')
+        config_file = pkg_resources.resource_filename('knowledge_base','config/virtuoso.ini')
         kb = KnowledgeBaseNew(config_file)
         kb.get_authors()[0]
         return kb

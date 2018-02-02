@@ -28,7 +28,7 @@ def test_annotations2references(knowledge_base):
     ]
     all_annotations = [
         annotations2references(file, dir, knowledge_base)
-        for file in files
+        for file in files[:10]
     ]
     references = reduce((lambda x, y: x + y), all_annotations)
     assert references is not None
