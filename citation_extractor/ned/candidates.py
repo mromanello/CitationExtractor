@@ -10,7 +10,9 @@ from citation_extractor.Utils.strmatching import StringSimilarity, StringUtils
 from citation_extractor.ned import AUTHOR_TYPE, WORK_TYPE, REFAUWORK_TYPE
 import pandas as pd
 # import multiprocessing
+import dask
 from dask import compute, delayed
+from dask.multiprocessing import get as mp_get
 from dask.diagnostics import ProgressBar
 
 LOGGER = logging.getLogger(__name__)
@@ -234,19 +236,22 @@ class CandidatesGenerator(object):
         :rtype: list of (str, list of str)
         """
 
-        def dispatch_per_process(params):
-            mention_id = params[0]
-            arguments = params[1]
-            candidates = self.generate_candidates(*arguments)
-            return mention_id, candidates
+        # prepare the execution of the import function
+        tasks = [
+            delayed(self.generate_candidates)(
+                row['surface_norm'],
+                row['type'],
+                row['scope']
+            )
+            for m_id, row in mentions.iterrows()
+        ]
 
-        params = []
-        for m_id, row in mentions.iterrows():
-            args = [row['surface_norm'], row['type'], row['scope']]
-            params.append((m_id, args))
-
-        pool = multiprocessing.Pool(processes=nb_processes)
-        candidates = pool.map(dispatch_per_process, params)
-        pool.terminate()
+        LOGGER.info("Generating candidates in parallel")
+        parallel_execution = True
+        with ProgressBar():
+            if parallel_execution:
+                candidates = compute(*tasks, get=mp_get)
+            else:
+                candidates = compute(*tasks, get=dask.get)
 
         return candidates
