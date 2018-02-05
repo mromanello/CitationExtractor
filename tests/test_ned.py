@@ -125,6 +125,7 @@ def test_generate_candidates_parallel(
     logger.debug(candidates)
 
 
+@pytest.mark.skip
 def test_ml_citation_matcher(
     feature_extractor_quick,
     aph_testset_dataframe,
