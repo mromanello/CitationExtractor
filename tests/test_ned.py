@@ -121,7 +121,7 @@ def test_generate_candidates_parallel(
     )
 
     candidates = cg.generate_candidates_parallel(
-        aph_testset_dataframe
+        aph_testset_dataframe.head(50)
     )
     logger.debug(candidates)
 
