@@ -8,7 +8,7 @@ import logging
 import pickle
 from citation_extractor.pipeline import NIL_URN
 from citation_extractor.ned.candidates import CandidatesGenerator
-from citation_extractor.ned.ml import LinearSVMRank
+from citation_extractor.ned.ml import LinearSVMRank, MLCitationMatcher
 import random
 
 logger = logging.getLogger(__name__)
@@ -120,10 +120,20 @@ def test_generate_candidates_parallel(
     )
 
     candidates = cg.generate_candidates_parallel(
-        aph_testset_dataframe.head(50),
-        nb_processes=6
+        aph_testset_dataframe
     )
-    logger.info(candidates)
+    logger.debug(candidates)
+
+
+def test_ml_citation_matcher(
+    feature_extractor_quick,
+    aph_testset_dataframe,
+    aph_goldset_dataframe
+):
+    cm = MLCitationMatcher(feature_extractor_quick, aph_goldset_dataframe)
+    # TODO: finish
+
+
 
 
 def test_svm_rank():

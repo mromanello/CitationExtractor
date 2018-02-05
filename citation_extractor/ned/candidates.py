@@ -223,35 +223,33 @@ class CandidatesGenerator(object):
 
         return list(candidates)
 
-    def generate_candidates_parallel(self, mentions, nb_processes=10):
-        # TODO: ask MatteoF is should be removed?
-        """Generate the entity candidates for a mention by using parallel computation.
+    def generate_candidates_parallel(self, mentions):
+        """Generate the entity candidates for a mention in parallel.
 
-        :param mentions: a pandas Dataframe containing the mentions (schema: surface_norm, type, scope)
+        :param mentions: a pandas Dataframe containing the mentions
+            (min columns required: surface_norm, type, scope)
         :type mentions: pandas.DataFrame
-        :param nb_processes: The number of processes to be used for the computation (default is 10)
-        :type nb_processes: int
 
-        :return: the URNs of the candidate entities for each mention [(mention_id, set_of_candidates), ...]
-        :rtype: list of (str, list of str)
+        :return: the URNs of the candidate entities for each mention
+            [(mention_id, set_of_candidates), ...]
+        :rtype: list of tuples (str, list of str)
         """
 
-        # prepare the execution of the import function
         tasks = [
-            delayed(self.generate_candidates)(
-                row['surface_norm'],
-                row['type'],
-                row['scope']
+            (
+                m_id,
+                delayed(self.generate_candidates)(
+                    row['surface_norm'],
+                    row['type'],
+                    row['scope']
+                ),
             )
             for m_id, row in mentions.iterrows()
         ]
 
-        LOGGER.info("Generating candidates in parallel")
-        parallel_execution = True
+        print("Generating candidates in parallel")
+
         with ProgressBar():
-            if parallel_execution:
-                candidates = compute(*tasks, get=mp_get)
-            else:
                 candidates = compute(*tasks, get=dask.get)
 
         return candidates
