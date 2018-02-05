@@ -250,6 +250,6 @@ class CandidatesGenerator(object):
         print("Generating candidates in parallel")
 
         with ProgressBar():
-                candidates = compute(*tasks, get=dask.get)
+                candidates = compute(*tasks, get=mp_get)
 
         return candidates
