@@ -8,7 +8,8 @@ import logging
 import pickle
 from citation_extractor.pipeline import NIL_URN
 from citation_extractor.ned.candidates import CandidatesGenerator
-from citation_extractor.ned.ml import LinearSVMRank, MLCitationMatcher
+from citation_extractor.ned.ml import LinearSVMRank
+from citation_extractor.ned.matchers import MLCitationMatcher
 import random
 
 logger = logging.getLogger(__name__)
