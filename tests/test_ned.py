@@ -41,8 +41,9 @@ def test_extract_features(feature_extractor_quick, aph_testset_dataframe):
     logger.debug(test_df_data.info())
 
     for id_row, row in test_df_data.iterrows():
-        # TODO: should be called on the candidates!
         if row["urn"] != NIL_URN:
+            # TODO: should be called on the candidates!
+            # and `fv` should be a list
             fv = fe.extract(
                 row["surface_norm"],
                 row["scope"],
@@ -53,8 +54,21 @@ def test_extract_features(feature_extractor_quick, aph_testset_dataframe):
                 row["other_mentions"],
                 row["urn_clean"]
             )
-            # TODO: call `fe.extract_nil`
-            logger.debug(fv)
+            logger.info(
+                "Feature vector for {} {}: {}".format(
+                    row["surface_norm"],
+                    row["scope"],
+                    fv
+                )
+            )
+            nfv = fe.extract_nil(row["type"], row["scope"], [fv])
+            logger.info(
+                "Feature vector (nil) for {} {}: {}".format(
+                    row["surface_norm"],
+                    row["scope"],
+                    nfv
+                )
+            )
         else:
             logger.debug("Skipped {}".format(row))
 
@@ -89,7 +103,27 @@ def test_candidate_generator(
             )
         )
 
-# TODO: test `CandidateGenerator.generate_candidates_parallel()`
+
+def test_generate_candidates_parallel(
+    feature_extractor_quick,
+    knowledge_base,
+    aph_testset_dataframe
+):
+    fe = feature_extractor_quick
+    _kb_norm_authors = fe._kb_norm_authors
+    _kb_norm_works = fe._kb_norm_works
+
+    cg = CandidatesGenerator(
+        knowledge_base,
+        kb_norm_authors=_kb_norm_authors,
+        kb_norm_works=_kb_norm_works
+    )
+
+    candidates = cg.generate_candidates_parallel(
+        aph_testset_dataframe.head(50),
+        nb_processes=6
+    )
+    logger.info(candidates)
 
 
 def test_svm_rank():

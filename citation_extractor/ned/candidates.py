@@ -9,7 +9,9 @@ import logging
 from citation_extractor.Utils.strmatching import StringSimilarity, StringUtils
 from citation_extractor.ned import AUTHOR_TYPE, WORK_TYPE, REFAUWORK_TYPE
 import pandas as pd
-import multiprocessing
+# import multiprocessing
+from dask import compute, delayed
+from dask.diagnostics import ProgressBar
 
 LOGGER = logging.getLogger(__name__)
 

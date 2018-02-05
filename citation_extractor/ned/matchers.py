@@ -4,9 +4,9 @@
 """Contains various implementations of citation matchers."""
 
 from __future__ import print_function
-import re
 import sys
 import pdb
+import time
 import logging
 import multiprocessing
 from operator import itemgetter
@@ -591,27 +591,46 @@ class MLCitationMatcher(object):
     from a set of labeled entity mentions.
     """
 
-    def __init__(self, kb=None):
+    def __init__(self, train_data, kb=None, **kwargs):
         """Initialize an instance of MLCitationMatcher.
 
         :param kb: an instance of HuCit KnowledgeBase
         :type kb: knowledge_base.KnowledgeBase
+        :param train_data: a set of labeled mentions to be used as train data
+        :type train_data: pandas.DataFrame
+
+        Optional kwargs:
+        (TODO: decide whether to keep them in the final version)
+        - `feature_extractor`
+        - `candidate_generator`
+
         """
-        LOGGER.info('Initializing Citation Matcher')
+        LOGGER.info('Initializing ML-Citation Matcher')
 
-        # TODO: what if kb is None ?
-        self._kb = kb
+        if "feature_extractor" in kwargs:
+            self._feature_extractor = kwargs["feature_extractor"]
+        else:
+            self._feature_extractor = FeatureExtractor(kb, train_data)
 
-        # TODO: normalize authors and works once, the pass to both
+        # normalize authors and works once, the pass to both
         # CandidatesGenerator and FeatureExtractor
+        self._kb_norm_authors = self._feature_extractor._kb_norm_authors
+        self._kb_norm_works = self._feature_extractor._kb_norm_works
 
-        # self._kb_norm_authors = None
-        # self._kb_norm_works = None
+        if "candidate_generator" in kwargs:
+            self._candidates_generator = kwargs["candidate_generator"]
+        else:
+            self._candidates_generator = CandidatesGenerator(
+                kb,
+                kb_norm_authors=self._kb_norm_authors,
+                kb_norm_works=self._kb_norm_works
+            )
 
-        self._candidates_generator = CandidatesGenerator(kb)
-        self._feature_extractor = FeatureExtractor(kb)
         self._ranker = LinearSVMRank()
         self._is_trained = False
+        LOGGER.info("ML-Citation Matcher initialized (took {} secs)".format(
+            time.clock()
+        ))
 
     def train(self, train_data, include_nil=True, parallelize=False, nb_processes=10):
         """Train the MLCitationMatcher with a set of labeled mentions.
