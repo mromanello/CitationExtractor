@@ -145,16 +145,30 @@ def processing_directories(tmpdir_factory):
         , 'ann' :  str(tmpdir_factory.mktemp('ann'))+"/"
     }
 
+
 @fixture(scope="session")
 def aph_gold_ann_files():
-    ann_dir = pkg_resources.resource_filename('citation_extractor', 'data/aph_corpus/goldset/ann')
-    ann_files = pkg_resources.resource_listdir('citation_extractor', 'data/aph_corpus/goldset/ann')
+    ann_dir = pkg_resources.resource_filename(
+        'citation_extractor',
+        'data/aph_corpus/goldset/ann'
+    )
+    ann_files = pkg_resources.resource_listdir(
+        'citation_extractor',
+        'data/aph_corpus/goldset/ann'
+    )
     return ann_dir, ann_files
+
 
 @fixture(scope="session")
 def aph_test_ann_files():
-    ann_dir = pkg_resources.resource_filename('citation_extractor', 'data/aph_corpus/testset/ann')
-    ann_files = pkg_resources.resource_listdir('citation_extractor', 'data/aph_corpus/testset/ann')
+    ann_dir = pkg_resources.resource_filename(
+        'citation_extractor',
+        'data/aph_corpus/testset/ann'
+    )
+    ann_files = pkg_resources.resource_listdir(
+        'citation_extractor',
+        'data/aph_corpus/testset/ann'
+    )
     return ann_dir, ann_files
 
 
@@ -181,6 +195,38 @@ def aph_testset_dataframe(
         knowledge_base,
         postaggers,
         aph_test_ann_files,
+        aph_titles
+    )
+    assert dataframe is not None
+    assert isinstance(dataframe, pd.DataFrame)
+    assert dataframe.shape[0] > 0
+
+    return dataframe
+
+
+@fixture(scope="session")
+def aph_goldset_dataframe(
+    crfsuite_citation_extractor,
+    knowledge_base,
+    postaggers,
+    aph_gold_ann_files,
+    aph_titles
+):
+    """
+    A pandas DataFrame containing the APh test-set data:
+    may be useful to perform evaluation.
+    """
+    logger.info(
+        "Loading test-set data ({} documents) from {}".format(
+            len(aph_gold_ann_files[1]),
+            aph_gold_ann_files[0]
+        )
+    )
+    dataframe = load_brat_data(
+        crfsuite_citation_extractor,
+        knowledge_base,
+        postaggers,
+        aph_gold_ann_files,
         aph_titles
     )
     assert dataframe is not None

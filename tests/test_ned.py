@@ -126,16 +126,18 @@ def test_generate_candidates_parallel(
     logger.debug(candidates)
 
 
-@pytest.mark.skip
+# @pytest.mark.skip
 def test_ml_citation_matcher(
     feature_extractor_quick,
-    aph_testset_dataframe,
+    # aph_testset_dataframe,
     aph_goldset_dataframe
 ):
-    cm = MLCitationMatcher(feature_extractor_quick, aph_goldset_dataframe)
-    # TODO: finish
+    cm = MLCitationMatcher(
+        aph_goldset_dataframe,
+        feature_extractor=feature_extractor_quick
+    )
 
-
+    logger.info(cm)
 
 
 def test_svm_rank():

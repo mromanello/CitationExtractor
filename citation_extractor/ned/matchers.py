@@ -591,7 +591,7 @@ class MLCitationMatcher(object):
     from a set of labeled entity mentions.
     """
 
-    def __init__(self, train_data, kb=None, **kwargs):
+    def __init__(self, train_data, kb=None, parallelize=False, **kwargs):
         """Initialize an instance of MLCitationMatcher.
 
         :param kb: an instance of HuCit KnowledgeBase
@@ -606,6 +606,11 @@ class MLCitationMatcher(object):
 
         """
         LOGGER.info('Initializing ML-Citation Matcher')
+
+        # a dictionary to store the settings so that we can print them
+        # if needed
+        self._settings = {}
+        self._settings["parallelize"] = parallelize
 
         if "feature_extractor" in kwargs:
             self._feature_extractor = kwargs["feature_extractor"]
@@ -631,24 +636,22 @@ class MLCitationMatcher(object):
         LOGGER.info("ML-Citation Matcher initialized (took {} secs)".format(
             time.clock()
         ))
+        self._train(train_data)
 
-    def train(self, train_data, include_nil=True, parallelize=False, nb_processes=10):
+    def _train(self, train_data, include_nil=True, nb_processes=10):
         """Train the MLCitationMatcher with a set of labeled mentions.
 
         :param train_data: a set of labeled mentions to be used as train data
         :type train_data: pandas.DataFrame
-        :param include_nil: include the NIL entity as a candidate if the true entity is not NIL (default is True)
+        :param include_nil: include the NIL entity as a candidate if the true
+            entity is not NIL (default is True)
         :type include_nil: bool
-        :param parallelize: parallelize the extraction of the feature vectors (default is False)
-        :type parallelize: bool
-        :param nb_processes: number of processes to be used for parallelization (default is 10)
-        :type nb_processes: int
         """
         LOGGER.info('Starting training')
 
         # TODO: check for train_data schema
 
-        if parallelize:
+        if self._settings["parallelize"]:
             LOGGER.info('Parallelization is enabled (nb_processes={})'.format(nb_processes))
             pool = multiprocessing.Pool(processes=nb_processes)
 
@@ -668,15 +671,16 @@ class MLCitationMatcher(object):
             true_urn = row['urn_clean']
 
             # Generate candidates
-            # TODO: can also be parallelized
+            # TODO: why not `CandidatesGenerator.generate_candidates_parallel`?
             candidates = self._candidates_generator.generate_candidates(surface, type, scope)
 
             # Remove true entity (need special treatment)
-            candidates.remove(true_urn)
+            if true_urn in candidates:
+                candidates.remove(true_urn)
 
             # Extract features
             feature_vectors = None
-            if parallelize:
+            if self._settings["parallelize"]:
                 arguments = map(lambda candidate: dict(m_surface=surface,
                                                        m_scope=scope,
                                                        m_type=type,
@@ -705,14 +709,16 @@ class MLCitationMatcher(object):
             # Add the true entity (not NIL)
             if true_urn != NIL_URN:
                 LOGGER.debug('True entity is not NIL')
-                true_feature_vector = self._feature_extractor.extract(m_surface=surface,
-                                                                      m_scope=scope,
-                                                                      m_type=type,
-                                                                      m_title_mentions=mentions_in_title,
-                                                                      m_title=doc_title,
-                                                                      m_doc_text=doc_text,
-                                                                      m_other_mentions=other_mentions,
-                                                                      candidate_urn=true_urn)
+                true_feature_vector = self._feature_extractor.extract(
+                    m_surface=surface,
+                    m_scope=scope,
+                    m_type=type,
+                    m_title_mentions=mentions_in_title,
+                    m_title=doc_title,
+                    m_doc_text=doc_text,
+                    m_other_mentions=other_mentions,
+                    candidate_urn=true_urn
+                )
 
                 # Append true candidate values
                 feature_vectors.append(true_feature_vector)
@@ -723,7 +729,11 @@ class MLCitationMatcher(object):
                 # Include NIL if specified
                 if include_nil:
                     LOGGER.debug('Including NIL entity as candidate')
-                    nil_feature_vector = self._feature_extractor.extract_nil(m_type=type, m_scope=scope, feature_dicts=feature_vectors)
+                    nil_feature_vector = self._feature_extractor.extract_nil(
+                        m_type=type,
+                        m_scope=scope,
+                        feature_dicts=feature_vectors
+                    )
                     X.append(nil_feature_vector)
                     y.append(0)
                     groups.append(group_id)
@@ -731,14 +741,18 @@ class MLCitationMatcher(object):
             # Add the true entity (NIL)
             else:
                 LOGGER.debug('True entity is NIL')
-                nil_feature_vector = self._feature_extractor.extract_nil(m_type=type, m_scope=scope, feature_dicts=feature_vectors)
+                nil_feature_vector = self._feature_extractor.extract_nil(
+                    m_type=type,
+                    m_scope=scope,
+                    feature_dicts=feature_vectors
+                )
                 X.append(nil_feature_vector)
                 y.append(1)
                 groups.append(group_id)
 
             group_id += 1
 
-        if parallelize:
+        if self._settings["parallelize"]:
             pool.terminate()
 
         # Fit SVMRank

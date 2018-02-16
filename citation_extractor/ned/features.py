@@ -116,7 +116,7 @@ class FeatureExtractor(object):
         :rtype: dict
         """
         LOGGER.info(
-            'Extracting features for {} {} ({})'.format(
+            u'Extracting features for {} {} ({})'.format(
                 m_surface,
                 m_scope,
                 m_type
