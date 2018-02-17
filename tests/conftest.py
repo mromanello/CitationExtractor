@@ -180,12 +180,9 @@ def aph_testset_dataframe(
     aph_test_ann_files,
     aph_titles
 ):
-    """
-    A pandas DataFrame containing the APh test-set data:
-    may be useful to perform evaluation.
-    """
+    """Return a pandas DataFrame containing the APh data for testing."""
     logger.info(
-        "Loading test-set data (%i documents) from %s" % (
+        "Loading test set data (%i documents) from %s" % (
             len(aph_test_ann_files[1]),
             aph_test_ann_files[0]
         )
@@ -197,6 +194,15 @@ def aph_testset_dataframe(
         aph_test_ann_files,
         aph_titles
     )
+
+    # save for later
+    dataframe.to_pickle(
+        pkg_resources.resource_filename(
+            'citation_extractor',
+            'data/pickles/aph_test_df.pkl'
+        )
+    )
+
     assert dataframe is not None
     assert isinstance(dataframe, pd.DataFrame)
     assert dataframe.shape[0] > 0
@@ -212,12 +218,9 @@ def aph_goldset_dataframe(
     aph_gold_ann_files,
     aph_titles
 ):
-    """
-    A pandas DataFrame containing the APh test-set data:
-    may be useful to perform evaluation.
-    """
+    """Return a pandas DataFrame containing the APh data for training."""
     logger.info(
-        "Loading test-set data ({} documents) from {}".format(
+        "Loading training set data ({} documents) from {}".format(
             len(aph_gold_ann_files[1]),
             aph_gold_ann_files[0]
         )
@@ -228,6 +231,13 @@ def aph_goldset_dataframe(
         postaggers,
         aph_gold_ann_files,
         aph_titles
+    )
+    # save for later
+    dataframe.to_pickle(
+        pkg_resources.resource_filename(
+            'citation_extractor',
+            'data/pickles/aph_gold_df.pkl'
+        )
     )
     assert dataframe is not None
     assert isinstance(dataframe, pd.DataFrame)
@@ -244,31 +254,39 @@ def citation_matcher(knowledge_base):
 
 @fixture(scope="session")
 def knowledge_base():
-    """
-    Initialises and returns a HuCit KnowledgeBase (new version, standalone package).
-    """
+    """Initialisea HuCit KnowledgeBase (new version, standalone package)."""
     try:
-        config_file = pkg_resources.resource_filename('knowledge_base','config/virtuoso.ini')
+        config_file = pkg_resources.resource_filename(
+            'knowledge_base',
+            'config/virtuoso.ini'
+        )
         kb = KnowledgeBaseNew(config_file)
         kb.get_authors()[0]
         return kb
-    except Exception, e:
-        config_file = pkg_resources.resource_filename('knowledge_base','config/inmemory.ini')
+    except Exception:
+        config_file = pkg_resources.resource_filename(
+            'knowledge_base',
+            'config/inmemory.ini'
+        )
         return KnowledgeBaseNew(config_file)
 
 
 @fixture(scope="session")
 def postaggers():
-    """
-    A dictionary where keys are language codes and values are the corresponding PoS tagger.
-    """
-    abbreviations = pkg_resources.resource_filename('citation_extractor'
-                                                    , 'data/aph_corpus/extra/abbreviations.txt')
-    return pipeline.get_taggers(abbrev_file = abbreviations)
+    """Return a dict with language codes as keys and PoS taggers as values."""
+    abbreviations = pkg_resources.resource_filename(
+        'citation_extractor',
+        'data/aph_corpus/extra/abbreviations.txt'
+    )
+    return pipeline.get_taggers(abbrev_file=abbreviations)
 
 
 @fixture(scope="session")
 def aph_titles():
-    titles_dir = pkg_resources.resource_filename('citation_extractor', 'data/aph_corpus/titles.csv')
+    """Return a datafrmae with the tiles of APh abstracts in the dataset."""
+    titles_dir = pkg_resources.resource_filename(
+        'citation_extractor',
+        'data/aph_corpus/titles.csv'
+    )
     titles = pd.read_csv(titles_dir).set_index('id')[['title']]
     return titles

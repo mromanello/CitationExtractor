@@ -6,6 +6,8 @@ import ipdb as pdb
 import pytest
 import logging
 import pickle
+import pkg_resources
+import pandas as pd
 from citation_extractor.pipeline import NIL_URN
 from citation_extractor.ned.candidates import CandidatesGenerator
 from citation_extractor.ned.ml import LinearSVMRank
@@ -130,11 +132,26 @@ def test_generate_candidates_parallel(
 def test_ml_citation_matcher(
     feature_extractor_quick,
     # aph_testset_dataframe,
-    aph_goldset_dataframe
+    # aph_goldset_dataframe
 ):
+    """
+    aph_testset_dataframe = pd.read_pickle(
+        pkg_resources.resource_filename(
+            'citation_extractor',
+            'data/pickles/aph_test_df.pkl'
+        )
+    )
+    """
+    aph_goldset_dataframe = pd.read_pickle(
+        pkg_resources.resource_filename(
+            'citation_extractor',
+            'data/pickles/aph_gold_df.pkl'
+        )
+    )
     cm = MLCitationMatcher(
         aph_goldset_dataframe,
-        feature_extractor=feature_extractor_quick
+        feature_extractor=feature_extractor_quick,
+        parallelize=False
     )
 
     logger.info(cm)

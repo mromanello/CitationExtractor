@@ -28,7 +28,7 @@ class LinearSVMRank(object):
         # TODO: add feature to use sparse (MF)
 
     def _pairwise_transformation(self, X, y, groups):
-        """Apply the pairwise transformation to groups of labeled vectors
+        """Apply the pairwise transformation to groups of labeled vectors.
 
         :param X: the matrix describing the vectors
         :type X: numpy.ndarray
