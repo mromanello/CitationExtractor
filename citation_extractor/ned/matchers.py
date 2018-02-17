@@ -656,7 +656,7 @@ class MLCitationMatcher(object):
             pool = multiprocessing.Pool(processes=nb_processes)
 
         X, y, groups = [], [], []
-        group_id = 1
+        group_id = 0
 
         for mention_id, row in train_data.iterrows():
             LOGGER.debug('Disambiguating {}'.format(mention_id))
