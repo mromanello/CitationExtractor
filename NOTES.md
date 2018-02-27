@@ -29,7 +29,7 @@ syntactic features as chunkers do not exist for all the languages we considered 
 
 cfr [this thread in SO](https://stackoverflow.com/questions/15111408/how-does-sklearn-svm-svcs-function-predict-proba-work-internally)
 
-to output a probability for each classification by SVM pass `parallel=True`
+to output a probability for each classification by SVM pass `probabilities=True`
 when
 
 ```python

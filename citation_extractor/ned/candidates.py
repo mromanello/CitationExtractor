@@ -234,7 +234,6 @@ class CandidatesGenerator(object):
             [(mention_id, set_of_candidates), ...]
         :rtype: list of tuples (str, list of str)
         """
-
         tasks = [
             (
                 m_id,

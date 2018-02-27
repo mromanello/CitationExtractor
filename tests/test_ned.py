@@ -134,14 +134,13 @@ def test_ml_citation_matcher(
     # aph_testset_dataframe,
     # aph_goldset_dataframe
 ):
-    """
     aph_testset_dataframe = pd.read_pickle(
         pkg_resources.resource_filename(
             'citation_extractor',
             'data/pickles/aph_test_df.pkl'
         )
     )
-    """
+
     aph_goldset_dataframe = pd.read_pickle(
         pkg_resources.resource_filename(
             'citation_extractor',
@@ -149,11 +148,27 @@ def test_ml_citation_matcher(
         )
     )
     cm = MLCitationMatcher(
-        aph_goldset_dataframe,
+        aph_goldset_dataframe.head(20),  # otherwise it takes 30mins to train
         feature_extractor=feature_extractor_quick,
         parallelize=False
     )
 
+    for row_id, row in aph_testset_dataframe.head(10).iterrows():
+        result = cm.disambiguate(
+            row["surface"],
+            row["scope"],
+            row["type"],
+            row["doc_title"],
+            row["doc_title_mentions"],
+            row["doc_text"],
+            row["other_mentions"],
+        )
+        logger.info(u'Disambiguation for {} ({})'.format(
+            row["surface"],
+            row["scope"],
+            result
+        ))
+    pdb.set_trace()
     logger.info(cm)
 
 

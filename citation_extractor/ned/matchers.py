@@ -603,6 +603,8 @@ class MLCitationMatcher(object):
         (TODO: decide whether to keep them in the final version)
         - `feature_extractor`
         - `candidate_generator`
+        - `include_nil`
+        - `nb_processes`
 
         """
         LOGGER.info('Initializing ML-Citation Matcher')
@@ -612,10 +614,20 @@ class MLCitationMatcher(object):
         self._settings = {}
         self._settings["parallelize"] = parallelize
 
+        if "include_nil" in kwargs and kwargs["include_nil"]:
+            self._settings["include_nil"] = True
+        else:
+            self._settings["include_nil"] = False
+
         if "feature_extractor" in kwargs:
             self._feature_extractor = kwargs["feature_extractor"]
         else:
             self._feature_extractor = FeatureExtractor(kb, train_data)
+
+        if "nb_processes" in kwargs:
+            self._settings["nb_processes"] = kwargs["nb_processes"]
+        else:
+            self._settings["nb_processes"] = 10
 
         # normalize authors and works once, the pass to both
         # CandidatesGenerator and FeatureExtractor
@@ -623,9 +635,9 @@ class MLCitationMatcher(object):
         self._kb_norm_works = self._feature_extractor._kb_norm_works
 
         if "candidate_generator" in kwargs:
-            self._candidates_generator = kwargs["candidate_generator"]
+            self._cg = kwargs["candidate_generator"]
         else:
-            self._candidates_generator = CandidatesGenerator(
+            self._cg = CandidatesGenerator(
                 kb,
                 kb_norm_authors=self._kb_norm_authors,
                 kb_norm_works=self._kb_norm_works
@@ -638,7 +650,7 @@ class MLCitationMatcher(object):
         ))
         self._train(train_data)
 
-    def _train(self, train_data, include_nil=True, nb_processes=10):
+    def _train(self, train_data, nb_processes=10):
         """Train the MLCitationMatcher with a set of labeled mentions.
 
         :param train_data: a set of labeled mentions to be used as train data
@@ -649,10 +661,14 @@ class MLCitationMatcher(object):
         """
         LOGGER.info('Starting training')
 
-        # TODO: check for train_data schema
+        include_nil = self._settings["include_nil"]
 
         if self._settings["parallelize"]:
-            LOGGER.info('Parallelization is enabled (nb_processes={})'.format(nb_processes))
+            LOGGER.info(
+                'Parallelization is enabled (nb_processes={})'.format(
+                    nb_processes
+                )
+            )
             pool = multiprocessing.Pool(processes=nb_processes)
 
         X, y, groups = [], [], []
@@ -672,8 +688,16 @@ class MLCitationMatcher(object):
 
             # Generate candidates
             # TODO: why not `CandidatesGenerator.generate_candidates_parallel`?
-            candidates = self._candidates_generator.generate_candidates(surface, type, scope)
-
+            # """
+            candidates = self._cg.generate_candidates(
+                surface,
+                type,
+                scope
+            )
+            """
+            candidates2 = self._cg.generate_candidates_parallel(train_data)
+            pdb.set_trace()
+            """
             # Remove true entity (need special treatment)
             if true_urn in candidates:
                 candidates.remove(true_urn)
@@ -681,24 +705,37 @@ class MLCitationMatcher(object):
             # Extract features
             feature_vectors = None
             if self._settings["parallelize"]:
-                arguments = map(lambda candidate: dict(m_surface=surface,
-                                                       m_scope=scope,
-                                                       m_type=type,
-                                                       m_title_mentions=mentions_in_title,
-                                                       m_title=doc_title,
-                                                       m_doc_text=doc_text,
-                                                       m_other_mentions=other_mentions,
-                                                       candidates=candidate), candidates)
-                feature_vectors = pool.map(self._feature_extractor.extract_unpack, arguments)
+                arguments = map(
+                    lambda candidate: dict(
+                        m_surface=surface,
+                        m_scope=scope,
+                        m_type=type,
+                        m_title_mentions=mentions_in_title,
+                        m_title=doc_title,
+                        m_doc_text=doc_text,
+                        m_other_mentions=other_mentions,
+                        candidates=candidate
+                    ),
+                    candidates
+                )
+                feature_vectors = pool.map(
+                    self._feature_extractor.extract_unpack,
+                    arguments
+                )
             else:
-                feature_vectors = map(lambda candidate: self._feature_extractor.extract(m_surface=surface,
-                                                                                        m_scope=scope,
-                                                                                        m_type=type,
-                                                                                        m_title_mentions=mentions_in_title,
-                                                                                        m_title=doc_title,
-                                                                                        m_doc_text=doc_text,
-                                                                                        m_other_mentions=other_mentions,
-                                                                                        candidate_urn=candidate), candidates)
+                feature_vectors = map(
+                    lambda candidate: self._feature_extractor.extract(
+                        m_surface=surface,
+                        m_scope=scope,
+                        m_type=type,
+                        m_title_mentions=mentions_in_title,
+                        m_title=doc_title,
+                        m_doc_text=doc_text,
+                        m_other_mentions=other_mentions,
+                        candidate_urn=candidate
+                    ),
+                    candidates
+                )
 
             # Append not-true candidates values
             for vector in feature_vectors:
@@ -759,7 +796,17 @@ class MLCitationMatcher(object):
         self._ranker.fit(X, y, groups)
         self._is_trained = True
 
-    def disambiguate(self, surface, scope, type, doc_title, mentions_in_title, doc_text, other_mentions, include_nil=True, parallelize=False, nb_processes=10):
+    def disambiguate(
+        self,
+        surface,
+        scope,
+        type,
+        doc_title,
+        mentions_in_title,
+        doc_text,
+        other_mentions,
+        nb_processes=10  # TODO: remove when using dask
+    ):
         """Disambiguate an entity mention.
 
         :param surface: the surface form of the mention
@@ -776,10 +823,6 @@ class MLCitationMatcher(object):
         :type doc_text: unicode
         :param other_mentions: the other mentions extracted from the same document
         :type other_mentions: list of triples [(m_type, m_surface, m_scope), ...]
-        :param include_nil: include the NIL entity as a candidate if the true entity is not NIL (default is True)
-        :type include_nil: bool
-        :param parallelize: parallelize the extraction of the feature vectors (default is False)
-        :type parallelize: bool
         :param nb_processes: number of processes to be used for parallelization (default is 10)
         :type nb_processes: int
 
@@ -788,21 +831,32 @@ class MLCitationMatcher(object):
         """
         # TODO: move some parameters to kwargs
         LOGGER.info(
-            'Disambiguating surface={} scope={} type={}'.format(
+            u'Disambiguating surface={} scope={} type={}'.format(
                 surface,
                 scope,
                 type
             )
         )
 
+        # shortcuts
+        nb_processes = self._settings["nb_processes"]
+        include_nil = self._settings["include_nil"]
+        parallelize = self._settings["parallelize"]
+
         if not self._is_trained:
-            raise Exception('method disambiguate() must be invoked after train()')
+            raise Exception(
+                'method disambiguate() must be invoked after train()'
+            )
 
         if parallelize:
-            LOGGER.debug('Parallelization is enabled (nb_processes={})'.format(nb_processes))
+            LOGGER.debug(
+                'Parallelization is enabled (nb_processes={})'.format(
+                    nb_processes
+                )
+            )
 
         # Generate candidates
-        candidates = self._candidates_generator.generate_candidates(
+        candidates = self._cg.generate_candidates(
             surface,
             type,
             scope
