@@ -1041,9 +1041,8 @@ class FeatureExtractor(object):
         :type candidate_urn: str
         """
 
-        # TODO: check with MatteoF if OK
         if title is None:
-            return feature_vector
+            return
 
         stripped_title = StringUtils.remove_words_shorter_than(title, 3)
 

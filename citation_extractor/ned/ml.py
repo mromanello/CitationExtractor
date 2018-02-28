@@ -76,6 +76,7 @@ class LinearSVMRank(object):
         :param groups: the labels of the groups
         :type groups: list of int
         """
+
         X = self._dv.fit_transform(X)
         y, groups = map(np.array, (y, groups))
 
@@ -115,7 +116,7 @@ class LinearSVMRank(object):
             )
             return None
 
-        X = self._dv.fit_transform(X)
+        X = self._dv.transform(X)
 
         LOGGER.info('Applying prediction to matrix {}'.format(X.shape))
 
