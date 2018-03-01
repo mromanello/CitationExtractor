@@ -800,7 +800,7 @@ class MLCitationMatcher(object):
         self,
         surface,
         scope,
-        type,
+        mention_type,
         doc_title,
         mentions_in_title,
         doc_text,
@@ -813,8 +813,8 @@ class MLCitationMatcher(object):
         :type surface: unicode
         :param scope: the scope of the mention (could be None)
         :type scope: unicode
-        :param type: the type of the mention (AAUTHOR, AWORK, REFAUWORK)
-        :type type: str
+        :param mention_type: type of the mention (AAUTHOR, AWORK, REFAUWORK)
+        :type mention_type: str
         :param doc_title: the title of the document containing the mention
         :type doc_title: unicode
         :param mentions_in_title: the mentions extracted from the title
@@ -834,7 +834,7 @@ class MLCitationMatcher(object):
             u'Disambiguating surface={} scope={} type={}'.format(
                 surface,
                 scope,
-                type
+                mention_type
             )
         )
 
@@ -858,7 +858,7 @@ class MLCitationMatcher(object):
         # Generate candidates
         candidates = self._cg.generate_candidates(
             surface,
-            type,
+            mention_type,
             scope
         )
 
@@ -871,7 +871,7 @@ class MLCitationMatcher(object):
                 lambda candidate: dict(
                     m_surface=surface,
                     m_scope=scope,
-                    m_type=type,
+                    m_type=mention_type,
                     m_title_mentions=mentions_in_title,
                     m_title=doc_title,
                     m_doc_text=doc_text,
@@ -890,7 +890,7 @@ class MLCitationMatcher(object):
                 lambda candidate: self._feature_extractor.extract(
                     m_surface=surface,
                     m_scope=scope,
-                    m_type=type,
+                    m_type=mention_type,
                     m_title_mentions=mentions_in_title,
                     m_title=doc_title,
                     m_doc_text=doc_text,
@@ -905,7 +905,7 @@ class MLCitationMatcher(object):
             LOGGER.debug('Including NIL entity as candidate')
             candidates.append(NIL_URN)
             nil_feature_vector = self._feature_extractor.extract_nil(
-                m_type=type,
+                m_type=mention_type,
                 m_scope=scope,
                 feature_dicts=feature_vectors
             )
@@ -914,9 +914,19 @@ class MLCitationMatcher(object):
         # Check whether there are no candidates (in case of not include_nil)
         # or just one
         if len(candidates) == 0:
-            return NIL_URN
+            return Result(
+                mention=surface,
+                entity_type="type",
+                scope=scope,
+                urn=NIL_URN
+            )
         elif len(candidates) == 1:
-            return candidates[0]
+            return Result(
+                mention=surface,
+                entity_type="type",
+                scope=scope,
+                urn=candidates[0]
+            )
 
         # Rank candidates
         ranked_columns, scores = self._ranker.predict(feature_vectors)
@@ -925,10 +935,16 @@ class MLCitationMatcher(object):
         winner_candidate = candidates[winner_column]
 
         LOGGER.info(
-            'Entity {} won with score {}'.format(
+            'Entity {} won with score {} (total candidates={})'.format(
                 winner_candidate,
-                winner_score
+                winner_score,
+                len(candidates)
             )
         )
 
-        return winner_candidate
+        return Result(
+            mention=surface,
+            entity_type="type",
+            scope=scope,
+            urn=winner_candidate
+        )

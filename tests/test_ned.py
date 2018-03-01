@@ -148,7 +148,7 @@ def test_ml_citation_matcher(
         )
     )
     cm = MLCitationMatcher(
-        aph_goldset_dataframe.head(20),  # otherwise it takes 30mins to train
+        aph_goldset_dataframe.head(20),  # otherwise it takes >30mins to train
         feature_extractor=feature_extractor_quick,
         parallelize=False
     )
@@ -163,12 +163,16 @@ def test_ml_citation_matcher(
             row["doc_text"],
             row["other_mentions"],
         )
-        logger.info(u'Disambiguation for {} ({})'.format(
+
+        logger.info(u'Disambiguation for {} ({}): {}'.format(
             row["surface"],
             row["scope"],
             result
         ))
-    pdb.set_trace()
+        logger.info("Predicted: {}; ground truth: {}".format(
+            result.urn,
+            row["urn_clean"]
+        ))
     logger.info(cm)
 
 
