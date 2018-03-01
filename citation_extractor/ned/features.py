@@ -75,6 +75,7 @@ class FeatureExtractor(object):
             self._me_prob = kwargs['mention_entity_prob']
             self._em_prob = kwargs['entity_mention_prob']
 
+    # TODO: remove method once moved to dask for parallelization
     def extract_unpack(self, extract_arguments):
         """Helper method to be used in parallel computation. It simply calls the FeatureExtractor.extract()
         method by unpacking the passed arguments.

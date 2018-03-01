@@ -121,7 +121,7 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
         """
         Creates suffix arrays for efficient retrieval.
 
-        TODO: convert to lowercase before indexing
+        TODO: convert to lowercase before indexing (?)
 
         """
         try:
