@@ -7,7 +7,7 @@ from __future__ import print_function
 import logging
 import numpy as np
 from sklearn.feature_extraction import DictVectorizer
-from sklearn import svm, linear_model, cross_validation, preprocessing
+from sklearn import svm, linear_model, cross_validation, preprocessing, model_selection
 
 LOGGER = logging.getLogger(__name__)
 
@@ -44,7 +44,7 @@ class LinearSVMRank(object):
         nb_groups = len(set(groups))
         Xp, yp = [], []
         k = 0
-        for i in range(nb_groups):
+        for i in set(groups):
             group_idx = (groups == i)
             X_group = X[group_idx]
             y_group = y[group_idx]
@@ -66,6 +66,49 @@ class LinearSVMRank(object):
         Xp, yp = map(np.asanyarray, (Xp, yp))
         return Xp, yp
 
+    def select_best_C(self, X, y, groups, k=10, cache_size=10000):
+        C_scores = []
+
+        for C in 10. ** np.arange(-3, 3):
+            gkf = model_selection.GroupKFold(n_splits=k)
+
+            scores = []
+
+            for train, test in gkf.split(X, y, groups):
+                X_train, X_test, y_train, y_test, groups_train, groups_test = X[train], X[test], y[train], y[test], groups[train], groups[test]
+
+                # Fit the model
+                classifier = svm.SVC(kernel='linear', C=C, cache_size=cache_size)
+                Xp, yp = self._pairwise_transformation(X_train, y_train, groups_train)
+                Xp_norm = preprocessing.normalize(Xp)
+                classifier.fit(Xp_norm, yp)
+
+                score = 0
+
+                # Predict for each group
+                for i in set(groups_test):
+                    group_idx = (groups == i)
+                    X_group = X[group_idx]
+                    y_group = y[group_idx]
+
+                    # TODO
+
+                    coef = classifier.coef_.ravel()
+                    norm_coef = coef / np.linalg.norm(coef)
+                    scores = np.dot(X, norm_coef.T).ravel().tolist()
+
+                    # TODO: update score
+
+                scores.append(score)
+
+            # TODO: compute avg score
+            avg_score = 0
+            C_scores.append((C, avg_score))
+
+        C_scores.sort(key=lambda tup: tup[1])
+        print(C_scores)
+        return C_scores[0][0]
+
     def fit(self, X, y, groups):
         """Train the SVMRank model.
 
@@ -76,25 +119,20 @@ class LinearSVMRank(object):
         :param groups: the labels of the groups
         :type groups: list of int
         """
-
         X = self._dv.fit_transform(X)
         y, groups = map(np.array, (y, groups))
 
         LOGGER.info('Fitting data [number of points: {}, number of groups: {}]'.format(X.shape[0], len(set(groups))))
 
+        if self._classifier is None:
+            C = self.select_best_C(X, y, groups, k=2)
+            C = 100
+            cache_size = 10000
+            self._classifier = svm.SVC(kernel='linear', C=C, cache_size=cache_size)
+
         # Apply pairwise transform
         Xp, yp = self._pairwise_transformation(X, y, groups)
         Xp_norm = preprocessing.normalize(Xp)
-
-        if not self._classifier:
-            # TODO: (optional?) compute best C parameter (k-folded)
-            C = 100
-            cache_size = 10000
-            self._classifier = svm.SVC(
-                kernel='linear',
-                C=C,
-                cache_size=cache_size
-            )
 
         # Fit linear SVM
         LOGGER.info('Fitting classifier')
