@@ -177,8 +177,8 @@ def test_svm_rank():
 
     # Generate some fake data
     X, y, groups = [], [], []
-    nb_groups = 10
-    nb_points = 5
+    nb_groups = 4
+    nb_points = 3
     for group_id in range(nb_groups):
 
         # Add false points
