@@ -70,6 +70,22 @@ class LinearSVMRank(object):
         return Xp, yp
 
     def _select_best_C(self, X, y, groups, k=10, cache_size=10000):
+        """ Use k-fold cross validation to select the best C parameter for SVM.
+
+        :param X: the matrix describing the vectors
+        :type X: numpy.ndarray
+        :param y: the labels of the vectors
+        :type y: numpy.ndarray
+        :param groups: the labels of the groups
+        :type groups: numpy.ndarray
+        :param k: the number of folds to be used in cross validation
+        :type k: int
+        :param cache_size: the cache size used by SVM
+        :type cache_size: int
+
+        :return: The best C parameter for SVM
+        :rtype: float
+        """
         LOGGER.info('Selecting best C prameter using k-fold cross validation (k={}, cache_size={})'.format(k, cache_size))
         C_scores = []
 
@@ -125,7 +141,7 @@ class LinearSVMRank(object):
 
         return best_C
 
-    def fit(self, X, y, groups, kfold_C_param=True, C=1, k=10, cache_size=10000):
+    def fit(self, X, y, groups, kfold_C_param=True, C=1, k=10, cache_size=100):
         """Train the SVMRank model.
 
         :param X: the feature vectors to be used to train the model
@@ -134,6 +150,14 @@ class LinearSVMRank(object):
         :type y: list of int
         :param groups: the labels of the groups
         :type groups: list of int
+        :param kfold_C_param: enable k-fold cross validation to select parameter C (default is True)
+        :type kfold_C_param: bool
+        :param C: the C parameter to use in SVM, only used if kfold_C_param is False (default is 1)
+        :type C: float
+        :param k: the number of folds to be used in cross validation, only used if kfold_C_param is True (default is 10)
+        :type k: int
+        :param cache_size: specify the size of the kernel cache used by SVM (default is 100 MB)
+        :type cache_size: int
         """
         X = self._dv.fit_transform(X)
         y, groups = map(np.array, (y, groups))
