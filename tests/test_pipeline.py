@@ -89,9 +89,7 @@ def test_preprocessing(processing_directories, postaggers):
 
 
 def test_do_ner(processing_directories, crfsuite_citation_extractor):
-    """
-    Test the Named Entity Recognition step of the pipeline.
-    """
+    """Test the Named Entity Recognition step of the pipeline."""
     brat_script_path = pkg_resources.resource_filename(
         'citation_extractor',
         'Utils/conll02tostandoff.py'
@@ -115,9 +113,7 @@ def test_do_ner(processing_directories, crfsuite_citation_extractor):
 
 
 def test_do_relex_rulebased(processing_directories):
-    """
-    Test the Relation Extraction step of the pipeline.
-    """
+    """Test the Relation Extraction step of the pipeline."""
     inp_dir = processing_directories["ann"]
     docids = [
         file.replace('-doc-1.ann', '')
@@ -133,9 +129,7 @@ def test_do_relex_rulebased(processing_directories):
 
 @pytest.mark.skip
 def test_do_ned_fuzzymatching(processing_directories, citation_matcher):
-    """
-    Test the Named Entity Disambiguation step of the pipeline (baseline).
-    """
+    """Test the Named Entity Disambiguation step of the pipeline (baseline)."""
     inp_dir = processing_directories["ann"]
     docids = [
         file.replace('-doc-1.ann', '')

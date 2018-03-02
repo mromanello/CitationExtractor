@@ -75,6 +75,7 @@ class FeatureExtractor(object):
             self._me_prob = kwargs['mention_entity_prob']
             self._em_prob = kwargs['entity_mention_prob']
 
+    # TODO: remove method once moved to dask for parallelization
     def extract_unpack(self, extract_arguments):
         """Helper method to be used in parallel computation. It simply calls the FeatureExtractor.extract()
         method by unpacking the passed arguments.
@@ -115,7 +116,7 @@ class FeatureExtractor(object):
         :return: the features extracted from the mention and a candidate entity
         :rtype: dict
         """
-        LOGGER.info(
+        LOGGER.debug(
             u'Extracting features for {} {} ({})'.format(
                 m_surface,
                 m_scope,
@@ -371,7 +372,7 @@ class FeatureExtractor(object):
         :return: the features for the NIL candidate entity extracted from the other candidates
         :rtype: dict
         """
-        LOGGER.info('Extracting NIL features for ...')
+        LOGGER.debug('Extracting NIL features for ...')
         feature_vector = {}
 
         if not feature_dicts:
