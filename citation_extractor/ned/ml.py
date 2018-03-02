@@ -133,7 +133,7 @@ class LinearSVMRank(object):
             avg_score = avg(scores)
             C_scores.append((C, avg_score))
 
-        C_scores.sort(key=lambda tup: tup[1])
+        C_scores.sort(key=lambda tup: tup[1], reverse=True)
         best_C = C_scores[0][0]
         best_C_score = C_scores[0][1]
 
