@@ -175,39 +175,25 @@ def test_ml_citation_matcher(
 def test_svm_rank():
     lowb, upperb, shift = 0, 1, 1
 
-    # Generate two groups with 3 points each
-    X = [
-        dict(x=random.uniform(lowb, upperb), y=random.uniform(lowb, upperb)),
-        dict(x=random.uniform(lowb, upperb), y=random.uniform(lowb, upperb)),
-        dict(x=random.uniform(lowb, upperb) + shift, y=random.uniform(
-            lowb,
-            upperb
-        ) + shift),  # true one
-        dict(x=random.uniform(lowb, upperb), y=random.uniform(lowb, upperb)),
-        dict(x=random.uniform(lowb, upperb), y=random.uniform(lowb, upperb)),
-        dict(x=random.uniform(lowb, upperb) + shift, y=random.uniform(
-            lowb,
-            upperb
-        ) + shift)  # true one
-    ]
+    # Generate some fake data
+    X, y, groups = [], [], []
+    nb_groups = 10
+    nb_points = 5
+    for group_id in range(nb_groups):
+
+        # Add false points
+        for i in range(nb_points - 1):
+            X.append(dict(x=random.uniform(lowb, upperb), y=random.uniform(lowb, upperb)))
+            y.append(0)
+            groups.append(group_id)
+
+        # true point
+        X.append(dict(x=random.uniform(lowb, upperb) + shift, y=random.uniform(lowb, upperb) + shift))
+        y.append(1)
+        groups.append(group_id)
+
     print(X)
-    y = [
-        0,
-        0,
-        1,
-        0,
-        0,
-        1
-    ]
     print(y)
-    groups = [
-        0,
-        0,
-        0,
-        1,
-        1,
-        1
-    ]
     print(groups)
 
     # Fit the ranker
