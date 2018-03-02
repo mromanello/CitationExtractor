@@ -73,6 +73,11 @@ class LinearSVMRank(object):
         LOGGER.info('Selecting best C prameter using k-fold cross validation (k={}, cache_size={})'.format(k, cache_size))
         C_scores = []
 
+        total_nb_groups = len(set(groups))
+        if total_nb_groups < k:
+            LOGGER.warning('k ({0}) is greater than the number of groups ({1}). Using k = {1}'.format(k, total_nb_groups))
+            k = total_nb_groups
+
         for C in 10. ** np.arange(-3, 3):
             gkf = model_selection.GroupKFold(n_splits=k)
 
@@ -120,7 +125,7 @@ class LinearSVMRank(object):
 
         return best_C
 
-    def fit(self, X, y, groups):
+    def fit(self, X, y, groups, kfold_C_param=True, C=1, k=10, cache_size=10000):
         """Train the SVMRank model.
 
         :param X: the feature vectors to be used to train the model
@@ -136,9 +141,8 @@ class LinearSVMRank(object):
         LOGGER.info('Fitting data [number of points: {}, number of groups: {}]'.format(X.shape[0], len(set(groups))))
 
         if self._classifier is None:
-            C = self._select_best_C(X, y, groups, k=2)
-            C = 100
-            cache_size = 10000
+            if kfold_C_param:
+                C = self._select_best_C(X, y, groups, k=k, cache_size=cache_size)
             self._classifier = svm.SVC(kernel='linear', C=C, cache_size=cache_size)
 
         # Apply pairwise transform
