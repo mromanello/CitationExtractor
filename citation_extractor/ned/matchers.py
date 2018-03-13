@@ -140,9 +140,7 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
 
     @property
     def settings(self):
-        """
-        Prints to the stdout the settings of the CitationMatcher.
-        """
+        """Print to stdout the settings of the CitationMatcher."""
 
         prolog = "%s initialisation settings:" % self.__class__
 
@@ -703,39 +701,19 @@ class MLCitationMatcher(object):
                 candidates.remove(true_urn)
 
             # Extract features
-            feature_vectors = None
-            if self._settings["parallelize"]:
-                arguments = map(
-                    lambda candidate: dict(
-                        m_surface=surface,
-                        m_scope=scope,
-                        m_type=type,
-                        m_title_mentions=mentions_in_title,
-                        m_title=doc_title,
-                        m_doc_text=doc_text,
-                        m_other_mentions=other_mentions,
-                        candidates=candidate
-                    ),
-                    candidates
-                )
-                feature_vectors = pool.map(
-                    self._feature_extractor.extract_unpack,
-                    arguments
-                )
-            else:
-                feature_vectors = map(
-                    lambda candidate: self._feature_extractor.extract(
-                        m_surface=surface,
-                        m_scope=scope,
-                        m_type=type,
-                        m_title_mentions=mentions_in_title,
-                        m_title=doc_title,
-                        m_doc_text=doc_text,
-                        m_other_mentions=other_mentions,
-                        candidate_urn=candidate
-                    ),
-                    candidates
-                )
+            feature_vectors = map(
+                lambda candidate: self._feature_extractor.extract(
+                    m_surface=surface,
+                    m_scope=scope,
+                    m_type=type,
+                    m_title_mentions=mentions_in_title,
+                    m_title=doc_title,
+                    m_doc_text=doc_text,
+                    m_other_mentions=other_mentions,
+                    candidate_urn=candidate
+                ),
+                candidates
+            )
 
             # Append not-true candidates values
             for vector in feature_vectors:
@@ -795,6 +773,19 @@ class MLCitationMatcher(object):
         # Fit SVMRank
         self._ranker.fit(X, y, groups)
         self._is_trained = True
+
+    @property
+    def settings(self):
+        """Return a string with the settings of the CitationMatcher."""
+        prolog = "%s initialisation settings:" % self.__class__
+        settings = [
+            "{}: {}".format(setting, self._settings[setting])
+            for setting in self._settings.keys()
+        ]
+        settings.append("SVMRanker: {}".format(repr(self._ranker._classifier)))
+        settings.insert(0, prolog)
+        return "\n".join(settings)
+
 
     def disambiguate(
         self,
@@ -863,42 +854,19 @@ class MLCitationMatcher(object):
         )
 
         # Extract features
-        feature_vectors = None
-        if parallelize:
-            # TODO: the pool can be global to avoid create/destroy each time
-            pool = multiprocessing.Pool(processes=nb_processes)
-            arguments = map(
-                lambda candidate: dict(
-                    m_surface=surface,
-                    m_scope=scope,
-                    m_type=mention_type,
-                    m_title_mentions=mentions_in_title,
-                    m_title=doc_title,
-                    m_doc_text=doc_text,
-                    m_other_mentions=other_mentions,
-                    candidates=candidate
-                ),
-                candidates
-            )
-            feature_vectors = pool.map(
-                self._feature_extractor.extract_unpack_kwargs,
-                arguments
-            )
-            pool.terminate()
-        else:
-            feature_vectors = map(
-                lambda candidate: self._feature_extractor.extract(
-                    m_surface=surface,
-                    m_scope=scope,
-                    m_type=mention_type,
-                    m_title_mentions=mentions_in_title,
-                    m_title=doc_title,
-                    m_doc_text=doc_text,
-                    m_other_mentions=other_mentions,
-                    candidate_urn=candidate
-                ),
-                candidates
-            )
+        feature_vectors = map(
+            lambda candidate: self._feature_extractor.extract(
+                m_surface=surface,
+                m_scope=scope,
+                m_type=mention_type,
+                m_title_mentions=mentions_in_title,
+                m_title=doc_title,
+                m_doc_text=doc_text,
+                m_other_mentions=other_mentions,
+                candidate_urn=candidate
+            ),
+            candidates
+        )
 
         # Include NIL candidate if specified
         if include_nil:
