@@ -4,6 +4,7 @@ cd
 mkdir tree-tagger
 cd tree-tagger/
 wget http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/tree-tagger-linux-3.2.1.tar.gz
+#wget http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/tree-tagger-MacOSX-3.2.tar.gz
 wget http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/tagger-scripts.tar.gz
 wget http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/install-tagger.sh
 # parameter files for tagger
@@ -22,7 +23,7 @@ wget http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/german-chunker
 wget http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/spanish-chunker-par-linux-3.2-utf8.bin.gz
 # let's run the installation script
 chmod +x install-tagger.sh 
-#chown $USER:$USER -R .
-#chmod 777 -R . 
+chown $USER:$USER -R .
+chmod 777 -R . 
 ./install-tagger.sh
 rm *.gz

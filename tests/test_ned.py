@@ -154,6 +154,8 @@ def test_ml_citation_matcher(
         parallelize=False
     )
 
+    logger.info(cm.settings)
+
     for row_id, row in aph_testset_dataframe.head(100).iterrows():
         result = cm.disambiguate(
             row["surface"],

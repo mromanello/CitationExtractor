@@ -692,8 +692,17 @@ class FeatureExtractor(object):
     # String similarity features functions #
     ########################################
 
-    def _add_string_similarities(self, feature_vector, feat_prefix, surf, names):
-        """Add several features: string similarities between the surface form and the names of the candidate work/author
+    def _add_string_similarities(
+        self,
+        feature_vector,
+        feat_prefix,
+        surf,
+        names
+    ):
+        """Add several string similarity features.
+
+        Features represent string similarities between the surface form and the
+        names of the candidate work/author
 
         :param feature_vector: the feature vector
         :type feature_vector: dict
