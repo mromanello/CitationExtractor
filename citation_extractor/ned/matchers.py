@@ -674,6 +674,8 @@ class MLCitationMatcher(object):
         X, y, groups = [], [], []
         group_id = 0
 
+        all_candidates = self._cg.generate_candidates_parallel(train_data)
+
         for mention_id, row in train_data.iterrows():
             LOGGER.debug('Disambiguating {}'.format(mention_id))
 
@@ -686,56 +688,35 @@ class MLCitationMatcher(object):
             other_mentions = row['other_mentions']
             true_urn = row['urn_clean']
 
-            # Generate candidates
-            # TODO: why not `CandidatesGenerator.generate_candidates_parallel`?
-            # """
-            candidates = self._cg.generate_candidates(
-                surface,
-                type,
-                scope
-            )
-            """
-            candidates2 = self._cg.generate_candidates_parallel(train_data)
-            pdb.set_trace()
-            """
+            # Get pre-generated candidates
+            candidates = all_candidates[mention_id]
+
             # Remove true entity (need special treatment)
             if true_urn in candidates:
                 candidates.remove(true_urn)
 
             # Extract features
             feature_vectors = None
-            if self._settings["parallelize"]:
-                arguments = map(
-                    lambda candidate: dict(
-                        m_surface=surface,
-                        m_scope=scope,
-                        m_type=type,
-                        m_title_mentions=mentions_in_title,
-                        m_title=doc_title,
-                        m_doc_text=doc_text,
-                        m_other_mentions=other_mentions,
-                        candidates=candidate
-                    ),
-                    candidates
+            logger.info(
+                "Extracting features from {} candidates (parallel={})".format(
+                    len(candidates),
+                    self._settings["parallelize"]
                 )
-                feature_vectors = pool.map(
-                    self._feature_extractor.extract_unpack,
-                    arguments
-                )
-            else:
-                feature_vectors = map(
-                    lambda candidate: self._feature_extractor.extract(
-                        m_surface=surface,
-                        m_scope=scope,
-                        m_type=type,
-                        m_title_mentions=mentions_in_title,
-                        m_title=doc_title,
-                        m_doc_text=doc_text,
-                        m_other_mentions=other_mentions,
-                        candidate_urn=candidate
-                    ),
-                    candidates
-                )
+            )
+
+            feature_vectors = map(
+                lambda candidate: self._feature_extractor.extract(
+                    m_surface=surface,
+                    m_scope=scope,
+                    m_type=type,
+                    m_title_mentions=mentions_in_title,
+                    m_title=doc_title,
+                    m_doc_text=doc_text,
+                    m_other_mentions=other_mentions,
+                    candidate_urn=candidate
+                ),
+                candidates
+            )
 
             # Append not-true candidates values
             for vector in feature_vectors:

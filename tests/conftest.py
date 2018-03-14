@@ -18,7 +18,7 @@ from citation_extractor.ned.features import FeatureExtractor
 from knowledge_base import KnowledgeBase as KnowledgeBaseNew
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
 
 
 @fixture(scope="session")

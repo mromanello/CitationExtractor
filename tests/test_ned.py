@@ -148,12 +148,13 @@ def test_ml_citation_matcher(
         )
     )
     cm = MLCitationMatcher(
-        aph_goldset_dataframe.head(20),  # otherwise it takes >30mins to train
+        aph_goldset_dataframe.head(50),  # otherwise it takes >30mins to train
         feature_extractor=feature_extractor_quick,
+        include_nil=True,
         parallelize=False
     )
 
-    for row_id, row in aph_testset_dataframe.head(10).iterrows():
+    for row_id, row in aph_testset_dataframe.head(100).iterrows():
         result = cm.disambiguate(
             row["surface"],
             row["scope"],

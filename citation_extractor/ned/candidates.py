@@ -249,6 +249,9 @@ class CandidatesGenerator(object):
         print("Generating candidates in parallel")
 
         with ProgressBar():
-                candidates = compute(*tasks, get=mp_get)
-
+                result = compute(*tasks, get=mp_get)
+        candidates = {
+            mention_id: candidate_set
+            for mention_id, candidate_set in result
+        }
         return candidates

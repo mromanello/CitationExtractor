@@ -17,6 +17,7 @@ from citation_extractor.ned import AUTHOR_TYPE, WORK_TYPE, REFAUWORK_TYPE
 from citation_extractor.ned import NIL_URN, LANGUAGES, PREPS
 from citation_extractor.Utils.extra import avg
 
+import time
 import pkg_resources
 import pandas as pd
 import logging
