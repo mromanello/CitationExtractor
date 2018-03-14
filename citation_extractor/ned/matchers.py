@@ -694,7 +694,6 @@ class MLCitationMatcher(object):
                 candidates.remove(true_urn)
 
             # Extract features
-<<<<<<< HEAD
             feature_vectors = None
             logger.info(
                 "Extracting features from {} candidates (parallel={})".format(
@@ -703,8 +702,6 @@ class MLCitationMatcher(object):
                 )
             )
 
-=======
->>>>>>> f826359eabab50b692c3bde4864d5f993452ca13
             feature_vectors = map(
                 lambda candidate: self._feature_extractor.extract(
                     m_surface=surface,
