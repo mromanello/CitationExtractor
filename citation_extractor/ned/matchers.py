@@ -4,6 +4,8 @@
 """Contains various implementations of citation matchers."""
 
 from __future__ import print_function
+import os
+import pickle
 import sys
 import pdb
 import time
@@ -672,7 +674,17 @@ class MLCitationMatcher(object):
         X, y, groups = [], [], []
         group_id = 0
 
-        all_candidates = self._cg.generate_candidates_parallel(train_data)
+        pickle_path = "citation_extractor/data/pickles/all_candidates.pkl"
+        if os.path.exists(pickle_path):
+            with open(pickle_path, "rb") as pickle_file:
+                all_candidates = pickle.load(pickle_file)
+                LOGGER.info(
+                    "Loaded candidates from file {}".format(pickle_path)
+                )
+        else:
+            all_candidates = self._cg.generate_candidates_parallel(train_data)
+            with open(pickle_path, "wb") as pickle_file:
+                pickle.dump(all_candidates, pickle_file)
 
         for mention_id, row in train_data.iterrows():
             LOGGER.debug('Disambiguating {}'.format(mention_id))
@@ -786,7 +798,6 @@ class MLCitationMatcher(object):
         settings.append("SVMRanker: {}".format(repr(self._ranker._classifier)))
         settings.insert(0, prolog)
         return "\n".join(settings)
-
 
     def disambiguate(
         self,

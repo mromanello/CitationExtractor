@@ -148,10 +148,11 @@ def test_ml_citation_matcher(
         )
     )
     cm = MLCitationMatcher(
-        aph_goldset_dataframe.head(50),  # otherwise it takes >30mins to train
+        aph_goldset_dataframe.head(50),
+        # aph_goldset_dataframe,
         feature_extractor=feature_extractor_quick,
         include_nil=True,
-        parallelize=False
+        parallelize=True
     )
 
     logger.info(cm.settings)

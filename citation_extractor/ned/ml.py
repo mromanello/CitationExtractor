@@ -4,13 +4,16 @@
 # author: Matteo Filipponi
 
 from __future__ import print_function
+
 import logging
+import time
 
 import numpy as np
-from sklearn.feature_extraction import DictVectorizer
-from sklearn import svm, linear_model, cross_validation, preprocessing, model_selection
 
 from citation_extractor.Utils.extra import avg
+from sklearn import (cross_validation, linear_model, model_selection,
+                     preprocessing, svm)
+from sklearn.feature_extraction import DictVectorizer
 
 LOGGER = logging.getLogger(__name__)
 
@@ -86,27 +89,51 @@ class LinearSVMRank(object):
         :return: The best C parameter for SVM
         :rtype: float
         """
-        LOGGER.info('Selecting best C prameter using k-fold cross validation (k={}, cache_size={})'.format(k, cache_size))
+        LOGGER.info(
+            'Selecting best C prameter using k-fold cross\
+             validation (k={}, cache_size={})'.format(k, cache_size)
+        )
         C_scores = []
 
         total_nb_groups = len(set(groups))
         if total_nb_groups < k:
-            LOGGER.warning('k ({0}) is greater than the number of groups ({1}). Using k = {1}'.format(k, total_nb_groups))
+            LOGGER.warning(
+                'k ({0}) is greater than the number of\
+                groups ({1}). Using k = {1}'.format(k, total_nb_groups)
+            )
             k = total_nb_groups
 
         for C in 10. ** np.arange(-3, 3):
+            split_n = 0
             gkf = model_selection.GroupKFold(n_splits=k)
-
             scores = []
 
             for train, test in gkf.split(X, y, groups):
-                X_train, X_test, y_train, y_test, groups_train, groups_test = X[train], X[test], y[train], y[test], groups[train], groups[test]
+                split_n += 1
+                LOGGER.info(
+                    "Testing C param. {} (split {})".format(C, split_n)
+                )
+                X_train, X_test = X[train], X[test]
+                y_train, y_test = y[train], y[test]
+                groups_train, groups_test = groups[train], groups[test]
 
                 # Fit the model
-                classifier = svm.SVC(kernel='linear', C=C, cache_size=cache_size)
-                Xp, yp = self._pairwise_transformation(X_train, y_train, groups_train)
+                classifier = svm.SVC(
+                    kernel='linear',
+                    C=C,
+                    cache_size=cache_size
+                )
+                Xp, yp = self._pairwise_transformation(
+                    X_train,
+                    y_train,
+                    groups_train
+                )
                 Xp_norm = preprocessing.normalize(Xp)
+                LOGGER.info("Fitting classifier...")
+                start = time.clock()
                 classifier.fit(Xp_norm, yp)
+                end = time.clock()
+                LOGGER.info("Done fitting, took {} secs".format(end - start))
 
                 test_score = 0
                 nb_groups = len(set(groups_test))
@@ -137,7 +164,10 @@ class LinearSVMRank(object):
         best_C = C_scores[0][0]
         best_C_score = C_scores[0][1]
 
-        LOGGER.info('Selecting best C prameter using k-fold cross validation - Results:\n  Scores: {}\n  Best C: {}, Score: {}'.format(C_scores,best_C, best_C_score))
+        LOGGER.info('Selecting best C prameter using k-fold cross\
+         validation - Results:\n  Scores: {}\n  Best C: {}, Score: {}'.format(
+            C_scores, best_C, best_C_score
+        ))
 
         return best_C
 
@@ -150,7 +180,7 @@ class LinearSVMRank(object):
         :type y: list of int
         :param groups: the labels of the groups
         :type groups: list of int
-        :param kfold_C_param: enable k-fold cross validation to select parameter C (default is True)
+        :param kfold_C_param: enable k-fold cross validation to select parameter C (default is False)
         :type kfold_C_param: bool
         :param C: the C parameter to use in SVM, only used if kfold_C_param is False (default is 1)
         :type C: float
