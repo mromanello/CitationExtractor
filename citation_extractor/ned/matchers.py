@@ -572,16 +572,25 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
 
         assert surface is not None
 
-        # cleaned_surface = StringUtils.remove_punctuation(surface, keep_dots=True).strip() if scope is not None else StringUtils.remove_punctuation(surface)
         cleaned_surface = StringUtils.normalize(surface)
-        logger.debug("Citation string before and after cleaning: \"%s\" => \"%s\"" % (surface, cleaned_surface))
+        logger.debug(
+            "Citation string before/after cleaning: \"{}\" => \"{}\"".format(
+                surface,
+                cleaned_surface
+            )
+        )
 
         # TODO: log the result
         if scope is None:
             return self._disambiguate_entity(cleaned_surface, entity_type)
 
         elif scope is not None:
-            return self._disambiguate_relation(cleaned_surface, entity_type, scope, n_results)
+            return self._disambiguate_relation(
+                cleaned_surface,
+                entity_type,
+                scope,
+                n_results
+            )
 
 
 class MLCitationMatcher(object):
@@ -674,6 +683,7 @@ class MLCitationMatcher(object):
         X, y, groups = [], [], []
         group_id = 0
 
+        # TODO: remove from production
         pickle_path = "citation_extractor/data/pickles/all_candidates.pkl"
         if os.path.exists(pickle_path):
             with open(pickle_path, "rb") as pickle_file:

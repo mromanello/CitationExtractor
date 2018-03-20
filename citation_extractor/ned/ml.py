@@ -11,7 +11,6 @@ import pdb
 
 import numpy as np
 from dask import delayed, compute
-from dask.distributed import Client, progress
 
 from citation_extractor.Utils.extra import avg
 from sklearn import (model_selection, preprocessing, svm)

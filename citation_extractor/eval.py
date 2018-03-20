@@ -41,7 +41,7 @@ from citation_extractor.crfpp_wrap import CRF_classifier
 from citation_extractor.Utils import IO
 from citation_extractor.Utils.IO import read_ann_file, read_ann_file_new, init_logger, NIL_ENTITY
 # TODO: in the long run, remove `SimpleEvaluator` and `CrossEvaluator`
-#   and generally the `miguno` library as a dependency (use `sklearn` instead) 
+#   and generally the `miguno` library as a dependency (use `sklearn` instead)
 #from miguno.partitioner import *
 #from miguno.crossvalidationdataconstructor import *
 import pprint

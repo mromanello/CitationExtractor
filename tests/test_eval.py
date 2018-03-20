@@ -38,13 +38,19 @@ def _pprocess(datum, citation_matcher):
         logger.debug("%i - %s - %s" % (n, id, disambiguation_result.urn))
         return (id, str(disambiguation_result.urn))
     except Exception as e:
-        logger.error("Disambiguation of %s raised the following error: %s" % (id, e))
+        logger.error(
+            "Disambiguation of %s raised the following error: %s" % (id, e)
+        )
         disambiguation_result = None
         logger.debug("%i - %s - %s" % (n, id, disambiguation_result))
         return (id, disambiguation_result)
 
 
-def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
+def test_eval_ned_baseline(
+    aph_testset_dataframe,
+    aph_test_ann_files,
+    aph_goldset_dataframe
+):
     """TODO."""
     ann_dir, ann_files = aph_test_ann_files
     testset_gold_df = aph_testset_dataframe
@@ -57,9 +63,10 @@ def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
 
     kb_cfg_file = pkg_resources.resource_filename(
         'knowledge_base',
-        'config/virtuoso_local.ini'
+        'config/virtuoso.ini'
     )
     kb = KnowledgeBase(kb_cfg_file)
+    pickle_path = "citation_extractor/data/pickles/kb_data.pkl"
     """
     kb_data = {
             "author_names": kb.author_names
@@ -68,11 +75,10 @@ def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
             , "work_abbreviations": kb.work_abbreviations
             }
 
-    with codecs.open("citation_extractor/data/pickles/kb_data.pkl","wb") as pickle_file:
+    with codecs.open(pickle_path, "wb") as pickle_file:
         pickle.dump(kb_data, pickle_file)
     """
-
-    with codecs.open("citation_extractor/data/pickles/kb_data.pkl","rb") as pickle_file:
+    with codecs.open(pickle_path, "rb") as pickle_file:
         kb_data = pickle.load(pickle_file)
 
     cms = {}
@@ -125,47 +131,80 @@ def test_eval_ned_baseline(aph_testset_dataframe, aph_test_ann_files):
         testset_target_df = testset_gold_df.copy()
 
         # run the parallel processing of records
-        results = parmap.map(_pprocess, ((n, row[0], row[1]) for n, row in enumerate(testset_target_df.iterrows())), cm)
+        results = parmap.map(
+            _pprocess,
+            (
+                (n, row[0], row[1])
+                for n, row in enumerate(testset_target_df.iterrows())
+            ),
+            cm
+        )
 
         # collect the results and update the dataframe
         for instance_id, urn in results:
             testset_target_df.loc[instance_id]["urn_clean"] = urn
 
-        # save pickle for later
-        #testset_target_df.to_pickle("citation_extractor/data/pickles/test_target_dataframe_%s.pkl" % key)
-
-        scores, accuracy_by_type, error_types, errors = evaluate_ned(testset_gold_df, ann_dir, testset_target_df, strict=True)
+        scores, accuracy_by_type, error_types, errors = evaluate_ned(
+            testset_gold_df,
+            ann_dir,
+            testset_target_df,
+            strict=True
+        )
 
         # aggregate and format the evaluation measure already with percentages
-        scores = {score_key: "%.2f%%" % (scores[score_key]*100) for score_key in scores}
+        scores = {
+            score_key: "%.2f%%" % (scores[score_key] * 100)
+            for score_key in scores
+        }
         scores["id"] = key
         comp_evaluation.append(scores)
 
         # aggregate and format the accuracy by type already with percentages
-        accuracy = {type_key : "%.2f%%" % (accuracy_by_type[type_key]*100) for type_key in accuracy_by_type}
+        accuracy = {
+            type_key: "%.2f%%" % (accuracy_by_type[type_key] * 100)
+            for type_key in accuracy_by_type
+        }
         accuracy["id"] = key
         comp_accuracy_by_type.append(accuracy)
 
-    comp_evaluation_df = pd.DataFrame(comp_evaluation, index=[score["id"] for score in comp_evaluation])
-    del comp_evaluation_df["id"] # we don't need it twice (already in the index)
+    comp_evaluation_df = pd.DataFrame(
+        comp_evaluation,
+        index=[score["id"] for score in comp_evaluation]
+    )
+    del comp_evaluation_df["id"]  # (already in the index)
 
-    comp_accuracy_by_type_df = pd.DataFrame(comp_accuracy_by_type, index=[accuracy["id"] for accuracy in comp_accuracy_by_type])
-    del comp_accuracy_by_type_df["id"] # we don't need it twice (already in the index)
+    comp_accuracy_by_type_df = pd.DataFrame(
+        comp_accuracy_by_type,
+        index=[accuracy["id"] for accuracy in comp_accuracy_by_type]
+    )
+    del comp_accuracy_by_type_df["id"]  # (already in the index)
 
-    logger.info("\n" + tabulate(comp_evaluation_df, headers=comp_evaluation_df.columns))
-    logger.info("\n" + tabulate(comp_accuracy_by_type_df, headers=comp_accuracy_by_type_df.columns))
-    logger.info("\n" + "\n".join(["%s: %s" % (key, cms[key].settings) for key in cms]))
+    logger.info(
+        "\n" + tabulate(
+            comp_evaluation_df,
+            headers=comp_evaluation_df.columns
+        )
+    )
+    logger.info(
+        "\n" + tabulate(
+            comp_accuracy_by_type_df,
+            headers=comp_accuracy_by_type_df.columns
+        )
+    )
+    logger.info(
+        "\n" + "\n".join(["%s: %s" % (key, cms[key].settings) for key in cms])
+    )
 
 
 def test_eval_ner(
-        #crf_citation_extractor,
+        # crf_citation_extractor,
         crfsuite_citation_extractor,
         svm_citation_extractor,
         maxent_citation_extractor
 ):
     """Evaluate various models for the NER step."""
     extractors = [
-        #("crf++", crf_citation_extractor),
+        # ("crf++", crf_citation_extractor),
         ("crfsuite", crfsuite_citation_extractor),
         ("svm", svm_citation_extractor),
         ("MaxEnt", maxent_citation_extractor)

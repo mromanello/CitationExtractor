@@ -254,7 +254,7 @@ def citation_matcher(knowledge_base):
 
 @fixture(scope="session")
 def knowledge_base():
-    """Initialisea HuCit KnowledgeBase (new version, standalone package)."""
+    """Initialise a HuCit KnowledgeBase (new version, standalone package)."""
     try:
         config_file = pkg_resources.resource_filename(
             'knowledge_base',
