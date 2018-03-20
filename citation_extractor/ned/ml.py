@@ -139,6 +139,7 @@ class LinearSVMRank(object):
                 for train, test in gkf.split(X, y, groups)
             ]
             scores = compute(*tasks)
+            LOGGER.info("Scores {}".format(scores))
             avg_score = avg(scores)
             LOGGER.info("Done testing C={}: avg score={}".format(C, avg_score))
             return (C, avg_score)
@@ -185,7 +186,7 @@ class LinearSVMRank(object):
                 if is_correct:
                     nb_correct += 1
 
-            test_score = nb_correct / nb_groups
+            test_score = float(nb_correct) / float(nb_groups)
             return test_score
 
         # adjust number of folds (k) based on number of groups (instances)
