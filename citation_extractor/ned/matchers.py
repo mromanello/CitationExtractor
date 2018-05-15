@@ -52,6 +52,38 @@ def longest_common_substring(s1, s2):
     return s1[x_longest - longest: x_longest]
 
 
+def select_lcs_match(citation_string, matches, n_guess=1):
+    """TODO."""
+    # iterate and get what's the lowest ed_score
+    # then keep only the matches with lowest (best) score
+    # then keep the one with longest common string
+    lowest_score = 1000
+
+    for m in matches:
+        score = m[2]
+        if score < lowest_score:
+            lowest_score = score
+
+    filtered_matches = [m for m in matches if m[2] == lowest_score]
+
+    best_match = ("", None)
+
+    if(lowest_score > 0):
+        for match in filtered_matches:
+            lcs = longest_common_substring(match[1], citation_string)
+            if(len(lcs) > len(best_match[0])):
+                best_match = (lcs, match)
+        match = [best_match[1]]
+        logger.debug("Longest_common_substring selected %s out of %s" % (
+            match,
+            filtered_matches
+        ))
+    else:
+        # TODO: use context here to disambiguate
+        match = matches[:n_guess]
+    return match
+
+
 class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
     """
     TODO
@@ -182,6 +214,26 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
         else:
             # is not range
             return ".".join(scope_dictionary["start"])
+
+    def _consolidate_result(
+        self,
+        urn_string,
+        citation_string,
+        entity_type,
+        scope
+    ):
+        urn = CTS_URN(urn_string)
+
+        # check: does the URN have a scope but is missing the work element
+        if(urn.work is None):
+            # if so, try to get the opus maximum from the KB
+            opmax = self._kb.get_opus_maximum_of(urn)
+
+            if(opmax is not None):
+                logger.debug("%s is opus maximum of %s" % (opmax, urn))
+                urn = CTS_URN("{}".format(opmax.get_urn()))
+
+        return Result(citation_string, entity_type, scope, urn)
 
     def _disambiguate_relation(self, citation_string, entity_type, scope, n_guess=1):  # TODO: finish debugging
         """
@@ -336,7 +388,7 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
 
                 if (opmax is not None):
                     logger.debug("%s is opus maximum of %s" % (opmax, urn))
-                    urn = CTS_URN("%s:%s" % (opmax, formatted_scope))
+                    urn = CTS_URN("{}".format(opmax.get_urn()))
 
             return Result(citation_string, entity_type, scope, urn)
 
@@ -574,7 +626,7 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
 
         cleaned_surface = StringUtils.normalize(surface)
         logger.debug(
-            "Citation string before/after cleaning: \"{}\" => \"{}\"".format(
+            u"Citation string before/after cleaning: \"{}\" => \"{}\"".format(
                 surface,
                 cleaned_surface
             )
