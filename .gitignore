@@ -29,5 +29,5 @@ dist/
 .idea
 
 # Misc
-.coverage
+.coverage*
 \#*#
