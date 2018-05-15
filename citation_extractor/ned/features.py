@@ -45,6 +45,9 @@ class FeatureExtractor(object):
         """
         LOGGER.info('Initializing Feature Extractor')
 
+        # TODO: if all necessary pickle files are available
+        # just initialise using them
+
         if kb is not None:
             self._kb_norm_authors = self._normalize_kb_authors(kb)
             self._kb_norm_works = self._normalize_kb_works(kb)

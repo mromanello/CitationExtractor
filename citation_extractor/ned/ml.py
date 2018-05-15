@@ -242,6 +242,7 @@ class LinearSVMRank(object):
         LOGGER.info('Fitting data [number of points: {}, number of groups: {}]'.format(X.shape[0], len(set(groups))))
 
         if self._classifier is None:
+            LOGGER.info("Find C is {}".format(kfold_C_param))
             if kfold_C_param:
                 C = self._select_best_C(X, y, groups, k=k, cache_size=cache_size)
             self._classifier = svm.SVC(kernel='linear', C=C, cache_size=cache_size)

@@ -16,7 +16,7 @@ import multiprocessing as mp
 import citation_extractor
 from tabulate import tabulate
 from citation_extractor.eval import evaluate_ned
-from citation_extractor.ned import CitationMatcher
+from citation_extractor.ned.matchers import CitationMatcher
 from citation_extractor.Utils.IO import file_to_instances
 from knowledge_base import KnowledgeBase
 from sklearn import metrics
@@ -44,6 +44,43 @@ def _pprocess(datum, citation_matcher):
         disambiguation_result = None
         logger.debug("%i - %s - %s" % (n, id, disambiguation_result))
         return (id, disambiguation_result)
+
+
+def test_eval_ned_ml(
+    ml_citation_matcher,
+    aph_testset_dataframe,
+    aph_test_ann_files
+):
+    """Evaluate the ML-Matcher."""
+    ann_dir, ann_files = aph_test_ann_files
+    aph_goldset_dataframe = aph_testset_dataframe.copy()
+    cm = ml_citation_matcher
+
+    for row_id, row in aph_testset_dataframe.iterrows():
+        result = cm.disambiguate(
+            row["surface"],
+            row["scope"],
+            row["type"],
+            row["doc_title"],
+            row["doc_title_mentions"],
+            row["doc_text"],
+            row["other_mentions"],
+        )
+
+        aph_testset_dataframe.loc[row_id]["urn_clean"] = result.urn
+
+        logger.info(u'Disambiguation for {} ({}): {}'.format(
+            row["surface"],
+            row["scope"],
+            result.urn
+        ))
+
+    scores, accuracy_by_type, error_types, errors = evaluate_ned(
+        aph_goldset_dataframe,
+        ann_dir,
+        aph_testset_dataframe,
+        strict=True
+    )
 
 
 def test_eval_ned_baseline(

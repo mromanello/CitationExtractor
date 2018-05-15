@@ -3,6 +3,7 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
+import os
 import pickle
 import pytest
 import pprint
@@ -13,7 +14,7 @@ import pandas as pd
 from citation_extractor import pipeline
 from citation_extractor.Utils.IO import load_brat_data
 from citation_extractor.settings import crf, svm, maxent, crfsuite
-from citation_extractor.ned.matchers import CitationMatcher
+from citation_extractor.ned.matchers import CitationMatcher, MLCitationMatcher
 from citation_extractor.ned.features import FeatureExtractor
 from knowledge_base import KnowledgeBase as KnowledgeBaseNew
 
@@ -181,33 +182,36 @@ def aph_testset_dataframe(
     aph_titles
 ):
     """Return a pandas DataFrame containing the APh data for testing."""
-    logger.info(
-        "Loading test set data (%i documents) from %s" % (
-            len(aph_test_ann_files[1]),
-            aph_test_ann_files[0]
+    pickle_path = pkg_resources.resource_filename(
+        'citation_extractor',
+        'data/pickles/aph_test_df.pkl'
+    )
+    if os.path.exists(pickle_path):
+        logger.info("Read in pickled dataset {}".format(pickle_path))
+        return pd.read_pickle(pickle_path)
+    else:
+        logger.info(
+            "Loading test set data (%i documents) from %s" % (
+                len(aph_test_ann_files[1]),
+                aph_test_ann_files[0]
+            )
         )
-    )
-    dataframe = load_brat_data(
-        crfsuite_citation_extractor,
-        knowledge_base,
-        postaggers,
-        aph_test_ann_files,
-        aph_titles
-    )
-
-    # save for later
-    dataframe.to_pickle(
-        pkg_resources.resource_filename(
-            'citation_extractor',
-            'data/pickles/aph_test_df.pkl'
+        dataframe = load_brat_data(
+            crfsuite_citation_extractor,
+            knowledge_base,
+            postaggers,
+            aph_test_ann_files,
+            aph_titles
         )
-    )
 
-    assert dataframe is not None
-    assert isinstance(dataframe, pd.DataFrame)
-    assert dataframe.shape[0] > 0
+        # save for later
+        dataframe.to_pickle(pickle_path)
 
-    return dataframe
+        assert dataframe is not None
+        assert isinstance(dataframe, pd.DataFrame)
+        assert dataframe.shape[0] > 0
+
+        return dataframe
 
 
 @fixture(scope="session")
@@ -219,31 +223,46 @@ def aph_goldset_dataframe(
     aph_titles
 ):
     """Return a pandas DataFrame containing the APh data for training."""
-    logger.info(
-        "Loading training set data ({} documents) from {}".format(
-            len(aph_gold_ann_files[1]),
-            aph_gold_ann_files[0]
+    pickle_path = pkg_resources.resource_filename(
+        'citation_extractor',
+        'data/pickles/aph_gold_df.pkl'
+    )
+    if os.path.exists(pickle_path):
+        logger.info("Read in pickled dataset {}".format(pickle_path))
+        return pd.read_pickle(pickle_path)
+    else:
+        logger.info(
+            "Loading training set data ({} documents) from {}".format(
+                len(aph_gold_ann_files[1]),
+                aph_gold_ann_files[0]
+            )
         )
-    )
-    dataframe = load_brat_data(
-        crfsuite_citation_extractor,
-        knowledge_base,
-        postaggers,
-        aph_gold_ann_files,
-        aph_titles
-    )
-    # save for later
-    dataframe.to_pickle(
-        pkg_resources.resource_filename(
-            'citation_extractor',
-            'data/pickles/aph_gold_df.pkl'
+        dataframe = load_brat_data(
+            crfsuite_citation_extractor,
+            knowledge_base,
+            postaggers,
+            aph_gold_ann_files,
+            aph_titles
         )
-    )
-    assert dataframe is not None
-    assert isinstance(dataframe, pd.DataFrame)
-    assert dataframe.shape[0] > 0
+        # save for later
+        dataframe.to_pickle(pickle_path)
+        assert dataframe is not None
+        assert isinstance(dataframe, pd.DataFrame)
+        assert dataframe.shape[0] > 0
 
-    return dataframe
+        return dataframe
+
+
+@fixture(scope="session")
+def ml_citation_matcher(feature_extractor_quick, aph_goldset_dataframe):
+    matcher = MLCitationMatcher(
+        aph_goldset_dataframe,
+        feature_extractor=feature_extractor_quick,
+        include_nil=True,
+        parallelize=True,
+        C=10
+    )
+    return matcher
 
 
 @fixture(scope="session")

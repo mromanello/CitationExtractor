@@ -638,6 +638,16 @@ class MLCitationMatcher(object):
         else:
             self._settings["nb_processes"] = 10
 
+        if "C" in kwargs:
+            self._settings["C_param"] = kwargs["C"]
+        else:
+            self._settings["C_param"] = 10
+
+        if "find_C" in kwargs:
+            self._settings["find_C"] = True
+        else:
+            self._settings["find_C"] = False
+
         # normalize authors and works once, the pass to both
         # CandidatesGenerator and FeatureExtractor
         self._kb_norm_authors = self._feature_extractor._kb_norm_authors
@@ -657,6 +667,7 @@ class MLCitationMatcher(object):
         LOGGER.info("ML-Citation Matcher initialized (took {} secs)".format(
             time.clock()
         ))
+
         self._train(train_data)
 
     def _train(self, train_data, nb_processes=10):
@@ -794,7 +805,13 @@ class MLCitationMatcher(object):
             pool.terminate()
 
         # Fit SVMRank
-        self._ranker.fit(X, y, groups)
+        self._ranker.fit(
+            X,
+            y,
+            groups,
+            C=self._settings["C_param"],
+            kfold_C_param=self._settings["find_C"]
+        )
         self._is_trained = True
 
     @property
