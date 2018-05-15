@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
-import ipdb as pdb
 import pytest
 import logging
 import pickle
@@ -17,24 +16,12 @@ import random
 logger = logging.getLogger(__name__)
 
 
-# TODO: move this test somewhere else
-@pytest.mark.skip
-def test_pickle_kb(knowledge_base):
-    """Tests whether instances of `KnowledgeBase` can be pickled."""
-    pickled_kb = pickle.dumps(knowledge_base)
-    unpickled_kb = pickle.loads(pickled_kb)
-    logger.info(
-        "The KnowledgeBase contains %i author names" % len(
-            unpickled_kb.author_names
-        )
-    )
-
-
 @pytest.mark.skip
 def test_pickle_citation_matcher(citation_matcher):
     """Test whether instances of `CitationMatcher` can be pickled."""
     pickled_citation_matcher = pickle.dumps(citation_matcher)
     unpickled_citation_matcher = pickle.loads(pickled_citation_matcher)
+    assert unpickled_citation_matcher is not None
 
 
 def test_extract_features(feature_extractor_quick, aph_testset_dataframe):
@@ -191,12 +178,22 @@ def test_svm_rank():
 
         # Add false points
         for i in range(nb_points - 1):
-            X.append(dict(x=random.uniform(lowb, upperb), y=random.uniform(lowb, upperb)))
+            X.append(
+                dict(
+                    x=random.uniform(lowb, upperb),
+                    y=random.uniform(lowb, upperb)
+                )
+            )
             y.append(0)
             groups.append(group_id)
 
         # true point
-        X.append(dict(x=random.uniform(lowb, upperb) + shift, y=random.uniform(lowb, upperb) + shift))
+        X.append(
+            dict(
+                x=random.uniform(lowb, upperb) + shift,
+                y=random.uniform(lowb, upperb) + shift
+            )
+        )
         y.append(1)
         groups.append(group_id)
 

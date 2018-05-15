@@ -20,12 +20,16 @@ from citation_extractor.ned.matchers import CitationMatcher
 from citation_extractor.Utils.IO import file_to_instances
 from knowledge_base import KnowledgeBase
 from sklearn import metrics
+from dask import compute, delayed
+from dask.multiprocessing import get as mp_get
+from dask.diagnostics import ProgressBar
 
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
+@delayed
 def _pprocess(datum, citation_matcher):
     """Use parallel processing for disambiguation."""
     n, id, instance = datum
@@ -35,7 +39,7 @@ def _pprocess(datum, citation_matcher):
             instance["type"],
             instance["scope"]
         )
-        logger.debug("%i - %s - %s" % (n, id, disambiguation_result.urn))
+        logger.debug(u"%i - %s - %s" % (n, id, disambiguation_result.urn))
         return (id, str(disambiguation_result.urn))
     except Exception as e:
         logger.error(
@@ -86,7 +90,8 @@ def test_eval_ned_ml(
 def test_eval_ned_baseline(
     aph_testset_dataframe,
     aph_test_ann_files,
-    aph_goldset_dataframe
+    aph_goldset_dataframe,
+    knowledge_base
 ):
     """TODO."""
     ann_dir, ann_files = aph_test_ann_files
@@ -98,11 +103,7 @@ def test_eval_ned_baseline(
         )
     )
 
-    kb_cfg_file = pkg_resources.resource_filename(
-        'knowledge_base',
-        'config/virtuoso.ini'
-    )
-    kb = KnowledgeBase(kb_cfg_file)
+    kb = knowledge_base
     pickle_path = "citation_extractor/data/pickles/kb_data.pkl"
     """
     kb_data = {
@@ -164,18 +165,18 @@ def test_eval_ned_baseline(
     # carry out the evaluation and store the results in two temporary lists
     # (to be transformed later on into two dataframes)
     for key in sorted(cms.keys()):
+        logger.info("Evaluating matcher {}".format(key))
         cm = cms[key]
         testset_target_df = testset_gold_df.copy()
 
         # run the parallel processing of records
-        results = parmap.map(
-            _pprocess,
-            (
-                (n, row[0], row[1])
-                for n, row in enumerate(testset_target_df.iterrows())
-            ),
-            cm
-        )
+        tasks = [
+            _pprocess((n, row[0], row[1]), cm)
+            for n, row in enumerate(testset_target_df.iterrows())
+        ]
+
+        with ProgressBar():
+            results = compute(*tasks, get=mp_get)
 
         # collect the results and update the dataframe
         for instance_id, urn in results:
