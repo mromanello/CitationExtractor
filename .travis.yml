@@ -16,6 +16,6 @@ install:
 # command to run tests
 #script: pytest -vv --cov=citation_extractor tests/test_Utils.py tests/test_ned.py
 #script: pytest -vv --cov=citation_extractor
-script: travis_wait 30 pytest -vv --cov=citation_extractor
+script: pytest -vv --cov=citation_extractor
 after_success:
   - codecov
