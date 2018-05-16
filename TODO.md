@@ -1,6 +1,6 @@
 ## integration of ML-Matcher into the codebase
 
-* [ ] evaluation of `MLCitationMatcher` (via `tests/test_eval.py`)
+* [x] evaluation of `MLCitationMatcher` (via `tests/test_eval.py`)
 * [x] parallelise train/disambiguate/feature extraction with `dask`
 * [x] write test `FeatureExtractor.extract_nil` (mr)
 * [x] write tests for `ned.candidates.CandidatesGenerator` (mr)
