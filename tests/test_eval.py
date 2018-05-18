@@ -73,7 +73,8 @@ def test_eval_ned_ml(
 
         aph_testset_dataframe.loc[row_id]["urn_clean"] = result.urn
 
-        logger.info(u'Disambiguation for {} ({}): {}'.format(
+        logger.info(u'[{}] Disambiguation for {} ({}): {}'.format(
+            row_id,
             row["surface"],
             row["scope"],
             result.urn
