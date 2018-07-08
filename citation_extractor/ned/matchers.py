@@ -760,7 +760,7 @@ class MLCitationMatcher(object):
                 pickle.dump(all_candidates, pickle_file)
 
         for mention_id, row in train_data.iterrows():
-            LOGGER.debug('Disambiguating {}'.format(mention_id))
+            LOGGER.info('Training with mention {}'.format(mention_id))
 
             surface = row['surface_norm_dots']
             scope = row['scope']
@@ -779,7 +779,6 @@ class MLCitationMatcher(object):
                 candidates.remove(true_urn)
 
             # Extract features
-            feature_vectors = None
             logger.info(
                 "Extracting features from {} candidates (parallel={})".format(
                     len(candidates),
@@ -938,13 +937,16 @@ class MLCitationMatcher(object):
             )
 
         # Generate candidates
+        LOGGER.info('Generating candidates')
         candidates = self._cg.generate_candidates(
             surface,
             mention_type,
             scope
         )
+        LOGGER.info('Generated {} candidates'.format(len(candidates)))
 
         # Extract features
+        LOGGER.info('Extracting features for each (mention, candidate) couple')
         feature_vectors = map(
             lambda candidate: self._feature_extractor.extract(
                 m_surface=surface,
@@ -961,7 +963,7 @@ class MLCitationMatcher(object):
 
         # Include NIL candidate if specified
         if include_nil:
-            LOGGER.debug('Including NIL entity as candidate')
+            LOGGER.info('Including NIL entity as candidate')
             candidates.append(NIL_URN)
             nil_feature_vector = self._feature_extractor.extract_nil(
                 m_type=mention_type,
@@ -973,6 +975,7 @@ class MLCitationMatcher(object):
         # Check whether there are no candidates (in case of not include_nil)
         # or just one
         if len(candidates) == 0:
+            LOGGER.info('Zero candidates. Returning NIL')
             return Result(
                 mention=surface,
                 entity_type="type",
@@ -980,6 +983,7 @@ class MLCitationMatcher(object):
                 urn=NIL_URN
             )
         elif len(candidates) == 1:
+            LOGGER.info('Exactly one candidate. Skipping ranking.')
             return Result(
                 mention=surface,
                 entity_type="type",

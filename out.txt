@@ -1,0 +1,23 @@
+============================= test session starts ==============================
+platform darwin -- Python 2.7.10, pytest-3.4.0, py-1.5.2, pluggy-0.6.0 -- /Users/matteo/virtualenvs/pdm/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/matteo/EPFL/pdm/CitationExtractor, inifile: pytest.ini
+plugins: cov-2.5.1
+collecting ... CRFPP library was not found and won't be used
+collected 1 item
+
+tests/test_eval.py::test_eval_ned_ml Precision 54.89%
+Recall 42.81%
+Fscore 48.11%
+Accuracy 47.66%
+
+Accuracy by type:
+AAUTHOR: 63.30%
+AWORK: 37.74%
+NIL: 86.67%
+scope-AAUTHOR: 50.00%
+scope-AWORK: 22.22%
+scope-REFAUWORK: 4.08%
+PASSED
+
+========================== 1 passed in 612.41 seconds ==========================

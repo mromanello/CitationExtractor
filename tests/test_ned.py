@@ -181,7 +181,8 @@ def test_svm_rank():
             X.append(
                 dict(
                     x=random.uniform(lowb, upperb),
-                    y=random.uniform(lowb, upperb)
+                    y=random.uniform(lowb, upperb),
+                    z=False
                 )
             )
             y.append(0)
@@ -191,7 +192,8 @@ def test_svm_rank():
         X.append(
             dict(
                 x=random.uniform(lowb, upperb) + shift,
-                y=random.uniform(lowb, upperb) + shift
+                y=random.uniform(lowb, upperb) + shift,
+                z=False
             )
         )
         y.append(1)

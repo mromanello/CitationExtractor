@@ -190,8 +190,8 @@ class FeatureExtractor(object):
 
             if prob:
                 self._add_prior_prob(feature_vector, 'ANS_prob_entity_prior', candidate_urn)
-                # self.add_me_prob(feature_vector, 'ANS_prob_m_given_e', surf, candidate_urn)
-                # self.add_em_prob(feature_vector, 'ANS_prob_e_given_m', surf, candidate_urn)
+                # self._add_me_prob(feature_vector, 'ANS_prob_m_given_e', surf, candidate_urn)
+                # self._add_em_prob(feature_vector, 'ANS_prob_e_given_m', surf, candidate_urn)
 
         # The mention is an author name but searching for a work
         elif m_type == AUTHOR_TYPE and m_scope:
@@ -232,6 +232,11 @@ class FeatureExtractor(object):
                     m_other_mentions,
                     candidate_urn
                 )
+
+            if prob:
+                self._add_prior_prob(feature_vector, 'AS_prob_entity_prior', candidate_urn)
+                # self._add_me_prob(feature_vector, 'AS_prob_m_given_e', surf, candidate_urn)
+                self._add_em_prob(feature_vector, 'AS_prob_e_given_m', surf, candidate_urn)
 
         # The mention is a work name and searching for a work
         elif m_type == WORK_TYPE:
@@ -279,8 +284,8 @@ class FeatureExtractor(object):
                     'W_prob_entity_prior',
                     candidate_urn
                 )
-                # self.add_me_prob(feature_vector, 'W_prob_m_given_e', surf, candidate_urn)
-                # self.add_em_prob(feature_vector, 'W_prob_e_given_m', surf, candidate_urn)
+                # self._add_me_prob(feature_vector, 'W_prob_m_given_e', surf, candidate_urn)
+                # self._add_em_prob(feature_vector, 'W_prob_e_given_m', surf, candidate_urn)
 
         # The mention is an author name, work name or mixed
         # and searching for a work
@@ -350,7 +355,7 @@ class FeatureExtractor(object):
                     'R_prob_entity_prior',
                     candidate_urn
                 )
-                # self.add_me_prob(feature_vector, 'R_prob_m_given_e', surf, candidate_urn)
+                # self._add_me_prob(feature_vector, 'R_prob_m_given_e', surf, candidate_urn)
                 self._add_em_prob(
                     feature_vector,
                     'R_prob_e_given_m',
