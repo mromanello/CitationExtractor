@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
+from __future__ import print_function
+
 import pdb
 import glob
 import pandas as pd
@@ -23,7 +25,6 @@ from sklearn import metrics
 from dask import compute, delayed
 from dask.multiprocessing import get as mp_get
 from dask.diagnostics import ProgressBar
-
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -50,11 +51,97 @@ def _pprocess(datum, citation_matcher):
         return (id, disambiguation_result)
 
 
-def test_eval_ned_ml(
-    ml_citation_matcher,
-    aph_testset_dataframe,
-    aph_test_ann_files
-):
+def test_eval_ned_ml_debug():
+    """DEBUGGING............"""
+
+    print('Starting...')
+
+    INCLUDE_NIL = False
+
+    from citation_extractor.Utils.gutenberg import print_df_distribution
+    from citation_extractor.ned.features import FeatureExtractor
+    from citation_extractor.ned.matchers import MLCitationMatcher
+
+    def filter_nil_entities(df_train, df_test):
+        df_train_nonil = df_train[df_train['urn'] != 'urn:cts:GreekLatinLit:NIL']
+        df_test_nonil = df_test[df_test['urn'] != 'urn:cts:GreekLatinLit:NIL']
+        logger.info('Train size: {} Test size: {}'.format(df_train_nonil.shape[0], df_test_nonil.shape[0]))
+        return df_train_nonil, df_test_nonil
+
+    # aph_goldset_dataframe
+    pickle_path = pkg_resources.resource_filename('citation_extractor', 'data/pickles/aph_gold_df.pkl')
+    aph_goldset_dataframe = pd.read_pickle(pickle_path)
+
+    # aph_testset_dataframe
+    pickle_path = pkg_resources.resource_filename('citation_extractor', 'data/pickles/aph_test_df.pkl')
+    aph_testset_dataframe = pd.read_pickle(pickle_path)
+
+    if INCLUDE_NIL is not True:
+        aph_goldset_dataframe, aph_testset_dataframe = filter_nil_entities(df_train=aph_goldset_dataframe,
+                                                                           df_test=aph_testset_dataframe)
+
+    # aph_test_ann_files
+    ann_dir = pkg_resources.resource_filename('citation_extractor', 'data/aph_corpus/testset/ann')
+    ann_files = pkg_resources.resource_listdir('citation_extractor', 'data/aph_corpus/testset/ann')
+
+    print_df_distribution(aph_goldset_dataframe)
+    print_df_distribution(aph_testset_dataframe)
+
+    # feature_extractor_quick
+    prior_prob = pd.read_pickle('citation_extractor/data/pickles/prior_prob.pkl')
+    em_prob = pd.read_pickle('citation_extractor/data/pickles/em_prob.pkl')
+    me_prob = pd.read_pickle('citation_extractor/data/pickles/me_prob.pkl')
+    with open('citation_extractor/data/pickles/kb_norm_authors.pkl', 'rb') as f:
+        kb_norm_authors = pickle.load(f)
+    with open('citation_extractor/data/pickles/kb_norm_works.pkl', 'rb') as f:
+        kb_norm_works = pickle.load(f)
+    feature_extractor_quick = FeatureExtractor(kb_norm_authors=kb_norm_authors,
+                                               kb_norm_works=kb_norm_works,
+                                               prior_prob=prior_prob,
+                                               mention_entity_prob=me_prob,
+                                               entity_mention_prob=em_prob)
+
+    # ml_citation_matcher
+    ml_citation_matcher = MLCitationMatcher(train_data=aph_goldset_dataframe,
+                                            feature_extractor=feature_extractor_quick,
+                                            include_nil=INCLUDE_NIL,
+                                            parallelize=True,
+                                            C=10)
+
+    # test_eval_ned_ml
+    # ann_dir, ann_files = aph_test_ann_files
+    aph_goldset_dataframe = aph_testset_dataframe.copy()
+    cm = ml_citation_matcher
+
+    for row_id, row in aph_testset_dataframe.iterrows():
+        result = cm.disambiguate(
+            row["surface"],
+            row["scope"],
+            row["type"],
+            row["doc_title"],
+            row["doc_title_mentions"],
+            row["doc_text"],
+            row["other_mentions"],
+        )
+
+        aph_testset_dataframe.loc[row_id]["urn_clean"] = result.urn
+
+        logger.info(u'[{}] Disambiguation for {} ({}): {}'.format(
+            row_id,
+            row["surface"],
+            row["scope"],
+            result.urn
+        ))
+
+    scores, accuracy_by_type, error_types, errors = evaluate_ned(
+        aph_goldset_dataframe,
+        ann_dir,
+        aph_testset_dataframe,
+        strict=True
+    )
+
+
+def test_eval_ned_ml(ml_citation_matcher, aph_testset_dataframe, aph_test_ann_files):
     """Evaluate the ML-Matcher."""
     ann_dir, ann_files = aph_test_ann_files
     aph_goldset_dataframe = aph_testset_dataframe.copy()
@@ -89,10 +176,10 @@ def test_eval_ned_ml(
 
 
 def test_eval_ned_baseline(
-    aph_testset_dataframe,
-    aph_test_ann_files,
-    aph_goldset_dataframe,
-    knowledge_base
+        aph_testset_dataframe,
+        aph_test_ann_files,
+        aph_goldset_dataframe,
+        knowledge_base
 ):
     """TODO."""
     ann_dir, ann_files = aph_test_ann_files
@@ -278,7 +365,6 @@ def test_eval_ner(
     ]
 
     for label, extractor in extractors:
-
         result = extractor.extract(tokens, postags)
 
         y_pred = [
