@@ -256,30 +256,22 @@ class LinearSVMRank(object):
         LOGGER.info('Fitting classifier')
         self._classifier.fit(Xp_norm, yp)
 
-        self.print_ranking_vector(sort_by_weight=True)
-
-    def get_ranking_vector(self, sort_by_weight=False):
+    def get_ranking_vector(self, sort_by_weight=False, normalize=False):
         """Get the ranking vector, which maps each feature name to a weight.
 
         :param sort_by_weight:
+        :param normalize:
         :return:
         """
         feature_to_index = self._dv.vocabulary_
         weights = self._classifier.coef_.ravel()
+        if normalize is True:
+            weights = weights / np.linalg.norm(weights)
         feature_to_weight = map(lambda kv: (kv[0], weights[kv[1]]), feature_to_index.iteritems())
         if sort_by_weight is True:
             return sorted(feature_to_weight, key=lambda kv: kv[1], reverse=True)
         else:
             return feature_to_weight
-
-    # For debugging
-    def print_ranking_vector(self, sort_by_weight=False):
-        v = self.get_ranking_vector(sort_by_weight=sort_by_weight)
-        print('=' * 100)
-        print('=' * 10, 'Ranking vector')
-        for i, (feature, weight) in enumerate(v):
-            print(i, feature, weight)
-        print('=' * 100)
 
     def predict(self, X):
         """Rank a group of feature vectors.

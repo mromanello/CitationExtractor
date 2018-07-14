@@ -12,7 +12,7 @@ REFAUWORK = 'REFAUWORK'
 NIL = 'urn:cts:GreekLatinLit:NIL'
 
 
-def print_frame_with_title(title):
+def with_titled_frame(title):
     def decorator(func):
         def func_wrapper(*args, **kwargs):
             padder = '='
@@ -30,12 +30,7 @@ def print_frame_with_title(title):
     return decorator
 
 
-@print_frame_with_title(title='This is the title')
-def print_this(this, a=0):
-    print(this, a)
-
-
-@print_frame_with_title(title='Dataframe distribution')
+@with_titled_frame(title='Dataframe Distribution')
 def print_df_distribution(df):
     n_aauthor = df.loc[(df['type'] == AAUTHOR) & (df['urn_clean'] != NIL)].shape[0]
     n_awork = df.loc[(df['type'] == AWORK) & (df['urn_clean'] != NIL)].shape[0]
@@ -48,5 +43,7 @@ def print_df_distribution(df):
     print('Total: {}'.format(df.shape[0]))
 
 
-if __name__ == '__main__':
-    print_this('ddfdf', a=3)
+@with_titled_frame(title='Ranking Vector')
+def print_ranking_vector(vector):
+    for i, (feature, weight) in enumerate(vector):
+        print(i, feature, weight)

@@ -58,7 +58,7 @@ def test_eval_ned_ml_debug():
 
     INCLUDE_NIL = False
 
-    from citation_extractor.Utils.gutenberg import print_df_distribution
+    from citation_extractor.Utils.gutenberg import print_df_distribution, print_ranking_vector
     from citation_extractor.ned.features import FeatureExtractor
     from citation_extractor.ned.matchers import MLCitationMatcher
 
@@ -106,7 +106,9 @@ def test_eval_ned_ml_debug():
                                             feature_extractor=feature_extractor_quick,
                                             include_nil=INCLUDE_NIL,
                                             parallelize=True,
-                                            C=10)
+                                            C=1)
+    ranking_vector = ml_citation_matcher._ranker.get_ranking_vector(sort_by_weight=True, normalize=True)
+    print_ranking_vector(vector=ranking_vector)
 
     # test_eval_ned_ml
     # ann_dir, ann_files = aph_test_ann_files
