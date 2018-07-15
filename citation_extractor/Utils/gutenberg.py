@@ -5,6 +5,7 @@ Johannes Gutenberg would be proud.
 """
 
 from __future__ import print_function
+import json
 
 AAUTHOR = 'AAUTHOR'
 AWORK = 'AWORK'
@@ -47,3 +48,12 @@ def print_df_distribution(df):
 def print_ranking_vector(vector):
     for i, (feature, weight) in enumerate(vector):
         print(i, feature, weight)
+
+
+def print_candidates_comparison(list1, list2):
+    pass
+
+
+@with_titled_frame(title='Pretty Dict')
+def print_dict(d):
+    print(json.dumps(d, sort_keys=True, indent=4))

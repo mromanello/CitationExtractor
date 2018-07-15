@@ -68,10 +68,10 @@ def select_lcs_match(citation_string, matches, n_guess=1):
 
     best_match = ("", None)
 
-    if(lowest_score > 0):
+    if (lowest_score > 0):
         for match in filtered_matches:
             lcs = longest_common_substring(match[1], citation_string)
-            if(len(lcs) > len(best_match[0])):
+            if (len(lcs) > len(best_match[0])):
                 best_match = (lcs, match)
         match = [best_match[1]]
         logger.debug("Longest_common_substring selected %s out of %s" % (
@@ -116,7 +116,7 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
 
         if 'author_names' in kwargs and 'work_titles' in kwargs \
                 and 'work_abbreviations' in kwargs and \
-                        'author_abbreviations' in kwargs:
+                'author_abbreviations' in kwargs:
 
             self._author_names = kwargs["author_names"]
             self._author_abbreviations = kwargs["author_abbreviations"]
@@ -216,20 +216,20 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
             return ".".join(scope_dictionary["start"])
 
     def _consolidate_result(
-        self,
-        urn_string,
-        citation_string,
-        entity_type,
-        scope
+            self,
+            urn_string,
+            citation_string,
+            entity_type,
+            scope
     ):
         urn = CTS_URN(urn_string)
 
         # check: does the URN have a scope but is missing the work element
-        if(urn.work is None):
+        if (urn.work is None):
             # if so, try to get the opus maximum from the KB
             opmax = self._kb.get_opus_maximum_of(urn)
 
-            if(opmax is not None):
+            if (opmax is not None):
                 logger.debug("%s is opus maximum of %s" % (opmax, urn))
                 urn = CTS_URN("{}".format(opmax.get_urn()))
 
@@ -261,7 +261,7 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
             if match is None or not zero_distance_match:
                 match = self.matches_author(citation_string, self.fuzzy_match_relations, self.distance_relations)
             if match is not None:
-                #match = [(id,name,diff) for id, name, diff in match if diff == 0][:n_guess] # this has to be removed
+                # match = [(id,name,diff) for id, name, diff in match if diff == 0][:n_guess] # this has to be removed
                 pass
             else:
                 # fuzzy matching as author
@@ -277,7 +277,7 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
             match = self.matches_author(citation_string, self.fuzzy_match_relations, self.distance_relations)
 
             if match is not None:
-                if(len(match) <= n_guess):
+                if (len(match) <= n_guess):
                     match = match[:n_guess]
                 else:
                     match = select_lcs_match(citation_string, match, n_guess)
@@ -298,7 +298,7 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
                     self.distance_relations
                 )
                 if match is not None:
-                    if(len(match) <= n_guess):
+                    if (len(match) <= n_guess):
                         match = match[:n_guess]
                     else:
                         match = select_lcs_match(citation_string, match, n_guess)
@@ -645,7 +645,7 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
             )
 
 
-class MLCitationMatcher(object):
+class MLCitationMatcher(object): # TODO: renaming RankingCitationMatcher (?)
     """Machine Learning-based Citation Matcher.
 
     This matcher uses a supervised learning-to-rank framework to build a model
@@ -758,6 +758,7 @@ class MLCitationMatcher(object):
             all_candidates = self._cg.generate_candidates_parallel(train_data)
             with open(pickle_path, "wb") as pickle_file:
                 pickle.dump(all_candidates, pickle_file)
+
 
         for mention_id, row in train_data.iterrows():
             LOGGER.info('Training with mention {}'.format(mention_id))
@@ -878,15 +879,17 @@ class MLCitationMatcher(object):
         return "\n".join(settings)
 
     def disambiguate(
-        self,
-        surface,
-        scope,
-        mention_type,
-        doc_title,
-        mentions_in_title,
-        doc_text,
-        other_mentions,
-        nb_processes=10  # TODO: remove when using dask
+            self,
+            surface,
+            surface_norm,
+            surface_norm_dots,
+            scope,
+            mention_type,
+            doc_title,
+            mentions_in_title,
+            doc_text,
+            other_mentions,
+            nb_processes=10  # TODO: remove when using dask
     ):
         """Disambiguate an entity mention.
 
@@ -939,7 +942,7 @@ class MLCitationMatcher(object):
         # Generate candidates
         LOGGER.info('Generating candidates')
         candidates = self._cg.generate_candidates(
-            surface,
+            surface_norm,
             mention_type,
             scope
         )
@@ -949,7 +952,7 @@ class MLCitationMatcher(object):
         LOGGER.info('Extracting features for each (mention, candidate) couple')
         feature_vectors = map(
             lambda candidate: self._feature_extractor.extract(
-                m_surface=surface,
+                m_surface=surface_norm_dots,
                 m_scope=scope,
                 m_type=mention_type,
                 m_title_mentions=mentions_in_title,
