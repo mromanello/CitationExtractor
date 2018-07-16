@@ -150,15 +150,15 @@ def test_eval_ned_ml(ml_citation_matcher, aph_testset_dataframe, aph_test_ann_fi
     cm = ml_citation_matcher
 
     for row_id, row in aph_testset_dataframe.iterrows():
-        result = cm.disambiguate(
-            row["surface"],
-            row["scope"],
-            row["type"],
-            row["doc_title"],
-            row["doc_title_mentions"],
-            row["doc_text"],
-            row["other_mentions"],
-        )
+        result = cm.disambiguate(surface=row["surface"],
+                                 surface_norm=row['surface_norm'],
+                                 surface_norm_dots=row['surface_norm_dots'],
+                                 scope=row["scope"],
+                                 mention_type=row["type"],
+                                 doc_title=row["doc_title"],
+                                 mentions_in_title=row["doc_title_mentions"],
+                                 doc_text=row["doc_text"],
+                                 other_mentions=row["other_mentions"])
 
         aph_testset_dataframe.loc[row_id]["urn_clean"] = result.urn
 
