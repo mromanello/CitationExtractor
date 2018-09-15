@@ -146,13 +146,15 @@ def test_ml_citation_matcher(
 
     for row_id, row in aph_testset_dataframe.head(100).iterrows():
         result = cm.disambiguate(
-            row["surface"],
-            row["scope"],
-            row["type"],
-            row["doc_title"],
-            row["doc_title_mentions"],
-            row["doc_text"],
-            row["other_mentions"],
+            surface=row["surface"],
+            surface_norm=row['surface_norm'],
+            surface_norm_dots=row['surface_norm_dots'],
+            scope=row["scope"],
+            mention_type=row["type"],
+            doc_title=row["doc_title"],
+            mentions_in_title=row["doc_title_mentions"],
+            doc_text=row["doc_text"],
+            other_mentions=row["other_mentions"]
         )
 
         logger.info(u'Disambiguation for {} ({}): {}'.format(
