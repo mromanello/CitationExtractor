@@ -15,6 +15,7 @@ The (Canonical) CitationExtractor
    :maxdepth: 2
    :caption: Contents:
 
+   README
    about
    installation
 
