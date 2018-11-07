@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
-import pytest
+import os
 import pkg_resources
 import logging
 import pandas as pd
-from pytest import fixture
+from citation_extractor.Utils.converters import DocumentConverter
 from citation_extractor.Utils.IO import load_brat_data, annotations2references
 from citation_extractor.Utils.strmatching import StringUtils
 
@@ -83,3 +83,28 @@ def test_utils_stringutils():
         normalized_text = StringUtils.normalize(text, language)
         normalized_text = StringUtils.normalize(text, language, keep_dots=True)
         assert normalized_text is not None
+
+####################
+# Utils.converters #
+####################
+
+
+def test_document_converter(aph_gold_ann_files):
+
+    standoff_dir = pkg_resources.resource_filename(
+        'citation_extractor',
+        'data/aph_corpus/goldset/ann/'
+    )
+
+    iob_data_dir = ('citation_extractor', 'data/aph_corpus/goldset/iob/')
+    dir = pkg_resources.resource_filename(*iob_data_dir)
+    files = [
+        os.path.join(dir, file)
+        for file
+        in pkg_resources.resource_listdir(*iob_data_dir) if '.txt' in file
+    ]
+    iob_file = files[0]
+
+    print(iob_file, standoff_dir)
+    dc = DocumentConverter(iob_file, standoff_dir)
+    import ipdb; ipdb.set_trace()
