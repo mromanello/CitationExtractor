@@ -37,6 +37,7 @@ setup(
         'docopt',
         'pandas',
         'scipy',
+        'pycas',
         'treetagger',
         'citation_parser>=0.4.1',
         'sklearn-crfsuite',
