@@ -1,6 +1,17 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
+"""
+CLI script to convert documents between various formats.
+
+The following conversions are supported:
+    - IOB => ANN
+    - IOB + ANN => JSON
+    - IOB + ANN => XMI (planned)
+
+Usage:
+    io/converters.py --format=<f> --kb-config=<kb> --docid=<id> --iob-dir=<ind> --output-dir=<od> [--standoff-dir=<sd>]
+"""
 
 # NB
 # since `pyCAS` runs only with python3, this module can be integrated into
@@ -10,6 +21,8 @@
 
 from __future__ import print_function, with_statement
 
+from docopt import docopt
+import logging
 import codecs
 import json
 import os
@@ -22,6 +35,8 @@ from pyCTS import CTS_URN
 
 INPUT_ENCODING = "UTF-8"
 OUTPUT_ENCODING = "UTF-8"
+
+LOGGER = logging.getLogger(__name__)
 
 
 # TODO: make static method of DocumentConverter
@@ -91,14 +106,36 @@ class DocumentConverter(object):
             raise  # TODO: raise a custom exception (?)
         return
 
-    def load(self, iob_file_path, standoff_dir):
+    def load(self, iob_file_path, **kwargs):
+        """
+        Loads the document to be converted.
+
+        :param iob_file_path: the absolute path to an input IOB file
+        :type iob_file_path: string
+
+        Parameters that can be passed via `kwargs`:
+            - `standoff_dir`
+        """
         self.document_id = os.path.basename(iob_file_path)
         self.document_name = os.path.basename(iob_file_path).split('.')[0]
         self._iob_file_path = iob_file_path
-        self._standoff_dir = standoff_dir
+
+        if "standoff_dir" in kwargs:
+            self._standoff_dir = kwargs["standoff_dir"]
+        else:
+            self._standoff_dir = None
+        LOGGER.debug("Stand-off directory = {}".format(self._standoff_dir))
 
         self._iob_data = self._parse_iob(self._iob_file_path)
         self._iob_standoff = self._get_start_end(self._iob_data)
+        LOGGER.info("Document {} has {} sentence{}".format(
+            self.document_name,
+            len(self._iob_data),
+            "s" if len(self._iob_data) > 1 else ""
+        ))
+
+        # this is a bit a quick & dirty way to get the PoS tags
+        # as it implies reading once more the IOB file
         self._pos_tags = [
             [
                 token[1]
@@ -117,33 +154,38 @@ class DocumentConverter(object):
             for token_n, token in enumerate(sentence)
         ]
 
-        so_entities, so_relations, so_annotations = read_ann_file_new(
-            self.document_id,
-            self._standoff_dir
-        )
+        if self._standoff_dir is not None:
+            so_entities, so_relations, so_annotations = read_ann_file_new(
+                self.document_id,
+                self._standoff_dir
+            )
 
-        self.entities = {
-            ent_id: {
-                'ann_id': so_entities[ent_id]["ann_id"],
-                'entity_type': so_entities[ent_id]["entity_type"],
-                'surface': so_entities[ent_id]["surface"],
-                'start_offset': int(so_entities[ent_id]["offset_start"]),
-                'end_offset': int(so_entities[ent_id]["offset_end"]),
+            self.entities = {
+                ent_id: {
+                    'ann_id': so_entities[ent_id]["ann_id"],
+                    'entity_type': so_entities[ent_id]["entity_type"],
+                    'surface': so_entities[ent_id]["surface"],
+                    'start_offset': int(so_entities[ent_id]["offset_start"]),
+                    'end_offset': int(so_entities[ent_id]["offset_end"]),
+                }
+                for ent_id in so_entities
             }
-            for ent_id in so_entities
-        }
 
-        self.relations = so_relations
-        self.disambiguations = {
-            ann['anchor']: ann
-            for ann in so_annotations
-        }
+            self.relations = so_relations
+            self.disambiguations = {
+                ann['anchor']: ann
+                for ann in so_annotations
+            }
 
-        text = read_text(self.document_id, self._standoff_dir)
-        self.text = text
+            text = read_text(self.document_id, self._standoff_dir)
+            self.text = text
 
-        self._line_breaks = _find_newlines(text)
-        self._convert_disambiguations()
+            self._line_breaks = _find_newlines(text)
+            self._convert_disambiguations()
+        else:
+            self.entities = None
+            self.relations = None
+            self.disambiguations = None
         return
 
     def _convert_disambiguations(self):
@@ -155,6 +197,11 @@ class DocumentConverter(object):
                 continue
 
             disambiguation = self.disambiguations[entity_id]
+            if disambiguation['text'] == u'urn:cts:GreekLatinLit:NIL':
+                entity['author_uri'] = None
+                entity['work_uri'] = None
+                continue
+
             urn = CTS_URN(disambiguation['text'])
 
             entity['urn'] = str(urn)
@@ -179,6 +226,8 @@ class DocumentConverter(object):
             arg2 = self.entities[args[1]]
 
             # transfer the scope from the relation onto the entity
+            if disambiguation['text'] == u'urn:cts:GreekLatinLit:NIL':
+                continue
             urn = CTS_URN(disambiguation['text'])
             scope = urn.passage_component
             arg2['norm_scope'] = scope
@@ -195,7 +244,11 @@ class DocumentConverter(object):
         return
 
     def _parse_iob(self, fn):
-        """TODO."""
+        """TODO.
+
+        # NB: current implementation has not been tested with multiple
+        # documents contained in one single .iob file
+        """
         docnum = 1
         sentences = []
 
@@ -319,11 +372,14 @@ class DocumentConverter(object):
         :type output_dir: str
         """
 
+        # TODO: this requires self.entities, self.relations and
+        # self.disambiguations to be not None. Check and raise exception
+        # if otherwise
+
         output = {
             'text': self.text,
             'doc_id': self.document_id,
             'doc_name': self.document_name,
-            # TODO: add `postag`
             'tokens': self.tokens,
             'linebreaks': self._line_breaks,
             'relations': self.relations,
@@ -390,17 +446,98 @@ class DocumentConverter(object):
 
         return write_iob_file(iob_data, fpath)
 
+    # TODO: finish implementation
+    def to_ann(self, output_dir):
+        """
+        if output_directory is None:
+            txtout = sys.stdout
+            soout = sys.stdout
+        else:
+            outfn = os.path.join(
+                output_directory,
+                os.path.basename(infn)+'-doc-'+str(docnum))
+            txtout = codecs.open(outfn+'.txt', 'wt', encoding=OUTPUT_ENCODING)
+            soout = codecs.open(outfn+'.ann', 'wt', encoding=OUTPUT_ENCODING)
 
-def main():
-    kb = KnowledgeBase('/Users/rromanello/Documents/ClassicsCitations/hucit_kb/knowledge_base/config/virtuoso.ini')
-    standoff_dir = '/Users/rromanello/Documents/ClassicsCitations/epibau/processing/data/ann/'
-    iob_file = '/Users/rromanello/Documents/ClassicsCitations/epibau/processing/data/iob_ne/Behm__Cities.docx.txt'
-    out_dir = "/Users/rromanello/Downloads/converted_docs/"
+        offset, idnum = 0, 1
+
+        doctext = ""
+
+        for si, sentence in enumerate(sentences):
+
+            prev_token = None
+            prev_tag = "O"
+            curr_start, curr_type = None, None
+            quote_count = 0
+
+            for token, ttag, ttype in sentence:
+
+                if curr_type is not None and (ttag != "I" or ttype != curr_type):
+                    # a previously started tagged sequence does not
+                    # continue into this position.
+                    print >> soout, tagstr(curr_start, offset, curr_type, idnum, doctext[curr_start:offset])
+                    idnum += 1
+                    curr_start, curr_type = None, None
+
+                if prev_token is not None and space(prev_token, token, quote_count):
+                    doctext = doctext + ' '
+                    offset += 1
+
+                if curr_type is None and ttag != "O":
+                    # a new tagged sequence begins here
+                    curr_start, curr_type = offset, ttype
+
+                doctext = doctext + token
+                offset += len(token)
+
+                if quote(token):
+                    quote_count += 1
+
+                prev_token = token
+                prev_tag = ttag
+
+            # leftovers?
+            if curr_type is not None:
+                print >> soout, tagstr(curr_start, offset, curr_type, idnum, doctext[curr_start:offset])
+                idnum += 1
+
+            if si+1 != len(sentences):
+                doctext = doctext + '\n'
+                offset += 1
+
+        print >> txtout, doctext
+        """
+
+
+def main(args):
+    kb_config = args['--kb-config']
+    standoff_dir = args['--standoff-dir']
+    iob_dir = args['--iob-dir']
+    docid = args['--docid']
+    format = args['--format']
+    iob_file = "{}.txt".format(os.path.join(iob_dir, docid))
+    out_dir = args['--output-dir']
+
+    kb = KnowledgeBase(kb_config)
     doc_conv = DocumentConverter(kb)
-    doc_conv.load(iob_file, standoff_dir)
-    # doc_conv.to_json(out_dir)
-    iob = doc_conv.to_iob(out_dir)
+
+    if format == 'iob':
+        assert standoff_dir is not None
+        doc_conv.load(iob_file, standoff_dir=standoff_dir)
+        doc_conv.to_iob(out_dir)
+    elif format == 'json':
+        assert standoff_dir is not None
+        doc_conv.load(iob_file, standoff_dir=standoff_dir)
+        doc_conv.to_json(out_dir)
+    elif format == 'ann':
+        doc_conv.load(iob_file)
+        doc_conv.to_ann(out_dir)
+    else:
+        print('Unrecognized format!')
+        raise
+
 
 
 if __name__ == '__main__':
-    main()
+    arguments = docopt(__doc__)
+    main(arguments)

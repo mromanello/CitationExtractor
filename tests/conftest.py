@@ -277,7 +277,7 @@ def knowledge_base():
     try:
         config_file = pkg_resources.resource_filename(
             'knowledge_base',
-            'config/virtuoso_local.ini'
+            'config/virtuoso.ini'
         )
         kb = KnowledgeBaseNew(config_file)
         kb.get_authors()[0]
