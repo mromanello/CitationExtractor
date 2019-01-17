@@ -1,4 +1,8 @@
 {
+  "tests/io/test_converters.py::test_converter_ann": true, 
+  "tests/io/test_converters.py::test_converter_json": true, 
+  "tests/test_Utils.py": true, 
+  "tests/test_Utils.py::test_document_converter": true, 
   "tests/test_Utils.py::test_load_brat_data": true, 
   "tests/test_citation_extractor.py::test_string2entities": true, 
   "tests/test_eval.py::test_eval_ned_baseline": true, 
