@@ -32,7 +32,6 @@ git clone https://github.com/mromanello/CitationExtractor.git
 cd CitationExtractor
 chmod a+x install_treetagger.sh
 ./install_treetagger.sh
-rm install_treetagger.sh
 ```
 
 
