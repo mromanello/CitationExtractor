@@ -466,9 +466,9 @@ def preproc_document(doc_id, inp_dir, interm_dir, out_dir, abbreviations, tagger
     """
     lang, no_sentences, no_tokens = np.nan,np.nan,np.nan
     try:
-        intermediate_out_file = "%s%s"%(interm_dir,doc_id)
-        iob_out_file = "%s%s"%(out_dir,doc_id)
-        text = codecs.open("%s%s"%(inp_dir,doc_id),'r','utf-8').read()
+        intermediate_out_file = os.path.join(interm_dir,doc_id)
+        iob_out_file = os.path.join(out_dir,doc_id)
+        text = codecs.open(os.path.join(inp_dir,doc_id),'r','utf-8').read()
         if(split_sentences):
             intermediate_text = sentencebreaks_to_newlines(text)
             text = recover_segmentation_errors(intermediate_text, abbreviations, verbose=False)
