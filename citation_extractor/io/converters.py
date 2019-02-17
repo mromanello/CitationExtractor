@@ -103,7 +103,9 @@ class DocumentConverter(object):
         if knowledge_base is not None:
             self._kb = knowledge_base
         else:
-            raise  # TODO: raise a custom exception (?)
+            LOGGER.warning(
+                "No knowledge based was provided, thus `self._convert_disambiguations()` won't work."
+            )
         return
 
     def load(self, iob_file_path, **kwargs):
@@ -119,6 +121,7 @@ class DocumentConverter(object):
         self.document_id = os.path.basename(iob_file_path)
         self.document_name = os.path.basename(iob_file_path).split('.')[0]
         self._iob_file_path = iob_file_path
+        self._line_breaks = []
 
         if "standoff_dir" in kwargs:
             self._standoff_dir = kwargs["standoff_dir"]
@@ -183,10 +186,75 @@ class DocumentConverter(object):
             self._line_breaks = _find_newlines(text)
             self._convert_disambiguations()
         else:
-            self.entities = None
+            # if we are here means there is only IOB no brat file to load from
+            # TODO: self.entities = self._find_entities()
+            self.entities = self._find_entity_offsets()
             self.relations = None
             self.disambiguations = None
         return
+
+    def _find_entity_offsets(self):
+
+        entities = {}
+        current_entity = {}
+        inside_entity = False
+        n_entities_iob = 0
+
+        for n_sent, sentence in enumerate(self._iob_data):
+
+            for n_token, token in enumerate(sentence):
+
+                surface, iob_tag, ne_tag = token
+                _surface, start, end = self._iob_standoff[n_sent][n_token]
+
+                # check whether the two lists are aligned, as it should be
+                assert surface == _surface
+
+                if ne_tag == '' and not inside_entity:
+                    continue
+
+                if iob_tag == "B":
+
+                    # simple heuristic: each new B-* tag corresponds to
+                    # new entity
+                    n_entities_iob += 1
+
+                    if inside_entity:
+                        current_entity["surface"] = self.text[
+                            current_entity['start_offset']:current_entity['end_offset']
+                        ]
+                        entities[current_entity["id"]] = current_entity
+                        current_entity = {}
+
+                    id = "T{}".format(len(entities.values()) + 1)
+                    current_entity["entity_type"] = ne_tag
+                    current_entity['start_offset'] = start
+                    current_entity['end_offset'] = end
+                    current_entity["id"] = id
+                    inside_entity = True
+
+
+                if iob_tag == "I":
+                    current_entity['end_offset'] = end
+
+                if iob_tag == "O" and inside_entity:
+                    current_entity["surface"] = self.text[
+                        current_entity['start_offset']:current_entity['end_offset']
+                    ]
+                    entities[current_entity["id"]] = current_entity
+                    current_entity = {}
+                    inside_entity = False
+
+        if current_entity != {}:
+            current_entity["surface"] = self.text[
+                current_entity['start_offset']:current_entity['end_offset']
+            ]
+            entities[current_entity["id"]] = current_entity
+
+        # make sure we haven't missed any enttity along the way of conversion
+        assert len(entities.keys()) == n_entities_iob
+        return entities
+
 
     def _convert_disambiguations(self):
 
@@ -319,6 +387,8 @@ class DocumentConverter(object):
         sents = []
         for si, sentence in enumerate(sentences):
 
+            # TODO: add also the NE tag
+
             prev_token = None
             prev_tag = "O"
             curr_start, curr_type = None, None
@@ -349,11 +419,13 @@ class DocumentConverter(object):
                 prev_tag = ttag
                 assert token == doctext[curr_start:offset]
                 sent.append((token, curr_start, offset))
+            self._line_breaks.append((offset, offset + 1))
             sents.append(sent)
 
             if si + 1 != len(sentences):
                 doctext = doctext + '\n'
                 offset += 1
+        self.text = doctext
         return sents
 
     # NB: not for now
@@ -364,6 +436,7 @@ class DocumentConverter(object):
         # call create_xmi()
 
         pass
+
 
     def to_json(self, output_dir=None):
         """Serializes the converted document to JSON.
@@ -392,7 +465,8 @@ class DocumentConverter(object):
             with open(os.path.join(output_dir, filename), 'w') as outfile:
                 json.dump(output, outfile, indent=3)
 
-        return json.dumps(output)
+        return output
+
 
     def to_iob(self, output_dir, extension='iob'):
         """Serialize the converted document as an IOB file.
