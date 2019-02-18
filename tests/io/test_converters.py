@@ -49,36 +49,6 @@ def test_converter_json(knowledge_base):
         assert out is not None
 
 
-def test_iob2ann(knowledge_base):
-    """
-    Tests the conversion of a bunch of IOB docs into brat's standoff format.
-    """
-
-    # directory containing the input IOB documents
-    iob_data_dir = ('citation_extractor', 'data/aph_corpus/goldset/iob/')
-
-    # directory where to store the converted files
-    output_dir = pkg_resources.resource_filename(
-        'citation_extractor',
-        'data/converted/ann/'
-    )
-
-    # reconstruct the absolute path of IOB files
-    files = [
-        os.path.join(pkg_resources.resource_filename(*iob_data_dir), file)
-        for file
-        in pkg_resources.resource_listdir(*iob_data_dir) if '.txt' in file
-    ]
-
-    dc = DocumentConverter(knowledge_base)
-
-    for n in range(0, 5):
-        iob_file = files[n]
-        logger.info("{}".format(iob_file))
-        dc.load(iob_file)
-        dc.to_ann(output_dir)
-
-
 def test_iob2json():
     """
     Tests the conversion of a bunch of IOB docs into JSON format.
