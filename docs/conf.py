@@ -24,9 +24,10 @@ copyright = u'2018, Matteo Romanello'
 author = u'Matteo Romanello'
 
 # The short X.Y version
-version = u'1.6.3'
+from citation_extractor import __version__
+version = __version__
 # The full version, including alpha/beta/rc tags
-release = u'1.6.3'
+release = __version__
 
 
 # -- General configuration ---------------------------------------------------

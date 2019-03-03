@@ -12,12 +12,15 @@ The (Canonical) CitationExtractor
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    README
    about
    installation
+   overview
+   pipeline
+   io
 
 
 
