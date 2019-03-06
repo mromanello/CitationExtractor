@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
@@ -13,24 +14,28 @@ Options:
     -c, --config=<file>     The configuration file.
 """
 
+import codecs
+import logging
 import os
 import re
 import sys
-import logging
-import codecs
-import langid
-if(sys.version_info < (3, 0)):
-    from treetagger_python2 import TreeTagger
-else:
-    from treetagger import TreeTagger
 from operator import itemgetter
+
+import numpy as np
+from docopt import docopt
+
 import citation_extractor
+import langid
 from citation_extractor.Utils import IO
 from citation_extractor.io.brat import read_ann_file as read_ann_file_new
 from citation_extractor.Utils.IO import read_ann_file, init_logger, filter_IOB
 from citation_extractor.Utils.sentencesplit import sentencebreaks_to_newlines # contained in brat tools
 from citation_extractor.Utils.strmatching import StringUtils
-import numpy as np
+
+if(sys.version_info < (3, 0)):
+    from treetagger_python2 import TreeTagger
+else:
+    from treetagger import TreeTagger
 
 global logger
 logger = logging.getLogger(__name__)
@@ -589,9 +594,13 @@ def validate_configuration(configuration_parameters, task="all"): #TODO finish
 def run_pipeline(configuration_file): #TODO: implement
     pass
 
-if __name__ == "__main__":
-    from docopt import docopt
+
+def main():
     arguments = docopt(__doc__, version=citation_extractor.__version__)
     logger = init_logger()
     logger.info(arguments)
+
+
+if __name__ == "__main__":
+    main()
     # TODO: validate configuration file based on task at hand

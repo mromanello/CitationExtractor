@@ -6,7 +6,7 @@ pandas
 hucitlib
 jellyfish>=0.5.6
 stop_words>=2015.2.23.1
-citation_parser>=0.4.1
+#citation_parser>=0.4.1
 rdflib==4.2.1
 numpy>=1.9.2
 scipy>=0.17.0

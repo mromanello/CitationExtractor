@@ -30,6 +30,11 @@ setup(
             'data/aph_corpus/goldset/iob/*.*'
         ]
     },
+    entry_points={
+        'console_scripts': [
+            'citedloci-pipeline = citation_extractor.pipeline:main',
+        ]
+    },
     long_description=read('README.md'),
     install_requires=[
         'hucitlib',
