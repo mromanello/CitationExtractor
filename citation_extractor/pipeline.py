@@ -26,7 +26,8 @@ else:
 from operator import itemgetter
 import citation_extractor
 from citation_extractor.Utils import IO
-from citation_extractor.Utils.IO import read_ann_file, read_ann_file_new, init_logger, filter_IOB
+from citation_extractor.io.brat import read_ann_file as read_ann_file_new
+from citation_extractor.Utils.IO import read_ann_file, init_logger, filter_IOB
 from citation_extractor.Utils.sentencesplit import sentencebreaks_to_newlines # contained in brat tools
 from citation_extractor.Utils.strmatching import StringUtils
 import numpy as np
