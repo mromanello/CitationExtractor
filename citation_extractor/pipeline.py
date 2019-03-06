@@ -30,6 +30,7 @@ from citation_extractor.Utils.IO import read_ann_file, read_ann_file_new, init_l
 from citation_extractor.Utils.sentencesplit import sentencebreaks_to_newlines # contained in brat tools
 from citation_extractor.Utils.strmatching import StringUtils
 import numpy as np
+from docopt import docopt
 
 global logger
 logger = logging.getLogger(__name__)
@@ -588,9 +589,13 @@ def validate_configuration(configuration_parameters, task="all"): #TODO finish
 def run_pipeline(configuration_file): #TODO: implement
     pass
 
-if __name__ == "__main__":
-    from docopt import docopt
+
+def main():
     arguments = docopt(__doc__, version=citation_extractor.__version__)
     logger = init_logger()
     logger.info(arguments)
+
+
+if __name__ == "__main__":
+    main()
     # TODO: validate configuration file based on task at hand
