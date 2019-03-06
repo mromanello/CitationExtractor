@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
@@ -13,24 +14,29 @@ Options:
     -c, --config=<file>     The configuration file.
 """
 
+import codecs
+import logging
 import os
 import re
 import sys
-import logging
-import codecs
+from operator import itemgetter
+
+import numpy as np
+from docopt import docopt
+
+import citation_extractor
 import langid
+from citation_extractor.Utils import IO
+from citation_extractor.Utils.IO import (filter_IOB, init_logger,
+                                         read_ann_file, read_ann_file_new)
+from citation_extractor.Utils.sentencesplit import \
+    sentencebreaks_to_newlines  # contained in brat tools
+from citation_extractor.Utils.strmatching import StringUtils
+
 if(sys.version_info < (3, 0)):
     from treetagger_python2 import TreeTagger
 else:
     from treetagger import TreeTagger
-from operator import itemgetter
-import citation_extractor
-from citation_extractor.Utils import IO
-from citation_extractor.Utils.IO import read_ann_file, read_ann_file_new, init_logger, filter_IOB
-from citation_extractor.Utils.sentencesplit import sentencebreaks_to_newlines # contained in brat tools
-from citation_extractor.Utils.strmatching import StringUtils
-import numpy as np
-from docopt import docopt
 
 global logger
 logger = logging.getLogger(__name__)
