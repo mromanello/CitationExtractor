@@ -31,8 +31,8 @@ setup(
         ]
     },
     entry_points={
-        'console_script': [
-            'pipeline = citation_extractor.pipeline:main',
+        'console_scripts': [
+            'citedloci-pipeline = citation_extractor.pipeline:main',
         ]
     },
     long_description=read('README.md'),
