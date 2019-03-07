@@ -1,0 +1,446 @@
+{
+   "doc_name": "75-00043", 
+   "tokens": [
+      {
+         "pos_tag": "SE", 
+         "end_offset": 2, 
+         "start_offset": 0, 
+         "surface": "Se"
+      }, 
+      {
+         "pos_tag": "VLfin", 
+         "end_offset": 10, 
+         "start_offset": 3, 
+         "surface": "estudia"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 13, 
+         "start_offset": 11, 
+         "surface": "en"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 16, 
+         "start_offset": 14, 
+         "surface": "la"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 23, 
+         "start_offset": 17, 
+         "surface": "p\u00e1rodo"
+      }, 
+      {
+         "pos_tag": "PDEL", 
+         "end_offset": 27, 
+         "start_offset": 24, 
+         "surface": "del"
+      }, 
+      {
+         "pos_tag": "SYM", 
+         "end_offset": 29, 
+         "start_offset": 28, 
+         "surface": "\u00ab"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 38, 
+         "start_offset": 30, 
+         "surface": "Agamen\u00f3n"
+      }, 
+      {
+         "pos_tag": "SYM", 
+         "end_offset": 40, 
+         "start_offset": 39, 
+         "surface": "\u00bb"
+      }, 
+      {
+         "pos_tag": "CSUBI", 
+         "end_offset": 43, 
+         "start_offset": 41, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "VLinf", 
+         "end_offset": 51, 
+         "start_offset": 44, 
+         "surface": "Esquilo"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 54, 
+         "start_offset": 52, 
+         "surface": "el"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 59, 
+         "start_offset": 55, 
+         "surface": "tema"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 62, 
+         "start_offset": 60, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 65, 
+         "start_offset": 63, 
+         "surface": "lo"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 70, 
+         "start_offset": 66, 
+         "surface": "real"
+      }, 
+      {
+         "pos_tag": "CSUBX", 
+         "end_offset": 75, 
+         "start_offset": 71, 
+         "surface": "como"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 89, 
+         "start_offset": 76, 
+         "surface": "contradicci\u00f3n"
+      }, 
+      {
+         "pos_tag": "FS", 
+         "end_offset": 90, 
+         "start_offset": 89, 
+         "surface": "."
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 93, 
+         "start_offset": 91, 
+         "surface": "La"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 102, 
+         "start_offset": 94, 
+         "surface": "realidad"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 105, 
+         "start_offset": 103, 
+         "surface": "en"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 108, 
+         "start_offset": 106, 
+         "surface": "la"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 117, 
+         "start_offset": 109, 
+         "surface": "tragedia"
+      }, 
+      {
+         "pos_tag": "SE", 
+         "end_offset": 120, 
+         "start_offset": 118, 
+         "surface": "se"
+      }, 
+      {
+         "pos_tag": "VLfin", 
+         "end_offset": 127, 
+         "start_offset": 121, 
+         "surface": "revela"
+      }, 
+      {
+         "pos_tag": "CM", 
+         "end_offset": 128, 
+         "start_offset": 127, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 131, 
+         "start_offset": 129, 
+         "surface": "en"
+      }, 
+      {
+         "pos_tag": "QU", 
+         "end_offset": 141, 
+         "start_offset": 132, 
+         "surface": "distintos"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 150, 
+         "start_offset": 142, 
+         "surface": "momentos"
+      }, 
+      {
+         "pos_tag": "CM", 
+         "end_offset": 151, 
+         "start_offset": 150, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "CSUBX", 
+         "end_offset": 156, 
+         "start_offset": 152, 
+         "surface": "como"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 171, 
+         "start_offset": 157, 
+         "surface": "contradictoria"
+      }, 
+      {
+         "pos_tag": "FS", 
+         "end_offset": 172, 
+         "start_offset": 171, 
+         "surface": "."
+      }, 
+      {
+         "pos_tag": "SE", 
+         "end_offset": 175, 
+         "start_offset": 173, 
+         "surface": "Se"
+      }, 
+      {
+         "pos_tag": "VLfin", 
+         "end_offset": 183, 
+         "start_offset": 176, 
+         "surface": "subraya"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 186, 
+         "start_offset": 184, 
+         "surface": "en"
+      }, 
+      {
+         "pos_tag": "DM", 
+         "end_offset": 191, 
+         "start_offset": 187, 
+         "surface": "este"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 197, 
+         "start_offset": 192, 
+         "surface": "mismo"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 205, 
+         "start_offset": 198, 
+         "surface": "sentido"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 208, 
+         "start_offset": 206, 
+         "surface": "el"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 212, 
+         "start_offset": 209, 
+         "surface": "uso"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 215, 
+         "start_offset": 213, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 227, 
+         "start_offset": 216, 
+         "surface": "oposiciones"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 236, 
+         "start_offset": 228, 
+         "surface": "binarias"
+      }, 
+      {
+         "pos_tag": "CC", 
+         "end_offset": 238, 
+         "start_offset": 237, 
+         "surface": "y"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 241, 
+         "start_offset": 239, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 244, 
+         "start_offset": 242, 
+         "surface": "un"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 253, 
+         "start_offset": 245, 
+         "surface": "discurso"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 261, 
+         "start_offset": 254, 
+         "surface": "ambiguo"
+      }, 
+      {
+         "pos_tag": "FS", 
+         "end_offset": 262, 
+         "start_offset": 261, 
+         "surface": "."
+      }, 
+      {
+         "pos_tag": "SE", 
+         "end_offset": 265, 
+         "start_offset": 263, 
+         "surface": "Se"
+      }, 
+      {
+         "pos_tag": "VLfin", 
+         "end_offset": 273, 
+         "start_offset": 266, 
+         "surface": "analiza"
+      }, 
+      {
+         "pos_tag": "CM", 
+         "end_offset": 274, 
+         "start_offset": 273, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 278, 
+         "start_offset": 275, 
+         "surface": "por"
+      }, 
+      {
+         "pos_tag": "QU", 
+         "end_offset": 283, 
+         "start_offset": 279, 
+         "surface": "otro"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 288, 
+         "start_offset": 284, 
+         "surface": "lado"
+      }, 
+      {
+         "pos_tag": "CM", 
+         "end_offset": 289, 
+         "start_offset": 288, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 292, 
+         "start_offset": 290, 
+         "surface": "un"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 301, 
+         "start_offset": 293, 
+         "surface": "problema"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 309, 
+         "start_offset": 302, 
+         "surface": "textual"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 312, 
+         "start_offset": 310, 
+         "surface": "en"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 316, 
+         "start_offset": 313, 
+         "surface": "los"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 319, 
+         "start_offset": 317, 
+         "surface": "v."
+      }, 
+      {
+         "pos_tag": "CODE", 
+         "end_offset": 327, 
+         "start_offset": 320, 
+         "surface": "214-217"
+      }, 
+      {
+         "pos_tag": "FS", 
+         "end_offset": 328, 
+         "start_offset": 327, 
+         "surface": "."
+      }
+   ], 
+   "disambiguations": null, 
+   "entities": {
+      "T2": {
+         "surface": "Esquilo", 
+         "end_offset": 51, 
+         "id": "T2", 
+         "start_offset": 44, 
+         "entity_type": "AAUTHOR"
+      }, 
+      "T3": {
+         "surface": "214-217.", 
+         "end_offset": 328, 
+         "id": "T3", 
+         "start_offset": 320, 
+         "entity_type": "REFSCOPE"
+      }, 
+      "T1": {
+         "surface": "\u00ab Agamen\u00f3n \u00bb", 
+         "end_offset": 40, 
+         "id": "T1", 
+         "start_offset": 28, 
+         "entity_type": "AWORK"
+      }
+   }, 
+   "linebreaks": [
+      [
+         90, 
+         91
+      ], 
+      [
+         172, 
+         173
+      ], 
+      [
+         262, 
+         263
+      ], 
+      [
+         328, 
+         329
+      ]
+   ], 
+   "text": "Se estudia en la p\u00e1rodo del \u00ab Agamen\u00f3n \u00bb de Esquilo el tema de lo real como contradicci\u00f3n.\nLa realidad en la tragedia se revela, en distintos momentos, como contradictoria.\nSe subraya en este mismo sentido el uso de oposiciones binarias y de un discurso ambiguo.\nSe analiza, por otro lado, un problema textual en los v. 214-217.", 
+   "doc_id": "75-00043.txt", 
+   "relations": null
+}

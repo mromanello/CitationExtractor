@@ -1,0 +1,563 @@
+{
+   "doc_name": "75-00013", 
+   "tokens": [
+      {
+         "pos_tag": "VER:pper", 
+         "end_offset": 8, 
+         "start_offset": 0, 
+         "surface": "Proposte"
+      }, 
+      {
+         "pos_tag": "VER:impe", 
+         "end_offset": 21, 
+         "start_offset": 9, 
+         "surface": "congetturali"
+      }, 
+      {
+         "pos_tag": "PRE", 
+         "end_offset": 24, 
+         "start_offset": 22, 
+         "surface": "su"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 29, 
+         "start_offset": 25, 
+         "surface": "vari"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 35, 
+         "start_offset": 30, 
+         "surface": "punti"
+      }, 
+      {
+         "pos_tag": "PRE:det", 
+         "end_offset": 39, 
+         "start_offset": 36, 
+         "surface": "del"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 45, 
+         "start_offset": 40, 
+         "surface": "testo"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 47, 
+         "start_offset": 46, 
+         "surface": ":"
+      }, 
+      {
+         "pos_tag": "ABR", 
+         "end_offset": 50, 
+         "start_offset": 48, 
+         "surface": "v."
+      }, 
+      {
+         "pos_tag": "NUM", 
+         "end_offset": 52, 
+         "start_offset": 51, 
+         "surface": "9"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 53, 
+         "start_offset": 52, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 55, 
+         "start_offset": 54, 
+         "surface": "\u00ab"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 59, 
+         "start_offset": 56, 
+         "surface": "sit"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 64, 
+         "start_offset": 60, 
+         "surface": "cire"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 66, 
+         "start_offset": 65, 
+         "surface": "\u00bb"
+      }, 
+      {
+         "pos_tag": "PRE", 
+         "end_offset": 69, 
+         "start_offset": 67, 
+         "surface": "in"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 75, 
+         "start_offset": 70, 
+         "surface": "luogo"
+      }, 
+      {
+         "pos_tag": "PRE", 
+         "end_offset": 78, 
+         "start_offset": 76, 
+         "surface": "di"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 80, 
+         "start_offset": 79, 
+         "surface": "\u00ab"
+      }, 
+      {
+         "pos_tag": "VER:infi", 
+         "end_offset": 87, 
+         "start_offset": 81, 
+         "surface": "arcere"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 89, 
+         "start_offset": 88, 
+         "surface": "\u00bb"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 91, 
+         "start_offset": 90, 
+         "surface": ";"
+      }, 
+      {
+         "pos_tag": "ABR", 
+         "end_offset": 94, 
+         "start_offset": 92, 
+         "surface": "v."
+      }, 
+      {
+         "pos_tag": "NUM", 
+         "end_offset": 97, 
+         "start_offset": 95, 
+         "surface": "22"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 98, 
+         "start_offset": 97, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 104, 
+         "start_offset": 99, 
+         "surface": "forte"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 110, 
+         "start_offset": 105, 
+         "surface": "segno"
+      }, 
+      {
+         "pos_tag": "PRE", 
+         "end_offset": 113, 
+         "start_offset": 111, 
+         "surface": "di"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 127, 
+         "start_offset": 114, 
+         "surface": "interpunzione"
+      }, 
+      {
+         "pos_tag": "PRE:det", 
+         "end_offset": 132, 
+         "start_offset": 128, 
+         "surface": "alla"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 137, 
+         "start_offset": 133, 
+         "surface": "fine"
+      }, 
+      {
+         "pos_tag": "PRE:det", 
+         "end_offset": 141, 
+         "start_offset": 138, 
+         "surface": "del"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 147, 
+         "start_offset": 142, 
+         "surface": "verso"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 149, 
+         "start_offset": 148, 
+         "surface": ";"
+      }, 
+      {
+         "pos_tag": "ABR", 
+         "end_offset": 152, 
+         "start_offset": 150, 
+         "surface": "v."
+      }, 
+      {
+         "pos_tag": "NUM", 
+         "end_offset": 156, 
+         "start_offset": 153, 
+         "surface": "181"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 157, 
+         "start_offset": 156, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 159, 
+         "start_offset": 158, 
+         "surface": "\u00ab"
+      }, 
+      {
+         "pos_tag": "PRO:poss", 
+         "end_offset": 163, 
+         "start_offset": 160, 
+         "surface": "suo"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 165, 
+         "start_offset": 164, 
+         "surface": "\u00bb"
+      }, 
+      {
+         "pos_tag": "PRE", 
+         "end_offset": 168, 
+         "start_offset": 166, 
+         "surface": "in"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 174, 
+         "start_offset": 169, 
+         "surface": "luogo"
+      }, 
+      {
+         "pos_tag": "PRE", 
+         "end_offset": 177, 
+         "start_offset": 175, 
+         "surface": "di"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 179, 
+         "start_offset": 178, 
+         "surface": "\u00ab"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 185, 
+         "start_offset": 180, 
+         "surface": "foret"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 187, 
+         "start_offset": 186, 
+         "surface": "\u00bb"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 188, 
+         "start_offset": 187, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "PRE", 
+         "end_offset": 192, 
+         "start_offset": 189, 
+         "surface": "con"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 200, 
+         "start_offset": 193, 
+         "surface": "diversa"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 214, 
+         "start_offset": 201, 
+         "surface": "interpunzione"
+      }, 
+      {
+         "pos_tag": "PRE:det", 
+         "end_offset": 218, 
+         "start_offset": 215, 
+         "surface": "dei"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 221, 
+         "start_offset": 219, 
+         "surface": "v."
+      }, 
+      {
+         "pos_tag": "NUM", 
+         "end_offset": 229, 
+         "start_offset": 222, 
+         "surface": "180-182"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 231, 
+         "start_offset": 230, 
+         "surface": ";"
+      }, 
+      {
+         "pos_tag": "ABR", 
+         "end_offset": 234, 
+         "start_offset": 232, 
+         "surface": "v."
+      }, 
+      {
+         "pos_tag": "NUM", 
+         "end_offset": 238, 
+         "start_offset": 235, 
+         "surface": "158"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 239, 
+         "start_offset": 238, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 241, 
+         "start_offset": 240, 
+         "surface": "\u00ab"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 245, 
+         "start_offset": 242, 
+         "surface": "num"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 247, 
+         "start_offset": 246, 
+         "surface": "\u00bb"
+      }, 
+      {
+         "pos_tag": "PRE", 
+         "end_offset": 250, 
+         "start_offset": 248, 
+         "surface": "in"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 256, 
+         "start_offset": 251, 
+         "surface": "luogo"
+      }, 
+      {
+         "pos_tag": "PRE", 
+         "end_offset": 259, 
+         "start_offset": 257, 
+         "surface": "di"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 261, 
+         "start_offset": 260, 
+         "surface": "\u00ab"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 265, 
+         "start_offset": 262, 
+         "surface": "cum"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 267, 
+         "start_offset": 266, 
+         "surface": "\u00bb"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 269, 
+         "start_offset": 268, 
+         "surface": ";"
+      }, 
+      {
+         "pos_tag": "ABR", 
+         "end_offset": 272, 
+         "start_offset": 270, 
+         "surface": "v."
+      }, 
+      {
+         "pos_tag": "NUM", 
+         "end_offset": 276, 
+         "start_offset": 273, 
+         "surface": "253"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 277, 
+         "start_offset": 276, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 279, 
+         "start_offset": 278, 
+         "surface": "\u00ab"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 288, 
+         "start_offset": 280, 
+         "surface": "materiae"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 291, 
+         "start_offset": 289, 
+         "surface": "ut"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 295, 
+         "start_offset": 292, 
+         "surface": "nil"
+      }, 
+      {
+         "pos_tag": "VER:futu", 
+         "end_offset": 302, 
+         "start_offset": 296, 
+         "surface": "restet"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 304, 
+         "start_offset": 303, 
+         "surface": "\u00bb"
+      }, 
+      {
+         "pos_tag": "PRE", 
+         "end_offset": 307, 
+         "start_offset": 305, 
+         "surface": "in"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 313, 
+         "start_offset": 308, 
+         "surface": "luogo"
+      }, 
+      {
+         "pos_tag": "PRE", 
+         "end_offset": 316, 
+         "start_offset": 314, 
+         "surface": "di"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 318, 
+         "start_offset": 317, 
+         "surface": "\u00ab"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 327, 
+         "start_offset": 319, 
+         "surface": "materies"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 333, 
+         "start_offset": 328, 
+         "surface": "nulla"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 337, 
+         "start_offset": 334, 
+         "surface": "sit"
+      }, 
+      {
+         "pos_tag": "PON", 
+         "end_offset": 339, 
+         "start_offset": 338, 
+         "surface": "\u00bb"
+      }
+   ], 
+   "disambiguations": null, 
+   "entities": {
+      "T6": {
+         "surface": "v. 253,", 
+         "end_offset": 277, 
+         "id": "T6", 
+         "start_offset": 270, 
+         "entity_type": "REFSCOPE"
+      }, 
+      "T4": {
+         "surface": "v. 180-182 ;", 
+         "end_offset": 231, 
+         "id": "T4", 
+         "start_offset": 219, 
+         "entity_type": "REFSCOPE"
+      }, 
+      "T5": {
+         "surface": "v. 158,", 
+         "end_offset": 239, 
+         "id": "T5", 
+         "start_offset": 232, 
+         "entity_type": "REFSCOPE"
+      }, 
+      "T2": {
+         "surface": "v. 22,", 
+         "end_offset": 98, 
+         "id": "T2", 
+         "start_offset": 92, 
+         "entity_type": "REFSCOPE"
+      }, 
+      "T3": {
+         "surface": "v. 181,", 
+         "end_offset": 157, 
+         "id": "T3", 
+         "start_offset": 150, 
+         "entity_type": "REFSCOPE"
+      }, 
+      "T1": {
+         "surface": "v. 9,", 
+         "end_offset": 53, 
+         "id": "T1", 
+         "start_offset": 48, 
+         "entity_type": "REFSCOPE"
+      }
+   }, 
+   "linebreaks": [
+      [
+         339, 
+         340
+      ]
+   ], 
+   "text": "Proposte congetturali su vari punti del testo : v. 9, \u00ab sit cire \u00bb in luogo di \u00ab arcere \u00bb ; v. 22, forte segno di interpunzione alla fine del verso ; v. 181, \u00ab suo \u00bb in luogo di \u00ab foret \u00bb, con diversa interpunzione dei v. 180-182 ; v. 158, \u00ab num \u00bb in luogo di \u00ab cum \u00bb ; v. 253, \u00ab materiae ut nil restet \u00bb in luogo di \u00ab materies nulla sit \u00bb", 
+   "doc_id": "75-00013.txt", 
+   "relations": null
+}

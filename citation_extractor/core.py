@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
-import pdb
+import pickle
 import getopt
 from ConfigParser import SafeConfigParser
 import os,re,string,logging,pprint,types,json
 import citation_extractor
+from citation_extractor.io.iob import count_tokens, instance_to_string
 from citation_extractor.crfpp_wrap import *
 from citation_extractor.Utils.IO import *
 from sklearn_crfsuite import CRF
@@ -395,6 +396,17 @@ class citation_extractor:
                 feat_sets = self.fe.get_features(instances[n],[],False)
             result.append(self.classifier.classify(feat_sets))
         return result
+
+    def to_pickle(self, path):
+        with open(path, 'wb') as picklefile:
+            pickle.dump(self, picklefile)
+        return
+
+    @staticmethod
+    def from_pickle(path):
+        with open(path, 'rb') as picklefile:
+            return pickle.load(picklefile)
+
 
 class FeatureExtractor:
     """

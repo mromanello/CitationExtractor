@@ -29,8 +29,9 @@ import os
 import re
 
 from knowledge_base import KnowledgeBase
+from citation_extractor.io.brat import read_ann_file
 from citation_extractor.Utils.IO import file_to_instances, write_iob_file
-from citation_extractor.Utils.IO import _find_newlines, read_ann_file_new
+from citation_extractor.Utils.IO import _find_newlines
 from pyCTS import CTS_URN
 
 INPUT_ENCODING = "UTF-8"
@@ -158,7 +159,7 @@ class DocumentConverter(object):
         ]
 
         if self._standoff_dir is not None:
-            so_entities, so_relations, so_annotations = read_ann_file_new(
+            so_entities, so_relations, so_annotations = read_ann_file(
                 self.document_id,
                 self._standoff_dir
             )

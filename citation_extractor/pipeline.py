@@ -26,11 +26,11 @@ from docopt import docopt
 
 import citation_extractor
 import langid
-from citation_extractor.Utils import IO
-from citation_extractor.Utils.IO import (filter_IOB, init_logger,
-                                         read_ann_file, read_ann_file_new)
-from citation_extractor.Utils.sentencesplit import \
-    sentencebreaks_to_newlines  # contained in brat tools
+from citation_extractor.io.iob import count_tokens, write_iob_file, filter_IOB
+from citation_extractor.io.iob import read_iob_files, file_to_instances
+from citation_extractor.io.brat import read_ann_file
+from citation_extractor.Utils.IO import init_logger
+from citation_extractor.Utils.sentencesplit import sentencebreaks_to_newlines # contained in brat tools
 from citation_extractor.Utils.strmatching import StringUtils
 
 if(sys.version_info < (3, 0)):
@@ -198,8 +198,8 @@ def get_extractor(settings):
         logger.info("Using CitationExtractor v. %s"%citation_extractor_module.__version__)
         train_instances = []
         for directory in settings.DATA_DIRS:
-            train_instances += IO.read_iob_files(directory,extension=".txt")
-        logger.info("Training data: found %i directories containing %i  sentences and %i tokens"%(len(settings.DATA_DIRS),len(train_instances),IO.count_tokens(train_instances)))
+            train_instances += read_iob_files(directory,extension=".txt")
+        logger.info("Training data: found %i directories containing %i  sentences and %i tokens"%(len(settings.DATA_DIRS),len(train_instances),count_tokens(train_instances)))
 
         if(settings.CLASSIFIER is None):
             ce = citation_extractor(settings)
@@ -441,20 +441,6 @@ def save_scope_annotations(fileid, ann_dir, annotations):
         return False
 
 
-def tostandoff(iobfile,standoffdir,brat_script):
-    """
-    Converts the .iob file with NE annotation into standoff markup.
-    """
-    import sys
-    import os
-    try:
-        cmd = "python %s -o %s %s"%(brat_script,standoffdir,iobfile)
-        os.popen(cmd).readlines()
-        logger.info("Document %s: .ann output written successfully."%iobfile)
-    except Exception, e:
-        raise e
-
-
 def preproc_document(doc_id, inp_dir, interm_dir, out_dir, abbreviations, taggers, split_sentences=True):
     """
     :param doc_id: the input filename
@@ -489,10 +475,10 @@ def preproc_document(doc_id, inp_dir, interm_dir, out_dir, abbreviations, tagger
         logger.info("Language detected=\"%s\""%lang)
         tagged_sentences = taggers[lang].tag_sents(sentences)
         tokenised_text = [[token for token in line] for line in tagged_sentences]
-        IO.write_iob_file(tokenised_text,iob_out_file)
+        write_iob_file(tokenised_text,iob_out_file)
         logger.info("Written IOB output to %s"%iob_out_file)
         no_sentences = len(text.split('\n'))
-        no_tokens = IO.count_tokens(tokenised_text)
+        no_tokens = count_tokens(tokenised_text)
     except Exception, e:
         logger.error("The pre-processing of document %s (lang=\'%s\') failed with error \"%s\""%(doc_id,lang,e))
     finally:
@@ -505,13 +491,13 @@ def do_ner(doc_id, inp_dir, interm_dir, out_dir, extractor, so2iob_script):
     # return doc_id and a boolean
     from citation_extractor.Utils import IO
     try:
-        data = IO.file_to_instances("%s%s"%(inp_dir,doc_id))
+        data = file_to_instances("%s%s"%(inp_dir,doc_id))
         postags = [[("z_POS",token[1]) for token in instance] for instance in data if len(instance)>0]
         instances = [[token[0] for token in instance] for instance in data if len(instance)>0]
         result = extractor.extract(instances,postags)
         output = [[(res[n]["token"].decode('utf-8'), postags[i][n][1], res[n]["label"]) for n,d_res in enumerate(res)] for i,res in enumerate(result)]
         out_fname = "%s%s"%(interm_dir,doc_id)
-        IO.write_iob_file(output,out_fname)
+        write_iob_file(output,out_fname)
         logger.info("Output successfully written to file \"%s\""%out_fname)
         tostandoff(out_fname,out_dir,so2iob_script)
         return (doc_id,True)
@@ -592,10 +578,6 @@ def validate_configuration(configuration_parameters, task="all"): #TODO finish
         pass
 
 
-def run_pipeline(configuration_file): #TODO: implement
-    pass
-
-
 def main():
     arguments = docopt(__doc__, version=citation_extractor.__version__)
     logger = init_logger()
@@ -604,4 +586,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # TODO: validate configuration file based on task at hand

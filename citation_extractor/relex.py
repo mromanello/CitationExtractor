@@ -21,7 +21,7 @@ def prepare_for_training(doc_id, basedir, output_class_label=True):
 		- if the pair is an actual relation, then label the feature set as a positive instances
 		- otherwise label it as a negative instance.
 		- this approach generates way more negative than positive examples
-			- when training the classifier select so many negative examples as the positive examples (randomly selected) 
+			- when training the classifier select so many negative examples as the positive examples (randomly selected)
 
 	The result returned by this function is a list of lists that looks like this:
 
@@ -99,7 +99,7 @@ def extract_relation_features(arg1, arg2, entities, fulltext):
 		✓ Thuc.=True (head_arg1)
 		✓ 1.8=True (head_arg2)
 		✓ WordsBtw:0
-		✓ EntBtw:0 
+		✓ EntBtw:0
 		✓ word_before_arg1
 		✓ word_after_arg1
 		✓ word_before_arg2
@@ -137,7 +137,7 @@ def extract_relation_features(arg1, arg2, entities, fulltext):
 			span_begins = int(arg2_entity["offset_end"])
 		logger.debug("Counting entities between arguments %s-%s"%(arg1_entity["ann_id"],arg2_entity["ann_id"]))
 		logger.debug("Count entities within the offsets %s-%s"%(span_begins,span_ends))
-		entities_between = [entity for entity in entities 
+		entities_between = [entity for entity in entities
 								if int(entities[entity]["offset_start"]) > span_begins and int(entities[entity]["offset_end"]) < span_ends]
 		logger.debug("Found %i entities in between (%s)"%(len(entities_between),entities_between))
 		return len(entities_between)
@@ -166,10 +166,11 @@ def extract_relation_features(arg1, arg2, entities, fulltext):
 	features["arg2_head"] = entities[arg2]["surface"]
 	features["n_words_btw"] = count_words_between_arguments(entities[arg1],entities[arg2],fulltext)
 	features["n_entities_btw"] = count_entities_between_arguments(entities[arg1],entities[arg2],entities)
-	features["word_before_arg1"],features["word_after_arg1"] = get_word_before_after(entities[arg1],fulltext)   
+	features["word_before_arg1"],features["word_after_arg1"] = get_word_before_after(entities[arg1],fulltext)
 	features["word_before_arg2"],features["word_after_arg2"] = get_word_before_after(entities[arg2],fulltext)
 	return features
 
+# TODO: rename => MLRelationExtractor
 class relation_extractor(object):
 	"""
 	TODO: finish implementation
@@ -187,7 +188,7 @@ class relation_extractor(object):
 	def __repr__(self):
 	        class_name = self.__class__.__name__
 	        return '%s(classifier=%s,n_training_files=%s,n_training_instances=%s)' % (class_name, self._classifier,len(self._training_files),self._n_train_instances)
-	
+
 	def extract(self,entities,fulltext):
 		"""
 		Returns a dictionary like
