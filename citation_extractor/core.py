@@ -4,7 +4,7 @@
 import pdb
 import getopt
 from ConfigParser import SafeConfigParser
-import os,re,string,logging,pprint,types,xmlrpclib,json
+import os,re,string,logging,pprint,types,json
 import citation_extractor
 from citation_extractor.crfpp_wrap import *
 from citation_extractor.Utils.IO import *

@@ -1,7 +1,8 @@
 ### 1.7.x
 
 - added library documentation
-- MLCitationMatcher by Matteo Filipponi
+- MLCitationMatcher by [@mfilippo](http://github.com/mfilippo/)
+- started to move away from brat standoff format as the default output
 
 ### 31.01.2018 1.6.x @mr56k
 

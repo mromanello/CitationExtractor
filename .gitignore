@@ -34,5 +34,7 @@ dist/
 \#*#
 
 # Sphinx
-
 docs/_build/
+
+# misc
+.tox

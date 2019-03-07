@@ -1,8 +1,11 @@
 ## Up next
 
-- [ ] finish implementation of `io.converters.DocumentConverter.to_ann()`
-- [ ] revise `pipeline.do_ner`: remove dependency with `brat` code (`conll2standoff`) and use `DocumentConverter` instead
-- [ ] once done, merge into master as version `1.6.4`
+- [ ] revise `pipeline` module:
+  - rationale: serialize to JSON as default
+  - remove dependency with `brat` code (`conll2standoff`)
+  - update tests
+- [ ] update TreeTagger installation script
+  - and provide a version of Mac OS
 
 
 ## integration of ML-Matcher into the codebase
