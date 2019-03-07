@@ -3,16 +3,17 @@ Creates a wrapper around the CRF++ library (C++ implementation of CRF).
 """
 
 from __future__ import print_function
-try:
-    import CRFPP
-except ImportError as e:
-    print("CRFPP library was not found and won't be used")
 
 import logging
 import os
 
 global logger
 logger = logging.getLogger(__name__)
+
+try:
+    import CRFPP
+except ImportError as e:
+    logger.warning("CRFPP library was not found and won't be used")
 
 
 def train_crfpp(template_file, train_data_file, model_file):
