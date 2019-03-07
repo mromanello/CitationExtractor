@@ -1,4 +1,4 @@
-"""Tests for the module `citation_extractor.Utils`."""
+"""Tests for the module `citation_extractor.io.converters`."""
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
