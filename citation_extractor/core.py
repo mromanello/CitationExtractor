@@ -1,16 +1,22 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
+import json
+import logging
+import os
 import pickle
-import getopt
-from ConfigParser import SafeConfigParser
-import os,re,string,logging,pprint,types,json
-import citation_extractor
-from citation_extractor.io.iob import count_tokens, instance_to_string
-from citation_extractor.crfpp_wrap import *
-from citation_extractor.Utils.IO import *
+import re
+import string
+import types
+
 from sklearn_crfsuite import CRF
 from stop_words import safe_get_stop_words
+
+import citation_extractor
+from citation_extractor.crfpp_wrap import *
+from citation_extractor.io.iob import (count_tokens, file_to_instances,
+                                       instance_to_string)
+# from citation_extractor.Utils.IO import *
 
 """
 This module contains the core of the citation extractor.

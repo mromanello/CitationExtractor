@@ -7,7 +7,7 @@ import pickle
 import logging
 from citation_extractor.settings import crf
 from citation_extractor import pipeline
-from citation_extractor.Utils.IO import read_iob_files, filter_IOB
+from citation_extractor.io.iob import read_iob_files, filter_IOB
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

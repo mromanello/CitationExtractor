@@ -12,8 +12,8 @@ import pkg_resources
 from pytest import fixture
 import pandas as pd
 from citation_extractor import pipeline
-from citation_extractor.Utils.IO import load_brat_data
 from citation_extractor.settings import crf, svm, maxent, crfsuite
+from citation_extractor.io.brat import load_brat_data
 from citation_extractor.ned.matchers import CitationMatcher, MLCitationMatcher
 from citation_extractor.ned.features import FeatureExtractor
 from knowledge_base import KnowledgeBase as KnowledgeBaseNew
@@ -139,11 +139,15 @@ def crfsuite_citation_extractor():
 @fixture(scope="session")
 def processing_directories(tmpdir_factory):
     return {
-        'input' : pkg_resources.resource_filename('citation_extractor','data/aph_corpus/devset/orig/')
-        , 'iob' : str(tmpdir_factory.mktemp('iob'))+"/"
-        , 'txt' : str(tmpdir_factory.mktemp('txt'))+"/"
-        , 'iob_ne' : str(tmpdir_factory.mktemp('iob_ne'))+"/"
-        , 'ann' :  str(tmpdir_factory.mktemp('ann'))+"/"
+        'input': pkg_resources.resource_filename(
+            'citation_extractor',
+            'data/aph_corpus/devset/orig/'
+        ),
+        'iob': str(tmpdir_factory.mktemp('iob'))+"/",
+        'txt': str(tmpdir_factory.mktemp('txt'))+"/",
+        'iob_ne': str(tmpdir_factory.mktemp('iob_ne'))+"/",
+        'ann':  str(tmpdir_factory.mktemp('ann'))+"/",
+        'json':  str(tmpdir_factory.mktemp('json'))+"/",
     }
 
 

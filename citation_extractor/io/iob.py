@@ -4,6 +4,10 @@ Functions to deal with input/output of data in CONLL/IOB format.
 
 from __future__ import print_function
 import logging
+import codecs
+import glob
+import os
+import re
 
 logger = logging.getLogger(__name__)
 

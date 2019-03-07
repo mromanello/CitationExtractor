@@ -4,6 +4,7 @@ Functions to deal with input/output of data in brat standoff format.
 
 from __future__ import print_function
 import logging
+import codecs
 
 logger = logging.getLogger(__name__)
 
@@ -65,7 +66,7 @@ def read_ann_file(fileid, ann_dir, suffix="-doc-1.ann"):
 
 def sort_mentions_by_appearance(entities, relations):
     """
-    Return an ordered sequence of entity/relation IDs, in the same order as they appear in the document.
+    Sort entity/relation IDs by their order in the document.
 
     :param entities:
         The dictionary of the entities in the document.
@@ -84,8 +85,14 @@ def sort_mentions_by_appearance(entities, relations):
         entities_id_set.discard(entity_id_1)
         entity_0 = entities[entity_id_0]
         entity_1 = entities[entity_id_1]
-        first_start = min(int(entity_0['offset_start']), int(entity_1['offset_start']))
-        second_start = max(int(entity_0['offset_start']), int(entity_1['offset_start']))
+        first_start = min(
+            int(entity_0['offset_start']),
+            int(entity_1['offset_start'])
+        )
+        second_start = max(
+            int(entity_0['offset_start']),
+            int(entity_1['offset_start'])
+        )
         offset = float(str(first_start) + '.' + str(second_start))
         t = (k, offset)
         by_offset.append(t)
@@ -96,8 +103,10 @@ def sort_mentions_by_appearance(entities, relations):
         t = (eid, offset)
         by_offset.append(t)
 
-    by_offset = [id for id, offset in sorted(by_offset, key=lambda (id, offset): offset)]
-    return by_offset
+    return [
+        id
+        for id, _offset in sorted(by_offset, key=lambda (id, _offset): _offset)
+    ]
 
 
 def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_titles, context_window=None):
@@ -359,9 +368,9 @@ def _find_newlines(text, newline=u'\n'):
     if(text.find(newline) == -1):
         return positions
     else:
-        while(text.find(newline,last_position+1)>-1):
-            last_position = text.find(newline,last_position+1)
-            positions.append((last_position,last_position+len(newline)))
+        while(text.find(newline, last_position + 1) > -1):
+            last_position = text.find(newline, last_position + 1)
+            positions.append((last_position, last_position + len(newline)))
         return positions
 
 
@@ -369,23 +378,19 @@ def _find_linenumber_by_offset(offset_start, offset_end, newline_offsets):
     """
     TODO
     """
-    for n,nl_offset in enumerate(newline_offsets):
-        #print offset_start,offset_end,nl_offset
+    for n, nl_offset in enumerate(newline_offsets):
+
         if(offset_start <= nl_offset[0] and offset_end <= nl_offset[0]):
             return (n+1, newline_offsets[n-1][1], newline_offsets[n][0])
 
 
 def annotations2references(doc_id, directory, kb):
-    """
-    Read annotations from a brat stand-off file (.ann).
-    For each entity and relation keep also the context, i.e. the containing sentences.
+    """Read annotations from a brat stand-off file (.ann).
 
-    TODO:
-    - add author and work labels
-    - if annotation is a scope relation, add work- and author-urn
-    if annotation is an AWORK, add work- and author-urn
+    For each entity and relation keep also the context, i.e. the containing
+    sentences.
     """
-    def find_newlines(text,newline=u'\n'):
+    def find_newlines(text, newline=u'\n'):
         positions = []
         last_position = 0
         if(text.find(newline) == -1):

@@ -1,51 +1,16 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
-import os
-import pdb
-import pytest
 import logging
-import pkg_resources
-from citation_extractor.pipeline import do_ned
-from citation_extractor.pipeline import preproc_document, do_ner, do_relex
-from citation_extractor.pipeline import read_ann_file_new, detect_language
+import os
 
+import pkg_resources
+import pytest
+
+from citation_extractor.pipeline import (detect_language, do_ned, do_ner,
+                                         do_relex, preproc_document)
 
 logger = logging.getLogger(__name__)
-
-
-def test_read_ann_file_new():
-    dir = pkg_resources.resource_filename(
-        'citation_extractor',
-        'data/aph_corpus/goldset/ann/'
-    )
-    files = [
-        file.replace('-doc-1.ann', '')
-        for file in pkg_resources.resource_listdir(
-            'citation_extractor',
-            'data/aph_corpus/goldset/ann/'
-        )
-        if '.ann' in file
-    ]
-    for file in files[:10]:
-
-        logger.debug(file)
-        entities, relations, annotations = read_ann_file_new(file, dir)
-        logger.debug("Entities: {}".format(entities))
-
-        # check the ids of entities which are arguments in relations
-        # are actually contained in the list of entities
-        for rel_id in relations:
-            logger.debug(relations[rel_id])
-            for entity_id in relations[rel_id]["arguments"]:
-                assert entity_id in entities
-
-        logger.debug(annotations)
-        for annotation in annotations:
-            assert (
-                annotation["anchor"] in relations or
-                annotation["anchor"] in entities
-            )
 
 
 def test_tokenize_string(aph_titles, postaggers):
@@ -90,23 +55,25 @@ def test_preprocessing(processing_directories, postaggers):
 
 def test_do_ner(processing_directories, crfsuite_citation_extractor):
     """Test the Named Entity Recognition step of the pipeline."""
-    brat_script_path = pkg_resources.resource_filename(
-        'citation_extractor',
-        'Utils/conll02tostandoff.py'
-    )
+
+    # folder with tokenized and postagged docs
     inp_dir = processing_directories["iob"]
+
+    # folder for intermediate output
     interm_dir = processing_directories["iob_ne"]
-    out_dir = processing_directories["ann"]
+
+    # the default output format is JSON
+    out_dir = processing_directories["json"]
     docids = os.listdir(inp_dir)
+
     for docid in docids:
         logger.info(
             do_ner(
                 docid,
-                inp_dir,
-                interm_dir,
-                out_dir,
-                crfsuite_citation_extractor,
-                brat_script_path
+                inp_dir=inp_dir,
+                interm_dir=interm_dir,
+                out_dir=out_dir,
+                extractor=crfsuite_citation_extractor
             )
         )
     assert len(os.listdir(out_dir)) > 0

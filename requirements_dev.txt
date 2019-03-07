@@ -6,3 +6,5 @@ tabulate
 ipdb
 twine
 tox
+isort
+flake8

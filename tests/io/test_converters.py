@@ -7,7 +7,6 @@ import pkg_resources
 import logging
 from citation_extractor.io.converters import DocumentConverter
 
-logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 

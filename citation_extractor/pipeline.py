@@ -21,16 +21,18 @@ import re
 import sys
 from operator import itemgetter
 
+import langid
 import numpy as np
 from docopt import docopt
 
 import citation_extractor
-import langid
-from citation_extractor.io.iob import count_tokens, write_iob_file, filter_IOB
-from citation_extractor.io.iob import read_iob_files, file_to_instances
 from citation_extractor.io.brat import read_ann_file
+from citation_extractor.io.converters import DocumentConverter
+from citation_extractor.io.iob import (count_tokens, file_to_instances,
+                                       filter_IOB, read_iob_files,
+                                       write_iob_file)
 from citation_extractor.Utils.IO import init_logger
-from citation_extractor.Utils.sentencesplit import sentencebreaks_to_newlines # contained in brat tools
+from citation_extractor.Utils.sentencesplit import sentencebreaks_to_newlines
 from citation_extractor.Utils.strmatching import StringUtils
 
 if(sys.version_info < (3, 0)):
@@ -41,7 +43,8 @@ else:
 global logger
 logger = logging.getLogger(__name__)
 
-#TODO custom exception: invalid configuration
+
+# TODO custom exception: invalid configuration
 
 
 # Constants (remove?)
@@ -485,36 +488,65 @@ def preproc_document(doc_id, inp_dir, interm_dir, out_dir, abbreviations, tagger
         return doc_id, lang, no_sentences, no_tokens
 
 
-def do_ner(doc_id, inp_dir, interm_dir, out_dir, extractor, so2iob_script):
-    # TODO:
-    # wrap with a try/except/finally
-    # return doc_id and a boolean
-    from citation_extractor.Utils import IO
+def do_ner(doc_id, inp_dir, interm_dir, out_dir, extractor):
+
     try:
-        data = file_to_instances("%s%s"%(inp_dir,doc_id))
-        postags = [[("z_POS",token[1]) for token in instance] for instance in data if len(instance)>0]
-        instances = [[token[0] for token in instance] for instance in data if len(instance)>0]
-        result = extractor.extract(instances,postags)
-        output = [[(res[n]["token"].decode('utf-8'), postags[i][n][1], res[n]["label"]) for n,d_res in enumerate(res)] for i,res in enumerate(result)]
-        out_fname = "%s%s"%(interm_dir,doc_id)
-        write_iob_file(output,out_fname)
-        logger.info("Output successfully written to file \"%s\""%out_fname)
-        tostandoff(out_fname,out_dir,so2iob_script)
-        return (doc_id,True)
+        data = file_to_instances(os.path.join(inp_dir, doc_id))
+        # store pos tags in a separate list of lists
+        postags = [
+            [
+                ("z_POS", token[1])
+                for token in instance
+            ]
+            for instance in data
+            if len(instance) > 0
+        ]
+
+        # store tokens in a separate list of lists
+        instances = [
+            [
+                token[0]
+                for token in instance
+            ]
+            for instance in data
+            if len(instance) > 0
+        ]
+
+        # extract entities from the input document
+        result = extractor.extract(instances, postags)
+        output = [
+            [
+                (
+                    res[n]["token"].decode('utf-8'),
+                    postags[i][n][1],
+                    res[n]["label"]
+                )
+                for n, d_res in enumerate(res)
+            ]
+            for i, res in enumerate(result)
+        ]
+
+        # first write the IOB
+        out_fname = os.path.join(interm_dir, doc_id)
+        write_iob_file(output, out_fname)
+        logger.info('Output successfully written to file'.format({out_fname}))
+
+        # then convert to JSON
+        dc = DocumentConverter()
+        dc.load(iob_file_path=os.path.join(interm_dir, doc_id))
+        dc.to_json(output_dir=out_dir)
+        return (doc_id, True)
     except Exception, e:
-        logger.error("The NER of document %s failed with error \"%s\""%(doc_id,e))
-        return (doc_id,False)
+        logger.error(
+            'The NER of document {} failed with error {}'.format(doc_id, e)
+        )
+        return (doc_id, False)
     finally:
-        logger.info("Finished processing document \"%s\""%doc_id)
+        logger.info('Finished processing document {}'.format(doc_id))
     return
 
 
-def do_ned(
-        doc_id,
-        inp_dir,
-        citation_matcher,
-        clean_annotations=False
-):
+def do_ned(doc_id, inp_dir, citation_matcher, clean_annotations=False):
     """Perform named entity and relation disambiguation on a brat file."""
     try:
         if(clean_annotations):

@@ -5,7 +5,7 @@ import logging
 import codecs
 import itertools
 import pkg_resources
-from citation_extractor.pipeline import read_ann_file_new
+from citation_extractor.io.brat import read_ann_file as read_ann_file_new
 from nltk.classify.scikitlearn import SklearnClassifier
 
 global logger

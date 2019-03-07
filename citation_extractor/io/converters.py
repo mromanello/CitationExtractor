@@ -30,8 +30,8 @@ import re
 
 from knowledge_base import KnowledgeBase
 from citation_extractor.io.brat import read_ann_file
-from citation_extractor.Utils.IO import file_to_instances, write_iob_file
-from citation_extractor.Utils.IO import _find_newlines
+from citation_extractor.io.iob import file_to_instances, write_iob_file
+from citation_extractor.io.brat import _find_newlines
 from pyCTS import CTS_URN
 
 INPUT_ENCODING = "UTF-8"
