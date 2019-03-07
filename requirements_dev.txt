@@ -5,3 +5,4 @@ parmap
 tabulate
 ipdb
 twine
+tox
