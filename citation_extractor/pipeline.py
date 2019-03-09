@@ -297,31 +297,6 @@ def split_sentences(filename,outfilename=None):
     return new_sentences
 
 
-def extract_relationships(entities):
-    """
-    TODO: implement properly the pseudocode!
-    """
-    relations = {}
-    arg1 = None
-    arg2 = None
-    # why it's important to sort this way the entities?
-    items = entities.items()
-    items.sort(key=lambda x:int(x[1][2]))
-    for item in items:
-        entity_type,entity_label,entity_start,entity_end = item[1]
-        if(entity_type!="REFSCOPE"):
-            arg1 = item[0]
-            arg2 = None
-        else:
-            arg2 = item[0]
-            if(arg1 is not None):
-                rel_id = "R%s"%(len(relations.keys())+1)
-                relations[rel_id] = (arg1,arg2)
-                logger.debug("Detected relation %s"%str(relations[rel_id]))
-
-    return relations
-
-
 def save_scope_relationships(fileid, ann_dir, relations, entities):
     """
     appends relationships (type=scope) to an .ann file.
