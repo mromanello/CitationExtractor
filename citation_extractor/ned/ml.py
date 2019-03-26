@@ -7,16 +7,19 @@ from __future__ import print_function
 
 import logging
 import time
-import pdb
 
 import numpy as np
-from dask import delayed, compute
 
 from citation_extractor.Utils.extra import avg
-from sklearn import (model_selection, preprocessing, svm)
+from sklearn import model_selection, preprocessing, svm
 from sklearn.feature_extraction import DictVectorizer
 
 LOGGER = logging.getLogger(__name__)
+
+try:
+    from dask import delayed, compute
+except ImportError:
+    LOGGER.warning('Dask not installed')
 
 
 class LinearSVMRank(object):

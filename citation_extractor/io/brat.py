@@ -504,3 +504,125 @@ def annotations2references(doc_id, directory, kb):
             logger.error("The annotations %s raised an error: %s"%(annotation,e))
     logger.info("Read %i annotations from file %s%s"%(len(annotations), directory, doc_id))
     return annotations
+
+
+def save_scope_relationships(fileid, ann_dir, relations, entities):
+    """
+    appends relationships (type=scope) to an .ann file.
+    """
+    import codecs
+    ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
+    keys = relations.keys()
+    keys.sort(key=lambda k:(k[0], int(k[1:])))
+    result = "\n".join(["%s\tScope Arg1:%s Arg2:%s"%(rel,relations[rel][0],relations[rel][1]) for rel in keys])
+    try:
+        f = codecs.open(ann_file,'r','utf-8')
+        hasblankline = f.read().endswith("\n")
+        f.close()
+        f = codecs.open(ann_file,'a','utf-8')
+        if(not hasblankline):
+            f.write("\n")
+        f.write(result)
+        f.close()
+        logger.info("Written %i relations to %s"%(len(relations),ann_file))
+    except Exception, e:
+        raise e
+    return result
+
+
+def clean_relations_annotation(fileid, ann_dir, entities):
+    """
+    overwrites relationships (type=scope) to an .ann file.
+    """
+    ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
+    keys = entities.keys()
+    keys.sort(key=lambda k:(k[0], int(k[1:])))
+    result = "\n".join([
+        "%s\t%s %s %s\t%s" % (
+            ent,
+            entities[ent][0],
+            entities[ent][2],
+            entities[ent][3],
+            entities[ent][1]
+        )
+        for ent in keys
+    ])
+    try:
+        f = codecs.open(ann_file,'w','utf-8')
+        f.write(result)
+        f.close()
+        logger.info("Cleaned relations annotations from %s"%ann_file)
+    except Exception, e:
+        raise e
+    return result
+
+
+def remove_all_annotations(fileid, ann_dir):
+    """Remove all free-text annotations from a brat file."""
+    ann_file = "%s%s-doc-1.ann" % (ann_dir, fileid)
+    entities, relations, annotations = read_ann_file(fileid, ann_dir)
+
+    entity_keys = entities.keys()
+    entity_keys.sort(key=lambda k: (k[0], int(k[1:])))
+    entities_string = "\n".join(
+        [
+            "%s\t%s %s %s\t%s" % (
+                ent,
+                entities[ent][0],
+                entities[ent][2],
+                entities[ent][3],
+                entities[ent][1]
+            )
+            for ent in entity_keys
+        ]
+    )
+
+    relation_keys = relations.keys()
+    relation_keys.sort(key=lambda k: (k[0], int(k[1:])))
+    relation_string = "\n".join(
+        [
+            "%s\tScope Arg1:%s Arg2:%s" % (
+                rel,
+                relations[rel][1].replace('Arg1:', ''),
+                relations[rel][2].replace('Arg2:', '')
+            )
+            for rel in relation_keys
+        ]
+    )
+
+    try:
+        with codecs.open(ann_file,'w','utf-8') as f:
+            f.write(entities_string)
+            f.write("\n")
+            f.write(relation_string)
+        print >> sys.stderr, "Cleaned all relations annotations from %s"%ann_file
+    except Exception, e:
+        raise e
+    return
+
+
+def save_scope_annotations(fileid, ann_dir, annotations):
+    """
+    :param fileid: the file name (prefix added by brat is removed)
+    :param ann_dir: the directory containing brat standoff annotations
+    :param annotations: a list of tuples where: t[0] is the ID of the entity/relation the annotation is about;
+                        t[1] is the label (it doesn't get written to the file); t[2] is the URN, i.e. the content
+                        of the annotation. If t[2] is None the annotation is skipped
+    :return: True if annotations were successfully saved to file, False otherwise.
+    """
+    try:
+        ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
+        file_content = open(ann_file,'r').read()
+        file = open(ann_file,'a')
+        if(not (file_content.endswith('\n') or file_content.endswith('\r'))):
+            file.write("\n")
+        for n,annot in enumerate(annotations):
+            if(annot[2] is not None):
+                file.write("#%i\tAnnotatorNotes %s\t%s\n"%(n,annot[0],annot[2]))
+            else:
+                print >> sys.stderr, "The annotation \"%s\" in %s is None, therefore was not written to file"%(annot[1],fileid)
+        file.close()
+        return True
+    except Exception as e:
+        logger.error("Saving annotations to file %s%s failed with error: %s"%(ann_dir, fileid, e))
+        return False

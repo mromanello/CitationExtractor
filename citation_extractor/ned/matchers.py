@@ -17,7 +17,7 @@ from nltk.metrics import edit_distance
 from pyCTS import CTS_URN
 from citation_extractor.extra.pysuffix.suffixIndexers import DictValuesIndexer
 from citation_parser import CitationParser
-from citation_extractor.pipeline import NIL_URN
+from citation_extractor.ned import NIL_URN
 from citation_extractor.Utils.strmatching import *
 
 from citation_extractor.ned.features import FeatureExtractor

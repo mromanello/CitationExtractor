@@ -9,18 +9,22 @@ import logging
 from citation_extractor.Utils.strmatching import StringSimilarity, StringUtils
 from citation_extractor.ned import AUTHOR_TYPE, WORK_TYPE, REFAUWORK_TYPE
 import pandas as pd
-# import multiprocessing
-import dask
-from dask import compute, delayed
-from dask.multiprocessing import get as mp_get
-from dask.diagnostics import ProgressBar
+
 
 LOGGER = logging.getLogger(__name__)
 
+try:
+    # import dask
+    from dask import delayed, compute
+    from dask.multiprocessing import get as mp_get
+    from dask.diagnostics import ProgressBar
+except ImportError:
+    LOGGER.warning('Dask not installed')
 
 # TODO: we should define precise data-structures,
 # if we use pandas dataframes we should also enforce a schema and also define
 # column names as variables
+
 
 class CandidatesGenerator(object):
     """Generate entity candidates for a given mention."""
