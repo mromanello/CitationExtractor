@@ -644,6 +644,15 @@ class CitationMatcher(object):  # TODO: rename => FuzzyCitationMatcher
                 n_results
             )
 
+    def to_pickle(self, path):
+        with open(path, 'wb') as picklefile:
+            pickle.dump(self, picklefile)
+        return
+
+    @staticmethod
+    def from_pickle(path):
+        with open(path, 'rb') as picklefile:
+            return pickle.load(picklefile)
 
 class MLCitationMatcher(object): # TODO: renaming RankingCitationMatcher (?)
     """Machine Learning-based Citation Matcher.
