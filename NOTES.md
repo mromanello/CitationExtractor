@@ -4,6 +4,16 @@ where I left: try to provide the module with minimum data and directory structur
 
 * [testing good practices](http://pytest.org/latest/goodpractises.html)
 
+## For nicer CLIs
+
+```python
+from termcolor import colored
+colored('test', 'red')
+print(colored('test', 'red'))
+print(colored('✓', 'red'))
+print(colored('✓', 'green'))
+```
+
 ## Distributing the package
 
 * see <http://pythonhosted.org/setuptools/setuptools.html>
