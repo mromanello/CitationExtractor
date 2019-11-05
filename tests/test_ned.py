@@ -7,7 +7,7 @@ import logging
 import pickle
 import pkg_resources
 import pandas as pd
-from citation_extractor.pipeline import NIL_URN
+from citation_extractor.ned import NIL_URN
 from citation_extractor.ned.candidates import CandidatesGenerator
 from citation_extractor.ned.ml import LinearSVMRank
 from citation_extractor.ned.matchers import MLCitationMatcher
@@ -79,7 +79,7 @@ def test_candidate_generator(
         kb_norm_works=_kb_norm_works
     )
 
-    for mention_id, row in aph_testset_dataframe.iterrows():
+    for mention_id, row in aph_testset_dataframe.head(50).iterrows():
 
         surface = row['surface_norm_dots']
         scope = row['scope']
