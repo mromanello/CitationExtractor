@@ -16,8 +16,9 @@ logger = logging.getLogger(__name__)
 def test_string2entities(aph_titles, crfsuite_citation_extractor, postaggers):
     """Demonstrates how to extract entities (aauthor, awork) from a string."""
     aph_title = aph_titles.iloc[0]["title"]
+    aph_doc_id = aph_titles.iloc[0]["name"]
     logger.info("Testing title _{}_ from document {}".format(
-        aph_title.title, aph_title.name
+        aph_title, aph_doc_id
     ))
 
     # detect the language of the input string for starters
