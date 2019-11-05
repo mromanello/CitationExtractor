@@ -83,8 +83,15 @@ def read_text(fileid, ann_dir, suffix="-doc-1.txt"):
 
 
 def urn2uri(kb, input_urn):
-    resource = kb.get_resource_by_urn(input_urn)
-    return str(resource.subject)
+    try:
+        resource = kb.get_resource_by_urn(input_urn)
+        return str(resource.subject)
+    except Exception as e:
+        print("Finding URI for {} raised this error".format(
+            input_urn,
+            e
+        ))
+
 
 
 class DocumentConverter(object):
@@ -227,7 +234,7 @@ class DocumentConverter(object):
                         entities[current_entity["id"]] = current_entity
                         current_entity = {}
 
-                    id = "T{}".format(len(entities.values()) + 1)
+                    id = "{}".format(len(entities.values()) + 1)
                     current_entity["entity_type"] = ne_tag
                     current_entity['start_offset'] = start
                     current_entity['end_offset'] = end
