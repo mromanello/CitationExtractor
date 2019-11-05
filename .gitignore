@@ -7,6 +7,7 @@ __pycache__/
 
 # pytest
 .cache
+.pytest_cache
 
 # venv
 .env
@@ -16,13 +17,25 @@ env/
 *~
 
 # project specific
-citation_extractor/data/pickles/
+# citation_extractor/data/pickles/
 citation_extractor/output/
 
 # pypi
 build/
+*.egg-info/
 dist/
 
-.coverage
-*.egg-info/
+
+# Pycharm
+.idea
+
+# Misc
+.coverage*
 \#*#
+
+# Sphinx
+docs/_build/
+
+# misc
+.tox
+all_in_one.iob

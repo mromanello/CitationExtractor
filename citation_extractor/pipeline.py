@@ -5,44 +5,62 @@
 Basic command line interface to run the reference extraction pipeline.
 
 Usage:
-    pipeline.py do (preproc | ner | relex | ned | all) --config=<file>
+    citedloci-pipeline init --config=<file>
+    citedloci-pipeline do (preproc | ner | relex | ned | all) --config=<file> [--doc=<name> --overwrite]
 
 Options:
     -h, --help              Show this message.
     -V, --version           Show version.
     -c, --config=<file>     The configuration file.
-"""
+    -o, --overwrite         Whether existing subdirs within `working-dir` should be kept
 
+Examples:
+     citedloci-pipeline  do preproc --config=config/project.ini
+"""  # noqa: E501
+
+import codecs
+import importlib
+import json
+import logging
 import os
 import re
+import shutil
 import sys
-import logging
-import codecs
+from operator import itemgetter
+
+import numpy as np
+from docopt import docopt
+
 import langid
+from citation_extractor import __version__ as VERSION
+from citation_extractor.core import citation_extractor
+from citation_extractor.io.converters import DocumentConverter
+from citation_extractor.io.iob import (count_tokens, file_to_instances,
+                                       filter_IOB, read_iob_files,
+                                       write_iob_file)
+from citation_extractor.ned.matchers import CitationMatcher
+from citation_extractor.relex.rb import RBRelationExtractor
+from citation_extractor.Utils.IO import init_logger
+from citation_extractor.Utils.strmatching import StringUtils
+from citation_extractor.Utils.sentencesplit import sentencebreaks_to_newlines
+from citation_extractor.ned import AUTHOR_TYPE, WORK_TYPE
+from citation_parser import CitationParser
+from knowledge_base import KnowledgeBase
+
+try:
+    import configparser
+except ImportError:
+    import ConfigParser as configparser
+
+
 if(sys.version_info < (3, 0)):
     from treetagger_python2 import TreeTagger
 else:
     from treetagger import TreeTagger
-from operator import itemgetter
-import citation_extractor
-from citation_extractor.Utils import IO
-from citation_extractor.Utils.IO import read_ann_file, read_ann_file_new, init_logger, filter_IOB
-from citation_extractor.Utils.sentencesplit import sentencebreaks_to_newlines # contained in brat tools
-from citation_extractor.Utils.strmatching import StringUtils
-import numpy as np
 
 global logger
 logger = logging.getLogger(__name__)
-
-#TODO custom exception: invalid configuration
-
-
-# Constants (remove?)
-NIL_URN = 'urn:cts:GreekLatinLit:NIL'
-LANGUAGES = ['en', 'es', 'de', 'fr', 'it']
-AUTHOR_TYPE = 'AAUTHOR'
-WORK_TYPE = 'AWORK'
-REFAUWORK_TYPE = 'REFAUWORK'
+# TODO custom exception: invalid configuration
 
 
 def extract_entity_mentions(text, citation_extractor, postaggers, norm=False):
@@ -76,7 +94,7 @@ def extract_entity_mentions(text, citation_extractor, postaggers, norm=False):
                for n, d_res in enumerate(res)]
               for i, res in enumerate(tagged_sents)]
 
-    logger.info(output)
+    logger.debug("Entity mentions extracted from \"%s\": %s" % (text, output))
 
     authors = map(lambda a: (AUTHOR_TYPE, a), filter_IOB(output, "AAUTHOR"))
     works = map(lambda w: (WORK_TYPE, w), filter_IOB(output, "AWORK"))
@@ -191,8 +209,8 @@ def get_extractor(settings):
         logger.info("Using CitationExtractor v. %s"%citation_extractor_module.__version__)
         train_instances = []
         for directory in settings.DATA_DIRS:
-            train_instances += IO.read_iob_files(directory,extension=".txt")
-        logger.info("Training data: found %i directories containing %i  sentences and %i tokens"%(len(settings.DATA_DIRS),len(train_instances),IO.count_tokens(train_instances)))
+            train_instances += read_iob_files(directory,extension=".txt")
+        logger.info("Training data: found %i directories containing %i  sentences and %i tokens"%(len(settings.DATA_DIRS),len(train_instances),count_tokens(train_instances)))
 
         if(settings.CLASSIFIER is None):
             ce = citation_extractor(settings)
@@ -256,7 +274,7 @@ def compact_abbreviations(abbreviation_dir):
     return fname,abbreviations
 
 
-def split_sentences(filename,outfilename=None):
+def split_sentences(filename, outfilename=None):
     """
     sentence tokenization
     text tokenization
@@ -287,167 +305,6 @@ def split_sentences(filename,outfilename=None):
     return new_sentences
 
 
-def extract_relationships(entities):
-    """
-    TODO: implement properly the pseudocode!
-    """
-    relations = {}
-    arg1 = None
-    arg2 = None
-    # why it's important to sort this way the entities?
-    items = entities.items()
-    items.sort(key=lambda x:int(x[1][2]))
-    for item in items:
-        entity_type,entity_label,entity_start,entity_end = item[1]
-        if(entity_type!="REFSCOPE"):
-            arg1 = item[0]
-            arg2 = None
-        else:
-            arg2 = item[0]
-            if(arg1 is not None):
-                rel_id = "R%s"%(len(relations.keys())+1)
-                relations[rel_id] = (arg1,arg2)
-                logger.debug("Detected relation %s"%str(relations[rel_id]))
-
-    return relations
-
-
-def save_scope_relationships(fileid, ann_dir, relations, entities):
-    """
-    appends relationships (type=scope) to an .ann file.
-    """
-    import codecs
-    ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
-    keys = relations.keys()
-    keys.sort(key=lambda k:(k[0], int(k[1:])))
-    result = "\n".join(["%s\tScope Arg1:%s Arg2:%s"%(rel,relations[rel][0],relations[rel][1]) for rel in keys])
-    try:
-        f = codecs.open(ann_file,'r','utf-8')
-        hasblankline = f.read().endswith("\n")
-        f.close()
-        f = codecs.open(ann_file,'a','utf-8')
-        if(not hasblankline):
-            f.write("\n")
-        f.write(result)
-        f.close()
-        logger.info("Written %i relations to %s"%(len(relations),ann_file))
-    except Exception, e:
-        raise e
-    return result
-
-
-def clean_relations_annotation(fileid, ann_dir, entities):
-    """
-    overwrites relationships (type=scope) to an .ann file.
-    """
-    ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
-    keys = entities.keys()
-    keys.sort(key=lambda k:(k[0], int(k[1:])))
-    result = "\n".join([
-        "%s\t%s %s %s\t%s" % (
-            ent,
-            entities[ent][0],
-            entities[ent][2],
-            entities[ent][3],
-            entities[ent][1]
-        )
-        for ent in keys
-    ])
-    try:
-        f = codecs.open(ann_file,'w','utf-8')
-        f.write(result)
-        f.close()
-        logger.info("Cleaned relations annotations from %s"%ann_file)
-    except Exception, e:
-        raise e
-    return result
-
-
-def remove_all_annotations(fileid, ann_dir):
-    """Remove all free-text annotations from a brat file."""
-    ann_file = "%s%s-doc-1.ann" % (ann_dir, fileid)
-    entities, relations, annotations = read_ann_file(fileid, ann_dir)
-
-    entity_keys = entities.keys()
-    entity_keys.sort(key=lambda k: (k[0], int(k[1:])))
-    entities_string = "\n".join(
-        [
-            "%s\t%s %s %s\t%s" % (
-                ent,
-                entities[ent][0],
-                entities[ent][2],
-                entities[ent][3],
-                entities[ent][1]
-            )
-            for ent in entity_keys
-        ]
-    )
-
-    relation_keys = relations.keys()
-    relation_keys.sort(key=lambda k: (k[0], int(k[1:])))
-    relation_string = "\n".join(
-        [
-            "%s\tScope Arg1:%s Arg2:%s" % (
-                rel,
-                relations[rel][1].replace('Arg1:', ''),
-                relations[rel][2].replace('Arg2:', '')
-            )
-            for rel in relation_keys
-        ]
-    )
-
-    try:
-        with codecs.open(ann_file,'w','utf-8') as f:
-            f.write(entities_string)
-            f.write("\n")
-            f.write(relation_string)
-        print >> sys.stderr, "Cleaned all relations annotations from %s"%ann_file
-    except Exception, e:
-        raise e
-    return
-
-
-def save_scope_annotations(fileid, ann_dir, annotations):
-    """
-    :param fileid: the file name (prefix added by brat is removed)
-    :param ann_dir: the directory containing brat standoff annotations
-    :param annotations: a list of tuples where: t[0] is the ID of the entity/relation the annotation is about;
-                        t[1] is the label (it doesn't get written to the file); t[2] is the URN, i.e. the content
-                        of the annotation. If t[2] is None the annotation is skipped
-    :return: True if annotations were successfully saved to file, False otherwise.
-    """
-    try:
-        ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
-        file_content = open(ann_file,'r').read()
-        file = open(ann_file,'a')
-        if(not (file_content.endswith('\n') or file_content.endswith('\r'))):
-            file.write("\n")
-        for n,annot in enumerate(annotations):
-            if(annot[2] is not None):
-                file.write("#%i\tAnnotatorNotes %s\t%s\n"%(n,annot[0],annot[2]))
-            else:
-                print >> sys.stderr, "The annotation \"%s\" in %s is None, therefore was not written to file"%(annot[1],fileid)
-        file.close()
-        return True
-    except Exception as e:
-        logger.error("Saving annotations to file %s%s failed with error: %s"%(ann_dir, fileid, e))
-        return False
-
-
-def tostandoff(iobfile,standoffdir,brat_script):
-    """
-    Converts the .iob file with NE annotation into standoff markup.
-    """
-    import sys
-    import os
-    try:
-        cmd = "python %s -o %s %s"%(brat_script,standoffdir,iobfile)
-        os.popen(cmd).readlines()
-        logger.info("Document %s: .ann output written successfully."%iobfile)
-    except Exception, e:
-        raise e
-
-
 def preproc_document(doc_id, inp_dir, interm_dir, out_dir, abbreviations, taggers, split_sentences=True):
     """
     :param doc_id: the input filename
@@ -466,9 +323,9 @@ def preproc_document(doc_id, inp_dir, interm_dir, out_dir, abbreviations, tagger
     """
     lang, no_sentences, no_tokens = np.nan,np.nan,np.nan
     try:
-        intermediate_out_file = "%s%s"%(interm_dir,doc_id)
-        iob_out_file = "%s%s"%(out_dir,doc_id)
-        text = codecs.open("%s%s"%(inp_dir,doc_id),'r','utf-8').read()
+        intermediate_out_file = os.path.join(interm_dir,doc_id)
+        iob_out_file = os.path.join(out_dir,doc_id)
+        text = codecs.open(os.path.join(inp_dir,doc_id),'r','utf-8').read()
         if(split_sentences):
             intermediate_text = sentencebreaks_to_newlines(text)
             text = recover_segmentation_errors(intermediate_text, abbreviations, verbose=False)
@@ -482,87 +339,18 @@ def preproc_document(doc_id, inp_dir, interm_dir, out_dir, abbreviations, tagger
         logger.info("Language detected=\"%s\""%lang)
         tagged_sentences = taggers[lang].tag_sents(sentences)
         tokenised_text = [[token for token in line] for line in tagged_sentences]
-        IO.write_iob_file(tokenised_text,iob_out_file)
+        write_iob_file(tokenised_text,iob_out_file)
         logger.info("Written IOB output to %s"%iob_out_file)
         no_sentences = len(text.split('\n'))
-        no_tokens = IO.count_tokens(tokenised_text)
+        no_tokens = count_tokens(tokenised_text)
     except Exception, e:
         logger.error("The pre-processing of document %s (lang=\'%s\') failed with error \"%s\""%(doc_id,lang,e))
     finally:
         return doc_id, lang, no_sentences, no_tokens
 
 
-def do_ner(doc_id, inp_dir, interm_dir, out_dir, extractor, so2iob_script):
-    # TODO:
-    # wrap with a try/except/finally
-    # return doc_id and a boolean
-    from citation_extractor.Utils import IO
-    try:
-        data = IO.file_to_instances("%s%s"%(inp_dir,doc_id))
-        postags = [[("z_POS",token[1]) for token in instance] for instance in data if len(instance)>0]
-        instances = [[token[0] for token in instance] for instance in data if len(instance)>0]
-        result = extractor.extract(instances,postags)
-        output = [[(res[n]["token"].decode('utf-8'), postags[i][n][1], res[n]["label"]) for n,d_res in enumerate(res)] for i,res in enumerate(result)]
-        out_fname = "%s%s"%(interm_dir,doc_id)
-        IO.write_iob_file(output,out_fname)
-        logger.info("Output successfully written to file \"%s\""%out_fname)
-        tostandoff(out_fname,out_dir,so2iob_script)
-        return (doc_id,True)
-    except Exception, e:
-        logger.error("The NER of document %s failed with error \"%s\""%(doc_id,e))
-        return (doc_id,False)
-    finally:
-        logger.info("Finished processing document \"%s\""%doc_id)
-    return
-
-
-def do_ned(
-        doc_id,
-        inp_dir,
-        citation_matcher,
-        clean_annotations=False
-):
-    """Perform named entity and relation disambiguation on a brat file."""
-    try:
-        if(clean_annotations):
-            remove_all_annotations(doc_id, inp_dir)
-
-        annotations = []
-        pass
-
-        return (doc_id, True, len(annotations))
-    except Exception, e:
-        logger.error("The NED of document %s failed with error \"%s\"" % (
-            doc_id, e
-        ))
-        return (doc_id, False, None)
-    finally:
-        logger.info("Finished processing document \"%s\"" % doc_id)
-
-
-def do_relex(doc_id, inp_dir, clean_relations=False):
-    try:
-        entities, relations, disambiguations = read_ann_file(doc_id,inp_dir)
-        logger.info("%s: %i entities; %i relations; %i disambiguations"%(doc_id
-                                                                        , len(entities)
-                                                                        , len(relations)
-                                                                        , len(disambiguations)))
-        if(clean_relations):
-            clean_relations_annotation(doc_id,inp_dir,entities)
-        relations = extract_relationships(entities)
-        for r in relations:
-            logger.debug("%s %s -> %s"%(r,entities[relations[r][0]][1],entities[relations[r][1]][1]))
-        if(len(relations)>0):
-            save_scope_relationships(doc_id,inp_dir,relations,entities)
-        return (doc_id,True,({"n_entities":len(entities),"n_relations":len(relations)}))
-    except Exception, e:
-        logger.error("The RelationExtraction from document %s failed with error \"%s\""%(doc_id,e))
-        return (doc_id,False,{})
-    finally:
-        logger.info("Finished processing document \"%s\""%doc_id)
-
-
-def validate_configuration(configuration_parameters, task="all"): #TODO finish
+# TODO: finish implementation
+def validate_configuration(configuration_parameters, task="all"):
     """TODO"""
     def is_valid_configuration_ner(configuration_parameters):
         pass
@@ -585,12 +373,434 @@ def validate_configuration(configuration_parameters, task="all"): #TODO finish
         pass
 
 
-def run_pipeline(configuration_file): #TODO: implement
+def initialize(configuration):
+    """
+    Validate the configuration file + initialize and persist objects (extractor,
+    matcher, etc.) + initialize the working directory with subfolders.
+    """
     pass
 
-if __name__ == "__main__":
-    from docopt import docopt
-    arguments = docopt(__doc__, version=citation_extractor.__version__)
-    logger = init_logger()
-    logger.info(arguments)
-    # TODO: validate configuration file based on task at hand
+
+def init_working_dir(path, overwrite=False):
+    """Initializes the wowrking directory with required structure."""
+    working_directories = {}
+    subdirs = ["orig", "txt", "iob", "iob_ne", "json", "xmi"]
+
+    if os.path.exists(path) and overwrite:
+        shutil.rmtree(path)
+
+    for subdir in subdirs:
+
+        newdir = os.path.join(path, subdir)
+        if overwrite or not os.path.exists(newdir):
+            os.makedirs(newdir)
+        working_directories[subdir] = newdir
+
+    return working_directories
+
+
+# TODO: move to the codebase
+def find_input_documents(task, processing_dirs, doc_id):
+    """Locates input documents based on the current task.
+
+    :param str task: Description of parameter `task`.
+    :param list processing_dirs: Description of parameter `processing_dirs`.
+    :param str doc_id: Id of a single document to process (if None all
+        documents in the input folder are processed).
+    :return: A list of file names.
+    :rtype: list
+
+    """
+    docs_to_process = []
+    if task == 'all':
+        extension = '.txt'
+        input_dir = 'orig'
+    elif task == 'preproc':
+        extension = '.txt'
+        input_dir = 'orig'
+    elif task == 'ner':
+        extension = ".txt"
+        input_dir = "iob"
+    elif task == 'relex' or task == 'ned':
+        extension = '.json'
+        input_dir = 'json'
+
+    if doc_id is None:
+        docs_to_process = [
+            file
+            for file in os.listdir(processing_dirs[input_dir])
+            if extension in file
+        ]
+    else:
+        docs_to_process.append(doc_id)
+
+    logger.info(
+        "There are {} docs to process".format(len(docs_to_process))
+    )
+    logger.info(
+        'Following documents will be processed: {}'.format(
+            docs_to_process
+        )
+    )
+    return docs_to_process
+
+
+def do_ner(doc_id, inp_dir, interm_dir, out_dir, extractor):
+
+    try:
+        data = file_to_instances(os.path.join(inp_dir, doc_id))
+        # store pos tags in a separate list of lists
+        postags = [
+            [
+                ("z_POS", token[1])
+                for token in instance
+            ]
+            for instance in data
+            if len(instance) > 0
+        ]
+
+        # store tokens in a separate list of lists
+        instances = [
+            [
+                token[0]
+                for token in instance
+            ]
+            for instance in data
+            if len(instance) > 0
+        ]
+
+        # extract entities from the input document
+        result = extractor.extract(instances, postags)
+        output = [
+            [
+                (
+                    res[n]["token"].decode('utf-8'),
+                    postags[i][n][1],
+                    res[n]["label"]
+                )
+                for n, d_res in enumerate(res)
+            ]
+            for i, res in enumerate(result)
+        ]
+
+        # first write the IOB
+        out_fname = os.path.join(interm_dir, doc_id)
+        write_iob_file(output, out_fname)
+        logger.info('Output successfully written to file'.format({out_fname}))
+
+        # then convert to JSON
+        dc = DocumentConverter()
+        dc.load(iob_file_path=os.path.join(interm_dir, doc_id))
+        dc.to_json(output_dir=out_dir)
+        return (doc_id, True)
+    except Exception, e:
+        logger.error(
+            'The NER of document {} failed with error {}'.format(doc_id, e)
+        )
+        return (doc_id, False)
+    finally:
+        logger.info('Finished processing document {}'.format(doc_id))
+    return
+
+
+def do_relex(doc_id, input_dir, output_dir, prefix=None):
+
+    inp_file_path = os.path.join(input_dir, doc_id)
+    if prefix is None:
+        out_file_name = doc_id
+    else:
+        # this is horrible and hard coded
+        out_file_name = doc_id.replace('stage1_', prefix)
+    outp_file_path = os.path.join(output_dir, out_file_name)
+
+    # read input file
+    with codecs.open(inp_file_path, 'r', 'utf-8') as inpfile:
+        doc = json.load(inpfile)
+
+    assert doc is not None
+    logger.info('Document {} contains {} entities.'.format(
+        doc_id, len(doc['entities'])
+    ))
+
+    rel_extractor = RBRelationExtractor()
+    doc['relations'] = rel_extractor.extract(doc)
+
+    # debug
+    """
+    for rel_id in doc['relations']:
+        arg1, arg2 = doc['relations'][rel_id]
+        print("{} {}".format(
+            doc['entities'][arg1]["surface"].encode('utf-8'),
+            doc['entities'][arg2]["surface"].encode('utf-8')
+        ))
+    """
+
+    # write output
+    with codecs.open(outp_file_path, 'w', 'utf-8') as outpfile:
+        json.dump(doc, outpfile)
+        logger.info(
+            "Document {} ({} entities, {} relations) written to {}".format(
+                doc_id,
+                len(doc["entities"]),
+                len(doc["relations"]),
+                outp_file_path
+            )
+        )
+
+
+def do_ned(doc_id, input_dir, output_dir, matcher):
+
+    inp_file_path = os.path.join(input_dir, doc_id)
+    outp_file_path = os.path.join(output_dir, doc_id)
+
+    # initialize the citation parser
+    parser = CitationParser()
+    cleaning_regex = r'([\.,\(\);]+)$'
+
+    # read input file
+    with codecs.open(inp_file_path, 'r', 'utf-8') as inpfile:
+        doc = json.load(inpfile)
+
+    relations = doc['relations']
+    entities = doc['entities']
+
+    # let's create an inverted index entity_id => relation_id
+    entity2relations = {}
+
+    for relation_id in relations:
+
+        for e_id in relations[relation_id]:
+
+            if e_id not in entity2relations:
+                entity2relations[e_id] = relation_id
+
+    # iterate through all entities
+    for entity_id in doc['entities']:
+        if int(entity_id) not in entity2relations:
+            continue
+
+        entity = doc['entities'][entity_id]
+        e_type = str(entity["entity_type"])
+        surface = entity["surface"]
+
+        if e_type == 'REFSCOPE':
+            # TODO: call the citation parser and normalize
+            cleaned_scope = re.sub(
+                cleaning_regex,
+                "",
+                surface
+            ).replace(u"–", u"-")
+
+            try:
+                parsed_scope = parser.parse(cleaned_scope)
+                norm_scope = CitationParser.scope2urn('', parsed_scope)[0]
+                entity['norm_scope'] = norm_scope.replace(':', '')
+
+                logger.info("{} => {}".format(
+                    surface.encode('utf-8'),
+                    entity['norm_scope'].encode('utf-8')
+                ))
+            except Exception:
+                logger.warning("Unable to parse {} {}".format(
+                    doc_id, surface.encode('utf-8')
+                ))
+
+        else:
+            rel_id = entity2relations[int(entity_id)]
+            arg1, arg2 = relations[rel_id]
+            scope = entities[str(arg2)]['surface']
+            try:
+                result = matcher.disambiguate(surface, e_type, scope)
+                entity['urn'] = str(result.urn)
+
+                # if matched work is not a NIL entity, we map the URN into a URI
+                if result.urn != 'urn:cts:GreekLatinLit:NIL':
+                    work_uri = matcher._kb.get_resource_by_urn(result.urn).subject
+                    entity['work_uri'] = work_uri
+            except Exception as e:
+                logger.error("There was a problem disambiguating {}".format(surface.encode('utf-8')))
+                logger.error("({}) {}".format(doc_id, e))
+
+    # write output
+    with codecs.open(outp_file_path, 'w', 'utf-8') as outpfile:
+        json.dump(doc, outpfile)
+        logger.info(
+            "Document {}: total entities {}; disambiguated: {}".format(
+                doc_id,
+                len(doc['entities']),
+                len(
+                    [
+                        entity
+                        for ent_id in entities
+                        if ('work_uri' in entities[ent_id] or
+                            'author_uri' in entities[ent_id])
+                    ]
+                )
+            )
+        )
+        logger.info(
+            "Document {} written to {}".format(
+                doc_id,
+                outp_file_path
+            )
+        )
+    return
+
+
+def main():
+
+    args = docopt(__doc__, version=VERSION)
+
+    global logger
+    logger = init_logger(loglevel=logging.INFO)
+
+    if args['init']:
+        print('Not yet implemented, sorry.')
+    elif args['do']:
+        # load the configuration file
+        config = configparser.ConfigParser()
+        config.readfp(open(args['--config']))
+
+        clear_working_dir = args["--overwrite"]
+        doc_id = args["--doc"]
+
+        working_dir = os.path.abspath(config.get('general', 'working_dir'))
+        dirs = init_working_dir(working_dir, overwrite=clear_working_dir)
+        logger.info('Current working directory: {}'.format(working_dir))
+
+        try:
+            cfg_storage = os.path.abspath(config.get('general', 'storage'))
+        except Exception:
+            cfg_storage = None
+
+        if args['preproc']:
+            cfg_split_sentences = config.get('preproc', 'split_sentences')
+            cfg_abbrevations_file = config.get('preproc', 'abbreviation_list')
+            cfg_treetagger_home = config.get('preproc', 'treetagger_home')
+
+            docs_to_process = find_input_documents('preproc', dirs, doc_id)
+
+            # initialize TreeTagger PoSTaggers
+            try:
+                pos_taggers = get_taggers(
+                    treetagger_dir=cfg_treetagger_home,
+                    abbrev_file=cfg_abbrevations_file
+                )
+            except Exception as e:
+                raise e
+
+            # read the list of abbreviations if provided in config file
+            try:
+                abbreviations = codecs.open(
+                    cfg_abbrevations_file
+                ).read().split('\n')
+            except Exception as e:
+                # no big deal: if abbraviations are not there we simply
+                # won't use them
+                print(e)
+                abbreviations = None
+
+            for doc_id in docs_to_process:
+                preproc_document(
+                    doc_id,
+                    inp_dir=dirs['orig'],
+                    interm_dir=dirs['txt'],
+                    out_dir=dirs["iob"],
+                    abbreviations=abbreviations,
+                    taggers=pos_taggers,
+                    split_sentences=cfg_split_sentences
+                )
+            return
+        elif args['ner']:
+
+            cfg_model_name = config.get('ner', 'model_name')
+            cfg_settings_dir = config.get('ner', 'model_settings_dir')
+
+            if cfg_settings_dir not in sys.path:
+                sys.path.append(str(cfg_settings_dir))
+
+            docs_to_process = find_input_documents('ner', dirs, doc_id)
+
+            # use importlib to import the settings
+            ner_settings = importlib.import_module(cfg_model_name)
+
+            # check whether a pickle exists
+            if cfg_storage:
+                pkl_extractor_path = os.path.join(cfg_storage, 'extractor.pkl')
+
+            # if exists load from memory
+            if cfg_storage is not None and os.path.exists(pkl_extractor_path):
+                extractor = citation_extractor.from_pickle(pkl_extractor_path)
+                logger.info(
+                    "Extractor loaded from pickle {}".format(
+                        pkl_extractor_path
+                    )
+                )
+            # otherwise initialize and train
+            else:
+                extractor = get_extractor(ner_settings)
+                assert extractor is not None
+                extractor.to_pickle(pkl_extractor_path)
+
+            for doc_id in docs_to_process:
+                do_ner(
+                    doc_id,
+                    inp_dir=dirs["iob"],
+                    interm_dir=dirs["iob_ne"],
+                    out_dir=dirs["json"],
+                    extractor=extractor
+                )
+            return
+        elif args['relex']:
+            # if no --doc is passed at cli, then all documents in folder
+            # are processed, otherwise only that document
+            docs_to_process = find_input_documents('relex', dirs, doc_id)
+
+            for doc_id in docs_to_process:
+                do_relex(
+                    doc_id,
+                    input_dir=dirs['json'],
+                    output_dir=dirs['json'],
+                )
+        elif args['ned']:
+
+            cfg_kb = config.get('ned', 'kb_config')
+
+            # check whether a pickle exists
+            if cfg_storage:
+                pkl_matcher_path = os.path.join(cfg_storage, 'matcher.pkl')
+
+            # if exists load from memory
+            if cfg_storage is not None and os.path.exists(pkl_matcher_path):
+                matcher = CitationMatcher.from_pickle(pkl_matcher_path)
+                logger.info(
+                    "CitationMatcher loaded from pickle {}".format(
+                        pkl_matcher_path
+                    )
+                )
+            # otherwise initialize and train
+            else:
+                kb = KnowledgeBase(cfg_kb)
+                logger.info("Pickled CitationMatcher not found.")
+                matcher = CitationMatcher(
+                    kb,
+                    fuzzy_matching_entities=True,
+                    fuzzy_matching_relations=False,
+                    min_distance_entities=4,
+                    max_distance_entities=7,
+                    distance_relations=2
+                )
+                assert matcher is not None
+
+                if cfg_storage:
+                    matcher.to_pickle(pkl_matcher_path)
+
+            docs_to_process = find_input_documents('ned', dirs, doc_id)
+
+            for doc_id in docs_to_process:
+                do_ned(
+                    doc_id,
+                    input_dir=dirs['json'],
+                    output_dir=dirs['json'],
+                    matcher=matcher
+                )

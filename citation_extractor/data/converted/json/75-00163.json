@@ -1,0 +1,632 @@
+{
+   "doc_name": "75-00163", 
+   "tokens": [
+      {
+         "pos_tag": "KOUS", 
+         "end_offset": 3, 
+         "start_offset": 0, 
+         "surface": "Wie"
+      }, 
+      {
+         "pos_tag": "PPOSAT", 
+         "end_offset": 9, 
+         "start_offset": 4, 
+         "surface": "seine"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 19, 
+         "start_offset": 10, 
+         "surface": "Vorg\u00e4nger"
+      }, 
+      {
+         "pos_tag": "VVFIN", 
+         "end_offset": 28, 
+         "start_offset": 20, 
+         "surface": "verfolgt"
+      }, 
+      {
+         "pos_tag": "ADV", 
+         "end_offset": 33, 
+         "start_offset": 29, 
+         "surface": "auch"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 42, 
+         "start_offset": 34, 
+         "surface": "Ammianus"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 46, 
+         "start_offset": 43, 
+         "surface": "die"
+      }, 
+      {
+         "pos_tag": "ADJA", 
+         "end_offset": 58, 
+         "start_offset": 47, 
+         "surface": "didaktische"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 66, 
+         "start_offset": 59, 
+         "surface": "Absicht"
+      }, 
+      {
+         "pos_tag": "$,", 
+         "end_offset": 67, 
+         "start_offset": 66, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "APPRART", 
+         "end_offset": 70, 
+         "start_offset": 68, 
+         "surface": "am"
+      }, 
+      {
+         "pos_tag": "ADJA", 
+         "end_offset": 82, 
+         "start_offset": 71, 
+         "surface": "berichteten"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 92, 
+         "start_offset": 83, 
+         "surface": "Geschehen"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 96, 
+         "start_offset": 93, 
+         "surface": "das"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 110, 
+         "start_offset": 97, 
+         "surface": "Beispielhafte"
+      }, 
+      {
+         "pos_tag": "APPRART", 
+         "end_offset": 113, 
+         "start_offset": 111, 
+         "surface": "im"
+      }, 
+      {
+         "pos_tag": "ADJA", 
+         "end_offset": 123, 
+         "start_offset": 114, 
+         "surface": "doppelten"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 129, 
+         "start_offset": 124, 
+         "surface": "Sinne"
+      }, 
+      {
+         "pos_tag": "PTKZU", 
+         "end_offset": 132, 
+         "start_offset": 130, 
+         "surface": "zu"
+      }, 
+      {
+         "pos_tag": "VVINF", 
+         "end_offset": 139, 
+         "start_offset": 133, 
+         "surface": "zeigen"
+      }, 
+      {
+         "pos_tag": "$.", 
+         "end_offset": 141, 
+         "start_offset": 140, 
+         "surface": ":"
+      }, 
+      {
+         "pos_tag": "PPER", 
+         "end_offset": 144, 
+         "start_offset": 142, 
+         "surface": "es"
+      }, 
+      {
+         "pos_tag": "VVFIN", 
+         "end_offset": 150, 
+         "start_offset": 145, 
+         "surface": "l\u00e4sst"
+      }, 
+      {
+         "pos_tag": "ADV", 
+         "end_offset": 161, 
+         "start_offset": 151, 
+         "surface": "einerseits"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 172, 
+         "start_offset": 162, 
+         "surface": "Strukturen"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 176, 
+         "start_offset": 173, 
+         "surface": "des"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 187, 
+         "start_offset": 177, 
+         "surface": "Faktischen"
+      }, 
+      {
+         "pos_tag": "VVINF", 
+         "end_offset": 196, 
+         "start_offset": 188, 
+         "surface": "erkennen"
+      }, 
+      {
+         "pos_tag": "$,", 
+         "end_offset": 197, 
+         "start_offset": 196, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "ADV", 
+         "end_offset": 210, 
+         "start_offset": 198, 
+         "surface": "andererseits"
+      }, 
+      {
+         "pos_tag": "VVFIN", 
+         "end_offset": 217, 
+         "start_offset": 211, 
+         "surface": "stellt"
+      }, 
+      {
+         "pos_tag": "PPER", 
+         "end_offset": 220, 
+         "start_offset": 218, 
+         "surface": "es"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 227, 
+         "start_offset": 221, 
+         "surface": "Muster"
+      }, 
+      {
+         "pos_tag": "APPR", 
+         "end_offset": 231, 
+         "start_offset": 228, 
+         "surface": "auf"
+      }, 
+      {
+         "pos_tag": "APPR", 
+         "end_offset": 235, 
+         "start_offset": 232, 
+         "surface": "f\u00fcr"
+      }, 
+      {
+         "pos_tag": "PDS", 
+         "end_offset": 239, 
+         "start_offset": 236, 
+         "surface": "das"
+      }, 
+      {
+         "pos_tag": "$,", 
+         "end_offset": 240, 
+         "start_offset": 239, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "PWS", 
+         "end_offset": 244, 
+         "start_offset": 241, 
+         "surface": "was"
+      }, 
+      {
+         "pos_tag": "VVIZU", 
+         "end_offset": 256, 
+         "start_offset": 245, 
+         "surface": "nachzuahmen"
+      }, 
+      {
+         "pos_tag": "KON", 
+         "end_offset": 261, 
+         "start_offset": 257, 
+         "surface": "oder"
+      }, 
+      {
+         "pos_tag": "PTKZU", 
+         "end_offset": 264, 
+         "start_offset": 262, 
+         "surface": "zu"
+      }, 
+      {
+         "pos_tag": "VVINF", 
+         "end_offset": 274, 
+         "start_offset": 265, 
+         "surface": "vermeiden"
+      }, 
+      {
+         "pos_tag": "VAFIN", 
+         "end_offset": 278, 
+         "start_offset": 275, 
+         "surface": "ist"
+      }, 
+      {
+         "pos_tag": "$.", 
+         "end_offset": 279, 
+         "start_offset": 278, 
+         "surface": "."
+      }, 
+      {
+         "pos_tag": "NE", 
+         "end_offset": 287, 
+         "start_offset": 280, 
+         "surface": "Ammians"
+      }, 
+      {
+         "pos_tag": "ADJA", 
+         "end_offset": 299, 
+         "start_offset": 288, 
+         "surface": "historische"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 309, 
+         "start_offset": 300, 
+         "surface": "Weltsicht"
+      }, 
+      {
+         "pos_tag": "VAFIN", 
+         "end_offset": 313, 
+         "start_offset": 310, 
+         "surface": "ist"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 317, 
+         "start_offset": 314, 
+         "surface": "ein"
+      }, 
+      {
+         "pos_tag": "ADJA", 
+         "end_offset": 327, 
+         "start_offset": 318, 
+         "surface": "stoischer"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 344, 
+         "start_offset": 328, 
+         "surface": "Schicksalsglaube"
+      }, 
+      {
+         "pos_tag": "$.", 
+         "end_offset": 346, 
+         "start_offset": 345, 
+         "surface": ";"
+      }, 
+      {
+         "pos_tag": "PPOSAT", 
+         "end_offset": 352, 
+         "start_offset": 347, 
+         "surface": "seine"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 358, 
+         "start_offset": 353, 
+         "surface": "Ethik"
+      }, 
+      {
+         "pos_tag": "VAFIN", 
+         "end_offset": 362, 
+         "start_offset": 359, 
+         "surface": "ist"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 366, 
+         "start_offset": 363, 
+         "surface": "der"
+      }, 
+      {
+         "pos_tag": "ADJA", 
+         "end_offset": 381, 
+         "start_offset": 367, 
+         "surface": "traditionellen"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 391, 
+         "start_offset": 382, 
+         "surface": "Humanit\u00e4t"
+      }, 
+      {
+         "pos_tag": "VVPP", 
+         "end_offset": 404, 
+         "start_offset": 392, 
+         "surface": "verpflichtet"
+      }, 
+      {
+         "pos_tag": "$,", 
+         "end_offset": 405, 
+         "start_offset": 404, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "PWAV", 
+         "end_offset": 411, 
+         "start_offset": 406, 
+         "surface": "wobei"
+      }, 
+      {
+         "pos_tag": "PPER", 
+         "end_offset": 414, 
+         "start_offset": 412, 
+         "surface": "er"
+      }, 
+      {
+         "pos_tag": "APPR", 
+         "end_offset": 420, 
+         "start_offset": 415, 
+         "surface": "trotz"
+      }, 
+      {
+         "pos_tag": "PPOSAT", 
+         "end_offset": 427, 
+         "start_offset": 421, 
+         "surface": "seiner"
+      }, 
+      {
+         "pos_tag": "ADJA", 
+         "end_offset": 438, 
+         "start_offset": 428, 
+         "surface": "kritischen"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 451, 
+         "start_offset": 439, 
+         "surface": "Grundhaltung"
+      }, 
+      {
+         "pos_tag": "APPR", 
+         "end_offset": 454, 
+         "start_offset": 452, 
+         "surface": "um"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 458, 
+         "start_offset": 455, 
+         "surface": "die"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 467, 
+         "start_offset": 459, 
+         "surface": "Probleme"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 471, 
+         "start_offset": 468, 
+         "surface": "der"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 478, 
+         "start_offset": 472, 
+         "surface": "M\u00e4nner"
+      }, 
+      {
+         "pos_tag": "APPR", 
+         "end_offset": 481, 
+         "start_offset": 479, 
+         "surface": "an"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 485, 
+         "start_offset": 482, 
+         "surface": "der"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 492, 
+         "start_offset": 486, 
+         "surface": "Spitze"
+      }, 
+      {
+         "pos_tag": "VVFIN", 
+         "end_offset": 498, 
+         "start_offset": 493, 
+         "surface": "weiss"
+      }, 
+      {
+         "pos_tag": "$.", 
+         "end_offset": 499, 
+         "start_offset": 498, 
+         "surface": "."
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 503, 
+         "start_offset": 500, 
+         "surface": "Die"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 515, 
+         "start_offset": 504, 
+         "surface": "Bemerkungen"
+      }, 
+      {
+         "pos_tag": "APPRART", 
+         "end_offset": 519, 
+         "start_offset": 516, 
+         "surface": "zur"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 534, 
+         "start_offset": 520, 
+         "surface": "Lebensweisheit"
+      }, 
+      {
+         "pos_tag": "VVFIN", 
+         "end_offset": 544, 
+         "start_offset": 535, 
+         "surface": "betreffen"
+      }, 
+      {
+         "pos_tag": "ADJD", 
+         "end_offset": 551, 
+         "start_offset": 545, 
+         "surface": "h\u00e4ufig"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 555, 
+         "start_offset": 552, 
+         "surface": "die"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 567, 
+         "start_offset": 556, 
+         "surface": "Bedingungen"
+      }, 
+      {
+         "pos_tag": "ADJA", 
+         "end_offset": 581, 
+         "start_offset": 568, 
+         "surface": "erfolgreichen"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 590, 
+         "start_offset": 582, 
+         "surface": "Handelns"
+      }, 
+      {
+         "pos_tag": "$.", 
+         "end_offset": 592, 
+         "start_offset": 591, 
+         "surface": ";"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 596, 
+         "start_offset": 593, 
+         "surface": "die"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 605, 
+         "start_offset": 597, 
+         "surface": "Kenntnis"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 609, 
+         "start_offset": 606, 
+         "surface": "der"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 623, 
+         "start_offset": 610, 
+         "surface": "Vergangenheit"
+      }, 
+      {
+         "pos_tag": "VVFIN", 
+         "end_offset": 629, 
+         "start_offset": 624, 
+         "surface": "lehrt"
+      }, 
+      {
+         "pos_tag": "PPER", 
+         "end_offset": 633, 
+         "start_offset": 630, 
+         "surface": "ihn"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 643, 
+         "start_offset": 634, 
+         "surface": "Vertrauen"
+      }, 
+      {
+         "pos_tag": "APPR", 
+         "end_offset": 647, 
+         "start_offset": 644, 
+         "surface": "auf"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 651, 
+         "start_offset": 648, 
+         "surface": "die"
+      }, 
+      {
+         "pos_tag": "NN", 
+         "end_offset": 659, 
+         "start_offset": 652, 
+         "surface": "Zukunft"
+      }
+   ], 
+   "disambiguations": {
+      "T2": {
+         "text": "urn:cts:latinLit:stoa0023", 
+         "ann_id": "AnnotatorNotes#1", 
+         "anchor": "T2"
+      }, 
+      "T1": {
+         "text": "urn:cts:latinLit:stoa0023", 
+         "ann_id": "AnnotatorNotes#2", 
+         "anchor": "T1"
+      }
+   }, 
+   "entities": {
+      "T2": {
+         "entity_type": "AAUTHOR", 
+         "urn": "urn:cts:latinLit:stoa0023", 
+         "ann_id": "T2", 
+         "start_offset": 34, 
+         "author_uri": "http://purl.org/hucit/kb/authors/2846", 
+         "surface": "Ammianus", 
+         "end_offset": 42
+      }, 
+      "T1": {
+         "entity_type": "AAUTHOR", 
+         "urn": "urn:cts:latinLit:stoa0023", 
+         "ann_id": "T1", 
+         "start_offset": 280, 
+         "author_uri": "http://purl.org/hucit/kb/authors/2846", 
+         "surface": "Ammians", 
+         "end_offset": 287
+      }
+   }, 
+   "linebreaks": [
+      [
+         279, 
+         280
+      ], 
+      [
+         499, 
+         500
+      ]
+   ], 
+   "text": "Wie seine Vorg\u00e4nger verfolgt auch Ammianus die didaktische Absicht, am berichteten Geschehen das Beispielhafte im doppelten Sinne zu zeigen : es l\u00e4sst einerseits Strukturen des Faktischen erkennen, andererseits stellt es Muster auf f\u00fcr das, was nachzuahmen oder zu vermeiden ist.\nAmmians historische Weltsicht ist ein stoischer Schicksalsglaube ; seine Ethik ist der traditionellen Humanit\u00e4t verpflichtet, wobei er trotz seiner kritischen Grundhaltung um die Probleme der M\u00e4nner an der Spitze weiss.\nDie Bemerkungen zur Lebensweisheit betreffen h\u00e4ufig die Bedingungen erfolgreichen Handelns ; die Kenntnis der Vergangenheit lehrt ihn Vertrauen auf die Zukunft", 
+   "doc_id": "75-00163.txt", 
+   "relations": {}
+}

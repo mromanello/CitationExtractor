@@ -1,0 +1,630 @@
+{
+   "doc_name": "75-00053", 
+   "tokens": [
+      {
+         "pos_tag": "PRO:PER", 
+         "end_offset": 2, 
+         "start_offset": 0, 
+         "surface": "On"
+      }, 
+      {
+         "pos_tag": "VER:pres", 
+         "end_offset": 9, 
+         "start_offset": 3, 
+         "surface": "trouve"
+      }, 
+      {
+         "pos_tag": "PRP", 
+         "end_offset": 14, 
+         "start_offset": 10, 
+         "surface": "dans"
+      }, 
+      {
+         "pos_tag": "DET:ART", 
+         "end_offset": 17, 
+         "start_offset": 15, 
+         "surface": "la"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 26, 
+         "start_offset": 18, 
+         "surface": "trilogie"
+      }, 
+      {
+         "pos_tag": "NUM", 
+         "end_offset": 31, 
+         "start_offset": 27, 
+         "surface": "huit"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 38, 
+         "start_offset": 32, 
+         "surface": "termes"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 48, 
+         "start_offset": 39, 
+         "surface": "distincts"
+      }, 
+      {
+         "pos_tag": "PRP", 
+         "end_offset": 53, 
+         "start_offset": 49, 
+         "surface": "pour"
+      }, 
+      {
+         "pos_tag": "VER:infi", 
+         "end_offset": 62, 
+         "start_offset": 54, 
+         "surface": "d\u00e9signer"
+      }, 
+      {
+         "pos_tag": "DET:ART", 
+         "end_offset": 65, 
+         "start_offset": 63, 
+         "surface": "le"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 71, 
+         "start_offset": 66, 
+         "surface": "filet"
+      }, 
+      {
+         "pos_tag": "SENT", 
+         "end_offset": 72, 
+         "start_offset": 71, 
+         "surface": "."
+      }, 
+      {
+         "pos_tag": "PRO:PER", 
+         "end_offset": 75, 
+         "start_offset": 73, 
+         "surface": "Il"
+      }, 
+      {
+         "pos_tag": "PRO:PER", 
+         "end_offset": 78, 
+         "start_offset": 76, 
+         "surface": "s'"
+      }, 
+      {
+         "pos_tag": "VER:pres", 
+         "end_offset": 83, 
+         "start_offset": 79, 
+         "surface": "agit"
+      }, 
+      {
+         "pos_tag": "KON", 
+         "end_offset": 88, 
+         "start_offset": 84, 
+         "surface": "soit"
+      }, 
+      {
+         "pos_tag": "PRP", 
+         "end_offset": 91, 
+         "start_offset": 89, 
+         "surface": "d'"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 104, 
+         "start_offset": 92, 
+         "surface": "abstractions"
+      }, 
+      {
+         "pos_tag": "PUN", 
+         "end_offset": 106, 
+         "start_offset": 105, 
+         "surface": "("
+      }, 
+      {
+         "pos_tag": "PRP", 
+         "end_offset": 110, 
+         "start_offset": 106, 
+         "surface": "avec"
+      }, 
+      {
+         "pos_tag": "DET:ART", 
+         "end_offset": 113, 
+         "start_offset": 111, 
+         "surface": "le"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 118, 
+         "start_offset": 114, 
+         "surface": "sens"
+      }, 
+      {
+         "pos_tag": "PRP", 
+         "end_offset": 121, 
+         "start_offset": 119, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 133, 
+         "start_offset": 122, 
+         "surface": "machination"
+      }, 
+      {
+         "pos_tag": "KON", 
+         "end_offset": 136, 
+         "start_offset": 134, 
+         "surface": "ou"
+      }, 
+      {
+         "pos_tag": "PRP", 
+         "end_offset": 139, 
+         "start_offset": 137, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 145, 
+         "start_offset": 140, 
+         "surface": "pi\u00e8ge"
+      }, 
+      {
+         "pos_tag": "PUN", 
+         "end_offset": 146, 
+         "start_offset": 145, 
+         "surface": ")"
+      }, 
+      {
+         "pos_tag": "PUN", 
+         "end_offset": 147, 
+         "start_offset": 146, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "KON", 
+         "end_offset": 152, 
+         "start_offset": 148, 
+         "surface": "soit"
+      }, 
+      {
+         "pos_tag": "PRP", 
+         "end_offset": 155, 
+         "start_offset": 153, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 162, 
+         "start_offset": 156, 
+         "surface": "termes"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 173, 
+         "start_offset": 163, 
+         "surface": "techniques"
+      }, 
+      {
+         "pos_tag": "ADV", 
+         "end_offset": 178, 
+         "start_offset": 174, 
+         "surface": "tr\u00e8s"
+      }, 
+      {
+         "pos_tag": "ADV", 
+         "end_offset": 186, 
+         "start_offset": 179, 
+         "surface": "souvent"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 194, 
+         "start_offset": 187, 
+         "surface": "ambigus"
+      }, 
+      {
+         "pos_tag": "PUN", 
+         "end_offset": 195, 
+         "start_offset": 194, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 206, 
+         "start_offset": 196, 
+         "surface": "puisqu'ils"
+      }, 
+      {
+         "pos_tag": "VER:pres", 
+         "end_offset": 214, 
+         "start_offset": 207, 
+         "surface": "nomment"
+      }, 
+      {
+         "pos_tag": "ADV", 
+         "end_offset": 220, 
+         "start_offset": 215, 
+         "surface": "aussi"
+      }, 
+      {
+         "pos_tag": "PRP:det", 
+         "end_offset": 224, 
+         "start_offset": 221, 
+         "surface": "des"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 234, 
+         "start_offset": 225, 
+         "surface": "v\u00eatements"
+      }, 
+      {
+         "pos_tag": "KON", 
+         "end_offset": 237, 
+         "start_offset": 235, 
+         "surface": "et"
+      }, 
+      {
+         "pos_tag": "PRP:det", 
+         "end_offset": 241, 
+         "start_offset": 238, 
+         "surface": "des"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 253, 
+         "start_offset": 242, 
+         "surface": "accessoires"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 264, 
+         "start_offset": 254, 
+         "surface": "fun\u00e9raires"
+      }, 
+      {
+         "pos_tag": "PUN", 
+         "end_offset": 265, 
+         "start_offset": 264, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "VER:pper", 
+         "end_offset": 275, 
+         "start_offset": 266, 
+         "surface": "emprunt\u00e9s"
+      }, 
+      {
+         "pos_tag": "PRP:det", 
+         "end_offset": 278, 
+         "start_offset": 276, 
+         "surface": "au"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 290, 
+         "start_offset": 279, 
+         "surface": "vocabulaire"
+      }, 
+      {
+         "pos_tag": "PRP", 
+         "end_offset": 293, 
+         "start_offset": 291, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "DET:ART", 
+         "end_offset": 296, 
+         "start_offset": 294, 
+         "surface": "la"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 308, 
+         "start_offset": 297, 
+         "surface": "cyn\u00e9g\u00e9tique"
+      }, 
+      {
+         "pos_tag": "PUN", 
+         "end_offset": 309, 
+         "start_offset": 308, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "PRP", 
+         "end_offset": 312, 
+         "start_offset": 310, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "DET:ART", 
+         "end_offset": 315, 
+         "start_offset": 313, 
+         "surface": "l'"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 327, 
+         "start_offset": 316, 
+         "surface": "halieutique"
+      }, 
+      {
+         "pos_tag": "KON", 
+         "end_offset": 330, 
+         "start_offset": 328, 
+         "surface": "et"
+      }, 
+      {
+         "pos_tag": "PRP", 
+         "end_offset": 333, 
+         "start_offset": 331, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "DET:ART", 
+         "end_offset": 336, 
+         "start_offset": 334, 
+         "surface": "l'"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 350, 
+         "start_offset": 337, 
+         "surface": "incarc\u00e9ration"
+      }, 
+      {
+         "pos_tag": "SENT", 
+         "end_offset": 351, 
+         "start_offset": 350, 
+         "surface": "."
+      }, 
+      {
+         "pos_tag": "PRO:IND", 
+         "end_offset": 358, 
+         "start_offset": 352, 
+         "surface": "Chaque"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 369, 
+         "start_offset": 359, 
+         "surface": "personnage"
+      }, 
+      {
+         "pos_tag": "PUN", 
+         "end_offset": 370, 
+         "start_offset": 369, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "PRP", 
+         "end_offset": 375, 
+         "start_offset": 371, 
+         "surface": "dans"
+      }, 
+      {
+         "pos_tag": "PRP:det", 
+         "end_offset": 379, 
+         "start_offset": 376, 
+         "surface": "des"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 392, 
+         "start_offset": 380, 
+         "surface": "pr\u00e9monitions"
+      }, 
+      {
+         "pos_tag": "KON", 
+         "end_offset": 395, 
+         "start_offset": 393, 
+         "surface": "et"
+      }, 
+      {
+         "pos_tag": "PRP:det", 
+         "end_offset": 399, 
+         "start_offset": 396, 
+         "surface": "des"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 413, 
+         "start_offset": 400, 
+         "surface": "r\u00e9miniscences"
+      }, 
+      {
+         "pos_tag": "PUN", 
+         "end_offset": 414, 
+         "start_offset": 413, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "VER:pres", 
+         "end_offset": 422, 
+         "start_offset": 415, 
+         "surface": "emploie"
+      }, 
+      {
+         "pos_tag": "PRP:det", 
+         "end_offset": 426, 
+         "start_offset": 423, 
+         "surface": "des"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 433, 
+         "start_offset": 427, 
+         "surface": "termes"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 441, 
+         "start_offset": 434, 
+         "surface": "propres"
+      }, 
+      {
+         "pos_tag": "PUN", 
+         "end_offset": 442, 
+         "start_offset": 441, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 454, 
+         "start_offset": 443, 
+         "surface": "r\u00e9v\u00e9lateurs"
+      }, 
+      {
+         "pos_tag": "PRP", 
+         "end_offset": 457, 
+         "start_offset": 455, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "DET:POS", 
+         "end_offset": 461, 
+         "start_offset": 458, 
+         "surface": "ses"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 469, 
+         "start_offset": 462, 
+         "surface": "affects"
+      }, 
+      {
+         "pos_tag": "PUN", 
+         "end_offset": 470, 
+         "start_offset": 469, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "VER:ppre", 
+         "end_offset": 481, 
+         "start_offset": 471, 
+         "surface": "justifiant"
+      }, 
+      {
+         "pos_tag": "ADV", 
+         "end_offset": 487, 
+         "start_offset": 482, 
+         "surface": "ainsi"
+      }, 
+      {
+         "pos_tag": "DET:ART", 
+         "end_offset": 490, 
+         "start_offset": 488, 
+         "surface": "l'"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 500, 
+         "start_offset": 491, 
+         "surface": "ex\u00e9cution"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 509, 
+         "start_offset": 501, 
+         "surface": "punitive"
+      }, 
+      {
+         "pos_tag": "PRP", 
+         "end_offset": 512, 
+         "start_offset": 510, 
+         "surface": "d'"
+      }, 
+      {
+         "pos_tag": "NAM", 
+         "end_offset": 522, 
+         "start_offset": 513, 
+         "surface": "Agamemnon"
+      }, 
+      {
+         "pos_tag": "KON", 
+         "end_offset": 525, 
+         "start_offset": 523, 
+         "surface": "ou"
+      }, 
+      {
+         "pos_tag": "VER:ppre", 
+         "end_offset": 536, 
+         "start_offset": 526, 
+         "surface": "condamnant"
+      }, 
+      {
+         "pos_tag": "PUN", 
+         "end_offset": 537, 
+         "start_offset": 536, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "PRP:det", 
+         "end_offset": 540, 
+         "start_offset": 538, 
+         "surface": "au"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 550, 
+         "start_offset": 541, 
+         "surface": "contraire"
+      }, 
+      {
+         "pos_tag": "PUN", 
+         "end_offset": 551, 
+         "start_offset": 550, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "DET:ART", 
+         "end_offset": 554, 
+         "start_offset": 552, 
+         "surface": "l'"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 563, 
+         "start_offset": 555, 
+         "surface": "iniquit\u00e9"
+      }, 
+      {
+         "pos_tag": "PRP", 
+         "end_offset": 566, 
+         "start_offset": 564, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "PRO:DEM", 
+         "end_offset": 569, 
+         "start_offset": 567, 
+         "surface": "ce"
+      }, 
+      {
+         "pos_tag": "NOM", 
+         "end_offset": 577, 
+         "start_offset": 570, 
+         "surface": "meurtre"
+      }
+   ], 
+   "disambiguations": null, 
+   "entities": {}, 
+   "linebreaks": [
+      [
+         72, 
+         73
+      ], 
+      [
+         351, 
+         352
+      ], 
+      [
+         577, 
+         578
+      ]
+   ], 
+   "text": "On trouve dans la trilogie huit termes distincts pour d\u00e9signer le filet.\nIl s' agit soit d' abstractions (avec le sens de machination ou de pi\u00e8ge), soit de termes techniques tr\u00e8s souvent ambigus, puisqu'ils nomment aussi des v\u00eatements et des accessoires fun\u00e9raires, emprunt\u00e9s au vocabulaire de la cyn\u00e9g\u00e9tique, de l' halieutique et de l' incarc\u00e9ration.\nChaque personnage, dans des pr\u00e9monitions et des r\u00e9miniscences, emploie des termes propres, r\u00e9v\u00e9lateurs de ses affects, justifiant ainsi l' ex\u00e9cution punitive d' Agamemnon ou condamnant, au contraire, l' iniquit\u00e9 de ce meurtre", 
+   "doc_id": "75-00053.txt", 
+   "relations": null
+}

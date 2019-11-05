@@ -1,0 +1,958 @@
+{
+   "doc_name": "75-00060", 
+   "tokens": [
+      {
+         "pos_tag": "ART", 
+         "end_offset": 3, 
+         "start_offset": 0, 
+         "surface": "Las"
+      }, 
+      {
+         "pos_tag": "VLfin", 
+         "end_offset": 12, 
+         "start_offset": 4, 
+         "surface": "noticias"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 15, 
+         "start_offset": 13, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "NP", 
+         "end_offset": 26, 
+         "start_offset": 16, 
+         "surface": "Heraclides"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 34, 
+         "start_offset": 27, 
+         "surface": "P\u00f3ntico"
+      }, 
+      {
+         "pos_tag": "LP", 
+         "end_offset": 36, 
+         "start_offset": 35, 
+         "surface": "("
+      }, 
+      {
+         "pos_tag": "NP", 
+         "end_offset": 39, 
+         "start_offset": 36, 
+         "surface": "fr."
+      }, 
+      {
+         "pos_tag": "CARD", 
+         "end_offset": 43, 
+         "start_offset": 40, 
+         "surface": "170"
+      }, 
+      {
+         "pos_tag": "NP", 
+         "end_offset": 50, 
+         "start_offset": 44, 
+         "surface": "Wehrli"
+      }, 
+      {
+         "pos_tag": "RP", 
+         "end_offset": 51, 
+         "start_offset": 50, 
+         "surface": ")"
+      }, 
+      {
+         "pos_tag": "CM", 
+         "end_offset": 52, 
+         "start_offset": 51, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 59, 
+         "start_offset": 53, 
+         "surface": "Ateneo"
+      }, 
+      {
+         "pos_tag": "LP", 
+         "end_offset": 61, 
+         "start_offset": 60, 
+         "surface": "("
+      }, 
+      {
+         "pos_tag": "CARD", 
+         "end_offset": 62, 
+         "start_offset": 61, 
+         "surface": "1"
+      }, 
+      {
+         "pos_tag": "CM", 
+         "end_offset": 63, 
+         "start_offset": 62, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "CARD", 
+         "end_offset": 66, 
+         "start_offset": 64, 
+         "surface": "39"
+      }, 
+      {
+         "pos_tag": "CM", 
+         "end_offset": 67, 
+         "start_offset": 66, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "CARD", 
+         "end_offset": 71, 
+         "start_offset": 68, 
+         "surface": "1-6"
+      }, 
+      {
+         "pos_tag": "RP", 
+         "end_offset": 72, 
+         "start_offset": 71, 
+         "surface": ")"
+      }, 
+      {
+         "pos_tag": "CC", 
+         "end_offset": 74, 
+         "start_offset": 73, 
+         "surface": "y"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 82, 
+         "start_offset": 75, 
+         "surface": "Tzetzes"
+      }, 
+      {
+         "pos_tag": "LP", 
+         "end_offset": 84, 
+         "start_offset": 83, 
+         "surface": "("
+      }, 
+      {
+         "pos_tag": "NP", 
+         "end_offset": 86, 
+         "start_offset": 84, 
+         "surface": "In"
+      }, 
+      {
+         "pos_tag": "NP", 
+         "end_offset": 91, 
+         "start_offset": 87, 
+         "surface": "Hes."
+      }, 
+      {
+         "pos_tag": "NP", 
+         "end_offset": 95, 
+         "start_offset": 92, 
+         "surface": "Op."
+      }, 
+      {
+         "pos_tag": "CARD", 
+         "end_offset": 99, 
+         "start_offset": 96, 
+         "surface": "414"
+      }, 
+      {
+         "pos_tag": "RP", 
+         "end_offset": 100, 
+         "start_offset": 99, 
+         "surface": ")"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 110, 
+         "start_offset": 101, 
+         "surface": "relativas"
+      }, 
+      {
+         "pos_tag": "PAL", 
+         "end_offset": 113, 
+         "start_offset": 111, 
+         "surface": "al"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 122, 
+         "start_offset": 114, 
+         "surface": "supuesto"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 129, 
+         "start_offset": 123, 
+         "surface": "juicio"
+      }, 
+      {
+         "pos_tag": "PAL", 
+         "end_offset": 132, 
+         "start_offset": 130, 
+         "surface": "al"
+      }, 
+      {
+         "pos_tag": "CQUE", 
+         "end_offset": 136, 
+         "start_offset": 133, 
+         "surface": "que"
+      }, 
+      {
+         "pos_tag": "VSfin", 
+         "end_offset": 140, 
+         "start_offset": 137, 
+         "surface": "fue"
+      }, 
+      {
+         "pos_tag": "VLadj", 
+         "end_offset": 149, 
+         "start_offset": 141, 
+         "surface": "sometido"
+      }, 
+      {
+         "pos_tag": "ADV", 
+         "end_offset": 157, 
+         "start_offset": 150, 
+         "surface": "Esquilo"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 161, 
+         "start_offset": 158, 
+         "surface": "por"
+      }, 
+      {
+         "pos_tag": "VLinf", 
+         "end_offset": 169, 
+         "start_offset": 162, 
+         "surface": "revelar"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 179, 
+         "start_offset": 170, 
+         "surface": "doctrinas"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 182, 
+         "start_offset": 180, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 186, 
+         "start_offset": 183, 
+         "surface": "los"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 196, 
+         "start_offset": 187, 
+         "surface": "misterios"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 199, 
+         "start_offset": 197, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "NP", 
+         "end_offset": 207, 
+         "start_offset": 200, 
+         "surface": "Eleusis"
+      }, 
+      {
+         "pos_tag": "VLfin", 
+         "end_offset": 217, 
+         "start_offset": 208, 
+         "surface": "discrepan"
+      }, 
+      {
+         "pos_tag": "ADV", 
+         "end_offset": 230, 
+         "start_offset": 218, 
+         "surface": "notablemente"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 233, 
+         "start_offset": 231, 
+         "surface": "en"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 237, 
+         "start_offset": 234, 
+         "surface": "los"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 244, 
+         "start_offset": 238, 
+         "surface": "puntos"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 258, 
+         "start_offset": 245, 
+         "surface": "fundamentales"
+      }, 
+      {
+         "pos_tag": "CC", 
+         "end_offset": 260, 
+         "start_offset": 259, 
+         "surface": "y"
+      }, 
+      {
+         "pos_tag": "NEG", 
+         "end_offset": 263, 
+         "start_offset": 261, 
+         "surface": "no"
+      }, 
+      {
+         "pos_tag": "VLfin", 
+         "end_offset": 272, 
+         "start_offset": 264, 
+         "surface": "proceden"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 275, 
+         "start_offset": 273, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 279, 
+         "start_offset": 276, 
+         "surface": "una"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 286, 
+         "start_offset": 280, 
+         "surface": "fuente"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 296, 
+         "start_offset": 287, 
+         "surface": "hist\u00f3rica"
+      }, 
+      {
+         "pos_tag": "FS", 
+         "end_offset": 297, 
+         "start_offset": 296, 
+         "surface": "."
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 300, 
+         "start_offset": 298, 
+         "surface": "El"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 311, 
+         "start_offset": 301, 
+         "surface": "testimonio"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 314, 
+         "start_offset": 312, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 326, 
+         "start_offset": 315, 
+         "surface": "Arist\u00f3teles"
+      }, 
+      {
+         "pos_tag": "LP", 
+         "end_offset": 328, 
+         "start_offset": 327, 
+         "surface": "("
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 330, 
+         "start_offset": 328, 
+         "surface": "EN"
+      }, 
+      {
+         "pos_tag": "NP", 
+         "end_offset": 336, 
+         "start_offset": 331, 
+         "surface": "1111a"
+      }, 
+      {
+         "pos_tag": "CM", 
+         "end_offset": 337, 
+         "start_offset": 336, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "CARD", 
+         "end_offset": 342, 
+         "start_offset": 338, 
+         "surface": "6-11"
+      }, 
+      {
+         "pos_tag": "RP", 
+         "end_offset": 343, 
+         "start_offset": 342, 
+         "surface": ")"
+      }, 
+      {
+         "pos_tag": "CM", 
+         "end_offset": 344, 
+         "start_offset": 343, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "ADV", 
+         "end_offset": 347, 
+         "start_offset": 345, 
+         "surface": "en"
+      }, 
+      {
+         "pos_tag": "CM", 
+         "end_offset": 348, 
+         "start_offset": 347, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "PPX", 
+         "end_offset": 351, 
+         "start_offset": 349, 
+         "surface": "s\u00ed"
+      }, 
+      {
+         "pos_tag": "VLfin", 
+         "end_offset": 360, 
+         "start_offset": 352, 
+         "surface": "preserva"
+      }, 
+      {
+         "pos_tag": "ADV", 
+         "end_offset": 372, 
+         "start_offset": 361, 
+         "surface": "fiablemente"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 375, 
+         "start_offset": 373, 
+         "surface": "el"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 384, 
+         "start_offset": 376, 
+         "surface": "recuerdo"
+      }, 
+      {
+         "pos_tag": "PDEL", 
+         "end_offset": 388, 
+         "start_offset": 385, 
+         "surface": "del"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 395, 
+         "start_offset": 389, 
+         "surface": "juicio"
+      }, 
+      {
+         "pos_tag": "FS", 
+         "end_offset": 396, 
+         "start_offset": 395, 
+         "surface": "."
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 404, 
+         "start_offset": 397, 
+         "surface": "Esquilo"
+      }, 
+      {
+         "pos_tag": "VLfin", 
+         "end_offset": 412, 
+         "start_offset": 405, 
+         "surface": "divulg\u00f3"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 415, 
+         "start_offset": 413, 
+         "surface": "la"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 424, 
+         "start_offset": 416, 
+         "surface": "relaci\u00f3n"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 439, 
+         "start_offset": 425, 
+         "surface": "materno-filial"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 442, 
+         "start_offset": 440, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 450, 
+         "start_offset": 443, 
+         "surface": "Dem\u00e9ter"
+      }, 
+      {
+         "pos_tag": "CC", 
+         "end_offset": 452, 
+         "start_offset": 451, 
+         "surface": "y"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 460, 
+         "start_offset": 453, 
+         "surface": "\u00c1rtemis"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 463, 
+         "start_offset": 461, 
+         "surface": "en"
+      }, 
+      {
+         "pos_tag": "QU", 
+         "end_offset": 470, 
+         "start_offset": 464, 
+         "surface": "varios"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 477, 
+         "start_offset": 471, 
+         "surface": "dramas"
+      }, 
+      {
+         "pos_tag": "VSger", 
+         "end_offset": 484, 
+         "start_offset": 478, 
+         "surface": "siendo"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 497, 
+         "start_offset": 485, 
+         "surface": "inconsciente"
+      }, 
+      {
+         "pos_tag": "DASH", 
+         "end_offset": 499, 
+         "start_offset": 498, 
+         "surface": "-"
+      }, 
+      {
+         "pos_tag": "PPX", 
+         "end_offset": 502, 
+         "start_offset": 500, 
+         "surface": "\u00e9l"
+      }, 
+      {
+         "pos_tag": "ADV", 
+         "end_offset": 508, 
+         "start_offset": 503, 
+         "surface": "nunca"
+      }, 
+      {
+         "pos_tag": "VSfin", 
+         "end_offset": 512, 
+         "start_offset": 509, 
+         "surface": "fue"
+      }, 
+      {
+         "pos_tag": "VLadj", 
+         "end_offset": 521, 
+         "start_offset": 513, 
+         "surface": "iniciado"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 524, 
+         "start_offset": 522, 
+         "surface": "en"
+      }, 
+      {
+         "pos_tag": "DM", 
+         "end_offset": 530, 
+         "start_offset": 525, 
+         "surface": "estos"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 540, 
+         "start_offset": 531, 
+         "surface": "misterios"
+      }, 
+      {
+         "pos_tag": "DASH", 
+         "end_offset": 542, 
+         "start_offset": 541, 
+         "surface": "-"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 545, 
+         "start_offset": 543, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "CQUE", 
+         "end_offset": 549, 
+         "start_offset": 546, 
+         "surface": "que"
+      }, 
+      {
+         "pos_tag": "VLfin", 
+         "end_offset": 558, 
+         "start_offset": 550, 
+         "surface": "revelaba"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 564, 
+         "start_offset": 559, 
+         "surface": "parte"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 567, 
+         "start_offset": 565, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 570, 
+         "start_offset": 568, 
+         "surface": "la"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 579, 
+         "start_offset": 571, 
+         "surface": "doctrina"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 588, 
+         "start_offset": 580, 
+         "surface": "eleusina"
+      }, 
+      {
+         "pos_tag": "FS", 
+         "end_offset": 589, 
+         "start_offset": 588, 
+         "surface": "."
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 592, 
+         "start_offset": 590, 
+         "surface": "En"
+      }, 
+      {
+         "pos_tag": "PPO", 
+         "end_offset": 595, 
+         "start_offset": 593, 
+         "surface": "su"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 603, 
+         "start_offset": 596, 
+         "surface": "defensa"
+      }, 
+      {
+         "pos_tag": "CM", 
+         "end_offset": 604, 
+         "start_offset": 603, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "VLfin", 
+         "end_offset": 610, 
+         "start_offset": 605, 
+         "surface": "aleg\u00f3"
+      }, 
+      {
+         "pos_tag": "CQUE", 
+         "end_offset": 614, 
+         "start_offset": 611, 
+         "surface": "que"
+      }, 
+      {
+         "pos_tag": "VHfin", 
+         "end_offset": 620, 
+         "start_offset": 615, 
+         "surface": "hab\u00eda"
+      }, 
+      {
+         "pos_tag": "VLadj", 
+         "end_offset": 630, 
+         "start_offset": 621, 
+         "surface": "adquirido"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 633, 
+         "start_offset": 631, 
+         "surface": "el"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 646, 
+         "start_offset": 634, 
+         "surface": "conocimiento"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 649, 
+         "start_offset": 647, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "DM", 
+         "end_offset": 654, 
+         "start_offset": 650, 
+         "surface": "esta"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 663, 
+         "start_offset": 655, 
+         "surface": "relaci\u00f3n"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 666, 
+         "start_offset": 664, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 670, 
+         "start_offset": 667, 
+         "surface": "una"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 677, 
+         "start_offset": 671, 
+         "surface": "fuente"
+      }, 
+      {
+         "pos_tag": "NEG", 
+         "end_offset": 680, 
+         "start_offset": 678, 
+         "surface": "no"
+      }, 
+      {
+         "pos_tag": "ADJ", 
+         "end_offset": 690, 
+         "start_offset": 681, 
+         "surface": "mist\u00e9rica"
+      }, 
+      {
+         "pos_tag": "CM", 
+         "end_offset": 691, 
+         "start_offset": 690, 
+         "surface": ","
+      }, 
+      {
+         "pos_tag": "ADV", 
+         "end_offset": 693, 
+         "start_offset": 692, 
+         "surface": "a"
+      }, 
+      {
+         "pos_tag": "COLON", 
+         "end_offset": 695, 
+         "start_offset": 694, 
+         "surface": ":"
+      }, 
+      {
+         "pos_tag": "QU", 
+         "end_offset": 703, 
+         "start_offset": 696, 
+         "surface": "ciertos"
+      }, 
+      {
+         "pos_tag": "VLadj", 
+         "end_offset": 712, 
+         "start_offset": 704, 
+         "surface": "tratados"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 715, 
+         "start_offset": 713, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 727, 
+         "start_offset": 716, 
+         "surface": "inspiraci\u00f3n"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 745, 
+         "start_offset": 728, 
+         "surface": "\u00f3rfico-pitag\u00f3rica"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 752, 
+         "start_offset": 746, 
+         "surface": "acerca"
+      }, 
+      {
+         "pos_tag": "ART", 
+         "end_offset": 756, 
+         "start_offset": 753, 
+         "surface": "los"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 766, 
+         "start_offset": 757, 
+         "surface": "misterios"
+      }, 
+      {
+         "pos_tag": "PREP", 
+         "end_offset": 769, 
+         "start_offset": 767, 
+         "surface": "de"
+      }, 
+      {
+         "pos_tag": "NC", 
+         "end_offset": 777, 
+         "start_offset": 770, 
+         "surface": "Dem\u00e9ter"
+      }
+   ], 
+   "disambiguations": null, 
+   "entities": {
+      "T8": {
+         "surface": "Arist\u00f3teles", 
+         "end_offset": 326, 
+         "id": "T8", 
+         "start_offset": 315, 
+         "entity_type": "AAUTHOR"
+      }, 
+      "T9": {
+         "surface": "EN", 
+         "end_offset": 330, 
+         "id": "T9", 
+         "start_offset": 328, 
+         "entity_type": "REFAUWORK"
+      }, 
+      "T6": {
+         "surface": "414)", 
+         "end_offset": 100, 
+         "id": "T6", 
+         "start_offset": 96, 
+         "entity_type": "REFSCOPE"
+      }, 
+      "T7": {
+         "surface": "Esquilo", 
+         "end_offset": 157, 
+         "id": "T7", 
+         "start_offset": 150, 
+         "entity_type": "AAUTHOR"
+      }, 
+      "T4": {
+         "surface": "Tzetzes", 
+         "end_offset": 82, 
+         "id": "T4", 
+         "start_offset": 75, 
+         "entity_type": "AAUTHOR"
+      }, 
+      "T5": {
+         "surface": "(In Hes. Op.", 
+         "end_offset": 95, 
+         "id": "T5", 
+         "start_offset": 83, 
+         "entity_type": "REFAUWORK"
+      }, 
+      "T2": {
+         "surface": "Ateneo", 
+         "end_offset": 59, 
+         "id": "T2", 
+         "start_offset": 53, 
+         "entity_type": "AAUTHOR"
+      }, 
+      "T3": {
+         "surface": "(1, 39, 1-6)", 
+         "end_offset": 72, 
+         "id": "T3", 
+         "start_offset": 60, 
+         "entity_type": "REFSCOPE"
+      }, 
+      "T1": {
+         "surface": "Heraclides P\u00f3ntico", 
+         "end_offset": 34, 
+         "id": "T1", 
+         "start_offset": 16, 
+         "entity_type": "AAUTHOR"
+      }, 
+      "T10": {
+         "surface": "1111a, 6-11", 
+         "end_offset": 342, 
+         "id": "T10", 
+         "start_offset": 331, 
+         "entity_type": "REFSCOPE"
+      }, 
+      "T11": {
+         "surface": "Esquilo", 
+         "end_offset": 404, 
+         "id": "T11", 
+         "start_offset": 397, 
+         "entity_type": "AAUTHOR"
+      }
+   }, 
+   "linebreaks": [
+      [
+         297, 
+         298
+      ], 
+      [
+         396, 
+         397
+      ], 
+      [
+         589, 
+         590
+      ], 
+      [
+         777, 
+         778
+      ]
+   ], 
+   "text": "Las noticias de Heraclides P\u00f3ntico (fr. 170 Wehrli), Ateneo (1, 39, 1-6) y Tzetzes (In Hes. Op. 414) relativas al supuesto juicio al que fue sometido Esquilo por revelar doctrinas de los misterios de Eleusis discrepan notablemente en los puntos fundamentales y no proceden de una fuente hist\u00f3rica.\nEl testimonio de Arist\u00f3teles (EN 1111a, 6-11), en, s\u00ed preserva fiablemente el recuerdo del juicio.\nEsquilo divulg\u00f3 la relaci\u00f3n materno-filial de Dem\u00e9ter y \u00c1rtemis en varios dramas siendo inconsciente - \u00e9l nunca fue iniciado en estos misterios - de que revelaba parte de la doctrina eleusina.\nEn su defensa, aleg\u00f3 que hab\u00eda adquirido el conocimiento de esta relaci\u00f3n de una fuente no mist\u00e9rica, a : ciertos tratados de inspiraci\u00f3n \u00f3rfico-pitag\u00f3rica acerca los misterios de Dem\u00e9ter", 
+   "doc_id": "75-00060.txt", 
+   "relations": null
+}

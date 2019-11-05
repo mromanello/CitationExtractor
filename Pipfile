@@ -24,8 +24,8 @@ sklearn-crfsuite = "*"
 scikit-learn = "*"
 jellyfish = "*"
 stop-words = "*"
-antlr_python_runtime = {file = "http://www.antlr3.org/download/Python/antlr_python_runtime-3.1.3.tar.gz"}
-treetagger = {git = "https://github.com/mromanello/treetagger-python.git"}
+antlr_python_runtime = {file = "http://www.antlr3.org/download/Python/antlr_python_runtime-3.1.3.tar.gz#egg=antlr_python_runtime-3.1.3"}
+treetagger = {git = "https://github.com/mromanello/treetagger-python.git#egg=treetagger-1.0.1"}
 
 
 [requires]

@@ -1,3 +1,23 @@
+## Up next
+
+- [ ] revise `pipeline` module:
+  - rationale: serialize to JSON as default
+  - remove dependency with `brat` code (`conll2standoff`)
+  - update tests
+- [ ] update TreeTagger installation script
+  - and provide a version of Mac OS
+
+
+## integration of ML-Matcher into the codebase
+
+* [x] evaluation of `MLCitationMatcher` (via `tests/test_eval.py`)
+* [x] parallelise train/disambiguate/feature extraction with `dask`
+* [x] write test `FeatureExtractor.extract_nil` (mr)
+* [x] write tests for `ned.candidates.CandidatesGenerator` (mr)
+* [x] write documentation for feature functions (mf)
+* [x] implement `MLCitationMatcher.train`
+* [x] implement `MLCitationMatcher.classify`
+
 ## Next steps
 
 * [ ] improve the code quality/style
@@ -13,8 +33,9 @@
 
 ## Code Refactoring
 
+* [ ] remove obsolete functions from `pipeline`
 * to streamline installation, try to remove local dependencies:
-	* [ ] add `pysuffix` to the codebase => `Utils.pysuffix` (or os)
+	* [ ] add `pysuffix` to the codebase => `Utils.pysuffix` (or so)
 
 * [ ] change the `LookupDictionary` in `Utils.FastDict` so that it gets the data directly from the Knowledge Base instead of the static file (**needs tests**)
 
@@ -31,6 +52,7 @@
 
 ## Testing
 
+* [ ] rewrite tests for `pipeline` module
 
 * write tests for:
     * [x] creating and running a citation extractor

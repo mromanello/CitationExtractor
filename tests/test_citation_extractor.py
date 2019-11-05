@@ -7,7 +7,7 @@ import pickle
 import logging
 from citation_extractor.settings import crf
 from citation_extractor import pipeline
-from citation_extractor.Utils.IO import read_iob_files, filter_IOB
+from citation_extractor.io.iob import read_iob_files, filter_IOB
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -15,14 +15,19 @@ logger = logging.getLogger(__name__)
 
 def test_string2entities(aph_titles, crfsuite_citation_extractor, postaggers):
     """Demonstrates how to extract entities (aauthor, awork) from a string."""
-    aph_title = aph_titles.iloc[0]["title"]
-    print aph_title
+    aph_title = aph_titles.iloc[0].title
+    aph_doc_id = aph_titles.iloc[0].name
+    logger.info("Testing title _{}_ from document {}".format(
+        aph_title, aph_doc_id
+    ))
 
     # detect the language of the input string for starters
     lang = pipeline.detect_language(aph_title)
+    logger.info("Detect language for {} is {}".format(aph_doc_id, lang))
 
     # tokenise and do Part-of-Speech tagging
     postagged_string = postaggers[lang].tag(aph_title)
+    logger.info("PoS-tagged string: {}".format(postagged_string))
 
     # convert to a list of lists; keep just token and PoS tag, discard lemma
     iob_data = [

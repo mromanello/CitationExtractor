@@ -7,8 +7,8 @@ import pkg_resources
 import pickle
 import random
 import codecs
-from citation_extractor.relex import prepare_for_training,relation_extractor
-from citation_extractor.pipeline import read_ann_file_new
+from citation_extractor.relex.ml import prepare_for_training, relation_extractor
+from citation_extractor.io.brat import read_ann_file as read_ann_file_new
 from sklearn.ensemble import RandomForestClassifier
 
 #logging.basicConfig(level=logging.DEBUG)

@@ -27,7 +27,13 @@ setup(
             'data/*.*',
             'crfpp_templates/*.*',
             'data/aph_corpus/goldset/ann/*.*',
-            'data/aph_corpus/goldset/iob/*.*'
+            'data/aph_corpus/goldset/iob/*.*',
+            'data/aph_corpus/goldset/json/*.*'
+        ]
+    },
+    entry_points={
+        'console_scripts': [
+            'citedloci-pipeline = citation_extractor.pipeline:main',
         ]
     },
     long_description=read('README.md'),
@@ -37,6 +43,7 @@ setup(
         'docopt',
         'pandas',
         'scipy',
+        'pycas',
         'treetagger',
         'citation_parser>=0.4.1',
         'sklearn-crfsuite',
