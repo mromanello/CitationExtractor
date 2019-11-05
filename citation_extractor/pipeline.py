@@ -43,6 +43,7 @@ from citation_extractor.relex.rb import RBRelationExtractor
 from citation_extractor.Utils.IO import init_logger
 from citation_extractor.Utils.strmatching import StringUtils
 from citation_extractor.Utils.sentencesplit import sentencebreaks_to_newlines
+from citation_extractor.ned import AUTHOR_TYPE, WORK_TYPE
 from citation_parser import CitationParser
 from knowledge_base import KnowledgeBase
 

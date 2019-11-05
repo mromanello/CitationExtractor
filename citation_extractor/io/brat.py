@@ -5,7 +5,11 @@ Functions to deal with input/output of data in brat standoff format.
 from __future__ import print_function
 import logging
 import codecs
-
+import pandas as pd
+import os
+from pyCTS import CTS_URN
+from citation_extractor.Utils.strmatching import StringUtils
+from citation_extractor.ned import NIL_URN as NIL_ENTITY
 logger = logging.getLogger(__name__)
 
 
@@ -141,7 +145,7 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
 
             # Read doc annotations
             file_suffix = filename.replace('-doc-1.ann', '')
-            entities, relations, disambiguations = read_ann_file_new(file_suffix, ann_dir + '/')
+            entities, relations, disambiguations = read_ann_file(file_suffix, ann_dir + '/')
             # Read doc text
             doc_text = None
             filename_text = filename.replace('.ann', '.txt')
@@ -412,7 +416,7 @@ def annotations2references(doc_id, directory, kb):
 
     import knowledge_base
 
-    entities, relations, disambiguations = read_ann_file_new(doc_id, directory)
+    entities, relations, disambiguations = read_ann_file(doc_id, directory)
     fulltext = codecs.open("%s%s%s"%(directory,doc_id,"-doc-1.txt"),"r","utf-8").read()
     newlines = find_newlines(fulltext)
     annotations = []
