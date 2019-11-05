@@ -35,11 +35,14 @@ import sys,logging,re
 import os
 import glob
 import math
-from pyCTS import BadCtsUrnSyntax
+from pyCTS import CTS_URN, BadCtsUrnSyntax
 from citation_extractor.core import *
 from citation_extractor.crfpp_wrap import CRF_classifier
 from citation_extractor.Utils import IO
-from citation_extractor.Utils.IO import read_ann_file, read_ann_file_new, init_logger, NIL_ENTITY
+from citation_extractor.io.iob import file_to_instances
+from citation_extractor.ned import NIL_URN as NIL_ENTITY
+from citation_extractor.io.brat import read_ann_file
+from citation_extractor.Utils.IO import init_logger
 # TODO: in the long run, remove `SimpleEvaluator` and `CrossEvaluator`
 #   and generally the `miguno` library as a dependency (use `sklearn` instead)
 #from miguno.partitioner import *
@@ -78,7 +81,7 @@ class SimpleEvaluator(object):
                 data += IO.read_iob_files(directory,".txt")
             self.test_instances = data
         else:
-            self.test_instances = IO.file_to_instances(iob_file)
+            self.test_instances = file_to_instances(iob_file)
         self.logger.debug("Found %i instances for test"%len(self.test_instances))
         self.extractors = extractors
         self.output = {}
@@ -563,7 +566,7 @@ def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
                                     for id, row in goldset_data[goldset_data["doc_id"]==doc_id].iterrows()}
 
         # pass on all relations data
-        gold_entities, gold_relations = read_ann_file_new("%s.txt" % doc_id, os.path.join(gold_directory, ""))[:2]
+        gold_entities, gold_relations = read_ann_file("%s.txt" % doc_id, os.path.join(gold_directory, ""))[:2]
 
         # create a dictionary like {"T1":"urn:cts:greekLit:tlg0012", }
         target_disambiguations = {id.split('-')[2]: row["urn_clean"]

@@ -19,7 +19,7 @@ import citation_extractor
 from tabulate import tabulate
 from citation_extractor.eval import evaluate_ned
 from citation_extractor.ned.matchers import CitationMatcher
-from citation_extractor.Utils.IO import file_to_instances
+from citation_extractor.io.iob import file_to_instances
 from knowledge_base import KnowledgeBase
 from sklearn import metrics
 from dask import compute, delayed
