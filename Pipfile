@@ -11,12 +11,16 @@ jupyter = "*"
 2to3 = "*"
 twine = "*"
 isort = "*"
+black = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+tox = "*"
 
 [packages]
 langid = "*"
 docopt = "*"
 pandas = "*"
-citation-parser = "*"
+# citation-parser = "*"
 pyCTS = "*"
 # sklearn-crfsuite = "*"
 # scikit-learn = "*"
@@ -28,3 +32,6 @@ pyCTS = "*"
 
 [requires]
 python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
