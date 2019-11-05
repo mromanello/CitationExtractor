@@ -42,7 +42,7 @@ def test_converter_json(knowledge_base):
 
     for n in range(0, 5):
         iob_file = files[n]
-        if not os.path.exists():
+        if not os.path.exists(iob_file):
             continue
         logger.info("{} {}".format(iob_file, brat_dir))
         dc.load(iob_file, standoff_dir=brat_dir)

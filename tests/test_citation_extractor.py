@@ -23,9 +23,11 @@ def test_string2entities(aph_titles, crfsuite_citation_extractor, postaggers):
 
     # detect the language of the input string for starters
     lang = pipeline.detect_language(aph_title)
+    logger.info("Detect language for {} is {}".format(aph_doc_id, lang))
 
     # tokenise and do Part-of-Speech tagging
     postagged_string = postaggers[lang].tag(aph_title)
+    logger.info("PoS-tagged string: {}".format(postagged_string))
 
     # convert to a list of lists; keep just token and PoS tag, discard lemma
     iob_data = [
