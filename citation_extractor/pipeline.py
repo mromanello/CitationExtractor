@@ -617,7 +617,7 @@ def do_ned(doc_id, input_dir, output_dir, matcher):
                     work_uri = matcher._kb.get_resource_by_urn(result.urn).subject
                     entity['work_uri'] = work_uri
             except Exception as e:
-                logger.error("There was a problem disambiguating {}".format(surface))
+                logger.error("There was a problem disambiguating {}".format(surface.encode('utf-8')))
                 logger.error("({}) {}".format(doc_id, e))
 
     # write output
