@@ -1,175 +1,175 @@
 {
-   "doc_name": "75-00016", 
+   "text": "Traduction d' \u00c9lien, Histoire vari\u00e9e 12, 1 : l' histoire d' Aspasie, ma\u00eetresse de Cyrus le Jeune et favorite d' Artaxerxes", 
+   "relations": null, 
    "tokens": [
       {
-         "pos_tag": "NOM", 
          "end_offset": 10, 
          "start_offset": 0, 
-         "surface": "Traduction"
+         "surface": "Traduction", 
+         "pos_tag": "NOM"
       }, 
       {
-         "pos_tag": "PRP", 
          "end_offset": 13, 
          "start_offset": 11, 
-         "surface": "d'"
+         "surface": "d'", 
+         "pos_tag": "PRP"
       }, 
       {
-         "pos_tag": "NAM", 
          "end_offset": 19, 
          "start_offset": 14, 
-         "surface": "\u00c9lien"
+         "surface": "\u00c9lien", 
+         "pos_tag": "NAM"
       }, 
       {
-         "pos_tag": "PUN", 
          "end_offset": 20, 
          "start_offset": 19, 
-         "surface": ","
+         "surface": ",", 
+         "pos_tag": "PUN"
       }, 
       {
-         "pos_tag": "NAM", 
          "end_offset": 29, 
          "start_offset": 21, 
-         "surface": "Histoire"
+         "surface": "Histoire", 
+         "pos_tag": "NAM"
       }, 
       {
-         "pos_tag": "VER:pper", 
          "end_offset": 36, 
          "start_offset": 30, 
-         "surface": "vari\u00e9e"
+         "surface": "vari\u00e9e", 
+         "pos_tag": "VER:pper"
       }, 
       {
-         "pos_tag": "NUM", 
          "end_offset": 39, 
          "start_offset": 37, 
-         "surface": "12"
+         "surface": "12", 
+         "pos_tag": "NUM"
       }, 
       {
-         "pos_tag": "PUN", 
          "end_offset": 40, 
          "start_offset": 39, 
-         "surface": ","
+         "surface": ",", 
+         "pos_tag": "PUN"
       }, 
       {
-         "pos_tag": "NUM", 
          "end_offset": 42, 
          "start_offset": 41, 
-         "surface": "1"
+         "surface": "1", 
+         "pos_tag": "NUM"
       }, 
       {
-         "pos_tag": "PUN", 
          "end_offset": 44, 
          "start_offset": 43, 
-         "surface": ":"
+         "surface": ":", 
+         "pos_tag": "PUN"
       }, 
       {
-         "pos_tag": "DET:ART", 
          "end_offset": 47, 
          "start_offset": 45, 
-         "surface": "l'"
+         "surface": "l'", 
+         "pos_tag": "DET:ART"
       }, 
       {
-         "pos_tag": "NOM", 
          "end_offset": 56, 
          "start_offset": 48, 
-         "surface": "histoire"
+         "surface": "histoire", 
+         "pos_tag": "NOM"
       }, 
       {
-         "pos_tag": "PRP", 
          "end_offset": 59, 
          "start_offset": 57, 
-         "surface": "d'"
+         "surface": "d'", 
+         "pos_tag": "PRP"
       }, 
       {
-         "pos_tag": "NAM", 
          "end_offset": 67, 
          "start_offset": 60, 
-         "surface": "Aspasie"
+         "surface": "Aspasie", 
+         "pos_tag": "NAM"
       }, 
       {
-         "pos_tag": "PUN", 
          "end_offset": 68, 
          "start_offset": 67, 
-         "surface": ","
+         "surface": ",", 
+         "pos_tag": "PUN"
       }, 
       {
-         "pos_tag": "NOM", 
          "end_offset": 78, 
          "start_offset": 69, 
-         "surface": "ma\u00eetresse"
+         "surface": "ma\u00eetresse", 
+         "pos_tag": "NOM"
       }, 
       {
-         "pos_tag": "PRP", 
          "end_offset": 81, 
          "start_offset": 79, 
-         "surface": "de"
+         "surface": "de", 
+         "pos_tag": "PRP"
       }, 
       {
-         "pos_tag": "NAM", 
          "end_offset": 87, 
          "start_offset": 82, 
-         "surface": "Cyrus"
+         "surface": "Cyrus", 
+         "pos_tag": "NAM"
       }, 
       {
-         "pos_tag": "DET:ART", 
          "end_offset": 90, 
          "start_offset": 88, 
-         "surface": "le"
+         "surface": "le", 
+         "pos_tag": "DET:ART"
       }, 
       {
-         "pos_tag": "NAM", 
          "end_offset": 96, 
          "start_offset": 91, 
-         "surface": "Jeune"
+         "surface": "Jeune", 
+         "pos_tag": "NAM"
       }, 
       {
-         "pos_tag": "KON", 
          "end_offset": 99, 
          "start_offset": 97, 
-         "surface": "et"
+         "surface": "et", 
+         "pos_tag": "KON"
       }, 
       {
-         "pos_tag": "ADJ", 
          "end_offset": 108, 
          "start_offset": 100, 
-         "surface": "favorite"
+         "surface": "favorite", 
+         "pos_tag": "ADJ"
       }, 
       {
-         "pos_tag": "PRP", 
          "end_offset": 111, 
          "start_offset": 109, 
-         "surface": "d'"
+         "surface": "d'", 
+         "pos_tag": "PRP"
       }, 
       {
-         "pos_tag": "NAM", 
          "end_offset": 122, 
          "start_offset": 112, 
-         "surface": "Artaxerxes"
+         "surface": "Artaxerxes", 
+         "pos_tag": "NAM"
       }
    ], 
-   "disambiguations": null, 
+   "doc_name": "75-00016", 
    "entities": {
-      "T2": {
-         "surface": "12, 1", 
+      "2": {
+         "entity_type": "REFSCOPE", 
          "end_offset": 42, 
-         "id": "T2", 
          "start_offset": 37, 
-         "entity_type": "REFSCOPE"
+         "id": "2", 
+         "surface": "12, 1"
       }, 
-      "T1": {
-         "surface": "\u00c9lien, Histoire vari\u00e9e", 
+      "1": {
+         "entity_type": "REFAUWORK", 
          "end_offset": 36, 
-         "id": "T1", 
          "start_offset": 14, 
-         "entity_type": "REFAUWORK"
+         "id": "1", 
+         "surface": "\u00c9lien, Histoire vari\u00e9e"
       }
    }, 
+   "doc_id": "75-00016.txt", 
+   "disambiguations": null, 
    "linebreaks": [
       [
          122, 
          123
       ]
-   ], 
-   "text": "Traduction d' \u00c9lien, Histoire vari\u00e9e 12, 1 : l' histoire d' Aspasie, ma\u00eetresse de Cyrus le Jeune et favorite d' Artaxerxes", 
-   "doc_id": "75-00016.txt", 
-   "relations": null
+   ]
 }

@@ -73,6 +73,7 @@ def test_iob2json():
 
     for n in range(0, 5):
         iob_file = files[n]
+        logger.info(iob_file)
         logger.info("{}".format(iob_file))
         dc.load(iob_file)
         dc.to_json(output_dir)

@@ -27,7 +27,8 @@ setup(
             'data/*.*',
             'crfpp_templates/*.*',
             'data/aph_corpus/goldset/ann/*.*',
-            'data/aph_corpus/goldset/iob/*.*'
+            'data/aph_corpus/goldset/iob/*.*',
+            'data/aph_corpus/goldset/json/*.*'
         ]
     },
     entry_points={
