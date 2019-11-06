@@ -3,9 +3,10 @@ Functions to deal with input/output of data in CONLL/IOB format.
 """
 
 from __future__ import print_function
-import logging
+
 import codecs
 import glob
+import logging
 import os
 import re
 
@@ -55,19 +56,19 @@ def file_to_instances(inp_file):
     :rtype: list
 
     """
-    f = codecs.open(inp_file,"r","utf-8")
+    f = codecs.open(inp_file, "r", "utf-8")
     inp_text = f.read()
     f.close()
-    out=[]
-    comment=re.compile(r'#.*?')
+    out = []
+    comment = re.compile(r'#.*?')
     for i in inp_text.split("\n\n"):
-        inst=[]
+        inst = []
         for j in i.split("\n"):
-            if(not comment.match(j)):
+            if not comment.match(j):
                 temp = tuple(j.split("\t"))
-                if(len(temp)>1):
+                if len(temp) > 1:
                     inst.append(temp)
-        if(inst and len(inst)>1):
+        if inst and len(inst) > 1:
             out.append(inst)
     return out
 
@@ -76,9 +77,9 @@ def instance_contains_label(instance, labels=["O"]):
     """
     TODO:
     """
-    temp=[token[len(token)-1] for token in instance]
+    temp = [token[len(token) - 1] for token in instance]
     res = set(temp).intersection(set(labels))
-    if(len(res)==0):
+    if len(res) == 0:
         return False
     else:
         return True
@@ -86,28 +87,28 @@ def instance_contains_label(instance, labels=["O"]):
 
 def filter_IOB(instances, tag_name):
     """docstring for filter_IOB"""
-    out=[]
-    res=[]
+    out = []
+    res = []
     temp = []
     count = 0
     for instance in instances:
         temp = []
         open = False
         for i in instance:
-                if(i[2]=='B-%s'%tag_name):
+            if i[2] == 'B-%s' % tag_name:
+                temp.append(i[0])
+                open = True
+            elif i[2] == 'I-%s' % tag_name:
+                if open:
                     temp.append(i[0])
-                    open = True
-                elif(i[2]=='I-%s'%tag_name):
-                    if(open):
-                        temp.append(i[0])
-                elif(i[2]=='O'):
-                    if(open):
-                        out.append(temp)
-                        temp = []
-                        open = False
-                    else:
-                        pass
-        if(len(temp) > 0 and open):
+            elif i[2] == 'O':
+                if open:
+                    out.append(temp)
+                    temp = []
+                    open = False
+                else:
+                    pass
+        if len(temp) > 0 and open:
             out.append(temp)
     for r in out:
         res.append(' '.join(r))
@@ -116,10 +117,10 @@ def filter_IOB(instances, tag_name):
 
 def read_iob_files(inp_dir, extension=".iob"):
     instances = []
-    for infile in glob.glob( os.path.join(inp_dir, '*%s'%extension) ):
+    for infile in glob.glob(os.path.join(inp_dir, '*%s' % extension)):
         temp = file_to_instances(infile)
-        instances +=temp
-        logger.debug("read %i instances from file %s"%(len(temp),infile))
+        instances += temp
+        logger.debug("read %i instances from file %s" % (len(temp), infile))
     return instances
 
 
@@ -131,10 +132,8 @@ def instance_to_string(instance):
     :rtype: type
 
     """
+
     def token_to_string(tok_dict):
         return [tok_dict[k] for k in sorted(tok_dict.keys())]
 
-    return [
-        "\t".join(token_to_string(feature_set))
-        for feature_set in instance
-    ]
+    return ["\t".join(token_to_string(feature_set)) for feature_set in instance]

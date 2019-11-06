@@ -15,6 +15,9 @@ black = "*"
 sphinx = "*"
 sphinx-rtd-theme = "*"
 tox = "*"
+flake8 = "*"
+pytest-cov = "*"
+codecov = "*"
 
 [packages]
 langid = "*"
