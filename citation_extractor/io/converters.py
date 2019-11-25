@@ -19,7 +19,7 @@ Usage:
 # can be run more or less standalone.
 
 
-from __future__ import print_function, with_statement
+
 
 from docopt import docopt
 import logging
@@ -234,7 +234,7 @@ class DocumentConverter(object):
                         entities[current_entity["id"]] = current_entity
                         current_entity = {}
 
-                    id = "{}".format(len(entities.values()) + 1)
+                    id = "{}".format(len(list(entities.values())) + 1)
                     current_entity["entity_type"] = ne_tag
                     current_entity['start_offset'] = start
                     current_entity['end_offset'] = end
@@ -260,7 +260,7 @@ class DocumentConverter(object):
             entities[current_entity["id"]] = current_entity
 
         # make sure we haven't missed any enttity along the way of conversion
-        assert len(entities.keys()) == n_entities_iob
+        assert len(list(entities.keys())) == n_entities_iob
         return entities
 
 
@@ -273,7 +273,7 @@ class DocumentConverter(object):
                 continue
 
             disambiguation = self.disambiguations[entity_id]
-            if disambiguation['text'] == u'urn:cts:GreekLatinLit:NIL':
+            if disambiguation['text'] == 'urn:cts:GreekLatinLit:NIL':
                 entity['author_uri'] = None
                 entity['work_uri'] = None
                 continue
@@ -302,7 +302,7 @@ class DocumentConverter(object):
             arg2 = self.entities[args[1]]
 
             # transfer the scope from the relation onto the entity
-            if disambiguation['text'] == u'urn:cts:GreekLatinLit:NIL':
+            if disambiguation['text'] == 'urn:cts:GreekLatinLit:NIL':
                 continue
             urn = CTS_URN(disambiguation['text'])
             scope = urn.passage_component
@@ -509,7 +509,7 @@ class DocumentConverter(object):
                 end = token['end_offset']
                 nes = [
                     e
-                    for e in self.entities.values()
+                    for e in list(self.entities.values())
                     if start >= e['start_offset'] and end <= e['end_offset']
                 ]
                 if len(nes) > 0:

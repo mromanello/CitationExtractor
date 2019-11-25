@@ -1,175 +1,175 @@
 {
-   "text": "Traduction d' \u00c9lien, Histoire vari\u00e9e 12, 1 : l' histoire d' Aspasie, ma\u00eetresse de Cyrus le Jeune et favorite d' Artaxerxes", 
-   "relations": null, 
+   "text": "Traduction d' \u00c9lien, Histoire vari\u00e9e 12, 1 : l' histoire d' Aspasie, ma\u00eetresse de Cyrus le Jeune et favorite d' Artaxerxes",
+   "doc_id": "75-00016.txt",
+   "doc_name": "75-00016",
    "tokens": [
       {
-         "end_offset": 10, 
-         "start_offset": 0, 
-         "surface": "Traduction", 
+         "surface": "Traduction",
+         "start_offset": 0,
+         "end_offset": 10,
          "pos_tag": "NOM"
-      }, 
+      },
       {
-         "end_offset": 13, 
-         "start_offset": 11, 
-         "surface": "d'", 
+         "surface": "d'",
+         "start_offset": 11,
+         "end_offset": 13,
          "pos_tag": "PRP"
-      }, 
+      },
       {
-         "end_offset": 19, 
-         "start_offset": 14, 
-         "surface": "\u00c9lien", 
+         "surface": "\u00c9lien",
+         "start_offset": 14,
+         "end_offset": 19,
          "pos_tag": "NAM"
-      }, 
+      },
       {
-         "end_offset": 20, 
-         "start_offset": 19, 
-         "surface": ",", 
+         "surface": ",",
+         "start_offset": 19,
+         "end_offset": 20,
          "pos_tag": "PUN"
-      }, 
+      },
       {
-         "end_offset": 29, 
-         "start_offset": 21, 
-         "surface": "Histoire", 
+         "surface": "Histoire",
+         "start_offset": 21,
+         "end_offset": 29,
          "pos_tag": "NAM"
-      }, 
+      },
       {
-         "end_offset": 36, 
-         "start_offset": 30, 
-         "surface": "vari\u00e9e", 
+         "surface": "vari\u00e9e",
+         "start_offset": 30,
+         "end_offset": 36,
          "pos_tag": "VER:pper"
-      }, 
+      },
       {
-         "end_offset": 39, 
-         "start_offset": 37, 
-         "surface": "12", 
+         "surface": "12",
+         "start_offset": 37,
+         "end_offset": 39,
          "pos_tag": "NUM"
-      }, 
+      },
       {
-         "end_offset": 40, 
-         "start_offset": 39, 
-         "surface": ",", 
+         "surface": ",",
+         "start_offset": 39,
+         "end_offset": 40,
          "pos_tag": "PUN"
-      }, 
+      },
       {
-         "end_offset": 42, 
-         "start_offset": 41, 
-         "surface": "1", 
+         "surface": "1",
+         "start_offset": 41,
+         "end_offset": 42,
          "pos_tag": "NUM"
-      }, 
+      },
       {
-         "end_offset": 44, 
-         "start_offset": 43, 
-         "surface": ":", 
+         "surface": ":",
+         "start_offset": 43,
+         "end_offset": 44,
          "pos_tag": "PUN"
-      }, 
+      },
       {
-         "end_offset": 47, 
-         "start_offset": 45, 
-         "surface": "l'", 
+         "surface": "l'",
+         "start_offset": 45,
+         "end_offset": 47,
          "pos_tag": "DET:ART"
-      }, 
+      },
       {
-         "end_offset": 56, 
-         "start_offset": 48, 
-         "surface": "histoire", 
+         "surface": "histoire",
+         "start_offset": 48,
+         "end_offset": 56,
          "pos_tag": "NOM"
-      }, 
+      },
       {
-         "end_offset": 59, 
-         "start_offset": 57, 
-         "surface": "d'", 
+         "surface": "d'",
+         "start_offset": 57,
+         "end_offset": 59,
          "pos_tag": "PRP"
-      }, 
+      },
       {
-         "end_offset": 67, 
-         "start_offset": 60, 
-         "surface": "Aspasie", 
+         "surface": "Aspasie",
+         "start_offset": 60,
+         "end_offset": 67,
          "pos_tag": "NAM"
-      }, 
+      },
       {
-         "end_offset": 68, 
-         "start_offset": 67, 
-         "surface": ",", 
+         "surface": ",",
+         "start_offset": 67,
+         "end_offset": 68,
          "pos_tag": "PUN"
-      }, 
+      },
       {
-         "end_offset": 78, 
-         "start_offset": 69, 
-         "surface": "ma\u00eetresse", 
+         "surface": "ma\u00eetresse",
+         "start_offset": 69,
+         "end_offset": 78,
          "pos_tag": "NOM"
-      }, 
+      },
       {
-         "end_offset": 81, 
-         "start_offset": 79, 
-         "surface": "de", 
+         "surface": "de",
+         "start_offset": 79,
+         "end_offset": 81,
          "pos_tag": "PRP"
-      }, 
+      },
       {
-         "end_offset": 87, 
-         "start_offset": 82, 
-         "surface": "Cyrus", 
+         "surface": "Cyrus",
+         "start_offset": 82,
+         "end_offset": 87,
          "pos_tag": "NAM"
-      }, 
+      },
       {
-         "end_offset": 90, 
-         "start_offset": 88, 
-         "surface": "le", 
+         "surface": "le",
+         "start_offset": 88,
+         "end_offset": 90,
          "pos_tag": "DET:ART"
-      }, 
+      },
       {
-         "end_offset": 96, 
-         "start_offset": 91, 
-         "surface": "Jeune", 
+         "surface": "Jeune",
+         "start_offset": 91,
+         "end_offset": 96,
          "pos_tag": "NAM"
-      }, 
+      },
       {
-         "end_offset": 99, 
-         "start_offset": 97, 
-         "surface": "et", 
+         "surface": "et",
+         "start_offset": 97,
+         "end_offset": 99,
          "pos_tag": "KON"
-      }, 
+      },
       {
-         "end_offset": 108, 
-         "start_offset": 100, 
-         "surface": "favorite", 
+         "surface": "favorite",
+         "start_offset": 100,
+         "end_offset": 108,
          "pos_tag": "ADJ"
-      }, 
+      },
       {
-         "end_offset": 111, 
-         "start_offset": 109, 
-         "surface": "d'", 
+         "surface": "d'",
+         "start_offset": 109,
+         "end_offset": 111,
          "pos_tag": "PRP"
-      }, 
+      },
       {
-         "end_offset": 122, 
-         "start_offset": 112, 
-         "surface": "Artaxerxes", 
+         "surface": "Artaxerxes",
+         "start_offset": 112,
+         "end_offset": 122,
          "pos_tag": "NAM"
       }
-   ], 
-   "doc_name": "75-00016", 
-   "entities": {
-      "2": {
-         "entity_type": "REFSCOPE", 
-         "end_offset": 42, 
-         "start_offset": 37, 
-         "id": "2", 
-         "surface": "12, 1"
-      }, 
-      "1": {
-         "entity_type": "REFAUWORK", 
-         "end_offset": 36, 
-         "start_offset": 14, 
-         "id": "1", 
-         "surface": "\u00c9lien, Histoire vari\u00e9e"
-      }
-   }, 
-   "doc_id": "75-00016.txt", 
-   "disambiguations": null, 
+   ],
    "linebreaks": [
       [
-         122, 
+         122,
          123
       ]
-   ]
+   ],
+   "relations": null,
+   "entities": {
+      "1": {
+         "entity_type": "REFAUWORK",
+         "start_offset": 14,
+         "end_offset": 36,
+         "id": "1",
+         "surface": "\u00c9lien, Histoire vari\u00e9e"
+      },
+      "2": {
+         "entity_type": "REFSCOPE",
+         "start_offset": 37,
+         "end_offset": 42,
+         "id": "2",
+         "surface": "12, 1"
+      }
+   },
+   "disambiguations": null
 }

@@ -15,10 +15,10 @@ from citation_extractor.ned import PREPS
 
 global punct_codes, punct_codes_nodot, symbol_codes, numbers_codes
 
-punct_codes = [i for i in xrange(sys.maxunicode) if unicodedata.category(unichr(i)).startswith('P')]
-punct_codes_nodot = [i for i in xrange(sys.maxunicode) if unicodedata.category(unichr(i)).startswith('P') and i != 46]
-symbol_codes = [i for i in xrange(sys.maxunicode) if unicodedata.category(unichr(i)).startswith('S')]
-numbers_codes = [i for i in xrange(sys.maxunicode) if unicodedata.category(unichr(i)).startswith('N')]
+punct_codes = [i for i in range(sys.maxunicode) if unicodedata.category(chr(i)).startswith('P')]
+punct_codes_nodot = [i for i in range(sys.maxunicode) if unicodedata.category(chr(i)).startswith('P') and i != 46]
+symbol_codes = [i for i in range(sys.maxunicode) if unicodedata.category(chr(i)).startswith('S')]
+numbers_codes = [i for i in range(sys.maxunicode) if unicodedata.category(chr(i)).startswith('N')]
 
 global p_codes_to_space, p_codes_nodot_to_space, s_codes_to_space, n_codes_to_space
 
@@ -39,7 +39,7 @@ class DictUtils:
         :return: True if at least one boolean value of a dictionary is True, False otherwise
         :rtype: bool
         """
-        return any(filter(lambda v: type(v) == bool, dictionary.values()))
+        return any([v for v in list(dictionary.values()) if type(v) == bool])
 
     @staticmethod
     def dict_feat_name_to_index(vect):
@@ -73,22 +73,22 @@ class StringUtils:
 
     @staticmethod
     def remove_apostrophed_words(s):
-        s = re.sub(ur"[a-zA-Z]+'", '', s)  # xx..'
-        s = re.sub(ur"'[a-zA-Z]", '', s)  # 'x
+        s = re.sub(r"[a-zA-Z]+'", '', s)  # xx..'
+        s = re.sub(r"'[a-zA-Z]", '', s)  # 'x
         return s
 
     @staticmethod
     def remove_iiis(s):
-        s = re.sub(ur" [i]+ ", ' ', s)  # in the middle
-        s = re.sub(ur"^[i]+ ", ' ', s)  # at the beginning
-        s = re.sub(ur" [i]+$", ' ', s)  # at the end
+        s = re.sub(r" [i]+ ", ' ', s)  # in the middle
+        s = re.sub(r"^[i]+ ", ' ', s)  # at the beginning
+        s = re.sub(r" [i]+$", ' ', s)  # at the end
         return s
 
     @staticmethod
     def strip_single_letters_without_dot(s):
-        s = re.sub(ur" [a-zA-Z] ", ' ', s)  # in the middle
-        s = re.sub(ur"^[a-zA-Z] ", ' ', s)  # at the beginning
-        s = re.sub(ur" [a-zA-Z]$", ' ', s)  # at the end
+        s = re.sub(r" [a-zA-Z] ", ' ', s)  # in the middle
+        s = re.sub(r"^[a-zA-Z] ", ' ', s)  # at the beginning
+        s = re.sub(r" [a-zA-Z]$", ' ', s)  # at the end
         return s
 
     @staticmethod
@@ -100,23 +100,23 @@ class StringUtils:
 
     @staticmethod
     def trim_spaces(s):
-        return u' '.join(s.split())
+        return ' '.join(s.split())
 
     @staticmethod
     def remove_stop_words(string, language):
         tokens = string.split()
         clean_tokens = [token for token in tokens if token not in safe_get_stop_words(language)]
-        return u' '.join(clean_tokens)
+        return ' '.join(clean_tokens)
 
     @staticmethod
     def remove_words_shorter_than(name, k):
-        filtered = filter(lambda w: len(w) > k, name.split())
-        return u' '.join(filtered)
+        filtered = [w for w in name.split() if len(w) > k]
+        return ' '.join(filtered)
 
     @staticmethod
     def normalize(text, lang=None, keep_dots=False):
         if not text:
-            return u'None'
+            return 'None'
 
         text = StringUtils.remove_symbols(text)
         text = StringUtils.remove_numbers(text)
@@ -143,7 +143,7 @@ class StringUtils:
         :return: a list of unique words
         :rtype: list of unicode
         """
-        splitted_names = set(u' '.join(names).split())
+        splitted_names = set(' '.join(names).split())
         return list(splitted_names)
 
     @staticmethod
@@ -158,7 +158,7 @@ class StringUtils:
         :return: the name without the initial word if present, the name otherwise
         :rtype: unicode
         """
-        pattern = u'^' + word + u' (.+)$'
+        pattern = '^' + word + ' (.+)$'
         matched = re.match(pattern, name)
         if matched:
             return matched.group(1)
@@ -176,8 +176,8 @@ class StringUtils:
         :return: the name without the words shorter than k
         :rtype: unicode
         """
-        filtered = filter(lambda w: len(w) > k, name.split())
-        return u' '.join(filtered)
+        filtered = [w for w in name.split() if len(w) > k]
+        return ' '.join(filtered)
 
     @staticmethod
     def remove_preps(name):
@@ -189,8 +189,8 @@ class StringUtils:
         :return: the name without prepositions
         :rtype: unicode
         """
-        name_words = filter(lambda w: w not in PREPS, name.split())
-        return u' '.join(name_words)
+        name_words = [w for w in name.split() if w not in PREPS]
+        return ' '.join(name_words)
 
     @staticmethod
     def clean_surface(surface):
@@ -204,9 +204,9 @@ class StringUtils:
         :rtype: unicode
         """
         if len(surface.split()) > 1:
-            surface = StringUtils.remove_initial_word(u'de', surface)
+            surface = StringUtils.remove_initial_word('de', surface)
         if len(surface.split()) > 1:
-            surface = StringUtils.remove_initial_word(u'in', surface)
+            surface = StringUtils.remove_initial_word('in', surface)
         if len(surface.split()) > 2:
             surface = StringUtils.remove_preps(surface)
         return surface
@@ -223,7 +223,7 @@ class StringSimilarity:
 
     @staticmethod
     def exact_match_swords(ss, names):
-        matched = map(lambda s: s in names, ss)
+        matched = [s in names for s in ss]
         return all(matched)
 
     @staticmethod
@@ -232,7 +232,7 @@ class StringSimilarity:
 
     @staticmethod
     def exact_match_swords_any(ss, names):
-        matched = map(lambda s: s in names, ss)
+        matched = [s in names for s in ss]
         return any(matched)
 
     @staticmethod
@@ -251,12 +251,12 @@ class StringSimilarity:
 
     @staticmethod
     def fuzzy_match_swords(ss, names):
-        matched = map(lambda s: StringSimilarity.fuzzy_match(s, names), ss)
+        matched = [StringSimilarity.fuzzy_match(s, names) for s in ss]
         return all(matched)
 
     @staticmethod
     def fuzzy_match_swords_any(ss, names):
-        matched = map(lambda s: StringSimilarity.fuzzy_match(s, names), ss)
+        matched = [StringSimilarity.fuzzy_match(s, names) for s in ss]
         return any(matched)
 
     @staticmethod
@@ -284,7 +284,7 @@ class StringSimilarity:
 
     @staticmethod
     def fuzzy_initial_match_swords(ss, names):
-        matched = map(lambda s: StringSimilarity.fuzzy_initial_match(s, names), ss)
+        matched = [StringSimilarity.fuzzy_initial_match(s, names) for s in ss]
         return all(matched)
 
     @staticmethod
@@ -309,7 +309,7 @@ class StringSimilarity:
 
     @staticmethod
     def fuzzy_phonetic_match_swords(ss, names):
-        matched = map(lambda s: StringSimilarity.fuzzy_phonetic_match(s, names), ss)
+        matched = [StringSimilarity.fuzzy_phonetic_match(s, names) for s in ss]
         return all(matched)
 
     @staticmethod
@@ -321,7 +321,7 @@ class StringSimilarity:
 
     @staticmethod
     def _is_exact_acronym(acronym, name):
-        return acronym == u''.join(map(lambda w: w[0], name.split()))
+        return acronym == ''.join([w[0] for w in name.split()])
 
     @staticmethod
     def acronym_match(s, names):
@@ -339,7 +339,7 @@ class StringSimilarity:
 
     @staticmethod
     def _is_sparse_abbreviation(abbr, name):
-        pattern = u'^' + u'.*'.join(abbr) + u'.*$'
+        pattern = '^' + '.*'.join(abbr) + '.*$'
         return re.match(pattern, name) is not None
 
     @staticmethod
@@ -351,8 +351,8 @@ class StringSimilarity:
 
     @staticmethod
     def _is_abbreviation_sequence(seq, name):
-        pattern1 = u'^' + u'.* '.join(seq) + u'.*$'
-        pattern2 = u'^.* ' + u'.* '.join(seq) + u'.*$'
+        pattern1 = '^' + '.* '.join(seq) + '.*$'
+        pattern2 = '^.* ' + '.* '.join(seq) + '.*$'
         return re.match(pattern1, name) is not None or re.match(pattern2, name) is not None
 
     @staticmethod

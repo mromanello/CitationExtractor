@@ -7,6 +7,7 @@ import itertools
 import pkg_resources
 from citation_extractor.io.brat import read_ann_file as read_ann_file_new
 from nltk.classify.scikitlearn import SklearnClassifier
+from functools import reduce
 
 global logger
 logger = logging.getLogger(__name__)
@@ -55,7 +56,7 @@ def prepare_for_training(doc_id, basedir, output_class_label=True):
 	entity_ids = [entities[entity]["ann_id"] for entity in entities]
 	relation_list = [relations[rel_id]["arguments"] for rel_id in relations]
 	logger.debug(entity_ids)
-	if(len(relations.keys())>0):
+	if(len(list(relations.keys()))>0):
 		for relation in itertools.combinations(entity_ids,2):
 			is_positive_instance = relation in relation_list
 			if(is_positive_instance):
@@ -182,7 +183,7 @@ class relation_extractor(object):
 		self._n_train_instances = len(train_data)
 		try:
 			logger.info(self._classifier.train(train_data))
-		except Exception, e:
+		except Exception as e:
 			raise e
 		return
 	def __repr__(self):
@@ -205,12 +206,12 @@ class relation_extractor(object):
 			feature_set = extract_relation_features(arg1,arg2,entities,fulltext)
 			label = self._classifier.classify(feature_set)
 			if(label=="scope_pos"):
-				relations["R%s"%(len(relations.keys())+1)] = (arg1,arg2)
+				relations["R%s"%(len(list(relations.keys()))+1)] = (arg1,arg2)
 			# now reverse the arguments
 			arg1 = relation[1]
 			arg2 = relation[0]
 			feature_set = extract_relation_features(arg1,arg2,entities,fulltext)
 			label = self._classifier.classify(feature_set)
 			if(label=="scope_pos"):
-				relations["R%s"%(len(relations.keys())+1)] = (arg1,arg2)
+				relations["R%s"%(len(list(relations.keys()))+1)] = (arg1,arg2)
 		return relations

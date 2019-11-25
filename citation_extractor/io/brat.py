@@ -2,7 +2,7 @@
 Functions to deal with input/output of data in brat standoff format.
 """
 
-from __future__ import print_function
+
 import logging
 import codecs
 import pandas as pd
@@ -36,7 +36,7 @@ def read_ann_file(fileid, ann_dir, suffix="-doc-1.ann"):
         cols = row.split("\t")
         ann_id = cols[0]
 
-        if(u"#" in cols[0]):
+        if("#" in cols[0]):
             # it's a text annotation
             tmp = {
                 "ann_id":"%s%s"%(cols[1].split()[0],cols[0])
@@ -45,7 +45,7 @@ def read_ann_file(fileid, ann_dir, suffix="-doc-1.ann"):
             }
             annotations.append(tmp)
 
-        elif(len(cols)==3 and u"T" in cols[0]):
+        elif(len(cols)==3 and "T" in cols[0]):
             # it's an entity
             ent_count += 1
             ent_type = cols[1].split()[0]
@@ -56,7 +56,7 @@ def read_ann_file(fileid, ann_dir, suffix="-doc-1.ann"):
                                 ,"offset_end":ranges.split()[1]
                                 ,"surface":cols[2]}
 
-        elif(len(cols)>=2 and u"R" in cols[0]):
+        elif(len(cols)>=2 and "R" in cols[0]):
             # it's a relation
             rel_type, arg1, arg2 = cols[1].split()
             relations[cols[0]] = {
@@ -82,7 +82,7 @@ def sort_mentions_by_appearance(entities, relations):
     entities_id_set = set(entities.keys())
     by_offset = []
 
-    for k, v in relations.iteritems():
+    for k, v in relations.items():
         entity_id_0 = v['arguments'][0]
         entity_id_1 = v['arguments'][1]
         entities_id_set.discard(entity_id_0)
@@ -109,7 +109,7 @@ def sort_mentions_by_appearance(entities, relations):
 
     return [
         id
-        for id, _offset in sorted(by_offset, key=lambda (id, _offset): _offset)
+        for id, _offset in sorted(by_offset, key=lambda id__offset: id__offset[1])
     ]
 
 
@@ -151,8 +151,8 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
             filename_text = filename.replace('.ann', '.txt')
             with open(os.path.join(ann_dir, filename_text)) as f:
                 doc_text = f.read()
-                doc_text = unicode(doc_text, 'utf-8')
-            logger.debug(u'Document text: {}'.format(doc_text))
+                doc_text = str(doc_text, 'utf-8')
+            logger.debug('Document text: {}'.format(doc_text))
             doc_newlines = _find_newlines(doc_text)
 
             # Get title
@@ -160,13 +160,13 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
             file_id = file_suffix.replace('.txt', '')
             if file_id in aph_titles.index:
                 doc_title = aph_titles.loc[file_id, 'title']
-                doc_title = unicode(doc_title, 'utf-8')
-            logger.debug(u'Document title: {}'.format(doc_title))
+                doc_title = str(doc_title, 'utf-8')
+            logger.debug('Document title: {}'.format(doc_title))
 
             try:
                 # Extract mentions from the title, list of (type, surface) tuples
                 doc_title_extracted_mentions = extract_entity_mentions(doc_title, extractor, postaggers, norm=True)
-            except Exception, e:
+            except Exception as e:
                 doc_title_extracted_mentions = []
                 print(e)
                 print(doc_title)
@@ -180,7 +180,7 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
             logger.debug('Mentions appearance: {}'.format(ordered_mentions))
 
             # Rearrange disambiguations
-            disambiguations_new = dict(map(lambda e: (e['anchor'], e['text']), disambiguations))
+            disambiguations_new = dict([(e['anchor'], e['text']) for e in disambiguations])
 
             prev_entities = []
             for mention_id in ordered_mentions:
@@ -270,7 +270,7 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
                         cts_urn = CTS_URN(mention_urn)
                         clean_urn = cts_urn.get_urn_without_passage()
                         knowledge_base.get_resource_by_urn(clean_urn)
-                    except Exception, e:
+                    except Exception as e:
                         logger.error(e)
                         logger.warning('Failed parsing the URN: |{}| at: {}'.format(mention_urn, file_id))
                         continue
@@ -301,14 +301,11 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
             for m_id in prev_entities:
                 other_mentions = list(prev_entities)
                 other_mentions.remove(m_id)
-                other_mentions = map(
-                    lambda mid: (
+                other_mentions = [(
                         df_data.loc[mid, 'type'],
                         df_data.loc[mid, 'surface_norm_dots'],
                         df_data.loc[m_id, 'scope']
-                    ),
-                    other_mentions
-                )
+                    ) for mid in other_mentions]
                 df_data.loc[m_id, 'other_mentions'] = other_mentions
 
             # by now `prev_entities` contains all entities/relations, sorted
@@ -332,14 +329,11 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
 
                     # remove the entity in focus
                     mentions_in_context.remove(m_id)
-                    mentions_in_context = map(
-                        lambda mid: (
+                    mentions_in_context = [(
                             df_data.loc[mid, 'type'],
                             df_data.loc[mid, 'surface_norm_dots'],
                             df_data.loc[m_id, 'scope']
-                        ),
-                        mentions_in_context
-                    )
+                        ) for mid in mentions_in_context]
                     df_data.loc[m_id, 'mentions_in_context'] = mentions_in_context
 
     nb_total = df_data.shape[0]
@@ -363,7 +357,7 @@ def load_brat_data(extractor, knowledge_base, postaggers, aph_ann_files, aph_tit
     return df_data
 
 
-def _find_newlines(text, newline=u'\n'):
+def _find_newlines(text, newline='\n'):
     """
     TODO
     """
@@ -394,7 +388,7 @@ def annotations2references(doc_id, directory, kb):
     For each entity and relation keep also the context, i.e. the containing
     sentences.
     """
-    def find_newlines(text, newline=u'\n'):
+    def find_newlines(text, newline='\n'):
         positions = []
         last_position = 0
         if(text.find(newline) == -1):
@@ -479,8 +473,8 @@ def annotations2references(doc_id, directory, kb):
                 annotation["work_urn"] = None
             elif(annotation["annotation_type"]=="awork"):
                 work = kb.get_resource_by_urn(urn)
-                annotation["author_label"] = unicode(work.author)
-                annotation["work_label"] = unicode(work)
+                annotation["author_label"] = str(work.author)
+                annotation["work_label"] = str(work)
                 annotation["author_urn"] = str(work.author.get_urn())
                 annotation["work_urn"] = str(work.get_urn())
             elif(annotation["annotation_type"]=="scope"):
@@ -488,12 +482,12 @@ def annotations2references(doc_id, directory, kb):
                     temp = CTS_URN(annotation["urn"]).get_urn_without_passage()
                     resource = kb.get_resource_by_urn(temp)
                     if(isinstance(resource,knowledge_base.surfext.HucitWork)):
-                        annotation["author_label"] = unicode(resource.author)
-                        annotation["work_label"] = unicode(resource)
+                        annotation["author_label"] = str(resource.author)
+                        annotation["work_label"] = str(resource)
                         annotation["author_urn"] = str(resource.author.get_urn())
                         annotation["work_urn"] = str(resource.get_urn())
                     elif(isinstance(resource,knowledge_base.surfext.HucitAuthor)):
-                        annotation["author_label"] = unicode(resource)
+                        annotation["author_label"] = str(resource)
                         annotation["work_label"] = None
                         annotation["author_urn"] = str(resource.get_urn())
                         annotation["work_urn"] = None
@@ -516,7 +510,7 @@ def save_scope_relationships(fileid, ann_dir, relations, entities):
     """
     import codecs
     ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
-    keys = relations.keys()
+    keys = list(relations.keys())
     keys.sort(key=lambda k:(k[0], int(k[1:])))
     result = "\n".join(["%s\tScope Arg1:%s Arg2:%s"%(rel,relations[rel][0],relations[rel][1]) for rel in keys])
     try:
@@ -529,7 +523,7 @@ def save_scope_relationships(fileid, ann_dir, relations, entities):
         f.write(result)
         f.close()
         logger.info("Written %i relations to %s"%(len(relations),ann_file))
-    except Exception, e:
+    except Exception as e:
         raise e
     return result
 
@@ -539,7 +533,7 @@ def clean_relations_annotation(fileid, ann_dir, entities):
     overwrites relationships (type=scope) to an .ann file.
     """
     ann_file = "%s%s-doc-1.ann"%(ann_dir,fileid)
-    keys = entities.keys()
+    keys = list(entities.keys())
     keys.sort(key=lambda k:(k[0], int(k[1:])))
     result = "\n".join([
         "%s\t%s %s %s\t%s" % (
@@ -556,7 +550,7 @@ def clean_relations_annotation(fileid, ann_dir, entities):
         f.write(result)
         f.close()
         logger.info("Cleaned relations annotations from %s"%ann_file)
-    except Exception, e:
+    except Exception as e:
         raise e
     return result
 
@@ -566,7 +560,7 @@ def remove_all_annotations(fileid, ann_dir):
     ann_file = "%s%s-doc-1.ann" % (ann_dir, fileid)
     entities, relations, annotations = read_ann_file(fileid, ann_dir)
 
-    entity_keys = entities.keys()
+    entity_keys = list(entities.keys())
     entity_keys.sort(key=lambda k: (k[0], int(k[1:])))
     entities_string = "\n".join(
         [
@@ -581,7 +575,7 @@ def remove_all_annotations(fileid, ann_dir):
         ]
     )
 
-    relation_keys = relations.keys()
+    relation_keys = list(relations.keys())
     relation_keys.sort(key=lambda k: (k[0], int(k[1:])))
     relation_string = "\n".join(
         [
@@ -600,7 +594,7 @@ def remove_all_annotations(fileid, ann_dir):
             f.write("\n")
             f.write(relation_string)
         print >> sys.stderr, "Cleaned all relations annotations from %s"%ann_file
-    except Exception, e:
+    except Exception as e:
         raise e
     return
 

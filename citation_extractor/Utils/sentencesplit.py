@@ -13,7 +13,7 @@ from os.path import dirname
 from sys import path as sys_path
 sys_path.append(path_join(dirname(__file__), '../server/src'))
 # import brat sentence boundary generator
-from ssplit import regex_sentence_boundary_gen
+from .ssplit import regex_sentence_boundary_gen
 
 def _text_by_offsets_gen(text, offsets):
     for start, end in offsets:

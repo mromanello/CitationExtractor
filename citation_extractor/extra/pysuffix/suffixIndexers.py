@@ -1,4 +1,4 @@
-import tools_karkkainen_sanders as tks
+from . import tools_karkkainen_sanders as tks
 import array
 
 class SuffixIndexer :
@@ -33,7 +33,7 @@ class SuffixIndexer :
     min_ = 0
     max_ = len(self.sortedSuffixes) - 1 
     len_word = len(word)
-    it_word = range(len(word))
+    it_word = list(range(len(word)))
     mid = 0
     while 1:
       mid = (max_ + min_) / 2
@@ -87,7 +87,7 @@ class SuffixIndexer :
       return []
 #    result = [] 
     result = []
-    for idx in xrange(inf, sup+1):
+    for idx in range(inf, sup+1):
       pos = self.sortedSuffixes[idx]
 #      result.append(self.getWordAt(pos))
       result.append(self.getWordAt(pos))
@@ -105,7 +105,7 @@ class SuffixIndexer :
     if inf == None: 
       return []
     result = [] 
-    for idx in xrange(inf, sup+1):
+    for idx in range(inf, sup+1):
       pos = self.sortedSuffixes[idx]
       result.append((self.getWordAt(pos), self.getPosition(pos)))
     return result
@@ -144,12 +144,12 @@ class DictValuesIndexer(SuffixIndexer):
       return
 #    self.array_str = lstWords
     charFrontier = chr(2)
-    self.word = charFrontier.join(dictWords.itervalues())
+    self.word = charFrontier.join(iter(dictWords.values()))
 
     self.indexes = {}
     self.wordStarts = {}
     idx_w = i = 0
-    for k, v in dictWords.iteritems():
+    for k, v in dictWords.items():
       self.wordStarts[k] = i
       for _ in v :
         self.indexes[i] = k
@@ -174,11 +174,11 @@ if __name__ == '__main__':
   m = ListIndexer(data)
 
   s = 'rty'
-  print data
-  print 'sow', s, m.searchOneWord(s)
-  print 'saw', s, m.searchAllWords(s)
-  print 'sowap', s, m.searchOneWordAndPos(s)
-  print 'sawap', s, m.searchAllWordsAndPos(s)
+  print(data)
+  print('sow', s, m.searchOneWord(s))
+  print('saw', s, m.searchAllWords(s))
+  print('sowap', s, m.searchOneWordAndPos(s))
+  print('sawap', s, m.searchAllWordsAndPos(s))
 
   data = {
     'a':'azerty',
@@ -190,8 +190,8 @@ if __name__ == '__main__':
   m = DictValuesIndexer(data)
 
 #  s = 'y'
-  print data
-  print 'sow', s, m.searchOneWord(s)
-  print 'saw', s, m.searchAllWords(s)
-  print 'sowap', s, m.searchOneWordAndPos(s)
-  print 'sawap', s, m.searchAllWordsAndPos(s)
+  print(data)
+  print('sow', s, m.searchOneWord(s))
+  print('saw', s, m.searchAllWords(s))
+  print('sowap', s, m.searchOneWordAndPos(s))
+  print('sawap', s, m.searchAllWordsAndPos(s))

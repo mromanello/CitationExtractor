@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from string import *
-from StringIO import StringIO
+from io import StringIO
 from tools import *
 from suffix_array import Suffix_array
 import sys

@@ -2,7 +2,7 @@
 Functions to deal with input/output of data in CONLL/IOB format.
 """
 
-from __future__ import print_function
+
 
 import codecs
 import glob
@@ -43,7 +43,7 @@ def write_iob_file(instances, dest_file):
         with codecs.open(dest_file, 'w', 'utf-8') as f:
             f.write(to_write)
         return True
-    except Exception, e:
+    except Exception as e:
         raise e
 
 

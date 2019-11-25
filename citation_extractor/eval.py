@@ -29,7 +29,7 @@ ann_dir = "/Users/rromanello/Documents/crex/citation_extractor/citation_extracto
 scores, error_types, errors = evaluate_ned(testset_gold_df, ann_dir, testset_target_df, strict=True)
 
 """
-from __future__ import division
+
 import pdb # TODO: remove from production code
 import sys,logging,re
 import os
@@ -138,9 +138,9 @@ class SimpleEvaluator(object):
         Pretty print of the evaluation stats.
         """
         for item in d_results:
-            print "%s\n%s\n%s"%("="*len(item),item,"="*len(item))
-            print "%10s\t%10s\t%10s\t%5s\t%5s\t%5s\t%5s"%("f-score","precision","recall","tp","fp","tn","fn")
-            print "%10f\t%10f\t%10f\t%5i\t%5i\t%5i\t%5i\n"%(d_results[item]["f-sc"],d_results[item]["prec"],d_results[item]["rec"],d_results[item]["true_pos"],d_results[item]["false_pos"],d_results[item]["true_neg"],d_results[item]["false_neg"],)
+            print("%s\n%s\n%s"%("="*len(item),item,"="*len(item)))
+            print("%10s\t%10s\t%10s\t%5s\t%5s\t%5s\t%5s"%("f-score","precision","recall","tp","fp","tn","fn"))
+            print("%10f\t%10f\t%10f\t%5i\t%5i\t%5i\t%5i\n"%(d_results[item]["f-sc"],d_results[item]["prec"],d_results[item]["rec"],d_results[item]["true_pos"],d_results[item]["false_pos"],d_results[item]["true_neg"],d_results[item]["false_neg"],))
         return
 
     @staticmethod
@@ -151,7 +151,7 @@ class SimpleEvaluator(object):
         return result
 
     @staticmethod
-    def evaluate(l_tagged_instances,l_test_instances,negative_BIO_tag = u'O',label_index=-1):
+    def evaluate(l_tagged_instances,l_test_instances,negative_BIO_tag = 'O',label_index=-1):
         """
         Evaluates a list of tagged instances against a list of test instances (gold standard):
 
@@ -222,7 +222,7 @@ class SimpleEvaluator(object):
                 l_logger.debug("Tagged label: %s"%tagged_label)
 
 
-                if(not errors_by_tag.has_key(gold_label)):
+                if(gold_label not in errors_by_tag):
                     errors_by_tag[gold_label] = {"true_pos": 0
                             ,"false_pos": 0
                             ,"true_neg": 0
@@ -232,7 +232,7 @@ class SimpleEvaluator(object):
                 error_matrix[labels.index(gold_label)][labels.index(tagged_label)] += 1
                 error = "%s => %s"%(gold_label, tagged_label)
                 if(gold_label != tagged_label):
-                    if(error_details.has_key(error)):
+                    if(error in error_details):
                         error_details[error].append(gold_token)
                     else:
                         error_details[error] = []
@@ -279,7 +279,7 @@ class SimpleEvaluator(object):
                       ,"false_pos": 0
                       ,"true_neg": 0
                       ,"false_neg": 0}
-        for tag in result[1].keys():
+        for tag in list(result[1].keys()):
             for value in result[1][tag]:
                 global_sum[value]+= result[1][tag][value]
         assert (global_sum["true_pos"] + global_sum["false_pos"] + global_sum["false_neg"]) == token_counter
@@ -296,9 +296,9 @@ class SimpleEvaluator(object):
         Prints the error matrix
 
         """
-        print '                        %11s'%" ".join(labels)
+        print('                        %11s'%" ".join(labels))
         for row_label, row in zip(labels, matrix):
-            print '%11s [%s]' % (row_label, ' '.join('%09s' % i for i in row))
+            print('%11s [%s]' % (row_label, ' '.join('%09s' % i for i in row)))
         return
 
     @staticmethod
@@ -345,7 +345,7 @@ class SimpleEvaluator(object):
                 """
                 if(tag != "O"):
                     aggreg_tag = tag.replace("B-","").replace("I-","")
-                    if(not stats_by_entity.has_key(aggreg_tag)):
+                    if(aggreg_tag not in stats_by_entity):
                         stats_by_entity[aggreg_tag] = {
                             "true_pos":0,
                             "true_neg":0,
@@ -600,8 +600,8 @@ def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
 
         # NB: if the file contains only NIL entities we exclude it from the counts
         # used to computed the macro-averaged precision and recall
-        NIL_entities = [urn for urn in gold_disambiguations.values() if urn == NIL_ENTITY]
-        non_NIL_entities = [urn for urn in gold_disambiguations.values() if urn != NIL_ENTITY]
+        NIL_entities = [urn for urn in list(gold_disambiguations.values()) if urn == NIL_ENTITY]
+        non_NIL_entities = [urn for urn in list(gold_disambiguations.values()) if urn != NIL_ENTITY]
 
         if len(non_NIL_entities)>0:
             disambig_results.append(file_result)
@@ -638,10 +638,10 @@ def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
                 for err_type in results_by_entity_type[ent_type]]) == sum(aggregated_results.values())
 
     logger.info("Precision and recall averaged over %i documents (documents with NIL-entities only are excluded)" % len(precisions))
-    print("Precision %.2f%%" % (scores["precision"]*100))
-    print("Recall %.2f%%" % (scores["recall"]*100))
-    print("Fscore %.2f%%" % (scores["fscore"]*100))
-    print("Accuracy %.2f%%" % (scores["accuracy"]*100))
+    print(("Precision %.2f%%" % (scores["precision"]*100)))
+    print(("Recall %.2f%%" % (scores["recall"]*100)))
+    print(("Fscore %.2f%%" % (scores["fscore"]*100)))
+    print(("Accuracy %.2f%%" % (scores["accuracy"]*100)))
 
     accuracy_by_type = {}
     print("\nAccuracy by type:")
@@ -650,7 +650,7 @@ def evaluate_ned(goldset_data, gold_directory, target_data, strict=False):
         false_matches = results_by_entity_type[entity_type]["false"]
         total_matches = true_matches + false_matches
         accuracy_by_type[entity_type] = true_matches / total_matches
-        print("%s: %.2f%%" % (entity_type, (accuracy_by_type[entity_type] * 100)))
+        print(("%s: %.2f%%" % (entity_type, (accuracy_by_type[entity_type] * 100))))
 
     return (scores, accuracy_by_type, disambig_results, disambig_errors)
 

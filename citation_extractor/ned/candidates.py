@@ -3,7 +3,7 @@
 
 """Candidates Generation code related to the NED step."""
 
-from __future__ import print_function
+
 import logging
 
 from citation_extractor.Utils.strmatching import StringSimilarity, StringUtils
@@ -93,11 +93,11 @@ class CandidatesGenerator(object):
         # first, process all authors
         for aid, arow in self._kb_norm_authors.iterrows():
             for n in arow.norm_names_clean:
-                if n == u'':
+                if n == '':
                     continue
                 update_df_list(authors_dict_names, n, 'urns', aid)
             for a in arow.norm_abbr:
-                if a == u'':
+                if a == '':
                     continue
                 update_df_list(authors_dict_abbr, a, 'urns', aid)
         for aid, arow in authors_dict_names.iterrows():
@@ -117,11 +117,11 @@ class CandidatesGenerator(object):
         # second, process all works
         for aid, arow in self._kb_norm_works.iterrows():
             for n in arow.norm_titles_clean:
-                if n == u'':
+                if n == '':
                     continue
                 update_df_list(works_dict_names, n, 'urns', aid)
             for a in arow.norm_abbr:
-                if a == u'':
+                if a == '':
                     continue
                 update_df_list(works_dict_abbr, a, 'urns', aid)
         for aid, arow in works_dict_names.iterrows():
@@ -163,7 +163,7 @@ class CandidatesGenerator(object):
             return False
 
         def is_exact_acronym(acronym, name):
-            return acronym == u''.join(map(lambda w: w[0], name.split()))
+            return acronym == ''.join([w[0] for w in name.split()])
 
         def search_names(names_dict, surf):
             results = set()

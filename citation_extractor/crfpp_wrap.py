@@ -2,7 +2,7 @@
 Creates a wrapper around the CRF++ library (C++ implementation of CRF).
 """
 
-from __future__ import print_function
+
 
 import logging
 import os
@@ -43,7 +43,7 @@ class CRF_classifier:
                     "-m %s -v %i -n%i" % (self.m, self.v, self.bn)
                 )
             )
-        except RuntimeError, e:
+        except RuntimeError as e:
             print("RuntimeError: {}", format(e))
 
     def __getstate__(self):

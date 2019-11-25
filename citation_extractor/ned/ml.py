@@ -3,7 +3,7 @@
 # -*- coding: utf-8 -*-
 # author: Matteo Filipponi
 
-from __future__ import print_function
+
 
 import logging
 import time
@@ -74,7 +74,7 @@ class LinearSVMRank(object):
                     Xp[-1] *= -1
                 k += 1
 
-        Xp, yp = map(np.asanyarray, (Xp, yp))
+        Xp, yp = list(map(np.asanyarray, (Xp, yp)))
         return Xp, yp
 
     def _pairwise_transformation(self, X, y, groups):
@@ -113,7 +113,7 @@ class LinearSVMRank(object):
                     Xp[-1] *= -1
                 k += 1
 
-        Xp, yp = map(np.asanyarray, (Xp, yp))
+        Xp, yp = list(map(np.asanyarray, (Xp, yp)))
         return Xp, yp
 
     def _select_best_C(self, X, y, groups, k=10, cache_size=10000):
@@ -240,7 +240,7 @@ class LinearSVMRank(object):
         :type cache_size: int
         """
         X = self._dv.fit_transform(X)
-        y, groups = map(np.array, (y, groups))
+        y, groups = list(map(np.array, (y, groups)))
 
         LOGGER.info('Fitting data [number of points: {}, number of groups: {}]'.format(X.shape[0], len(set(groups))))
         LOGGER.info('X shape: {}'.format(X.shape))
@@ -270,7 +270,7 @@ class LinearSVMRank(object):
         weights = self._classifier.coef_.ravel()
         if normalize is True:
             weights = weights / np.linalg.norm(weights)
-        feature_to_weight = map(lambda kv: (kv[0], weights[kv[1]]), feature_to_index.iteritems())
+        feature_to_weight = [(kv[0], weights[kv[1]]) for kv in iter(feature_to_index.items())]
         if sort_by_weight is True:
             return sorted(feature_to_weight, key=lambda kv: kv[1], reverse=True)
         else:
@@ -300,5 +300,5 @@ class LinearSVMRank(object):
         norm_coef = coef / np.linalg.norm(coef)
         scores = np.dot(X, norm_coef.T).ravel().tolist()
         sorted_columns = np.argsort(scores)[::-1].tolist()
-        sorted_scores = map(lambda i: scores[i], sorted_columns)
+        sorted_scores = [scores[i] for i in sorted_columns]
         return sorted_columns, sorted_scores

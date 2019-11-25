@@ -38,7 +38,7 @@ class Suffix_array :
     taille = len(self.fusion)
     self.str_array.append(str_unicode)
     if taille != 0 :
-      self.fusion += unichr(2)
+      self.fusion += chr(2)
       self.equiv.append(taille+1)
     else :
       self.equiv.append(0)
@@ -95,10 +95,10 @@ class Suffix_array :
         if pstr1 > pstr2 :
           pstr1 = unicode2utf8(pstr1[:20].replace("\n",'NL'))
           pstr2 = unicode2utf8(pstr2[:20].replace("\n",'NL'))
-          print "********************"
-          print "["+pstr1+"]"
-          print "["+pstr2+"]"
-          print "********************"
+          print("********************")
+          print("["+pstr1+"]")
+          print("["+pstr2+"]")
+          print("********************")
           verif.append((i,i+1))
       i += 1
     return verif
@@ -114,12 +114,12 @@ class Suffix_array :
       offset_normal  = self.offset_fusion2offset_normal(offset)
       if offset_normal >= 0 :
         pstr = unicode2utf8(str[offset_normal:taille])
-        print '%i %i %s' % (id_str,offset_normal,pstr)
+        print('%i %i %s' % (id_str,offset_normal,pstr))
       i += 1
   
   def karkkainen_sort(self) :
     n = len(self.fusion)
-    s1 = self.fusion + unichr(1) + unichr(1) + unichr(1)
+    s1 = self.fusion + chr(1) + chr(1) + chr(1)
     b = lst_char(s1)
     s2 = [0]*len(s1)
     kark_sort(s1,s2,n,b)
@@ -129,7 +129,7 @@ class Suffix_array :
 if (__name__ == '__main__') :
   import sys
   import json
-  from StringIO import StringIO
+  from io import StringIO
   import copy
   import time
   import string

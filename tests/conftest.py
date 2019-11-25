@@ -29,13 +29,9 @@ def feature_extractor_quick():
         'citation_extractor/data/pickles/prior_prob.pkl'
     )
 
-    em_prob = pd.read_pickle(
-        'citation_extractor/data/pickles/em_prob.pkl'
-    )
+    em_prob = pd.read_pickle('citation_extractor/data/pickles/em_prob.pkl')
 
-    me_prob = pd.read_pickle(
-        'citation_extractor/data/pickles/me_prob.pkl'
-    )
+    me_prob = pd.read_pickle('citation_extractor/data/pickles/me_prob.pkl')
 
     fname = 'citation_extractor/data/pickles/kb_norm_authors.pkl'
     with open(fname, 'rb') as f:
@@ -49,19 +45,19 @@ def feature_extractor_quick():
         kb_norm_works=kb_norm_works,
         prior_prob=prior_prob,
         mention_entity_prob=me_prob,
-        entity_mention_prob=em_prob
+        entity_mention_prob=em_prob,
     )
     return fe
 
 
 @fixture(scope="session")
 def feature_extractor_nopickles(
-        knowledge_base,
-        aph_gold_ann_files,
-        crfsuite_citation_extractor,
-        postaggers,
-        aph_titles,
-        aph_testset_dataframe
+    knowledge_base,
+    aph_gold_ann_files,
+    crfsuite_citation_extractor,
+    postaggers,
+    aph_titles,
+    aph_testset_dataframe,
 ):
     """Create an instance of MLCitationMatcher."""
     train_df_data = load_brat_data(  # TODO create a fixture out of thi  s
@@ -69,7 +65,7 @@ def feature_extractor_nopickles(
         knowledge_base,
         postaggers,
         aph_gold_ann_files,
-        aph_titles
+        aph_titles,
     )
 
     # initialise a FeatureExtractor
@@ -86,23 +82,16 @@ def feature_extractor_nopickles(
     fe._me_prob.to_pickle('citation_extractor/data/pickles/me_prob.pkl')
 
     # serialize normalized authors
-    with open(
-        'citation_extractor/data/pickles/kb_norm_authors.pkl',
-        'wb'
-    ) as f:
+    with open('citation_extractor/data/pickles/kb_norm_authors.pkl', 'wb') as f:
         pickle.dump(fe._kb_norm_authors, f)
 
     # serialize normalized works
-    with open(
-        'citation_extractor/data/pickles/kb_norm_works.pkl',
-        'wb'
-    ) as f:
+    with open('citation_extractor/data/pickles/kb_norm_works.pkl', 'wb') as f:
         pickle.dump(fe._kb_norm_works, f)
 
     # serialize the FeatureExtractor
     with open(
-        'citation_extractor/data/pickles/ml_feature_extractor.pkl',
-        'wb'
+        'citation_extractor/data/pickles/ml_feature_extractor.pkl', 'wb'
     ) as f:
         pickle.dump(fe, f)
 
@@ -140,26 +129,23 @@ def crfsuite_citation_extractor():
 def processing_directories(tmpdir_factory):
     return {
         'input': pkg_resources.resource_filename(
-            'citation_extractor',
-            'data/aph_corpus/devset/orig/'
+            'citation_extractor', 'data/aph_corpus/devset/orig/'
         ),
-        'iob': str(tmpdir_factory.mktemp('iob'))+"/",
-        'txt': str(tmpdir_factory.mktemp('txt'))+"/",
-        'iob_ne': str(tmpdir_factory.mktemp('iob_ne'))+"/",
-        'ann':  str(tmpdir_factory.mktemp('ann'))+"/",
-        'json':  str(tmpdir_factory.mktemp('json'))+"/",
+        'iob': str(tmpdir_factory.mktemp('iob')) + "/",
+        'txt': str(tmpdir_factory.mktemp('txt')) + "/",
+        'iob_ne': str(tmpdir_factory.mktemp('iob_ne')) + "/",
+        'ann': str(tmpdir_factory.mktemp('ann')) + "/",
+        'json': str(tmpdir_factory.mktemp('json')) + "/",
     }
 
 
 @fixture(scope="session")
 def aph_gold_ann_files():
     ann_dir = pkg_resources.resource_filename(
-        'citation_extractor',
-        'data/aph_corpus/goldset/ann'
+        'citation_extractor', 'data/aph_corpus/goldset/ann'
     )
     ann_files = pkg_resources.resource_listdir(
-        'citation_extractor',
-        'data/aph_corpus/goldset/ann'
+        'citation_extractor', 'data/aph_corpus/goldset/ann'
     )
     return ann_dir, ann_files
 
@@ -167,12 +153,10 @@ def aph_gold_ann_files():
 @fixture(scope="session")
 def aph_test_ann_files():
     ann_dir = pkg_resources.resource_filename(
-        'citation_extractor',
-        'data/aph_corpus/testset/ann'
+        'citation_extractor', 'data/aph_corpus/testset/ann'
     )
     ann_files = pkg_resources.resource_listdir(
-        'citation_extractor',
-        'data/aph_corpus/testset/ann'
+        'citation_extractor', 'data/aph_corpus/testset/ann'
     )
     return ann_dir, ann_files
 
@@ -183,29 +167,26 @@ def aph_testset_dataframe(
     knowledge_base,
     postaggers,
     aph_test_ann_files,
-    aph_titles
+    aph_titles,
 ):
     """Return a pandas DataFrame containing the APh data for testing."""
     pickle_path = pkg_resources.resource_filename(
-        'citation_extractor',
-        'data/pickles/aph_test_df.pkl'
+        'citation_extractor', 'data/pickles/aph_test_df.pkl'
     )
     if os.path.exists(pickle_path):
         logger.info("Read in pickled dataset {}".format(pickle_path))
         return pd.read_pickle(pickle_path)
     else:
         logger.info(
-            "Loading test set data (%i documents) from %s" % (
-                len(aph_test_ann_files[1]),
-                aph_test_ann_files[0]
-            )
+            "Loading test set data (%i documents) from %s"
+            % (len(aph_test_ann_files[1]), aph_test_ann_files[0])
         )
         dataframe = load_brat_data(
             crfsuite_citation_extractor,
             knowledge_base,
             postaggers,
             aph_test_ann_files,
-            aph_titles
+            aph_titles,
         )
 
         # save for later
@@ -224,12 +205,11 @@ def aph_goldset_dataframe(
     knowledge_base,
     postaggers,
     aph_gold_ann_files,
-    aph_titles
+    aph_titles,
 ):
     """Return a pandas DataFrame containing the APh data for training."""
     pickle_path = pkg_resources.resource_filename(
-        'citation_extractor',
-        'data/pickles/aph_gold_df.pkl'
+        'citation_extractor', 'data/pickles/aph_gold_df.pkl'
     )
     if os.path.exists(pickle_path):
         logger.info("Read in pickled dataset {}".format(pickle_path))
@@ -237,8 +217,7 @@ def aph_goldset_dataframe(
     else:
         logger.info(
             "Loading training set data ({} documents) from {}".format(
-                len(aph_gold_ann_files[1]),
-                aph_gold_ann_files[0]
+                len(aph_gold_ann_files[1]), aph_gold_ann_files[0]
             )
         )
         dataframe = load_brat_data(
@@ -246,7 +225,7 @@ def aph_goldset_dataframe(
             knowledge_base,
             postaggers,
             aph_gold_ann_files,
-            aph_titles
+            aph_titles,
         )
         # save for later
         dataframe.to_pickle(pickle_path)
@@ -264,7 +243,7 @@ def ml_citation_matcher(feature_extractor_quick, aph_goldset_dataframe):
         feature_extractor=feature_extractor_quick,
         include_nil=True,
         parallelize=True,
-        C=10
+        C=10,
     )
     return matcher
 
@@ -280,16 +259,14 @@ def knowledge_base():
     """Initialise a HuCit KnowledgeBase (new version, standalone package)."""
     try:
         config_file = pkg_resources.resource_filename(
-            'knowledge_base',
-            'config/virtuoso.ini'
+            'knowledge_base', 'config/virtuoso.ini'
         )
         kb = KnowledgeBaseNew(config_file)
         kb.get_authors()[0]
         return kb
     except Exception:
         config_file = pkg_resources.resource_filename(
-            'knowledge_base',
-            'config/inmemory.ini'
+            'knowledge_base', 'config/inmemory.ini'
         )
         return KnowledgeBaseNew(config_file)
 
@@ -298,8 +275,7 @@ def knowledge_base():
 def postaggers():
     """Return a dict with language codes as keys and PoS taggers as values."""
     abbreviations = pkg_resources.resource_filename(
-        'citation_extractor',
-        'data/aph_corpus/extra/abbreviations.txt'
+        'citation_extractor', 'data/aph_corpus/extra/abbreviations.txt'
     )
     return pipeline.get_taggers(abbrev_file=abbreviations)
 
@@ -308,8 +284,7 @@ def postaggers():
 def aph_titles():
     """Return a datafrmae with the tiles of APh abstracts in the dataset."""
     titles_dir = pkg_resources.resource_filename(
-        'citation_extractor',
-        'data/aph_corpus/titles.csv'
+        'citation_extractor', 'data/aph_corpus/titles.csv'
     )
     titles = pd.read_csv(titles_dir).set_index('id')[['title']]
     return titles

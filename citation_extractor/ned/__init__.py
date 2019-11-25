@@ -7,7 +7,7 @@ NIL_URN = 'urn:cts:GreekLatinLit:NIL'
 LANGUAGES = ['en', 'es', 'de', 'fr', 'it']
 
 # A (non-exhaustive) list of prepositions in different languages
-PREPS = [u'di', u'da', u'of', u'von', u'de']
+PREPS = ['di', 'da', 'of', 'von', 'de']
 
 # Types of entity mention
 AUTHOR_TYPE = 'AAUTHOR'

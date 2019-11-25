@@ -3,6 +3,7 @@
 # author: Matteo Romanello, matteo.romanello@gmail.com
 
 import pkg_resources
+from functools import reduce
 import logging
 import pandas as pd
 from citation_extractor.io.brat import read_ann_file
@@ -16,12 +17,11 @@ def test_annotations2references(knowledge_base):
     dir = pkg_resources.resource_filename(*datadir)
     files = [
         file.replace('-doc-1.ann', '')
-        for file
-        in pkg_resources.resource_listdir(*datadir) if '.ann' in file
+        for file in pkg_resources.resource_listdir(*datadir)
+        if '.ann' in file
     ]
     all_annotations = [
-        annotations2references(file, dir, knowledge_base)
-        for file in files[:10]
+        annotations2references(file, dir, knowledge_base) for file in files[:10]
     ]
     references = reduce((lambda x, y: x + y), all_annotations)
     assert references is not None
@@ -30,9 +30,10 @@ def test_annotations2references(knowledge_base):
 
 def test_load_brat_data(
     crfsuite_citation_extractor,
-    knowledge_base, postaggers,
+    knowledge_base,
+    postaggers,
     aph_test_ann_files,
-    aph_titles
+    aph_titles,
 ):
     assert crfsuite_citation_extractor is not None
     # load the pandas.DataFrame
@@ -41,7 +42,7 @@ def test_load_brat_data(
         knowledge_base,
         postaggers,
         aph_test_ann_files,
-        aph_titles
+        aph_titles,
     )
     assert dataframe is not None
     assert isinstance(dataframe, pd.DataFrame)
@@ -50,14 +51,12 @@ def test_load_brat_data(
 
 def test_read_ann_file():
     dir = pkg_resources.resource_filename(
-        'citation_extractor',
-        'data/aph_corpus/goldset/ann/'
+        'citation_extractor', 'data/aph_corpus/goldset/ann/'
     )
     files = [
         file.replace('-doc-1.ann', '')
         for file in pkg_resources.resource_listdir(
-            'citation_extractor',
-            'data/aph_corpus/goldset/ann/'
+            'citation_extractor', 'data/aph_corpus/goldset/ann/'
         )
         if '.ann' in file
     ]
@@ -77,6 +76,6 @@ def test_read_ann_file():
         logger.debug(annotations)
         for annotation in annotations:
             assert (
-                annotation["anchor"] in relations or
-                annotation["anchor"] in entities
+                annotation["anchor"] in relations
+                or annotation["anchor"] in entities
             )

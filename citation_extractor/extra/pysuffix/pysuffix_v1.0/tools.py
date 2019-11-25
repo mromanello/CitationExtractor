@@ -10,7 +10,7 @@ def print_list(l) :
   return "["+res[:len(res)-1]+"]"
 
 def utf82unicode(str):
-  return unicode(str,'utf-8','replace')
+  return str(str,'utf-8','replace')
 
 def unicode2utf8(str):
   return str.encode('utf-8','replace')
@@ -49,7 +49,7 @@ def write_su_n(dico,liste_su,n):
       str_su = str_su[:n]
     str_su = unicode2utf8(str_su)
     str_su = str_su.replace("\n","NL")
-    print str(su)+" ["+str_su+"]"
+    print(str(su)+" ["+str_su+"]")
     
    
 def write_su(dico,liste_su):
@@ -58,7 +58,7 @@ def write_su(dico,liste_su):
     str_unicode = utf82unicode(str_global)
     str_unicode = str_global
     str_su = get_string_su(su[0],str_unicode)
-    print str_su +" "+str(su)
+    print(str_su +" "+str(su))
 
 def leq2(a1,a2,b1,b2) :
   return (a1 < b1 or (a1 == b1 and a2 <= b2))
@@ -161,7 +161,7 @@ def kark_sort(s, SA, n, alpha) :
 
 def radixpass(a,b,r,n,k) :
   f_ord = ord(str(k[0])) - 1
-  f_new = unichr(f_ord)
+  f_new = chr(f_ord)
 
   c = {f_new : 0}
   liste = [f_new]
@@ -169,7 +169,7 @@ def radixpass(a,b,r,n,k) :
     liste.append(lettre)
     c[lettre] = 0
 
-  for i in xrange(n) :
+  for i in range(n) :
     c[r[a[i]]] += 1
   
   somme = 0 
@@ -184,4 +184,4 @@ def radixpass(a,b,r,n,k) :
   return b
 
 if (__name__ == '__main__') :
-  print "tools.py"
+  print("tools.py")

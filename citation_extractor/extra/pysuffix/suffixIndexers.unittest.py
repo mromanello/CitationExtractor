@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import unittest
-import tools_karkkainen_sanders as tks
+from . import tools_karkkainen_sanders as tks
 import array
-import suffixIndexers as si
+from . import suffixIndexers as si
 import random
 import re
 
@@ -16,13 +16,13 @@ def get_all_pos(w, pattern) :
       pos = w.index(pattern, i)
       res.append(pos)
       i = pos + 1
-    except Exception, e :
+    except Exception as e :
       return res
   return res
 
 def naive_get_all_list(l, pattern) :
   res = []
-  for i in xrange(len(l)) :
+  for i in range(len(l)) :
     w = l[i]
     if is_pattern_in(pattern, w) :
       res.append(i)
@@ -30,14 +30,14 @@ def naive_get_all_list(l, pattern) :
 
 def naive_get_all_dict(d, pattern) :
   res = []
-  for i,w in d.iteritems() :
+  for i,w in d.items() :
     if is_pattern_in(pattern, w) :
       res.append(i)
   return res
 
 def naive_get_all_with_pos_list(l, pattern) :
   res = []
-  for i in xrange(len(l)) :
+  for i in range(len(l)) :
     w = l[i]
     r = get_all_pos(w, pattern)
     for o in r :
@@ -46,7 +46,7 @@ def naive_get_all_with_pos_list(l, pattern) :
 
 def naive_get_all_with_pos_dict(d, pattern) :
   res = []
-  for i,w in d.iteritems() :
+  for i,w in d.items() :
     r = get_all_pos(w, pattern)
     for o in r :
       res.append((i,o))
@@ -116,12 +116,12 @@ class Test_dict_values_indexer :
 
 class Test_list_a_b(Test_list_indexer, unittest.TestCase) :
   def getData(self) :
-    l = ['a'*100 for i in xrange(100)]
+    l = ['a'*100 for i in range(100)]
     return l,'bbb'
 
 class Test_list_a_a(Test_list_indexer, unittest.TestCase) :
   def getData(self) :
-    l = ['a'*100 for i in xrange(100)]
+    l = ['a'*100 for i in range(100)]
     return l,'aaa'
 
 #class Test_list_python(Test_list_indexer, unittest.TestCase) :
@@ -133,12 +133,12 @@ class Test_list_a_a(Test_list_indexer, unittest.TestCase) :
 
 class Test_dict_a_a(Test_dict_values_indexer, unittest.TestCase) :
   def getData(self) :
-    d = dict([(i,'a'*10) for i in xrange(10)])
+    d = dict([(i,'a'*10) for i in range(10)])
     return d,'aaa' 
 
 class Test_dict_a_b(Test_dict_values_indexer, unittest.TestCase) :
   def getData(self) :
-    d = dict([(i,'a'*10) for i in xrange(10)])
+    d = dict([(i,'a'*10) for i in range(10)])
     return d,'bbb' 
 
 #class Test_dict_python(Test_dict_values_indexer, unittest.TestCase) :

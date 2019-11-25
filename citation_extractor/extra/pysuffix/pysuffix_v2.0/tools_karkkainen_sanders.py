@@ -5,7 +5,7 @@
 
 def simple_kark_sort(s):
   n = len(s)
-  s += (unichr(1) * 3)
+  s += (chr(1) * 3)
   SA = [0 for _ in s]
   alpha = sorted(set(s))
   kark_sort(s, SA, n, alpha)
@@ -25,7 +25,7 @@ def kark_sort(s, SA, n, alpha) :
 #  for i in range(max) :
 #    if i % 3 != 0:
 #      s12.append(i)
-  s12 = [i for i in xrange(n + n0 - n1) if i % 3 != 0]
+  s12 = [i for i in range(n + n0 - n1) if i % 3 != 0]
 ##end moditication
 
   s12.extend([0,0,0])
@@ -40,7 +40,7 @@ def kark_sort(s, SA, n, alpha) :
   name = 0
   c0, c1, c2 = -1, -1, -1
   array_name = [0]
-  for i in xrange(n02) :
+  for i in range(n02) :
     if s[SA12[i]] != c0 or s[SA12[i]+1] != c1 or s[SA12[i]+2] != c2 :
       name += 1
       array_name.append(name)
@@ -54,13 +54,13 @@ def kark_sort(s, SA, n, alpha) :
 
   if name < n02 :
     kark_sort(s12, SA12, n02, array_name)
-    for i in xrange(n02) : 
+    for i in range(n02) : 
       s12[SA12[i]] = i+1
   else :
-    for i in xrange(n02) : 
+    for i in range(n02) : 
       SA12[s12[i]-1] = i
 
-  s0 = [SA12[i]*3 for i in xrange(n02) if SA12[i]<n0]
+  s0 = [SA12[i]*3 for i in range(n02) if SA12[i]<n0]
 
   radixpass(s0,SA0,s,n0,alpha)
   
@@ -110,7 +110,7 @@ def radixpass(a, b, r, n, k) :
   for lettre in k :
     c[lettre] = 0
 
-  for i in xrange(n) :
+  for i in range(n) :
     c[r[a[i]]] += 1
   
   somme = 0 
@@ -118,7 +118,7 @@ def radixpass(a, b, r, n, k) :
     freq , c[lettre] = c[lettre] , somme
     somme += freq
 
-  for i in xrange(n) :
+  for i in range(n) :
     b[c[r[a[i]]]] = a[i]
     c[r[a[i]]] += 1
 
@@ -126,12 +126,12 @@ def radixpass(a, b, r, n, k) :
 
 def LCP(s, suffix_array):
   n = len(s)
-  rank = [0 for i in xrange(n)]
-  LCP = [0 for i in xrange(n)]
-  for i in xrange(n):
+  rank = [0 for i in range(n)]
+  LCP = [0 for i in range(n)]
+  for i in range(n):
     rank[suffix_array[i]] = i
   l = 0
-  for j in xrange(n):
+  for j in range(n):
     l = max(0, l-1)
     i = rank[j]
     j2 = suffix_array[i-1]
@@ -147,4 +147,4 @@ def LCP(s, suffix_array):
 
 
 if (__name__ == '__main__') :
-  print "tools.py"
+  print("tools.py")

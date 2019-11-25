@@ -4,7 +4,7 @@ Johannes Gutenberg would be proud.
 
 """
 
-from __future__ import print_function
+
 import json
 
 AAUTHOR = 'AAUTHOR'

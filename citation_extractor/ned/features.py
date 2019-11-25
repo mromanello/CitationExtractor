@@ -3,7 +3,7 @@
 
 """Code related to feature extraction for thr NED step."""
 
-from __future__ import print_function
+
 import pdb  # TODO remove when done with development
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction import DictVectorizer
@@ -121,7 +121,7 @@ class FeatureExtractor(object):
         :rtype: dict
         """
         LOGGER.debug(
-            u'Extracting features for {} {} ({})'.format(
+            'Extracting features for {} {} ({})'.format(
                 m_surface,
                 m_scope,
                 m_type
@@ -390,7 +390,7 @@ class FeatureExtractor(object):
         bool_features = set()
         float_features = set()
         for d in feature_dicts:
-            for k, v in d.iteritems():
+            for k, v in d.items():
                 if '_ss_' in k:  # string sim only
                     if type(v) == bool:
                         bool_features.add(k)
@@ -451,7 +451,7 @@ class FeatureExtractor(object):
             a_norm_names = []
             a_norm_names_clean = []
             for lang, name in a_names:
-                if type(name) != unicode:
+                if type(name) != str:
                     print('!!!', a_urn, repr(name), type(name))
                 norm_name = StringUtils.normalize(name, lang=lang)
                 a_norm_names.append((lang, norm_name))
@@ -465,7 +465,7 @@ class FeatureExtractor(object):
             a_abbr = author.get_abbreviations()
             a_norm_abbr = []
             for abbr in a_abbr:
-                if type(abbr) != unicode:
+                if type(abbr) != str:
                     print('!!!', a_urn, repr(abbr), type(abbr))
                 a_norm_abbr.append(StringUtils.normalize(abbr))
             df_norm_authors.loc[a_urn, 'abbr'] = a_abbr
@@ -510,7 +510,7 @@ class FeatureExtractor(object):
             w_norm_titles = []
             w_norm_titles_clean = []
             for lang, title in w_titles:
-                if type(title) != unicode:
+                if type(title) != str:
                     print('!!!', w_urn, repr(title), type(title))
                 norm_name = StringUtils.normalize(title)
                 w_norm_titles.append((lang, norm_name))
@@ -524,7 +524,7 @@ class FeatureExtractor(object):
             w_abbr = work.get_abbreviations()
             w_norm_abbr = []
             for abbr in w_abbr:
-                if type(abbr) != unicode:
+                if type(abbr) != str:
                     print('!!!', w_urn, repr(abbr), type(abbr))
                 w_norm_abbr.append(
                     StringUtils.normalize(abbr)
@@ -724,7 +724,7 @@ class FeatureExtractor(object):
 
         surf = StringUtils.clean_surface(surf)
         surf_words = surf.split()
-        names_words = set(u' '.join(names).split())
+        names_words = set(' '.join(names).split())
 
         if len(surf_words) == 1:
             feat_prefix = feat_prefix + '1w_'
@@ -756,7 +756,7 @@ class FeatureExtractor(object):
             feature_vector[feat_prefix + 'acronym_match'] = StringSimilarity.acronym_match(surf, names)
 
             # Match abbreviations
-            matched = re.match(ur'^([a-z]+)\.$', surf)
+            matched = re.match(r'^([a-z]+)\.$', surf)
             if matched:
                 s1 = matched.group(1)
                 feature_vector[feat_prefix + 'abbr_match'] = StringSimilarity.abbreviation_match(s1, names)
@@ -873,11 +873,11 @@ class FeatureExtractor(object):
         """
         surf = StringUtils.clean_surface(surf)
         surf_words = surf.split()
-        names_words = set(u' '.join(names).split())
-        anames_words = set(u' '.join(anames).split())
+        names_words = set(' '.join(names).split())
+        anames_words = set(' '.join(anames).split())
 
         # s1 s2
-        matched = re.match(ur'^([a-z]+) ([a-z]+)$', surf)
+        matched = re.match(r'^([a-z]+) ([a-z]+)$', surf)
         if matched:
             s1, s2 = matched.group(1), matched.group(2)
 
@@ -898,7 +898,7 @@ class FeatureExtractor(object):
                 ] = fuzzy_match_s1 and fuzzy_match_s2
 
         # s1 s2.
-        matched = re.match(ur'^([a-z]+) ([a-z]+)\.$', surf)
+        matched = re.match(r'^([a-z]+) ([a-z]+)\.$', surf)
         if matched:
             s1, s2 = matched.group(1), matched.group(2)
 
@@ -911,14 +911,14 @@ class FeatureExtractor(object):
             feature_vector[feat_prefix + 'a_ex_match_and_unknown'] = StringSimilarity.exact_match(s1, anames_words)
 
             # replace u with v
-            if u'u' in surf:
-                s1, s2 = s1.replace(u'u', u'v'), s2.replace(u'u', u'v')
+            if 'u' in surf:
+                s1, s2 = s1.replace('u', 'v'), s2.replace('u', 'v')
                 feature_vector[feat_prefix + 'a_ex_match_and_w_abbr_match_ureplaced'] = StringSimilarity.exact_match(s1,
                                                                                                                      anames_words) and StringSimilarity.abbreviation_match(
                     s2, names_words)
 
         # s1. s2.
-        matched = re.match(ur'^([a-z]+)\. ([a-z]+)\.$', surf)
+        matched = re.match(r'^([a-z]+)\. ([a-z]+)\.$', surf)
         if matched:
             s1, s2 = matched.group(1), matched.group(2)
 
@@ -960,7 +960,7 @@ class FeatureExtractor(object):
                                                                                                            anames_words)
 
         # s1. s2. s3.
-        matched = re.match(ur'^([a-z]+)\. ([a-z]+)\. ([a-z]+)\.$', surf)
+        matched = re.match(r'^([a-z]+)\. ([a-z]+)\. ([a-z]+)\.$', surf)
         if matched:
             s1, s2, s3 = matched.group(1), matched.group(2), matched.group(3)
 
@@ -970,7 +970,7 @@ class FeatureExtractor(object):
                 [s2, s3], names)
 
         # s1 s2. s3.
-        matched = re.match(ur'^([a-z]+) ([a-z]+)\. ([a-z]+)\.$', surf)
+        matched = re.match(r'^([a-z]+) ([a-z]+)\. ([a-z]+)\.$', surf)
         if matched:
             s1, s2, s3 = matched.group(1), matched.group(2), matched.group(3)
 
@@ -985,19 +985,19 @@ class FeatureExtractor(object):
                 [s2, s3], names)
 
         # s1 s2 s3.
-        matched = re.match(ur'^([a-z]+) ([a-z]+) ([a-z]+)\.$', surf)
+        matched = re.match(r'^([a-z]+) ([a-z]+) ([a-z]+)\.$', surf)
         if matched:
             s1, s2, s3 = matched.group(1), matched.group(2), matched.group(3)
 
             # author1 author2 work.
             feature_vector[feat_prefix + 'aa_ex_match_and_w_abbr_match'] = StringSimilarity.exact_match(
-                u' '.join([s1, s2]),
+                ' '.join([s1, s2]),
                 anames) and StringSimilarity.abbreviation_match(
                 s3, names)
 
             # author1 author2 work.
             feature_vector[feat_prefix + 'aa_fuz_match_and_w_abbr_match'] = StringSimilarity.fuzzy_match(
-                u' '.join([s1, s2]),
+                ' '.join([s1, s2]),
                 anames) and StringSimilarity.abbreviation_match(
                 s3, names)
 
@@ -1014,14 +1014,14 @@ class FeatureExtractor(object):
                 [s2, s3], names)
 
         # s1 s2 s3
-        matched = re.match(ur'^([a-z]+) ([a-z]+) ([a-z]+)$', surf)
+        matched = re.match(r'^([a-z]+) ([a-z]+) ([a-z]+)$', surf)
         if matched:
             s1, s2, s3 = matched.group(1), matched.group(2), matched.group(3)
 
             # author work1 work2
             feature_vector[feat_prefix + 'a_ex_match_and_ww_ex_match'] = StringSimilarity.exact_match(s1,
                                                                                                       anames) and StringSimilarity.exact_match(
-                u' '.join([s2, s3]), names)
+                ' '.join([s2, s3]), names)
 
     def _add_abbr_match(self, feature_vector, feat_prefix, surf, abbr):
         """Add the feature: the surface exactly match the abbreviation
@@ -1035,7 +1035,7 @@ class FeatureExtractor(object):
         :param abbr: a potential abbreviation of the surface
         :type abbr: unicode
         """
-        surf = surf.replace(u'.', u'')
+        surf = surf.replace('.', '')
         feature_vector[feat_prefix + 'kb_abbr_ex_match'] = StringSimilarity.exact_match(surf, abbr)
 
     #########################################
@@ -1155,7 +1155,7 @@ class FeatureExtractor(object):
             aurn = self._kb_norm_works.loc[candidate_urn, 'author']
             anames = self._kb_norm_authors.loc[aurn, 'norm_names_clean']
 
-        other_mentions = filter(lambda (typ, srf): srf != surf, set(map(lambda (typ, srf, scp): (typ, srf), other_mentions)))
+        other_mentions = [typ_srf for typ_srf in set([(typ_srf_scp[0], typ_srf_scp[1]) for typ_srf_scp in other_mentions]) if typ_srf[1] != surf]
         amatch, wmatch, rmatch = [], [], []
         for om_type, om_surf in other_mentions:
 
@@ -1309,7 +1309,7 @@ class FeatureExtractor(object):
         :return: the cosine similarity between the input text and the entity document
         :rtype: float
         """
-        if urn not in self._tfidf[lang]['urn_to_index'].keys():
+        if urn not in list(self._tfidf[lang]['urn_to_index'].keys()):
             return 0.0
 
         text_vector = self._tfidf[lang]['vectorizer'].transform([text])

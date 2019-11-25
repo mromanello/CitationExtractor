@@ -16,7 +16,7 @@ class RBRelationExtractor(object):
         arg2 = None
 
         # why it's important to sort this way the entities?
-        entities = document["entities"].values()
+        entities = list(document["entities"].values())
         entities.sort(key=itemgetter('start_offset'))
 
         for entity in entities:
@@ -26,7 +26,7 @@ class RBRelationExtractor(object):
             else:
                 arg2 = entity['id']
                 if(arg1 is not None):
-                    rel_id = "R{}".format(len(relations.keys()) + 1)
+                    rel_id = "R{}".format(len(list(relations.keys())) + 1)
                     relations[rel_id] = (arg1, arg2)
                     logger.debug(
                         "Detected relation{}".format(relations[rel_id])
