@@ -5,6 +5,9 @@
 __pycache__/
 *.py[cod]
 
+# 2to3
+*.bak
+
 # pytest
 .cache
 .pytest_cache
