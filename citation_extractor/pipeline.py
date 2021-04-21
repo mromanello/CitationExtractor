@@ -18,6 +18,8 @@ Examples:
      citedloci-pipeline  do preproc --config=config/project.ini
 """  # noqa: E501
 
+from __future__ import print_function
+
 import codecs
 import importlib
 import json
