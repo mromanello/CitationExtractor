@@ -129,7 +129,7 @@ def recover_segmentation_errors(text, abbreviation_list, verbose=False):
     output = []
     text_lines = text.split('\n')
     if(verbose):
-        print >> sys.stderr, "Input text has %i lines"%len(text_lines)
+        logger.debug("Input text has %i lines"%len(text_lines))
     for line in text_lines:
         tokens=line.split()
         if(len(tokens)==1):
@@ -138,7 +138,7 @@ def recover_segmentation_errors(text, abbreviation_list, verbose=False):
                 output.append('\n')
             else:
                 if(verbose):
-                    print >> sys.stderr,"%s is an abbreviation"%tokens[0]
+                    logger.debug("%s is an abbreviation"%tokens[0])
         else:
             output+=tokens
             try:
@@ -147,13 +147,13 @@ def recover_segmentation_errors(text, abbreviation_list, verbose=False):
                     output.append('\n')
                 else:
                     if(verbose):
-                        print >> sys.stderr,"%s is an abbreviation"%last_token
+                        logger.debug("%s is an abbreviation"%last_token)
             except Exception, e:
                 pass
     output_text = " ".join(output)
     if(verbose):
-        print >> sys.stderr, "Output text has %i lines"%len(output_text.split('\n'))
-        print >> sys.stderr, "%i line were breaks recovered"%(len(text_lines)-len(output_text.split('\n')))
+        logger.debug("Output text has %i lines" % len(output_text.split('\n')))
+        logger.debug("%i line were breaks recovered"%(len(text_lines)-len(output_text.split('\n'))))
     return output_text
 
 
@@ -220,7 +220,7 @@ def get_extractor(settings):
             ce = citation_extractor(settings, settings.CLASSIFIER)
 
     except Exception, e:
-        print e
+        print(e)
     finally:
         return ce
 
@@ -242,7 +242,7 @@ def detect_language(text, return_probability=False):
         else:
             return language
     except Exception,e:
-        print "lang detection raised error \"%s\""%str(e)
+        print("lang detection raised error \"%s\""%str(e))
 
 
 def compact_abbreviations(abbreviation_dir):
@@ -266,7 +266,7 @@ def compact_abbreviations(abbreviation_dir):
     ]
     for fn in files:
         f = codecs.open(fn,'r','utf-8')
-        print >> sys.stderr, "getting abbreviations from %s"%fn
+        logger.info("getting abbreviations from %s"%fn)
         abbreviations = abbreviations + [line for line in f.readlines() if not line.startswith("#") and line !=""]
     abbreviations = sorted(list(set(abbreviations)))
     fname = "%s%s"%(abbreviation_dir,"abbreviations_all_in_one.txt")
@@ -301,7 +301,7 @@ def split_sentences(filename, outfilename=None):
             # TODO check that match[1] is an abbrev. or an author name
             blurb = blurb.replace(match[0],match[0].replace("\n"," "))
         new_sentences = blurb.split("\n")
-        print >> sys.stderr, "%i sentence breaks were recovered"%(len(sentences)-len(new_sentences))
+        logger.info("%i sentence breaks were recovered"%(len(sentences)-len(new_sentences)))
     except Exception, e:
         raise e
     return new_sentences
